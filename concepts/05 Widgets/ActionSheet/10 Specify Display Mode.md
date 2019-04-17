@@ -44,6 +44,6 @@ By default, the **ActionSheet** comes up from the bottom of the page. If you set
 #####See Also#####
 - [ActionSheet - Customize Item Appearance](/Documentation/Guide/Widgets/ActionSheet/Customize_Item_Appearance/)
 - [ActionSheet API Reference](/Documentation/ApiReference/UI_Widgets/dxActionSheet/)
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+#include common-link-configurewidget
 
 [tags]action sheet, actionSheet, display mode, target element

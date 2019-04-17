@@ -52,7 +52,7 @@ Note that the [dataSource](/Documentation/ApiReference/UI_Widgets/dxSlideOut/Con
 [note]The **SlideOut** contains the [List](/Documentation/Guide/Widgets/List/Overview/) widget in the slide-out menu. If you need to put another collection widget there, use the [SlideOutView](/Documentation/Guide/Widgets/SlideOutView/Overview/) instead of the **SlideOut**.
 
 #####See Also#####
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+#include common-link-configurewidget
 - [SlideOut - Customize Menu Items](/Documentation/Guide/Widgets/SlideOut/Customize_Menu_Items)
 - [SlideOut - Group Menu Items](/Documentation/Guide/Widgets/SlideOut/Group_Menu_Items)
 - [SlideOut - Customize the View](/Documentation/Guide/Widgets/SlideOut/Customize_the_View)

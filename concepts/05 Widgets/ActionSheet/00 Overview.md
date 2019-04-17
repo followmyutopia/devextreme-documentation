@@ -81,7 +81,7 @@ The following code adds a simple **ActionSheet** to your page. The widget is sho
 Note that every data source object has a **text** field that is rendered on the buttons of the **ActionSheet**. Also, there is the **onClick** field that represents a click handler for a certain **ActionSheet** button.
 
 #####See Also#####
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+#include common-link-configurewidget
 - [ActionSheet - Customize Item Appearance](/Documentation/Guide/Widgets/ActionSheet/Customize_Item_Appearance/)
 - [ActionSheet - Specify Display Mode](/Documentation/Guide/Widgets/ActionSheet/Specify_Display_Mode)
 - [ActionSheet API Reference](/Documentation/ApiReference/UI_Widgets/dxActionSheet/)

@@ -1,9 +1,7 @@
 A pivot grid can be bound only to an existing chart. 
 
 #####See Also#####
-- [Widget Basics - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/) - information on working with widgets with jQuery approach
-- [Widget Basics - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/) - information on working with widgets with AngularJS approach
-- [Widget Basics - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/) - information on working with widgets with Knockout approach
+#include common-link-configurewidget
 
 For example, assume you have the following code that creates a pivot grid in the `pivotGridWidget` container and a chart in the `chartWidget` container.
 

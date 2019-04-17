@@ -111,5 +111,5 @@ When data in the **List** is [paginated](/Documentation/Guide/Widgets/List/Pagin
 }
 
 #####See Also#####
-- [Widget Basics - Create and Configure a Widget](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)
+#include common-link-configurewidget
 - [List - Localization](/Documentation/Guide/Widgets/List/Localization/)

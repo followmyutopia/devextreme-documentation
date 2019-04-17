@@ -40,7 +40,7 @@ If simulated scrolling is used, you can specify when to show the scrollbar. For 
     });
 
 #####See Also#####
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+#include common-link-configurewidget
 - [ScrollView - Handle Scroll Gestures](/Documentation/Guide/Widgets/ScrollView/Handle_Scroll_Gestures/)
 - [ScrollView - Scroll the Content](/Documentation/Guide/Widgets/ScrollView/Scroll_the_Content/)
 - [ScrollView API Reference](/Documentation/ApiReference/UI_Widgets/dxScrollView/)

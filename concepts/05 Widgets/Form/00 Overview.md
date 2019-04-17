@@ -65,7 +65,7 @@ The following code adds the **Form** widget to your page. The simplest configura
 The configuration above creates one label-editor pair per each field of the data object. Such a pair is called ["simple item"](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/). Simple items can be organized in [groups](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Groups/), [tabs](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Tabs/) and [columns](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Columns/).
 
 #####See Also#####
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+#include common-link-configurewidget
 - [Form - Configure Simple Items](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/)
 - [Form - Organize Simple Items](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Groups/)
 - [Form - Configure Item Labels](/Documentation/Guide/Widgets/Form/Configure_Item_Labels/Location_and_Alignment/)

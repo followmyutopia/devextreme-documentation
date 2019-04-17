@@ -154,7 +154,7 @@ Usually, the data field that provides suggestions is the same data field that is
 ---
 
 #####See Also#####
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+#include common-link-configurewidget
 - [Autocomplete - Customize Item Appearance](/Documentation/Guide/Widgets/Autocomplete/Customize_Item_Appearance)
 - [Autocomplete - Configure Search Parameters](/Documentation/Guide/Widgets/Autocomplete/Configure_Search_Parameters)
 - [Autocomplete API Reference](/Documentation/ApiReference/UI_Widgets/dxAutocomplete/)

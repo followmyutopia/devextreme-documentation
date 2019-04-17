@@ -35,4 +35,4 @@ If you want to allow the user to reorder items on the **List**, set the [allowIt
 ---
 
 #####See Also#####
-- [Widget Basics - Create and Configure a Widget](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)
+#include common-link-configurewidget

@@ -151,7 +151,7 @@ With Angular, AngularJS, or Knockout, use a different technique. Bind the **valu
 The **FileUploader** can operate in two different modes, each demanding a different client- and server-side configuration. See the [Client-Side Settings](/Documentation/Guide/Widgets/FileUploader/Upload_Files/Client-Side_Settings/) article for more details.
 
 #####See Also#####
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+#include common-link-configurewidget
 - **Upload Files - Server Side**: [ASP.NET](/Documentation/Guide/Widgets/FileUploader/Upload_Files/Server-Side_Implementation_in_ASP.NET/) | [PHP](/Documentation/Guide/Widgets/FileUploader/Upload_Files/Server-Side_Implementation_in_PHP/)
 - [File Validation](/Documentation/Guide/Widgets/FileUploader/File_Validation/)
 - [FileUploader API Reference](/Documentation/ApiReference/UI_Widgets/dxFileUploader/)

@@ -59,6 +59,6 @@ If you are going to change the **scroll** event handler at runtime, or if you ne
         .on("scroll", scrollEventHandler2);
 
 #####See Also#####
-- [Widget Basics - Handle Events](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events)
+#include common-link-handleevents
 - [List Demos](/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/)
 - [List API Reference](/Documentation/ApiReference/UI_Widgets/dxList/)

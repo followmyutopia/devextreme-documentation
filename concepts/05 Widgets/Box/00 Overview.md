@@ -78,7 +78,7 @@ Note that the **Box** items in the code above are declared using the [dxItem](/D
 - [visible](/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#visible)
 
 #####See Also#####
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+#include common-link-configurewidget
 - [Box - Specify an Item Size](/Documentation/Guide/Widgets/Box/Specify_an_Item_Size/)
 - [Box - Arrange and Align Items](/Documentation/Guide/Widgets/Box/Arrange_and_Align_Items/)
 - [Box - Nest One Box into Another](/Documentation/Guide/Widgets/Box/Nest_One_Box_into_Another/)

@@ -62,6 +62,6 @@ If you are going to change the **itemReordered** event handler at runtime, or if
         .on("itemReordered", itemReorderedEventHandler2);
 
 #####See Also#####
-- [Widget Basics - Handle Events](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events)
+#include common-link-handleevents
 - [List Demos](/Demos/WidgetsGallery/Demo/List/ListSelection/jQuery/Light/)
 - [List API Reference](/Documentation/ApiReference/UI_Widgets/dxList/)

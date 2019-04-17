@@ -45,7 +45,7 @@ The following code adds a simple **ColorBox** to your page.
 The **ColorBox** accepts colors in hexadecimal (_"#FF0000"_), RGB (_"rgb(255, 0, 0)"_) and RGBA (_"rgba(255, 0, 0, 1)"_) formats, as well as [color names](http://www.w3schools.com/cssref/css_colors.asp). When an end user selects a color from the drop-down editor, the textual representation of the selected color is hexadecimal.
 
 #####See Also#####
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+#include common-link-configurewidget
 - [ColorBox - Handle the Value Change Event](/Documentation/Guide/Widgets/ColorBox/Handle_the_Value_Change_Event)
 - [ColorBox - Support Alpha Channel](/Documentation/Guide/Widgets/ColorBox/Support_Alpha_Channel)
 - [ColorBox - Keyboard Support](/Documentation/Guide/Widgets/ColorBox/Keyboard_Support)

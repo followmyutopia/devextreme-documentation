@@ -29,7 +29,7 @@ In addition, you can specify the step of **Slider** values using the [step](/Doc
     });
 
 #####See Also#####
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+#include common-link-configurewidget
 - [Slider - Customize Widget Appearance](/Documentation/Guide/Widgets/Slider/Customize_Widget_Appearance)
 - [Slider - Handle the Value Change Event](/Documentation/Guide/Widgets/Slider/Handle_the_Value_Change_Event)
 - [Slider API Reference](/Documentation/ApiReference/UI_Widgets/dxSlider/)

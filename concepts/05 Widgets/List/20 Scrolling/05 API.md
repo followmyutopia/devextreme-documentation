@@ -161,6 +161,6 @@ The following examples shows how to call these methods.
 ---
 
 #####See Also#####
-- [Widget Basics - Call Methods](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Call_Methods/)
+#include common-link-callmethods
 - [List Demos](/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/)
 - [List API Reference](/Documentation/ApiReference/UI_Widgets/dxList/)

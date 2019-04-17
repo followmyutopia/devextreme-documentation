@@ -23,4 +23,4 @@ The stylesheets in the code above apply the Generic Light theme. See [Predefined
 Specific functionality requires additional libraries. For instance, [localization](/Documentation/Guide/Common/Localization/) uses the [Globalize](https://github.com/globalizejs/globalize/blob/master/README.md) library or [Intl API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl). Similarly, [client-side exporting](/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/) in the **DataGrid** and **PivotGrid** widgets requires the [JSZip](https://stuk.github.io/jszip/) library. Refer to the dedicated topics for details.
 
 #####See Also#####
-- **Create and Configure a Widget**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)
+#include common-link-configurewidget

@@ -85,7 +85,7 @@ If you need to use a custom image in the **LoadIndicator**, assign its URL to th
 ---
 
 #####See Also#####
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+#include common-link-configurewidget
 - [LoadIndicator - Show and Hide Using the API](/Documentation/Guide/Widgets/LoadIndicator/Show_and_Hide_Using_the_API/)
 - [LoadIndicator API Reference](/Documentation/ApiReference/UI_Widgets/dxLoadIndicator/)
 - [LoadPanel - Overview](/Documentation/Guide/Widgets/LoadPanel/Overview/)

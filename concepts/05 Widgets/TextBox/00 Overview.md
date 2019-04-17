@@ -112,7 +112,7 @@ If an end user should _not_ be able to edit the value in the **TextBox**, assign
 ---
 
 #####See Also#####
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+#include common-link-configurewidget
 - [TextBox - Task-Specific Modes](/Documentation/Guide/Widgets/TextBox/Task-Specific_Modes/)
 - [TextBox - Handle the Value Change Event](/Documentation/Guide/Widgets/TextBox/Handle_the_Value_Change_Event/)
 - [TextBox - Handle the Keyboard Events](/Documentation/Guide/Widgets/TextBox/Handle_the_Keyboard_Events/)

@@ -156,7 +156,7 @@ The **ResponsiveBox** elements in the code above are declared using the [dxItem]
 All **ResponsiveBox** elements are arranged against a layout grid defined by the [rows](/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/rows/) and [cols](/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/cols/) arrays. For further information, see the [Create the Layout Grid](/Documentation/Guide/Widgets/ResponsiveBox/Create_the_Layout_Grid/) topic.
 
 #####See Also#####
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+#include common-link-configurewidget
 - [ResponsiveBox - Size Qualifiers](/Documentation/Guide/Widgets/ResponsiveBox/Size_Qualifiers/)
 - [ResponsiveBox - Create the Layout Grid](/Documentation/Guide/Widgets/ResponsiveBox/Create_the_Layout_Grid/)
 - [ResponsiveBox - Arrange Layout Elements](/Documentation/Guide/Widgets/ResponsiveBox/Arrange_Layout_Elements/)

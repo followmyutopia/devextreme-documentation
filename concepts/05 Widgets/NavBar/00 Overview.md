@@ -53,7 +53,7 @@ The following code adds the **NavBar** to your page. All navigation items have i
 Note that all data source items follow the [Default Item Template](/Documentation/ApiReference/UI_Widgets/dxNavBar/Default_Item_Template/) pattern. This provides a default item appearance, which can be customized later.
 
 #####See Also#####
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+#include common-link-configurewidget
 - [NavBar - Customize Item Appearance](/Documentation/Guide/Widgets/NavBar/Customize_Item_Appearance)
 - [NavBar - Items Selection](/Documentation/Guide/Widgets/NavBar/Items_Selection)
 - [NavBar API Reference](/Documentation/ApiReference/UI_Widgets/dxNavBar/)

@@ -72,7 +72,7 @@ In the previous code, the handler of the [resizeEnd](/Documentation/ApiReference
 In addition to the **resizeEnd** event, the **Resizable** widget fires the [resizeStart](/Documentation/ApiReference/UI_Widgets/dxResizable/Events/#resizeStart) and [resize](/Documentation/ApiReference/UI_Widgets/dxResizable/Events/#resize) events. They also can be handled to resize the content of the **Resizable** widget.
 
 #####See Also#####
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+#include common-link-configurewidget
 - [Resizable API Reference](/Documentation/ApiReference/UI_Widgets/dxResizable/)
 
 [tags]resizable, overview, resize a widget, resize

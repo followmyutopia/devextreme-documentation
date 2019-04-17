@@ -300,6 +300,6 @@ Pass the [DOM node](http://www.w3schools.com/js/js_htmldom_nodes.asp) to the [se
     ---
 
 #####See Also#####
-- [Widget Basics - Call Methods](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Call_Methods/)
+#include common-link-callmethods
 - [List Demos](/Demos/WidgetsGallery/Demo/List/ListSelection/jQuery/Light/)
 - [List API Reference](/Documentation/ApiReference/UI_Widgets/dxList/)

@@ -106,7 +106,7 @@ If your data is an array of objects, specify:
 ---
 
 #####See Also#####
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+#include common-link-configurewidget
 - [Lookup - Configure Search Parameters](/Documentation/Guide/Widgets/Lookup/Configure_Search_Parameters/)
 - [Lookup - Enable Grouping](/Documentation/Guide/Widgets/Lookup/Enable_Grouping/)
 - [Lookup - Enable Paging](/Documentation/Guide/Widgets/Lookup/Enable_Paging/)

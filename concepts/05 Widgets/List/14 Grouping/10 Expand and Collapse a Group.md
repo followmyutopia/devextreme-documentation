@@ -104,7 +104,7 @@ To collapse or expand a specific group programmatically, call the [collapseGroup
 ---
 
 #####See Also#####
-- [Widget Basics - Call Methods](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Call_Methods/)
+#include common-link-callmethods
 - [List - Grouping in the Data Source](/Documentation/Guide/Widgets/List/Grouping/In_the_Data_Source/)
 - [List API Reference](/Documentation/ApiReference/UI_Widgets/dxList/)
 

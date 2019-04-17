@@ -46,7 +46,7 @@ The **List** supports a great variety of features. To learn more about a particu
 
 #####See Also#####
 - [List - Data Binding](/Documentation/Guide/Widgets/List/Data_Binding/)
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+#include common-link-configurewidget
 - [List API Reference](/Documentation/ApiReference/UI_Widgets/dxList/)
 
 [tags]list, overview
