@@ -213,7 +213,7 @@
             "$Widget": "WebApiFileProvider"
           },
           "OneDrive": {
-            "$OneDrive.md": "OneDriveFileProvider",
+            "OneDrive.md": "OneDriveFileProvider",
             "$Widget": "OneDriveFileProvider"
           },
           "FileProvider": {
