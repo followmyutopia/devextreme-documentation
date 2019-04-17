@@ -5,9 +5,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the dash style of the annotation's border.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include dataviz-ref-dashstyle
 <!--/fullDescription-->

@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the width of the annotation's border in pixels.
 <!--/shortDescription-->
 
 <!--fullDescription-->

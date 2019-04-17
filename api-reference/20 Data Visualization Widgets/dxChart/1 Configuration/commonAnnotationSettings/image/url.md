@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the image's URL.
 <!--/shortDescription-->
 
 <!--fullDescription-->

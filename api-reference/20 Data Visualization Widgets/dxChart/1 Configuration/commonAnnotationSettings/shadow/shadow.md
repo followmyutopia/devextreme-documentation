@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Configures the annotation's shadows.
 <!--/shortDescription-->
 
 <!--fullDescription-->

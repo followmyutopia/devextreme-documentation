@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the image's width in pixels.
 <!--/shortDescription-->
 
 <!--fullDescription-->

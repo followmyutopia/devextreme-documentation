@@ -4,9 +4,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Colors the annotation's border.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include common-colorlist
 <!--/fullDescription-->

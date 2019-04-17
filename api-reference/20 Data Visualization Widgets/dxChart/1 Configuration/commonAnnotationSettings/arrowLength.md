@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the length of the annotation's arrow in pixels.
 <!--/shortDescription-->
 
 <!--fullDescription-->

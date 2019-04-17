@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the annotation's name.
 <!--/shortDescription-->
 
 <!--fullDescription-->

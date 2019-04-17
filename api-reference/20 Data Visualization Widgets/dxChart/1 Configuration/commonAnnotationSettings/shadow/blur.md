@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the blur distance of the shadows. A larger value increases the blur distance.
 <!--/shortDescription-->
 
 <!--fullDescription-->

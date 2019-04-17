@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the visibility of the annotation's border.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -4,9 +4,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the color that fills the annotation.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include common-colorlist
 <!--/fullDescription-->
