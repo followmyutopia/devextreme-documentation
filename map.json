@@ -1,5 +1,4 @@
 {
-
   "$ignore": [
     "GridBaseColumn",
     "dxDataGridColumn",
@@ -15,11 +14,13 @@
     "dxChartAnnotationConfig",
     "dxChartCommonAnnotationConfig",
     "dxActionButton",
-    "chartPointAggregationInfoObject",
-    "dxSankeyConnectionInfoObject",
+    "dxDiagram",
+    "dxDiagram/*",
     "WebApiFileProvider",
     "OneDriveFileProvider",
     "FileProvider",
+    "chartPointAggregationInfoObject",
+    "dxSankeyConnectionInfoObject",
     "dxRecurrenceEditor",
     "dxRecurrenceEditor/*",
     "DOMComponent/Options/bindingOptions",
@@ -173,10 +174,6 @@
 
     "dxDeferRendering": {
       "$Widget": "dxDeferRendering"
-    },
-
-    "dxDiagram": {
-      "$Widget": "dxDiagram"
     },
 
     "dxDrawer": {
@@ -430,7 +427,7 @@
             "$Object": "dxHtmlEditorToolbar"
           },
           "mediaResizing": {
-            "resizing.md": "dxHtmlEditor/Options/resizing",
+            "mediaResizing.md": "dxHtmlEditor/Options/mediaResizing",
             "$Object": "dxHtmlEditorMediaResizing"
           },
           "mentions": {
