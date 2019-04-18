@@ -1,5 +1,0 @@
-<!--shortDescription-->
-<!--/shortDescription-->
-
-<!--fullDescription-->
-<!--/fullDescription-->

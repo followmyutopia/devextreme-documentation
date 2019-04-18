@@ -8,7 +8,7 @@ onButtonClick: function(e){
     e.component.toggle();
 },
 useSelectMode: true,
-dataSource: [
+items: [
     {id: 1, name: "Left", icon: "alignleft"},
     {id: 4, name: "Right", icon: "alignright"},
     {id: 2, name: "Center", icon: "aligncenter"},
@@ -27,6 +27,6 @@ The **DropDownButton** is a button that opens a drop-down menu.
 
 <!--fullDescription-->
 
-<!-- TODO: Add demo button (http://maslyaev-w10:9998/) -->
+<!-- DEMO LINK -->
 
 <!--/fullDescription-->
