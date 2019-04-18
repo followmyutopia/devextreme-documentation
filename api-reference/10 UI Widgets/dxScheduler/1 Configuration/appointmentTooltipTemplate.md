@@ -42,6 +42,12 @@ The data of the appointment whose tooltip is rendered.
 Refer to the [onAppointmentClick](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentClick) description for more information on the difference between the **appointmentData** and **targetedAppointmentData** parameters.
 <!--/typeFunctionParamDescription3-->
 
+<!--typeFunctionParamName4-->itemIndex<!--/typeFunctionParamName4-->
+<!--typeFunctionParamType4-->Number<!--/typeFunctionParamType4-->
+<!--typeFunctionParamDescription4-->
+The appointment's index.
+<!--/typeFunctionParamDescription4-->
+
 <!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A template name or container.

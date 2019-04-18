@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->null<!--/default-->
-<!--type-->dxHtmlEditorResizing<!--/type-->
+<!--type-->dxHtmlEditorMediaResizing<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
