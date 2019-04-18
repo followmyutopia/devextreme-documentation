@@ -4,13 +4,19 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a custom template for appointment tooltips.
+Specifies a custom template for appointment tooltips and appointments in the [appointment collector](/Documentation/Guide/Widgets/Scheduler/Appointments/Appointment_Collector/)'s drop-down list.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+For appointments in the appointment collector, this option can be ignored in favor of the [dropDownAppointmentTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#dropDownAppointmentTemplate).
 
-#include common-demobutton with {
+#include common-demobutton-named with {
+    name: "Custom Templates",
     url: "/Demos/WidgetsGallery/Demo/Scheduler/CustomTemplates/jQuery/Light/"
+}
+#include common-demobutton-named with {
+    name: "Appointment Collector",
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/LimitAppointmentCountPerCell/jQuery/Light/"
 }
 
 #####See Also#####
