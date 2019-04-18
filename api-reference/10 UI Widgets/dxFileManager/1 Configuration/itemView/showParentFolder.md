@@ -4,9 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies whether to display the parent folder in the view.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+
+<!-- IMAGE -->
 
 <!--/fullDescription-->

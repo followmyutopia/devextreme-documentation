@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies whether a user is allowed to remove files and folders.
 <!--/shortDescription-->
 
 <!--fullDescription-->
