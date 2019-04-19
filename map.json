@@ -14,8 +14,6 @@
     "dxChartAnnotationConfig",
     "dxChartCommonAnnotationConfig",
     "dxActionButton",
-    "dxDiagram",
-    "dxDiagram/*",
     "WebApiFileProvider",
     "OneDriveFileProvider",
     "FileProvider",
@@ -174,6 +172,10 @@
 
     "dxDeferRendering": {
       "$Widget": "dxDeferRendering"
+    },
+
+    "dxDiagram": {
+      "$Widget": "dxDiagram"
     },
 
     "dxDrawer": {
