@@ -243,10 +243,6 @@
       "$Widget": "dxFilterBuilder"
     },
 
-    "dxFloatingActionButton": {
-      "$Widget": "dxFloatingActionButton"
-    },
-
     "dxForm": {
       "$Widget": "dxForm",
 
@@ -485,6 +481,10 @@
 
     "dxSliderBase": {
       "$Widget": "dxSliderBase"
+    },
+
+    "dxSpeedDialAction": {
+      "$Widget": "dxSpeedDialAction"
     },
 
     "dxSwitch": {
