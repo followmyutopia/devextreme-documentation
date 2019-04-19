@@ -1,6 +1,6 @@
-You can extend the **HtmlEditor**'s [formats](https://github.com/DevExpress/DevExtreme/tree/19_1/js/ui/html_editor/formats) and [modules](https://github.com/DevExpress/DevExtreme/tree/19_1/js/ui/html_editor/modules) and also Quill's [formats](https://github.com/quilljs/quill/tree/1.3.6/formats) and [modules](https://github.com/quilljs/quill/tree/1.3.6/modules). To get a format or module for further extension, pass *"formats/[formatName]"* or *"modules/[moduleName]"* to the [getModule(modulePath)](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Methods/#getModulemodulePath) method.
+You can extend the **HtmlEditor**'s [formats](https://github.com/DevExpress/DevExtreme/tree/19_1/js/ui/html_editor/formats) and [modules](https://github.com/DevExpress/DevExtreme/tree/19_1/js/ui/html_editor/modules) and also Quill's [formats](https://github.com/quilljs/quill/tree/1.3.6/formats) and [modules](https://github.com/quilljs/quill/tree/1.3.6/modules). To get a format or module for further extension, pass *"formats/[formatName]"* or *"modules/[moduleName]"* to the [get(componentPath)](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Methods/#getcomponentPath) method.
 
-In the following code, the `strike` format is extended so that the stricken out text is non-editable when the format is applied. The extended format is then [registered](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Methods/#registerModulesmodules).
+In the following code, the `strike` format is extended so that the stricken out text is non-editable when the format is applied. The extended format is then [registered](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Methods/#registercomponents).
 
 ---
 #####jQuery
@@ -11,7 +11,7 @@ In the following code, the `strike` format is extended so that the stricken out 
             // ...
             onInitialized: function(e) {
                 var htmlEditor = e.component;
-                var Strike = htmlEditor.getModule("formats/strike");
+                var Strike = htmlEditor.get("formats/strike");
                 class NonEditableStrike extends Strike {
                     // Overrides the method that creates a DOM node for the formatted text
                     static create(value) {
@@ -22,7 +22,7 @@ In the following code, the `strike` format is extended so that the stricken out 
                     }
                 }
                 // Replaces the built-in `strike` format
-                htmlEditor.registerModules({ "formats/strike": NonEditableStrike });
+                htmlEditor.register({ "formats/strike": NonEditableStrike });
             }
         });
 
@@ -36,7 +36,7 @@ In the following code, the `strike` format is extended so that the stricken out 
     export class AppComponent {
         onInitialized (e) {
             let htmlEditor = e.component;
-            let Strike = htmlEditor.getModule("formats/strike");
+            let Strike = htmlEditor.get("formats/strike");
             class NonEditableStrike extends Strike {
                 // Overrides the method that creates a DOM node for the formatted text
                 static create(value) {
@@ -47,7 +47,7 @@ In the following code, the `strike` format is extended so that the stricken out 
                 }
             }
             // Replaces the built-in `strike` format
-            htmlEditor.registerModules({ "formats/strike": NonEditableStrike });
+            htmlEditor.register({ "formats/strike": NonEditableStrike });
         }
     }
     @NgModule({

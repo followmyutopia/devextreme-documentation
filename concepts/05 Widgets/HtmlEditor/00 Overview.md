@@ -92,7 +92,7 @@ The **HtmlEditor** supports a wide range of features:
 - Inline, block, and embedded [formats](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName/formats) 
 - [Adaptive toolbar](/Documentation/Guide/Widgets/HtmlEditor/Toolbar/Built-In_Controls/) 
 - [Built-in formats' and modules' extension](/Documentation/Guide/Widgets/HtmlEditor/Customize_Built-In_Formats_and_Modules/)
-- [Custom formats and modules](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Methods/#getModulemodulePath)
+- [Custom formats and modules](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Methods/#getcomponentPath)
 - [Mail-merge placeholders](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/variables/) (for example, %username%)
 - Drag-and-drop images
 - Copy-paste rich content (unsupported formats are removed)
