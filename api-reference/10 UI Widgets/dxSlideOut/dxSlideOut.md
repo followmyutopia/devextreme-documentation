@@ -3,7 +3,7 @@
 <!--export-->default<!--/export-->
 <!--inherits-->..\CollectionWidget\CollectionWidget.md<!--/inherits-->
 <!--lib-->
-dx.mobile.js, dx.all.js
+dx.all.js
 <!--/lib-->
 ===========================================================================
 

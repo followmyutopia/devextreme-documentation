@@ -10,7 +10,7 @@ dataSource: [
 <!--export-->default<!--/export-->
 <!--inherits-->..\Editor\Editor.md,..\DataExpressionMixin\DataExpressionMixin.md<!--/inherits-->
 <!--lib-->
-dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js
+dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->
 ===========================================================================
 

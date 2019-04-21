@@ -13,7 +13,6 @@ You can find all the required files in the [DevExtreme zip archive](/Download/#A
 
     <!-- DevExtreme library -->
     <script type="text/javascript" src="js/dx.all.js"></script>
-    <!-- <script type="text/javascript" src="js/dx.mobile.js"></script> -->
     <!-- <script type="text/javascript" src="js/dx.web.js"></script> -->
     <!-- <script type="text/javascript" src="js/dx.viz.js"></script> -->
     <!-- <script type="text/javascript" src="js/dx.viz-web.js"></script> -->

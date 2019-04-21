@@ -6,7 +6,7 @@ opened: true
 <!--export-->default<!--/export-->
 <!--inherits-->..\dxDropDownEditor\dxDropDownEditor.md<!--/inherits-->
 <!--lib-->
-dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js
+dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->
 ===========================================================================
 

@@ -16,7 +16,7 @@ formData: {
 <!--export-->default<!--/export-->
 <!--inherits-->..\Widget\Widget.md<!--/inherits-->
 <!--lib-->
-dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js
+dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->
 ===========================================================================
 

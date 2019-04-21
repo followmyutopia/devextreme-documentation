@@ -2,7 +2,7 @@
 <!--module-->animation/fx<!--/module-->
 <!--export-->default<!--/export-->
 <!--lib-->
-dx.mobile.js, dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
+dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
 <!--/lib-->
 ===========================================================================
 

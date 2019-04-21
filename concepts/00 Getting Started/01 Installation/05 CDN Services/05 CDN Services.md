@@ -13,7 +13,6 @@ DevExtreme files are available through a Content Delivery Network (CDN). Link th
 
     <!-- DevExtreme library -->
     <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_19_1/js/dx.all.js"></script>
-    <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_19_1/js/dx.mobile.js"></script> -->
     <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_19_1/js/dx.web.js"></script> -->
     <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_19_1/js/dx.viz.js"></script> -->
     <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_19_1/js/dx.viz-web.js"></script> -->
