@@ -13,7 +13,7 @@
     "dxHtmlEditorMention",
     "dxChartAnnotationConfig",
     "dxChartCommonAnnotationConfig",
-    "dxActionButton",
+    "dxTextEditorButton",
     "WebApiFileProvider",
     "OneDriveFileProvider",
     "FileProvider",
@@ -525,7 +525,7 @@
       "1 Configuration": {
         "buttons": {
             "buttons.md": "dxTextEditor/Options/buttons",
-            "$Object": "dxActionButton"
+            "$Object": "dxTextEditorButton"
         }
       },
       "$Widget": "dxTextEditor"
@@ -1256,8 +1256,6 @@
       "handler(event_extraParameters).md": "eventsHandler",
 
       "hideTopOverlay().md": "hideTopOverlay()",
-
-      "processHardwareBackButton().md": "processHardwareBackButton()",
 
       "registerComponent(name_componentClass).md": "registerComponent(name, componentClass)",
 

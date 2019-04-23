@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies what to do with label texts that overflow the allocated space after applying [wordWrap](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/label/#wordWrap): hide, truncate them and display an ellipsis, or do nothing.
+Specifies what to do with the annotation's [text](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#text) when it overflows the allocated space after applying [wordWrap](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#wordWrap): hide, truncate it and display an ellipsis, or do nothing.
 <!--/shortDescription-->
 
 <!--fullDescription-->

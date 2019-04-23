@@ -11,7 +11,7 @@ Gets an instance of a [custom action button]({basewidgetpath}/Configuration/butt
 The button's [name]({basewidgetpath}/Configuration/buttons/#name).
 <!--/paramDescription1-->
 
-<!--returnType-->any<!--/returnType-->
+<!--returnType-->dxButton|undefined<!--/returnType-->
 <!--returnDescription-->
 The [Button](/Documentation/ApiReference/UI_Widgets/dxButton/) widget's instance.
 <!--/returnDescription-->
