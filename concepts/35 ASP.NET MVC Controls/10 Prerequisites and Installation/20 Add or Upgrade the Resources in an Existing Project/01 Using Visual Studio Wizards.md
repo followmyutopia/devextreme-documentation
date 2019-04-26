@@ -1,1 +1,0 @@
-See [this topic](/Documentation/Guide/ASP.NET_MVC_Controls/Visual_Studio_Integration/Add_or_Upgrade_the_Required_Resources_in_Your_Project/) for details.

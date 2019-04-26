@@ -1,0 +1,1 @@
+Starting from v19.1, ASP.NET MVC 5 Controls documentation is available at [docs.devexpress.com](http://docs.devexpress.com/DevExtremeAspNetMvc).

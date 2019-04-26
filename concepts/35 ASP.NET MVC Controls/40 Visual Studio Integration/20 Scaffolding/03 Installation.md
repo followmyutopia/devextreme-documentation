@@ -1,1 +1,0 @@
-DevExtreme Scaffolder is automatically installed for all compatiable Visual Studio versions by the [DevExtreme installer](/Documentation/Guide/ASP.NET_MVC_Controls/Prerequisites_and_Installation/#Download_and_Installation).
