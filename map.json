@@ -14,11 +14,6 @@
     "dxChartAnnotationConfig",
     "dxChartCommonAnnotationConfig",
     "dxTextEditorButton",
-    "WebApiFileProvider",
-    "OneDriveFileProvider",
-    "AjaxFileProvider",
-    "ArrayFileProvider",
-    "FileProvider",
     "chartPointAggregationInfoObject",
     "dxSankeyConnectionInfoObject",
     "dxRecurrenceEditor",
@@ -213,23 +208,18 @@
 
         "5 File Providers": {
           "Web API": {
-            "Web API.md": "WebApiFileProvider",
             "$Widget": "WebApiFileProvider"
           },
           "OneDrive": {
-            "OneDrive.md": "OneDriveFileProvider",
             "$Widget": "OneDriveFileProvider"
           },
           "Ajax": {
-            "Ajax.md": "AjaxFileProvider",
             "$Widget": "AjaxFileProvider"
           },
           "Array": {
-            "Array.md": "ArrayFileProvider",
             "$Widget": "ArrayFileProvider"
           },
           "FileProvider": {
-            "FileProvider.md": "FileProvider",
             "$Widget": "FileProvider"
           }
         }
