@@ -1,4 +1,4 @@
 #include mvc-redirects with {
-    mvc: "http://newdoc.devexpress.devx/DevExtremeAspNetMvc/400706/devextreme-asp-net-mvc-controls/localization#globalize",
-    core: "http://newdoc.devexpress.devx/AspNetCore/400577/concepts/devextreme-based-controls/localization?v=19.1#globalize"
+    mvc: "https://docs.devexpress.com/DevExtremeAspNetMvc/400706/devextreme-asp-net-mvc-controls/localization#globalize",
+    core: "https://docs.devexpress.com/AspNetCore/400577/concepts/devextreme-based-controls/localization?v=19.1#globalize"
 }

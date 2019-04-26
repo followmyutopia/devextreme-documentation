@@ -1,4 +1,4 @@
 #include mvc-redirects with {
-    mvc: "http://newdoc.devexpress.devx/DevExtremeAspNetMvc/400703/devextreme-asp-net-mvc-controls/fundamentals",
-    core: "http://newdoc.devexpress.devx/AspNetCore/400574/concepts/devextreme-based-controls/fundamentals?v=19.1"
+    mvc: "https://docs.devexpress.com/DevExtremeAspNetMvc/400703/devextreme-asp-net-mvc-controls/fundamentals",
+    core: "https://docs.devexpress.com/AspNetCore/400574/concepts/devextreme-based-controls/fundamentals?v=19.1"
 }
