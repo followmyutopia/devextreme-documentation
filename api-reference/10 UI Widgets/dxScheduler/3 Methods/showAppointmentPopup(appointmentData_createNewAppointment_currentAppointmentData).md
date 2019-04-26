@@ -6,7 +6,7 @@ Shows the appointment details form.
 <!--/shortDescription-->
 
 <!--paramName1-->appointmentData<!--/paramName1-->
-<!--paramType1-->Object<!--/paramType1-->
+<!--paramType1-->Object|undefined<!--/paramType1-->
 <!--paramDescription1-->
 The initial appointment.
 <!--/paramDescription1-->

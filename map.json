@@ -29,8 +29,7 @@
     "devices",
     "layoutSets",
     "globalConfig/useLegacyStoreResult",
-    "globalConfig/useLegacyVisibleIndex",
-    "CustomShapeItem"
+    "globalConfig/useLegacyVisibleIndex"
   ],
 
   "10 UI Widgets": {
