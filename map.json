@@ -1244,6 +1244,10 @@
 
       "VectorMapLegendItem": {
         "$Widget": "VectorMapLegendItem"
+      },
+
+      "CustomShapeItem": {
+        "$Widget": "CustomShapeItem"
       }
     },
 
