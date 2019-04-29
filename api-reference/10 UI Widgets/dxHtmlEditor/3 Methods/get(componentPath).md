@@ -175,4 +175,7 @@ In the following code, the `bold` format is associated with the `<b>` tag instea
 
 ---
 
+#####See Also#####
+- [register(components)](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Methods/#registercomponents)
+- [customizeModules](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/#customizeModules)
 <!--/fullDescription-->
