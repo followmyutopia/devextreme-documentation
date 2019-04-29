@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the icon the FAB displays when the speed dial is opened.
 <!--/shortDescription-->
 
 <!--fullDescription-->

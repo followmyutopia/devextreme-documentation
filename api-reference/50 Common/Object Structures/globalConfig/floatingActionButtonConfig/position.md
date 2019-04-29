@@ -5,9 +5,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Positions the FAB on the screen.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include uiwidgets-ref-position
 <!--/fullDescription-->
