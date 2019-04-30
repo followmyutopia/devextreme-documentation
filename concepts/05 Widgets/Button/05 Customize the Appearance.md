@@ -242,9 +242,9 @@ If you need to define the **Button** content completely, implement a template fo
             template="buttonTemplate">
             <i
                 slot="buttonTemplate"
-                slot-scope="buttonData"
+                slot-scope="{ data }"
                 style="color: green">
-                {{ buttonData.text }}
+                {{ data.text }}
             </i>
         </dx-button>
     </template>

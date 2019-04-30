@@ -99,11 +99,11 @@ In AngularJS and Knockout, use the [dxTemplate](/Documentation/ApiReference/UI_W
             row-template="dataRowTemplate">
             <tbody
                 slot="dataRowTemplate"
-                slot-scope="rowInfo"
+                slot-scope="{ data: { data: { id, name } } }"
                 class="dx-row">
                 <tr>
-                    <td>{{rowInfo.data.id}}</td>
-                    <td>{{rowInfo.data.name}}</td>
+                    <td>{{id}}</td>
+                    <td>{{name}}</td>
                 </tr>
             </tbody>
         </dx-data-grid>
@@ -125,11 +125,12 @@ In AngularJS and Knockout, use the [dxTemplate](/Documentation/ApiReference/UI_W
 
     class Row extends React.PureComponent {
         render() {
+            const { data: { id, name } } = this.props.data;
             return (
                 <tbody className={"dx-row"}>
                     <tr>
-                        <td>{this.props.data.id}</td>
-                        <td>{this.props.data.name}</td>
+                        <td>{id}</td>
+                        <td>{name}</td>
                     </tr>
                 </tbody>
             );

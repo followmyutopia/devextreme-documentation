@@ -248,10 +248,10 @@ You can customize the text field and the drop-down button using the [fieldTempla
                 :data-source="dataSource"
                 drop-down-button-template="dropDownButtonTemplate"
                 field-template="fieldTemplate">
-                <div slot="dropDownButtonTemplate" slot-scope="data">
+                <div slot="dropDownButtonTemplate" slot-scope="{ data }">
                     <img src="images/icons/custom-dropbutton-icon.svg">
                 </div>
-                <div slot="fieldTemplate" slot-scope="data">
+                <div slot="fieldTemplate" slot-scope="{ data }">
                     <div class="custom-item">
                         <img :src="data.image">
                         <div class="product-name">

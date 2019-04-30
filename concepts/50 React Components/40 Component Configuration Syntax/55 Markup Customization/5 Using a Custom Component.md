@@ -9,7 +9,7 @@ In the following code, custom components are used to specify the [List](/Demos/W
     class ListItemTmpl extends React.PureComponent {
         render() {
             return (
-                <p>{this.props.itemProperty}</p>
+                <p>{this.props.data.itemProperty}</p>
             );
         }
     }
@@ -18,7 +18,7 @@ In the following code, custom components are used to specify the [List](/Demos/W
         render() {
             return (
                 <div style={{ padding: 20 }}>
-                    <p>{this.props.text}</p>
+                    <p>{this.props.data.text}</p>
                 </div>
             );
         }
@@ -34,42 +34,3 @@ In the following code, custom components are used to specify the [List](/Demos/W
             );
         }
     }
-
-[note]
-
-You cannot use `key` because it is a [special React prop](https://reactjs.org/warnings/special-props.html). Use `dxkey` instead:
-
-    <!-- tab: App.js -->
-    import List from 'devextreme-react/list';
-
-    const assignments = [{
-        "key": "John Heart",
-        "items": ["Choose between PPO and HMO Health Plan", "Google AdWords Strategy", "New Brochures"]
-    }, {
-        "key": "Olivia Peyton",
-        "items": ["Update Personnel Files", "Non-Compete Agreements"]
-    }, {
-        "key": "Robert Reagan",
-        "items": ["Deliver R&D Plans for 2013", "Decide on Mobile Devices to Use in the Field", ]
-    }];
-
-    class ListGroupTmpl extends React.PureComponent {
-        render() {
-            return (
-                <div>{this.props.dxkey}</div>
-            );
-        }
-    }
-
-    class App extends React.Component {
-        render() {
-            return (
-                <List
-                    dataSource={assignments}
-                    grouped={true}
-                    groupComponent={ListGroupTmpl}
-                />
-            );
-        }
-    }
-[/note]

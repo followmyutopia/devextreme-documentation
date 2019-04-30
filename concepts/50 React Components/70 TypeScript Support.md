@@ -35,7 +35,7 @@ The following code shows an example of using TypeScript with DevExtreme componen
         public render() {
             return (
                 <div onClick={this.addCounter}>
-                    {this.props.text} was clicked {this.state.counter} times
+                    {this.props.data.text} was clicked {this.state.counter} times
                 </div>
             );
         }
