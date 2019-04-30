@@ -9,5 +9,7 @@ Specifies whether the annotation displays a [text](/Documentation/ApiReference/D
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/Annotation/jQuery/Light/"
+}
 <!--/fullDescription-->

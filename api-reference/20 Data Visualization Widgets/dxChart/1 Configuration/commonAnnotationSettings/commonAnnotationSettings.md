@@ -122,6 +122,10 @@ The following code shows the **commonAnnotationSettings** declaration syntax:
 
 ---
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/Annotation/jQuery/Light/"
+}
+
 #####See Also#####
 - [customizeAnnotation](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#customizeAnnotation)
 <!--/fullDescription-->
