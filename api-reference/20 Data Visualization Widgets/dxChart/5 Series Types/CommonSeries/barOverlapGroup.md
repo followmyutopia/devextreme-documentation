@@ -18,4 +18,8 @@ The following image shows a regular bar chart with two series...
 ...and here the same series are collected in a **barOverlapGroup**:
 
 ![DevExtreme Chart: Bar chart with barOverlapGroup applied](/Content/images/doc/19_1/ChartJS/barOverlapGroup-applied.png)
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/Timeline/jQuery/Light/"
+}
 <!--/fullDescription-->

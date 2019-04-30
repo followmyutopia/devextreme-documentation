@@ -9,6 +9,10 @@ Specifies whether a single or double click should switch a cell to the editing s
 <!--/shortDescription-->
 
 <!--fullDescription-->
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/BatchEditing/jQuery/Light/"
+}
+
 #####See Also#####
 - **keyboardNavigation**.[editOnKeyPress]({basewidgetpath}/Configuration/keyboardNavigation/#editOnKeyPress)
 <!--/fullDescription-->
