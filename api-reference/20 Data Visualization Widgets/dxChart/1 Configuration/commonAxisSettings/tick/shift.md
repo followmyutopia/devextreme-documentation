@@ -24,12 +24,12 @@ The following table illustrates this option:
           <th>Vertical Axis</th>
         </tr>
         <tr>
-          <td><code>shift: 4</code></td>
+          <td><code>shift: 3</code></td>
           <td><img src="/Content/images/doc/19_1/ChartJS/shift-argumentaxis-positive.png" alt="DevExtreme Chart - Positive tick shift on the argument axis" /></td>
           <td><img src="/Content/images/doc/19_1/ChartJS/shift-valueaxis-positive.png" alt="DevExtreme Chart - Positive tick shift on the value axis" /></td>
         </tr>
         <tr>
-          <td><code>shift: -4</code></td>
+          <td><code>shift: -3</code></td>
           <td><img src="/Content/images/doc/19_1/ChartJS/shift-argumentaxis-negative.png" alt="DevExtreme Chart - Negative tick shift on the argument axis" /></td>
           <td><img src="/Content/images/doc/19_1/ChartJS/shift-valueaxis-negative.png" alt="DevExtreme Chart - Negative tick shift on the value axis" /></td>
         </tr>
