@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether the **PivotGridDataSource** should load data in portions.
+Specifies whether the **PivotGridDataSource** should load data in portions. Can be used only with an [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/).
 <!--/shortDescription-->
 
 <!--fullDescription-->
