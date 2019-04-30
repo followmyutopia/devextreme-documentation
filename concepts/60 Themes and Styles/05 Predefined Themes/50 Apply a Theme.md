@@ -22,4 +22,4 @@ Configure the module bundler you are using and import `dx.common.css` and a them
 2. Open the _Layout.cshtml or _DevExtremeLayout.cshtml file (depending on which of them is used in the _ViewStart.cshtml file).
 3. Find the following line and replace `dx.light.css` in it with the theme stylesheet of your choice:
 
-            <link href="~/lib/devextreme/css/dx.light.css" rel="stylesheet" />
+            <link href="~/lib/devextreme/css/dx.light.css" rel="stylesheet">

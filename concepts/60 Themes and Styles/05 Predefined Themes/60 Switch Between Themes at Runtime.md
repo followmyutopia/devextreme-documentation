@@ -4,19 +4,19 @@ There are two ways to switch between themes. Use the following way if the themes
 
         <head>
             <!-- Generic themes -->
-            <link rel="dx-theme" data-theme="generic.light" href="css/dx.light.css" data-active="true" />
-            <link rel="dx-theme" data-theme="generic.dark" href="css/dx.dark.css" data-active="false" />
-            <link rel="dx-theme" data-theme="generic.contrast" href="css/dx.contrast.css" data-active="false" />
+            <link rel="dx-theme" data-theme="generic.light" href="css/dx.light.css" data-active="true">
+            <link rel="dx-theme" data-theme="generic.dark" href="css/dx.dark.css" data-active="false">
+            <link rel="dx-theme" data-theme="generic.contrast" href="css/dx.contrast.css" data-active="false">
             <!-- ... -->
             <!-- or Generic Compact themes-->
-            <!-- link rel="dx-theme" data-theme="generic.light.compact" href="css/dx.light.compact.css" data-active="true" / -->
-            <!-- link rel="dx-theme" data-theme="generic.dark.compact" href="css/dx.dark.compact.css" data-active="false" / -->
-            <!-- link rel="dx-theme" data-theme="generic.contrast.compact" href="css/dx.contrast.compact.css" data-active="false" / -->
+            <!-- link rel="dx-theme" data-theme="generic.light.compact" href="css/dx.light.compact.css" data-active="true" -->
+            <!-- link rel="dx-theme" data-theme="generic.dark.compact" href="css/dx.dark.compact.css" data-active="false" -->
+            <!-- link rel="dx-theme" data-theme="generic.contrast.compact" href="css/dx.contrast.compact.css" data-active="false" -->
             <!-- ... -->
             <!-- or Material Design themes-->
-            <!-- link rel="dx-theme" data-theme="material.blue.light" href="css/dx.material.blue.light.css" data-active="true" / -->
-            <!-- link rel="dx-theme" data-theme="material.blue.dark" href="css/dx.material.blue.dark.css" data-active="false" / -->
-            <!-- link rel="dx-theme" data-theme="material.teal.light" href="css/dx.material.teal.light.css" data-active="false" / -->
+            <!-- link rel="dx-theme" data-theme="material.blue.light" href="css/dx.material.blue.light.css" data-active="true" -->
+            <!-- link rel="dx-theme" data-theme="material.blue.dark" href="css/dx.material.blue.dark.css" data-active="false" -->
+            <!-- link rel="dx-theme" data-theme="material.teal.light" href="css/dx.material.teal.light.css" data-active="false" -->
             <!-- ... -->
         </head>
 
@@ -34,9 +34,9 @@ The following way is suitable for switching between any themes, but it involves 
 
         <head>
             <!-- ... -->
-            <link rel="dx-theme" data-theme="generic.light" href="css/dx.light.css" data-active="false" />
-            <link rel="dx-theme" data-theme="generic.light.compact" href="css/dx.light.compact.css" data-active="false" />
-            <link rel="dx-theme" data-theme="material.blue.light" href="css/dx.material.blue.light.css" data-active="false" />
+            <link rel="dx-theme" data-theme="generic.light" href="css/dx.light.css" data-active="false">
+            <link rel="dx-theme" data-theme="generic.light.compact" href="css/dx.light.compact.css" data-active="false">
+            <link rel="dx-theme" data-theme="material.blue.light" href="css/dx.material.blue.light.css" data-active="false">
             <!-- ... -->
         </head>
 

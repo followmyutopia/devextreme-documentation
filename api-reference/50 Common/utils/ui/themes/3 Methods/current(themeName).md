@@ -14,8 +14,8 @@ The theme's name.
 <!--fullDescription-->
 The theme name passed as a parameter should be the value of the **data-theme** attribute used within the **rel="dx-theme"** links to the theme. For instance, if you have links to two of your themes...
 
-    <!--HTML--><link rel="dx-theme" data-theme="generic.mytheme-dark" href="css/mytheme-dark.css" data-active="true" />
-    <link rel="dx-theme" data-theme="generic.mytheme-light" href="css/mytheme-light.css" data-active="false" />
+    <!--HTML--><link rel="dx-theme" data-theme="generic.mytheme-dark" href="css/mytheme-dark.css" data-active="true">
+    <link rel="dx-theme" data-theme="generic.mytheme-light" href="css/mytheme-light.css" data-active="false">
 
 ... you can switch between them as shown in the code below. Note that you should specify a callback function that repaints all widgets after the theme has been loaded using the [ready(callback)](/Documentation/ApiReference/Common/utils/ui/themes/Methods/#readycallback) method.
 

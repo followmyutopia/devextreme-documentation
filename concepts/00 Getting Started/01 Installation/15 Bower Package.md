@@ -22,8 +22,8 @@ After the installation is completed, you can find all the libraries in the bower
     <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
 
     <!-- DevExtreme themes -->
-    <link rel="stylesheet" type="text/css" href="bower_components/devextreme/css/dx.common.css" />
-    <link rel="stylesheet" type="text/css" href="bower_components/devextreme/css/dx.light.css" />
+    <link rel="stylesheet" href="bower_components/devextreme/css/dx.common.css">
+    <link rel="stylesheet" href="bower_components/devextreme/css/dx.light.css">
 
     <!-- DevExtreme library -->
     <script type="text/javascript" src="bower_components/devextreme/js/dx.all.js"></script>

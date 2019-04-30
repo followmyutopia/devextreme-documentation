@@ -3,8 +3,8 @@ Open the `index.html` file and reference `dx.common.css` and a [predefined theme
     <!-- tab: index.html -->
     <head>
         <!-- ... -->
-        <link rel="stylesheet" type="text/css" href="node_modules/devextreme/dist/css/dx.common.css" />
-        <link rel="stylesheet" type="text/css" href="node_modules/devextreme/dist/css/dx.light.css" />
+        <link rel="stylesheet" href="node_modules/devextreme/dist/css/dx.common.css">
+        <link rel="stylesheet" href="node_modules/devextreme/dist/css/dx.light.css">
         <!-- ... -->
     </head>
 

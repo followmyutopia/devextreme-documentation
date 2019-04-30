@@ -9,8 +9,8 @@
 1. Add [DevExtreme themes](/Documentation/Guide/Themes_and_Styles/Predefined_Themes/) to your application. 
 
         <!--HTML-->
-        <link rel="stylesheet" type="text/css" href="node_modules/devextreme/dist/css/dx.common.css" />
-        <link rel="stylesheet" type="text/css" href="node_modules/devextreme/dist/css/dx.light.css" />
+        <link rel="stylesheet" href="node_modules/devextreme/dist/css/dx.common.css">
+        <link rel="stylesheet" href="node_modules/devextreme/dist/css/dx.light.css">
 
 
 1. Link RequireJS and define its [configuration object](http://requirejs.org/docs/api.html#config). 
