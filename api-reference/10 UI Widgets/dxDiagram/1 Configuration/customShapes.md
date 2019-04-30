@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->null<!--/default-->
-<!--type-->Array<CustomShapeItem><!--/type-->
+<!--type-->Array<DiagramCustomShapeItem><!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -34,7 +34,7 @@ The widget's container. It is an [HTML Element](https://developer.mozilla.org/en
 The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->target<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->basePointObject<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->basePointObject | dxChartAnnotationConfig | any<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 The series point whose tooltip is hidden; described in the [Point]({basewidgetpath}/Chart_Elements/Point/) section.
 <!--/typeFunctionParamDescription1_field4-->
