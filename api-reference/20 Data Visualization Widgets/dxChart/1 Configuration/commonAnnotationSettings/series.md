@@ -4,11 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Anchors the annotation to a series point. Accepts the [name](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#name) of the point's series. Useful for a multi-series chart.
+Anchors the annotation to a series point. Accepts the [name](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#name) of the point's series.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Use this option when the annotation is positioned relative to an [argument](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#argument), and several points of different series correspond to this argument.
+Use this option when the annotation is positioned relative to an [argument](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#argument).
 
 For example, the following chart displays two series and an annotation. The annotation is positioned relative to the argument `B` but not anchored to any of the two series points that correspond to this argument:
 

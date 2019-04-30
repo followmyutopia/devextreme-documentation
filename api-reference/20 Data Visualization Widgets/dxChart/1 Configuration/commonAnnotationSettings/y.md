@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Along with [x](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#x), positions the annotation's center at a specific pixel coordinate. (0, 0) is the upper left corner.
+Along with [x](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#x), positions the annotation's center at a specific pixel coordinate. (0, 0) is the upper left corner of the chart.
 <!--/shortDescription-->
 
 <!--fullDescription-->
