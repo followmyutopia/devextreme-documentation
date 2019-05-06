@@ -10,12 +10,12 @@
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->columns<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Array<dxDataGridColumn><!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 
 <!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->Object<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->Array<dxDataGridColumn><!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 
 <!--/typeFunctionReturnDescription-->

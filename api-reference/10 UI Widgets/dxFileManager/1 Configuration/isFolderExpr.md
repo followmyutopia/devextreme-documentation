@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'isFolder'<!--/default-->
-<!--type-->String | function()<!--/type-->
+<!--type-->String | function(fileItem)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -10,3 +10,8 @@
 <!--fullDescription-->
 
 <!--/fullDescription-->
+<!--typeFunctionParamName1-->fileItem<!--/typeFunctionParamName1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamDescription1-->
+
+<!--/typeFunctionParamDescription1-->

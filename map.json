@@ -1248,6 +1248,10 @@
 
       "DiagramCustomShapeItem": {
         "$Widget": "DiagramCustomShapeItem"
+      },
+
+      "DiagramDataSourceParameters": {
+        "$Widget": "DiagramDataSourceParameters"
       }
     },
 
