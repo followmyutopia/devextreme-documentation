@@ -4,9 +4,6 @@ keyExpr: "id",
 selectedItemKey: 1,
 width: 120,
 stylingMode: "text",
-onButtonClick: function(e){
-    e.component.toggle();
-},
 useSelectMode: true,
 items: [
     {id: 1, name: "Left", icon: "alignleft"},
