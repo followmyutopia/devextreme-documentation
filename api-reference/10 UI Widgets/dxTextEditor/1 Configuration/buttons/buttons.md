@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--acceptValues-->'clear' | 'spins' | 'dropDown'<!--/acceptValues-->
+<!--acceptValues-->'clear'<!--/acceptValues-->
 <!--type-->Array<String, dxTextEditorButton><!--/type-->
 ===========================================================================
 
