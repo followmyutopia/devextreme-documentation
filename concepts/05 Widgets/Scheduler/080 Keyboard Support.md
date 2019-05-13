@@ -95,50 +95,6 @@ An end user can use the following keys to interact with the widget.
     </table>
 </div>
 
-You can implement a custom handler for a key using the [registerKeyHandler(key, handler)](/Documentation/ApiReference/UI_Widgets/dxScheduler/Methods/#registerKeyHandlerkey_handler) method.
-
----
-##### jQuery
-
-    <!--JavaScript-->
-    function registerKeyHandlers () {
-        let scheduler =  $("#schedulerContainer").dxScheduler("instance");
-        scheduler.registerKeyHandler("backspace", function (e) {
-            // The argument "e" contains information on the event
-        });
-        scheduler.registerKeyHandler("space", function (e) {
-            // ...
-        });
-    }
-    
-
-##### Angular
-
-    <!--TypeScript-->
-    import { ..., ViewChild, AfterViewInit } from "@angular/core";
-    import { DxSchedulerModule, DxSchedulerComponent } from "devextreme-angular";
-    // ...
-    export class AppComponent implements AfterViewInit {
-        @ViewChild(DxSchedulerComponent) scheduler: DxSchedulerComponent
-        ngAfterViewInit () {
-            this.scheduler.instance.registerKeyHandler("backspace", function (e) {
-                // The argument "e" contains information on the event
-            });
-            this.scheduler.instance.registerKeyHandler("space", function (e) {
-                // ...
-            });
-        }
-    }
-    @NgModule({
-        imports: [
-            // ...
-            DxSchedulerModule
-        ],
-        // ...
-    })
-
----
-
 #####See Also#####
 #include common-link-callmethods
 - [Scheduler Demos](/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/)
