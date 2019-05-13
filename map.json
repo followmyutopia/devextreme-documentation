@@ -188,6 +188,11 @@
     },
 
     "dxDropDownEditor": {
+      "1 Configuration": {
+        "buttons": {
+          "buttons.md": "dxDropDownEditor/Options/buttons"
+        }
+      },
       "$Widget": "dxDropDownEditor"
     },
 
@@ -344,6 +349,11 @@
     },
 
     "dxNumberBox": {
+      "1 Configuration": {
+        "buttons": {
+          "buttons.md": "dxNumberBox/Options/buttons"
+        }
+      },
       "$Widget": "dxNumberBox"
     },
 
