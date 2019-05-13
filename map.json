@@ -1246,10 +1246,6 @@
         "$Widget": "VectorMapLegendItem"
       },
 
-      "DiagramCustomShapeItem": {
-        "$Widget": "DiagramCustomShapeItem"
-      },
-
       "DiagramDataSourceParameters": {
         "$Widget": "DiagramDataSourceParameters"
       }

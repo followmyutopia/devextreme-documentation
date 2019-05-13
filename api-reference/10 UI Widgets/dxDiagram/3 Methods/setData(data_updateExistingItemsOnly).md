@@ -11,7 +11,7 @@
 
 <!--/paramDescription1-->
 
-<!--paramName2-->keepExistingItems<!--/paramName2-->
+<!--paramName2-->updateExistingItemsOnly<!--/paramName2-->
 <!--paramType2-->Boolean<!--/paramType2-->
 <!--paramDescription2-->
 
