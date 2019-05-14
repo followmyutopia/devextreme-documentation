@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies whether the drop-down menu is opened.
 <!--/shortDescription-->
 
 <!--fullDescription-->
