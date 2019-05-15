@@ -71,7 +71,9 @@ itemView: {
 
 The **FileManager** is a widget that allows users to upload, select, and manage files and directories in different file storages.
 
-[note] The **FileManager** is at the Community Technology Preview (CTP) development stage: the component is available for testing, but its concept, design, and behavior can be reconsidered and changed without notice.
+#include common-ctp-note with {
+    component: "FileManager"
+}
 <!--/shortDescription-->
 
 <!--fullDescription-->

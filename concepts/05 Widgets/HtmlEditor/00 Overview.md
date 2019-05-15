@@ -1,6 +1,8 @@
 The **HtmlEditor** is a WYSIWYG text editor designed to support HTML and Markdown output formats. This widget is based on [Quill](https://quilljs.com/).
 
-[note] The **HtmlEditor** is at the Community Technology Preview (CTP) development stage. This widget can be tested but its concept, design and behavior can change without notice.
+#include common-ctp-note with {
+    component: "HtmlEditor"
+}
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/HtmlEditor/Overview/jQuery/Light/"

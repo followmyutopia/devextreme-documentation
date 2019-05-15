@@ -1,0 +1,1 @@
+[note] At this time, the **${{component}}** is available as a community technology preview (CTP) version. You can test the component and share your feedback to influence our R&D process. We do not recommend that you use the **${{component}}** in production environments because of possible implementation issues and a high chance of breaking changes in subsequent versions.
