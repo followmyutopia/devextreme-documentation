@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies which data field provides information about whether a directory has subdirectories.
 <!--/shortDescription-->
 
 <!--fullDescription-->

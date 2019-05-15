@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Allows you to provide custom thumbnails.
+Allows you to provide custom icons to be used as thumbnails.
 <!--/shortDescription-->
 
 <!--fullDescription-->

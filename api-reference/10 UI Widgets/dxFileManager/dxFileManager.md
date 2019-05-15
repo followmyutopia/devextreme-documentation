@@ -1,53 +1,53 @@
 <!--widgettree-->
 fileProvider: [{
     name: "Documents",
-    isFolder: true,
-    children: [{
+    isDirectory: true,
+    items: [{
         name: "Projects",
-        isFolder: true,
-        children: [{
+        isDirectory: true,
+        items: [{
             name: "About.rtf",
-            isFolder: false
+            isDirectory: false
         }, {
             name: "Passwords.rtf",
-            isFolder: false
+            isDirectory: false
         }]
     }, {
         name: "About.xml",
-        isFolder: false
+        isDirectory: false
     }, {
         name: "Managers.rtf",
-        isFolder: false
+        isDirectory: false
     }, {
         name: "ToDo.txt",
-        isFolder: false
+        isDirectory: false
     }],
 }, {
     name: "Images",
-    isFolder: true,
-    children: [{
+    isDirectory: true,
+    items: [{
         name: "logo.png",
-        isFolder: false
+        isDirectory: false
     }, {
         name: "banner.gif",
-        isFolder: false
+        isDirectory: false
     }]
 }, {
     name: "System",
-    isFolder: true,
-    children: [{
+    isDirectory: true,
+    items: [{
         name: "Employees.txt",
-        isFolder: false
+        isDirectory: false
     }, {
         name: "PasswordList.txt",
-        isFolder: false
+        isDirectory: false
     }]
 }, {
     name: "Description.rtf",
-    isFolder: false
+    isDirectory: false
 }, {
     name: "Description.txt",
-    isFolder: false,
+    isDirectory: false,
 }],
 permissions: {
     create: true,
@@ -69,7 +69,7 @@ itemView: {
 <!--shortDescription-->
 [tags] ctp
 
-The **FileManager** is a widget that allows users to upload, select, and manage files and folders on different file storages.
+The **FileManager** is a widget that allows users to upload, select, and manage files and directories in different file storages.
 
 [note] The **FileManager** is at the Community Technology Preview (CTP) development stage: the component is available for testing, but its concept, design, and behavior can be reconsidered and changed without notice.
 <!--/shortDescription-->

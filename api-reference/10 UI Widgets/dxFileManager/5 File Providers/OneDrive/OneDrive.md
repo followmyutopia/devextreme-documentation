@@ -6,7 +6,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+The **OneDrive** file provider allows you to connect to OneDrive.
 <!--/shortDescription-->
 
 <!--fullDescription-->

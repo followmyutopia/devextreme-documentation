@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies which data field provides file sizes.
 <!--/shortDescription-->
 
 <!--fullDescription-->
