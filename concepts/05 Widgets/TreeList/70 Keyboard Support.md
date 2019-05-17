@@ -43,16 +43,14 @@ A user can interact with the widget using the following keys:
         </tr>
         <tr>
           <td>Space</td>
-          <td>Selects the focused row and clears the selection of previously selected rows.<sup>6</sup></td>        
+          <td>Selects the focused row. In multiple selection mode, also clears the selection.<sup>6</sup></td>        
         </tr>
         <tr>
           <td>Ctrl + Space or Ctrl + Click</td>
-          <td>Selects or clears the selection of the focused row.<br />
-              Previously selected rows remain selected.<sup>7</sup>
-          </td>        
+          <td>Сlears the selection of the focused row in single selection mode.</td>        
         </tr>
         <tr>
-          <td>Shift + Space or Shift + Click</td>
+          <td>Shift + Space</td>
           <td>Selects or clears the selection of a range of rows between the last selected or deselected and the focused rows.<sup>7,8,9</sup></td>
         </tr>
         <tr>
