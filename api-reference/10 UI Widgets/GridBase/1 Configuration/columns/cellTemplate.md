@@ -119,6 +119,7 @@ In the following code, a **cellTemplate** is used to display a price change as a
     name: "Underscore Template"
 }
 
+[note] In [fixed columns]({basewidgetpath}/Configuration/columnFixing/), a **cellTemplate** is initialized and rendered twice for each cell.
 
 #####See Also#####
 - [Customize Cells Appearance](/Documentation/Guide/Widgets/DataGrid/Columns/Customize_Cells/#Customize_the_Appearance)

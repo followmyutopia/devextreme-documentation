@@ -16,6 +16,8 @@ The index of the column to which the header belongs. For details on how this ind
 - **column**: <font size="-1">Object</font>        
 The settings of the column to which the header belongs.
 
+[note] In [fixed columns]({basewidgetpath}/Configuration/columnFixing/), a **headerCellTemplate** is initialized and rendered twice for each column header.
+
 #####See Also#####
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 <!--/fullDescription-->
