@@ -10,7 +10,7 @@ Add `devexpress-diagram` resources (scripts and styles) onto the page. You can a
 
         <!--HTML-->
         <link rel="stylesheet" href="node_modules/devexpress-diagram/dx.diagram.css">
-        <script type="text/javascript" src="../node_modules/devexpress-diagram/dx.diagram.js"></script>
+        <script type="text/javascript" src="node_modules/devexpress-diagram/dx.diagram.js"></script>
 
 - **CDN**
 
