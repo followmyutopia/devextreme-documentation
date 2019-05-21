@@ -1,6 +1,6 @@
 Follow the steps below to upgrade a theme created in the ThemeBuilder if you [saved the theme's metadata](/Documentation/Guide/Themes_and_Styles/ThemeBuilder/#Postpone_Customization):
 
-1. Open the ThemeBuilder at the [Import a Theme from DevExtreme Metadata](/ThemeBuilder/import/meta) view.
+1. Open the ThemeBuilder at the [Import a Theme from DevExtreme Metadata](https://devexpress.github.io/ThemeBuilder/import/meta) view.
 
 1. On the view, click **Upload File** and select the `.json` file that you exported previously. If you copied the metadata rather than exported it as a `.json` file, paste it in the text area and click **Upload Metadata**:
 
