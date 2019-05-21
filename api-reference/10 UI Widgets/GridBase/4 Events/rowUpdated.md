@@ -35,7 +35,7 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamName1_field4-->data<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The updated data of the row; contains only those fields that have been updated.
+The updated data of the row.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->key<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->any<!--/typeFunctionParamType1_field5-->
