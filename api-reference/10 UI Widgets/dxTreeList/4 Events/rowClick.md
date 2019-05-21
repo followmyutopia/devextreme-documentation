@@ -94,3 +94,13 @@ The row's container. It is an [HTML Element](https://developer.mozilla.org/en-US
 <!--typeFunctionParamDescription1_field15-->
 Indicates whether internal widget handlers have already handled the event.
 <!--/typeFunctionParamDescription1_field15-->
+<!--typeFunctionParamName1_field16-->node<!--/typeFunctionParamName1_field16-->
+<!--typeFunctionParamType1_field16-->dxTreeListNode<!--/typeFunctionParamType1_field16-->
+<!--typeFunctionParamDescription1_field16-->
+
+<!--/typeFunctionParamDescription1_field16-->
+<!--typeFunctionParamName1_field17-->level<!--/typeFunctionParamName1_field17-->
+<!--typeFunctionParamType1_field17-->Number<!--/typeFunctionParamType1_field17-->
+<!--typeFunctionParamDescription1_field17-->
+
+<!--/typeFunctionParamDescription1_field17-->

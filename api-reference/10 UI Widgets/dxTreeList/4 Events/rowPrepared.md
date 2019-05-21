@@ -78,3 +78,13 @@ Indicates whether the row is expanded or collapsed. Available if **rowType** is 
 <!--typeFunctionParamDescription1_field12-->
 The row's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field12-->
+<!--typeFunctionParamName1_field13-->node<!--/typeFunctionParamName1_field13-->
+<!--typeFunctionParamType1_field13-->dxTreeListNode<!--/typeFunctionParamType1_field13-->
+<!--typeFunctionParamDescription1_field13-->
+
+<!--/typeFunctionParamDescription1_field13-->
+<!--typeFunctionParamName1_field14-->level<!--/typeFunctionParamName1_field14-->
+<!--typeFunctionParamType1_field14-->Number<!--/typeFunctionParamType1_field14-->
+<!--typeFunctionParamDescription1_field14-->
+
+<!--/typeFunctionParamDescription1_field14-->
