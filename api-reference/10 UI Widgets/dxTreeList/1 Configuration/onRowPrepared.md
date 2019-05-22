@@ -80,10 +80,10 @@ The row's container. It is an [HTML Element](https://developer.mozilla.org/en-US
 <!--typeFunctionParamName1_field13-->node<!--/typeFunctionParamName1_field13-->
 <!--typeFunctionParamType1_field13-->dxTreeListNode<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
-
+The row's node.
 <!--/typeFunctionParamDescription1_field13-->
 <!--typeFunctionParamName1_field14-->level<!--/typeFunctionParamName1_field14-->
 <!--typeFunctionParamType1_field14-->Number<!--/typeFunctionParamType1_field14-->
 <!--typeFunctionParamDescription1_field14-->
-
+The node's [hierarchical level](/Documentation/ApiReference/UI_Widgets/dxTreeList/Node/#level).
 <!--/typeFunctionParamDescription1_field14-->

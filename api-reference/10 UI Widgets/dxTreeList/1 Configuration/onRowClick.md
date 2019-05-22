@@ -98,10 +98,10 @@ Indicates whether internal widget functions have already handled the event.
 <!--typeFunctionParamName1_field16-->node<!--/typeFunctionParamName1_field16-->
 <!--typeFunctionParamType1_field16-->dxTreeListNode<!--/typeFunctionParamType1_field16-->
 <!--typeFunctionParamDescription1_field16-->
-
+The row's node.
 <!--/typeFunctionParamDescription1_field16-->
 <!--typeFunctionParamName1_field17-->level<!--/typeFunctionParamName1_field17-->
 <!--typeFunctionParamType1_field17-->Number<!--/typeFunctionParamType1_field17-->
 <!--typeFunctionParamDescription1_field17-->
-
+The node's [hierarchical level](/Documentation/ApiReference/UI_Widgets/dxTreeList/Node/#level).
 <!--/typeFunctionParamDescription1_field17-->
