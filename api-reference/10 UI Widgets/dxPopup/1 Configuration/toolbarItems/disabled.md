@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not a toolbar item must be displayed disabled.
+Specifies whether a toolbar item should be disabled.
 <!--/shortDescription-->
 
 <!--fullDescription-->

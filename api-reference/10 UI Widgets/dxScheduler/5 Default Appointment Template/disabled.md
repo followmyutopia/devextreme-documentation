@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not an appointment must be displayed disabled.
+Specifies whether an appointment should be disabled.
 <!--/shortDescription-->
 
 <!--fullDescription-->

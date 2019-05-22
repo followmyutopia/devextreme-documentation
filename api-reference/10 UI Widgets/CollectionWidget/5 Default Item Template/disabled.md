@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not a widget item must be displayed disabled.
+Specifies whether a widget item should be disabled.
 <!--/shortDescription-->
 
 <!--fullDescription-->
