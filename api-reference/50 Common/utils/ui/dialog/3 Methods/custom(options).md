@@ -38,6 +38,11 @@ Specifies whether to show the title.
 The dialog's message. Deprecated in favor of the **messageHtml** field.
 <!--/paramDescription1_field5-->
 <!--paramDeprecated1_field5-->Use 'messageHtml' instead.<!--/paramDeprecated1_field5-->
+<!--paramName1_field6-->dragEnabled<!--/paramName1_field6-->
+<!--paramType1_field6-->Boolean<!--/paramType1_field6-->
+<!--paramDescription1_field6-->
+
+<!--/paramDescription1_field6-->
 
 <!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
