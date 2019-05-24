@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the button's icon. Applies only if [splitButton](/Documentation/ApiReference/UI_Widgets/dxDropDownButton/Configuration/#splitButton) is **true**.
+Specifies the button's icon.
 <!--/shortDescription-->
 
 <!--fullDescription-->
