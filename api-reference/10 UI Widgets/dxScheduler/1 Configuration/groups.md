@@ -8,21 +8,21 @@ Specifies the [resource kinds](/Documentation/Guide/Widgets/Scheduler/Resources/
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The array elements should be strings specifying the **field** field of the resource kind objects.
+This array should contain one or more values that correspond to the [fieldExpr](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/#fieldExpr) values of resource kinds:
 
 ---
 
 #####jQuery
 
     <!--JavaScript-->var resources = [
-        { field: "room", dataSource: roomsDataSource },
-        { field: "teacher", dataSource: teachersDataSource }
+        { fieldExpr: "room", dataSource: roomsDataSource },
+        { fieldExpr: "teacher", dataSource: teachersDataSource }
     ];
     var schedulerOptions = {
         dataSource: appointments,
         resources: resources,
         groups: ["room", "teacher"]
-        //...
+        // ...
     }
 
 #####Angular
@@ -40,8 +40,8 @@ The array elements should be strings specifying the **field** field of the resou
     export class AppComponent  {
         // ...
         resources = [
-            { field: "room", dataSource: this.roomsDataSource },
-            { field: "teacher", dataSource: this.teachersDataSource }
+            { fieldExpr: "room", dataSource: this.roomsDataSource },
+            { fieldExpr: "teacher", dataSource: this.teachersDataSource }
         ];
     }
     @NgModule({
