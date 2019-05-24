@@ -15,6 +15,8 @@ A function that is executed before the multi-tag is rendered.
 
 #####See Also#####
 - [Limit the Tag Count](/Documentation/Guide/Widgets/TagBox/Limit_the_Tag_Count/)
+- [maxDisplayedTags](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#maxDisplayedTags)
+- [showMultiTagOnly](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#showMultiTagOnly)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
