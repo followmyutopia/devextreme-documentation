@@ -48,7 +48,13 @@ All operations with widget options are carried out using the **option()** method
         }
     });
 
-[note]When you pass an object to the **option(options)** method or to the jQuery plugin at runtime as shown in the previous code, options specified in this object will be merged with the options that were [specified at design time](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget).
+[note]
+
+When you pass an object to the **option(options)** method or to the jQuery plugin at runtime as shown in the previous code, options specified in this object will be merged with the options that were [specified at design time](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget). 
+
+This works properly unless the options were specified as arrays. In this case, you should reassign the entire array of objects that contain new option values alongside old values.
+
+[/note]
 
 #####See Also#####
 - **API Reference**.**WidgetName**.**Configuration**, for example, **API Reference**.[Menu](/Documentation/ApiReference/UI_Widgets/dxMenu/).[Configuration](/Documentation/ApiReference/UI_Widgets/dxMenu/Configuration/)
