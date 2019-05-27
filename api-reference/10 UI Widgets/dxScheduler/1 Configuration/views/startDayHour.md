@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the start hour in the view's time scale. Cannot be greater than 24.
+Specifies the first hour on the view's time scale. Accepts integer values from 0 to 24.
 <!--/shortDescription-->
 
 <!--fullDescription-->

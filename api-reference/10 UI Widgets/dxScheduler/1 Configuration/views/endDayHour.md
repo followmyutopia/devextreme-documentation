@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the last hour in the view's time scale.
+Specifies the last hour on the view's time scale. Accepts integer values from 0 to 24.
 <!--/shortDescription-->
 
 <!--fullDescription-->
