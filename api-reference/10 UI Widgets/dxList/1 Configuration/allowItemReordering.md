@@ -8,6 +8,8 @@ Specifies whether a user can reorder list items. [Grouped](/Documentation/ApiRef
 <!--/shortDescription-->
 
 <!--fullDescription-->
+To obtain items in the same order as they are displayed in the widget, [read](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#optionoptionName) the [items](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#items) option for jQuery or bind it to a component property for Angular, Vue, and React.
+
 [note] On Android devices, this option applies only if the [useNativeScrolling](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#useNativeScrolling) option is set to **false**.
 
 #####See Also#####
