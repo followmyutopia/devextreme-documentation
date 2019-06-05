@@ -15,7 +15,7 @@ The widget occupies its container's entire area by default. Use the **size** obj
 
     <!-- tab: index.js -->
     $(function() {
-        $("{widgetName}Container").dx{WidgetName}({
+        $("#{widgetName}Container").dx{WidgetName}({
             // ...
             size: {
                 height: 300,

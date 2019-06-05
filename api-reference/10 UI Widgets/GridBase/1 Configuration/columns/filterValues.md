@@ -16,7 +16,7 @@ If the **headerFilter**.[groupInterval]({basewidgetpath}/Configuration/columns/h
 
     <!--JavaScript-->
     $(function() {
-        $("{widgetName}Container").dx{WidgetName}({
+        $("#{widgetName}Container").dx{WidgetName}({
             // ...
             columns: [{
                 dataField: "ID",

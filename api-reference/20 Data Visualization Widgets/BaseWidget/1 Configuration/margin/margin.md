@@ -14,7 +14,7 @@ Generates space around the widget.
 
     <!-- tab: index.js -->
     $(function() {
-        $("{widgetName}Container").dx{WidgetName}({
+        $("#{widgetName}Container").dx{WidgetName}({
             // ...
             margin: {
                 top: 20,

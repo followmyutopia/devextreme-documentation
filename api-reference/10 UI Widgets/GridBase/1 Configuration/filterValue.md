@@ -18,7 +18,7 @@ The filter expression can contain the following operations: *"="*, *"<>"*, *"<"*
 
     <!--JavaScript-->
     $(function() {
-        $("{widgetName}Container").dx{WidgetName}({
+        $("#{widgetName}Container").dx{WidgetName}({
             // ...
             filterSyncEnabled: true,
             headerFilter: { visible: true },
@@ -60,7 +60,7 @@ If a column's [groupInterval]({basewidgetpath}/Configuration/columns/headerFilte
 
     <!--JavaScript-->
     $(function() {
-        $("{widgetName}Container").dx{WidgetName}({
+        $("#{widgetName}Container").dx{WidgetName}({
             // ...
             filterValue: ["ID", "anyof", [500, 700]], // Filter intervals are 500-600 and 700-800
             columns: [{

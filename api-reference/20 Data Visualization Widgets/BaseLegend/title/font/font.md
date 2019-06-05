@@ -13,7 +13,7 @@ Specifies the legend title's font options.
 
     <!-- tab: index.js -->
     $(function() {
-        $("{widgetName}Container").dx{WidgetName}({
+        $("#{widgetName}Container").dx{WidgetName}({
             // ...
             legend: {
                 title: {

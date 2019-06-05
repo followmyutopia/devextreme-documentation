@@ -14,7 +14,7 @@ The widget animates its elements at the beginning of its lifetime and when the d
 
     <!-- tab: index.js -->
     $(function() {
-        $("{widgetName}Container").dx{WidgetName}({
+        $("#{widgetName}Container").dx{WidgetName}({
             // ...
             animation: {
                 easing: "linear",

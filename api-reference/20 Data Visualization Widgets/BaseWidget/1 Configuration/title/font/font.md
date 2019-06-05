@@ -13,7 +13,7 @@ Specifies font options for the title.
 
     <!-- tab: index.js -->
     $(function() {
-        $("{widgetName}Container").dx{WidgetName}({
+        $("#{widgetName}Container").dx{WidgetName}({
             // ...
             title: {
                 font: {

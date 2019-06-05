@@ -30,7 +30,7 @@ Call [saveEditData()]({basewidgetpath}/Methods/#saveEditData) after this method 
 #####jQuery
 
     <!--JavaScript-->
-    var {widgetName} = $("{widgetName}Container").dx{WidgetName}("instance");
+    var {widgetName} = $("#{widgetName}Container").dx{WidgetName}("instance");
     {widgetName}.cellValue(0, 1, "newValue");
     {widgetName}.saveEditData();
 
