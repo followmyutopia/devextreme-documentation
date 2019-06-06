@@ -18,7 +18,7 @@ The following code shows how to use the function parameter's **cancel** field to
 
     <!--JavaScript-->
     $(function(){
-        $("#{widgetName}Container}").dx{WidgetName}({
+        $("#{widgetName}Container").dx{WidgetName}({
             // ...
             onRowRemoving: function(e) {
                 var d = $.Deferred();
