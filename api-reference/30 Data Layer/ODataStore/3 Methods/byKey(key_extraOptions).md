@@ -21,6 +21,11 @@ Additional options.
 <!--paramDescription2_field1-->
 The names of the navigation properties to be loaded simultaneously with the entity (see [OData - Associations](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData/Associations)).
 <!--/paramDescription2_field1-->
+<!--paramName2_field2-->select<!--/paramName2_field2-->
+<!--paramType2_field2-->String | Array<String><!--/paramType2_field2-->
+<!--paramDescription2_field2-->
+
+<!--/paramDescription2_field2-->
 
 <!--returnType-->Promise<any><!--/returnType-->
 <!--returnDescription-->
