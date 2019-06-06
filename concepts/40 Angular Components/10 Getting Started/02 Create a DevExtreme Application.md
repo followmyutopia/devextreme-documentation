@@ -2,7 +2,7 @@ If you are starting a project from scratch, use the [DevExtreme Angular Template
 
 You can generate the application with the [DevExtreme CLI](/Documentation/Guide/Getting_Started/DevExtreme_CLI/):
 
-    npx -p devextreme-cli new angular-app app-name
+    npx -p devextreme-cli devextreme new angular-app app-name
     cd app-name
     npm run start
 
