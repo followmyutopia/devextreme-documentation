@@ -9,16 +9,16 @@ Add `devexpress-diagram` resources (scripts and styles) onto the page. You can a
     Add the `dx.diagram.css` and `dx.diagram.js` files to your page.
 
         <!--HTML-->
-        <link rel="stylesheet" href="node_modules/devexpress-diagram/dx.diagram.css">
-        <script type="text/javascript" src="node_modules/devexpress-diagram/dx.diagram.js"></script>
+        <link rel="stylesheet" href="node_modules/devexpress-diagram/dist/dx-diagram.css">
+        <script type="text/javascript" src="node_modules/devexpress-diagram/dist/dx-diagram.js"></script>
 
 - **CDN**
 
     Add the `dx.diagram.css` and `dx.diagram.js` files to your page.
 
         <!--HTML-->
-        <link rel="stylesheet" href="https://unpkg.com/devexpress-diagram/dx.diagram.css">
-        <script src="https://unpkg.com/devexpress-diagram/dx.diagram.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/devexpress-diagram/dist/dx-diagram.css">
+        <script src="https://unpkg.com/devexpress-diagram/dist/dx-diagram.js"></script>
 
     Initialize the **Diagram** widget in a DOM element.
 
