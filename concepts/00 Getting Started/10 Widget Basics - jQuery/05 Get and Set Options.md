@@ -52,7 +52,31 @@ All operations with widget options are carried out using the **option()** method
 
 When you pass an object to the **option(options)** method or to the jQuery plugin at runtime as shown in the previous code, options specified in this object will be merged with the options that were [specified at design time](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget). 
 
-This works properly unless the options were specified as arrays. In this case, you should reassign the entire array of objects that contain new option values alongside old values.
+This works properly unless the options were specified as arrays. In this case, you should reassign the entire array of objects that contain new option values alongside old values. The following code sample demonstrates the described technique by the example of the [valueAxis](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/) array in the [Chart](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/) widget: 
+
+    <!--JavaScript-->
+    // Declare the array of objects that configure value axes
+    var valueAxisConfigs = [{
+        name: "axis1",
+        // ...
+    }, {
+        name: "axis2",
+        // ...
+    }];
+
+    $("#chartContainer").dxChart({
+        // ....
+        // Assign the array to the valueAxis option
+        valueAxis: valueAxisConfigs
+    });
+
+    // Change an option in the first object from the array
+    valueAxisConfigs[0].visible = false;
+
+    // Reassign the whole array
+    $("#chartContainer").dxChart({
+        valueAxis: valueAxisConfigs
+    });
 
 [/note]
 
