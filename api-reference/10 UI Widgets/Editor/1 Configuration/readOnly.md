@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A Boolean value specifying whether or not the widget is read-only.
+Specifies whether the editor is read-only.
 <!--/shortDescription-->
 
 <!--fullDescription-->
