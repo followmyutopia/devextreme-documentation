@@ -1,3 +1,8 @@
+#include common-troubleunderstanding-note with {
+    technology: "jQuery",
+    docsLink: "https://learn.jquery.com/"
+}
+
 Make sure you linked all the required resources before creating a widget:
 
 - **Link Resources**: [Local Scripts](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) | [CDN Services](/Documentation/Guide/Getting_Started/Installation/CDN_Services/) | [NuGet Package](/Documentation/Guide/Getting_Started/Installation/NuGet_Package/) | [Bower Package](/Documentation/Guide/Getting_Started/Installation/Bower_Package/) | [npm Package](/Documentation/Guide/Getting_Started/Installation/npm_Package/)
