@@ -24,7 +24,7 @@ The names of the navigation properties to be loaded simultaneously with the enti
 <!--paramName2_field2-->select<!--/paramName2_field2-->
 <!--paramType2_field2-->String | Array<String><!--/paramType2_field2-->
 <!--paramDescription2_field2-->
-
+One or more fields to select from the entity.
 <!--/paramDescription2_field2-->
 
 <!--returnType-->Promise<any><!--/returnType-->
