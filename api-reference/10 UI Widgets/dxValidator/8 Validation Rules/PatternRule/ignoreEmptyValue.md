@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether empty values are valid.
+If set to **true**, empty values are valid.
 <!--/shortDescription-->
 
 <!--fullDescription-->
