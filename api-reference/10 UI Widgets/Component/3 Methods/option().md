@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets all widget options.
+Gets all [widget options]({basewidgetpath}/Configuration/). 
 <!--/shortDescription-->
 
 <!--returnType-->Object<!--/returnType-->
