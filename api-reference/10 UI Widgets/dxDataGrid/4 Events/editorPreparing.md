@@ -7,7 +7,7 @@ Raised before an editor is created.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Main article: [onEditorPreparing](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onEditorPreparing)
+Main article: [onEditorPreparing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onEditorPreparing)
 
 #####See Also#####
 #include common-link-handleevents

@@ -51,5 +51,5 @@ Allows you to cancel row editing.
 <!--typeFunctionParamName1_field7-->column<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->Object<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-The [configuration](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) of the column whose cell is switching to the editing state. Available in the *"batch"* [editing mode](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/editing/#mode).
+The [configuration](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) of the column whose cell is switching to the editing state. Available in the *"batch"* [editing mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#mode).
 <!--/typeFunctionParamDescription1_field7-->
