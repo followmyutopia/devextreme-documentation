@@ -1,3 +1,4 @@
+<!--id-->dxTreeList.Options.editing.allowUpdating<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean | function(options)<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->CollectionWidget<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--module-->ui/collection/ui.collection_widget.base<!--/module-->

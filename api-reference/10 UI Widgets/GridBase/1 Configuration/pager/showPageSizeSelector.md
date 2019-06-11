@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.pager.showPageSizeSelector<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

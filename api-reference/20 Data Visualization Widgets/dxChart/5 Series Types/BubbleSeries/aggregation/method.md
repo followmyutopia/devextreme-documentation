@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.BubbleSeries.aggregation.method<!--/id-->
 ===========================================================================
 <!--default-->'avg'<!--/default-->
 <!--acceptValues-->'avg' | 'custom'<!--/acceptValues-->

@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.minorGrid.width<!--/id-->
 ===========================================================================
 <!--default-->1<!--/default-->
 <!--type-->Number<!--/type-->

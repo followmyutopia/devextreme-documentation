@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.endDateTimeZoneExpr<!--/id-->
 ===========================================================================
 <!--default-->'endDateTimeZone'<!--/default-->
 <!--type-->String<!--/type-->

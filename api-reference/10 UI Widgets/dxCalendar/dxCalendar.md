@@ -1,3 +1,4 @@
+<!--id-->dxCalendar<!--/id-->
 <!--widgettree-->
 
 <!--/widgettree-->

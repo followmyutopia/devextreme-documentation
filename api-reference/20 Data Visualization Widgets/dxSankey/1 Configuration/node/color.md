@@ -1,3 +1,4 @@
+<!--id-->dxSankey.Options.node.color<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

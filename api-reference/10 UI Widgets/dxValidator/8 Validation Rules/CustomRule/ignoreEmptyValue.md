@@ -1,3 +1,4 @@
+<!--id-->CustomRule.ignoreEmptyValue<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxTreeList.Options.dataStructure<!--/id-->
 ===========================================================================
 <!--default-->'plain'<!--/default-->
 <!--acceptValues-->'plain' | 'tree'<!--/acceptValues-->

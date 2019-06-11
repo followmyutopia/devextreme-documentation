@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.layers.colorGroupingField<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

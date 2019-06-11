@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.allowFixing<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

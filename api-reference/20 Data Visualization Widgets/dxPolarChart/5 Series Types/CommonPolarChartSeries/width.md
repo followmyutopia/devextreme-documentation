@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.width<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\LineSeries\LineSeries.md<!--/propertyOf-->
 <!--default-->2<!--/default-->

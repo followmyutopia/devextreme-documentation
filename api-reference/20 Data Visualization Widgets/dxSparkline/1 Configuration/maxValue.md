@@ -1,3 +1,4 @@
+<!--id-->dxSparkline.Options.maxValue<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

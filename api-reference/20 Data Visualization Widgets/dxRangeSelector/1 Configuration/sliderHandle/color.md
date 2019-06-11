@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.sliderHandle.color<!--/id-->
 ===========================================================================
 <!--default-->'#000000'<!--/default-->
 <!--type-->String<!--/type-->

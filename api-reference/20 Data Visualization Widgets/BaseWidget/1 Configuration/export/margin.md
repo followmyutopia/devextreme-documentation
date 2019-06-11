@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.export.margin<!--/id-->
 ===========================================================================
 <!--default-->10<!--/default-->
 <!--type-->Number<!--/type-->

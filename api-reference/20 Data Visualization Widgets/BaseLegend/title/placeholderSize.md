@@ -1,3 +1,4 @@
+<!--id-->BaseLegend.title.placeholderSize<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

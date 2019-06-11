@@ -1,3 +1,4 @@
+<!--id-->dxList.Options.onItemSwipe<!--/id-->
 <!--EventForAction-->..\4 Events\itemSwipe.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

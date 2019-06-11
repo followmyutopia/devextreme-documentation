@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.maxAppointmentsPerCell<!--/id-->
 ===========================================================================
 <!--default-->'auto'<!--/default-->
 <!--acceptValues-->'auto' | 'unlimited'<!--/acceptValues-->

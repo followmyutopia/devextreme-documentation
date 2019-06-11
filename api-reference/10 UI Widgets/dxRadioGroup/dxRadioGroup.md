@@ -1,3 +1,4 @@
+<!--id-->dxRadioGroup<!--/id-->
 <!--widgettree-->
 dataSource: [
         { text: "red", value: "#FF0000" },

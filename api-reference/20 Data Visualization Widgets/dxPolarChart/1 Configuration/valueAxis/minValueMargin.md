@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.valueAxis.minValueMargin<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

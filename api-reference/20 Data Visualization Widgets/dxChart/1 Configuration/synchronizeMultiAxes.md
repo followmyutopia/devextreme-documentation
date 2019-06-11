@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.synchronizeMultiAxes<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

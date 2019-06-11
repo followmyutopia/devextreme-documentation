@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.title.horizontalAlignment<!--/id-->
 ===========================================================================
 <!--default-->'center'<!--/default-->
 <!--acceptValues-->'center' | 'left' | 'right'<!--/acceptValues-->

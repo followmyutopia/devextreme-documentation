@@ -1,3 +1,4 @@
+<!--id-->dxFormTabbedItem.tabs.colCountByScreen<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Object<!--/type-->

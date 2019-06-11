@@ -1,3 +1,4 @@
+<!--id-->dxChartCommonAnnotationConfig.height<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

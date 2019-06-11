@@ -1,3 +1,4 @@
+<!--id-->dxSparkline.Options.valueField<!--/id-->
 ===========================================================================
 <!--default-->'val'<!--/default-->
 <!--type-->String<!--/type-->

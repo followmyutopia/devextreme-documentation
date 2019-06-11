@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.onLegendClick<!--/id-->
 <!--EventForAction-->..\4 Events\legendClick.md<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->

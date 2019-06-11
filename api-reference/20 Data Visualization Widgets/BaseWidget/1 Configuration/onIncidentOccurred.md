@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.onIncidentOccurred<!--/id-->
 <!--EventForAction-->..\4 Events\incidentOccurred.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

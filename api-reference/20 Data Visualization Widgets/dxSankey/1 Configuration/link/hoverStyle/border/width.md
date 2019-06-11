@@ -1,3 +1,4 @@
+<!--id-->dxSankey.Options.link.hoverStyle.border.width<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

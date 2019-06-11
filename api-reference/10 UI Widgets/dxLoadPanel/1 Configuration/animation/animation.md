@@ -1,3 +1,4 @@
+<!--id-->dxLoadPanel.Options.animation<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->Object<!--/type-->

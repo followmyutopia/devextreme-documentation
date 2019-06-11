@@ -1,3 +1,4 @@
+<!--id-->dxBarGauge.Options.barSpacing<!--/id-->
 ===========================================================================
 <!--default-->4<!--/default-->
 <!--type-->Number<!--/type-->

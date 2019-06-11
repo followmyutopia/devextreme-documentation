@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.RangeBarSeries<!--/id-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->Object<!--/type-->

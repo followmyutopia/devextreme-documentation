@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.rangeValue2Field<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--propertyOf-->..\RangeBarSeries\RangeBarSeries.md,..\RangeAreaSeries\RangeAreaSeries.md<!--/propertyOf-->

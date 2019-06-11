@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.export.allowExportSelectedData<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

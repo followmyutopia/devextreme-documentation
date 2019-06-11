@@ -1,3 +1,4 @@
+<!--id-->dxTreeMap.Options.resolveLabelOverflow<!--/id-->
 <!--dep-->tile\label\textOverflow.md<!--/dep-->
 ===========================================================================
 <!--default-->'hide'<!--/default-->

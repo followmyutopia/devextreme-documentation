@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.chart.seriesTemplate<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Object<!--/type-->

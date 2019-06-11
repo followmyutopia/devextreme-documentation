@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.StockSeries.selectionMode<!--/id-->
 ===========================================================================
 <!--default-->'onlyPoint'<!--/default-->
 <!--acceptValues-->'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'none'<!--/acceptValues-->

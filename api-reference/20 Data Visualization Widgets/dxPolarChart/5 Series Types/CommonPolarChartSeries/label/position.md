@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.label.position<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\..\BarSeries\BarSeries.md,..\..\StackedBarSeries\StackedBarSeries.md<!--/propertyOf-->
 <!--default-->'outside'<!--/default-->

@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.editing.startEditAction<!--/id-->
 ===========================================================================
 <!--default-->'click'<!--/default-->
 <!--acceptValues-->'click' | 'dblClick'<!--/acceptValues-->

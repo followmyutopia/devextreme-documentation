@@ -1,3 +1,4 @@
+<!--id-->dxTabPanel.Options.repaintChangesOnly<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

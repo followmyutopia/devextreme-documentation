@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.argumentField<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->'arg'<!--/default-->

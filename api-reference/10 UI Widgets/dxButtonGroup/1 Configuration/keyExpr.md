@@ -1,3 +1,4 @@
+<!--id-->dxButtonGroup.Options.keyExpr<!--/id-->
 ===========================================================================
 <!--default-->'text'<!--/default-->
 <!--type-->String | function()<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.stickyHovering<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->LocalStore.Options.flushInterval<!--/id-->
 ===========================================================================
 <!--default-->10000<!--/default-->
 <!--type-->Number<!--/type-->

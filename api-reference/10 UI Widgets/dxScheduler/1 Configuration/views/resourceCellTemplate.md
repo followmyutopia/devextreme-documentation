@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.views.resourceCellTemplate<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->template<!--/type-->

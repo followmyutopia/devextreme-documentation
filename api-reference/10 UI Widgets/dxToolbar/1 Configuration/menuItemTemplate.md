@@ -1,3 +1,4 @@
+<!--id-->dxToolbar.Options.menuItemTemplate<!--/id-->
 ===========================================================================
 <!--default-->'menuItem'<!--/default-->
 <!--type-->template<!--/type-->

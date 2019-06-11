@@ -1,3 +1,4 @@
+<!--id-->dxFileUploader.Options.extendSelection<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->true<!--/default-->

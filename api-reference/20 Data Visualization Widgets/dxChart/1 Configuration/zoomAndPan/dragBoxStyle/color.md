@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.zoomAndPan.dragBoxStyle.color<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

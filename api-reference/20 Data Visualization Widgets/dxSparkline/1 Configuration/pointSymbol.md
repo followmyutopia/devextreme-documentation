@@ -1,3 +1,4 @@
+<!--id-->dxSparkline.Options.pointSymbol<!--/id-->
 ===========================================================================
 <!--default-->'circle'<!--/default-->
 <!--acceptValues-->'circle' | 'cross' | 'polygon' | 'square' | 'triangle'<!--/acceptValues-->

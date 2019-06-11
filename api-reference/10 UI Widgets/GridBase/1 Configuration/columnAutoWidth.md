@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.columnAutoWidth<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

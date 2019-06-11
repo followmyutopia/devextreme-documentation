@@ -1,3 +1,4 @@
+<!--id-->viz.currentTheme(platform, colorScheme)<!--/id-->
 ===================================================================
 <!--module-->viz/themes<!--/module-->
 <!--export-->currentTheme<!--/export-->

@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.valueErrorBar.displayMode<!--/id-->
 ===========================================================================
 <!--default-->'auto'<!--/default-->
 <!--acceptValues-->'auto' | 'high' | 'low' | 'none'<!--/acceptValues-->

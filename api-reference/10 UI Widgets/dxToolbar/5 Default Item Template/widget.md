@@ -1,3 +1,4 @@
+<!--id-->dxToolbarItem.widget<!--/id-->
 ===========================================================================
 <!--acceptValues-->'dxAutocomplete' | 'dxButton' | 'dxCheckBox' | 'dxDateBox' | 'dxMenu' | 'dxSelectBox' | 'dxTabs' | 'dxTextBox' | 'dxButtonGroup' | 'dxDropDownButton'<!--/acceptValues-->
 <!--type-->String<!--/type-->

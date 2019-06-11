@@ -1,3 +1,4 @@
+<!--id-->dxDeferRendering<!--/id-->
 ===========================================================================
 <!--module-->ui/defer_rendering<!--/module-->
 <!--export-->default<!--/export-->

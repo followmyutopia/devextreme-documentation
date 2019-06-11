@@ -1,3 +1,4 @@
+<!--id-->dxCalendar.Options.currentDate<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->new Date()<!--/default-->

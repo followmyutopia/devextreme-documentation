@@ -1,3 +1,4 @@
+<!--id-->dxSpeedDialAction<!--/id-->
 <!--widgettree-->
 icon: "tel",
 onClick: function() {

@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.title.wordWrap<!--/id-->
 ===========================================================================
 <!--default-->'normal'<!--/default-->
 <!--acceptValues-->'normal' | 'breakWord' | 'none'<!--/acceptValues-->

@@ -1,3 +1,4 @@
+<!--id-->dxDrawer.Options.template<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->template<!--/type-->

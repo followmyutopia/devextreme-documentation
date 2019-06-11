@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.summary.texts.max<!--/id-->
 ===========================================================================
 <!--default-->'Max={0}'<!--/default-->
 <!--type-->String<!--/type-->

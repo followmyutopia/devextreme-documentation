@@ -1,3 +1,4 @@
+<!--id-->dxCalendar.Options.min<!--/id-->
 ===========================================================================
 <!--default-->new Date(1000, 0)<!--/default-->
 <!--type-->Date | Number | String<!--/type-->

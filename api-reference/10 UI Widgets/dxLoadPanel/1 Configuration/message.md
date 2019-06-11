@@ -1,3 +1,4 @@
+<!--id-->dxLoadPanel.Options.message<!--/id-->
 ===========================================================================
 <!--default-->'Loading ...', '' (Material)<!--/default-->
 <!--type-->String<!--/type-->

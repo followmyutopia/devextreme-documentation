@@ -1,3 +1,4 @@
+<!--id-->dxBarGauge.Options.animation<!--/id-->
 ===========================================================================
 <!--type-->Object<!--/type-->
 <!--inherits-->..\..\..\BaseGauge\1 Configuration\animation\animation.md<!--/inherits-->

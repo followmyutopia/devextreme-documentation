@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.fields.calculateSummaryValue<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->function(e)<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxSelectBox<!--/id-->
 <!--widgettree-->
 dataSource: [
     "HD Video Player",

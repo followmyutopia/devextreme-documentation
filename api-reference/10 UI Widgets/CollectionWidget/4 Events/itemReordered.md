@@ -1,3 +1,4 @@
+<!--id-->CollectionWidget.itemReordered<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--type-->eventType<!--/type-->

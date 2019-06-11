@@ -1,3 +1,4 @@
+<!--id-->dxAccordion.Options.deferRendering<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->DiagramDataSourceParameters.layout<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'tree' | 'sugiyama'<!--/acceptValues-->

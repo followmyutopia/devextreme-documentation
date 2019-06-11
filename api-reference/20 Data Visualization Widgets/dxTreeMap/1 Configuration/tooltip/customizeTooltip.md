@@ -1,3 +1,4 @@
+<!--id-->dxTreeMap.Options.tooltip.customizeTooltip<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->function(info)<!--/type-->

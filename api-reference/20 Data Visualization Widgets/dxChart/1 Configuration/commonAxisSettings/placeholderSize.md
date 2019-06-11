@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.placeholderSize<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->Number<!--/type-->

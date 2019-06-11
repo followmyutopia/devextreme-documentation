@@ -1,3 +1,4 @@
+<!--id-->events.on(element, eventName, selector, handler)<!--/id-->
 ===================================================================
 <!--module-->events<!--/module-->
 <!--export-->on<!--/export-->

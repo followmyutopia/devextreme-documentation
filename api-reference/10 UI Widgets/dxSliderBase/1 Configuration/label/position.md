@@ -1,3 +1,4 @@
+<!--id-->dxSliderBase.Options.label.position<!--/id-->
 ===========================================================================
 <!--default-->'bottom'<!--/default-->
 <!--acceptValues-->'bottom' | 'top'<!--/acceptValues-->

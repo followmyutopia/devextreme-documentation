@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.scrollBar.width<!--/id-->
 ===========================================================================
 <!--default-->10<!--/default-->
 <!--type-->Number<!--/type-->

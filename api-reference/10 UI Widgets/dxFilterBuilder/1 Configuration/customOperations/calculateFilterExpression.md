@@ -1,3 +1,4 @@
+<!--id-->dxFilterBuilderCustomOperation.calculateFilterExpression<!--/id-->
 ===========================================================================
 <!--type-->function(filterValue, field)<!--/type-->
 ===========================================================================

@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.Options.adaptiveLayout.width<!--/id-->
 ===========================================================================
 <!--default-->80<!--/default-->
 <!--type-->Number<!--/type-->

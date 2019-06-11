@@ -1,3 +1,4 @@
+<!--id-->dxTreeView.Options.showCheckBoxesMode<!--/id-->
 ===========================================================================
 <!--default-->'none'<!--/default-->
 <!--acceptValues-->'none' | 'normal' | 'selectAll'<!--/acceptValues-->

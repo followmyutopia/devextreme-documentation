@@ -1,3 +1,4 @@
+<!--id-->UI Events.dxtranslatestart<!--/id-->
 ===========================================================================
 <!--module-->events/transform<!--/module-->
 <!--type-->eventType<!--/type-->

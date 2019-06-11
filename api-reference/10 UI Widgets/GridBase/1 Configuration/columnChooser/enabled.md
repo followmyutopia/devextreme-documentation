@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.columnChooser.enabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

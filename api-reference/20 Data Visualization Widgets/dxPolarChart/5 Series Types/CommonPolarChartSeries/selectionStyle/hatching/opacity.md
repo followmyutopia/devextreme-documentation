@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.selectionStyle.hatching.opacity<!--/id-->
 ===========================================================================
 <!--default-->0.5<!--/default-->
 <!--type-->Number<!--/type-->

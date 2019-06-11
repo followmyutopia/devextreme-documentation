@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.legends.source.grouping<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->String<!--/type-->

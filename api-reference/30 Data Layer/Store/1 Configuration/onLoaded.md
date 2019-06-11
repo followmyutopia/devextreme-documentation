@@ -1,3 +1,4 @@
+<!--id-->Store.Options.onLoaded<!--/id-->
 <!--EventForAction-->..\4 Events\loaded.md<!--/EventForAction-->
 ===========================================================================
 <!--type-->function(result)<!--/type-->

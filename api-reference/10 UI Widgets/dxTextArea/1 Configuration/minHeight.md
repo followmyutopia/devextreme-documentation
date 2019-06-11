@@ -1,3 +1,4 @@
+<!--id-->dxTextArea.Options.minHeight<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number | String<!--/type-->

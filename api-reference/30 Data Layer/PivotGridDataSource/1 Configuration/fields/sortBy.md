@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.fields.sortBy<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'displayText' | 'value' | 'none'<!--/acceptValues-->

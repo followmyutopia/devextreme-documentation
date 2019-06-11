@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.headerFilter.height<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

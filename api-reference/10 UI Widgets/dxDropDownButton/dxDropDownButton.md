@@ -1,3 +1,4 @@
+<!--id-->dxDropDownButton<!--/id-->
 <!--widgettree-->
 displayExpr: "name",
 keyExpr: "id",

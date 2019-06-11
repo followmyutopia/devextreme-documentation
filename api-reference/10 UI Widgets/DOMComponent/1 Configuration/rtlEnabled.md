@@ -1,3 +1,4 @@
+<!--id-->DOMComponent.Options.rtlEnabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

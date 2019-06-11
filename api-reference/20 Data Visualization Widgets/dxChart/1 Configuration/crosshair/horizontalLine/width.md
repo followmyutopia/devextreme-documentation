@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.crosshair.horizontalLine.width<!--/id-->
 ===========================================================================
 <!--default-->1<!--/default-->
 <!--type-->Number<!--/type-->

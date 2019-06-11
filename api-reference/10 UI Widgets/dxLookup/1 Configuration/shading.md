@@ -1,3 +1,4 @@
+<!--id-->dxLookup.Options.shading<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

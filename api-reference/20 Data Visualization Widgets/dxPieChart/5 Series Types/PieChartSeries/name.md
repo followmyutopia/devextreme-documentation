@@ -1,3 +1,4 @@
+<!--id-->PieChartSeries.name<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.editing.selectTextOnEditStart<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

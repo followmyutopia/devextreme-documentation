@@ -1,3 +1,4 @@
+<!--id-->GaugeIndicator<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--inherits-->..\CommonIndicator\CommonIndicator.md<!--/inherits-->

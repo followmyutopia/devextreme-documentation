@@ -1,3 +1,4 @@
+<!--id-->viz.exportFromMarkup(markup, options)<!--/id-->
 ===================================================================
 <!--module-->viz/export<!--/module-->
 <!--export-->exportFromMarkup<!--/export-->

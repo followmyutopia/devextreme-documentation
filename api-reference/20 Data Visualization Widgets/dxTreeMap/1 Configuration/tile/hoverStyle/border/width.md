@@ -1,3 +1,4 @@
+<!--id-->dxTreeMap.Options.tile.hoverStyle.border.width<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

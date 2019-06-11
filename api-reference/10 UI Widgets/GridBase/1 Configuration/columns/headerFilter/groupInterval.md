@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.headerFilter.groupInterval<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'day' | 'hour' | 'minute' | 'month' | 'quarter' | 'second' | 'year'<!--/acceptValues-->

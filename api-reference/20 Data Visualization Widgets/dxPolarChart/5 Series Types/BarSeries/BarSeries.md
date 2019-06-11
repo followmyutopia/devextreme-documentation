@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.barpolarseries<!--/id-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->Object<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxLookup.Options.animation<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Object<!--/type-->

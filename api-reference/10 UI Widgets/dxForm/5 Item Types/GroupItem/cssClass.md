@@ -1,3 +1,4 @@
+<!--id-->dxFormGroupItem.cssClass<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

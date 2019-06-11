@@ -1,3 +1,4 @@
+<!--id-->NumericRule.message<!--/id-->
 ===========================================================================
 <!--default-->'Value should be a number'<!--/default-->
 <!--type-->String<!--/type-->

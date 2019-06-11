@@ -1,3 +1,4 @@
+<!--id-->dxPivotGridFieldChooser.Options.texts.filterFields<!--/id-->
 ===========================================================================
 <!--default-->'Filter Fields'<!--/default-->
 <!--type-->String<!--/type-->

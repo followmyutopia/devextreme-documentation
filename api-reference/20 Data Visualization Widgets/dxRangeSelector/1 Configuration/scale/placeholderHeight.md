@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.scale.placeholderHeight<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

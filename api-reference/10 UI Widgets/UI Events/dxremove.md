@@ -1,3 +1,4 @@
+<!--id-->UI Events.dxremove<!--/id-->
 ===========================================================================
 <!--module-->events/remove<!--/module-->
 <!--type-->eventType<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxFilterBuilder.Options.filterOperationDescriptions.endsWith<!--/id-->
 ===========================================================================
 <!--default-->'Ends with'<!--/default-->
 <!--type-->String<!--/type-->

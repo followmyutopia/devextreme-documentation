@@ -1,3 +1,4 @@
+<!--id-->dxFormSimpleItem.editorType<!--/id-->
 ===========================================================================
 <!--acceptValues-->'dxAutocomplete' | 'dxCalendar' | 'dxCheckBox' | 'dxColorBox' | 'dxDateBox' | 'dxDropDownBox' | 'dxLookup' | 'dxNumberBox' | 'dxRadioGroup' | 'dxRangeSlider' | 'dxSelectBox' | 'dxSlider' | 'dxSwitch' | 'dxTagBox' | 'dxTextArea' | 'dxTextBox'<!--/acceptValues-->
 <!--type-->String<!--/type-->

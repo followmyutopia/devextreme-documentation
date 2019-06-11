@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.layers.borderColor<!--/id-->
 ===========================================================================
 <!--default-->'#9d9d9d'<!--/default-->
 <!--type-->String<!--/type-->

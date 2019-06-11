@@ -1,3 +1,4 @@
+<!--id-->dxDiagram.Options.nodes.itemsExpr<!--/id-->
 ===========================================================================
 <!--default-->'items'<!--/default-->
 <!--type-->String | function(data)<!--/type-->

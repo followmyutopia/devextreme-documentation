@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.grouping.allowCollapsing<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

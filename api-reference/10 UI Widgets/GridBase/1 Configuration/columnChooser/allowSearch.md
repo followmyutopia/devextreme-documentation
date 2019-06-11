@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.columnChooser.allowSearch<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxLookup.Options.grouped<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

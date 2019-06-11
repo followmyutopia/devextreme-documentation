@@ -1,3 +1,4 @@
+<!--id-->dxSankey.Options.label.shadow.opacity<!--/id-->
 ===========================================================================
 <!--default-->0<!--/default-->
 <!--type-->Number<!--/type-->

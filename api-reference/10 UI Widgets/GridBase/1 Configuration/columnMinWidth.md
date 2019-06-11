@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.columnMinWidth<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

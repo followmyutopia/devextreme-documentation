@@ -1,3 +1,4 @@
+<!--id-->dxSankey.Options.tooltip.customizeNodeTooltip<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->function(info)<!--/type-->

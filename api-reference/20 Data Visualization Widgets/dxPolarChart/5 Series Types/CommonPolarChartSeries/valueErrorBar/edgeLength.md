@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.valueErrorBar.edgeLength<!--/id-->
 ===========================================================================
 <!--default-->8<!--/default-->
 <!--type-->Number<!--/type-->

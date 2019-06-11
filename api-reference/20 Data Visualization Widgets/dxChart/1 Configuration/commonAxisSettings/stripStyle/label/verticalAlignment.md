@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.stripStyle.label.verticalAlignment<!--/id-->
 ===========================================================================
 <!--default-->'center'<!--/default-->
 <!--acceptValues-->'bottom' | 'center' | 'top'<!--/acceptValues-->

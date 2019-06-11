@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.fieldPanel.texts.filterFieldArea<!--/id-->
 ===========================================================================
 <!--default-->'Drop Filter Fields Here'<!--/default-->
 <!--type-->String<!--/type-->

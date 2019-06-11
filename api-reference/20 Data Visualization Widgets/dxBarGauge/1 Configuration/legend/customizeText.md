@@ -1,3 +1,4 @@
+<!--id-->dxBarGauge.Options.legend.customizeText<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(arg)<!--/type-->

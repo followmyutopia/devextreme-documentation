@@ -1,3 +1,4 @@
+<!--id-->BaseSparkline.tooltipHidden<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

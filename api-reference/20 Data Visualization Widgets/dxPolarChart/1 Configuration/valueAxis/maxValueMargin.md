@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.valueAxis.maxValueMargin<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

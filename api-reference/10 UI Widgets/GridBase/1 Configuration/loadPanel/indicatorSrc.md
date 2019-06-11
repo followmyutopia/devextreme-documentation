@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.loadPanel.indicatorSrc<!--/id-->
 ===========================================================================
 <!--default-->''<!--/default-->
 <!--type-->String<!--/type-->

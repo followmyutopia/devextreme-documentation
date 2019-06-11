@@ -1,3 +1,4 @@
+<!--id-->utils.requestAnimationFrame(callback)<!--/id-->
 ===================================================================
 <!--module-->animation/frame<!--/module-->
 <!--export-->request<!--/export-->

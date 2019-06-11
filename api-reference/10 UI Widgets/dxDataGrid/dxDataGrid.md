@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid<!--/id-->
 <!--widgettree-->
 dataSource: [{
     "ID": 1,

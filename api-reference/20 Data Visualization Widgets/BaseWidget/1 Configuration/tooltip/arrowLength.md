@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.tooltip.arrowLength<!--/id-->
 ===========================================================================
 <!--default-->10<!--/default-->
 <!--type-->Number<!--/type-->

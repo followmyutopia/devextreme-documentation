@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.valueAxis.logarithmBase<!--/id-->
 ===========================================================================
 <!--default-->10<!--/default-->
 <!--type-->Number<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxPieChartSeriesTypes.CommonPieChartSeries.hoverStyle.hatching.direction<!--/id-->
 ===========================================================================
 <!--default-->'right'<!--/default-->
 <!--acceptValues-->'left' | 'none' | 'right'<!--/acceptValues-->

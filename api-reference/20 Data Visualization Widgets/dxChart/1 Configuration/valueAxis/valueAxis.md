@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.valueAxis<!--/id-->
 ===========================================================================
 <!--type-->Object | Array<Object><!--/type-->
 <!--inherits-->..\commonAxisSettings\commonAxisSettings.md<!--/inherits-->

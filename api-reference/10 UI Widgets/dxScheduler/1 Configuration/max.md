@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.max<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Date | Number | String<!--/type-->

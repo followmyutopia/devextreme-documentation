@@ -1,3 +1,4 @@
+<!--id-->dxResizable.Options.handles<!--/id-->
 ===========================================================================
 <!--default-->'all'<!--/default-->
 <!--acceptValues-->'bottom' | 'left' | 'right' | 'top' | 'all'<!--/acceptValues-->

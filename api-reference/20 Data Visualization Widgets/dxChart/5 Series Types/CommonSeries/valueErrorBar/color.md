@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.valueErrorBar.color<!--/id-->
 ===========================================================================
 <!--default-->'black'<!--/default-->
 <!--type-->String<!--/type-->

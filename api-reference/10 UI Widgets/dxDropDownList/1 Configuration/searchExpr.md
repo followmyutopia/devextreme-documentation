@@ -1,3 +1,4 @@
+<!--id-->dxDropDownList.Options.searchExpr<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->getter | Array<getter><!--/type-->

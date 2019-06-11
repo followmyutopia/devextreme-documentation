@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.fields.headerFilter.height<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

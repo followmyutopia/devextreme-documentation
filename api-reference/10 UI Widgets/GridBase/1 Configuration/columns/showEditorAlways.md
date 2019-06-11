@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.showEditorAlways<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

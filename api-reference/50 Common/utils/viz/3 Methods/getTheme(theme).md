@@ -1,3 +1,4 @@
+<!--id-->viz.getTheme(theme)<!--/id-->
 ===================================================================
 <!--module-->viz/themes<!--/module-->
 <!--export-->getTheme<!--/export-->

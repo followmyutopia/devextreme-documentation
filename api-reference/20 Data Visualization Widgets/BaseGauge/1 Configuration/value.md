@@ -1,3 +1,4 @@
+<!--id-->BaseGauge.Options.value<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->

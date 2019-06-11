@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.resources.valueExpr<!--/id-->
 ===========================================================================
 <!--default-->'id'<!--/default-->
 <!--type-->String | function()<!--/type-->

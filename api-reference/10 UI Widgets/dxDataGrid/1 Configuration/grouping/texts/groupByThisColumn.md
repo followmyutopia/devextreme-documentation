@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.grouping.texts.groupByThisColumn<!--/id-->
 ===========================================================================
 <!--default-->'Group by This Column'<!--/default-->
 <!--type-->String<!--/type-->

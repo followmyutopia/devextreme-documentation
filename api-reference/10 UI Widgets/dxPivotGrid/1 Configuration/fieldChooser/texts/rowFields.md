@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.fieldChooser.texts.rowFields<!--/id-->
 ===========================================================================
 <!--default-->'Row Fields'<!--/default-->
 <!--type-->String<!--/type-->

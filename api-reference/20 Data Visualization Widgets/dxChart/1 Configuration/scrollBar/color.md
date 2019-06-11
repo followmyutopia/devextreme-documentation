@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.scrollBar.color<!--/id-->
 ===========================================================================
 <!--default-->'gray'<!--/default-->
 <!--type-->String<!--/type-->

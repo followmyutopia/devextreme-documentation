@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.argumentAxis.visualRangeUpdateMode<!--/id-->
 ===========================================================================
 <!--default-->'auto'<!--/default-->
 <!--acceptValues-->'auto' | 'keep' | 'reset' | 'shift'<!--/acceptValues-->

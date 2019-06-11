@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.export.excelWrapTextEnabled<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Boolean<!--/type-->

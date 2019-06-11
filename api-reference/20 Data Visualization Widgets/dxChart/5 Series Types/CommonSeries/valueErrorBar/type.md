@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.valueErrorBar.type<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'fixed' | 'percent' | 'stdDeviation' | 'stdError' | 'variance'<!--/acceptValues-->

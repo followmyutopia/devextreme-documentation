@@ -1,3 +1,4 @@
+<!--id-->dxLookup.Options.closeOnOutsideClick<!--/id-->
 ===========================================================================
 <!--default-->false, true (Material)<!--/default-->
 <!--type-->Boolean | function()<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxTreeView.Options.expandEvent<!--/id-->
 ===========================================================================
 <!--default-->'dblclick'<!--/default-->
 <!--acceptValues-->'dblclick' | 'click'<!--/acceptValues-->

@@ -1,3 +1,4 @@
+<!--id-->dxChart.seriesSelectionChanged<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

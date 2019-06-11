@@ -1,3 +1,4 @@
+<!--id-->dxDataGridColumn.grouped<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->false<!--/default-->

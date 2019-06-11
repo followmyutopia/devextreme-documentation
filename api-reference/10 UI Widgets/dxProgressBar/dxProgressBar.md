@@ -1,3 +1,4 @@
+<!--id-->dxProgressBar<!--/id-->
 <!--widgettree-->
 
 <!--/widgettree-->

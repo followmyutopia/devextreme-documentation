@@ -1,3 +1,4 @@
+<!--id-->BaseChart.tooltipShown<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.groupPanel.visible<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--acceptValues-->'auto'<!--/acceptValues-->

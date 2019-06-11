@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.argumentAxis.startAngle<!--/id-->
 ===========================================================================
 <!--default-->0<!--/default-->
 <!--type-->Number<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.valueErrorBar.value<!--/id-->
 ===========================================================================
 <!--default-->1<!--/default-->
 <!--type-->Number<!--/type-->

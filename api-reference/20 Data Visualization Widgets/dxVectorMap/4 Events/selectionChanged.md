@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.selectionChanged<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

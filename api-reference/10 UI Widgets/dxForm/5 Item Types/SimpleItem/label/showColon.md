@@ -1,3 +1,4 @@
+<!--id-->dxFormSimpleItem.label.showColon<!--/id-->
 ===========================================================================
 <!--default-->from showColonAfterLabel<!--/default-->
 <!--type-->Boolean<!--/type-->

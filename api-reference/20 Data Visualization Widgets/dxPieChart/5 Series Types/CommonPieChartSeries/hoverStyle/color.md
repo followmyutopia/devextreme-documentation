@@ -1,3 +1,4 @@
+<!--id-->dxPieChartSeriesTypes.CommonPieChartSeries.hoverStyle.color<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

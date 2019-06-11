@@ -1,3 +1,4 @@
+<!--id-->dxMenu<!--/id-->
 <!--widgettree-->
 dataSource: [
     { text: "Video Players" },

@@ -1,3 +1,4 @@
+<!--id-->dxPivotGridFieldChooser.Options.dataSource<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->PivotGridDataSource<!--/type-->

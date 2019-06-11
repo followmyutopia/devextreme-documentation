@@ -1,3 +1,4 @@
+<!--id-->EndpointSelector<!--/id-->
 ===========================================================================
 <!--module-->data/endpoint_selector<!--/module-->
 <!--export-->default<!--/export-->

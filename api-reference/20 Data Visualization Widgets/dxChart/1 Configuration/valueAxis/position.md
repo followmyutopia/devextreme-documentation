@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.valueAxis.position<!--/id-->
 ===========================================================================
 <!--default-->'left'<!--/default-->
 <!--acceptValues-->'bottom' | 'left' | 'right' | 'top'<!--/acceptValues-->

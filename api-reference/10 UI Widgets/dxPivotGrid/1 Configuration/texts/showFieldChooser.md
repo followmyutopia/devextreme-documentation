@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.texts.showFieldChooser<!--/id-->
 ===========================================================================
 <!--default-->'Show Field Chooser'<!--/default-->
 <!--type-->String<!--/type-->

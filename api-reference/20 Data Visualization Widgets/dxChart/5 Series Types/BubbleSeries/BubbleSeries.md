@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.BubbleSeries<!--/id-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->Object<!--/type-->

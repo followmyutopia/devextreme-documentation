@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.StepAreaSeries<!--/id-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->Object<!--/type-->

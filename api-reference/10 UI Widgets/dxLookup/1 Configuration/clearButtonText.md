@@ -1,3 +1,4 @@
+<!--id-->dxLookup.Options.clearButtonText<!--/id-->
 ===========================================================================
 <!--default-->'Clear'<!--/default-->
 <!--type-->String<!--/type-->

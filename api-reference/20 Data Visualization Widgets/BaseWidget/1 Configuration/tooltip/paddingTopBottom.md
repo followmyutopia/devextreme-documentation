@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.tooltip.paddingTopBottom<!--/id-->
 ===========================================================================
 <!--default-->15<!--/default-->
 <!--type-->Number<!--/type-->

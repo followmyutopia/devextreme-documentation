@@ -1,3 +1,4 @@
+<!--id-->dxFileUploader.Options.onUploadStarted<!--/id-->
 <!--EventForAction-->..\4 Events\uploadStarted.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

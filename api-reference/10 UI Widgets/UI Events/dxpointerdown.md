@@ -1,3 +1,4 @@
+<!--id-->UI Events.dxpointerdown<!--/id-->
 ===========================================================================
 <!--module-->events/pointer<!--/module-->
 <!--type-->eventType<!--/type-->

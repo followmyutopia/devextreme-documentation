@@ -1,3 +1,4 @@
+<!--id-->dxFormButtonItem.visibleIndex<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

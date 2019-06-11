@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.fieldPanel.texts.columnFieldArea<!--/id-->
 ===========================================================================
 <!--default-->'Drop Column Fields Here'<!--/default-->
 <!--type-->String<!--/type-->

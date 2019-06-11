@@ -1,3 +1,4 @@
+<!--id-->dxFileUploader.Options.uploadFailedMessage<!--/id-->
 ===========================================================================
 <!--default-->'Upload failed'<!--/default-->
 <!--type-->String<!--/type-->

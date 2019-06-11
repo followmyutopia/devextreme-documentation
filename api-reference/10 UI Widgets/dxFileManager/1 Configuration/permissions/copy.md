@@ -1,3 +1,4 @@
+<!--id-->dxFileManager.Options.permissions.copy<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

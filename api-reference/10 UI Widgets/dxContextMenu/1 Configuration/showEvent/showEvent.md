@@ -1,3 +1,4 @@
+<!--id-->dxContextMenu.Options.showEvent<!--/id-->
 ===========================================================================
 <!--default-->'dxcontextmenu'<!--/default-->
 <!--type-->Object | String<!--/type-->

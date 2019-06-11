@@ -1,3 +1,4 @@
+<!--id-->dxForm.Options.alignItemLabels<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

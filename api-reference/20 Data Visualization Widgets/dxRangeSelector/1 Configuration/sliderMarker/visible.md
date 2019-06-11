@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.sliderMarker.visible<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

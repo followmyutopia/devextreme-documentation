@@ -1,3 +1,4 @@
+<!--id-->BaseGauge.Options.scale.startValue<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->0<!--/default-->

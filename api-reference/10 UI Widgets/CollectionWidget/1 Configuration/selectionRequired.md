@@ -1,3 +1,4 @@
+<!--id-->CollectionWidget.Options.selectionRequired<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->false<!--/default-->

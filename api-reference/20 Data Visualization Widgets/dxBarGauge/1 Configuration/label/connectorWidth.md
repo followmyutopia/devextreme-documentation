@@ -1,3 +1,4 @@
+<!--id-->dxBarGauge.Options.label.connectorWidth<!--/id-->
 ===========================================================================
 <!--default-->2<!--/default-->
 <!--type-->Number<!--/type-->

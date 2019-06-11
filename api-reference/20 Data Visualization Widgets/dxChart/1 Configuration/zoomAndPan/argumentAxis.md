@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.zoomAndPan.argumentAxis<!--/id-->
 ===========================================================================
 <!--default-->'none'<!--/default-->
 <!--acceptValues-->'both' | 'none' | 'pan' | 'zoom'<!--/acceptValues-->

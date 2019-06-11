@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.texts.expandAll<!--/id-->
 ===========================================================================
 <!--default-->'Expand All'<!--/default-->
 <!--type-->String<!--/type-->

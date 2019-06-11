@@ -1,3 +1,4 @@
+<!--id-->dxTreeMap.Options.group.selectionStyle.border.color<!--/id-->
 ===========================================================================
 <!--default-->'#232323'<!--/default-->
 <!--type-->String<!--/type-->

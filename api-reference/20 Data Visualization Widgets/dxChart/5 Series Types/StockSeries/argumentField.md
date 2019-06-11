@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.StockSeries.argumentField<!--/id-->
 ===========================================================================
 <!--default-->'date'<!--/default-->
 <!--type-->String<!--/type-->

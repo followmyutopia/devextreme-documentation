@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.hideEmptySummaryCells<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

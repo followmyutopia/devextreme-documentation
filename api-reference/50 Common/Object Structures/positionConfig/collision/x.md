@@ -1,3 +1,4 @@
+<!--id-->positionConfig.collision.x<!--/id-->
 ===========================================================================
 <!--default-->'none'<!--/default-->
 <!--acceptValues-->'fit' | 'flip' | 'flipfit' | 'none'<!--/acceptValues-->

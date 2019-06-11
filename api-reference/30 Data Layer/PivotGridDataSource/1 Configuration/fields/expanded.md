@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.fields.expanded<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

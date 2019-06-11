@@ -1,3 +1,4 @@
+<!--id-->dxPivotGridFieldChooser.Options.state<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->Object<!--/type-->

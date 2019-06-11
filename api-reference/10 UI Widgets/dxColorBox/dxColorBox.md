@@ -1,3 +1,4 @@
+<!--id-->dxColorBox<!--/id-->
 <!--widgettree-->
 opened: true
 <!--/widgettree-->

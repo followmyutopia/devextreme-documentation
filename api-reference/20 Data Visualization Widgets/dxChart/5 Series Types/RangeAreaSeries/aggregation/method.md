@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.RangeAreaSeries.aggregation.method<!--/id-->
 ===========================================================================
 <!--default-->'range'<!--/default-->
 <!--acceptValues-->'range' | 'custom'<!--/acceptValues-->

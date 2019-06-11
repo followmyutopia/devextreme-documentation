@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.selectionStyle.color<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

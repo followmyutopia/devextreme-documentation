@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.defaultPane<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->

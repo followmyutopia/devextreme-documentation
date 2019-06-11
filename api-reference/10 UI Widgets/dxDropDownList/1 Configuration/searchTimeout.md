@@ -1,3 +1,4 @@
+<!--id-->dxDropDownList.Options.searchTimeout<!--/id-->
 ===========================================================================
 <!--default-->500<!--/default-->
 <!--type-->Number<!--/type-->

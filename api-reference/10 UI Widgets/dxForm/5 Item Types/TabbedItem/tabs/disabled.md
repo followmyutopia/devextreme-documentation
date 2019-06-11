@@ -1,3 +1,4 @@
+<!--id-->dxFormTabbedItem.tabs.disabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.onAdaptiveDetailRowPreparing<!--/id-->
 <!--EventForAction-->..\4 Events\adaptiveDetailRowPreparing.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

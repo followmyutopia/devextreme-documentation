@@ -1,3 +1,4 @@
+<!--id-->dxDropDownBox.contentReady<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--type-->eventType<!--/type-->

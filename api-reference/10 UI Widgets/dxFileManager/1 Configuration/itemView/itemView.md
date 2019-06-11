@@ -1,3 +1,4 @@
+<!--id-->dxFileManager.Options.itemView<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->Object<!--/type-->

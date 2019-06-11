@@ -1,3 +1,4 @@
+<!--id-->dxCircularGauge.Options.scale.label.hideFirstOrLast<!--/id-->
 ===========================================================================
 <!--default-->'last'<!--/default-->
 <!--acceptValues-->'first' | 'last'<!--/acceptValues-->

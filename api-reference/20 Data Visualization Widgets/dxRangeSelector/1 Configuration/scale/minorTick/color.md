@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.scale.minorTick.color<!--/id-->
 ===========================================================================
 <!--default-->'#000000'<!--/default-->
 <!--type-->String<!--/type-->

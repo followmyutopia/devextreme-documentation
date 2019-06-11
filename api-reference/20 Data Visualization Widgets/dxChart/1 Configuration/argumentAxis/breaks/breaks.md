@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.argumentAxis.breaks<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->

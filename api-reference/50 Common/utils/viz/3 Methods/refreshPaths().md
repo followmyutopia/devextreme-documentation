@@ -1,3 +1,4 @@
+<!--id-->viz.refreshPaths()<!--/id-->
 ===================================================================
 <!--module-->viz/utils<!--/module-->
 <!--export-->refreshPaths<!--/export-->

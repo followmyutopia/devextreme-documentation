@@ -1,3 +1,4 @@
+<!--id-->dxBullet.Options.showTarget<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

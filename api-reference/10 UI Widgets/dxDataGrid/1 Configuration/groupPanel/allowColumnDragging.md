@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.groupPanel.allowColumnDragging<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

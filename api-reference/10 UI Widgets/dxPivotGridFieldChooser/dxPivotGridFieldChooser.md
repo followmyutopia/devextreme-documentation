@@ -1,3 +1,4 @@
+<!--id-->dxPivotGridFieldChooser<!--/id-->
 ===========================================================================
 <!--module-->ui/pivot_grid_field_chooser<!--/module-->
 <!--export-->default<!--/export-->

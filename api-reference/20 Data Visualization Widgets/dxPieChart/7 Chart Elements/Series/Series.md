@@ -1,3 +1,4 @@
+<!--id-->pieChartSeriesObject<!--/id-->
 ===========================================================================
 <!--type-->Object<!--/type-->
 <!--inherits-->..\..\..\BaseChart\7 Chart Elements\Series\Series.md<!--/inherits-->

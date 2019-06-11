@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.tooltip.paddingLeftRight<!--/id-->
 ===========================================================================
 <!--default-->18<!--/default-->
 <!--type-->Number<!--/type-->

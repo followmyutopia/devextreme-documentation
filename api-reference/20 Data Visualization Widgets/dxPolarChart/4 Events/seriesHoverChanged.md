@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.seriesHoverChanged<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

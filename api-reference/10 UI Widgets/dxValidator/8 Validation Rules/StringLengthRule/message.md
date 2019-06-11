@@ -1,3 +1,4 @@
+<!--id-->StringLengthRule.message<!--/id-->
 ===========================================================================
 <!--default-->'The length of the value is not correct'<!--/default-->
 <!--type-->String<!--/type-->

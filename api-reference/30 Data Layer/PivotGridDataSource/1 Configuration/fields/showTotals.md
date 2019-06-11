@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.fields.showTotals<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

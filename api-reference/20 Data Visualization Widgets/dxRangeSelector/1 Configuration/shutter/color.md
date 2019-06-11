@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.shutter.color<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

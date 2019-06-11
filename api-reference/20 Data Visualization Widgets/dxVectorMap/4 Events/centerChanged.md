@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.centerChanged<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

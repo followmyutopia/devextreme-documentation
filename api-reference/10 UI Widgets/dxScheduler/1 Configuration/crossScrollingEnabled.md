@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.crossScrollingEnabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

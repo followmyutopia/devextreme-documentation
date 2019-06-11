@@ -1,3 +1,4 @@
+<!--id-->LocalStore.Options.immediate<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

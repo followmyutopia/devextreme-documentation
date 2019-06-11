@@ -1,3 +1,4 @@
+<!--id-->dxResizable.Options.onResizeEnd<!--/id-->
 <!--EventForAction-->..\4 Events\resizeEnd.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

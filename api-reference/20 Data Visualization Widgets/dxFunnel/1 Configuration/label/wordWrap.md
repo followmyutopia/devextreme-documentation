@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.Options.label.wordWrap<!--/id-->
 ===========================================================================
 <!--default-->'normal'<!--/default-->
 <!--acceptValues-->'normal' | 'breakWord' | 'none'<!--/acceptValues-->

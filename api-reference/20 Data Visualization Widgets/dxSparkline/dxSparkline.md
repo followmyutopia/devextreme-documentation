@@ -1,3 +1,4 @@
+<!--id-->dxSparkline<!--/id-->
 <!--widgettree-->
 dataSource: [{
     arg: "1",

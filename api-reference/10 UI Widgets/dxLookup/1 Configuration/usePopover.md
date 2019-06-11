@@ -1,3 +1,4 @@
+<!--id-->dxLookup.Options.usePopover<!--/id-->
 ===========================================================================
 <!--default-->false, true (desktop, iOS), false (Material)<!--/default-->
 <!--type-->Boolean<!--/type-->

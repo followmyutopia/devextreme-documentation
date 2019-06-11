@@ -1,3 +1,4 @@
+<!--id-->dxTreeView.Options.onItemRendered<!--/id-->
 <!--merge--><!--/merge-->
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.StackedSplineSeries.label.customizeText<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(pointInfo)<!--/type-->

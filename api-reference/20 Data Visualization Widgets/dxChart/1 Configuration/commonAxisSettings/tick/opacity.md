@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.tick.opacity<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

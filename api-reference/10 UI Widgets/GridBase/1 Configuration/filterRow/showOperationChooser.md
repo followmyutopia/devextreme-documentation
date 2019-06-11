@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.filterRow.showOperationChooser<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

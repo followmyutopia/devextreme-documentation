@@ -1,3 +1,4 @@
+<!--id-->dxTabs<!--/id-->
 <!--widgettree-->
 dataSource: [
     { text: "Home", icon: "home" },

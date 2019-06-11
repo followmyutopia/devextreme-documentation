@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.argumentAxis.constantLines.extendAxis<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

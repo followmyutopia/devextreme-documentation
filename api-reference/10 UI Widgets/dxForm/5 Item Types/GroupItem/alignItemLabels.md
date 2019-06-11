@@ -1,3 +1,4 @@
+<!--id-->dxFormGroupItem.alignItemLabels<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

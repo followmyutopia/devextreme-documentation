@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.scrolling.showScrollbar<!--/id-->
 ===========================================================================
 <!--default-->'onScroll'<!--/default-->
 <!--acceptValues-->'always' | 'never' | 'onHover' | 'onScroll'<!--/acceptValues-->

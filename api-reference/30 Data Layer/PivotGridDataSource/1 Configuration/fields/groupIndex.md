@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.fields.groupIndex<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

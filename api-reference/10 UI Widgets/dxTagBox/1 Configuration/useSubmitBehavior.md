@@ -1,3 +1,4 @@
+<!--id-->dxTagBox.Options.useSubmitBehavior<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->true<!--/default-->

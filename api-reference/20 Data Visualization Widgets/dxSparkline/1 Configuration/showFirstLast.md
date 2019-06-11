@@ -1,3 +1,4 @@
+<!--id-->dxSparkline.Options.showFirstLast<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

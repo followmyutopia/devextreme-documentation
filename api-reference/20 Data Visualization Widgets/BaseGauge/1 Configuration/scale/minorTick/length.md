@@ -1,3 +1,4 @@
+<!--id-->BaseGauge.Options.scale.minorTick.length<!--/id-->
 ===========================================================================
 <!--default-->3<!--/default-->
 <!--type-->Number<!--/type-->

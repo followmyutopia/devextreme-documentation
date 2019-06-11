@@ -1,3 +1,4 @@
+<!--id-->dxOverlay.Options.closeOnOutsideClick<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean | function(event)<!--/type-->

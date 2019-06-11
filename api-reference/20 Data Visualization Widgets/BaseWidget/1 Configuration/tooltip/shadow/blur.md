@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.tooltip.shadow.blur<!--/id-->
 ===========================================================================
 <!--default-->2<!--/default-->
 <!--type-->Number<!--/type-->

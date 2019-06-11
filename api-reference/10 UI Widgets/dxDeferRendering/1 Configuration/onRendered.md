@@ -1,3 +1,4 @@
+<!--id-->dxDeferRendering.Options.onRendered<!--/id-->
 <!--EventForAction-->..\4 Events\rendered.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

@@ -1,3 +1,4 @@
+<!--id-->dxLoadPanel.Options.container<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String | Node | jQuery<!--/type-->

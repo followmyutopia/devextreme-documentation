@@ -1,3 +1,4 @@
+<!--id-->dxMap<!--/id-->
 <!--widgettree-->
 
 <!--/widgettree-->

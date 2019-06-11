@@ -1,3 +1,4 @@
+<!--id-->dxTreeList.Options.onCellDblClick<!--/id-->
 <!--EventForAction-->..\4 Events\cellDblClick.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

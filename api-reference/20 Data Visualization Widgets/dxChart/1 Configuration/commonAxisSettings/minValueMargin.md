@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.minValueMargin<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

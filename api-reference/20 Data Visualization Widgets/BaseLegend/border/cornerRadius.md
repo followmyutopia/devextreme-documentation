@@ -1,3 +1,4 @@
+<!--id-->BaseLegend.border.cornerRadius<!--/id-->
 ===========================================================================
 <!--default-->0<!--/default-->
 <!--type-->Number<!--/type-->

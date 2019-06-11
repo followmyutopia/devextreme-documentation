@@ -1,3 +1,4 @@
+<!--id-->dxDropDownList.Options.searchEnabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

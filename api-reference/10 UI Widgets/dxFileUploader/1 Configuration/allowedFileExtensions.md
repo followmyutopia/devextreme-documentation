@@ -1,3 +1,4 @@
+<!--id-->dxFileUploader.Options.allowedFileExtensions<!--/id-->
 ===========================================================================
 <!--default-->[]<!--/default-->
 <!--type-->Array<String><!--/type-->

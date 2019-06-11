@@ -1,3 +1,4 @@
+<!--id-->BaseGauge.Options.scale.minorTick.color<!--/id-->
 ===========================================================================
 <!--default-->'#FFFFFF'<!--/default-->
 <!--type-->String<!--/type-->

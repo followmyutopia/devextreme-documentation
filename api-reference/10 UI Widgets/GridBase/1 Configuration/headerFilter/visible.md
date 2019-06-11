@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.headerFilter.visible<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

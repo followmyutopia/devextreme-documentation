@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.containerBackgroundColor<!--/id-->
 ===========================================================================
 <!--default-->'#FFFFFF'<!--/default-->
 <!--type-->String<!--/type-->

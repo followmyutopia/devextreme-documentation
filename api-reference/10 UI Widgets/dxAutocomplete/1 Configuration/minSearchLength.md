@@ -1,3 +1,4 @@
+<!--id-->dxAutocomplete.Options.minSearchLength<!--/id-->
 ===========================================================================
 <!--default-->1<!--/default-->
 <!--type-->Number<!--/type-->

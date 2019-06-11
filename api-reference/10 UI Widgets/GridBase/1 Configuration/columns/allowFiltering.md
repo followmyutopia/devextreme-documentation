@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.allowFiltering<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

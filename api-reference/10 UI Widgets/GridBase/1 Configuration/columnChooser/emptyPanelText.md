@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.columnChooser.emptyPanelText<!--/id-->
 ===========================================================================
 <!--default-->'Drag a column here to hide it'<!--/default-->
 <!--type-->String<!--/type-->

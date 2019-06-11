@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.maxLabelCount<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

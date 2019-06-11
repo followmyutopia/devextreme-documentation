@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.chart.commonSeriesSettings<!--/id-->
 ===========================================================================
 <!--type-->dxChart_Options_commonSeriesSettings<!--/type-->
 ===========================================================================

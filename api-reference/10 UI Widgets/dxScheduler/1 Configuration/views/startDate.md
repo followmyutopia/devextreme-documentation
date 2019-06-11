@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.views.startDate<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Date | Number | String<!--/type-->

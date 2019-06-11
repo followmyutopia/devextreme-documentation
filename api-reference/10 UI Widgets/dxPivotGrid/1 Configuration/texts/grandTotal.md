@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.texts.grandTotal<!--/id-->
 ===========================================================================
 <!--default-->'Grand Total'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.noDataText<!--/id-->
 ===========================================================================
 <!--default-->'No data'<!--/default-->
 <!--type-->String<!--/type-->

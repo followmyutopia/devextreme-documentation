@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.tooltip.customizeTooltip<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->

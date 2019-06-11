@@ -1,3 +1,4 @@
+<!--id-->BaseChart.Options.animation.maxPointCountSupported<!--/id-->
 ===========================================================================
 <!--default-->300<!--/default-->
 <!--type-->Number<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.zoomingEnabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

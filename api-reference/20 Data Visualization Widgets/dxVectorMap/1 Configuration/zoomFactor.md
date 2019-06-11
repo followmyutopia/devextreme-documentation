@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.zoomFactor<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->1<!--/default-->

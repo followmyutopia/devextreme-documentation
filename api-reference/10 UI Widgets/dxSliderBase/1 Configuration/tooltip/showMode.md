@@ -1,3 +1,4 @@
+<!--id-->dxSliderBase.Options.tooltip.showMode<!--/id-->
 ===========================================================================
 <!--default-->'onHover'<!--/default-->
 <!--acceptValues-->'always' | 'onHover'<!--/acceptValues-->

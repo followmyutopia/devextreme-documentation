@@ -1,3 +1,4 @@
+<!--id-->dxMap.Options.onReady<!--/id-->
 <!--EventForAction-->..\4 Events\ready.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

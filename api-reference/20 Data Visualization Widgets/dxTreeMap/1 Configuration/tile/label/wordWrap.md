@@ -1,3 +1,4 @@
+<!--id-->dxTreeMap.Options.tile.label.wordWrap<!--/id-->
 ===========================================================================
 <!--default-->'normal'<!--/default-->
 <!--acceptValues-->'normal' | 'breakWord' | 'none'<!--/acceptValues-->

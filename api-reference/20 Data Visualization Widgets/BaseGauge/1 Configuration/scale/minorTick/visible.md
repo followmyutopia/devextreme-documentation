@@ -1,3 +1,4 @@
+<!--id-->BaseGauge.Options.scale.minorTick.visible<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

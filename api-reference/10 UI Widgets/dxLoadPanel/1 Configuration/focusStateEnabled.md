@@ -1,3 +1,4 @@
+<!--id-->dxLoadPanel.Options.focusStateEnabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

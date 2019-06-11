@@ -1,3 +1,4 @@
+<!--id-->DataSource.Options.store.type<!--/id-->
 ===========================================================================
 <!--acceptValues-->'array' | 'local' | 'odata'<!--/acceptValues-->
 <!--type-->String<!--/type-->

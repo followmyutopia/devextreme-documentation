@@ -1,3 +1,4 @@
+<!--id-->dxActionSheet.Options.onCancelClick<!--/id-->
 <!--EventForAction-->..\4 Events\cancelClick.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

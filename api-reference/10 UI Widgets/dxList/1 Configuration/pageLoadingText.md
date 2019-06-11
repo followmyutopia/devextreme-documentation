@@ -1,3 +1,4 @@
+<!--id-->dxList.Options.pageLoadingText<!--/id-->
 ===========================================================================
 <!--default-->'Loading...', '' (Material)<!--/default-->
 <!--type-->String<!--/type-->

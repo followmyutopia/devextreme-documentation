@@ -1,3 +1,4 @@
+<!--id-->dxHtmlEditorMention.searchTimeout<!--/id-->
 ===========================================================================
 <!--default-->500<!--/default-->
 <!--type-->Number<!--/type-->

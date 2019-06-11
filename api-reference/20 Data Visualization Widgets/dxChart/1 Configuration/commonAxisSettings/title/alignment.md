@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.title.alignment<!--/id-->
 ===========================================================================
 <!--default-->'center'<!--/default-->
 <!--acceptValues-->'center' | 'left' | 'right'<!--/acceptValues-->

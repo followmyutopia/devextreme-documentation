@@ -1,3 +1,4 @@
+<!--id-->localization.formatNumber(value, format)<!--/id-->
 ===================================================================
 <!--module-->localization<!--/module-->
 <!--export-->formatNumber<!--/export-->

@@ -1,3 +1,4 @@
+<!--id-->events.triggerHandler(element, event, extraParameters)<!--/id-->
 ===================================================================
 <!--hidden--><!--/hidden-->
 <!--module-->events<!--/module-->

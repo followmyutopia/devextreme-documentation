@@ -1,3 +1,4 @@
+<!--id-->SearchBoxMixin<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--module-->ui/widget/ui.search_box_mixin<!--/module-->

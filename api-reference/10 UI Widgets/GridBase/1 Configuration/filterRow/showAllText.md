@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.filterRow.showAllText<!--/id-->
 ===========================================================================
 <!--default-->'(All)'<!--/default-->
 <!--type-->String<!--/type-->

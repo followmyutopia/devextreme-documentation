@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.editing.texts.confirmDeleteTitle<!--/id-->
 ===========================================================================
 <!--default-->''<!--/default-->
 <!--type-->String<!--/type-->

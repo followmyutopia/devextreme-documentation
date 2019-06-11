@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.editing.allowDeleting<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean | function(options)<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.selectionStyle.hatching<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\..\..\AreaSeries\AreaSeries.md,..\..\..\BarSeries\BarSeries.md,..\..\..\StackedBarSeries\StackedBarSeries.md<!--/propertyOf-->
 <!--type-->Object<!--/type-->

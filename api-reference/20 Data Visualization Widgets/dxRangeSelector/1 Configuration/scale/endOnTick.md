@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.scale.endOnTick<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

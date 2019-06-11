@@ -1,3 +1,4 @@
+<!--id-->ODataStore.Options.withCredentials<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

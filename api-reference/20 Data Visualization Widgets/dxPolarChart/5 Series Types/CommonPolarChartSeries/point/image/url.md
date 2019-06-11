@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.point.image.url<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\..\..\LineSeries\LineSeries.md,..\..\..\AreaSeries\AreaSeries.md,..\..\..\ScatterSeries\ScatterSeries.md<!--/propertyOf-->
 <!--default-->undefined<!--/default-->

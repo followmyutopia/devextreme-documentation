@@ -1,3 +1,4 @@
+<!--id-->dxTreeMap.Options.tile.border.width<!--/id-->
 ===========================================================================
 <!--default-->1<!--/default-->
 <!--type-->Number<!--/type-->

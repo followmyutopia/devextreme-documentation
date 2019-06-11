@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.onZoomEnd<!--/id-->
 <!--EventForAction-->..\4 Events\zoomEnd.md<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->

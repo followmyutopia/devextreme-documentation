@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.fields<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Array<Object><!--/type-->

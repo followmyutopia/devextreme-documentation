@@ -1,3 +1,4 @@
+<!--id-->dxColorBox.Options.applyButtonText<!--/id-->
 ===========================================================================
 <!--default-->'OK'<!--/default-->
 <!--type-->String<!--/type-->

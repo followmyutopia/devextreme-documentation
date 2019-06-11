@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.editing.allowAdding<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

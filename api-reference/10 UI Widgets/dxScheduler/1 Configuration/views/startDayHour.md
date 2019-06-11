@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.views.startDayHour<!--/id-->
 ===========================================================================
 <!--default-->0<!--/default-->
 <!--type-->Number<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxSlideOutView.Options.menuVisible<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

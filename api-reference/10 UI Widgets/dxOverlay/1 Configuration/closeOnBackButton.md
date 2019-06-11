@@ -1,3 +1,4 @@
+<!--id-->dxOverlay.Options.closeOnBackButton<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

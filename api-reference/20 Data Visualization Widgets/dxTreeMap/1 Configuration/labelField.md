@@ -1,3 +1,4 @@
+<!--id-->dxTreeMap.Options.labelField<!--/id-->
 ===========================================================================
 <!--default-->'name'<!--/default-->
 <!--type-->String<!--/type-->

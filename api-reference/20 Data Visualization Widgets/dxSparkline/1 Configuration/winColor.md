@@ -1,3 +1,4 @@
+<!--id-->dxSparkline.Options.winColor<!--/id-->
 ===========================================================================
 <!--default-->'#a9a9a9'<!--/default-->
 <!--type-->String<!--/type-->

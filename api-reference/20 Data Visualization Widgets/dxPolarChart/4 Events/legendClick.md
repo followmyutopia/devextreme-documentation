@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.legendClick<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

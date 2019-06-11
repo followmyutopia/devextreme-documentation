@@ -1,3 +1,4 @@
+<!--id-->dxList.Options.onItemReordered<!--/id-->
 <!--EventForAction-->..\4 Events\itemReordered.md<!--/EventForAction-->
 ===========================================================================
 <!--hidden-->false<!--/hidden-->

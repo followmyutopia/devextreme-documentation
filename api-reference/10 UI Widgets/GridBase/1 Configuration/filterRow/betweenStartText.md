@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.filterRow.betweenStartText<!--/id-->
 ===========================================================================
 <!--default-->'Start'<!--/default-->
 <!--type-->String<!--/type-->

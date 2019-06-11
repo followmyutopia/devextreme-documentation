@@ -1,3 +1,4 @@
+<!--id-->dxFormButtonItem.visible<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

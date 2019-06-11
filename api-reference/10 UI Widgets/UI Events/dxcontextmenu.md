@@ -1,3 +1,4 @@
+<!--id-->UI Events.dxcontextmenu<!--/id-->
 ===========================================================================
 <!--module-->events/contextmenu<!--/module-->
 <!--type-->eventType<!--/type-->

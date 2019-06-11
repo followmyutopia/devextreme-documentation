@@ -1,3 +1,4 @@
+<!--id-->dxDateBox.Options.pickerType<!--/id-->
 ===========================================================================
 <!--default-->'calendar', 'native' (iOS, Android), 'rollers' (Android_below_version_4.4, mobile_devices)<!--/default-->
 <!--acceptValues-->'calendar' | 'list' | 'native' | 'rollers'<!--/acceptValues-->

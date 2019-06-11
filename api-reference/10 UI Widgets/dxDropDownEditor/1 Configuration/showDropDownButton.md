@@ -1,3 +1,4 @@
+<!--id-->dxDropDownEditor.Options.showDropDownButton<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

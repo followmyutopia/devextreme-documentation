@@ -1,3 +1,4 @@
+<!--id-->dxChartCommonAnnotationConfig.arrowLength<!--/id-->
 ===========================================================================
 <!--default-->14<!--/default-->
 <!--type-->Number<!--/type-->

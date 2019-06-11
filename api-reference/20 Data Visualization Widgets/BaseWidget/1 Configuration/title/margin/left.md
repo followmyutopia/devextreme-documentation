@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.title.margin.left<!--/id-->
 ===========================================================================
 <!--default-->10<!--/default-->
 <!--type-->Number<!--/type-->

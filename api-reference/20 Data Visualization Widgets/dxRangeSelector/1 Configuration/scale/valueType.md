@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.scale.valueType<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'datetime' | 'numeric' | 'string'<!--/acceptValues-->

@@ -1,3 +1,4 @@
+<!--id-->dxSankey.Options.node.hoverStyle.border.visible<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->OneDriveFileProvider<!--/id-->
 ===========================================================================
 <!--module-->ui/file_manager/file_provider/onedrive<!--/module-->
 <!--export-->default<!--/export-->

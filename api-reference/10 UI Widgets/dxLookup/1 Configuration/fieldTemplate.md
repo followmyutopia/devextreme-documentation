@@ -1,3 +1,4 @@
+<!--id-->dxLookup.Options.fieldTemplate<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->template<!--/type-->

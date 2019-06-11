@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.highValueField<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--propertyOf-->..\StockSeries\StockSeries.md,..\CandleStickSeries\CandleStickSeries.md<!--/propertyOf-->

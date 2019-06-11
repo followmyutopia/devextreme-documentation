@@ -1,3 +1,4 @@
+<!--id-->dxFilterBuilder.Options.filterOperationDescriptions.greaterThanOrEqual<!--/id-->
 ===========================================================================
 <!--default-->'Greater than or equal to'<!--/default-->
 <!--type-->String<!--/type-->

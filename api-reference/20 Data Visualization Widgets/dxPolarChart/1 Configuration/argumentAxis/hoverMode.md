@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.argumentAxis.hoverMode<!--/id-->
 ===========================================================================
 <!--default-->'none'<!--/default-->
 <!--acceptValues-->'allArgumentPoints' | 'none'<!--/acceptValues-->

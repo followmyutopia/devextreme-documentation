@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.background.image.location<!--/id-->
 ===========================================================================
 <!--default-->'full'<!--/default-->
 <!--acceptValues-->'center' | 'centerBottom' | 'centerTop' | 'full' | 'leftBottom' | 'leftCenter' | 'leftTop' | 'rightBottom' | 'rightCenter' | 'rightTop'<!--/acceptValues-->

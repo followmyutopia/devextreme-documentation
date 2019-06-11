@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.ScatterSeries<!--/id-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->Object<!--/type-->

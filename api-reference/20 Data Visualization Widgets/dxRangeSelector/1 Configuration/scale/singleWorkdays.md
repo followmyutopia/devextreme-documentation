@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.scale.singleWorkdays<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Array<Date, String> | Array<Number><!--/type-->

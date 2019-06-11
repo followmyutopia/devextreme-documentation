@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.commonSeriesSettings<!--/id-->
 ===========================================================================
 <!--hideDefaults-->true<!--/hideDefaults-->
 <!--type-->Object<!--/type-->

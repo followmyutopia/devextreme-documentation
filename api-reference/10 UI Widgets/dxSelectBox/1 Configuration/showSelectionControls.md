@@ -1,3 +1,4 @@
+<!--id-->dxSelectBox.Options.showSelectionControls<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.scale.allowDecimals<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Boolean<!--/type-->

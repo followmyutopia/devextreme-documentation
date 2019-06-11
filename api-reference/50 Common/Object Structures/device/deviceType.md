@@ -1,3 +1,4 @@
+<!--id-->Device.deviceType<!--/id-->
 ===========================================================================
 <!--acceptValues-->'phone' | 'tablet' | 'desktop'<!--/acceptValues-->
 <!--type-->String<!--/type-->

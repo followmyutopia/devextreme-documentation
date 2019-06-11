@@ -1,3 +1,4 @@
+<!--id-->dxColorBox.Options.editAlphaChannel<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

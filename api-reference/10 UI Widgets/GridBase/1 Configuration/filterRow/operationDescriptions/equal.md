@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.filterRow.operationDescriptions.equal<!--/id-->
 ===========================================================================
 <!--default-->'Equals'<!--/default-->
 <!--type-->String<!--/type-->

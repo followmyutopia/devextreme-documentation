@@ -1,3 +1,4 @@
+<!--id-->dxPieChartSeriesTypes.CommonPieChartSeries.tagField<!--/id-->
 ===========================================================================
 <!--default-->'tag'<!--/default-->
 <!--type-->String<!--/type-->

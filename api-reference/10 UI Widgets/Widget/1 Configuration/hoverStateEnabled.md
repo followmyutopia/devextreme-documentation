@@ -1,3 +1,4 @@
+<!--id-->Widget.Options.hoverStateEnabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

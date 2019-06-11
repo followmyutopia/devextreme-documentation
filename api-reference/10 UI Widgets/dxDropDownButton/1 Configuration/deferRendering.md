@@ -1,3 +1,4 @@
+<!--id-->dxDropDownButton.Options.deferRendering<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

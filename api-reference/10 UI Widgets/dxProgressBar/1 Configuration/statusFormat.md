@@ -1,3 +1,4 @@
+<!--id-->dxProgressBar.Options.statusFormat<!--/id-->
 ===========================================================================
 <!--default-->function(ratio, value) { return 'Progress: ' + Math.round(ratio * 100) + '%' }<!--/default-->
 <!--type-->String | function(ratio, value)<!--/type-->

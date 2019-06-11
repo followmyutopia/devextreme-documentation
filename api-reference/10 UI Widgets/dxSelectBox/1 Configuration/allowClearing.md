@@ -1,3 +1,4 @@
+<!--id-->dxSelectBox.Options.allowClearing<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->true<!--/default-->

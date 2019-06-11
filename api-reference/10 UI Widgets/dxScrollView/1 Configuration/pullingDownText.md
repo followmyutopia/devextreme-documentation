@@ -1,3 +1,4 @@
+<!--id-->dxScrollView.Options.pullingDownText<!--/id-->
 ===========================================================================
 <!--default-->'Pull down to refresh...', '' (Material)<!--/default-->
 <!--type-->String<!--/type-->

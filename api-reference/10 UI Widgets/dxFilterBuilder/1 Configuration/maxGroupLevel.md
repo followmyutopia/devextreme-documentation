@@ -1,3 +1,4 @@
+<!--id-->dxFilterBuilder.Options.maxGroupLevel<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

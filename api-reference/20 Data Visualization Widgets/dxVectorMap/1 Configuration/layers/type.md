@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.layers.type<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--acceptValues-->'area' | 'line' | 'marker'<!--/acceptValues-->

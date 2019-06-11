@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.Options.sortData<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

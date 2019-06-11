@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.Options.adaptiveLayout.keepLabels<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

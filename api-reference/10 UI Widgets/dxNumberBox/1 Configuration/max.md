@@ -1,3 +1,4 @@
+<!--id-->dxNumberBox.Options.max<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

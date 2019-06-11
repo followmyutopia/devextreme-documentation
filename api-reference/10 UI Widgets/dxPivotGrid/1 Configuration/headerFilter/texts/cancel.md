@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.headerFilter.texts.cancel<!--/id-->
 ===========================================================================
 <!--default-->'Cancel'<!--/default-->
 <!--type-->String<!--/type-->

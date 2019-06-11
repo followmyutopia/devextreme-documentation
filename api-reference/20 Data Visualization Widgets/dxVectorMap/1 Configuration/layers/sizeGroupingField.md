@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.layers.sizeGroupingField<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

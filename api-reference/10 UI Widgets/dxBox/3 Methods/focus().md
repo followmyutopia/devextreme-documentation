@@ -1,3 +1,4 @@
+<!--id-->dxBox.focus()<!--/id-->
 <!--merge--><!--/merge-->
 <!--hidden--><!--/hidden-->
 <!--type-->function()<!--/type-->

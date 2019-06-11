@@ -1,3 +1,4 @@
+<!--id-->dxMap.Options.provider<!--/id-->
 ===========================================================================
 <!--default-->'google'<!--/default-->
 <!--acceptValues-->'bing' | 'google' | 'googleStatic'<!--/acceptValues-->

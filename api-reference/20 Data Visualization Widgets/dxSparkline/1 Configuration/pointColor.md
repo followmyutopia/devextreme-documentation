@@ -1,3 +1,4 @@
+<!--id-->dxSparkline.Options.pointColor<!--/id-->
 ===========================================================================
 <!--default-->'#ffffff'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->Widget.Options.onContentReady<!--/id-->
 <!--EventForAction-->..\4 Events\contentReady.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

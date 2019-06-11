@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.hidingPriority<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

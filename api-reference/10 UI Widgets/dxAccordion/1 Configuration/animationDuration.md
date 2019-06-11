@@ -1,3 +1,4 @@
+<!--id-->dxAccordion.Options.animationDuration<!--/id-->
 ===========================================================================
 <!--default-->300, 200 (Material)<!--/default-->
 <!--type-->Number<!--/type-->

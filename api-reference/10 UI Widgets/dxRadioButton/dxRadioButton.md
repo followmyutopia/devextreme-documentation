@@ -1,3 +1,4 @@
+<!--id-->dxRadioButton<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--inherits-->..\CollectionWidget\CollectionWidget.md<!--/inherits-->

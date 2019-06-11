@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.dataPrepareSettings.sortingMethod<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean | function(a, b)<!--/type-->

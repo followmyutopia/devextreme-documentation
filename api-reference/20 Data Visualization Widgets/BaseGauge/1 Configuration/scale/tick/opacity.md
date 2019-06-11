@@ -1,3 +1,4 @@
+<!--id-->BaseGauge.Options.scale.tick.opacity<!--/id-->
 ===========================================================================
 <!--default-->1<!--/default-->
 <!--type-->Number<!--/type-->

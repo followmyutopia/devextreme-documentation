@@ -1,3 +1,4 @@
+<!--id-->DataSource.Options.paginate<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Boolean<!--/type-->

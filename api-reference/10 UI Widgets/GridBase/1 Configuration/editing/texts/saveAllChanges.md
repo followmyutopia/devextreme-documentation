@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.editing.texts.saveAllChanges<!--/id-->
 ===========================================================================
 <!--default-->'Save changes'<!--/default-->
 <!--type-->String<!--/type-->

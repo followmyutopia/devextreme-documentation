@@ -1,3 +1,4 @@
+<!--id-->dxBox.Options.direction<!--/id-->
 ===========================================================================
 <!--default-->'row'<!--/default-->
 <!--acceptValues-->'col' | 'row'<!--/acceptValues-->

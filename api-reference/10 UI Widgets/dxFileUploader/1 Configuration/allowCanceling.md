@@ -1,3 +1,4 @@
+<!--id-->dxFileUploader.Options.allowCanceling<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

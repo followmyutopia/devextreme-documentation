@@ -1,3 +1,4 @@
+<!--id-->dxPopover.Options.height<!--/id-->
 ===========================================================================
 <!--default-->'auto'<!--/default-->
 <!--type-->Number | String | function()<!--/type-->

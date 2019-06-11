@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.AreaSeries<!--/id-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->Object<!--/type-->

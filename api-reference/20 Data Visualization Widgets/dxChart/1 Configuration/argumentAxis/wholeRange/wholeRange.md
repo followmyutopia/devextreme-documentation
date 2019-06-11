@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.argumentAxis.wholeRange<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Object | Array<Number, String, Date><!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->UI Events.dxclick<!--/id-->
 ===========================================================================
 <!--module-->events/click<!--/module-->
 <!--type-->eventType<!--/type-->

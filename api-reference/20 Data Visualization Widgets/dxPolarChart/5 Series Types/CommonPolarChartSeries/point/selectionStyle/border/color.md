@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.point.selectionStyle.border.color<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\..\..\..\LineSeries\LineSeries.md,..\..\..\..\AreaSeries\AreaSeries.md,..\..\..\..\ScatterSeries\ScatterSeries.md<!--/propertyOf-->
 <!--default-->undefined<!--/default-->

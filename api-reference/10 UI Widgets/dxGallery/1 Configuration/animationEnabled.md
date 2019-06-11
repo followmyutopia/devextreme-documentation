@@ -1,3 +1,4 @@
+<!--id-->dxGallery.Options.animationEnabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

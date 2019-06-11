@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.label.backgroundColor<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

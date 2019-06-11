@@ -1,3 +1,4 @@
+<!--id-->BaseGauge.Options.scale.label.useRangeColors<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

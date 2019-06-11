@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.indicatorUpdateInterval<!--/id-->
 ===========================================================================
 <!--default-->300000<!--/default-->
 <!--type-->Number<!--/type-->

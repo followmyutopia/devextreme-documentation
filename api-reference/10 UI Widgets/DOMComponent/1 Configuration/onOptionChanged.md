@@ -1,3 +1,4 @@
+<!--id-->DOMComponent.Options.onOptionChanged<!--/id-->
 <!--merge--><!--/merge-->
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

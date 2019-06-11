@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.controlBar.horizontalAlignment<!--/id-->
 ===========================================================================
 <!--default-->'left'<!--/default-->
 <!--acceptValues-->'center' | 'left' | 'right'<!--/acceptValues-->

@@ -1,3 +1,4 @@
+<!--id-->dxBarGauge.Options.endValue<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->100<!--/default-->

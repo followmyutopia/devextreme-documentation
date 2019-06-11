@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.Options.label.horizontalAlignment<!--/id-->
 ===========================================================================
 <!--default-->'right'<!--/default-->
 <!--acceptValues-->'left' | 'right'<!--/acceptValues-->

@@ -1,3 +1,4 @@
+<!--id-->dxChartCommonAnnotationConfig.shadow.color<!--/id-->
 ===========================================================================
 <!--default-->'#000000'<!--/default-->
 <!--type-->String<!--/type-->

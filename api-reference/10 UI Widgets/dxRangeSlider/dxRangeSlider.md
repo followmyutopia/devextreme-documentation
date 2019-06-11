@@ -1,3 +1,4 @@
+<!--id-->dxRangeSlider<!--/id-->
 <!--widgettree-->
 
 <!--/widgettree-->

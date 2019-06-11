@@ -1,3 +1,4 @@
+<!--id-->dxFilterBuilder.Options.allowHierarchicalFields<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

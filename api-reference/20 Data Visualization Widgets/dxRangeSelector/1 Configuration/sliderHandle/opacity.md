@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.sliderHandle.opacity<!--/id-->
 ===========================================================================
 <!--default-->0.2<!--/default-->
 <!--type-->Number<!--/type-->

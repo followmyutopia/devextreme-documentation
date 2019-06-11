@@ -1,3 +1,4 @@
+<!--id-->dxValidationSummary<!--/id-->
 ===========================================================================
 <!--module-->ui/validation_summary<!--/module-->
 <!--export-->default<!--/export-->

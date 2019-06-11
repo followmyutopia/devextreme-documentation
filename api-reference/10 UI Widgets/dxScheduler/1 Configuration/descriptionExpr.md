@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.descriptionExpr<!--/id-->
 ===========================================================================
 <!--default-->'description'<!--/default-->
 <!--type-->String<!--/type-->

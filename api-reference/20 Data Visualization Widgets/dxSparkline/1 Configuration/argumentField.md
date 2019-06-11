@@ -1,3 +1,4 @@
+<!--id-->dxSparkline.Options.argumentField<!--/id-->
 ===========================================================================
 <!--default-->'arg'<!--/default-->
 <!--type-->String<!--/type-->

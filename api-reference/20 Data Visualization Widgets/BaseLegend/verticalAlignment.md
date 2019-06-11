@@ -1,3 +1,4 @@
+<!--id-->BaseLegend.verticalAlignment<!--/id-->
 ===========================================================================
 <!--default-->'top'<!--/default-->
 <!--acceptValues-->'bottom' | 'top'<!--/acceptValues-->

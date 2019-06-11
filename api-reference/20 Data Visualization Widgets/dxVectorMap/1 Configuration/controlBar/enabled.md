@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.controlBar.enabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

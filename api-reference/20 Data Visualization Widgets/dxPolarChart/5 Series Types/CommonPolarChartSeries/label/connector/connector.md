@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.label.connector<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\..\..\AreaSeries\AreaSeries.md,..\..\..\BarSeries\BarSeries.md,..\..\..\LineSeries\LineSeries.md,..\..\..\ScatterSeries\ScatterSeries.md,..\..\..\StackedBarSeries\StackedBarSeries.md<!--/propertyOf-->
 <!--type-->Object<!--/type-->

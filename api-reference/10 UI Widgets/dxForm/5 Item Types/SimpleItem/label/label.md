@@ -1,3 +1,4 @@
+<!--id-->dxFormSimpleItem.label<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Object<!--/type-->

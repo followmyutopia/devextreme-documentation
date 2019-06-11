@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.argumentAxis.minorTickCount<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

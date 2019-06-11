@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.barPadding<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\BarSeries\BarSeries.md,..\StackedBarSeries\StackedBarSeries.md<!--/propertyOf-->
 <!--default-->undefined<!--/default-->

@@ -1,3 +1,4 @@
+<!--id-->dxActionSheet.Options.cancelText<!--/id-->
 ===========================================================================
 <!--default-->'Cancel'<!--/default-->
 <!--type-->String<!--/type-->

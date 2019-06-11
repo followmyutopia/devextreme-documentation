@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.summary.groupItems.alignByColumn<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

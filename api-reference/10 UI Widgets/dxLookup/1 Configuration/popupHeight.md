@@ -1,3 +1,4 @@
+<!--id-->dxLookup.Options.popupHeight<!--/id-->
 ===========================================================================
 <!--default-->function() { return $(window).height() * 0.8 }, 'auto' (desktop, iPad)<!--/default-->
 <!--type-->Number | String | function()<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxBarGauge.Options.tooltip.customizeTooltip<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->function(scaleValue)<!--/type-->

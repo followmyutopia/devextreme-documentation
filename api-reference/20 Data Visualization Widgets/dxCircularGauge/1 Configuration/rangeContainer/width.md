@@ -1,3 +1,4 @@
+<!--id-->dxCircularGauge.Options.rangeContainer.width<!--/id-->
 ===========================================================================
 <!--default-->5<!--/default-->
 <!--type-->Number<!--/type-->

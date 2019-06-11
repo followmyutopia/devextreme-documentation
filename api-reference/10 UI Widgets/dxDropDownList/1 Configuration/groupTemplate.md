@@ -1,3 +1,4 @@
+<!--id-->dxDropDownList.Options.groupTemplate<!--/id-->
 ===========================================================================
 <!--default-->'group'<!--/default-->
 <!--type-->template<!--/type-->

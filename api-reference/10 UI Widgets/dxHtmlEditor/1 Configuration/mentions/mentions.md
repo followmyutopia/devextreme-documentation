@@ -1,3 +1,4 @@
+<!--id-->dxHtmlEditor.Options.mentions<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->Array<dxHtmlEditorMention><!--/type-->

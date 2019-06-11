@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.hoverChanged<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxFormButtonItem.colSpan<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

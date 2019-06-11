@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.onCellContextMenu<!--/id-->
 <!--EventForAction-->..\4 Events\cellContextMenu.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

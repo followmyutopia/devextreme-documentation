@@ -1,3 +1,4 @@
+<!--id-->dxDateBox.Options.cancelButtonText<!--/id-->
 ===========================================================================
 <!--default-->'Cancel'<!--/default-->
 <!--type-->String<!--/type-->

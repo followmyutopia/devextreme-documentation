@@ -1,3 +1,4 @@
+<!--id-->dxTextEditor.Options.inputAttr<!--/id-->
 ===========================================================================
 <!--default-->{}<!--/default-->
 <!--type-->Object<!--/type-->

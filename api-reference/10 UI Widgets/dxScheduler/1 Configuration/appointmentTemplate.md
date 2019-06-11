@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.appointmentTemplate<!--/id-->
 ===========================================================================
 <!--default-->'item'<!--/default-->
 <!--type-->template<!--/type-->

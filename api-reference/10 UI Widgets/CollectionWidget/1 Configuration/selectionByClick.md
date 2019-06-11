@@ -1,3 +1,4 @@
+<!--id-->CollectionWidget.Options.selectionByClick<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->true<!--/default-->

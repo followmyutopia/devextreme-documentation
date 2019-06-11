@@ -1,3 +1,4 @@
+<!--id-->dxPopup.Options.toolbarItems.toolbar<!--/id-->
 ===========================================================================
 <!--default-->'top'<!--/default-->
 <!--acceptValues-->'bottom' | 'top'<!--/acceptValues-->

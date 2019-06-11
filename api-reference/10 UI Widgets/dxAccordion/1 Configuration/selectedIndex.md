@@ -1,3 +1,4 @@
+<!--id-->dxAccordion.Options.selectedIndex<!--/id-->
 ===========================================================================
 <!--default-->0<!--/default-->
 <!--type-->Number<!--/type-->

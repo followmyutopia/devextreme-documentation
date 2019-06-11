@@ -1,3 +1,4 @@
+<!--id-->utils.cancelAnimationFrame(requestID)<!--/id-->
 ===================================================================
 <!--module-->animation/frame<!--/module-->
 <!--export-->cancel<!--/export-->

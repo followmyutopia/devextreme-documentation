@@ -1,3 +1,4 @@
+<!--id-->dxForm.Options.showValidationSummary<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

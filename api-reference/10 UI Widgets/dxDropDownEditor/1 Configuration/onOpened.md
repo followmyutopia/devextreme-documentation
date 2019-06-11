@@ -1,3 +1,4 @@
+<!--id-->dxDropDownEditor.Options.onOpened<!--/id-->
 <!--EventForAction-->..\4 Events\opened.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

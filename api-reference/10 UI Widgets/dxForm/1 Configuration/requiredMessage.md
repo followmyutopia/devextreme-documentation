@@ -1,3 +1,4 @@
+<!--id-->dxForm.Options.requiredMessage<!--/id-->
 ===========================================================================
 <!--default-->'{0} is required'<!--/default-->
 <!--type-->String<!--/type-->

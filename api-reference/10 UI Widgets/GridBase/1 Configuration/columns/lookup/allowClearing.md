@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.lookup.allowClearing<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

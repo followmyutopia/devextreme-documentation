@@ -1,3 +1,4 @@
+<!--id-->dxFileUploader.Options.labelText<!--/id-->
 ===========================================================================
 <!--default-->'or Drop file here'<!--/default-->
 <!--type-->String<!--/type-->

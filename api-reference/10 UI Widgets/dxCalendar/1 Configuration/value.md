@@ -1,3 +1,4 @@
+<!--id-->dxCalendar.Options.value<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->Date | Number | String<!--/type-->

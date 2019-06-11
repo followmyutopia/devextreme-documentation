@@ -1,3 +1,4 @@
+<!--id-->dxResizable.Options.maxWidth<!--/id-->
 ===========================================================================
 <!--default-->Infinity<!--/default-->
 <!--type-->Number<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxToolbarItem.locateInMenu<!--/id-->
 ===========================================================================
 <!--default-->'never'<!--/default-->
 <!--acceptValues-->'always' | 'auto' | 'never'<!--/acceptValues-->

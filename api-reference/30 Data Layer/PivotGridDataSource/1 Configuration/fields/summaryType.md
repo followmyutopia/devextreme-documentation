@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.fields.summaryType<!--/id-->
 ===========================================================================
 <!--default-->'count'<!--/default-->
 <!--acceptValues-->'avg' | 'count' | 'custom' | 'max' | 'min' | 'sum'<!--/acceptValues-->

@@ -1,3 +1,4 @@
+<!--id-->dxSwitch<!--/id-->
 <!--widgettree-->
 
 <!--/widgettree-->

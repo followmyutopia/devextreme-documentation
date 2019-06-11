@@ -1,3 +1,4 @@
+<!--id-->dxTextEditor.Options.onKeyPress<!--/id-->
 <!--EventForAction-->..\4 Events\keyPress.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

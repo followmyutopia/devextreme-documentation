@@ -1,3 +1,4 @@
+<!--id-->events.one(element, eventName, data, handler)<!--/id-->
 ===================================================================
 <!--module-->events<!--/module-->
 <!--export-->one<!--/export-->

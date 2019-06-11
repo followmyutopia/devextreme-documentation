@@ -1,3 +1,4 @@
+<!--id-->dxResponsiveBox.Options.singleColumnScreen<!--/id-->
 ===========================================================================
 <!--default-->''<!--/default-->
 <!--type-->String<!--/type-->

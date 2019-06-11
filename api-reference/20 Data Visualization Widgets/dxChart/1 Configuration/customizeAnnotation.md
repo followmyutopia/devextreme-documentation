@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.customizeAnnotation<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->

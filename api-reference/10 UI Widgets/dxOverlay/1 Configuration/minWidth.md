@@ -1,3 +1,4 @@
+<!--id-->dxOverlay.Options.minWidth<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->Number | String | function()<!--/type-->

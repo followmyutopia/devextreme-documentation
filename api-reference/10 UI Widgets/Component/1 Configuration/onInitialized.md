@@ -1,3 +1,4 @@
+<!--id-->Component.Options.onInitialized<!--/id-->
 <!--EventForAction-->..\4 Events\initialized.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

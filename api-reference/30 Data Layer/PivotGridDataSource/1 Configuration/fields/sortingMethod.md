@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.fields.sortingMethod<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->function(a, b)<!--/type-->

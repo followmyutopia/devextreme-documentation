@@ -1,3 +1,4 @@
+<!--id-->Editor.Options.validationError<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Object<!--/type-->

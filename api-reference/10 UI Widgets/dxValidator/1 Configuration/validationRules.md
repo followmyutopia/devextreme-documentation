@@ -1,3 +1,4 @@
+<!--id-->dxValidator.Options.validationRules<!--/id-->
 ===========================================================================
 <!--type-->Array<RequiredRule, NumericRule, RangeRule, StringLengthRule, CustomRule, CompareRule, PatternRule, EmailRule><!--/type-->
 ===========================================================================

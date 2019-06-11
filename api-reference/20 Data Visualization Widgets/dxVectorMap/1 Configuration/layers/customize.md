@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.layers.customize<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(elements)<!--/type-->

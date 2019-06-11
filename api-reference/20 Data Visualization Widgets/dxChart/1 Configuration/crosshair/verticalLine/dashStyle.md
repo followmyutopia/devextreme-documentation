@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.crosshair.verticalLine.dashStyle<!--/id-->
 ===========================================================================
 <!--default-->'solid'<!--/default-->
 <!--acceptValues-->'dash' | 'dot' | 'longDash' | 'solid'<!--/acceptValues-->

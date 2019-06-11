@@ -1,3 +1,4 @@
+<!--id-->dxSankey.Options.label.overlappingBehavior<!--/id-->
 ===========================================================================
 <!--default-->'ellipsis'<!--/default-->
 <!--acceptValues-->'ellipsis' | 'hide' | 'none'<!--/acceptValues-->

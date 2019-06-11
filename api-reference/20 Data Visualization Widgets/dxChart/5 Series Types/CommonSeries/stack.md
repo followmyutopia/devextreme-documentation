@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.stack<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\StackedBarSeries\StackedBarSeries.md,..\FullStackedBarSeries\FullStackedBarSeries.md<!--/propertyOf-->
 <!--default-->'default'<!--/default-->

@@ -1,3 +1,4 @@
+<!--id-->dxDropDownList.Options.searchMode<!--/id-->
 ===========================================================================
 <!--default-->'contains'<!--/default-->
 <!--acceptValues-->'contains' | 'startswith'<!--/acceptValues-->

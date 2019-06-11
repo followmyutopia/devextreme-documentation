@@ -1,3 +1,4 @@
+<!--id-->localization.formatDate(value, format)<!--/id-->
 ===================================================================
 <!--module-->localization<!--/module-->
 <!--export-->formatDate<!--/export-->

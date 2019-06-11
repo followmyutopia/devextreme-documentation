@@ -1,3 +1,4 @@
+<!--id-->globalConfig.floatingActionButtonConfig.maxSpeedDialActionCount<!--/id-->
 ===========================================================================
 <!--default-->5<!--/default-->
 <!--type-->Number<!--/type-->

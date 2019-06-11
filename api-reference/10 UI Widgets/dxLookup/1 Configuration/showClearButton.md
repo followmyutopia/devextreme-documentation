@@ -1,3 +1,4 @@
+<!--id-->dxLookup.Options.showClearButton<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

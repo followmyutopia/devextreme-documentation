@@ -1,3 +1,4 @@
+<!--id-->dxPopup.Options.showCloseButton<!--/id-->
 ===========================================================================
 <!--default-->false, true (desktop)<!--/default-->
 <!--type-->Boolean<!--/type-->

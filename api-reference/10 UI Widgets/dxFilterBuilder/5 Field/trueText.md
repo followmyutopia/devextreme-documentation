@@ -1,3 +1,4 @@
+<!--id-->dxFilterBuilderField.trueText<!--/id-->
 ===========================================================================
 <!--default-->'true'<!--/default-->
 <!--type-->String<!--/type-->

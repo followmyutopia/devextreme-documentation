@@ -1,3 +1,4 @@
+<!--id-->dxPieChart.Options.innerRadius<!--/id-->
 ===========================================================================
 <!--default-->0.5<!--/default-->
 <!--type-->Number<!--/type-->

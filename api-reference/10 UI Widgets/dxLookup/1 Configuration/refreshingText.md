@@ -1,3 +1,4 @@
+<!--id-->dxLookup.Options.refreshingText<!--/id-->
 ===========================================================================
 <!--default-->'Refreshing...'<!--/default-->
 <!--type-->String<!--/type-->

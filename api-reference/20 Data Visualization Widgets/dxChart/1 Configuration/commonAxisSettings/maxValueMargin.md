@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.maxValueMargin<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

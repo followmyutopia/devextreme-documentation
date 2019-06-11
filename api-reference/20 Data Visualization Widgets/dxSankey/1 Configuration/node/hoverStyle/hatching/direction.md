@@ -1,3 +1,4 @@
+<!--id-->dxSankey.Options.node.hoverStyle.hatching.direction<!--/id-->
 ===========================================================================
 <!--default-->'right'<!--/default-->
 <!--acceptValues-->'left' | 'none' | 'right'<!--/acceptValues-->

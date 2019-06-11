@@ -1,3 +1,4 @@
+<!--id-->dxFormTabbedItem.tabs.title<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

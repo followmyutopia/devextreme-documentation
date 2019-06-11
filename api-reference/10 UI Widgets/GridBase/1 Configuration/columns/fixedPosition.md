@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.fixedPosition<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'left' | 'right'<!--/acceptValues-->

@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.scrollBar.opacity<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

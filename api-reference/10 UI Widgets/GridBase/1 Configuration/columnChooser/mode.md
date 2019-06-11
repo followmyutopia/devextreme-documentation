@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.columnChooser.mode<!--/id-->
 ===========================================================================
 <!--default-->'dragAndDrop'<!--/default-->
 <!--acceptValues-->'dragAndDrop' | 'select'<!--/acceptValues-->

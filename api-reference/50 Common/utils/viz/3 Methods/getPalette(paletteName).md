@@ -1,3 +1,4 @@
+<!--id-->viz.getPalette(paletteName)<!--/id-->
 ===================================================================
 <!--module-->viz/palette<!--/module-->
 <!--export-->getPalette<!--/export-->

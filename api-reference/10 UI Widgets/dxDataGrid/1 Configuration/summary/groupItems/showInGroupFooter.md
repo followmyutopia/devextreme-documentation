@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.summary.groupItems.showInGroupFooter<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

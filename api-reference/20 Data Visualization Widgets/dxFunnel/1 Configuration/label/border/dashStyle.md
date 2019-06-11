@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.Options.label.border.dashStyle<!--/id-->
 ===========================================================================
 <!--default-->'solid'<!--/default-->
 <!--acceptValues-->'dash' | 'dot' | 'longDash' | 'solid'<!--/acceptValues-->

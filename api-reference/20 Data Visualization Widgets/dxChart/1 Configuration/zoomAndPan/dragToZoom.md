@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.zoomAndPan.dragToZoom<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

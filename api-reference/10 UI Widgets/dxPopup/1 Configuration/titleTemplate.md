@@ -1,3 +1,4 @@
+<!--id-->dxPopup.Options.titleTemplate<!--/id-->
 ===========================================================================
 <!--default-->'title'<!--/default-->
 <!--type-->template<!--/type-->

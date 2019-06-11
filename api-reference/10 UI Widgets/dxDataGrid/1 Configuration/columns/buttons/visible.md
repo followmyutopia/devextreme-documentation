@@ -1,3 +1,4 @@
+<!--id-->dxDataGridColumnButton.visible<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean | function(options)<!--/type-->

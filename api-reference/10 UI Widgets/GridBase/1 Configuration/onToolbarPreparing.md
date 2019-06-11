@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.onToolbarPreparing<!--/id-->
 <!--EventForAction-->..\4 Events\toolbarPreparing.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

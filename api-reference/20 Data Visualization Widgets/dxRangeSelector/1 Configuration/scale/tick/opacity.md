@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.scale.tick.opacity<!--/id-->
 ===========================================================================
 <!--default-->0.1<!--/default-->
 <!--type-->Number<!--/type-->

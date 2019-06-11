@@ -1,3 +1,4 @@
+<!--id-->dxToast.Options.animation.show<!--/id-->
 ===========================================================================
 <!--default-->{ type: 'fade', duration: 400, from: 0, to: 1 }<!--/default-->
 <!--type-->animationConfig<!--/type-->

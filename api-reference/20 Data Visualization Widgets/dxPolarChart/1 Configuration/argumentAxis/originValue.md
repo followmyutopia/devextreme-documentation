@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.argumentAxis.originValue<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

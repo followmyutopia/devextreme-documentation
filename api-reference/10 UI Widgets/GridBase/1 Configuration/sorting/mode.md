@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.sorting.mode<!--/id-->
 ===========================================================================
 <!--default-->'single'<!--/default-->
 <!--acceptValues-->'multiple' | 'none' | 'single'<!--/acceptValues-->

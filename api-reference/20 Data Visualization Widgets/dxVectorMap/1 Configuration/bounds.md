@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.bounds<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->

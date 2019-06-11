@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.loadPanel.height<!--/id-->
 ===========================================================================
 <!--default-->90<!--/default-->
 <!--type-->Number<!--/type-->

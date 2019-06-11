@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.aggregation.calculate<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->function(aggregationInfo, series)<!--/type-->

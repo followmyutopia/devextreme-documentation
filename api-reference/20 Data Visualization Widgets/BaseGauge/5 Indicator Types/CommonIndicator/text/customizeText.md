@@ -1,3 +1,4 @@
+<!--id-->CommonIndicator.text.customizeText<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--propertyOf-->..\..\..\..\dxCircularGauge\5 Indicator Types\RangeBar\RangeBar.md,..\..\..\..\dxLinearGauge\5 Indicator Types\RangeBar\RangeBar.md,..\..\..\..\dxCircularGauge\5 Indicator Types\TextCloud\TextCloud.md,..\..\..\..\dxLinearGauge\5 Indicator Types\TextCloud\TextCloud.md<!--/propertyOf-->

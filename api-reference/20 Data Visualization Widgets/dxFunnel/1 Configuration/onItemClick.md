@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.Options.onItemClick<!--/id-->
 <!--EventForAction-->..\4 Events\itemClick.md<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->

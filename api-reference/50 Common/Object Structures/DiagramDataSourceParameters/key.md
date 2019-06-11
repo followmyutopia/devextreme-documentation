@@ -1,3 +1,4 @@
+<!--id-->DiagramDataSourceParameters.key<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->String<!--/type-->

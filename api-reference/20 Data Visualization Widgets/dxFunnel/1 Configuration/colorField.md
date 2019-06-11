@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.Options.colorField<!--/id-->
 ===========================================================================
 <!--default-->'color'<!--/default-->
 <!--type-->String<!--/type-->

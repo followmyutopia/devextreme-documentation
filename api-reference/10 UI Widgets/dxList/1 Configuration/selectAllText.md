@@ -1,3 +1,4 @@
+<!--id-->dxList.Options.selectAllText<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->'Select All'<!--/default-->

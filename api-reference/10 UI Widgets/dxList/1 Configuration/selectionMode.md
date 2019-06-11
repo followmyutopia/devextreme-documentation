@@ -1,3 +1,4 @@
+<!--id-->dxList.Options.selectionMode<!--/id-->
 ===========================================================================
 <!--default-->'none'<!--/default-->
 <!--acceptValues-->'all' | 'multiple' | 'none' | 'single'<!--/acceptValues-->

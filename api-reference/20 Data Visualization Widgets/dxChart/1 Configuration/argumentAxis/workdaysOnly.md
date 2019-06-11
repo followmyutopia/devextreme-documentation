@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.argumentAxis.workdaysOnly<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

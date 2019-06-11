@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.zoomAndPan.allowMouseWheel<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

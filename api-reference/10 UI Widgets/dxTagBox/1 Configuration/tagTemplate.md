@@ -1,3 +1,4 @@
+<!--id-->dxTagBox.Options.tagTemplate<!--/id-->
 ===========================================================================
 <!--default-->'tag'<!--/default-->
 <!--type-->template<!--/type-->

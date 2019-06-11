@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.valueMarginsEnabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

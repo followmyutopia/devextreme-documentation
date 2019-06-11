@@ -1,3 +1,4 @@
+<!--id-->dxMenuBaseItem.disabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

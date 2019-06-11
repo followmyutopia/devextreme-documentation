@@ -1,3 +1,4 @@
+<!--id-->dxPivotGridFieldChooser.Options.texts.dataFields<!--/id-->
 ===========================================================================
 <!--default-->'Data Fields'<!--/default-->
 <!--type-->String<!--/type-->

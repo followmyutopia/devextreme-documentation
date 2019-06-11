@@ -1,3 +1,4 @@
+<!--id-->PolarChartSeries.name<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

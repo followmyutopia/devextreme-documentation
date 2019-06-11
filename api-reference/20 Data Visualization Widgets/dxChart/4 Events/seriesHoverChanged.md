@@ -1,3 +1,4 @@
+<!--id-->dxChart.seriesHoverChanged<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.fields.sortOrder<!--/id-->
 ===========================================================================
 <!--default-->'asc'<!--/default-->
 <!--acceptValues-->'asc' | 'desc'<!--/acceptValues-->

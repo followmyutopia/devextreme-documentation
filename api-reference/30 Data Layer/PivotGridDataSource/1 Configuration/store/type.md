@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.store.type<!--/id-->
 ===========================================================================
 <!--acceptValues-->'array' | 'local' | 'odata' | 'xmla'<!--/acceptValues-->
 <!--type-->String<!--/type-->

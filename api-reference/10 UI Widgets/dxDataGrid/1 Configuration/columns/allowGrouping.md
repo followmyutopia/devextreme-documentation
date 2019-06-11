@@ -1,3 +1,4 @@
+<!--id-->dxDataGridColumn.allowGrouping<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

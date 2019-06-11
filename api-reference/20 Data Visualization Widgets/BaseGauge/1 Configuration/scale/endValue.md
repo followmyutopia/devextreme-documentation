@@ -1,3 +1,4 @@
+<!--id-->BaseGauge.Options.scale.endValue<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->100<!--/default-->

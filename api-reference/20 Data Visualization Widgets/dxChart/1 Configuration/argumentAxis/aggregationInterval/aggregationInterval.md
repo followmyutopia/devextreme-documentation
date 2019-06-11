@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.argumentAxis.aggregationInterval<!--/id-->
 ===========================================================================
 <!--inherits-->..\..\..\..\VizTimeInterval\VizTimeInterval.md<!--/inherits-->
 ===========================================================================

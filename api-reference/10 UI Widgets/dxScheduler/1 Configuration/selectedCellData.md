@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.selectedCellData<!--/id-->
 ===========================================================================
 <!--default-->[]<!--/default-->
 <!--type-->Array<any><!--/type-->

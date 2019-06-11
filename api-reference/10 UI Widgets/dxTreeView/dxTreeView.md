@@ -1,3 +1,4 @@
+<!--id-->dxTreeView<!--/id-->
 <!--widgettree-->
 dataSource: [{
     id: "1",

@@ -1,3 +1,4 @@
+<!--id-->dxMenu.Options.onSubmenuHidden<!--/id-->
 <!--EventForAction-->..\4 Events\submenuHidden.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

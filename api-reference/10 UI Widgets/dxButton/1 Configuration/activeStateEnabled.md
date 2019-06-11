@@ -1,3 +1,4 @@
+<!--id-->dxButton.Options.activeStateEnabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.loadPanel.shadingColor<!--/id-->
 ===========================================================================
 <!--default-->''<!--/default-->
 <!--type-->String<!--/type-->

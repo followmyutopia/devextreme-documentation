@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.legend.hoverMode<!--/id-->
 ===========================================================================
 <!--default-->'includePoints'<!--/default-->
 <!--acceptValues-->'excludePoints' | 'includePoints' | 'none'<!--/acceptValues-->

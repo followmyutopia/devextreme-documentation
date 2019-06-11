@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.searchPanel.highlightSearchText<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

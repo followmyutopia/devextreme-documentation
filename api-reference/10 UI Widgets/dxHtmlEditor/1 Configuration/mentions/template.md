@@ -1,3 +1,4 @@
+<!--id-->dxHtmlEditorMention.template<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->template<!--/type-->

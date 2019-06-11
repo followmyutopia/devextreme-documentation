@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.paging.pageSize<!--/id-->
 ===========================================================================
 <!--default-->20<!--/default-->
 <!--type-->Number<!--/type-->

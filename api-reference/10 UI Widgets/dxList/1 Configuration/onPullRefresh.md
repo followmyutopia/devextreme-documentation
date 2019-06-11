@@ -1,3 +1,4 @@
+<!--id-->dxList.Options.onPullRefresh<!--/id-->
 <!--EventForAction-->..\4 Events\pullRefresh.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

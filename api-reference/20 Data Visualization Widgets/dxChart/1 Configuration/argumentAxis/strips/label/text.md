@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.argumentAxis.strips.label.text<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.texts.removeAllSorting<!--/id-->
 ===========================================================================
 <!--default-->'Remove All Sorting'<!--/default-->
 <!--type-->String<!--/type-->

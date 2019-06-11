@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.resources.displayExpr<!--/id-->
 ===========================================================================
 <!--default-->'text'<!--/default-->
 <!--type-->String | function(resource)<!--/type-->

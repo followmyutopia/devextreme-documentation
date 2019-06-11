@@ -1,3 +1,4 @@
+<!--id-->globalConfig.defaultCurrency<!--/id-->
 ===========================================================================
 <!--default-->'USD'<!--/default-->
 <!--type-->String<!--/type-->

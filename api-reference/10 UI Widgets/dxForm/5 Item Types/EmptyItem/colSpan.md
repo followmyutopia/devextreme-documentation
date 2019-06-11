@@ -1,3 +1,4 @@
+<!--id-->dxFormEmptyItem.colSpan<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.selection.allowSelectAll<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

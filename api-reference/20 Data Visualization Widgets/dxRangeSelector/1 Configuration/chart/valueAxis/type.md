@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.chart.valueAxis.type<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'continuous' | 'logarithmic'<!--/acceptValues-->

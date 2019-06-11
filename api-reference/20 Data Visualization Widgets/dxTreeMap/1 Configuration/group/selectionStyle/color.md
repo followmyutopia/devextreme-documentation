@@ -1,3 +1,4 @@
+<!--id-->dxTreeMap.Options.group.selectionStyle.color<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

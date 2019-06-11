@@ -1,3 +1,4 @@
+<!--id-->dxTextEditorButton.location<!--/id-->
 ===========================================================================
 <!--default-->'after'<!--/default-->
 <!--acceptValues-->'after' | 'before'<!--/acceptValues-->

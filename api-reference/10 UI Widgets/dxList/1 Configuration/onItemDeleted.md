@@ -1,3 +1,4 @@
+<!--id-->dxList.Options.onItemDeleted<!--/id-->
 <!--EventForAction-->..\4 Events\itemDeleted.md<!--/EventForAction-->
 ===========================================================================
 <!--hidden-->false<!--/hidden-->

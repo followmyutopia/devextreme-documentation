@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.valueAxis.min<!--/id-->
 <!--dep-->visualRange\visualRange.md<!--/dep-->
 ===========================================================================
 <!--default-->undefined<!--/default-->

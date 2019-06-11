@@ -1,3 +1,4 @@
+<!--id-->dxOverlay.Options.dragEnabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

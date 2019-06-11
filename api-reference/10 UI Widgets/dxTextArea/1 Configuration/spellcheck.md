@@ -1,3 +1,4 @@
+<!--id-->dxTextArea.Options.spellcheck<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

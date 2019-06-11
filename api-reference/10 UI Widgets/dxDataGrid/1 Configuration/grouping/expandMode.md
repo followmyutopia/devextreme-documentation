@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.grouping.expandMode<!--/id-->
 ===========================================================================
 <!--default-->'buttonClick', 'rowClick' (mobile_devices)<!--/default-->
 <!--acceptValues-->'buttonClick' | 'rowClick'<!--/acceptValues-->

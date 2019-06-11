@@ -1,3 +1,4 @@
+<!--id-->SearchBoxMixin.Options.searchMode<!--/id-->
 ===========================================================================
 <!--default-->'contains'<!--/default-->
 <!--acceptValues-->'contains' | 'startswith' | 'equals'<!--/acceptValues-->

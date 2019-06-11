@@ -1,3 +1,4 @@
+<!--id-->dxLookup.Options.animation.hide<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->animationConfig<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->BaseGauge.Options.scale.customTicks<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->

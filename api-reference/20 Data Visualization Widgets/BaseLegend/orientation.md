@@ -1,3 +1,4 @@
+<!--id-->BaseLegend.orientation<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'horizontal' | 'vertical'<!--/acceptValues-->

@@ -1,3 +1,4 @@
+<!--id-->dxMap.Options.onMarkerAdded<!--/id-->
 <!--EventForAction-->..\4 Events\markerAdded.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

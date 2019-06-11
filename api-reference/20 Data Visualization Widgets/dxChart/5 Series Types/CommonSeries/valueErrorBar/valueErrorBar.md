@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.valueErrorBar<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\..\AreaSeries\AreaSeries.md,..\..\BarSeries\BarSeries.md,..\..\LineSeries\LineSeries.md,..\..\ScatterSeries\ScatterSeries.md,..\..\SplineAreaSeries\SplineAreaSeries.md,..\..\StepAreaSeries\StepAreaSeries.md,..\..\StepLineSeries\StepLineSeries.md<!--/propertyOf-->
 <!--type-->Object<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->ODataStore.Options.keyType<!--/id-->
 ===========================================================================
 <!--acceptValues-->'String' | 'Int32' | 'Int64' | 'Guid' | 'Boolean' | 'Single' | 'Decimal'<!--/acceptValues-->
 <!--type-->String | Object<!--/type-->

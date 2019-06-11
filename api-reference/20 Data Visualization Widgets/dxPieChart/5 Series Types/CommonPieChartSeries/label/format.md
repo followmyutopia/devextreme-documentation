@@ -1,3 +1,4 @@
+<!--id-->dxPieChartSeriesTypes.CommonPieChartSeries.label.format<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->format<!--/type-->

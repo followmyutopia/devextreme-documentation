@@ -1,3 +1,4 @@
+<!--id-->dxCalendarCellTemplate.view<!--/id-->
 ===========================================================================
 <!--acceptValues-->'month' | 'year' | 'decade' | 'century'<!--/acceptValues-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxValidationGroup<!--/id-->
 ===========================================================================
 <!--module-->ui/validation_group<!--/module-->
 <!--export-->default<!--/export-->

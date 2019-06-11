@@ -1,3 +1,4 @@
+<!--id-->dxContextMenu.Options.showEvent.delay<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

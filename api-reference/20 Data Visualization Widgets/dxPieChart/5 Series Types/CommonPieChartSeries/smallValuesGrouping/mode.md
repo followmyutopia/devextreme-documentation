@@ -1,3 +1,4 @@
+<!--id-->dxPieChartSeriesTypes.CommonPieChartSeries.smallValuesGrouping.mode<!--/id-->
 ===========================================================================
 <!--default-->'none'<!--/default-->
 <!--acceptValues-->'none' | 'smallValueThreshold' | 'topN'<!--/acceptValues-->

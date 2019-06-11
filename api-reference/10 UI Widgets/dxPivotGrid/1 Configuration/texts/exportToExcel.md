@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.texts.exportToExcel<!--/id-->
 ===========================================================================
 <!--default-->'Export to Excel file'<!--/default-->
 <!--type-->String<!--/type-->

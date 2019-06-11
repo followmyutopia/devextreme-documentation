@@ -1,3 +1,4 @@
+<!--id-->dxResponsiveBoxItem.location.screen<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

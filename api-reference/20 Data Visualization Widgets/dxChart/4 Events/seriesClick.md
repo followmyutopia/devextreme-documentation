@@ -1,3 +1,4 @@
+<!--id-->dxChart.seriesClick<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

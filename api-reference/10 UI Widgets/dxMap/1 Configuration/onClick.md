@@ -1,3 +1,4 @@
+<!--id-->dxMap.Options.onClick<!--/id-->
 <!--EventForAction-->..\4 Events\click.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

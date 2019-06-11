@@ -1,3 +1,4 @@
+<!--id-->utils.initMobileViewport(options)<!--/id-->
 ===================================================================
 <!--module-->mobile/init_mobile_viewport<!--/module-->
 <!--export-->default<!--/export-->

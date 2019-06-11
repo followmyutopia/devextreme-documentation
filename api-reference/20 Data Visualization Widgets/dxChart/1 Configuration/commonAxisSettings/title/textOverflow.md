@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.title.textOverflow<!--/id-->
 ===========================================================================
 <!--default-->'ellipsis'<!--/default-->
 <!--acceptValues-->'ellipsis' | 'hide' | 'none'<!--/acceptValues-->

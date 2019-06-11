@@ -1,3 +1,4 @@
+<!--id-->dxDateBox.Options.type<!--/id-->
 ===========================================================================
 <!--default-->'date'<!--/default-->
 <!--acceptValues-->'date' | 'datetime' | 'time'<!--/acceptValues-->

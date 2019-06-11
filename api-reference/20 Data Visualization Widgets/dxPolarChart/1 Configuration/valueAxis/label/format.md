@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.valueAxis.label.format<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->format<!--/type-->

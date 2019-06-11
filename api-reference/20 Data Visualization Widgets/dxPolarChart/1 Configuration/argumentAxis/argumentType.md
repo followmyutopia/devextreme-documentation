@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.argumentAxis.argumentType<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'datetime' | 'numeric' | 'string'<!--/acceptValues-->

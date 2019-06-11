@@ -1,3 +1,4 @@
+<!--id-->dxFileUploader.Options.invalidMaxFileSizeMessage<!--/id-->
 ===========================================================================
 <!--default-->'File is too large'<!--/default-->
 <!--type-->String<!--/type-->

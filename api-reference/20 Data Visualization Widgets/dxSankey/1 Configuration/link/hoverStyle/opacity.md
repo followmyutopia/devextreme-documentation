@@ -1,3 +1,4 @@
+<!--id-->dxSankey.Options.link.hoverStyle.opacity<!--/id-->
 ===========================================================================
 <!--default-->0.5<!--/default-->
 <!--type-->Number<!--/type-->

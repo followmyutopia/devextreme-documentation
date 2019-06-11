@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.sortByGroupSummaryInfo.groupColumn<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

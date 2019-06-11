@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.store<!--/id-->
 ===========================================================================
 <!--type-->Store | Store_Options | XmlaStore | XmlaStore_Options | Array<Object> | Object<!--/type-->
 ===========================================================================

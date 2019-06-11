@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.sortingMethod<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->function(value1, value2)<!--/type-->

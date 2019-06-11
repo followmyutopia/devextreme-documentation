@@ -1,3 +1,4 @@
+<!--id-->Store.Options.onModifying<!--/id-->
 <!--EventForAction-->..\4 Events\modifying.md<!--/EventForAction-->
 ===========================================================================
 <!--type-->function()<!--/type-->

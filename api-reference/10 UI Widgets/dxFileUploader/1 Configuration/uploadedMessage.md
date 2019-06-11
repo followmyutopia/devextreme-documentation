@@ -1,3 +1,4 @@
+<!--id-->dxFileUploader.Options.uploadedMessage<!--/id-->
 ===========================================================================
 <!--default-->'Uploaded'<!--/default-->
 <!--type-->String<!--/type-->

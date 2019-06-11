@@ -1,3 +1,4 @@
+<!--id-->BaseGauge.Options.scale.customMinorTicks<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->

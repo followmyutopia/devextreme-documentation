@@ -1,3 +1,4 @@
+<!--id-->Utils.base64_encode(input)<!--/id-->
 ===================================================================
 <!--module-->data/utils<!--/module-->
 <!--export-->base64_encode<!--/export-->

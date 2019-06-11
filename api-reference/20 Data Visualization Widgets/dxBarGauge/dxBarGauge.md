@@ -1,3 +1,4 @@
+<!--id-->dxBarGauge<!--/id-->
 <!--widgettree-->
 values: [50, 30, 90]
 <!--/widgettree-->

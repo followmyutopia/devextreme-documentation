@@ -1,3 +1,4 @@
+<!--id-->dxDrawer.Options.openedStateMode<!--/id-->
 ===========================================================================
 <!--default-->'shrink'<!--/default-->
 <!--acceptValues-->'overlap' | 'shrink' | 'push'<!--/acceptValues-->

@@ -1,3 +1,4 @@
+<!--id-->dxButtonGroup<!--/id-->
 <!--widgettree-->
 items: [{
     style: "bold",

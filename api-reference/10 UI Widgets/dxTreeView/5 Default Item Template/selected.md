@@ -1,3 +1,4 @@
+<!--id-->dxTreeViewItem.selected<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.columnFixing.texts.rightPosition<!--/id-->
 ===========================================================================
 <!--default-->'To the right'<!--/default-->
 <!--type-->String<!--/type-->

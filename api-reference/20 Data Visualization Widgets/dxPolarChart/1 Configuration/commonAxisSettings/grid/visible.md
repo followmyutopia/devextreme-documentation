@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.commonAxisSettings.grid.visible<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

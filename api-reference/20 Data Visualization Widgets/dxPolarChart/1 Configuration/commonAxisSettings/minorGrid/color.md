@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.commonAxisSettings.minorGrid.color<!--/id-->
 ===========================================================================
 <!--default-->'#d3d3d3'<!--/default-->
 <!--type-->String<!--/type-->

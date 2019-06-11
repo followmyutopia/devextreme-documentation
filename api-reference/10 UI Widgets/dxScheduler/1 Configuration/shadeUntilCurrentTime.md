@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.shadeUntilCurrentTime<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

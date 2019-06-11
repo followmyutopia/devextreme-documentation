@@ -1,3 +1,4 @@
+<!--id-->BaseGauge.Options.scale.label.customizeText<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(scaleValue)<!--/type-->

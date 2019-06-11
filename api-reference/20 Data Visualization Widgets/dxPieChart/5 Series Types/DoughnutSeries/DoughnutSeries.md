@@ -1,3 +1,4 @@
+<!--id-->dxPieChartSeriesTypes.DoughnutSeries<!--/id-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->Object<!--/type-->

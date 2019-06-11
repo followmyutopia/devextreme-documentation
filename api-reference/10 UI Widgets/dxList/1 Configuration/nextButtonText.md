@@ -1,3 +1,4 @@
+<!--id-->dxList.Options.nextButtonText<!--/id-->
 ===========================================================================
 <!--default-->'More'<!--/default-->
 <!--type-->String<!--/type-->

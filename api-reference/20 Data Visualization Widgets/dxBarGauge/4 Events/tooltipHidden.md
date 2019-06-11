@@ -1,3 +1,4 @@
+<!--id-->dxBarGauge.tooltipHidden<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

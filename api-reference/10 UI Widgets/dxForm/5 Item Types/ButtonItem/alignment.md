@@ -1,3 +1,4 @@
+<!--id-->dxFormButtonItem.alignment<!--/id-->
 <!--dep-->horizontalAlignment.md<!--/dep-->
 ===========================================================================
 <!--default-->'right'<!--/default-->

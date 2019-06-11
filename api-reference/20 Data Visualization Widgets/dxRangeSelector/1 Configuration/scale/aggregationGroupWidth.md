@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.scale.aggregationGroupWidth<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.hoverMode<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\AreaSeries\AreaSeries.md,..\BarSeries\BarSeries.md,..\StackedBarSeries\StackedBarSeries.md,..\LineSeries\LineSeries.md<!--/propertyOf-->
 <!--acceptValues-->'allArgumentPoints' | 'allSeriesPoints' | 'excludePoints' | 'includePoints' | 'nearestPoint' | 'none' | 'onlyPoint'<!--/acceptValues-->

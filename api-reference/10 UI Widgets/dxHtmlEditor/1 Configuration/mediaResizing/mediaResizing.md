@@ -1,3 +1,4 @@
+<!--id-->dxHtmlEditor.Options.mediaResizing<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->dxHtmlEditorMediaResizing<!--/type-->

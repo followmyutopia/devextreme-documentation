@@ -1,3 +1,4 @@
+<!--id-->dxColorBox.Options.fieldTemplate<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->template<!--/type-->

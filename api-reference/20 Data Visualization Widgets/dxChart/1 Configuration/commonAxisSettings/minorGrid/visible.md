@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.minorGrid.visible<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

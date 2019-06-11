@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.resources.colorExpr<!--/id-->
 ===========================================================================
 <!--default-->'color'<!--/default-->
 <!--type-->String<!--/type-->

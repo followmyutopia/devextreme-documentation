@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.searchPanel.searchVisibleColumnsOnly<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

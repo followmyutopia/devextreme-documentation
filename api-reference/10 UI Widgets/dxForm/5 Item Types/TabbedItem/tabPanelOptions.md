@@ -1,3 +1,4 @@
+<!--id-->dxFormTabbedItem.tabPanelOptions<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->dxTabPanel_Options<!--/type-->

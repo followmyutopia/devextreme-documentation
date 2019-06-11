@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.value<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->Array<Number, String, Date> | Object<!--/type-->

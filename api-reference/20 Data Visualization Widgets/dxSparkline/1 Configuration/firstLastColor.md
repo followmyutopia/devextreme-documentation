@@ -1,3 +1,4 @@
+<!--id-->dxSparkline.Options.firstLastColor<!--/id-->
 ===========================================================================
 <!--default-->'#666666'<!--/default-->
 <!--type-->String<!--/type-->

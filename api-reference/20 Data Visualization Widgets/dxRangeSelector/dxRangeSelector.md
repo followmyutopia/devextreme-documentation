@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector<!--/id-->
 <!--widgettree-->
 dataSource: [{
     arg: "1",

@@ -1,3 +1,4 @@
+<!--id-->dxDropDownMenu.Options.opened<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

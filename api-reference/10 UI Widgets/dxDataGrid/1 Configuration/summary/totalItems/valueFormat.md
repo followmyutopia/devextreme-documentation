@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.summary.totalItems.valueFormat<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->format<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->viz.generateColors(palette, count, options)<!--/id-->
 ===================================================================
 <!--module-->viz/palette<!--/module-->
 <!--export-->generateColors<!--/export-->

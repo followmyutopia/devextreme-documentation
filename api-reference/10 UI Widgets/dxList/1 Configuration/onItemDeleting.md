@@ -1,3 +1,4 @@
+<!--id-->dxList.Options.onItemDeleting<!--/id-->
 <!--merge--><!--/merge-->
 <!--hidden-->false<!--/hidden-->
 <!--default-->null<!--/default-->

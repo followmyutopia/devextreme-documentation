@@ -1,3 +1,4 @@
+<!--id-->BaseChart.Options.dataSource<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->Array<any> | DataSource | DataSource_Options | String<!--/type-->

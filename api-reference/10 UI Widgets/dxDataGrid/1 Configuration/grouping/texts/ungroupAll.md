@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.grouping.texts.ungroupAll<!--/id-->
 ===========================================================================
 <!--default-->'Ungroup All'<!--/default-->
 <!--type-->String<!--/type-->

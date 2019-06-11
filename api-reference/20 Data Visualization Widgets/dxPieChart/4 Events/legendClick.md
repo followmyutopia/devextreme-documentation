@@ -1,3 +1,4 @@
+<!--id-->dxPieChart.legendClick<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

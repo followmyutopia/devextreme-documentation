@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.ScatterSeries.label.customizeText<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(pointInfo)<!--/type-->

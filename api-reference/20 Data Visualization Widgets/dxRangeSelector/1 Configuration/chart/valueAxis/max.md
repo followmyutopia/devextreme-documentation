@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.chart.valueAxis.max<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

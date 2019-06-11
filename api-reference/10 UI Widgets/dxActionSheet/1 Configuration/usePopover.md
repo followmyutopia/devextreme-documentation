@@ -1,3 +1,4 @@
+<!--id-->dxActionSheet.Options.usePopover<!--/id-->
 ===========================================================================
 <!--default-->false, true (iPad)<!--/default-->
 <!--type-->Boolean<!--/type-->

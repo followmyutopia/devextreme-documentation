@@ -1,3 +1,4 @@
+<!--id-->dxMenuBase.Options.activeStateEnabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

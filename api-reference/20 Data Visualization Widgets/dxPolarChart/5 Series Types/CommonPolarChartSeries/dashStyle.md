@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.dashStyle<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\LineSeries\LineSeries.md<!--/propertyOf-->
 <!--default-->'solid'<!--/default-->

@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.highlightChanges<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

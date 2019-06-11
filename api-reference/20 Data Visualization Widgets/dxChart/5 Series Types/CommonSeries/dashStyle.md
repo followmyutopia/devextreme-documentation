@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.dashStyle<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\LineSeries\LineSeries.md,..\StackedLineSeries\StackedLineSeries.md,..\FullStackedLineSeries\FullStackedLineSeries.md,..\StackedSplineSeries\StackedSplineSeries.md,..\FullStackedSplineSeries\FullStackedSplineSeries.md,..\SplineSeries\SplineSeries.md,..\StepLineSeries\StepLineSeries.md<!--/propertyOf-->
 <!--default-->'solid'<!--/default-->

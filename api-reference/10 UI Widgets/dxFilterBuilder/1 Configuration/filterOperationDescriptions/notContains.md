@@ -1,3 +1,4 @@
+<!--id-->dxFilterBuilder.Options.filterOperationDescriptions.notContains<!--/id-->
 ===========================================================================
 <!--default-->'Does not contain'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.resources.fieldExpr<!--/id-->
 ===========================================================================
 <!--default-->''<!--/default-->
 <!--type-->String<!--/type-->

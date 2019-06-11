@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.dataSourceField<!--/id-->
 ===========================================================================
 <!--default-->'arg'<!--/default-->
 <!--type-->String<!--/type-->

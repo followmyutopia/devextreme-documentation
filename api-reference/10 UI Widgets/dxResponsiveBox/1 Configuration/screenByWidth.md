@@ -1,3 +1,4 @@
+<!--id-->dxResponsiveBox.Options.screenByWidth<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function()<!--/type-->

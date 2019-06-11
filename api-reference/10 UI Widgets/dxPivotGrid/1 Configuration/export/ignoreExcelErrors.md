@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.export.ignoreExcelErrors<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

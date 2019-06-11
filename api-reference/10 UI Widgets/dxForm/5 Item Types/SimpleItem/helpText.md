@@ -1,3 +1,4 @@
+<!--id-->dxFormSimpleItem.helpText<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

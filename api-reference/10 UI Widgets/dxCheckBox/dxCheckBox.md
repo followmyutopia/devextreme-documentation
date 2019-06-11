@@ -1,3 +1,4 @@
+<!--id-->dxCheckBox<!--/id-->
 <!--widgettree-->
 
 <!--/widgettree-->

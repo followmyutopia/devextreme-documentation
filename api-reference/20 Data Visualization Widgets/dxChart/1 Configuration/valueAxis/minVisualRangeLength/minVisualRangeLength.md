@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.valueAxis.minVisualRangeLength<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->

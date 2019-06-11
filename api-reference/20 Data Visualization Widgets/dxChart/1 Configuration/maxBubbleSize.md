@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.maxBubbleSize<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\5 Series Types\BubbleSeries\BubbleSeries.md<!--/propertyOf-->
 <!--default-->0.2<!--/default-->

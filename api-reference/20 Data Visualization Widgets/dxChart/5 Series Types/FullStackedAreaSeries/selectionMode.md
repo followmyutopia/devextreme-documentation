@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.FullStackedAreaSeries.selectionMode<!--/id-->
 ===========================================================================
 <!--default-->'includePoints'<!--/default-->
 <!--acceptValues-->'includePoints' | 'excludePoints' | 'none'<!--/acceptValues-->

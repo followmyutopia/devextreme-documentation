@@ -1,3 +1,4 @@
+<!--id-->UI Events.dxswipe<!--/id-->
 ===========================================================================
 <!--module-->events/swipe<!--/module-->
 <!--type-->eventType<!--/type-->

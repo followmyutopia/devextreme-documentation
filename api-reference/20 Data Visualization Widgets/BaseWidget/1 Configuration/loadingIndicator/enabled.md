@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.loadingIndicator.enabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

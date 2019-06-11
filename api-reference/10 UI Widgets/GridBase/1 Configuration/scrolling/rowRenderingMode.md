@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.scrolling.rowRenderingMode<!--/id-->
 ===========================================================================
 <!--default-->'standard'<!--/default-->
 <!--acceptValues-->'standard' | 'virtual'<!--/acceptValues-->

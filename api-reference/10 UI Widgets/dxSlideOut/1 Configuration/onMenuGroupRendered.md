@@ -1,3 +1,4 @@
+<!--id-->dxSlideOut.Options.onMenuGroupRendered<!--/id-->
 <!--EventForAction-->..\4 Events\menuGroupRendered.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

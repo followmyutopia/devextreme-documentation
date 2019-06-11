@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.label.overlappingBehavior<!--/id-->
 ===========================================================================
 <!--default-->'hide'<!--/default-->
 <!--acceptValues-->'rotate' | 'stagger' | 'none' | 'hide'<!--/acceptValues-->

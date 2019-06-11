@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.stripStyle.label.horizontalAlignment<!--/id-->
 ===========================================================================
 <!--default-->'left'<!--/default-->
 <!--acceptValues-->'center' | 'left' | 'right'<!--/acceptValues-->

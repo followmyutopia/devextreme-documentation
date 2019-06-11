@@ -1,3 +1,4 @@
+<!--id-->dxToolbar.Options.submenuType<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->'dropDownMenu'<!--/default-->

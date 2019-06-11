@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.legend.position<!--/id-->
 ===========================================================================
 <!--default-->'outside'<!--/default-->
 <!--acceptValues-->'inside' | 'outside'<!--/acceptValues-->

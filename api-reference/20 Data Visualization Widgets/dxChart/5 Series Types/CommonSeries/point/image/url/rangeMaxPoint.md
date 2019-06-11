@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.point.image.url.rangeMaxPoint<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\..\..\..\RangeAreaSeries\RangeAreaSeries.md<!--/propertyOf-->
 <!--default-->undefined<!--/default-->

@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.label.argumentFormat<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->format<!--/type-->

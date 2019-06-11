@@ -1,3 +1,4 @@
+<!--id-->dxLinearGauge.Options.rangeContainer.horizontalOrientation<!--/id-->
 ===========================================================================
 <!--default-->'right'<!--/default-->
 <!--acceptValues-->'center' | 'left' | 'right'<!--/acceptValues-->

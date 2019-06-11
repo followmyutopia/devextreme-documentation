@@ -1,3 +1,4 @@
+<!--id-->dxTabs.Options.scrollByContent<!--/id-->
 ===========================================================================
 <!--default-->true, false (desktop)<!--/default-->
 <!--type-->Boolean<!--/type-->

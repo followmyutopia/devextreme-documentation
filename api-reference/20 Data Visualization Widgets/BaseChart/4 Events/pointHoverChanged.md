@@ -1,3 +1,4 @@
+<!--id-->BaseChart.pointHoverChanged<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

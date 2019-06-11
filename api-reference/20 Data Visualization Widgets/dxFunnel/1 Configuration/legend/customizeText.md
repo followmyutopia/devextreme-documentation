@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.Options.legend.customizeText<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(itemInfo)<!--/type-->

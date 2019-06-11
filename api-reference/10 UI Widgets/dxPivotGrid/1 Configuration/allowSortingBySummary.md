@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.allowSortingBySummary<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->DOMComponent.Options.width<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number | String | function()<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.views<!--/id-->
 ===========================================================================
 <!--default-->['day', 'week']<!--/default-->
 <!--acceptValues-->'day' | 'week' | 'workWeek' | 'month' | 'timelineDay' | 'timelineWeek' | 'timelineWorkWeek' | 'timelineMonth' | 'agenda'<!--/acceptValues-->

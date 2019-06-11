@@ -1,3 +1,4 @@
+<!--id-->dxBox.Options.align<!--/id-->
 ===========================================================================
 <!--default-->'start'<!--/default-->
 <!--acceptValues-->'center' | 'end' | 'space-around' | 'space-between' | 'start'<!--/acceptValues-->

@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.title.textOverflow<!--/id-->
 ===========================================================================
 <!--default-->'ellipsis'<!--/default-->
 <!--acceptValues-->'ellipsis' | 'hide' | 'none'<!--/acceptValues-->

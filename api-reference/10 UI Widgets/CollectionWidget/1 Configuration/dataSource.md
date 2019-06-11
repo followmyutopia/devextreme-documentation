@@ -1,3 +1,4 @@
+<!--id-->CollectionWidget.Options.dataSource<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->String | Array<String, CollectionWidgetItem> | DataSource | DataSource_Options<!--/type-->

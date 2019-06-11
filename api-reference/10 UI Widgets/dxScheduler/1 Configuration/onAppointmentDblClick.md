@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.onAppointmentDblClick<!--/id-->
 <!--EventForAction-->..\4 Events\appointmentDblClick.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.fields.groupInterval<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'day' | 'dayOfWeek' | 'month' | 'quarter' | 'year'<!--/acceptValues-->

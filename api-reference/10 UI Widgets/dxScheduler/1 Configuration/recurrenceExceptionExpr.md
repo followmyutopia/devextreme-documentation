@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.recurrenceExceptionExpr<!--/id-->
 ===========================================================================
 <!--default-->'recurrenceException'<!--/default-->
 <!--type-->String<!--/type-->

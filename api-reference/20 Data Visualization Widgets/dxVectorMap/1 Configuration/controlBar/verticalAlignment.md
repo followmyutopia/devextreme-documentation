@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.controlBar.verticalAlignment<!--/id-->
 ===========================================================================
 <!--default-->'top'<!--/default-->
 <!--acceptValues-->'bottom' | 'top'<!--/acceptValues-->

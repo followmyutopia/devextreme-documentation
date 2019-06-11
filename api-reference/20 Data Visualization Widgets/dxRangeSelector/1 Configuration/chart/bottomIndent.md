@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.chart.bottomIndent<!--/id-->
 ===========================================================================
 <!--default-->0<!--/default-->
 <!--type-->Number<!--/type-->

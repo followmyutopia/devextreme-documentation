@@ -1,3 +1,4 @@
+<!--id-->dxChartCommonAnnotationConfig.tooltipEnabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

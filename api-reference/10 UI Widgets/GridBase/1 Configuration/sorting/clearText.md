@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.sorting.clearText<!--/id-->
 ===========================================================================
 <!--default-->'Clear Sorting'<!--/default-->
 <!--type-->String<!--/type-->

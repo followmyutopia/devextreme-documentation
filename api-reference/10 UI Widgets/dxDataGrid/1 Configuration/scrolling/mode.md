@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.scrolling.mode<!--/id-->
 ===========================================================================
 <!--default-->'standard'<!--/default-->
 <!--acceptValues-->'infinite' | 'standard' | 'virtual'<!--/acceptValues-->

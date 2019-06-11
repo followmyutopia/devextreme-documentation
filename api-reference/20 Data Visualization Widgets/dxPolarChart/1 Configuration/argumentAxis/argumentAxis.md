@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.argumentAxis<!--/id-->
 ===========================================================================
 <!--type-->Object<!--/type-->
 <!--inherits-->..\commonAxisSettings\commonAxisSettings.md<!--/inherits-->

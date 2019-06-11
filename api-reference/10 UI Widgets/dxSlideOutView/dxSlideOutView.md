@@ -1,3 +1,4 @@
+<!--id-->dxSlideOutView<!--/id-->
 ===========================================================================
 <!--module-->ui/slide_out_view<!--/module-->
 <!--export-->default<!--/export-->

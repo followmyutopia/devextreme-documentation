@@ -1,3 +1,4 @@
+<!--id-->CommonIndicator.secondColor<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\..\..\dxCircularGauge\5 Indicator Types\TwoColorNeedle\TwoColorNeedle.md<!--/propertyOf-->
 <!--default-->'#E18E92'<!--/default-->

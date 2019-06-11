@@ -1,3 +1,4 @@
+<!--id-->dxTreeList.Options.onFocusedRowChanged<!--/id-->
 <!--EventForAction-->..\4 Events\focusedRowChanged.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

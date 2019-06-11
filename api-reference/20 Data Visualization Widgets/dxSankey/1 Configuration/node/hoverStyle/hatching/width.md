@@ -1,3 +1,4 @@
+<!--id-->dxSankey.Options.node.hoverStyle.hatching.width<!--/id-->
 ===========================================================================
 <!--default-->2<!--/default-->
 <!--type-->Number<!--/type-->

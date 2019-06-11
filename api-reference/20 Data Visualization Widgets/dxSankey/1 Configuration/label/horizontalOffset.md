@@ -1,3 +1,4 @@
+<!--id-->dxSankey.Options.label.horizontalOffset<!--/id-->
 ===========================================================================
 <!--default-->5<!--/default-->
 <!--type-->Number<!--/type-->

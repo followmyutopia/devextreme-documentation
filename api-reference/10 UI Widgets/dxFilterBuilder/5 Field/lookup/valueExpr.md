@@ -1,3 +1,4 @@
+<!--id-->dxFilterBuilderField.lookup.valueExpr<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String | function()<!--/type-->

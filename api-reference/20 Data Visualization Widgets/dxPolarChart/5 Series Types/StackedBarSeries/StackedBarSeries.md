@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.stackedbarpolarseries<!--/id-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->Object<!--/type-->

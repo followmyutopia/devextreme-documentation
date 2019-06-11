@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.breakStyle.line<!--/id-->
 ===========================================================================
 <!--default-->'waved'<!--/default-->
 <!--acceptValues-->'straight' | 'waved'<!--/acceptValues-->

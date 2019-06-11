@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.selection.showCheckBoxesMode<!--/id-->
 ===========================================================================
 <!--default-->'onClick'<!--/default-->
 <!--acceptValues-->'always' | 'none' | 'onClick' | 'onLongTap'<!--/acceptValues-->

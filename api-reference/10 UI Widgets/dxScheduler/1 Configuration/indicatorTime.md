@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.indicatorTime<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->undefined<!--/default-->

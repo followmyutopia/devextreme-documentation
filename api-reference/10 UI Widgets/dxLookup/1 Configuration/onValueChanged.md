@@ -1,3 +1,4 @@
+<!--id-->dxLookup.Options.onValueChanged<!--/id-->
 <!--EventForAction-->..\4 Events\valueChanged.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

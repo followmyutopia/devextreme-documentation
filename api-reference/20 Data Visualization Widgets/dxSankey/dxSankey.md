@@ -1,3 +1,4 @@
+<!--id-->dxSankey<!--/id-->
 <!--widgettree-->
 dataSource: [
     { source: "Brazil", target: "Portugal", weight: 5 },

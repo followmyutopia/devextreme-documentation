@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.valueAxis.autoBreaksEnabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

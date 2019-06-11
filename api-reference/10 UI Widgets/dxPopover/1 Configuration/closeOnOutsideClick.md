@@ -1,3 +1,4 @@
+<!--id-->dxPopover.Options.closeOnOutsideClick<!--/id-->
 <!--merge--><!--/merge-->
 <!--default-->true<!--/default-->
 <!--keep--><!--/keep-->

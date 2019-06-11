@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.title.subtitle.wordWrap<!--/id-->
 ===========================================================================
 <!--default-->'normal'<!--/default-->
 <!--acceptValues-->'normal' | 'breakWord' | 'none'<!--/acceptValues-->

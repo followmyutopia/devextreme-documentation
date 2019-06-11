@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.crosshair.verticalLine.label.customizeText<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(info)<!--/type-->

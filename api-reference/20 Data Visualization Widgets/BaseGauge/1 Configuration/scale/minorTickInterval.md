@@ -1,3 +1,4 @@
+<!--id-->BaseGauge.Options.scale.minorTickInterval<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

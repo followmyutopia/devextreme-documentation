@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.scale.holidays<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Array<Date, String> | Array<Number><!--/type-->

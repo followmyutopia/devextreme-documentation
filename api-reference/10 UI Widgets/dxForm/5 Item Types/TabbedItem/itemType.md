@@ -1,3 +1,4 @@
+<!--id-->dxFormTabbedItem.itemType<!--/id-->
 ===========================================================================
 <!--default-->'simple'<!--/default-->
 <!--acceptValues-->'empty' | 'group' | 'simple' | 'tabbed' | 'button'<!--/acceptValues-->

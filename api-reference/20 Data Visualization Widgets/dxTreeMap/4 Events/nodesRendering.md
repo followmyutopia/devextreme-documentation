@@ -1,3 +1,4 @@
+<!--id-->dxTreeMap.nodesRendering<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

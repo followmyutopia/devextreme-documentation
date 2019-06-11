@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.point.hoverStyle.border.width<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\..\..\..\LineSeries\LineSeries.md,..\..\..\..\AreaSeries\AreaSeries.md,..\..\..\..\ScatterSeries\ScatterSeries.md<!--/propertyOf-->
 <!--default-->4<!--/default-->

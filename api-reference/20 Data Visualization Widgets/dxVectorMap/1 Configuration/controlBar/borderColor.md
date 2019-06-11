@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.controlBar.borderColor<!--/id-->
 ===========================================================================
 <!--default-->'#5d5d5d'<!--/default-->
 <!--type-->String<!--/type-->

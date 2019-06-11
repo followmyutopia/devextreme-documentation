@@ -1,3 +1,4 @@
+<!--id-->dxProgressBar.Options.showStatus<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

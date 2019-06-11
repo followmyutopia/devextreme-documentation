@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.chart.dataPrepareSettings.convertToAxisDataType<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

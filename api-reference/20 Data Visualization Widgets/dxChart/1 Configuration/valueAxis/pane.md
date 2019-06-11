@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.valueAxis.pane<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

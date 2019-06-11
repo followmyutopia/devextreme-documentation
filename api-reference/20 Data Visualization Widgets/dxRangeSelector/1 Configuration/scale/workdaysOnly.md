@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.scale.workdaysOnly<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

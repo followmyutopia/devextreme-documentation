@@ -1,3 +1,4 @@
+<!--id-->linearTriangleMarker<!--/id-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->Object<!--/type-->

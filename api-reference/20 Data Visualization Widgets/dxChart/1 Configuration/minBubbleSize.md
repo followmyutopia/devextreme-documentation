@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.minBubbleSize<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\5 Series Types\BubbleSeries\BubbleSeries.md<!--/propertyOf-->
 <!--default-->12<!--/default-->

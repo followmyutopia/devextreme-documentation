@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.regenerateColumnsByVisibleItems<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->false<!--/default-->

@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.resources.allowMultiple<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxChartCommonAnnotationConfig.shadow.opacity<!--/id-->
 ===========================================================================
 <!--default-->0.15<!--/default-->
 <!--type-->Number<!--/type-->

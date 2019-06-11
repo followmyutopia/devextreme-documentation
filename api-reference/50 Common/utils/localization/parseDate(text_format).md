@@ -1,3 +1,4 @@
+<!--id-->localization.parseDate(text, format)<!--/id-->
 ===================================================================
 <!--module-->localization<!--/module-->
 <!--export-->parseDate<!--/export-->

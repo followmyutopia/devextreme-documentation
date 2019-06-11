@@ -1,3 +1,4 @@
+<!--id-->dxFileUploader.Options.uploadHeaders<!--/id-->
 ===========================================================================
 <!--default-->{}<!--/default-->
 <!--type-->Object<!--/type-->

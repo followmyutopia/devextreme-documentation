@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.Options.item.selectionStyle.hatching.width<!--/id-->
 ===========================================================================
 <!--default-->2<!--/default-->
 <!--type-->Number<!--/type-->

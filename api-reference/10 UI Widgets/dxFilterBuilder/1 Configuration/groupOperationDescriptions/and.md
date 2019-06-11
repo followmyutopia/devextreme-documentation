@@ -1,3 +1,4 @@
+<!--id-->dxFilterBuilder.Options.groupOperationDescriptions.and<!--/id-->
 ===========================================================================
 <!--default-->'And'<!--/default-->
 <!--type-->String<!--/type-->

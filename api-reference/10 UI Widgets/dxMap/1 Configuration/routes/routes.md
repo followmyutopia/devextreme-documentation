@@ -1,3 +1,4 @@
+<!--id-->dxMap.Options.routes<!--/id-->
 ===========================================================================
 <!--type-->Array<Object><!--/type-->
 <!--firedEvents-->routeAdded, routeRemoved<!--/firedEvents-->

@@ -1,3 +1,4 @@
+<!--id-->dxSliderBase.Options.label.visible<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

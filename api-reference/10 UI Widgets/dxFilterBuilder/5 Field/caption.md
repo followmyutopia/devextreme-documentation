@@ -1,3 +1,4 @@
+<!--id-->dxFilterBuilderField.caption<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

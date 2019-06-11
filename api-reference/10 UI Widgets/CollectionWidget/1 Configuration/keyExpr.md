@@ -1,3 +1,4 @@
+<!--id-->CollectionWidget.Options.keyExpr<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->String | function()<!--/type-->

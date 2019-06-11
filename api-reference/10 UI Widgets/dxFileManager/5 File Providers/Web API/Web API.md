@@ -1,3 +1,4 @@
+<!--id-->WebApiFileProvider<!--/id-->
 ===========================================================================
 <!--module-->ui/file_manager/file_provider/webapi<!--/module-->
 <!--export-->default<!--/export-->

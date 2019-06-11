@@ -1,3 +1,4 @@
+<!--id-->dxTextEditor.Options.onInput<!--/id-->
 <!--EventForAction-->..\4 Events\input.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

@@ -1,3 +1,4 @@
+<!--id-->dxBoxItem.baseSize<!--/id-->
 ===========================================================================
 <!--default-->0<!--/default-->
 <!--acceptValues-->'auto'<!--/acceptValues-->

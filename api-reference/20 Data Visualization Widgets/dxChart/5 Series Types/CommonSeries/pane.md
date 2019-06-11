@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.pane<!--/id-->
 ===========================================================================
 <!--default-->'default'<!--/default-->
 <!--type-->String<!--/type-->

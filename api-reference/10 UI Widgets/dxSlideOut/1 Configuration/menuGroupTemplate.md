@@ -1,3 +1,4 @@
+<!--id-->dxSlideOut.Options.menuGroupTemplate<!--/id-->
 ===========================================================================
 <!--default-->'menuGroup'<!--/default-->
 <!--type-->template<!--/type-->

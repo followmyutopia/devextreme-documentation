@@ -1,3 +1,4 @@
+<!--id-->dxFilterBuilder.Options.groupOperations<!--/id-->
 ===========================================================================
 <!--default-->['and', 'or', 'notAnd', 'notOr']<!--/default-->
 <!--acceptValues-->'and' | 'or' | 'notAnd' | 'notOr'<!--/acceptValues-->

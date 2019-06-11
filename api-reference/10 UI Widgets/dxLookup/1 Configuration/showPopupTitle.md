@@ -1,3 +1,4 @@
+<!--id-->dxLookup.Options.showPopupTitle<!--/id-->
 ===========================================================================
 <!--default-->true, false (Material)<!--/default-->
 <!--type-->Boolean<!--/type-->

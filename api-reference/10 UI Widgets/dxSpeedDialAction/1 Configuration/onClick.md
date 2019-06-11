@@ -1,3 +1,4 @@
+<!--id-->dxSpeedDialAction.Options.onClick<!--/id-->
 <!--EventForAction-->..\4 Events\click.md<!--/EventForAction-->
 ===========================================================================
 <!--type-->function(e)<!--/type-->

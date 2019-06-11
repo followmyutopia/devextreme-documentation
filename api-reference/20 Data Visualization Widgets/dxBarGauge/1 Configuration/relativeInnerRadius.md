@@ -1,3 +1,4 @@
+<!--id-->dxBarGauge.Options.relativeInnerRadius<!--/id-->
 ===========================================================================
 <!--default-->0.3<!--/default-->
 <!--type-->Number<!--/type-->

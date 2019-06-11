@@ -1,3 +1,4 @@
+<!--id-->dxTagBox.paste<!--/id-->
 <!--merge--><!--/merge-->
 <!--hidden--><!--/hidden-->
 <!--type-->eventType<!--/type-->

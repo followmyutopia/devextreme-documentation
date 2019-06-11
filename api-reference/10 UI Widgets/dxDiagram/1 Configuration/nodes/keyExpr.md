@@ -1,3 +1,4 @@
+<!--id-->dxDiagram.Options.nodes.keyExpr<!--/id-->
 ===========================================================================
 <!--default-->'id'<!--/default-->
 <!--type-->String | function(data)<!--/type-->

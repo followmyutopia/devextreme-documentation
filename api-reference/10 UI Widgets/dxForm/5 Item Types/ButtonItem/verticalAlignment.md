@@ -1,3 +1,4 @@
+<!--id-->dxFormButtonItem.verticalAlignment<!--/id-->
 ===========================================================================
 <!--default-->'top'<!--/default-->
 <!--acceptValues-->'bottom' | 'center' | 'top'<!--/acceptValues-->

@@ -1,3 +1,4 @@
+<!--id-->dxTileView.Options.baseItemWidth<!--/id-->
 ===========================================================================
 <!--default-->100<!--/default-->
 <!--type-->Number<!--/type-->

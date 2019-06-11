@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.editing.useIcons<!--/id-->
 ===========================================================================
 <!--default-->false, true (Material)<!--/default-->
 <!--type-->Boolean<!--/type-->

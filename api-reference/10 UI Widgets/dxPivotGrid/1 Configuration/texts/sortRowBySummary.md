@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.texts.sortRowBySummary<!--/id-->
 ===========================================================================
 <!--default-->'Sort {0} by This Row'<!--/default-->
 <!--type-->String<!--/type-->

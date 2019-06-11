@@ -1,3 +1,4 @@
+<!--id-->dxMenu.Options.orientation<!--/id-->
 ===========================================================================
 <!--default-->'horizontal'<!--/default-->
 <!--acceptValues-->'horizontal' | 'vertical'<!--/acceptValues-->

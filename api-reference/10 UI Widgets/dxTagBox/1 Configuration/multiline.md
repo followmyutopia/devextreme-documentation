@@ -1,3 +1,4 @@
+<!--id-->dxTagBox.Options.multiline<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

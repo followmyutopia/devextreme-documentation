@@ -1,3 +1,4 @@
+<!--id-->dxLookup.Options.cleanSearchOnOpening<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

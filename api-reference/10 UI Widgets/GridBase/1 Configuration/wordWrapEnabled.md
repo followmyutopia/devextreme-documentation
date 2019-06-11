@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.wordWrapEnabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

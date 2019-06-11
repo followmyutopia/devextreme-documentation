@@ -1,3 +1,4 @@
+<!--id-->dxMenuBase.Options.showSubmenuMode.delay.show<!--/id-->
 ===========================================================================
 <!--default-->50<!--/default-->
 <!--type-->Number<!--/type-->

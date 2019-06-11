@@ -1,3 +1,4 @@
+<!--id-->dxFormTabbedItem.tabs.colCount<!--/id-->
 ===========================================================================
 <!--default-->1<!--/default-->
 <!--type-->Number<!--/type-->

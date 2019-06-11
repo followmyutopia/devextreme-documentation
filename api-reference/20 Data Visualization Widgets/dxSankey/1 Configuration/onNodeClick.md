@@ -1,3 +1,4 @@
+<!--id-->dxSankey.Options.onNodeClick<!--/id-->
 <!--EventForAction-->..\4 Events\nodeClick.md<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->

@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.views.dateCellTemplate<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->template<!--/type-->

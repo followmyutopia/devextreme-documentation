@@ -1,3 +1,4 @@
+<!--id-->dxOverlay.Options.height<!--/id-->
 ===========================================================================
 <!--default-->function() { return $(window).height() * 0.8 }<!--/default-->
 <!--type-->Number | String | function()<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxSliderBase.Options.tooltip.format<!--/id-->
 ===========================================================================
 <!--default-->function(value) { return value }<!--/default-->
 <!--type-->format<!--/type-->

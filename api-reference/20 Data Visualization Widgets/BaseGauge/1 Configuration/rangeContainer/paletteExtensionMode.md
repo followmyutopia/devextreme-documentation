@@ -1,3 +1,4 @@
+<!--id-->BaseGauge.Options.rangeContainer.paletteExtensionMode<!--/id-->
 ===========================================================================
 <!--default-->'blend'<!--/default-->
 <!--acceptValues-->'alternate' | 'blend' | 'extrapolate'<!--/acceptValues-->

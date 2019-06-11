@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.Options.valueField<!--/id-->
 ===========================================================================
 <!--default-->'val'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxLookup.Options.pulledDownText<!--/id-->
 ===========================================================================
 <!--default-->'Release to refresh...'<!--/default-->
 <!--type-->String<!--/type-->

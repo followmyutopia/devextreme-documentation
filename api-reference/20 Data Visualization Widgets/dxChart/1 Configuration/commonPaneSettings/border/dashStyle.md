@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonPaneSettings.border.dashStyle<!--/id-->
 ===========================================================================
 <!--default-->'solid'<!--/default-->
 <!--acceptValues-->'dash' | 'dot' | 'longDash' | 'solid'<!--/acceptValues-->

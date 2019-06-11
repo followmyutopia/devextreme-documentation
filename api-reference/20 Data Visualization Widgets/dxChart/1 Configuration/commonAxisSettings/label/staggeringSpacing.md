@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.label.staggeringSpacing<!--/id-->
 ===========================================================================
 <!--default-->5<!--/default-->
 <!--type-->Number<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxDropDownEditor.Options.openOnFieldClick<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

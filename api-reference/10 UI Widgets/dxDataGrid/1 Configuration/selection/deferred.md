@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.selection.deferred<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

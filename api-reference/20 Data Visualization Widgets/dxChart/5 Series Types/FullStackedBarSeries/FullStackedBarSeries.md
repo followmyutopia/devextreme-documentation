@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.FullStackedBarSeries<!--/id-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->Object<!--/type-->

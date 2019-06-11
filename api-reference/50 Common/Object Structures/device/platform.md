@@ -1,3 +1,4 @@
+<!--id-->Device.platform<!--/id-->
 ===========================================================================
 <!--acceptValues-->'android' | 'ios' | 'win' | 'generic'<!--/acceptValues-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->Editor.Options.validationMessageMode<!--/id-->
 ===========================================================================
 <!--default-->'auto'<!--/default-->
 <!--acceptValues-->'always' | 'auto'<!--/acceptValues-->

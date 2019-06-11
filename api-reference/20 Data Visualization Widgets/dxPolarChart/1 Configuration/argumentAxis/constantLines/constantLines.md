@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.argumentAxis.constantLines<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->Array<Object><!--/type-->

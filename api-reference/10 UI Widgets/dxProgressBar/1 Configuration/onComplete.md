@@ -1,3 +1,4 @@
+<!--id-->dxProgressBar.Options.onComplete<!--/id-->
 <!--EventForAction-->..\4 Events\complete.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

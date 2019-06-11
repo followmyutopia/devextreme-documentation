@@ -1,3 +1,4 @@
+<!--id-->dxForm.Options.showRequiredMark<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

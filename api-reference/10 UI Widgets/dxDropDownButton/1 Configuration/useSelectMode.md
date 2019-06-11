@@ -1,3 +1,4 @@
+<!--id-->dxDropDownButton.Options.useSelectMode<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

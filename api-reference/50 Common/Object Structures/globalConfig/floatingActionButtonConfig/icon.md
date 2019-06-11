@@ -1,3 +1,4 @@
+<!--id-->globalConfig.floatingActionButtonConfig.icon<!--/id-->
 ===========================================================================
 <!--default-->'add'<!--/default-->
 <!--type-->String<!--/type-->

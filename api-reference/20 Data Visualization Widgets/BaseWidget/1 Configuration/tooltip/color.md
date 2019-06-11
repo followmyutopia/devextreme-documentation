@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.tooltip.color<!--/id-->
 ===========================================================================
 <!--default-->'#ffffff'<!--/default-->
 <!--type-->String<!--/type-->

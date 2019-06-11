@@ -1,3 +1,4 @@
+<!--id-->viz.exportWidgets(widgetInstances, options)<!--/id-->
 ===================================================================
 <!--module-->viz/export<!--/module-->
 <!--export-->exportWidgets<!--/export-->

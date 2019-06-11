@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.label.rotationAngle<!--/id-->
 ===========================================================================
 <!--default-->90<!--/default-->
 <!--type-->Number<!--/type-->

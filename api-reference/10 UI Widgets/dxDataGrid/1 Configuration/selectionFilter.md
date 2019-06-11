@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.selectionFilter<!--/id-->
 ===========================================================================
 <!--default-->[]<!--/default-->
 <!--type-->Filter expression<!--/type-->

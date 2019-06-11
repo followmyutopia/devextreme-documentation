@@ -1,3 +1,4 @@
+<!--id-->dxMenu.Options.showFirstSubmenuMode.name<!--/id-->
 ===========================================================================
 <!--default-->'onClick'<!--/default-->
 <!--acceptValues-->'onClick' | 'onHover'<!--/acceptValues-->

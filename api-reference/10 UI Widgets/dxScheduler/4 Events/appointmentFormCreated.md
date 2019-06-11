@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.appointmentFormCreated<!--/id-->
 <!--dep-->..\1 Configuration\onAppointmentFormOpening.md<!--/dep-->
 ===========================================================================
 <!--type-->eventType<!--/type-->

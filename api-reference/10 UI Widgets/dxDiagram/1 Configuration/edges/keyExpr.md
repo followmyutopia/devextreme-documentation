@@ -1,3 +1,4 @@
+<!--id-->dxDiagram.Options.edges.keyExpr<!--/id-->
 ===========================================================================
 <!--default-->'id'<!--/default-->
 <!--type-->String | function(data)<!--/type-->

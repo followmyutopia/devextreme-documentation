@@ -1,3 +1,4 @@
+<!--id-->dxActionSheetItem.onClick<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e) | String<!--/type-->

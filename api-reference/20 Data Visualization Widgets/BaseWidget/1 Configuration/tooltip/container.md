@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.tooltip.container<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String | Node | jQuery<!--/type-->

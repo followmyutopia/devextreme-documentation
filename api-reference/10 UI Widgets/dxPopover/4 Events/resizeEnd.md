@@ -1,3 +1,4 @@
+<!--id-->dxPopover.resizeEnd<!--/id-->
 <!--merge--><!--/merge-->
 <!--hidden--><!--/hidden-->
 <!--type-->eventType<!--/type-->

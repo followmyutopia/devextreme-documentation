@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.scrolling.scrollByThumb<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

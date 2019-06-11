@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.fields.allowCrossGroupCalculation<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxPopover.Options.hideEvent.delay<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

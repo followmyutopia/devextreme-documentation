@@ -1,3 +1,4 @@
+<!--id-->dxCalendar.Options.max<!--/id-->
 ===========================================================================
 <!--default-->new Date(3000, 0)<!--/default-->
 <!--type-->Date | Number | String<!--/type-->

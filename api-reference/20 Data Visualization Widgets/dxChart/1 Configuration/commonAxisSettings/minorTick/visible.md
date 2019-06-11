@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.minorTick.visible<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

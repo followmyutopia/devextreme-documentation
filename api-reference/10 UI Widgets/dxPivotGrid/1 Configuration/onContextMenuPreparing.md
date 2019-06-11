@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.onContextMenuPreparing<!--/id-->
 <!--EventForAction-->..\4 Events\contextMenuPreparing.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

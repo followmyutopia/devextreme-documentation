@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.selectedRangeUpdateMode<!--/id-->
 ===========================================================================
 <!--default-->'reset'<!--/default-->
 <!--acceptValues-->'auto' | 'keep' | 'reset' | 'shift'<!--/acceptValues-->

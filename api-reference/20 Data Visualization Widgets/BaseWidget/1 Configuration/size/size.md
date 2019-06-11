@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.size<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Object<!--/type-->

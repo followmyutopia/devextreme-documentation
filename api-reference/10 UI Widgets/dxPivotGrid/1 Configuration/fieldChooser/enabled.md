@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.fieldChooser.enabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

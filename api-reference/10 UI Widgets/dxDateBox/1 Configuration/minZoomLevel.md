@@ -1,3 +1,4 @@
+<!--id-->dxDateBox.Options.minZoomLevel<!--/id-->
 <!--dep-->calendarOptions.md<!--/dep-->
 ===========================================================================
 <!--default-->'century'<!--/default-->

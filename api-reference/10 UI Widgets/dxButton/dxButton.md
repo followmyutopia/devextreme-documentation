@@ -1,3 +1,4 @@
+<!--id-->dxButton<!--/id-->
 <!--widgettree-->
 icon: "favorites",
 text: "Click"

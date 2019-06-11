@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.tooltip.shadow.offsetY<!--/id-->
 ===========================================================================
 <!--default-->4<!--/default-->
 <!--type-->Number<!--/type-->

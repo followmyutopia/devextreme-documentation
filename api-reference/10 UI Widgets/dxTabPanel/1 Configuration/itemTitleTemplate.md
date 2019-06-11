@@ -1,3 +1,4 @@
+<!--id-->dxTabPanel.Options.itemTitleTemplate<!--/id-->
 ===========================================================================
 <!--default-->'title'<!--/default-->
 <!--type-->template<!--/type-->

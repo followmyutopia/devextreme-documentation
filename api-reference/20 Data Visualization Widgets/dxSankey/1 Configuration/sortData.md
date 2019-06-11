@@ -1,3 +1,4 @@
+<!--id-->dxSankey.Options.sortData<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Object<!--/type-->

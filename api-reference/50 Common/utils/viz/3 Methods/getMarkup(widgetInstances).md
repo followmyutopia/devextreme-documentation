@@ -1,3 +1,4 @@
+<!--id-->viz.getMarkup(widgetInstances)<!--/id-->
 ===================================================================
 <!--module-->viz/export<!--/module-->
 <!--export-->getMarkup<!--/export-->

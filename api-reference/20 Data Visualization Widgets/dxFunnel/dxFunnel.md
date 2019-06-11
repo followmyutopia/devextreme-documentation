@@ -1,3 +1,4 @@
+<!--id-->dxFunnel<!--/id-->
 <!--widgettree-->
 dataSource: [
     { action: "Visited the Website", users: 9152 },

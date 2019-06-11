@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.texts.total<!--/id-->
 ===========================================================================
 <!--default-->'{0} Total'<!--/default-->
 <!--type-->String<!--/type-->

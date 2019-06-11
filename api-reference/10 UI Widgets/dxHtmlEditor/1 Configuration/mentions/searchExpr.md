@@ -1,3 +1,4 @@
+<!--id-->dxHtmlEditorMention.searchExpr<!--/id-->
 ===========================================================================
 <!--default-->'this'<!--/default-->
 <!--type-->getter | Array<getter><!--/type-->

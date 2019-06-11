@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.discreteAxisDivisionMode<!--/id-->
 ===========================================================================
 <!--default-->'betweenLabels'<!--/default-->
 <!--acceptValues-->'betweenLabels' | 'crossLabels'<!--/acceptValues-->

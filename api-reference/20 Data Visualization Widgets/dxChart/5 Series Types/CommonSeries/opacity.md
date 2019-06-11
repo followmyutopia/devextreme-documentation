@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.opacity<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\BubbleSeries\BubbleSeries.md,..\AreaSeries\AreaSeries.md,..\StackedAreaSeries\StackedAreaSeries.md,..\FullStackedAreaSeries\FullStackedAreaSeries.md,..\SplineAreaSeries\SplineAreaSeries.md,..\StepAreaSeries\StepAreaSeries.md,..\RangeAreaSeries\RangeAreaSeries.md<!--/propertyOf-->
 <!--default-->0.5<!--/default-->

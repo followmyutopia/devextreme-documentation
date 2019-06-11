@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.zoomFactorChanged<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

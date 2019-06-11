@@ -1,3 +1,4 @@
+<!--id-->dxPieChartSeriesTypes.CommonPieChartSeries.selectionMode<!--/id-->
 ===========================================================================
 <!--default-->'onlyPoint'<!--/default-->
 <!--acceptValues-->'none' | 'onlyPoint'<!--/acceptValues-->

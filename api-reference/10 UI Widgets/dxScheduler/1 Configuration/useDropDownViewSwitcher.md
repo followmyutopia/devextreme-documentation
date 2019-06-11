@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.useDropDownViewSwitcher<!--/id-->
 ===========================================================================
 <!--default-->false, true (Android, iOS, Windows_Mobile, Material)<!--/default-->
 <!--type-->Boolean<!--/type-->

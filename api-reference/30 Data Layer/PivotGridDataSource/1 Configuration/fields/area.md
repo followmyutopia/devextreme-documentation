@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.fields.area<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->undefined | 'column' | 'data' | 'filter' | 'row'<!--/acceptValues-->

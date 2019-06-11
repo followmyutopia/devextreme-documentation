@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.onSeriesClick<!--/id-->
 <!--EventForAction-->..\4 Events\seriesClick.md<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->

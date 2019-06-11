@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.grouping.texts.groupContinuedMessage<!--/id-->
 ===========================================================================
 <!--default-->'Continued from the previous page'<!--/default-->
 <!--type-->String<!--/type-->

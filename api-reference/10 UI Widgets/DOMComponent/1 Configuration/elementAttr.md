@@ -1,3 +1,4 @@
+<!--id-->DOMComponent.Options.elementAttr<!--/id-->
 ===========================================================================
 <!--default-->{}<!--/default-->
 <!--type-->Object<!--/type-->

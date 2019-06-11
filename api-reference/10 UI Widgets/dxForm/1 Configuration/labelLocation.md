@@ -1,3 +1,4 @@
+<!--id-->dxForm.Options.labelLocation<!--/id-->
 ===========================================================================
 <!--default-->'left', 'top' (Material)<!--/default-->
 <!--acceptValues-->'left' | 'right' | 'top'<!--/acceptValues-->

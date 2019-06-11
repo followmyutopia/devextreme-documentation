@@ -1,3 +1,4 @@
+<!--id-->dxDrawer.Options.animationEnabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

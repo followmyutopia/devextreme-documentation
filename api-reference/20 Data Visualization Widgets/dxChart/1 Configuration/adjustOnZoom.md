@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.adjustOnZoom<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

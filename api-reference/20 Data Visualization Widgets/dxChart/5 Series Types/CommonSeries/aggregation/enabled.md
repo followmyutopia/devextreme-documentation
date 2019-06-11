@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.aggregation.enabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

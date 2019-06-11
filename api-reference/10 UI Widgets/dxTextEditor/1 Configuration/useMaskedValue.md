@@ -1,3 +1,4 @@
+<!--id-->dxTextEditor.Options.useMaskedValue<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

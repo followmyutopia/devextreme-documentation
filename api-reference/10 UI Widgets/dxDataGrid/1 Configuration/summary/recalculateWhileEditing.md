@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.summary.recalculateWhileEditing<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

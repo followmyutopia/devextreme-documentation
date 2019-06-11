@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.texts.collapseAll<!--/id-->
 ===========================================================================
 <!--default-->'Collapse All'<!--/default-->
 <!--type-->String<!--/type-->

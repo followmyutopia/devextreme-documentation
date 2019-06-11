@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.panes<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->Object | Array<Object><!--/type-->

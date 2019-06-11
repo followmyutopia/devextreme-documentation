@@ -1,3 +1,4 @@
+<!--id-->dxResponsiveBox.Options.cols.shrink<!--/id-->
 ===========================================================================
 <!--default-->1<!--/default-->
 <!--type-->Number<!--/type-->

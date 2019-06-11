@@ -1,3 +1,4 @@
+<!--id-->BaseChart.Options.pointSelectionMode<!--/id-->
 ===========================================================================
 <!--default-->'single'<!--/default-->
 <!--acceptValues-->'multiple' | 'single'<!--/acceptValues-->

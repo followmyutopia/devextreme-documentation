@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.adaptivityEnabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

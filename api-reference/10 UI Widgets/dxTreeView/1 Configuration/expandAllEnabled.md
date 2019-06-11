@@ -1,3 +1,4 @@
+<!--id-->dxTreeView.Options.expandAllEnabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.argumentAxis.strips.endValue<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number | Date | String<!--/type-->

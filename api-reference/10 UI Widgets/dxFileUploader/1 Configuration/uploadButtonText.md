@@ -1,3 +1,4 @@
+<!--id-->dxFileUploader.Options.uploadButtonText<!--/id-->
 ===========================================================================
 <!--default-->'Upload'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxSankey.Options.alignment<!--/id-->
 ===========================================================================
 <!--default-->'center'<!--/default-->
 <!--acceptValues-->'bottom' | 'center' | 'top'<!--/acceptValues-->

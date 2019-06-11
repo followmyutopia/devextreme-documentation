@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.argumentAxis.visualRange<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->Object | Array<Number, String, Date><!--/type-->

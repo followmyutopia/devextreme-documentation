@@ -1,3 +1,4 @@
+<!--id-->BaseLegend.title.subtitle.offset<!--/id-->
 ===========================================================================
 <!--default-->0<!--/default-->
 <!--type-->Number<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->ScaleBreak.startValue<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number | Date | String<!--/type-->

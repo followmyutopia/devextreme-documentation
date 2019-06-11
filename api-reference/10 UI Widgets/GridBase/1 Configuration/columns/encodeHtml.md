@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.encodeHtml<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

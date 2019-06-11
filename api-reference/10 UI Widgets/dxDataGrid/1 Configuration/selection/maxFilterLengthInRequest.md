@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.selection.maxFilterLengthInRequest<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->1500<!--/default-->

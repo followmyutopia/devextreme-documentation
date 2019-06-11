@@ -1,3 +1,4 @@
+<!--id-->dxTreeView.Options.scrollDirection<!--/id-->
 ===========================================================================
 <!--default-->'vertical'<!--/default-->
 <!--acceptValues-->'both' | 'horizontal' | 'vertical'<!--/acceptValues-->

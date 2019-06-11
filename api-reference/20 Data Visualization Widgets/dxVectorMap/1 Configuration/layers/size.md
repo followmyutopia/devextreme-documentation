@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.layers.size<!--/id-->
 ===========================================================================
 <!--default-->8<!--/default-->
 <!--type-->Number<!--/type-->

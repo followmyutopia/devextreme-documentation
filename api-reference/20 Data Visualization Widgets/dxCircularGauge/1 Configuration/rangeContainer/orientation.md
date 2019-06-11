@@ -1,3 +1,4 @@
+<!--id-->dxCircularGauge.Options.rangeContainer.orientation<!--/id-->
 ===========================================================================
 <!--default-->'outside'<!--/default-->
 <!--acceptValues-->'center' | 'inside' | 'outside'<!--/acceptValues-->

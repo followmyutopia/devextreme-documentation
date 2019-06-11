@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.columnFixing.texts.leftPosition<!--/id-->
 ===========================================================================
 <!--default-->'To the left'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.ownerBand<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

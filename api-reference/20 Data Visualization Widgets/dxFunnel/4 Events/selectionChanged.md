@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.selectionChanged<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

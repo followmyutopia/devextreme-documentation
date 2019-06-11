@@ -1,3 +1,4 @@
+<!--id-->dxGallery.Options.slideshowDelay<!--/id-->
 ===========================================================================
 <!--default-->0<!--/default-->
 <!--type-->Number<!--/type-->

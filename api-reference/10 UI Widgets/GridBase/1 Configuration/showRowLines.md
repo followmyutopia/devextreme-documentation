@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.showRowLines<!--/id-->
 ===========================================================================
 <!--default-->false, true (iOS, Material)<!--/default-->
 <!--type-->Boolean<!--/type-->

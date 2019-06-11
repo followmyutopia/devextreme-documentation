@@ -1,3 +1,4 @@
+<!--id-->dxLinearGauge.Options.scale.verticalOrientation<!--/id-->
 ===========================================================================
 <!--default-->'bottom'<!--/default-->
 <!--acceptValues-->'bottom' | 'center' | 'top'<!--/acceptValues-->

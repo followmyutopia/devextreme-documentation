@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.editing.texts.editRow<!--/id-->
 ===========================================================================
 <!--default-->'Edit'<!--/default-->
 <!--type-->String<!--/type-->

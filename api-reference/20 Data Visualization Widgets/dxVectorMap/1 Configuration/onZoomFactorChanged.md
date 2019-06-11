@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.onZoomFactorChanged<!--/id-->
 <!--EventForAction-->..\4 Events\zoomFactorChanged.md<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->

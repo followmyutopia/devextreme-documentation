@@ -1,3 +1,4 @@
+<!--id-->dxPieChart.Options.segmentsDirection<!--/id-->
 ===========================================================================
 <!--default-->'clockwise'<!--/default-->
 <!--acceptValues-->'anticlockwise' | 'clockwise'<!--/acceptValues-->

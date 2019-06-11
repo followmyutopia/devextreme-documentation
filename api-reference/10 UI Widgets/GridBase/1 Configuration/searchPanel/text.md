@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.searchPanel.text<!--/id-->
 ===========================================================================
 <!--default-->''<!--/default-->
 <!--type-->String<!--/type-->

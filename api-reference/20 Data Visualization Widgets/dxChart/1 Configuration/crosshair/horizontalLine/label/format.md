@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.crosshair.horizontalLine.label.format<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->format<!--/type-->

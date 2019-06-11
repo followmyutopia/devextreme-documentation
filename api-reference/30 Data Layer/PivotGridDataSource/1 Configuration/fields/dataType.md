@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.fields.dataType<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'date' | 'number' | 'string'<!--/acceptValues-->

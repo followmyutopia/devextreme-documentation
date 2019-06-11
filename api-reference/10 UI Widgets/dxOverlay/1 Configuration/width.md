@@ -1,3 +1,4 @@
+<!--id-->dxOverlay.Options.width<!--/id-->
 ===========================================================================
 <!--default-->function() {return $(window).width() * 0.8 }<!--/default-->
 <!--type-->Number | String | function()<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxForm.Options.scrollingEnabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

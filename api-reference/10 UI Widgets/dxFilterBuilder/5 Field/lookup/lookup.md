@@ -1,3 +1,4 @@
+<!--id-->dxFilterBuilderField.lookup<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Object<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.filterRow.applyFilterText<!--/id-->
 ===========================================================================
 <!--default-->'Apply filter'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxTabPanelItem<!--/id-->
 ===========================================================================
 <!--type-->Object<!--/type-->
 <!--inherits-->..\..\dxMultiView\5 Default Item Template\Default Item Template.md<!--/inherits-->

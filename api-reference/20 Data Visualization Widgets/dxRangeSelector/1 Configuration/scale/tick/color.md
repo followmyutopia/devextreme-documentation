@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.scale.tick.color<!--/id-->
 ===========================================================================
 <!--default-->'#000000'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxRadioGroup.Options.layout<!--/id-->
 ===========================================================================
 <!--default-->'vertical', 'horizontal' (tablets)<!--/default-->
 <!--acceptValues-->'horizontal' | 'vertical'<!--/acceptValues-->

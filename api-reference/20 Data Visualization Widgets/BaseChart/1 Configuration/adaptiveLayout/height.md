@@ -1,3 +1,4 @@
+<!--id-->BaseChart.Options.adaptiveLayout.height<!--/id-->
 ===========================================================================
 <!--default-->80<!--/default-->
 <!--type-->Number<!--/type-->

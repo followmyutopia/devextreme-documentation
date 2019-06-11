@@ -1,3 +1,4 @@
+<!--id-->dxSankey.Options.link.hoverStyle.border.color<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

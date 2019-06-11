@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.selection.mode<!--/id-->
 ===========================================================================
 <!--default-->'none'<!--/default-->
 <!--acceptValues-->'multiple' | 'none' | 'single'<!--/acceptValues-->

@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.export.texts.exportAll<!--/id-->
 ===========================================================================
 <!--default-->'Export all data'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxMultiView.Options.deferRendering<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

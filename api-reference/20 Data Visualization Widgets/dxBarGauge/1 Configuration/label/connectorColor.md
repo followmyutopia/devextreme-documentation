@@ -1,3 +1,4 @@
+<!--id-->dxBarGauge.Options.label.connectorColor<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

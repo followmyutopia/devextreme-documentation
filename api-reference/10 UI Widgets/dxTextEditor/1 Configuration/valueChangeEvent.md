@@ -1,3 +1,4 @@
+<!--id-->dxTextEditor.Options.valueChangeEvent<!--/id-->
 ===========================================================================
 <!--default-->'change'<!--/default-->
 <!--type-->String<!--/type-->

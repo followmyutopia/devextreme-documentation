@@ -1,3 +1,4 @@
+<!--id-->CollectionWidget.Options.selectedItem<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->Object<!--/type-->

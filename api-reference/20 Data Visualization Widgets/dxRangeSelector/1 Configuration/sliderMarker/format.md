@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.sliderMarker.format<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->format<!--/type-->

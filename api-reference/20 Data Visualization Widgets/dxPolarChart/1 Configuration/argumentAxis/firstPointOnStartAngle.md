@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.argumentAxis.firstPointOnStartAngle<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->globalConfig.thousandsSeparator<!--/id-->
 ===========================================================================
 <!--default-->','<!--/default-->
 <!--type-->String<!--/type-->

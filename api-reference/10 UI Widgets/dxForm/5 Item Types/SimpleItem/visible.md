@@ -1,3 +1,4 @@
+<!--id-->dxFormSimpleItem.visible<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

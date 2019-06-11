@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.scale.marker.label.customizeText<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(markerValue)<!--/type-->

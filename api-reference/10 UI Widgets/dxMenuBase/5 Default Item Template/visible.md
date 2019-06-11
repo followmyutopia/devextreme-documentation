@@ -1,3 +1,4 @@
+<!--id-->dxMenuBaseItem.visible<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

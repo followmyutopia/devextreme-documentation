@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.resources<!--/id-->
 ===========================================================================
 <!--default-->[]<!--/default-->
 <!--type-->Array<Object><!--/type-->

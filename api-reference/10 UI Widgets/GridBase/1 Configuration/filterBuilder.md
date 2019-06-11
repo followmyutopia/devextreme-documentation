@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.filterBuilder<!--/id-->
 ===========================================================================
 <!--default-->{}<!--/default-->
 <!--type-->dxFilterBuilder_Options<!--/type-->

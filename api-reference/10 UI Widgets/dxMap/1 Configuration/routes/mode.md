@@ -1,3 +1,4 @@
+<!--id-->dxMap.Options.routes.mode<!--/id-->
 ===========================================================================
 <!--default-->'driving'<!--/default-->
 <!--acceptValues-->'driving' | 'walking'<!--/acceptValues-->

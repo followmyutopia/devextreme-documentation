@@ -1,3 +1,4 @@
+<!--id-->dxScheduler<!--/id-->
 <!--widgettree-->
 dataSource: []
 <!--/widgettree-->

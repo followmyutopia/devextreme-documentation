@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.loadPanel.width<!--/id-->
 ===========================================================================
 <!--default-->200<!--/default-->
 <!--type-->Number<!--/type-->

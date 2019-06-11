@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.barGroupPadding<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\5 Series Types\BarSeries\BarSeries.md,..\5 Series Types\StackedBarSeries\StackedBarSeries.md<!--/propertyOf-->
 <!--default-->0.3<!--/default-->

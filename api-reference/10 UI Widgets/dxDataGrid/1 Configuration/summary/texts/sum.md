@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.summary.texts.sum<!--/id-->
 ===========================================================================
 <!--default-->'Sum={0}'<!--/default-->
 <!--type-->String<!--/type-->

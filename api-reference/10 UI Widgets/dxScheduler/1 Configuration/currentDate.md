@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.currentDate<!--/id-->
 ===========================================================================
 <!--default-->new Date()<!--/default-->
 <!--type-->Date | Number | String<!--/type-->

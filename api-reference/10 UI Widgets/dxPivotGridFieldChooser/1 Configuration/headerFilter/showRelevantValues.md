@@ -1,3 +1,4 @@
+<!--id-->dxPivotGridFieldChooser.Options.headerFilter.showRelevantValues<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

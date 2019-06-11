@@ -1,3 +1,4 @@
+<!--id-->dxLinearGauge.Options.valueIndicator.type<!--/id-->
 ===========================================================================
 <!--default-->'rangeBar'<!--/default-->
 <!--acceptValues-->'rectangle' | 'circle' | 'rhombus' | 'rangeBar' | 'triangleMarker' | 'textCloud'<!--/acceptValues-->

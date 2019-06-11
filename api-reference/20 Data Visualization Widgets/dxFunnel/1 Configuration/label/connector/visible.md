@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.Options.label.connector.visible<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.grouping.contextMenuEnabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxSankey.Options.adaptiveLayout.height<!--/id-->
 ===========================================================================
 <!--default-->80<!--/default-->
 <!--type-->Number<!--/type-->

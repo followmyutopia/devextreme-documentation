@@ -1,3 +1,4 @@
+<!--id-->globalConfig.forceIsoDateParsing<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxSwitch.Options.onText<!--/id-->
 <!--dep-->switchedOnText.md<!--/dep-->
 ===========================================================================
 <!--type-->String<!--/type-->

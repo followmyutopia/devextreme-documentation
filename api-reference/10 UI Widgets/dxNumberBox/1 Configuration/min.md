@@ -1,3 +1,4 @@
+<!--id-->dxNumberBox.Options.min<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

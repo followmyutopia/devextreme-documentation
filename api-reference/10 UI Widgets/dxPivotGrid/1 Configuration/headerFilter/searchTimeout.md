@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.headerFilter.searchTimeout<!--/id-->
 ===========================================================================
 <!--default-->searchTimeout<!--/default-->
 <!--type-->Number<!--/type-->

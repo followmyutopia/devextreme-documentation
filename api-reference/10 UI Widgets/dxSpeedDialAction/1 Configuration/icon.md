@@ -1,3 +1,4 @@
+<!--id-->dxSpeedDialAction.Options.icon<!--/id-->
 ===========================================================================
 <!--default-->''<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->ui.setTemplateEngine(name)<!--/id-->
 ===================================================================
 <!--module-->ui/set_template_engine<!--/module-->
 <!--export-->default<!--/export-->

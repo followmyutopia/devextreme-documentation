@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.drawn<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

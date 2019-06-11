@@ -1,3 +1,4 @@
+<!--id-->dxChartCommonAnnotationConfig.border.opacity<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

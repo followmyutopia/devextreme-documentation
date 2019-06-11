@@ -1,3 +1,4 @@
+<!--id-->dxFormTabbedItem.tabs.badge<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxList.Options.useNativeScrolling<!--/id-->
 ===========================================================================
 <!--default-->true, false (desktop), true (Mac)<!--/default-->
 <!--type-->Boolean<!--/type-->

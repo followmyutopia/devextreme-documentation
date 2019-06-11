@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.scrolling.mode<!--/id-->
 ===========================================================================
 <!--default-->'standard'<!--/default-->
 <!--acceptValues-->'standard' | 'virtual'<!--/acceptValues-->

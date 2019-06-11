@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.texts.noData<!--/id-->
 ===========================================================================
 <!--default-->'No data'<!--/default-->
 <!--type-->String<!--/type-->

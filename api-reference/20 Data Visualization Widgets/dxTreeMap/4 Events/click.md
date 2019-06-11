@@ -1,3 +1,4 @@
+<!--id-->dxTreeMap.click<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

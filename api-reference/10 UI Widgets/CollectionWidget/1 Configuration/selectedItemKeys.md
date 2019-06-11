@@ -1,3 +1,4 @@
+<!--id-->CollectionWidget.Options.selectedItemKeys<!--/id-->
 ===========================================================================
 <!--type-->Array<any><!--/type-->
 <!--firedEvents-->selectionChanged<!--/firedEvents-->

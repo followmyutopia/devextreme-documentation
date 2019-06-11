@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.selection.selectAllMode<!--/id-->
 ===========================================================================
 <!--default-->'allPages'<!--/default-->
 <!--acceptValues-->'allPages' | 'page'<!--/acceptValues-->

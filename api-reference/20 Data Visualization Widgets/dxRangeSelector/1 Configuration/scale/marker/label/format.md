@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.scale.marker.label.format<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->format<!--/type-->

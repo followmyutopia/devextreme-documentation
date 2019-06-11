@@ -1,3 +1,4 @@
+<!--id-->dxNumberBox.Options.invalidValueMessage<!--/id-->
 ===========================================================================
 <!--default-->'Value must be a number'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->Store.Options.onRemoving<!--/id-->
 <!--EventForAction-->..\4 Events\removing.md<!--/EventForAction-->
 ===========================================================================
 <!--type-->function(key)<!--/type-->

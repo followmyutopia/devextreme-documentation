@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.calculateFilterExpression<!--/id-->
 ===========================================================================
 <!--type-->function(filterValue, selectedFilterOperation, target)<!--/type-->
 ===========================================================================

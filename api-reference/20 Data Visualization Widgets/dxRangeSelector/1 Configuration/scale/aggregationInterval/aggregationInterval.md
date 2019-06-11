@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.scale.aggregationInterval<!--/id-->
 ===========================================================================
 <!--inherits-->..\..\..\..\VizTimeInterval\VizTimeInterval.md<!--/inherits-->
 ===========================================================================

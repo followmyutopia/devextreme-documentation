@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.seriesSelectionChanged<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

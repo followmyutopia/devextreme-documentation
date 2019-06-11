@@ -1,3 +1,4 @@
+<!--id-->dxTagBox.Options.selectAllMode<!--/id-->
 ===========================================================================
 <!--default-->'page'<!--/default-->
 <!--acceptValues-->'allPages' | 'page'<!--/acceptValues-->

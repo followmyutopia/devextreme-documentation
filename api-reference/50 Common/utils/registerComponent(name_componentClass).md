@@ -1,3 +1,4 @@
+<!--id-->registerComponent(name, componentClass)<!--/id-->
 ===================================================================
 <!--hidden--><!--/hidden-->
 <!--module-->core/component_registrator<!--/module-->

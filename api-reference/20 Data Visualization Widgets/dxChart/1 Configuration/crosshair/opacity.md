@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.crosshair.opacity<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

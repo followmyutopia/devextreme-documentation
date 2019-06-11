@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.filterPanel.texts.filterEnabledHint<!--/id-->
 ===========================================================================
 <!--default-->'Enable the filter'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->Store.Options.onPush<!--/id-->
 <!--EventForAction-->..\4 Events\push.md<!--/EventForAction-->
 ===========================================================================
 <!--type-->function(changes)<!--/type-->

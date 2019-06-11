@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.onCellClick<!--/id-->
 <!--EventForAction-->..\4 Events\cellClick.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

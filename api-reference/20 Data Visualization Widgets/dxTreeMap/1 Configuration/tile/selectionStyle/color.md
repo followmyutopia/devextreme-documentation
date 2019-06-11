@@ -1,3 +1,4 @@
+<!--id-->dxTreeMap.Options.tile.selectionStyle.color<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

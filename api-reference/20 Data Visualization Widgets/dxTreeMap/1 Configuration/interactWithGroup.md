@@ -1,3 +1,4 @@
+<!--id-->dxTreeMap.Options.interactWithGroup<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

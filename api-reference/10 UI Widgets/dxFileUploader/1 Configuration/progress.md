@@ -1,3 +1,4 @@
+<!--id-->dxFileUploader.Options.progress<!--/id-->
 ===========================================================================
 <!--default-->0<!--/default-->
 <!--type-->Number<!--/type-->

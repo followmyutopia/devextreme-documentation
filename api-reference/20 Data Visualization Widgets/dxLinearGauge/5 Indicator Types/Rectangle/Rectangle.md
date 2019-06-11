@@ -1,3 +1,4 @@
+<!--id-->linearRectangle<!--/id-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->Object<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxList.Options.allowItemReordering<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

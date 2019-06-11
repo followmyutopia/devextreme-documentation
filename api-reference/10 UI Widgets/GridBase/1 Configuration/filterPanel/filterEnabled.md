@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.filterPanel.filterEnabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

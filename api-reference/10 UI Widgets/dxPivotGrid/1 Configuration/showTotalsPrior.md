@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.showTotalsPrior<!--/id-->
 ===========================================================================
 <!--default-->'none'<!--/default-->
 <!--acceptValues-->'both' | 'columns' | 'none' | 'rows'<!--/acceptValues-->

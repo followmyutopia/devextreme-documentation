@@ -1,3 +1,4 @@
+<!--id-->dxPieChart.Options.seriesTemplate<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->

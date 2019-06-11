@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.seriesSelectionMode<!--/id-->
 ===========================================================================
 <!--default-->'single'<!--/default-->
 <!--acceptValues-->'multiple' | 'single'<!--/acceptValues-->

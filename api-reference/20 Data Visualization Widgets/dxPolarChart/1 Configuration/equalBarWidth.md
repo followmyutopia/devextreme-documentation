@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.equalBarWidth<!--/id-->
 <!--dep-->..\5 Series Types\CommonPolarChartSeries\ignoreEmptyPoints.md<!--/dep-->
 ===========================================================================
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.StackedLineSeries<!--/id-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->Object<!--/type-->

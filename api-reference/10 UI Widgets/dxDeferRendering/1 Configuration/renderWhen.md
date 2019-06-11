@@ -1,3 +1,4 @@
+<!--id-->dxDeferRendering.Options.renderWhen<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Promise<void> | Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.negativesAsZeroes<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.useSpiderWeb<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

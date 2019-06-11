@@ -1,3 +1,4 @@
+<!--id-->dxTreeMap.Options.selectionMode<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'multiple' | 'none' | 'single'<!--/acceptValues-->

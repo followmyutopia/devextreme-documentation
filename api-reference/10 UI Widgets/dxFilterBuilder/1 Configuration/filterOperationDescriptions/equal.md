@@ -1,3 +1,4 @@
+<!--id-->dxFilterBuilder.Options.filterOperationDescriptions.equal<!--/id-->
 ===========================================================================
 <!--default-->'Equals'<!--/default-->
 <!--type-->String<!--/type-->

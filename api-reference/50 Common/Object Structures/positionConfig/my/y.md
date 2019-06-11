@@ -1,3 +1,4 @@
+<!--id-->positionConfig.my.y<!--/id-->
 ===========================================================================
 <!--acceptValues-->'bottom' | 'center' | 'top'<!--/acceptValues-->
 <!--type-->String<!--/type-->

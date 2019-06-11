@@ -1,3 +1,4 @@
+<!--id-->dxMap.Options.type<!--/id-->
 ===========================================================================
 <!--default-->'roadmap'<!--/default-->
 <!--acceptValues-->'hybrid' | 'roadmap' | 'satellite'<!--/acceptValues-->

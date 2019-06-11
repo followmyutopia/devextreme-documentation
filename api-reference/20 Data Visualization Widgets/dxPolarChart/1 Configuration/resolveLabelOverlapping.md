@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.resolveLabelOverlapping<!--/id-->
 ===========================================================================
 <!--default-->'none'<!--/default-->
 <!--acceptValues-->'hide' | 'none'<!--/acceptValues-->

@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.loadPanel.height<!--/id-->
 ===========================================================================
 <!--default-->70<!--/default-->
 <!--type-->Number<!--/type-->

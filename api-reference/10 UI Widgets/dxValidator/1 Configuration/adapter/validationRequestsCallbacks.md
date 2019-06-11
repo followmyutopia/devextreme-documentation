@@ -1,3 +1,4 @@
+<!--id-->dxValidator.Options.adapter.validationRequestsCallbacks<!--/id-->
 ===========================================================================
 <!--type-->Array<function()> | jQuery.Callbacks<!--/type-->
 ===========================================================================

@@ -1,3 +1,4 @@
+<!--id-->dxTagBox.Options.maxDisplayedTags<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

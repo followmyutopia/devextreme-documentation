@@ -1,3 +1,4 @@
+<!--id-->dxTextEditor.Options.maskInvalidMessage<!--/id-->
 ===========================================================================
 <!--default-->'Value is invalid'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.editing.texts.cancelRowChanges<!--/id-->
 ===========================================================================
 <!--default-->'Cancel'<!--/default-->
 <!--type-->String<!--/type-->

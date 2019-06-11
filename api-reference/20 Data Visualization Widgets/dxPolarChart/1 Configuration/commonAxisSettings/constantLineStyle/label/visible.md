@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.commonAxisSettings.constantLineStyle.label.visible<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

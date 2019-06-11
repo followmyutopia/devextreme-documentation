@@ -1,3 +1,4 @@
+<!--id-->dxCheckBox.Options.value<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

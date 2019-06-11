@@ -1,3 +1,4 @@
+<!--id-->animationConfig.staggerDelay<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

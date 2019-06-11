@@ -1,3 +1,4 @@
+<!--id-->Utils.compileGetter(expr)<!--/id-->
 ===================================================================
 <!--module-->utils<!--/module-->
 <!--export-->compileGetter<!--/export-->

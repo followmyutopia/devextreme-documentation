@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.editing.allowAdding<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

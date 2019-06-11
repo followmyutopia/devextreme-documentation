@@ -1,3 +1,4 @@
+<!--id-->dxToast<!--/id-->
 <!--widgettree-->
 displayTime: 20000,
 visible: true,

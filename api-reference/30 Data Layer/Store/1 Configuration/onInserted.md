@@ -1,3 +1,4 @@
+<!--id-->Store.Options.onInserted<!--/id-->
 <!--EventForAction-->..\4 Events\inserted.md<!--/EventForAction-->
 ===========================================================================
 <!--type-->function(values, key)<!--/type-->

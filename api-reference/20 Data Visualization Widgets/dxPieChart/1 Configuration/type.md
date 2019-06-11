@@ -1,3 +1,4 @@
+<!--id-->dxPieChart.Options.type<!--/id-->
 ===========================================================================
 <!--default-->'pie'<!--/default-->
 <!--acceptValues-->'donut' | 'doughnut' | 'pie'<!--/acceptValues-->

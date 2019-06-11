@@ -1,3 +1,4 @@
+<!--id-->EmailRule.type<!--/id-->
 ===========================================================================
 <!--acceptValues-->'required' | 'numeric' | 'range' | 'stringLength' | 'custom' | 'compare' | 'pattern' | 'email'<!--/acceptValues-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.crosshair.verticalLine.visible<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

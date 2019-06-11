@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.fieldChooser.width<!--/id-->
 ===========================================================================
 <!--default-->600<!--/default-->
 <!--type-->Number<!--/type-->

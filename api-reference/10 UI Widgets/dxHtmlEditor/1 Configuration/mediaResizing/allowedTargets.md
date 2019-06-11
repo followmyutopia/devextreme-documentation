@@ -1,3 +1,4 @@
+<!--id-->dxHtmlEditorMediaResizing.allowedTargets<!--/id-->
 ===========================================================================
 <!--default-->['images']<!--/default-->
 <!--type-->Array<String><!--/type-->

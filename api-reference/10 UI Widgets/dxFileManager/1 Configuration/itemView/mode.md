@@ -1,3 +1,4 @@
+<!--id-->dxFileManager.Options.itemView.mode<!--/id-->
 ===========================================================================
 <!--default-->'details'<!--/default-->
 <!--acceptValues-->'details' | 'thumbnails'<!--/acceptValues-->

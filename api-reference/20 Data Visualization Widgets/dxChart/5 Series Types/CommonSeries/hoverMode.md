@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.hoverMode<!--/id-->
 ===========================================================================
 <!--acceptValues-->'allArgumentPoints' | 'allSeriesPoints' | 'excludePoints' | 'includePoints' | 'nearestPoint' | 'none' | 'onlyPoint'<!--/acceptValues-->
 <!--type-->String<!--/type-->

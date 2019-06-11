@@ -1,3 +1,4 @@
+<!--id-->dxTreeMap.hoverChanged<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

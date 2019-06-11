@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.focusedRowKey<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->any<!--/type-->

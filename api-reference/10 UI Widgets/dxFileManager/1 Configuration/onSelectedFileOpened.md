@@ -1,3 +1,4 @@
+<!--id-->dxFileManager.Options.onSelectedFileOpened<!--/id-->
 <!--EventForAction-->..\4 Events\selectedFileOpened.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

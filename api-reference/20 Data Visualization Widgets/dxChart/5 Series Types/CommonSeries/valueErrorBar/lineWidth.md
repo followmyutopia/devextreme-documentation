@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.valueErrorBar.lineWidth<!--/id-->
 ===========================================================================
 <!--default-->2<!--/default-->
 <!--type-->Number<!--/type-->

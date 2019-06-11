@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.fields.filterType<!--/id-->
 ===========================================================================
 <!--default-->'include'<!--/default-->
 <!--acceptValues-->'exclude' | 'include'<!--/acceptValues-->

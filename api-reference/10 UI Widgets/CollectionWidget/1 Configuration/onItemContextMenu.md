@@ -1,3 +1,4 @@
+<!--id-->CollectionWidget.Options.onItemContextMenu<!--/id-->
 <!--EventForAction-->..\4 Events\itemContextMenu.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

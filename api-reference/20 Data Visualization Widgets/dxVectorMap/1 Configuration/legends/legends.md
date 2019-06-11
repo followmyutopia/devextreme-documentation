@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.legends<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Array<Object><!--/type-->

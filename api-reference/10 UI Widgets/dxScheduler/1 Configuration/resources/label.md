@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.resources.label<!--/id-->
 ===========================================================================
 <!--default-->''<!--/default-->
 <!--type-->String<!--/type-->

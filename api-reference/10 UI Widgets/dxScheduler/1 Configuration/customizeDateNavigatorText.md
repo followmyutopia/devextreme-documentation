@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.customizeDateNavigatorText<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->function(info)<!--/type-->

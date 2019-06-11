@@ -1,3 +1,4 @@
+<!--id-->XmlaStore<!--/id-->
 ===========================================================================
 <!--module-->ui/pivot_grid/xmla_store<!--/module-->
 <!--export-->default<!--/export-->

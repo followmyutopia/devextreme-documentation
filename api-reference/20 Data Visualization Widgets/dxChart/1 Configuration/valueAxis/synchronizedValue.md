@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.valueAxis.synchronizedValue<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

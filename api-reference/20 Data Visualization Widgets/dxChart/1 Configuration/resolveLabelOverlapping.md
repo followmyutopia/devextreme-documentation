@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.resolveLabelOverlapping<!--/id-->
 ===========================================================================
 <!--default-->'none'<!--/default-->
 <!--acceptValues-->'hide' | 'none' | 'stack'<!--/acceptValues-->

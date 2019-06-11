@@ -1,3 +1,4 @@
+<!--id-->dxDropDownButton.Options.stylingMode<!--/id-->
 ===========================================================================
 <!--default-->'outlined'<!--/default-->
 <!--acceptValues-->'text' | 'outlined' | 'contained'<!--/acceptValues-->

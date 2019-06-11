@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.endDateExpr<!--/id-->
 ===========================================================================
 <!--default-->'endDate'<!--/default-->
 <!--type-->String<!--/type-->

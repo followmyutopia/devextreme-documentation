@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.Options.label.customizeText<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(itemInfo)<!--/type-->

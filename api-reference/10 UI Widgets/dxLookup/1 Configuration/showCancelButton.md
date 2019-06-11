@@ -1,3 +1,4 @@
+<!--id-->dxLookup.Options.showCancelButton<!--/id-->
 ===========================================================================
 <!--default-->true, false (Material)<!--/default-->
 <!--type-->Boolean<!--/type-->

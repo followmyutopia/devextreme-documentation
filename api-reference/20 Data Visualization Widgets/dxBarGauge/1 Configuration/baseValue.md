@@ -1,3 +1,4 @@
+<!--id-->dxBarGauge.Options.baseValue<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->0<!--/default-->

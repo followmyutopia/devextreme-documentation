@@ -1,3 +1,4 @@
+<!--id-->ui.notify(options,type,displayTime)<!--/id-->
 ===================================================================
 <!--module-->ui/notify<!--/module-->
 <!--export-->default<!--/export-->

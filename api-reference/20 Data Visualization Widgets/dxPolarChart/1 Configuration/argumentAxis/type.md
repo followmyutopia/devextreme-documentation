@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.argumentAxis.type<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'continuous' | 'discrete' | 'logarithmic'<!--/acceptValues-->

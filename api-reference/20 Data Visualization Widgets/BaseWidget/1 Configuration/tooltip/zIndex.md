@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.tooltip.zIndex<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

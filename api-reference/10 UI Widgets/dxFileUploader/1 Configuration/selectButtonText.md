@@ -1,3 +1,4 @@
+<!--id-->dxFileUploader.Options.selectButtonText<!--/id-->
 ===========================================================================
 <!--default-->'Select File'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->localization.parseNumber(text, format)<!--/id-->
 ===================================================================
 <!--module-->localization<!--/module-->
 <!--export-->parseNumber<!--/export-->

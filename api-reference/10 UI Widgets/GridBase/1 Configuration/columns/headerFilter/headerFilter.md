@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.headerFilter<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Object<!--/type-->

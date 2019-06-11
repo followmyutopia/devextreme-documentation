@@ -1,3 +1,4 @@
+<!--id-->dxPieChart.Options.resolveLabelOverlapping<!--/id-->
 ===========================================================================
 <!--default-->'none'<!--/default-->
 <!--acceptValues-->'hide' | 'none' | 'shift'<!--/acceptValues-->

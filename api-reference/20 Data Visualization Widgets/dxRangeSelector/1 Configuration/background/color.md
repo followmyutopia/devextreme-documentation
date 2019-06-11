@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.background.color<!--/id-->
 ===========================================================================
 <!--default-->'#C0BAE1'<!--/default-->
 <!--type-->String<!--/type-->

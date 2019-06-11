@@ -1,3 +1,4 @@
+<!--id-->CommonIndicator.horizontalOrientation<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\..\..\dxLinearGauge\5 Indicator Types\RangeBar\RangeBar.md<!--/propertyOf-->
 <!--default-->'right' (value_indicators), 'left' (subvalue_indicators)<!--/default-->

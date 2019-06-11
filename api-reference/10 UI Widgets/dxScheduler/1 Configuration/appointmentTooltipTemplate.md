@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.appointmentTooltipTemplate<!--/id-->
 ===========================================================================
 <!--default-->'appointmentTooltip'<!--/default-->
 <!--type-->template<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxTextEditorButton.options<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->dxButton_Options<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.itemClick<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

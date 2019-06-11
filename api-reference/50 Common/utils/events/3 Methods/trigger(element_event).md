@@ -1,3 +1,4 @@
+<!--id-->events.trigger(element, event)<!--/id-->
 ===================================================================
 <!--module-->events<!--/module-->
 <!--export-->trigger<!--/export-->

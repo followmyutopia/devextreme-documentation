@@ -1,3 +1,4 @@
+<!--id-->BaseGauge.Options.rangeContainer.offset<!--/id-->
 ===========================================================================
 <!--default-->0<!--/default-->
 <!--type-->Number<!--/type-->

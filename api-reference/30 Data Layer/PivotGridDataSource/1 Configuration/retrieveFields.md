@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.retrieveFields<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

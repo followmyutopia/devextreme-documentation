@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.allowResizing<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

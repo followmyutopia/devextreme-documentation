@@ -1,3 +1,4 @@
+<!--id-->dxMap.Options.markers<!--/id-->
 ===========================================================================
 <!--type-->Array<Object><!--/type-->
 <!--firedEvents-->markerAdded, markerRemoved<!--/firedEvents-->

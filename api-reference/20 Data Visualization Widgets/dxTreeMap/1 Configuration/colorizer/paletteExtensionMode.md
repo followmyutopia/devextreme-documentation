@@ -1,3 +1,4 @@
+<!--id-->dxTreeMap.Options.colorizer.paletteExtensionMode<!--/id-->
 ===========================================================================
 <!--default-->'blend'<!--/default-->
 <!--acceptValues-->'alternate' | 'blend' | 'extrapolate'<!--/acceptValues-->

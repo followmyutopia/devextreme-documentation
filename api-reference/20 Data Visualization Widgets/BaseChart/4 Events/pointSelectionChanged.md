@@ -1,3 +1,4 @@
+<!--id-->BaseChart.pointSelectionChanged<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

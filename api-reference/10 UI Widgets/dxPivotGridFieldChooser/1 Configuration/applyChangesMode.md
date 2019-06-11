@@ -1,3 +1,4 @@
+<!--id-->dxPivotGridFieldChooser.Options.applyChangesMode<!--/id-->
 ===========================================================================
 <!--default-->'instantly'<!--/default-->
 <!--acceptValues-->'instantly' | 'onDemand'<!--/acceptValues-->

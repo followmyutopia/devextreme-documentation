@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.cornerRadius<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\BarSeries\BarSeries.md,..\StackedBarSeries\StackedBarSeries.md,..\FullStackedBarSeries\FullStackedBarSeries.md<!--/propertyOf-->
 <!--default-->0<!--/default-->

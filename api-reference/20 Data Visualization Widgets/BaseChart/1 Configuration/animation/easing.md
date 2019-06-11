@@ -1,3 +1,4 @@
+<!--id-->BaseChart.Options.animation.easing<!--/id-->
 ===========================================================================
 <!--default-->'easeOutCubic'<!--/default-->
 <!--acceptValues-->'easeOutCubic' | 'linear'<!--/acceptValues-->

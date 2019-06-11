@@ -1,3 +1,4 @@
+<!--id-->ui.dialog.custom(options)<!--/id-->
 ===================================================================
 <!--module-->ui/dialog<!--/module-->
 <!--export-->custom<!--/export-->

@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.argumentAxis.minorTick.shift<!--/id-->
 ===========================================================================
 <!--default-->3<!--/default-->
 <!--type-->Number<!--/type-->

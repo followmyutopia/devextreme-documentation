@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.stackedbarpolarseries.selectionMode<!--/id-->
 ===========================================================================
 <!--default-->'onlyPoint'<!--/default-->
 <!--acceptValues-->'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'none'<!--/acceptValues-->

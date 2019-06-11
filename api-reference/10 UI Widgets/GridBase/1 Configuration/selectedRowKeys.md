@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.selectedRowKeys<!--/id-->
 ===========================================================================
 <!--type-->Array<any><!--/type-->
 <!--firedEvents-->selectionChanged<!--/firedEvents-->

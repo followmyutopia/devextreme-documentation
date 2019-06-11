@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.onValueChanged<!--/id-->
 <!--EventForAction-->..\4 Events\valueChanged.md<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->

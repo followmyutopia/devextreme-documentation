@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.columnChooser.title<!--/id-->
 ===========================================================================
 <!--default-->'Column Chooser'<!--/default-->
 <!--type-->String<!--/type-->

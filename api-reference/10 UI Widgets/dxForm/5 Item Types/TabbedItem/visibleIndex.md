@@ -1,3 +1,4 @@
+<!--id-->dxFormTabbedItem.visibleIndex<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->BaseLegend.title.subtitle.font<!--/id-->
 ===========================================================================
 <!--type-->Object<!--/type-->
 <!--inherits-->..\..\..\..\Font\Font.md<!--/inherits-->

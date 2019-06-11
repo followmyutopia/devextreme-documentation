@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.opacity<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonPaneSettings.border.opacity<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

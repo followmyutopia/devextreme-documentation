@@ -1,3 +1,4 @@
+<!--id-->dxChartCommonAnnotationConfig.customizeTooltip<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->

@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.filterType<!--/id-->
 ===========================================================================
 <!--default-->'include'<!--/default-->
 <!--acceptValues-->'exclude' | 'include'<!--/acceptValues-->

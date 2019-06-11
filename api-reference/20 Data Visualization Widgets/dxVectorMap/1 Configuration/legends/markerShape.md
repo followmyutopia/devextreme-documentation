@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.legends.markerShape<!--/id-->
 ===========================================================================
 <!--default-->'square'<!--/default-->
 <!--acceptValues-->'circle' | 'square'<!--/acceptValues-->

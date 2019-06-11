@@ -1,3 +1,4 @@
+<!--id-->BaseLegend.columnItemSpacing<!--/id-->
 ===========================================================================
 <!--default-->20<!--/default-->
 <!--type-->Number<!--/type-->

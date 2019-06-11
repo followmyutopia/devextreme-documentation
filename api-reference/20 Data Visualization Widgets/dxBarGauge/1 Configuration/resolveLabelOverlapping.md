@@ -1,3 +1,4 @@
+<!--id-->dxBarGauge.Options.resolveLabelOverlapping<!--/id-->
 ===========================================================================
 <!--default-->'hide'<!--/default-->
 <!--acceptValues-->'hide' | 'none'<!--/acceptValues-->

@@ -1,3 +1,4 @@
+<!--id-->dxDrawer.Options.opened<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

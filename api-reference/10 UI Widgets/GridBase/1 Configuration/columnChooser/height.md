@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.columnChooser.height<!--/id-->
 ===========================================================================
 <!--default-->260<!--/default-->
 <!--type-->Number<!--/type-->

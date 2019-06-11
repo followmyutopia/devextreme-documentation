@@ -1,3 +1,4 @@
+<!--id-->dxNavBar.Options.scrollingEnabled<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->false<!--/default-->

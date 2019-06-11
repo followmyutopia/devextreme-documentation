@@ -1,3 +1,4 @@
+<!--id-->dxFilterBuilderField.defaultFilterOperation<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--acceptValues-->'=' | '<>' | '<' | '<=' | '>' | '>=' | 'contains' | 'endswith' | 'isblank' | 'isnotblank' | 'notcontains' | 'startswith' | 'between'<!--/acceptValues-->

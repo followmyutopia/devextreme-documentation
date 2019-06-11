@@ -1,3 +1,4 @@
+<!--id-->DiagramDataSourceParameters.nodes.dataSource<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->Array<Object> | DataSource | DataSource_Options<!--/type-->

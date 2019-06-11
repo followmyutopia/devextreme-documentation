@@ -1,3 +1,4 @@
+<!--id-->dxPivotGridFieldChooser.Options.height<!--/id-->
 ===========================================================================
 <!--default-->400<!--/default-->
 <!--type-->Number | String | function()<!--/type-->

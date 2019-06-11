@@ -1,3 +1,4 @@
+<!--id-->dxTreeMap.Options.colorizer.type<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'discrete' | 'gradient' | 'none' | 'range'<!--/acceptValues-->

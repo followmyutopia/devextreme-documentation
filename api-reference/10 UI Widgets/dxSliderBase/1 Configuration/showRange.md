@@ -1,3 +1,4 @@
+<!--id-->dxSliderBase.Options.showRange<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

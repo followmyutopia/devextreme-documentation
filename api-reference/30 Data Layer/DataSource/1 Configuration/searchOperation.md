@@ -1,3 +1,4 @@
+<!--id-->DataSource.Options.searchOperation<!--/id-->
 ===========================================================================
 <!--default-->'contains'<!--/default-->
 <!--type-->String<!--/type-->

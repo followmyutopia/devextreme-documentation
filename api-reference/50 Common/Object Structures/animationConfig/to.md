@@ -1,3 +1,4 @@
+<!--id-->animationConfig.to<!--/id-->
 ===========================================================================
 <!--default-->{}<!--/default-->
 <!--type-->Number | String | Object<!--/type-->

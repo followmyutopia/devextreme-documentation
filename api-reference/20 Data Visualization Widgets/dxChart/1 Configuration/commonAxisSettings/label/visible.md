@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.label.visible<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

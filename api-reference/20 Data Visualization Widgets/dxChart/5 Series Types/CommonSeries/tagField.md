@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.tagField<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->'tag'<!--/default-->

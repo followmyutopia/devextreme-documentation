@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.argumentAxis.constantLines.value<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number | Date | String<!--/type-->

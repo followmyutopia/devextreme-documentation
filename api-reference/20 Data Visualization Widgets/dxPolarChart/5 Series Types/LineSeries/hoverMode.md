@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.linepolarseries.hoverMode<!--/id-->
 ===========================================================================
 <!--default-->'excludePoints'<!--/default-->
 <!--acceptValues-->'nearestPoint' | 'includePoints' | 'excludePoints' | 'none'<!--/acceptValues-->

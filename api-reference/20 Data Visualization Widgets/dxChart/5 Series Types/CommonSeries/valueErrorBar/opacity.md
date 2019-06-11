@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.valueErrorBar.opacity<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

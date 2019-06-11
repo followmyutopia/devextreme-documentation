@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.scale.marker.textTopIndent<!--/id-->
 ===========================================================================
 <!--default-->11<!--/default-->
 <!--type-->Number<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->SearchBoxMixin.Options.searchEditorOptions<!--/id-->
 ===========================================================================
 <!--default-->{}<!--/default-->
 <!--type-->dxTextBox_Options<!--/type-->

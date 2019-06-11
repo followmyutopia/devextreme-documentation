@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.linepolarseries<!--/id-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->Object<!--/type-->

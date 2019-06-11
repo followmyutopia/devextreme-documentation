@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.summary.texts.count<!--/id-->
 ===========================================================================
 <!--default-->'Count={0}'<!--/default-->
 <!--type-->String<!--/type-->

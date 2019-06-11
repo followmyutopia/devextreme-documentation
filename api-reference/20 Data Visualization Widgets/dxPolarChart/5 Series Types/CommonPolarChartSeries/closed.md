@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.closed<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\AreaSeries\AreaSeries.md,..\LineSeries\LineSeries.md<!--/propertyOf-->
 <!--default-->true<!--/default-->

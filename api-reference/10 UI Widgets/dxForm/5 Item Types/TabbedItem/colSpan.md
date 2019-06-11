@@ -1,3 +1,4 @@
+<!--id-->dxFormTabbedItem.colSpan<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

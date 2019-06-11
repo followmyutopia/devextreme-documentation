@@ -1,3 +1,4 @@
+<!--id-->dxTreeMap.Options.group.hoverStyle.border.width<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

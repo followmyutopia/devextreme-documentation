@@ -1,3 +1,4 @@
+<!--id-->dxNumberBox.Options.showSpinButtons<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

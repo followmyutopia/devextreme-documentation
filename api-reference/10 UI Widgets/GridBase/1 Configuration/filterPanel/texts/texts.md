@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.filterPanel.texts<!--/id-->
 ===========================================================================
 <!--default-->{}<!--/default-->
 <!--type-->Object<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.minWidth<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

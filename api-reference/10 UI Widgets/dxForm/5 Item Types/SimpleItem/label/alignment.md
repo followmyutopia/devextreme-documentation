@@ -1,3 +1,4 @@
+<!--id-->dxFormSimpleItem.label.alignment<!--/id-->
 ===========================================================================
 <!--default-->'left'<!--/default-->
 <!--acceptValues-->'center' | 'left' | 'right'<!--/acceptValues-->

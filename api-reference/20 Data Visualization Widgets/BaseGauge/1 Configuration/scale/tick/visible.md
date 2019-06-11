@@ -1,3 +1,4 @@
+<!--id-->BaseGauge.Options.scale.tick.visible<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

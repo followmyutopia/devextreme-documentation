@@ -1,3 +1,4 @@
+<!--id-->dxPieChart<!--/id-->
 <!--widgettree-->
 dataSource: [{
     arg: "Russia",

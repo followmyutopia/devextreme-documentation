@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.textExpr<!--/id-->
 ===========================================================================
 <!--default-->'text'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxFileManager.Options.itemView.showFolders<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

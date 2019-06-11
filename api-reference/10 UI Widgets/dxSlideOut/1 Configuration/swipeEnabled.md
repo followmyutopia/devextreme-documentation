@@ -1,3 +1,4 @@
+<!--id-->dxSlideOut.Options.swipeEnabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

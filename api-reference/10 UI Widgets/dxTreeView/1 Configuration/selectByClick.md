@@ -1,3 +1,4 @@
+<!--id-->dxTreeView.Options.selectByClick<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

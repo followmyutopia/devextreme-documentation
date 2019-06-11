@@ -1,3 +1,4 @@
+<!--id-->dxDropDownEditor.Options.applyValueMode<!--/id-->
 ===========================================================================
 <!--default-->'instantly'<!--/default-->
 <!--acceptValues-->'instantly' | 'useButtons'<!--/acceptValues-->

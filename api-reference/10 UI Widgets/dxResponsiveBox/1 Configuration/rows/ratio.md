@@ -1,3 +1,4 @@
+<!--id-->dxResponsiveBox.Options.rows.ratio<!--/id-->
 ===========================================================================
 <!--default-->1<!--/default-->
 <!--type-->Number<!--/type-->

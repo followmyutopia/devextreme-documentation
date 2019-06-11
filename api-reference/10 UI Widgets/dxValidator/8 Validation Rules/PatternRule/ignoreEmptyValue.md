@@ -1,3 +1,4 @@
+<!--id-->PatternRule.ignoreEmptyValue<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

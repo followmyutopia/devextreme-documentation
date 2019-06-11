@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.hoverStyle.border.width<!--/id-->
 ===========================================================================
 <!--default-->3<!--/default-->
 <!--type-->Number<!--/type-->

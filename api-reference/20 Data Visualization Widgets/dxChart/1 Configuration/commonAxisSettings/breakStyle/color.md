@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.breakStyle.color<!--/id-->
 ===========================================================================
 <!--default-->'#ababab'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.stateStoring.enabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

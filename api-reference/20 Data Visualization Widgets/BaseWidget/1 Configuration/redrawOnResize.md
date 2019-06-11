@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.redrawOnResize<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->true<!--/default-->

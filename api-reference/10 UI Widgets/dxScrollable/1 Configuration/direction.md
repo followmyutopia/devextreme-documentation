@@ -1,3 +1,4 @@
+<!--id-->dxScrollable.Options.direction<!--/id-->
 ===========================================================================
 <!--default-->'vertical'<!--/default-->
 <!--acceptValues-->'both' | 'horizontal' | 'vertical'<!--/acceptValues-->

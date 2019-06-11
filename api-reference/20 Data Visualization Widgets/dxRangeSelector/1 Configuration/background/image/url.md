@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.background.image.url<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

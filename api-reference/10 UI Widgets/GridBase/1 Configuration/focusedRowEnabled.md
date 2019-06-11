@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.focusedRowEnabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

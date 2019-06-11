@@ -1,3 +1,4 @@
+<!--id-->dxResizable.Options.stepPrecision<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->'simple'<!--/default-->

@@ -1,3 +1,4 @@
+<!--id-->dxDateBox.Options.showAnalogClock<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

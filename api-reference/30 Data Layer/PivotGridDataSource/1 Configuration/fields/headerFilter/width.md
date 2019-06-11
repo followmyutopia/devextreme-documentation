@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.fields.headerFilter.width<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

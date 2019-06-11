@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.chart.valueAxis.logarithmBase<!--/id-->
 ===========================================================================
 <!--default-->10<!--/default-->
 <!--type-->Number<!--/type-->

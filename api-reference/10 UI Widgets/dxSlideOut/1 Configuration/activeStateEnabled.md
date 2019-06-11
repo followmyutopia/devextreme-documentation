@@ -1,3 +1,4 @@
+<!--id-->dxSlideOut.Options.activeStateEnabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

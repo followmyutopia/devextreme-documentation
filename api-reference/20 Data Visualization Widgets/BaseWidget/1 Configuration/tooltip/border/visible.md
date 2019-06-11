@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.tooltip.border.visible<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

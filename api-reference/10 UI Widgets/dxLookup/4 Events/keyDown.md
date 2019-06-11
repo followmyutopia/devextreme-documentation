@@ -1,3 +1,4 @@
+<!--id-->dxLookup.keyDown<!--/id-->
 <!--merge--><!--/merge-->
 <!--hidden--><!--/hidden-->
 <!--type-->eventType<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.headerFilter.allowSearch<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

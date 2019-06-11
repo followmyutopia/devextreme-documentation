@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.selectionStyle.hatching.direction<!--/id-->
 ===========================================================================
 <!--default-->'right'<!--/default-->
 <!--acceptValues-->'left' | 'none' | 'right'<!--/acceptValues-->

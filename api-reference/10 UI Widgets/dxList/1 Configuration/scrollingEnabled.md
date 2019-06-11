@@ -1,3 +1,4 @@
+<!--id-->dxList.Options.scrollingEnabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

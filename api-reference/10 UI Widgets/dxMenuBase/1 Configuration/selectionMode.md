@@ -1,3 +1,4 @@
+<!--id-->dxMenuBase.Options.selectionMode<!--/id-->
 ===========================================================================
 <!--default-->none<!--/default-->
 <!--acceptValues-->'none' | 'single'<!--/acceptValues-->

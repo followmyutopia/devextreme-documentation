@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.argumentAxisClick<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

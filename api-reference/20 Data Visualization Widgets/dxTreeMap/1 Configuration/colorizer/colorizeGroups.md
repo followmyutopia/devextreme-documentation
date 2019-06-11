@@ -1,3 +1,4 @@
+<!--id-->dxTreeMap.Options.colorizer.colorizeGroups<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

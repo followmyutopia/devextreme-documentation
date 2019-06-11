@@ -1,3 +1,4 @@
+<!--id-->dxFilterBuilder.Options.filterOperationDescriptions.isNotBlank<!--/id-->
 ===========================================================================
 <!--default-->'Is not blank'<!--/default-->
 <!--type-->String<!--/type-->

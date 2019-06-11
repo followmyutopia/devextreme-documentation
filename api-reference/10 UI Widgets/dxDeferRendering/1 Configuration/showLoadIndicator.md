@@ -1,3 +1,4 @@
+<!--id-->dxDeferRendering.Options.showLoadIndicator<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

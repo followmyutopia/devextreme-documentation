@@ -1,3 +1,4 @@
+<!--id-->dxFileManager.Options.permissions.remove<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

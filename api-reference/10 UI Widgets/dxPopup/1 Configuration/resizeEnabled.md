@@ -1,3 +1,4 @@
+<!--id-->dxPopup.Options.resizeEnabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

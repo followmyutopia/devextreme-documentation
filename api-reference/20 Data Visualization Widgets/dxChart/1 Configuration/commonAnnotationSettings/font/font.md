@@ -1,3 +1,4 @@
+<!--id-->dxChartCommonAnnotationConfig.font<!--/id-->
 ===========================================================================
 <!--type-->Object<!--/type-->
 <!--inherits-->..\..\..\..\Font\Font.md<!--/inherits-->

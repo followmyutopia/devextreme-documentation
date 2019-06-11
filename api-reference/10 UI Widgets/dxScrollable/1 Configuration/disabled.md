@@ -1,3 +1,4 @@
+<!--id-->dxScrollable.Options.disabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

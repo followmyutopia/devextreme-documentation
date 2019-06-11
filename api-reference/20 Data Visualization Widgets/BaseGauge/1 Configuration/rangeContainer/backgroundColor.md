@@ -1,3 +1,4 @@
+<!--id-->BaseGauge.Options.rangeContainer.backgroundColor<!--/id-->
 ===========================================================================
 <!--default-->'#808080'<!--/default-->
 <!--type-->String<!--/type-->

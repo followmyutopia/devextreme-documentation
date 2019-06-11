@@ -1,3 +1,4 @@
+<!--id-->dxFormSimpleItem.isRequired<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxFileManager<!--/id-->
 <!--widgettree-->
 fileProvider: [{
     name: "Documents",

@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.headerFilter.texts.emptyValue<!--/id-->
 ===========================================================================
 <!--default-->'(Blanks)'<!--/default-->
 <!--type-->String<!--/type-->

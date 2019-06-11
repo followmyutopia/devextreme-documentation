@@ -1,3 +1,4 @@
+<!--id-->dxTextArea.Options.maxHeight<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number | String<!--/type-->

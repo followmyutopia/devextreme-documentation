@@ -1,3 +1,4 @@
+<!--id-->dxPieChart.Options.legend.customizeItems<!--/id-->
 <!--merge--><!--/merge-->
 <!--type-->function(items)<!--/type-->
 ===========================================================================

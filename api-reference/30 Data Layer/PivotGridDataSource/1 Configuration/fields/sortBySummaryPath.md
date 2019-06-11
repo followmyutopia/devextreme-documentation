@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.fields.sortBySummaryPath<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Array<Number, String><!--/type-->

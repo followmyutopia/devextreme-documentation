@@ -1,3 +1,4 @@
+<!--id-->dxTreeMap.Options.layoutAlgorithm<!--/id-->
 ===========================================================================
 <!--default-->'squarified'<!--/default-->
 <!--acceptValues-->'sliceanddice' | 'squarified' | 'strip'<!--/acceptValues-->

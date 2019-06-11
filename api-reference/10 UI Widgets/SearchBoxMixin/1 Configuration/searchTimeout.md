@@ -1,3 +1,4 @@
+<!--id-->SearchBoxMixin.Options.searchTimeout<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxCircularGauge.Options.geometry.startAngle<!--/id-->
 ===========================================================================
 <!--default-->225<!--/default-->
 <!--type-->Number<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxFileManager.Options.permissions.create<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

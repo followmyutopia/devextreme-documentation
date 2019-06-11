@@ -1,3 +1,4 @@
+<!--id-->animationConfig.type<!--/id-->
 ===========================================================================
 <!--default-->'custom'<!--/default-->
 <!--acceptValues-->'css' | 'fade' | 'fadeIn' | 'fadeOut' | 'pop' | 'slide' | 'slideIn' | 'slideOut'<!--/acceptValues-->

@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.Options.algorithm<!--/id-->
 ===========================================================================
 <!--default-->'dynamicSlope'<!--/default-->
 <!--acceptValues-->'dynamicHeight' | 'dynamicSlope'<!--/acceptValues-->

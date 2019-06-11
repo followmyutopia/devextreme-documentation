@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.behavior.callValueChanged<!--/id-->
 ===========================================================================
 <!--default-->'onMovingComplete'<!--/default-->
 <!--acceptValues-->'onMoving' | 'onMovingComplete'<!--/acceptValues-->

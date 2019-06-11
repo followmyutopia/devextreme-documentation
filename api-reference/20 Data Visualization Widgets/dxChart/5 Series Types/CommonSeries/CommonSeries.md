@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--type-->Object<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.allowColumnReordering<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

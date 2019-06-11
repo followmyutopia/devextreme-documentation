@@ -1,3 +1,4 @@
+<!--id-->dxDropDownBox<!--/id-->
 ===========================================================================
 <!--module-->ui/drop_down_box<!--/module-->
 <!--export-->default<!--/export-->

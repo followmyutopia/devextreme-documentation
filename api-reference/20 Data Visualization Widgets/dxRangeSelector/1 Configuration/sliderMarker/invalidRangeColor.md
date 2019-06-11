@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.sliderMarker.invalidRangeColor<!--/id-->
 ===========================================================================
 <!--default-->'red'<!--/default-->
 <!--type-->String<!--/type-->

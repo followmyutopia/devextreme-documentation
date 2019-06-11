@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.tooltip.shadow.color<!--/id-->
 ===========================================================================
 <!--default-->#000000<!--/default-->
 <!--type-->String<!--/type-->

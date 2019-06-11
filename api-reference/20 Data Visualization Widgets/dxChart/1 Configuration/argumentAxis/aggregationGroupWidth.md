@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.argumentAxis.aggregationGroupWidth<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

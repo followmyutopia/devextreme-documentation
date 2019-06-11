@@ -1,3 +1,4 @@
+<!--id-->dxDiagram.Options.layout<!--/id-->
 ===========================================================================
 <!--default-->'tree'<!--/default-->
 <!--acceptValues-->'tree' | 'sugiyama'<!--/acceptValues-->

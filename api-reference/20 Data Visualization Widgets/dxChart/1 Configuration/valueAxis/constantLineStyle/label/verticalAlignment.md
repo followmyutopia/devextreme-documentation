@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.valueAxis.constantLineStyle.label.verticalAlignment<!--/id-->
 ===========================================================================
 <!--default-->'top'<!--/default-->
 <!--acceptValues-->'bottom' | 'center' | 'top'<!--/acceptValues-->

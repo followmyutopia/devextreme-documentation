@@ -1,3 +1,4 @@
+<!--id-->dxSchedulerAppointment.disabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

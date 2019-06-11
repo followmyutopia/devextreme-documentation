@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.minBarSize<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\StackedBarSeries\StackedBarSeries.md,..\BarSeries\BarSeries.md<!--/propertyOf-->
 <!--default-->undefined<!--/default-->

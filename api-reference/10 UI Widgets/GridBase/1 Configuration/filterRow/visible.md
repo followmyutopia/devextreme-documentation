@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.filterRow.visible<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

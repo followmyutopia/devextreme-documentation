@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.seriesTemplate.nameField<!--/id-->
 ===========================================================================
 <!--default-->'series'<!--/default-->
 <!--type-->String<!--/type-->

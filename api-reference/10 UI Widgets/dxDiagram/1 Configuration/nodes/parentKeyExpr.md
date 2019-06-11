@@ -1,3 +1,4 @@
+<!--id-->dxDiagram.Options.nodes.parentKeyExpr<!--/id-->
 ===========================================================================
 <!--default-->'parentId'<!--/default-->
 <!--type-->String | function(data)<!--/type-->

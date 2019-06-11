@@ -1,3 +1,4 @@
+<!--id-->dxTreeMap<!--/id-->
 <!--widgettree-->
 dataSource: [{
     name: 'Fruits',

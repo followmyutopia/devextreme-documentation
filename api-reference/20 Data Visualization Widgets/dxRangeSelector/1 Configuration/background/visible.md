@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.background.visible<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

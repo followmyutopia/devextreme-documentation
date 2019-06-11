@@ -1,3 +1,4 @@
+<!--id-->dxCalendar.Options.showTodayButton<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

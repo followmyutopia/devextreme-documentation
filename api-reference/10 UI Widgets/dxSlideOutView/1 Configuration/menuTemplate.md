@@ -1,3 +1,4 @@
+<!--id-->dxSlideOutView.Options.menuTemplate<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->template<!--/type-->

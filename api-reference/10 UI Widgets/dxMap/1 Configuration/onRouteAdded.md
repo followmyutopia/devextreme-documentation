@@ -1,3 +1,4 @@
+<!--id-->dxMap.Options.onRouteAdded<!--/id-->
 <!--EventForAction-->..\4 Events\routeAdded.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

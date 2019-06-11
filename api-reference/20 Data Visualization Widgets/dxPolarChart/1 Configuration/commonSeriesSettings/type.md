@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.commonSeriesSettings.type<!--/id-->
 ===========================================================================
 <!--default-->'scatter'<!--/default-->
 <!--acceptValues-->'area' | 'bar' | 'line' | 'scatter' | 'stackedbar'<!--/acceptValues-->

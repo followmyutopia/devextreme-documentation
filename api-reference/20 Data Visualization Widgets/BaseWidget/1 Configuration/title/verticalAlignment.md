@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.title.verticalAlignment<!--/id-->
 ===========================================================================
 <!--default-->'top'<!--/default-->
 <!--acceptValues-->'bottom' | 'top'<!--/acceptValues-->

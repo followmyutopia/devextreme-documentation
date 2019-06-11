@@ -1,3 +1,4 @@
+<!--id-->dxTreeView.Options.expandNodesRecursive<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

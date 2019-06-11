@@ -1,3 +1,4 @@
+<!--id-->CommonIndicator.arrowLength<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\..\..\dxCircularGauge\5 Indicator Types\TextCloud\TextCloud.md,..\..\..\dxLinearGauge\5 Indicator Types\TextCloud\TextCloud.md<!--/propertyOf-->
 <!--default-->5<!--/default-->

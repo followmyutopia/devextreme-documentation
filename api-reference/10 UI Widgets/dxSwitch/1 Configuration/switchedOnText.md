@@ -1,3 +1,4 @@
+<!--id-->dxSwitch.Options.switchedOnText<!--/id-->
 ===========================================================================
 <!--default-->'ON'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxContextMenu.Options.submenuDirection<!--/id-->
 ===========================================================================
 <!--default-->'auto'<!--/default-->
 <!--acceptValues-->'auto' | 'left' | 'right'<!--/acceptValues-->

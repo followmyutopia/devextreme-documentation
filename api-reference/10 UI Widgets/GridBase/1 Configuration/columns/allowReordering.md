@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.allowReordering<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

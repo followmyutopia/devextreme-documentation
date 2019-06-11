@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CandleStickSeries.aggregation.method<!--/id-->
 ===========================================================================
 <!--default-->'ohlc'<!--/default-->
 <!--acceptValues-->'ohlc' | 'custom'<!--/acceptValues-->

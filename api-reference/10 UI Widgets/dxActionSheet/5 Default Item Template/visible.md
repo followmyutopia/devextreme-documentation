@@ -1,3 +1,4 @@
+<!--id-->dxActionSheetItem.visible<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->true<!--/default-->

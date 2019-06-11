@@ -1,3 +1,4 @@
+<!--id-->dxCircularGauge<!--/id-->
 <!--widgettree-->
 value: 48
 <!--/widgettree-->

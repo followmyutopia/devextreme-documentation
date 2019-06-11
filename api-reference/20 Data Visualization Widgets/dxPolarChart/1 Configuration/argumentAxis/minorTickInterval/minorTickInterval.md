@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.argumentAxis.minorTickInterval<!--/id-->
 ===========================================================================
 <!--inherits-->..\..\..\..\VizTimeInterval\VizTimeInterval.md<!--/inherits-->
 ===========================================================================

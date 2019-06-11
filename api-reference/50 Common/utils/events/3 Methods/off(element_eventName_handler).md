@@ -1,3 +1,4 @@
+<!--id-->events.off(element, eventName, handler)<!--/id-->
 ===================================================================
 <!--module-->events<!--/module-->
 <!--export-->off<!--/export-->

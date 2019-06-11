@@ -1,3 +1,4 @@
+<!--id-->dxFileUploader.Options.showFileList<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

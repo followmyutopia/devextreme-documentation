@@ -1,3 +1,4 @@
+<!--id-->BaseGauge.Options.scale.tick.length<!--/id-->
 ===========================================================================
 <!--default-->5<!--/default-->
 <!--type-->Number<!--/type-->

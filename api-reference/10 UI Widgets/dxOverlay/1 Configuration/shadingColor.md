@@ -1,3 +1,4 @@
+<!--id-->dxOverlay.Options.shadingColor<!--/id-->
 ===========================================================================
 <!--default-->''<!--/default-->
 <!--type-->String<!--/type-->

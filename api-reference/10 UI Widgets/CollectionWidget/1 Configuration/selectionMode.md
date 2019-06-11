@@ -1,3 +1,4 @@
+<!--id-->CollectionWidget.Options.selectionMode<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->'none'<!--/default-->

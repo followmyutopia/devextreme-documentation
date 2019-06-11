@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.Options.item.selectionStyle.border.visible<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Boolean<!--/type-->

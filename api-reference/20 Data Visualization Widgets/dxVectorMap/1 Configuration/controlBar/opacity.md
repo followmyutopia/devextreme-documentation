@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.controlBar.opacity<!--/id-->
 ===========================================================================
 <!--default-->0.3<!--/default-->
 <!--type-->Number<!--/type-->

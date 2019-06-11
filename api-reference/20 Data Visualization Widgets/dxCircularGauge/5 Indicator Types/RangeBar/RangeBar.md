@@ -1,3 +1,4 @@
+<!--id-->circularRangeBar<!--/id-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->Object<!--/type-->

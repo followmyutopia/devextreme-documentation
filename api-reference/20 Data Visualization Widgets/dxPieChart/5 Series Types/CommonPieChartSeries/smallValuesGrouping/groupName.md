@@ -1,3 +1,4 @@
+<!--id-->dxPieChartSeriesTypes.CommonPieChartSeries.smallValuesGrouping.groupName<!--/id-->
 ===========================================================================
 <!--default-->'others'<!--/default-->
 <!--type-->String<!--/type-->

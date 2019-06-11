@@ -1,3 +1,4 @@
+<!--id-->dxFileManager.Options.fileProvider<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->Object<!--/type-->

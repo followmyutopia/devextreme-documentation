@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.fields.summaryDisplayMode<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'absoluteVariation' | 'percentOfColumnGrandTotal' | 'percentOfColumnTotal' | 'percentOfGrandTotal' | 'percentOfRowGrandTotal' | 'percentOfRowTotal' | 'percentVariation'<!--/acceptValues-->

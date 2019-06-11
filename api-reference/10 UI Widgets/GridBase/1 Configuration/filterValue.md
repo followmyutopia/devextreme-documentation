@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.filterValue<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->Filter expression<!--/type-->

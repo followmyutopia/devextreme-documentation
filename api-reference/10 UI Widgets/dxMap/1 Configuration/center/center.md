@@ -1,3 +1,4 @@
+<!--id-->dxMap.Options.center<!--/id-->
 ===========================================================================
 <!--type-->Object | String | Array<Number><!--/type-->
 <!--firedEvents-->optionChanged<!--/firedEvents-->

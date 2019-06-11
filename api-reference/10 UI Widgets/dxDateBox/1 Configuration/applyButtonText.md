@@ -1,3 +1,4 @@
+<!--id-->dxDateBox.Options.applyButtonText<!--/id-->
 ===========================================================================
 <!--default-->'OK'<!--/default-->
 <!--type-->String<!--/type-->

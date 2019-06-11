@@ -1,3 +1,4 @@
+<!--id-->dxLinearGauge.Options.subvalueIndicator<!--/id-->
 ===========================================================================
 <!--type-->Object<!--/type-->
 <!--inherits-->..\..\..\BaseGauge\5 Indicator Types\GaugeIndicator\GaugeIndicator.md<!--/inherits-->

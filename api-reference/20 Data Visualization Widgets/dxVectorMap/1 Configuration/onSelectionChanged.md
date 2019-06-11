@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.onSelectionChanged<!--/id-->
 <!--EventForAction-->..\4 Events\selectionChanged.md<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->

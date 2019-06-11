@@ -1,3 +1,4 @@
+<!--id-->dxToast.Options.type<!--/id-->
 ===========================================================================
 <!--default-->'info'<!--/default-->
 <!--acceptValues-->'custom' | 'error' | 'info' | 'success' | 'warning'<!--/acceptValues-->

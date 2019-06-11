@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.views.intervalCount<!--/id-->
 ===========================================================================
 <!--default-->1<!--/default-->
 <!--type-->Number<!--/type-->

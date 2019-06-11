@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.editing.texts.undeleteRow<!--/id-->
 ===========================================================================
 <!--default-->'Undelete'<!--/default-->
 <!--type-->String<!--/type-->

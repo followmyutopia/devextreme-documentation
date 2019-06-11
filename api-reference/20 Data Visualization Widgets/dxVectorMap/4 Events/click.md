@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.click<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

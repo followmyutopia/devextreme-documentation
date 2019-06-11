@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.caption<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

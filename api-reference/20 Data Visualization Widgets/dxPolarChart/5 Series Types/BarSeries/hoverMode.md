@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.barpolarseries.hoverMode<!--/id-->
 ===========================================================================
 <!--default-->'onlyPoint'<!--/default-->
 <!--acceptValues-->'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'none'<!--/acceptValues-->

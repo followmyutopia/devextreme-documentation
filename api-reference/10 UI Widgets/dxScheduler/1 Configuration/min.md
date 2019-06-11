@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.min<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Date | Number | String<!--/type-->

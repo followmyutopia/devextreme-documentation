@@ -1,3 +1,4 @@
+<!--id-->dxLookup.Options.groupTemplate<!--/id-->
 ===========================================================================
 <!--default-->'group'<!--/default-->
 <!--type-->template<!--/type-->

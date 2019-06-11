@@ -1,3 +1,4 @@
+<!--id-->dxPieChart.Options.diameter<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

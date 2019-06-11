@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.pathModified<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->false<!--/default-->

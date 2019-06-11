@@ -1,3 +1,4 @@
+<!--id-->dxList.Options.scrollByContent<!--/id-->
 ===========================================================================
 <!--default-->true, false (non-touch_devices)<!--/default-->
 <!--type-->Boolean<!--/type-->

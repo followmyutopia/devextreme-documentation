@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.behavior.manualRangeSelectionEnabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

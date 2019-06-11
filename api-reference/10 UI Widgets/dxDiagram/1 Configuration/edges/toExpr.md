@@ -1,3 +1,4 @@
+<!--id-->dxDiagram.Options.edges.toExpr<!--/id-->
 ===========================================================================
 <!--default-->'to'<!--/default-->
 <!--type-->String | function(data)<!--/type-->

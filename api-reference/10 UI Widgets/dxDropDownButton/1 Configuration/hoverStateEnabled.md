@@ -1,3 +1,4 @@
+<!--id-->dxDropDownButton.Options.hoverStateEnabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->SearchBoxMixin.Options.searchValue<!--/id-->
 ===========================================================================
 <!--default-->''<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.autoHidePointMarkers<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

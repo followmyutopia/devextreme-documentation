@@ -1,3 +1,4 @@
+<!--id-->dxFilterBuilder.Options.groupOperationDescriptions.notOr<!--/id-->
 ===========================================================================
 <!--default-->'Not Or'<!--/default-->
 <!--type-->String<!--/type-->

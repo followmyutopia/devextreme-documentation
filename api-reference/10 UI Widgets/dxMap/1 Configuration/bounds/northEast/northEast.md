@@ -1,3 +1,4 @@
+<!--id-->dxMap.Options.bounds.northEast<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->null<!--/default-->

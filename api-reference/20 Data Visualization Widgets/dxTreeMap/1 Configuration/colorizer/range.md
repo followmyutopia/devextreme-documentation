@@ -1,3 +1,4 @@
+<!--id-->dxTreeMap.Options.colorizer.range<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Array<Number><!--/type-->

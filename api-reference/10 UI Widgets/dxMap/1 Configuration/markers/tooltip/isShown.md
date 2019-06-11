@@ -1,3 +1,4 @@
+<!--id-->dxMap.Options.markers.tooltip.isShown<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

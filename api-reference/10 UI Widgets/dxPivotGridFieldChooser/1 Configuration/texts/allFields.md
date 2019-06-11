@@ -1,3 +1,4 @@
+<!--id-->dxPivotGridFieldChooser.Options.texts.allFields<!--/id-->
 ===========================================================================
 <!--default-->'All Fields'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->CustomStore.Options.loadMode<!--/id-->
 ===========================================================================
 <!--default-->'processed'<!--/default-->
 <!--acceptValues-->'processed' | 'raw'<!--/acceptValues-->

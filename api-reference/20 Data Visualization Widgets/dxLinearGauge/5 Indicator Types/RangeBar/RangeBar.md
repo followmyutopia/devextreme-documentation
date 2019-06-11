@@ -1,3 +1,4 @@
+<!--id-->linearRangeBar<!--/id-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->Object<!--/type-->

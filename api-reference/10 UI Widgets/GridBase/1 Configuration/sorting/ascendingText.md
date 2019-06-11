@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.sorting.ascendingText<!--/id-->
 ===========================================================================
 <!--default-->'Sort Ascending'<!--/default-->
 <!--type-->String<!--/type-->

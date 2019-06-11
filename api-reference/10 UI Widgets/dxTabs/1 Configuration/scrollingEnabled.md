@@ -1,3 +1,4 @@
+<!--id-->dxTabs.Options.scrollingEnabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

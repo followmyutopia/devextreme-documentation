@@ -1,3 +1,4 @@
+<!--id-->BaseChart.Options.tooltip.argumentFormat<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->format<!--/type-->

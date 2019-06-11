@@ -1,3 +1,4 @@
+<!--id-->positionConfig.my<!--/id-->
 ===========================================================================
 <!--acceptValues-->'bottom' | 'center' | 'left' | 'left bottom' | 'left top' | 'right' | 'right bottom' | 'right top' | 'top'<!--/acceptValues-->
 <!--type-->String | Object<!--/type-->

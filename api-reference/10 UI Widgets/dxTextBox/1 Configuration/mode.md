@@ -1,3 +1,4 @@
+<!--id-->dxTextBox.Options.mode<!--/id-->
 ===========================================================================
 <!--default-->'text'<!--/default-->
 <!--acceptValues-->'email' | 'password' | 'search' | 'tel' | 'text' | 'url'<!--/acceptValues-->

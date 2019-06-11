@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.selectedFilterOperation<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'<' | '<=' | '<>' | '=' | '>' | '>=' | 'between' | 'contains' | 'endswith' | 'notcontains' | 'startswith'<!--/acceptValues-->

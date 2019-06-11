@@ -1,3 +1,4 @@
+<!--id-->dxActionSheet<!--/id-->
 <!--widgettree-->
 dataSource: [
         { text: "Call" },

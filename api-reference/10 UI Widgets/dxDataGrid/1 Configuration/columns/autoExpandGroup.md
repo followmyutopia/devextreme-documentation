@@ -1,3 +1,4 @@
+<!--id-->dxDataGridColumn.autoExpandGroup<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

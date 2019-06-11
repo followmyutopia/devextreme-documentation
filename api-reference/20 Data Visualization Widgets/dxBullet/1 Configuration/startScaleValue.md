@@ -1,3 +1,4 @@
+<!--id-->dxBullet.Options.startScaleValue<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->0<!--/default-->

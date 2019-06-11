@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.scale.type<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'continuous' | 'discrete' | 'logarithmic' | 'semidiscrete'<!--/acceptValues-->

@@ -1,3 +1,4 @@
+<!--id-->dxTabPanel.Options.onTitleClick<!--/id-->
 <!--EventForAction-->..\4 Events\titleClick.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

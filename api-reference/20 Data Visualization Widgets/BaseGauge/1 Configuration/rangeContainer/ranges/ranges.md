@@ -1,3 +1,4 @@
+<!--id-->BaseGauge.Options.rangeContainer.ranges<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->[]<!--/default-->

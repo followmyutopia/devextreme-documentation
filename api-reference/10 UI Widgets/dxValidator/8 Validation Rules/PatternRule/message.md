@@ -1,3 +1,4 @@
+<!--id-->PatternRule.message<!--/id-->
 ===========================================================================
 <!--default-->'Value does not match pattern'<!--/default-->
 <!--type-->String<!--/type-->

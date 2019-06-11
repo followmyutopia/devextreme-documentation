@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.scale.breakStyle.line<!--/id-->
 ===========================================================================
 <!--default-->'waved'<!--/default-->
 <!--acceptValues-->'straight' | 'waved'<!--/acceptValues-->

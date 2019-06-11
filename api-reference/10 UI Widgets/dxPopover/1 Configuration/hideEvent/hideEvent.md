@@ -1,3 +1,4 @@
+<!--id-->dxPopover.Options.hideEvent<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Object | String<!--/type-->

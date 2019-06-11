@@ -1,3 +1,4 @@
+<!--id-->dxFilterBuilder.Options.filterOperationDescriptions.startsWith<!--/id-->
 ===========================================================================
 <!--default-->'Starts with'<!--/default-->
 <!--type-->String<!--/type-->

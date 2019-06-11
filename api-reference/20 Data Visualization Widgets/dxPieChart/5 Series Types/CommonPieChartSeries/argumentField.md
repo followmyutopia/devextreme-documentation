@@ -1,3 +1,4 @@
+<!--id-->dxPieChartSeriesTypes.CommonPieChartSeries.argumentField<!--/id-->
 ===========================================================================
 <!--default-->'arg'<!--/default-->
 <!--type-->String<!--/type-->

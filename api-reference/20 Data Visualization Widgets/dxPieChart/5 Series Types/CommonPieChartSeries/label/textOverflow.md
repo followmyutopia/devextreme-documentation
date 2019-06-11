@@ -1,3 +1,4 @@
+<!--id-->dxPieChartSeriesTypes.CommonPieChartSeries.label.textOverflow<!--/id-->
 ===========================================================================
 <!--default-->'ellipsis'<!--/default-->
 <!--acceptValues-->'ellipsis' | 'hide' | 'none'<!--/acceptValues-->

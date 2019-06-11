@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.fields.selector<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->function()<!--/type-->

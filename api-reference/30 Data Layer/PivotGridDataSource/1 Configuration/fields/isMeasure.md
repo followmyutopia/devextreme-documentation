@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.fields.isMeasure<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Boolean<!--/type-->

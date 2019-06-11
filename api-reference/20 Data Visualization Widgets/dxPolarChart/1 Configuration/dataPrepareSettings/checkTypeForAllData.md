@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.dataPrepareSettings.checkTypeForAllData<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

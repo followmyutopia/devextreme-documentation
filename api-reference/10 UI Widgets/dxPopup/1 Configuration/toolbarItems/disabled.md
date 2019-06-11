@@ -1,3 +1,4 @@
+<!--id-->dxPopup.Options.toolbarItems.disabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

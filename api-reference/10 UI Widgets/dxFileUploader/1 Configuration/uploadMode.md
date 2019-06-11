@@ -1,3 +1,4 @@
+<!--id-->dxFileUploader.Options.uploadMode<!--/id-->
 ===========================================================================
 <!--default-->'instantly'<!--/default-->
 <!--acceptValues-->'instantly' | 'useButtons' | 'useForm'<!--/acceptValues-->

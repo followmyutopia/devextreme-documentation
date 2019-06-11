@@ -1,3 +1,4 @@
+<!--id-->ui.dxOverlay.baseZIndex(zIndex)<!--/id-->
 ===================================================================
 <!--module-->ui/overlay<!--/module-->
 <!--export-->dxOverlay.baseZIndex<!--/export-->

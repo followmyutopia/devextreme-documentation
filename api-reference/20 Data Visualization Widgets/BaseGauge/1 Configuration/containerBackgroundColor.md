@@ -1,3 +1,4 @@
+<!--id-->BaseGauge.Options.containerBackgroundColor<!--/id-->
 ===========================================================================
 <!--default-->'none'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxScrollable.Options.useNative<!--/id-->
 ===========================================================================
 <!--default-->true, false (desktop), true (Mac)<!--/default-->
 <!--type-->Boolean<!--/type-->

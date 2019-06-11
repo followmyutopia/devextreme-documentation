@@ -1,3 +1,4 @@
+<!--id-->ui.dialog.alert(messageHtml,title)<!--/id-->
 ===================================================================
 <!--module-->ui/dialog<!--/module-->
 <!--export-->alert<!--/export-->

@@ -1,3 +1,4 @@
+<!--id-->dxTreeView.Options.virtualModeEnabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

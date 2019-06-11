@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.width<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number | String<!--/type-->

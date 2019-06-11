@@ -1,3 +1,4 @@
+<!--id-->dxLookup.Options.searchPlaceholder<!--/id-->
 ===========================================================================
 <!--default-->'Search'<!--/default-->
 <!--type-->String<!--/type-->

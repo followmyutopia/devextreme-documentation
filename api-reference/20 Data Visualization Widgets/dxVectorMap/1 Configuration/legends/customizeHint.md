@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.legends.customizeHint<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(itemInfo)<!--/type-->

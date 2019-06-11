@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.summary.totalItems.alignment<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'center' | 'left' | 'right'<!--/acceptValues-->

@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.scrollBar.visible<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

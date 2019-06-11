@@ -1,3 +1,4 @@
+<!--id-->dxLoadIndicator<!--/id-->
 <!--widgettree-->
 
 <!--/widgettree-->

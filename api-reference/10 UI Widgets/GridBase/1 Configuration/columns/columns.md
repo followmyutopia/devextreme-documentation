@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.columns<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Array<GridBaseColumn, String><!--/type-->

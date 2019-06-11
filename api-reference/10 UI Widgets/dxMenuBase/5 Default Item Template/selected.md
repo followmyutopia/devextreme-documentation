@@ -1,3 +1,4 @@
+<!--id-->dxMenuBaseItem.selected<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->Component.Options.onOptionChanged<!--/id-->
 <!--EventForAction-->..\4 Events\optionChanged.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

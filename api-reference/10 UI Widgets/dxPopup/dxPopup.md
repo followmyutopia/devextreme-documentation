@@ -1,3 +1,4 @@
+<!--id-->dxPopup<!--/id-->
 <!--widgettree-->
 visible: true
 <!--/widgettree-->

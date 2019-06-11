@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.chart.seriesTemplate.customizeSeries<!--/id-->
 ===========================================================================
 <!--type-->function(seriesName)<!--/type-->
 ===========================================================================

@@ -1,3 +1,4 @@
+<!--id-->dxSliderBase.Options.tooltip.position<!--/id-->
 ===========================================================================
 <!--default-->'top'<!--/default-->
 <!--acceptValues-->'bottom' | 'top'<!--/acceptValues-->

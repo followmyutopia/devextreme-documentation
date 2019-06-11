@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.showAllDayPanel<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

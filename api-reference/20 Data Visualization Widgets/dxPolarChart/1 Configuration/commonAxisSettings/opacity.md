@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.commonAxisSettings.opacity<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

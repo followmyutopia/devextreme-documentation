@@ -1,3 +1,4 @@
+<!--id-->dxDropDownButton.Options.icon<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

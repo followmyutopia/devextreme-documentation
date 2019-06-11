@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.layers.hoverEnabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

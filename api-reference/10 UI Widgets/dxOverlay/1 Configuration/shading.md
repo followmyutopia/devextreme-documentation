@@ -1,3 +1,4 @@
+<!--id-->dxOverlay.Options.shading<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.rowHeaderLayout<!--/id-->
 ===========================================================================
 <!--default-->'standard'<!--/default-->
 <!--acceptValues-->'standard' | 'tree'<!--/acceptValues-->

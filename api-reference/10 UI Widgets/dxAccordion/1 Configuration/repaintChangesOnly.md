@@ -1,3 +1,4 @@
+<!--id-->dxAccordion.Options.repaintChangesOnly<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

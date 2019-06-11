@@ -1,3 +1,4 @@
+<!--id-->dxCalendar.Options.maxZoomLevel<!--/id-->
 ===========================================================================
 <!--default-->'month'<!--/default-->
 <!--acceptValues-->'century' | 'decade' | 'month' | 'year'<!--/acceptValues-->

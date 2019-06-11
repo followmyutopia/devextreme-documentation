@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.Options.label.position<!--/id-->
 ===========================================================================
 <!--default-->'columns'<!--/default-->
 <!--acceptValues-->'columns' | 'inside' | 'outside'<!--/acceptValues-->

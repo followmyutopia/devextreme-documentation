@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.hoverStyle.border.dashStyle<!--/id-->
 ===========================================================================
 <!--default-->'solid'<!--/default-->
 <!--acceptValues-->'dash' | 'dot' | 'longDash' | 'solid'<!--/acceptValues-->

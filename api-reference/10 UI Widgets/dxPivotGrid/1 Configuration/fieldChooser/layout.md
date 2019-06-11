@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.fieldChooser.layout<!--/id-->
 ===========================================================================
 <!--default-->0<!--/default-->
 <!--acceptValues-->0 | 1 | 2<!--/acceptValues-->

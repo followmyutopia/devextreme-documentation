@@ -1,3 +1,4 @@
+<!--id-->HierarchicalCollectionWidget.Options.keyExpr<!--/id-->
 ===========================================================================
 <!--default-->'id'<!--/default-->
 <!--type-->String | function()<!--/type-->

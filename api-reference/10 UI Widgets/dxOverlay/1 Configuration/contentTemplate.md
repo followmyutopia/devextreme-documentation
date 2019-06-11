@@ -1,3 +1,4 @@
+<!--id-->dxOverlay.Options.contentTemplate<!--/id-->
 ===========================================================================
 <!--default-->'content'<!--/default-->
 <!--type-->template<!--/type-->

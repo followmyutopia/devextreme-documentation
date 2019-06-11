@@ -1,3 +1,4 @@
+<!--id-->dxGallery.Options.stretchImages<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

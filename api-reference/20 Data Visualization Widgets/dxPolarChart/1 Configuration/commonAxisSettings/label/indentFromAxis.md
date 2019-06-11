@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.commonAxisSettings.label.indentFromAxis<!--/id-->
 ===========================================================================
 <!--default-->5<!--/default-->
 <!--type-->Number<!--/type-->

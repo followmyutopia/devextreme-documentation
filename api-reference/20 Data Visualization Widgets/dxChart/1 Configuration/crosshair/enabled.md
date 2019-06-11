@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.crosshair.enabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

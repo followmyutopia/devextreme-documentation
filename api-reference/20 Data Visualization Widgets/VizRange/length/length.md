@@ -1,3 +1,4 @@
+<!--id-->VizRange.length<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--inherits-->..\..\VizTimeInterval\VizTimeInterval.md<!--/inherits-->

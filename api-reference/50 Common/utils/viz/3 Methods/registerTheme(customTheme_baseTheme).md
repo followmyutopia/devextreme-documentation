@@ -1,3 +1,4 @@
+<!--id-->viz.registerTheme(customTheme, baseTheme)<!--/id-->
 ===================================================================
 <!--module-->viz/themes<!--/module-->
 <!--export-->registerTheme<!--/export-->

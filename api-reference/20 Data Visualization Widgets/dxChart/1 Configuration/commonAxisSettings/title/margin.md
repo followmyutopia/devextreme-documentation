@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.title.margin<!--/id-->
 ===========================================================================
 <!--default-->6<!--/default-->
 <!--type-->Number<!--/type-->

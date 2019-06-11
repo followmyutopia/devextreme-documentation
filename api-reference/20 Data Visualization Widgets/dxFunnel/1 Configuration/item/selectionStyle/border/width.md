@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.Options.item.selectionStyle.border.width<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

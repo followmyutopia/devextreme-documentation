@@ -1,3 +1,4 @@
+<!--id-->dxBarGauge.Options.legend.itemTextFormat<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->format<!--/type-->

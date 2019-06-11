@@ -1,3 +1,4 @@
+<!--id-->dxNumberBox<!--/id-->
 <!--widgettree-->
 
 <!--/widgettree-->

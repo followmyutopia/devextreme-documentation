@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.stripStyle.paddingTopBottom<!--/id-->
 ===========================================================================
 <!--default-->5<!--/default-->
 <!--type-->Number<!--/type-->

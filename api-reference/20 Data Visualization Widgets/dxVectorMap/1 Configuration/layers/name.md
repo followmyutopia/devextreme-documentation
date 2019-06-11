@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.layers.name<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->String<!--/type-->

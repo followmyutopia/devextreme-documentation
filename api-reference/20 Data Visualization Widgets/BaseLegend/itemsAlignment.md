@@ -1,3 +1,4 @@
+<!--id-->BaseLegend.itemsAlignment<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'center' | 'left' | 'right'<!--/acceptValues-->

@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.filterPanel.texts.createFilter<!--/id-->
 ===========================================================================
 <!--default-->'Create Filter'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.seriesTemplate<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->

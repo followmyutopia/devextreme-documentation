@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.valueAxis.max<!--/id-->
 <!--dep-->visualRange\visualRange.md<!--/dep-->
 ===========================================================================
 <!--default-->undefined<!--/default-->

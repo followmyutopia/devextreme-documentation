@@ -1,3 +1,4 @@
+<!--id-->globalConfig.oDataFilterToLower<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

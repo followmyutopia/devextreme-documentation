@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.columns<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Array<dxDataGridColumn, String><!--/type-->

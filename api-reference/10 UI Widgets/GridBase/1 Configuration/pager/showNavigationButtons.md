@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.pager.showNavigationButtons<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxButton.Options.template<!--/id-->
 ===========================================================================
 <!--default-->'content'<!--/default-->
 <!--type-->template<!--/type-->

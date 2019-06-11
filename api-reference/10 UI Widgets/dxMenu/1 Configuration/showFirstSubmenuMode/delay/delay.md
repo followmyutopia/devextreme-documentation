@@ -1,3 +1,4 @@
+<!--id-->dxMenu.Options.showFirstSubmenuMode.delay<!--/id-->
 ===========================================================================
 <!--default-->{ show: 50, hide: 300 }<!--/default-->
 <!--type-->Object | Number<!--/type-->

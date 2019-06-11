@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.label.indentFromAxis<!--/id-->
 ===========================================================================
 <!--default-->10<!--/default-->
 <!--type-->Number<!--/type-->

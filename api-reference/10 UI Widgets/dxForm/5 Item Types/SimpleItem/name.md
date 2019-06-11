@@ -1,3 +1,4 @@
+<!--id-->dxFormSimpleItem.name<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

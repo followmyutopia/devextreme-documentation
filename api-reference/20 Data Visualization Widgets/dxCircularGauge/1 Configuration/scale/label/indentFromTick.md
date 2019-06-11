@@ -1,3 +1,4 @@
+<!--id-->dxCircularGauge.Options.scale.label.indentFromTick<!--/id-->
 ===========================================================================
 <!--default-->10<!--/default-->
 <!--type-->Number<!--/type-->

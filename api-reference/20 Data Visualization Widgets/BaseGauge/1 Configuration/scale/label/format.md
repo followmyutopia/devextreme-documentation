@@ -1,3 +1,4 @@
+<!--id-->BaseGauge.Options.scale.label.format<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->format<!--/type-->

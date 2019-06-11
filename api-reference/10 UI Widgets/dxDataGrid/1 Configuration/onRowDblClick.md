@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.onRowDblClick<!--/id-->
 <!--EventForAction-->..\4 Events\rowDblClick.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

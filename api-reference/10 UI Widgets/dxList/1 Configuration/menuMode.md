@@ -1,3 +1,4 @@
+<!--id-->dxList.Options.menuMode<!--/id-->
 ===========================================================================
 <!--default-->'context', 'slide' (iOS)<!--/default-->
 <!--acceptValues-->'context' | 'slide'<!--/acceptValues-->

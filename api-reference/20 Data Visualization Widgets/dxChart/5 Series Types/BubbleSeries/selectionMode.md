@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.BubbleSeries.selectionMode<!--/id-->
 ===========================================================================
 <!--default-->'onlyPoint'<!--/default-->
 <!--acceptValues-->'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'none'<!--/acceptValues-->

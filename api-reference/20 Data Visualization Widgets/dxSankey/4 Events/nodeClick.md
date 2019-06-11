@@ -1,3 +1,4 @@
+<!--id-->dxSankey.nodeClick<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

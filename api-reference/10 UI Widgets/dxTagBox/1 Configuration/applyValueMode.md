@@ -1,3 +1,4 @@
+<!--id-->dxTagBox.Options.applyValueMode<!--/id-->
 ===========================================================================
 <!--default-->'instantly'<!--/default-->
 <!--acceptValues-->'instantly' | 'useButtons'<!--/acceptValues-->

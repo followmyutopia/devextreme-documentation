@@ -1,3 +1,4 @@
+<!--id-->CommonIndicator.text.indent<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\..\..\..\dxCircularGauge\5 Indicator Types\RangeBar\RangeBar.md,..\..\..\..\dxLinearGauge\5 Indicator Types\RangeBar\RangeBar.md<!--/propertyOf-->
 <!--default-->0<!--/default-->

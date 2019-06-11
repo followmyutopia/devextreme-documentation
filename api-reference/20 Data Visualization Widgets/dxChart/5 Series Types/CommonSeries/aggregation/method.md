@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.aggregation.method<!--/id-->
 ===========================================================================
 <!--acceptValues-->'avg' | 'count' | 'max' | 'min' | 'ohlc' | 'range' | 'sum' | 'custom'<!--/acceptValues-->
 <!--type-->String<!--/type-->

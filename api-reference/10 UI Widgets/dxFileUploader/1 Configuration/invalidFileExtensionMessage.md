@@ -1,3 +1,4 @@
+<!--id-->dxFileUploader.Options.invalidFileExtensionMessage<!--/id-->
 ===========================================================================
 <!--default-->'File type is not allowed'<!--/default-->
 <!--type-->String<!--/type-->

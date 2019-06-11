@@ -1,3 +1,4 @@
+<!--id-->dxPieChartSeriesTypes.CommonPieChartSeries.valueField<!--/id-->
 ===========================================================================
 <!--default-->'val'<!--/default-->
 <!--type-->String<!--/type-->

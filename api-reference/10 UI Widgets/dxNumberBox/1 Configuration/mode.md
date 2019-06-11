@@ -1,3 +1,4 @@
+<!--id-->dxNumberBox.Options.mode<!--/id-->
 ===========================================================================
 <!--default-->'text', 'number' (mobile_devices)<!--/default-->
 <!--acceptValues-->'number' | 'text' | 'tel'<!--/acceptValues-->

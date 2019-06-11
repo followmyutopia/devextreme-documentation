@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.valueAxis.label.customizeText<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(axisValue)<!--/type-->

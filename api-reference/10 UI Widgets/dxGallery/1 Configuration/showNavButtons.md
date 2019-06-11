@@ -1,3 +1,4 @@
+<!--id-->dxGallery.Options.showNavButtons<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

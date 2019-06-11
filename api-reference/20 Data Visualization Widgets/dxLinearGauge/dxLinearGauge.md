@@ -1,3 +1,4 @@
+<!--id-->dxLinearGauge<!--/id-->
 <!--widgettree-->
 value: 50
 <!--/widgettree-->

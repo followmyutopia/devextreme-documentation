@@ -1,3 +1,4 @@
+<!--id-->BaseGauge.Options.animation.duration<!--/id-->
 ===========================================================================
 <!--default-->1000<!--/default-->
 <!--type-->Number<!--/type-->

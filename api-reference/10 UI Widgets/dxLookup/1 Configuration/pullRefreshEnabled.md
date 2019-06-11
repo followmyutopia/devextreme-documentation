@@ -1,3 +1,4 @@
+<!--id-->dxLookup.Options.pullRefreshEnabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

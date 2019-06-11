@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.reduction<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\..\CandleStickSeries\CandleStickSeries.md,..\..\StockSeries\StockSeries.md<!--/propertyOf-->
 <!--type-->Object<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxDataGridColumn.resized<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->undefined<!--/default-->

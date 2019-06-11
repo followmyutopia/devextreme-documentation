@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.scale.workWeek<!--/id-->
 ===========================================================================
 <!--default-->[1, 2, 3, 4, 5]<!--/default-->
 <!--type-->Array<Number><!--/type-->

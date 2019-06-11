@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.chart.series<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->

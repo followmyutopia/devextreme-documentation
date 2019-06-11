@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource<!--/id-->
 ===========================================================================
 <!--module-->ui/pivot_grid/data_source<!--/module-->
 <!--export-->default<!--/export-->

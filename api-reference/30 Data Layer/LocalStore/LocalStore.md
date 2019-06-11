@@ -1,3 +1,4 @@
+<!--id-->LocalStore<!--/id-->
 ===========================================================================
 <!--module-->data/local_store<!--/module-->
 <!--export-->default<!--/export-->

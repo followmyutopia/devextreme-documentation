@@ -1,3 +1,4 @@
+<!--id-->dxCircularGauge.Options.geometry.endAngle<!--/id-->
 ===========================================================================
 <!--default-->315<!--/default-->
 <!--type-->Number<!--/type-->

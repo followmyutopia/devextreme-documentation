@@ -1,3 +1,4 @@
+<!--id-->dxDropDownButton.Options.focusStateEnabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

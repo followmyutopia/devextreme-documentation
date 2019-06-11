@@ -1,3 +1,4 @@
+<!--id-->dxTreeView.Options.animationEnabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

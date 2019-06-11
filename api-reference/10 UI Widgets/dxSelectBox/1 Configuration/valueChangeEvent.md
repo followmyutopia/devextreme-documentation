@@ -1,3 +1,4 @@
+<!--id-->dxSelectBox.Options.valueChangeEvent<!--/id-->
 ===========================================================================
 <!--default-->'change'<!--/default-->
 <!--type-->String<!--/type-->

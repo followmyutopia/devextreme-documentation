@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.filterRow.operationDescriptions.contains<!--/id-->
 ===========================================================================
 <!--default-->'Contains'<!--/default-->
 <!--type-->String<!--/type-->

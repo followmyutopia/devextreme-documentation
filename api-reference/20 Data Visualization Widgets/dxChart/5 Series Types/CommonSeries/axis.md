@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.axis<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

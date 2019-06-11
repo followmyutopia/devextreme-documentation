@@ -1,3 +1,4 @@
+<!--id-->dxSlideOut.Options.menuPosition<!--/id-->
 ===========================================================================
 <!--default-->'normal'<!--/default-->
 <!--acceptValues-->'inverted' | 'normal'<!--/acceptValues-->

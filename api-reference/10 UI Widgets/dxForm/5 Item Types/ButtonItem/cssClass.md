@@ -1,3 +1,4 @@
+<!--id-->dxFormButtonItem.cssClass<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

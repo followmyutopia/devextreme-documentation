@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.valueErrorBar.color<!--/id-->
 ===========================================================================
 <!--default-->black<!--/default-->
 <!--type-->String<!--/type-->

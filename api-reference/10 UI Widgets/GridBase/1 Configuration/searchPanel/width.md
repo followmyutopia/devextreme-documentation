@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.searchPanel.width<!--/id-->
 ===========================================================================
 <!--default-->160<!--/default-->
 <!--type-->Number<!--/type-->

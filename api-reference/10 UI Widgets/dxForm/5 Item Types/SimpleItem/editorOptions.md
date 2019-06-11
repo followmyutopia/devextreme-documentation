@@ -1,3 +1,4 @@
+<!--id-->dxFormSimpleItem.editorOptions<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Object<!--/type-->

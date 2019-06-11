@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.export.backgroundColor<!--/id-->
 ===========================================================================
 <!--default-->'#ffffff'<!--/default-->
 <!--type-->String<!--/type-->

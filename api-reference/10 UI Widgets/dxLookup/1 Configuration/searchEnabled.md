@@ -1,3 +1,4 @@
+<!--id-->dxLookup.Options.searchEnabled<!--/id-->
 ===========================================================================
 <!--default-->true, false (Material)<!--/default-->
 <!--type-->Boolean<!--/type-->

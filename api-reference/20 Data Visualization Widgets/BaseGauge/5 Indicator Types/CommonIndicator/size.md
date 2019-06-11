@@ -1,3 +1,4 @@
+<!--id-->CommonIndicator.size<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\..\..\dxCircularGauge\5 Indicator Types\RangeBar\RangeBar.md,..\..\..\dxLinearGauge\5 Indicator Types\RangeBar\RangeBar.md<!--/propertyOf-->
 <!--default-->10<!--/default-->

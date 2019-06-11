@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.SplineAreaSeries.hoverMode<!--/id-->
 ===========================================================================
 <!--default-->'nearestPoint'<!--/default-->
 <!--acceptValues-->'nearestPoint' | 'includePoints' | 'excludePoints' | 'none'<!--/acceptValues-->

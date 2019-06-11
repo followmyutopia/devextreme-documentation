@@ -1,3 +1,4 @@
+<!--id-->ArrayFileProvider<!--/id-->
 ===========================================================================
 <!--module-->ui/file_manager/file_provider/array<!--/module-->
 <!--export-->default<!--/export-->

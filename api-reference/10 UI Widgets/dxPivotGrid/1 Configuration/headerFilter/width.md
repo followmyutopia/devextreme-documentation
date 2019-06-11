@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.headerFilter.width<!--/id-->
 ===========================================================================
 <!--default-->252<!--/default-->
 <!--type-->Number<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxTileView.Options.direction<!--/id-->
 ===========================================================================
 <!--default-->'horizontal'<!--/default-->
 <!--acceptValues-->'horizontal' | 'vertical'<!--/acceptValues-->

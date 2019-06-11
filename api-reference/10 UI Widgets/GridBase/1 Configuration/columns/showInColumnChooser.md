@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.showInColumnChooser<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

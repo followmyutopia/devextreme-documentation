@@ -1,3 +1,4 @@
+<!--id-->dxFilterBuilder.Options.customOperations<!--/id-->
 ===========================================================================
 <!--default-->[]<!--/default-->
 <!--type-->Array<dxFilterBuilderCustomOperation><!--/type-->

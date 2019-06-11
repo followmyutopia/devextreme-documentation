@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.groupPanel.emptyPanelText<!--/id-->
 ===========================================================================
 <!--default-->'Drag a column header here to group by that column'<!--/default-->
 <!--type-->String<!--/type-->

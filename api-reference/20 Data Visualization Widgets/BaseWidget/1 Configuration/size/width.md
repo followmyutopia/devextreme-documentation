@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.size.width<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

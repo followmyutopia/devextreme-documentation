@@ -1,3 +1,4 @@
+<!--id-->dxLookup.Options.pageLoadMode<!--/id-->
 ===========================================================================
 <!--default-->'scrollBottom'<!--/default-->
 <!--acceptValues-->'nextButton' | 'scrollBottom'<!--/acceptValues-->

@@ -1,3 +1,4 @@
+<!--id-->dxFormTabbedItem.tabs.template<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->template<!--/type-->

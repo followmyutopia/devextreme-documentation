@@ -1,3 +1,4 @@
+<!--id-->dxTreeMap.Options.group.hoverStyle.color<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

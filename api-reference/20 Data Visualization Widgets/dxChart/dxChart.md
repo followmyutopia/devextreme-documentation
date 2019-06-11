@@ -1,3 +1,4 @@
+<!--id-->dxChart<!--/id-->
 <!--widgettree-->
 dataSource: [{
     arg: "Monday",

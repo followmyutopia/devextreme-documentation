@@ -1,3 +1,4 @@
+<!--id-->dxTreeList.Options.editing.texts.addRowToNode<!--/id-->
 ===========================================================================
 <!--default-->'Add'<!--/default-->
 <!--type-->String<!--/type-->

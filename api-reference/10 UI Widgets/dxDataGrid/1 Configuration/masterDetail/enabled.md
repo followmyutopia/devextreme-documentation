@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.masterDetail.enabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

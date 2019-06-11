@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.filterRow.operationDescriptions.greaterThan<!--/id-->
 ===========================================================================
 <!--default-->'Greater than'<!--/default-->
 <!--type-->String<!--/type-->

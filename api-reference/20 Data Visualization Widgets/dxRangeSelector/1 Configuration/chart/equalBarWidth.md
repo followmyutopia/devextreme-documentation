@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.chart.equalBarWidth<!--/id-->
 <!--dep-->..\..\..\dxChart\5 Series Types\CommonSeries\ignoreEmptyPoints.md<!--/dep-->
 ===========================================================================
 <!--type-->Boolean<!--/type-->

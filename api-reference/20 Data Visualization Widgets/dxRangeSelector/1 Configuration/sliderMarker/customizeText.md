@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.sliderMarker.customizeText<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(scaleValue)<!--/type-->

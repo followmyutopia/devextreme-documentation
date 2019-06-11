@@ -1,3 +1,4 @@
+<!--id-->dxGallery.Options.indicatorEnabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

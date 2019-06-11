@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.argumentAxis.minorTickInterval<!--/id-->
 ===========================================================================
 <!--inherits-->..\..\..\..\VizTimeInterval\VizTimeInterval.md<!--/inherits-->
 ===========================================================================

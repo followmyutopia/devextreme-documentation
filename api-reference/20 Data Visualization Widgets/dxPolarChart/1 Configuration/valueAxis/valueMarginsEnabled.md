@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.valueAxis.valueMarginsEnabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

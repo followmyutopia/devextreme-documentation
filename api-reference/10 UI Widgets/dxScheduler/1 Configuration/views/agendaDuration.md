@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.views.agendaDuration<!--/id-->
 ===========================================================================
 <!--default-->7<!--/default-->
 <!--type-->Number<!--/type-->

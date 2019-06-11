@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.scale.minorTick.visible<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

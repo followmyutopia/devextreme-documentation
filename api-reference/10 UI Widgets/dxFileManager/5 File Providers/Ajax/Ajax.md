@@ -1,3 +1,4 @@
+<!--id-->AjaxFileProvider<!--/id-->
 ===========================================================================
 <!--module-->ui/file_manager/file_provider/ajax<!--/module-->
 <!--export-->default<!--/export-->

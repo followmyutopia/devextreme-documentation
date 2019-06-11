@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.fieldPanel.showRowFields<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

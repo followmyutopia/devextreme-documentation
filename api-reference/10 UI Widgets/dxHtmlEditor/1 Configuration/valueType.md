@@ -1,3 +1,4 @@
+<!--id-->dxHtmlEditor.Options.valueType<!--/id-->
 ===========================================================================
 <!--default-->'html'<!--/default-->
 <!--acceptValues-->'html' | 'markdown'<!--/acceptValues-->

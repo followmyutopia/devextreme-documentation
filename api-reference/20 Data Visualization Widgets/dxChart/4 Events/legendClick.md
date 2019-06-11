@@ -1,3 +1,4 @@
+<!--id-->dxChart.legendClick<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

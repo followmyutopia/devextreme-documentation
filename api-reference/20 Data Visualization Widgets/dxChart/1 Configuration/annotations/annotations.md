@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.annotations<!--/id-->
 ===========================================================================
 <!--type-->Array<dxChartAnnotationConfig, Object><!--/type-->
 <!--inherits-->..\commonAnnotationSettings\commonAnnotationSettings.md<!--/inherits-->

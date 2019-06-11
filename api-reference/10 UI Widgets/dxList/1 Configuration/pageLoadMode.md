@@ -1,3 +1,4 @@
+<!--id-->dxList.Options.pageLoadMode<!--/id-->
 ===========================================================================
 <!--default-->'scrollBottom', 'nextButton' (desktop)<!--/default-->
 <!--acceptValues-->'nextButton' | 'scrollBottom'<!--/acceptValues-->

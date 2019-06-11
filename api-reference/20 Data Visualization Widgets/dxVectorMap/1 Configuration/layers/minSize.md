@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.layers.minSize<!--/id-->
 ===========================================================================
 <!--default-->20<!--/default-->
 <!--type-->Number<!--/type-->

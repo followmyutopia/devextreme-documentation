@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.RangeAreaSeries.hoverMode<!--/id-->
 ===========================================================================
 <!--default-->'nearestPoint'<!--/default-->
 <!--acceptValues-->'nearestPoint' | 'includePoints' | 'excludePoints' | 'none'<!--/acceptValues-->

@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.label.showForZeroValues<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\..\BarSeries\BarSeries.md,..\..\StackedBarSeries\StackedBarSeries.md,..\..\FullStackedBarSeries\FullStackedBarSeries.md,..\..\RangeBarSeries\RangeBarSeries.md<!--/propertyOf-->
 <!--default-->true<!--/default-->

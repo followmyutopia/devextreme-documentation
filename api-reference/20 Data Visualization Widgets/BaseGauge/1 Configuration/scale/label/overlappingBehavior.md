@@ -1,3 +1,4 @@
+<!--id-->BaseGauge.Options.scale.label.overlappingBehavior<!--/id-->
 ===========================================================================
 <!--default-->'hide'<!--/default-->
 <!--acceptValues-->'hide' | 'none'<!--/acceptValues-->

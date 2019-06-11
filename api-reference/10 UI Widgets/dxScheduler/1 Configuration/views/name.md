@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.views.name<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

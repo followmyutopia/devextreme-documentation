@@ -1,3 +1,4 @@
+<!--id-->dxButtonGroup.Options.selectionMode<!--/id-->
 ===========================================================================
 <!--default-->'single'<!--/default-->
 <!--acceptValues-->'multiple' | 'single'<!--/acceptValues-->

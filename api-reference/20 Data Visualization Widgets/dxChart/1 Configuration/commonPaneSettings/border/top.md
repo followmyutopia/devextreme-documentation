@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonPaneSettings.border.top<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

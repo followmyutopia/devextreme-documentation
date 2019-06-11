@@ -1,3 +1,4 @@
+<!--id-->CustomStore.Options.useDefaultSearch<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Boolean<!--/type-->

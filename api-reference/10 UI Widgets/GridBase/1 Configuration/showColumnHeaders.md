@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.showColumnHeaders<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

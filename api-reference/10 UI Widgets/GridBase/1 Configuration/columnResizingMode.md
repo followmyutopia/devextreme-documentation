@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.columnResizingMode<!--/id-->
 ===========================================================================
 <!--default-->'nextColumn'<!--/default-->
 <!--acceptValues-->'nextColumn' | 'widget'<!--/acceptValues-->

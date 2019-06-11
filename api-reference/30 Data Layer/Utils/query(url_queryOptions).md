@@ -1,3 +1,4 @@
+<!--id-->Utils.query(url, queryOptions)<!--/id-->
 ===================================================================
 <!--module-->data/query<!--/module-->
 <!--export-->default<!--/export-->

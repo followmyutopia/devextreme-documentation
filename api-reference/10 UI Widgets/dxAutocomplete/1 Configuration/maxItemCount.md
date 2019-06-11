@@ -1,3 +1,4 @@
+<!--id-->dxAutocomplete.Options.maxItemCount<!--/id-->
 ===========================================================================
 <!--default-->10<!--/default-->
 <!--type-->Number<!--/type-->

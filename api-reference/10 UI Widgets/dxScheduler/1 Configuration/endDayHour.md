@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.endDayHour<!--/id-->
 ===========================================================================
 <!--default-->24<!--/default-->
 <!--type-->Number<!--/type-->

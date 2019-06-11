@@ -1,3 +1,4 @@
+<!--id-->dxResponsiveBox.Options.cols.screen<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

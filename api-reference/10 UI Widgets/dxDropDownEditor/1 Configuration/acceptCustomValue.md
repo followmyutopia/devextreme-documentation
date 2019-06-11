@@ -1,3 +1,4 @@
+<!--id-->dxDropDownEditor.Options.acceptCustomValue<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

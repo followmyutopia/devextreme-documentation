@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.onInitNewRow<!--/id-->
 <!--EventForAction-->..\4 Events\initNewRow.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

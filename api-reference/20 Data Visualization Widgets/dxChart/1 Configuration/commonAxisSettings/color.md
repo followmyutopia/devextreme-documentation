@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.color<!--/id-->
 ===========================================================================
 <!--default-->'#767676'<!--/default-->
 <!--type-->String<!--/type-->

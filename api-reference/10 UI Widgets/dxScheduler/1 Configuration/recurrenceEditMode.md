@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.recurrenceEditMode<!--/id-->
 ===========================================================================
 <!--default-->'dialog'<!--/default-->
 <!--acceptValues-->'dialog' | 'occurrence' | 'series'<!--/acceptValues-->

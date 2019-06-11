@@ -1,3 +1,4 @@
+<!--id-->dxHtmlEditorVariables.dataSource<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->String | Array<String> | DataSource | DataSource_Options<!--/type-->

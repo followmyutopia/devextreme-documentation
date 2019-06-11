@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.background.borderColor<!--/id-->
 ===========================================================================
 <!--default-->'#cacaca'<!--/default-->
 <!--type-->String<!--/type-->

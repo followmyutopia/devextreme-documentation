@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.legends.source<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->Object<!--/type-->

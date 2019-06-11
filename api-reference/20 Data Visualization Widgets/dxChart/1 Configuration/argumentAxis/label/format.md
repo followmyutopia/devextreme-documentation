@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.argumentAxis.label.format<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->format<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.editing.texts.validationCancelChanges<!--/id-->
 ===========================================================================
 <!--default-->'Cancel changes'<!--/default-->
 <!--type-->String<!--/type-->

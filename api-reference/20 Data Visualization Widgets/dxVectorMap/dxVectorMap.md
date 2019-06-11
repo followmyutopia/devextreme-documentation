@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap<!--/id-->
 <!--widgettree-->
 layers: [{
     type: 'area',

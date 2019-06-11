@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.zoomingMode<!--/id-->
 <!--dep-->zoomAndPan\zoomAndPan.md<!--/dep-->
 ===========================================================================
 <!--default-->'none'<!--/default-->

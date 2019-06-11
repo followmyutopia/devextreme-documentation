@@ -1,3 +1,4 @@
+<!--id-->dxTreeMap.Options.group.hoverEnabled<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Boolean<!--/type-->

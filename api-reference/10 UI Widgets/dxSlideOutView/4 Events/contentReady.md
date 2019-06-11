@@ -1,3 +1,4 @@
+<!--id-->dxSlideOutView.contentReady<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--type-->eventType<!--/type-->

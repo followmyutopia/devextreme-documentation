@@ -1,3 +1,4 @@
+<!--id-->HierarchicalCollectionWidget.Options.disabledExpr<!--/id-->
 ===========================================================================
 <!--default-->'disabled'<!--/default-->
 <!--type-->String | function()<!--/type-->

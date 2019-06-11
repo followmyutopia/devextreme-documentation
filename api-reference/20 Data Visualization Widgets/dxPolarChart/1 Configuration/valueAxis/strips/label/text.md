@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.valueAxis.strips.label.text<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

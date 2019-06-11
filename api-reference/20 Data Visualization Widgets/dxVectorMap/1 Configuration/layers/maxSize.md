@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.layers.maxSize<!--/id-->
 ===========================================================================
 <!--default-->50<!--/default-->
 <!--type-->Number<!--/type-->

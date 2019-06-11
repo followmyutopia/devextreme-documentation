@@ -1,3 +1,4 @@
+<!--id-->dxList.Options.onGroupRendered<!--/id-->
 <!--EventForAction-->..\4 Events\groupRendered.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

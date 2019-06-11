@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.onFieldsPrepared<!--/id-->
 <!--EventForAction-->..\4 Events\fieldsPrepared.md<!--/EventForAction-->
 ===========================================================================
 <!--type-->function(fields)<!--/type-->

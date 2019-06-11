@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.title.placeholderSize<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

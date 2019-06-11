@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.views.groups<!--/id-->
 ===========================================================================
 <!--default-->[]<!--/default-->
 <!--type-->Array<String><!--/type-->

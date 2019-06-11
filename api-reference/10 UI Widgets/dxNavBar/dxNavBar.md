@@ -1,3 +1,4 @@
+<!--id-->dxNavBar<!--/id-->
 <!--widgettree-->
 dataSource: [{
         text: "Contacts",

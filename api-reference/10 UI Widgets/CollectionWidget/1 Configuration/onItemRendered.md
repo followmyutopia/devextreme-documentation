@@ -1,3 +1,4 @@
+<!--id-->CollectionWidget.Options.onItemRendered<!--/id-->
 <!--EventForAction-->..\4 Events\itemRendered.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

@@ -1,3 +1,4 @@
+<!--id-->dxDataGridColumn.groupIndex<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

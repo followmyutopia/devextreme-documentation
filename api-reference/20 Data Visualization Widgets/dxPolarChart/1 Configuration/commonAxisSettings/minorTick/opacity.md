@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.commonAxisSettings.minorTick.opacity<!--/id-->
 ===========================================================================
 <!--default-->0.3<!--/default-->
 <!--type-->Number<!--/type-->

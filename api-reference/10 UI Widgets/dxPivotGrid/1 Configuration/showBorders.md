@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.showBorders<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.fields.headerFilter.allowSearch<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.barOverlapGroup<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\BarSeries\BarSeries.md,..\RangeBarSeries\RangeBarSeries.md<!--/propertyOf-->
 <!--default-->undefined<!--/default-->

@@ -1,3 +1,4 @@
+<!--id-->dxDropDownMenu.Options.buttonIcon<!--/id-->
 ===========================================================================
 <!--default-->'overflow'<!--/default-->
 <!--type-->String<!--/type-->

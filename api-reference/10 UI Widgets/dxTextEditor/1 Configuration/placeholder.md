@@ -1,3 +1,4 @@
+<!--id-->dxTextEditor.Options.placeholder<!--/id-->
 ===========================================================================
 <!--default-->''<!--/default-->
 <!--type-->String<!--/type-->

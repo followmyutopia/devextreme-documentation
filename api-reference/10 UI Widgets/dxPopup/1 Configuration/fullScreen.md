@@ -1,3 +1,4 @@
+<!--id-->dxPopup.Options.fullScreen<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

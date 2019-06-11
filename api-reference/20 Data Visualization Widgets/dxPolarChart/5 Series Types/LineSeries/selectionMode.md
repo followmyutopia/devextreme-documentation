@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.linepolarseries.selectionMode<!--/id-->
 ===========================================================================
 <!--default-->'includePoints'<!--/default-->
 <!--acceptValues-->'includePoints' | 'excludePoints' | 'none'<!--/acceptValues-->

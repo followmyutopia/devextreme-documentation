@@ -1,3 +1,4 @@
+<!--id-->ArrayStore<!--/id-->
 ===========================================================================
 <!--module-->data/array_store<!--/module-->
 <!--export-->default<!--/export-->

@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.editing.texts.addRow<!--/id-->
 ===========================================================================
 <!--default-->'Add a row'<!--/default-->
 <!--type-->String<!--/type-->

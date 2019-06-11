@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.editing.texts.deleteRow<!--/id-->
 ===========================================================================
 <!--default-->'Delete'<!--/default-->
 <!--type-->String<!--/type-->

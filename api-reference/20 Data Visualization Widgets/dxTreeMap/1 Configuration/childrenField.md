@@ -1,3 +1,4 @@
+<!--id-->dxTreeMap.Options.childrenField<!--/id-->
 ===========================================================================
 <!--default-->'items'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.zoomAndPan.panKey<!--/id-->
 ===========================================================================
 <!--default-->'shift'<!--/default-->
 <!--acceptValues-->'alt' | 'ctrl' | 'meta' | 'shift'<!--/acceptValues-->

@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.fields.allowSorting<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

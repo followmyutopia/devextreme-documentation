@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.allowDecimals<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Boolean<!--/type-->

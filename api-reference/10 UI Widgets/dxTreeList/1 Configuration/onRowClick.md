@@ -1,3 +1,4 @@
+<!--id-->dxTreeList.Options.onRowClick<!--/id-->
 <!--EventForAction-->..\4 Events\rowClick.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

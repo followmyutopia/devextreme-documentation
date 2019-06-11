@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.containerBackgroundColor<!--/id-->
 ===========================================================================
 <!--default-->'#FFFFFF'<!--/default-->
 <!--type-->String<!--/type-->

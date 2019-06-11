@@ -1,3 +1,4 @@
+<!--id-->localization.locale(locale)<!--/id-->
 ===================================================================
 <!--module-->localization<!--/module-->
 <!--export-->locale<!--/export-->

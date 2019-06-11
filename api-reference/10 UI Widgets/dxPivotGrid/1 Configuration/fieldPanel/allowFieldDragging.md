@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.fieldPanel.allowFieldDragging<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.constantLineStyle.paddingLeftRight<!--/id-->
 ===========================================================================
 <!--default-->10<!--/default-->
 <!--type-->Number<!--/type-->

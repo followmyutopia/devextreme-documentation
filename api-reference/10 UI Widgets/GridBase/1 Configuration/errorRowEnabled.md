@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.errorRowEnabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

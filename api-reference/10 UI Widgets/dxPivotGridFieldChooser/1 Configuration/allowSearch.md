@@ -1,3 +1,4 @@
+<!--id-->dxPivotGridFieldChooser.Options.allowSearch<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.views.groupOrientation<!--/id-->
 ===========================================================================
 <!--acceptValues-->'horizontal' | 'vertical'<!--/acceptValues-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxLoadIndicator.Options.indicatorSrc<!--/id-->
 ===========================================================================
 <!--default-->''<!--/default-->
 <!--type-->String<!--/type-->

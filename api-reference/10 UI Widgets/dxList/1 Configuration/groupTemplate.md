@@ -1,3 +1,4 @@
+<!--id-->dxList.Options.groupTemplate<!--/id-->
 ===========================================================================
 <!--default-->'group'<!--/default-->
 <!--type-->template<!--/type-->

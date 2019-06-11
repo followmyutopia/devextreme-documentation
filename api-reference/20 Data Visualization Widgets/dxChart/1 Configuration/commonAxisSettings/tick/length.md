@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.tick.length<!--/id-->
 ===========================================================================
 <!--default-->7<!--/default-->
 <!--type-->Number<!--/type-->

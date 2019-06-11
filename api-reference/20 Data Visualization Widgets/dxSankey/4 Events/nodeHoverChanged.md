@@ -1,3 +1,4 @@
+<!--id-->dxSankey.nodeHoverChanged<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

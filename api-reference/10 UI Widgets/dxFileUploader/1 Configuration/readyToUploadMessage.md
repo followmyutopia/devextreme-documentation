@@ -1,3 +1,4 @@
+<!--id-->dxFileUploader.Options.readyToUploadMessage<!--/id-->
 ===========================================================================
 <!--default-->'Ready to upload'<!--/default-->
 <!--type-->String<!--/type-->

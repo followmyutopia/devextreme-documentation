@@ -1,3 +1,4 @@
+<!--id-->dxDrawer.Options.contentTemplate<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->'content'<!--/default-->

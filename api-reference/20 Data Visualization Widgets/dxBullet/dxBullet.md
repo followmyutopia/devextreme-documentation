@@ -1,3 +1,4 @@
+<!--id-->dxBullet<!--/id-->
 <!--widgettree-->
 target: 30,
 value: 20

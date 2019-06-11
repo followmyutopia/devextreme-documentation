@@ -1,3 +1,4 @@
+<!--id-->BaseChart.Options.onPointSelectionChanged<!--/id-->
 <!--EventForAction-->..\4 Events\pointSelectionChanged.md<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->

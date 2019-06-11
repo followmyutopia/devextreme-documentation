@@ -1,3 +1,4 @@
+<!--id-->UI Events.dxdragend<!--/id-->
 ===========================================================================
 <!--module-->events/drag<!--/module-->
 <!--type-->eventType<!--/type-->

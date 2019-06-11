@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.scale.breakStyle.color<!--/id-->
 ===========================================================================
 <!--default-->'#ababab'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.selectionMode<!--/id-->
 ===========================================================================
 <!--acceptValues-->'allArgumentPoints' | 'allSeriesPoints' | 'excludePoints' | 'includePoints' | 'none' | 'onlyPoint'<!--/acceptValues-->
 <!--type-->String<!--/type-->

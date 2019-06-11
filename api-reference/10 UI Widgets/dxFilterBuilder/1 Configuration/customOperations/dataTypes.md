@@ -1,3 +1,4 @@
+<!--id-->dxFilterBuilderCustomOperation.dataTypes<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'string' | 'number' | 'date' | 'boolean' | 'object' | 'datetime'<!--/acceptValues-->

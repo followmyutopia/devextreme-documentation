@@ -1,3 +1,4 @@
+<!--id-->dxChartCommonAnnotationConfig.width<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

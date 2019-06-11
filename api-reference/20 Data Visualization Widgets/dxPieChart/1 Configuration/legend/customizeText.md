@@ -1,3 +1,4 @@
+<!--id-->dxPieChart.Options.legend.customizeText<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(pointInfo)<!--/type-->

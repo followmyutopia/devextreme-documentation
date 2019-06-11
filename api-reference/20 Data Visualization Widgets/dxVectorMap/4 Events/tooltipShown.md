@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.tooltipShown<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

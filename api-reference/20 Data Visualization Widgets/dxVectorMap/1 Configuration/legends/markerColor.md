@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.legends.markerColor<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

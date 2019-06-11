@@ -1,3 +1,4 @@
+<!--id-->dxFilterBuilder.Options.filterOperationDescriptions.lessThan<!--/id-->
 ===========================================================================
 <!--default-->'Less than'<!--/default-->
 <!--type-->String<!--/type-->

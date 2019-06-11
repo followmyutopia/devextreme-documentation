@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.axis<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->undefined<!--/default-->

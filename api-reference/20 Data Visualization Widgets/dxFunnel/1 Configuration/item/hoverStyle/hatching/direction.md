@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.Options.item.hoverStyle.hatching.direction<!--/id-->
 ===========================================================================
 <!--default-->'right'<!--/default-->
 <!--acceptValues-->'left' | 'none' | 'right'<!--/acceptValues-->

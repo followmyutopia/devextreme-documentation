@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.remoteOperations.groupPaging<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

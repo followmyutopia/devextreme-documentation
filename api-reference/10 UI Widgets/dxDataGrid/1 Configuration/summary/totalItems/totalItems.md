@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.summary.totalItems<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Array<Object><!--/type-->

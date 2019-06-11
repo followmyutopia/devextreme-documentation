@@ -1,3 +1,4 @@
+<!--id-->dxChartCommonAnnotationConfig.border.visible<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

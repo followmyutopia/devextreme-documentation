@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.columnFixing.enabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

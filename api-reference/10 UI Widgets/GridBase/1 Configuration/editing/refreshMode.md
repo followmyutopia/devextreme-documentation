@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.editing.refreshMode<!--/id-->
 ===========================================================================
 <!--default-->'full'<!--/default-->
 <!--acceptValues-->'full' | 'reshape' | 'repaint'<!--/acceptValues-->

@@ -1,3 +1,4 @@
+<!--id-->dxTreeMap.selectionChanged<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

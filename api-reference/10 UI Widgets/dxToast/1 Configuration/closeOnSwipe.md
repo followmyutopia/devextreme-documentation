@@ -1,3 +1,4 @@
+<!--id-->dxToast.Options.closeOnSwipe<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

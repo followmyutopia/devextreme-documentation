@@ -1,3 +1,4 @@
+<!--id-->dxDiagram.Options.nodes.textExpr<!--/id-->
 ===========================================================================
 <!--default-->'text'<!--/default-->
 <!--type-->String | function(data)<!--/type-->

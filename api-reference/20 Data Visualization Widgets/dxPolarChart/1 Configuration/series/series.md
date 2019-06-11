@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.series<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--hideDefaults-->true<!--/hideDefaults-->

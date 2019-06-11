@@ -1,3 +1,4 @@
+<!--id-->dxResponsiveBox<!--/id-->
 ===========================================================================
 <!--module-->ui/responsive_box<!--/module-->
 <!--export-->default<!--/export-->

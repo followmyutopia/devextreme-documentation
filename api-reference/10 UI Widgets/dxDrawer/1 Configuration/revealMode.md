@@ -1,3 +1,4 @@
+<!--id-->dxDrawer.Options.revealMode<!--/id-->
 ===========================================================================
 <!--default-->'slide'<!--/default-->
 <!--acceptValues-->'slide' | 'expand'<!--/acceptValues-->

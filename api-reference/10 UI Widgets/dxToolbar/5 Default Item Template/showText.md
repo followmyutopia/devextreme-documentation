@@ -1,3 +1,4 @@
+<!--id-->dxToolbarItem.showText<!--/id-->
 ===========================================================================
 <!--default-->'always'<!--/default-->
 <!--acceptValues-->'always' | 'inMenu'<!--/acceptValues-->

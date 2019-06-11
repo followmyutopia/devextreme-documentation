@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.argumentAxis.strips.color<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

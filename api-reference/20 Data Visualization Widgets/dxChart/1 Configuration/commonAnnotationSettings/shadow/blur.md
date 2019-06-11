@@ -1,3 +1,4 @@
+<!--id-->dxChartCommonAnnotationConfig.shadow.blur<!--/id-->
 ===========================================================================
 <!--default-->4<!--/default-->
 <!--type-->Number<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxHtmlEditor.Options.toolbar<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->dxHtmlEditorToolbar<!--/type-->

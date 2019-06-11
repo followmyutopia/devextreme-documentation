@@ -1,3 +1,4 @@
+<!--id-->dxDropDownEditor.Options.dropDownButtonTemplate<!--/id-->
 ===========================================================================
 <!--default-->'dropDownButton'<!--/default-->
 <!--type-->template<!--/type-->

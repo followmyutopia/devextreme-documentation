@@ -1,3 +1,4 @@
+<!--id-->dxLookup.Options.popupWidth<!--/id-->
 ===========================================================================
 <!--default-->function() {return $(window).width() * 0.8 }, function() { return Math.min($(window).width(), $(window).height()) * 0.4; } (iPad)<!--/default-->
 <!--type-->Number | String | function()<!--/type-->

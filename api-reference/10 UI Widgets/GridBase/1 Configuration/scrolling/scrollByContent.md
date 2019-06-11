@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.scrolling.scrollByContent<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

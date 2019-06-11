@@ -1,3 +1,4 @@
+<!--id-->dxTreeMap.Options.tile.selectionStyle.border.color<!--/id-->
 ===========================================================================
 <!--default-->'#232323'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.FullStackedSplineAreaSeries<!--/id-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->Object<!--/type-->

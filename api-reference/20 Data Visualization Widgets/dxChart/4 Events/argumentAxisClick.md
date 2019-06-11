@@ -1,3 +1,4 @@
+<!--id-->dxChart.argumentAxisClick<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

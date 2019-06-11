@@ -1,3 +1,4 @@
+<!--id-->UI Events.dxdblclick<!--/id-->
 ===========================================================================
 <!--module-->events/dblclick<!--/module-->
 <!--type-->eventType<!--/type-->

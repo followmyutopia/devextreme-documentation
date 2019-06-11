@@ -1,3 +1,4 @@
+<!--id-->positionConfig.at.x<!--/id-->
 ===========================================================================
 <!--acceptValues-->'center' | 'left' | 'right'<!--/acceptValues-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.RangeBarSeries.hoverMode<!--/id-->
 ===========================================================================
 <!--default-->'onlyPoint'<!--/default-->
 <!--acceptValues-->'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'none'<!--/acceptValues-->

@@ -1,3 +1,4 @@
+<!--id-->dxChartCommonAnnotationConfig.x<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

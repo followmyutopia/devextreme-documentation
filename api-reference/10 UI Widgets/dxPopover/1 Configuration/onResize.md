@@ -1,3 +1,4 @@
+<!--id-->dxPopover.Options.onResize<!--/id-->
 <!--merge--><!--/merge-->
 <!--hidden--><!--/hidden-->
 <!--default-->null<!--/default-->

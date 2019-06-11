@@ -1,3 +1,4 @@
+<!--id-->localization.loadMessages(messages)<!--/id-->
 ===================================================================
 <!--module-->localization<!--/module-->
 <!--export-->loadMessages<!--/export-->

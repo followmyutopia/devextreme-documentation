@@ -1,3 +1,4 @@
+<!--id-->dxLinearGauge.Options.scale.horizontalOrientation<!--/id-->
 ===========================================================================
 <!--default-->'right'<!--/default-->
 <!--acceptValues-->'center' | 'left' | 'right'<!--/acceptValues-->

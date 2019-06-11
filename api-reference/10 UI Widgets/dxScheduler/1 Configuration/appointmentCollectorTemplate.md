@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.appointmentCollectorTemplate<!--/id-->
 ===========================================================================
 <!--default-->'appointmentCollector'<!--/default-->
 <!--type-->template<!--/type-->

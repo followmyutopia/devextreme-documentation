@@ -1,3 +1,4 @@
+<!--id-->dxTreeMap.Options.layoutDirection<!--/id-->
 ===========================================================================
 <!--default-->'leftTopRightBottom'<!--/default-->
 <!--acceptValues-->'leftBottomRightTop' | 'leftTopRightBottom' | 'rightBottomLeftTop' | 'rightTopLeftBottom'<!--/acceptValues-->

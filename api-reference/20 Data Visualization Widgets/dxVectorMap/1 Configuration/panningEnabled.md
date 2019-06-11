@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.panningEnabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

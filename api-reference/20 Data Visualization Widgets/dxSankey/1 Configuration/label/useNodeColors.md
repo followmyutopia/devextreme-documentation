@@ -1,3 +1,4 @@
+<!--id-->dxSankey.Options.label.useNodeColors<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

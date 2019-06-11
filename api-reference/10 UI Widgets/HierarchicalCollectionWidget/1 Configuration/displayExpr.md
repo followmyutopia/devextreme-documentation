@@ -1,3 +1,4 @@
+<!--id-->HierarchicalCollectionWidget.Options.displayExpr<!--/id-->
 ===========================================================================
 <!--default-->'text'<!--/default-->
 <!--type-->String | function(item)<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.hoverStyle.hatching.step<!--/id-->
 ===========================================================================
 <!--default-->6<!--/default-->
 <!--type-->Number<!--/type-->

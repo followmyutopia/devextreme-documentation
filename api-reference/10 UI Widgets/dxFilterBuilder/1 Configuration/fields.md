@@ -1,3 +1,4 @@
+<!--id-->dxFilterBuilder.Options.fields<!--/id-->
 ===========================================================================
 <!--default-->[]<!--/default-->
 <!--type-->Array<dxFilterBuilderField><!--/type-->

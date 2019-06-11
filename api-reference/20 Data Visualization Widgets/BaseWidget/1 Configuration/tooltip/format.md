@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.tooltip.format<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->format<!--/type-->

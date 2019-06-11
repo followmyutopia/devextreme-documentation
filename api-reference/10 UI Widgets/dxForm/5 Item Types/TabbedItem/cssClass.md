@@ -1,3 +1,4 @@
+<!--id-->dxFormTabbedItem.cssClass<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

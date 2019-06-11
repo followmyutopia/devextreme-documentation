@@ -1,3 +1,4 @@
+<!--id-->dxFileUploader.Options.uploadMethod<!--/id-->
 ===========================================================================
 <!--default-->'POST'<!--/default-->
 <!--acceptValues-->'POST' | 'PUT'<!--/acceptValues-->

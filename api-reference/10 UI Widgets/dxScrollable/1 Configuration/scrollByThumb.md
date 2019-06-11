@@ -1,3 +1,4 @@
+<!--id-->dxScrollable.Options.scrollByThumb<!--/id-->
 ===========================================================================
 <!--default-->false, true (desktop)<!--/default-->
 <!--type-->Boolean<!--/type-->

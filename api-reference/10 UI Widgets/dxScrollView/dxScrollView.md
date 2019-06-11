@@ -1,3 +1,4 @@
+<!--id-->dxScrollView<!--/id-->
 ===========================================================================
 <!--module-->ui/scroll_view<!--/module-->
 <!--export-->default<!--/export-->

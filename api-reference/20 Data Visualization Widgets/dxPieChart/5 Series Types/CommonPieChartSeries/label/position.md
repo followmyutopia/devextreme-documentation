@@ -1,3 +1,4 @@
+<!--id-->dxPieChartSeriesTypes.CommonPieChartSeries.label.position<!--/id-->
 ===========================================================================
 <!--default-->'outside'<!--/default-->
 <!--acceptValues-->'columns' | 'inside' | 'outside'<!--/acceptValues-->

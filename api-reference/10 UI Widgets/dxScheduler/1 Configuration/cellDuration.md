@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.cellDuration<!--/id-->
 ===========================================================================
 <!--default-->30<!--/default-->
 <!--type-->Number<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxMap.Options.onRouteRemoved<!--/id-->
 <!--EventForAction-->..\4 Events\routeRemoved.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

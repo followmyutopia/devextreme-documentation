@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.valueAxis.axisDivisionFactor<!--/id-->
 ===========================================================================
 <!--default-->30<!--/default-->
 <!--type-->Number<!--/type-->

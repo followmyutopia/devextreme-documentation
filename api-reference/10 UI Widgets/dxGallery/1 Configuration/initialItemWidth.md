@@ -1,3 +1,4 @@
+<!--id-->dxGallery.Options.initialItemWidth<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

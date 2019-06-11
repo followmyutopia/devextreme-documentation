@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.onCenterChanged<!--/id-->
 <!--EventForAction-->..\4 Events\centerChanged.md<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->

@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.valueAxis.axisDivisionFactor<!--/id-->
 ===========================================================================
 <!--default-->40<!--/default-->
 <!--type-->Number<!--/type-->

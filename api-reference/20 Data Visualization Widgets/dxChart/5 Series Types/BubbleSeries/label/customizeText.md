@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.BubbleSeries.label.customizeText<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(pointInfo)<!--/type-->

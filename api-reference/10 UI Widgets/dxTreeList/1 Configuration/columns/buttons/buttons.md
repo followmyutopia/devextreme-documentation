@@ -1,3 +1,4 @@
+<!--id-->dxTreeListColumn.buttons<!--/id-->
 ===========================================================================
 <!--acceptValues-->'add' | 'cancel' | 'delete' | 'edit' | 'save' | 'undelete'<!--/acceptValues-->
 <!--type-->Array<String, dxTreeListColumnButton><!--/type-->

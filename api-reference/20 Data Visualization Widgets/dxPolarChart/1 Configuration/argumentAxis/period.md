@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.argumentAxis.period<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

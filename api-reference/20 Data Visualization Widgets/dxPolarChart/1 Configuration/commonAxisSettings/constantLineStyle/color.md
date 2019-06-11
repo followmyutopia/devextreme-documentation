@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.commonAxisSettings.constantLineStyle.color<!--/id-->
 ===========================================================================
 <!--default-->'#000000'<!--/default-->
 <!--type-->String<!--/type-->

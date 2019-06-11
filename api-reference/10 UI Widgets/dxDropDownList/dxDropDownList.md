@@ -1,3 +1,4 @@
+<!--id-->dxDropDownList<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--module-->ui/drop_down_editor/ui.drop_down_list<!--/module-->

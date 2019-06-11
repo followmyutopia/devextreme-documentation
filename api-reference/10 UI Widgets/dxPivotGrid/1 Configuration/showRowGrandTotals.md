@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.showRowGrandTotals<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

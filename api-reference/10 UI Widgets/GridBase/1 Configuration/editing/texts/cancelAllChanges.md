@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.editing.texts.cancelAllChanges<!--/id-->
 ===========================================================================
 <!--default-->'Discard changes'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxTabPanel.Options.scrollByContent<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

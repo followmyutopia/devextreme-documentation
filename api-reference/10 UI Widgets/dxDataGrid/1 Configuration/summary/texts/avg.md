@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.summary.texts.avg<!--/id-->
 ===========================================================================
 <!--default-->'Avg={0}'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxValidator.Options.onValidated<!--/id-->
 <!--EventForAction-->..\4 Events\validated.md<!--/EventForAction-->
 ===========================================================================
 <!--type-->function(validatedInfo)<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.tick.shift<!--/id-->
 ===========================================================================
 <!--default-->3<!--/default-->
 <!--type-->Number<!--/type-->

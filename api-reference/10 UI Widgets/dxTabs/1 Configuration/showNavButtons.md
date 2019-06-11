@@ -1,3 +1,4 @@
+<!--id-->dxTabs.Options.showNavButtons<!--/id-->
 ===========================================================================
 <!--default-->true, false (mobile_devices)<!--/default-->
 <!--type-->Boolean<!--/type-->

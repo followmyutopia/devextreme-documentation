@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.scrollBar.position<!--/id-->
 ===========================================================================
 <!--default-->'top'<!--/default-->
 <!--acceptValues-->'bottom' | 'left' | 'right' | 'top'<!--/acceptValues-->

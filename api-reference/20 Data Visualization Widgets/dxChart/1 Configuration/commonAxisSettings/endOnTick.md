@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.endOnTick<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Boolean<!--/type-->

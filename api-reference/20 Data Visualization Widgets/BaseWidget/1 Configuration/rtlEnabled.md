@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.rtlEnabled<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->false<!--/default-->

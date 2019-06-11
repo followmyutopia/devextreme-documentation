@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.label.position<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\..\BarSeries\BarSeries.md,..\..\StackedBarSeries\StackedBarSeries.md,..\..\FullStackedBarSeries\FullStackedBarSeries.md,..\..\RangeBarSeries\RangeBarSeries.md,..\..\RangeAreaSeries\RangeAreaSeries.md,..\..\BubbleSeries\BubbleSeries.md<!--/propertyOf-->
 <!--default-->'outside'<!--/default-->

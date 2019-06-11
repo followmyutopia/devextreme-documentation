@@ -1,3 +1,4 @@
+<!--id-->dxPieChart.Options.seriesTemplate.nameField<!--/id-->
 ===========================================================================
 <!--default-->'series'<!--/default-->
 <!--type-->String<!--/type-->

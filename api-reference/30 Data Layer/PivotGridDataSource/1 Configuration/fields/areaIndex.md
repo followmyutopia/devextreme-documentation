@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.fields.areaIndex<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

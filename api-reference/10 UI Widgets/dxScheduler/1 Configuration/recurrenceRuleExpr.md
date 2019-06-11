@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.recurrenceRuleExpr<!--/id-->
 ===========================================================================
 <!--default-->'recurrenceRule'<!--/default-->
 <!--type-->String<!--/type-->

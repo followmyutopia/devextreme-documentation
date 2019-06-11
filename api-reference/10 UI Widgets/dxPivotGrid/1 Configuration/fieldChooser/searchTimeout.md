@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.fieldChooser.searchTimeout<!--/id-->
 ===========================================================================
 <!--default-->searchTimeout<!--/default-->
 <!--type-->Number<!--/type-->

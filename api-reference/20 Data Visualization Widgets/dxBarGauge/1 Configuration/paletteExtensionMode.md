@@ -1,3 +1,4 @@
+<!--id-->dxBarGauge.Options.paletteExtensionMode<!--/id-->
 ===========================================================================
 <!--default-->'blend'<!--/default-->
 <!--acceptValues-->'alternate' | 'blend' | 'extrapolate'<!--/acceptValues-->

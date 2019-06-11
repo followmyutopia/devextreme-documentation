@@ -1,3 +1,4 @@
+<!--id-->dxFormSimpleItem.label.location<!--/id-->
 ===========================================================================
 <!--default-->'left'<!--/default-->
 <!--acceptValues-->'left' | 'right' | 'top'<!--/acceptValues-->

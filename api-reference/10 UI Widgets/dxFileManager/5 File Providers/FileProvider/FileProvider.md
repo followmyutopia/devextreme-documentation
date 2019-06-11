@@ -1,3 +1,4 @@
+<!--id-->FileProvider<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--module-->ui/file_manager/file_provider/file_provider<!--/module-->

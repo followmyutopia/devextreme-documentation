@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.zoomAndPan.dragBoxStyle.opacity<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

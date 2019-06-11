@@ -1,3 +1,4 @@
+<!--id-->VizRange.endValue<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number | Date | String<!--/type-->

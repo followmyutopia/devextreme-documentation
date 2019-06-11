@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.twoWayBindingEnabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

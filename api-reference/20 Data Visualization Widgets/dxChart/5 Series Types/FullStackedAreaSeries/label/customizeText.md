@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.FullStackedAreaSeries.label.customizeText<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(pointInfo)<!--/type-->

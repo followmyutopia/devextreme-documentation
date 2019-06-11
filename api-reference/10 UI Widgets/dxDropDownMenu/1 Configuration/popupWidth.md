@@ -1,3 +1,4 @@
+<!--id-->dxDropDownMenu.Options.popupWidth<!--/id-->
 ===========================================================================
 <!--default-->auto<!--/default-->
 <!--type-->Number | String | function()<!--/type-->

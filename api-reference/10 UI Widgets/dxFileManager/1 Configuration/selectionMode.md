@@ -1,3 +1,4 @@
+<!--id-->dxFileManager.Options.selectionMode<!--/id-->
 ===========================================================================
 <!--default-->'multiple'<!--/default-->
 <!--acceptValues-->'multiple' | 'single'<!--/acceptValues-->

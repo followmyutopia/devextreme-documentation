@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.dataPrepareSettings.sortingMethod<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean | function(a, b)<!--/type-->

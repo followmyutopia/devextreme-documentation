@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.loadingIndicator.backgroundColor<!--/id-->
 ===========================================================================
 <!--default-->'#FFFFFF'<!--/default-->
 <!--type-->String<!--/type-->

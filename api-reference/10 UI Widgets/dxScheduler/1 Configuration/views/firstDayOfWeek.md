@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.views.firstDayOfWeek<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->0 | 1 | 2 | 3 | 4 | 5 | 6<!--/acceptValues-->

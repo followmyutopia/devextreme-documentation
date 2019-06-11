@@ -1,3 +1,4 @@
+<!--id-->dxPopover.Options.animation<!--/id-->
 ===========================================================================
 <!--default-->{ show: { type: 'fade', from: 0, to: 1 }, hide: { type: 'fade', to: 0 } }<!--/default-->
 <!--type-->Object<!--/type-->

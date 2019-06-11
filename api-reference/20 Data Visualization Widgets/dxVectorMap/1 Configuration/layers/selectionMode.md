@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.layers.selectionMode<!--/id-->
 ===========================================================================
 <!--default-->'single'<!--/default-->
 <!--acceptValues-->'multiple' | 'none' | 'single'<!--/acceptValues-->

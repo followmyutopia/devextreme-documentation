@@ -1,3 +1,4 @@
+<!--id-->dxDataGridColumnButton.name<!--/id-->
 ===========================================================================
 <!--acceptValues-->'cancel' | 'delete' | 'edit' | 'save' | 'undelete'<!--/acceptValues-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->linearCircle<!--/id-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->Object<!--/type-->

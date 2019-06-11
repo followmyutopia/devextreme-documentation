@@ -1,3 +1,4 @@
+<!--id-->dxFileUploader<!--/id-->
 <!--widgettree-->
 
 <!--/widgettree-->

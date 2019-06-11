@@ -1,3 +1,4 @@
+<!--id-->CustomStore<!--/id-->
 ===========================================================================
 <!--module-->data/custom_store<!--/module-->
 <!--export-->default<!--/export-->

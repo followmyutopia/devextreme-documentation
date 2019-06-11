@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.filterRow.resetOperationText<!--/id-->
 ===========================================================================
 <!--default-->'Reset'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxHtmlEditorVariables.escapeChar<!--/id-->
 ===========================================================================
 <!--default-->''<!--/default-->
 <!--type-->String | Array<String><!--/type-->

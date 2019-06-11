@@ -1,3 +1,4 @@
+<!--id-->dxTextEditor.Options.buttons<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'clear'<!--/acceptValues-->

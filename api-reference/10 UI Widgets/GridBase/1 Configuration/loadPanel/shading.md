@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.loadPanel.shading<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

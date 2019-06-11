@@ -1,3 +1,4 @@
+<!--id-->dxTagBox.Options.onSelectionChanged<!--/id-->
 <!--EventForAction-->..\4 Events\selectionChanged.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

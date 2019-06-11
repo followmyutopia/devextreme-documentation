@@ -1,3 +1,4 @@
+<!--id-->dxButton.Options.type<!--/id-->
 ===========================================================================
 <!--default-->'normal'<!--/default-->
 <!--acceptValues-->'back' | 'danger' | 'default' | 'normal' | 'success'<!--/acceptValues-->

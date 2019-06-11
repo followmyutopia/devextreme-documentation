@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.remoteOperations.summary<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

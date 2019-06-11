@@ -1,3 +1,4 @@
+<!--id-->CompareRule.message<!--/id-->
 ===========================================================================
 <!--default-->'Values do not match'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxMultiView.Options.animationEnabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

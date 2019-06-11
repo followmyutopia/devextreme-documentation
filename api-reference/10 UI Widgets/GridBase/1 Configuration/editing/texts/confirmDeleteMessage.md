@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.editing.texts.confirmDeleteMessage<!--/id-->
 ===========================================================================
 <!--default-->'Are you sure you want to delete this record?'<!--/default-->
 <!--type-->String<!--/type-->

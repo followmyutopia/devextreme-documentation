@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.BarSeries.aggregation.method<!--/id-->
 ===========================================================================
 <!--default-->'sum'<!--/default-->
 <!--acceptValues-->'avg' | 'count' | 'max' | 'min' | 'sum' | 'custom'<!--/acceptValues-->

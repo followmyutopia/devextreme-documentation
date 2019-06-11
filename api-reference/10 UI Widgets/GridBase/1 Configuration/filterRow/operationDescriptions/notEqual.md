@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.filterRow.operationDescriptions.notEqual<!--/id-->
 ===========================================================================
 <!--default-->'Does not equal'<!--/default-->
 <!--type-->String<!--/type-->

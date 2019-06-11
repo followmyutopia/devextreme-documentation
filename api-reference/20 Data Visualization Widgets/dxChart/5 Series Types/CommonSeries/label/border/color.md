@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.label.border.color<!--/id-->
 ===========================================================================
 <!--default-->'#d3d3d3'<!--/default-->
 <!--type-->String<!--/type-->

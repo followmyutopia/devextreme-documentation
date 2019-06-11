@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.grouping.autoExpandAll<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

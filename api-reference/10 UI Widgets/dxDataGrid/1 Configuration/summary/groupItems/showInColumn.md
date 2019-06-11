@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.summary.groupItems.showInColumn<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

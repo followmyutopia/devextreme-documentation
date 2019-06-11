@@ -1,3 +1,4 @@
+<!--id-->dxLookup.Options.fullScreen<!--/id-->
 ===========================================================================
 <!--default-->false, true (iPhone)<!--/default-->
 <!--type-->Boolean<!--/type-->

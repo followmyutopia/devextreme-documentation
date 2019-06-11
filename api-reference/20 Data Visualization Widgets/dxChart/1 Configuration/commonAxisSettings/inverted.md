@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.inverted<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

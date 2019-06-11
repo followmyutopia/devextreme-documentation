@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.LineSeries.selectionMode<!--/id-->
 ===========================================================================
 <!--default-->'includePoints'<!--/default-->
 <!--acceptValues-->'includePoints' | 'excludePoints' | 'none'<!--/acceptValues-->

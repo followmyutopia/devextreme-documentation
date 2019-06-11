@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.cssClass<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.masterDetail.autoExpandAll<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

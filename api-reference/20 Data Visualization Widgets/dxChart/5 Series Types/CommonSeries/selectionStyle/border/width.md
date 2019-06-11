@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.selectionStyle.border.width<!--/id-->
 ===========================================================================
 <!--default-->3<!--/default-->
 <!--type-->Number<!--/type-->

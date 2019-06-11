@@ -1,3 +1,4 @@
+<!--id-->dxSparkline.Options.minValue<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

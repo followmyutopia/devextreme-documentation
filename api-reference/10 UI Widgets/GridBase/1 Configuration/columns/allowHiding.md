@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.allowHiding<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

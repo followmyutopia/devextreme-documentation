@@ -1,3 +1,4 @@
+<!--id-->dxBullet.Options.endScaleValue<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->

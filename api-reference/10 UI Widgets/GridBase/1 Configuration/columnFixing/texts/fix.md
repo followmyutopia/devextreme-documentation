@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.columnFixing.texts.fix<!--/id-->
 ===========================================================================
 <!--default-->'Fix'<!--/default-->
 <!--type-->String<!--/type-->

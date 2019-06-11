@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.chart.seriesTemplate.nameField<!--/id-->
 ===========================================================================
 <!--default-->'series'<!--/default-->
 <!--type-->String<!--/type-->

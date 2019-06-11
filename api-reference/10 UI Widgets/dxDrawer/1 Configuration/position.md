@@ -1,3 +1,4 @@
+<!--id-->dxDrawer.Options.position<!--/id-->
 ===========================================================================
 <!--default-->'left'<!--/default-->
 <!--acceptValues-->'left' | 'right' | 'top' | 'bottom' | 'before' | 'after'<!--/acceptValues-->

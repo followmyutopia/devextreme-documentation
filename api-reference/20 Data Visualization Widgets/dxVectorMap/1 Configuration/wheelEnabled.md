@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.wheelEnabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

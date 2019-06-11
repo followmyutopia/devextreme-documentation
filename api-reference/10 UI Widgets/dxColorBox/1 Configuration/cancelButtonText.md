@@ -1,3 +1,4 @@
+<!--id-->dxColorBox.Options.cancelButtonText<!--/id-->
 ===========================================================================
 <!--default-->'Cancel'<!--/default-->
 <!--type-->String<!--/type-->

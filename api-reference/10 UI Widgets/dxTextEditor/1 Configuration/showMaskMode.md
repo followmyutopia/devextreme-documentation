@@ -1,3 +1,4 @@
+<!--id-->dxTextEditor.Options.showMaskMode<!--/id-->
 ===========================================================================
 <!--default-->'always'<!--/default-->
 <!--acceptValues-->'always' | 'onFocus'<!--/acceptValues-->

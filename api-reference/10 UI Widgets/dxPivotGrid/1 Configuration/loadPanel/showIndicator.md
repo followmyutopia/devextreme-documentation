@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.loadPanel.showIndicator<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

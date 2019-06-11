@@ -1,3 +1,4 @@
+<!--id-->dxAccordion.Options.height<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number | String | function()<!--/type-->

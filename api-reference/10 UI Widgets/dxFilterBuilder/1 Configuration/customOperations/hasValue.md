@@ -1,3 +1,4 @@
+<!--id-->dxFilterBuilderCustomOperation.hasValue<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

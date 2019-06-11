@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.focusedRowIndex<!--/id-->
 ===========================================================================
 <!--default-->-1<!--/default-->
 <!--type-->Number<!--/type-->

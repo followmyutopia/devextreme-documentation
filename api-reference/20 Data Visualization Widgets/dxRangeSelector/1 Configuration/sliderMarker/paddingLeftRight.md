@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.sliderMarker.paddingLeftRight<!--/id-->
 ===========================================================================
 <!--default-->4<!--/default-->
 <!--type-->Number<!--/type-->

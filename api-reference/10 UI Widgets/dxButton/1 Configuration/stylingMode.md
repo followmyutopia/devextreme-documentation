@@ -1,3 +1,4 @@
+<!--id-->dxButton.Options.stylingMode<!--/id-->
 ===========================================================================
 <!--default-->'contained'<!--/default-->
 <!--acceptValues-->'text' | 'outlined' | 'contained'<!--/acceptValues-->

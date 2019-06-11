@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.cellHintEnabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

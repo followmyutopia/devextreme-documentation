@@ -1,3 +1,4 @@
+<!--id-->dxBarGauge.Options.backgroundColor<!--/id-->
 ===========================================================================
 <!--default-->'#e0e0e0'<!--/default-->
 <!--type-->String<!--/type-->

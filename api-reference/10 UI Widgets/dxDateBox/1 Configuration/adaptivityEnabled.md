@@ -1,3 +1,4 @@
+<!--id-->dxDateBox.Options.adaptivityEnabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->circularTwoColorNeedle<!--/id-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->Object<!--/type-->

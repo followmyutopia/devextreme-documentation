@@ -1,3 +1,4 @@
+<!--id-->dxPieChart.Options.legend.hoverMode<!--/id-->
 ===========================================================================
 <!--default-->'allArgumentPoints'<!--/default-->
 <!--acceptValues-->'none' | 'allArgumentPoints'<!--/acceptValues-->

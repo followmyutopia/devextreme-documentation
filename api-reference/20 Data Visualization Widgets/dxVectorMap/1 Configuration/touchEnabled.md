@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.touchEnabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.appointmentPopupTemplate<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->'appointmentPopup'<!--/default-->

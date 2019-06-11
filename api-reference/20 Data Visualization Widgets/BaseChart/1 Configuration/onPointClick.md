@@ -1,3 +1,4 @@
+<!--id-->BaseChart.Options.onPointClick<!--/id-->
 <!--EventForAction-->..\4 Events\pointClick.md<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->

@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.chart.dataPrepareSettings.checkTypeForAllData<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

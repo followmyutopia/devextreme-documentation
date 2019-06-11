@@ -1,3 +1,4 @@
+<!--id-->dxTabPanel.Options.showNavButtons<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->UI Events.dxrotateend<!--/id-->
 ===========================================================================
 <!--module-->events/transform<!--/module-->
 <!--type-->eventType<!--/type-->

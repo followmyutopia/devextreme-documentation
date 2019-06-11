@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.disabled<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->false<!--/default-->

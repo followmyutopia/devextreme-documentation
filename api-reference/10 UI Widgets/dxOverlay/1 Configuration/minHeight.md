@@ -1,3 +1,4 @@
+<!--id-->dxOverlay.Options.minHeight<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->Number | String | function()<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxAccordion.Options.onItemTitleClick<!--/id-->
 <!--EventForAction-->..\4 Events\itemTitleClick.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

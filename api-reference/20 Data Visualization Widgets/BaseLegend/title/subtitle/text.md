@@ -1,3 +1,4 @@
+<!--id-->BaseLegend.title.subtitle.text<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->String<!--/type-->

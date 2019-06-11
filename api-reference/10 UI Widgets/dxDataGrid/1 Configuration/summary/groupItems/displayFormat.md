@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.summary.groupItems.displayFormat<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

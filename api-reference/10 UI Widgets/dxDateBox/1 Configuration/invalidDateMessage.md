@@ -1,3 +1,4 @@
+<!--id-->dxDateBox.Options.invalidDateMessage<!--/id-->
 ===========================================================================
 <!--default-->'Value must be a date or time'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.dataSource<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->String | Array<dxSchedulerAppointment> | DataSource | DataSource_Options<!--/type-->

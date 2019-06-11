@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.layers.dataSource<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->Object | DataSource | DataSource_Options | String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.argumentAxis.minorTickCount<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

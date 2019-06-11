@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.scale.minorTickInterval<!--/id-->
 ===========================================================================
 <!--inherits-->..\..\..\..\VizTimeInterval\VizTimeInterval.md<!--/inherits-->
 ===========================================================================

@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.Options.label.horizontalOffset<!--/id-->
 ===========================================================================
 <!--default-->0<!--/default-->
 <!--type-->Number<!--/type-->

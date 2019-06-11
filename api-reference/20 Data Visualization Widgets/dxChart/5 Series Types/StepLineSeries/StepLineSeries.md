@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.StepLineSeries<!--/id-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->Object<!--/type-->

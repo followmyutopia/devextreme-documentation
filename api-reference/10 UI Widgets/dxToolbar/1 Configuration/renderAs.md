@@ -1,3 +1,4 @@
+<!--id-->dxToolbar.Options.renderAs<!--/id-->
 ===========================================================================
 <!--default-->'topToolbar'<!--/default-->
 <!--acceptValues-->'bottomToolbar' | 'topToolbar'<!--/acceptValues-->

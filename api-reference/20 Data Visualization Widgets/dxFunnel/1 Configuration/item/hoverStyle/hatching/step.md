@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.Options.item.hoverStyle.hatching.step<!--/id-->
 ===========================================================================
 <!--default-->6<!--/default-->
 <!--type-->Number<!--/type-->

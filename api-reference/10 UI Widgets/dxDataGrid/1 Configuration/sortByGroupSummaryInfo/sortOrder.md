@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.sortByGroupSummaryInfo.sortOrder<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->undefined | 'asc' | 'desc'<!--/acceptValues-->

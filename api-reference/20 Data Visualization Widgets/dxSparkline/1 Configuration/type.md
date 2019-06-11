@@ -1,3 +1,4 @@
+<!--id-->dxSparkline.Options.type<!--/id-->
 ===========================================================================
 <!--default-->'line'<!--/default-->
 <!--acceptValues-->'area' | 'bar' | 'line' | 'spline' | 'splinearea' | 'steparea' | 'stepline' | 'winloss'<!--/acceptValues-->

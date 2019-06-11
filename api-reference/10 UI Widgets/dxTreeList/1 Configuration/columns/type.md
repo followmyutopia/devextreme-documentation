@@ -1,3 +1,4 @@
+<!--id-->dxTreeListColumn.type<!--/id-->
 ===========================================================================
 <!--acceptValues-->'adaptive' | 'buttons'<!--/acceptValues-->
 <!--type-->String<!--/type-->

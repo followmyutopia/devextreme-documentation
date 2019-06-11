@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.valueAxis.strips<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->Array<Object><!--/type-->

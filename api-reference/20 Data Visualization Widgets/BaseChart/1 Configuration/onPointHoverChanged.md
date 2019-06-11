@@ -1,3 +1,4 @@
+<!--id-->BaseChart.Options.onPointHoverChanged<!--/id-->
 <!--EventForAction-->..\4 Events\pointHoverChanged.md<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->

@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.onAppointmentRendered<!--/id-->
 <!--EventForAction-->..\4 Events\appointmentRendered.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

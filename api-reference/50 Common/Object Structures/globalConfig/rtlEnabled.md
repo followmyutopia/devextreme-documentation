@@ -1,3 +1,4 @@
+<!--id-->globalConfig.rtlEnabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

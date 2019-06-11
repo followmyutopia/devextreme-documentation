@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.filterRow.applyFilter<!--/id-->
 ===========================================================================
 <!--default-->'auto'<!--/default-->
 <!--acceptValues-->'auto' | 'onClick'<!--/acceptValues-->

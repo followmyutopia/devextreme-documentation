@@ -1,3 +1,4 @@
+<!--id-->dxCircularGauge.Options.valueIndicator.type<!--/id-->
 ===========================================================================
 <!--default-->'rectangleNeedle'<!--/default-->
 <!--acceptValues-->'rectangleNeedle' | 'triangleNeedle' | 'twoColorNeedle' | 'rangeBar' | 'triangleMarker' | 'textCloud'<!--/acceptValues-->

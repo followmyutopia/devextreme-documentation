@@ -1,3 +1,4 @@
+<!--id-->dxActionSheet.Options.focusStateEnabled<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->false<!--/default-->

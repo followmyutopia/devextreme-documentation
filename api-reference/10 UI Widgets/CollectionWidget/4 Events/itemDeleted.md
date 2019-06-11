@@ -1,3 +1,4 @@
+<!--id-->CollectionWidget.itemDeleted<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--type-->eventType<!--/type-->

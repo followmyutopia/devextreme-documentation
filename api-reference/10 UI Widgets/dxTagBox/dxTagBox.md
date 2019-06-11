@@ -1,3 +1,4 @@
+<!--id-->dxTagBox<!--/id-->
 <!--widgettree-->
 dataSource: [
     "HD Video Player",

@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.fields.runningTotal<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'column' | 'row'<!--/acceptValues-->

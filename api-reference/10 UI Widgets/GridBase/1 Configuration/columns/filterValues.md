@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.filterValues<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Array<any><!--/type-->

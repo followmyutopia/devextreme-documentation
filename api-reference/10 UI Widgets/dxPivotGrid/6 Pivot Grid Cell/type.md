@@ -1,3 +1,4 @@
+<!--id-->dxPivotGridPivotGridCell.type<!--/id-->
 ===========================================================================
 <!--acceptValues-->'D' | 'T' | 'GT'<!--/acceptValues-->
 <!--type-->String<!--/type-->

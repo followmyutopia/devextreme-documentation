@@ -1,3 +1,4 @@
+<!--id-->dxTagBox.Options.selectedItems<!--/id-->
 ===========================================================================
 <!--type-->Array<String, Number, Object><!--/type-->
 <!--readonly--><!--/readonly-->

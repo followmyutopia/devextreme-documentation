@@ -1,3 +1,4 @@
+<!--id-->dxMenuBase.Options.animation<!--/id-->
 ===========================================================================
 <!--default-->{ show: { type: 'fade', from: 0, to: 1, duration: 100 }, hide: { type: 'fade', from: 1, to: 0, duration: 100 } }<!--/default-->
 <!--type-->Object<!--/type-->

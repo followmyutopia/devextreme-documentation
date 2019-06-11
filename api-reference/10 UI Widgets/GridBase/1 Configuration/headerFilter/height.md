@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.headerFilter.height<!--/id-->
 ===========================================================================
 <!--default-->325, 315 (Material)<!--/default-->
 <!--type-->Number<!--/type-->

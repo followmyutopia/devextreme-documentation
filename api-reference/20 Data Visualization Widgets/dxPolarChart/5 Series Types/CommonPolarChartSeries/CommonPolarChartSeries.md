@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--type-->Object<!--/type-->

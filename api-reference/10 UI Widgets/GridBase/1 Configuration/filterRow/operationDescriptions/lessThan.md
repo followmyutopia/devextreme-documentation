@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.filterRow.operationDescriptions.lessThan<!--/id-->
 ===========================================================================
 <!--default-->'Less than'<!--/default-->
 <!--type-->String<!--/type-->

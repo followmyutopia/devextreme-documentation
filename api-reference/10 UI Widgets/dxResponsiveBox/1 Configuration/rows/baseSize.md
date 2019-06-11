@@ -1,3 +1,4 @@
+<!--id-->dxResponsiveBox.Options.rows.baseSize<!--/id-->
 ===========================================================================
 <!--default-->0<!--/default-->
 <!--acceptValues-->'auto'<!--/acceptValues-->

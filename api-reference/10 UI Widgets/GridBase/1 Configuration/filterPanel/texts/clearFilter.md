@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.filterPanel.texts.clearFilter<!--/id-->
 ===========================================================================
 <!--default-->'Clear'<!--/default-->
 <!--type-->String<!--/type-->

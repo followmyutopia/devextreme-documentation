@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.sliderMarker.font<!--/id-->
 ===========================================================================
 <!--type-->Object<!--/type-->
 <!--inherits-->..\..\..\..\Font\Font.md<!--/inherits-->

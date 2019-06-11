@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.export.printingEnabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

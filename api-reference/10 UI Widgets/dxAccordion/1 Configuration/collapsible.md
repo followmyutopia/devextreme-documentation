@@ -1,3 +1,4 @@
+<!--id-->dxAccordion.Options.collapsible<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

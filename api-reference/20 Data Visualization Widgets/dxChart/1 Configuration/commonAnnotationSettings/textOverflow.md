@@ -1,3 +1,4 @@
+<!--id-->dxChartCommonAnnotationConfig.textOverflow<!--/id-->
 ===========================================================================
 <!--default-->'ellipsis'<!--/default-->
 <!--acceptValues-->'ellipsis' | 'hide' | 'none'<!--/acceptValues-->

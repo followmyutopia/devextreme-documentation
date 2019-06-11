@@ -1,3 +1,4 @@
+<!--id-->dxSankey.Options.link.colorMode<!--/id-->
 ===========================================================================
 <!--default-->'none'<!--/default-->
 <!--acceptValues-->'none' | 'source' | 'target' | 'gradient'<!--/acceptValues-->

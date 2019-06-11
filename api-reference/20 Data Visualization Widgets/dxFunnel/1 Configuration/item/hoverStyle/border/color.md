@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.Options.item.hoverStyle.border.color<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

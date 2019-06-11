@@ -1,3 +1,4 @@
+<!--id-->DevicesObject<!--/id-->
 ===========================================================================
 <!--inherits-->..\..\..\10 UI Widgets\EventsMixin\EventsMixin.md<!--/inherits-->
 <!--lib-->

@@ -1,3 +1,4 @@
+<!--id-->SearchBoxMixin.Options.searchExpr<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->getter | Array<getter><!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.keyboardNavigation.enterKeyDirection<!--/id-->
 ===========================================================================
 <!--default-->'none'<!--/default-->
 <!--acceptValues-->'none' | 'column' | 'row'<!--/acceptValues-->

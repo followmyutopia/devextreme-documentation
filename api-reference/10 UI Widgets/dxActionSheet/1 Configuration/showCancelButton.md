@@ -1,3 +1,4 @@
+<!--id-->dxActionSheet.Options.showCancelButton<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

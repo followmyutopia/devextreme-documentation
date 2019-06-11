@@ -1,3 +1,4 @@
+<!--id-->dxSankey.Options.label.shadow.blur<!--/id-->
 ===========================================================================
 <!--default-->1<!--/default-->
 <!--type-->Number<!--/type-->

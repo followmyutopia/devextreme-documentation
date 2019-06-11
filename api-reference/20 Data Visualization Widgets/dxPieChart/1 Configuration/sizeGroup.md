@@ -1,3 +1,4 @@
+<!--id-->dxPieChart.Options.sizeGroup<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->viz.currentTheme()<!--/id-->
 ===================================================================
 <!--module-->viz/themes<!--/module-->
 <!--export-->currentTheme<!--/export-->

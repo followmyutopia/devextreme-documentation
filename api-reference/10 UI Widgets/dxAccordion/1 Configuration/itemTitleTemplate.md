@@ -1,3 +1,4 @@
+<!--id-->dxAccordion.Options.itemTitleTemplate<!--/id-->
 ===========================================================================
 <!--default-->'title'<!--/default-->
 <!--type-->template<!--/type-->

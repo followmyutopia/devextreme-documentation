@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.valueAxis.constantLineStyle.label.horizontalAlignment<!--/id-->
 ===========================================================================
 <!--default-->'left'<!--/default-->
 <!--acceptValues-->'center' | 'left' | 'right'<!--/acceptValues-->

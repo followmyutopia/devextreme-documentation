@@ -1,3 +1,4 @@
+<!--id-->dxToolbarItem.location<!--/id-->
 ===========================================================================
 <!--default-->'center'<!--/default-->
 <!--acceptValues-->'after' | 'before' | 'center'<!--/acceptValues-->

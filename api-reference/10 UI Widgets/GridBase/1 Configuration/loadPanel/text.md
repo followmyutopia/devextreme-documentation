@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.loadPanel.text<!--/id-->
 ===========================================================================
 <!--default-->'Loading...'<!--/default-->
 <!--type-->String<!--/type-->

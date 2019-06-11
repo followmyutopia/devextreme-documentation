@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.argumentAxis.strips<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->Array<Object><!--/type-->

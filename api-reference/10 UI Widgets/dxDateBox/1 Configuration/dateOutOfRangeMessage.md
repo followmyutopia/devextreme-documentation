@@ -1,3 +1,4 @@
+<!--id-->dxDateBox.Options.dateOutOfRangeMessage<!--/id-->
 ===========================================================================
 <!--default-->'Value is out of range'<!--/default-->
 <!--type-->String<!--/type-->

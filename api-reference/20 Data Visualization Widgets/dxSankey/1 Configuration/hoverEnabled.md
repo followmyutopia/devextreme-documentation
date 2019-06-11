@@ -1,3 +1,4 @@
+<!--id-->dxSankey.Options.hoverEnabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

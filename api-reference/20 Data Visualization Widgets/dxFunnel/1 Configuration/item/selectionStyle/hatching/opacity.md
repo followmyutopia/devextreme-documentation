@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.Options.item.selectionStyle.hatching.opacity<!--/id-->
 ===========================================================================
 <!--default-->0.5<!--/default-->
 <!--type-->Number<!--/type-->

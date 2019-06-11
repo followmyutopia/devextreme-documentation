@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.title.text<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->String<!--/type-->

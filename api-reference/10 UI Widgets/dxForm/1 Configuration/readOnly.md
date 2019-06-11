@@ -1,3 +1,4 @@
+<!--id-->dxForm.Options.readOnly<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

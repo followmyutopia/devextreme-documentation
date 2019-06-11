@@ -1,3 +1,4 @@
+<!--id-->dxPopup.Options.onResize<!--/id-->
 <!--EventForAction-->..\4 Events\resize.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

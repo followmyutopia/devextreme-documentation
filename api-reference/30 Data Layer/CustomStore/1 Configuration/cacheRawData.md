@@ -1,3 +1,4 @@
+<!--id-->CustomStore.Options.cacheRawData<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

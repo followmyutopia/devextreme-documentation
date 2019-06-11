@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.visible<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

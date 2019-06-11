@@ -1,3 +1,4 @@
+<!--id-->dxGallery.Options.activeStateEnabled<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->false<!--/default-->

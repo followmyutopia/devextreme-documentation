@@ -1,3 +1,4 @@
+<!--id-->dxPopup.Options.toolbarItems.location<!--/id-->
 ===========================================================================
 <!--default-->'center'<!--/default-->
 <!--acceptValues-->'after' | 'before' | 'center'<!--/acceptValues-->

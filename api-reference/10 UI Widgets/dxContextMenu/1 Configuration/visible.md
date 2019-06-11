@@ -1,3 +1,4 @@
+<!--id-->dxContextMenu.Options.visible<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

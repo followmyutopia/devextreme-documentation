@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.showAppointmentPopup(appointmentData, createNewAppointment, currentAppointmentData)<!--/id-->
 ===================================================================
 ===================================================================
 

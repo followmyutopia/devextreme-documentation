@@ -1,3 +1,4 @@
+<!--id-->dxLookup.Options.pageLoadingText<!--/id-->
 ===========================================================================
 <!--default-->'Loading...'<!--/default-->
 <!--type-->String<!--/type-->

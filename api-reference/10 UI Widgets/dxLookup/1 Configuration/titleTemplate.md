@@ -1,3 +1,4 @@
+<!--id-->dxLookup.Options.titleTemplate<!--/id-->
 ===========================================================================
 <!--default-->'title'<!--/default-->
 <!--type-->template<!--/type-->

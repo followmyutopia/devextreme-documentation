@@ -1,3 +1,4 @@
+<!--id-->BaseLegend.itemTextPosition<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'bottom' | 'left' | 'right' | 'top'<!--/acceptValues-->

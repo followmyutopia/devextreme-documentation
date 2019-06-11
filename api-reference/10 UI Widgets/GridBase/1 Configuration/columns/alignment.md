@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.alignment<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->undefined | 'center' | 'left' | 'right'<!--/acceptValues-->

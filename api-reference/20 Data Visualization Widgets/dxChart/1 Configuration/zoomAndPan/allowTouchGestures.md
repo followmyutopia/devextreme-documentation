@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.zoomAndPan.allowTouchGestures<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

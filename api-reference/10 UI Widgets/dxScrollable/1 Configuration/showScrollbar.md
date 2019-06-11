@@ -1,3 +1,4 @@
+<!--id-->dxScrollable.Options.showScrollbar<!--/id-->
 ===========================================================================
 <!--default-->'onScroll', 'onHover' (desktop)<!--/default-->
 <!--acceptValues-->'onScroll' | 'onHover' | 'always' | 'never'<!--/acceptValues-->

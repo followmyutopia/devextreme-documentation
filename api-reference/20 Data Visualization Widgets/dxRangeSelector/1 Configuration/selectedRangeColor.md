@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.selectedRangeColor<!--/id-->
 ===========================================================================
 <!--default-->'#606060'<!--/default-->
 <!--type-->String<!--/type-->

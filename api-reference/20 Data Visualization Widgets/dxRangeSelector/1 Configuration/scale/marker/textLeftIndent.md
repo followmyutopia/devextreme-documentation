@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.scale.marker.textLeftIndent<!--/id-->
 ===========================================================================
 <!--default-->7<!--/default-->
 <!--type-->Number<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->CustomRule.message<!--/id-->
 ===========================================================================
 <!--default-->'Value is invalid'<!--/default-->
 <!--type-->String<!--/type-->

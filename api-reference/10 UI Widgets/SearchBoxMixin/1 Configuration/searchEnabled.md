@@ -1,3 +1,4 @@
+<!--id-->SearchBoxMixin.Options.searchEnabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

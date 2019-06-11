@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.export.texts.exportSelectedRows<!--/id-->
 ===========================================================================
 <!--default-->'Export selected rows'<!--/default-->
 <!--type-->String<!--/type-->

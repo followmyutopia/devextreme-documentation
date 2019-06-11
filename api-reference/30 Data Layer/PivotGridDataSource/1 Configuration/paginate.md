@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.paginate<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxHtmlEditor<!--/id-->
 <!--widgettree-->
 valueType: "html",
 value: "This is <b>HtmlEditor</b>.<br/>Select text and use a toolbar control.",

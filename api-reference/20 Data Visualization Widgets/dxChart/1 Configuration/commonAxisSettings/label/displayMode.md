@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonAxisSettings.label.displayMode<!--/id-->
 ===========================================================================
 <!--default-->'standard'<!--/default-->
 <!--acceptValues-->'rotate' | 'stagger' | 'standard'<!--/acceptValues-->

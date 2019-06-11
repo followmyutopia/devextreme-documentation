@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.summary.texts.maxOtherColumn<!--/id-->
 ===========================================================================
 <!--default-->'Max of {1} is {0}'<!--/default-->
 <!--type-->String<!--/type-->

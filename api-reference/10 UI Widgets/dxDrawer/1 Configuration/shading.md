@@ -1,3 +1,4 @@
+<!--id-->dxDrawer.Options.shading<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

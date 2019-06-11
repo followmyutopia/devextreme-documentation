@@ -1,3 +1,4 @@
+<!--id-->dxMenuBaseItem.closeMenuOnClick<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

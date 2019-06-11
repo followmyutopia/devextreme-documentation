@@ -1,3 +1,4 @@
+<!--id-->dxTreeView.Options.hasItemsExpr<!--/id-->
 ===========================================================================
 <!--default-->'hasItems'<!--/default-->
 <!--type-->String | function()<!--/type-->

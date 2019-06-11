@@ -1,3 +1,4 @@
+<!--id-->dxList.Options.refreshingText<!--/id-->
 ===========================================================================
 <!--default-->'Refreshing...', '' (Material)<!--/default-->
 <!--type-->String<!--/type-->

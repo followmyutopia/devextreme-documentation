@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.keyboardNavigation.enterKeyAction<!--/id-->
 ===========================================================================
 <!--default-->'startEdit'<!--/default-->
 <!--acceptValues-->'startEdit' | 'moveFocus'<!--/acceptValues-->

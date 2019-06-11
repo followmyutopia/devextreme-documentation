@@ -1,3 +1,4 @@
+<!--id-->dxDeferRendering.Options.animation<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->animationConfig<!--/type-->

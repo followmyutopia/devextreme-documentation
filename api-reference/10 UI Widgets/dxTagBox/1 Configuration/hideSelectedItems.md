@@ -1,3 +1,4 @@
+<!--id-->dxTagBox.Options.hideSelectedItems<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

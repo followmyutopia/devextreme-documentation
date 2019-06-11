@@ -1,3 +1,4 @@
+<!--id-->dxBarGauge.Options.label.customizeText<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(barValue)<!--/type-->

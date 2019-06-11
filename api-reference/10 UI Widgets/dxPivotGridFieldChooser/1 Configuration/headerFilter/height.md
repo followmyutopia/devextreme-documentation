@@ -1,3 +1,4 @@
+<!--id-->dxPivotGridFieldChooser.Options.headerFilter.height<!--/id-->
 ===========================================================================
 <!--default-->325<!--/default-->
 <!--type-->Number<!--/type-->

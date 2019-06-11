@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.Options.label.connector.color<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

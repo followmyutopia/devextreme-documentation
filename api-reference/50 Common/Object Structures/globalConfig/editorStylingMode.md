@@ -1,3 +1,4 @@
+<!--id-->globalConfig.editorStylingMode<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'outlined' | 'underlined' | 'filled'<!--/acceptValues-->

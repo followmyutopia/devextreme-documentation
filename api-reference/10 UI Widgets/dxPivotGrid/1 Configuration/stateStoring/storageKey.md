@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.stateStoring.storageKey<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->String<!--/type-->

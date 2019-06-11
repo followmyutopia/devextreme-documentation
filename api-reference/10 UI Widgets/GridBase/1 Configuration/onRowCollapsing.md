@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.onRowCollapsing<!--/id-->
 <!--EventForAction-->..\4 Events\rowCollapsing.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

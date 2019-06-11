@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.tooltip.shared<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->globalConfig.floatingActionButtonConfig.closeIcon<!--/id-->
 ===========================================================================
 <!--default-->'close'<!--/default-->
 <!--type-->String<!--/type-->

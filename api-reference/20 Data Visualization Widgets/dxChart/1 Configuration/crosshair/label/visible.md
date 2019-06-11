@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.crosshair.label.visible<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

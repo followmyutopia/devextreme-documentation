@@ -1,3 +1,4 @@
+<!--id-->dxCalendar.Options.cellTemplate<!--/id-->
 ===========================================================================
 <!--default-->'cell'<!--/default-->
 <!--type-->template<!--/type-->

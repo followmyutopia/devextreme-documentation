@@ -1,3 +1,4 @@
+<!--id-->Store.Options.onUpdating<!--/id-->
 <!--EventForAction-->..\4 Events\updating.md<!--/EventForAction-->
 ===========================================================================
 <!--type-->function(key, values)<!--/type-->

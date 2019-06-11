@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.summary.texts.avgOtherColumn<!--/id-->
 ===========================================================================
 <!--default-->'Avg of {1} is {0}'<!--/default-->
 <!--type-->String<!--/type-->

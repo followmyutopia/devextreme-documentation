@@ -1,3 +1,4 @@
+<!--id-->dxList.Options.indicateLoading<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

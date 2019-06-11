@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.onRowInserting<!--/id-->
 <!--EventForAction-->..\4 Events\rowInserting.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

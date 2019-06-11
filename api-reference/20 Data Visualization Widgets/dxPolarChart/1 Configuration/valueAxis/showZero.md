@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.valueAxis.showZero<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Boolean<!--/type-->

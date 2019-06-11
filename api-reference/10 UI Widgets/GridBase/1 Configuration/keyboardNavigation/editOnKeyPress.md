@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.keyboardNavigation.editOnKeyPress<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

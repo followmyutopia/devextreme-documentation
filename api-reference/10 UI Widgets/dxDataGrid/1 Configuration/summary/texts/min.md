@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.summary.texts.min<!--/id-->
 ===========================================================================
 <!--default-->'Min={0}'<!--/default-->
 <!--type-->String<!--/type-->

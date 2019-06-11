@@ -1,3 +1,4 @@
+<!--id-->dxCalendar.Options.disabledDates<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->Array<Date> | function(data)<!--/type-->

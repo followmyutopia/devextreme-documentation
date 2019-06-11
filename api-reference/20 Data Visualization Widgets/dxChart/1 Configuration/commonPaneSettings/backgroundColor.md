@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonPaneSettings.backgroundColor<!--/id-->
 ===========================================================================
 <!--default-->'none'<!--/default-->
 <!--type-->String<!--/type-->

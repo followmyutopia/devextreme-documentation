@@ -1,3 +1,4 @@
+<!--id-->UI Events.dxpinchend<!--/id-->
 ===========================================================================
 <!--module-->events/transform<!--/module-->
 <!--type-->eventType<!--/type-->

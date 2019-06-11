@@ -1,3 +1,4 @@
+<!--id-->dxPopup.Options.toolbarItems.visible<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

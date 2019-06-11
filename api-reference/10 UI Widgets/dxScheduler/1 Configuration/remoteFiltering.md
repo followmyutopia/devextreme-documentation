@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.remoteFiltering<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid<!--/id-->
 <!--widgettree-->
 fieldChooser: { width: 400 },
 showBorders: true,

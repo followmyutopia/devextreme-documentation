@@ -1,3 +1,4 @@
+<!--id-->hideTopOverlay()<!--/id-->
 ===================================================================
 <!--module-->mobile/hide_top_overlay<!--/module-->
 <!--export-->default<!--/export-->

@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.summary.groupItems.summaryType<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'avg' | 'count' | 'custom' | 'max' | 'min' | 'sum'<!--/acceptValues-->

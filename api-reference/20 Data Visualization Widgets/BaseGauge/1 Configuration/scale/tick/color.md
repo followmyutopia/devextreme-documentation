@@ -1,3 +1,4 @@
+<!--id-->BaseGauge.Options.scale.tick.color<!--/id-->
 ===========================================================================
 <!--default-->'#FFFFFF'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxTreeView.Options.expandedExpr<!--/id-->
 ===========================================================================
 <!--hidden-->false<!--/hidden-->
 <!--default-->'expanded'<!--/default-->

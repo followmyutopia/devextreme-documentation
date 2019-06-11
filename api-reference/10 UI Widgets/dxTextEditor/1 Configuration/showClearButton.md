@@ -1,3 +1,4 @@
+<!--id-->dxTextEditor.Options.showClearButton<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

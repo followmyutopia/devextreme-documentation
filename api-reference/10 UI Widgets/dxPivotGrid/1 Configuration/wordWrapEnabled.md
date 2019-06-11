@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.wordWrapEnabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

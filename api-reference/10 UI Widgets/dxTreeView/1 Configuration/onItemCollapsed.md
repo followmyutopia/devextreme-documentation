@@ -1,3 +1,4 @@
+<!--id-->dxTreeView.Options.onItemCollapsed<!--/id-->
 <!--EventForAction-->..\4 Events\itemCollapsed.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

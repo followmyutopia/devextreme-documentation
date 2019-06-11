@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.Options.resolveLabelOverlapping<!--/id-->
 ===========================================================================
 <!--default-->'shift'<!--/default-->
 <!--acceptValues-->'hide' | 'none' | 'shift'<!--/acceptValues-->

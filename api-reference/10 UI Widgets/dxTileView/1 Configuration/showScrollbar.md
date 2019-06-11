@@ -1,3 +1,4 @@
+<!--id-->dxTileView.Options.showScrollbar<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

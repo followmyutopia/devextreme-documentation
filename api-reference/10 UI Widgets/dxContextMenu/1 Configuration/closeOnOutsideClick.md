@@ -1,3 +1,4 @@
+<!--id-->dxContextMenu.Options.closeOnOutsideClick<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean | function(event)<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.filterPanel.visible<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

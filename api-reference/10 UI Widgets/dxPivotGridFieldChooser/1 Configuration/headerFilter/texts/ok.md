@@ -1,3 +1,4 @@
+<!--id-->dxPivotGridFieldChooser.Options.headerFilter.texts.ok<!--/id-->
 ===========================================================================
 <!--default-->'Ok'<!--/default-->
 <!--type-->String<!--/type-->

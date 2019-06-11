@@ -1,3 +1,4 @@
+<!--id-->dxTreeList.Options.expandNodesOnFiltering<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

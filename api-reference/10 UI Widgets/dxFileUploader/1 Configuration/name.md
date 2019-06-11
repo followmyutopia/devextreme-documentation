@@ -1,3 +1,4 @@
+<!--id-->dxFileUploader.Options.name<!--/id-->
 ===========================================================================
 <!--default-->'files[]'<!--/default-->
 <!--type-->String<!--/type-->

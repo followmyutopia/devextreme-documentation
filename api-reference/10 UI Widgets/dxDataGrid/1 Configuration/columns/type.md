@@ -1,3 +1,4 @@
+<!--id-->dxDataGridColumn.type<!--/id-->
 ===========================================================================
 <!--acceptValues-->'adaptive' | 'buttons' | 'detailExpand' | 'groupExpand' | 'selection'<!--/acceptValues-->
 <!--type-->String<!--/type-->

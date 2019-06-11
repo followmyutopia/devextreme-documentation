@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.StackedBarSeries.hoverMode<!--/id-->
 ===========================================================================
 <!--default-->'onlyPoint'<!--/default-->
 <!--acceptValues-->'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'none'<!--/acceptValues-->

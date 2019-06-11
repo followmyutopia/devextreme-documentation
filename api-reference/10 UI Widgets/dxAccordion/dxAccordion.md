@@ -1,3 +1,4 @@
+<!--id-->dxAccordion<!--/id-->
 <!--widgettree-->
 dataSource: [
 {

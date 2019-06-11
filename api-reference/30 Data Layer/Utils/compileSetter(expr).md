@@ -1,3 +1,4 @@
+<!--id-->Utils.compileSetter(expr)<!--/id-->
 ===================================================================
 <!--module-->utils<!--/module-->
 <!--export-->compileSetter<!--/export-->

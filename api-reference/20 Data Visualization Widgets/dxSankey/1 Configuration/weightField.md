@@ -1,3 +1,4 @@
+<!--id-->dxSankey.Options.weightField<!--/id-->
 ===========================================================================
 <!--default-->'weight'<!--/default-->
 <!--type-->String<!--/type-->

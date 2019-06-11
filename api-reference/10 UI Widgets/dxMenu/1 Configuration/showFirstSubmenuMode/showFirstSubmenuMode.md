@@ -1,3 +1,4 @@
+<!--id-->dxMenu.Options.showFirstSubmenuMode<!--/id-->
 ===========================================================================
 <!--default-->{ name: 'onClick', delay: { show: 50, hide: 300 } }<!--/default-->
 <!--acceptValues-->'onClick' | 'onHover'<!--/acceptValues-->

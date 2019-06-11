@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.layers.selectedColor<!--/id-->
 ===========================================================================
 <!--default-->'#d2d2d2'<!--/default-->
 <!--type-->String<!--/type-->

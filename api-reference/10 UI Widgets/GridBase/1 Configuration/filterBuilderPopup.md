@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.filterBuilderPopup<!--/id-->
 ===========================================================================
 <!--default-->{}<!--/default-->
 <!--type-->dxPopup_Options<!--/type-->

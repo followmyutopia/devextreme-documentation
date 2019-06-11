@@ -1,3 +1,4 @@
+<!--id-->globalConfig.decimalSeparator<!--/id-->
 ===========================================================================
 <!--default-->'.'<!--/default-->
 <!--type-->String<!--/type-->

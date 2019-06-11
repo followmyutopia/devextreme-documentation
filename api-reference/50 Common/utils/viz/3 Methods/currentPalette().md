@@ -1,3 +1,4 @@
+<!--id-->viz.currentPalette()<!--/id-->
 ===================================================================
 <!--module-->viz/palette<!--/module-->
 <!--export-->currentPalette<!--/export-->

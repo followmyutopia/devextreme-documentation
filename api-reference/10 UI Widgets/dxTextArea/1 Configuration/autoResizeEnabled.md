@@ -1,3 +1,4 @@
+<!--id-->dxTextArea.Options.autoResizeEnabled<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

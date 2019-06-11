@@ -1,3 +1,4 @@
+<!--id-->dxPieChartSeriesTypes.PieSeries<!--/id-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->Object<!--/type-->

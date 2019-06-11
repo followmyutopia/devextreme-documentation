@@ -1,3 +1,4 @@
+<!--id-->dxMultiView.Options.loop<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

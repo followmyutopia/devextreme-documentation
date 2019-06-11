@@ -1,3 +1,4 @@
+<!--id-->dxBoxItem.box<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->dxBox_Options<!--/type-->

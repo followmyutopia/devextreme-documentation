@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.crosshair.horizontalLine.opacity<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

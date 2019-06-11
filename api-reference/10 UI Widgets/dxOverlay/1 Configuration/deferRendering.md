@@ -1,3 +1,4 @@
+<!--id-->dxOverlay.Options.deferRendering<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

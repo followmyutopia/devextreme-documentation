@@ -1,3 +1,4 @@
+<!--id-->dxSparkline.Options.ignoreEmptyPoints<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxLoadPanel.Options.showPane<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

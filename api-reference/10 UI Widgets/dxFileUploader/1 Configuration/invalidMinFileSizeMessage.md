@@ -1,3 +1,4 @@
+<!--id-->dxFileUploader.Options.invalidMinFileSizeMessage<!--/id-->
 ===========================================================================
 <!--default-->'File is too small'<!--/default-->
 <!--type-->String<!--/type-->

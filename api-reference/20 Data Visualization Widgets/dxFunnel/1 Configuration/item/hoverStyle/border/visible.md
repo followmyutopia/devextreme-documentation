@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.Options.item.hoverStyle.border.visible<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Boolean<!--/type-->

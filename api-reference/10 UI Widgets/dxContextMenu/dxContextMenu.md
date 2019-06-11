@@ -1,3 +1,4 @@
+<!--id-->dxContextMenu<!--/id-->
 <!--widgettree-->
 dataSource: [
     { text: "Hide" },

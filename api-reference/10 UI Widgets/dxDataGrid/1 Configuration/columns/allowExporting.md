@@ -1,3 +1,4 @@
+<!--id-->dxDataGridColumn.allowExporting<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

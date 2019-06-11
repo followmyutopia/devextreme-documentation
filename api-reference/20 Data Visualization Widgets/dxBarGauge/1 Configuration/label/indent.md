@@ -1,3 +1,4 @@
+<!--id-->dxBarGauge.Options.label.indent<!--/id-->
 ===========================================================================
 <!--default-->20<!--/default-->
 <!--type-->Number<!--/type-->

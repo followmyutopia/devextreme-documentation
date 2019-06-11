@@ -1,3 +1,4 @@
+<!--id-->dxSparkline.Options.pointSize<!--/id-->
 ===========================================================================
 <!--default-->4<!--/default-->
 <!--type-->Number<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.valueAxis.maxAutoBreakCount<!--/id-->
 ===========================================================================
 <!--default-->4<!--/default-->
 <!--type-->Number<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.commonSeriesSettings<!--/id-->
 ===========================================================================
 <!--hideDefaults-->true<!--/hideDefaults-->
 <!--type-->Object<!--/type-->

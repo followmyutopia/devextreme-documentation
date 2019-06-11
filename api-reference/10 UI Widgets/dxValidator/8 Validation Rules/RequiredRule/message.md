@@ -1,3 +1,4 @@
+<!--id-->RequiredRule.message<!--/id-->
 ===========================================================================
 <!--default-->'Required'<!--/default-->
 <!--type-->String<!--/type-->

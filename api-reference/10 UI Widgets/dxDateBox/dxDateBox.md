@@ -1,3 +1,4 @@
+<!--id-->dxDateBox<!--/id-->
 <!--widgettree-->
 opened: true
 <!--/widgettree-->

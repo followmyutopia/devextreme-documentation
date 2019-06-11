@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.maxZoomFactor<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->256<!--/default-->

@@ -1,3 +1,4 @@
+<!--id-->BaseWidget.Options.tooltip.shadow.opacity<!--/id-->
 ===========================================================================
 <!--default-->0.4<!--/default-->
 <!--type-->Number<!--/type-->

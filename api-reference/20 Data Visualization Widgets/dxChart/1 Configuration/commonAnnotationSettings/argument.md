@@ -1,3 +1,4 @@
+<!--id-->dxChartCommonAnnotationConfig.argument<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number | Date | String<!--/type-->

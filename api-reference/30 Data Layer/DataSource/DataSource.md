@@ -1,3 +1,4 @@
+<!--id-->DataSource<!--/id-->
 ===========================================================================
 <!--module-->data/data_source<!--/module-->
 <!--export-->default<!--/export-->

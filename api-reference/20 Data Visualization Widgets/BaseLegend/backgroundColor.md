@@ -1,3 +1,4 @@
+<!--id-->BaseLegend.backgroundColor<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

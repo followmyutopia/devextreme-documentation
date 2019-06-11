@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.showAppointmentTooltip(appointmentData, target, currentAppointmentData)<!--/id-->
 ===================================================================
 ===================================================================
 

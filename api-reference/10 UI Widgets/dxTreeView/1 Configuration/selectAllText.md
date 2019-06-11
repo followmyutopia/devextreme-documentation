@@ -1,3 +1,4 @@
+<!--id-->dxTreeView.Options.selectAllText<!--/id-->
 ===========================================================================
 <!--default-->'Select All'<!--/default-->
 <!--type-->String<!--/type-->

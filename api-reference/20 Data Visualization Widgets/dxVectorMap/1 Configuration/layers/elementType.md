@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.layers.elementType<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--acceptValues-->'bubble' | 'dot' | 'image' | 'pie'<!--/acceptValues-->

@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.headerFilter.dataSource<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Array<any> | function(options) | DataSource_Options<!--/type-->

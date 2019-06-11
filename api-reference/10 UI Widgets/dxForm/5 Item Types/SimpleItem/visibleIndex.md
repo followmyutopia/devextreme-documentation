@@ -1,3 +1,4 @@
+<!--id-->dxFormSimpleItem.visibleIndex<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

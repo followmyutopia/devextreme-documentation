@@ -1,3 +1,4 @@
+<!--id-->localization.formatMessage(key, value)<!--/id-->
 ===================================================================
 <!--module-->localization<!--/module-->
 <!--export-->formatMessage<!--/export-->

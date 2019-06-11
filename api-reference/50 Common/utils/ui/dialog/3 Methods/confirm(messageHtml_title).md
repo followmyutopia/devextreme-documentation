@@ -1,3 +1,4 @@
+<!--id-->ui.dialog.confirm(messageHtml,title)<!--/id-->
 ===================================================================
 <!--module-->ui/dialog<!--/module-->
 <!--export-->confirm<!--/export-->

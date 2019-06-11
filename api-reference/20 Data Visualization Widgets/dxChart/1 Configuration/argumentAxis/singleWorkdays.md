@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.argumentAxis.singleWorkdays<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Array<Date, String> | Array<Number><!--/type-->

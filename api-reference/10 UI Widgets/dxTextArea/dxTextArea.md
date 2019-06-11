@@ -1,3 +1,4 @@
+<!--id-->dxTextArea<!--/id-->
 <!--widgettree-->
 
 <!--/widgettree-->

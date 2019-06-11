@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.allowEditing<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

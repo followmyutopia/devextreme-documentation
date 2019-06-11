@@ -1,3 +1,4 @@
+<!--id-->dxTreeMap.Options.idField<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->

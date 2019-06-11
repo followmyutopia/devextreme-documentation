@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.indent.right<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->

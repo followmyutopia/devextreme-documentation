@@ -1,3 +1,4 @@
+<!--id-->dxForm.Options.colCount<!--/id-->
 ===========================================================================
 <!--default-->1<!--/default-->
 <!--acceptValues-->'auto'<!--/acceptValues-->

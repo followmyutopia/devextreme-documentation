@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.crosshair.horizontalLine.label.backgroundColor<!--/id-->
 ===========================================================================
 <!--default-->'#f05b41'<!--/default-->
 <!--type-->String<!--/type-->

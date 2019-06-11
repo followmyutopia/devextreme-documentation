@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.stack<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\StackedBarSeries\StackedBarSeries.md<!--/propertyOf-->
 <!--default-->'default'<!--/default-->

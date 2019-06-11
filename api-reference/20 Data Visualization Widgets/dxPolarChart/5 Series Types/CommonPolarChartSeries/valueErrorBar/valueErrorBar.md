@@ -1,3 +1,4 @@
+<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.valueErrorBar<!--/id-->
 ===========================================================================
 <!--propertyOf-->..\..\AreaSeries\AreaSeries.md,..\..\BarSeries\BarSeries.md,..\..\LineSeries\LineSeries.md,..\..\ScatterSeries\ScatterSeries.md<!--/propertyOf-->
 <!--type-->Object<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.scale.logarithmBase<!--/id-->
 ===========================================================================
 <!--default-->10<!--/default-->
 <!--type-->Number<!--/type-->

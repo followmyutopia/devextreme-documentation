@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.layers.hoveredBorderColor<!--/id-->
 ===========================================================================
 <!--default-->'#303030'<!--/default-->
 <!--type-->String<!--/type-->

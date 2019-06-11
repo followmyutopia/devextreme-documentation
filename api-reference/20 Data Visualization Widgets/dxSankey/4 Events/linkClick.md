@@ -1,3 +1,4 @@
+<!--id-->dxSankey.linkClick<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

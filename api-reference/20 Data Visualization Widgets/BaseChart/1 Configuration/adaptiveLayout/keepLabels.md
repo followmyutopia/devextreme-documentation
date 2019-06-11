@@ -1,3 +1,4 @@
+<!--id-->BaseChart.Options.adaptiveLayout.keepLabels<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

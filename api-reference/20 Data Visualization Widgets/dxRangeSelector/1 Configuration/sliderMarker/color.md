@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.sliderMarker.color<!--/id-->
 ===========================================================================
 <!--default-->'#9B9B9B'<!--/default-->
 <!--type-->String<!--/type-->

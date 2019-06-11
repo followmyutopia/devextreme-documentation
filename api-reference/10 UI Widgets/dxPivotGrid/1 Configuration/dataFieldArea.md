@@ -1,3 +1,4 @@
+<!--id-->dxPivotGrid.Options.dataFieldArea<!--/id-->
 ===========================================================================
 <!--default-->'column'<!--/default-->
 <!--acceptValues-->'column' | 'row'<!--/acceptValues-->

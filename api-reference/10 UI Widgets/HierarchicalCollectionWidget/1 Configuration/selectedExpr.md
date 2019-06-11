@@ -1,3 +1,4 @@
+<!--id-->HierarchicalCollectionWidget.Options.selectedExpr<!--/id-->
 ===========================================================================
 <!--default-->'selected'<!--/default-->
 <!--type-->String | function()<!--/type-->

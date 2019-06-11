@@ -1,3 +1,4 @@
+<!--id-->dxFormButtonItem.horizontalAlignment<!--/id-->
 ===========================================================================
 <!--default-->'right'<!--/default-->
 <!--acceptValues-->'center' | 'left' | 'right'<!--/acceptValues-->

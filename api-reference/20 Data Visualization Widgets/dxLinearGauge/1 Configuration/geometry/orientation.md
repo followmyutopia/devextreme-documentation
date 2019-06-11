@@ -1,3 +1,4 @@
+<!--id-->dxLinearGauge.Options.geometry.orientation<!--/id-->
 ===========================================================================
 <!--default-->'horizontal'<!--/default-->
 <!--acceptValues-->'horizontal' | 'vertical'<!--/acceptValues-->

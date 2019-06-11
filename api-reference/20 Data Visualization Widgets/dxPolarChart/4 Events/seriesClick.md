@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.seriesClick<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

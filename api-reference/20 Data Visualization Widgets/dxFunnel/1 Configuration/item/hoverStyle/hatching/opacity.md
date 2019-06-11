@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.Options.item.hoverStyle.hatching.opacity<!--/id-->
 ===========================================================================
 <!--default-->0.75<!--/default-->
 <!--type-->Number<!--/type-->

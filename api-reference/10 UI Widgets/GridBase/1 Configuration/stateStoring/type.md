@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.stateStoring.type<!--/id-->
 ===========================================================================
 <!--default-->'localStorage'<!--/default-->
 <!--acceptValues-->'custom' | 'localStorage' | 'sessionStorage'<!--/acceptValues-->

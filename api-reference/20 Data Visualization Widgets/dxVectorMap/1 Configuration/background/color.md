@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.background.color<!--/id-->
 ===========================================================================
 <!--default-->'#ffffff'<!--/default-->
 <!--type-->String<!--/type-->

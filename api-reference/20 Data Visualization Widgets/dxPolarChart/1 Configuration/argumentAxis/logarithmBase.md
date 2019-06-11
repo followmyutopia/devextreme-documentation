@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart.Options.argumentAxis.logarithmBase<!--/id-->
 ===========================================================================
 <!--default-->10<!--/default-->
 <!--type-->Number<!--/type-->

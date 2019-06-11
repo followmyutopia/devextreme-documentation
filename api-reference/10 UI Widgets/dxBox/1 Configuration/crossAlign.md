@@ -1,3 +1,4 @@
+<!--id-->dxBox.Options.crossAlign<!--/id-->
 ===========================================================================
 <!--default-->'start'<!--/default-->
 <!--acceptValues-->'center' | 'end' | 'start' | 'stretch'<!--/acceptValues-->

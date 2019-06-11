@@ -1,3 +1,4 @@
+<!--id-->dxTileView<!--/id-->
 <!--widgettree-->
 items: [{
     ID: "1",

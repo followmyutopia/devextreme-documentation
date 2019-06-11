@@ -1,3 +1,4 @@
+<!--id-->dxList.itemDeleting<!--/id-->
 <!--merge--><!--/merge-->
 <!--hidden-->false<!--/hidden-->
 <!--type-->eventType<!--/type-->

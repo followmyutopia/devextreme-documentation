@@ -1,3 +1,4 @@
+<!--id-->BaseGauge.Options.onTooltipHidden<!--/id-->
 <!--EventForAction-->..\4 Events\tooltipHidden.md<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->

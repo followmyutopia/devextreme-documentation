@@ -1,3 +1,4 @@
+<!--id-->BaseGauge.Options.animation.enabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

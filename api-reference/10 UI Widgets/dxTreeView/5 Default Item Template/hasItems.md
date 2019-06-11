@@ -1,3 +1,4 @@
+<!--id-->dxTreeViewItem.hasItems<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Boolean<!--/type-->

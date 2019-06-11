@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.dropDownAppointmentTemplate<!--/id-->
 ===========================================================================
 <!--default-->'dropDownAppointment'<!--/default-->
 <!--type-->template<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxBullet.Options.value<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->0<!--/default-->

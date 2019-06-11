@@ -1,3 +1,4 @@
+<!--id-->dxChartCommonAnnotationConfig.type<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'text' | 'image'<!--/acceptValues-->

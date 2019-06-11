@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.editing.allowDragging<!--/id-->
 ===========================================================================
 <!--default-->true, false (Android, iOS, Windows_Mobile)<!--/default-->
 <!--type-->Boolean<!--/type-->

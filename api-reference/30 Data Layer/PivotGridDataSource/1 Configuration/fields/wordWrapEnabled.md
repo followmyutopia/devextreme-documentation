@@ -1,3 +1,4 @@
+<!--id-->PivotGridDataSource.Options.fields.wordWrapEnabled<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Boolean<!--/type-->

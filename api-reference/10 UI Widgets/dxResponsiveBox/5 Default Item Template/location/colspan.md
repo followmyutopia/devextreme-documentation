@@ -1,3 +1,4 @@
+<!--id-->dxResponsiveBoxItem.location.colspan<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

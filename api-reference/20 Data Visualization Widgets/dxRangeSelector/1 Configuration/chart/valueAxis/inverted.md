@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.chart.valueAxis.inverted<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

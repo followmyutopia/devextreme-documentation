@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.filterRow.operationDescriptions.startsWith<!--/id-->
 ===========================================================================
 <!--default-->'Starts with'<!--/default-->
 <!--type-->String<!--/type-->

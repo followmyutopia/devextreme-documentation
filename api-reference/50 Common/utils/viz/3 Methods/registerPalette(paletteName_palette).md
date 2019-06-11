@@ -1,3 +1,4 @@
+<!--id-->viz.registerPalette(paletteName, palette)<!--/id-->
 ===================================================================
 <!--module-->viz/palette<!--/module-->
 <!--export-->registerPalette<!--/export-->

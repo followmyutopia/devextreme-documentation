@@ -1,3 +1,4 @@
+<!--id-->dxMap.Options.autoAdjust<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxDropDownButton.Options.splitButton<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.scale.minorTick.opacity<!--/id-->
 ===========================================================================
 <!--default-->0.06<!--/default-->
 <!--type-->Number<!--/type-->

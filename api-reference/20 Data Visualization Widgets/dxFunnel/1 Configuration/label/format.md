@@ -1,3 +1,4 @@
+<!--id-->dxFunnel.Options.label.format<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->format<!--/type-->

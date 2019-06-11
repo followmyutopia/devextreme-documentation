@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.searchPanel.highlightCaseSensitive<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

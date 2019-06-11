@@ -1,3 +1,4 @@
+<!--id-->dxPieChart.Options.series<!--/id-->
 ===========================================================================
 <!--hideDefaults-->true<!--/hideDefaults-->
 <!--default-->undefined<!--/default-->

@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CandleStickSeries<!--/id-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->Object<!--/type-->

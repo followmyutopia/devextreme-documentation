@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.legend.customizeText<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(seriesInfo)<!--/type-->

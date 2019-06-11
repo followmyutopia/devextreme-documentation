@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.onArgumentAxisClick<!--/id-->
 <!--EventForAction-->..\4 Events\argumentAxisClick.md<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->

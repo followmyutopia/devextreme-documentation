@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.allDayExpr<!--/id-->
 ===========================================================================
 <!--default-->'allDay'<!--/default-->
 <!--type-->String<!--/type-->

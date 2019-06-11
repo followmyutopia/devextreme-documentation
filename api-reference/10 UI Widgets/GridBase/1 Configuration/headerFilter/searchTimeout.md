@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.headerFilter.searchTimeout<!--/id-->
 ===========================================================================
 <!--default-->500<!--/default-->
 <!--type-->Number<!--/type-->

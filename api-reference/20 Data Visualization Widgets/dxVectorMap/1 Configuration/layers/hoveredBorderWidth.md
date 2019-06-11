@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.layers.hoveredBorderWidth<!--/id-->
 ===========================================================================
 <!--default-->1<!--/default-->
 <!--type-->Number<!--/type-->

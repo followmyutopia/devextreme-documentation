@@ -1,3 +1,4 @@
+<!--id-->dxChartCommonAnnotationConfig.wordWrap<!--/id-->
 ===========================================================================
 <!--default-->'normal'<!--/default-->
 <!--acceptValues-->'normal' | 'breakWord' | 'none'<!--/acceptValues-->

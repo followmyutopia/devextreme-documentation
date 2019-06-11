@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.scale.marker.separatorHeight<!--/id-->
 ===========================================================================
 <!--default-->33<!--/default-->
 <!--type-->Number<!--/type-->

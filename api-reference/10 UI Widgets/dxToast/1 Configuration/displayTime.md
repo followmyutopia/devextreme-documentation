@@ -1,3 +1,4 @@
+<!--id-->dxToast.Options.displayTime<!--/id-->
 ===========================================================================
 <!--default-->2000, 4000 (Material)<!--/default-->
 <!--type-->Number<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxChart.zoomEnd<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->eventType<!--/type-->

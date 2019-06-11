@@ -1,3 +1,4 @@
+<!--id-->EmailRule.message<!--/id-->
 ===========================================================================
 <!--default-->'Email is invalid'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->CollectionWidget.Options.onItemDeleted<!--/id-->
 <!--EventForAction-->..\4 Events\itemDeleted.md<!--/EventForAction-->
 ===========================================================================
 <!--hidden--><!--/hidden-->

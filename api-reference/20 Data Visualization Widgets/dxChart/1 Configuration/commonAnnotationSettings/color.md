@@ -1,3 +1,4 @@
+<!--id-->dxChartCommonAnnotationConfig.color<!--/id-->
 ===========================================================================
 <!--default-->'#ffffff'<!--/default-->
 <!--type-->String<!--/type-->

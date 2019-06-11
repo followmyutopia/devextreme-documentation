@@ -1,3 +1,4 @@
+<!--id-->BaseGauge.Options.scale.scaleDivisionFactor<!--/id-->
 ===========================================================================
 <!--default-->17<!--/default-->
 <!--type-->Number<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->DOMComponent.Options.onDisposing<!--/id-->
 <!--merge--><!--/merge-->
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

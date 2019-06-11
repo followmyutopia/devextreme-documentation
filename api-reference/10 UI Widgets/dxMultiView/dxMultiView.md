@@ -1,3 +1,4 @@
+<!--id-->dxMultiView<!--/id-->
 <!--widgettree-->
 dataSource: [
     { text: "Super Mart of the West" },

@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.paging.enabled<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

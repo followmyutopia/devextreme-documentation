@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.sliderMarker.placeholderHeight<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->

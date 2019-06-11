@@ -1,3 +1,4 @@
+<!--id-->dxSparkline.Options.lineWidth<!--/id-->
 ===========================================================================
 <!--default-->2<!--/default-->
 <!--type-->Number<!--/type-->

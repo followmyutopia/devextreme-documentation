@@ -1,3 +1,4 @@
+<!--id-->dxPolarChart<!--/id-->
 <!--widgettree-->
 dataSource: [{
     arg: "Monday",

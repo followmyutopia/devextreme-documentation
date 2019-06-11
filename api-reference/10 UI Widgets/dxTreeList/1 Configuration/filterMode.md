@@ -1,3 +1,4 @@
+<!--id-->dxTreeList.Options.filterMode<!--/id-->
 ===========================================================================
 <!--default-->'withAncestors'<!--/default-->
 <!--acceptValues-->'fullBranch' | 'withAncestors'<!--/acceptValues-->

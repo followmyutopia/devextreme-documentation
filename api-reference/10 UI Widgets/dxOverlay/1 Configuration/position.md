@@ -1,3 +1,4 @@
+<!--id-->dxOverlay.Options.position<!--/id-->
 ===========================================================================
 <!--default-->{ my: 'center', at: 'center', of: window }<!--/default-->
 <!--firedEvents-->positioning, positioned<!--/firedEvents-->

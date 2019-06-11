@@ -1,3 +1,4 @@
+<!--id-->CollectionWidget.Options.itemHoldTimeout<!--/id-->
 ===========================================================================
 <!--default-->750<!--/default-->
 <!--type-->Number<!--/type-->

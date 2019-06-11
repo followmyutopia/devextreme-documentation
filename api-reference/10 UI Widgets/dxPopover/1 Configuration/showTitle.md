@@ -1,3 +1,4 @@
+<!--id-->dxPopover.Options.showTitle<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

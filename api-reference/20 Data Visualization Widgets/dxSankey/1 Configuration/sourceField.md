@@ -1,3 +1,4 @@
+<!--id-->dxSankey.Options.sourceField<!--/id-->
 ===========================================================================
 <!--default-->'source'<!--/default-->
 <!--type-->String<!--/type-->

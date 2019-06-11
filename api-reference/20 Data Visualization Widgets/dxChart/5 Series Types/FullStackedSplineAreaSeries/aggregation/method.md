@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.FullStackedSplineAreaSeries.aggregation.method<!--/id-->
 ===========================================================================
 <!--default-->'avg'<!--/default-->
 <!--acceptValues-->'avg' | 'count' | 'max' | 'min' | 'sum' | 'custom'<!--/acceptValues-->

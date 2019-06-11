@@ -1,3 +1,4 @@
+<!--id-->dxTextEditor.Options.stylingMode<!--/id-->
 ===========================================================================
 <!--default-->'outlined', 'underlined' (Material)<!--/default-->
 <!--acceptValues-->'outlined' | 'underlined' | 'filled'<!--/acceptValues-->

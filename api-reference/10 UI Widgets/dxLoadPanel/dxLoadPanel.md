@@ -1,3 +1,4 @@
+<!--id-->dxLoadPanel<!--/id-->
 <!--widgettree-->
 visible: true
 <!--/widgettree-->

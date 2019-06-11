@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CommonSeries.showInLegend<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

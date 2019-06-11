@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.editing.mode<!--/id-->
 ===========================================================================
 <!--default-->'row'<!--/default-->
 <!--acceptValues-->'batch' | 'cell' | 'row' | 'form' | 'popup'<!--/acceptValues-->

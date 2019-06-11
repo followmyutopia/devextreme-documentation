@@ -1,3 +1,4 @@
+<!--id-->GridBaseColumn.sortIndex<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

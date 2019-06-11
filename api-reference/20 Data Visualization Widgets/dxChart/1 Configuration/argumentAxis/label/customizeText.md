@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.argumentAxis.label.customizeText<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(argument)<!--/type-->

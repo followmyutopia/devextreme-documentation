@@ -1,3 +1,4 @@
+<!--id-->dxScheduler.Options.dataCellTemplate<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->template<!--/type-->

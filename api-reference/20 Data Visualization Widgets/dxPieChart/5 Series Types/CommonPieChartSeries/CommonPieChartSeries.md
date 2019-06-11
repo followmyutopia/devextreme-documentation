@@ -1,3 +1,4 @@
+<!--id-->dxPieChartSeriesTypes.CommonPieChartSeries<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--type-->Object<!--/type-->

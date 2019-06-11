@@ -1,3 +1,4 @@
+<!--id-->animationPresets<!--/id-->
 ===========================================================================
 <!--module-->animation/presets<!--/module-->
 <!--export-->default<!--/export-->

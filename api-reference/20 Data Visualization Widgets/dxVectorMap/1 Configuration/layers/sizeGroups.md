@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.layers.sizeGroups<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Array<Number><!--/type-->

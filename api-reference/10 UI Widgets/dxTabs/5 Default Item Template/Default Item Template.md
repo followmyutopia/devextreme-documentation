@@ -1,3 +1,4 @@
+<!--id-->dxTabsItem<!--/id-->
 ===========================================================================
 <!--type-->Object<!--/type-->
 <!--inherits-->..\..\CollectionWidget\5 Default Item Template\Default Item Template.md<!--/inherits-->

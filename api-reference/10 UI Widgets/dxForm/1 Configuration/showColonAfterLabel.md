@@ -1,3 +1,4 @@
+<!--id-->dxForm.Options.showColonAfterLabel<!--/id-->
 ===========================================================================
 <!--default-->true, false (Material)<!--/default-->
 <!--type-->Boolean<!--/type-->

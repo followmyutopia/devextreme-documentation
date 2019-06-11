@@ -1,3 +1,4 @@
+<!--id-->dxDataGrid.Options.summary.skipEmptyValues<!--/id-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

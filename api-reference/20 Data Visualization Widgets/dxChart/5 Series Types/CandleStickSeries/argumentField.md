@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.CandleStickSeries.argumentField<!--/id-->
 ===========================================================================
 <!--default-->'date'<!--/default-->
 <!--type-->String<!--/type-->

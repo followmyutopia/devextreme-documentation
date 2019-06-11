@@ -1,3 +1,4 @@
+<!--id-->dxTextEditor.Options.onEnterKey<!--/id-->
 <!--EventForAction-->..\4 Events\enterKey.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

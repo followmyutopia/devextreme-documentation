@@ -1,3 +1,4 @@
+<!--id-->dxChart.Options.valueAxis.type<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'continuous' | 'discrete' | 'logarithmic'<!--/acceptValues-->

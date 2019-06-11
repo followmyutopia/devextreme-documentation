@@ -1,3 +1,4 @@
+<!--id-->UI Events.dxhoverend<!--/id-->
 ===========================================================================
 <!--module-->events/hover<!--/module-->
 <!--type-->eventType<!--/type-->

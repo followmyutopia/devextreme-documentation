@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.layers.selectedBorderWidth<!--/id-->
 ===========================================================================
 <!--default-->2<!--/default-->
 <!--type-->Number<!--/type-->

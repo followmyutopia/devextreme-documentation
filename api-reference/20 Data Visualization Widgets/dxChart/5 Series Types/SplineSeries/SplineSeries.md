@@ -1,3 +1,4 @@
+<!--id-->dxChartSeriesTypes.SplineSeries<!--/id-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->Object<!--/type-->

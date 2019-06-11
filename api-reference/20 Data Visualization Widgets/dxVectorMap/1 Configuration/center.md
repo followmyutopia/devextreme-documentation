@@ -1,3 +1,4 @@
+<!--id-->dxVectorMap.Options.center<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->[0, 0]<!--/default-->

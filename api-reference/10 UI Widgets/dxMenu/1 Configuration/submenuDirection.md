@@ -1,3 +1,4 @@
+<!--id-->dxMenu.Options.submenuDirection<!--/id-->
 ===========================================================================
 <!--default-->'auto'<!--/default-->
 <!--acceptValues-->'auto' | 'leftOrTop' | 'rightOrBottom'<!--/acceptValues-->

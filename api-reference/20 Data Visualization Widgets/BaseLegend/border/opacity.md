@@ -1,3 +1,4 @@
+<!--id-->BaseLegend.border.opacity<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->

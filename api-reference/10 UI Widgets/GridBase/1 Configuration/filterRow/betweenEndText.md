@@ -1,3 +1,4 @@
+<!--id-->GridBase.Options.filterRow.betweenEndText<!--/id-->
 ===========================================================================
 <!--default-->'End'<!--/default-->
 <!--type-->String<!--/type-->

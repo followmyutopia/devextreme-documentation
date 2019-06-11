@@ -1,3 +1,4 @@
+<!--id-->dxRangeSelector.Options.scale.endValue<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->

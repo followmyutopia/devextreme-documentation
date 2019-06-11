@@ -1,3 +1,4 @@
+<!--id-->dxDropDownButton.Options.items<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->Array<CollectionWidgetItem, Object><!--/type-->

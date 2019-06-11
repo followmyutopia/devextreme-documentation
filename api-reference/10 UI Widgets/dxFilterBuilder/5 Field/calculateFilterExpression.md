@@ -1,3 +1,4 @@
+<!--id-->dxFilterBuilderField.calculateFilterExpression<!--/id-->
 ===========================================================================
 <!--type-->function(filterValue, selectedFilterOperation)<!--/type-->
 ===========================================================================

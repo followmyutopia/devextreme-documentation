@@ -1,3 +1,4 @@
+<!--id-->dxList.Options.allowItemDeleting<!--/id-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxSparkline.Options.lossColor<!--/id-->
 ===========================================================================
 <!--default-->'#d7d7d7'<!--/default-->
 <!--type-->String<!--/type-->

@@ -1,3 +1,4 @@
+<!--id-->dxHtmlEditor.Options.variables<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->dxHtmlEditorVariables<!--/type-->
