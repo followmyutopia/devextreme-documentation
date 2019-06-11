@@ -17,7 +17,7 @@ The event supports the **direction** option, which specifies whether the event i
 <!--typeFunctionParamName1-->event<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->event<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The event that caused the handler execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/category/events/event-object/) when you use jQuery. The following fields are added to existing fields of this argument object. 
+#include common-ref-eventparam The following fields are added to existing fields of this argument object. 
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->offset<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->number<!--/typeFunctionParamType1_field1-->

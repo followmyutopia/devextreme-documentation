@@ -25,7 +25,7 @@ The settings of the column to which the header belongs.
 <!--typeFunctionParamName1-->columnHeader<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->dxElement<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The current header's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
+#include common-ref-elementparam with { element: "current header" }
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->headerInfo<!--/typeFunctionParamName2-->

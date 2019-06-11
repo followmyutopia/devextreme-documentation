@@ -67,7 +67,7 @@ You should call the [updateDimensions()](/Documentation/ApiReference/UI_Widgets/
 <!--typeFunctionParamName1-->detailElement<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->dxElement<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The detail section's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
+#include common-ref-elementparam with { element: "detail section" }
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->detailInfo<!--/typeFunctionParamName2-->

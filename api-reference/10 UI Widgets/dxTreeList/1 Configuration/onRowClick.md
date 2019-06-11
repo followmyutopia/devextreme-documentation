@@ -27,7 +27,7 @@ The widget's instance.
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The widget's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
+#include common-ref-elementparam with { element: "widget" }
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
@@ -43,7 +43,7 @@ The jQuery event that caused the function's execution. Deprecated in favor of th
 <!--typeFunctionParamName1_field5-->event<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->event<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The event that caused the function's execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/category/events/event-object/) when you use jQuery.
+#include common-ref-eventparam
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->data<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->Object<!--/typeFunctionParamType1_field6-->
@@ -89,7 +89,7 @@ Indicates whether the row is expanded or collapsed. Available if **rowType** is 
 <!--typeFunctionParamName1_field14-->rowElement<!--/typeFunctionParamName1_field14-->
 <!--typeFunctionParamType1_field14-->dxElement<!--/typeFunctionParamType1_field14-->
 <!--typeFunctionParamDescription1_field14-->
-The row's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
+#include common-ref-elementparam with { element: "row" }
 <!--/typeFunctionParamDescription1_field14-->
 <!--typeFunctionParamName1_field15-->handled<!--/typeFunctionParamName1_field15-->
 <!--typeFunctionParamType1_field15-->Boolean<!--/typeFunctionParamType1_field15-->

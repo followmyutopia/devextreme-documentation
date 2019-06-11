@@ -31,5 +31,5 @@ The widget's instance.
 <!--typeFunctionParamName1_field3-->element<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->dxElement<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-#include common-ref-elementparam
+#include common-ref-elementparam with { element: "widget" }
 <!--/typeFunctionParamDescription1_field3-->

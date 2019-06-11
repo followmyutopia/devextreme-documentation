@@ -111,7 +111,7 @@ The widget's instance.
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The widget's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
+#include common-ref-elementparam with { element: "widget" }
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
@@ -182,7 +182,7 @@ Indicates whether the row is expanded or collapsed. Unavailable if **rowType** i
 <!--typeFunctionParamName1_field16-->cellElement<!--/typeFunctionParamName1_field16-->
 <!--typeFunctionParamType1_field16-->dxElement<!--/typeFunctionParamType1_field16-->
 <!--typeFunctionParamDescription1_field16-->
-The cell's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
+#include common-ref-elementparam with { element: "cell" }
 <!--/typeFunctionParamDescription1_field16-->
 <!--typeFunctionParamName1_field17-->watch<!--/typeFunctionParamName1_field17-->
 <!--typeFunctionParamType1_field17-->function()<!--/typeFunctionParamType1_field17-->

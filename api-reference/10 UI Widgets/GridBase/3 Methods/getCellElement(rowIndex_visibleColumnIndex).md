@@ -20,7 +20,8 @@ The visible index of the column to which the cell belongs.
 
 <!--returnType-->dxElement|undefined<!--/returnType-->
 <!--returnDescription-->
-The cell's container. An [HTML element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery element](http://api.jquery.com/Types/#jQuery) when you use jQuery. If the specified row or column does not exist, the method returns **undefined**.
+#include common-ref-elementparam with { element: "cell" }
+If the specified row or column does not exist, the method returns **undefined**.
 <!--/returnDescription-->
 
 <!--fullDescription-->

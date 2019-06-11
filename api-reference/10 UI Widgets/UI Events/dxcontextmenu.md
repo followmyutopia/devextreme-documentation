@@ -15,5 +15,5 @@ Raised when the right mouse button is clicked on the element or when the element
 <!--typeFunctionParamName1-->event<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->event<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The event that caused the handler execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/category/events/event-object/) when you use jQuery. 
+#include common-ref-eventparam 
 <!--/typeFunctionParamDescription1-->

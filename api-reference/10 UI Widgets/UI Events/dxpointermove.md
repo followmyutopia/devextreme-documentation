@@ -15,7 +15,7 @@ Raised when any pointer parameter has been changed. (Position, tilt, pressure, b
 <!--typeFunctionParamName1-->event<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->event<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The event that caused the handler execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/category/events/event-object/) when you use jQuery. The following field is added to existing fields of this argument object. 
+#include common-ref-eventparam The following field is added to existing fields of this argument object. 
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->pointerType<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->string<!--/typeFunctionParamType1_field1-->
