@@ -31,7 +31,7 @@ Buttons to be displayed in the dialog.
 <!--paramName1_field4-->showTitle<!--/paramName1_field4-->
 <!--paramType1_field4-->Boolean<!--/paramType1_field4-->
 <!--paramDescription1_field4-->
-Specifies whether to show the title.
+Specifies whether to show the title. Defaults to **true**.
 <!--/paramDescription1_field4-->
 <!--paramName1_field5-->message<!--/paramName1_field5-->
 <!--paramType1_field5-->String<!--/paramType1_field5-->
@@ -42,7 +42,8 @@ The dialog's message. Deprecated in favor of the **messageHtml** field.
 <!--paramName1_field6-->dragEnabled<!--/paramName1_field6-->
 <!--paramType1_field6-->Boolean<!--/paramType1_field6-->
 <!--paramDescription1_field6-->
-
+Specifies whether the dialog window can be dragged. Defaults to the **showTitle** value.        
+Ensure the **showTitle** field is not explicitly set to **false** because a user can drag the dialog only by its title.
 <!--/paramDescription1_field6-->
 
 <!--returnType-->Object<!--/returnType-->
