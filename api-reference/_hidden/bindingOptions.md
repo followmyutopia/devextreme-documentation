@@ -1,13 +1,11 @@
-<!--id-->ChartSeries<!--/id-->
+<!--id-->DOMComponent.Options.bindingOptions<!--/id-->
 ===========================================================================
-<!--hidden--><!--/hidden-->
+<!--default-->{}<!--/default-->
 <!--type-->Object<!--/type-->
-<!--inlineType--><!--/inlineType-->
-<!--inherits-->..\CommonSeries\CommonSeries.md<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies options for Chart widget series.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -1,13 +1,13 @@
-<!--id-->ChartSeries<!--/id-->
+<!--id-->dxRecurrenceEditor.Options.firstDayOfWeek<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
-<!--type-->Object<!--/type-->
-<!--inlineType--><!--/inlineType-->
-<!--inherits-->..\CommonSeries\CommonSeries.md<!--/inherits-->
+<!--default-->undefined<!--/default-->
+<!--acceptValues-->0 | 1 | 2 | 3 | 4 | 5 | 6<!--/acceptValues-->
+<!--type-->Number<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies options for Chart widget series.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

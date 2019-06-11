@@ -1,13 +1,11 @@
-<!--id-->ChartSeries<!--/id-->
+<!--id-->dxChartAnnotationConfig<!--/id-->
 ===========================================================================
-<!--hidden--><!--/hidden-->
 <!--type-->Object<!--/type-->
-<!--inlineType--><!--/inlineType-->
-<!--inherits-->..\CommonSeries\CommonSeries.md<!--/inherits-->
+<!--inherits-->..\dxChartCommonAnnotationConfig\dxChartCommonAnnotationConfig.md<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies options for Chart widget series.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

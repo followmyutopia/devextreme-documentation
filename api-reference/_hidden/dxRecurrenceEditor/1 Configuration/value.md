@@ -1,13 +1,12 @@
-<!--id-->ChartSeries<!--/id-->
+<!--id-->dxRecurrenceEditor.Options.value<!--/id-->
 ===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->Object<!--/type-->
-<!--inlineType--><!--/inlineType-->
-<!--inherits-->..\CommonSeries\CommonSeries.md<!--/inherits-->
+<!--default-->null<!--/default-->
+<!--type-->String<!--/type-->
+<!--firedEvents-->valueChanged<!--/firedEvents-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies options for Chart widget series.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

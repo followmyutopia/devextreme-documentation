@@ -1,13 +1,11 @@
-<!--id-->ChartSeries<!--/id-->
+<!--id-->devices<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
-<!--type-->Object<!--/type-->
-<!--inlineType--><!--/inlineType-->
-<!--inherits-->..\CommonSeries\CommonSeries.md<!--/inherits-->
+<!--type-->DevicesObject<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies options for Chart widget series.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

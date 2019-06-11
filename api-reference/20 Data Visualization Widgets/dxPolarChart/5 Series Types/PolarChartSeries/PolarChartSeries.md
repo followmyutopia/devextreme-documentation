@@ -1,6 +1,7 @@
 <!--id-->PolarChartSeries<!--/id-->
 ===========================================================================
 <!--type-->Object<!--/type-->
+<!--inlineType--><!--/inlineType-->
 <!--inherits-->..\CommonPolarChartSeries\CommonPolarChartSeries.md<!--/inherits-->
 ===========================================================================
 

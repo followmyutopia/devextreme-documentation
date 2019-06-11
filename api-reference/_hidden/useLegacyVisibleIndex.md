@@ -1,13 +1,11 @@
-<!--id-->ChartSeries<!--/id-->
+<!--id-->globalConfig.useLegacyVisibleIndex<!--/id-->
 ===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->Object<!--/type-->
-<!--inlineType--><!--/inlineType-->
-<!--inherits-->..\CommonSeries\CommonSeries.md<!--/inherits-->
+<!--default-->false<!--/default-->
+<!--type-->Boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies options for Chart widget series.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

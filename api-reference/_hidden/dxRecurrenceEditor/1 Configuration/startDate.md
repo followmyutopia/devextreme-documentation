@@ -1,13 +1,12 @@
-<!--id-->ChartSeries<!--/id-->
+<!--id-->dxRecurrenceEditor.Options.startDate<!--/id-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
-<!--type-->Object<!--/type-->
-<!--inlineType--><!--/inlineType-->
-<!--inherits-->..\CommonSeries\CommonSeries.md<!--/inherits-->
+<!--default-->new Date()<!--/default-->
+<!--type-->Date<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies options for Chart widget series.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

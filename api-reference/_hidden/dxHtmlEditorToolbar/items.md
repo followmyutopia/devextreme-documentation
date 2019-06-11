@@ -1,13 +1,10 @@
-<!--id-->ChartSeries<!--/id-->
+<!--id-->dxHtmlEditorToolbar.items<!--/id-->
 ===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->Object<!--/type-->
-<!--inlineType--><!--/inlineType-->
-<!--inherits-->..\CommonSeries\CommonSeries.md<!--/inherits-->
+<!--type-->Array<dxHtmlEditorToolbarItem, String><!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies options for Chart widget series.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -1,13 +1,11 @@
-<!--id-->ChartSeries<!--/id-->
+<!--id-->dxDataGridColumn<!--/id-->
 ===========================================================================
-<!--hidden--><!--/hidden-->
 <!--type-->Object<!--/type-->
-<!--inlineType--><!--/inlineType-->
-<!--inherits-->..\CommonSeries\CommonSeries.md<!--/inherits-->
+<!--inherits-->..\GridBaseColumn\GridBaseColumn.md<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies options for Chart widget series.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

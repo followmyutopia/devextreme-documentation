@@ -1,13 +1,11 @@
-<!--id-->ChartSeries<!--/id-->
+<!--id-->dxTreeListColumnButton<!--/id-->
 ===========================================================================
-<!--hidden--><!--/hidden-->
 <!--type-->Object<!--/type-->
-<!--inlineType--><!--/inlineType-->
-<!--inherits-->..\CommonSeries\CommonSeries.md<!--/inherits-->
+<!--inherits-->..\..\10 UI Widgets\GridBase\1 Configuration\columns\buttons\buttons.md<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies options for Chart widget series.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

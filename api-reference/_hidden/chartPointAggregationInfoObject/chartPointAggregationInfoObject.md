@@ -1,13 +1,10 @@
-<!--id-->ChartSeries<!--/id-->
+<!--id-->chartPointAggregationInfoObject<!--/id-->
 ===========================================================================
-<!--hidden--><!--/hidden-->
 <!--type-->Object<!--/type-->
-<!--inlineType--><!--/inlineType-->
-<!--inherits-->..\CommonSeries\CommonSeries.md<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies options for Chart widget series.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->
