@@ -24,7 +24,7 @@ variables: {
 <!--shortDescription-->
 [tags] ctp
 
-**HtmlEditor** is a WYSIWYG text editor build on top of [Quill](https://quilljs.com/), designed to support HTML and Markdown output formats.
+**HtmlEditor** is a WYSIWYG text editor build on top of <a href="https://quilljs.com/" target="_blank">Quill</a>, designed to support HTML and Markdown output formats.
 
 #include common-ctp-note with {
     component: "HtmlEditor"
@@ -32,7 +32,7 @@ variables: {
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note] The **HtmlEditor** requires the [Quill](https://www.npmjs.com/package/quill) library.
+[note] The **HtmlEditor** requires the <a href="https://www.npmjs.com/package/quill" target="_blank">Quill</a> library.
 
 #include common-ref-roottopic-introduction
 

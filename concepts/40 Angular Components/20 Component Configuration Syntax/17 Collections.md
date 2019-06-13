@@ -16,7 +16,7 @@ For options that accept either an object or a collection, use components prefixe
         </dxi-value-axis>
     </dx-chart>
 
-A special `dxi-` component, `dxi-item`, is designed to declare items in collection widgets. It supports [structural directives](https://angular.io/docs/ts/latest/guide/structural-directives) provided by Angular, for instance, `ngFor`. The following code shows how to use `dxi-item` to declare items in the [List](/Demos/WidgetsGallery/Demo/List/ItemTemplate/Angular/Light/) widget.
+A special `dxi-` component, `dxi-item`, is designed to declare items in collection widgets. It supports <a href="https://angular.io/docs/ts/latest/guide/structural-directives" target="_blank">structural directives</a> provided by Angular, for instance, `ngFor`. The following code shows how to use `dxi-item` to declare items in the [List](/Demos/WidgetsGallery/Demo/List/ItemTemplate/Angular/Light/) widget.
 
 `dxi-item` also supports directives that control parts of item appearance, such as `badge` in the code below. They are described in the [Default Item Template](/Documentation/ApiReference/UI_Widgets/dxList/Default_Item_Template/) section of each collection widget.
 

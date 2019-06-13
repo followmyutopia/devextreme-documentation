@@ -192,7 +192,7 @@ Using the default item template is the easiest way to customize an item, but it 
 
 ---
 
-If you use jQuery alone, combine the HTML markup manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply the markup to items on the toolbar and commands on the overflow menu, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxToolbar/Configuration/#itemTemplate) and [menuItemTemplate](/Documentation/ApiReference/UI_Widgets/dxToolbar/Configuration/#menuItemTemplate) callback functions, respectively.
+If you use jQuery alone, combine the HTML markup manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply the markup to items on the toolbar and commands on the overflow menu, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxToolbar/Configuration/#itemTemplate) and [menuItemTemplate](/Documentation/ApiReference/UI_Widgets/dxToolbar/Configuration/#menuItemTemplate) callback functions, respectively.
 
     <!--JavaScript-->
     $(function() {

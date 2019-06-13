@@ -15,9 +15,9 @@ This setting applies the global default currency - *'USD'*. It is specified by t
     
 To use any currency that differs from USD, follow these steps.
 
-1. Get the *currencies.json* file that corresponds to your locale from one of the folders [here](https://github.com/unicode-cldr/cldr-numbers-modern/tree/master/main).
-2. Load the contents of this file in your app using one of the methods described [here](https://github.com/jquery/globalize/blob/master/doc/cldr.md#how-do-i-load-cldr-data-into-globalize).
-3. Assign the [3-letter code](http://www.currency-iso.org/en/home/tables/table-a1.html) of the needed currency to the **format**.[currency](/Documentation/ApiReference/Common/Object_Structures/format/#currency) option.
+1. Get the *currencies.json* file that corresponds to your locale from one of the folders <a href="https://github.com/unicode-cldr/cldr-numbers-modern/tree/master/main" target="_blank">here</a>.
+2. Load the contents of this file in your app using one of the methods described <a href="https://github.com/jquery/globalize/blob/master/doc/cldr.md#how-do-i-load-cldr-data-into-globalize" target="_blank">here</a>.
+3. Assign the <a href="http://www.currency-iso.org/en/home/tables/table-a1.html" target="_blank">3-letter code</a> of the needed currency to the **format**.[currency](/Documentation/ApiReference/Common/Object_Structures/format/#currency) option.
 
         <!--JavaScript-->var widgetOptions = {
             // ...
@@ -51,7 +51,7 @@ If you do not need to change neither the **currency** nor the **precision** fiel
         }
     };
     
-Alternatively, you can use a native formatter of the Globalize library. In this case, the **format** option accepts an object whose fields are the same as the options passed to the [currencyFormatter](https://github.com/jquery/globalize/blob/master/doc/api/currency/currency-formatter.md).
+Alternatively, you can use a native formatter of the Globalize library. In this case, the **format** option accepts an object whose fields are the same as the options passed to the <a href="https://github.com/jquery/globalize/blob/master/doc/api/currency/currency-formatter.md" target="_blank">currencyFormatter</a>.
 
     <!--JavaScript-->var widgetOptions = {
         // ...
@@ -63,4 +63,4 @@ Alternatively, you can use a native formatter of the Globalize library. In this 
         }
     };
 
-Note that you must not set the **type** option if you use a Globalize formatter. Also, this approach might require additional [CLDR modules](https://github.com/jquery/globalize/blob/master/README.md#2-cldr-content) not shipped with the DevExtreme package.
+Note that you must not set the **type** option if you use a Globalize formatter. Also, this approach might require additional <a href="https://github.com/jquery/globalize/blob/master/README.md#2-cldr-content" target="_blank">CLDR modules</a> not shipped with the DevExtreme package.

@@ -36,7 +36,7 @@ The **format** option also accepts strings. Use this capability as a shortcut fo
         }
     };
     
-Alternatively, you can use a native formatter of the Globalize library. In this case, the **format** option accepts an object whose fields are the same as the options passed to the [numberFormatter](https://github.com/jquery/globalize/blob/master/doc/api/number/number-formatter.md).
+Alternatively, you can use a native formatter of the Globalize library. In this case, the **format** option accepts an object whose fields are the same as the options passed to the <a href="https://github.com/jquery/globalize/blob/master/doc/api/number/number-formatter.md" target="_blank">numberFormatter</a>.
 
     <!--JavaScript-->var widgetOptions = {
         // ...
@@ -48,4 +48,4 @@ Alternatively, you can use a native formatter of the Globalize library. In this 
         }
     };
 
-Note that you must not set the **type** option if you use a Globalize formatter. Also, this approach might require additional [CLDR modules](https://github.com/jquery/globalize/blob/master/README.md#2-cldr-content) not shipped with the DevExtreme package.
+Note that you must not set the **type** option if you use a Globalize formatter. Also, this approach might require additional <a href="https://github.com/jquery/globalize/blob/master/README.md#2-cldr-content" target="_blank">CLDR modules</a> not shipped with the DevExtreme package.

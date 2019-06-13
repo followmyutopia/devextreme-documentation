@@ -23,7 +23,7 @@ An event name.
 <!--paramName3-->selector<!--/paramName3-->
 <!--paramType3-->String<!--/paramType3-->
 <!--paramDescription3-->
-A [CSS selector](https://www.w3schools.com/cssref/css_selectors.asp) passed to the **on** method when attaching handlers.
+A <a href="https://www.w3schools.com/cssref/css_selectors.asp" target="_blank">CSS selector</a> passed to the **on** method when attaching handlers.
 <!--/paramDescription3-->
 
 <!--fullDescription-->

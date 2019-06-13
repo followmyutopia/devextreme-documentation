@@ -6,7 +6,7 @@ To apply the function, assign it to the series' **aggregation**.[calculate](/Doc
     url: "/Demos/WidgetsGallery/Demo/Charts/PointsAggregation/jQuery/Light/"
 }
 
-In the following code, a custom aggregation function implements the [median filter](http://en.wikipedia.org/wiki/Median_filter) algorithm:
+In the following code, a custom aggregation function implements the <a href="http://en.wikipedia.org/wiki/Median_filter" target="_blank">median filter</a> algorithm:
 
 ---
 ##### jQuery

@@ -153,7 +153,7 @@ The following tasks require using different API in deferred mode:
 
 - **Getting the selected rows' data**  
 
-    In deferred mode, the [getSelectedRowsData()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#getSelectedRowsData) and [getSelectedRowKeys()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#getSelectedRowKeys) methods return a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery. Get the data within the callback function that resolves the Promise. This is data before being processed in the **DataSource**.
+    In deferred mode, the [getSelectedRowsData()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#getSelectedRowsData) and [getSelectedRowKeys()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#getSelectedRowKeys) methods return a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery. Get the data within the callback function that resolves the Promise. This is data before being processed in the **DataSource**.
     
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Data_Grid/DeferredSelection/jQuery/Light/"

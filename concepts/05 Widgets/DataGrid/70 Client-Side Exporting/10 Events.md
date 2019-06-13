@@ -7,7 +7,7 @@ Allows you to request export details or prevent export. Can also be used to adju
 Allows you to notify an end user when exporting is completed.
 
 - [fileSaving](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#fileSaving)        
-Allows you to access the exported data in the [BLOB](https://en.wikipedia.org/wiki/Binary_large_object) format and/or prevent it from being saved on the user's local storage.
+Allows you to access the exported data in the <a href="https://en.wikipedia.org/wiki/Binary_large_object" target="_blank">BLOB</a> format and/or prevent it from being saved on the user's local storage.
 
 You can handle these events with functions. Assign the handling functions to the [onExporting](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExporting), [onExported](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExported) and [onFileSaving](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onFileSaving) options when you configure the widget if they are going to remain unchanged at runtime.
 

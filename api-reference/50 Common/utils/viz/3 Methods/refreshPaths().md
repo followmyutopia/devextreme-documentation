@@ -9,7 +9,7 @@ The method to be called every time the active entry in the browser history is mo
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Each data visualization widget addresses its inner elements by their URLs. Those URLs break when the active history entry is modified without reloading the current page (see [Adding and modifying history entries](https://developer.mozilla.org/en-US/docs/Web/API/History_API#Adding_and_modifying_history_entries)). As a result, some widget elements may get mixed up or disappear completely. To fix the URLs, call the **refreshPaths()** method right after the history entry  modification, _and_ in the [onpopstate](https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onpopstate) event handler or, if you use a routing library, in its counterpart.
+Each data visualization widget addresses its inner elements by their URLs. Those URLs break when the active history entry is modified without reloading the current page (see <a href="https://developer.mozilla.org/en-US/docs/Web/API/History_API#Adding_and_modifying_history_entries" target="_blank">Adding and modifying history entries</a>). As a result, some widget elements may get mixed up or disappear completely. To fix the URLs, call the **refreshPaths()** method right after the history entry  modification, _and_ in the <a href="https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onpopstate" target="_blank">onpopstate</a> event handler or, if you use a routing library, in its counterpart.
 
     <!--JavaScript-->window.history.pushState({ foo: "bar" }, "title", "?foo=bar");
     DevExpress.viz.refreshPaths();

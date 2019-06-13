@@ -4,4 +4,4 @@ This option supports the following colors:
 * RGB colors
 * RGBA colors
 * Predefined/cross-browser color names
-* [Predefined SVG colors](http://www.w3.org/TR/SVG/types.html#ColorKeywords)
+* <a href="http://www.w3.org/TR/SVG/types.html#ColorKeywords" target="_blank">Predefined SVG colors</a>

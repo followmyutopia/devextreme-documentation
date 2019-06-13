@@ -39,7 +39,7 @@
         }
     ?>
 
-[note]The PHP function [http\_response\_code](http://php.net/manual/en/function.http-response-code.php) can be used in PHP 5 since version 5.4.0. In earlier versions, use the [header](http://php.net/manual/en/function.header.php) function instead.
+[note]The PHP function <a href="http://php.net/manual/en/function.http-response-code.php" target="_blank">http\_response\_code</a> can be used in PHP 5 since version 5.4.0. In earlier versions, use the <a href="http://php.net/manual/en/function.header.php" target="_blank">header</a> function instead.
 
 #####See Also#####
-- [Common Security Concerns](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Sending_and_retrieving_form_data#Common_security_concerns)
+- <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Sending_and_retrieving_form_data#Common_security_concerns" target="_blank">Common Security Concerns</a>

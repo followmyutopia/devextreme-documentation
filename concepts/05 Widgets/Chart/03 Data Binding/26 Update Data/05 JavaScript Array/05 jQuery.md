@@ -1,4 +1,4 @@
-Make changes to the array using [standard methods](http://www.w3schools.com/js/js_array_methods.asp). Then, reassign the updated array to the **Chart** using the [option(optionName, optionValue)](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#optionoptionName_optionValue) method.
+Make changes to the array using <a href="http://www.w3schools.com/js/js_array_methods.asp" target="_blank">standard methods</a>. Then, reassign the updated array to the **Chart** using the [option(optionName, optionValue)](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#optionoptionName_optionValue) method.
 
     <!--JavaScript-->var fruits = [
         { fruit: 'Apples', count: 10 },

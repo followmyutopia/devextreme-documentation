@@ -3,7 +3,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets a format, module, or [Parchment](https://github.com/quilljs/parchment/).
+Gets a format, module, or <a href="https://github.com/quilljs/parchment/" target="_blank">Parchment</a>.
 <!--/shortDescription-->
 
 <!--paramName1-->componentPath<!--/paramName1-->
@@ -23,11 +23,11 @@ You can perform the following tasks after getting a format, module, or Parchment
 - **Modify the format**      
 You can change the markup tag associated with the format and allowed format values, as shown in the code example after this list.
 
-- **[Extend](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends) the format or module**     
-You can extend **HtmlEditor**'s [formats](https://github.com/DevExpress/DevExtreme/tree/19_1/js/ui/html_editor/formats) and [modules](https://github.com/DevExpress/DevExtreme/tree/19_1/js/ui/html_editor/modules) and also Quill's [formats](https://github.com/quilljs/quill/tree/1.3.6/formats) and [modules](https://github.com/quilljs/quill/tree/1.3.6/modules). See the [Extend Built-In Formats and Modules](/Documentation/Guide/Widgets/HtmlEditor/Customize_Built-In_Formats_and_Modules/#Extend) topic for the code example.
+- **<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends" target="_blank">Extend</a> the format or module**     
+You can extend **HtmlEditor**'s <a href="https://github.com/DevExpress/DevExtreme/tree/19_1/js/ui/html_editor/formats" target="_blank">formats</a> and <a href="https://github.com/DevExpress/DevExtreme/tree/19_1/js/ui/html_editor/modules" target="_blank">modules</a> and also Quill's <a href="https://github.com/quilljs/quill/tree/1.3.6/formats" target="_blank">formats</a> and <a href="https://github.com/quilljs/quill/tree/1.3.6/modules" target="_blank">modules</a>. See the [Extend Built-In Formats and Modules](/Documentation/Guide/Widgets/HtmlEditor/Customize_Built-In_Formats_and_Modules/#Extend) topic for the code example.
 
 - **Create a custom format based on the Parchment**     
-Refer to the [Parchment documentation](https://github.com/quilljs/parchment/blob/master/README.md) for more information.
+Refer to the <a href="https://github.com/quilljs/parchment/blob/master/README.md" target="_blank">Parchment documentation</a> for more information.
 
 In the following code, the `bold` format is associated with the `<b>` tag instead of the default `<strong>` tag. After the modification, the format is [registered](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Methods/#registercomponents).
 

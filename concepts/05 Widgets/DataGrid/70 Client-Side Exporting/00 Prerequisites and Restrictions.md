@@ -1,4 +1,4 @@
-Client-side export requires a third-party library called [JSZip](https://stuk.github.io/jszip/). In a modular environment, it is included in the DevExtreme dependencies and is activated automatically in most of the applications. However, this does not apply to apps created with Angular CLI 6+. In such apps, you need to [register JSZip](/Documentation/Guide/Angular_Components/Getting_Started/Add_DevExtreme_to_an_Angular_CLI_Application/#Register_3rd-Party_Dependencies_in_Angular_CLI_6+/JSZip_Registration).
+Client-side export requires a third-party library called <a href="https://stuk.github.io/jszip/" target="_blank">JSZip</a>. In a modular environment, it is included in the DevExtreme dependencies and is activated automatically in most of the applications. However, this does not apply to apps created with Angular CLI 6+. In such apps, you need to [register JSZip](/Documentation/Guide/Angular_Components/Getting_Started/Add_DevExtreme_to_an_Angular_CLI_Application/#Register_3rd-Party_Dependencies_in_Angular_CLI_6+/JSZip_Registration).
 
 If your app does not use modules, reference the library on your page *before* the DevExtreme files:
 

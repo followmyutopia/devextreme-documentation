@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the [attributes](http://www.w3schools.com/tags/ref_attributes.asp) to be attached to the widget's root element.
+Specifies the <a href="http://www.w3schools.com/tags/ref_attributes.asp" target="_blank">attributes</a> to be attached to the widget's root element.
 <!--/shortDescription-->
 
 <!--fullDescription-->

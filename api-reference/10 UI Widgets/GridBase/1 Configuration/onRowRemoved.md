@@ -45,5 +45,5 @@ The key of the row. If a field providing keys is not specified in the data sourc
 <!--typeFunctionParamName1_field6-->error<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->Error<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-The standard [Error](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error) object defining an error that may occur during removal.
+The standard <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error" target="_blank">Error</a> object defining an error that may occur during removal.
 <!--/typeFunctionParamDescription1_field6-->

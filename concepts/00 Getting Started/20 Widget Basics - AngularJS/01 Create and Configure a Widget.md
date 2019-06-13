@@ -2,11 +2,11 @@ Make sure you linked all the required resources before creating a widget:
 
 - **Link Resources**: [Local Scripts](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) | [CDN Services](/Documentation/Guide/Getting_Started/Installation/CDN_Services/) | [NuGet Package](/Documentation/Guide/Getting_Started/Installation/NuGet_Package/) | [Bower Package](/Documentation/Guide/Getting_Started/Installation/Bower_Package/) | [npm Package](/Documentation/Guide/Getting_Started/Installation/npm_Package/)
 
-For operating with AngularJS, DevExtreme includes an [AngularJS module](https://docs.angularjs.org/api/ng/function/angular.module) registered under the name *"dx"*. Add it to the list of [dependencies](https://docs.angularjs.org/guide/module#module-loading-dependencies) for your application module.
+For operating with AngularJS, DevExtreme includes an <a href="https://docs.angularjs.org/api/ng/function/angular.module" target="_blank">AngularJS module</a> registered under the name *"dx"*. Add it to the list of <a href="https://docs.angularjs.org/guide/module#module-loading-dependencies" target="_blank">dependencies</a> for your application module.
 
     <!--JavaScript-->angular.module('myApp', [ 'dx' ]);
 
-The *"dx"* module contains [directives](http://docs.angularjs.org/guide/directive) that you use to create any DevExtreme widget. For instance, the `dx-button` directive creates a [Button](/Documentation/ApiReference/UI_Widgets/dxButton/) widget, `dx-range-slider` creates a [RangeSlider](/Documentation/ApiReference/UI_Widgets/dxRangeSlider/), etc. Note that all DevExtreme directives satisfy the [AngularJS normalization rules](https://docs.angularjs.org/guide/directive#normalization): **dx-***widget-name*.
+The *"dx"* module contains <a href="http://docs.angularjs.org/guide/directive" target="_blank">directives</a> that you use to create any DevExtreme widget. For instance, the `dx-button` directive creates a [Button](/Documentation/ApiReference/UI_Widgets/dxButton/) widget, `dx-range-slider` creates a [RangeSlider](/Documentation/ApiReference/UI_Widgets/dxRangeSlider/), etc. Note that all DevExtreme directives satisfy the <a href="https://docs.angularjs.org/guide/directive#normalization" target="_blank">AngularJS normalization rules</a>: **dx-***widget-name*.
 
 Any DevExtreme directive should be associated with a `<div>` HTML element, which plays the role of a container for the widget. For example, the following code creates a [Chart](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/) widget in a `<div>` container.
 
@@ -23,7 +23,7 @@ To configure a widget, pass an object to the widget directive. Note that the pro
         series: { argumentField: 'fruit', valueField: 'total' }
      }"></div>
 
-You can initialize widget options with the value of a [scope](http://docs.angularjs.org/guide/scope) property. For example, the following code declares the `fruitsData` property within the scope of a controller. The **dataSource** option of a dxChart is initialized with the value of this property.
+You can initialize widget options with the value of a <a href="http://docs.angularjs.org/guide/scope" target="_blank">scope</a> property. For example, the following code declares the `fruitsData` property within the scope of a controller. The **dataSource** option of a dxChart is initialized with the value of this property.
 
     <!--JavaScript-->function Controller ($scope) {
         $scope.fruitsData = [

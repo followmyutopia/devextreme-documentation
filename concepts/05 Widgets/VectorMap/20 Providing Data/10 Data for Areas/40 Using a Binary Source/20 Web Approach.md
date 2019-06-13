@@ -1,4 +1,4 @@
-[note] To use this approach, your web browser must support the [DataView](https://developer.mozilla.org/en-US/docs/Web/API/DataView) interface.
+[note] To use this approach, your web browser must support the <a href="https://developer.mozilla.org/en-US/docs/Web/API/DataView" target="_blank">DataView</a> interface.
 
 Reference an additional script in the head of your HTML document as follows. This script can be found in the **Lib/js/vectormap-utils** folder of your DevExtreme package.
 
@@ -15,7 +15,7 @@ Reference an additional script in the head of your HTML document as follows. Thi
 The referenced script contains the **parse()** method for parsing a binary source into the format supported by the **VectorMap** widget. There are two possible ways of using this method.
 
 - **Using a Shapefile**		
-	If you can access a required shapefile using the [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest), use the following construction.
+	If you can access a required shapefile using the <a href="https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest" target="_blank">XMLHttpRequest</a>, use the following construction.
 
 		<!--JavaScript-->DevExpress.viz.vectormaputils.parse('/shapeSources/world', { precision: 2 }, function (data) {
 			$('#mapContainer').dxVectorMap({
@@ -28,7 +28,7 @@ The referenced script contains the **parse()** method for parsing a binary sourc
 	In this code, the function's first argument specifies the URI of the source. Note that the file extension is omitted. In this case, both the *world.shp* and *world.dbf* files will be parsed. Add the *.shp* or *.dbf* extension if you need to parse a certain file. The second argument specifies the precision of the resulting shape coordinates. Within the callback function, which comes as the third argument, the resulting coordinates are assigned to the **layer**.**dataSource** option of the **VectorMap** widget.
 
 - **Using Data from an *ArrayBuffer* Source**		
-	The **parse()** method can also parse any source of the *[ArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/API/ArrayBuffer)* type. You can get a source of this type, for instance, by sending a request and specifying 'arraybuffer' as a response type.
+	The **parse()** method can also parse any source of the *<a href="https://developer.mozilla.org/en-US/docs/Web/API/ArrayBuffer" target="_blank">ArrayBuffer</a>* type. You can get a source of this type, for instance, by sending a request and specifying 'arraybuffer' as a response type.
 
 		<!--JavaScript-->var request = new XMLHttpRequest();
 		request.open('GET', '/shapeSources/world.shp');

@@ -8,7 +8,7 @@ Gets the widget's `<input>` element.
 
 <!--returnType-->dxElement<!--/returnType-->
 <!--returnDescription-->
-An [HTML element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
+An <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement" target="_blank">HTML element</a> or a <a href="http://api.jquery.com/Types/#jQuery" target="_blank">jQuery element</a> when you use jQuery.
 <!--/returnDescription-->
 
 <!--fullDescription-->

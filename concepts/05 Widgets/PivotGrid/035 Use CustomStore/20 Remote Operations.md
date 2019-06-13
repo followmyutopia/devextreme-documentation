@@ -8,11 +8,11 @@
 
 Now, the **PivotGrid** needs a special configuration of the **CustomStore** on the client and implementation of [filtering](/Documentation/Guide/Widgets/PivotGrid/Filtering/), [grouping](/Documentation/Guide/Widgets/PivotGrid/Grouping/) and [summary calculation](/Documentation/Guide/Widgets/PivotGrid/Summaries/) on the server. If the server does not perform these operations yet, employ one of the following extensions by DevExtreme. They implement server-side data processing and also configure the **CustomStore** for you. 
 
-- [DevExtreme ASP.NET Data](https://github.com/DevExpress/DevExtreme.AspNet.Data)
-- [DevExtreme PHP Data](https://github.com/DevExpress/DevExtreme-PHP-Data)
+- <a href="https://github.com/DevExpress/DevExtreme.AspNet.Data" target="_blank">DevExtreme ASP.NET Data</a>
+- <a href="https://github.com/DevExpress/DevExtreme-PHP-Data" target="_blank">DevExtreme PHP Data</a>
 
 #####See Also#####
-- [PivotGrid and Web API Example](https://github.com/DevExpress/devextreme-examples/tree/19_1/pivotgrid-webapi)
+- <a href="https://github.com/DevExpress/devextreme-examples/tree/19_1/pivotgrid-webapi" target="_blank">PivotGrid and Web API Example</a>
 
 If these extensions do not suit your needs, configure the **CustomStore** and implement server-side data processing by yourself, following the instructions given below. Define the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function for the **CustomStore**. This function accepts a bag of **loadOptions** and passes them to the server. The server must process data according to the **loadOptions** and send processed data back. 
 

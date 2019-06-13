@@ -3,12 +3,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets [Quill](https://quilljs.com/docs/api/)'s instance. 
+Gets <a href="https://quilljs.com/docs/api/" target="_blank">Quill</a>'s instance. 
 <!--/shortDescription-->
 
 <!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
-[Quill](https://quilljs.com/docs/api/)'s instance.
+<a href="https://quilljs.com/docs/api/" target="_blank">Quill</a>'s instance.
 <!--/returnDescription-->
 
 <!--fullDescription-->

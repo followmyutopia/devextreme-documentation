@@ -8,7 +8,7 @@ Allows you to customize Quill and 3rd-party modules.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Quill modules and the API you can use to customize them are described in the [Modules](https://quilljs.com/docs/modules/) documentation section. For example, the [History](https://quilljs.com/docs/modules/history/#history-module) module, which handles the undo and redo operations, can be customized as follows:
+Quill modules and the API you can use to customize them are described in the <a href="https://quilljs.com/docs/modules/" target="_blank">Modules</a> documentation section. For example, the <a href="https://quilljs.com/docs/modules/history/#history-module" target="_blank">History</a> module, which handles the undo and redo operations, can be customized as follows:
 
 ---
 ##### jQuery

@@ -2,7 +2,7 @@
 
 The **Drawer** is a dismissible or permanently visible panel used for navigation in responsive web application layouts.
 
-DevExtreme provides an [application template for Angular](https://devexpress.github.io/devextreme-angular-template/#/home). It implements a responsive layout that uses the **Drawer**. You can use this template instead of following the tutorial. Refer to the [documentation on GitHub](https://github.com/DevExpress/devextreme-angular-template/blob/master/README.md) for more information.
+DevExtreme provides an <a href="https://devexpress.github.io/devextreme-angular-template/#/home" target="_blank">application template for Angular</a>. It implements a responsive layout that uses the **Drawer**. You can use this template instead of following the tutorial. Refer to the <a href="https://github.com/DevExpress/devextreme-angular-template/blob/master/README.md" target="_blank">documentation on GitHub</a> for more information.
 
 If you do not use Angular or the template is unsuitable, follow the instructions in this tutorial. We create a **Drawer** that allows a user to switch between pages. The **Drawer** is opened and closed via a button on a toolbar.
 

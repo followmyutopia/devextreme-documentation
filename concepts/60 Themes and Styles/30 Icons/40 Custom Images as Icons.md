@@ -20,4 +20,4 @@ In addition, you can provide a specific icon variant for different states of a w
         background-position: 0px 0px;
     }
 
-Classes like `dx-tab-selected` from the previous example are not documented. [Inspect CSS rules](https://www.devexpress.com/Support/Center/Question/Details/K18570/how-to-inspect-css-rules) to find out which classes are added to the widget element you are customizing.
+Classes like `dx-tab-selected` from the previous example are not documented. <a href="https://www.devexpress.com/Support/Center/Question/Details/K18570/how-to-inspect-css-rules" target="_blank">Inspect CSS rules</a> to find out which classes are added to the widget element you are customizing.

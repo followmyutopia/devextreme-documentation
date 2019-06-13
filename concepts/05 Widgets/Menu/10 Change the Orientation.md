@@ -34,7 +34,7 @@ To arrange items on the menu panel in a row (horizontally) or in a column (verti
 
 ---
 
-If you need to shift the menu panel towards the bottom or the left side, specify [padding](http://www.w3schools.com/css/css_padding.asp) for the `<div>` that contains the widget. For example, the following code shifts the widget towards the bottom.
+If you need to shift the menu panel towards the bottom or the left side, specify <a href="http://www.w3schools.com/css/css_padding.asp" target="_blank">padding</a> for the `<div>` that contains the widget. For example, the following code shifts the widget towards the bottom.
 
     <!--HTML--><div id="menuContainer" style="padding-top:500px"></div>
 

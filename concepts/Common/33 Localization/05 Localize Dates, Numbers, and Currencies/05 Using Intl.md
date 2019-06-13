@@ -1,4 +1,4 @@
-[Intl](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl) is the short name used to refer to a particular [ECMAScript Internationalization API](http://ecma-international.org/ecma-402/1.0/) object. DevExtreme supports this API via the [DevExtreme-Intl](https://github.com/DevExpress/DevExtreme-Intl) module. It is available on CDN and npm, or you can save the module (JavaScript file) on your local machine.
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl" target="_blank">Intl</a> is the short name used to refer to a particular <a href="http://ecma-international.org/ecma-402/1.0/" target="_blank">ECMAScript Internationalization API</a> object. DevExtreme supports this API via the <a href="https://github.com/DevExpress/DevExtreme-Intl" target="_blank">DevExtreme-Intl</a> module. It is available on CDN and npm, or you can save the module (JavaScript file) on your local machine.
 
 * **CDN or local file**        
 
@@ -137,6 +137,6 @@ Strings, numbers, dates, and currencies are now automatically localized and form
 
 ---
 
-You can use structures compatible with the Intl API for value formatting. See an example in the DevExtreme-Intl README's [API](https://github.com/DevExpress/DevExtreme-Intl#api) section. The [Value Formatting](/Documentation/Guide/Common/Value_Formatting/) article provides information on the extended formatting functionality DevExtreme provides out of the box.
+You can use structures compatible with the Intl API for value formatting. See an example in the DevExtreme-Intl README's <a href="https://github.com/DevExpress/DevExtreme-Intl#api" target="_blank">API</a> section. The [Value Formatting](/Documentation/Guide/Common/Value_Formatting/) article provides information on the extended formatting functionality DevExtreme provides out of the box.
 
-You can use the [Intl-Angular](https://github.com/DevExpress/devextreme-examples/tree/19_1/intl-angular) sample project as a starting point for creating new apps or as an example to copy code from when implementing specific functionality in your app.
+You can use the <a href="https://github.com/DevExpress/devextreme-examples/tree/19_1/intl-angular" target="_blank">Intl-Angular</a> sample project as a starting point for creating new apps or as an example to copy code from when implementing specific functionality in your app.

@@ -1,4 +1,4 @@
-**Gallery** items are not sctrictly images. They can contain text or other elements of your choice. For a minor customization of **Gallery** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxGallery/Default_Item_Template/) are present or absent from the item's data object. For example, the following code generates two items: one is disabled and the other has a specified [alt attribute](http://www.w3schools.com/tags/att_img_alt.asp).
+**Gallery** items are not sctrictly images. They can contain text or other elements of your choice. For a minor customization of **Gallery** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxGallery/Default_Item_Template/) are present or absent from the item's data object. For example, the following code generates two items: one is disabled and the other has a specified <a href="http://www.w3schools.com/tags/att_img_alt.asp" target="_blank">alt attribute</a>.
 
 ---
 #####jQuery
@@ -134,7 +134,7 @@ Using the default item template is the easiest way to customize an item, but it 
 
 ---
 
-If you use jQuery alone, combine the HTML markup for menu items manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxMenu/Configuration/#itemTemplate) callback function as shown in the following code.
+If you use jQuery alone, combine the HTML markup for menu items manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxMenu/Configuration/#itemTemplate) callback function as shown in the following code.
 
     <!--JavaScript-->
     $(function () {

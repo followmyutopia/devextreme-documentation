@@ -15,7 +15,7 @@ The colors must have one of the following formats:
 * RGB colors        
 * RGBA colors       
 * Predefined/cross-browser color names      
-* [Predefined SVG colors](http://www.w3.org/TR/SVG/types.html#ColorKeywords)
+* <a href="http://www.w3.org/TR/SVG/types.html#ColorKeywords" target="_blank">Predefined SVG colors</a>
 
 #####See Also#####
 - [argumentField](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/#argumentField)

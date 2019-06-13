@@ -135,7 +135,7 @@ A single **Form** editor is validated individually once its value changes. If th
 
 <div class="simulator-desktop-container" data-view="Content/Applications/19_1/UIWidgets/dxForm/Validation/markup.html, Content/Applications/19_1/UIWidgets/dxForm/Validation/script.js, Content/Applications/19_1/UIWidgets/dxForm/common-styles.css"></div>
 
-Usually, **Form** editors should be submitted to the server after being successfully validated on the client. The following code shows how to do this using a [button form item](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/ButtonItem/). Note that the **Form** widget is wrapped in the [`<form>`](http://www.w3schools.com/html/html_forms.asp) tag in the markup.
+Usually, **Form** editors should be submitted to the server after being successfully validated on the client. The following code shows how to do this using a [button form item](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/ButtonItem/). Note that the **Form** widget is wrapped in the <a href="http://www.w3schools.com/html/html_forms.asp" target="_blank">`<form>`</a> tag in the markup.
 
 ---
 ##### jQuery

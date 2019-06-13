@@ -5,7 +5,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Encodes a string or array of bytes in [Base64](https://en.wikipedia.org/wiki/Base64).
+Encodes a string or array of bytes in <a href="https://en.wikipedia.org/wiki/Base64" target="_blank">Base64</a>.
 <!--/shortDescription-->
 
 <!--paramName1-->input<!--/paramName1-->

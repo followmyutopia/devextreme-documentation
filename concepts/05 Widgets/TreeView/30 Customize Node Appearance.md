@@ -132,7 +132,7 @@ Using the default item template is the easiest way to customize an item, but it 
 
 ---
 
-If you use jQuery alone, combine the HTML markup manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply the markup to the **TreeView** nodes, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#itemTemplate) callback function.
+If you use jQuery alone, combine the HTML markup manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply the markup to the **TreeView** nodes, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#itemTemplate) callback function.
 
     <!--JavaScript-->$(function() {
         $("#treeViewContainer").dxTreeView({

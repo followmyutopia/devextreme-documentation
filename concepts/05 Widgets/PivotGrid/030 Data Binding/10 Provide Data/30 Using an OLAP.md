@@ -2,13 +2,13 @@ DevExtreme is supplied with the [XmlaStore](/Documentation/ApiReference/Data_Lay
 
 [note] If you use another OLAP server that supports an XMLA standard, refer to the documentation for this server and learn how to configure HTTP access to it, then jump to step 6 of the list below.
 
-1.&nbsp;Install Microsoft Analysis Services. For details, refer to the [How to: Install Analysis Services by Using Setup](https://msdn.microsoft.com/en-us/library/ms143764(v=sql.100).aspx) MSDN article.
+1.&nbsp;Install Microsoft Analysis Services. For details, refer to the <a href="https://msdn.microsoft.com/en-us/library/ms143764(v=sql.100" target="_blank">How to: Install Analysis Services by Using Setup</a>.aspx) MSDN article.
  
-2.&nbsp;Install **SQL Server Data Tools ― Business Intelligence** for your version of Visual Studio ([Visual Studio 2012 version](https://www.microsoft.com/en-us/download/details.aspx?id=36843)).
+2.&nbsp;Install **SQL Server Data Tools ― Business Intelligence** for your version of Visual Studio (<a href="https://www.microsoft.com/en-us/download/details.aspx?id=36843" target="_blank">Visual Studio 2012 version</a>).
  
-3.&nbsp;Create a new project and define a Cube. For details, refer to the [Multidimensional Modeling](https://msdn.microsoft.com/en-us/library/ms170208.aspx) MSDN tutorial. If you would like to use sample data instead of your own, refer to the [Install Sample Data and Projects](https://msdn.microsoft.com/en-us/library/hh403424.aspx) MSDN article.
+3.&nbsp;Create a new project and define a Cube. For details, refer to the <a href="https://msdn.microsoft.com/en-us/library/ms170208.aspx" target="_blank">Multidimensional Modeling</a> MSDN tutorial. If you would like to use sample data instead of your own, refer to the <a href="https://msdn.microsoft.com/en-us/library/hh403424.aspx" target="_blank">Install Sample Data and Projects</a> MSDN article.
  
-4.&nbsp;Configure HTTP access to the Analysis Services. For details, refer to the [Configure HTTP Access to Analysis Services on Internet Information Services (IIS) 8.0](https://technet.microsoft.com/en-us/library/gg492140.aspx) MSDN article.
+4.&nbsp;Configure HTTP access to the Analysis Services. For details, refer to the <a href="https://technet.microsoft.com/en-us/library/gg492140.aspx" target="_blank">Configure HTTP Access to Analysis Services on Internet Information Services (IIS) 8.0</a> MSDN article.
  
 5.&nbsp;Configure IIS to allow cross-domain access to the OLAP application created in step 4.     
      
@@ -21,7 +21,7 @@ DevExtreme is supplied with the [XmlaStore](/Documentation/ApiReference/Data_Lay
 - *Name:* "Access-Control-Allow-Origin" , *Value:* *&lt;the host from which you are going to access this server or "\*" for all hosts&gt;*        
 <!---->
 
-&emsp;5.2.&nbsp;While configuring HTTP access, you added an "OLAP" script map to the OLAP application (Step 3, items 6-8 of the [Configure HTTP Access to Analysis Services on Internet Information Services (IIS) 8.0](https://technet.microsoft.com/en-us/library/gg492140.aspx) MSDN article). To make the cross-domain access work, make sure the "OPTIONSVerbHandler" is at the top of the **Handler Mappings** list. To access the list's order, click **View Ordered List...** from the **Actions** menu. If the "OPTIONSVerbHandler" is not at the top of the list, select the "OPTIONSVerbHandler" and use the **Move Up** command from the Actions menu to move it to the top. Also make sure the **OLAP** handler is located above other *.dll handlers (even the disabled ones). 
+&emsp;5.2.&nbsp;While configuring HTTP access, you added an "OLAP" script map to the OLAP application (Step 3, items 6-8 of the <a href="https://technet.microsoft.com/en-us/library/gg492140.aspx" target="_blank">Configure HTTP Access to Analysis Services on Internet Information Services (IIS) 8.0</a> MSDN article). To make the cross-domain access work, make sure the "OPTIONSVerbHandler" is at the top of the **Handler Mappings** list. To access the list's order, click **View Ordered List...** from the **Actions** menu. If the "OPTIONSVerbHandler" is not at the top of the list, select the "OPTIONSVerbHandler" and use the **Move Up** command from the Actions menu to move it to the top. Also make sure the **OLAP** handler is located above other *.dll handlers (even the disabled ones). 
 
 6.&nbsp;Configure the **PivotGrid**.**dataSource**.[store](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/store/) object for using your OLAP server.
 

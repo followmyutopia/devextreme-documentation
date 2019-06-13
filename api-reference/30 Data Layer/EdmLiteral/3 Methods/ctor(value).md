@@ -9,7 +9,7 @@ Creates an **EdmLiteral** instance with a new value.
 <!--paramName1-->value<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-A value in a format the OData's [Abstract Type System](http://www.odata.org/documentation/odata-version-2-0/overview/#AbstractTypeSystem) defines.
+A value in a format the OData's <a href="http://www.odata.org/documentation/odata-version-2-0/overview/#AbstractTypeSystem" target="_blank">Abstract Type System</a> defines.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

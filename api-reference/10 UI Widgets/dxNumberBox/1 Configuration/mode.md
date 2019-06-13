@@ -6,7 +6,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the value to be passed to the [type](http://www.w3schools.com/tags/att_input_type.asp) attribute of the underlying `<input>` element.
+Specifies the value to be passed to the <a href="http://www.w3schools.com/tags/att_input_type.asp" target="_blank">type</a> attribute of the underlying `<input>` element.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -9,7 +9,7 @@ Specifies the chunk size in bytes. Applies only if [uploadMode](/Documentation/A
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Set this option to a positive value to enable chunk upload. The widget should be configured as described in the [Chunk Upload](/Documentation/Guide/Widgets/FileUploader/Upload_Files/Client-Side_Settings/#Chunk_Upload) article. When chunk upload is enabled, the **FileUploader** sends several [multipart/form-data](https://www.w3.org/TR/html401/interact/forms.html#h-17.13.4) requests with information about the file and chunk. The *"chunkMetadata"* parameter contains chunk details as a JSON object of the following structure:
+Set this option to a positive value to enable chunk upload. The widget should be configured as described in the [Chunk Upload](/Documentation/Guide/Widgets/FileUploader/Upload_Files/Client-Side_Settings/#Chunk_Upload) article. When chunk upload is enabled, the **FileUploader** sends several <a href="https://www.w3.org/TR/html401/interact/forms.html#h-17.13.4" target="_blank">multipart/form-data</a> requests with information about the file and chunk. The *"chunkMetadata"* parameter contains chunk details as a JSON object of the following structure:
 
     {
         "FileGuid": string,   

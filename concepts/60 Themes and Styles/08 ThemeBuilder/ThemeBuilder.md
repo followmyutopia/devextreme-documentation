@@ -1,3 +1,3 @@
-The ThemeBuilder is a tool that allows you to create custom themes based on Bootstrap or predefined DevExtreme themes. It consists of a [UI version](https://devexpress.github.io/ThemeBuilder/) (illustrated below) and a [command-line interface (CLI)](/Documentation/Guide/Themes_and_Styles/ThemeBuilder/#ThemeBuilder_CLI).
+The ThemeBuilder is a tool that allows you to create custom themes based on Bootstrap or predefined DevExtreme themes. It consists of a <a href="https://devexpress.github.io/ThemeBuilder/" target="_blank">UI version</a> (illustrated below) and a [command-line interface (CLI)](/Documentation/Guide/Themes_and_Styles/ThemeBuilder/#ThemeBuilder_CLI).
 
 ![DevExtreme ThemeBuilder UI: Main View](/Content/images/doc/19_1/Common/ThemeBuilder/themebuilder-main.png)

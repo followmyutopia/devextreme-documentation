@@ -1,4 +1,4 @@
-To be able to change a widget option, declare its value an [observable](http://knockoutjs.com/documentation/observables.html).
+To be able to change a widget option, declare its value an <a href="http://knockoutjs.com/documentation/observables.html" target="_blank">observable</a>.
 
     <!--JavaScript-->var viewModel = {
         checkBoxOptions: {

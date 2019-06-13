@@ -1,6 +1,6 @@
 [note] Bower is currently in maintenance mode. We recommend using [npm](/Documentation/Guide/Getting_Started/Installation/npm_Package/) or [Yarn](/Documentation/Guide/Getting_Started/Installation/npm_Package/#Using_Yarn) in new projects instead.
 
-To install the [DevExtreme Bower package](https://github.com/devexpress/bower-devextreme), open the console, navigate to your app folder and run the following command:
+To install the <a href="https://github.com/devexpress/bower-devextreme" target="_blank">DevExtreme Bower package</a>, open the console, navigate to your app folder and run the following command:
 
     bower install devextreme#~19.1 --save
 

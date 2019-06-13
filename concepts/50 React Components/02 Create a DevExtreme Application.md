@@ -1,4 +1,4 @@
-If you are starting a project from scratch, use the [DevExtreme React Template](https://github.com/DevExpress/devextreme-react-template#devextreme-react-template). It is a simple application with a navigation menu and several sample views in a responsive layout.
+If you are starting a project from scratch, use the <a href="https://github.com/DevExpress/devextreme-react-template#devextreme-react-template" target="_blank">DevExtreme React Template</a>. It is a simple application with a navigation menu and several sample views in a responsive layout.
 
 You can generate the application with the [DevExtreme CLI](/Documentation/Guide/Getting_Started/DevExtreme_CLI/):
 
@@ -8,7 +8,7 @@ You can generate the application with the [DevExtreme CLI](/Documentation/Guide/
 
 [note]
 
-npx is available with npm v5.2 and later. If you have an earlier version, [upgrade npm](https://docs.npmjs.com/try-the-latest-stable-version-of-npm) or install the DevExtreme CLI globally and run the command from the installed package:
+npx is available with npm v5.2 and later. If you have an earlier version, <a href="https://docs.npmjs.com/try-the-latest-stable-version-of-npm" target="_blank">upgrade npm</a> or install the DevExtreme CLI globally and run the command from the installed package:
 
     npm i -g devextreme-cli
     devextreme new react-app app-name

@@ -93,7 +93,7 @@ The parameter contains the following fields:
 
 - **fileName** - the name of the file to be saved.
 - **format** - the file's format. One of 'PNG', 'PDF', 'JPEG', 'SVG' and 'GIF'.
-- **data** - exported data as a [BLOB](https://en.wikipedia.org/wiki/Binary_large_object).
+- **data** - exported data as a <a href="https://en.wikipedia.org/wiki/Binary_large_object" target="_blank">BLOB</a>.
 - **cancel** - when assigned **true**, prevents the file from being saved.
 <!--/paramDescription2_field11-->
 

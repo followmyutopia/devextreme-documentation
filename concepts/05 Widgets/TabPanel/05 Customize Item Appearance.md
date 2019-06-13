@@ -133,7 +133,7 @@ Using the default item template is the easiest way to customize an item, but it 
     url: "/Demos/WidgetsGallery/Demo/TabPanel/Overview/jQuery/Light/"
 }
 
-If you use jQuery alone, combine the HTML markup for items manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#itemTemplate) and [itemTitleTemplate](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#itemTitleTemplate) callback functions for views and tabs, respectively.
+If you use jQuery alone, combine the HTML markup for items manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#itemTemplate) and [itemTitleTemplate](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#itemTitleTemplate) callback functions for views and tabs, respectively.
 
     <!--JavaScript-->
     var dataItems = [{
@@ -166,7 +166,7 @@ If you use jQuery alone, combine the HTML markup for items manually with jQuery 
         });
     });
 
-You can also customize an individual view or tab. For this purpose, declare a template for this view or tab as a script and pass an appropriate [selector](http://api.jquery.com/category/selectors/) to the [template](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Default_Item_Template/#template) or [tabTemplate](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Default_Item_Template/#tabTemplate) option, respectively.
+You can also customize an individual view or tab. For this purpose, declare a template for this view or tab as a script and pass an appropriate <a href="http://api.jquery.com/category/selectors/" target="_blank">selector</a> to the [template](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Default_Item_Template/#template) or [tabTemplate](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Default_Item_Template/#tabTemplate) option, respectively.
 
     <!--HTML-->
     <script id="individualViewTemplate" type="text/html">

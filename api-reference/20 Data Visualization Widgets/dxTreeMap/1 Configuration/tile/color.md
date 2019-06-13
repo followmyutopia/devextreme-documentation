@@ -21,7 +21,7 @@ Use the latter approach only if you need to color all tiles uniformly. The **til
 * RGB colors        
 * RGBA colors       
 * Predefined/cross-browser color names      
-* [Predefined SVG colors](http://www.w3.org/TR/SVG/types.html#ColorKeywords)
+* <a href="http://www.w3.org/TR/SVG/types.html#ColorKeywords" target="_blank">Predefined SVG colors</a>
 
 This approach has the lowest priority among the others. To find more about the other two approaches, see the [colorField](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#colorField) and [colorizer](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/colorizer/) option descriptions.
 <!--/fullDescription-->

@@ -4,4 +4,4 @@ This option accepts either the name of a [predefined palette](/Documentation/Gui
 * RGB colors
 * RGBA colors
 * Predefined/cross-browser color names
-* [Predefined SVG colors](http://www.w3.org/TR/SVG/types.html#ColorKeywords)
+* <a href="http://www.w3.org/TR/SVG/types.html#ColorKeywords" target="_blank">Predefined SVG colors</a>

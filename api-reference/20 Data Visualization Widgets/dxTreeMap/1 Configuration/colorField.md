@@ -21,7 +21,7 @@ You can use the first approach only if objects of your data source contain a fie
 * RGB colors        
 * RGBA colors       
 * Predefined/cross-browser color names      
-* [Predefined SVG colors](http://www.w3.org/TR/SVG/types.html#ColorKeywords)
+* <a href="http://www.w3.org/TR/SVG/types.html#ColorKeywords" target="_blank">Predefined SVG colors</a>
 
 This approach has the highest priority among the others. To get familiar with the other two approaches, see the [colorizer](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/colorizer/) and **tile**.[color](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/tile/#color) option descriptions.
 <!--/fullDescription-->

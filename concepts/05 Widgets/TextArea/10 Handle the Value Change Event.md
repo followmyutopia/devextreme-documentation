@@ -1,4 +1,4 @@
-When a user types a text into the **TextArea**, the widget writes this text into the **value** option when the [change](https://developer.mozilla.org/en/docs/Web/Events/change) event is raised. If you need this to happen on another event, set the [valueChangeEvent](/Documentation/ApiReference/UI_Widgets/dxTextArea/Configuration/#valueChangeEvent) option.
+When a user types a text into the **TextArea**, the widget writes this text into the **value** option when the <a href="https://developer.mozilla.org/en/docs/Web/Events/change" target="_blank">change</a> event is raised. If you need this to happen on another event, set the [valueChangeEvent](/Documentation/ApiReference/UI_Widgets/dxTextArea/Configuration/#valueChangeEvent) option.
 
 ---
 #####jQuery 

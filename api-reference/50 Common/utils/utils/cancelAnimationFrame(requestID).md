@@ -15,7 +15,7 @@ The identifier returned by **requestAnimationFrame** method.
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-This method acts as a normalization of the standard [cancelAnimationFrame](https://developer.mozilla.org/en-US/docs/Web/API/window.cancelAnimationFrame) method of the **window** object.
+This method acts as a normalization of the standard <a href="https://developer.mozilla.org/en-US/docs/Web/API/window.cancelAnimationFrame" target="_blank">cancelAnimationFrame</a> method of the **window** object.
 
     <!--JavaScript-->
     window.cancelAnimationFrame ||

@@ -24,11 +24,11 @@ Implement an [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/). [Vi
 - **Web API, PHP, MongoDB**     
 Use one of the following extensions to enable the server to process data according to the protocol DevExtreme widgets use:
 
-    - [DevExtreme.AspNet.Data](https://github.com/DevExpress/DevExtreme.AspNet.Data/blob/master/README.md)
-    - [DevExtreme-PHP-Data](https://github.com/DevExpress/DevExtreme-PHP-Data/blob/master/README.md)
-    - [devextreme-query-mongodb](https://github.com/oliversturm/devextreme-query-mongodb/blob/master/README.md)
+    - <a href="https://github.com/DevExpress/DevExtreme.AspNet.Data/blob/master/README.md" target="_blank">DevExtreme.AspNet.Data</a>
+    - <a href="https://github.com/DevExpress/DevExtreme-PHP-Data/blob/master/README.md" target="_blank">DevExtreme-PHP-Data</a>
+    - <a href="https://github.com/oliversturm/devextreme-query-mongodb/blob/master/README.md" target="_blank">devextreme-query-mongodb</a>
 
-    Then, use the [createStore](https://github.com/DevExpress/DevExtreme.AspNet.Data/blob/master/docs/client-side-with-jquery.md#api-reference) method to configure access to the server on the client as shown below. This method is part of **DevExtreme.AspNet.Data**.
+    Then, use the <a href="https://github.com/DevExpress/DevExtreme.AspNet.Data/blob/master/docs/client-side-with-jquery.md#api-reference" target="_blank">createStore</a> method to configure access to the server on the client as shown below. This method is part of **DevExtreme.AspNet.Data**.
 
     ---
     ##### jQuery
@@ -180,7 +180,7 @@ Please review the following notes about data binding:
 
 - Data field names should not contain the following characters: `.`, `,`, `:`, `[`, and `]`.
 
-- **PivotGridDataSource** and stores provide methods to process and update data. However, the methods do not allow you to perform particular tasks (for example, replace the entire dataset, reconfigure data access at runtime). For such tasks, create a new **PivotGridDataSource** and assign it to the **dataSource** option as shown in the articles about changing options in [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Get_and_Set_Options/), [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/#Two-Way_Option_Binding), [React](/Documentation/Guide/React_Components/State_Management/#Controlled_Mode), and [Vue](https://github.com/DevExpress/devextreme-vue#two-way-binding).
+- **PivotGridDataSource** and stores provide methods to process and update data. However, the methods do not allow you to perform particular tasks (for example, replace the entire dataset, reconfigure data access at runtime). For such tasks, create a new **PivotGridDataSource** and assign it to the **dataSource** option as shown in the articles about changing options in [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Get_and_Set_Options/), [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/#Two-Way_Option_Binding), [React](/Documentation/Guide/React_Components/State_Management/#Controlled_Mode), and <a href="https://github.com/DevExpress/devextreme-vue#two-way-binding" target="_blank">Vue</a>.
 
 [/note]
 <!--/fullDescription-->

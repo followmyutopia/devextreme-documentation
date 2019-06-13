@@ -11,7 +11,7 @@ Converts a Date object to a string using the specified format.
 <!--paramName1-->value<!--/paramName1-->
 <!--paramType1-->Date<!--/paramType1-->
 <!--paramDescription1-->
-A [Date](https://www.w3schools.com/js/js_dates.asp) object to be converted.
+A <a href="https://www.w3schools.com/js/js_dates.asp" target="_blank">Date</a> object to be converted.
 <!--/paramDescription1-->
 
 <!--paramName2-->format<!--/paramName2-->

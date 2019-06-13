@@ -51,4 +51,4 @@ For example, the following synthetic implementation generates an infinite read-o
 
 In this example, **load** and **byKey** functions are synchronous, that is they instantly return a result. In the next example, we connect to a remote web service, and therefore functions return **jQuery.Deferred** promises.
 
-[note] DevExtreme also provides store implementations for the [BreezeJS](https://github.com/DevExpress/DevExtreme-Data-BreezeJS) and [JayData](https://github.com/DevExpress/DevExtreme-Data-JayData) data libraries. You can use them as a reference if you decide to introduce a custom store implementation for another data library.
+[note] DevExtreme also provides store implementations for the <a href="https://github.com/DevExpress/DevExtreme-Data-BreezeJS" target="_blank">BreezeJS</a> and <a href="https://github.com/DevExpress/DevExtreme-Data-JayData" target="_blank">JayData</a> data libraries. You can use them as a reference if you decide to introduce a custom store implementation for another data library.

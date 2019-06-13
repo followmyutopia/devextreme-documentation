@@ -144,7 +144,7 @@ Commonly, editors nested into an HTML form are supposed to be validated on the c
 
 ---
 
-Note that the [name](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#name) option of the **TextBox** widgets in the previous code specifies the [name](http://www.w3schools.com/tags/att_input_name.asp) attribute of the underlying `<input>` element.
+Note that the [name](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#name) option of the **TextBox** widgets in the previous code specifies the <a href="http://www.w3schools.com/tags/att_input_name.asp" target="_blank">name</a> attribute of the underlying `<input>` element.
 
 DevExtreme editors may belong to different [validation groups](/Documentation/ApiReference/UI_Widgets/dxValidationGroup/). To specify which group the **Button** must validate, use the [validationGroup](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#validationGroup) option. If you do not set this option, the **Button** validates all editors whose validation group is not specified.
 

@@ -39,7 +39,7 @@ The following parameters are passed to the **handler**:
 - **event**: [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/)    
 The event that caused the handler's execution.
 
-- **extraParameters**: [Object](https://www.w3schools.com/js/js_objects.asp)  
+- **extraParameters**: <a href="https://www.w3schools.com/js/js_objects.asp" target="_blank">Object</a>  
 Data passed as **extraParameters** to the [trigger(element, event, extraParameters)](/Documentation/ApiReference/Common/utils/events/Methods/#triggerelement_event_extraParameters) method when it is called to trigger the event.
 
 <!----->

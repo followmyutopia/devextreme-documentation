@@ -36,5 +36,5 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamName1_field4-->error<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->Error<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The standard [Error](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error) object that defines the error.
+The standard <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error" target="_blank">Error</a> object that defines the error.
 <!--/typeFunctionParamDescription1_field4-->

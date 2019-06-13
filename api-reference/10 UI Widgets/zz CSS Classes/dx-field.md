@@ -15,7 +15,7 @@ The **dx-field** field element may include label and value elements intended to 
         <div class="dx-field-value-static">John Smith</div>
     </div>
 
-DevExtreme UI widgets include [WAI-ARIA](http://www.w3.org/WAI/intro/aria.php) markup to support screen readers. If you use a widget within a field value element, associate the widget with the field label to allow a screen reader to properly read the field. For this purpose, specify a unique ID for the field label element and assign this ID to the **aria-labeledby** attribute of the associated widget as demonstrated below.
+DevExtreme UI widgets include <a href="http://www.w3.org/WAI/intro/aria.php" target="_blank">WAI-ARIA</a> markup to support screen readers. If you use a widget within a field value element, associate the widget with the field label to allow a screen reader to properly read the field. For this purpose, specify a unique ID for the field label element and assign this ID to the **aria-labeledby** attribute of the associated widget as demonstrated below.
 
     <!--HTML-->
     <div class="dx-field">

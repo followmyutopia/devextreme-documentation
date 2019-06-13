@@ -101,7 +101,7 @@ When a user clicks an appointment, the **Scheduler** shows a tooltip that can be
 
 ---
 
-If you use only jQuery, combine HTML markup for tooltips manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [appointmentTooltipTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#appointmentTooltipTemplate) callback function as shown in the following code.
+If you use only jQuery, combine HTML markup for tooltips manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [appointmentTooltipTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#appointmentTooltipTemplate) callback function as shown in the following code.
 
     <!--JavaScript-->var schedulerData = [{
         text: "His Girl Friday",

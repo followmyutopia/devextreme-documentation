@@ -1,6 +1,6 @@
 [note] If you do not use Webpack in your application, skip this step.
 
-Open the `webpack.config.js` file and configure [loaders](https://webpack.js.org/concepts#loaders) to process CSS and fonts:
+Open the `webpack.config.js` file and configure <a href="https://webpack.js.org/concepts#loaders" target="_blank">loaders</a> to process CSS and fonts:
 
     <!-- tab: webpack.config.js -->
     ...

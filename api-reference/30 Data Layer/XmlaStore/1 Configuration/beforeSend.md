@@ -58,7 +58,7 @@ Specifies a function that customizes the request before it is sent to the server
 <!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The request parameters. When jQuery is used, this object can contain [jQuery.ajax()](http://api.jquery.com/jquery.ajax/)-supported fields.
+The request parameters. When jQuery is used, this object can contain <a href="http://api.jquery.com/jquery.ajax/" target="_blank">jQuery.ajax()</a>-supported fields.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->url<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->String<!--/typeFunctionParamType1_field1-->
@@ -78,7 +78,7 @@ The request headers.
 <!--typeFunctionParamName1_field4-->xhrFields<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-Native [XMLHttpRequest object properties](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest#Properties).
+Native <a href="https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest#Properties" target="_blank">XMLHttpRequest object properties</a>.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->data<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->String<!--/typeFunctionParamType1_field5-->

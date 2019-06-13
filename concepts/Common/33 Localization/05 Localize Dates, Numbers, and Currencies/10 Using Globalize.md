@@ -169,7 +169,7 @@ All the components are available via CDN and npm.
 
 Strings, numbers, dates, and currencies are now automatically localized and formatted according to the specified locale. You can also use a currency other than USD (see the last example in the [Using Intl](/Documentation/Guide/Common/Localization/#Localize_Dates_Numbers_and_Currencies/Using_Intl) topic).
 
-In addition, you can now format values using structures accepted by [numberFormatter](https://github.com/globalizejs/globalize/blob/master/doc/api/number/number-formatter.md), [currencyFormatter](https://github.com/globalizejs/globalize/blob/master/doc/api/currency/currency-formatter.md), and [dateFormatter](https://github.com/globalizejs/globalize/blob/master/doc/api/date/date-formatter.md), for example:
+In addition, you can now format values using structures accepted by <a href="https://github.com/globalizejs/globalize/blob/master/doc/api/number/number-formatter.md" target="_blank">numberFormatter</a>, <a href="https://github.com/globalizejs/globalize/blob/master/doc/api/currency/currency-formatter.md" target="_blank">currencyFormatter</a>, and <a href="https://github.com/globalizejs/globalize/blob/master/doc/api/date/date-formatter.md" target="_blank">dateFormatter</a>, for example:
 
 ---
 ##### jQuery
@@ -220,6 +220,6 @@ In addition, you can now format values using structures accepted by [numberForma
 
 
 #####See Also#####
-- [DevExtreme Angular sample project with Webpack and Globalize](https://github.com/DevExpress/devextreme-examples/tree/19_1/webpack-angular-globalize)
-- [DevExtreme Angular sample project with SystemJS and Globalize](https://github.com/DevExpress/devextreme-examples/tree/19_1/systemjs-angular-globalize)
+- <a href="https://github.com/DevExpress/devextreme-examples/tree/19_1/webpack-angular-globalize" target="_blank">DevExtreme Angular sample project with Webpack and Globalize</a>
+- <a href="https://github.com/DevExpress/devextreme-examples/tree/19_1/systemjs-angular-globalize" target="_blank">DevExtreme Angular sample project with SystemJS and Globalize</a>
 - [Value Formatting](/Documentation/Guide/Common/Value_Formatting)

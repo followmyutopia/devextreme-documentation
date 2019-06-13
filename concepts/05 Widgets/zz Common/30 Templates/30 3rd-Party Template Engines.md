@@ -1,11 +1,11 @@
 You can choose a 3rd-party template engine if you do not use Angular, AngularJS, or Knockout. DevExtreme supports the following template engines out of the box:
 
-- [Underscore](http://underscorejs.org/)
-- [JsRender](https://github.com/BorisMoore/jsrender)
-- [Mustache](http://mustache.github.io/)
-- [Hogan](http://twitter.github.io/hogan.js/)
-- [Handlebars](http://handlebarsjs.com/)
-- [doT](http://olado.github.io/doT/index.html)
+- <a href="http://underscorejs.org/" target="_blank">Underscore</a>
+- <a href="https://github.com/BorisMoore/jsrender" target="_blank">JsRender</a>
+- <a href="http://mustache.github.io/" target="_blank">Mustache</a>
+- <a href="http://twitter.github.io/hogan.js/" target="_blank">Hogan</a>
+- <a href="http://handlebarsjs.com/" target="_blank">Handlebars</a>
+- <a href="http://olado.github.io/doT/index.html" target="_blank">doT</a>
 
 To use one of them, pass its name to the [DevExpress.ui.setTemplateEngine(name)](/Documentation/ApiReference/Common/Utils/ui/#setTemplateEnginename) method:
 

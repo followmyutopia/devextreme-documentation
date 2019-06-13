@@ -5,7 +5,7 @@ The **FileUploader** widget enables an end user to upload files to the server. A
 }
 <a href="http://www.youtube.com/watch?v=h8jGcKE33ME&index=51&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 
-The following code adds the **FileUploader** to your page. Use the [accept](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#accept) option to restrict the file types that can be uploaded to the server. This option is like the underlying `<input>` element's *"accept"* attribute and accepts the same values described [here](http://www.w3schools.com/TAGs/att_input_accept.asp).
+The following code adds the **FileUploader** to your page. Use the [accept](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#accept) option to restrict the file types that can be uploaded to the server. This option is like the underlying `<input>` element's *"accept"* attribute and accepts the same values described <a href="http://www.w3schools.com/TAGs/att_input_accept.asp" target="_blank">here</a>.
 
 ---
 #####jQuery
@@ -76,7 +76,7 @@ A user is allowed to upload only one file at a time by default. Set the [multipl
 
 ---
 
-If you need to access the selected files at runtime, get the value of the [value](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#value) option using the following command. It returns an array, whose members are each an instance implementing the [File interface](https://developer.mozilla.org/en-US/docs/Web/API/File).
+If you need to access the selected files at runtime, get the value of the [value](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#value) option using the following command. It returns an array, whose members are each an instance implementing the <a href="https://developer.mozilla.org/en-US/docs/Web/API/File" target="_blank">File interface</a>.
 
     <!--JavaScript-->var files = $("#fileUploaderContainer").dxFileUploader("option", "value");
 

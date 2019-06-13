@@ -10,7 +10,7 @@ Binds a [Chart](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/)
 <!--paramType1-->String|jQuery|Object<!--/paramType1-->
 <!--paramDescription1-->
 The **Chart** to be bound to the **PivotGrid**.    
-Accepts the **Chart**'s instance, [jQuery element](http://api.jquery.com/Types/#jQuery) or container [selector](https://api.jquery.com/category/selectors/).
+Accepts the **Chart**'s instance, <a href="http://api.jquery.com/Types/#jQuery" target="_blank">jQuery element</a> or container <a href="https://api.jquery.com/category/selectors/" target="_blank">selector</a>.
 <!--/paramDescription1-->
 
 <!--paramName2-->integrationOptions<!--/paramName2-->

@@ -9,7 +9,7 @@ Icons in widgets are inserted into the DOM as `<i>` elements. When you set a wid
 
 This allows DevExtreme widgets to support icons from external icon libraries, provided that they too should be specified in the `class` attribute.
 
-[Font Awesome](https://fontawesome.com/), [Glyphicons](https://www.glyphicons.com/), and [Ionicons](https://ionicons.com/) are examples of such libraries. Follow the installation tutorial for the library you want to use and set the **icon** option as follows:
+<a href="https://fontawesome.com/" target="_blank">Font Awesome</a>, <a href="https://www.glyphicons.com/" target="_blank">Glyphicons</a>, and <a href="https://ionicons.com/" target="_blank">Ionicons</a> are examples of such libraries. Follow the installation tutorial for the library you want to use and set the **icon** option as follows:
 
 ---
 ##### jQuery  

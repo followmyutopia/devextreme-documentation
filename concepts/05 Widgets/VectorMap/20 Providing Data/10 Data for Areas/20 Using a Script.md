@@ -7,7 +7,7 @@
 - Europe *(europe.js)*
 - USA *(usa.js)*
 
-[note] Built-in maps were not created by DevExpress. They were taken from a [free map data provider](http://www.naturalearthdata.com/) and converted to the **VectorMap** format with the **parse()** method. Refer to the [Using a Binary Source](/Documentation/Guide/Widgets/VectorMap/Providing_Data/#Data_for_Areas/Using_a_Binary_Source) section to learn how to display a custom map with the **VectorMap** widget.
+[note] Built-in maps were not created by DevExpress. They were taken from a <a href="http://www.naturalearthdata.com/" target="_blank">free map data provider</a> and converted to the **VectorMap** format with the **parse()** method. Refer to the [Using a Binary Source](/Documentation/Guide/Widgets/VectorMap/Providing_Data/#Data_for_Areas/Using_a_Binary_Source) section to learn how to display a custom map with the **VectorMap** widget.
 
 To use one of these sources on your map, reference the corresponding file in the head of your HTML document. Note that this file should be referenced after the ChartJS library file (see topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section).
 

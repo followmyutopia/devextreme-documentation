@@ -1,4 +1,4 @@
-By default, the value of the **NumberBox** is changed when the [change](https://developer.mozilla.org/en/docs/Web/Events/change) event is raised. If you need the value to be changed on another event, set the [valueChangeEvent](/Documentation/ApiReference/UI_Widgets/dxNumberBox/Configuration/#valueChangeEvent) option.
+By default, the value of the **NumberBox** is changed when the <a href="https://developer.mozilla.org/en/docs/Web/Events/change" target="_blank">change</a> event is raised. If you need the value to be changed on another event, set the [valueChangeEvent](/Documentation/ApiReference/UI_Widgets/dxNumberBox/Configuration/#valueChangeEvent) option.
 
 ---
 ##### jQuery

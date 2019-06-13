@@ -2,4 +2,4 @@ Run the application with the following command:
 
     npm start
 
-Open [http://localhost:3000](http://localhost:3000) to browse the application.
+Open <a href="http://localhost:3000" target="_blank">http://localhost:3000</a> to browse the application.

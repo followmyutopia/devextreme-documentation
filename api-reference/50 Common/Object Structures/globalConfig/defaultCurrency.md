@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-The default currency. Accepts a 3-letter [ISO 4217](https://www.currency-iso.org/en/home/tables/table-a1.html) code.
+The default currency. Accepts a 3-letter <a href="https://www.currency-iso.org/en/home/tables/table-a1.html" target="_blank">ISO 4217</a> code.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -13,8 +13,8 @@ The default currency. Accepts a 3-letter [ISO 4217](https://www.currency-iso.org
 
 Assign the currency code to this field if you use Intl, or do the following if you use Globalize: 
 
-1. Get the *currencies.json* file that corresponds to your culture from a folder [here](https://github.com/unicode-cldr/cldr-numbers-modern/tree/master/main).
-2. Load this file's contents in your app using a method described [here](https://github.com/jquery/globalize/blob/master/doc/cldr.md#how-do-i-load-cldr-data-into-globalize).
+1. Get the *currencies.json* file that corresponds to your culture from a folder <a href="https://github.com/unicode-cldr/cldr-numbers-modern/tree/master/main" target="_blank">here</a>.
+2. Load this file's contents in your app using a method described <a href="https://github.com/jquery/globalize/blob/master/doc/cldr.md#how-do-i-load-cldr-data-into-globalize" target="_blank">here</a>.
 3. Assign the currency's 3-letter code to this field.
 
 

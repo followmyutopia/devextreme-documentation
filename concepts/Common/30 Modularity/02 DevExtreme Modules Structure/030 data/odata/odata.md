@@ -1,1 +1,1 @@
-A folder containing modules exposing [OData](http://www.odata.org/) service.
+A folder containing modules exposing <a href="http://www.odata.org/" target="_blank">OData</a> service.

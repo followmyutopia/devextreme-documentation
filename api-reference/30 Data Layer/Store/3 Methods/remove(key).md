@@ -14,7 +14,7 @@ A data item's key value.
 
 <!--returnType-->Promise<void><!--/returnType-->
 <!--returnDescription-->
-A Promise that is resolved after the data item is removed. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
+A Promise that is resolved after the data item is removed. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
 <!--/returnDescription-->
 
 <!--fullDescription-->

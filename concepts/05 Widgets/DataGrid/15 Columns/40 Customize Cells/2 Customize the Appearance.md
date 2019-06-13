@@ -62,7 +62,7 @@ DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiRef
 
 ---
 
-If you use jQuery alone, combine the HTML markup for cells using jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the **cellTemplate** function as shown in the following code:
+If you use jQuery alone, combine the HTML markup for cells using jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the **cellTemplate** function as shown in the following code:
 
 [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)
 

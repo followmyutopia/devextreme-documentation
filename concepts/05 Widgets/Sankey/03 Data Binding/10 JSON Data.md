@@ -38,7 +38,7 @@ To bind the **Sankey** to data in a JSON format, assign the data's URL to the [d
 
 ---
 
-Note that you can also use a [jQuery.ajax()](http://api.jquery.com/jQuery.ajax/)-supported JSONP callback parameter.
+Note that you can also use a <a href="http://api.jquery.com/jQuery.ajax/" target="_blank">jQuery.ajax()</a>-supported JSONP callback parameter.
 
 ---
 ##### jQuery

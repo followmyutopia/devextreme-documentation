@@ -1,8 +1,8 @@
-1. Install [RequireJS](http://requirejs.org/) and DevExtreme in your application folder.
+1. Install <a href="http://requirejs.org/" target="_blank">RequireJS</a> and DevExtreme in your application folder.
 
         npm install requirejs devextreme
 
-1. Use the [RequireJS conversion tool](http://requirejs.org/docs/commonjs.html#autoconversion) to convert the DevExtreme modules from CommonJS to AMD and save them in the **devextreme_amd** directory:
+1. Use the <a href="http://requirejs.org/docs/commonjs.html#autoconversion" target="_blank">RequireJS conversion tool</a> to convert the DevExtreme modules from CommonJS to AMD and save them in the **devextreme_amd** directory:
 
         npx r_js -convert node_modules/devextreme devextreme_amd
 
@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="node_modules/devextreme/dist/css/dx.light.css">
 
 
-1. Link RequireJS and define its [configuration object](http://requirejs.org/docs/api.html#config). 
+1. Link RequireJS and define its <a href="http://requirejs.org/docs/api.html#config" target="_blank">configuration object</a>. 
 
         <!--HTML-->
         <script src="node_modules/requirejs/require.js"></script>
@@ -27,7 +27,7 @@
             });
         </script>
 
-See examples of using RequireJS with [jQuery](https://github.com/DevExpress/devextreme-examples/tree/19_1/requirejs-jquery), [AngularJS](https://github.com/DevExpress/devextreme-examples/tree/19_1/requirejs-angularjs), and [Knockout](https://github.com/DevExpress/devextreme-examples/tree/19_1/requirejs-knockout) on GitHub. The **index.html** file contains the main code. 
+See examples of using RequireJS with <a href="https://github.com/DevExpress/devextreme-examples/tree/19_1/requirejs-jquery" target="_blank">jQuery</a>, <a href="https://github.com/DevExpress/devextreme-examples/tree/19_1/requirejs-angularjs" target="_blank">AngularJS</a>, and <a href="https://github.com/DevExpress/devextreme-examples/tree/19_1/requirejs-knockout" target="_blank">Knockout</a> on GitHub. The **index.html** file contains the main code. 
 
 [note] Check the libraries' and frameworks' [supported versions](/Documentation/Guide/Common/Introduction_to_DevExtreme/#Integration_with_3rd-Party_Libraries_and_Frameworks).
 

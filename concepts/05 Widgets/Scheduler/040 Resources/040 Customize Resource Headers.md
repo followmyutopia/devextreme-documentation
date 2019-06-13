@@ -124,7 +124,7 @@ For AngularJS and Knockout apps, DevExtreme provides a markup component called [
 
 ---
 
-If you use jQuery alone, combine the HTML markup for resource headers manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [resourceCellTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#resourceCellTemplate) callback function as shown in the following code.
+If you use jQuery alone, combine the HTML markup for resource headers manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [resourceCellTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#resourceCellTemplate) callback function as shown in the following code.
 
     <!--JavaScript-->var schedulerData = [{
         text: "Meeting",

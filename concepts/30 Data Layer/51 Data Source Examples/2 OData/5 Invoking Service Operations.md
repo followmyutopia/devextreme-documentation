@@ -1,4 +1,4 @@
-In addition to entites, OData services may expose service operations. The [ODataContext](/Documentation/ApiReference/Data_Layer/ODataContext/) class supports this capability. For the information on service operations, refer to the [OData documentation](http://www.odata.org/documentation).
+In addition to entites, OData services may expose service operations. The [ODataContext](/Documentation/ApiReference/Data_Layer/ODataContext/) class supports this capability. For the information on service operations, refer to the <a href="http://www.odata.org/documentation" target="_blank">OData documentation</a>.
 
 To invoke an operation which does not return any value, use the [invoke()](/Documentation/ApiReference/Data_Layer/ODataContext/Methods/#invokeoperationName_params_httpMethod) method.
 

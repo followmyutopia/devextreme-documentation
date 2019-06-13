@@ -23,7 +23,7 @@ An event name.
 <!--paramName3-->selector<!--/paramName3-->
 <!--paramType3-->String<!--/paramType3-->
 <!--paramDescription3-->
-A [CSS selector](https://www.w3schools.com/cssref/css_selectors.asp) used to filter the **element**'s descendants. 
+A <a href="https://www.w3schools.com/cssref/css_selectors.asp" target="_blank">CSS selector</a> used to filter the **element**'s descendants. 
 <!--/paramDescription3-->
 
 <!--paramName4-->data<!--/paramName4-->
@@ -45,7 +45,7 @@ The following parameters are passed to the **handler**:
 - **event**: [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/)    
 The event that caused the handler's execution.
 
-- **extraParameters**: [Object](https://www.w3schools.com/js/js_objects.asp)  
+- **extraParameters**: <a href="https://www.w3schools.com/js/js_objects.asp" target="_blank">Object</a>  
 Data passed as **extraParameters** to the [trigger(element, event, extraParameters)](/Documentation/ApiReference/Common/utils/events/Methods/#triggerelement_event_extraParameters) method when it is called to trigger the event.
 
 <!----->

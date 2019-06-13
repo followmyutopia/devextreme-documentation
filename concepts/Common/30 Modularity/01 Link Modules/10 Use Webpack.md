@@ -1,4 +1,4 @@
-1. Check that [Webpack](http://webpack.github.io/docs/) is installed globally. If not, execute the following command:
+1. Check that <a href="http://webpack.github.io/docs/" target="_blank">Webpack</a> is installed globally. If not, execute the following command:
 
         npm install webpack -g
 
@@ -6,7 +6,7 @@
 
         npm install devextreme
 
-1. Define the Webpack [configuration file](https://webpack.js.org/configuration/).
+1. Define the Webpack <a href="https://webpack.js.org/configuration/" target="_blank">configuration file</a>.
 
         <!--JavaScript-->
         var path = require('path');
@@ -39,7 +39,7 @@
 
         webpack
 
-See examples of using Webpack with [jQuery](https://github.com/DevExpress/devextreme-examples/tree/19_1/webpack-jquery), [AngularJS](https://github.com/DevExpress/devextreme-examples/tree/19_1/webpack-angularjs), and [Knockout](https://github.com/DevExpress/devextreme-examples/tree/19_1/webpack-knockout) on GitHub. The **webpack.config.js**, **index.js**, and **index.html** files contain the main code. 
+See examples of using Webpack with <a href="https://github.com/DevExpress/devextreme-examples/tree/19_1/webpack-jquery" target="_blank">jQuery</a>, <a href="https://github.com/DevExpress/devextreme-examples/tree/19_1/webpack-angularjs" target="_blank">AngularJS</a>, and <a href="https://github.com/DevExpress/devextreme-examples/tree/19_1/webpack-knockout" target="_blank">Knockout</a> on GitHub. The **webpack.config.js**, **index.js**, and **index.html** files contain the main code. 
 
 [note] Check the libraries' and frameworks' [supported versions](/Documentation/Guide/Common/Introduction_to_DevExtreme/#Integration_with_3rd-Party_Libraries_and_Frameworks).
 

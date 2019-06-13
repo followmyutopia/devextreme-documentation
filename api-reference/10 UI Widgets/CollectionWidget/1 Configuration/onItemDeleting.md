@@ -11,7 +11,7 @@ A function that is executed before a collection item is deleted from the data so
 <!--/shortDescription-->
 
 <!--fullDescription-->
-You can cancel item deletion by setting the handler parameter's **cancel** field to **true**. This field also accepts a Promise ([jQuery](http://api.jquery.com/Types/#Promise) or [native](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)), which enables you to perform an asynchronous action before an item is deleted.
+You can cancel item deletion by setting the handler parameter's **cancel** field to **true**. This field also accepts a Promise (<a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery</a> or <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native</a>), which enables you to perform an asynchronous action before an item is deleted.
 
     <!--JavaScript-->
     var widgetOptions = {

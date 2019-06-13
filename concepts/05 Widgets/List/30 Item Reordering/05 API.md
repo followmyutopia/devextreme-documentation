@@ -50,7 +50,7 @@ Pass the index to the [reorderItem(itemIndex, toItemIndex)](/Documentation/ApiRe
     ---
 
 - **By DOM node**      
-Pass the [DOM node](http://www.w3schools.com/js/js_htmldom_nodes.asp) to the [reorderItem(itemElement, toItemElement)](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#reorderItemitemElement_toItemElement) method.
+Pass the <a href="http://www.w3schools.com/js/js_htmldom_nodes.asp" target="_blank">DOM node</a> to the [reorderItem(itemElement, toItemElement)](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#reorderItemitemElement_toItemElement) method.
 
     ---
     #####jQuery

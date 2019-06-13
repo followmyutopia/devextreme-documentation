@@ -1,4 +1,4 @@
-Declare two-way binding between the [dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#dataSource) option and the [scope](https://docs.angularjs.org/guide/scope) property that contains an array. To do this, configure the **bindingOptions** object in the **Sankey** as follows:
+Declare two-way binding between the [dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#dataSource) option and the <a href="https://docs.angularjs.org/guide/scope" target="_blank">scope</a> property that contains an array. To do this, configure the **bindingOptions** object in the **Sankey** as follows:
 
     <!--HTML-->
     <div ng-controller="DemoController">
@@ -36,7 +36,7 @@ Now, whenever an item is added or removed from the `sankeyData` array, the **San
         }"></div>
     </div>
 
-In this case, the **Sankey** uses the [$watch](https://docs.angularjs.org/api/ng/type/$rootScope.Scope#$watch) listener instead of the default [$watchCollection](https://docs.angularjs.org/api/ng/type/$rootScope.Scope#$watchCollection) listener. Note that this can impact the **Sankey**'s peformance.
+In this case, the **Sankey** uses the <a href="https://docs.angularjs.org/api/ng/type/$rootScope.Scope#$watch" target="_blank">$watch</a> listener instead of the default <a href="https://docs.angularjs.org/api/ng/type/$rootScope.Scope#$watchCollection" target="_blank">$watchCollection</a> listener. Note that this can impact the **Sankey**'s peformance.
 
 #####See Also#####
 - [Change Options - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Change_Options/)

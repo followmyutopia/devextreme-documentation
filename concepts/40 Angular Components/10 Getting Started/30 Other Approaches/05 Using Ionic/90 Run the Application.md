@@ -2,4 +2,4 @@ Run the application with the following command:
 
     ionic serve
 
-Open [http://localhost:8100/](http://localhost:8100/) to browse the application.
+Open <a href="http://localhost:8100/" target="_blank">http://localhost:8100/</a> to browse the application.

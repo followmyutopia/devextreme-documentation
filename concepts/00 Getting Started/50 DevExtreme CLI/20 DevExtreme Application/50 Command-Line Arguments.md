@@ -3,7 +3,7 @@ Specifies the DevExtreme layout to add. Available values:
     * `side-nav-outer-toolbar` (default)
     * `side-nav-inner-toolbar`
 
-    Both layouts are illustrated [in this article](https://github.com/DevExpress/devextreme-angular-template#getting-started).
+    Both layouts are illustrated <a href="https://github.com/DevExpress/devextreme-angular-template#getting-started" target="_blank">in this article</a>.
 
 * `--empty`     
 Specifies whether to skip sample views generation (default: `false`).
@@ -24,4 +24,4 @@ Specifies whether to override the existing `app.component` or create a component
         // ...
 
 #####See Also#####
-- **Create and Configure a Widget** in [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/), [React](/Documentation/Guide/React_Components/Component_Configuration_Syntax/), and [Vue](https://github.com/DevExpress/devextreme-vue#component-configuration).
+- **Create and Configure a Widget** in [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/), [React](/Documentation/Guide/React_Components/Component_Configuration_Syntax/), and <a href="https://github.com/DevExpress/devextreme-vue#component-configuration" target="_blank">Vue</a>.

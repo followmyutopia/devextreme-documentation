@@ -1,4 +1,4 @@
-1. [Install](http://jspm.io/docs/getting-started.html) jspm in your application folder. 
+1. <a href="http://jspm.io/docs/getting-started.html" target="_blank">Install</a> jspm in your application folder. 
 
         npm install jspm
 
@@ -25,7 +25,7 @@
             System.import('./index.js');
         </script>
 
-See examples of using jspm with [jQuery](https://github.com/DevExpress/devextreme-examples/tree/19_1/jspm-jquery), [AngularJS](https://github.com/DevExpress/devextreme-examples/tree/19_1/jspm-angularjs), and [Knockout](https://github.com/DevExpress/devextreme-examples/tree/19_1/jspm-knockout) on GitHub. The **index.js** and **index.html** files contain the main code. 
+See examples of using jspm with <a href="https://github.com/DevExpress/devextreme-examples/tree/19_1/jspm-jquery" target="_blank">jQuery</a>, <a href="https://github.com/DevExpress/devextreme-examples/tree/19_1/jspm-angularjs" target="_blank">AngularJS</a>, and <a href="https://github.com/DevExpress/devextreme-examples/tree/19_1/jspm-knockout" target="_blank">Knockout</a> on GitHub. The **index.js** and **index.html** files contain the main code. 
 
 [note] Check the libraries' and frameworks' [supported versions](/Documentation/Guide/Common/Introduction_to_DevExtreme/#Integration_with_3rd-Party_Libraries_and_Frameworks).
 

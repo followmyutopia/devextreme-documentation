@@ -253,7 +253,7 @@ Pass the index to the [selectItem(itemIndex)](/Documentation/ApiReference/UI_Wid
     ---
 
 - **By DOM node**      
-Pass the [DOM node](http://www.w3schools.com/js/js_htmldom_nodes.asp) to the [selectItem(itemElement)](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#selectItemitemElement) or [unselectItem(itemElement)](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#unselectItemitemElement) method.
+Pass the <a href="http://www.w3schools.com/js/js_htmldom_nodes.asp" target="_blank">DOM node</a> to the [selectItem(itemElement)](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#selectItemitemElement) or [unselectItem(itemElement)](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#unselectItemitemElement) method.
 
     ---
     #####jQuery

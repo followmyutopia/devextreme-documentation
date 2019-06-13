@@ -14,7 +14,7 @@ Specifies a custom button template.
 <!--typeFunctionParamName1-->cellElement<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->dxElement<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The container of the cell that should display the button. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
+The container of the cell that should display the button. It is an <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement" target="_blank">HTML Element</a> or a <a href="http://api.jquery.com/Types/#jQuery" target="_blank">jQuery Element</a> when you use jQuery.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->cellInfo<!--/typeFunctionParamName2-->

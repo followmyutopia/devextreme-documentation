@@ -17,5 +17,5 @@ This option accepts an object whose fields are described in the [format](/Docume
         percentPrecision: 2 // the precision of percentage values (12.3456 % --> 12.34 %)
     }
 
-[note]DevExtreme widgets provide a wide choice of [predefined formats](/Documentation/ApiReference/Common/Object_Structures/format/#type). If you are going to use custom formats instead, link the [Globalize](https://github.com/jquery/globalize) library to your project as shown in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
+[note]DevExtreme widgets provide a wide choice of [predefined formats](/Documentation/ApiReference/Common/Object_Structures/format/#type). If you are going to use custom formats instead, link the <a href="https://github.com/jquery/globalize" target="_blank">Globalize</a> library to your project as shown in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 <!--/fullDescription-->

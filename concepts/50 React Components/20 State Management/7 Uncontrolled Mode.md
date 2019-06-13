@@ -1,4 +1,4 @@
-In [uncontrolled mode](https://reactjs.org/docs/uncontrolled-components.html), DevExtreme components maintain and update their own state.
+In <a href="https://reactjs.org/docs/uncontrolled-components.html" target="_blank">uncontrolled mode</a>, DevExtreme components maintain and update their own state.
 
 To specify an initial option value in this mode, add the `default` prefix to the option name. In the example below, the `defaultCurrentDate` attribute is used to define the `currentDate` option's initial value.
 

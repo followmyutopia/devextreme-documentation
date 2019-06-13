@@ -1,4 +1,4 @@
-Depending on the [uploadMode](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#uploadMode), the **FileUploader** widget uses an [HTML form](http://www.w3schools.com/html/html_forms.asp) or a [FormData](https://developer.mozilla.org/en/docs/Web/API/FormData) interface with a series of Ajax requests to upload files.
+Depending on the [uploadMode](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#uploadMode), the **FileUploader** widget uses an <a href="http://www.w3schools.com/html/html_forms.asp" target="_blank">HTML form</a> or a <a href="https://developer.mozilla.org/en/docs/Web/API/FormData" target="_blank">FormData</a> interface with a series of Ajax requests to upload files.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/File_Uploader/FileUploading/jQuery/Light/"

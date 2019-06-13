@@ -12,7 +12,7 @@ Specifies in which markup language the [value](/Documentation/ApiReference/UI_Wi
 <!--fullDescription-->
 [note]
 
-Markdown requires the [turndown](https://www.npmjs.com/package/turndown) and [showdown](https://www.npmjs.com/package/showdown) libraries. If you use browser scripts, link them before the DevExtreme scripts. If you use JavaScript modules, import the Markdown converter:
+Markdown requires the <a href="https://www.npmjs.com/package/turndown" target="_blank">turndown</a> and <a href="https://www.npmjs.com/package/showdown" target="_blank">showdown</a> libraries. If you use browser scripts, link them before the DevExtreme scripts. If you use JavaScript modules, import the Markdown converter:
 
     import "devextreme/ui/html_editor/converters/markdown";
     // or

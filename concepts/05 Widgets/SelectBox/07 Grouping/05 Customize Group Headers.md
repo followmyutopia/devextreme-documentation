@@ -141,7 +141,7 @@ By default, group headers display text of the **key** field in a bold font. You 
 
 ---
 
-If you use jQuery alone, combine HTML markup for group headers manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [groupTemplate](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#groupTemplate) callback function as shown in the following code.
+If you use jQuery alone, combine HTML markup for group headers manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [groupTemplate](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#groupTemplate) callback function as shown in the following code.
 
     <!--JavaScript-->var fruitsVegetables = [{
         // ...

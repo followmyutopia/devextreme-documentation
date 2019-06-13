@@ -173,7 +173,7 @@ Using the default appointment template is the easiest way to customize an appoin
 
 ---
 
-If you use only jQuery, combine HTML markup for appointments manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [appointmentTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#appointmentTemplate) callback function as shown in the following code.
+If you use only jQuery, combine HTML markup for appointments manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [appointmentTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#appointmentTemplate) callback function as shown in the following code.
 
 [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)
 

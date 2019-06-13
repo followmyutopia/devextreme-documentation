@@ -1,4 +1,4 @@
-To call widget methods, you need the widget instance. Create a [ref](https://reactjs.org/docs/refs-and-the-dom.html) and attach it to the target component via the `ref` attribute. Implement a getter that returns the instance taken from the ref. In the following code, this approach is used to get a `TextBox` instance:
+To call widget methods, you need the widget instance. Create a <a href="https://reactjs.org/docs/refs-and-the-dom.html" target="_blank">ref</a> and attach it to the target component via the `ref` attribute. Implement a getter that returns the instance taken from the ref. In the following code, this approach is used to get a `TextBox` instance:
     
     <!-- tab: App.js -->
     import Button from 'devextreme-react/button';

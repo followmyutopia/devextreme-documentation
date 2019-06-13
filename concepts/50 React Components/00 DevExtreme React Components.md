@@ -3,7 +3,7 @@
     docsLink: "https://reactjs.org/docs/getting-started.html"
 }
 
-[note] DevExtreme provides two React component libraries: DevExtreme React Components, which are wrappers over DevExtreme widgets, described here and [DevExtreme Reactive Components](https://github.com/DevExpress/devextreme-reactive/blob/master/README.md). Refer to [this blog post](https://community.devexpress.com/blogs/oliver/archive/2018/04/20/devextreme-new-react-wrappers-vs-native-react-components.aspx) for a detailed comparison of the two libraries.
+[note] DevExtreme provides two React component libraries: DevExtreme React Components, which are wrappers over DevExtreme widgets, described here and <a href="https://github.com/DevExpress/devextreme-reactive/blob/master/README.md" target="_blank">DevExtreme Reactive Components</a>. Refer to <a href="https://community.devexpress.com/blogs/oliver/archive/2018/04/20/devextreme-new-react-wrappers-vs-native-react-components.aspx" target="_blank">this blog post</a> for a detailed comparison of the two libraries.
 
 The DevExtreme React Component Suite is a feature-complete set of 65+ responsive and touch-enabled UI components for React applications. The suite includes a data grid, interactive charts, data editors, navigation and multi-purpose widgets.
 

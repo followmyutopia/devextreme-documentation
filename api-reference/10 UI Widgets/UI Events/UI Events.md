@@ -27,7 +27,7 @@ The following code shows how to attach, trigger and then detach a **dxhold** eve
     $("#target").trigger("dxhold");
     $("#target").off("dxhold", dxholdHandler);
 
-See [jQuery documentation](http://api.jquery.com/category/events/event-handler-attachment) for details.
+See <a href="http://api.jquery.com/category/events/event-handler-attachment" target="_blank">jQuery documentation</a> for details.
 
 ##### Angular
 
@@ -64,7 +64,7 @@ See [jQuery documentation](http://api.jquery.com/category/events/event-handler-a
 
 [note]Knockout does not provide an API to unsubscribe from an event.
 
-See [Knockout documentation](http://knockoutjs.com/documentation/event-binding.html) for details.
+See <a href="http://knockoutjs.com/documentation/event-binding.html" target="_blank">Knockout documentation</a> for details.
 
 ##### AngularJS
 

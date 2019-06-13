@@ -2,7 +2,7 @@ A recurring appointment is an appointment that repeats after a specified period 
 
 ![Scheduler Recurring Appointment](/Content/images/doc/19_1/UiWidgets/Scheduler_RecurrentAppointment.png)
 
-An object defining a recurring appointment should contain the [recurrenceRule](/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/#recurrenceRule) field that follows the [iCalendar RFC 2445](https://tools.ietf.org/html/rfc2445#section-4.3.10) specification.
+An object defining a recurring appointment should contain the [recurrenceRule](/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/#recurrenceRule) field that follows the <a href="https://tools.ietf.org/html/rfc2445#section-4.3.10" target="_blank">iCalendar RFC 2445</a> specification.
 
     <!--JavaScript-->
     var recurringAppointment = [{

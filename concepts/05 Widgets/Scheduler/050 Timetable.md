@@ -211,7 +211,7 @@ For a more detailed customization, define custom templates for cells, time scale
 
 ---
 
-If you use jQuery alone, combine the HTML markup for cells, time scales and date scales manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [timeCellTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#timeCellTemplate), [dateCellTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#dateCellTemplate) and [dataCellTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#dataCellTemplate) callback functions as shown in the following code:
+If you use jQuery alone, combine the HTML markup for cells, time scales and date scales manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [timeCellTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#timeCellTemplate), [dateCellTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#dateCellTemplate) and [dataCellTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#dataCellTemplate) callback functions as shown in the following code:
 
     <!--JavaScript-->var schedulerData = [{
         text: "His Girl Friday",

@@ -1,4 +1,4 @@
-You can use the [standard methods](http://www.w3schools.com/js/js_array_methods.asp) to make changes to the array. Then, use the [option(optionName, optionValue)](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Methods/#optionoptionName_optionValue) method to reassign the updated array to the **Sankey**.
+You can use the <a href="http://www.w3schools.com/js/js_array_methods.asp" target="_blank">standard methods</a> to make changes to the array. Then, use the [option(optionName, optionValue)](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Methods/#optionoptionName_optionValue) method to reassign the updated array to the **Sankey**.
 
     <!--JavaScript-->var sankeyData = [
         { source: "Brazil", target: "Spain", weight: 4 },

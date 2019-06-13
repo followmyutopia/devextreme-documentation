@@ -37,7 +37,7 @@ To bind the **DataGrid** to data in the JSON format, assign the data's URL to th
     url: "/Demos/WidgetsGallery/Demo/Data_Grid/AjaxRequest/jQuery/Light/"
 }
 
-Note that you can also use a JSONP callback parameter supported by [jQuery.ajax()](http://api.jquery.com/jQuery.ajax/).
+Note that you can also use a JSONP callback parameter supported by <a href="http://api.jquery.com/jQuery.ajax/" target="_blank">jQuery.ajax()</a>.
 
 ---
 

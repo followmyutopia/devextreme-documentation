@@ -1,4 +1,4 @@
-If you want to use [Globalize](https://github.com/globalizejs/globalize#globalize) for localization, install it and the `devextreme-cldr-data` extension:
+If you want to use <a href="https://github.com/globalizejs/globalize#globalize" target="_blank">Globalize</a> for localization, install it and the `devextreme-cldr-data` extension:
 
     npm install --save-dev devextreme-cldr-data globalize
 

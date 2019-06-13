@@ -1,4 +1,4 @@
-﻿To create a custom bundle using the DevExtreme Bundler tool, you need [Webpack](http://webpack.github.io/docs/) and the DevExtreme package installed globally.  
+﻿To create a custom bundle using the DevExtreme Bundler tool, you need <a href="http://webpack.github.io/docs/" target="_blank">Webpack</a> and the DevExtreme package installed globally.  
 
     npm install -g webpack  
     npm install -g devextreme  

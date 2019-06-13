@@ -69,7 +69,7 @@ For Angular, AngularJS, and Knockout apps, DevExtreme provides a markup componen
 
 ---
 
-If you use jQuery alone, combine the HTML markup for cells manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [cellTemplate](/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#cellTemplate) callback function as shown in the following code.
+If you use jQuery alone, combine the HTML markup for cells manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [cellTemplate](/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#cellTemplate) callback function as shown in the following code.
 
     <!--JavaScript-->
     $(function () {

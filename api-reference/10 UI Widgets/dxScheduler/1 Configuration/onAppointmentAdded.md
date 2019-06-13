@@ -40,5 +40,5 @@ The added appointment's data.
 <!--typeFunctionParamName1_field5-->error<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->Error<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The standard [Error](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error) object that defines the occurred error.
+The standard <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error" target="_blank">Error</a> object that defines the occurred error.
 <!--/typeFunctionParamDescription1_field5-->

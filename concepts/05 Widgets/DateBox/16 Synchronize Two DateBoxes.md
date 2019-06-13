@@ -86,7 +86,7 @@
 
 ---
 
-Do not forget to call the [getDate()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Date/getDate) method on the **DateBox** values when calculating the interval duration.
+Do not forget to call the <a href="https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Date/getDate" target="_blank">getDate()</a> method on the **DateBox** values when calculating the interval duration.
 
 #####See Also#####
 #include common-link-configurewidget

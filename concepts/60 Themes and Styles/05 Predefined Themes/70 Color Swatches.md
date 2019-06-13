@@ -15,7 +15,7 @@ A color swatch is defined by scoped CSS rules that are prefixed with a specific 
 
 You can generate color swatches with the DevExtreme CLI or ThemeBuilder UI:
 
-* **[DevExtreme CLI](https://github.com/DevExpress/devextreme-cli/blob/master/README.md)**        
+* **<a href="https://github.com/DevExpress/devextreme-cli/blob/master/README.md" target="_blank">DevExtreme CLI</a>**        
 
     The following command generates a new `custom` color swatch that uses Generic Dark as a base theme.
 
@@ -25,7 +25,7 @@ You can generate color swatches with the DevExtreme CLI or ThemeBuilder UI:
 
     The result of this command is a `dx.generic.dark.css` file in which every rule is prefixed with the `.dx-swatch-dark` CSS selector. Move the file to the application folder, [register it](/Documentation/Guide/Themes_and_Styles/Predefined_Themes/#Apply_a_Theme), and add the swatch class to a page element.
 
-    Refer to [DevExtreme CLI: ThemeBuilder](https://github.com/DevExpress/devextreme-cli/blob/master/README.md#themebuilder) for more information about CLI commands and command line arguments.
+    Refer to <a href="https://github.com/DevExpress/devextreme-cli/blob/master/README.md#themebuilder" target="_blank">DevExtreme CLI: ThemeBuilder</a> for more information about CLI commands and command line arguments.
 
 * **[ThemeBuilder UI](/Documentation/Guide/Themes_and_Styles/ThemeBuilder/)**       
 

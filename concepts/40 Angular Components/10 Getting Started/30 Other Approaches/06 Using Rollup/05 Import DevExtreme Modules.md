@@ -1,4 +1,4 @@
-Import the required DevExtreme modules *after* the stylesheets in the same `NgModule`. Note that because DevExtreme modules [do not support tree shaking](https://github.com/DevExpress/devextreme-angular/issues/353) with Rollup, you should import the modules from specific files (as shown below) rather than from the main `devextreme-angular` module.
+Import the required DevExtreme modules *after* the stylesheets in the same `NgModule`. Note that because DevExtreme modules <a href="https://github.com/DevExpress/devextreme-angular/issues/353" target="_blank">do not support tree shaking</a> with Rollup, you should import the modules from specific files (as shown below) rather than from the main `devextreme-angular` module.
 
     <!-- tab: app.module.ts -->
     // ...

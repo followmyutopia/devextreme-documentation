@@ -1,1 +1,1 @@
-The event that caused the function to execute. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/category/events/event-object/) when you use jQuery.
+The event that caused the function to execute. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a <a href="http://api.jquery.com/category/events/event-object/" target="_blank">jQuery.Event</a> when you use jQuery.

@@ -134,7 +134,7 @@ Using the default item template is the easiest way to customize an item, but it 
 
 ---
 
-If you use jQuery alone, combine the HTML markup for items and their titles manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxAccordion/Configuration/#itemTemplate) and [itemTitleTemplate](/Documentation/ApiReference/UI_Widgets/dxAccordion/Configuration/#itemTitleTemplate) callback functions as shown in the following code.
+If you use jQuery alone, combine the HTML markup for items and their titles manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxAccordion/Configuration/#itemTemplate) and [itemTitleTemplate](/Documentation/ApiReference/UI_Widgets/dxAccordion/Configuration/#itemTitleTemplate) callback functions as shown in the following code.
 
     <!--JavaScript-->var accordionData = [{
         firstName: "John", lastName: "Smith",

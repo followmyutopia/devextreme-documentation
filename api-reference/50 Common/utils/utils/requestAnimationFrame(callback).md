@@ -20,7 +20,7 @@ The current request's ID.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-This method acts as a normalization of the standard [requestAnimationFrame](https://developer.mozilla.org/en/docs/Web/API/window.requestAnimationFrame) method of the **window** object:
+This method acts as a normalization of the standard <a href="https://developer.mozilla.org/en/docs/Web/API/window.requestAnimationFrame" target="_blank">requestAnimationFrame</a> method of the **window** object:
 
     <!--JavaScript-->
     window.requestAnimationFrame ||

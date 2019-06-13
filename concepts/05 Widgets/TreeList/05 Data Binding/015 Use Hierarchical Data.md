@@ -142,7 +142,7 @@ All items with children have the **items** field. If you use another name for th
 
 When you load data from a remote source, and your data objects have a field that defines whether a row has nested rows, assign this field name to the [hasItemsExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#hasItemsExpr) option. It will notify the widget which rows do not need the expand button. 
 
-[note] Editing does not work with hierarchical data sources out of the box, but you can use the code sample from [this KB](https://www.devexpress.com/Support/Center/Question/Details/T725094/treelist-how-to-perform-crud-operations-on-a-hierarchical-data-source) to implement it.
+[note] Editing does not work with hierarchical data sources out of the box, but you can use the code sample from <a href="https://www.devexpress.com/Support/Center/Question/Details/T725094/treelist-how-to-perform-crud-operations-on-a-hierarchical-data-source" target="_blank">this KB</a> to implement it.
 
 #####See Also#####
 - [TreeList - Use Plain Data](/Documentation/Guide/Widgets/TreeList/Data_Binding/Use_Plain_Data/)

@@ -4,7 +4,7 @@ You can install and configure DevExtreme and its dependencies with a single npx 
 
 [note]
 
-npx is available with npm v5.2 and later. If you have an earlier version, [upgrade npm](https://docs.npmjs.com/try-the-latest-stable-version-of-npm) or install the DevExtreme CLI globally and run the command from the installed package:
+npx is available with npm v5.2 and later. If you have an earlier version, <a href="https://docs.npmjs.com/try-the-latest-stable-version-of-npm" target="_blank">upgrade npm</a> or install the DevExtreme CLI globally and run the command from the installed package:
 
     npm i -g devextreme-cli
     devextreme add devextreme-angular

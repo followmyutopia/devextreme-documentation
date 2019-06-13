@@ -297,4 +297,4 @@ This step's implementation depends on the embedded widget's API and the library/
 }
 
 #####See Also#####
-- **Use the DropDownBox as a column editor in the DataGrid**: [jQuery](https://github.com/DevExpress-Examples/datagrid-how-to-use-dropdownbox-as-a-column-editor-in-edit-mode-t548916) | [ASP.NET MVC](https://github.com/DevExpress-Examples/mvc-datagrid-how-to-use-dropdownbox-as-a-column-editor-in-edit-mode-t576412)
+- **Use the DropDownBox as a column editor in the DataGrid**: <a href="https://github.com/DevExpress-Examples/datagrid-how-to-use-dropdownbox-as-a-column-editor-in-edit-mode-t548916" target="_blank">jQuery</a> | <a href="https://github.com/DevExpress-Examples/mvc-datagrid-how-to-use-dropdownbox-as-a-column-editor-in-edit-mode-t576412" target="_blank">ASP.NET MVC</a>

@@ -14,7 +14,7 @@ The [Marker](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/markers/
 
 <!--returnType-->Promise<Object><!--/returnType-->
 <!--returnDescription-->
-A Promise that is resolved with an original marker instance when the marker is added. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
+A Promise that is resolved with an original marker instance when the marker is added. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
 <!--/returnDescription-->
 
 <!--fullDescription-->

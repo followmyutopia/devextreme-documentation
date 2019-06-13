@@ -2,4 +2,4 @@ Run the application with the following command:
 
     ng serve
 
-Open [http://localhost:4200/](http://localhost:4200/) to browse the application.
+Open <a href="http://localhost:4200/" target="_blank">http://localhost:4200/</a> to browse the application.

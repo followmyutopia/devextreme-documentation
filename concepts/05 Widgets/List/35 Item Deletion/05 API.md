@@ -40,7 +40,7 @@ Pass the index to the [deleteItem(itemIndex)](/Documentation/ApiReference/UI_Wid
     ---
 
 - **By DOM node**      
-Pass the [DOM node](http://www.w3schools.com/js/js_htmldom_nodes.asp) to the [deleteItem(itemElement)](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#deleteItemitemElement) method.
+Pass the <a href="http://www.w3schools.com/js/js_htmldom_nodes.asp" target="_blank">DOM node</a> to the [deleteItem(itemElement)](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#deleteItemitemElement) method.
 
     ---
     #####jQuery

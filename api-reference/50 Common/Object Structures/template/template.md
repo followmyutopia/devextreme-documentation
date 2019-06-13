@@ -100,7 +100,7 @@ Specifies the page element containing the template. Useful for referring to exte
         </script>
 
 - **Function**      
-Combines the HTML markup using jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/):
+Combines the HTML markup using jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>:
 
         <!--JavaScript-->
         $(function() {

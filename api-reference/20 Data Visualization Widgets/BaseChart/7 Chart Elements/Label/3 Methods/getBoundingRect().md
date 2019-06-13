@@ -3,7 +3,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets the parameters of the label's [minimum bounding rectangle](http://en.wikipedia.org/wiki/Minimum_bounding_rectangle) (MBR).
+Gets the parameters of the label's <a href="http://en.wikipedia.org/wiki/Minimum_bounding_rectangle" target="_blank">minimum bounding rectangle</a> (MBR).
 <!--/shortDescription-->
 
 <!--returnType-->Object<!--/returnType-->
