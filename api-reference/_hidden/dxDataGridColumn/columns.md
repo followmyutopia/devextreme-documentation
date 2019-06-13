@@ -7,3 +7,4 @@
 <!--shortDescription-->
 An array of grid columns.
 <!--/shortDescription-->
+

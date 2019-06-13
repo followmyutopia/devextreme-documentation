@@ -7,3 +7,4 @@
 <!--shortDescription-->
 Configures columns.
 <!--/shortDescription-->
+
