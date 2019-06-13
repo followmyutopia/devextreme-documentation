@@ -41,7 +41,7 @@ Items to be displayed in the context menu. Their structure is described in the [
 <!--typeFunctionParamName1_field5-->target<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->String<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The name of the element on which the context menu is invoked: "header", "content" or "footer". This field is read-only.
+The name of the element on which the context menu is invoked: *"header"*, *"content"*, or *"footer"*. This field is read-only.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->targetElement<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->dxElement<!--/typeFunctionParamType1_field6-->

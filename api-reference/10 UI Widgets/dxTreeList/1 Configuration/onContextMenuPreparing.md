@@ -10,21 +10,25 @@ A function that is executed before the context menu is rendered.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The following code shows how you can customize the context menu using this function:
+In the following code, the **onContextMenuPreparing** function adds a custom item to the context menu invoked when a user right-clicks any column header:
 
 ---
 ##### jQuery
 
-    <!--JavaScript-->
+    <!-- tab: index.js -->
     $(function() {
-        $("#treeListContainer").dxTreeList({
-            // ... 
+        $("#{widgetName}Container").dx{WidgetName}({
+            // ...
             onContextMenuPreparing: function(e) { 
-                if (e.target == "header" && e.columnIndex == 0) {
+                if (e.target == "header") {
+                    // e.items can be undefined
+                    if (!e.items) e.items = [];
+
+                    // Add a custom menu item
                     e.items.push({
-                        text: "Item Text",
+                        text: "Log Column Caption",
                         onItemClick: function() {
-                            // ...
+                            console.log(e.column.caption);
                         }
                     });
                 } 
@@ -34,34 +38,136 @@ The following code shows how you can customize the context menu using this funct
 
 ##### Angular
 
-    <!--TypeScript-->
-    import { DxTreeListModule } from "devextreme-angular";
-    // ...
+    <!-- tab: app.component.html -->
+    <dx-{widget-name} ...
+        (onContextMenuPreparing)="addMenuItems($event)">
+    </dx-{widget-name}>
+
+    <!-- tab: app.component.ts -->
+    import { Component } from '@angular/core';
+
+    @Component({
+        selector: 'app-root',
+        templateUrl: './app.component.html',
+        styleUrls: ['./app.component.css']
+    })
     export class AppComponent {
-        onContextMenuPreparing (e) { 
-            if (e.target == "header" && e.columnIndex == 0) {
+        addMenuItems(e) { 
+            if (e.target == 'header') {
+                // e.items can be undefined
+                if (!e.items) e.items = [];
+
+                // Add a custom menu item
                 e.items.push({
-                    text: "Item Text",
-                    onItemClick: function() {
-                        // ...
+                    text: 'Log Column Caption',
+                    onItemClick: () => {
+                        console.log(e.column.caption);
                     }
                 });
             } 
         }
     }
-    @NgModule({
-        imports: [
-            // ...
-            DxTreeListModule
-        ],
-        // ...
-    })
 
-    <!--HTML-->
-    <dx-tree-list ...
-        (onContextMenuPreparing)="onContextMenuPreparing($event)">
-    </dx-tree-list>
-    
+    <!-- tab: app.module.ts -->
+    import { BrowserModule } from '@angular/platform-browser';
+    import { NgModule } from '@angular/core';
+    import { AppComponent } from './app.component';
+
+    import { Dx{WidgetName}Module } from 'devextreme-angular';
+
+    @NgModule({
+        declarations: [
+            AppComponent
+        ],
+        imports: [
+            BrowserModule,
+            Dx{WidgetName}Module
+        ],
+        providers: [ ],
+        bootstrap: [AppComponent]
+    })
+    export class AppModule { }
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-{widget-name} ...
+            @context-menu-preparing="addMenuItems">
+        </dx-{widget-name}>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import Dx{WidgetName} from 'devextreme-vue/{widget-name}';
+
+    export default {
+        components: {
+            Dx{WidgetName}
+        },
+        data() {
+            return {
+                // ...
+            }
+        },
+        methods: {
+            addMenuItems(e) {
+                if (e.target == 'header') {
+                    // e.items can be undefined
+                    if (!e.items) e.items = [];
+
+                    // Add a custom menu item
+                    e.items.push({
+                        text: 'Log Column Caption',
+                        onItemClick: () => {
+                            console.log(e.column.caption);
+                        }
+                    });
+                } 
+            }
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import {WidgetName} from 'devextreme-react/{widget-name}';
+
+
+    class App extends React.Component {
+        addMenuItems(e) {
+            if (e.target == 'header') {
+                // e.items can be undefined
+                if (!e.items) e.items = [];
+
+                // Add a custom menu item
+                e.items.push({
+                    text: 'Log Column Caption',
+                    onItemClick: () => {
+                        console.log(e.column.caption);
+                    }
+                });
+            }
+        }
+
+        render() {
+            return (
+                <{WidgetName} ...
+                    onContextMenuPreparing={this.addMenuItems}>
+                </{WidgetName}>
+            );
+        }
+    }
+    export default App;
+
 ---
 
 <!--/fullDescription-->
@@ -93,7 +199,7 @@ Items to be displayed in the context menu. Their structure is described in the [
 <!--typeFunctionParamName1_field5-->target<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->String<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The name of the element on which the context menu is invoked: "header", "content" or "footer". This field is read-only.
+The name of the element on which the context menu is invoked: *"header"*, *"content"*, or *"footer"*. This field is read-only.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->targetElement<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->dxElement<!--/typeFunctionParamType1_field6-->
