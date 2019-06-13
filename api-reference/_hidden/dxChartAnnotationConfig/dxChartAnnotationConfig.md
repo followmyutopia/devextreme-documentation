@@ -4,10 +4,3 @@
 <!--inherits-->..\dxChartCommonAnnotationConfig\dxChartCommonAnnotationConfig.md<!--/inherits-->
 ===========================================================================
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->

@@ -4,10 +4,3 @@
 <!--type-->Array<dxTreeListColumn, String><!--/type-->
 ===========================================================================
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->

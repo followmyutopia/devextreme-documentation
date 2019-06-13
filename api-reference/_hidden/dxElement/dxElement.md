@@ -4,10 +4,3 @@
 <!--type-->Node | jQuery<!--/type-->
 ===========================================================================
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->

@@ -5,10 +5,3 @@
 <!--firedEvents-->valueChanged<!--/firedEvents-->
 ===========================================================================
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->

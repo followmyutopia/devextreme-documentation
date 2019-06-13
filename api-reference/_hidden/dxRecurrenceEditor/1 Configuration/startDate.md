@@ -5,10 +5,3 @@
 <!--type-->Date<!--/type-->
 ===========================================================================
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->

@@ -4,10 +4,3 @@
 <!--inherits-->..\GridBaseColumn\GridBaseColumn.md<!--/inherits-->
 ===========================================================================
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->

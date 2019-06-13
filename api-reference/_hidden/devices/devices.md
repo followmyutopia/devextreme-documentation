@@ -4,10 +4,3 @@
 <!--type-->DevicesObject<!--/type-->
 ===========================================================================
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->

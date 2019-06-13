@@ -4,10 +4,3 @@
 <!--type-->Array<dxDataGridColumn, String><!--/type-->
 ===========================================================================
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->

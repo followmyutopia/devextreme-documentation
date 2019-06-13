@@ -5,10 +5,3 @@
 <!--inherits-->..\..\10 UI Widgets\Editor\Editor.md<!--/inherits-->
 ===========================================================================
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
