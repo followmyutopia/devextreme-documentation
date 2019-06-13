@@ -4,3 +4,6 @@
 <!--type-->Array<dxTreeListColumn, String><!--/type-->
 ===========================================================================
 
+<!--shortDescription-->
+Configures columns.
+<!--/shortDescription-->
