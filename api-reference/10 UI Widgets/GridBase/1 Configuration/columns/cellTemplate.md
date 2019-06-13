@@ -42,82 +42,8 @@ This function has the following parameters:
 
 [note]If you implement two-way data binding in your template, make sure that you have switched off the built-in implementation of this feature by setting the [twoWayBindingEnabled]({basewidgetpath}/Configuration/#twoWayBindingEnabled) option to **false**.
 
-In the following code, a **cellTemplate** is used to display a price change as an absolute value and a percentage:
-
----
-#####jQuery
-
-    <!--JavaScript-->
-    $(function() {
-        $("#{widgetName}Container").dx{WidgetName}({
-            // ...
-            repaintChangesOnly: true,
-            columns: [
-                // ...
-                "Price", 
-                { 
-                    dataField: "Change", 
-                    cellTemplate: function(element, info) {
-                        var data = info.data;
-                        var percent = (data.Change / data.Price * 100).toFixed(2);
-                        element.html(data.Change + " (" + percent + "%)");
-                        // Tracks the `Price` data field
-                        info.watch(function() { return data.Price }, function(e) {
-                            percent = (data.Change / e * 100).toFixed(2);
-                            element.html(data.Change + " (" + percent + "%)");
-                        })
-                    }
-                }
-            ]
-        })
-    })
-
-#####Angular
-
-    <!--HTML-->
-    <dx-{widget-name} ... 
-        [repaintChangesOnly]="true>
-        <dxi-column dataField="Price"></dxi-column>
-        <dxi-column dataField="Change" cellTemplate="cellTemplate"></dxi-column>
-        <div *dxTemplate="let cell of 'cellTemplate'">
-            {{cell.data.Change}} ({{(cell.data.Change / cell.data.Price * 100).toFixed(2)}}%)
-        </div>
-    </dx-{widget-name}>
-
-#####ASP.NET MVC Controls
-
-    <!--Razor C#-->
-    @(Html.DevExtreme().{WidgetName}()
-        .ID("{widgetName}Container")
-        // ...
-        .RepaintChangesOnly(true)
-        .Columns(c => {
-            c.Add().DataField("Price")
-            c.Add().DataField("Change").CellTemplate(new JS("{widgetName}_change_cellTemplate"))
-        })
-    )
-    <script>
-        function {widgetName}_change_cellTemplate(element, info) {
-            var data = info.data;
-            var percent = (data.Change / data.Price * 100).toFixed(2);
-            element.html(data.Change + " (" + percent + "%)");
-            // Tracks the `Price` data field
-            info.watch(function() { return data.Price }, function(e) {
-                percent = (data.Change / e * 100).toFixed(2);
-                element.html(data.Change + " (" + percent + "%)");
-            })
-        }
-    </script>
-
----
-
-#include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/Data_Grid/ColumnTemplate/jQuery/Light/",
-    name: "Function Template"
-}
-#include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/Data_Grid/Column3RdPartyEngineTemplate/jQuery/Light/",
-    name: "Underscore Template"
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/CellCustomization/jQuery/Light/"
 }
 
 [note] In [fixed columns]({basewidgetpath}/Configuration/columnFixing/), a **cellTemplate** is initialized and rendered twice for each cell.

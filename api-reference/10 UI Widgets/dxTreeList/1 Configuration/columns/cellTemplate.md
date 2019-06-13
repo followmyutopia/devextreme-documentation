@@ -36,74 +36,9 @@ This function has the following parameters:
 
 [note]If you implement two-way data binding in your template, make sure that you have switched off the built-in implementation of this feature by setting the [twoWayBindingEnabled]({basewidgetpath}/Configuration/#twoWayBindingEnabled) option to **false**.
 
-In the following code, a **cellTemplate** is used to display a price change as an absolute value and a percentage:
-
----
-#####jQuery
-
-    <!--JavaScript-->
-    $(function() {
-        $("#treeListContainer").dxTreeList({
-            // ...
-            repaintChangesOnly: true,
-            columns: [
-                // ...
-                "Price", 
-                { 
-                    dataField: "Change", 
-                    cellTemplate: function(element, info) {
-                        var data = info.data;
-                        var percent = (data.Change / data.Price * 100).toFixed(2);
-                        element.html(data.Change + " (" + percent + "%)");
-                        // Tracks the `Price` data field
-                        info.watch(function() { return data.Price }, function(e) {
-                            percent = (data.Change / e * 100).toFixed(2);
-                            element.html(data.Change + " (" + percent + "%)");
-                        })
-                    }
-                }
-            ]
-        })
-    })
-
-#####Angular
-
-    <!--HTML-->
-    <dx-tree-list ... 
-        [repaintChangesOnly]="true">
-        <dxi-column dataField="Price"></dxi-column>
-        <dxi-column dataField="Change" cellTemplate="cellTemplate"></dxi-column>
-        <div *dxTemplate="let cell of 'cellTemplate'">
-            {{cell.data.Change}} ({{(cell.data.Change / cell.data.Price * 100).toFixed(2)}}%)
-        </div>
-    </dx-tree-list>
-
-#####ASP.NET MVC Controls
-
-    <!--Razor C#-->
-    @(Html.DevExtreme().TreeList()
-        .ID("treeListContainer")
-        // ...
-        .RepaintChangesOnly(true)
-        .Columns(c => {
-            c.Add().DataField("Price")
-            c.Add().DataField("Change").CellTemplate(new JS("treeList_change_cellTemplate"))
-        })
-    )
-    <script>
-        function treeList_change_cellTemplate(element, info) {
-            var data = info.data;
-            var percent = (data.Change / data.Price * 100).toFixed(2);
-            element.html(data.Change + " (" + percent + "%)");
-            // Tracks the `Price` data field
-            info.watch(function() { return data.Price }, function(e) {
-                percent = (data.Change / e * 100).toFixed(2);
-                element.html(data.Change + " (" + percent + "%)");
-            })
-        }
-    </script>
-
----
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/TreeList/Overview/jQuery/Light/"
+}
 
 #####See Also#####
 - [Customize Cells Appearance](/Documentation/Guide/Widgets/TreeList/Columns/Customize_Cells/#Customize_the_Appearance)
