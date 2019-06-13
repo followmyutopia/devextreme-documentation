@@ -18,10 +18,10 @@ Check boxes can change their visibility state at runtime. The following list des
 Check boxes appear once a user clicks anywhere in the selection column, or if two or more rows are selected [programmatically](/Documentation/Guide/Widgets/DataGrid/Selection/#API/Initial_and_Runtime_Selection) or using [keyboard shortcuts](/Documentation/Guide/Widgets/DataGrid/Keyboard_Support/). Check boxes disappear once rows selection is canceled.
 
 - *"onLongTap"*     
-The selection column with all check boxes (dis)appears on long tap, or click and hold.
+The selection column with all the check boxes appears and disappears on long tap, and on click and hold.
 
 - *"always"*    
-The selection column with all check boxes is always visible, which means that selection is never single-like in this mode. Clicking rows has no effect.
+The selection column with all the check boxes is always visible. A user can select a row by clicking the check box or its grid cell, but not the row itself.
 
 - *"none"*  
 Check boxes are always hidden, which means that selection is always single-like in this mode.
