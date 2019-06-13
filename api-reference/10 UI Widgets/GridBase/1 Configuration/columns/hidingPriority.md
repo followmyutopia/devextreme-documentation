@@ -13,6 +13,8 @@ The **hidingPriority** is a unique positive integer that ascends from right to l
 
 [note]Specifying **hidingPriority** for at least one column enables the column hiding feature and cancels the default hiding priorities.
 
+[note] [Fixed]({basewidgetpath}/Configuration/columns/#fixed) columns ignore the **hidingPriority** and [allowHiding]({basewidgetpath}/Configuration/columns/#allowHiding) options.
+
 #####See Also#####
 - [columnHidingEnabled]({basewidgetpath}/Configuration/#columnHidingEnabled)
 - [onAdaptiveDetailRowPreparing]({basewidgetpath}/Configuration/#onAdaptiveDetailRowPreparing)
