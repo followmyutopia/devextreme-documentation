@@ -9,4 +9,5 @@ Specifies the text displayed in the load panel. Ignored in the [Material Design]
 <!--/shortDescription-->
 
 <!--fullDescription-->
+
 <!--/fullDescription-->
