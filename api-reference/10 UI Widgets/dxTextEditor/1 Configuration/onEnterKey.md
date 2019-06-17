@@ -10,7 +10,7 @@ A function that is executed when the Enter key has been pressed while the widget
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+[note] This function is executed *after* the [onKeyUp]({basewidgetpath}/Configuration/#onKeyUp), [onKeyDown]({basewidgetpath}/Configuration/#onKeyDown), and [onKeyPress]({basewidgetpath}/Configuration/#onKeyPress) functions.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

@@ -19,7 +19,7 @@ The function passed to this option enables you to specify a custom condition for
         }
     }
 
-
+The **closeOnOutsideClick** function is called when a user clicks the widget or outside it.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->event<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->event<!--/typeFunctionParamType1-->

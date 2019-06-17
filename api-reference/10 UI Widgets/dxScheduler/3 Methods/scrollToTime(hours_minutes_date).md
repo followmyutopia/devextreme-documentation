@@ -27,7 +27,9 @@ A date component.
 <!--fullDescription-->
 If the specified date is outside the current date range, the method scrolls the view to the specified time.
 
-[note] This method requires the markup to be already rendered. If you want to scroll the **Scheduler** at launch, call this method in the [onContentReady](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onContentReady) function.
+[note] This method requires that the markup is already rendered. To scroll the **Scheduler** at launch, call this method in the [onContentReady](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onContentReady) function.
+
+[note] This method does not work in the [month view](/Documentation/Guide/Widgets/Scheduler/Views/View_Types/#Month_View).
 
 #####See Also#####
 #include common-link-callmethods
