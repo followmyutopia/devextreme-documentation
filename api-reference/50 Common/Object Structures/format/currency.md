@@ -8,7 +8,7 @@ Specifies the currency code. Applies only if the [type](/Documentation/ApiRefere
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note] [Reference Globalize or Intl](/Documentation/Guide/Common/Localization/#Localize_Dates_Numbers_and_Currencies/) if you specify a currency code other than "USD".
+[note] [Reference Globalize or Intl](/Documentation/Guide/Common/Localization/#Localize_Dates_Numbers_and_Currencies) if you specify a currency code other than "USD".
 
 This option accepts a 3-letter <a href="http://www.currency-iso.org/en/home/tables/table-a1.html" target="_blank">ISO 4217</a> code for each currency. Assign the code to this option if you use Intl, or do the following if you use Globalize: 
 
