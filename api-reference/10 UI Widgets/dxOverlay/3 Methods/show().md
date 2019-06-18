@@ -12,6 +12,8 @@ A Promise that is resolved after the widget is shown. It is a <a href="https://d
 <!--/returnDescription-->
 
 <!--fullDescription-->
+The widget is automatically hidden after the time specified in the [displayTime]({basewidgetpath}/Configuration/#displayTime) option.
+
 #####See Also#####
 #include common-link-callmethods
 <!--/fullDescription-->

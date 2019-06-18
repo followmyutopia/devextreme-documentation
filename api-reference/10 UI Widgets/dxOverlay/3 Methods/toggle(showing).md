@@ -18,7 +18,9 @@ A Promise that is resolved after the widget is shown/hidden. It is a <a href="ht
 <!--/returnDescription-->
 
 <!--fullDescription-->
-You can use the **toggle(showing)** method instead of **show()** and **hide()** methods. The only difference is that you specify whether to show or hide the widget passing true or false to the method parameter.
+You can use the **toggle(showing)** method instead of the **show()** and **hide()** methods. In this case, pass true or false as the method parameter to show or hide the widget.
+
+The widget is automatically hidden after the time specified in the [displayTime]({basewidgetpath}/Configuration/#displayTime) option.
 
 #####See Also#####
 #include common-link-callmethods
