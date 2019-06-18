@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies data field that provides a text for a node.
 <!--/shortDescription-->
 
 <!--fullDescription-->

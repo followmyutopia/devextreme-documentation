@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the data field that provides an edge's end node key.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -5,9 +5,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Binds the **edges** collection to the specified data.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+The Diagram widget creates a connector between two shapes for every edge in the collection.
 <!--/fullDescription-->

@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies a shape's unique identifier.
 <!--/shortDescription-->
 
 <!--fullDescription-->

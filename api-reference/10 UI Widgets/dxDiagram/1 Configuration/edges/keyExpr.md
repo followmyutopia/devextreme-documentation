@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the data field that provides a key for an edge.
 <!--/shortDescription-->
 
 <!--fullDescription-->

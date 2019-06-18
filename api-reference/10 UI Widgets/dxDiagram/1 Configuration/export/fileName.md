@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the name of the file to which the diagram is exported.
 <!--/shortDescription-->
 
 <!--fullDescription-->

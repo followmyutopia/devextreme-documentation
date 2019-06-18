@@ -3,7 +3,7 @@
 ===================================================================
 
 <!--shortDescription-->
-
+Removes data source items from the toolbox.
 <!--/shortDescription-->
 
 <!--paramName1-->key<!--/paramName1-->

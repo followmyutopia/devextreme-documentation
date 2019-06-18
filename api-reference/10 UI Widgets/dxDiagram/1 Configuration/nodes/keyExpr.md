@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the data field that provides a node's key.
 <!--/shortDescription-->
 
 <!--fullDescription-->

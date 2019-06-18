@@ -6,7 +6,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+A function that is executed when the diagram's data changes.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies data field that provides a shape type for a node.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies data field that provides a parent node ID for a node.
 <!--/shortDescription-->
 
 <!--fullDescription-->

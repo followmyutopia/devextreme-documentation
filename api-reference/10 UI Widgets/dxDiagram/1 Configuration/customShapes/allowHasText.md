@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies whether a shape can contain text.
 <!--/shortDescription-->
 
 <!--fullDescription-->

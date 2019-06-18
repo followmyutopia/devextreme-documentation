@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the data field that provides an edge's start node key.
 <!--/shortDescription-->
 
 <!--fullDescription-->

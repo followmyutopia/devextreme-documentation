@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the data field that contains nested items.
 <!--/shortDescription-->
 
 <!--fullDescription-->

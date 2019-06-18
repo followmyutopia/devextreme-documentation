@@ -5,9 +5,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Binds the **nodes** collection to the specified data. 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+The Diagram widget creates a shape for every node in the collection.
 <!--/fullDescription-->

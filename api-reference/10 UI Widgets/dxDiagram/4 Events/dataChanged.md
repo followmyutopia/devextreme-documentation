@@ -4,11 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Raised when the widget's data changes.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+Main article: [onDataChanged]({basewidgetpath}/Configuration/#onDataChanged)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
