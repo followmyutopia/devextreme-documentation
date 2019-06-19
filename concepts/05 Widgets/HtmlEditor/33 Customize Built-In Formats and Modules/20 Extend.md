@@ -60,7 +60,7 @@ In the following code, the `strike` format is extended so that the stricken out 
 
     <!--HTML-->
     <dx-html-editor
-        (onInitialized)="onInititalized($event)">
+        (onInitialized)="onInitialized($event)">
     </dx-html-editor>
 
 ---
