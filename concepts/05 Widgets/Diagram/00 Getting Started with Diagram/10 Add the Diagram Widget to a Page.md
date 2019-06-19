@@ -1,26 +1,32 @@
-Add `devexpress-diagram` resources (scripts and styles) onto the page. You can access the resources through npm or CDN.
+Add diagram resources (scripts and styles) onto the page.
 
 - **npm**
 
-    Install the `devexpress-diagram` package.
-
-        npm install devexpress-diagram --save
-
-    Add the `dx.diagram.css` and `dx.diagram.js` files to your page.
+    The `devexpress-diagram` is a dependency of the `DevExtreme` package. Therefore, [install the DevExtreme npm package](/Documentation/Guide/Getting_Started/Installation/npm_Package/) to include the Diagram in your project. Then, add the `dx-diagram.min.css` and `dx-diagram.min.js` files to your page.
 
         <!--HTML-->
-        <link rel="stylesheet" href="node_modules/devexpress-diagram/dist/dx-diagram.css">
-        <script type="text/javascript" src="node_modules/devexpress-diagram/dist/dx-diagram.js"></script>
+        <link rel="stylesheet" href="node_modules/devexpress-diagram/dx-diagram.min.css">
+        <script type="text/javascript" src="node_modules/devexpress-diagram/dx-diagram.min.js"></script>
 
 - **CDN**
 
-    Add the `dx.diagram.css` and `dx.diagram.js` files to your page.
+    Add the `dx-diagram.min.css` and `dx-diagram.min.js` files to your page.
 
         <!--HTML-->
-        <link rel="stylesheet" href="https://unpkg.com/devexpress-diagram/dist/dx-diagram.css">
-        <script src="https://unpkg.com/devexpress-diagram/dist/dx-diagram.js"></script>
+        <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/minor_19_1/css/dx-diagram.min.css">
+        <script src="https://cdn3.devexpress.com/jslib/minor_19_1/js/dx-diagram.min.js"></script>
 
-    Initialize the **Diagram** widget in a DOM element.
+- **Local Scripts**
+
+    You can find all the required files in the [DevExtreme zip archive](/Download/#Alternative-Downloads) or DevExtreme folder (%ProgramFiles(x86)%\DevExpress 19.1\DevExtreme\Sources). Copy the **dx-diagram.min.js** and **dx-diagram.min.css** files into your application folder. Then, link the required files.
+
+        <!--HTML-->
+        <script type="text/javascript" src="js/dx-diagram.min.js"></script>
+        <link rel="stylesheet" href="css/dx-diagram.min.css">
+    
+Use the the `dx-diagram.css` and `dx-diagram.js` files to add an unminified version of the resource files to your page.
+
+Initialize the **Diagram** widget in a DOM element.
 
         <!--JavaScript-->
         $(function() {
