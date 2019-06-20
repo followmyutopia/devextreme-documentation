@@ -167,10 +167,12 @@ After that, set the [groupColumn](/Documentation/ApiReference/UI_Widgets/dxDataG
 
 ---
 
-[note]If several summary-based sorting settings match the current grouping, their indexes in the **sortByGroupSummaryInfo** array will dictate the order of their application.
+If several summary-based sorting settings match the current grouping, their indexes in the **sortByGroupSummaryInfo** array will dictate the order of their application.
 
 In addition, you can set an ascending or descending sort order for each summary-based sorting object using its [sortOrder](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/sortByGroupSummaryInfo/#sortOrder) option.
 
+[note] This feature does not work when **remoteOperations**.[groupPaging](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/#groupPaging) is set to **true**.
+
 #####See Also#####
--[Sort by Group Summary](/Documentation/Guide/Widgets/DataGrid/Summaries/Group_Summary/#Sort_by_Group_Summary)
+- [Sort by Group Summary](/Documentation/Guide/Widgets/DataGrid/Summaries/Group_Summary/#Sort_by_Group_Summary)
 <!--/fullDescription-->
