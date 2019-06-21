@@ -4,4 +4,6 @@ Exports:
 
 - *default* - The [EndpointSelector](/Documentation/ApiReference/Data_Layer/EndpointSelector/) object
 
-        require("data/endpoint_selector")
+        require("data/endpoint_selector");
+        // ===== or =====
+        import EndpointSelecror from "devextreme/data/endpoint_selector";

@@ -4,4 +4,6 @@ Exports:
 
 - *current* - The [current()](/Documentation/ApiReference/Common/Utils/ui/themes/Methods/#current) and [current(themeName)](/Documentation/ApiReference/Common/Utils/ui/themes/Methods/#currentthemeName) methods
 
-        require("ui/themes").current
+        require("ui/themes").current;
+        // ===== or =====
+        import { current } from "devextreme/ui/themes";

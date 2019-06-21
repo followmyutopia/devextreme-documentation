@@ -4,4 +4,6 @@ Exports:
 
 - *default* - client-side utilities required by DevExtreme ASP.NET MVC Controls
 
-        require("aspnet")
+        require("aspnet");
+        // ===== or =====
+        import "devextreme/aspnet";

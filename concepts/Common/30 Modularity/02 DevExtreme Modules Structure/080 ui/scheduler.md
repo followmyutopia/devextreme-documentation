@@ -4,4 +4,6 @@ Exports:
 
 - *default* - The [Scheduler](/Documentation/ApiReference/UI_Widgets/dxScheduler/) widget
 
-        require("ui/scheduler")
+        require("ui/scheduler");
+        // ===== or =====
+        import Scheduler from "devextreme/ui/scheduler";

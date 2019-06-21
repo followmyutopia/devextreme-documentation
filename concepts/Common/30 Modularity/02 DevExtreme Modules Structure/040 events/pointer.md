@@ -1,3 +1,3 @@
 Exposes the [dxpointercancel](/Documentation/ApiReference/UI_Widgets/UI_Events/#dxpointercancel), [dxpointerdown](/Documentation/ApiReference/UI_Widgets/UI_Events/#dxpointerdown), [dxpointerenter](/Documentation/ApiReference/UI_Widgets/UI_Events/#dxpointerenter), [dxpointerleave](/Documentation/ApiReference/UI_Widgets/UI_Events/#dxpointerleave), [dxpointermove](/Documentation/ApiReference/UI_Widgets/UI_Events/#dxpointermove), [dxpointerout](/Documentation/ApiReference/UI_Widgets/UI_Events/#dxpointerout), [dxpointerover](/Documentation/ApiReference/UI_Widgets/UI_Events/#dxpointerover), [dxpointerup](/Documentation/ApiReference/UI_Widgets/UI_Events/#dxpointerup) events.
 
-    require("events/pointer")
+    require("events/pointer");

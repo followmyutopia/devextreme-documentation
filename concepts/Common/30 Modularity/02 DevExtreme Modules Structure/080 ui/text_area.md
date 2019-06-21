@@ -4,4 +4,6 @@ Exports:
 
 - *default* - The [TextArea](/Documentation/ApiReference/UI_Widgets/dxTextArea/) widget
 
-        require("ui/text_area")
+        require("ui/text_area");
+        // ===== or =====
+        import TextArea from "devextreme/ui/text_area";

@@ -4,4 +4,6 @@ Exports:
 
 - *default* - The [Toast](/Documentation/ApiReference/UI_Widgets/dxToast/) widget
 
-        require("ui/toast")
+        require("ui/toast");
+        // ===== or =====
+        import Toast from "devextreme/ui/toast";

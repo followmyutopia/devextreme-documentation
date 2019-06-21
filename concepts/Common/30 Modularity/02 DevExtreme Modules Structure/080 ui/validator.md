@@ -4,4 +4,6 @@ Exports:
 
 - *default* - The [Validator](/Documentation/ApiReference/UI_Widgets/dxValidator/) widget
 
-        require("ui/validator")
+        require("ui/validator");
+        // ===== or =====
+        import Validator from "devextreme/ui/validator";

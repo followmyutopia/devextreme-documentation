@@ -4,4 +4,6 @@ Exports:
 
 - *default* - The [ValidationGroup](/Documentation/ApiReference/UI_Widgets/dxValidationGroup/) widget
 
-        require("ui/validation_group")
+        require("ui/validation_group");
+        // ===== or =====
+        import ValidationGroup from "devextreme/ui/validation_group";

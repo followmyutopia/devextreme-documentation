@@ -4,4 +4,6 @@ Exports:
 
 - *default* - The [Web API file provider](/Documentation/ApiReference/UI_Widgets/dxFileManager/File_Providers/Web_API/)
 
-        require("ui/file_manager/file_provider/webapi")  
+        require("ui/file_manager/file_provider/webapi");
+        // ===== or =====
+        import WebApiFileProvider from "devextreme/ui/file_manager/webapi";

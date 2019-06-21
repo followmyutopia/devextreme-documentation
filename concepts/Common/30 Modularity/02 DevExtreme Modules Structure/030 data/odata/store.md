@@ -4,4 +4,6 @@ Exports:
 
 - *default* - The [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/) data access interface
 
-        require("data/odata/store")
+        require("data/odata/store");
+        // ===== or =====
+        import ODataStore from "devextreme/data/odata/store";

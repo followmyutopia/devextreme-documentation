@@ -4,4 +4,6 @@ Exports:
 
 - *default* - The [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) object
 
-        require("data/data_source")
+        require("data/data_source");
+        // ===== or =====
+        import DataSource from "devextreme/data/data_source";

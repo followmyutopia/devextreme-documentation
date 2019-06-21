@@ -4,4 +4,6 @@ Exports:
 
 - *default* - The [TransitionExecutor](/Documentation/ApiReference/Common/Utils/TransitionExecutor/) object 
 
-        require("animation/transition_executor")
+        require("animation/transition_executor");
+        // ===== or =====
+        import TransitionExecutor from "devextreme/animation/transition_executor";

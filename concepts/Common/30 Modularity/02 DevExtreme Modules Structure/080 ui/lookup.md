@@ -4,4 +4,6 @@ Exports:
 
 - *default* - The [Lookup](/Documentation/ApiReference/UI_Widgets/dxLookup/) widget
 
-        require("ui/lookup")
+        require("ui/lookup");
+        // ===== or =====
+        import Lookup from "devextreme/ui/lookup";

@@ -4,5 +4,6 @@ Exports:
 
 - *default* - The [fx](/Documentation/ApiReference/Common/Utils/fx/) object
 
-        require("animation/fx")
-
+        require("animation/fx");
+        // ===== or =====
+        import fx from "devextreme/animation/fx";

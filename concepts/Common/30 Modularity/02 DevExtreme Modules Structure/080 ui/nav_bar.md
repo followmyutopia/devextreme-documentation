@@ -4,4 +4,6 @@ Exports:
 
 - *default* - The [NavBar](/Documentation/ApiReference/UI_Widgets/dxNavBar/) widget
 
-        require("ui/nav_bar")
+        require("ui/nav_bar");
+        // ===== or =====
+        import NavBar from "devextreme/ui/nav_bar";

@@ -4,4 +4,6 @@ Exports:
 
 - *default* - The [RadioGroup](/Documentation/ApiReference/UI_Widgets/dxRadioGroup/) widget
 
-        require("ui/radio_group")
+        require("ui/radio_group");
+        // ===== or =====
+        import RadioGroup from "devextreme/ui/radio_group";

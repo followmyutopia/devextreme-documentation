@@ -4,4 +4,6 @@ Exports:
 
 - *default* - The [ScrollView](/Documentation/ApiReference/UI_Widgets/dxScrollView/) widget
 
-        require("ui/scroll_view")
+        require("ui/scroll_view");
+        // ===== or =====
+        import ScrollView from "devextreme/ui/scroll_view";

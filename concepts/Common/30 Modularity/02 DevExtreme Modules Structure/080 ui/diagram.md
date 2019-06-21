@@ -4,4 +4,6 @@ Exports:
 
 - *default* - The [Diagram](/Documentation/ApiReference/UI_Widgets/dxDiagram/) widget
 
-        require("ui/diagram")  
+        require("ui/diagram") ; 
+        // ===== or =====
+        import Diagram from "devextreme/ui/diagram";

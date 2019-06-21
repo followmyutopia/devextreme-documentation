@@ -4,4 +4,6 @@ Exports:
 
 - *default* - The [Toolbar](/Documentation/ApiReference/UI_Widgets/dxToolbar/) widget
 
-        require("ui/toolbar")
+        require("ui/toolbar");
+        // ===== or =====
+        import Toolbar from "devextreme/ui/toolbar";

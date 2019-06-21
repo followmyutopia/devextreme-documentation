@@ -4,4 +4,6 @@ Exports:
 
 - *default* - The [Autocomplete](/Documentation/ApiReference/UI_Widgets/dxAutocomplete/) widget
 
-        require("ui/autocomplete")
+        require("ui/autocomplete");
+        // ===== or =====
+        import Autocomplete from "devextreme/ui/autocomplete";

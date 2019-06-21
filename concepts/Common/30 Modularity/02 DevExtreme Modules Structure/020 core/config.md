@@ -4,4 +4,6 @@ Exports:
 
 - *default* - The [config()](/Documentation/ApiReference/Common/utils/#config) and [config(config)](/Documentation/ApiReference/Common/utils/#configconfig) methods
 
-        require("core/config")
+        require("core/config");
+        // ===== or =====
+        import config from "devextreme/core/config";

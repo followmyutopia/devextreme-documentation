@@ -4,4 +4,6 @@ Exports:
 
 - *default* - The [RangeSlider](/Documentation/ApiReference/UI_Widgets/dxRangeSlider/) widget
 
-        require("ui/range_slider")
+        require("ui/range_slider");
+        // ===== or =====
+        import RangeSlider from "devextreme/ui/range_slider";

@@ -4,4 +4,6 @@ Exports:
 
 - *default* - The [Menu](/Documentation/ApiReference/UI_Widgets/dxMenu/) widget
 
-        require("ui/menu")
+        require("ui/menu");
+        // ===== or =====
+        import Menu from "devextreme/ui/menu";

@@ -4,4 +4,6 @@ Exports:
 
 - *default* - The [DateBox](/Documentation/ApiReference/UI_Widgets/dxDateBox/) widget
 
-        require("ui/date_box")
+        require("ui/date_box");
+        // ===== or =====
+        import DateBox from "devextreme/ui/date_box";

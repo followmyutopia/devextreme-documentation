@@ -4,4 +4,6 @@ Exports:
 
 - *default* - The [Box](/Documentation/ApiReference/UI_Widgets/dxBox/) widget
 
-        require("ui/box")
+        require("ui/box");
+        // ===== or =====
+        import Box from "devextreme/ui/box";

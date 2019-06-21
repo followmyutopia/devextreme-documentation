@@ -4,4 +4,6 @@ Exports:
 
 - *default* - The [SpeedDialAction](/Documentation/ApiReference/UI_Widgets/dxSpeedDialAction/) widget
 
-        require("ui/speed_dial_action")
+        require("ui/speed_dial_action");
+        // ===== or =====
+        import SpeedDialAction from "devextreme/ui/speed_dial_action";

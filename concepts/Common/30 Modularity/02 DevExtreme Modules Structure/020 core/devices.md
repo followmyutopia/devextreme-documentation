@@ -4,4 +4,6 @@ Exports:
 
 - *default* - The [device](/Documentation/ApiReference/Common/Object_Structures/device/) object
 
-        require("core/devices")
+        require("core/devices");
+        // ===== or =====
+        import devices from "devextreme/core/devices";

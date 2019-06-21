@@ -4,4 +4,6 @@ Exports:
 
 - *default* - The [ActionSheet](/Documentation/ApiReference/UI_Widgets/dxActionSheet/) widget
 
-        require("ui/action_sheet")
+        require("ui/action_sheet");
+        // ===== or =====
+        import ActionSheet from "devextreme/ui/action_sheet";

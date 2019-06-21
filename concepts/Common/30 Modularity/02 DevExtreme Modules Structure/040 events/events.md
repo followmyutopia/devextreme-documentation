@@ -4,16 +4,24 @@ Exports:
 
 - *off* - The [off](/Documentation/ApiReference/Common/utils/events/Methods/#offelement_eventName_selector_handler) method
 
-        require("events").off
+        require("events").off;
+        // ===== or =====
+        import { off } from "devextreme/events";
 
 - *on* - The [on](/Documentation/ApiReference/Common/utils/events/Methods/#onelement_eventName_selector_data_handler) method
 
-        require("events").on
+        require("events").on;
+        // ===== or =====
+        import { on } from "devextreme/events";
 
 - *one* - The [one](/Documentation/ApiReference/Common/utils/events/Methods/#oneelement_eventName_selector_data_handler) method
 
         require("events").one
+        // ===== or =====
+        import { one } from "devextreme/events";
 
 - *trigger* - The [trigger](/Documentation/ApiReference/Common/utils/events/Methods/#triggerelement_event_extraParameters) method
 
-        require("events").trigger
+        require("events").trigger;
+        // ===== or =====
+        import { trigger } from "devextreme/events";

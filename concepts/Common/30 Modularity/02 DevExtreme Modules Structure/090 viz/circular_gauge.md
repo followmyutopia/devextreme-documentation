@@ -4,5 +4,6 @@ Exports:
 
 - *default* - The [CircularGauge](/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/) widget
 
-        require("viz/circular_gauge")
-
+        require("viz/circular_gauge");
+        // ===== or =====
+        import CircularGauge from "devextreme/viz/circular_gauge";

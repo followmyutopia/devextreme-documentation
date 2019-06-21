@@ -4,4 +4,6 @@ Exports:
 
 - *default* - The [DropDownButton](/Documentation/ApiReference/UI_Widgets/dxDropDownButton/) widget
 
-        require("ui/drop_down_button")
+        require("ui/drop_down_button");
+        // ===== or =====
+        import DropDownButton from "devextreme/ui/drop_down_button";

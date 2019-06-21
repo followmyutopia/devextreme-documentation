@@ -4,4 +4,6 @@ Exports:
 
 - *default* - The [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/) data access interface
 
-        require("data/custom_store")
+        require("data/custom_store");
+        // ===== or =====
+        import CustomStore from "devextreme/data/custom_store";

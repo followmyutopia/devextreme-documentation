@@ -4,4 +4,6 @@ Exports:
 
 - *default* - The [SlideOutView](/Documentation/ApiReference/UI_Widgets/dxSlideOutView/) widget
 
-        require("ui/slide_out_view")
+        require("ui/slide_out_view");
+        // ===== or =====
+        import SlideOut from "devextreme/ui/slide_out";

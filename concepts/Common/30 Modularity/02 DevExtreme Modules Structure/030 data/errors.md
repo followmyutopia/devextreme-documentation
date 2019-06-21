@@ -6,4 +6,4 @@ Exports:
 
         require("data/errors").errorHandler = function(){
             // Implement logic here
-        }
+        };
