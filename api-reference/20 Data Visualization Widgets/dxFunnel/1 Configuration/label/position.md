@@ -14,4 +14,8 @@ Specifies whether to display labels inside or outside funnel items or arrange th
     enum: "`FunnelLabelPosition`",
     values: "`Inside`, `Outside`, and `Columns`"
 }
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/FunnelChart/jQuery/Light/"
+}
 <!--/fullDescription-->

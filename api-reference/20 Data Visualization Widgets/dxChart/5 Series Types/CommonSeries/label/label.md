@@ -148,6 +148,10 @@ Declared in [commonSeriesSettings](/Documentation/ApiReference/Data_Visualizatio
 
 ---
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/AjaxRequest/jQuery/Light/"
+}
+
 #####See Also#####
 - [customizeLabel](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#customizeLabel)
 <!--/fullDescription-->

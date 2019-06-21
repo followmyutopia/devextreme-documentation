@@ -11,4 +11,8 @@ Colors the labels' background. The default color is inherited from the funnel it
 #include common-colorlist
 
 You can remove the label's background by setting this option to *"none"*. In this case, the label's text is the same color as the funnel item.
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/FunnelChart/jQuery/Light/"
+}
 <!--/fullDescription-->

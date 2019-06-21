@@ -10,6 +10,10 @@ Customizes labels' text.
 
 <!--fullDescription-->
 #include dataviz-ref-functioncontext
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/FunnelChart/jQuery/Light/"
+}
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->itemInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

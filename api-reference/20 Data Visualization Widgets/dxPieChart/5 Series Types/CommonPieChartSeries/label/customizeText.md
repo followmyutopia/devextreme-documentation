@@ -28,6 +28,10 @@ Specifies the tag of the currently represented point.
 
 #include dataviz-ref-functioncontext
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/DoughnutWithTopNSeries/jQuery/Light/"
+}
+
 #####See Also#####
 - [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/)
 <!--/fullDescription-->
