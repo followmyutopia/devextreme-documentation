@@ -1,10 +1,11 @@
-<!--id-->dxDiagram.Options.customShapes.defaultHeight<!--/id-->
+<!--id-->dxChartCommonAnnotationConfig.allowDragging<!--/id-->
 ===========================================================================
-<!--type-->Number<!--/type-->
+<!--default-->false<!--/default-->
+<!--type-->Boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the initial height of a shape that is drag-and-dropped from the toolbox onto the diagram area.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->
