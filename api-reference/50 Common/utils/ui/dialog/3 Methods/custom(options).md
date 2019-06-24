@@ -52,16 +52,17 @@ An object that represents the dialog.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-This method only creates a dialog. To display it, call the dialog instance's **show()** method. This method returns a Promise that is resolved with the dialog result. The result contains anything you return from the clicked button's [onClick](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#onClick) function. In the following code, it is the clicked button's text:
+The **custom(options)** method only creates a dialog. To display it, call the dialog instance's **show()** method. This method returns a Promise that is resolved with the dialog result. The result contains anything you return from the clicked button's [onClick](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#onClick) function. In the following code, it is the clicked button's text. If the message contains HTML tags, encode it as shown in the following example:
 
 ---
 #####jQuery
 
     <!--JavaScript-->
     $(function() {
+        var encodedMessage = DevExpress.utils.string.encodeHtml("<b>Dialog with custom buttons</b>");
         var myDialog = DevExpress.ui.dialog.custom({
             title: "Custom dialog",
-            messageHtml: "Dialog with custom buttons",
+            messageHtml: encodedMessage,
             buttons: [{
                 text: "button 1",
                 onClick: function(e) {
@@ -81,17 +82,19 @@ This method only creates a dialog. To display it, call the dialog instance's **s
     <!-- tab: app.component.ts -->
     import { Component, AfterViewInit } from '@angular/core';
     import { custom } from 'devextreme/ui/dialog';
+    import { encodeHtml } from 'devextreme/core/utils/string';
 
     @Component({
         selector: 'app-root',
         templateUrl: './app.component.html',
         styleUrls: ['./app.component.css']
     })
-    export class AppComponent implements AfterViewInit{
+    export class AppComponent implements AfterViewInit {
         ngAfterViewInit() { 
+            let encodedMessage = encodeHtml("<b>Dialog with custom buttons</b>");
             let myDialog = custom({
                 title: "Custom dialog",
-                messageHtml: "Dialog with custom buttons",
+                messageHtml: encodedMessage,
                 buttons: [{
                     text: "button 1",
                     onClick: (e) => {
@@ -114,13 +117,15 @@ This method only creates a dialog. To display it, call the dialog instance's **s
     </template>
     <script>
     import { custom } from 'devextreme/ui/dialog';
+    import { encodeHtml } from 'devextreme/core/utils/string';
 
     export default {
         mounted: function() {
             this.$nextTick(function() {
+                let encodedMessage = encodeHtml("<b>Dialog with custom buttons</b>");
                 let myDialog = custom({
                     title: "Custom dialog",
-                    messageHtml: "Dialog with custom buttons",
+                    messageHtml: encodedMessage,
                     buttons: [{
                         text: "button 1",
                         onClick: (e) => {
@@ -143,12 +148,14 @@ This method only creates a dialog. To display it, call the dialog instance's **s
     <!-- tab: App.js -->
     import React from 'react';
     import { custom } from 'devextreme/ui/dialog';
+    import { encodeHtml } from 'devextreme/core/utils/string';
 
     class App extends React.Component {
         componentDidMount() { 
+            let encodedMessage = encodeHtml("<b>Dialog with custom buttons</b>");
             let myDialog = custom({
                 title: "Custom dialog",
-                messageHtml: "Dialog with custom buttons",
+                messageHtml: encodedMessage,
                 buttons: [{
                     text: "button 1",
                     onClick: (e) => {
