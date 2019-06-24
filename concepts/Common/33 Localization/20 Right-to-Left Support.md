@@ -15,24 +15,42 @@ RTL layout can be specified for an individual widget using its **rtlEnabled** op
 
 ##### Angular
 
-    <!--HTML-->
+    <!-- tab: app.component.html -->
     <dx-slider ...
         [rtlEnabled]="true">
     </dx-slider>
 
-    <!--TypeScript-->
-    import { DxSliderModule } from "devextreme-angular";
-    // ...
+    <!-- tab: app.component.ts -->
+    import { Component } from '@angular/core';    
+
+    @Component({
+        selector: 'app-root',
+        templateUrl: './app.component.html',
+        styleUrls: ['./app.component.css']
+    })
     export class AppComponent {
         // ...
     }
+
+    <!-- tab: app.module.ts -->
+    import { BrowserModule } from '@angular/platform-browser';
+    import { NgModule } from '@angular/core';
+    import { AppComponent } from './app.component';
+
+    import { DxSliderModule } from 'devextreme-angular';
+
     @NgModule({
+        declarations: [
+            AppComponent
+        ],
         imports: [
-            // ...
+            BrowserModule,
             DxSliderModule
         ],
-        // ...
+        providers: [],
+        bootstrap: [AppComponent]
     })
+    export class AppModule { }
 
 ---
 
@@ -49,19 +67,20 @@ To apply RTL to your entire application, set the same option globally using the 
 
 #####Angular
 
-    <!--TypeScript-->
-    import config from "devextreme/core/config";
-    // ...
+    <!-- tab: app.component.ts -->
+    import { Component } from '@angular/core';
+    import config from 'devextreme/core/config';
+
+    @Component({
+        selector: 'app-root',
+        templateUrl: './app.component.html',
+        styleUrls: ['./app.component.css']
+    })
     export class AppComponent {
         constructor() {
             config({ rtlEnabled: true });      
         }
     }
-    @NgModule({
-        imports: [
-            // ...
-            DxDataGridModule
-        ],
         // ...
     })
 

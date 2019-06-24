@@ -104,27 +104,27 @@ Strings, numbers, dates, and currencies are now automatically localized and form
         });
     });
 
-#####Angular
+##### Angular
 
-    <!--TypeScript-->
-    import config from "devextreme/core/config";
-    import { DxDataGridModule } from "devextreme-angular";
+    <!-- tab: app.component.ts -->
+    import { Component } from '@angular/core';
+    import config from 'devextreme/core/config';
     // ...
+    // import dictionaries and localization modules here
+
+    @Component({
+        selector: 'app-root',
+        templateUrl: './app.component.html',
+        styleUrls: ['./app.component.css']
+    })
     export class AppComponent {
         constructor() {
             // Specifying a currency globally
-            config({ defaultCurrency: "EUR" });      
+            config({ defaultCurrency: 'EUR' });      
         }
     }
-    @NgModule({
-        imports: [
-            // ...
-            DxDataGridModule
-        ],
-        // ...
-    })    
 
-    <!--HTML-->
+    <!-- tab: app.component.html -->
     <dx-data-grid ... >
         <dxi-column dataField="price">
             <!-- Specifying a currency in a format definition -->
@@ -134,6 +134,26 @@ Strings, numbers, dates, and currencies are now automatically localized and form
             </dxo-format>
         </dxi-column>
     </dx-data-grid>
+    
+    <!-- tab: app.module.ts -->
+    import { BrowserModule } from '@angular/platform-browser';
+    import { NgModule } from '@angular/core';
+    import { AppComponent } from './app.component';
+
+    import { DxDataGridModule } from 'devextreme-angular';
+
+    @NgModule({
+        declarations: [
+            AppComponent
+        ],
+        imports: [
+            BrowserModule,
+            DxDataGridModule
+        ],
+        providers: [ ],
+        bootstrap: [AppComponent]
+    })
+    export class AppModule { }
 
 ---
 

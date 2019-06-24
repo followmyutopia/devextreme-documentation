@@ -190,7 +190,7 @@ In addition, you can now format values using structures accepted by <a href="htt
 
 ##### Angular
 
-    <!--HTML-->
+    <!-- tab: app.component.html -->
     <dx-data-grid ... >
         <dxi-column
             dataField="OrderDate"
@@ -202,19 +202,39 @@ In addition, you can now format values using structures accepted by <a href="htt
         </dxi-column>
     </dx-data-grid>
 
-    <!--TypeScript-->
-    import { DxDataGridModule } from "devextreme-angular";
+    <!-- tab: app.component.ts -->
+    import { Component } from '@angular/core';
     // ...
+    // import dictionaries and localization modules here
+
+    @Component({
+        selector: 'app-root',
+        templateUrl: './app.component.html',
+        styleUrls: ['./app.component.css']
+    })
     export class AppComponent {
         // ...
     }
+    
+    <!-- tab: app.module.ts -->
+    import { BrowserModule } from '@angular/platform-browser';
+    import { NgModule } from '@angular/core';
+    import { AppComponent } from './app.component';
+
+    import { DxDataGridModule } from 'devextreme-angular';
+
     @NgModule({
+        declarations: [
+            AppComponent
+        ],
         imports: [
-            // ...
+            BrowserModule,
             DxDataGridModule
         ],
-        // ...
+        providers: [ ],
+        bootstrap: [AppComponent]
     })
+    export class AppModule { }
 
 ---
 

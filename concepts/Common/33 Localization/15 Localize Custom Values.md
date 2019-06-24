@@ -27,29 +27,37 @@ The following example demonstrates how to localize a message. The [loadMessages(
 
 ##### Angular
 
-    <!--TypeScript-->
-    import { formatMessage, loadMessages, locale } from "devextreme/localization";
-    // ...
+    <!-- tab: app.component.html -->
+    <h1>{{ greeting }}</h1>
+
+    <!-- tab: app.component.ts -->
+    import { Component } from '@angular/core';
+    import { formatMessage, loadMessages, locale } from 'devextreme/localization';
+
+    @Component({
+        selector: 'app-root',
+        templateUrl: './app.component.html',
+        styleUrls: ['./app.component.css']
+    })
     export class AppComponent {
         constructor() {
             loadMessages({
-                "en": {
-                    "greetingMessage": "Good morning, {0}!"
+                'en': {
+                    'greetingMessage': 'Good morning, {0}!'
                 },
-                "de": {
-                    "greetingMessage": "Guten morgen, {0}!"
+                'de': {
+                    'greetingMessage': 'Guten morgen, {0}!'
                 }
-            })
-            locale(navigator.language)
+            });
+            locale('de');
         }
-        userName: string = "John";
+
+        userName: string = 'John';
         get greeting() {
-            return formatMessage("greetingMessage", this.userName);
+            return formatMessage('greetingMessage', this.userName);
         }
     }
 
-    <!--HTML-->
-    <h1>{{greeting}}</h1>
 
 ---
 
