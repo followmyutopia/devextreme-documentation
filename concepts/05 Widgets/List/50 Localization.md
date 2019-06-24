@@ -23,7 +23,7 @@ Static messages for any DevExtreme widget are defined in a locale-specific dicti
     });
 
     // Sets the locale
-    DevExpress.localization.locale(navigator.language || navigator.browserLanguage);
+    DevExpress.localization.locale(navigator.language);
 
 #####Angular
 
@@ -50,7 +50,7 @@ Static messages for any DevExtreme widget are defined in a locale-specific dicti
     });
 
     // Sets the locale
-    locale(navigator.language || navigator.browserLanguage);
+    locale(navigator.language);
 
 ---
 

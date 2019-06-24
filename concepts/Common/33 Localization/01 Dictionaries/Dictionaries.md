@@ -27,7 +27,7 @@ You can find all the dictionaries on your local machine in the DevExtreme instal
         </head>
         <body>
             <script>
-                DevExpress.localization.locale(navigator.language || navigator.browserLanguage);
+                DevExpress.localization.locale(navigator.language);
                 // ...
                 // DevExtreme widgets are configured here
                 // ...
@@ -57,7 +57,7 @@ You can find all the dictionaries on your local machine in the DevExtreme instal
 
         loadMessages(deMessages);
         loadMessages(ruMessages);
-        locale(navigator.language || navigator.browserLanguage)
+        locale(navigator.language)
 
     ##### npm: CommonJS syntax
 
@@ -70,7 +70,7 @@ You can find all the dictionaries on your local machine in the DevExtreme instal
 
         localization.loadMessages(deMessages);
         localization.loadMessages(ruMessages);
-        localization.locale(navigator.language || navigator.browserLanguage);
+        localization.locale(navigator.language);
         
     ---
 

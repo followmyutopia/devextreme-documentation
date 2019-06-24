@@ -15,10 +15,10 @@ The following example demonstrates how to localize a message. The [loadMessages(
             "de": {
                 "greetingMessage": "Guten morgen, {0}!"
             }
-        })
-        DevExpress.localization.locale(navigator.language || navigator.browserLanguage);
+        });
+        DevExpress.localization.locale(navigator.language);
         $("#greeting").text(
-            DevExpress.localization.formatMessage("greetingMessage", userName)
+            DevExpress.localization.formatMessage("greetingMessage", userName);
         )
     })
 
@@ -40,7 +40,7 @@ The following example demonstrates how to localize a message. The [loadMessages(
                     "greetingMessage": "Guten morgen, {0}!"
                 }
             })
-            locale(navigator.language || navigator.browserLanguage)
+            locale(navigator.language)
         }
         userName: string = "John";
         get greeting() {

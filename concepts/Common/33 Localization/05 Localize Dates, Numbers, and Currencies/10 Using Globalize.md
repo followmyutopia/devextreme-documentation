@@ -37,7 +37,7 @@ All the components are available via CDN and npm.
         </head>
         <script>
             $(function() {
-                Globalize.locale(navigator.language || navigator.browserLanguage);
+                Globalize.locale(navigator.language);
             });
         </script>
 
@@ -89,7 +89,7 @@ All the components are available via CDN and npm.
         Globalize.loadMessages(deMessages);
         Globalize.loadMessages(ruMessages);
 
-        Globalize.locale(navigator.language || navigator.browserLanguage)
+        Globalize.locale(navigator.language)
 
     In projects created with Angular CLI 6+, register Globalize as described [here](/Documentation/Guide/Angular_Components/Getting_Started/Add_DevExtreme_to_an_Angular_CLI_Application/#Register_3rd-Party_Dependencies_in_Angular_CLI_6+/Globalize_Registration). In other projects, configure **config.js**:
 
@@ -144,7 +144,7 @@ All the components are available via CDN and npm.
         Globalize.loadMessages(deMessages);
         Globalize.loadMessages(ruMessages);
 
-        Globalize.locale(navigator.language || navigator.browserLanguage);
+        Globalize.locale(navigator.language);
 
     **webpack.config.js**
 

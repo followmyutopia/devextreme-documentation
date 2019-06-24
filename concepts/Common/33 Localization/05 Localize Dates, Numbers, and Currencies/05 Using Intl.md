@@ -20,7 +20,7 @@
         </head>
         <body>
             <script>
-                DevExpress.localization.locale(navigator.language || navigator.browserLanguage);
+                DevExpress.localization.locale(navigator.language);
                 // ...
                 // DevExtreme widgets are configured here
                 // ...
@@ -59,7 +59,7 @@
 
         loadMessages(deMessages);
         loadMessages(ruMessages);
-        locale(navigator.language || navigator.browserLanguage)
+        locale(navigator.language)
 
     ##### npm: CommonJS syntax
 
@@ -73,7 +73,7 @@
 
         localization.loadMessages(deMessages);
         localization.loadMessages(ruMessages);
-        localization.locale(navigator.language || navigator.browserLanguage);
+        localization.locale(navigator.language);
         
     ---
 
