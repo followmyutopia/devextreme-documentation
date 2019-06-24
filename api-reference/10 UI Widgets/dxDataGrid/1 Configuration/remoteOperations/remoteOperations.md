@@ -70,12 +70,13 @@ The following table lists the possible **remoteOperations** configurations and t
 
 [note] Paging, filtering, and sorting are performed on the server side for the [ODataStore](/Documentation/Guide/Widgets/DataGrid/Data_Binding/OData_Service/), but you can change them to the client side by setting the corresponding **remoteOperations** fields to **false**. Other operations are always client-side.
 
-The following restrictions apply when operations are remote:
+The following restrictions apply to widget functionality when operations are remote:
 
-- Sorting, grouping and filtering columns with the [calculateCellValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateCellValue) or [calculateDisplayValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateDisplayValue) option is not supported.
+- Columns with the [calculateCellValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateCellValue) or [calculateDisplayValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateDisplayValue) option set cannot be sorted, filtered, or used for grouping.
+
 - The [calculateGroupValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateGroupValue) and [calculateSortValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateSortValue) options accept only string values.
+
 - [Custom summary calculation](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/#calculateCustomSummary) is not supported.
-- If the **grouping**.[autoExpandAll](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#autoExpandAll) option is **true** or the [expandAll(groupIndex)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#expandAllgroupIndex) method is called, group paging is performed on the client side.
 
 #include common-demobutton-named with {
     name: "Web API Service",
