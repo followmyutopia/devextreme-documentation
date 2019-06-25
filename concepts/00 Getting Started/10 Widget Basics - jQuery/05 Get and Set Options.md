@@ -28,7 +28,7 @@ All operations with widget options are carried out using the **option()** method
     $("#menuContainer").dxMenu("option", "dataSource", []);
     $("#menuContainer").dxMenu("option", "showSubmenuMode.name", 'onClick');
 
-[note]If you perform a chain of option changes, wrap it up into the **beginUpdate()** and **endUpdate()** function calls. It prevents the widget from unnecessary refreshing and event raising. Better yet, use an object instead if you need to change several options at once.
+[note]If you perform several option changes, wrap them with the **beginUpdate()** and **endUpdate()** method calls. This prevents the widget from being unnecessarily refreshed and from events being raised. Use an object instead if you need to change several options at once.
 
 ####Set Several Options####
 <div style="height:5px"></div>
@@ -52,31 +52,24 @@ All operations with widget options are carried out using the **option()** method
 
 When you pass an object to the **option(options)** method or to the jQuery plugin at runtime as shown in the previous code, options specified in this object will be merged with the options that were [specified at design time](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget). 
 
-This works properly unless the options were specified as arrays. In this case, you should reassign the entire array of objects that contain new option values alongside old values. The following code sample demonstrates the described technique by the example of the [valueAxis](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/) array in the [Chart](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/) widget: 
+This works properly unless the options were specified as arrays. If the latter is true, set new options between **beginUpdate()** and **endUpdate()** method calls. The following code sample demonstrates the described technique using an example of the [valueAxis](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/) array in the [Chart](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/) widget:  
 
     <!--JavaScript-->
-    // Declare the array of objects that configure value axes
-    var valueAxisConfigs = [{
-        name: "axis1",
+    var chart = $("#chartContainer").dxChart({
         // ...
-    }, {
-        name: "axis2",
-        // ...
-    }];
+        valueAxis: [{
+            name: "axis1",
+            // ...
+        }, {
+            name: "axis2",
+            // ...
+        }]
+    }).dxChart("instance");
 
-    $("#chartContainer").dxChart({
-        // ....
-        // Assign the array to the valueAxis option
-        valueAxis: valueAxisConfigs
-    });
-
-    // Change an option in the first object from the array
-    valueAxisConfigs[0].visible = false;
-
-    // Reassign the whole array
-    $("#chartContainer").dxChart({
-        valueAxis: valueAxisConfigs
-    });
+    chart.beginUpdate();
+    chart.option("valueAxis[0].visible", false);
+    chart.option("valueAxis[1].grid.visible", false);
+    chart.endUpdate();
 
 [/note]
 
