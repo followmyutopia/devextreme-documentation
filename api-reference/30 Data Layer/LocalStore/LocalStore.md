@@ -10,7 +10,7 @@ dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
 ===========================================================================
 
 <!--shortDescription-->
-The **LocalStore** is a store that provides an interface for loading and editing data from HTML Web Storage (also known as **window.localStorage**) and handling related events.
+The **LocalStore** is a store that provides an interface for loading and editing data from HTML Web Storage (also known as <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage" target="_blank">window.localStorage</a>) and handling related events.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -1,4 +1,4 @@
-For working with HTML5 Web Storage (known as **window.localStorage**), the data layer provides the [LocalStore](/Documentation/ApiReference/Data_Layer/LocalStore/). It functions exactly as the ArrayStore described in the [previous section](/Documentation/Guide/Data_Layer/Data_Source_Examples/#In-memory_Data), and also ensures that the data is persisted in the browser's localStorage, immediately or at regular intervals.
+For working with HTML5 Web Storage (known as <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage" target="_blank">window.localStorage</a>), the data layer provides the [LocalStore](/Documentation/ApiReference/Data_Layer/LocalStore/). It functions exactly as the ArrayStore described in the [previous section](/Documentation/Guide/Data_Layer/Data_Source_Examples/#In-memory_Data), and also ensures that the data is persisted in the browser's localStorage, immediately or at regular intervals.
 
 To create this kind of a DataSource, use the following code.
 

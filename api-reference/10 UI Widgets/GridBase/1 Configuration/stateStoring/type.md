@@ -16,7 +16,7 @@ This option accepts the following values:
     The state is stored for the duration of the browser's session.
 
 - *"localStorage"*  
-    The state is stored in the local storage and has no expiration time.
+    The state is stored in the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage" target="_blank">window.localStorage</a> object and has no expiration time.
 
 - *"custom"*       
     Puts state storing into manual mode. You need to implement the [customSave]({basewidgetpath}/Configuration/stateStoring/#customSave) and [customLoad]({basewidgetpath}/Configuration/stateStoring/#customLoad) functions. 

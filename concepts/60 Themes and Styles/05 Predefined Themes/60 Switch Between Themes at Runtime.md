@@ -41,14 +41,14 @@ The following way is suitable for switching between any themes, but it involves 
             <!-- ... -->
         </head>
 
-1. Save the target theme's name in the **localStorage** and reload the page:
+1. Save the target theme's name in the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage" target="_blank">window.localStorage</a> and reload the page:
 
         var switchTheme = function(themeName) {
             window.localStorage.setItem("dx-theme", themeName);
             window.location.reload();
         }
 
-1. On page loading, restore the theme name and pass it to the **DevExpress.ui.themes.current(themeName)** method. You can also specify the theme to be applied in case no theme name is found in the **localStorage**. In the following code, it is the Material Blue Light theme.
+1. On page loading, restore the theme name and pass it to the **DevExpress.ui.themes.current(themeName)** method. You can also specify the theme to be applied in case no theme name is found in the **window.localStorage**. In the following code, it is the Material Blue Light theme.
 
         DevExpress.ui.themes.current(window.localStorage.getItem("dx-theme") || "material.blue.light");
         // ===== or when using modules =====

@@ -1,4 +1,4 @@
-This type of store is helpful when you use an HTML5 Web Storage (also known as **window.localStorage**) for storing your data. To create a DataSource on the base of a LocalStore, specify the **type** and **name** options of the **store** object as demonstrated below.
+This type of store is helpful when you use an HTML5 Web Storage (also known as <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage" target="_blank">window.localStorage</a>) for storing your data. To create a DataSource on the base of a LocalStore, specify the **type** and **name** options of the **store** object as demonstrated below.
 
 	<!--JavaScript-->var dataSource = new DevExpress.data.DataSource({
 		store: {
