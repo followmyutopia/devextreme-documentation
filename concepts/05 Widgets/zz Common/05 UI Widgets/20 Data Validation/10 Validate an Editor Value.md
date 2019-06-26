@@ -5,7 +5,6 @@ Associate a DevExtreme editor with the [Validator](/Documentation/ApiReference/U
 
     <!--JavaScript-->$(function () {
         $("#login").dxTextBox({
-            value: '',
             placeholder: 'Login'
         }).dxValidator({
             validationRules: [{
@@ -18,36 +17,57 @@ Associate a DevExtreme editor with the [Validator](/Documentation/ApiReference/U
         });
     });
 
-    <!--HTML--><div>Login:</div>
+    <!--HTML-->
     <div id="login"></div>
 
 ##### Angular
 
-    <!--TypeScript-->
-    import { DxTextBoxModule, DxValidatorModule } from "devextreme-angular";
-    // ...
+    <!-- tab: app.component.html -->
+    <dx-text-box [(value)]="login" placeholder="Login">
+        <dx-validator>
+            <dxi-validation-rule
+                type="required">
+            </dxi-validation-rule>
+            <dxi-validation-rule
+                type="pattern"
+                pattern="^[a-zA-Z]+$"
+                message="Do not use digits.">
+            </dxi-validation-rule>
+        </dx-validator>
+    </dx-text-box>
+
+    <!-- tab: app.component.ts -->
+    import { Component } from '@angular/core';
+
+    @Component({
+        selector: 'app-root',
+        templateUrl: './app.component.html',
+        styleUrls: ['./app.component.css']
+    })
     export class AppComponent {
-        login: string = '';
-        loginRules = [{
-            type: 'required'
-        }, {
-            type: 'pattern',
-            pattern: '^[a-zA-Z]+$',
-            message: 'Do not use digits.'
-        }];
+        login: string;
     }
+
+    <!-- tab: app.module.ts -->
+    import { BrowserModule } from '@angular/platform-browser';
+    import { NgModule } from '@angular/core';
+    import { AppComponent } from './app.component';
+
+    import { DxTextBoxModule, DxValidatorModule } from 'devextreme-angular';
+
     @NgModule({
+        declarations: [
+            AppComponent
+        ],
         imports: [
-            // ...
+            BrowserModule,
             DxTextBoxModule,
             DxValidatorModule
         ],
-        // ...
+        providers: [ ],
+        bootstrap: [AppComponent]
     })
-
-    <!--HTML--><dx-text-box [(value)]="login" placeholder="Login">
-        <dx-validator [validationRules]="loginRules"></dx-validator>
-    </dx-text-box>
+    export class AppModule { }
 
 ##### AngularJS
 

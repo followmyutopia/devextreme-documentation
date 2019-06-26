@@ -3,26 +3,26 @@ Each DevExtreme editor allows changing its validation state and error message us
 ---
 ##### jQuery
 
-    <!--JavaScript-->$(function () {
-        var validateLogin = function (params) {
-            if (params.value === "") {
-                params.component.option({
-                    validationError: { message: "Login cannot be empty" },
+    <!--JavaScript-->$(function() {
+        var validateLogin = function (e) {
+            if (!e.value) {
+                e.component.option({
+                    validationError: { message: "Login is required" },
                     isValid: false
                 });
                 return;
             }
             if (!e.value.match(/^[a-zA-Z0-9]+$/)) {
-                params.component.option({
-                    validationError: { message: "Login contains unexpected characters" },
+                e.component.option({
+                    validationError: { message: "Login can contain only numbers and letters" },
                     isValid: false
                 });
                 return;
             }	
-            params.component.option("isValid", true);
+            e.component.option("isValid", true);
         }
         $("#login").dxTextBox({
-            placeholder: "Enter login",
+            placeholder: "Login",
             onValueChanged: validateLogin
         })
     });
@@ -32,42 +32,67 @@ Each DevExtreme editor allows changing its validation state and error message us
 
 ##### Angular
 
-    <!--TypeScript-->
-    import { DxTextBoxModule } from "devextreme-angular";
-    // ...
-    export class AppComponent {
-        login: string = "";
-        isLoginValid: boolean = true;
-        loginValidationError: Object = {};
-        validateLogin = function (params) {
-            if (login === "") {
-                loginValidationError = { message: "Login cannot be empty" };
-                isLoginValid = false;
-                return;
-            }
-            if (!login.match(/^[a-zA-Z0-9]+$/)) {
-                loginValidationError = { message: "Login contains unexpected characters" };
-                isLoginValid = false;
-                return;
-            }	
-            isLoginValid = true;
-        };
-    }
-    @NgModule({
-        imports: [
-            // ...
-            DxTextBoxModule
-        ],
-        // ...
-    })
-
-    <!--HTML--><dx-text-box 
+    <!-- tab: app.component.html -->
+    <dx-text-box 
         [(value)]="login"
         placeholder="Login"
-        [(isValid)]="isLoginValid"
-        [(validationError)]="loginValidationError"
-        (onValueChanged)="validateLogin($event)">
+        [isValid]="isLoginValid"
+        [validationError]="loginValidationError"
+        (onValueChanged)="validateLogin()">
     </dx-text-box>
+
+    <!-- tab: app.component.ts -->
+    import { Component } from '@angular/core';
+
+    @Component({
+        selector: 'app-root',
+        templateUrl: './app.component.html',
+        styleUrls: ['./app.component.css']
+    })
+    export class AppComponent {
+        login: string;
+        isLoginValid: boolean;
+        loginValidationError: { message?: string };
+
+        constructor() {
+            this.isLoginValid = true;
+            this.loginValidationError = {};
+        }
+
+        validateLogin() {
+            if (!this.login) {
+                this.loginValidationError = { message: "Login is required" };
+                this.isLoginValid = false;
+                return;
+            }
+            if (!this.login.match(/^[a-zA-Z0-9]+$/)) {
+                this.loginValidationError = { message: "Login can contain only numbers and letters" };
+                this.isLoginValid = false;
+                return;
+            }   
+            this.isLoginValid = true;
+        }
+    }
+
+    <!-- tab: app.module.ts -->
+    import { BrowserModule } from '@angular/platform-browser';
+    import { NgModule } from '@angular/core';
+    import { AppComponent } from './app.component';
+
+    import { DxTextBoxModule } from 'devextreme-angular';
+
+    @NgModule({
+        declarations: [
+            AppComponent
+        ],
+        imports: [
+            BrowserModule,
+            DxTextBoxModule
+        ],
+        providers: [ ],
+        bootstrap: [AppComponent]
+    })
+    export class AppModule { }
 
 ##### AngularJS
 

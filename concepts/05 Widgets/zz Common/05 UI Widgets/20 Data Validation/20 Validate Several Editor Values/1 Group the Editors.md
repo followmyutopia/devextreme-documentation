@@ -26,31 +26,54 @@ Editors belonging to a single **Validation Group** can be validated together. Al
 
 ##### Angular
 
-    <!--HTML-->
-    <dx-validation-group id="loginGroup">
-        <dx-text-box [(value)]="login" ... >
-            <dx-validator ... ></dx-validator>
+    <!-- tab: app.component.html -->
+    <dx-validation-group name="loginGroup">
+        <dx-text-box [(value)]="login" placeholder="Login">
+            <dx-validator>
+                <!-- Login validation rules are configured here -->
+            </dx-validator>
         </dx-text-box>
-        <dx-text-box [(value)]="password" ... >
-            <dx-validator ... ></dx-validator>
+        <dx-text-box [(value)]="password" placeholder="Password">
+            <dx-validator>
+                <!-- Password validation rules are configured here -->
+            </dx-validator>
         </dx-text-box>
     </dx-validation-group>
 
-    <!--TypeScript-->
-    import { DxTextBoxModule, DxValidatorModule, DxValidationGroupModule } from "devextreme-angular";
-    // ...
+    <!-- tab: app.component.ts -->
+    import { Component } from '@angular/core';
+
+    @Component({
+        selector: 'app-root',
+        templateUrl: './app.component.html',
+        styleUrls: ['./app.component.css']
+    })
     export class AppComponent {
-        // ...
+        login: string;
+        password: string;
     }
+
+    <!-- tab: app.module.ts -->
+    import { BrowserModule } from '@angular/platform-browser';
+    import { NgModule } from '@angular/core';
+    import { AppComponent } from './app.component';
+
+    import { DxTextBoxModule, DxValidatorModule, DxValidationGroupModule } from 'devextreme-angular';
+
     @NgModule({
+        declarations: [
+            AppComponent
+        ],
         imports: [
-            // ...
+            BrowserModule,
             DxTextBoxModule,
             DxValidatorModule,
-            DxValidationGroupModule 
+            DxValidationGroupModule
         ],
-        // ...
+        providers: [ ],
+        bootstrap: [AppComponent]
     })
+    export class AppModule { }
 
 ##### AngularJS
 

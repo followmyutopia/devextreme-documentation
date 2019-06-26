@@ -19,7 +19,7 @@ You can validate any group by calling its [validate()](/Documentation/ApiReferen
                 validationRules: [ /* ... */ ]
             });
         $("#loginButton").dxButton({
-            text: "Login",
+            text: "Sign in",
             // validationGroup: loginGroup
             onClick: function (e) {
                 var result = e.validationGroup.validate();
@@ -37,39 +37,67 @@ You can validate any group by calling its [validate()](/Documentation/ApiReferen
 
 ##### Angular
 
-    <!--HTML-->
-    <!-- dx-validation-group id="loginGroup" -->
-        <dx-text-box [(value)]="login" ... >
-            <dx-validator [validationRules]="..."></dx-validator>
+    <!-- tab: app.component.html -->
+    <!-- <dx-validation-group name="loginGroup"> -->
+        <dx-text-box [(value)]="login">
+            <dx-validator>
+                <!-- Login validation rules are configured here -->
+            </dx-validator>
         </dx-text-box>
-        <dx-text-box [(value)]="password" ... >
-            <dx-validator [validationRules]="..."></dx-validator>
+        <dx-text-box [(value)]="password">
+            <dx-validator>
+                <!-- Password validation rules are configured here -->
+            </dx-validator>
         </dx-text-box>
-        <dx-button text="Login" (onClick)="loginClick($event)"></dx-button>
-    <!-- /dx-validation-group -->
+        <dx-button text="Sign in" (onClick)="signIn($event)"></dx-button>
+    <!-- </dx-validation-group> -->
 
+    <!-- tab: app.component.ts -->
+    import { Component } from '@angular/core';
 
-    <!--TypeScript-->
-    import { DxTextBoxModule, DxValidatorModule, /* DxValidationGroupModule */ } from "devextreme-angular";
-    // ...
+    @Component({
+        selector: 'app-root',
+        templateUrl: './app.component.html',
+        styleUrls: ['./app.component.css']
+    })
     export class AppComponent {
-        // ...
-        loginClick: function (e) {
-            var result = e.validationGroup.validate();
+        login: string;
+        password: string;
+        signIn(e) {
+            let result = e.validationGroup.validate();
             if (result.isValid) {
-                // ...
+                // Submit values to the server
             }
         }
     }
+
+    <!-- tab: app.module.ts -->
+    import { BrowserModule } from '@angular/platform-browser';
+    import { NgModule } from '@angular/core';
+    import { AppComponent } from './app.component';
+
+    import {
+        DxTextBoxModule,
+        DxValidatorModule,
+        // DxValidationGroupModule,
+        DxButtonModule
+    } from 'devextreme-angular';
+
     @NgModule({
+        declarations: [
+            AppComponent
+        ],
         imports: [
-            // ...
+            BrowserModule,
             DxTextBoxModule,
             DxValidatorModule,
-            // DxValidationGroupModule
+            // DxValidationGroupModule,
+            DxButtonModule
         ],
-        // ...
+        providers: [ ],
+        bootstrap: [AppComponent]
     })
+    export class AppModule { }
 
 ##### AngularJS
 

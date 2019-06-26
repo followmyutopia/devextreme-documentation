@@ -1,37 +1,35 @@
-You can use the DevExtreme validation engine to validate a custom value, for example, a non-DevExtreme editor value or a concatenation of several editor values, by configuring the **Validator**'s [adapter](Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#adapter) option. The following example creates two text boxes and a button. A button click checks that at least one of these text boxes is filled. Their values are concatenated in the **getValue** function.
+You can use the DevExtreme validation engine to validate a custom value, for example, a non-DevExtreme editor value or a concatenation of several editor values, by configuring the **Validator**'s [adapter](Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#adapter) option. The following example creates two text boxes and a button. A button click checks that at least one of these text boxes is filled. Their values are provided by the **getValue** function.
 
 ---
 ##### jQuery
 
-    <!--JavaScript-->$(function () {
+    <!--JavaScript-->
+    $(function() {
         var callbacks = [];
+        var revalidate = function() {
+            callbacks.forEach(func => {
+                func();
+            });
+        }
         var phone = $("#phone").dxTextBox({
             placeholder: "Phone",
-            onValueChanged: function (e) {
-                callbacks.forEach(func => {
-                    func();
-                }); // Commences validation
-            }
+            onValueChanged: revalidate
         }).dxTextBox("instance");
         var email = $("#email").dxTextBox({
             type: "email",
             placeholder: "Email",
-            onValueChanged: function (e) {
-                callbacks.forEach(func => {
-                    func();
-                }); // Commences validation
-            }
+            onValueChanged: revalidate
         }).dxTextBox("instance");
         $("#validator").dxValidator({
             validationRules: [{
                 type: "required",
-                message: "Specify your phone or email"
+                message: "Specify your phone or email."
             }],
             adapter: {
-                getValue: function () {
-                    return phone.option("value") + email.option("value");
+                getValue: function() {
+                    return phone.option("value") || email.option("value");
                 },
-                applyValidationResults: function (e) {
+                applyValidationResults: function(e) {
                     $("#contacts").css({ "border": e.isValid ? "none" : "1px solid red" });
                 },
                 validationRequestsCallbacks: callbacks
@@ -39,65 +37,29 @@ You can use the DevExtreme validation engine to validate a custom value, for exa
         });
         $("#button").dxButton({
             text: "Contact me",
-            onClick: function (e) {
-                e.validationGroup.validate();
+            onClick: function(e) {
+                var result = e.validationGroup.validate();
+                if (result.isValid) {
+                    // Submit values to the server
+                }
             }
         });
         $("#summary").dxValidationSummary({ });
     });
 
-    <!--HTML--><div id="contacts">
+    <!--HTML-->
+    <div id="contacts">
         <div id="phone"></div>
         <div id="email"></div>
-        <div id="validator"></div>
-        <div id="summary"></div>
-        <div id="button"></div>
     </div>
+    <div id="validator"></div>
+    <div id="summary"></div>
+    <div id="button"></div>
 
 ##### Angular
 
-    <!--TypeScript-->
-    import { DxTextBoxModule, DxValidatorModule, DxValidationSummaryModule, DxButtonModule } from "devextreme-angular";
-    // ...
-    export class AppComponent {
-        callbacks = [];
-        phone: string = "";
-        email: string = "";
-        borderStyle: string = "none";
-        rules = [{
-            type: "required",
-            message: "Specify your phone or email"
-        }];
-        adapterConfig = {
-            getValue: () => {
-                return this.phone + this.email;
-            },
-            applyValidationResults: (e) => {
-                this.borderStyle = e.isValid ? "none" : "1px solid red";
-            },
-            validationRequestsCallbacks: this.callbacks
-        };
-        revalidate () {
-            this.callbacks.forEach(func => {
-                func();
-            });
-        };
-        submit (e) {
-            e.validationGroup.validate();
-        }
-    }
-    @NgModule({
-        imports: [
-            // ...
-            DxTextBoxModule,
-            DxValidatorModule,
-            DxValidationSummaryModule,
-            DxButtonModule
-        ],
-        // ...
-    })
-
-    <!--HTML--><div id="contacts" [style.border]="borderStyle">
+    <!-- tab: app.component.html -->
+    <div id="contacts" [style.border]="borderStyle">
         <dx-text-box
             [(value)]="phone"
             placeholder="Phone"
@@ -109,16 +71,82 @@ You can use the DevExtreme validation engine to validate a custom value, for exa
             placeholder="Email"
             (onValueChanged)="revalidate()">
         </dx-text-box>
-        <dx-validator
-            [validationRules]="rules"
-            [adapter]="adapterConfig">
-        </dx-validator>
-        <dx-validation-summary></dx-validation-summary>
-        <dx-button
-            text="Contact me"
-            (onClick)="submit($event)">
-        </dx-button>
     </div>
+    <dx-validator
+        [adapter]="adapterConfig">
+        <dxi-validation-rule
+            type="required"
+            message="Specify your phone or email.">
+        </dxi-validation-rule>
+    </dx-validator>
+    <dx-validation-summary></dx-validation-summary>
+    <dx-button
+        text="Contact me"
+        (onClick)="submit($event)">
+    </dx-button>
+
+    <!-- tab: app.component.ts -->
+    import { Component } from '@angular/core';
+
+    @Component({
+        selector: 'app-root',
+        templateUrl: './app.component.html',
+        styleUrls: ['./app.component.css']
+    })
+    export class AppComponent {
+        callbacks = [];
+        phone: string;
+        email: string;
+        borderStyle: string = "none";
+        adapterConfig = {
+            getValue: () => {
+                return this.phone || this.email;
+            },
+            applyValidationResults: (e) => {
+                this.borderStyle = e.isValid ? "none" : "1px solid red";
+            },
+            validationRequestsCallbacks: this.callbacks
+        };
+        revalidate() {
+            this.callbacks.forEach(func => {
+                func();
+            });
+        };
+        submit(e) {
+            let result = e.validationGroup.validate();
+            if (result.isValid) {
+                // Submit values to the server
+            }
+        }
+    }
+
+    <!-- tab: app.module.ts -->
+    import { BrowserModule } from '@angular/platform-browser';
+    import { NgModule } from '@angular/core';
+    import { AppComponent } from './app.component';
+
+    import {
+        DxTextBoxModule,
+        DxValidatorModule,
+        DxValidationSummaryModule,
+        DxButtonModule
+    } from 'devextreme-angular';
+
+    @NgModule({
+        declarations: [
+            AppComponent
+        ],
+        imports: [
+            BrowserModule,
+            DxTextBoxModule,
+            DxValidatorModule,
+            DxValidationSummaryModule,
+            DxButtonModule
+        ],
+        providers: [ ],
+        bootstrap: [AppComponent]
+    })
+    export class AppModule { }
 
 ##### AngularJS
 

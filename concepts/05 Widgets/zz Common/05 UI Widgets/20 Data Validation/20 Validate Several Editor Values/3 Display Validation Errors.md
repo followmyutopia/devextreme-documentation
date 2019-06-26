@@ -17,26 +17,36 @@ All group validation errors can be displayed in the [ValidationSummary](/Documen
 
 ##### Angular
 
-    <!--HTML-->
-    <!-- dx-validation-group id="loginGroup" -->
+    <!-- tab: app.component.html -->
+    <!-- <dx-validation-group name="loginGroup"> -->
         ...
         <dx-validation-summary></dx-validation-summary>
-    <!-- /dx-validation-group -->
+    <!-- </dx-validation-group> -->
 
-        <!--TypeScript-->
-    import { ..., /* DxValidationGroupModule */, DxValidationSummaryModule } from "devextreme-angular";
-    // ...
-    export class AppComponent {
+    <!-- tab: app.module.ts -->
+    import { BrowserModule } from '@angular/platform-browser';
+    import { NgModule } from '@angular/core';
+    import { AppComponent } from './app.component';
+
+    import {
         // ...
-    }
+        // DxValidationGroupModule,
+        DxValidationSummaryModule
+    } from 'devextreme-angular';
+
     @NgModule({
+        declarations: [
+            AppComponent
+        ],
         imports: [
             // ...
             // DxValidationGroupModule,
             DxValidationSummaryModule
         ],
-        // ...
+        providers: [ ],
+        bootstrap: [AppComponent]
     })
+    export class AppModule { }
 
 ##### AngularJS
 

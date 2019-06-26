@@ -21,14 +21,13 @@ Use the ["custom"](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation
             return false;
         };
         $("#login").dxTextBox({
-            value: "",
-            placeholder: 'Login'
+            placeholder: "Login"
         }).dxValidator({
             validationRules: [{
-                type: 'required',
-                message: 'Login is required'
+                type: "required",
+                message: "Login is required"
             }, {
-                type: 'custom',
+                type: "custom",
                 validationCallback: validateLogin
             }]
         });
