@@ -3,7 +3,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Scrolls the grid to the row with the specified key. 
+Navigates the grid to the data page that contains the row with the specified key and scrolls the grid to display the row if it is not in the viewport.
 <!--/shortDescription-->
 
 <!--paramName1-->key<!--/paramName1-->
