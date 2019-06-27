@@ -18,7 +18,7 @@ Add diagram resources (scripts and styles) onto the page.
 
 - **Local Scripts**
 
-    You can find all the required files in the [DevExtreme zip archive](/Download/#Alternative-Downloads) or DevExtreme folder (%ProgramFiles(x86)%\DevExpress 19.1\DevExtreme\Sources). Copy the **dx-diagram.min.js** and **dx-diagram.min.css** files into your application folder. Then, link the required files.
+    You can find all the required files in the [DevExtreme zip archive](/Download/#Alternative-Downloads) or DevExtreme folder (%ProgramFiles(x86)%\DevExpress 19.2\DevExtreme\Sources). Copy the **dx-diagram.min.js** and **dx-diagram.min.css** files into your application folder. Then, link the required files.
 
         <!--HTML-->
         <script type="text/javascript" src="js/dx-diagram.min.js"></script>

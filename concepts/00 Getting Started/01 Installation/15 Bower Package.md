@@ -2,7 +2,7 @@
 
 To install the <a href="https://github.com/devexpress/bower-devextreme" target="_blank">DevExtreme Bower package</a>, open the console, navigate to your app folder and run the following command:
 
-    bower install devextreme#~19.1 --save
+    bower install devextreme#~19.2 --save
 
 Optionally, you can install the Knockout or AngularJS package:
 

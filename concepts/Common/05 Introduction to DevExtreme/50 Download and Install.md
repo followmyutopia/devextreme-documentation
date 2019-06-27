@@ -2,11 +2,11 @@ To include DevExtreme to your project, use the appropriate distribution package.
 
 - [npm](/Documentation/Guide/Getting_Started/Installation/npm_Package/)
 
-        npm install devextreme@19.1 --save --save-exact 
+        npm install devextreme@19.2 --save --save-exact 
 
 - [Bower](/Documentation/Guide/Getting_Started/Installation/Bower_Package/)
 
-        bower install devextreme#~19.1 --save
+        bower install devextreme#~19.2 --save
 
 - [NuGet](/Documentation/Guide/Getting_Started/Installation/NuGet_Package/)
 
