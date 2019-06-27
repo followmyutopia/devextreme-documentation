@@ -9,5 +9,5 @@ Specifies whether to display the constant line behind or in front of the series.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme Chart - Display constant lines behind series](/Content/images/doc/19_1/ChartJS/chart_argumentAxis_constantLines_displayBehindSeries.png)
+![DevExtreme Chart - Display constant lines behind series](/Content/images/doc/19_2/ChartJS/chart_argumentAxis_constantLines_displayBehindSeries.png)
 <!--/fullDescription-->

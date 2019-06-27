@@ -8,7 +8,7 @@ Configures the legend title.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme PieChart: Legend Title](/Content/images/doc/19_1/ChartJS/visual_elements/legend_title.png)
+![DevExtreme PieChart: Legend Title](/Content/images/doc/19_2/ChartJS/visual_elements/legend_title.png)
 
 To specify only the title's text, assign it directly to this option. Otherwise, set this option to an object with the **text** and other fields specified.
 

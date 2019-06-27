@@ -9,5 +9,5 @@ Specified the indent between the marker and the scale labels.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![RangeSelectorScaleMarkerTopIndent ChartJS](/Content/images/doc/19_1/ChartJS/RangeSelectorScaleMarkerTopIndent.png)
+![RangeSelectorScaleMarkerTopIndent ChartJS](/Content/images/doc/19_2/ChartJS/RangeSelectorScaleMarkerTopIndent.png)
 <!--/fullDescription-->

@@ -10,7 +10,7 @@ An object defining a series of the **doughnut** type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DoughnutSeriesType DonutSeriesType ChartJS](/Content/images/doc/19_1/ChartJS/Doughnut.png)
+![DoughnutSeriesType DonutSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/Doughnut.png)
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartsdoughnutseriesdoughnut/"

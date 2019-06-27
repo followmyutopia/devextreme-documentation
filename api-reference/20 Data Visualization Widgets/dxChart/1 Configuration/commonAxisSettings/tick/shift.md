@@ -11,7 +11,7 @@ Shifts ticks from the reference position.
 <!--fullDescription-->
 In the reference position, the axis runs through the center of each tick:
 
-![DevExtreme Chart - Reference position for tick shift](/Content/images/doc/19_1/ChartJS/shift-argumentaxis-reference-position.png)
+![DevExtreme Chart - Reference position for tick shift](/Content/images/doc/19_2/ChartJS/shift-argumentaxis-reference-position.png)
 
 Positive values shift ticks toward axis labels; negative values shift ticks in the opposite direction.
 
@@ -26,13 +26,13 @@ The following table illustrates this option:
         </tr>
         <tr>
           <td><code>shift: 3</code></td>
-          <td><img src="/Content/images/doc/19_1/ChartJS/shift-argumentaxis-positive.png" alt="DevExtreme Chart - Positive tick shift on the argument axis" /></td>
-          <td><img src="/Content/images/doc/19_1/ChartJS/shift-valueaxis-positive.png" alt="DevExtreme Chart - Positive tick shift on the value axis" /></td>
+          <td><img src="/Content/images/doc/19_2/ChartJS/shift-argumentaxis-positive.png" alt="DevExtreme Chart - Positive tick shift on the argument axis" /></td>
+          <td><img src="/Content/images/doc/19_2/ChartJS/shift-valueaxis-positive.png" alt="DevExtreme Chart - Positive tick shift on the value axis" /></td>
         </tr>
         <tr>
           <td><code>shift: -3</code></td>
-          <td><img src="/Content/images/doc/19_1/ChartJS/shift-argumentaxis-negative.png" alt="DevExtreme Chart - Negative tick shift on the argument axis" /></td>
-          <td><img src="/Content/images/doc/19_1/ChartJS/shift-valueaxis-negative.png" alt="DevExtreme Chart - Negative tick shift on the value axis" /></td>
+          <td><img src="/Content/images/doc/19_2/ChartJS/shift-argumentaxis-negative.png" alt="DevExtreme Chart - Negative tick shift on the argument axis" /></td>
+          <td><img src="/Content/images/doc/19_2/ChartJS/shift-valueaxis-negative.png" alt="DevExtreme Chart - Negative tick shift on the value axis" /></td>
         </tr>
     </table>
 </div>

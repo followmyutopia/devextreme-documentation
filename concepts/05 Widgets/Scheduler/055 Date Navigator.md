@@ -1,6 +1,6 @@
 The date navigator is an element that allows you to change the date displayed on the view.
 
-![Scheduler Date Navigator](/Content/images/doc/19_1/UiWidgets/Scheduler_Date_Navigator.png)
+![Scheduler Date Navigator](/Content/images/doc/19_2/UiWidgets/Scheduler_Date_Navigator.png)
 
 You can specify the range of available dates in the [min](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#min) and [max](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#max) options:
 

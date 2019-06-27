@@ -10,7 +10,7 @@ Configures the control bar.
 <!--fullDescription-->
 Users can use the pan control and zoom bar in the control bar panel to navigate the map.
 
-![DevExtreme Vector Map - Control Bar](/Content/images/doc/19_1/ChartJS/ControlBar.png)
+![DevExtreme Vector Map - Control Bar](/Content/images/doc/19_2/ChartJS/ControlBar.png)
 
 The following code shows how to use the **controlBar** object to move the control bar to the right side of the map:
 

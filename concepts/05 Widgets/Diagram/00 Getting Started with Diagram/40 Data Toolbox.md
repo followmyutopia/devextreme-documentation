@@ -2,7 +2,7 @@ The **Diagram** widget allows you to import data from a data source into a data 
 
 Use the [createDataSource](/Documentation/ApiReference/UI_Widgets/dxDiagram/Methods/#createDataSourceparameters) method to create data toolbox items based on an external data source. End users can drag data items from the toolbox and drop them onto a canvas to build a diagram. 
 
-![Diagram control data toolbox](Content/images/doc/19_1/diagram/data-toolbox.png)
+![Diagram control data toolbox](Content/images/doc/19_2/diagram/data-toolbox.png)
 
 If a data source provides information about nodes' relations, specify the [layout](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/#layout) option, to auto-generate a diagram. 
 

@@ -18,4 +18,4 @@ The Field Chooser allows you to organize fields from the *"All Fields"* section 
         }
     };
     
-![DevExtreme PivotGrid FieldChooser](/Content/images/doc/19_1/DataGrid/PivotGrid_fieldChooser_foldering.png)
+![DevExtreme PivotGrid FieldChooser](/Content/images/doc/19_2/DataGrid/PivotGrid_fieldChooser_foldering.png)

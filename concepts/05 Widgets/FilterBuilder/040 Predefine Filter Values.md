@@ -1,6 +1,6 @@
 You can limit the available filter values by predefining them in the lookup field.
 
-![DevExtreme HTML5 JavaScript Filter Builder Lookup Field](/Content/images/doc/19_1/FilterBuilder/visual_elements/lookup_field.png)
+![DevExtreme HTML5 JavaScript Filter Builder Lookup Field](/Content/images/doc/19_2/FilterBuilder/visual_elements/lookup_field.png)
 
 Each lookup field has an individual [data source](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/lookup/#dataSource). It can be a simple array of filter values...
 

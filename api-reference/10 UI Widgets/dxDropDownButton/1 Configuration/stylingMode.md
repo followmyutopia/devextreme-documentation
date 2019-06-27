@@ -12,7 +12,7 @@ Specifies how the button is styled.
 <!--fullDescription-->
 The following styles are available: 
 
-![DevExtreme DropDownButton: Styling modes](Content/images/doc/19_1/UiWidgets/dropdownbutton_stylingMode.png)
+![DevExtreme DropDownButton: Styling modes](Content/images/doc/19_2/UiWidgets/dropdownbutton_stylingMode.png)
 
 #include common-ref-enum with {
     enum: "`ButtonStylingMode`",

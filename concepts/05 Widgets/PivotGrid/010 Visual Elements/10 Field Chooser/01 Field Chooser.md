@@ -1,6 +1,6 @@
 The Field Chooser is a complementary widget integrated in the pivot grid that allows you to manage the displayed data. To invoke the Field Chooser, right-click the row or column header, and choose the "Show Field Chooser" option. Also, the Field Chooser can be invoked by clicking the top-left empty area of the pivot grid.
 
-![DevExtreme PivotGrid FieldChooser](/Content/images/doc/19_1/DataGrid/PivotGridFieldChooser.png)
+![DevExtreme PivotGrid FieldChooser](/Content/images/doc/19_2/DataGrid/PivotGridFieldChooser.png)
 
 To configure the Field Chooser, use the [fieldChooser](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/fieldChooser/) object. It has a number of options, which can be specified:
 

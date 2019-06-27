@@ -9,5 +9,5 @@ Specifies the height of the marker's separator.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![RangeSelectorScaleMarkerSeparatorHeight ChartJS](/Content/images/doc/19_1/ChartJS/RangeSelectorScaleMarkerSeparatorHeight.png)
+![RangeSelectorScaleMarkerSeparatorHeight ChartJS](/Content/images/doc/19_2/ChartJS/RangeSelectorScaleMarkerSeparatorHeight.png)
 <!--/fullDescription-->

@@ -12,4 +12,4 @@ You can get an Angular Universal application in two ways:
 
 [note] DevExtreme Angular components do not support [switching between themes at runtime](/Documentation/Guide/Themes_and_Styles/Predefined_Themes/#Switch_Between_Themes_at_Runtime) in the SSR mode. You can only [use a single theme](/Documentation/Guide/Angular_Components/Getting_Started/Add_DevExtreme_to_an_Angular_CLI_Application/#Configure_Stylesheets).
 
-<a href="https://github.com/DevExpress/devextreme-examples/tree/19_1/universal-angular#universal-angular" target="_blank">This example</a> demonstrates DevExtreme components used in an Angular Universal application with server-side rendering.
+<a href="https://github.com/DevExpress/devextreme-examples/tree/19_2/universal-angular#universal-angular" target="_blank">This example</a> demonstrates DevExtreme components used in an Angular Universal application with server-side rendering.

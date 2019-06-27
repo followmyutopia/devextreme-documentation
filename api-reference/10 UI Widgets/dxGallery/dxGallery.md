@@ -1,10 +1,10 @@
 <!--id-->dxGallery<!--/id-->
 <!--widgettree-->
 dataSource: [
-    "https://js.devexpress.com/Content/images/doc/19_1/PhoneJS/person1.png",
-    "https://js.devexpress.com/Content/images/doc/19_1/PhoneJS/person2.png",
-    "https://js.devexpress.com/Content/images/doc/19_1/PhoneJS/person3.png",
-    "https://js.devexpress.com/Content/images/doc/19_1/PhoneJS/person4.png"
+    "https://js.devexpress.com/Content/images/doc/19_2/PhoneJS/person1.png",
+    "https://js.devexpress.com/Content/images/doc/19_2/PhoneJS/person2.png",
+    "https://js.devexpress.com/Content/images/doc/19_2/PhoneJS/person3.png",
+    "https://js.devexpress.com/Content/images/doc/19_2/PhoneJS/person4.png"
 ],
 height: 400
 <!--/widgettree-->

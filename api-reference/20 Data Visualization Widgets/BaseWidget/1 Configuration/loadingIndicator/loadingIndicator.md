@@ -10,7 +10,7 @@ Configures the loading indicator.
 <!--fullDescription-->
 When the widget is bound to a remote data source, it can display a loading indicator while data is loading.
 
-![DevExtreme Charts - Loading indicator](/Content/images/doc/19_1/ChartJS/visual_elements/loading_indicator.png)
+![DevExtreme Charts - Loading indicator](/Content/images/doc/19_2/ChartJS/visual_elements/loading_indicator.png)
 
 To enable the automatic loading indicator, set the [enabled]({basewidgetpath}/Configuration/loadingIndicator/#enabled) option to **true**.
 

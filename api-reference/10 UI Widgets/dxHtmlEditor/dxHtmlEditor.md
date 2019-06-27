@@ -58,10 +58,10 @@ variables: {
     <!--HTML-->
     <head>
         <!-- ... -->
-        <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/minor_19_1/css/dx.common.css">
-        <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/minor_19_1/css/dx.light.css">
+        <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/minor_19_2/css/dx.common.css">
+        <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/minor_19_2/css/dx.light.css">
         <script type="text/javascript" src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
-        <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_19_1/js/dx.all.js"></script>
+        <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_19_2/js/dx.all.js"></script>
     </head>
     <body>
         <div id="htmlEditorContainer">
@@ -111,10 +111,10 @@ variables: {
     <!--HTML-->
     <head>
         <!-- ... -->
-        <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/minor_19_1/css/dx.common.css">
-        <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/minor_19_1/css/dx.light.css">
+        <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/minor_19_2/css/dx.common.css">
+        <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/minor_19_2/css/dx.light.css">
         <script type="text/javascript" src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
-        <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_19_1/js/dx.all.js"></script>
+        <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_19_2/js/dx.all.js"></script>
     </head>
     <body>
         <div ng-controller="DemoController">
@@ -150,10 +150,10 @@ variables: {
     <!--HTML-->
     <head>
         <!-- ... -->
-        <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/minor_19_1/css/dx.common.css">
-        <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/minor_19_1/css/dx.light.css">
+        <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/minor_19_2/css/dx.common.css">
+        <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/minor_19_2/css/dx.light.css">
         <script type="text/javascript" src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
-        <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_19_1/js/dx.all.js"></script>
+        <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_19_2/js/dx.all.js"></script>
     </head>
     <body>
         <div data-bind="dxHtmlEditor: {

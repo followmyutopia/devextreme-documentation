@@ -10,7 +10,7 @@ Describes settings supported by a series of the *bar* type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme HTML5 Charts BarSeriesType](/Content/images/doc/19_1/ChartJS/Bar.png)
+![DevExtreme HTML5 Charts BarSeriesType](/Content/images/doc/19_2/ChartJS/Bar.png)
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartsbarseriessimplestsingle/"

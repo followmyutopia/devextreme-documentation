@@ -2,7 +2,7 @@ Controls on the toolbar manage the content. Built-in controls include buttons an
 
 Buttons apply single-choice formats to the text or perform actions on it. Select boxes apply multiple-choice formats.
 
-![DevExtreme HTML5 JavaScript HtmlEditor Toolbar](Content/images/doc/19_1/htmlEditor/visual_elements/toolbar.png)
+![DevExtreme HTML5 JavaScript HtmlEditor Toolbar](Content/images/doc/19_2/htmlEditor/visual_elements/toolbar.png)
  
 To add a button to the toolbar, add its [name](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#controlNames) to the [items](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/) array:
  

@@ -9,4 +9,4 @@ Contains buttons that perform custom actions. See [Create a Column with Custom B
 - **Editing column**        
 A type of buttons column. Contains editing controls. See [Customize the Editing Column](/Documentation/Guide/Widgets/TreeList/Columns/Column_Types/Command_Columns/#Customize_the_Editing_Column).
 
-![DevExtreme HTML5 JavaScript TreeList CommandColumns EditingColumn AdaptiveColumn](/Content/images/doc/19_1/treelist/visual_elements/column-types_command.png)
+![DevExtreme HTML5 JavaScript TreeList CommandColumns EditingColumn AdaptiveColumn](/Content/images/doc/19_2/treelist/visual_elements/column-types_command.png)

@@ -12,7 +12,7 @@ Specifies the button type.
 <!--fullDescription-->
 DevExtreme provides the following button types.
 
-![Button Types](/Content/images/doc/19_1/UiWidgets/Button_Types.png) 
+![Button Types](/Content/images/doc/19_2/UiWidgets/Button_Types.png) 
 
 #include common-ref-enum with {
     enum: "`ButtonType`",

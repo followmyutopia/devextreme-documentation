@@ -11,7 +11,7 @@ Specifies the annotation collection.
 <!--fullDescription-->
 Annotations are images and text blocks that provide additional information on the visualized data. The image below demonstrates their appearance:
 
-![DevExtreme Chart: Annotations](/Content/images/doc/19_1/ChartJS/visual_elements/annotations.png)
+![DevExtreme Chart: Annotations](/Content/images/doc/19_2/ChartJS/visual_elements/annotations.png)
 
 To configure annotations, assign an array of objects to the **annotations[]** option. Each object should have the [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#type) field set to *"text"* or *"image"*. Depending on the **type**, specify the annotation's [text](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#text) or [image](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/image/) option:
 

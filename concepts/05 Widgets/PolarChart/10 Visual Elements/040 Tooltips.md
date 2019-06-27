@@ -1,6 +1,6 @@
 A tooltip is a small pop-up rectangle that displays information about a [series point](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Series_Points) when a user hovers the cursor over it. By default, a tooltip indicates the point's value. However, it is possible to display other information. In addition, you can customize the appearance of a tooltip or its text.
 
-![Tooltip](/Content/images/doc/19_1/ChartJS/PolarTooltip.png)
+![Tooltip](/Content/images/doc/19_2/ChartJS/PolarTooltip.png)
 
 To set tooltip options, use the [tooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/tooltip/) configuration object of your chart. If tooltips are disabled, enable them by setting the tooltip's [enabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/tooltip/#enabled) property to _true_.
 

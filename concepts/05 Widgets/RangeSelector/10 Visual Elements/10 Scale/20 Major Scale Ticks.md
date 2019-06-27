@@ -1,6 +1,6 @@
 ﻿The range selector's scale is divided using two types of ticks: major and minor. Major ticks are accompanied with scale labels, while minor ticks are not.
 
-![ChartJS RangeSelector](/Content/images/doc/19_1/ChartJS/RangeSelectorMajorTicks.png)
+![ChartJS RangeSelector](/Content/images/doc/19_2/ChartJS/RangeSelectorMajorTicks.png)
 
 The appearance of the major ticks can be customized using the options of the [tick](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/tick/) object.
 

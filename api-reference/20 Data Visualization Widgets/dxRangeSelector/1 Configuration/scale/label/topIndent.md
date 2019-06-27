@@ -9,5 +9,5 @@ Specifies a spacing between scale labels and the [background](/Documentation/Api
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![RangeSelectorScaleLabelTopIndent ChartJS](/Content/images/doc/19_1/ChartJS/RangeSelectorScaleLabelTopIndent.png)
+![RangeSelectorScaleLabelTopIndent ChartJS](/Content/images/doc/19_2/ChartJS/RangeSelectorScaleLabelTopIndent.png)
 <!--/fullDescription-->

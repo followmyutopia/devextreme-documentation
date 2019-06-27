@@ -1,6 +1,6 @@
 Strips are highlighted areas on a chart within a defined range of values (minimum and maximum) of an axis to which they belong. In general, strips are used to visually represent a range of values behind a series to trace whether the series point values fall in or out of that range.
 
-![Strip](/Content/images/doc/19_1/ChartJS/Polar_Strip.png)
+![Strip](/Content/images/doc/19_2/ChartJS/Polar_Strip.png)
 
 Strips are child elements of the argument and value axes. To define a strip, use the [strips](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/argumentAxis/strips/) array within the **argumentAxis** and/or **valueAxis** configuration objects. 
 To change common settings for strips of the argument or value axis, define the [stripStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/commonAxisSettings/stripStyle/) object within the **argumentAxis**/**valueAxis** configuration object. To change common settings for all strips in the chart, define the [stripStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/commonAxisSettings/stripStyle/) object within the **commonAxisSettings** configuration object.

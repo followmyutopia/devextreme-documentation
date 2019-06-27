@@ -13,8 +13,8 @@ Add diagram resources (scripts and styles) onto the page.
     Add the `dx-diagram.min.css` and `dx-diagram.min.js` files to your page.
 
         <!--HTML-->
-        <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/minor_19_1/css/dx-diagram.min.css">
-        <script src="https://cdn3.devexpress.com/jslib/minor_19_1/js/dx-diagram.min.js"></script>
+        <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/minor_19_2/css/dx-diagram.min.css">
+        <script src="https://cdn3.devexpress.com/jslib/minor_19_2/js/dx-diagram.min.js"></script>
 
 - **Local Scripts**
 
@@ -38,4 +38,4 @@ Initialize the **Diagram** widget in a DOM element.
         <!--HTML-->
         <div id="diagram"></div>
 
-![Diagram control](Content/images/doc/19_1/diagram/overview.png)
+![Diagram control](Content/images/doc/19_2/diagram/overview.png)

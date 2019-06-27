@@ -9,5 +9,5 @@ The text of the command that exports selected rows. Applies when [allowExportSel
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme HTML5 DataGrid Export Selected Rows Text](/Content/images/doc/19_1/DataGrid/Export_SelectedRows.png)
+![DevExtreme HTML5 DataGrid Export Selected Rows Text](/Content/images/doc/19_2/DataGrid/Export_SelectedRows.png)
 <!--/fullDescription-->

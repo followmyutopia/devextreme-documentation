@@ -27,7 +27,7 @@
             });
         </script>
 
-See examples of using RequireJS with <a href="https://github.com/DevExpress/devextreme-examples/tree/19_1/requirejs-jquery" target="_blank">jQuery</a>, <a href="https://github.com/DevExpress/devextreme-examples/tree/19_1/requirejs-angularjs" target="_blank">AngularJS</a>, and <a href="https://github.com/DevExpress/devextreme-examples/tree/19_1/requirejs-knockout" target="_blank">Knockout</a> on GitHub. The **index.html** file contains the main code. 
+See examples of using RequireJS with <a href="https://github.com/DevExpress/devextreme-examples/tree/19_2/requirejs-jquery" target="_blank">jQuery</a>, <a href="https://github.com/DevExpress/devextreme-examples/tree/19_2/requirejs-angularjs" target="_blank">AngularJS</a>, and <a href="https://github.com/DevExpress/devextreme-examples/tree/19_2/requirejs-knockout" target="_blank">Knockout</a> on GitHub. The **index.html** file contains the main code. 
 
 [note] Check the libraries' and frameworks' [supported versions](/Documentation/Guide/Common/Introduction_to_DevExtreme/#Integration_with_3rd-Party_Libraries_and_Frameworks).
 

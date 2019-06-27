@@ -1,6 +1,6 @@
 Titles and subtitles are textual elements that provide an overview of what the widget visualizes.
 
-![Sankey Title and Subtitle](/Content/images/doc/19_1/sankey/visual_elements/title.png)
+![Sankey Title and Subtitle](/Content/images/doc/19_2/sankey/visual_elements/title.png)
 
 The [title](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/title/) object configures the title; the **title**.[subtitle](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/title/subtitle/) object configures the subtitle.
 

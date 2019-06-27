@@ -10,7 +10,7 @@ Describes settings supported by a series of the *stacked spline* type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme HTML5 Charts StackedSplineSeriesType](/Content/images/doc/19_1/ChartJS/StackedSpline.png)
+![DevExtreme HTML5 Charts StackedSplineSeriesType](/Content/images/doc/19_2/ChartJS/StackedSpline.png)
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartslineandpointseriesspline/"

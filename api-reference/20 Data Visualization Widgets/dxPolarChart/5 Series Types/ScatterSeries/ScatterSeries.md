@@ -10,7 +10,7 @@ An object defining a series of the **scatter** type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![PolarScatterSeriesType ChartJS](/Content/images/doc/19_1/ChartJS/PolarScatter_useSpiderWeb.png)
+![PolarScatterSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/PolarScatter_useSpiderWeb.png)
 
 For details on the scatter series type, refer to the [Scatter](/Documentation/Guide/Widgets/PolarChart/Series_Types/#Scatter) topic.
 <!--/fullDescription-->

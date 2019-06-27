@@ -1,6 +1,6 @@
 The pane is the element that lies under the loading indicator and text.
 
-![DevExtreme HTML5 JavaScript LoadPanel](/Content/images/doc/19_1/UiWidgets/LoadPanel/LoadPanel_Pane.png)
+![DevExtreme HTML5 JavaScript LoadPanel](/Content/images/doc/19_2/UiWidgets/LoadPanel/LoadPanel_Pane.png)
 
 The pane is shown by default. To hide it, assign **false** to the [showPane](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#showPane) option.
 

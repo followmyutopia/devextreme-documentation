@@ -9,5 +9,5 @@ Adds a pixel-measured empty space between the axis title and axis labels.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme HTML5 Charts AxesTitleMargin](/Content/images/doc/19_1/ChartJS/AxesTitleMargin.png)
+![DevExtreme HTML5 Charts AxesTitleMargin](/Content/images/doc/19_2/ChartJS/AxesTitleMargin.png)
 <!--/fullDescription-->

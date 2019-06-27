@@ -5,7 +5,7 @@ Dictionaries contain localized strings for different languages. These are JavaSc
 - Japanese (ja)
 - Russian (ru)
 
-There are also dictionaries that the community contributes and curates. The list of dictionaries is available <a href="https://github.com/DevExpress/DevExtreme/tree/19_1/js/localization/messages" target="_blank">on GitHub</a>.
+There are also dictionaries that the community contributes and curates. The list of dictionaries is available <a href="https://github.com/DevExpress/DevExtreme/tree/19_2/js/localization/messages" target="_blank">on GitHub</a>.
 
 You can find all the dictionaries on your local machine in the DevExtreme installation folder's or ZIP archive's Lib\js\localization directory. These dictionaries are also available on CDN or npm.
 
@@ -20,10 +20,10 @@ You can find all the dictionaries on your local machine in the DevExtreme instal
         <head>
             <!-- ... -->
             <!-- DevExtreme library -->
-            <script src="https://cdn3.devexpress.com/jslib/minor_19_1/js/dx.all.js"></script>
+            <script src="https://cdn3.devexpress.com/jslib/minor_19_2/js/dx.all.js"></script>
             <!-- Dictionary files for German and Russian languages -->
-            <script src="https://cdn3.devexpress.com/jslib/minor_19_1/js/localization/dx.messages.de.js"></script>
-            <script src="https://cdn3.devexpress.com/jslib/minor_19_1/js/localization/dx.messages.ru.js"></script>
+            <script src="https://cdn3.devexpress.com/jslib/minor_19_2/js/localization/dx.messages.de.js"></script>
+            <script src="https://cdn3.devexpress.com/jslib/minor_19_2/js/localization/dx.messages.ru.js"></script>
         </head>
         <body>
             <script>

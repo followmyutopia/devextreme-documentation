@@ -1,6 +1,6 @@
 The **Diagram** widget provides a collection of built-in shapes. Use the [customShapes](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/customShapes/) option to extend this collection with custom shapes.
 
-![Diagram control custom shapes](Content/images/doc/19_1/diagram/custom-shapes.png)
+![Diagram control custom shapes](Content/images/doc/19_2/diagram/custom-shapes.png)
 
 [note] Shape images should be supplied as SVG files. 
 

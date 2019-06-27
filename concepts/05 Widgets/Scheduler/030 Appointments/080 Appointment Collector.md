@@ -1,6 +1,6 @@
 Appointments are aggregated in an appointment collector when the [limit of full-sized appointments per cell](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#maxAppointmentsPerCell) is exceeded. Users should click on it to open a drop-down list of appointments. 
 
-![Scheduler Appointment Collector and Drop-Down List](/Content/images/doc/19_1/UiWidgets/Scheduler_Appointment_Collector_and_Drop-Down_List.png)
+![Scheduler Appointment Collector and Drop-Down List](/Content/images/doc/19_2/UiWidgets/Scheduler_Appointment_Collector_and_Drop-Down_List.png)
 
 Use the [appointmentCollectorTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#appointmentCollectorTemplate) and [dropDownAppointmentTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#dropDownAppointmentTemplate) options to customize the elements. 
 

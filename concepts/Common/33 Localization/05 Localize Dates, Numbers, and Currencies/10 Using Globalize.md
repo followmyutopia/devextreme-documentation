@@ -26,10 +26,10 @@ All the components are available via CDN and npm.
             <script src="https://cdnjs.cloudflare.com/ajax/libs/globalize/1.3.0/globalize/currency.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/globalize/1.3.0/globalize/date.min.js"></script>
             <!-- DevExtreme library -->
-            <script src="https://cdn3.devexpress.com/jslib/minor_19_1/js/dx.all.js"></script>
+            <script src="https://cdn3.devexpress.com/jslib/minor_19_2/js/dx.all.js"></script>
             <!-- Dictionary files for German and Russian languages -->
-            <script src="https://cdn3.devexpress.com/jslib/minor_19_1/js/localization/dx.messages.de.js"></script>
-            <script src="https://cdn3.devexpress.com/jslib/minor_19_1/js/localization/dx.messages.ru.js"></script>
+            <script src="https://cdn3.devexpress.com/jslib/minor_19_2/js/localization/dx.messages.de.js"></script>
+            <script src="https://cdn3.devexpress.com/jslib/minor_19_2/js/localization/dx.messages.ru.js"></script>
             <!-- Common and language-specific CLDR data -->
             <script src="https://unpkg.com/devextreme-cldr-data/supplemental.js"></script>
             <script src="https://unpkg.com/devextreme-cldr-data/de.js"></script>
@@ -240,6 +240,6 @@ In addition, you can now format values using structures accepted by <a href="htt
 
 
 #####See Also#####
-- <a href="https://github.com/DevExpress/devextreme-examples/tree/19_1/webpack-angular-globalize" target="_blank">DevExtreme Angular sample project with Webpack and Globalize</a>
-- <a href="https://github.com/DevExpress/devextreme-examples/tree/19_1/systemjs-angular-globalize" target="_blank">DevExtreme Angular sample project with SystemJS and Globalize</a>
+- <a href="https://github.com/DevExpress/devextreme-examples/tree/19_2/webpack-angular-globalize" target="_blank">DevExtreme Angular sample project with Webpack and Globalize</a>
+- <a href="https://github.com/DevExpress/devextreme-examples/tree/19_2/systemjs-angular-globalize" target="_blank">DevExtreme Angular sample project with SystemJS and Globalize</a>
 - [Value Formatting](/Documentation/Guide/Common/Value_Formatting)

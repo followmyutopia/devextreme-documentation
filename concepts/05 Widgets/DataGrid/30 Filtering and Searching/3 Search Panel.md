@@ -1,6 +1,6 @@
 The search panel allows searching for values in several columns at once. Search is case-insensitive.
 
-![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid SearchPanel](/Content/images/doc/19_1/DataGrid/visual_elements/search_panel.png)
+![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid SearchPanel](/Content/images/doc/19_2/DataGrid/visual_elements/search_panel.png)
 
 To make the search panel visible, assign **true** to the [searchPanel](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/searchPanel/).**visible** option. You can set a column's [allowSearch](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowSearch) option to **false** if it should be excluded from searching. Note that this option inherits the [allowFiltering](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowFiltering) option's value by default.
 
