@@ -5,9 +5,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether a sparkline ignores null data points or not.
+Specifies whether the sparkline should ignore null data points.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-By default, if a data source has data points with a _null_ argument or value, a sparkline may draw series with unnecessary gaps between points. To prevent this behavior from occurring, set the **ignoreEmptyPoints** option to **true**.
+Data points that have the _null_ value do not produce actual points. Because of this, the sparkline may be drawn with unnecessary gaps where missing points should have been. To remove these gaps, set the **ignoreEmptyPoints** option to **true**.
 <!--/fullDescription-->

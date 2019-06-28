@@ -5,9 +5,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether a chart ignores null data points or not.
+Specifies whether the series should ignore null data points.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-By default, if a data source has data points with a _null_ argument or value, a chart may draw series with unnecessary gaps between points. To prevent this behavior from occurring, set the **ignoreEmptyPoints** option to **true**.
+Data points that have the _null_ value do not produce actual series points. Because of this, series may be drawn with unnecessary gaps where missing points should have been. To remove these gaps, set the **ignoreEmptyPoints** option to **true**.
 <!--/fullDescription-->
