@@ -1,4 +1,4 @@
-You can choose a 3rd-party template engine if you do not use Angular, AngularJS, or Knockout. DevExtreme supports the following template engines out of the box:
+You can use a 3rd-party template engine, but only with jQuery. DevExtreme supports the following template engines out of the box:
 
 - <a href="http://underscorejs.org/" target="_blank">Underscore</a>
 - <a href="https://github.com/BorisMoore/jsrender" target="_blank">JsRender</a>

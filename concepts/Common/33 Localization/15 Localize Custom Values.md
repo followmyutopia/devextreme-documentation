@@ -49,7 +49,7 @@ The following example demonstrates how to localize a message. The [loadMessages(
                     'greetingMessage': 'Guten morgen, {0}!'
                 }
             });
-            locale('de');
+            locale(navigator.language);
         }
 
         userName: string = 'John';
@@ -58,6 +58,63 @@ The following example demonstrates how to localize a message. The [loadMessages(
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <h1>{{ greeting }}</h1>
+    </template>
+
+    <script>
+    import { formatMessage, loadMessages, locale } from 'devextreme/localization';
+
+    export default {
+        created() {
+            loadMessages({
+                'en': {
+                    'greetingMessage': 'Good morning, {0}!'
+                },
+                'de': {
+                    'greetingMessage': 'Guten morgen, {0}!'
+                }
+            });
+            locale('de');
+        },
+        data() {
+            return {
+                userName: 'John'
+            }
+        },
+        computed: {
+            greeting() {
+                return formatMessage('greetingMessage', this.userName);
+            }
+        }
+    }
+    </script>
+    
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import { formatMessage, loadMessages, locale } from 'devextreme/localization';
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            this.userName = 'John';
+            this.greeting = formatMessage('greetingMessage', this.userName);
+            locale(navigator.language);
+        }
+
+        render() {
+            return (
+                <h1>{ this.greeting }</h1>
+            );
+        }
+    }
+    export default App;
 
 ---
 

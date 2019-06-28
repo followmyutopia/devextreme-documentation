@@ -236,10 +236,78 @@ In addition, you can now format values using structures accepted by <a href="htt
     })
     export class AppModule { }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-data-grid ... >
+            <dx-column
+                data-field="OrderDate"
+                :format="{ skeleton: 'yMMMd' }"
+            />
+            <dx-column
+                data-field="SaleAmount"
+                :format="{ currency: 'EUR', maximumFractionDigits: 2 }"
+            />
+        </dx-data-grid>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+    // ...
+    // import dictionaries and localization modules here
+
+    import DxDataGrid, {
+        DxColumn
+    } from 'devextreme-vue/data-grid';
+
+    export default {
+        components: {
+            DxDataGrid,
+            DxColumn
+        },
+        // ...
+    }
+    </script>
+    
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DataGrid, {
+        Column
+    } from 'devextreme-react/data-grid';
+    // ...
+    // import dictionaries and localization modules here
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            // ...
+        }
+
+        render() {
+            return (
+                <DataGrid ... >
+                    <Column
+                        dataField="price"
+                        format={{ currency: 'EUR', maximumFractionDigits: 2 }}
+                    />
+                </DataGrid>
+            );
+        }
+    }
+    export default App;
+
 ---
 
 
 #####See Also#####
-- <a href="https://github.com/DevExpress/devextreme-examples/tree/19_2/webpack-angular-globalize" target="_blank">DevExtreme Angular sample project with Webpack and Globalize</a>
+- <a href="https://github.com/DevExpress/devextreme-examples/tree/19_2/angular-cli-globalize" target="_blank">DevExtreme sample project with Globalize created using Angular CLI</a>
 - <a href="https://github.com/DevExpress/devextreme-examples/tree/19_2/systemjs-angular-globalize" target="_blank">DevExtreme Angular sample project with SystemJS and Globalize</a>
 - [Value Formatting](/Documentation/Guide/Common/Value_Formatting)

@@ -35,6 +35,70 @@ If you use jQuery alone, set the widget's **...Template** option to a function t
         // ...
     })
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-list ...
+            :data-source="listData"
+            itemTemplate="item">
+            <template #item="{ data, index }">
+                {{ index }} - {{ data.itemProperty }}
+            </template>
+        </dx-list>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DxList from 'devextreme-vue/list';
+    
+    export default {
+        components: {
+            DxList
+        },
+        data() {
+            return {
+                listData: [
+                    { itemProperty: 'someValue' },
+                    // ...
+                ]
+            }
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import List from 'devextreme-react/list';
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            this.listData = [
+                { itemProperty: 'someValue' },
+                // ...
+            ];
+        }
+        render() {
+            return (
+                <List
+                    dataSource={this.listData}
+                    itemRender={(itemData, itemIndex) => {
+                        return <span>{ itemIndex } - { itemData.name }</span>;
+                    }}
+                />
+            );
+        }
+    }
+    export default App;
+
 #####AngularJS
 
     <!--HTML-->
@@ -112,7 +176,7 @@ If you use jQuery alone, set the widget's **...Template** option to a function t
     url: "/Demos/WidgetsGallery/Demo/List/ItemTemplate/jQuery/Light/"
 }
 
-You can define custom templates for individual items in<a name="In_Collection_Widgets" style="position: relative; top: -120px;">&nbsp;</a>collection widgets. In Angular, AngularJS, and Knockout apps, declare the items using the [dxItem](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxItem/) component as shown in the following code. Do not set the widget's **dataSource** option. To do the same with jQuery, assign a function combining the HTML markup to a data source object's **template** option.
+You can define custom templates for individual items in<a name="In_Collection_Widgets" style="position: relative; top: -120px;">&nbsp;</a>collection widgets. When using any library or framework except jQuery, declare the items using the [dxItem](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxItem/) component as shown in the following code. Do not set the widget's **dataSource** option. To do the same with jQuery, assign a function combining the HTML markup to a data source object's **template** option.
 
 ---
 #####Angular
@@ -147,6 +211,79 @@ You can define custom templates for individual items in<a name="In_Collection_Wi
         ],
         // ...
     })
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-list>
+            <dx-item>
+                <template #default>
+                    <i>Item 1</i>
+                </template>
+            </dx-item>
+            <dx-item>
+                <template #default>
+                    <i>Item 2</i>
+                </template>
+            </dx-item>
+            <dx-item>
+                Item with a nested component
+                <template #default>
+                    <div>
+                        <dx-button text="Click me" />
+                    </div>
+                </template>
+            </dx-item>
+        </dx-list>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DxList, {
+        DxItem
+    } from 'devextreme-vue/list';
+    import DxButton from 'devextreme-vue/button';
+    
+    export default {
+        components: {
+            DxList,
+            DxItem,
+            DxButton
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import List, { Item } from 'devextreme-react/list';
+    import Button from 'devextreme-react/button';
+
+    class App extends React.Component {
+        render() {
+            return (
+                <List>
+                    <Item>
+                        <i>Item 1</i>
+                    </Item>
+                    <Item>
+                        <i>Item 2</i>
+                    </Item>
+                    <Item>
+                        <Button text="Click me" />
+                    </Item>
+                </List>
+            );
+        }
+    }
+    export default App;
 
 #####AngularJS
 
@@ -258,6 +395,64 @@ Many widgets provide options that end with **...Template**, but particular widge
         ],
         // ...
     })
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-button @click="foo">
+            <i style="color:green">
+                Refresh
+            </i>
+        </dx-button>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DxButton from 'devextreme-vue/button';
+    
+    export default {
+        components: {
+            DxButton
+        },
+        methods: {
+            foo(e) {
+                // ...
+            }
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import Button from 'devextreme-react/button';
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            this.foo = (e) => {
+                // ...
+            }
+        }
+        render() {
+            return (
+                <Button
+                    onClick={this.foo}>
+                    <i style={{ color: 'green' }}>
+                        Refresh
+                    </i>
+                </Button>
+            );
+        }
+    }
+    export default App;
 
 ##### jQuery
 

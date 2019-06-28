@@ -89,10 +89,45 @@ You can achieve the same in the markup using the [dxItem](/Documentation/ApiRefe
 
     ko.applyBindings(viewModel);
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-list>
+            <dx-item text="Apples" :disabled="true" />
+            <dx-item text="Lemons" :visible="false" />
+            <dx-item>
+                <template #default>
+                    <i>Oranges</i>
+                </template>
+            </dx-item>
+        </dx-list>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DxList, {
+        DxItem
+    } from 'devextreme-vue/list';
+    
+    export default {
+        components: {
+            DxList,
+            DxItem
+        }
+    }
+    </script>
+
+
 #####React
 
     <!-- tab: App.js -->
     import React from 'react';
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
     import List, { Item } from 'devextreme-react/list';
 
     class App extends React.Component {
@@ -100,7 +135,7 @@ You can achieve the same in the markup using the [dxItem](/Documentation/ApiRefe
             return (
                 <List>
                     <Item text="Apples" disabled={true} />
-                    <Item text="Oranges" visible={false} />
+                    <Item text="Lemons" visible={false} />
                     <Item>
                         <i>Oranges</i>
                     </Item>

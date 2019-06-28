@@ -155,6 +155,84 @@ Strings, numbers, dates, and currencies are now automatically localized and form
     })
     export class AppModule { }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-data-grid ... >
+            <dx-column data-field="price">
+                <!-- Specifying a currency in a format definition -->
+                <dx-format
+                    type="currency"
+                    currency="RUB"
+                />
+            </dx-column>
+        </dx-data-grid>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+    // ...
+    // import dictionaries and localization modules here
+
+    import config from 'devextreme/core/config';
+
+    import DxDataGrid, {
+        DxColumn,
+        DxFormat
+    } from 'devextreme-vue/data-grid';
+
+    export default {
+        components: {
+            DxDataGrid,
+            DxColumn,
+            DxFormat
+        },
+        created() {
+            // Specifying a currency globally
+            config({ defaultCurrency: 'EUR' });  
+        }
+    }
+    </script>
+    
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DataGrid, {
+        Column, Format
+    } from 'devextreme-react/data-grid';
+    // ...
+    // import dictionaries and localization modules here
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            // Specifying a currency globally
+            config({ defaultCurrency: 'EUR' });
+        }
+
+        render() {
+            return (
+                <DataGrid ... >
+                    <Column dataField="price">
+                        // Specifying a currency in a format definition
+                        <Format
+                            type="currency"
+                            currency="RUB"
+                        />
+                    </Column>
+                </DataGrid>
+            );
+        }
+    }
+    export default App;
+
 ---
 
 You can use structures compatible with the Intl API for value formatting. See an example in the DevExtreme-Intl README's <a href="https://github.com/DevExpress/DevExtreme-Intl#api" target="_blank">API</a> section. The [Value Formatting](/Documentation/Guide/Common/Value_Formatting/) article provides information on the extended formatting functionality DevExtreme provides out of the box.
