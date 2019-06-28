@@ -1,6 +1,6 @@
 <!--id-->dxChartCommonAnnotationConfig.border.cornerRadius<!--/id-->
 ===========================================================================
-<!--default-->0<!--/default-->
+<!--default-->0, 4 (Material)<!--/default-->
 <!--type-->Number<!--/type-->
 ===========================================================================
 
