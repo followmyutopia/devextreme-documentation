@@ -8,7 +8,9 @@ Configures buttons in the group.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Objects in this array should contain fields that correspond to the [default item template](/Documentation/ApiReference/UI_Widgets/dxButtonGroup/Default_Item_Template/). Refer to [Default Templates](/Documentation/Guide/Widgets/Common/Templates/#Default_Templates) for more information.
+#include uiwidgets-ref-items-fulldesc
+
+[Particular fields]({basewidgetpath}/Default_Item_Template/) in objects can control the widget's appearance. See [Default Templates](/Documentation/Guide/Widgets/Common/Templates/#Default_Templates) for more information.
 
 #####See Also#####
 - [keyExpr](/Documentation/ApiReference/UI_Widgets/dxButtonGroup/Configuration/#keyExpr)
