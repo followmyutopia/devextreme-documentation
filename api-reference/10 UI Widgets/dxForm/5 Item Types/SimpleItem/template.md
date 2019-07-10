@@ -8,6 +8,10 @@ A template to be used for rendering the form item.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Common/FormsAndMultiPurposeOverview/jQuery/Light/"
+}
+
 #####See Also#####
 - [Customize a Simple Item](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/#Customize_a_Simple_Item)
 <!--/fullDescription-->

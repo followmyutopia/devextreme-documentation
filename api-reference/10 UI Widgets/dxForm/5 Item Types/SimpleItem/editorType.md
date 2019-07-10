@@ -40,6 +40,10 @@ When using [ASP.NET MVC Controls](/Documentation/Guide/ASP.NET_MVC_Controls/Fund
         End Sub)
     )
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Common/FormsAndMultiPurposeOverview/Mvc/Light/"
+}
+
 #####See Also#####
 - [Configure Simple Items](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/)
 <!--/fullDescription-->
