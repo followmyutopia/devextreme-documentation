@@ -1,5 +1,5 @@
 <!--id-->dxScheduler.Options.onAppointmentDeleted<!--/id-->
-<!--EventForAction-->..\4 Events\appointmentDeleted.md<!--/EventForAction-->
+<!--EventForAction-->dxScheduler.appointmentDeleted<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

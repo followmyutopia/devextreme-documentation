@@ -1,5 +1,5 @@
 <!--id-->PivotGridDataSource.Options.onChanged<!--/id-->
-<!--EventForAction-->..\4 Events\changed.md<!--/EventForAction-->
+<!--EventForAction-->PivotGridDataSource.changed<!--/EventForAction-->
 ===========================================================================
 <!--type-->function()<!--/type-->
 ===========================================================================

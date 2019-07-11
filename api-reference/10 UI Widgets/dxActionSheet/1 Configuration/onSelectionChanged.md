@@ -1,4 +1,6 @@
 <!--id-->dxActionSheet.Options.onSelectionChanged<!--/id-->
-<!--merge--><!--/merge-->
+<!--EventForAction-->dxActionSheet.selectionChanged<!--/EventForAction-->
+===========================================================================
 <!--hidden--><!--/hidden-->
 ===========================================================================
+

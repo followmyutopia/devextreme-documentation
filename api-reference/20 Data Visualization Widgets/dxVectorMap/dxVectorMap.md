@@ -8,7 +8,7 @@ layers: [{
 ===========================================================================
 <!--module-->viz/vector_map<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\BaseWidget\BaseWidget.md<!--/inherits-->
+<!--inherits-->BaseWidget<!--/inherits-->
 <!--lib-->
 dx.viz.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

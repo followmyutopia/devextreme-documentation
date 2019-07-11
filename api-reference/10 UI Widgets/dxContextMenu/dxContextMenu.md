@@ -17,7 +17,7 @@ visible: true
 ===========================================================================
 <!--module-->ui/context_menu<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\dxMenuBase\dxMenuBase.md<!--/inherits-->
+<!--inherits-->dxMenuBase<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

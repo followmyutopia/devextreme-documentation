@@ -1,5 +1,5 @@
 <!--id-->dxTreeList.Options.onEditorPrepared<!--/id-->
-<!--EventForAction-->..\4 Events\editorPrepared.md<!--/EventForAction-->
+<!--EventForAction-->dxTreeList.editorPrepared<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(options)<!--/type-->

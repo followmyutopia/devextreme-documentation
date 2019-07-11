@@ -1,6 +1,6 @@
 <!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.border.color<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\..\AreaSeries\AreaSeries.md,..\..\BarSeries\BarSeries.md,..\..\StackedBarSeries\StackedBarSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxPolarChartSeriesTypes.areapolarseries,dxPolarChartSeriesTypes.barpolarseries,dxPolarChartSeriesTypes.stackedbarpolarseries<!--/propertyOf-->
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->
 ===========================================================================

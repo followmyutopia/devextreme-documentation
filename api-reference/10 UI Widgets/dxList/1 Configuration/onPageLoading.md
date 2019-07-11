@@ -1,5 +1,5 @@
 <!--id-->dxList.Options.onPageLoading<!--/id-->
-<!--EventForAction-->..\4 Events\pageLoading.md<!--/EventForAction-->
+<!--EventForAction-->dxList.pageLoading<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

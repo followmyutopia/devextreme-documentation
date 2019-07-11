@@ -1,5 +1,5 @@
 <!--id-->GridBase.Options.onRowValidating<!--/id-->
-<!--EventForAction-->..\4 Events\rowValidating.md<!--/EventForAction-->
+<!--EventForAction-->GridBase.rowValidating<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

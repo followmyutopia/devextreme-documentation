@@ -2,7 +2,7 @@
 ===========================================================================
 <!--module-->ui/scroll_view<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\dxScrollable\dxScrollable.md<!--/inherits-->
+<!--inherits-->dxScrollable<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

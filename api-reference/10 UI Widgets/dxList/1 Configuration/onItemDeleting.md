@@ -1,9 +1,11 @@
 <!--id-->dxList.Options.onItemDeleting<!--/id-->
-<!--merge--><!--/merge-->
+<!--EventForAction-->dxList.itemDeleting<!--/EventForAction-->
+===========================================================================
 <!--hidden-->false<!--/hidden-->
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->
 ===========================================================================
+
 
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

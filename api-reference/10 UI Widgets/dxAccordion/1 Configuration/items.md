@@ -1,4 +1,6 @@
 <!--id-->dxAccordion.Options.items<!--/id-->
-<!--merge--><!--/merge-->
-<!--type-->Array<String, dxAccordionItem, Object><!--/type-->
 ===========================================================================
+<!--type-->Array<String, dxAccordionItem, Object><!--/type-->
+<!--firedEvents-->optionChanged<!--/firedEvents-->
+===========================================================================
+

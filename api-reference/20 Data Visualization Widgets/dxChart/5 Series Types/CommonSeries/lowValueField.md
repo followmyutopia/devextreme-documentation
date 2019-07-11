@@ -1,7 +1,7 @@
 <!--id-->dxChartSeriesTypes.CommonSeries.lowValueField<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--propertyOf-->..\StockSeries\StockSeries.md,..\CandleStickSeries\CandleStickSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxChartSeriesTypes.StockSeries,dxChartSeriesTypes.CandleStickSeries<!--/propertyOf-->
 <!--default-->'low'<!--/default-->
 <!--type-->String<!--/type-->
 ===========================================================================

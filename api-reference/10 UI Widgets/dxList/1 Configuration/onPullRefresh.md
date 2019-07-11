@@ -1,5 +1,5 @@
 <!--id-->dxList.Options.onPullRefresh<!--/id-->
-<!--EventForAction-->..\4 Events\pullRefresh.md<!--/EventForAction-->
+<!--EventForAction-->dxList.pullRefresh<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

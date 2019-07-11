@@ -1,5 +1,5 @@
 <!--id-->dxOverlay.Options.onHidden<!--/id-->
-<!--EventForAction-->..\4 Events\hidden.md<!--/EventForAction-->
+<!--EventForAction-->dxOverlay.hidden<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

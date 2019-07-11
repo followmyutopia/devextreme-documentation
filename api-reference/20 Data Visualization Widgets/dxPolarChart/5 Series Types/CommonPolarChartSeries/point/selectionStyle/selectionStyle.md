@@ -1,6 +1,6 @@
 <!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.point.selectionStyle<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\..\..\LineSeries\LineSeries.md,..\..\..\AreaSeries\AreaSeries.md,..\..\..\ScatterSeries\ScatterSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxPolarChartSeriesTypes.linepolarseries,dxPolarChartSeriesTypes.areapolarseries,dxPolarChartSeriesTypes.scatterpolarseries<!--/propertyOf-->
 <!--type-->Object<!--/type-->
 ===========================================================================
 

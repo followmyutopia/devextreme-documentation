@@ -1,5 +1,5 @@
 <!--id-->Store.Options.onPush<!--/id-->
-<!--EventForAction-->..\4 Events\push.md<!--/EventForAction-->
+<!--EventForAction-->Store.push<!--/EventForAction-->
 ===========================================================================
 <!--type-->function(changes)<!--/type-->
 ===========================================================================

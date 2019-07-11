@@ -1,7 +1,8 @@
 <!--id-->dxTreeView.itemContextMenu<!--/id-->
-<!--merge--><!--/merge-->
+===========================================================================
 <!--type-->eventType<!--/type-->
 ===========================================================================
+
 
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
@@ -43,6 +44,7 @@ The target item's index.
 <!--typeFunctionParamDescription1_field7-->
 The jQuery event that caused the function's execution. Deprecated in favor of the **event** field.
 <!--/typeFunctionParamDescription1_field7-->
+<!--typeFunctionParamDeprecated1_field7-->Use 'event' instead.<!--/typeFunctionParamDeprecated1_field7-->
 <!--typeFunctionParamName1_field8-->event<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->event<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->

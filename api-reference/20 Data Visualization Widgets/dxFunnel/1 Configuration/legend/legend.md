@@ -1,7 +1,7 @@
 <!--id-->dxFunnel.Options.legend<!--/id-->
 ===========================================================================
 <!--type-->Object<!--/type-->
-<!--inherits-->..\..\..\BaseLegend\BaseLegend.md<!--/inherits-->
+<!--inherits-->BaseLegend<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

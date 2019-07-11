@@ -2,7 +2,7 @@
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--inlineType--><!--/inlineType-->
-<!--inherits-->..\CommonIndicator\CommonIndicator.md<!--/inherits-->
+<!--inherits-->CommonIndicator<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

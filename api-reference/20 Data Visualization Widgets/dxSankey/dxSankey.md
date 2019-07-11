@@ -18,7 +18,7 @@ link: { colorMode: "gradient" }
 ===========================================================================
 <!--module-->viz/sankey<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\BaseWidget\BaseWidget.md,..\..\10 UI Widgets\DataHelperMixin\DataHelperMixin.md<!--/inherits-->
+<!--inherits-->BaseWidget,DataHelperMixin<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

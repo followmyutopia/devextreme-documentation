@@ -1,5 +1,5 @@
 <!--id-->CollectionWidget.Options.onItemRendered<!--/id-->
-<!--EventForAction-->..\4 Events\itemRendered.md<!--/EventForAction-->
+<!--EventForAction-->CollectionWidget.itemRendered<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

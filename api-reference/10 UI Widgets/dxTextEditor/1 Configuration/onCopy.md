@@ -1,5 +1,5 @@
 <!--id-->dxTextEditor.Options.onCopy<!--/id-->
-<!--EventForAction-->..\4 Events\copy.md<!--/EventForAction-->
+<!--EventForAction-->dxTextEditor.copy<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

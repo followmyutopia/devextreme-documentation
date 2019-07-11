@@ -1,6 +1,6 @@
 <!--id-->dxChartSeriesTypes.CommonSeries.label.showForZeroValues<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\..\BarSeries\BarSeries.md,..\..\StackedBarSeries\StackedBarSeries.md,..\..\FullStackedBarSeries\FullStackedBarSeries.md,..\..\RangeBarSeries\RangeBarSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxChartSeriesTypes.BarSeries,dxChartSeriesTypes.StackedBarSeries,dxChartSeriesTypes.FullStackedBarSeries,dxChartSeriesTypes.RangeBarSeries<!--/propertyOf-->
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->
 ===========================================================================

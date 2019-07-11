@@ -1,5 +1,5 @@
 <!--id-->CollectionWidget.Options.onItemDeleting<!--/id-->
-<!--EventForAction-->..\4 Events\itemDeleting.md<!--/EventForAction-->
+<!--EventForAction-->CollectionWidget.itemDeleting<!--/EventForAction-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->null<!--/default-->

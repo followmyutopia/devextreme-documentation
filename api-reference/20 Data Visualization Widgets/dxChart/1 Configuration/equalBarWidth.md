@@ -1,5 +1,5 @@
 <!--id-->dxChart.Options.equalBarWidth<!--/id-->
-<!--dep-->..\5 Series Types\CommonSeries\ignoreEmptyPoints.md<!--/dep-->
+<!--dep-->dxChartSeriesTypes.CommonSeries.ignoreEmptyPoints<!--/dep-->
 ===========================================================================
 <!--type-->Boolean<!--/type-->
 ===========================================================================

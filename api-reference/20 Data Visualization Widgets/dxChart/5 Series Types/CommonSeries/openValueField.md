@@ -1,7 +1,7 @@
 <!--id-->dxChartSeriesTypes.CommonSeries.openValueField<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--propertyOf-->..\StockSeries\StockSeries.md,..\CandleStickSeries\CandleStickSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxChartSeriesTypes.StockSeries,dxChartSeriesTypes.CandleStickSeries<!--/propertyOf-->
 <!--default-->'open'<!--/default-->
 <!--type-->String<!--/type-->
 ===========================================================================

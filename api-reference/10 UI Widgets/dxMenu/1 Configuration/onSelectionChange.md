@@ -1,4 +1,6 @@
 <!--id-->dxMenu.Options.onSelectionChange<!--/id-->
-<!--merge--><!--/merge-->
+<!--EventForAction-->dxMenu.selectionChange<!--/EventForAction-->
+===========================================================================
 <!--hidden--><!--/hidden-->
 ===========================================================================
+

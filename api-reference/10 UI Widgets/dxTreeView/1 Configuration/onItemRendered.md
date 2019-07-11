@@ -1,8 +1,10 @@
 <!--id-->dxTreeView.Options.onItemRendered<!--/id-->
-<!--merge--><!--/merge-->
+<!--EventForAction-->dxTreeView.itemRendered<!--/EventForAction-->
+===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->
 ===========================================================================
+
 
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

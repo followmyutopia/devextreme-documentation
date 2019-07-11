@@ -1,5 +1,5 @@
 <!--id-->dxDrawer.Options.onContentReady<!--/id-->
-<!--EventForAction-->..\4 Events\contentReady.md<!--/EventForAction-->
+<!--EventForAction-->dxDrawer.contentReady<!--/EventForAction-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 ===========================================================================

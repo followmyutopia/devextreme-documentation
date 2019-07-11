@@ -1,4 +1,6 @@
 <!--id-->dxTileView.Options.onSelectionChanged<!--/id-->
-<!--merge--><!--/merge-->
+<!--EventForAction-->dxTileView.selectionChanged<!--/EventForAction-->
+===========================================================================
 <!--hidden--><!--/hidden-->
 ===========================================================================
+

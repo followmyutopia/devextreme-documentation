@@ -3,7 +3,7 @@
 <!--hidden--><!--/hidden-->
 <!--type-->Object<!--/type-->
 <!--inlineType--><!--/inlineType-->
-<!--inherits-->..\CommonPieChartSeries\CommonPieChartSeries.md<!--/inherits-->
+<!--inherits-->dxPieChartSeriesTypes.CommonPieChartSeries<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

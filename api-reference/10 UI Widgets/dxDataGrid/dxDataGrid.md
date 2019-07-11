@@ -30,7 +30,7 @@ dataSource: [{
 ===========================================================================
 <!--module-->ui/data_grid<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\GridBase\GridBase.md<!--/inherits-->
+<!--inherits-->GridBase<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

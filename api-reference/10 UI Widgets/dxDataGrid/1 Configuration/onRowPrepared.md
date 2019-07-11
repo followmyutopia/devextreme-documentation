@@ -1,5 +1,5 @@
 <!--id-->dxDataGrid.Options.onRowPrepared<!--/id-->
-<!--EventForAction-->..\4 Events\rowPrepared.md<!--/EventForAction-->
+<!--EventForAction-->dxDataGrid.rowPrepared<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

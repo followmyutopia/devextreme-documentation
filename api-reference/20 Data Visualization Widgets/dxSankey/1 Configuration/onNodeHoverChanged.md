@@ -1,5 +1,5 @@
 <!--id-->dxSankey.Options.onNodeHoverChanged<!--/id-->
-<!--EventForAction-->..\4 Events\nodeHoverChanged.md<!--/EventForAction-->
+<!--EventForAction-->dxSankey.nodeHoverChanged<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->null<!--/default-->

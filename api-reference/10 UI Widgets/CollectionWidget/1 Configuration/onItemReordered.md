@@ -1,5 +1,5 @@
 <!--id-->CollectionWidget.Options.onItemReordered<!--/id-->
-<!--EventForAction-->..\4 Events\itemReordered.md<!--/EventForAction-->
+<!--EventForAction-->CollectionWidget.itemReordered<!--/EventForAction-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->null<!--/default-->

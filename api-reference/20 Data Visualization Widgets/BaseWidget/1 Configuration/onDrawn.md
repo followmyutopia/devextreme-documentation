@@ -1,5 +1,5 @@
 <!--id-->BaseWidget.Options.onDrawn<!--/id-->
-<!--EventForAction-->..\4 Events\drawn.md<!--/EventForAction-->
+<!--EventForAction-->BaseWidget.drawn<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->null<!--/default-->

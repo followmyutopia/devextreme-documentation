@@ -1,5 +1,5 @@
 <!--id-->dxFilterBuilder.Options.onEditorPrepared<!--/id-->
-<!--EventForAction-->..\4 Events\editorPrepared.md<!--/EventForAction-->
+<!--EventForAction-->dxFilterBuilder.editorPrepared<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

@@ -1,4 +1,6 @@
 <!--id-->dxGallery.Options.items<!--/id-->
-<!--merge--><!--/merge-->
-<!--type-->Array<String, dxGalleryItem, Object><!--/type-->
 ===========================================================================
+<!--type-->Array<String, dxGalleryItem, Object><!--/type-->
+<!--firedEvents-->optionChanged<!--/firedEvents-->
+===========================================================================
+

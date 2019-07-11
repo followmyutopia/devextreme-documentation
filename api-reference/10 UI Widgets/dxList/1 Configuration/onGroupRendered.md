@@ -1,5 +1,5 @@
 <!--id-->dxList.Options.onGroupRendered<!--/id-->
-<!--EventForAction-->..\4 Events\groupRendered.md<!--/EventForAction-->
+<!--EventForAction-->dxList.groupRendered<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

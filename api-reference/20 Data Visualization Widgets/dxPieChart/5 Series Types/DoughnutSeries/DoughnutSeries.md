@@ -2,7 +2,7 @@
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->Object<!--/type-->
-<!--inherits-->..\CommonPieChartSeries\CommonPieChartSeries.md<!--/inherits-->
+<!--inherits-->dxPieChartSeriesTypes.CommonPieChartSeries<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

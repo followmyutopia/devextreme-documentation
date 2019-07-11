@@ -20,7 +20,7 @@ dataSource: [
 ===========================================================================
 <!--module-->ui/tag_box<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\dxSelectBox\dxSelectBox.md<!--/inherits-->
+<!--inherits-->dxSelectBox<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

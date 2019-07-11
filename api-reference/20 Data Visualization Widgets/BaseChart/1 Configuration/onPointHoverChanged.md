@@ -1,5 +1,5 @@
 <!--id-->BaseChart.Options.onPointHoverChanged<!--/id-->
-<!--EventForAction-->..\4 Events\pointHoverChanged.md<!--/EventForAction-->
+<!--EventForAction-->BaseChart.pointHoverChanged<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(e)<!--/type-->

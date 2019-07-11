@@ -1,5 +1,5 @@
 <!--id-->dxFileUploader.Options.onValueChanged<!--/id-->
-<!--EventForAction-->..\4 Events\valueChanged.md<!--/EventForAction-->
+<!--EventForAction-->dxFileUploader.valueChanged<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

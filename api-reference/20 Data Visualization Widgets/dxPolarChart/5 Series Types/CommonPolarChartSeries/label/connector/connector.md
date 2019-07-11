@@ -1,6 +1,6 @@
 <!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.label.connector<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\..\..\AreaSeries\AreaSeries.md,..\..\..\BarSeries\BarSeries.md,..\..\..\LineSeries\LineSeries.md,..\..\..\ScatterSeries\ScatterSeries.md,..\..\..\StackedBarSeries\StackedBarSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxPolarChartSeriesTypes.areapolarseries,dxPolarChartSeriesTypes.barpolarseries,dxPolarChartSeriesTypes.linepolarseries,dxPolarChartSeriesTypes.scatterpolarseries,dxPolarChartSeriesTypes.stackedbarpolarseries<!--/propertyOf-->
 <!--type-->Object<!--/type-->
 ===========================================================================
 

@@ -1,5 +1,5 @@
 <!--id-->dxTreeList.Options.onCellPrepared<!--/id-->
-<!--EventForAction-->..\4 Events\cellPrepared.md<!--/EventForAction-->
+<!--EventForAction-->dxTreeList.cellPrepared<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

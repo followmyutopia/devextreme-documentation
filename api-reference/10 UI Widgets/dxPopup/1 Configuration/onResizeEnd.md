@@ -1,5 +1,5 @@
 <!--id-->dxPopup.Options.onResizeEnd<!--/id-->
-<!--EventForAction-->..\4 Events\resizeEnd.md<!--/EventForAction-->
+<!--EventForAction-->dxPopup.resizeEnd<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

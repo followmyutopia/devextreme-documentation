@@ -1,5 +1,5 @@
 <!--id-->dxTreeList.Options.onRowClick<!--/id-->
-<!--EventForAction-->..\4 Events\rowClick.md<!--/EventForAction-->
+<!--EventForAction-->dxTreeList.rowClick<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e) | String<!--/type-->

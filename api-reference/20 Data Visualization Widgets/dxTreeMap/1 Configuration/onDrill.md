@@ -1,5 +1,5 @@
 <!--id-->dxTreeMap.Options.onDrill<!--/id-->
-<!--EventForAction-->..\4 Events\drill.md<!--/EventForAction-->
+<!--EventForAction-->dxTreeMap.drill<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->null<!--/default-->

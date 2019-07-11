@@ -1,5 +1,5 @@
 <!--id-->BaseWidget.Options.onExporting<!--/id-->
-<!--EventForAction-->..\4 Events\exporting.md<!--/EventForAction-->
+<!--EventForAction-->BaseWidget.exporting<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

@@ -1,5 +1,5 @@
 <!--id-->dxTreeList.Options.onCellHoverChanged<!--/id-->
-<!--EventForAction-->..\4 Events\cellHoverChanged.md<!--/EventForAction-->
+<!--EventForAction-->dxTreeList.cellHoverChanged<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

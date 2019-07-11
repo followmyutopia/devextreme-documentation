@@ -1,5 +1,5 @@
 <!--id-->dxSelectBox.Options.onCustomItemCreating<!--/id-->
-<!--EventForAction-->..\4 Events\customItemCreating.md<!--/EventForAction-->
+<!--EventForAction-->dxSelectBox.customItemCreating<!--/EventForAction-->
 ===========================================================================
 <!--default-->function(e) { if(!e.customItem) { e.customItem = e.text; } }<!--/default-->
 <!--type-->function(e)<!--/type-->

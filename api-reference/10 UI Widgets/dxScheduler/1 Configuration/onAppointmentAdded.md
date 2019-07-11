@@ -1,5 +1,5 @@
 <!--id-->dxScheduler.Options.onAppointmentAdded<!--/id-->
-<!--EventForAction-->..\4 Events\appointmentAdded.md<!--/EventForAction-->
+<!--EventForAction-->dxScheduler.appointmentAdded<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

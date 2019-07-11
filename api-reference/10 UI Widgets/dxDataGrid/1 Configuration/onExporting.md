@@ -1,5 +1,5 @@
 <!--id-->dxDataGrid.Options.onExporting<!--/id-->
-<!--EventForAction-->..\4 Events\exporting.md<!--/EventForAction-->
+<!--EventForAction-->dxDataGrid.exporting<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

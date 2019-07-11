@@ -1,5 +1,5 @@
 <!--id-->PivotGridDataSource.Options.onLoadingChanged<!--/id-->
-<!--EventForAction-->..\4 Events\loadingChanged.md<!--/EventForAction-->
+<!--EventForAction-->PivotGridDataSource.loadingChanged<!--/EventForAction-->
 ===========================================================================
 <!--type-->function(isLoading)<!--/type-->
 ===========================================================================

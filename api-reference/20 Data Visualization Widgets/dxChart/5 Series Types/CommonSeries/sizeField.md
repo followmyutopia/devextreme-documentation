@@ -1,6 +1,6 @@
 <!--id-->dxChartSeriesTypes.CommonSeries.sizeField<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\BubbleSeries\BubbleSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxChartSeriesTypes.BubbleSeries<!--/propertyOf-->
 <!--default-->'size'<!--/default-->
 <!--type-->String<!--/type-->
 ===========================================================================

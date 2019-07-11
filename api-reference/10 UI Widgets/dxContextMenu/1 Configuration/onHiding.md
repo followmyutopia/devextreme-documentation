@@ -1,5 +1,5 @@
 <!--id-->dxContextMenu.Options.onHiding<!--/id-->
-<!--EventForAction-->..\4 Events\hiding.md<!--/EventForAction-->
+<!--EventForAction-->dxContextMenu.hiding<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

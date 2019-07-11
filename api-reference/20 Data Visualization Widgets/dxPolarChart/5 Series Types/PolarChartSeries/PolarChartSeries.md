@@ -2,7 +2,7 @@
 ===========================================================================
 <!--type-->Object<!--/type-->
 <!--inlineType--><!--/inlineType-->
-<!--inherits-->..\CommonPolarChartSeries\CommonPolarChartSeries.md<!--/inherits-->
+<!--inherits-->dxPolarChartSeriesTypes.CommonPolarChartSeries<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

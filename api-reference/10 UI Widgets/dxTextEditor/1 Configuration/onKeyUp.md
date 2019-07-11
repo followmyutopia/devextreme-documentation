@@ -1,5 +1,5 @@
 <!--id-->dxTextEditor.Options.onKeyUp<!--/id-->
-<!--EventForAction-->..\4 Events\keyUp.md<!--/EventForAction-->
+<!--EventForAction-->dxTextEditor.keyUp<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

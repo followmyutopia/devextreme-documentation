@@ -1,5 +1,5 @@
 <!--id-->Store.Options.onUpdating<!--/id-->
-<!--EventForAction-->..\4 Events\updating.md<!--/EventForAction-->
+<!--EventForAction-->Store.updating<!--/EventForAction-->
 ===========================================================================
 <!--type-->function(key, values)<!--/type-->
 ===========================================================================

@@ -1,5 +1,5 @@
 <!--id-->dxDateBox.Options.maxZoomLevel<!--/id-->
-<!--dep-->calendarOptions.md<!--/dep-->
+<!--dep-->dxDateBox.Options.calendarOptions<!--/dep-->
 ===========================================================================
 <!--default-->'month'<!--/default-->
 <!--acceptValues-->'century' | 'decade' | 'month' | 'year'<!--/acceptValues-->

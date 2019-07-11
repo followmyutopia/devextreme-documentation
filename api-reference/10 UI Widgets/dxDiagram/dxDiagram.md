@@ -2,7 +2,7 @@
 ===========================================================================
 <!--module-->ui/diagram<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\Widget\Widget.md<!--/inherits-->
+<!--inherits-->Widget<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

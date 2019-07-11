@@ -1,5 +1,5 @@
 <!--id-->dxTabPanel.Options.onTitleClick<!--/id-->
-<!--EventForAction-->..\4 Events\titleClick.md<!--/EventForAction-->
+<!--EventForAction-->dxTabPanel.titleClick<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e) | String<!--/type-->

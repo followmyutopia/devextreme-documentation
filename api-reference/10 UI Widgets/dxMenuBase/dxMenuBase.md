@@ -2,7 +2,7 @@
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--type-->Object<!--/type-->
-<!--inherits-->..\HierarchicalCollectionWidget\HierarchicalCollectionWidget.md<!--/inherits-->
+<!--inherits-->HierarchicalCollectionWidget<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

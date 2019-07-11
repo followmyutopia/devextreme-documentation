@@ -1,5 +1,5 @@
 <!--id-->dxTreeList.Options.onContextMenuPreparing<!--/id-->
-<!--EventForAction-->..\4 Events\contextMenuPreparing.md<!--/EventForAction-->
+<!--EventForAction-->dxTreeList.contextMenuPreparing<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

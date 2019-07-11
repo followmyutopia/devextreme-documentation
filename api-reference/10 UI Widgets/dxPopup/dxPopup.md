@@ -5,7 +5,7 @@ visible: true
 ===========================================================================
 <!--module-->ui/popup<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\dxOverlay\dxOverlay.md<!--/inherits-->
+<!--inherits-->dxOverlay<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

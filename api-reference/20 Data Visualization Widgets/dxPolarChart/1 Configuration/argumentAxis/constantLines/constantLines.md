@@ -2,7 +2,7 @@
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->Array<Object><!--/type-->
-<!--inherits-->..\..\commonAxisSettings\constantLineStyle\constantLineStyle.md<!--/inherits-->
+<!--inherits-->dxPolarChart.Options.commonAxisSettings.constantLineStyle<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

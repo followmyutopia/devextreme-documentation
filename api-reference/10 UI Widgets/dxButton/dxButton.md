@@ -6,7 +6,7 @@ text: "Click"
 ===========================================================================
 <!--module-->ui/button<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\Widget\Widget.md<!--/inherits-->
+<!--inherits-->Widget<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

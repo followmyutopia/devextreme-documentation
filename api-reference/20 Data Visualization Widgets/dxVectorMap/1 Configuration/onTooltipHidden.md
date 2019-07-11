@@ -1,5 +1,5 @@
 <!--id-->dxVectorMap.Options.onTooltipHidden<!--/id-->
-<!--EventForAction-->..\4 Events\tooltipHidden.md<!--/EventForAction-->
+<!--EventForAction-->dxVectorMap.tooltipHidden<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->null<!--/default-->

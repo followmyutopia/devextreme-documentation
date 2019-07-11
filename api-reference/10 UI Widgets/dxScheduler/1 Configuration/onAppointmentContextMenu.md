@@ -1,5 +1,5 @@
 <!--id-->dxScheduler.Options.onAppointmentContextMenu<!--/id-->
-<!--EventForAction-->..\4 Events\appointmentContextMenu.md<!--/EventForAction-->
+<!--EventForAction-->dxScheduler.appointmentContextMenu<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e) | String<!--/type-->

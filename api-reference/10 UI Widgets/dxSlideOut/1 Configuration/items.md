@@ -1,4 +1,6 @@
 <!--id-->dxSlideOut.Options.items<!--/id-->
-<!--merge--><!--/merge-->
-<!--type-->Array<String, dxSlideOutItem, Object><!--/type-->
 ===========================================================================
+<!--type-->Array<String, dxSlideOutItem, Object><!--/type-->
+<!--firedEvents-->optionChanged<!--/firedEvents-->
+===========================================================================
+

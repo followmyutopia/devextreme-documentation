@@ -1,5 +1,5 @@
 <!--id-->dxChart.Options.onZoomStart<!--/id-->
-<!--EventForAction-->..\4 Events\zoomStart.md<!--/EventForAction-->
+<!--EventForAction-->dxChart.zoomStart<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->null<!--/default-->

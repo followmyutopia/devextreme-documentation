@@ -1,5 +1,5 @@
 <!--id-->dxBarGauge.Options.onTooltipHidden<!--/id-->
-<!--EventForAction-->..\4 Events\tooltipHidden.md<!--/EventForAction-->
+<!--EventForAction-->dxBarGauge.tooltipHidden<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->null<!--/default-->

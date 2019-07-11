@@ -1,5 +1,5 @@
 <!--id-->dxMap.Options.onRouteAdded<!--/id-->
-<!--EventForAction-->..\4 Events\routeAdded.md<!--/EventForAction-->
+<!--EventForAction-->dxMap.routeAdded<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

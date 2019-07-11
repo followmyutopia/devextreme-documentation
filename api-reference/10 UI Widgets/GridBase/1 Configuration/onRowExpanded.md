@@ -1,5 +1,5 @@
 <!--id-->GridBase.Options.onRowExpanded<!--/id-->
-<!--EventForAction-->..\4 Events\rowExpanded.md<!--/EventForAction-->
+<!--EventForAction-->GridBase.rowExpanded<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

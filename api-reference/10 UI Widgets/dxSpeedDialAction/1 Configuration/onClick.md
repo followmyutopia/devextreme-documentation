@@ -1,5 +1,5 @@
 <!--id-->dxSpeedDialAction.Options.onClick<!--/id-->
-<!--EventForAction-->..\4 Events\click.md<!--/EventForAction-->
+<!--EventForAction-->dxSpeedDialAction.click<!--/EventForAction-->
 ===========================================================================
 <!--type-->function(e)<!--/type-->
 ===========================================================================

@@ -1,5 +1,5 @@
 <!--id-->dxPivotGridFieldChooser.Options.onContextMenuPreparing<!--/id-->
-<!--EventForAction-->..\4 Events\contextMenuPreparing.md<!--/EventForAction-->
+<!--EventForAction-->dxPivotGridFieldChooser.contextMenuPreparing<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

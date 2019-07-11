@@ -1,5 +1,5 @@
 <!--id-->dxFileUploader.Options.onProgress<!--/id-->
-<!--EventForAction-->..\4 Events\progress.md<!--/EventForAction-->
+<!--EventForAction-->dxFileUploader.progress<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

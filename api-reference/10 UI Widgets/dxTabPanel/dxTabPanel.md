@@ -19,7 +19,7 @@ height: 200
 ===========================================================================
 <!--module-->ui/tab_panel<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\dxMultiView\dxMultiView.md<!--/inherits-->
+<!--inherits-->dxMultiView<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

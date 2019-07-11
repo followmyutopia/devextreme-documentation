@@ -1,5 +1,5 @@
 <!--id-->CollectionWidget.Options.onItemHold<!--/id-->
-<!--EventForAction-->..\4 Events\itemHold.md<!--/EventForAction-->
+<!--EventForAction-->CollectionWidget.itemHold<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

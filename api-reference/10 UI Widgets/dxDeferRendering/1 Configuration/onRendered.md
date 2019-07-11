@@ -1,5 +1,5 @@
 <!--id-->dxDeferRendering.Options.onRendered<!--/id-->
-<!--EventForAction-->..\4 Events\rendered.md<!--/EventForAction-->
+<!--EventForAction-->dxDeferRendering.rendered<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

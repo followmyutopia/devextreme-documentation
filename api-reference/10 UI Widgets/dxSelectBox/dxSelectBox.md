@@ -20,7 +20,7 @@ dataSource: [
 ===========================================================================
 <!--module-->ui/select_box<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\dxDropDownList\dxDropDownList.md<!--/inherits-->
+<!--inherits-->dxDropDownList<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

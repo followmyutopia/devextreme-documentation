@@ -1,4 +1,6 @@
 <!--id-->dxBox.Options.onSelectionChanged<!--/id-->
-<!--merge--><!--/merge-->
+<!--EventForAction-->dxBox.selectionChanged<!--/EventForAction-->
+===========================================================================
 <!--hidden--><!--/hidden-->
 ===========================================================================
+

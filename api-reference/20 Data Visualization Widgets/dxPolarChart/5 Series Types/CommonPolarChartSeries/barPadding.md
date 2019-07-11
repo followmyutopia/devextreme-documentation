@@ -1,6 +1,6 @@
 <!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.barPadding<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\BarSeries\BarSeries.md,..\StackedBarSeries\StackedBarSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxPolarChartSeriesTypes.barpolarseries,dxPolarChartSeriesTypes.stackedbarpolarseries<!--/propertyOf-->
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->
 ===========================================================================

@@ -1,5 +1,5 @@
 <!--id-->dxFileUploader.Options.onUploaded<!--/id-->
-<!--EventForAction-->..\4 Events\uploaded.md<!--/EventForAction-->
+<!--EventForAction-->dxFileUploader.uploaded<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

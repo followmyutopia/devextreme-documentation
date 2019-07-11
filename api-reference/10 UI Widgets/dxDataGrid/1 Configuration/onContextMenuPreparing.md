@@ -1,5 +1,5 @@
 <!--id-->dxDataGrid.Options.onContextMenuPreparing<!--/id-->
-<!--EventForAction-->..\4 Events\contextMenuPreparing.md<!--/EventForAction-->
+<!--EventForAction-->dxDataGrid.contextMenuPreparing<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

@@ -5,7 +5,7 @@
 ===========================================================================
 <!--module-->ui/file_uploader<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\Editor\Editor.md<!--/inherits-->
+<!--inherits-->Editor<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

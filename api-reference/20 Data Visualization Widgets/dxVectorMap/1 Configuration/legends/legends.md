@@ -2,7 +2,7 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Array<Object><!--/type-->
-<!--inherits-->..\..\..\BaseLegend\BaseLegend.md<!--/inherits-->
+<!--inherits-->BaseLegend<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -2,7 +2,7 @@
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->Object | Array<Object><!--/type-->
-<!--inherits-->..\commonPaneSettings\commonPaneSettings.md<!--/inherits-->
+<!--inherits-->dxChart.Options.commonPaneSettings<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

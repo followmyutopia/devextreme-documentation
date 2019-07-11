@@ -1,7 +1,7 @@
 <!--id-->dxTreeMap.Options.tile.label.font<!--/id-->
 ===========================================================================
 <!--type-->Object<!--/type-->
-<!--inherits-->..\..\..\..\..\Font\Font.md<!--/inherits-->
+<!--inherits-->Font<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

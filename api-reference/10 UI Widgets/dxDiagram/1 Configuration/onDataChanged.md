@@ -1,5 +1,5 @@
 <!--id-->dxDiagram.Options.onDataChanged<!--/id-->
-<!--EventForAction-->..\4 Events\dataChanged.md<!--/EventForAction-->
+<!--EventForAction-->dxDiagram.dataChanged<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

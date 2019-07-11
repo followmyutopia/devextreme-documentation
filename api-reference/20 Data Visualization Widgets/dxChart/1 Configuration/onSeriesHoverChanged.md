@@ -1,5 +1,5 @@
 <!--id-->dxChart.Options.onSeriesHoverChanged<!--/id-->
-<!--EventForAction-->..\4 Events\seriesHoverChanged.md<!--/EventForAction-->
+<!--EventForAction-->dxChart.seriesHoverChanged<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->null<!--/default-->

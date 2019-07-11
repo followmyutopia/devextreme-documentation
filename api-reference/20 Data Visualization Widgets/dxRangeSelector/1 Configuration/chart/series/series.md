@@ -3,7 +3,7 @@
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->
 <!--type-->Object | Array<ChartSeries><!--/type-->
-<!--inherits-->..\..\..\..\dxChart\5 Series Types\ChartSeries\ChartSeries.md<!--/inherits-->
+<!--inherits-->ChartSeries<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

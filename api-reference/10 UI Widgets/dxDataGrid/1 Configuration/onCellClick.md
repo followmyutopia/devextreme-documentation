@@ -1,5 +1,5 @@
 <!--id-->dxDataGrid.Options.onCellClick<!--/id-->
-<!--EventForAction-->..\4 Events\cellClick.md<!--/EventForAction-->
+<!--EventForAction-->dxDataGrid.cellClick<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e) | String<!--/type-->

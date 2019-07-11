@@ -1,5 +1,5 @@
 <!--id-->dxTagBox.Options.onMultiTagPreparing<!--/id-->
-<!--EventForAction-->..\4 Events\multiTagPreparing.md<!--/EventForAction-->
+<!--EventForAction-->dxTagBox.multiTagPreparing<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

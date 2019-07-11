@@ -1,5 +1,5 @@
 <!--id-->GridBase.Options.onSelectionChanged<!--/id-->
-<!--EventForAction-->..\4 Events\selectionChanged.md<!--/EventForAction-->
+<!--EventForAction-->GridBase.selectionChanged<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

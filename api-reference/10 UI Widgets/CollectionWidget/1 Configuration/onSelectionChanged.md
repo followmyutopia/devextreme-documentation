@@ -1,5 +1,5 @@
 <!--id-->CollectionWidget.Options.onSelectionChanged<!--/id-->
-<!--EventForAction-->..\4 Events\selectionChanged.md<!--/EventForAction-->
+<!--EventForAction-->CollectionWidget.selectionChanged<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

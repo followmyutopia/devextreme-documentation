@@ -1,6 +1,6 @@
 <!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.selectionStyle<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\..\AreaSeries\AreaSeries.md,..\..\BarSeries\BarSeries.md,..\..\StackedBarSeries\StackedBarSeries.md,..\..\LineSeries\LineSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxPolarChartSeriesTypes.areapolarseries,dxPolarChartSeriesTypes.barpolarseries,dxPolarChartSeriesTypes.stackedbarpolarseries,dxPolarChartSeriesTypes.linepolarseries<!--/propertyOf-->
 <!--type-->Object<!--/type-->
 ===========================================================================
 

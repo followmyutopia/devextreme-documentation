@@ -1,5 +1,5 @@
 <!--id-->dxScheduler.Options.onAppointmentDblClick<!--/id-->
-<!--EventForAction-->..\4 Events\appointmentDblClick.md<!--/EventForAction-->
+<!--EventForAction-->dxScheduler.appointmentDblClick<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e) | String<!--/type-->

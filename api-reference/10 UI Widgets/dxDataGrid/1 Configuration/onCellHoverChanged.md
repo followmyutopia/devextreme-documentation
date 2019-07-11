@@ -1,5 +1,5 @@
 <!--id-->dxDataGrid.Options.onCellHoverChanged<!--/id-->
-<!--EventForAction-->..\4 Events\cellHoverChanged.md<!--/EventForAction-->
+<!--EventForAction-->dxDataGrid.cellHoverChanged<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

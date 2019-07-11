@@ -1,8 +1,10 @@
 <!--id-->DOMComponent.Options.onOptionChanged<!--/id-->
-<!--merge--><!--/merge-->
+<!--EventForAction-->DOMComponent.optionChanged<!--/EventForAction-->
+===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->
 ===========================================================================
+
 
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

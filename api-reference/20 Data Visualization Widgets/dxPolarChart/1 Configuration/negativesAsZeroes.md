@@ -1,5 +1,6 @@
 <!--id-->dxPolarChart.Options.negativesAsZeroes<!--/id-->
 ===========================================================================
+<!--propertyOf-->dxPolarChartSeriesTypes.stackedbarpolarseries<!--/propertyOf-->
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->
 ===========================================================================

@@ -1,5 +1,5 @@
 <!--id-->GridBase.Options.onRowUpdating<!--/id-->
-<!--EventForAction-->..\4 Events\rowUpdating.md<!--/EventForAction-->
+<!--EventForAction-->GridBase.rowUpdating<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

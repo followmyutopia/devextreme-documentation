@@ -3,7 +3,7 @@
 <!--hidden--><!--/hidden-->
 <!--module-->ui/drop_down_editor/ui.drop_down_list<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\DataExpressionMixin\DataExpressionMixin.md,..\dxDropDownEditor\dxDropDownEditor.md<!--/inherits-->
+<!--inherits-->DataExpressionMixin,dxDropDownEditor<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -1,5 +1,5 @@
 <!--id-->dxTreeView.Options.onSelectAllValueChanged<!--/id-->
-<!--EventForAction-->..\4 Events\selectAllValueChanged.md<!--/EventForAction-->
+<!--EventForAction-->dxTreeView.selectAllValueChanged<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

@@ -1,5 +1,5 @@
 <!--id-->dxTextEditor.Options.onFocusOut<!--/id-->
-<!--EventForAction-->..\4 Events\focusOut.md<!--/EventForAction-->
+<!--EventForAction-->dxTextEditor.focusOut<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

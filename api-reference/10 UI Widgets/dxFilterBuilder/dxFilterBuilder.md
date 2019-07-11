@@ -25,7 +25,7 @@ onEditorPreparing: function(e) { e.editorOptions.width = 125; }
 ===========================================================================
 <!--module-->ui/filter_builder<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\Widget\Widget.md<!--/inherits-->
+<!--inherits-->Widget<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

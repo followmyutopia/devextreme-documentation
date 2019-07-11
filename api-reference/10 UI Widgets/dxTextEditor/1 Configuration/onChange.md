@@ -1,5 +1,5 @@
 <!--id-->dxTextEditor.Options.onChange<!--/id-->
-<!--EventForAction-->..\4 Events\change.md<!--/EventForAction-->
+<!--EventForAction-->dxTextEditor.change<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

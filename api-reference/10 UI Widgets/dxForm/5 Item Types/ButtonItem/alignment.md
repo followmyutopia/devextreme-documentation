@@ -1,5 +1,5 @@
 <!--id-->dxFormButtonItem.alignment<!--/id-->
-<!--dep-->horizontalAlignment.md<!--/dep-->
+<!--dep-->dxFormButtonItem.horizontalAlignment<!--/dep-->
 ===========================================================================
 <!--default-->'right'<!--/default-->
 <!--acceptValues-->'center' | 'left' | 'right'<!--/acceptValues-->

@@ -1,5 +1,5 @@
 <!--id-->dxFileUploader.Options.onUploadError<!--/id-->
-<!--EventForAction-->..\4 Events\uploadError.md<!--/EventForAction-->
+<!--EventForAction-->dxFileUploader.uploadError<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

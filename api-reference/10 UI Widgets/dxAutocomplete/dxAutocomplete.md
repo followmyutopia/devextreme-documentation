@@ -6,7 +6,7 @@ placeholder: "City"
 ===========================================================================
 <!--module-->ui/autocomplete<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\dxDropDownList\dxDropDownList.md<!--/inherits-->
+<!--inherits-->dxDropDownList<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

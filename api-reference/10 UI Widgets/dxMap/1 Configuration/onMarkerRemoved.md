@@ -1,5 +1,5 @@
 <!--id-->dxMap.Options.onMarkerRemoved<!--/id-->
-<!--EventForAction-->..\4 Events\markerRemoved.md<!--/EventForAction-->
+<!--EventForAction-->dxMap.markerRemoved<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

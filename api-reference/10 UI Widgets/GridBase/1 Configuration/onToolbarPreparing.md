@@ -1,5 +1,5 @@
 <!--id-->GridBase.Options.onToolbarPreparing<!--/id-->
-<!--EventForAction-->..\4 Events\toolbarPreparing.md<!--/EventForAction-->
+<!--EventForAction-->GridBase.toolbarPreparing<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

@@ -1,6 +1,6 @@
 <!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.selectionStyle.dashStyle<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\..\LineSeries\LineSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxPolarChartSeriesTypes.linepolarseries<!--/propertyOf-->
 <!--default-->'solid'<!--/default-->
 <!--acceptValues-->'dash' | 'dot' | 'longDash' | 'solid'<!--/acceptValues-->
 <!--type-->String<!--/type-->

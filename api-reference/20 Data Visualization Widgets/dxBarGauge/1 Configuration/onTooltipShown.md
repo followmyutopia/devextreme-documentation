@@ -1,5 +1,5 @@
 <!--id-->dxBarGauge.Options.onTooltipShown<!--/id-->
-<!--EventForAction-->..\4 Events\tooltipShown.md<!--/EventForAction-->
+<!--EventForAction-->dxBarGauge.tooltipShown<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->null<!--/default-->

@@ -5,7 +5,7 @@
 ===========================================================================
 <!--module-->ui/progress_bar<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\dxTrackBar\dxTrackBar.md<!--/inherits-->
+<!--inherits-->dxTrackBar<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

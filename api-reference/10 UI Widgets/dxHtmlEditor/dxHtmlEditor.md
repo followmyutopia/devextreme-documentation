@@ -18,7 +18,7 @@ variables: {
 ===========================================================================
 <!--module-->ui/html_editor<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\Editor\Editor.md<!--/inherits-->
+<!--inherits-->Editor<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

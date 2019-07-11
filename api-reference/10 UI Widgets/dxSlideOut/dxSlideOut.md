@@ -2,7 +2,7 @@
 ===========================================================================
 <!--module-->ui/slide_out<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\CollectionWidget\CollectionWidget.md<!--/inherits-->
+<!--inherits-->CollectionWidget<!--/inherits-->
 <!--lib-->
 dx.all.js
 <!--/lib-->

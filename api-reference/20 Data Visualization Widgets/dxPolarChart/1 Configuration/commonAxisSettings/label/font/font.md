@@ -1,7 +1,7 @@
 <!--id-->dxPolarChart.Options.commonAxisSettings.label.font<!--/id-->
 ===========================================================================
 <!--type-->Object<!--/type-->
-<!--inherits-->..\..\..\..\..\Font\Font.md<!--/inherits-->
+<!--inherits-->Font<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

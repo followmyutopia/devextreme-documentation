@@ -64,7 +64,7 @@ itemView: {
 ===========================================================================
 <!--module-->ui/file_manager<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\Widget\Widget.md<!--/inherits-->
+<!--inherits-->Widget<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

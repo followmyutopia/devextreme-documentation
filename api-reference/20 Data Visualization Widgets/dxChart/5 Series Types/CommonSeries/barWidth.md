@@ -1,6 +1,6 @@
 <!--id-->dxChartSeriesTypes.CommonSeries.barWidth<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\BarSeries\BarSeries.md,..\StackedBarSeries\StackedBarSeries.md,..\FullStackedBarSeries\FullStackedBarSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxChartSeriesTypes.BarSeries,dxChartSeriesTypes.StackedBarSeries,dxChartSeriesTypes.FullStackedBarSeries,dxChartSeriesTypes.RangeBarSeries<!--/propertyOf-->
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->
 ===========================================================================

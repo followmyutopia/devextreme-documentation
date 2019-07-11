@@ -1,5 +1,5 @@
 <!--id-->dxTextEditor.Options.onCut<!--/id-->
-<!--EventForAction-->..\4 Events\cut.md<!--/EventForAction-->
+<!--EventForAction-->dxTextEditor.cut<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

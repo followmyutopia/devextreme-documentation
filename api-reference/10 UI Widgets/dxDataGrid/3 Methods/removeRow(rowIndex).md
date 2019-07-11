@@ -1,5 +1,5 @@
 <!--id-->dxDataGrid.removeRow(rowIndex)<!--/id-->
-<!--dep-->..\..\GridBase\3 Methods\deleteRow(rowIndex).md<!--/dep-->
+<!--dep-->GridBase.deleteRow(rowIndex)<!--/dep-->
 ===================================================================
 ===================================================================
 

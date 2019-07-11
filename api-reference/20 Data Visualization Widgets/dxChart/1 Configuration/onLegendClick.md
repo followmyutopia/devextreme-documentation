@@ -1,5 +1,5 @@
 <!--id-->dxChart.Options.onLegendClick<!--/id-->
-<!--EventForAction-->..\4 Events\legendClick.md<!--/EventForAction-->
+<!--EventForAction-->dxChart.legendClick<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->null<!--/default-->

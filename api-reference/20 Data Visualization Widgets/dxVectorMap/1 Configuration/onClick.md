@@ -1,5 +1,5 @@
 <!--id-->dxVectorMap.Options.onClick<!--/id-->
-<!--EventForAction-->..\4 Events\click.md<!--/EventForAction-->
+<!--EventForAction-->dxVectorMap.click<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->null<!--/default-->

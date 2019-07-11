@@ -1,6 +1,6 @@
 <!--id-->dxRangeSelector.Options.chart.minBubbleSize<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\..\..\dxChart\5 Series Types\BubbleSeries\BubbleSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxChartSeriesTypes.BubbleSeries<!--/propertyOf-->
 <!--default-->12<!--/default-->
 <!--type-->Number<!--/type-->
 ===========================================================================

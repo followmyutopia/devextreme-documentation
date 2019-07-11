@@ -1,7 +1,7 @@
 <!--id-->BaseGauge.Options.scale.label.font<!--/id-->
 ===========================================================================
 <!--type-->Object<!--/type-->
-<!--inherits-->..\..\..\..\..\Font\Font.md<!--/inherits-->
+<!--inherits-->Font<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

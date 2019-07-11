@@ -1,5 +1,5 @@
 <!--id-->dxVectorMap.Options.onSelectionChanged<!--/id-->
-<!--EventForAction-->..\4 Events\selectionChanged.md<!--/EventForAction-->
+<!--EventForAction-->dxVectorMap.selectionChanged<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->null<!--/default-->

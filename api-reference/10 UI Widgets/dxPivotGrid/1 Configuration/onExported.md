@@ -1,5 +1,5 @@
 <!--id-->dxPivotGrid.Options.onExported<!--/id-->
-<!--EventForAction-->..\4 Events\exported.md<!--/EventForAction-->
+<!--EventForAction-->dxPivotGrid.exported<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

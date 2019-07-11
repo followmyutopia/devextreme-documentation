@@ -1,7 +1,7 @@
 <!--id-->dxChart.Options.argumentAxis<!--/id-->
 ===========================================================================
 <!--type-->Object<!--/type-->
-<!--inherits-->..\commonAxisSettings\commonAxisSettings.md<!--/inherits-->
+<!--inherits-->dxChart.Options.commonAxisSettings<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -19,7 +19,7 @@ dataSource: [{
 ===========================================================================
 <!--module-->viz/tree_map<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\BaseWidget\BaseWidget.md,..\..\10 UI Widgets\DataHelperMixin\DataHelperMixin.md<!--/inherits-->
+<!--inherits-->BaseWidget,DataHelperMixin<!--/inherits-->
 <!--lib-->
 dx.viz.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

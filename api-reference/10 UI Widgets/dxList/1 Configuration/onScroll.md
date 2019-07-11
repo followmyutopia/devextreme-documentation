@@ -1,5 +1,5 @@
 <!--id-->dxList.Options.onScroll<!--/id-->
-<!--EventForAction-->..\4 Events\scroll.md<!--/EventForAction-->
+<!--EventForAction-->dxList.scroll<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

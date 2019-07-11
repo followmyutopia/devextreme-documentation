@@ -1,5 +1,5 @@
 <!--id-->dxLookup.Options.onPageLoading<!--/id-->
-<!--EventForAction-->..\4 Events\pageLoading.md<!--/EventForAction-->
+<!--EventForAction-->dxLookup.pageLoading<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

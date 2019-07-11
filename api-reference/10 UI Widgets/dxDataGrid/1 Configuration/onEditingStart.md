@@ -1,5 +1,5 @@
 <!--id-->dxDataGrid.Options.onEditingStart<!--/id-->
-<!--EventForAction-->..\4 Events\editingStart.md<!--/EventForAction-->
+<!--EventForAction-->dxDataGrid.editingStart<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

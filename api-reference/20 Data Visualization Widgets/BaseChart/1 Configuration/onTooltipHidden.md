@@ -1,5 +1,5 @@
 <!--id-->BaseChart.Options.onTooltipHidden<!--/id-->
-<!--EventForAction-->..\4 Events\tooltipHidden.md<!--/EventForAction-->
+<!--EventForAction-->BaseChart.tooltipHidden<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->null<!--/default-->

@@ -1,6 +1,6 @@
 <!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.valueErrorBar<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\..\AreaSeries\AreaSeries.md,..\..\BarSeries\BarSeries.md,..\..\LineSeries\LineSeries.md,..\..\ScatterSeries\ScatterSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxPolarChartSeriesTypes.areapolarseries,dxPolarChartSeriesTypes.barpolarseries,dxPolarChartSeriesTypes.linepolarseries,dxPolarChartSeriesTypes.scatterpolarseries<!--/propertyOf-->
 <!--type-->Object<!--/type-->
 ===========================================================================
 

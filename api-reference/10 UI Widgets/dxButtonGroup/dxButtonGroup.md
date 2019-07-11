@@ -20,7 +20,7 @@ selectionMode: "multiple"
 ===========================================================================
 <!--module-->ui/button_group<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\Widget\Widget.md<!--/inherits-->
+<!--inherits-->Widget<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

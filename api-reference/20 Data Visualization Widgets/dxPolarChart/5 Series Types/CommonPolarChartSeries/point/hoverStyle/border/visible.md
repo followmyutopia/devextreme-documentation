@@ -1,6 +1,6 @@
 <!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.point.hoverStyle.border.visible<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\..\..\..\LineSeries\LineSeries.md,..\..\..\..\AreaSeries\AreaSeries.md,..\..\..\..\ScatterSeries\ScatterSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxPolarChartSeriesTypes.linepolarseries,dxPolarChartSeriesTypes.areapolarseries,dxPolarChartSeriesTypes.scatterpolarseries<!--/propertyOf-->
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->
 ===========================================================================

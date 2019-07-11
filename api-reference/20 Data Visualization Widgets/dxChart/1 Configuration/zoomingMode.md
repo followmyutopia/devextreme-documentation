@@ -1,5 +1,5 @@
 <!--id-->dxChart.Options.zoomingMode<!--/id-->
-<!--dep-->zoomAndPan\zoomAndPan.md<!--/dep-->
+<!--dep-->dxChart.Options.zoomAndPan<!--/dep-->
 ===========================================================================
 <!--default-->'none'<!--/default-->
 <!--acceptValues-->'all' | 'mouse' | 'none' | 'touch'<!--/acceptValues-->

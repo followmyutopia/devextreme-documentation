@@ -1,6 +1,6 @@
 <!--id-->dxChart.Options.tooltip.location<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\..\5 Series Types\BarSeries\BarSeries.md,..\..\5 Series Types\StackedBarSeries\StackedBarSeries.md,..\..\5 Series Types\FullStackedBarSeries\FullStackedBarSeries.md,..\..\5 Series Types\BubbleSeries\BubbleSeries.md,..\..\5 Series Types\StockSeries\StockSeries.md,..\..\5 Series Types\CandleStickSeries\CandleStickSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxChartSeriesTypes.BarSeries,dxChartSeriesTypes.StackedBarSeries,dxChartSeriesTypes.FullStackedBarSeries,dxChartSeriesTypes.BubbleSeries,dxChartSeriesTypes.StockSeries,dxChartSeriesTypes.CandleStickSeries<!--/propertyOf-->
 <!--default-->'center'<!--/default-->
 <!--acceptValues-->'center' | 'edge'<!--/acceptValues-->
 <!--type-->String<!--/type-->

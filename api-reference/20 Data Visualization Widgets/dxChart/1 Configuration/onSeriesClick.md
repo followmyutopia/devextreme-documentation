@@ -1,5 +1,5 @@
 <!--id-->dxChart.Options.onSeriesClick<!--/id-->
-<!--EventForAction-->..\4 Events\seriesClick.md<!--/EventForAction-->
+<!--EventForAction-->dxChart.seriesClick<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->null<!--/default-->

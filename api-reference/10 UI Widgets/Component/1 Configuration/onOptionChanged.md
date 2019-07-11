@@ -1,5 +1,5 @@
 <!--id-->Component.Options.onOptionChanged<!--/id-->
-<!--EventForAction-->..\4 Events\optionChanged.md<!--/EventForAction-->
+<!--EventForAction-->Component.optionChanged<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

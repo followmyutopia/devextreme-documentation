@@ -1,5 +1,5 @@
 <!--id-->dxFileUploader.Options.onUploadAborted<!--/id-->
-<!--EventForAction-->..\4 Events\uploadAborted.md<!--/EventForAction-->
+<!--EventForAction-->dxFileUploader.uploadAborted<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

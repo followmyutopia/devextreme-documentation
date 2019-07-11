@@ -4,7 +4,7 @@
 <!--module-->core/component<!--/module-->
 <!--export-->default<!--/export-->
 <!--type-->Object<!--/type-->
-<!--inherits-->..\EventsMixin\EventsMixin.md<!--/inherits-->
+<!--inherits-->EventsMixin<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

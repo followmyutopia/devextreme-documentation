@@ -1,5 +1,5 @@
 <!--id-->dxPivotGrid.Options.onCellPrepared<!--/id-->
-<!--EventForAction-->..\4 Events\cellPrepared.md<!--/EventForAction-->
+<!--EventForAction-->dxPivotGrid.cellPrepared<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

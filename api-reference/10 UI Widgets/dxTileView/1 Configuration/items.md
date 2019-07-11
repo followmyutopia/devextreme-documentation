@@ -1,4 +1,6 @@
 <!--id-->dxTileView.Options.items<!--/id-->
-<!--merge--><!--/merge-->
-<!--type-->Array<String, dxTileViewItem, Object><!--/type-->
 ===========================================================================
+<!--type-->Array<String, dxTileViewItem, Object><!--/type-->
+<!--firedEvents-->optionChanged<!--/firedEvents-->
+===========================================================================
+

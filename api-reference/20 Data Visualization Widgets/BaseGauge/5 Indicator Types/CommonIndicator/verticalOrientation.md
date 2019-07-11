@@ -1,6 +1,6 @@
 <!--id-->CommonIndicator.verticalOrientation<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\..\..\dxLinearGauge\5 Indicator Types\RangeBar\RangeBar.md<!--/propertyOf-->
+<!--propertyOf-->linearRangeBar<!--/propertyOf-->
 <!--default-->'bottom' (value_indicators), 'top' (subvalue_indicators)<!--/default-->
 <!--acceptValues-->'bottom' | 'top'<!--/acceptValues-->
 <!--type-->String<!--/type-->

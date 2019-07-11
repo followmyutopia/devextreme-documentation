@@ -8,7 +8,7 @@ dataSource: [
 ===========================================================================
 <!--module-->ui/tabs<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\CollectionWidget\CollectionWidget.md<!--/inherits-->
+<!--inherits-->CollectionWidget<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

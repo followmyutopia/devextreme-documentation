@@ -1,5 +1,5 @@
 <!--id-->dxScrollView.Options.onReachBottom<!--/id-->
-<!--EventForAction-->..\4 Events\reachBottom.md<!--/EventForAction-->
+<!--EventForAction-->dxScrollView.reachBottom<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

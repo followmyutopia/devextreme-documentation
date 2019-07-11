@@ -1,4 +1,6 @@
 <!--id-->dxResponsiveBox.Options.items<!--/id-->
-<!--merge--><!--/merge-->
-<!--type-->Array<String, dxResponsiveBoxItem, Object><!--/type-->
 ===========================================================================
+<!--type-->Array<String, dxResponsiveBoxItem, Object><!--/type-->
+<!--firedEvents-->optionChanged<!--/firedEvents-->
+===========================================================================
+

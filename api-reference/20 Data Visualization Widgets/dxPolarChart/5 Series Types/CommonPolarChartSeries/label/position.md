@@ -1,6 +1,6 @@
 <!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.label.position<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\..\BarSeries\BarSeries.md,..\..\StackedBarSeries\StackedBarSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxPolarChartSeriesTypes.barpolarseries,dxPolarChartSeriesTypes.stackedbarpolarseries<!--/propertyOf-->
 <!--default-->'outside'<!--/default-->
 <!--acceptValues-->'inside' | 'outside'<!--/acceptValues-->
 <!--type-->String<!--/type-->

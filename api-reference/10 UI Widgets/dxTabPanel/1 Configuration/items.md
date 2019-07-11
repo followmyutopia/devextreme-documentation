@@ -1,4 +1,6 @@
 <!--id-->dxTabPanel.Options.items<!--/id-->
-<!--merge--><!--/merge-->
-<!--type-->Array<String, dxTabPanelItem, Object><!--/type-->
 ===========================================================================
+<!--type-->Array<String, dxTabPanelItem, Object><!--/type-->
+<!--firedEvents-->optionChanged<!--/firedEvents-->
+===========================================================================
+

@@ -1,6 +1,6 @@
 <!--id-->dxTreeListColumn<!--/id-->
 ===========================================================================
 <!--type-->Object<!--/type-->
-<!--inherits-->..\GridBaseColumn\GridBaseColumn.md<!--/inherits-->
+<!--inherits-->GridBaseColumn<!--/inherits-->
 ===========================================================================
 

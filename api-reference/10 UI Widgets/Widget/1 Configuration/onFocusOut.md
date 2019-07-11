@@ -1,5 +1,5 @@
 <!--id-->Widget.Options.onFocusOut<!--/id-->
-<!--EventForAction-->..\4 Events\focusOut.md<!--/EventForAction-->
+<!--EventForAction-->Widget.focusOut<!--/EventForAction-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->null<!--/default-->

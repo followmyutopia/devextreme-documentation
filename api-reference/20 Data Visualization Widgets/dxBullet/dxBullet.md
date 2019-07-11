@@ -6,7 +6,7 @@ value: 20
 ===========================================================================
 <!--module-->viz/bullet<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\BaseSparkline\BaseSparkline.md<!--/inherits-->
+<!--inherits-->BaseSparkline<!--/inherits-->
 <!--lib-->
 dx.viz.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

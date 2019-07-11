@@ -1,5 +1,5 @@
 <!--id-->Store.Options.onRemoved<!--/id-->
-<!--EventForAction-->..\4 Events\removed.md<!--/EventForAction-->
+<!--EventForAction-->Store.removed<!--/EventForAction-->
 ===========================================================================
 <!--type-->function(key)<!--/type-->
 ===========================================================================

@@ -1,7 +1,7 @@
 <!--id-->dxChartSeriesTypes.CommonSeries.rangeValue2Field<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--propertyOf-->..\RangeBarSeries\RangeBarSeries.md,..\RangeAreaSeries\RangeAreaSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxChartSeriesTypes.RangeBarSeries,dxChartSeriesTypes.RangeAreaSeries<!--/propertyOf-->
 <!--default-->'val2'<!--/default-->
 <!--type-->String<!--/type-->
 ===========================================================================

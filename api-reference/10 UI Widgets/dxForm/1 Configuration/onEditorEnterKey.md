@@ -1,5 +1,5 @@
 <!--id-->dxForm.Options.onEditorEnterKey<!--/id-->
-<!--EventForAction-->..\4 Events\editorEnterKey.md<!--/EventForAction-->
+<!--EventForAction-->dxForm.editorEnterKey<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

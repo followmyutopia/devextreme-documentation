@@ -1,4 +1,6 @@
 <!--id-->dxMenuBase.Options.onItemHold<!--/id-->
-<!--merge--><!--/merge-->
+<!--EventForAction-->dxMenuBase.itemHold<!--/EventForAction-->
+===========================================================================
 <!--hidden--><!--/hidden-->
 ===========================================================================
+

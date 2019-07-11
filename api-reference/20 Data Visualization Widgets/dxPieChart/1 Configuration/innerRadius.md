@@ -1,5 +1,6 @@
 <!--id-->dxPieChart.Options.innerRadius<!--/id-->
 ===========================================================================
+<!--propertyOf-->dxPieChartSeriesTypes.DoughnutSeries<!--/propertyOf-->
 <!--default-->0.5<!--/default-->
 <!--type-->Number<!--/type-->
 ===========================================================================

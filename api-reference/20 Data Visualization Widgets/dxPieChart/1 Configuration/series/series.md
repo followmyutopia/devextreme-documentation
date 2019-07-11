@@ -3,7 +3,7 @@
 <!--hideDefaults-->true<!--/hideDefaults-->
 <!--default-->undefined<!--/default-->
 <!--type-->Object | Array<PieChartSeries><!--/type-->
-<!--inherits-->..\..\5 Series Types\PieChartSeries\PieChartSeries.md<!--/inherits-->
+<!--inherits-->PieChartSeries<!--/inherits-->
 <!--inheritAll--><!--/inheritAll-->
 ===========================================================================
 

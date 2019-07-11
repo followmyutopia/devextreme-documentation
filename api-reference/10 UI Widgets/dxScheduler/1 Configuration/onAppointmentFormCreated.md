@@ -1,6 +1,6 @@
 <!--id-->dxScheduler.Options.onAppointmentFormCreated<!--/id-->
-<!--dep-->onAppointmentFormOpening.md<!--/dep-->
-<!--EventForAction-->..\4 Events\appointmentFormCreated.md<!--/EventForAction-->
+<!--dep-->dxScheduler.Options.onAppointmentFormOpening<!--/dep-->
+<!--EventForAction-->dxScheduler.appointmentFormCreated<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

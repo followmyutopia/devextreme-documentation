@@ -1,5 +1,5 @@
 <!--id-->BaseGauge.Options.onTooltipShown<!--/id-->
-<!--EventForAction-->..\4 Events\tooltipShown.md<!--/EventForAction-->
+<!--EventForAction-->BaseGauge.tooltipShown<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->null<!--/default-->

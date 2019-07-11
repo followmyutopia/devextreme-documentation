@@ -1,5 +1,5 @@
 <!--id-->dxLookup.Options.onPullRefresh<!--/id-->
-<!--EventForAction-->..\4 Events\pullRefresh.md<!--/EventForAction-->
+<!--EventForAction-->dxLookup.pullRefresh<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

@@ -2,7 +2,7 @@
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--type-->Object<!--/type-->
-<!--inherits-->..\..\10 UI Widgets\DOMComponent\DOMComponent.md<!--/inherits-->
+<!--inherits-->DOMComponent<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

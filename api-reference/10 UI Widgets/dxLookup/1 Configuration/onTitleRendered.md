@@ -1,5 +1,5 @@
 <!--id-->dxLookup.Options.onTitleRendered<!--/id-->
-<!--EventForAction-->..\4 Events\titleRendered.md<!--/EventForAction-->
+<!--EventForAction-->dxLookup.titleRendered<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

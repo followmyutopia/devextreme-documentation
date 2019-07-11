@@ -16,7 +16,7 @@ dataSource: [{
 ===========================================================================
 <!--module-->ui/nav_bar<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\dxTabs\dxTabs.md<!--/inherits-->
+<!--inherits-->dxTabs<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

@@ -1,5 +1,5 @@
 <!--id-->dxProgressBar.Options.onComplete<!--/id-->
-<!--EventForAction-->..\4 Events\complete.md<!--/EventForAction-->
+<!--EventForAction-->dxProgressBar.complete<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

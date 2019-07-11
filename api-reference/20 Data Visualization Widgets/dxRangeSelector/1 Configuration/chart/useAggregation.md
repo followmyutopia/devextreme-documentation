@@ -1,5 +1,5 @@
 <!--id-->dxRangeSelector.Options.chart.useAggregation<!--/id-->
-<!--dep-->..\..\..\dxChart\5 Series Types\CommonSeries\aggregation\enabled.md<!--/dep-->
+<!--dep-->dxChartSeriesTypes.CommonSeries.aggregation.enabled<!--/dep-->
 ===========================================================================
 <!--type-->Boolean<!--/type-->
 ===========================================================================

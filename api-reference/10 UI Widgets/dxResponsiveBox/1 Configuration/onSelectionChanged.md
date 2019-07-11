@@ -1,4 +1,6 @@
 <!--id-->dxResponsiveBox.Options.onSelectionChanged<!--/id-->
-<!--merge--><!--/merge-->
+<!--EventForAction-->dxResponsiveBox.selectionChanged<!--/EventForAction-->
+===========================================================================
 <!--hidden--><!--/hidden-->
 ===========================================================================
+

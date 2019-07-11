@@ -1,5 +1,5 @@
 <!--id-->dxList.Options.onItemSwipe<!--/id-->
-<!--EventForAction-->..\4 Events\itemSwipe.md<!--/EventForAction-->
+<!--EventForAction-->dxList.itemSwipe<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

@@ -1,5 +1,5 @@
 <!--id-->dxTabPanel.Options.onTitleHold<!--/id-->
-<!--EventForAction-->..\4 Events\titleHold.md<!--/EventForAction-->
+<!--EventForAction-->dxTabPanel.titleHold<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

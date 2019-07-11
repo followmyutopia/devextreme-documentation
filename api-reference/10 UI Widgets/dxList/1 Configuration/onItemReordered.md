@@ -1,5 +1,5 @@
 <!--id-->dxList.Options.onItemReordered<!--/id-->
-<!--EventForAction-->..\4 Events\itemReordered.md<!--/EventForAction-->
+<!--EventForAction-->dxList.itemReordered<!--/EventForAction-->
 ===========================================================================
 <!--hidden-->false<!--/hidden-->
 <!--default-->null<!--/default-->

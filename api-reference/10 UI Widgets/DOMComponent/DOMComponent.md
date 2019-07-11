@@ -4,7 +4,7 @@
 <!--module-->core/dom_component<!--/module-->
 <!--export-->default<!--/export-->
 <!--type-->Object<!--/type-->
-<!--inherits-->..\Component\Component.md<!--/inherits-->
+<!--inherits-->Component<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

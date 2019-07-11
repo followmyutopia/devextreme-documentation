@@ -1,5 +1,5 @@
 <!--id-->dxChart.Options.barWidth<!--/id-->
-<!--dep-->..\5 Series Types\CommonSeries\barPadding.md<!--/dep-->
+<!--dep-->dxChartSeriesTypes.CommonSeries.barPadding<!--/dep-->
 ===========================================================================
 <!--type-->Number<!--/type-->
 ===========================================================================

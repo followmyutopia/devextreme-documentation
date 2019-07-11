@@ -1,5 +1,5 @@
 <!--id-->dxTreeList.Options.onNodesInitialized<!--/id-->
-<!--EventForAction-->..\4 Events\nodesInitialized.md<!--/EventForAction-->
+<!--EventForAction-->dxTreeList.nodesInitialized<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

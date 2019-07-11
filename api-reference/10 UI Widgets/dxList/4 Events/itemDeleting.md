@@ -1,8 +1,9 @@
 <!--id-->dxList.itemDeleting<!--/id-->
-<!--merge--><!--/merge-->
+===========================================================================
 <!--hidden-->false<!--/hidden-->
 <!--type-->eventType<!--/type-->
 ===========================================================================
+
 
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

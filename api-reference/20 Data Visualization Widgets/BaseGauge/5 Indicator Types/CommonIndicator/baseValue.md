@@ -1,7 +1,7 @@
 <!--id-->CommonIndicator.baseValue<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--propertyOf-->..\..\..\dxCircularGauge\5 Indicator Types\RangeBar\RangeBar.md,..\..\..\dxLinearGauge\5 Indicator Types\RangeBar\RangeBar.md<!--/propertyOf-->
+<!--propertyOf-->circularRangeBar,linearRangeBar<!--/propertyOf-->
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->
 ===========================================================================

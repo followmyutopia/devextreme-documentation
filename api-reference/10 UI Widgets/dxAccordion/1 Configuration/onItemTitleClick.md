@@ -1,5 +1,5 @@
 <!--id-->dxAccordion.Options.onItemTitleClick<!--/id-->
-<!--EventForAction-->..\4 Events\itemTitleClick.md<!--/EventForAction-->
+<!--EventForAction-->dxAccordion.itemTitleClick<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e) | String<!--/type-->

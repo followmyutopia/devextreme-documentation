@@ -1,5 +1,5 @@
 <!--id-->dxTextEditor.Options.onInput<!--/id-->
-<!--EventForAction-->..\4 Events\input.md<!--/EventForAction-->
+<!--EventForAction-->dxTextEditor.input<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

@@ -1,5 +1,5 @@
 <!--id-->dxPolarChart.Options.onSeriesSelectionChanged<!--/id-->
-<!--EventForAction-->..\4 Events\seriesSelectionChanged.md<!--/EventForAction-->
+<!--EventForAction-->dxPolarChart.seriesSelectionChanged<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->null<!--/default-->

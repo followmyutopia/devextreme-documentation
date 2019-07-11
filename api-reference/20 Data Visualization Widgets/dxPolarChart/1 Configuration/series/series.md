@@ -4,7 +4,7 @@
 <!--hideDefaults-->true<!--/hideDefaults-->
 <!--default-->undefined<!--/default-->
 <!--type-->Object | Array<PolarChartSeries><!--/type-->
-<!--inherits-->..\..\5 Series Types\PolarChartSeries\PolarChartSeries.md<!--/inherits-->
+<!--inherits-->PolarChartSeries<!--/inherits-->
 <!--inheritAll--><!--/inheritAll-->
 ===========================================================================
 

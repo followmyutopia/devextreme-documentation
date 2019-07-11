@@ -1,5 +1,5 @@
 <!--id-->dxHtmlEditor.Options.onFocusIn<!--/id-->
-<!--EventForAction-->..\4 Events\focusIn.md<!--/EventForAction-->
+<!--EventForAction-->dxHtmlEditor.focusIn<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

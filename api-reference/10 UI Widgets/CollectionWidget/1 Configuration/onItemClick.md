@@ -1,5 +1,5 @@
 <!--id-->CollectionWidget.Options.onItemClick<!--/id-->
-<!--EventForAction-->..\4 Events\itemClick.md<!--/EventForAction-->
+<!--EventForAction-->CollectionWidget.itemClick<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e) | String<!--/type-->

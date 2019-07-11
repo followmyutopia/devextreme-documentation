@@ -1,6 +1,6 @@
 <!--id-->CommonIndicator.backgroundColor<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\..\..\dxCircularGauge\5 Indicator Types\RangeBar\RangeBar.md,..\..\..\dxLinearGauge\5 Indicator Types\RangeBar\RangeBar.md<!--/propertyOf-->
+<!--propertyOf-->circularRangeBar,linearRangeBar<!--/propertyOf-->
 <!--default-->'none'<!--/default-->
 <!--type-->String<!--/type-->
 ===========================================================================

@@ -1,5 +1,5 @@
 <!--id-->dxScheduler.Options.onAppointmentClick<!--/id-->
-<!--EventForAction-->..\4 Events\appointmentClick.md<!--/EventForAction-->
+<!--EventForAction-->dxScheduler.appointmentClick<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e) | String<!--/type-->

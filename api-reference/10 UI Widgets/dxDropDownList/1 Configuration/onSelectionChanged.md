@@ -1,5 +1,5 @@
 <!--id-->dxDropDownList.Options.onSelectionChanged<!--/id-->
-<!--EventForAction-->..\4 Events\selectionChanged.md<!--/EventForAction-->
+<!--EventForAction-->dxDropDownList.selectionChanged<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

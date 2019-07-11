@@ -2,7 +2,7 @@
 ===========================================================================
 <!--module-->ui/popover<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\dxPopup\dxPopup.md<!--/inherits-->
+<!--inherits-->dxPopup<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

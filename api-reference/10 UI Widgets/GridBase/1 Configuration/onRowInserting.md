@@ -1,5 +1,5 @@
 <!--id-->GridBase.Options.onRowInserting<!--/id-->
-<!--EventForAction-->..\4 Events\rowInserting.md<!--/EventForAction-->
+<!--EventForAction-->GridBase.rowInserting<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

@@ -3,7 +3,7 @@
 <!--module-->data/local_store<!--/module-->
 <!--export-->default<!--/export-->
 <!--type-->Object<!--/type-->
-<!--inherits-->..\ArrayStore\ArrayStore.md<!--/inherits-->
+<!--inherits-->ArrayStore<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

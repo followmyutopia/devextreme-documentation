@@ -1,5 +1,5 @@
 <!--id-->dxDropDownEditor.Options.onOpened<!--/id-->
-<!--EventForAction-->..\4 Events\opened.md<!--/EventForAction-->
+<!--EventForAction-->dxDropDownEditor.opened<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

@@ -1,6 +1,6 @@
 <!--id-->dxChartSeriesTypes.CommonSeries.label.position<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\..\BarSeries\BarSeries.md,..\..\StackedBarSeries\StackedBarSeries.md,..\..\FullStackedBarSeries\FullStackedBarSeries.md,..\..\RangeBarSeries\RangeBarSeries.md,..\..\RangeAreaSeries\RangeAreaSeries.md,..\..\BubbleSeries\BubbleSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxChartSeriesTypes.BarSeries,dxChartSeriesTypes.StackedBarSeries,dxChartSeriesTypes.FullStackedBarSeries,dxChartSeriesTypes.RangeBarSeries,dxChartSeriesTypes.RangeAreaSeries,dxChartSeriesTypes.BubbleSeries<!--/propertyOf-->
 <!--default-->'outside'<!--/default-->
 <!--acceptValues-->'inside' | 'outside'<!--/acceptValues-->
 <!--type-->String<!--/type-->

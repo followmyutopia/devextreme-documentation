@@ -1,5 +1,5 @@
 <!--id-->dxTreeView.Options.onItemSelectionChanged<!--/id-->
-<!--EventForAction-->..\4 Events\itemSelectionChanged.md<!--/EventForAction-->
+<!--EventForAction-->dxTreeView.itemSelectionChanged<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

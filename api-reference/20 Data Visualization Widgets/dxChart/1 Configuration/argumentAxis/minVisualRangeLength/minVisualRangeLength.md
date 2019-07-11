@@ -2,7 +2,7 @@
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->
-<!--inherits-->..\..\..\..\VizTimeInterval\VizTimeInterval.md<!--/inherits-->
+<!--inherits-->VizTimeInterval<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

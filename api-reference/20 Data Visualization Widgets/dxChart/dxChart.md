@@ -26,7 +26,7 @@ dataSource: [{
 ===========================================================================
 <!--module-->viz/chart<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\BaseChart\BaseChart.md<!--/inherits-->
+<!--inherits-->BaseChart<!--/inherits-->
 <!--lib-->
 dx.viz.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

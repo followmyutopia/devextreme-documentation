@@ -1,5 +1,5 @@
 <!--id-->dxMenu.Options.onSubmenuHidden<!--/id-->
-<!--EventForAction-->..\4 Events\submenuHidden.md<!--/EventForAction-->
+<!--EventForAction-->dxMenu.submenuHidden<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

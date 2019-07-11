@@ -1,5 +1,5 @@
 <!--id-->dxFilterBuilder.Options.onValueChanged<!--/id-->
-<!--EventForAction-->..\4 Events\valueChanged.md<!--/EventForAction-->
+<!--EventForAction-->dxFilterBuilder.valueChanged<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

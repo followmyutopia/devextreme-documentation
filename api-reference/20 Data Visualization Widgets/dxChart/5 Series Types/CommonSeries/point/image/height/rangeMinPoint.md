@@ -1,6 +1,6 @@
 <!--id-->dxChartSeriesTypes.CommonSeries.point.image.height.rangeMinPoint<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\..\..\..\RangeAreaSeries\RangeAreaSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxChartSeriesTypes.RangeAreaSeries<!--/propertyOf-->
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->
 ===========================================================================

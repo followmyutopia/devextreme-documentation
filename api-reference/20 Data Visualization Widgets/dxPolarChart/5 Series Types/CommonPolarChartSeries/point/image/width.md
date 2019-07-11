@@ -1,6 +1,6 @@
 <!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.point.image.width<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\..\..\LineSeries\LineSeries.md,..\..\..\AreaSeries\AreaSeries.md,..\..\..\ScatterSeries\ScatterSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxPolarChartSeriesTypes.linepolarseries,dxPolarChartSeriesTypes.areapolarseries,dxPolarChartSeriesTypes.scatterpolarseries<!--/propertyOf-->
 <!--default-->30<!--/default-->
 <!--type-->Number<!--/type-->
 ===========================================================================

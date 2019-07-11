@@ -1,6 +1,6 @@
 <!--id-->dxRangeSelector.Options.scale.tickInterval<!--/id-->
 ===========================================================================
-<!--inherits-->..\..\..\..\VizTimeInterval\VizTimeInterval.md<!--/inherits-->
+<!--inherits-->VizTimeInterval<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

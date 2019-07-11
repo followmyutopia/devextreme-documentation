@@ -1,5 +1,5 @@
 <!--id-->GridBase.Options.onRowCollapsed<!--/id-->
-<!--EventForAction-->..\4 Events\rowCollapsed.md<!--/EventForAction-->
+<!--EventForAction-->GridBase.rowCollapsed<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

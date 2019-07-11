@@ -2,7 +2,7 @@
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--type-->Object<!--/type-->
-<!--inherits-->..\BaseWidget\BaseWidget.md<!--/inherits-->
+<!--inherits-->BaseWidget<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

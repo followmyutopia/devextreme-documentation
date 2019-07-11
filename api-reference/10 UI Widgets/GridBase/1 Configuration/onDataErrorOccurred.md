@@ -1,5 +1,5 @@
 <!--id-->GridBase.Options.onDataErrorOccurred<!--/id-->
-<!--EventForAction-->..\4 Events\dataErrorOccurred.md<!--/EventForAction-->
+<!--EventForAction-->GridBase.dataErrorOccurred<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

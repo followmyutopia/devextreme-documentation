@@ -1,5 +1,5 @@
 <!--id-->dxCalendar.Options.onContentReady<!--/id-->
-<!--EventForAction-->..\4 Events\contentReady.md<!--/EventForAction-->
+<!--EventForAction-->dxCalendar.contentReady<!--/EventForAction-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 ===========================================================================

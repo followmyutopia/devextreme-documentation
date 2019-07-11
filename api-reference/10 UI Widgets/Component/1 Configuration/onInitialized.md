@@ -1,5 +1,5 @@
 <!--id-->Component.Options.onInitialized<!--/id-->
-<!--EventForAction-->..\4 Events\initialized.md<!--/EventForAction-->
+<!--EventForAction-->Component.initialized<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

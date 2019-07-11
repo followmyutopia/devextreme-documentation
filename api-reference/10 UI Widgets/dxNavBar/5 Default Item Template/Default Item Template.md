@@ -1,7 +1,7 @@
 <!--id-->dxNavBarItem<!--/id-->
 ===========================================================================
 <!--type-->Object<!--/type-->
-<!--inherits-->..\..\dxTabs\5 Default Item Template\Default Item Template.md<!--/inherits-->
+<!--inherits-->dxTabsItem<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

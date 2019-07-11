@@ -1,5 +1,5 @@
 <!--id-->dxTreeMap.Options.onHoverChanged<!--/id-->
-<!--EventForAction-->..\4 Events\hoverChanged.md<!--/EventForAction-->
+<!--EventForAction-->dxTreeMap.hoverChanged<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->null<!--/default-->

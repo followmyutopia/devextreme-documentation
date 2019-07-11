@@ -1,5 +1,5 @@
 <!--id-->dxChart.Options.valueAxis.min<!--/id-->
-<!--dep-->visualRange\visualRange.md<!--/dep-->
+<!--dep-->dxChart.Options.valueAxis.visualRange<!--/dep-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Number | Date | String<!--/type-->

@@ -1,5 +1,5 @@
 <!--id-->UI Events.dxzoomend<!--/id-->
-<!--dep-->dxpinchend.md<!--/dep-->
+<!--dep-->UI Events.dxpinchend<!--/dep-->
 ===========================================================================
 <!--module-->events/transform<!--/module-->
 <!--type-->eventType<!--/type-->

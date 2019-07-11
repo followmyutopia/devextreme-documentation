@@ -5,7 +5,7 @@
 ===========================================================================
 <!--module-->ui/text_area<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\dxTextBox\dxTextBox.md<!--/inherits-->
+<!--inherits-->dxTextBox<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

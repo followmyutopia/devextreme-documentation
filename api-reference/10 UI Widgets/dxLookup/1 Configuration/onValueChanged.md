@@ -1,5 +1,5 @@
 <!--id-->dxLookup.Options.onValueChanged<!--/id-->
-<!--EventForAction-->..\4 Events\valueChanged.md<!--/EventForAction-->
+<!--EventForAction-->dxLookup.valueChanged<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

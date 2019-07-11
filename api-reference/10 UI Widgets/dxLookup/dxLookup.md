@@ -7,7 +7,7 @@ dataSource: ["Prepare 2013 Financial","Prepare 3013 Marketing Plan","Update Pers
 ===========================================================================
 <!--module-->ui/lookup<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\dxDropDownList\dxDropDownList.md<!--/inherits-->
+<!--inherits-->dxDropDownList<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

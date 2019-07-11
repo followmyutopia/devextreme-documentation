@@ -4,7 +4,7 @@
 <!--module-->ui/collection/ui.collection_widget.base<!--/module-->
 <!--export-->default<!--/export-->
 <!--type-->Object<!--/type-->
-<!--inherits-->..\Widget\Widget.md,..\DataHelperMixin\DataHelperMixin.md<!--/inherits-->
+<!--inherits-->Widget,DataHelperMixin<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

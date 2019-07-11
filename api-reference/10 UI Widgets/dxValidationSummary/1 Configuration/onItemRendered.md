@@ -1,4 +1,6 @@
 <!--id-->dxValidationSummary.Options.onItemRendered<!--/id-->
-<!--merge--><!--/merge-->
+<!--EventForAction-->dxValidationSummary.itemRendered<!--/EventForAction-->
+===========================================================================
 <!--hidden--><!--/hidden-->
 ===========================================================================
+

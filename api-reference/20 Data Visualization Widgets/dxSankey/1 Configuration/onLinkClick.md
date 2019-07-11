@@ -1,5 +1,5 @@
 <!--id-->dxSankey.Options.onLinkClick<!--/id-->
-<!--EventForAction-->..\4 Events\linkClick.md<!--/EventForAction-->
+<!--EventForAction-->dxSankey.linkClick<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->null<!--/default-->

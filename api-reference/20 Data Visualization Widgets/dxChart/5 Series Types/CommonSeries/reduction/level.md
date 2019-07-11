@@ -1,6 +1,6 @@
 <!--id-->dxChartSeriesTypes.CommonSeries.reduction.level<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\..\CandleStickSeries\CandleStickSeries.md,..\..\StockSeries\StockSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxChartSeriesTypes.CandleStickSeries,dxChartSeriesTypes.StockSeries<!--/propertyOf-->
 <!--default-->'close'<!--/default-->
 <!--acceptValues-->'close' | 'high' | 'low' | 'open'<!--/acceptValues-->
 <!--type-->String<!--/type-->

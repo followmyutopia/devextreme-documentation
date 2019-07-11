@@ -1,5 +1,5 @@
 <!--id-->dxList.Options.onSelectAllValueChanged<!--/id-->
-<!--EventForAction-->..\4 Events\selectAllValueChanged.md<!--/EventForAction-->
+<!--EventForAction-->dxList.selectAllValueChanged<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

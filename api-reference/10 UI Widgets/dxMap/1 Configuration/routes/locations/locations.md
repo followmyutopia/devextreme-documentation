@@ -1,7 +1,7 @@
 <!--id-->dxMap.Options.routes.locations<!--/id-->
 ===========================================================================
 <!--type-->Array<Object><!--/type-->
-<!--inherits-->..\..\..\..\MapLocation\MapLocation.md<!--/inherits-->
+<!--inherits-->MapLocation<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

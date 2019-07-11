@@ -1,5 +1,5 @@
 <!--id-->dxDataGrid.Options.onEditorPreparing<!--/id-->
-<!--EventForAction-->..\4 Events\editorPreparing.md<!--/EventForAction-->
+<!--EventForAction-->dxDataGrid.editorPreparing<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

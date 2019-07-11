@@ -1,5 +1,5 @@
 <!--id-->BaseSparkline.Options.onTooltipHidden<!--/id-->
-<!--EventForAction-->..\4 Events\tooltipHidden.md<!--/EventForAction-->
+<!--EventForAction-->BaseSparkline.tooltipHidden<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->null<!--/default-->

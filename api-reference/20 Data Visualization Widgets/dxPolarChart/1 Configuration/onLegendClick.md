@@ -1,5 +1,5 @@
 <!--id-->dxPolarChart.Options.onLegendClick<!--/id-->
-<!--EventForAction-->..\4 Events\legendClick.md<!--/EventForAction-->
+<!--EventForAction-->dxPolarChart.legendClick<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->null<!--/default-->

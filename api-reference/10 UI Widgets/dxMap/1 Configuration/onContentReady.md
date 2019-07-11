@@ -1,5 +1,5 @@
 <!--id-->dxMap.Options.onContentReady<!--/id-->
-<!--EventForAction-->..\4 Events\contentReady.md<!--/EventForAction-->
+<!--EventForAction-->dxMap.contentReady<!--/EventForAction-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 ===========================================================================

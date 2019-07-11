@@ -2,7 +2,7 @@
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->Array<Object><!--/type-->
-<!--inherits-->..\..\commonAxisSettings\constantLineStyle\constantLineStyle.md<!--/inherits-->
+<!--inherits-->dxChart.Options.commonAxisSettings.constantLineStyle<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

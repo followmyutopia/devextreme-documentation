@@ -1,5 +1,5 @@
 <!--id-->dxMap.Options.onMarkerAdded<!--/id-->
-<!--EventForAction-->..\4 Events\markerAdded.md<!--/EventForAction-->
+<!--EventForAction-->dxMap.markerAdded<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

@@ -1,5 +1,5 @@
 <!--id-->dxTreeList.Options.onEditingStart<!--/id-->
-<!--EventForAction-->..\4 Events\editingStart.md<!--/EventForAction-->
+<!--EventForAction-->dxTreeList.editingStart<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

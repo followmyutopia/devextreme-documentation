@@ -5,7 +5,7 @@ opened: true
 ===========================================================================
 <!--module-->ui/color_box<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\dxDropDownEditor\dxDropDownEditor.md<!--/inherits-->
+<!--inherits-->dxDropDownEditor<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

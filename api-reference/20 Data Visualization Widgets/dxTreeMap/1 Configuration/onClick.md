@@ -1,5 +1,5 @@
 <!--id-->dxTreeMap.Options.onClick<!--/id-->
-<!--EventForAction-->..\4 Events\click.md<!--/EventForAction-->
+<!--EventForAction-->dxTreeMap.click<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->null<!--/default-->

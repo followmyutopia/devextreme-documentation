@@ -1,5 +1,5 @@
 <!--id-->dxPolarChart.Options.barWidth<!--/id-->
-<!--dep-->..\5 Series Types\CommonPolarChartSeries\barPadding.md<!--/dep-->
+<!--dep-->dxPolarChartSeriesTypes.CommonPolarChartSeries.barPadding<!--/dep-->
 ===========================================================================
 <!--type-->Number<!--/type-->
 ===========================================================================

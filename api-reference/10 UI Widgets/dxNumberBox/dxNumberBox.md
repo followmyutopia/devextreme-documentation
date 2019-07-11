@@ -5,7 +5,7 @@
 ===========================================================================
 <!--module-->ui/number_box<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\dxTextEditor\dxTextEditor.md<!--/inherits-->
+<!--inherits-->dxTextEditor<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

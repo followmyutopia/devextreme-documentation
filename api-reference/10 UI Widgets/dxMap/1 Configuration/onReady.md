@@ -1,5 +1,5 @@
 <!--id-->dxMap.Options.onReady<!--/id-->
-<!--EventForAction-->..\4 Events\ready.md<!--/EventForAction-->
+<!--EventForAction-->dxMap.ready<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

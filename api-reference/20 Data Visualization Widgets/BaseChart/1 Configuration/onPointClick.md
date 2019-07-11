@@ -1,5 +1,5 @@
 <!--id-->BaseChart.Options.onPointClick<!--/id-->
-<!--EventForAction-->..\4 Events\pointClick.md<!--/EventForAction-->
+<!--EventForAction-->BaseChart.pointClick<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->null<!--/default-->

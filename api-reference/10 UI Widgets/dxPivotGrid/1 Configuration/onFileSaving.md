@@ -1,5 +1,5 @@
 <!--id-->dxPivotGrid.Options.onFileSaving<!--/id-->
-<!--EventForAction-->..\4 Events\fileSaving.md<!--/EventForAction-->
+<!--EventForAction-->dxPivotGrid.fileSaving<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

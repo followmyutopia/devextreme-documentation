@@ -1,5 +1,5 @@
 <!--id-->dxTextEditor.Options.onPaste<!--/id-->
-<!--EventForAction-->..\4 Events\paste.md<!--/EventForAction-->
+<!--EventForAction-->dxTextEditor.paste<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

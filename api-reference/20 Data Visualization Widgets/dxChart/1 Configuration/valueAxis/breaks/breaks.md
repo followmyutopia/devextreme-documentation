@@ -3,7 +3,7 @@
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->
 <!--type-->Array<ScaleBreak><!--/type-->
-<!--inherits-->..\..\..\..\ScaleBreak\ScaleBreak.md<!--/inherits-->
+<!--inherits-->ScaleBreak<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

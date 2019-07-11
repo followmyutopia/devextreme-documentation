@@ -1,5 +1,5 @@
 <!--id-->dxDropDownBox.Options.onContentReady<!--/id-->
-<!--EventForAction-->..\4 Events\contentReady.md<!--/EventForAction-->
+<!--EventForAction-->dxDropDownBox.contentReady<!--/EventForAction-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 ===========================================================================

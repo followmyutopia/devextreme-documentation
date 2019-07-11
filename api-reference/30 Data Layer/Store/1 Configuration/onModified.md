@@ -1,5 +1,5 @@
 <!--id-->Store.Options.onModified<!--/id-->
-<!--EventForAction-->..\4 Events\modified.md<!--/EventForAction-->
+<!--EventForAction-->Store.modified<!--/EventForAction-->
 ===========================================================================
 <!--type-->function()<!--/type-->
 ===========================================================================

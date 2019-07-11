@@ -2,7 +2,7 @@
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->Array<Object><!--/type-->
-<!--inherits-->..\..\commonAxisSettings\stripStyle\stripStyle.md<!--/inherits-->
+<!--inherits-->dxPolarChart.Options.commonAxisSettings.stripStyle<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

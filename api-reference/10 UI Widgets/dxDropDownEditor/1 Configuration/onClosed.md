@@ -1,5 +1,5 @@
 <!--id-->dxDropDownEditor.Options.onClosed<!--/id-->
-<!--EventForAction-->..\4 Events\closed.md<!--/EventForAction-->
+<!--EventForAction-->dxDropDownEditor.closed<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

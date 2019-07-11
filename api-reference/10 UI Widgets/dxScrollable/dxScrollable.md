@@ -2,7 +2,7 @@
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--type-->Object<!--/type-->
-<!--inherits-->..\DOMComponent\DOMComponent.md<!--/inherits-->
+<!--inherits-->DOMComponent<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

@@ -1,5 +1,5 @@
 <!--id-->dxVectorMap.Options.onCenterChanged<!--/id-->
-<!--EventForAction-->..\4 Events\centerChanged.md<!--/EventForAction-->
+<!--EventForAction-->dxVectorMap.centerChanged<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->null<!--/default-->

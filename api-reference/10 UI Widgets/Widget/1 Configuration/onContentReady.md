@@ -1,5 +1,5 @@
 <!--id-->Widget.Options.onContentReady<!--/id-->
-<!--EventForAction-->..\4 Events\contentReady.md<!--/EventForAction-->
+<!--EventForAction-->Widget.contentReady<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

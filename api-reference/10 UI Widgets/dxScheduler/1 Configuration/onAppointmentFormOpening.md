@@ -1,5 +1,5 @@
 <!--id-->dxScheduler.Options.onAppointmentFormOpening<!--/id-->
-<!--EventForAction-->..\4 Events\appointmentFormOpening.md<!--/EventForAction-->
+<!--EventForAction-->dxScheduler.appointmentFormOpening<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

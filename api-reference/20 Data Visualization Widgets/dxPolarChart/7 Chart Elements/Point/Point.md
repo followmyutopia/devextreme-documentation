@@ -1,7 +1,7 @@
 <!--id-->polarPointObject<!--/id-->
 ===========================================================================
 <!--type-->Object<!--/type-->
-<!--inherits-->..\..\..\BaseChart\7 Chart Elements\Point\Point.md<!--/inherits-->
+<!--inherits-->basePointObject<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

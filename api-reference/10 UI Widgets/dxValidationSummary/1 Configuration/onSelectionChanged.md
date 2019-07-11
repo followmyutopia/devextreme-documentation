@@ -1,4 +1,6 @@
 <!--id-->dxValidationSummary.Options.onSelectionChanged<!--/id-->
-<!--merge--><!--/merge-->
+<!--EventForAction-->dxValidationSummary.selectionChanged<!--/EventForAction-->
+===========================================================================
 <!--hidden--><!--/hidden-->
 ===========================================================================
+

@@ -1,6 +1,6 @@
 <!--id-->dxChartSeriesTypes.CommonSeries.innerColor<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\CandleStickSeries\CandleStickSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxChartSeriesTypes.CandleStickSeries<!--/propertyOf-->
 <!--default-->'#ffffff'<!--/default-->
 <!--type-->String<!--/type-->
 ===========================================================================

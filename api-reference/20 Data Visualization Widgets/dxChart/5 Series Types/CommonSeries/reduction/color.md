@@ -1,6 +1,6 @@
 <!--id-->dxChartSeriesTypes.CommonSeries.reduction.color<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\..\CandleStickSeries\CandleStickSeries.md,..\..\StockSeries\StockSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxChartSeriesTypes.CandleStickSeries,dxChartSeriesTypes.StockSeries<!--/propertyOf-->
 <!--default-->'#ff0000'<!--/default-->
 <!--type-->String<!--/type-->
 ===========================================================================

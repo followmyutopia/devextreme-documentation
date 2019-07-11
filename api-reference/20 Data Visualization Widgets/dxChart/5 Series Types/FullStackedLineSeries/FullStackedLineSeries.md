@@ -2,7 +2,7 @@
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->Object<!--/type-->
-<!--inherits-->..\CommonSeries\CommonSeries.md<!--/inherits-->
+<!--inherits-->dxChartSeriesTypes.CommonSeries<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

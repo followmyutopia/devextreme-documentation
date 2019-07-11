@@ -1,6 +1,6 @@
 <!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.point.symbol<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\..\LineSeries\LineSeries.md,..\..\AreaSeries\AreaSeries.md,..\..\ScatterSeries\ScatterSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxPolarChartSeriesTypes.linepolarseries,dxPolarChartSeriesTypes.areapolarseries,dxPolarChartSeriesTypes.scatterpolarseries<!--/propertyOf-->
 <!--default-->'circle'<!--/default-->
 <!--acceptValues-->'circle' | 'cross' | 'polygon' | 'square' | 'triangle'<!--/acceptValues-->
 <!--type-->String<!--/type-->

@@ -4,7 +4,7 @@
 <!--module-->ui/editor/editor<!--/module-->
 <!--export-->default<!--/export-->
 <!--type-->Object<!--/type-->
-<!--inherits-->..\Widget\Widget.md<!--/inherits-->
+<!--inherits-->Widget<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

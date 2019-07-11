@@ -1,5 +1,5 @@
 <!--id-->CollectionWidget.Options.onItemContextMenu<!--/id-->
-<!--EventForAction-->..\4 Events\itemContextMenu.md<!--/EventForAction-->
+<!--EventForAction-->CollectionWidget.itemContextMenu<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

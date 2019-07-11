@@ -1,5 +1,5 @@
 <!--id-->Store.Options.onLoaded<!--/id-->
-<!--EventForAction-->..\4 Events\loaded.md<!--/EventForAction-->
+<!--EventForAction-->Store.loaded<!--/EventForAction-->
 ===========================================================================
 <!--type-->function(result)<!--/type-->
 ===========================================================================

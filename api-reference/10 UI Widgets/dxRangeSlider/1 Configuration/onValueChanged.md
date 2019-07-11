@@ -1,8 +1,10 @@
 <!--id-->dxRangeSlider.Options.onValueChanged<!--/id-->
-<!--merge--><!--/merge-->
+<!--EventForAction-->dxRangeSlider.valueChanged<!--/EventForAction-->
+===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->
 ===========================================================================
+
 
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

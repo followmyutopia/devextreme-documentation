@@ -1,4 +1,6 @@
 <!--id-->dxTooltip.Options.onTitleRendered<!--/id-->
-<!--merge--><!--/merge-->
+<!--EventForAction-->dxTooltip.titleRendered<!--/EventForAction-->
+===========================================================================
 <!--hidden--><!--/hidden-->
 ===========================================================================
+

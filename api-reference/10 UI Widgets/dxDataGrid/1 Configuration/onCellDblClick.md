@@ -1,5 +1,5 @@
 <!--id-->dxDataGrid.Options.onCellDblClick<!--/id-->
-<!--EventForAction-->..\4 Events\cellDblClick.md<!--/EventForAction-->
+<!--EventForAction-->dxDataGrid.cellDblClick<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

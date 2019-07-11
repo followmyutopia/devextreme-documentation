@@ -1,5 +1,5 @@
 <!--id-->Store.Options.onInserting<!--/id-->
-<!--EventForAction-->..\4 Events\inserting.md<!--/EventForAction-->
+<!--EventForAction-->Store.inserting<!--/EventForAction-->
 ===========================================================================
 <!--type-->function(values)<!--/type-->
 ===========================================================================

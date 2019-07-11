@@ -1,5 +1,5 @@
 <!--id-->dxChart.Options.onSeriesSelectionChanged<!--/id-->
-<!--EventForAction-->..\4 Events\seriesSelectionChanged.md<!--/EventForAction-->
+<!--EventForAction-->dxChart.seriesSelectionChanged<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->null<!--/default-->

@@ -1,5 +1,5 @@
 <!--id-->dxButton.Options.onClick<!--/id-->
-<!--EventForAction-->..\4 Events\click.md<!--/EventForAction-->
+<!--EventForAction-->dxButton.click<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

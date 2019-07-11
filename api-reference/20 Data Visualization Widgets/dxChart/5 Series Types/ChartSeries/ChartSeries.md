@@ -3,7 +3,7 @@
 <!--hidden--><!--/hidden-->
 <!--type-->Object<!--/type-->
 <!--inlineType--><!--/inlineType-->
-<!--inherits-->..\CommonSeries\CommonSeries.md<!--/inherits-->
+<!--inherits-->dxChartSeriesTypes.CommonSeries<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

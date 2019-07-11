@@ -1,7 +1,7 @@
 <!--id-->CommonIndicator.text.customizeText<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--propertyOf-->..\..\..\..\dxCircularGauge\5 Indicator Types\RangeBar\RangeBar.md,..\..\..\..\dxLinearGauge\5 Indicator Types\RangeBar\RangeBar.md,..\..\..\..\dxCircularGauge\5 Indicator Types\TextCloud\TextCloud.md,..\..\..\..\dxLinearGauge\5 Indicator Types\TextCloud\TextCloud.md<!--/propertyOf-->
+<!--propertyOf-->circularRangeBar,linearRangeBar,circularTextCloud,linearTextCloud<!--/propertyOf-->
 <!--default-->undefined<!--/default-->
 <!--type-->function(indicatedValue)<!--/type-->
 ===========================================================================

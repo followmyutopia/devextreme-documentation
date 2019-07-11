@@ -1,6 +1,6 @@
 <!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.hoverStyle.width<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\..\LineSeries\LineSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxPolarChartSeriesTypes.linepolarseries<!--/propertyOf-->
 <!--default-->3<!--/default-->
 <!--type-->Number<!--/type-->
 ===========================================================================

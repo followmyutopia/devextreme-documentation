@@ -1,5 +1,5 @@
 <!--id-->dxDataGrid.Options.onFocusedCellChanged<!--/id-->
-<!--EventForAction-->..\4 Events\focusedCellChanged.md<!--/EventForAction-->
+<!--EventForAction-->dxDataGrid.focusedCellChanged<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

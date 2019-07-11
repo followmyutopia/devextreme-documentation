@@ -1,5 +1,5 @@
 <!--id-->dxTreeView.Options.onItemExpanded<!--/id-->
-<!--EventForAction-->..\4 Events\itemExpanded.md<!--/EventForAction-->
+<!--EventForAction-->dxTreeView.itemExpanded<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

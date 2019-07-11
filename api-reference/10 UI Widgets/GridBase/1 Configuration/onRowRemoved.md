@@ -1,5 +1,5 @@
 <!--id-->GridBase.Options.onRowRemoved<!--/id-->
-<!--EventForAction-->..\4 Events\rowRemoved.md<!--/EventForAction-->
+<!--EventForAction-->GridBase.rowRemoved<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

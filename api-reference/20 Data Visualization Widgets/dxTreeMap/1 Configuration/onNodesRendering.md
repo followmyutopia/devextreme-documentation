@@ -1,5 +1,5 @@
 <!--id-->dxTreeMap.Options.onNodesRendering<!--/id-->
-<!--EventForAction-->..\4 Events\nodesRendering.md<!--/EventForAction-->
+<!--EventForAction-->dxTreeMap.nodesRendering<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->null<!--/default-->

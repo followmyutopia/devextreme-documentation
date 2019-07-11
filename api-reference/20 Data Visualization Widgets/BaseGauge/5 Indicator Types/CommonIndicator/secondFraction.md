@@ -1,6 +1,6 @@
 <!--id-->CommonIndicator.secondFraction<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\..\..\dxCircularGauge\5 Indicator Types\TwoColorNeedle\TwoColorNeedle.md<!--/propertyOf-->
+<!--propertyOf-->circularTwoColorNeedle<!--/propertyOf-->
 <!--default-->0.4<!--/default-->
 <!--type-->Number<!--/type-->
 ===========================================================================

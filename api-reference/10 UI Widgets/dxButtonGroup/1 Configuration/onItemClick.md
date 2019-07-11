@@ -1,5 +1,5 @@
 <!--id-->dxButtonGroup.Options.onItemClick<!--/id-->
-<!--EventForAction-->..\4 Events\itemClick.md<!--/EventForAction-->
+<!--EventForAction-->dxButtonGroup.itemClick<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

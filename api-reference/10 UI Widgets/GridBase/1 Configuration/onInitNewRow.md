@@ -1,5 +1,5 @@
 <!--id-->GridBase.Options.onInitNewRow<!--/id-->
-<!--EventForAction-->..\4 Events\initNewRow.md<!--/EventForAction-->
+<!--EventForAction-->GridBase.initNewRow<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

@@ -1,7 +1,7 @@
 <!--id-->dxMap.Options.markers.location<!--/id-->
 ===========================================================================
 <!--type-->Object | String | Array<Number><!--/type-->
-<!--inherits-->..\..\..\..\MapLocation\MapLocation.md<!--/inherits-->
+<!--inherits-->MapLocation<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

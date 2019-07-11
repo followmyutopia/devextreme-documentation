@@ -1,6 +1,6 @@
 <!--id-->dxChartSeriesTypes.CommonSeries.minBarSize<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\StackedBarSeries\StackedBarSeries.md,..\FullStackedBarSeries\FullStackedBarSeries.md,..\BarSeries\BarSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxChartSeriesTypes.StackedBarSeries,dxChartSeriesTypes.FullStackedBarSeries,dxChartSeriesTypes.BarSeries<!--/propertyOf-->
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->
 ===========================================================================

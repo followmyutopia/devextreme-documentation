@@ -1,5 +1,5 @@
 <!--id-->dxTextEditor.Options.onKeyDown<!--/id-->
-<!--EventForAction-->..\4 Events\keyDown.md<!--/EventForAction-->
+<!--EventForAction-->dxTextEditor.keyDown<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

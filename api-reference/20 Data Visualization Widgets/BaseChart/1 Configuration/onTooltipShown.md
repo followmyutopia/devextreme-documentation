@@ -1,5 +1,5 @@
 <!--id-->BaseChart.Options.onTooltipShown<!--/id-->
-<!--EventForAction-->..\4 Events\tooltipShown.md<!--/EventForAction-->
+<!--EventForAction-->BaseChart.tooltipShown<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->null<!--/default-->

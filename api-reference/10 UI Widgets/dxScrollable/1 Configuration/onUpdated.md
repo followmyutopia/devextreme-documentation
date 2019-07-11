@@ -1,5 +1,5 @@
 <!--id-->dxScrollable.Options.onUpdated<!--/id-->
-<!--EventForAction-->..\4 Events\updated.md<!--/EventForAction-->
+<!--EventForAction-->dxScrollable.updated<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

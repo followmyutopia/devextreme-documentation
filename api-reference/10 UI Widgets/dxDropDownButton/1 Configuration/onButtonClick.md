@@ -1,5 +1,5 @@
 <!--id-->dxDropDownButton.Options.onButtonClick<!--/id-->
-<!--EventForAction-->..\4 Events\buttonClick.md<!--/EventForAction-->
+<!--EventForAction-->dxDropDownButton.buttonClick<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e) | String<!--/type-->

@@ -2,7 +2,7 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Object<!--/type-->
-<!--inherits-->..\..\..\..\..\ColCountResponsible\ColCountResponsible.md<!--/inherits-->
+<!--inherits-->ColCountResponsible<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

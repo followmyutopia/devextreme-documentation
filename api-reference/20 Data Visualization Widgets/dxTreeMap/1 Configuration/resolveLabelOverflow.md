@@ -1,5 +1,5 @@
 <!--id-->dxTreeMap.Options.resolveLabelOverflow<!--/id-->
-<!--dep-->tile\label\textOverflow.md<!--/dep-->
+<!--dep-->dxTreeMap.Options.tile.label.textOverflow<!--/dep-->
 ===========================================================================
 <!--default-->'hide'<!--/default-->
 <!--acceptValues-->'ellipsis' | 'hide'<!--/acceptValues-->

@@ -5,7 +5,7 @@
 ===========================================================================
 <!--module-->ui/range_slider<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\dxSliderBase\dxSliderBase.md<!--/inherits-->
+<!--inherits-->dxSliderBase<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

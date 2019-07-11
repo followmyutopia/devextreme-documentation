@@ -1,8 +1,10 @@
 <!--id-->DOMComponent.Options.onDisposing<!--/id-->
-<!--merge--><!--/merge-->
+<!--EventForAction-->DOMComponent.disposing<!--/EventForAction-->
+===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->
 ===========================================================================
+
 
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

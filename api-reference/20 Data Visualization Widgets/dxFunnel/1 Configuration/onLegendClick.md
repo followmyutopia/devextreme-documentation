@@ -1,5 +1,5 @@
 <!--id-->dxFunnel.Options.onLegendClick<!--/id-->
-<!--EventForAction-->..\4 Events\legendClick.md<!--/EventForAction-->
+<!--EventForAction-->dxFunnel.legendClick<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->null<!--/default-->

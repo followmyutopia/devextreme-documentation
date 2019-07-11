@@ -1,6 +1,6 @@
 <!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.opacity<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\AreaSeries\AreaSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxPolarChartSeriesTypes.areapolarseries<!--/propertyOf-->
 <!--default-->0.5<!--/default-->
 <!--type-->Number<!--/type-->
 ===========================================================================

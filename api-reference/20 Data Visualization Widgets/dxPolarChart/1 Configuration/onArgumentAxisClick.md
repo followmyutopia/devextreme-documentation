@@ -1,5 +1,5 @@
 <!--id-->dxPolarChart.Options.onArgumentAxisClick<!--/id-->
-<!--EventForAction-->..\4 Events\argumentAxisClick.md<!--/EventForAction-->
+<!--EventForAction-->dxPolarChart.argumentAxisClick<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->null<!--/default-->

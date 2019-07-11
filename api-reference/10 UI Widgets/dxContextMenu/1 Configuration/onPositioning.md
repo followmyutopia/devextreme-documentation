@@ -1,5 +1,5 @@
 <!--id-->dxContextMenu.Options.onPositioning<!--/id-->
-<!--EventForAction-->..\4 Events\positioning.md<!--/EventForAction-->
+<!--EventForAction-->dxContextMenu.positioning<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

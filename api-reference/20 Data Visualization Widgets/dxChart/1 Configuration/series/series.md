@@ -4,7 +4,7 @@
 <!--hideDefaults-->true<!--/hideDefaults-->
 <!--default-->undefined<!--/default-->
 <!--type-->Object | Array<ChartSeries><!--/type-->
-<!--inherits-->..\..\5 Series Types\ChartSeries\ChartSeries.md<!--/inherits-->
+<!--inherits-->ChartSeries<!--/inherits-->
 <!--inheritAll--><!--/inheritAll-->
 ===========================================================================
 

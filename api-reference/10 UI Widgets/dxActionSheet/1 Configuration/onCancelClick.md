@@ -1,5 +1,5 @@
 <!--id-->dxActionSheet.Options.onCancelClick<!--/id-->
-<!--EventForAction-->..\4 Events\cancelClick.md<!--/EventForAction-->
+<!--EventForAction-->dxActionSheet.cancelClick<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e) | String<!--/type-->

@@ -1,5 +1,5 @@
 <!--id-->DataSource.Options.onLoadingChanged<!--/id-->
-<!--EventForAction-->..\4 Events\loadingChanged.md<!--/EventForAction-->
+<!--EventForAction-->DataSource.loadingChanged<!--/EventForAction-->
 ===========================================================================
 <!--type-->function(isLoading)<!--/type-->
 ===========================================================================

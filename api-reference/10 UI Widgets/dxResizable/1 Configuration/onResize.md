@@ -1,5 +1,5 @@
 <!--id-->dxResizable.Options.onResize<!--/id-->
-<!--EventForAction-->..\4 Events\resize.md<!--/EventForAction-->
+<!--EventForAction-->dxResizable.resize<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

@@ -1,6 +1,6 @@
 <!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.stack<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\StackedBarSeries\StackedBarSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxPolarChartSeriesTypes.stackedbarpolarseries<!--/propertyOf-->
 <!--default-->'default'<!--/default-->
 <!--type-->String<!--/type-->
 ===========================================================================

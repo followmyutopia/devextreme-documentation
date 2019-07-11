@@ -1,9 +1,11 @@
 <!--id-->dxPopover.Options.onResizeEnd<!--/id-->
-<!--merge--><!--/merge-->
+<!--EventForAction-->dxPopover.resizeEnd<!--/EventForAction-->
+===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->
 ===========================================================================
+
 
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

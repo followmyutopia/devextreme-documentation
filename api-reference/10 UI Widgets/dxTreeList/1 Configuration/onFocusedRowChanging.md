@@ -1,5 +1,5 @@
 <!--id-->dxTreeList.Options.onFocusedRowChanging<!--/id-->
-<!--EventForAction-->..\4 Events\focusedRowChanging.md<!--/EventForAction-->
+<!--EventForAction-->dxTreeList.focusedRowChanging<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

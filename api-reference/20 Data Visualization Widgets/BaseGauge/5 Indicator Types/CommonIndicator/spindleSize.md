@@ -1,6 +1,6 @@
 <!--id-->CommonIndicator.spindleSize<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\..\..\dxCircularGauge\5 Indicator Types\TwoColorNeedle\TwoColorNeedle.md,..\..\..\dxCircularGauge\5 Indicator Types\RectangleNeedle\RectangleNeedle.md,..\..\..\dxCircularGauge\5 Indicator Types\TriangleNeedle\TriangleNeedle.md<!--/propertyOf-->
+<!--propertyOf-->circularTwoColorNeedle,circularRectangleNeedle,circularTriangleNeedle<!--/propertyOf-->
 <!--default-->14<!--/default-->
 <!--type-->Number<!--/type-->
 ===========================================================================

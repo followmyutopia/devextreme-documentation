@@ -1,5 +1,5 @@
 <!--id-->UI Events.dxzoomstart<!--/id-->
-<!--dep-->dxpinchstart.md<!--/dep-->
+<!--dep-->UI Events.dxpinchstart<!--/dep-->
 ===========================================================================
 <!--module-->events/transform<!--/module-->
 <!--type-->eventType<!--/type-->

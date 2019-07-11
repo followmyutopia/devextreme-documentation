@@ -1,5 +1,5 @@
 <!--id-->BaseWidget.Options.onIncidentOccurred<!--/id-->
-<!--EventForAction-->..\4 Events\incidentOccurred.md<!--/EventForAction-->
+<!--EventForAction-->BaseWidget.incidentOccurred<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->

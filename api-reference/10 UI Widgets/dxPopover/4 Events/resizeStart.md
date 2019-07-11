@@ -1,8 +1,9 @@
 <!--id-->dxPopover.resizeStart<!--/id-->
-<!--merge--><!--/merge-->
+===========================================================================
 <!--hidden--><!--/hidden-->
 <!--type-->eventType<!--/type-->
 ===========================================================================
+
 
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

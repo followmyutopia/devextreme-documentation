@@ -1,6 +1,6 @@
 <!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.point.selectionMode<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\..\LineSeries\LineSeries.md,..\..\AreaSeries\AreaSeries.md,..\..\ScatterSeries\ScatterSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxPolarChartSeriesTypes.linepolarseries,dxPolarChartSeriesTypes.areapolarseries,dxPolarChartSeriesTypes.scatterpolarseries<!--/propertyOf-->
 <!--default-->'onlyPoint'<!--/default-->
 <!--acceptValues-->'allArgumentPoints' | 'allSeriesPoints' | 'none' | 'onlyPoint'<!--/acceptValues-->
 <!--type-->String<!--/type-->

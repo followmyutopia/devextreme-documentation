@@ -1,6 +1,6 @@
 <!--id-->dxChartSeriesTypes.CommonSeries.selectionStyle.border<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\..\..\AreaSeries\AreaSeries.md,..\..\..\StackedAreaSeries\StackedAreaSeries.md,..\..\..\FullStackedAreaSeries\FullStackedAreaSeries.md,..\..\..\StackedSplineAreaSeries\StackedSplineAreaSeries.md,..\..\..\FullStackedSplineAreaSeries\FullStackedSplineAreaSeries.md,..\..\..\SplineAreaSeries\SplineAreaSeries.md,..\..\..\StepAreaSeries\StepAreaSeries.md,..\..\..\RangeAreaSeries\RangeAreaSeries.md,..\..\..\BarSeries\BarSeries.md,..\..\..\StackedBarSeries\StackedBarSeries.md,..\..\..\FullStackedBarSeries\FullStackedBarSeries.md,..\..\..\RangeBarSeries\RangeBarSeries.md,..\..\..\BubbleSeries\BubbleSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxChartSeriesTypes.AreaSeries,dxChartSeriesTypes.StackedAreaSeries,dxChartSeriesTypes.FullStackedAreaSeries,dxChartSeriesTypes.StackedSplineAreaSeries,dxChartSeriesTypes.FullStackedSplineAreaSeries,dxChartSeriesTypes.SplineAreaSeries,dxChartSeriesTypes.StepAreaSeries,dxChartSeriesTypes.RangeAreaSeries,dxChartSeriesTypes.BarSeries,dxChartSeriesTypes.StackedBarSeries,dxChartSeriesTypes.FullStackedBarSeries,dxChartSeriesTypes.RangeBarSeries,dxChartSeriesTypes.BubbleSeries<!--/propertyOf-->
 <!--type-->Object<!--/type-->
 ===========================================================================
 

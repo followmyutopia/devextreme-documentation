@@ -1,6 +1,6 @@
 <!--id-->dxRangeSelector.Options.chart.barGroupWidth<!--/id-->
 ===========================================================================
-<!--propertyOf-->..\..\..\dxChart\5 Series Types\BarSeries\BarSeries.md,..\..\..\dxChart\5 Series Types\StackedBarSeries\StackedBarSeries.md,..\..\..\dxChart\5 Series Types\FullStackedBarSeries\FullStackedBarSeries.md<!--/propertyOf-->
+<!--propertyOf-->dxChartSeriesTypes.BarSeries,dxChartSeriesTypes.StackedBarSeries,dxChartSeriesTypes.FullStackedBarSeries,dxChartSeriesTypes.RangeBarSeries<!--/propertyOf-->
 <!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->
 ===========================================================================

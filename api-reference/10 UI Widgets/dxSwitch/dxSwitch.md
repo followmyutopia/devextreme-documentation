@@ -5,7 +5,7 @@
 ===========================================================================
 <!--module-->ui/switch<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\Editor\Editor.md<!--/inherits-->
+<!--inherits-->Editor<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

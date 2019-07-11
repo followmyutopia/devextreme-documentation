@@ -3,7 +3,7 @@
 <!--hidden--><!--/hidden-->
 <!--module-->ui/overlay<!--/module-->
 <!--type-->Object<!--/type-->
-<!--inherits-->..\Widget\Widget.md<!--/inherits-->
+<!--inherits-->Widget<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

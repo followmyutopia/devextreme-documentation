@@ -5,7 +5,7 @@ value: 48
 ===========================================================================
 <!--module-->viz/circular_gauge<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\BaseGauge\BaseGauge.md<!--/inherits-->
+<!--inherits-->BaseGauge<!--/inherits-->
 <!--lib-->
 dx.viz.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

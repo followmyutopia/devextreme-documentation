@@ -1,5 +1,5 @@
 <!--id-->BaseSparkline.Options.onTooltipShown<!--/id-->
-<!--EventForAction-->..\4 Events\tooltipShown.md<!--/EventForAction-->
+<!--EventForAction-->BaseSparkline.tooltipShown<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->null<!--/default-->
