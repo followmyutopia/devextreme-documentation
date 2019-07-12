@@ -1,9 +1,3 @@
-<!--EventForAction-->..\4 Events\toolbarPreparing.md<!--/EventForAction-->
-===========================================================================
-<!--handmade--><!--/handmade-->
-<!--merge--><!--/merge-->
-===========================================================================
-
 <!--fullDescription-->
 This function allows you to customize the toolbar. Depending on the configuration, the widget may add the following items to the toolbar:
 
