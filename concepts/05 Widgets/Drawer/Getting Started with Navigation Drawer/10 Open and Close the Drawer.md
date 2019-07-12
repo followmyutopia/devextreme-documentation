@@ -70,8 +70,9 @@ In the following code, a toolbar button outside the **Drawer** opens and closes 
 
     export class AppComponent {
         isOpened: Boolean = false;
+        buttonOptions: any;
 
-        constructor(service: Service, private router: Router) {
+        constructor() {
             this.buttonOptions = {
                 icon: "menu",
                 onClick: () => {

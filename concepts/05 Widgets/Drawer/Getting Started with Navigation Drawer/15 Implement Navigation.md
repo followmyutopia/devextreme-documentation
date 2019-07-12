@@ -84,7 +84,7 @@ In this tutorial, we use the **List**:
     })
 
     export class AppComponent {
-        navigation: List[];
+        navigation: any;
         isOpened: Boolean = false;
 
         constructor(private router: Router) {
