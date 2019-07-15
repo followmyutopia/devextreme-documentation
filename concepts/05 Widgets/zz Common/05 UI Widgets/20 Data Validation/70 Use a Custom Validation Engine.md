@@ -163,4 +163,111 @@ Each DevExtreme editor allows changing its validation state and error message us
     }">
     </div>
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-text-box
+            :value.sync="login"
+            placeholder="Login"
+            :isValid="isLoginValid"
+            :validation-error="loginValidationError"
+            @value-changed="validateLogin">
+        </dx-text-box>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DxTextBox from 'devextreme-vue/text-box';
+
+    export default {
+        components: {
+            DxTextBox
+        },
+        data() {
+            return {
+                login: undefined,
+                isLoginValid: true,
+                loginValidationError: {}
+            }
+        },
+        methods: {
+            validateLogin() {
+                if (!this.login) {
+                    this.loginValidationError = { message: "Login is required" };
+                    this.isLoginValid = false;
+                    return;
+                }
+                if (!this.login.match(/^[a-zA-Z0-9]+$/)) {
+                    this.loginValidationError = { message: "Login can contain only numbers and letters" };
+                    this.isLoginValid = false;
+                    return;
+                }   
+                this.isLoginValid = true;
+            }
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import TextBox from 'devextreme-react/text-box';
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            this.state = {
+                login: undefined,
+                isLoginValid: true,
+                loginValidationError: {}
+            }
+            this.setLogin = this.setLogin.bind(this);
+        }
+
+        setLogin(e) {
+            if (!e.value) {
+                this.setState({
+                    login: e.value,
+                    isLoginValid: false,
+                    loginValidationError: { message: "Login is required" }
+                });
+                return;
+            }
+            if (!e.value.match(/^[a-zA-Z0-9]+$/)) {
+                this.setState({
+                    login: e.value,
+                    isLoginValid: false,
+                    loginValidationError: { message: "Login can contain only numbers and letters" }
+                });
+                return;
+            }   
+            this.setState({
+                login: e.value,
+                isLoginValid: true,
+                loginValidationError: {}
+            });
+        }
+
+        render() {
+            return (
+                <TextBox
+                    value={this.state.login}
+                    placeholder="Login"
+                    isValid={this.state.isLoginValid}
+                    validationError={this.state.loginValidationError}
+                    onValueChanged={this.setLogin}
+                />
+            );
+        }
+    }
+    export default App;
+
 ---

@@ -1,17 +1,19 @@
-Use the ["custom"](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/CustomRule/) validation rule that allows you to implement a [custom validation function](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/CustomRule/#validationCallback) for server-side validation. In this function, perform an AJAX request and, when it succeeds, update the validation state and error message.
+Use the ["custom"](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/CustomRule/) validation rule that allows you to implement a [custom validation function](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/CustomRule/#validationCallback) for server-side validation. In this function, perform an HTTP request and, when it succeeds, update the validation state and error message.
 
 ---
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-        var validateLogin = function (params) {
+        var validateLogin = function(params) {
             $.ajax({
-                url: "http://www.example.com/services/validate-login",
+                url: "https://www.example.com/services/validate-login",
                 method: "POST",
-                data: {
+                data: JSON.stringify({
                     login: params.value
-                },
-                success: function (result) {
+                }),
+                dataType: "json",
+                contentType: "application/json",
+                success: function(result) {
                     params.rule.isValid = result.Result;
                     params.rule.message = result.Message;
                     params.validator.validate();
@@ -37,40 +39,48 @@ Use the ["custom"](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation
 
 ##### Angular
 
-    <!--TypeScript-->
-    import { HttpClient } from '@angular/common/http';
-    import { DxTextBoxModule, DxValidatorModule } from "devextreme-angular";
-    // ...
+    <!-- tab: app.component.ts -->
+    import { Component } from '@angular/core';
+    import { HttpClient, HttpHeaders } from '@angular/common/http';
+
+    const requestConfig = {
+        headers: new HttpHeaders({
+            'Content-Type': 'application/json'
+        })
+    }
+
+    @Component({
+        selector: 'app-root',
+        templateUrl: './app.component.html',
+        styleUrls: ['./app.component.css']
+    })
     export class AppComponent {
-        constructor(private http: HttpClient) { 
+        login: string;
+
+        constructor(private http:HttpClient) {
             this.validateLogin = this.validateLogin.bind(this);
         }
-        
-        login: string = "";
+
         validateLogin(params) {
             this.http.post(
-                "http://www.example.com/services/validate-login",
-                { login: params.value }
+                'https://www.example.com/services/validate-login',
+                JSON.stringify({
+                    login: params.value
+                }),
+                requestConfig
             ).subscribe(response => {
-                params.rule.isValid = response["Result"];
-                params.rule.message = response["Message"];
+                params.rule.isValid = response['result'];
+                params.rule.message = response['message'];
                 params.validator.validate();
-            });
-            // Validation result until the response is received
+            })
             return false;
         }
     }
-    @NgModule({
-        imports: [
-            // ...
-            DxTextBoxModule,
-            DxValidatorModule
-        ],
-        // ...
-    })
 
-    <!--HTML-->
-    <dx-text-box [(value)]="login" placeholder="Login">
+    <!-- tab: app.component.html -->
+    <dx-text-box 
+        [(value)]="login"
+        placeholder="Login">
         <dx-validator>
             <dxi-validation-rule
                 type="required"
@@ -82,6 +92,27 @@ Use the ["custom"](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation
             </dxi-validation-rule>
         </dx-validator>
     </dx-text-box>
+
+    <!-- tab: app.module.ts -->
+    import { BrowserModule } from '@angular/platform-browser';
+    import { NgModule } from '@angular/core';
+    import { AppComponent } from './app.component';
+
+    import { DxTextBoxModule, DxValidatorModule } from 'devextreme-angular';
+
+    @NgModule({
+        declarations: [
+            AppComponent
+        ],
+        imports: [
+            BrowserModule,
+            DxTextBoxModule,
+            DxValidatorModule
+        ],
+        providers: [ ],
+        bootstrap: [AppComponent]
+    })
+    export class AppModule { }
 
 ##### AngularJS
 
@@ -156,5 +187,135 @@ Use the ["custom"](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation
     <div data-bind="dxTextBox: { value: login, placeholder: 'Login' },
         dxValidator: { validationRules: loginRules }">
     </div>
+
+##### Vue
+
+In this example, HTTP requests are performed using the [axios](https://github.com/axios/axios#axios) library. To replicate the example in your application, install this library:
+
+    npm install axios
+
+<!---->
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-text-box
+            :value.sync="login"
+            placeholder="Login">
+            <dx-validator>
+                <dx-required-rule message="Login is required" />
+                <dx-custom-rule :validation-callback="validateLogin" />
+            </dx-validator>
+        </dx-text-box>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DxTextBox from 'devextreme-vue/text-box';
+    import DxValidator, {
+        DxRequiredRule,
+        DxCustomRule
+    } from 'devextreme-vue/validator';
+    import axios from 'axios';
+
+    const requestConfig = {
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    }
+
+    export default {
+        components: {
+            DxTextBox,
+            DxValidator,
+            DxRequiredRule,
+            DxCustomRule
+        },
+        data() {
+            return {
+                login: undefined
+            };
+        },
+        methods: {
+            validateLogin(params) {
+                axios.post(
+                    'https://www.example.com/services/validate-login',
+                    JSON.stringify({
+                        login: params.value
+                    }),
+                    requestConfig
+                ).then(response => {
+                    params.rule.isValid = response.data['result'];
+                    params.rule.message = response.data['message'];
+                    params.validator.validate();
+                })
+                return false;
+            }
+        }
+    }
+    </script>
+
+##### React
+
+In this example, HTTP requests are performed using the [axios](https://github.com/axios/axios#axios) library. To replicate the example in your application, install this library:
+
+    npm install axios
+
+<!---->
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import TextBox from 'devextreme-react/text-box';
+    import Validator, {
+        RequiredRule,
+        CustomRule
+    } from 'devextreme-react/validator';
+    import axios from 'axios';
+
+    const requestConfig = {
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    }
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            this.login = undefined;
+        }
+
+        validateLogin(params) {
+            axios.post(
+                'https://www.example.com/services/validate-login',
+                JSON.stringify({
+                    login: params.value
+                }),
+                requestConfig
+            ).then(response => {
+                params.rule.isValid = response.data['result'];
+                params.rule.message = response.data['message'];
+                params.validator.validate();
+            })
+            return false;
+        }
+
+        render() {
+            return (
+                <TextBox
+                    value={this.login}
+                    placeholder="Login">
+                    <Validator>
+                        <RequiredRule message="Login is required" />
+                        <CustomRule validationCallback={this.validateLogin} />
+                    </Validator>
+                </TextBox>
+            );
+        }
+    }
 
 ---

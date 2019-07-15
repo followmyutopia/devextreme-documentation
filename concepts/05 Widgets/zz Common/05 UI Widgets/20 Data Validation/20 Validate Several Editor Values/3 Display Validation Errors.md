@@ -63,4 +63,54 @@ All group validation errors can be displayed in the [ValidationSummary](/Documen
         <div data-bind="dxValidationSummary: { }"></div>
     <!-- /div -->
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <!-- <dx-validation-group name="loginGroup"> -->
+            ...
+            <dx-validation-summary />
+        <!-- </dx-validation-group> -->
+    </template>
+
+    <script>
+    // ...
+    import DxValidationSummary from 'devextreme-vue/validation-summary';
+    // import DxValidationGroup from 'devextreme-vue/validation-group';
+    
+    export default {
+        components: {
+            // ...
+            // DxValidationGroup,
+            DxValidationSummary
+        },
+        // ...
+    }
+    </script>
+    
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    // ...
+    // import ValidationGroup from 'devextreme-react/validation-group';
+    import ValidationSummary from 'devextreme-react/validation-summary';
+
+    class App extends React.Component {
+        // ...
+        render() {
+            return (
+                {/* <ValidationGroup name="loginGroup"> */}
+                    ...
+                    <ValidationSummary />
+                {/* </ValidationGroup> */}
+            );
+        }
+    }
+    export default App;
+
 ---

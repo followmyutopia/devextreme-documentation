@@ -104,4 +104,87 @@ Associate a DevExtreme editor with the [Validator](/Documentation/ApiReference/U
         dxValidator: { validationRules: loginRules }">
     </div>
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-text-box :value.sync="login" placeholder="Login">
+            <dx-validator>
+                <dx-required-rule />
+                <dx-pattern-rule pattern="^[a-zA-Z]+$" message="Do not use digits." />
+            </dx-validator>
+        </dx-text-box>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DxTextBox from 'devextreme-vue/text-box';
+    import DxValidator, {
+        DxRequiredRule,
+        DxPatternRule
+    } from 'devextreme-vue/validator';
+    
+    export default {
+        components: {
+            DxTextBox,
+            DxValidator,
+            DxRequiredRule,
+            DxPatternRule
+        },
+        data() {
+            return {
+                login: undefined
+            }
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import TextBox from 'devextreme-react/text-box';
+    import Validator, {
+        RequiredRule,
+        PatternRule
+    } from 'devextreme-react/validator';
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            this.state = {
+                login: undefined
+            }
+            this.setLogin = this.setLogin.bind(this);
+        }
+
+        setLogin(e) {
+            this.setState({ login: e.value });
+        }
+        render() {
+            return (
+                <TextBox
+                    value={this.state.login}
+                    placeholder="Login"
+                    onValueChanged={this.setLogin}>
+                    <Validator>
+                        <RequiredRule />
+                        <PatternRule
+                            pattern="^[a-zA-Z]+$"
+                            message="Do not use digits."
+                        />
+                    </Validator>
+                </TextBox>
+            );
+        }
+    }
+    export default App;
+
 ---
+
