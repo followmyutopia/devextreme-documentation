@@ -36,134 +36,14 @@ The **FilterBuilder** widget allows a user to build complex filter expressions w
 <!--/shortDescription-->
 
 <!--fullDescription-->
-#include common-ref-roottopic-introduction
-
----
-
-#####jQuery
-
-    <!--JavaScript-->
-    $(function () {
-        $("#filterBuilder").dxFilterBuilder({
-            value: ["Category", "contains", "Tel"],
-            fields: [{
-                dataField: "Category"
-            }, {
-                dataField: "Shipped",
-                caption: "Shipment Date",
-                dataType: "date"
-            }, {
-                dataField: "UnitPrice",
-                dataType: "number"
-            }]
-        });
-    });
-
-    <!--HTML--><div id="filterBuilder"></div>
-
-#####Angular
-
-    <!--HTML-->
-    <dx-filter-builder
-        [value]='["Category", "contains", "Tel"]'>
-        <dxi-field
-            dataField="Category">
-        </dxi-field>
-        <dxi-field
-            dataField="Shipped"
-            caption="Shipment Date"
-            dataType="date">
-        </dxi-field>
-        <dxi-field
-            dataField="UnitPrice"
-            dataType="number">
-        </dxi-field>
-    </dx-filter-builder>
-
-    <!--TypeScript-->
-    import { DxFilterBuilderModule } from "devextreme-angular";
-    // ...
-    export class AppComponent {
-        // ...
-    }
-    @NgModule({
-        imports: [
-            // ...
-            DxFilterBuilderModule
-        ],
-        // ...
-    })
-
-#####AngularJS
-
-    <!--HTML-->
-    <div ng-controller="DemoController">
-        <div dx-filter-builder="{
-            value: ['Category', 'contains', 'Tel'],
-            fields: [{
-                dataField: 'Category'
-            }, {
-                dataField: 'Shipped',
-                caption: 'Shipment Date',
-                dataType: 'date'
-            }, {
-                dataField: 'UnitPrice',
-                dataType: 'number'
-            }]
-        }"></div>
-    </div>
-
-#####Knockout
-
-    <!--HTML-->
-    <div data-bind="dxFilterBuilder: {
-        value: ['Category', 'contains', 'Tel'],
-        fields: [{
-            dataField: 'Category'
-        }, {
-            dataField: 'Shipped',
-            caption: 'Shipment Date',
-            dataType: 'date'
-        }, {
-            dataField: 'UnitPrice',
-            dataType: 'number'
-        }]
-    }"></div>
-
-#####ASP.NET MVC Controls
-
-    <!--Razor C#-->
-    @(Html.DevExtreme().FilterBuilder()
-        .ID("filterBuilder")
-        .Value(new object[] { "CompanyName", "contains", "Tel" })
-        .Fields(fields => {
-            fields.Add().DataField("CompanyName");
-            fields.Add().DataField("City")
-                .Caption("Shipment Date")
-                .DataType(FilterBuilderFieldDataType.Date);
-            fields.Add().DataField("State")
-                .DataType(FilterBuilderFieldDataType.Number);
-        })
-    )
-
-    <!--Razor VB-->
-    @(Html.DevExtreme().FilterBuilder() _
-        .ID("filterBuilder") _
-        .Value(New String() {"CompanyName", "contains", "Tel"}) _
-        .Fields(Sub(fields)
-            fields.Add().DataField("CompanyName")
-            fields.Add().DataField("City") _
-                .Caption("Shipment Date") _
-                .DataType(FilterBuilderFieldDataType.Date)
-            fields.Add().DataField("State") _
-                .DataType(FilterBuilderFieldDataType.Number)
-        End Sub)
-    )
-
----
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithDataGrid/jQuery/Light/"
+}
+#include common-readguidesbutton with {
+    url: "/Documentation/Guide/Widgets/FilterBuilder/Overview/"
+}
 
 #####See Also#####
-- [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/)
-- [FilterBuilder - Overview](/Documentation/Guide/Widgets/FilterBuilder/Overview/)
-
+#include common-link-setupdevextreme
+#include common-link-configurewidget
 <!--/fullDescription-->

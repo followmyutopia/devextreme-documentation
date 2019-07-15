@@ -16,73 +16,14 @@ The **Switch** is a widget that can be in two states: "On" and "Off".
 <!--/shortDescription-->
 
 <!--fullDescription-->
-#include common-ref-roottopic-introduction
-
----
-#####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
-
-    <!--JavaScript-->$(function () {
-        $("#switch").dxSwitch({
-            value: true
-        });
-    });
-
-    <!--HTML-->
-    <div id="switch"></div>
-
-##### Angular
-
-    <!--HTML-->
-    <dx-switch [value]="true"></dx-switch>
-
-    <!--TypeScript-->
-    import { DxSwitchModule } from "devextreme-angular"
-    // ...
-    export class AppComponent {
-        // ...
-    }
-    @NgModule({
-        imports: [
-            // ...
-            DxSwitchModule
-        ],
-        // ...
-    })
-
-#####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
-
-    <!--HTML-->
-    <div dx-switch="{
-        value: true
-    }"></div>
-
-#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
-
-    <!--HTML-->
-    <div data-bind="dxSwitch: {
-        value: true
-    }"></div>
-
-#####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
-
-    <!--Razor C#-->@(Html.DevExtreme().Switch()
-        .ID("switch")
-        .Value(true)
-    )
-
-    <!--Razor VB-->@(Html.DevExtreme().Switch() _
-        .ID("switch") _
-        .Value(True)
-    )
-
----
-
- 
-
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/editorsswitchswitchswitch/"
 }
+#include common-readguidesbutton with {
+    url: "/Documentation/Guide/Widgets/Switch/Overview/"
+}
 
 #####See Also#####
-- [Switch - Overview](/Documentation/Guide/Widgets/Switch/Overview/)
+#include common-link-setupdevextreme
+#include common-link-configurewidget
 <!--/fullDescription-->

@@ -26,4 +26,8 @@ When there are multiple **SpeedDialAction**s, they are collected in a speed dial
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/FloatingActionButton/Overview/jQuery/MaterialBlueLight/"
 }
+
+#####See Also#####
+#include common-link-setupdevextreme
+#include common-link-configurewidget
 <!--/fullDescription-->

@@ -34,4 +34,8 @@ The **ButtonGroup** is a widget that contains a set of toggle buttons and can be
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/ButtonGroup/Overview/jQuery/Light/"
 }
+
+#####See Also#####
+#include common-link-setupdevextreme
+#include common-link-configurewidget
 <!--/fullDescription-->

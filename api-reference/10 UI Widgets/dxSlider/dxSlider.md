@@ -16,82 +16,14 @@ The **Slider** is a widget that allows an end user to set a numeric value on a c
 <!--/shortDescription-->
 
 <!--fullDescription-->
-#include common-ref-roottopic-introduction
-
----
-#####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
-
-    <!--JavaScript-->$(function () {
-        $("#slider").dxSlider({
-            min: 0, max: 100,
-            value: 25
-        });
-    });
-
-    <!--HTML-->
-    <div id="slider"></div>
-
-##### Angular
-
-    <!--HTML-->
-    <dx-slider
-        [min]="0"
-        [max]="100"
-        [value]="25">
-    </dx-slider>
-
-    <!--TypeScript-->
-    import { DxSliderModule } from "devextreme-angular"
-    // ...
-    export class AppComponent {
-        // ...
-    }
-    @NgModule({
-        imports: [
-            // ...
-            DxSliderModule
-        ],
-        // ...
-    })
-
-#####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
-
-    <!--HTML-->
-    <div dx-slider="{
-        min: 0, max: 100,
-        value: 25
-    }"></div>
-
-#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
-
-    <!--HTML-->
-    <div data-bind="dxSlider: {
-        min: 0, max: 100,
-        value: 25
-    }"></div>
-
-#####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
-
-    <!--Razor C#-->@(Html.DevExtreme().Slider()
-        .ID("slider")
-        .Min(0).Max(100)
-        .Value(25)
-    )
-
-    <!--Razor VB-->@(Html.DevExtreme().Slider() _
-        .ID("slider") _
-        .Min(0).Max(100) _
-        .Value(25)
-    )
-
----
-
- 
-
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/formsandmulti-purposeslidersliderslider/"
 }
+#include common-readguidesbutton with {
+    url: "/Documentation/Guide/Widgets/Slider/Overview/"
+}
 
 #####See Also#####
-- [Slider - Overview](/Documentation/Guide/Widgets/Slider/Overview/)
+#include common-link-setupdevextreme
+#include common-link-configurewidget
 <!--/fullDescription-->

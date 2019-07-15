@@ -31,94 +31,14 @@ The **SelectBox** widget is an editor that allows an end user to select an item 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-#include common-ref-roottopic-introduction
-
----
-#####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
-
-    <!--JavaScript-->
-    $(function() {
-        $("#selectBox").dxSelectBox({
-            dataSource: [ "Item 1", "Item 2", "Item 3" ],
-            searchEnabled: true
-        });
-    });
-
-    <!--HTML-->
-    <div id="selectBox"></div>
-
-##### Angular
-
-    <!--HTML-->
-    <dx-select-box
-        [dataSource]="selectBoxDataSource"
-        [searchEnabled]="true">
-    </dx-select-box>
-
-    <!--TypeScript-->
-    import { DxSelectBoxModule } from "devextreme-angular"
-    // ...
-    export class AppComponent {
-        selectBoxDataSource = [ "Item 1", "Item 2", "Item 3" ];
-    }
-    @NgModule({
-        imports: [
-            // ...
-            DxSelectBoxModule
-        ],
-        // ...
-    })
-
-#####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
-
-    <!--HTML--><div ng-controller="DemoController">
-        <div dx-select-box="{
-            dataSource: selectBoxDataSource,
-            searchEnabled: true
-        }"></div>
-    </div>
-
-    <!--JavaScript-->angular.module("DemoApp", ["dx"])
-        .controller("DemoController", function ($scope) {
-            $scope.selectBoxDataSource = [ "Item 1", "Item 2", "Item 3" ];
-        });
-
-#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
-
-    <!--HTML-->
-    <div data-bind="dxSelectBox: {
-        dataSource: selectBoxDataSource,
-        searchEnabled: true
-    }"></div>
-
-    <!--JavaScript-->var viewModel = {
-        selectBoxDataSource: [ "Item 1", "Item 2", "Item 3" ]
-    };
-    ko.applyBindings(viewModel);
-
-#####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
-
-    <!--Razor C#-->@(Html.DevExtreme().SelectBox()
-        .ID("selectBox")
-        .DataSource(new[] { "Item 1", "Item 2", "Item 3" })
-        .SearchEnabled(true)
-    )
-
-    <!--Razor VB-->@(Html.DevExtreme().SelectBox() _
-        .ID("selectBox") _
-        .DataSource({ "Item 1", "Item 2", "Item 3" }) _
-        .SearchEnabled(True)
-    )
-
----
-
- 
-
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/editorsselectboxselectboxmainfeatures/"
 }
+#include common-readguidesbutton with {
+    url: "/Documentation/Guide/Widgets/SelectBox/Overview/"
+}
 
 #####See Also#####
-- [SelectBox - Overview](/Documentation/Guide/Widgets/SelectBox/Overview/)
-- [ASP.NET MVC Controls - Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/)
+#include common-link-setupdevextreme
+#include common-link-configurewidget
 <!--/fullDescription-->

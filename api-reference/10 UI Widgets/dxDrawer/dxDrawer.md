@@ -16,4 +16,8 @@ The **Drawer** is a dismissible or permanently visible panel used for navigation
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Drawer/HorizontalOpening/jQuery/Light/"
 }
+
+#####See Also#####
+#include common-link-setupdevextreme
+#include common-link-configurewidget
 <!--/fullDescription-->

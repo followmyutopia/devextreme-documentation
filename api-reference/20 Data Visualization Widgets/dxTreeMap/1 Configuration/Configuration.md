@@ -4,5 +4,6 @@ This section describes properties that configure the contents, behavior and appe
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+#include common-link-configurewidget
 <!--/fullDescription-->

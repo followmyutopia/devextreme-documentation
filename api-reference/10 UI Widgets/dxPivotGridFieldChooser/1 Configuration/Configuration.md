@@ -4,5 +4,6 @@ This section describes the configuration options of the **PivotGridFieldChooser*
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+#include common-link-configurewidget
 <!--/fullDescription-->

@@ -17,94 +17,14 @@ The **Autocomplete** widget is a textbox that provides suggestions while a user 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-#include common-ref-roottopic-introduction
-
----
-#####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
-
-    <!--JavaScript-->$(function () {
-        $("#autocomplete").dxAutocomplete({
-            dataSource: [ "Item 1", "Item 2", "Item 3" ],
-            placeholder: "Type item name..."
-        });
-    });
-
-    <!--HTML-->
-    <div id="autocomplete"></div>
-
-##### Angular
-
-    <!--HTML-->
-    <dx-autocomplete
-        [dataSource]="autocompleteData"
-        placeholder="Type item name...">
-    </dx-autocomplete>
-
-    <!--TypeScript-->
-    import { DxAutocompleteModule } from "devextreme-angular";
-    // ...
-    export class AppComponent {
-        autocompleteData = [ "Item 1", "Item 2", "Item 3" ];
-    }
-    @NgModule({
-        imports: [
-            // ...
-            DxAutocompleteModule
-        ],
-        // ...
-    })
-
-#####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
-
-    <!--HTML-->
-    <div ng-controller="DemoController">
-        <div dx-autocomplete="{
-            dataSource: autocompleteData,
-            placeholder: 'Type item name...'
-        }"></div>
-    </div>
-
-    <!--JavaScript-->
-    angular.module("DemoApp", ["dx"])
-        .controller("DemoController", function ($scope) {
-            $scope.autocompleteData = [ "Item 1", "Item 2", "Item 3" ];
-        });
-
-#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
-
-    <!--HTML-->
-    <div data-bind="dxAutocomplete: {
-        dataSource: autocompleteData,
-        placeholder: 'Type item name...'
-    }"></div>
-
-    <!--JavaScript-->
-    var viewModel = {
-        autocompleteData: [ "Item 1", "Item 2", "Item 3" ]
-    };
-
-    ko.applyBindings(viewModel);
-
-#####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
-
-    <!--Razor C#-->@(Html.DevExtreme().Autocomplete()
-        .ID("autocomplete")
-        .DataSource(new[] { "Item 1", "Item 2", "Item 3" })
-        .Placeholder("Type item name...")
-    )
-
-    <!--Razor VB-->@(Html.DevExtreme().Autocomplete() _
-        .ID("autocomplete") _
-        .DataSource({ "Item 1", "Item 2", "Item 3" }) _
-        .Placeholder("Type item name...")
-    )
-
----
-
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/editorsautocompleteautocompleteautocomplete/"
 }
+#include common-readguidesbutton with {
+    url: "/Documentation/Guide/Widgets/Autocomplete/Overview/"
+}
 
 #####See Also#####
-- [Autocomplete - Overview](/Documentation/Guide/Widgets/Autocomplete/Overview/)
+#include common-link-setupdevextreme
+#include common-link-configurewidget
 <!--/fullDescription-->

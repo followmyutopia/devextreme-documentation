@@ -22,102 +22,14 @@ The **Gallery** is a widget that displays a collection of images in a carousel. 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-#include common-ref-roottopic-introduction
-
----
-#####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
-
-    <!--JavaScript-->$(function () {
-        $("#gallery").dxGallery({
-            dataSource: [
-                "http://path/to/image/1.png",
-                "http://path/to/image/2.png",
-                "http://path/to/image/3.png"
-            ],
-            height: 300
-        });
-    });
-
-    <!--HTML--><div id="gallery"></div>
-
-##### Angular
-
-    <!--HTML-->
-    <dx-gallery
-        [dataSource]="galleryData"
-        [height]="300">
-    </dx-gallery>
-
-    <!--TypeScript-->
-    import { DxGalleryModule } from "devextreme-angular";
-    // ...
-    export class AppComponent {
-        galleryData = [
-            "http://path/to/image/1.png",
-            "http://path/to/image/2.png",
-            "http://path/to/image/3.png"
-        ];
-    }
-    @NgModule({
-        imports: [
-            // ...
-            DxGalleryModule
-        ],
-        // ...
-    })
-
-#####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
-
-    <!--HTML--><div dx-gallery="{
-        dataSource: [
-            'http://path/to/image/1.png',
-            'http://path/to/image/2.png',
-            'http://path/to/image/3.png'
-        ],
-        height: 300
-    }"></div>
-
-#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
-
-    <!--HTML--><div data-bind="dxGallery: {
-        dataSource: [
-            'http://path/to/image/1.png',
-            'http://path/to/image/2.png',
-            'http://path/to/image/3.png'
-        ],
-        height: 300
-    }"></div>
-
-#####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
-
-    <!--Razor C#-->@(Html.DevExtreme().Gallery()
-        .ID("gallery")
-        .DataSource(new[] {
-            "http://path/to/image/1.png",
-            "http://path/to/image/2.png",
-            "http://path/to/image/3.png"
-        })
-        .Height(300)
-    )
-
-    <!--Razor VB-->@(Html.DevExtreme().Gallery() _
-        .ID("gallery") _
-        .DataSource({
-            "http://path/to/image/1.png",
-            "http://path/to/image/2.png",
-            "http://path/to/image/3.png"
-        }) _
-        .Height(300)
-    )
-
----
-
- 
-
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/actionsandlistsgallerygallerysimplegallery/"
 }
+#include common-readguidesbutton with {
+    url: "/Documentation/Guide/Widgets/Gallery/Overview/"
+}
 
 #####See Also#####
-- [Gallery - Overview](/Documentation/Guide/Widgets/Gallery/Overview/)
+#include common-link-setupdevextreme
+#include common-link-configurewidget
 <!--/fullDescription-->

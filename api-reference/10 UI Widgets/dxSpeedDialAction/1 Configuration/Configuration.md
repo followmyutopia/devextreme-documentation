@@ -3,4 +3,6 @@ This section describes options that configure the **SpeedDialAction** widget's c
 <!--/shortDescription-->
 
 <!--fullDescription-->
+#####See Also#####
+#include common-link-configurewidget
 <!--/fullDescription-->

@@ -17,93 +17,14 @@ The **Bullet** widget is useful when you need to compare a single measure to a t
 <!--/shortDescription-->
 
 <!--fullDescription-->
-#include common-ref-roottopic-introduction
-
----
-#####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
-
-    <!--JavaScript-->$(function () {
-        $("#bullet").dxBullet({
-            startScaleValue: 0,
-            endScaleValue: 35,
-            value: 27,
-            target: 24 
-        });
-    });
-
-    <!--HTML--><div id="bullet"></div>
-
-##### Angular
-
-    <!--HTML-->
-    <dx-bullet
-        [startScaleValue]="0"
-        [endScaleValue]="35"
-        [value]="27"
-        [target]="24">
-    </dx-bullet>
-
-    <!--TypeScript-->
-    import { DxBulletModule } from "devextreme-angular";
-    // ...
-    export class AppComponent {
-        // ...
-    }
-    @NgModule({
-        imports: [
-            // ...
-            DxBulletModule
-        ],
-        // ...
-    })
-
-#####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
-
-    <!--HTML-->
-    <div dx-bullet="{
-        startScaleValue: 0,
-        endScaleValue: 35,
-        value: 27,
-        target: 24
-    }"></div>
-
-#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
-
-    <!--HTML-->
-    <div data-bind="dxBullet: {
-        startScaleValue: 0,
-        endScaleValue: 35,
-        value: 27,
-        target: 24 
-    }"></div>
-
-#####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
-    
-    <!--Razor C#-->@(Html.DevExtreme().Bullet()
-        .ID("bullet")
-        .StartScaleValue(0)
-        .EndScaleValue(35)
-        .Value(27)
-        .Target(24)
-    )
-
-    <!--Razor VB-->@(Html.DevExtreme().Bullet() _
-        .ID("bullet") _
-        .StartScaleValue(0) _
-        .EndScaleValue(35) _
-        .Value(27) _
-        .Target(24)
-    )
-
----
-
- 
-
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartsbulletbulletssimplebullets/"
 }
-<a href="http://www.youtube.com/watch?v=Ax5kgKvFKvs&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z&index=22" class="button orange small fix-width-155" target="_blank">Watch Video</a>
+#include common-readguidesbutton with {
+    url: "/Documentation/Guide/Widgets/Bullet/Visual_Elements/"
+}
 
 #####See Also#####
-- [Bullet - Visual Elements](/Documentation/Guide/Widgets/Bullet/Visual_Elements/)
+#include common-link-setupdevextreme
+#include common-link-configurewidget
 <!--/fullDescription-->

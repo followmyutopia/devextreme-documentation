@@ -22,4 +22,8 @@ The **Diagram** widget provides a visual interface to help you design new and mo
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Diagram/Overview/jQuery/Light/"
 }
+
+#####See Also#####
+#include common-link-setupdevextreme
+#include common-link-configurewidget
 <!--/fullDescription-->
