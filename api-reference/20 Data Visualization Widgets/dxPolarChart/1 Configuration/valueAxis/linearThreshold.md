@@ -1,0 +1,13 @@
+<!--id-->dxPolarChart.Options.valueAxis.linearThreshold<!--/id-->
+===========================================================================
+<!--default-->undefined<!--/default-->
+<!--type-->Number<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+
+<!--/shortDescription-->
+
+<!--fullDescription-->
+
+<!--/fullDescription-->
