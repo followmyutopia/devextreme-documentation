@@ -11,7 +11,7 @@ A color swatch is defined by scoped CSS rules that are prefixed with a specific 
         </div>
     </div>
 
-[note] Color swatches should be based on a single theme (Generic, Generic Compact, or Material) and do not allow compiling different themes.
+[important] Color swatches do not allow compiling different themes and should be based on a single theme (Generic, Generic Compact, or Material).
 
 You can generate color swatches with the DevExtreme CLI or ThemeBuilder UI:
 
@@ -34,3 +34,5 @@ You can generate color swatches with the DevExtreme CLI or ThemeBuilder UI:
     ![DevExtreme ThemeBuilder UI: Export a color swatch](/Content/images/doc/19_2/Common/ThemeBuilder/themebuilder-themeexport-css.png)
 
     Move the resulting CSS file to the application folder, [register it](/Documentation/Guide/Themes_and_Styles/Predefined_Themes/#Apply_a_Theme), and add the swatch class to a page element.
+
+[note] Color swatches cannot be used to customize SVG-based widgets because the [widget's themes are widget configurations](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Themes) that do not use CSS. With [predefined CSS themes](/Documentation/Guide/Themes_and_Styles/Predefined_Themes/), SVG-based widgets detect which theme is used on the page and apply the corresponding widget configuration. When an SVG-based widget is within a color swatch, the detection is impossible. However, you can [create and apply a widget configuration](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Themes/Create_a_Custom_Theme) that visually fits the color swatch.
