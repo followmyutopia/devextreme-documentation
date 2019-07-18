@@ -11,6 +11,10 @@ Now, the **PivotGrid** needs a special configuration of the **CustomStore** on t
 - <a href="https://github.com/DevExpress/DevExtreme.AspNet.Data" target="_blank">DevExtreme ASP.NET Data</a>
 - <a href="https://github.com/DevExpress/DevExtreme-PHP-Data" target="_blank">DevExtreme PHP Data</a>
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/PivotGrid/WebAPIService/jQuery/Light/"
+}
+
 #####See Also#####
 - <a href="https://github.com/DevExpress/devextreme-examples/tree/19_2/pivotgrid-webapi" target="_blank">PivotGrid and Web API Example</a>
 
