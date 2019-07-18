@@ -34,6 +34,116 @@ The settings of the column the cell belong to.
 - **rowType**: <font size="-1">String</font>        
 The row's [type]({basewidgetpath}/Row/#rowType).
 
+In the following example, the **editCellTemplate** is used to substitute the [Switch](/Documentation/Guide/Widgets/Switch/Overview/) widget for a default editor. This configuration may be useful in [batch editing mode](/Documentation/Guide/Widgets/DataGrid/Editing/#User_Interaction/Batch_Mode).
+
+---
+##### jQuery
+
+    <!-- tab: index.js -->
+    $(function() {
+        $("#dataGridContainer").dxDataGrid({
+            // ...
+            columns: [{
+                dataField: "isChecked",
+                editCellTemplate: function(cellElement, cellInfo) {
+                    $("<div />").dxSwitch({
+                        width: 50,
+                        switchedOnText: "YES",
+                        switchedOffText: "NO",
+                        value: cellInfo.value,
+                        onValueChanged: function(e) {
+                            cellInfo.setValue(e.value);
+                        }
+                    }).appendTo(cellElement);
+                }
+            }],
+            editing: {
+                mode: "batch",
+                allowUpdating: true
+            }
+        });
+    });
+
+##### Angular
+    
+    <!-- tab: app.component.html -->
+    <dx-data-grid ... >
+        <dxi-column
+            dataField="isChecked"
+            editCellTemplate="editCellTemplate">
+        </dxi-column>
+        <div *dxTemplate="let cellInfo of 'editCellTemplate'">
+            <dx-switch
+                [width]="50"
+                switchedOnText="YES"
+                switchedOffText="NO"
+                [(value)]="cellInfo.value"
+                (onValueChanged)="setEditedValue($event, cellInfo)">
+            </dx-switch>
+        </div>
+        <dxo-editing mode="batch" [allowUpdating]="true"></dxo-editing>
+    </dx-data-grid>
+
+    <!-- tab: app.component.ts -->
+    import { Component } from '@angular/core';
+    import { AppComponent, Service } from './app.service';
+
+    @Component({
+        selector: 'app-root',
+        templateUrl: './app.component.html',
+        styleUrls: ['./app.component.css']
+    })
+    export class AppComponent {
+        setEditedValue (valueChangedEventArg, cellInfo) {
+            cellInfo.setValue(valueChangedEventArg.value);
+        }
+    }
+
+    <!-- tab: app.module.ts -->
+    import { BrowserModule } from '@angular/platform-browser';
+    import { NgModule } from '@angular/core';
+    import { AppComponent } from './app.component';
+
+    import { DxDataGridModule, DxSwitchModule } from 'devextreme-angular';
+
+    @NgModule({
+        declarations: [
+            AppComponent
+        ],
+        imports: [
+            BrowserModule,
+            DxDataGridModule,
+            DxSwitchModule
+        ],
+        bootstrap: [AppComponent]
+    })
+    export class AppModule { }
+
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().DataGrid()
+        // ...
+        .Columns(cols => {
+            // ...
+            cols.Add().DataField("isChecked")
+                .EditCellTemplate(new TemplateName("edit-cells"));
+        })
+        .Editing(m => m.Mode(GridEditMode.Batch).AllowUpdating(true))
+    )
+
+    @using (Html.DevExtreme().NamedTemplate("edit-cells")) {
+        @(Html.DevExtreme().Switch()
+            .Width(50)
+            .SwitchedOnText("YES")
+            .SwitchedOffText("NO")
+            .Value(new JS("value"))
+            .OnValueChanged("function(e) { setValue(e.value) }")
+        )
+    }
+    
+---
+
 [note]If you implement two-way data binding in your template, make sure that you switch off the built-in implementation of this feature by setting the [twoWayBindingEnabled]({basewidgetpath}/Configuration/#twoWayBindingEnabled) option to **false**.
 
 #####See Also#####
