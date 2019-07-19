@@ -81,7 +81,7 @@ Every widget that supports palettes has a [palette](/Documentation/ApiReference/
     url: "/Demos/WidgetsGallery/Demo/Charts/Palette/jQuery/Light/"
 }
 
-In the **CircularGauge** and **LinearGauge**, the palette can be specified in the [rangeContainer](/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Configuration/rangeContainer/) and [subvalueIndicator](/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Configuration/subvalueIndicator/) objects. In the **TreeMap**, it is part of the [colorizer](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/colorizer/). In the **VectorMap**, the palette should be set for a specific [layer](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/). 
+In the **CircularGauge** and **LinearGauge**, the palette can be specified in the [rangeContainer](/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Configuration/rangeContainer/) and [subvalueIndicator](/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Configuration/subvalueIndicator/) objects.
 
 ---
 ##### jQuery  
@@ -103,7 +103,115 @@ In the **CircularGauge** and **LinearGauge**, the palette can be specified in th
                 palette: "Violet"
             }
         });
+    });
 
+##### Angular  
+
+    <!-- tab: app.component.html -->
+    <dx-circular-gauge ...
+        [subvalues]="[25, 40, 68]">
+        <dxo-subvalue-indicator
+            palette="Soft Pastel">
+        </dxo-subvalue-indicator>
+        <dxo-range-container palette="Harmony Light">
+            <dxi-range [startValue]="0" [endValue]="30"></dxi-range>
+            <dxi-range [startValue]="30" [endValue]="70"></dxi-range>
+            <dxi-range [startValue]="70" [endValue]="100"></dxi-range>
+        </dxo-range-container>
+    </dx-circular-gauge>
+
+    <!-- tab: app.module.ts -->
+    import { BrowserModule } from '@angular/platform-browser';
+    import { NgModule } from '@angular/core';
+    import { AppComponent } from './app.component';
+
+    import { DxCircularGaugeModule } from 'devextreme-angular';
+
+    @NgModule({
+        declarations: [
+            AppComponent
+        ],
+        imports: [
+            BrowserModule,
+            DxCircularGaugeModule
+        ],
+        providers: [],
+        bootstrap: [AppComponent]
+    })
+    export class AppModule { }
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-circular-gauge ...
+            :subvalues="[25, 40, 68]">
+            <dx-subvalue-indicator
+                palette="Soft Pastel" />
+            <dx-range-container palette="Harmony Light">
+                <dx-range :start-value="0" :end-value="30" />
+                <dx-range :start-value="30" :end-value="70" />
+                <dx-range :start-value="70" :end-value="100" />
+            </dx-range-container>
+        </dx-circular-gauge>
+    </template>
+    <script>
+    import {
+        DxCircularGauge,
+        DxRangeContainer,
+        DxRange,
+        DxSubvalueIndicator
+    } from 'devextreme-vue/circular-gauge';
+
+    export default {
+        components: {
+            DxCircularGauge,
+            DxRangeContainer,
+            DxRange,
+            DxSubvalueIndicator
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+    import { CircularGauge, RangeContainer, Range, SubvalueIndicator } from 'devextreme-react/circular-gauge';
+
+    const subvalues = [25, 40, 68];
+
+    class App extends React.Component {
+        render() {
+            return (
+                <CircularGauge
+                    subvalues={subvalues}>
+                    <SubvalueIndicator palette="Soft Pastel" />
+                    <RangeContainer palette="Violet">
+                        <Range startValue={0} endValue={30} />
+                        <Range startValue={30} endValue={70} />
+                        <Range startValue={70} endValue={100} />
+                    </RangeContainer>
+                </CircularGauge>
+            );
+        }
+    }
+
+    export default App;
+
+---
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Gauges/PaletteForRanges/jQuery/Light/"
+}
+
+In the **TreeMap**, the palette is part of the [colorizer](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/colorizer/). In the **VectorMap**, it should be set for a specific [layer](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/). In the **RangeSelector**, the palette is specified in the [chart](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/chart/) object.
+
+---
+##### jQuery  
+
+    <!--JavaScript-->
+    $(function() {
         $("#treeMapContainer").dxTreeMap({
             // ...
             colorizer: {
@@ -127,23 +235,30 @@ In the **CircularGauge** and **LinearGauge**, the palette can be specified in th
                 }
             }]
         });
+
+        $("#rangeSelectorContainer").dxRangeSelector({
+            dataSource: [
+                { arg: "A", val1: 1, val2: 3 },
+                { arg: "B", val1: 5, val2: 5 },
+                { arg: "C", val1: 10, val2: 7 }
+            ],
+            chart: {
+                palette: "Soft Pastel",
+                commonSeriesSettings: {
+                    type: "bar",
+                    argumentField: "arg"
+                },
+                series: [
+                    { valueField: "val1" },
+                    { valueField: "val2" }
+                ]
+            }
+        });
     });
 
 ##### Angular  
 
-    <!--HTML-->
-    <dx-circular-gauge ...
-        [subvalues]="[25, 40, 68]">
-        <dxo-subvalue-indicator
-            palette="Soft Pastel">
-        </dxo-subvalue-indicator>
-        <dxo-range-container palette="Harmony Light">
-            <dxi-range [startValue]="0" [endValue]="30"></dxi-range>
-            <dxi-range [startValue]="30" [endValue]="70"></dxi-range>
-            <dxi-range [startValue]="70" [endValue]="100"></dxi-range>
-        </dxo-range-container>
-    </dx-circular-gauge>
-
+    <!-- tab: app.component.html -->
     <dx-tree-map ... >
         <dxo-colorizer palette="Harmony Light"></dxo-colorizer>
     </dx-tree-map>
@@ -157,19 +272,35 @@ In the **CircularGauge** and **LinearGauge**, the palette can be specified in th
         </dxi-layer>
     </dx-vector-map>
 
-    <!--TypeScript-->
-    import {
-        DxCircularGaugeModule,
-        DxTreeMapModule,
-        DxVectorMapModule
-    } from "devextreme-angular";
-    import * as mapsData from "devextreme/dist/js/vectormap-data/world.js";
-    // ...
+    <dx-range-selector
+        [dataSource]="[
+            { arg: 'A', val1: 1, val2: 3 },
+            { arg: 'B', val1: 5, val2: 5 },
+            { arg: 'C', val1: 10, val2: 7 }
+        ]">
+        <dxo-chart palette="Soft Pastel">
+            <dxo-common-series-settings type="bar" argumentField="arg"></dxo-common-series-settings>
+            <dxi-series value-field="val1"></dxi-series>
+            <dxi-series value-field="val2"></dxi-series>
+        </dxo-chart>
+    </dx-range-selector>
+
+    <!-- tab: app.component.ts -->
+    import { Component } from '@angular/core';
+    import * as mapsData from 'devextreme/dist/js/vectormap-data/world.js';
+
+    @Component({
+        selector: 'app-root',
+        templateUrl: './app.component.html',
+        styleUrls: ['./app.component.css']
+    })
     export class AppComponent {
-        worldMap: any = mapsData.world;
         constructor(service: Service) {
             this.colorizeMap = this.colorizeMap.bind(this);
         }
+
+        worldMap: any = mapsData.world;
+
         colorizeMap(elements) {
             let paletteIndex = 0;
             elements.forEach((element) => {
@@ -179,31 +310,34 @@ In the **CircularGauge** and **LinearGauge**, the palette can be specified in th
             });
         }
     }
+
+    <!-- tab: app.module.ts -->
+    import { BrowserModule } from '@angular/platform-browser';
+    import { NgModule } from '@angular/core';
+    import { AppComponent } from './app.component';
+
+    import { DxTreeMapModule, DxVectorMapModule, DxRangeSelector } from 'devextreme-angular';
+
     @NgModule({
-        imports: [
-            // ...
-            DxCircularGaugeModule,
-            DxTreeMapModule,
-            DxVectorMapModule
+        declarations: [
+            AppComponent
         ],
-        // ...
+        imports: [
+            BrowserModule,
+            DxTreeMapModule,
+            DxVectorMapModule,
+            DxRangeSelector
+        ],
+        providers: [ ],
+        bootstrap: [AppComponent]
     })
+    export class AppModule { }
 
 ##### Vue
 
+    <!-- tab: App.vue -->
     <template>
         <div>
-            <dx-circular-gauge ...
-                :subvalues="[25, 40, 68]">
-                <dx-subvalue-indicator
-                    palette="Soft Pastel" />
-                <dx-range-container palette="Harmony Light">
-                    <dx-range :start-value="0" :end-value="30" />
-                    <dx-range :start-value="30" :end-value="70" />
-                    <dx-range :start-value="70" :end-value="100" />
-                </dx-range-container>
-            </dx-circular-gauge>
-
             <dx-tree-map ... >
                 <dx-colorizer palette="Harmony Light" />
             </dx-tree-map>
@@ -215,24 +349,42 @@ In the **CircularGauge** and **LinearGauge**, the palette can be specified in th
                     :palette-size="7"
                     :customize="colorizeMap" />
             </dx-vector-map>
+
+            <dx-range-selector
+                :data-source="[
+                    { arg: 'A', val1: 1, val2: 3 },
+                    { arg: 'B', val1: 5, val2: 5 },
+                    { arg: 'C', val1: 10, val2: 7 }
+                ]">
+                <dx-chart palette="Soft Pastel">
+                    <dx-common-series-settings type="bar" argument-field="arg" />
+                    <dx-series value-field="val1" />
+                    <dx-series value-field="val2" />
+                </dx-chart>
+            </dx-range-selector>
         </div>
     </template>
     <script>
-    import { DxCircularGauge, DxRangeContainer, DxRange, DxSubvalueIndicator } from 'devextreme-vue/circular-gauge';
     import { DxTreeMap, DxColorizer } from 'devextreme-vue/tree-map';
     import { DxVectorMap, DxLayer } from 'devextreme-vue/vector-map';
     import * as mapsData from 'devextreme/dist/js/vectormap-data/world.js';
+    import {
+        DxRangeSelector,
+        DxChart,
+        DxCommonSeriesSettings,
+        DxSeries
+    } from 'devextreme-vue/range-selector';
 
     export default {
         components: {
-            DxCircularGauge,
-            DxRangeContainer,
-            DxRange,
-            DxSubvalueIndicator,
             DxTreeMap,
             DxColorizer,
             DxVectorMap,
-            DxLayer
+            DxLayer,
+            DxRangeSelector,
+            DxChart,
+            DxCommonSeriesSettings,
+            DxSeries
         },
         data() {
             return {
@@ -254,17 +406,18 @@ In the **CircularGauge** and **LinearGauge**, the palette can be specified in th
 
 ##### React
 
+    <!-- tab: App.js -->
     import React from 'react';
-    import { CircularGauge, RangeContainer, Range } from 'devextreme-react/circular-gauge';
     import { TreeMap, Colorizer } from 'devextreme-react/tree-map';
     import { VectorMap, Layer } from 'devextreme-react/vector-map';
     import * as mapsData from 'devextreme/dist/js/vectormap-data/world.js';
+    import {
+        RangeSelector,
+        Chart,
+        Series,
+        CommonSeriesSettings
+    } from 'devextreme-react/range-selector';
 
-    const subvalues = [25, 40, 68];
-
-    const subvalueIndicator = {
-        palette: 'Soft Pastel'
-    };
 
     const worldMap = mapsData.world;
 
@@ -272,16 +425,6 @@ In the **CircularGauge** and **LinearGauge**, the palette can be specified in th
         render() {
             return (
                 <div>
-                    <CircularGauge
-                        subvalues={subvalues}
-                        subvalueIndicator={subvalueIndicator}>
-                        <RangeContainer palette="Violet">
-                            <Range startValue={0} endValue={30} />
-                            <Range startValue={30} endValue={70} />
-                            <Range startValue={70} endValue={100} />
-                        </RangeContainer>
-                    </CircularGauge>
-
                     <TreeMap ... >
                         <Colorizer palette="Violet" />
                     </TreeMap>
@@ -293,6 +436,19 @@ In the **CircularGauge** and **LinearGauge**, the palette can be specified in th
                             customize={this.colorizeMap}
                             palette="Violet" />
                     </VectorMap>
+
+                    <RangeSelector
+                        dataSource={[
+                            { arg: 'A', val1: 1, val2: 3 },
+                            { arg: 'B', val1: 5, val2: 5 },
+                            { arg: 'C', val1: 10, val2: 7 }
+                        ]}>
+                        <Chart palette="Soft Pastel">
+                            <CommonSeriesSettings type="bar" argumentField="arg" />
+                            <Series valueField="val1" />
+                            <Series valueField="val2" />
+                        </Chart>
+                    </RangeSelector>
                 </div>
             );
         }
@@ -311,10 +467,6 @@ In the **CircularGauge** and **LinearGauge**, the palette can be specified in th
 
 ---
 
-#include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/Gauges/PaletteForRanges/jQuery/Light/",
-    name: "Gauges"
-}
 #include common-demobutton-named with {
     url: "/Demos/WidgetsGallery/Demo/Charts/Colorization/jQuery/Light/",
     name: "TreeMap"
