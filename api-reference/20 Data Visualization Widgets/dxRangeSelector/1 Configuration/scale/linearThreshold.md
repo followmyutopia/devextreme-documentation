@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a value used to calculate the range on a [logarithmic scale]({basewidgetpath}/Configuration/scale/#type) within which the scale should be linear. This prevents generating an infinite number of small axis values.
+Specifies a value used to calculate the range on a [logarithmic scale]({basewidgetpath}/Configuration/scale/#type) within which the scale should be linear. Applies only if the data source contains negative values or zeroes.
 <!--/shortDescription-->
 
 <!--fullDescription-->
