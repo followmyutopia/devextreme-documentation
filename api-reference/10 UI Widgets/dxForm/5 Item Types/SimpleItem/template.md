@@ -40,6 +40,11 @@ The item editor's [configuration](/Documentation/ApiReference/UI_Widgets/dxForm/
 <!--typeFunctionParamDescription1_field4-->
 The editor's [type](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#editorType).
 <!--/typeFunctionParamDescription1_field4-->
+<!--typeFunctionParamName1_field5-->name<!--/typeFunctionParamName1_field5-->
+<!--typeFunctionParamType1_field5-->String<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamDescription1_field5-->
+
+<!--/typeFunctionParamDescription1_field5-->
 
 <!--typeFunctionParamName2-->itemElement<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->
