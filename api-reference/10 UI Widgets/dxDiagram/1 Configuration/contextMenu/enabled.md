@@ -1,7 +1,7 @@
-<!--id-->dxDiagram.Options.toolbox<!--/id-->
+<!--id-->dxDiagram.Options.contextMenu.enabled<!--/id-->
 ===========================================================================
-<!--default-->{}<!--/default-->
-<!--type-->Object<!--/type-->
+<!--default-->true<!--/default-->
+<!--type-->Boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -1,7 +1,7 @@
-<!--id-->DiagramDataSourceParameters.key<!--/id-->
+<!--id-->dxDiagram.Options.contextMenu<!--/id-->
 ===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->String<!--/type-->
+<!--default-->{}<!--/default-->
+<!--type-->Object<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -1,7 +1,6 @@
-<!--id-->dxDiagram.Options.toolbox<!--/id-->
+<!--id-->dxDiagram.Options.customShapes.backgroundImageTop<!--/id-->
 ===========================================================================
-<!--default-->{}<!--/default-->
-<!--type-->Object<!--/type-->
+<!--type-->Number<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -1,7 +1,5 @@
-<!--id-->DiagramDataSourceParameters.layout<!--/id-->
+<!--id-->dxDiagram.Options.toolbox.groups.title<!--/id-->
 ===========================================================================
-<!--default-->undefined<!--/default-->
-<!--acceptValues-->'tree' | 'sugiyama'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

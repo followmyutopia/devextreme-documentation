@@ -1,7 +1,7 @@
 <!--id-->dxDropDownButton.Options.items<!--/id-->
 ===========================================================================
 <!--default-->null<!--/default-->
-<!--type-->Array<CollectionWidgetItem, Object><!--/type-->
+<!--type-->Array<dxDropDownButtonItem, Object><!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

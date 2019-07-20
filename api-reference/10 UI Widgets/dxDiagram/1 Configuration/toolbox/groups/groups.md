@@ -1,7 +1,8 @@
-<!--id-->dxDiagram.Options.toolbox<!--/id-->
+<!--id-->dxDiagram.Options.toolbox.groups<!--/id-->
 ===========================================================================
-<!--default-->{}<!--/default-->
-<!--type-->Object<!--/type-->
+<!--default-->undefined<!--/default-->
+<!--acceptValues-->'general' | 'flowchart' | 'orgChart' | 'containers' | 'custom'<!--/acceptValues-->
+<!--type-->Array<Object> | Array<String><!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

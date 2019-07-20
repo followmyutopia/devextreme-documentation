@@ -1,7 +1,7 @@
-<!--id-->DiagramDataSourceParameters.edges<!--/id-->
+<!--id-->dxDropDownButtonItem<!--/id-->
 ===========================================================================
-<!--default-->null<!--/default-->
 <!--type-->Object<!--/type-->
+<!--inherits-->dxListItem<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -1,7 +1,6 @@
-<!--id-->dxDiagram.Options.toolbox<!--/id-->
+<!--id-->dxDiagram.Options.toolbox.groups.expanded<!--/id-->
 ===========================================================================
-<!--default-->{}<!--/default-->
-<!--type-->Object<!--/type-->
+<!--type-->Boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

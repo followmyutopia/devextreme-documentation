@@ -1,7 +1,7 @@
-<!--id-->DiagramDataSourceParameters.edges.dataSource<!--/id-->
+<!--id-->dxDiagram.Options.toolbox.visible<!--/id-->
 ===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->Array<Object> | DataSource | DataSource_Options<!--/type-->
+<!--default-->true<!--/default-->
+<!--type-->Boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

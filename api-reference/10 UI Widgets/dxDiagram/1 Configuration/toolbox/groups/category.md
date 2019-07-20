@@ -1,6 +1,6 @@
-<!--id-->DiagramDataSourceParameters.title<!--/id-->
+<!--id-->dxDiagram.Options.toolbox.groups.category<!--/id-->
 ===========================================================================
-<!--default-->null<!--/default-->
+<!--acceptValues-->'general' | 'flowchart' | 'orgChart' | 'containers' | 'custom'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

@@ -1,7 +1,7 @@
-<!--id-->DiagramDataSourceParameters.nodes.dataSource<!--/id-->
+<!--id-->dxDiagram.Options.toolbox.groups.style<!--/id-->
 ===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->Array<Object> | DataSource | DataSource_Options<!--/type-->
+<!--acceptValues-->'icons' | 'texts'<!--/acceptValues-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

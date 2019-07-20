@@ -1,7 +1,6 @@
-<!--id-->dxDiagram.Options.toolbox<!--/id-->
+<!--id-->dxDropDownButtonItem.showChevron<!--/id-->
 ===========================================================================
-<!--default-->{}<!--/default-->
-<!--type-->Object<!--/type-->
+<!--hidden--><!--/hidden-->
 ===========================================================================
 
 <!--shortDescription-->

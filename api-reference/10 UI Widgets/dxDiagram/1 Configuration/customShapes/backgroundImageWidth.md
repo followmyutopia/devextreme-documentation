@@ -1,7 +1,6 @@
-<!--id-->DiagramDataSourceParameters.nodes<!--/id-->
+<!--id-->dxDiagram.Options.customShapes.backgroundImageWidth<!--/id-->
 ===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->Object<!--/type-->
+<!--type-->Number<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
