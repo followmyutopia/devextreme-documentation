@@ -37,19 +37,14 @@ You can subscribe to an event using a configuration option. All event handling o
 
 ###Unsubscribe from an Event###
 
-To detach all the handlers that you attached with the **on()** method, call the **off()** method without arguments.
-
-    <!--JavaScript-->
-    $("#menuContainer").dxMenu("instance").off();
-
-Also, you can call this method to detach a specific handler from an event or all handlers from a particular event.
+To detach a specific handler from an event, call the **off(eventName, handler)** method.
 
     <!--JavaScript-->
     var menuInstance = $("#menuContainer").dxMenu("instance");
     // Detaches the "handler1" from the "itemClick" event leaving other handlers (if any) intact
     menuInstance.off("itemClick", handler1)
 
-<!-------------->
+You can also use this method to detach all handlers from a particular event.
 
     <!--JavaScript-->
     var menuInstance = $("#menuContainer").dxMenu("instance");
