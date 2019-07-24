@@ -74,12 +74,11 @@ The following code demonstrates how to change separators from commas to semicolo
 
     <!-- tab: App.vue -->
     <template>
-            <dx-drop-down-box ...
-                :display-value-formatter="displayValueFormatter"
-            >
-                <!-- ... -->
-            </dx-drop-down-box>
-        </div>
+        <dx-drop-down-box ...
+            :display-value-formatter="displayValueFormatter"
+        >
+            <!-- ... -->
+        </dx-drop-down-box>
     </template>
 
     <script>
