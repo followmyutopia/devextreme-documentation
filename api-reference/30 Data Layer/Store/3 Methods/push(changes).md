@@ -50,6 +50,8 @@ The **DataSource** does not automatically sort, group, filter, or otherwise shap
 
 When data is grouped or paginated, the widget bound to the **DataSource** ignores inserted data items until data is reshaped. Disable [grouping](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) and [paging](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) or enable **reshapeOnPush** for the inserted data items to appear immediately after they are pushed. The **DataGrid** and **TreeList** widgets have individual [grouping](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#groupIndex) and [paging](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/paging/#enabled) options. Use them instead of the corresponding **DataSource** options.
 
+[important] This method does not modify the remote data source. It is used to push changes from the remote data source to the store without reloading all data.
+
 #include common-demobutton-named with {
     url: "/Demos/WidgetsGallery/Demo/DataGrid/RealTimeUpdates/jQuery/Light/",
     name: "DataGrid Real-Time Updates"
