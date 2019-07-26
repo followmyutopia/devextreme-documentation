@@ -99,7 +99,9 @@ A user can change the applied filter by including or excluding values. Use a col
     
 ---
 
-You can use the **headerFilter**.[allowSearch](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/headerFilter/#allowSearch) option to enable the header filter's searching capability. The same option can be declared in a column's configuration object, in which case it controls searching in that column's header filter.
+#include datagrid-filtering-rowandheaderconflicts
+
+You can use the **headerFilter.**[allowSearch](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/headerFilter/#allowSearch) option to enable searching in the header filter. You can also declare this option in a column's configuration object to enable/disable searching in this column's header filter.
 
 ---
 ##### jQuery

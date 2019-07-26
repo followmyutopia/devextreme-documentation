@@ -59,6 +59,7 @@ If the **headerFilter**.[groupInterval]({basewidgetpath}/Configuration/columns/h
     </dx-{widget-name}>
 
 ---
+#include datagrid-filtering-rowandheaderconflicts
 
 #####See Also#####
 - [Filtering - Header Filter](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Header_Filter)

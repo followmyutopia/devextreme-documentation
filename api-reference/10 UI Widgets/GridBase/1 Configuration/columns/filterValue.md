@@ -11,4 +11,6 @@ Specifies the column's filter value displayed in the [filter row](/Documentation
 
 <!--fullDescription-->
 This value is applied using the [selectedFilterOperation]({basewidgetpath}/Configuration/columns/#selectedFilterOperation).
+
+#include datagrid-filtering-rowandheaderconflicts
 <!--/fullDescription-->
