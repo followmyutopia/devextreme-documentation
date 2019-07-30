@@ -1,7 +1,7 @@
 <!--id-->dxChartCommonAnnotationConfig.type<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--acceptValues-->'text' | 'image'<!--/acceptValues-->
+<!--acceptValues-->'text' | 'image' | 'custom'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

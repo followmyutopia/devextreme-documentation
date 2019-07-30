@@ -1,8 +1,9 @@
 <!--id-->dxVectorMap.Options.projection<!--/id-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--default-->undefined<!--/default-->
-<!--type-->Object<!--/type-->
+<!--default-->'mercator'<!--/default-->
+<!--acceptValues-->'equirectangular' | 'lambert' | 'mercator' | 'miller'<!--/acceptValues-->
+<!--type-->String | VectorMapProjectionConfig | Object<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

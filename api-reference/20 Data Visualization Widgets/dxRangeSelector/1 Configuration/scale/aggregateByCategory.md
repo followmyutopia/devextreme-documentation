@@ -1,0 +1,13 @@
+<!--id-->dxRangeSelector.Options.scale.aggregateByCategory<!--/id-->
+===========================================================================
+<!--default-->false<!--/default-->
+<!--type-->Boolean<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+
+<!--/shortDescription-->
+
+<!--fullDescription-->
+
+<!--/fullDescription-->
