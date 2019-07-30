@@ -4,7 +4,7 @@ This option accepts a value of one of the following types:
 The height in pixels.
 
 - **String**  
-A CSS-accepted measurement of height. For example, `"55px"`, `"80%"`, `"auto"`, `"inherit"`.
+A CSS-accepted measurement of height. For example, `"55px"`, `"80%"`, `"inherit"`.
 
 - **Function**  
 A function returning either of the above. For example:
