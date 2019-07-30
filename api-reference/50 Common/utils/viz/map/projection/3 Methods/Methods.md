@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-This section describes the methods exposed by the **DevExpress.viz.map** object.
+This section describes the methods exposed by the **DevExpress.viz.map.projection** object.
 <!--/shortDescription-->
 
 <!--fullDescription-->

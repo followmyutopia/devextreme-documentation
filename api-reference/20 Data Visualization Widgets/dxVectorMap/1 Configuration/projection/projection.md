@@ -4,6 +4,7 @@
 <!--default-->'mercator'<!--/default-->
 <!--acceptValues-->'equirectangular' | 'lambert' | 'mercator' | 'miller'<!--/acceptValues-->
 <!--type-->String | VectorMapProjectionConfig | Object<!--/type-->
+<!--inheritsType-->VectorMapProjectionConfig<!--/inheritsType-->
 ===========================================================================
 
 <!--shortDescription-->
