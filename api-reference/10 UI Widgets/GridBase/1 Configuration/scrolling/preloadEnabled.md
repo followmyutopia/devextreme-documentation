@@ -5,9 +5,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether the widget should load pages adjacent to the current page. Applies only if **scrolling**.[mode]({basewidgetpath}/Configuration/scrolling/#mode) is *"virtual"*.
+Specifies whether the widget should load adjacent pages. Applies only if **scrolling**.[mode]({basewidgetpath}/Configuration/scrolling/#mode) is *"virtual"* or *"infinite"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-In virtual scrolling mode, a page is loaded when it gets into the viewport. If you set this option to **true**, adjacent pages will be loaded as well. Note that although this setting makes scrolling smoother, it may cause lags on devices with low performance.
+In virtual and infinite scrolling modes, pages are loaded on demand. If you set this option to **true**, the adjacent pages are loaded in advance for smoother scrolling. This option can reduce the performance on older devices.
 <!--/fullDescription-->
