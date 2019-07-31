@@ -15,7 +15,7 @@ The projection's name.
 <!--paramName2-->projection<!--/paramName2-->
 <!--paramType2-->VectorMapProjectionConfig|Object<!--/paramType2-->
 <!--paramDescription2-->
-The projection returned by the [projection(data)](/Documentation/ApiReference/Common/Utils/viz/map/Methods/#projectiondata) method.
+The projection.
 <!--/paramDescription2-->
 
 <!--fullDescription-->

@@ -1,9 +1,15 @@
-Exposes methods of the **DevExpress.viz.map** object.
+Exposes methods of the [DevExpress.viz.map.projection](/Documentation/ApiReference/Common/utils/viz/map/projection/) object.
 
 Exports:
 
-- *projection* - The [projection](/Documentation/ApiReference/Common/utils/viz/map/Methods/#projectiondata) method
+- *add* - The [add(name, projection)](/Documentation/ApiReference/Common/utils/viz/map/projection/Methods/#addname_projection) method
 
-        require("viz/vector_map/projection").projection;
+        require("viz/vector_map/projection").add;
         // ===== or =====
-        import { projection } from "devextreme/viz/vector_map/projection";
+        import { add } from "devextreme/viz/vector_map/projection";
+
+- *get* - The [get(name)](/Documentation/ApiReference/Common/utils/viz/map/projection/Methods/#getname) method
+
+        require("viz/vector_map/projection").get;
+        // ===== or =====
+        import { get } from "devextreme/viz/vector_map/projection";
