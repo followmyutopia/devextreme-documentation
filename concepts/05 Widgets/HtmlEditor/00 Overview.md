@@ -1,4 +1,4 @@
-The **HtmlEditor** is a WYSIWYG text editor designed to support HTML and Markdown output formats. This widget is based on <a href="https://quilljs.com/" target="_blank">Quill</a>.
+**HtmlEditor** is a WYSIWYG editor that allows you to format textual and visual content and to output it in HTML or Markdown. **HtmlEditor** is built on top of and requires <a href="https://quilljs.com/" target="_blank">Quill</a>.
 
 #include common-ctp-note with {
     component: "HtmlEditor"
