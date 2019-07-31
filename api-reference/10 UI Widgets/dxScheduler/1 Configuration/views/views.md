@@ -6,30 +6,19 @@
 ===========================================================================
 
 <!--shortDescription-->
-Configures individual views.
+Specifies and configures the [views](/Documentation/Guide/Widgets/Scheduler/Views/View_Types/) to be available in the [view switcher](/Documentation/Guide/Widgets/Scheduler/View_Switcher/).
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The option accepts an array of views to be available within the scheduler [View Switcher](/Documentation/Guide/Widgets/Scheduler/View_Switcher/). If you need to customize a view, add a configuration object for it to the array. The configuration options that you can specify are listed further in this documentation section. If a view does not need individual customization, just add its type to the array.
+This option accepts an array of strings and objects:
 
-<!---->
+- **String**        
+A view name. Use a string if the view does not need customization, but should be available in the view switcher.
 
-    <!--JavaScript-->
-    var schedulerOptions = {
-        // . . .
-        dataSource: schedulerData,
-        startDayHour: 9,
-        endDayHour: 18,
-        views: [
-            { type: "day", startDayHour: 7, endDayHour: 22 },
-            { type: "workWeek", cellDuration: 60 },
-            "week",
-            "agenda"
-        ]
-    };
+- **Object**        
+An individual view's configuration. Set the [type](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/#type) option to specify the view to which the configuration should apply. This documentation section describes available options. The options set for an individual view have a higher priority than the same options set on the root level for all views.
 
-Set a default view by using the [currentView](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#currentView) option.  
-For more information on scheduler views, refer to the [Views](/Documentation/Guide/Widgets/Scheduler/Views/View_Types/) guide.
+To specify the default view, use the [currentView](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#currentView) option.
 
 #include common-ref-enum with {
     enum: "`SchedulerViewType`",
@@ -37,7 +26,6 @@ For more information on scheduler views, refer to the [Views](/Documentation/Gui
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-scheduler-customize_individual_views"
-} 
-<a href="https://www.youtube.com/watch?v=JHUSz3S0cWw&index=2&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" target="_blank">Watch Video</a>
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/CustomizeIndividualViews/jQuery/Light/"
+}
 <!--/fullDescription-->
