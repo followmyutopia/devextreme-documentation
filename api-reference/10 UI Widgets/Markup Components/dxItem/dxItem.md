@@ -18,7 +18,7 @@ The **dxItem** component defines custom markup for items in layout and collectio
         <div data-options="dxItem: { text: 'Apples', disabled: true }"></div>
         <div data-options="dxItem: { text: 'Lemons', visible: false }"></div>
         <div data-options="dxItem: { }">
-            <!-- custom markup -->
+            <!-- Custom markup -->
         </div>
     </div>
 
@@ -34,7 +34,13 @@ The **dxItem** component defines custom markup for items in layout and collectio
         <dxi-item text="Apples" [disabled]="true"></dxi-item>
         <dxi-item text="Lemons" [visible]="false"></dxi-item>
         <dxi-item>
-            <!-- custom markup -->
+            <!-- Custom markup -->
+        </dxi-item>
+        <dxi-item>
+            <!-- A nested component should be wrapped in an element with a parameterless dxTemplate directive -->
+            <div *dxTemplate>
+                <dx-button text="I am a nested component"></dx-button>
+            </div>
         </dxi-item>
     </dx-list>
 
@@ -57,7 +63,7 @@ The **dxItem** component defines custom markup for items in layout and collectio
         <div data-options="dxItem: { text: 'Apples', disabled: true }"></div>
         <div data-options="dxItem: { text: 'Lemons', visible: false }"></div>
         <div data-options="dxItem: { }">
-            <!-- custom markup -->
+            <!-- Custom markup -->
         </div>
     </div>
 
@@ -74,7 +80,7 @@ The **dxItem** component defines custom markup for items in layout and collectio
         <div data-options="dxItem: { text: 'Apples', disabled: true }"></div>
         <div data-options="dxItem: { text: 'Lemons', visible: false }"></div>
         <div data-options="dxItem: { }">
-            <!-- custom markup -->
+            <!-- Custom markup -->
         </div>
     </div>
 
@@ -98,7 +104,7 @@ The **dxItem** component defines custom markup for items in layout and collectio
                     <Item text="Apples" disabled={true} />
                     <Item text="Oranges" visible={false} />
                     <Item>
-                        <!-- custom markup -->
+                        <!-- Custom markup -->
                     </Item>
                 </List>
             );
