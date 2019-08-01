@@ -36,11 +36,11 @@ The messages to be loaded.
 ##### Angular
 
     <!--TypeScript-->
-    import { localization } from "devextreme";
+    import { loadMessages } from "devextreme/localization";
     // ...
     export class AppComponent {
         constructor() {
-            localization.loadMessages({
+            loadMessages({
                 "en": {
                     "Yes": "Yes",
                     "No": "No",
