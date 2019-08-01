@@ -5,9 +5,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether to shade the [container]({basewidgetpath}/Configuration/#container) when the widget is active.
+Specifies whether to shade the background when the widget is active.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+Shading applies to the first specified element in the following sequence: [container]({basewidgetpath}/Configuration/#container) => [position]({basewidgetpath}/Configuration/#position).[of](/Documentation/ApiReference/Common/Object_Structures/positionConfig/#of) => **window**
 <!--/fullDescription-->
