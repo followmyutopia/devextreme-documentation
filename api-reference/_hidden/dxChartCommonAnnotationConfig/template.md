@@ -18,12 +18,12 @@
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->element<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->
+<!--typeFunctionParamType2-->SVGGElement<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
 
 <!--/typeFunctionParamDescription2-->
 
-<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String|SVGElement|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 
 <!--/typeFunctionReturnDescription-->
