@@ -18,6 +18,11 @@ To make header filter icons visible, assign **true** to the **headerFilter**.[vi
     url: "/Demos/WidgetsGallery/Demo/{WidgetName}/Filtering/jQuery/Light/"
 }
 
+#include datagrid-filtering-selectallmodifiesfiltertype with {
+    filterValuesLink: "{basewidgetpath}/Configuration/columns/#filterValues",
+    filterTypeLink: "{basewidgetpath}/Configuration/columns/#filterType"
+}
+
 #####See Also#####
 - [Header Filter](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Header_Filter)
 - **columns[]**.[allowHeaderFiltering]({basewidgetpath}/Configuration/columns/#allowHeaderFiltering)

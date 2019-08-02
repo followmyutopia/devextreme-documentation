@@ -13,9 +13,28 @@ Specifies whether a user changes the current filter by including (selecting) or 
 This option accepts the following values.
 
 - **include**       
-Values in the header filter are unselected initially, and the user changes the filter by selecting, that is, including the values.
+Values in the header filter are unselected initially, and a user can select values to apply a filter.
 - **exclude**       
-All values in the header filter are selected initially, and the user changes the filter by clearing the selection of certain values, that is, by excluding them.
+All values in the header filter are selected initially. A user can deselect values to change the filter.
+
+This option changes when the user clicks the **Select All** checkbox in the [header filter](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/headerFilter/):
+
+<div class="simple-table">
+    <table>
+        <tr>
+            <th>Select All</th>
+            <th>filterType / filterValues</th>
+        </tr>
+        <tr>
+            <td><img src="Content/images/doc/19_2/DataGrid/dg-selectall-unchecked.png"></td>
+            <td><code>filterType: "include"</code><br><code>filterValues: null</code></td>
+        </tr>
+        <tr>
+            <td><img src="Content/images/doc/19_2/DataGrid/dg-selectall-checked.png"></td>
+            <td><code>filterType: "exclude"</code><br><code>filterValues: null</code></td>
+        </tr>
+    </table>
+</div>
 
 #include common-ref-enum with {
     enum: "`FilterType`",
