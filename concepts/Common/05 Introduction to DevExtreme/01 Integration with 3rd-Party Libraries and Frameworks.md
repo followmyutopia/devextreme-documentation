@@ -7,7 +7,7 @@ DevExtreme supports integration with client-side technologies and server-side fr
 - <a href="https://github.com/DevExpress/devextreme-vue#devextreme-vue-ui-and-visualization-components" target="_blank">Vue</a> - versions 2.5.16 and later
 - React
     - [DevExtreme React Components](/Documentation/Guide/React_Components/DevExtreme_React_Components/) - versions 16.2 and later
-    - <a href="https://github.com/DevExpress/devextreme-reactive/blob/master/README.md#business-components-for-react" target="_blank">DevExtreme Reactive Components for React</a> - versions 16.2 and later
+    - <a href="https://devexpress.github.io/devextreme-reactive/react" target="_blank">DevExtreme Reactive Components for React</a> - versions 16.8 and later
 - [ASP.NET](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/): ASP.NET MVC 5 / .NET Core 2.0 and later
 
 You can integrate DevExtreme with other frameworks or use DevExtreme widgets without jQuery and frameworks:
