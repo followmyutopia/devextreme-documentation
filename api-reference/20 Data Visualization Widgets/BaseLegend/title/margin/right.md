@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the legend title's right margin.
 <!--/shortDescription-->
 
 <!--fullDescription-->
