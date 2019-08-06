@@ -1,6 +1,7 @@
 <!--id-->dxChart.Options.commonAnnotationSettings<!--/id-->
 ===========================================================================
 <!--type-->dxChartCommonAnnotationConfig<!--/type-->
+<!--inheritsType-->dxChartCommonAnnotationConfig<!--/inheritsType-->
 ===========================================================================
 
 <!--shortDescription-->
