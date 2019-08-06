@@ -1,11 +1,11 @@
-<!--id-->BaseLegend.title.margin.left<!--/id-->
+<!--id-->dxFileManager.Options.currentPath<!--/id-->
 ===========================================================================
-<!--default-->0<!--/default-->
-<!--type-->Number<!--/type-->
+<!--default-->''<!--/default-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the legend title's left margin.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

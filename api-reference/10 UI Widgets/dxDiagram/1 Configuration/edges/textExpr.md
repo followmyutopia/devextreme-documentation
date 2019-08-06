@@ -1,11 +1,11 @@
-<!--id-->dxDiagram.Options.nodes.parentKeyExpr<!--/id-->
+<!--id-->dxDiagram.Options.edges.textExpr<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String | function(data)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies data field that provides a parent node ID for a node.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

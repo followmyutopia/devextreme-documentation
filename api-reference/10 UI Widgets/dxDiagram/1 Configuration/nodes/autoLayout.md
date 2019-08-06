@@ -1,11 +1,12 @@
-<!--id-->BaseLegend.title.margin.left<!--/id-->
+<!--id-->dxDiagram.Options.nodes.autoLayout<!--/id-->
 ===========================================================================
-<!--default-->0<!--/default-->
-<!--type-->Number<!--/type-->
+<!--default-->'tree'<!--/default-->
+<!--acceptValues-->'off' | 'tree' | 'sugiyama'<!--/acceptValues-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the legend title's left margin.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

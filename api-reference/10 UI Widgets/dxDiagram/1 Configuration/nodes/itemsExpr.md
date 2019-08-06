@@ -1,6 +1,6 @@
 <!--id-->dxDiagram.Options.nodes.itemsExpr<!--/id-->
 ===========================================================================
-<!--default-->'items'<!--/default-->
+<!--default-->undefined<!--/default-->
 <!--type-->String | function(data)<!--/type-->
 ===========================================================================
 
