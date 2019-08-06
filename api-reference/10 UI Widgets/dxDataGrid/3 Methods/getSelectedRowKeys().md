@@ -8,7 +8,7 @@ Gets the currently selected rows' keys.
 
 <!--returnType-->Array<any>|Promise<any><!--/returnType-->
 <!--returnDescription-->
-The currently selected rows' keys or a Promise that is resolved with an array of keys.
+Keys of currently selected rows or a Promise that is resolved with an array of keys. The keys are stored in the order the user selects rows.
 <!--/returnDescription-->
 
 <!--fullDescription-->

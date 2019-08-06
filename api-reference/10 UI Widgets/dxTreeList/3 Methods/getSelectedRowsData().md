@@ -8,7 +8,7 @@ Gets the data objects of the rows selected explicitly [via the API](/Documentati
 
 <!--returnType-->Array<any><!--/returnType-->
 <!--returnDescription-->
-The selected rows' data objects.
+Data objects of selected rows. The data objects are stored in the order the user selects rows.
 <!--/returnDescription-->
 
 <!--fullDescription-->

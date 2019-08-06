@@ -8,7 +8,7 @@ Gets the keys of the rows selected explicitly [via the API](/Documentation/Guide
 
 <!--returnType-->Array<any><!--/returnType-->
 <!--returnDescription-->
-The selected rows' keys.
+Keys of selected rows. The keys are stored in the order the user selects rows.
 <!--/returnDescription-->
 
 <!--fullDescription-->

@@ -17,7 +17,7 @@ Specifies whether this method returns only leaves' keys.
 
 <!--returnType-->Array<any><!--/returnType-->
 <!--returnDescription-->
-The selected rows' keys.
+Keys of selected rows. The keys are stored in the order the user selects rows.
 <!--/returnDescription-->
 
 <!--fullDescription-->

@@ -8,7 +8,7 @@ Gets the selected rows' data objects.
 
 <!--returnType-->Array<any>|Promise<any><!--/returnType-->
 <!--returnDescription-->
-The selected rows' data objects or a Promise that is resolved with an array of these objects.
+Data objects of selected rows or a Promise that is resolved with an array of these objects. The data objects are stored in the order the user selects rows.
 <!--/returnDescription-->
 
 <!--fullDescription-->
