@@ -12,7 +12,4 @@ Specifies whether the search panel is visible.
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/{WidgetName}/{WidgetName}WithSearchBar/jQuery/Light/"
 }
-
-#####See Also#####
-- [TreeView - Searching](/Documentation/Guide/Widgets/TreeView/Search_Nodes/)
 <!--/fullDescription-->

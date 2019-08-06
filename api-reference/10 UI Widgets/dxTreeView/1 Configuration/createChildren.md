@@ -4,11 +4,19 @@
 ===========================================================================
 
 <!--shortDescription-->
-Allows you to load nodes. Applies if the [dataStructure](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#dataStructure) is *"plain"* and the [dataSource](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#dataSource) and [items](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#items) are undefined.
+Allows you to load nodes on demand.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This function is called at the beginning of the widget's lifetime and each time a user expands a node whose child nodes have not been loaded yet. It allows you to load the entire tree in portions: load root nodes first (when the function's **parentNode** parameter is **null**) and the child nodes of each expanded node later.
+**createChildren** is called at the beginning of the widget's lifetime and each time a user expands a node whose child nodes have not been loaded yet. It allows you to load the entire tree in portions: load root nodes first (when the function's **parentNode** parameter is **null**) and the child nodes of each expanded node later.
+
+This function has the following restrictions:
+
+- Neither the [dataSource](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#dataSource), nor the [items](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#items) option should be specified.
+
+- The [dataStructure](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#dataStructure) option should be set to *"plain"*.
+
+- Since the [search](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#searchEnabled) will be performed on loaded nodes only and thus produce incorrect results, it is not recommended that you enable this functionality.
 
 The following code shows how to use this function with a remote service:
 
