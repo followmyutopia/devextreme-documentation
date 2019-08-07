@@ -18,7 +18,7 @@ The following code shows the **commonAnnotationSettings** declaration syntax:
 
     <!-- tab: index.js -->
     $(function() {
-        $("chartContainer").dxChart({
+        $("#chartContainer").dxChart({
             // ...
             commonAnnotationSettings: {
                 tooltipEnabled: false
