@@ -1,7 +1,8 @@
-<!--id-->dxDiagram.Options.gridSize<!--/id-->
+<!--id-->dxDiagram.Options.units<!--/id-->
 ===========================================================================
-<!--default-->0.125<!--/default-->
-<!--type-->Number | Object<!--/type-->
+<!--default-->'in'<!--/default-->
+<!--acceptValues-->'in' | 'cm' | 'px'<!--/acceptValues-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

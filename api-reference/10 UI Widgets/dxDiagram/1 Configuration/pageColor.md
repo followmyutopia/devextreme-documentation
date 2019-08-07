@@ -1,7 +1,7 @@
-<!--id-->dxDiagram.Options.gridSize<!--/id-->
+<!--id-->dxDiagram.Options.pageColor<!--/id-->
 ===========================================================================
-<!--default-->0.125<!--/default-->
-<!--type-->Number | Object<!--/type-->
+<!--default-->'white'<!--/default-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

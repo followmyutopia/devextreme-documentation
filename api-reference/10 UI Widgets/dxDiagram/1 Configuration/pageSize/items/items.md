@@ -1,7 +1,7 @@
-<!--id-->dxDiagram.Options.gridSize<!--/id-->
+<!--id-->dxDiagram.Options.pageSize.items<!--/id-->
 ===========================================================================
-<!--default-->0.125<!--/default-->
-<!--type-->Number | Object<!--/type-->
+<!--default-->undefined<!--/default-->
+<!--type-->Array<Object><!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

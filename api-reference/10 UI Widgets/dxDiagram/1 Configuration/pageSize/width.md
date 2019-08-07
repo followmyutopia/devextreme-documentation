@@ -1,7 +1,7 @@
-<!--id-->dxDiagram.Options.gridSize<!--/id-->
+<!--id-->dxDiagram.Options.pageSize.width<!--/id-->
 ===========================================================================
-<!--default-->0.125<!--/default-->
-<!--type-->Number | Object<!--/type-->
+<!--default-->5.827<!--/default-->
+<!--type-->Number<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
