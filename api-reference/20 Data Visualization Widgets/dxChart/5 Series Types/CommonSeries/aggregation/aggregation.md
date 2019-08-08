@@ -13,7 +13,7 @@ If the **Chart** contains many series points, displaying all of them may lower i
 The **Chart** provides [several aggregation methods](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/aggregation/#method), which differ depending on the series type, and a capability to implement a [custom aggregate function](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/aggregation/#calculate). To enable data aggregation for the series, set the **aggregation**.[enabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/aggregation/#enabled) option to **true**.
 
 #####See Also#####
-- **Points Aggregation Demo**: [Milti-Series Chart](/Demos/WidgetsGallery/Demo/Charts/PointsAggregation/jQuery/Light/) | [Financial Chart](/Demos/WidgetsGallery/Demo/Charts/PointsAggregationFinancialChart/jQuery/Light/)
+- **Points Aggregation Demo**: [Multi-Series Chart](/Demos/WidgetsGallery/Demo/Charts/PointsAggregation/jQuery/Light/) | [Financial Chart](/Demos/WidgetsGallery/Demo/Charts/PointsAggregationFinancialChart/jQuery/Light/)
 - [Data Aggregation](/Documentation/Guide/Widgets/Chart/Data_Aggregation/)
 - [autoHidePointMarkers](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#autoHidePointMarkers)
 <!--/fullDescription-->
