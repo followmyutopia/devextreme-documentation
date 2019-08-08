@@ -2,6 +2,7 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Array<dxDataGridColumn, String><!--/type-->
+<!--inheritsType-->dxDataGridColumn<!--/inheritsType-->
 ===========================================================================
 
 <!--shortDescription-->

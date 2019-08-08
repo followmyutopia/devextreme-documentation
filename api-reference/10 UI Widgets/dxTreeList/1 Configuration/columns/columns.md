@@ -2,6 +2,7 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Array<dxTreeListColumn, String><!--/type-->
+<!--inheritsType-->dxTreeListColumn<!--/inheritsType-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -3,6 +3,7 @@
 <!--default-->undefined<!--/default-->
 <!--type-->Array<GridBaseColumn, String><!--/type-->
 <!--firedEvents-->optionChanged<!--/firedEvents-->
+<!--inheritsType-->GridBaseColumn<!--/inheritsType-->
 ===========================================================================
 
 <!--shortDescription-->
