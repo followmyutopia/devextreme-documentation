@@ -1,6 +1,6 @@
 <!--id-->dxDiagram.Options.autoZoom<!--/id-->
 ===========================================================================
-<!--default-->false<!--/default-->
+<!--default-->'disabled'<!--/default-->
 <!--acceptValues-->'fitContent' | 'fitWidth' | 'disabled'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
