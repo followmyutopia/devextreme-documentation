@@ -10,5 +10,5 @@ Makes the series points visible.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+[note]When this option is **true**, some of the series points may still be hidden because of the [autoHidePointMarkers](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#autoHidePointMarkers) option.
 <!--/fullDescription-->
