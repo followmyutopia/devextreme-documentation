@@ -26,6 +26,22 @@ Add diagram resources (scripts and styles) onto the page.
     
 Use the the `dx-diagram.css` and `dx-diagram.js` files to add an unminified version of the resource files to your page.
 
+[note]
+
+The Diagram widget is a jQuery DevExtreme widget, and thus requires common DevExtreme resources (listed below) to be included into your page.
+
+        <!--HTML-->
+        @* DevExtreme themes *@
+        <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/19.2.2/css/dx.common.css">
+        <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/19.2.2/css/dx.light.css">\
+        @* jQuery *@
+        <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+        @* DevExtreme common scripts *@
+        <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/19.2.2/js/dx.all.js"></script>
+        
+[/note]
+
+
 Initialize the **Diagram** widget in a DOM element.
 
         <!--JavaScript-->
