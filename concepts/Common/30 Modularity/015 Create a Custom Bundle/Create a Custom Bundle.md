@@ -83,7 +83,7 @@ The example below demonstrates how to create an application with a single button
     ui.dxButton = require("devextreme/ui/button");
 
 
-#####AngularJS Approach####
+#####AngularJS####
 
 **index.js**
 
@@ -137,7 +137,7 @@ The example below demonstrates how to create an application with a single button
     ui.dxButton = require("devextreme/ui/button");
 
 
-#####Knockout Approach####
+#####Knockout####
 
 **index.html**
 

@@ -12,7 +12,7 @@ Specifies the data field types. Accepts the following types: *"String"*, *"Int32
 Set this option if you are going to [filter data](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering). An object assigned to it should list data fields and their types as field-value pairs. You can also use this option instead of the [keyType](/Documentation/ApiReference/Data_Layer/ODataStore/Configuration/#keyType) to specify the key property's type.
 
 ---
-#####jQuery
+##### jQuery
 
     <!--JavaScript-->
     var store = new DevExpress.data.ODataStore({
@@ -25,7 +25,7 @@ Set this option if you are going to [filter data](/Documentation/Guide/Data_Laye
         }
     });
 
-#####Angular
+##### Angular
 
     <!--TypeScript-->
     import ODataStore from "devextreme/data/odata/store";
@@ -45,7 +45,7 @@ Set this option if you are going to [filter data](/Documentation/Guide/Data_Laye
         };
     }
 
-##### ASP.NET MVC Control
+##### ASP.NET MVC Controls
 
     <!--Razor C#-->@(Html.DevExtreme().WidgetName()
         .DataSource(d => d.OData()
