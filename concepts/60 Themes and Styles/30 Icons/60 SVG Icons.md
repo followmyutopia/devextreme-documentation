@@ -23,3 +23,5 @@ An SVG icon can be specified as follows:
         new DevExpress.ui.dxButton(targetElement, {
             icon: myIcon
         });
+
+[important]The SVG format allows you to run executable code that might be malicious. It is strongly recommend that you use SVG icons only from trusted sources.
