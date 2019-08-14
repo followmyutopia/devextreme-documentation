@@ -1,12 +1,11 @@
-<!--id-->VizRange.endValue<!--/id-->
+<!--id-->dxDiagram.Options.nodes.autoLayout.orientation<!--/id-->
 ===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number | Date | String<!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
+<!--acceptValues-->'auto' | 'vertical' | 'horizontal'<!--/acceptValues-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-The range's end value.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

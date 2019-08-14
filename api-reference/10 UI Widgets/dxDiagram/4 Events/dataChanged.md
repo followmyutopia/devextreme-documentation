@@ -30,8 +30,3 @@ Main article: [onDataChanged]({basewidgetpath}/Configuration/#onDataChanged)
 <!--typeFunctionParamDescription1_field3-->
 
 <!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->data<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->String<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-
-<!--/typeFunctionParamDescription1_field4-->

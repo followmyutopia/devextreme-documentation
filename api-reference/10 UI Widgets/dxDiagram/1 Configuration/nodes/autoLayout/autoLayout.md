@@ -1,12 +1,12 @@
-<!--id-->VizRange.endValue<!--/id-->
+<!--id-->dxDiagram.Options.nodes.autoLayout<!--/id-->
 ===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number | Date | String<!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
+<!--default-->'tree'<!--/default-->
+<!--acceptValues-->'off' | 'tree' | 'sugiyama'<!--/acceptValues-->
+<!--type-->String | Object<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-The range's end value.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

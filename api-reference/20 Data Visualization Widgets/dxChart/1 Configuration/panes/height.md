@@ -1,12 +1,11 @@
-<!--id-->VizRange.endValue<!--/id-->
+<!--id-->dxChart.Options.panes.height<!--/id-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--type-->Number | Date | String<!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
+<!--type-->Number | String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-The range's end value.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

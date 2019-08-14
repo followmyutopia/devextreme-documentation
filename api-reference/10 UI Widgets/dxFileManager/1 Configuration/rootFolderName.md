@@ -1,7 +1,6 @@
-<!--id-->dxDiagram.Options.nodes.autoLayout<!--/id-->
+<!--id-->dxFileManager.Options.rootFolderName<!--/id-->
 ===========================================================================
-<!--default-->'tree'<!--/default-->
-<!--acceptValues-->'off' | 'tree' | 'sugiyama'<!--/acceptValues-->
+<!--default-->'Files'<!--/default-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

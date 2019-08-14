@@ -18,7 +18,7 @@
 
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->this<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 
 <!--/typeFunctionParamDescription1_field1-->
@@ -28,7 +28,7 @@
 
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 
 <!--/typeFunctionParamDescription1_field3-->
