@@ -33,7 +33,7 @@ To export the widget using the API, call the [exportTo(fileName, format)](/Docum
 
 ---
 
-You can also export several widgets simultaneously using their SVG markup. Call the [DevExpress.viz.getMarkup(widgetInstances)](/Documentation/ApiReference/Common/utils/viz/Methods/#getMarkupwidgetInstances) method to collect the markup from all the required widgets and pass it to the [DevExpress.viz.exportFromMarkup(markup, options)](/Documentation/ApiReference/Common/utils/viz/Methods/#exportFromMarkupmarkup_options) method.
+You can also export several widgets simultaneously using their SVG markup. Call the [DevExpress.viz.getMarkup(widgetInstances)](/Documentation/ApiReference/Common/utils/viz/#getMarkupwidgetInstances) method to collect the markup from all the required widgets and pass it to the [DevExpress.viz.exportFromMarkup(markup, options)](/Documentation/ApiReference/Common/utils/viz/#exportFromMarkupmarkup_options) method.
 
 ---
 ##### jQuery

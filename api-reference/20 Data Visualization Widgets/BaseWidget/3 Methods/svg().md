@@ -13,6 +13,6 @@ The widget's SVG markup.
 
 <!--fullDescription-->
 #####See Also#####
-- [DevExpress.viz.getMarkup(widgetInstances)](/Documentation/ApiReference/Common/utils/viz/Methods/#getMarkupwidgetInstances)
+- [DevExpress.viz.getMarkup(widgetInstances)](/Documentation/ApiReference/Common/utils/viz/#getMarkupwidgetInstances)
 #include common-link-callmethods
 <!--/fullDescription-->

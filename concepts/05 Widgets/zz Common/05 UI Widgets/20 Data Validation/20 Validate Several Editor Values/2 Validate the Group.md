@@ -285,7 +285,7 @@ You can validate any group by calling its [validate()](/Documentation/ApiReferen
 
 ---
 
-Alternatively, you can validate a group using the [DevExpress.validationEngine.validateGroup](/Documentation/ApiReference/Common/utils/validationEngine/Methods/#validateGroup) method. Call it without arguments to validate the **Default Validation Group**:
+Alternatively, you can validate a group using the [DevExpress.validationEngine.validateGroup](/Documentation/ApiReference/Common/utils/validationEngine/#validateGroup) method. Call it without arguments to validate the **Default Validation Group**:
 
     <!--JavaScript-->DevExpress.validationEngine.validateGroup();
 

@@ -20,11 +20,11 @@ The **ValidationGroup** is a widget that allows you to validate several editors 
     url: "/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/"
 }
 
-You can use the [DevExpress.validationEngine.validateGroup(group)](/Documentation/ApiReference/Common/Utils/validationEngine/Methods/#validateGroupgroup) method to validate a particular validation group by passing its instance as a parameter.
+You can use the [DevExpress.validationEngine.validateGroup(group)](/Documentation/ApiReference/Common/Utils/validationEngine/#validateGroupgroup) method to validate a particular validation group by passing its instance as a parameter.
 
     <!--JavaScript-->DevExpress.validationEngine.validateGroup($("#sampleGroup").dxValidationGroup("instance"));
 
-In addition, you can access a validation group's configuration using the [DevExpress.validationEngine.getGroupConfig(group)](/Documentation/ApiReference/Common/Utils/validationEngine/Methods/#getGroupConfiggroup) method. The returned configuration exposes the **validators** included to the group, the **validate()** method to validate the editors that are associated with the validators and the **validated** event that occurs after the group is validated.
+In addition, you can access a validation group's configuration using the [DevExpress.validationEngine.getGroupConfig(group)](/Documentation/ApiReference/Common/Utils/validationEngine/#getGroupConfiggroup) method. The returned configuration exposes the **validators** included to the group, the **validate()** method to validate the editors that are associated with the validators and the **validated** event that occurs after the group is validated.
 
 [note]Nested validation groups are not supported.
 

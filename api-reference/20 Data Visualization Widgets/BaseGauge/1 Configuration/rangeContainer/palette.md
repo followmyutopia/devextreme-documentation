@@ -24,6 +24,6 @@ Specifies the palette to be used for colorizing ranges in the range container.
 #####See Also#####
 - [Palettes](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Palettes)
 - [paletteExtensionMode]({basewidgetpath}/Configuration/rangeContainer/#paletteExtensionMode)
-- [DevExpress.viz.generateColors(palette, count, options)](/Documentation/ApiReference/Common/utils/viz/Methods/#generateColorspalette_count_options)
+- [DevExpress.viz.generateColors(palette, count, options)](/Documentation/ApiReference/Common/utils/viz/#generateColorspalette_count_options)
 - **rangeContainer**.**ranges[]**.[color]({basewidgetpath}/Configuration/rangeContainer/ranges/#color)
 <!--/fullDescription-->

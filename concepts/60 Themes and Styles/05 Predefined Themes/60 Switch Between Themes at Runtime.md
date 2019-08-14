@@ -21,7 +21,7 @@ There are two ways to switch between themes. Use the following way if the themes
             <!-- ... -->
         </head>
 
-1. Switch to a theme using the [DevExpress.ui.themes.current(themeName)](/Documentation/ApiReference/Common/utils/ui/themes/Methods/#currentthemeName) method. It accepts the `data-theme` attribute's value from the previous code. The following example shows how to apply the Generic Contrast theme:
+1. Switch to a theme using the [DevExpress.ui.themes.current(themeName)](/Documentation/ApiReference/Common/utils/ui/themes/#currentthemeName) method. It accepts the `data-theme` attribute's value from the previous code. The following example shows how to apply the Generic Contrast theme:
 
         DevExpress.ui.themes.current("generic.contrast");
         // ===== or when using modules =====

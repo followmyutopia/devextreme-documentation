@@ -22,7 +22,7 @@ To avoid [defining animations](/Documentation/ApiReference/Common/Object_Structu
 - *stagger-drop*
 - *stagger-3d-drop*
 
-[note]Stagger-like animations are executed by the [transitionExecutor](/Documentation/ApiReference/Common/Utils/TransitionExecutor/) only. They cannot be applied by calling the [animate](/Documentation/ApiReference/Common/Utils/fx/Methods/#animateelement_config) method for a particular element.
+[note]Stagger-like animations are executed by the [transitionExecutor](/Documentation/ApiReference/Common/Utils/TransitionExecutor/) only. They cannot be applied by calling the [animate](/Documentation/ApiReference/Common/Utils/fx/#animateelement_config) method for a particular element.
 
-To populate the **animationPresets** repository with your animations, use the [registerPreset(name, config)](/Documentation/ApiReference/Common/Utils/animationPresets/Methods/#registerPresetname_config) method. To get the required animation from the repository, use the [getPreset(name)](/Documentation/ApiReference/Common/Utils/animationPresets/Methods/#getPresetname) method.
+To populate the **animationPresets** repository with your animations, use the [registerPreset(name, config)](/Documentation/ApiReference/Common/Utils/animationPresets/#registerPresetname_config) method. To get the required animation from the repository, use the [getPreset(name)](/Documentation/ApiReference/Common/Utils/animationPresets/#getPresetname) method.
 <!--/fullDescription-->

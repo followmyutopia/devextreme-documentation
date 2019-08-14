@@ -11,7 +11,7 @@ The events used to handle user interaction with UI elements.
 
 <!--fullDescription-->
 <a name="introduction"></a>
-DevExtreme provides UI events for processing a user's interaction with a specific UI element. The [DevExpress.events](/Documentation/ApiReference/Common/utils/events/Methods/) namespace exposes an API to work with the UI events. 
+DevExtreme provides UI events for processing a user's interaction with a specific UI element. The [DevExpress.events](/Documentation/ApiReference/Common/utils/events/) namespace exposes an API to work with the UI events. 
 
 The following code shows how to attach, trigger and then detach a **dxhold** event handler from a page element with the `target` ID. The `timeout` parameter specifies how long the `target` should be held to allow the handler to execute:
 

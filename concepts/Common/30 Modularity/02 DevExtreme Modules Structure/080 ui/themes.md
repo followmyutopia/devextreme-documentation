@@ -2,7 +2,7 @@ Exposes an [object](/Documentation/ApiReference/Common/Utils/ui/themes/) that se
 
 Exports:
 
-- *current* - The [current()](/Documentation/ApiReference/Common/Utils/ui/themes/Methods/#current) and [current(themeName)](/Documentation/ApiReference/Common/Utils/ui/themes/Methods/#currentthemeName) methods
+- *current* - The [current()](/Documentation/ApiReference/Common/utils/ui/themes/#current) and [current(themeName)](/Documentation/ApiReference/Common/utils/ui/themes/#currentthemeName) methods
 
         require("ui/themes").current;
         // ===== or =====

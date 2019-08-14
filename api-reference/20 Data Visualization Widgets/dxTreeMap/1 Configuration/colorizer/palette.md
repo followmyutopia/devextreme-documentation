@@ -41,5 +41,5 @@ But the *"gradient"* and *"range"* types require strictly two colors.
 #####See Also#####
 - [Palettes](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Palettes)
 - **colorizer**.[paletteExtensionMode]({basewidgetpath}/Configuration/colorizer/#paletteExtensionMode)
-- [DevExpress.viz.generateColors(palette, count, options)](/Documentation/ApiReference/Common/utils/viz/Methods/#generateColorspalette_count_options)
+- [DevExpress.viz.generateColors(palette, count, options)](/Documentation/ApiReference/Common/utils/viz/#generateColorspalette_count_options)
 <!--/fullDescription-->
