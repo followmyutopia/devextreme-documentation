@@ -62,6 +62,84 @@ Using this function, you can process user input before it is saved to the data s
         <dxi-column dataField="TotalPrice"></dxi-column>
     </dx-{widget-name}>
 
+#####Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-{widget-name} ... >
+            <dx-column data-field="Price" />
+            <dx-column data-field="Count" data-type="number" />
+            <dx-column data-field="TotalPrice" :set-cell-value="setCellValue" />
+        </dx-{widget-name}>
+    </template>
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import { Dx{WidgetName}, DxColumn } from 'devextreme-vue/{widget-name}';
+
+    export default {
+        components: {
+            Dx{WidgetName},
+            DxColumn
+        },
+        // ...
+        methods: {
+            setCellValue(newData, value, currentRowData) {
+                newData.Count = value;
+                newData.TotalPrice = currentRowData.Price * value;
+            }
+        }
+    };
+    </script>
+
+#####React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import { {WidgetName}, Column } from 'devextreme-react/{widget-name}';
+
+    class App extends React.Component {
+        setCellValue(newData, value, currentRowData) {
+            newData.Count = value;
+            newData.TotalPrice = currentRowData.Price * value;
+        }
+
+        render() {
+            return (
+                <{WidgetName} ... >
+                    <Column dataField="Price" />
+                    <Column dataField="Count" dataType="numeric" setCellValue={this.setCellValue}/>
+                    <Column dataField="TotalPrice" />
+                </{WidgetName}>
+            );
+        }
+    }
+    export default App;
+
+#####ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().{WidgetName}()
+        // ...
+        .Columns(c => {
+            c.Add().DataField("Price");
+            c.Add().DataField("Count")
+                .DataType(GridColumnDataType.Number)
+                .SetCellValue(@<text>
+                    function(newData, value, currentRowData) {
+                        newData.Count = value;
+                        newData.TotalPrice = currentRowData.Price * value;
+                    }
+                </text>);
+            c.Add().DataField("TotalPrice");
+        })
+    )
+
 ---
 
 To invoke the default behavior, call the **this.defaultSetCellValue(newData, value)** function.
