@@ -1,6 +1,6 @@
 <!--id-->dxDiagram.Options.nodes.autoLayout.type<!--/id-->
 ===========================================================================
-<!--acceptValues-->'off' | 'tree' | 'sugiyama'<!--/acceptValues-->
+<!--acceptValues-->'off' | 'tree' | 'layered'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 
