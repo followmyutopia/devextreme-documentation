@@ -14,7 +14,7 @@ The option supports the following types of values:
  - **Number**  
     The column's width in pixels.
  - **String**  
-    A CSS-accepted column width measurement (for example, *"55px"*, *"80%"* and *"auto"*).     
+    A CSS-accepted column width measurement (for example, *"55px"*, *"80%"* and *"auto"*) except relative units such as *em*, *ch*, *vh*, etc.     
     
     [note] [Fixed columns](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Fixing/) ignore widths specified as a percentage.
 
