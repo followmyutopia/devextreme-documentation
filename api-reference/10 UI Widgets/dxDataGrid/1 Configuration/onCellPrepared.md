@@ -29,7 +29,7 @@ In the following code, the **onCellPrepared** function is used to change a `Prod
                     e.cellElement.css("color", e.data.Amount >= 10000 ? "green" : "red");
                     // Tracks the `Amount` data field
                     e.watch(function() {
-                        return e.data.Amount
+                        return e.data.Amount;
                     }, function() {
                         e.cellElement.css("color", e.data.Amount >= 10000 ? "green" : "red");
                     })
@@ -49,7 +49,7 @@ In the following code, the **onCellPrepared** function is used to change a `Prod
                 e.cellElement.style.color = e.data.Amount >= 10000 ? "green" : "red";
                 // Tracks the `Amount` data field
                 e.watch(function() {
-                    return e.data.Amount
+                    return e.data.Amount;
                 }, function() {
                     e.cellElement.style.color = e.data.Amount >= 10000 ? "green" : "red";
                 })
@@ -70,6 +70,76 @@ In the following code, the **onCellPrepared** function is used to change a `Prod
         (onCellPrepared)="onCellPrepared($event)">
     </dx-data-grid>
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-{widget-name}
+            :repaint-changes-only="true"
+            @cell-prepared="onCellPrepared"
+        />
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import {WidgetName} from 'devextreme-vue/{widget-name}';
+  
+    export default {
+        components: {
+            Dx{WidgetName}
+        },
+        methods: {
+           onCellPrepared(e) {
+                if(e.rowType === "data" && e.column.dataField === "ProductName") {
+                    e.cellElement.style.color = e.data.Amount >= 10000 ? "green" : "red";
+                    // Tracks the `Amount` data field
+                    e.watch(function() {
+                        return e.data.Amount;
+                    }, function() {
+                        e.cellElement.style.color = e.data.Amount >= 10000 ? "green" : "red";
+                    })
+                }
+            }
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import {WidgetName} from 'devextreme-react/{widget-name}';
+
+    class App extends React.Component {
+        // ...
+        render() {
+            return (
+                <{WidgetName}
+                     repaintChangesOnly={true}
+                     onCellPrepared={this.onCellPrepared}
+                />
+            );
+        }
+        onCellPrepared = (e) => {
+            if(e.rowType === "data" && e.column.dataField === "ProductName") {
+                e.cellElement.style.color = e.data.Amount >= 10000 ? "green" : "red";
+                // Tracks the `Amount` data field
+                e.watch(function() {
+                    return e.data.Amount;
+                }, function() {
+                    e.cellElement.style.color = e.data.Amount >= 10000 ? "green" : "red";
+                })
+            }
+        }
+    }
+    export default App;
+
 #####ASP.NET MVC Controls
 
     <!--Razor C#-->
@@ -85,7 +155,7 @@ In the following code, the **onCellPrepared** function is used to change a `Prod
                 e.cellElement.css("color", e.data.Amount >= 10000 ? "green" : "red");
                 // Tracks the `Amount` data field
                 e.watch(function() {
-                    return e.data.Amount
+                    return e.data.Amount;
                 }, function() {
                     e.cellElement.css("color", e.data.Amount >= 10000 ? "green" : "red");
                 })
