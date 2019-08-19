@@ -9,6 +9,8 @@ The DevExtreme React Component Suite is a feature-complete set of 65+ responsive
 
 The DevExtreme React Component Suite provides the following platform-specific features:
 
+- [Application template for a quick start](/Documentation/Guide/React_Components/Create_a_DevExtreme_Application/)
+
 - [Controlled](/Documentation/Guide/React_Components/State_Management/#Controlled_Mode) and [uncontrolled](/Documentation/Guide/React_Components/State_Management/#Uncontrolled_Mode) state management modes
 
 - [Declarative configuration syntax](/Documentation/Guide/React_Components/Component_Configuration_Syntax/)

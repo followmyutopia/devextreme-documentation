@@ -1,0 +1,1 @@
+[DevExtreme Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/) is a set of components for working with data. Refer to the [Data Layer API reference](/Documentation/ApiReference/Data_Layer/) for code examples.
