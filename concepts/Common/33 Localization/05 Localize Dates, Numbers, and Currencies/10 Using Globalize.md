@@ -1,3 +1,5 @@
+[important] React projects created with [Create React App](https://facebook.github.io/create-react-app/) <a href="https://github.com/facebook/create-react-app/issues/4508" target="_blank">do not support Globalize</a>. [Use Intl](/Documentation/Guide/Common/Localization/#Localize_Dates_Numbers_and_Currencies/Using_Intl) instead.
+
 Activating Globalize in your project requires the following files:
 
 - Globalize library
@@ -53,10 +55,12 @@ All the components are available via CDN and npm.
 
         npm install --save-dev devextreme-cldr-data globalize
 
-    Then, include Globalize, CLDR, and language-specific CLDR data using the `import` or `require` statement&mdash;the statement depends on the syntax for working with modules. The code below shows ECMAScript 6 syntax used with a SystemJS module loader, and CommonJS syntax used with a Webpack module bundler. These examples include German and Russian dictionaries.
+    Register Globalize in your project as described in the [Angular](/Documentation/Guide/Angular_Components/Getting_Started/Add_DevExtreme_to_an_Angular_CLI_Application/#Register_3rd-Party_Dependencies_in_Angular_CLI_6+/Globalize_Registration), [Vue](/Documentation/Guide/Vue_Components/Add_DevExtreme_to_a_Vue_Application/#Register_3rd-Party_Dependencies/Globalize_Registration), or [React](/Documentation/Guide/React_Components/Add_DevExtreme_to_a_React_Application/#Additional_Configuration_for_Webpack) articles.
+    
+    Then, include Globalize, CLDR, and language-specific CLDR data using the `import` or `require` statement&mdash;the statement depends on the syntax for working with modules. The code below shows ECMAScript 6 and CommonJS syntaxes. These examples include German and Russian dictionaries.
 
     ---
-    ##### npm: ECMAScript 6 syntax / SystemJS configuration
+    ##### npm: ECMAScript 6 syntax
 
         <!--JavaScript-->
         import "devextreme/localization/globalize/number";
@@ -65,63 +69,61 @@ All the components are available via CDN and npm.
         import "devextreme/localization/globalize/message";
 
         // Dictionaries for German and Russian languages
-        import deMessages from "devextreme/localization/messages/de.json!json";
-        import ruMessages from "devextreme/localization/messages/ru.json!json";
+        import deMessages from "devextreme/localization/messages/de.json";
+        import ruMessages from "devextreme/localization/messages/ru.json";
         
         // Common and language-specific CLDR JSONs
-        import supplemental from "devextreme-cldr-data/supplemental.json!json";
-        import deCldrData from "devextreme-cldr-data/de.json!json";
-        import ruCldrData from "devextreme-cldr-data/ru.json!json";
+        import supplemental from "devextreme-cldr-data/supplemental.json";
+        import deCldrData from "devextreme-cldr-data/de.json";
+        import ruCldrData from "devextreme-cldr-data/ru.json";
 
-        // In projects created with Angular CLI 6+
-        // import deMessages from "devextreme/localization/messages/de.json";
-        // import ruMessages from "devextreme/localization/messages/ru.json";
-        // import supplemental from "devextreme-cldr-data/supplemental.json";
-        // import deCldrData from "devextreme-cldr-data/de.json";
-        // import ruCldrData from "devextreme-cldr-data/ru.json";
+        // In projects created with Angular CLI earlier than 6
+        // import deMessages from "devextreme/localization/messages/de.json!json";
+        // import ruMessages from "devextreme/localization/messages/ru.json!json";
+        // import supplemental from "devextreme-cldr-data/supplemental.json!json";
+        // import deCldrData from "devextreme-cldr-data/de.json!json";
+        // import ruCldrData from "devextreme-cldr-data/ru.json!json";
 
         import Globalize from "globalize";
 
-        Globalize.load(
-            supplemental, deCldrData, ruCldrData
-        );
-
-        Globalize.loadMessages(deMessages);
-        Globalize.loadMessages(ruMessages);
-
-        Globalize.locale(navigator.language)
-
-    In projects created with Angular CLI 6+, register Globalize as described [here](/Documentation/Guide/Angular_Components/Getting_Started/Add_DevExtreme_to_an_Angular_CLI_Application/#Register_3rd-Party_Dependencies_in_Angular_CLI_6+/Globalize_Registration). In other projects, configure **config.js**:
-
-        <!--JavaScript-->
-        System.config({
-            // ...
-            paths: {
-                "npm:": "node_modules/"
-            },
-            map: {
-                // ...
-                "globalize": "npm:globalize/dist/globalize",
-                "cldr": "npm:cldrjs/dist/cldr",
-                "cldr-data": "npm:cldr-data",
-                "json": "npm:systemjs-plugin-json/json.js",
-            },
-            packages: {
-                app: {
-                    // ...
-                    "globalize": {
-                        main: "../globalize.js",
-                        defaultExtension: "js"
-                    },
-                    "cldr": {
-                        main: "../cldr.js",
-                        defaultExtension: "js"
-                    }
-                }
+        // ===== Angular ======
+        export class AppComponent {
+            constructor() {
+                Globalize.load(
+                    supplemental, deCldrData, ruCldrData
+                );
+                Globalize.loadMessages(deMessages);
+                Globalize.loadMessages(ruMessages);
+                Globalize.locale(navigator.language);
             }
-        });
+        }
 
-    ##### npm: CommonJS syntax / Webpack configuration
+        // ===== Vue ======
+        export default {
+            created() {
+                Globalize.load(
+                    supplemental, deCldrData, ruCldrData
+                );
+                Globalize.loadMessages(deMessages);
+                Globalize.loadMessages(ruMessages);
+                Globalize.locale(navigator.language);
+            }
+        }
+
+        // ===== React ======
+        class App extends React.Component {
+            constructor(props) {
+                super(props);
+                Globalize.load(
+                    supplemental, deCldrData, ruCldrData
+                );
+                Globalize.loadMessages(deMessages);
+                Globalize.loadMessages(ruMessages);
+                Globalize.locale(navigator.language);
+            }
+        }
+
+    ##### npm: CommonJS syntax
 
         <!--JavaScript-->
         require('devextreme/localization/globalize/message');
@@ -145,21 +147,6 @@ All the components are available via CDN and npm.
         Globalize.loadMessages(ruMessages);
 
         Globalize.locale(navigator.language);
-
-    **webpack.config.js**
-
-        <!--JavaScript-->
-        module.exports = {
-            // ...
-            resolve: {
-                alias: {
-                    globalize$: path.resolve( __dirname, "node_modules/globalize/dist/globalize.js" ),
-                    globalize: path.resolve(__dirname, "node_modules/globalize/dist/globalize"),
-                    cldr$: path.resolve(__dirname, "node_modules/cldrjs/dist/cldr.js"),
-                    cldr: path.resolve(__dirname, "node_modules/cldrjs/dist/cldr")
-                }
-            }
-        }
 
     ---
 

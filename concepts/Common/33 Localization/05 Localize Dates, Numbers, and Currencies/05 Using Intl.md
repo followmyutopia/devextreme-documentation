@@ -48,18 +48,42 @@
         // ...
         import "devextreme-intl";
         // Dictionaries for German and Russian languages
-        import deMessages from "devextreme/localization/messages/de.json!json";
-        import ruMessages from "devextreme/localization/messages/ru.json!json";
+        import deMessages from "devextreme/localization/messages/de.json";
+        import ruMessages from "devextreme/localization/messages/ru.json";
 
-        // In projects created with Angular CLI 6+
-        // import deMessages from "devextreme/localization/messages/de.json";
-        // import ruMessages from "devextreme/localization/messages/ru.json";
+        // In projects created with Angular CLI earlier than 6
+        // import deMessages from "devextreme/localization/messages/de.json!json";
+        // import ruMessages from "devextreme/localization/messages/ru.json!json";
         
         import { locale, loadMessages } from "devextreme/localization";
 
-        loadMessages(deMessages);
-        loadMessages(ruMessages);
-        locale(navigator.language)
+        // ===== Angular ======
+        export class AppComponent {
+            constructor() {
+                loadMessages(deMessages);
+                loadMessages(ruMessages);
+                locale(navigator.language);
+            }
+        }
+
+        // ===== Vue ======
+        export default {
+            created() {
+                loadMessages(deMessages);
+                loadMessages(ruMessages);
+                locale(navigator.language);
+            }
+        }
+
+        // ===== React ======
+        class App extends React.Component {
+            constructor(props) {
+                super(props);
+                loadMessages(deMessages);
+                loadMessages(ruMessages);
+                locale(navigator.language);
+            }
+        }
 
     ##### npm: CommonJS syntax
 

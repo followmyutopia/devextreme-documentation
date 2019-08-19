@@ -47,6 +47,36 @@ Then, register the Globalize and CLDR scripts in the `tsconfig.json` file...
         export default value;
     }
 
+In projects created with Angular CLI version 5 and earlier, configure **config.js** as follows instead:
+
+    <!-- tab: config.js -->
+    System.config({
+        // ...
+        paths: {
+            "npm:": "node_modules/"
+        },
+        map: {
+            // ...
+            "globalize": "npm:globalize/dist/globalize",
+            "cldr": "npm:cldrjs/dist/cldr",
+            "cldr-data": "npm:cldr-data",
+            "json": "npm:systemjs-plugin-json/json.js",
+        },
+        packages: {
+            app: {
+                // ...
+                "globalize": {
+                    main: "../globalize.js",
+                    defaultExtension: "js"
+                },
+                "cldr": {
+                    main: "../cldr.js",
+                    defaultExtension: "js"
+                }
+            }
+        }
+    });
+
 Refer to the [Using Globalize](/Documentation/Guide/Common/Localization/#Localize_Dates_Numbers_and_Currencies/Using_Globalize) article for usage examples.
 
 Alternatively, you can [use Intl](/Documentation/Guide/Common/Localization/#Localize_Dates_Numbers_and_Currencies/Using_Intl) as a more lightweight localization solution.
