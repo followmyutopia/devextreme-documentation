@@ -1,4 +1,6 @@
-Dictionaries contain localized strings for different languages. These are JavaScript or JSON files depending on the package you use. DevExpress curates the following dictionaries:
+Dictionaries contain localized strings for different languages. The strings are represented by key/value pairs and are shipped as JavaScript or JSON files (depending on the package you use).
+
+DevExpress curates the following dictionaries:
 
 - English (en) (default)
 - German (de)
