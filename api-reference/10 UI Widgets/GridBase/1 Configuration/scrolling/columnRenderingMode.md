@@ -17,7 +17,6 @@ Renders all columns at once.
 
 - *"virtual"*     
 Renders only those columns that get into the viewport.          
-This mode is ignored if [banded columns](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Types/Band_Columns/) are present in the widget.
 
 #include common-ref-enum with {
     enum: "`GridColumnRenderingMode`",
