@@ -43,7 +43,7 @@ Specifies the <a href="http://www.w3schools.com/tags/ref_attributes.asp" target=
         // ...
     })
 
-#####ASP.NET MVC Control
+#####ASP.NET MVC Controls
 
     <!--Razor C#-->@(Html.DevExtreme().{WidgetName}()
         .ElementAttr("class", "class-name")

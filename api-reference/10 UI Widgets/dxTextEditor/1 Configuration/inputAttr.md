@@ -42,7 +42,7 @@ Specifies the attributes to be passed on to the underlying HTML element.
         // ...
     })
 
-#####ASP.NET MVC Control
+#####ASP.NET MVC Controls
 
     <!--Razor C#-->@(Html.DevExtreme().{WidgetName}()
         .InputAttr("id", "inputId")
