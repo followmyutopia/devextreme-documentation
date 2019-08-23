@@ -8,7 +8,10 @@ Configures buttons in the group.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-#include uiwidgets-ref-items-fulldesc
+If you need to update the widget items, reassign the entire **items[]** array as shown in the following example:
+
+    <!--JavaScript-->
+    buttonGroupInstance.option('items', newItems);
 
 [Particular fields]({basewidgetpath}/Default_Item_Template/) in objects can control the widget's appearance. See [Default Templates](/Documentation/Guide/Widgets/Common/Templates/#Default_Templates) for more information.
 
