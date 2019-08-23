@@ -43,7 +43,7 @@ The editor's [type](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/Sim
 <!--typeFunctionParamName1_field5-->name<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->String<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-
+The item's [name](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#name).
 <!--/typeFunctionParamDescription1_field5-->
 
 <!--typeFunctionParamName2-->itemElement<!--/typeFunctionParamName2-->
