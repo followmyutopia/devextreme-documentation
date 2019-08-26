@@ -10,9 +10,152 @@ A function that is executed when a row is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Prior to this function, the widget executes the [onCellClick](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onCellClick) function and sometimes internal functions. You can use the **handled** field to check whether internal functions were executed.
+The widget executes the [onCellClick](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onCellClick) function and can also execute internal functions before this function. Use the **handled** field to check whether internal functions were executed.
 
-[note] When the clicked row is in the editing state or switches to this state, the **onRowClick** function is not executed. Instead, specify the **onCellClick** function.
+In the following code, the **onRowClick** function calls the [editRow](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#editRowrowIndex) method to switch the clicked row to the editing state. This functionality is best applied in [form](/Demos/WidgetsGallery/Demo/DataGrid/FormEditing/jQuery/Light/) or [popup](/Demos/WidgetsGallery/Demo/DataGrid/PopupEditing/jQuery/Light/) **editing**.[mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#mode):
+
+---
+##### jQuery
+
+    <!-- tab: index.js -->
+    $(function() {
+        $("#{widgetName}Container").dx{WidgetName}({
+            // ...
+            editing: { mode: "form "},
+            onRowClick: function(e) {
+                if(e.rowType === "data") {
+                    e.component.editRow(e.rowIndex);
+                }
+            }
+        });
+    });
+
+##### Angular
+
+    <!-- tab: app.component.html -->
+    <dx-{widget-name} ...
+        (onRowClick)="startEdit($event)">
+        <dxo-editing mode="form"></dxo-editing>
+    </dx-{widget-name}>
+
+    <!-- tab: app.component.ts -->
+    import { Component } from '@angular/core';
+   
+    @Component({
+        selector: 'app-root',
+        templateUrl: './app.component.html',
+        styleUrls: ['./app.component.css']
+    })
+    export class AppComponent {
+        // ...
+        startEdit(e) {
+            if(e.rowType === "data") {
+                e.component.editRow(e.rowIndex);
+            }
+        }
+    }
+
+    <!-- tab: app.module.ts -->
+    import { BrowserModule } from '@angular/platform-browser';
+    import { NgModule } from '@angular/core';
+    import { AppComponent } from './app.component';
+
+    import { Dx{WidgetName}Module } from 'devextreme-angular';
+
+    @NgModule({
+        declarations: [
+            AppComponent
+        ],
+        imports: [
+            BrowserModule,
+            Dx{WidgetName}Module
+        ],
+        bootstrap: [AppComponent]
+    })
+    export class AppModule { }
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-{widget-name} ...
+            @row-click="startEdit">
+            <dx-editing mode="form" />
+        </dx-{widget-name}>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import Dx{WidgetName}, {
+        DxEditing 
+    } from 'devextreme-vue/{widget-name}';
+
+    export default {
+        components: {
+            Dx{WidgetName}
+        },
+        methods: {
+           startEdit(e) {
+                if(e.rowType === "data") {
+                    e.component.editRow(e.rowIndex);
+                }
+            }
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import {WidgetName}, {
+        Editing 
+    } from 'devextreme-react/{widget-name}';
+
+    class App extends React.Component {
+        render() {
+            return (
+                <{WidgetName} ...
+                    onRowClick={this.startEdit}>
+                    <Editing mode="form">
+                </{WidgetName}>
+            );
+        }
+
+        startEdit = (e) => {
+            if(e.rowType === "data") {
+                e.component.editRow(e.rowIndex);
+            }
+        }
+    }
+    export default App;
+
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().DataGrid()
+        // ...
+        .Editing(e => e.Mode(GridEditMode.Form))
+        .OnRowClick("startEdit")
+    )
+
+    <script type="text/javascript">
+        function startEdit(e) {
+            if(e.rowType === "data") {
+                e.component.editRow(e.rowIndex);
+            }
+        }
+    </script>
+
+---
+
+[note] The **onRowClick** function is not executed when the clicked row enters or is in the editing state. Instead, specify the **onCellClick** function.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
