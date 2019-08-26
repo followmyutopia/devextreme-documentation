@@ -10,9 +10,13 @@ An object defining a series of the **pie** type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![PieSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/Pie.png)
+#include dataviz-ref-series-type with { 
+    seriesType: "pie"
+}
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartspieseriespie/"
 }
+
+![PieSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/Pie.png)
 <!--/fullDescription-->

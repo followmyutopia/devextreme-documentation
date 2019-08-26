@@ -10,9 +10,13 @@ Describes settings supported by a series of the *bubble* type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme HTML5 Charts BubbleSeriesType](/Content/images/doc/19_2/ChartJS/Bubble.png)
+#include dataviz-ref-series-type with { 
+    seriesType: "bubble"
+}
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartslineandpointseriesbubble/"
 }
+
+![DevExtreme HTML5 Charts BubbleSeriesType](/Content/images/doc/19_2/ChartJS/Bubble.png)
 <!--/fullDescription-->

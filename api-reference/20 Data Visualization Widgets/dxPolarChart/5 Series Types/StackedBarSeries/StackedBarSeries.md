@@ -10,7 +10,13 @@ An object defining a series of the **stackedBar** type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![PolarStackedBarSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/PolarStackedBar.png)
+#include dataviz-ref-series-type with { 
+    seriesType: "stackedbar"
+}
 
-For details on the stackedBar series type, refer to the [Stacked Bar](/Documentation/Guide/Widgets/PolarChart/Series_Types/#Stacked_Bar) topic.
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/WindRose/jQuery/Light/"
+}
+
+![PolarStackedBarSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/PolarStackedBar.png)
 <!--/fullDescription-->

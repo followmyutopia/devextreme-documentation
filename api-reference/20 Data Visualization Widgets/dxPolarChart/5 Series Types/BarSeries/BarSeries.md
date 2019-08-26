@@ -10,7 +10,9 @@ An object defining a series of the **bar** type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![PolarBarSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/PolarBar.png)
+#include dataviz-ref-series-type with { 
+    seriesType: "bar"
+}
 
-For details on the bar series type, refer to the [Bar](/Documentation/Guide/Widgets/PolarChart/Series_Types/#Bar) topic.
+![PolarBarSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/PolarBar.png)
 <!--/fullDescription-->

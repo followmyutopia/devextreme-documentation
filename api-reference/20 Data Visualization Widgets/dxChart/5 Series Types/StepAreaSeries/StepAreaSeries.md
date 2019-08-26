@@ -10,9 +10,13 @@ Describes settings supported by a series of the *step rea* type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme HTML5 Charts StepAreaSeriesType](/Content/images/doc/19_2/ChartJS/StepArea.png)
+#include dataviz-ref-series-type with { 
+    seriesType: "steparea"
+}
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartsareaseriesstep/"
 }
+
+![DevExtreme HTML5 Charts StepAreaSeriesType](/Content/images/doc/19_1/ChartJS/StepArea.png)
 <!--/fullDescription-->

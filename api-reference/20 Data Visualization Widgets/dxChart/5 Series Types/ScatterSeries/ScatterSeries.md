@@ -10,9 +10,13 @@ Describes settings supported by a series of the *scatter* type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme HTML5 Charts ScatterSeriesType](/Content/images/doc/19_2/ChartJS/Scatter.png)
+#include dataviz-ref-series-type with { 
+    seriesType: "scatter"
+}
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartslineandpointseriesscatter/"
 }
+
+![DevExtreme HTML5 Charts ScatterSeriesType](/Content/images/doc/19_2/ChartJS/Scatter.png)
 <!--/fullDescription-->

@@ -10,7 +10,13 @@ An object defining a series of the **area** type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![AreaSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/PolarArea.png)
+#include dataviz-ref-series-type with { 
+    seriesType: "area"
+}
 
-For details on the area series type, refer to the [Area](/Documentation/Guide/Widgets/PolarChart/Series_Types/#Area) topic.
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/InvertedChart/jQuery/Light/"
+}
+
+![AreaSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/PolarArea.png)
 <!--/fullDescription-->

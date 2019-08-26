@@ -10,7 +10,13 @@ An object defining a series of the **scatter** type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![PolarScatterSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/PolarScatter_useSpiderWeb.png)
+#include dataviz-ref-series-type with { 
+    seriesType: "scatter"
+}
 
-For details on the scatter series type, refer to the [Scatter](/Documentation/Guide/Widgets/PolarChart/Series_Types/#Scatter) topic.
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/DiscreteData/jQuery/Light/"
+}
+
+![PolarScatterSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/PolarScatter_useSpiderWeb.png)
 <!--/fullDescription-->

@@ -10,9 +10,13 @@ Describes settings supported by a series of the *stacked line* type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme HTML5 Charts StackedLineSeriesType](/Content/images/doc/19_2/ChartJS/StackedLine.png)
+#include dataviz-ref-series-type with { 
+    seriesType: "stackedline"
+}
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartslineandpointseriesline/"
 }
+
+![DevExtreme HTML5 Charts StackedLineSeriesType](/Content/images/doc/19_2/ChartJS/StackedLine.png)
 <!--/fullDescription-->

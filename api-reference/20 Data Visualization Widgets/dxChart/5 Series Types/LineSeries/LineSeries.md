@@ -10,9 +10,13 @@ Describes settings supported by a series of the *line* type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme HTML5 Charts LineSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/Line.png)
+#include dataviz-ref-series-type with { 
+    seriesType: "line"
+}
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartslineandpointseriesline/"
 }
+
+![DevExtreme HTML5 Charts LineSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/Line.png)
 <!--/fullDescription-->

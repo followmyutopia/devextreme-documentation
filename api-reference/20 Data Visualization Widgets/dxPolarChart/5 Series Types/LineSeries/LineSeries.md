@@ -10,7 +10,13 @@ An object defining a series of the **line** type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![LineSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/PolarLine.png)
+#include dataviz-ref-series-type with { 
+    seriesType: "line"
+}
 
-For details on the line series type, refer to the [Line](/Documentation/Guide/Widgets/PolarChart/Series_Types/#Line) topic.
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/SpiderWeb/jQuery/Light/"
+}
+
+![LineSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/PolarLine.png)
 <!--/fullDescription-->
