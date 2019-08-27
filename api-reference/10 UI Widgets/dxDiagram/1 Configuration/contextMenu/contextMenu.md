@@ -1,13 +1,9 @@
-<!--id-->dxDiagram.Options.contextMenu<!--/id-->
-===========================================================================
-<!--default-->{}<!--/default-->
-<!--type-->Object<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.contextMenu
+type: Object
+default: {}
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

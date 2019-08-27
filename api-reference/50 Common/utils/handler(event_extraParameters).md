@@ -1,29 +1,14 @@
-<!--id-->eventsHandler<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
+---
+id: eventsHandler
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### return: Boolean
 
-<!--/shortDescription-->
+##### param(event): dxEvent
 
-<!--paramName1-->event<!--/paramName1-->
-<!--paramType1-->dxEvent<!--/paramType1-->
-<!--paramDescription1-->
+##### param(extraParameters): Object
 
-<!--/paramDescription1-->
-
-<!--paramName2-->extraParameters<!--/paramName2-->
-<!--paramType2-->Object<!--/paramType2-->
-<!--paramDescription2-->
-
-<!--/paramDescription2-->
-
-<!--returnType-->Boolean<!--/returnType-->
-<!--returnDescription-->
-
-<!--/returnDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

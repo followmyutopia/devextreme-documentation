@@ -1,6 +1,5 @@
-<!--id-->dxToast.Options.shading<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxToast.Options.shading
+type: Boolean
+default: false
+---

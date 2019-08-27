@@ -1,14 +1,11 @@
-<!--id-->core<!--/id-->
-===========================================================================
-<!--lib-->
+---
+id: core
+---
+---
+##### lib
 dx.viz.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
 
-<!--shortDescription-->
+##### shortDescription
 A namespace for core DevExtreme functionality.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

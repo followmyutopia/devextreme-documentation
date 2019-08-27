@@ -1,5 +1,4 @@
-<!--id-->dxScheduler.Options.hoverStateEnabled<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxScheduler.Options.hoverStateEnabled
+hidden: 
+---

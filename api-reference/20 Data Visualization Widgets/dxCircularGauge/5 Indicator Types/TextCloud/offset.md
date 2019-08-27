@@ -1,4 +1,8 @@
-<!--id-->circularTextCloud.offset<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->-6<!--/default-->
-===========================================================================
+---
+id: circularTextCloud.offset
+default: -6
+---
+---
+##### merge
+
+---

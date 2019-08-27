@@ -1,13 +1,10 @@
-<!--id-->dxFormButtonItem.visible<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFormButtonItem.visible
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether the item is visible.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

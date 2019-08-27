@@ -1,14 +1,13 @@
-<!--id-->GridBase.Options.dataSource<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->String | Array<Object> | DataSource | DataSource_Options<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.dataSource
+type: String | Array<Object> | DataSource | DataSource_Options
+default: null
+---
+---
+##### shortDescription
 Binds the widget to data.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-dataSource-description with {
     widget_works_with: "The **DataGrid** works with collections of objects.",
 
@@ -31,4 +30,3 @@ Binds the widget to data.
     calculated_columns_note: "- Features like [export](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/) and [selection](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/) work incorrectly with [mapped data objects](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#map). Use [calculated columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateCellValue) instead of mapping."
 
 }
-<!--/fullDescription-->

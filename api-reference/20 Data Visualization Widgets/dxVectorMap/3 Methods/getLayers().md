@@ -1,17 +1,13 @@
-<!--id-->dxVectorMap.getLayers()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxVectorMap.getLayers()
+---
+---
+##### shortDescription
 Gets all layers.
-<!--/shortDescription-->
 
-<!--returnType-->Array<MapLayer><!--/returnType-->
-<!--returnDescription-->
+##### return: Array<MapLayer>
 The [Layer](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer/) objects.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

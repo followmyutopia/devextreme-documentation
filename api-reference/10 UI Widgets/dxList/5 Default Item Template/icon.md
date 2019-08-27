@@ -1,12 +1,10 @@
-<!--id-->dxListItem.icon<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxListItem.icon
+type: String
+---
+---
+##### shortDescription
 Specifies the list item's icon.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include uiwidgets-ref-icon
-<!--/fullDescription-->

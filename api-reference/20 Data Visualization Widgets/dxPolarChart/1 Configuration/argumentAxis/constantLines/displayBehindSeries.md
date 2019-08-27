@@ -1,13 +1,10 @@
-<!--id-->dxPolarChart.Options.argumentAxis.constantLines.displayBehindSeries<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChart.Options.argumentAxis.constantLines.displayBehindSeries
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether to display the constant line behind or in front of the series.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

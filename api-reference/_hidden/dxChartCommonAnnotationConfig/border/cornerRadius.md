@@ -1,14 +1,13 @@
-<!--id-->dxChartCommonAnnotationConfig.border.cornerRadius<!--/id-->
-===========================================================================
-<!--default-->0, 4 (Material)<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartCommonAnnotationConfig.border.cornerRadius
+type: Number
+default: 0, 4 (Material)
+---
+---
+##### shortDescription
 Makes the annotation's corners rounded.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The following table demonstrates how the corner's curvature depends on the **cornerRadius** value:
 
 <div class="simple-table">
@@ -54,4 +53,3 @@ The following table demonstrates how the corner's curvature depends on the **cor
         border-right: none;
     }
 </style>
-<!--/fullDescription-->

@@ -1,12 +1,9 @@
-<!--id-->ExcelDataGridCell.groupSummaryItems.value<!--/id-->
-===========================================================================
-<!--type-->any<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: ExcelDataGridCell.groupSummaryItems.value
+type: any
+---
+---
+##### shortDescription
 The group summary item's raw value.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

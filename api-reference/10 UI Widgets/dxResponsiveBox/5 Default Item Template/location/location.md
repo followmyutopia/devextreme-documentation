@@ -1,13 +1,12 @@
-<!--id-->dxResponsiveBoxItem.location<!--/id-->
-===========================================================================
-<!--type-->Object | Array<Object><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxResponsiveBoxItem.location
+type: Object | Array<Object>
+---
+---
+##### shortDescription
 Specifies the item location and size against the widget grid.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 If you need to specify different locations for [different screens](/Documentation/Guide/Widgets/ResponsiveBox/Size_Qualifiers/), pass an array of objects with the same structure to the **location** field.
 
     <!--HTML--><div data-options="dxItem: { 
@@ -23,4 +22,3 @@ If you need to specify different locations for [different screens](/Documentatio
 
 #####See Also#####
 - [Arrange Layout Elements](/Documentation/Guide/Widgets/ResponsiveBox/Arrange_Layout_Elements/)
-<!--/fullDescription-->

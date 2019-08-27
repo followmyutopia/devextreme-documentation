@@ -1,14 +1,13 @@
-<!--id-->GridBase.Options.pager.infoText<!--/id-->
-===========================================================================
-<!--default-->'Page {0} of {1} ({2} items)'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.pager.infoText
+type: String
+default: 'Page {0} of {1} ({2} items)'
+---
+---
+##### shortDescription
 Specifies the page information text.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 You can use the following position markers in this text: 
  
 - {0} - shows the current page number.
@@ -17,4 +16,3 @@ You can use the following position markers in this text:
 
 #####See Also#####
 - [showInfo]({basewidgetpath}/Configuration/pager/#showInfo)
-<!--/fullDescription-->

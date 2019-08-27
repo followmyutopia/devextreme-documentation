@@ -1,13 +1,10 @@
-<!--id-->dxPivotGrid.Options.texts.noData<!--/id-->
-===========================================================================
-<!--default-->'No data'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGrid.Options.texts.noData
+type: String
+default: 'No data'
+---
+---
+##### shortDescription
 Specifies the text displayed when a pivot grid does not contain any fields.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

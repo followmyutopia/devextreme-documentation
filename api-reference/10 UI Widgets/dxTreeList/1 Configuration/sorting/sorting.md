@@ -1,8 +1,7 @@
-===========================================================================
-<!--merge--><!--/merge-->
-===========================================================================
+---
+##### merge
 
-<!--fullDescription-->
+---
 A user can sort rows by values of a single or multiple columns depending on the value of the **sorting**.[mode]({basewidgetpath}/Configuration/sorting/#mode) option.
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Sorting](/Content/images/doc/19_2/treelist/visual_elements/sorting_sorted_columns.png)
@@ -19,4 +18,3 @@ Note that rows are sorted within their hierarchical level.
 
 #####See Also#####
 - [Sorting](/Documentation/Guide/Widgets/TreeList/Sorting/)
-<!--/fullDescription-->

@@ -1,18 +1,17 @@
-<!--id-->dxValidationGroup<!--/id-->
-===========================================================================
-<!--module-->ui/validation_group<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->DOMComponent<!--/inherits-->
-<!--lib-->
-dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxValidationGroup
+module: ui/validation_group
+export: default
+inherits: DOMComponent
+---
+---
+##### shortDescription
 The **ValidationGroup** is a widget that allows you to validate several editors simultaneously.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### lib
+dx.web.js, dx.viz-web.js, dx.all.js
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Validation/Overview/jQuery/Light/"
 }
@@ -32,4 +31,3 @@ In addition, you can access a validation group's configuration using the [DevExp
 - [ASP.NET MVC Controls - Client-Side Data Validation](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Overview/)
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

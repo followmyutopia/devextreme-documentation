@@ -1,13 +1,10 @@
-<!--id-->dxSwitch.Options.value<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSwitch.Options.value
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 A Boolean value specifying whether the current switch state is "On" or "Off".
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

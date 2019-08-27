@@ -1,13 +1,10 @@
-<!--id-->dxDataGrid.Options.grouping.texts.ungroup<!--/id-->
-===========================================================================
-<!--default-->'Ungroup'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.Options.grouping.texts.ungroup
+type: String
+default: 'Ungroup'
+---
+---
+##### shortDescription
 Specifies the text of the context menu item that clears grouping settings of a specific column.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

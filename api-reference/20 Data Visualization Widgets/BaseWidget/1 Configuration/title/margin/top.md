@@ -1,13 +1,10 @@
-<!--id-->BaseWidget.Options.title.margin.top<!--/id-->
-===========================================================================
-<!--default-->10<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseWidget.Options.title.margin.top
+type: Number
+default: 10
+---
+---
+##### shortDescription
 Specifies the top margin of the title.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

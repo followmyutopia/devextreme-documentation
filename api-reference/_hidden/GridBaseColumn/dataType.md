@@ -1,15 +1,14 @@
-<!--id-->GridBaseColumn.dataType<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--acceptValues-->'string' | 'number' | 'date' | 'boolean' | 'object' | 'datetime'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBaseColumn.dataType
+acceptValues: 'string' | 'number' | 'date' | 'boolean' | 'object' | 'datetime'
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Casts column values to a specific data type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 If a data field provides values of one data type, but the widget should cast them to another, specify the proper type in this option. In the following code, values of the `ID` and `hireDate` fields are cast to numeric and date data types, respectively.
 
 ---
@@ -159,4 +158,3 @@ If a data field provides values of one data type, but the widget should cast the
 
 #####See Also#####
 - [Data Columns](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Types/Data_Columns/)
-<!--/fullDescription-->

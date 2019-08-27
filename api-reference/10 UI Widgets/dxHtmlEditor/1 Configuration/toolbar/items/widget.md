@@ -1,12 +1,10 @@
-===========================================================================
-<!--merge--><!--/merge-->
-===========================================================================
+---
+##### merge
 
-<!--shortDescription-->
+##### shortDescription
 The name of the widget that should represent the toolbar control.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 [note]Import the specified widget's module when using [DevExtreme modules](/Documentation/Guide/Common/Modularity/). 
 
 Configure the specified widget in the [options](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#options) object. You can find information on available widget options in the widget's API reference.
@@ -98,4 +96,3 @@ In the following example, the [CheckBox](/Documentation/ApiReference/UI_Widgets/
 
 #####See Also#####
 - [items](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/)
-<!--/fullDescription-->

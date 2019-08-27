@@ -1,4 +1,8 @@
-<!--id-->circularTextCloud.text.font.color<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->'#FFFFFF'<!--/default-->
-===========================================================================
+---
+id: circularTextCloud.text.font.color
+default: '#FFFFFF'
+---
+---
+##### merge
+
+---

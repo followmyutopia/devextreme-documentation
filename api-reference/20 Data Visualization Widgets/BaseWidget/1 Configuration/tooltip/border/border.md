@@ -1,12 +1,9 @@
-<!--id-->BaseWidget.Options.tooltip.border<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseWidget.Options.tooltip.border
+type: Object
+---
+---
+##### shortDescription
 Configures a tooltip's border.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

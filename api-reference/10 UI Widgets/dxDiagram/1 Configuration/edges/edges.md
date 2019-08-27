@@ -1,14 +1,13 @@
-<!--id-->dxDiagram.Options.edges<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDiagram.Options.edges
+type: Object
+default: null
+---
+---
+##### shortDescription
 An array of diagram edges.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Use the **edges** option to populate an array of diagram edges.
 
 #include common-demobutton with {
@@ -32,5 +31,3 @@ Use the **edges** option to populate an array of diagram edges.
     });
     
 ---
-
-<!--/fullDescription-->

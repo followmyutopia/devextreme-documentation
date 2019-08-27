@@ -1,6 +1,5 @@
-<!--id-->dxTabPanel.Options.items<!--/id-->
-===========================================================================
-<!--type-->Array<String, dxTabPanelItem, Object><!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
-===========================================================================
-
+---
+id: dxTabPanel.Options.items
+type: Array<String, dxTabPanelItem, Object>
+firedEvents: optionChanged
+---

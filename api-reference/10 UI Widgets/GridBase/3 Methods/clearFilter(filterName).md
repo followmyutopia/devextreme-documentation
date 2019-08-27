@@ -1,18 +1,14 @@
-<!--id-->GridBase.clearFilter(filterName)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.clearFilter(filterName)
+---
+---
+##### shortDescription
 Clears all row filters of a specific type.
-<!--/shortDescription-->
 
-<!--paramName1-->filterName<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
-<!--paramDescription1-->
+##### param(filterName): String
 The filter type.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 The method's parameter specifies what type of filter should be cleared. This parameter can have one of the following values:
 
 - *"row"*       
@@ -29,4 +25,3 @@ Clears the data source filter defined [in the configuration](/Documentation/ApiR
 #####See Also#####
 #include common-link-callmethods
 - [clearFilter()]({basewidgetpath}/Methods/#clearFilter)
-<!--/fullDescription-->

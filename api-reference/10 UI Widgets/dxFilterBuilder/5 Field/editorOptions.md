@@ -1,13 +1,12 @@
-<!--id-->dxFilterBuilderField.editorOptions<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFilterBuilderField.editorOptions
+type: Object
+---
+---
+##### shortDescription
 Configures the widget used to edit the field value.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Depending on the [dataType](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#editorOptions), the **FilterBuilder** offers a user different widgets for editing: [TextBox](/Documentation/ApiReference/UI_Widgets/dxTextBox/), [DateBox](/Documentation/ApiReference/UI_Widgets/dxDateBox/), [Lookup](/Documentation/ApiReference/UI_Widgets/dxLookup/), etc. In the **editorOptions** object, you can specify options for the widget.
 
 [note]
@@ -69,4 +68,3 @@ Do not specify the **onValueChanged** option in this object. If you need to add 
 ---
 
 [/note]
-<!--/fullDescription-->

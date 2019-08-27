@@ -1,22 +1,12 @@
-<!--id-->dxFileManager.Options.customizeDetailColumns<!--/id-->
-===========================================================================
-<!--type-->function(columns)<!--/type-->
-===========================================================================
+---
+id: dxFileManager.Options.customizeDetailColumns
+type: function(columns)
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### param(columns): Array<dxDataGridColumn>
 
-<!--/shortDescription-->
+##### return: Array<dxDataGridColumn>
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->columns<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Array<dxDataGridColumn><!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->Array<dxDataGridColumn><!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-
-<!--/typeFunctionReturnDescription-->
+---

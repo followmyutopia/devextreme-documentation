@@ -1,12 +1,8 @@
-<!--id-->dxDiagram.Options.customShapes.backgroundImageWidth<!--/id-->
-===========================================================================
-<!--type-->Number<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.customShapes.backgroundImageWidth
+type: Number
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

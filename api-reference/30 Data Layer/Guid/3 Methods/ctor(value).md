@@ -1,18 +1,14 @@
-<!--id-->Guid.ctor(value)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: Guid.ctor(value)
+---
+---
+##### shortDescription
 Creates a new **Guid** instance that contains the specified GUID.
-<!--/shortDescription-->
 
-<!--paramName1-->value<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
-<!--paramDescription1-->
+##### param(value): String
 A string representation of the GUID.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 Hyphens in the GUID are optional:
 
 ---
@@ -37,4 +33,3 @@ Hyphens in the GUID are optional:
     }
 
 ---
-<!--/fullDescription-->

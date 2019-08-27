@@ -1,18 +1,18 @@
-<!--id-->dxChart.Options.maxBubbleSize<!--/id-->
-===========================================================================
-<!--propertyOf-->dxChartSeriesTypes.BubbleSeries<!--/propertyOf-->
-<!--default-->0.2<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.maxBubbleSize
+type: Number
+default: 0.2
+---
+---
+##### shortDescription
 Specifies a coefficient determining the diameter of the largest bubble.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### propertyOf
+dxChartSeriesTypes.BubbleSeries
+
+---
 When defining a bubble series, you are required to specify a [size field](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/BubbleSeries/#sizeField). The largest size value will be represented on the chart by the largest bubble. Its visual diameter will be calculated by the following formula.
 
 *d = maxBubbleSize \* min(height, width)*
 
 Normally, the *height* and *width* from this formula equal the size of the widget container. However, when several [panes](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/panes/) are used in the widget, the *height* and *width* equal the pane size.
-<!--/fullDescription-->

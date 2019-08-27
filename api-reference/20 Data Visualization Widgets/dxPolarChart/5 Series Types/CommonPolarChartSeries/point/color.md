@@ -1,14 +1,14 @@
-<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.point.color<!--/id-->
-===========================================================================
-<!--propertyOf-->dxPolarChartSeriesTypes.linepolarseries,dxPolarChartSeriesTypes.areapolarseries,dxPolarChartSeriesTypes.scatterpolarseries<!--/propertyOf-->
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.CommonPolarChartSeries.point.color
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies the points color.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### propertyOf
+dxPolarChartSeriesTypes.linepolarseries,dxPolarChartSeriesTypes.areapolarseries,dxPolarChartSeriesTypes.scatterpolarseries
+
+---
 #include common-colorlist
-<!--/fullDescription-->

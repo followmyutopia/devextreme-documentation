@@ -1,14 +1,10 @@
-<!--id-->dxDataGridColumn.resized<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--default-->undefined<!--/default-->
-<!--type-->function()<!--/type-->
-===========================================================================
+---
+id: dxDataGridColumn.resized
+type: function()
+default: undefined
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

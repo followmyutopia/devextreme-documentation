@@ -1,16 +1,15 @@
-<!--id-->dxDateBox.Options.minZoomLevel<!--/id-->
-<!--dep-->dxDateBox.Options.calendarOptions<!--/dep-->
-===========================================================================
-<!--default-->'century'<!--/default-->
-<!--acceptValues-->'century' | 'decade' | 'month' | 'year'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDateBox.Options.minZoomLevel
+acceptValues: 'century' | 'decade' | 'month' | 'year'
+type: String
+default: 'century'
+dep: dxDateBox.Options.calendarOptions
+---
+---
+##### shortDescription
 Specifies the [minimal zoom level](/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#minZoomLevel) of a [calendar](/Documentation/ApiReference/UI_Widgets/dxCalendar/), which is used to pick the date.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The zoom level ascends from "month" to "century" ("month"->"year"->"decade"->"century").
 
 The option makes sense only if the [pickerType](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#pickerType) option is set to "calendar".
@@ -19,4 +18,3 @@ The option makes sense only if the [pickerType](/Documentation/ApiReference/UI_W
     enum: "`CalendarZoomLevel`",
     values: "`Month`, `Year`, `Decade`, and `Century`"
 }
-<!--/fullDescription-->

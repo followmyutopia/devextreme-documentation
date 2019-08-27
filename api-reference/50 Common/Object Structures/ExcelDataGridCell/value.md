@@ -1,12 +1,9 @@
-<!--id-->ExcelDataGridCell.value<!--/id-->
-===========================================================================
-<!--type-->any<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: ExcelDataGridCell.value
+type: any
+---
+---
+##### shortDescription
 The cell's raw value.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

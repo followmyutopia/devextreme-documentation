@@ -1,13 +1,12 @@
-<!--id-->GridBase.Options.editing.popup<!--/id-->
-===========================================================================
-<!--type-->dxPopup_Options<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.editing.popup
+type: dxPopup_Options
+---
+---
+##### shortDescription
 Configures the popup. Used only if **editing**.[mode]({basewidgetpath}/Configuration/editing/#mode) is *"popup"*.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 You can specify most of the [Popup options](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/) in this object except those listed below. The **{WidgetName}** overrides these options.
 
 - [contentTemplate](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#contentTemplate)
@@ -22,4 +21,3 @@ The popup always contains a form whose items are used for editing. Use the [form
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/{WidgetName}/PopupEditing/jQuery/Light/"
 }
-<!--/fullDescription-->

@@ -1,17 +1,15 @@
-<!--id-->dxTreeView.Options.expandEvent<!--/id-->
-===========================================================================
-<!--default-->'dblclick'<!--/default-->
-<!--acceptValues-->'dblclick' | 'click'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeView.Options.expandEvent
+acceptValues: 'dblclick' | 'click'
+type: String
+default: 'dblclick'
+---
+---
+##### shortDescription
 Specifies the event on which to expand/collapse a node.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-ref-enum with {
     enum: "`TreeViewExpandEvent`",
     values: "`DblClick` and `Click`"
 }
-<!--/fullDescription-->

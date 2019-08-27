@@ -1,13 +1,9 @@
-<!--id-->ui.repaintFloatingActionButton()<!--/id-->
-===================================================================
-<!--module-->ui/speed_dial_action/repaint_floating_action_button<!--/module-->
-<!--export-->default<!--/export-->
-===================================================================
+---
+id: ui.repaintFloatingActionButton()
+module: ui/speed_dial_action/repaint_floating_action_button
+export: default
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

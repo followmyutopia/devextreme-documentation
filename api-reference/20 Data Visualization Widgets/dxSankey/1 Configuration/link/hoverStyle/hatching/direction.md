@@ -1,19 +1,17 @@
-<!--id-->dxSankey.Options.link.hoverStyle.hatching.direction<!--/id-->
-===========================================================================
-<!--default-->'right'<!--/default-->
-<!--acceptValues-->'left' | 'none' | 'right'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSankey.Options.link.hoverStyle.hatching.direction
+acceptValues: 'left' | 'none' | 'right'
+type: String
+default: 'right'
+---
+---
+##### shortDescription
 Specifies hatching lines' direction.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include dataviz-hatching-direction
 
 #include common-ref-enum with {
     enum: "`HatchingDirection`",
     values: "`Right`, `Left`, and `None`"
 }
-<!--/fullDescription-->

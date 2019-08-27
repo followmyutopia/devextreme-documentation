@@ -1,4 +1,8 @@
-<!--id-->dxChartSeriesTypes.CommonSeries.label.font.size<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->14<!--/default-->
-===========================================================================
+---
+id: dxChartSeriesTypes.CommonSeries.label.font.size
+default: 14
+---
+---
+##### merge
+
+---

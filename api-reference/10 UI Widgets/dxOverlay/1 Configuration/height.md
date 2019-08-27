@@ -1,17 +1,14 @@
-<!--id-->dxOverlay.Options.height<!--/id-->
-===========================================================================
-<!--default-->function() { return $(window).height() * 0.8 }<!--/default-->
-<!--type-->Number | String | function()<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxOverlay.Options.height
+type: Number | String | function()
+default: function() { return $(window).height() * 0.8 }
+---
+---
+##### shortDescription
 Specifies the widget's height in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-#include uiwidgets-ref-height
-<!--/fullDescription-->
-<!--typeFunctionReturnType-->Number|String<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
+##### return: Number | String
 The widget's height.
-<!--/typeFunctionReturnDescription-->
+
+---
+#include uiwidgets-ref-height

@@ -1,14 +1,13 @@
-<!--id-->dxChart.Options.annotations<!--/id-->
-===========================================================================
-<!--type-->Array<dxChartAnnotationConfig, Object><!--/type-->
-<!--inherits-->dxChart.Options.commonAnnotationSettings<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.annotations
+type: Array<dxChartAnnotationConfig, Object>
+inherits: dxChart.Options.commonAnnotationSettings
+---
+---
+##### shortDescription
 Specifies the annotation collection.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Annotations are images and text blocks that provide additional information on the visualized data. The image below demonstrates their appearance:
 
 ![DevExtreme Chart: Annotations](/Content/images/doc/19_2/ChartJS/visual_elements/annotations.png)
@@ -197,4 +196,3 @@ Objects in the **annotations[]** array configure individual annotations. To spec
 
 #####See Also#####
 - [customizeAnnotation](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#customizeAnnotation)
-<!--/fullDescription-->

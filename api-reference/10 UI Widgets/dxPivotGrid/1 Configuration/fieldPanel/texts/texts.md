@@ -1,12 +1,10 @@
-<!--id-->dxPivotGrid.Options.fieldPanel.texts<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGrid.Options.fieldPanel.texts
+type: Object
+---
+---
+##### shortDescription
 Specifies the placeholders of the field areas.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Any placeholder specified in this object appears only when its field area contains no fields.
-<!--/fullDescription-->

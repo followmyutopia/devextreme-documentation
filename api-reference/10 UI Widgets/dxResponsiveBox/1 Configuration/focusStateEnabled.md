@@ -1,5 +1,4 @@
-<!--id-->dxResponsiveBox.Options.focusStateEnabled<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxResponsiveBox.Options.focusStateEnabled
+hidden: 
+---

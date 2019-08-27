@@ -1,13 +1,9 @@
-<!--id-->BaseLegendItem.marker.state<!--/id-->
-===========================================================================
-<!--acceptValues-->'normal' | 'hovered' | 'selected'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: BaseLegendItem.marker.state
+acceptValues: 'normal' | 'hovered' | 'selected'
+type: String
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

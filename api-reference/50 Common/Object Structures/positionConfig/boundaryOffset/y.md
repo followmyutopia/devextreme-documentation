@@ -1,13 +1,10 @@
-<!--id-->positionConfig.boundaryOffset.y<!--/id-->
-===========================================================================
-<!--default-->0<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: positionConfig.boundaryOffset.y
+type: Number
+default: 0
+---
+---
+##### shortDescription
 Specifies the vertical offset.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

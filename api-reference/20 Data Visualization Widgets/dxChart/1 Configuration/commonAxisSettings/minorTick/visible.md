@@ -1,13 +1,10 @@
-<!--id-->dxChart.Options.commonAxisSettings.minorTick.visible<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonAxisSettings.minorTick.visible
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Makes minor ticks visible.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,16 +1,9 @@
-<!--id-->dxDiagram.export()<!--/id-->
-===================================================================
-===================================================================
+---
+id: dxDiagram.export()
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### return: String
 
-<!--/shortDescription-->
-
-<!--returnType-->String<!--/returnType-->
-<!--returnDescription-->
-
-<!--/returnDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

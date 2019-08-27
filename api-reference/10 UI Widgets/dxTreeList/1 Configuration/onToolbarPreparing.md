@@ -1,4 +1,3 @@
-<!--fullDescription-->
 This function allows you to customize the toolbar. Depending on the configuration, the widget may add the following items to the toolbar:
 
 - <img src="/Content/images/doc/19_2/DataGrid/icons/columnChooser.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Toolbar ColumnChooserButton" style="margin:1px; vertical-align:middle"/> - *"columnChooserButton"*    
@@ -75,5 +74,3 @@ The following code shows how you can customize the toolbar using this function.
     </dx-tree-list>
     
 ---
-
-<!--/fullDescription-->

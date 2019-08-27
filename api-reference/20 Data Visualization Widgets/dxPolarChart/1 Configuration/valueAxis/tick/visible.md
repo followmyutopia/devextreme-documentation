@@ -1,6 +1,5 @@
-<!--id-->dxPolarChart.Options.valueAxis.tick.visible<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxPolarChart.Options.valueAxis.tick.visible
+type: Boolean
+default: false
+---

@@ -1,14 +1,10 @@
-<!--id-->dxMap.Options.markers.tooltip.text<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxMap.Options.markers.tooltip.text
+type: String
+---
+---
+##### shortDescription
 Specifies the tooltip text.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 If the tooltip should be hidden by default, pass the tooltip text directly to the **tooltip** property.
-
-
-<!--/fullDescription-->

@@ -1,16 +1,17 @@
-<!--id-->dxChartSeriesTypes.CommonSeries.point.symbol<!--/id-->
-===========================================================================
-<!--propertyOf-->dxChartSeriesTypes.LineSeries,dxChartSeriesTypes.StackedLineSeries,dxChartSeriesTypes.FullStackedLineSeries,dxChartSeriesTypes.StackedSplineSeries,dxChartSeriesTypes.FullStackedSplineSeries,dxChartSeriesTypes.SplineSeries,dxChartSeriesTypes.StepLineSeries,dxChartSeriesTypes.AreaSeries,dxChartSeriesTypes.StackedAreaSeries,dxChartSeriesTypes.FullStackedAreaSeries,dxChartSeriesTypes.StackedSplineAreaSeries,dxChartSeriesTypes.FullStackedSplineAreaSeries,dxChartSeriesTypes.SplineAreaSeries,dxChartSeriesTypes.StepAreaSeries,dxChartSeriesTypes.RangeAreaSeries,dxChartSeriesTypes.ScatterSeries<!--/propertyOf-->
-<!--default-->'circle'<!--/default-->
-<!--acceptValues-->'circle' | 'cross' | 'polygon' | 'square' | 'triangleDown' | 'triangleUp'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.CommonSeries.point.symbol
+acceptValues: 'circle' | 'cross' | 'polygon' | 'square' | 'triangleDown' | 'triangleUp'
+type: String
+default: 'circle'
+---
+---
+##### shortDescription
 Specifies which symbol should represent series points in scatter, line- and area-like series.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### propertyOf
+dxChartSeriesTypes.LineSeries,dxChartSeriesTypes.StackedLineSeries,dxChartSeriesTypes.FullStackedLineSeries,dxChartSeriesTypes.StackedSplineSeries,dxChartSeriesTypes.FullStackedSplineSeries,dxChartSeriesTypes.SplineSeries,dxChartSeriesTypes.StepLineSeries,dxChartSeriesTypes.AreaSeries,dxChartSeriesTypes.StackedAreaSeries,dxChartSeriesTypes.FullStackedAreaSeries,dxChartSeriesTypes.StackedSplineAreaSeries,dxChartSeriesTypes.FullStackedSplineAreaSeries,dxChartSeriesTypes.SplineAreaSeries,dxChartSeriesTypes.StepAreaSeries,dxChartSeriesTypes.RangeAreaSeries,dxChartSeriesTypes.ScatterSeries
+
+---
 The following symbols are available.
 
 <div class="simple-table">
@@ -54,4 +55,3 @@ The following symbols are available.
     enum: "`PointSymbol`",
     values: "`Circle`, `Square`, `Polygon`, `TriangleDown`, `TriangleUp`, and `Cross`"
 }
-<!--/fullDescription-->

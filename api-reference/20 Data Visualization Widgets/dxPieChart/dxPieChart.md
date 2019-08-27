@@ -1,5 +1,14 @@
-<!--id-->dxPieChart<!--/id-->
-<!--widgettree-->
+---
+id: dxPieChart
+module: viz/pie_chart
+export: default
+inherits: BaseChart
+---
+---
+##### shortDescription
+The **PieChart** is a widget that visualizes data as a circle divided into sectors that each represents a portion of the whole.
+
+##### widgettree
 dataSource: [{
     arg: "Russia",
     val: 12
@@ -25,21 +34,11 @@ dataSource: [{
     arg: "Others",
     val: 55
 }]
-<!--/widgettree-->
-===========================================================================
-<!--module-->viz/pie_chart<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->BaseChart<!--/inherits-->
-<!--lib-->
+
+##### lib
 dx.viz.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
 
-<!--shortDescription-->
-The **PieChart** is a widget that visualizes data as a circle divided into sectors that each represents a portion of the whole.
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartspieseriespie/"
 }
@@ -50,4 +49,3 @@ The **PieChart** is a widget that visualizes data as a circle divided into secto
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

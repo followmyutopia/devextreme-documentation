@@ -1,13 +1,10 @@
-<!--id-->dxFilterBuilder.Options.filterOperationDescriptions.lessThanOrEqual<!--/id-->
-===========================================================================
-<!--default-->'Less than or equal to'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFilterBuilder.Options.filterOperationDescriptions.lessThanOrEqual
+type: String
+default: 'Less than or equal to'
+---
+---
+##### shortDescription
 The *"<="* operation's description.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

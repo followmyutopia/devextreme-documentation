@@ -1,19 +1,15 @@
-<!--id-->PivotGridDataSource.filter(filterExpr)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.filter(filterExpr)
+---
+---
+##### shortDescription
 Sets the [filter](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/#filter) option's value. Does not affect an [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/).
-<!--/shortDescription-->
 
-<!--paramName1-->filterExpr<!--/paramName1-->
-<!--paramType1-->Object<!--/paramType1-->
-<!--paramDescription1-->
+##### param(filterExpr): Object
 A filter expression.
 Pass **null** to clear filtering settings.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 Call the [reload()](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#reload) method to update the **PivotGrid**:
 
 ---
@@ -54,4 +50,3 @@ Call the [reload()](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/M
 
 #####See Also#####
 - [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering)
-<!--/fullDescription-->

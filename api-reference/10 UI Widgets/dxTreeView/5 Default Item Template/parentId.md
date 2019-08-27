@@ -1,13 +1,11 @@
-<!--id-->dxTreeViewItem.parentId<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number | String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeViewItem.parentId
+type: Number | String
+default: undefined
+---
+---
+##### shortDescription
 Holds the key of the parent item.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This field makes sense no matter whether a custom template or the default one is used.
-<!--/fullDescription-->

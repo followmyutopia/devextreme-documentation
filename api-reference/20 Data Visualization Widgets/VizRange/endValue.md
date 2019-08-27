@@ -1,14 +1,11 @@
-<!--id-->VizRange.endValue<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number | Date | String<!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: VizRange.endValue
+type: Number | Date | String
+default: undefined
+firedEvents: optionChanged
+---
+---
+##### shortDescription
 The range's end value.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

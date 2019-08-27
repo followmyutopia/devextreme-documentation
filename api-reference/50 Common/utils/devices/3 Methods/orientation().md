@@ -1,16 +1,11 @@
-<!--id-->DevicesObject.orientation()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: DevicesObject.orientation()
+---
+---
+##### shortDescription
 Returns the current device orientation.
-<!--/shortDescription-->
 
-<!--returnType-->String<!--/returnType-->
-<!--returnDescription-->
+##### return: String
 The current device orientation: *"portrait"* or *"landscape"*.
-<!--/returnDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

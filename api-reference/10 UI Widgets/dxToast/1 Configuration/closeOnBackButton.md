@@ -1,6 +1,5 @@
-<!--id-->dxToast.Options.closeOnBackButton<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxToast.Options.closeOnBackButton
+type: Boolean
+default: false
+---

@@ -1,19 +1,14 @@
-<!--id-->dxList.scrollToItem(itemElement)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxList.scrollToItem(itemElement)
+---
+---
+##### shortDescription
 Scrolls the content to an item found using its DOM node.
-<!--/shortDescription-->
 
-<!--paramName1-->itemElement<!--/paramName1-->
-<!--paramType1-->Node<!--/paramType1-->
-<!--paramDescription1-->
+##### param(itemElement): Node
 The item's DOM node.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 #include common-link-callmethods
 - [List - Scrolling API](/Documentation/Guide/Widgets/List/Scrolling/#API)
-<!--/fullDescription-->

@@ -1,5 +1,14 @@
-<!--id-->dxNavBar<!--/id-->
-<!--widgettree-->
+---
+id: dxNavBar
+module: ui/nav_bar
+export: default
+inherits: dxTabs
+---
+---
+##### shortDescription
+The **NavBar** is a widget that navigates the application views.
+
+##### widgettree
 dataSource: [{
         text: "Contacts",
         icon: "user"
@@ -12,21 +21,11 @@ dataSource: [{
         icon: "favorites"
     }
 ]
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/nav_bar<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->dxTabs<!--/inherits-->
-<!--lib-->
+
+##### lib
 dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
 
-<!--shortDescription-->
-The **NavBar** is a widget that navigates the application views.
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/navigationnavbarnavbarnavbar/iphone/ios7/default/default"
 }
@@ -37,4 +36,3 @@ The **NavBar** is a widget that navigates the application views.
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

@@ -1,13 +1,11 @@
-<!--id-->dxProgressBar.Options.value<!--/id-->
-===========================================================================
-<!--default-->0<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxProgressBar.Options.value
+type: Number
+default: 0
+---
+---
+##### shortDescription
 The current widget value.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 To create the indeterminate **ProgressBar**, assign **false** to the **value** option.
-<!--/fullDescription-->

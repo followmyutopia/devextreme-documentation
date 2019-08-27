@@ -1,17 +1,15 @@
-<!--id-->dxTabs.Options.selectionMode<!--/id-->
-===========================================================================
-<!--default-->'single'<!--/default-->
-<!--acceptValues-->'multiple' | 'single'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTabs.Options.selectionMode
+acceptValues: 'multiple' | 'single'
+type: String
+default: 'single'
+---
+---
+##### shortDescription
 Specifies whether the widget enables an end-user to select only a single item or multiple items.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-ref-enum with {
     enum: "`NavSelectionMode`",
     values: "`Single` and `Multiple`"
 }
-<!--/fullDescription-->

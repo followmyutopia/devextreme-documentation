@@ -1,13 +1,10 @@
-<!--id-->dxLinearGauge.Options.scale.label.indentFromTick<!--/id-->
-===========================================================================
-<!--default-->-10<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxLinearGauge.Options.scale.label.indentFromTick
+type: Number
+default: -10
+---
+---
+##### shortDescription
 Specifies the spacing between scale labels and ticks.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

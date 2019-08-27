@@ -1,4 +1,8 @@
-<!--id-->linearTextCloud.offset<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->-1<!--/default-->
-===========================================================================
+---
+id: linearTextCloud.offset
+default: -1
+---
+---
+##### merge
+
+---

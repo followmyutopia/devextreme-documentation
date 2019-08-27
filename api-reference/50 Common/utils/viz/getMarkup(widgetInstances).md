@@ -1,29 +1,22 @@
-<!--id-->viz.getMarkup(widgetInstances)<!--/id-->
-===================================================================
-<!--module-->viz/export<!--/module-->
-<!--export-->getMarkup<!--/export-->
-===================================================================
-
-<!--shortDescription-->
+---
+id: viz.getMarkup(widgetInstances)
+module: viz/export
+export: getMarkup
+---
+---
+##### shortDescription
 Gets the SVG markup of specific widgets for their subsequent export.
-<!--/shortDescription-->
 
-<!--paramName1-->widgetInstances<!--/paramName1-->
-<!--paramType1-->Array<DOMComponent><!--/paramType1-->
-<!--paramDescription1-->
-The widget instances.
-<!--/paramDescription1-->
-
-<!--returnType-->String<!--/returnType-->
-<!--returnDescription-->
+##### return: String
 The widgets' SVG markup. Pass it to the [exportFromMarkup(markup, options)](/Documentation/ApiReference/Common/utils/viz/#exportFromMarkupmarkup_options) method to export the widgets.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(widgetInstances): Array<DOMComponent>
+The widget instances.
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Charts/ExportSeveralCharts/jQuery/Light/"
 }
 
 #####See Also#####
 - [svg()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#svg)
-<!--/fullDescription-->

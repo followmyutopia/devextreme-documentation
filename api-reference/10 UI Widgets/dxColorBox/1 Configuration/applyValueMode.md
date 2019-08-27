@@ -1,7 +1,6 @@
-<!--id-->dxColorBox.Options.applyValueMode<!--/id-->
-===========================================================================
-<!--default-->'useButtons'<!--/default-->
-<!--acceptValues-->'instantly' | 'useButtons'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
+---
+id: dxColorBox.Options.applyValueMode
+acceptValues: 'instantly' | 'useButtons'
+type: String
+default: 'useButtons'
+---

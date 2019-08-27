@@ -1,17 +1,15 @@
-<!--id-->dxChart.Options.valueAxis.constantLineStyle.label.horizontalAlignment<!--/id-->
-===========================================================================
-<!--default-->'left'<!--/default-->
-<!--acceptValues-->'center' | 'left' | 'right'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.valueAxis.constantLineStyle.label.horizontalAlignment
+acceptValues: 'center' | 'left' | 'right'
+type: String
+default: 'left'
+---
+---
+##### shortDescription
 Aligns constant line labels in the horizontal direction.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-ref-enum with {
     enum: "`HorizontalAlignment`",
     values: "`Left`, `Center`, and `Right`"
 }
-<!--/fullDescription-->

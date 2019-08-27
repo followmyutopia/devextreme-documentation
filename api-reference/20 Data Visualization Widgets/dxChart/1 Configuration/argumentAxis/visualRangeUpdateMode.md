@@ -1,15 +1,14 @@
-<!--id-->dxChart.Options.argumentAxis.visualRangeUpdateMode<!--/id-->
-===========================================================================
-<!--default-->'auto'<!--/default-->
-<!--acceptValues-->'auto' | 'keep' | 'reset' | 'shift'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.argumentAxis.visualRangeUpdateMode
+acceptValues: 'auto' | 'keep' | 'reset' | 'shift'
+type: String
+default: 'auto'
+---
+---
+##### shortDescription
 Specifies how the axis's [visual range](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/visualRange/) should behave when chart data is updated.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The following modes are available:
 
 - *"shift"*     
@@ -29,4 +28,3 @@ The applied mode changes depending on the visual range's position on the axis:
 
 #####See Also#####
 - **Axis**.[visualRange()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Axis/Methods/#visualRange)
-<!--/fullDescription-->

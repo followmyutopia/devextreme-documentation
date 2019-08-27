@@ -1,18 +1,12 @@
-<!--id-->dxDiagram.Options.nodes.parentKeyExpr<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String | function(data)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDiagram.Options.nodes.parentKeyExpr
+type: String | function(data)
+default: undefined
+---
+---
+##### shortDescription
 Specifies data field that provides a parent node ID for a node.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(data): Object
 
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->data<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-
-<!--/typeFunctionParamDescription1-->
+---

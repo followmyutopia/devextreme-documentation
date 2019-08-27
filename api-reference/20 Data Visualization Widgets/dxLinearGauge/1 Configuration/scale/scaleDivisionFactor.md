@@ -1,6 +1,5 @@
-<!--id-->dxLinearGauge.Options.scale.scaleDivisionFactor<!--/id-->
-===========================================================================
-<!--default-->25<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
+---
+id: dxLinearGauge.Options.scale.scaleDivisionFactor
+type: Number
+default: 25
+---

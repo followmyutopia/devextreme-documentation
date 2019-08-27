@@ -1,14 +1,12 @@
-<!--id-->dxBarGauge.Options.startValue<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--default-->0<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxBarGauge.Options.startValue
+type: Number
+default: 0
+---
+---
+##### shortDescription
 Specifies a start value for the gauge's invisible scale.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### notUsedInTheme
 
-<!--/fullDescription-->
+---

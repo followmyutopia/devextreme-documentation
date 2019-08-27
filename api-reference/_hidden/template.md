@@ -1,17 +1,11 @@
-<!--id-->ui.template<!--/id-->
-<!--dep--><!--/dep-->
-===========================================================================
-<!--type-->template<!--/type-->
-===========================================================================
+---
+id: ui.template
+type: template
+dep: 
+---
+---
+##### shortDescription
 
-<!--deprecated-->
+##### deprecated
 
-<!--/deprecated-->
-
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

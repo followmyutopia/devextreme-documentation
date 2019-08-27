@@ -1,22 +1,14 @@
-<!--id-->baseSeriesObject.getPointByPos(positionIndex)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: baseSeriesObject.getPointByPos(positionIndex)
+---
+---
+##### shortDescription
 Gets a series point with the specified index.
-<!--/shortDescription-->
 
-<!--paramName1-->positionIndex<!--/paramName1-->
-<!--paramType1-->Number<!--/paramType1-->
-<!--paramDescription1-->
-A zero-based index. Series points are indexed according to their drawing order.
-<!--/paramDescription1-->
-
-<!--returnType-->basePointObject<!--/returnType-->
-<!--returnDescription-->
+##### return: basePointObject
 A series point found by the index.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(positionIndex): Number
+A zero-based index. Series points are indexed according to their drawing order.
 
-<!--/fullDescription-->
+---

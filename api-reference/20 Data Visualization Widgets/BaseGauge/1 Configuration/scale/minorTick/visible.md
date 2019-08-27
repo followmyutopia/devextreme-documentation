@@ -1,13 +1,10 @@
-<!--id-->BaseGauge.Options.scale.minorTick.visible<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseGauge.Options.scale.minorTick.visible
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Indicates whether scale minor ticks are visible or not.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

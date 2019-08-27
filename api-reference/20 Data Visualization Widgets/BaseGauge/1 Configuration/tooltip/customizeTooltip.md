@@ -1,14 +1,25 @@
-<!--id-->BaseGauge.Options.tooltip.customizeTooltip<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->function(scaleValue)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseGauge.Options.tooltip.customizeTooltip
+type: function(scaleValue)
+default: undefined
+---
+---
+##### shortDescription
 Allows you to change the appearance of specified tooltips.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(scaleValue): Object
+Information on the scale value.
+
+##### field(scaleValue.value): Number
+The raw value.
+
+##### field(scaleValue.valueText): String
+The [formatted]({basewidgetpath}/Configuration/tooltip/#format) value converted to a string.
+
+##### return: Object
+The tooltip's configuration.
+
+---
 This option should be assigned a function returning a specific object. The following fields can be specified in this object.
 
 - **color**        
@@ -32,24 +43,3 @@ Specifies the HTML markup displayed by a tooltip.
 
 #####See Also#####
 - [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->scaleValue<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information on the scale value.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->Number<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The raw value.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->String<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-The [formatted]({basewidgetpath}/Configuration/tooltip/#format) value converted to a string.
-<!--/typeFunctionParamDescription1_field2-->
-
-<!--typeFunctionReturnType-->Object<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-The tooltip's configuration.
-<!--/typeFunctionReturnDescription-->

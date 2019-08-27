@@ -1,6 +1,5 @@
-<!--id-->dxLookup.Options.onEnterKey<!--/id-->
-<!--EventForAction-->dxLookup.enterKey<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxLookup.Options.onEnterKey
+hidden: 
+EventForAction: dxLookup.enterKey
+---

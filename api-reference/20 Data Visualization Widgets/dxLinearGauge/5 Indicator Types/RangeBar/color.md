@@ -1,4 +1,8 @@
-<!--id-->linearRangeBar.color<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->'#CBC5CF'<!--/default-->
-===========================================================================
+---
+id: linearRangeBar.color
+default: '#CBC5CF'
+---
+---
+##### merge
+
+---

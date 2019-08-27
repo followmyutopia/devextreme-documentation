@@ -1,13 +1,10 @@
-<!--id-->dxSlideOut.Options.selectedIndex<!--/id-->
-===========================================================================
-<!--default-->0<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSlideOut.Options.selectedIndex
+type: Number
+default: 0
+---
+---
+##### shortDescription
 The index number of the currently selected item.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

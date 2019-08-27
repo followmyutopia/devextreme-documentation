@@ -1,12 +1,9 @@
-<!--id-->dxFunnelItem.percent<!--/id-->
-===========================================================================
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFunnelItem.percent
+type: Number
+---
+---
+##### shortDescription
 The item's calculated percentage value.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

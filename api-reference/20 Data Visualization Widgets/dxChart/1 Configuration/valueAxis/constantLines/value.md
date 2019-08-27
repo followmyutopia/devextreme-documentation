@@ -1,13 +1,10 @@
-<!--id-->dxChart.Options.valueAxis.constantLines.value<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number | Date | String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.valueAxis.constantLines.value
+type: Number | Date | String
+default: undefined
+---
+---
+##### shortDescription
 Specifies the value indicated by a constant line. Setting this option is necessary.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

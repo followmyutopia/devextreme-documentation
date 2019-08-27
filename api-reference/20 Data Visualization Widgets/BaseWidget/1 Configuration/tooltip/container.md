@@ -1,13 +1,10 @@
-<!--id-->BaseWidget.Options.tooltip.container<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String | Node | jQuery<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseWidget.Options.tooltip.container
+type: String | Node | jQuery
+default: undefined
+---
+---
+##### shortDescription
 Specifies the container in which to draw tooltips. The default container is the HTML DOM `<body>` element.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

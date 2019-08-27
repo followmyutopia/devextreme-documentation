@@ -1,13 +1,15 @@
-<!--id-->dxDataGrid.Options.customizeColumns<!--/id-->
-===========================================================================
-<!--type-->function(columns)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.Options.customizeColumns
+type: function(columns)
+---
+---
+##### shortDescription
 Customizes columns after they are created.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(columns): Array<dxDataGridColumn>
+All column [configurations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/).
+
+---
 Use this function to make minor adjustments to automatically generated columns. You can access and modify column configurations using the function's parameter. 
 
 ---
@@ -51,9 +53,3 @@ Use this function to make minor adjustments to automatically generated columns. 
 ---
 
 For a more profound column customization, declare the [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) array.
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->columns<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Array<dxDataGridColumn><!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-All column [configurations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/).
-<!--/typeFunctionParamDescription1-->

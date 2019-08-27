@@ -1,4 +1,8 @@
-<!--id-->linearRangeBar.offset<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->10<!--/default-->
-===========================================================================
+---
+id: linearRangeBar.offset
+default: 10
+---
+---
+##### merge
+
+---

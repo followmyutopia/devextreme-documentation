@@ -1,23 +1,14 @@
-<!--id-->viz.map.projection.add(name, projection)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: viz.map.projection.add(name, projection)
+---
+---
+##### shortDescription
 Adds a new projection to the internal projections storage.
-<!--/shortDescription-->
 
-<!--paramName1-->name<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
-<!--paramDescription1-->
+##### param(name): String
 The projection's name.
-<!--/paramDescription1-->
 
-<!--paramName2-->projection<!--/paramName2-->
-<!--paramType2-->VectorMapProjectionConfig|Object<!--/paramType2-->
-<!--paramDescription2-->
+##### param(projection): VectorMapProjectionConfig | Object
 The projection.
-<!--/paramDescription2-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

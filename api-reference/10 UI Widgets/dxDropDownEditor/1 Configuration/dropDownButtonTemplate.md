@@ -1,42 +1,28 @@
-<!--id-->dxDropDownEditor.Options.dropDownButtonTemplate<!--/id-->
-===========================================================================
-<!--default-->'dropDownButton'<!--/default-->
-<!--type-->template<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDropDownEditor.Options.dropDownButtonTemplate
+type: template
+default: 'dropDownButton'
+---
+---
+##### shortDescription
 Specifies a custom template for the drop-down button.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(buttonData): Object
+Information about the button.
 
+##### field(buttonData.icon): String
+The button's icon.
+
+##### field(buttonData.text): String
+The button's text.
+
+##### param(contentElement): dxElement
+#include common-ref-elementparam with { element: "button" }
+
+##### return: String | Node | jQuery
+A template name or container.
+
+---
 #####See Also#####
 - [SelectBox - Customize Drop-Down Button Demo](/Demos/WidgetsGallery/Demo/Select_Box/CustomizeDropDownButton/jQuery/Light/)
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->buttonData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the button.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->text<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->String<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The button's text.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->icon<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->String<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-The button's icon.
-<!--/typeFunctionParamDescription1_field2-->
-
-<!--typeFunctionParamName2-->contentElement<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-#include common-ref-elementparam with { element: "button" }
-<!--/typeFunctionParamDescription2-->
-
-<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A template name or container.
-<!--/typeFunctionReturnDescription-->

@@ -1,14 +1,11 @@
-<!--id-->positionConfig.collision.y<!--/id-->
-===========================================================================
-<!--default-->'none'<!--/default-->
-<!--acceptValues-->'fit' | 'flip' | 'flipfit' | 'none'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: positionConfig.collision.y
+acceptValues: 'fit' | 'flip' | 'flipfit' | 'none'
+type: String
+default: 'none'
+---
+---
+##### shortDescription
 Specifies the vertical collision handler.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

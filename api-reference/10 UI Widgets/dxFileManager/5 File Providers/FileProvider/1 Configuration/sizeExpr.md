@@ -1,12 +1,9 @@
-<!--id-->FileProvider.Options.sizeExpr<!--/id-->
-===========================================================================
-<!--type-->String | function()<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: FileProvider.Options.sizeExpr
+type: String | function()
+---
+---
+##### shortDescription
 Specifies which data field provides file sizes.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

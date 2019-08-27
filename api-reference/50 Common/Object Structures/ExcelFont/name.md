@@ -1,12 +1,9 @@
-<!--id-->ExcelFont.name<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: ExcelFont.name
+type: String
+---
+---
+##### shortDescription
 The name of the typeface that should be applied to the text.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

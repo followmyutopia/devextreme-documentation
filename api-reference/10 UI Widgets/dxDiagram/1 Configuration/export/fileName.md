@@ -1,13 +1,10 @@
-<!--id-->dxDiagram.Options.export.fileName<!--/id-->
-===========================================================================
-<!--default-->'Diagram'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDiagram.Options.export.fileName
+type: String
+default: 'Diagram'
+---
+---
+##### shortDescription
 Specifies the name of the file to which the diagram is exported.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,13 +1,9 @@
-<!--id-->dxGantt.Options.showResources<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
+---
+id: dxGantt.Options.showResources
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

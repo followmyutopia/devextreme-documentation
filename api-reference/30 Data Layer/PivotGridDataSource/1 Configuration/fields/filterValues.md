@@ -1,14 +1,13 @@
-<!--id-->PivotGridDataSource.Options.fields.filterValues<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Array<any><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.Options.fields.filterValues
+type: Array<any>
+default: undefined
+---
+---
+##### shortDescription
 Specifies the values by which the field is filtered.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -67,4 +66,3 @@ Specifies the values by which the field is filtered.
 #####See Also#####
 - **fields[]**.[filterType](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#filterType)
 - **fields[]**.[allowFiltering](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#allowFiltering)
-<!--/fullDescription-->

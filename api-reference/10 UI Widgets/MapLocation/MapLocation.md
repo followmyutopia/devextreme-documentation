@@ -1,12 +1,8 @@
-<!--id-->MapLocation<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
+---
+id: MapLocation
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

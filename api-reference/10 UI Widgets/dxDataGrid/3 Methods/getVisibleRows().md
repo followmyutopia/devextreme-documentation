@@ -1,17 +1,13 @@
-<!--id-->dxDataGrid.getVisibleRows()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.getVisibleRows()
+---
+---
+##### shortDescription
 Gets currently rendered rows.
-<!--/shortDescription-->
 
-<!--returnType-->Array<dxDataGridRowObject><!--/returnType-->
-<!--returnDescription-->
-Currently rendered rows. 
-<!--/returnDescription-->
+##### return: Array<dxDataGridRowObject>
+Currently rendered rows.
 
-<!--fullDescription-->
+---
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

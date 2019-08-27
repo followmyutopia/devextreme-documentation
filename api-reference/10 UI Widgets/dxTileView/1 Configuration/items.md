@@ -1,6 +1,5 @@
-<!--id-->dxTileView.Options.items<!--/id-->
-===========================================================================
-<!--type-->Array<String, dxTileViewItem, Object><!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
-===========================================================================
-
+---
+id: dxTileView.Options.items
+type: Array<String, dxTileViewItem, Object>
+firedEvents: optionChanged
+---

@@ -1,21 +1,19 @@
-<!--id-->dxCheckBox<!--/id-->
-<!--widgettree-->
-
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/check_box<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->Editor<!--/inherits-->
-<!--lib-->
-dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxCheckBox
+module: ui/check_box
+export: default
+inherits: Editor
+---
+---
+##### shortDescription
 The **CheckBox** is a small box, which when selected by the end user, shows that a particular feature has been enabled or a specific option has been chosen.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### widgettree
+
+##### lib
+dx.web.js, dx.viz-web.js, dx.all.js
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/editorscheckboxcheckboxcheckbox/"
 }
@@ -26,4 +24,3 @@ The **CheckBox** is a small box, which when selected by the end user, shows that
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

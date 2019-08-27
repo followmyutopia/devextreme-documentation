@@ -1,14 +1,13 @@
-<!--id-->dxDataGrid.Options.sortByGroupSummaryInfo.summaryItem<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String | Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.Options.sortByGroupSummaryInfo.summaryItem
+type: String | Number
+default: undefined
+---
+---
+##### shortDescription
 Specifies the group summary item whose values must be used to sort groups.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The **summaryItem** option accepts one of the following values.
 
 - The [name](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/#name) of a summary item. The following code sorts groups according to the values of the *"Average Age Group Summary"* item.    
@@ -238,4 +237,3 @@ The **summaryItem** option accepts one of the following values.
 
 #####See Also#####
 -[Sort by Group Summary](/Documentation/Guide/Widgets/DataGrid/Summaries/Group_Summary/#Sort_by_Group_Summary)
-<!--/fullDescription-->

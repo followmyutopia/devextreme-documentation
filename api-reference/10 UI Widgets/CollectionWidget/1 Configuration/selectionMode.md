@@ -1,15 +1,11 @@
-<!--id-->CollectionWidget.Options.selectionMode<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--default-->'none'<!--/default-->
-<!--acceptValues-->'multiple' | 'single' | 'all' | 'none'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: CollectionWidget.Options.selectionMode
+acceptValues: 'multiple' | 'single' | 'all' | 'none'
+type: String
+default: 'none'
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

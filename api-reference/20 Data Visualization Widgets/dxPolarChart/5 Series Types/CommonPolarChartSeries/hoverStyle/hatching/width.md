@@ -1,13 +1,10 @@
-<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.hoverStyle.hatching.width<!--/id-->
-===========================================================================
-<!--default-->2<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.CommonPolarChartSeries.hoverStyle.hatching.width
+type: Number
+default: 2
+---
+---
+##### shortDescription
 Specifies the width of hatching lines in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

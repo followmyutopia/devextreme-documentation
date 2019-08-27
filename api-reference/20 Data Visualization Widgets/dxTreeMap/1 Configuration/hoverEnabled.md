@@ -1,14 +1,13 @@
-<!--id-->dxTreeMap.Options.hoverEnabled<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMap.Options.hoverEnabled
+type: Boolean
+default: undefined
+---
+---
+##### shortDescription
 Specifies whether tiles and groups change their style when a user pauses on them.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 [note]When the user pauses on a group, not only the group changes its style, but also tiles that belong to that group. However, the [isHovered()](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#isHovered) method, which checks the tiles' state, will return **false** although visually they have entered the hover state.
 
 #####See Also#####
@@ -16,4 +15,3 @@ Specifies whether tiles and groups change their style when a user pauses on them
 - **tile**.[hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/tile/hoverStyle/)
 - **group**.[hoverEnabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/group/#hoverEnabled)
 - [onHoverChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#onHoverChanged)
-<!--/fullDescription-->

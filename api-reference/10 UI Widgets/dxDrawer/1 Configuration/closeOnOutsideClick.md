@@ -1,14 +1,19 @@
-<!--id-->dxDrawer.Options.closeOnOutsideClick<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean | function(event)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDrawer.Options.closeOnOutsideClick
+type: Boolean | function(event)
+default: false
+---
+---
+##### shortDescription
 Specifies whether to close the drawer if a user clicks or taps the view area.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(event): event
+The raised event. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a <a href="http://api.jquery.com/category/events/event-object/" target="_blank">jQuery.Event</a> when you use jQuery.
+
+##### return: Boolean
+**true** if the widget should be closed; otherwise **false**.
+
+---
 The function passed to this option enables you to specify a custom condition for widget closing. For instance, you can prevent closing until a user clicks a specific element on the view:
 
 ---
@@ -49,15 +54,3 @@ The function passed to this option enables you to specify a custom condition for
     </dx-drawer>
 
 ---
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->event<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->event<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The raised event. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a <a href="http://api.jquery.com/category/events/event-object/" target="_blank">jQuery.Event</a> when you use jQuery.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->Boolean<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-**true** if the widget should be closed; otherwise **false**.
-<!--/typeFunctionReturnDescription-->

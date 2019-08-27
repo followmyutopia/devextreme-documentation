@@ -1,13 +1,10 @@
-<!--id-->ColCountResponsible.sm<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: ColCountResponsible.sm
+type: Number
+default: undefined
+---
+---
+##### shortDescription
 The count of columns for a small-sized screen.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

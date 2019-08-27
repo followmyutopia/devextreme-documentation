@@ -1,12 +1,9 @@
-<!--id-->dxTreeListNode.children<!--/id-->
-===========================================================================
-<!--type-->Array<dxTreeListNode><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeListNode.children
+type: Array<dxTreeListNode>
+---
+---
+##### shortDescription
 Contains all child nodes.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

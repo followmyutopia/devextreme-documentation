@@ -1,5 +1,14 @@
-<!--id-->dxTileView<!--/id-->
-<!--widgettree-->
+---
+id: dxTileView
+module: ui/tile_view
+export: default
+inherits: CollectionWidget
+---
+---
+##### shortDescription
+The **TileView** widget contains a collection of tiles. Tiles can store much more information than ordinary buttons, that is why they are very popular in apps designed for touch devices.
+
+##### widgettree
 items: [{
     ID: "1",
     Address: "652 Avonwick Gate",
@@ -130,21 +139,11 @@ itemTemplate: function (itemData, _, itemElement) {
     }).appendTo(itemElement);
 },
 height: 450
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/tile_view<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->CollectionWidget<!--/inherits-->
-<!--lib-->
+
+##### lib
 dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
 
-<!--shortDescription-->
-The **TileView** widget contains a collection of tiles. Tiles can store much more information than ordinary buttons, that is why they are very popular in apps designed for touch devices.
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/actionsandliststileviewtileviewtileview/"
 }
@@ -155,4 +154,3 @@ The **TileView** widget contains a collection of tiles. Tiles can store much mor
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

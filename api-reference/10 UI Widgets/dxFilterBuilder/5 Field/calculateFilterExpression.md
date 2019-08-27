@@ -1,13 +1,21 @@
-<!--id-->dxFilterBuilderField.calculateFilterExpression<!--/id-->
-===========================================================================
-<!--type-->function(filterValue, selectedFilterOperation)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFilterBuilderField.calculateFilterExpression
+type: function(filterValue, selectedFilterOperation)
+---
+---
+##### shortDescription
 Specifies the field's custom filtering rules.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(filterValue): any
+A user input value.
+
+##### param(selectedFilterOperation): String
+The selected filter operation.
+
+##### return: Filter expression
+A filter expression.
+
+---
 [note] When configuring the [filter builder](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#filterBuilder) integrated in the **DataGrid** or **TreeList**, specify the [calculateFilterExpression](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateFilterExpression) in the column with the same [dataField](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#dataField) instead.
 
 This function must return a [filter expression](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering). The simplest filter expression has the following format:
@@ -90,20 +98,3 @@ In the previous code, the **defaultCalculateFilterExpression** function invokes 
 #include uiwidgets-ref-functioncontext with { 
     value: "field's configuration"
 }
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->filterValue<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->any<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-A user input value.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionParamName2-->selectedFilterOperation<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->String<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-The selected filter operation.
-<!--/typeFunctionParamDescription2-->
-
-<!--typeFunctionReturnType-->Filter expression<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A filter expression.
-<!--/typeFunctionReturnDescription-->

@@ -1,13 +1,9 @@
-<!--id-->dxDiagram.Options.toolbar<!--/id-->
-===========================================================================
-<!--default-->{}<!--/default-->
-<!--type-->Object<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.toolbar
+type: Object
+default: {}
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

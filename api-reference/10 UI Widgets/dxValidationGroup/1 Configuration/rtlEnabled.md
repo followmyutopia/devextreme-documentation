@@ -1,5 +1,4 @@
-<!--id-->dxValidationGroup.Options.rtlEnabled<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxValidationGroup.Options.rtlEnabled
+hidden: 
+---

@@ -1,13 +1,10 @@
-<!--id-->dxMenuBaseItem.selected<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxMenuBaseItem.selected
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether or not the item is selected.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

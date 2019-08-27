@@ -1,13 +1,9 @@
-<!--id-->dxDiagram.Options.toolbox.groups.category<!--/id-->
-===========================================================================
-<!--acceptValues-->'general' | 'flowchart' | 'orgChart' | 'containers' | 'custom'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.toolbox.groups.category
+acceptValues: 'general' | 'flowchart' | 'orgChart' | 'containers' | 'custom'
+type: String
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

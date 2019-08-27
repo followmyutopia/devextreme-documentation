@@ -1,13 +1,10 @@
-<!--id-->dxFilterBuilder.Options.groupOperationDescriptions.or<!--/id-->
-===========================================================================
-<!--default-->'Or'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFilterBuilder.Options.groupOperationDescriptions.or
+type: String
+default: 'Or'
+---
+---
+##### shortDescription
 The *"or"* operation's description.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

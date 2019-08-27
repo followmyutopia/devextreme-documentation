@@ -1,8 +1,7 @@
-===================================================================
-<!--merge--><!--/merge-->
-===================================================================
+---
+##### merge
 
-<!--fullDescription-->
+---
 This method has the following specifics:
 
 - A call of this method clears selection of all previously selected rows.
@@ -10,4 +9,3 @@ This method has the following specifics:
 
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

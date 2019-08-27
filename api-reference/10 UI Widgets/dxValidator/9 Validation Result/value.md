@@ -1,12 +1,9 @@
-<!--id-->dxValidatorResult.value<!--/id-->
-===========================================================================
-<!--type-->any<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxValidatorResult.value
+type: any
+---
+---
+##### shortDescription
 The value being validated.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

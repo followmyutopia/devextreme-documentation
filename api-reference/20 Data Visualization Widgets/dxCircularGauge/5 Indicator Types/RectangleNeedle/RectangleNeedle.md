@@ -1,15 +1,15 @@
-<!--id-->circularRectangleNeedle<!--/id-->
-===========================================================================
-<!--hidePropertyOf--><!--/hidePropertyOf-->
-<!--type-->Object<!--/type-->
-<!--inherits-->CommonIndicator<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: circularRectangleNeedle
+type: Object
+inherits: CommonIndicator
+---
+---
+##### shortDescription
 An object that defines a gauge indicator of the **rectangleNeedle** type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### hidePropertyOf
+
+---
 ---
 ##### jQuery  
 
@@ -74,4 +74,3 @@ An object that defines a gauge indicator of the **rectangleNeedle** type.
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Gauges/DifferentValueIndicatorTypes/jQuery/Light/"
 }
-<!--/fullDescription-->

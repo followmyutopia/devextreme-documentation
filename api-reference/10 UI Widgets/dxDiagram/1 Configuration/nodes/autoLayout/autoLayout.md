@@ -1,14 +1,10 @@
-<!--id-->dxDiagram.Options.nodes.autoLayout<!--/id-->
-===========================================================================
-<!--default-->'tree'<!--/default-->
-<!--acceptValues-->'off' | 'tree' | 'layered'<!--/acceptValues-->
-<!--type-->String | Object<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.nodes.autoLayout
+acceptValues: 'off' | 'tree' | 'layered'
+type: String | Object
+default: 'tree'
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

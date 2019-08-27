@@ -1,18 +1,11 @@
-<!--id-->dxDiagram.Options.edges.lockedExpr<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String | function(data)<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.edges.lockedExpr
+type: String | function(data)
+default: undefined
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### param(data): Object
 
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->data<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-
-<!--/typeFunctionParamDescription1-->
+---

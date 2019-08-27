@@ -1,13 +1,11 @@
-<!--id-->dxScheduler.Options.crossScrollingEnabled<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler.Options.crossScrollingEnabled
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether or not an end-user can scroll the view in both directions at the same time.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This option is useful when displaying **Scheduler** on narrow screens.
-<!--/fullDescription-->

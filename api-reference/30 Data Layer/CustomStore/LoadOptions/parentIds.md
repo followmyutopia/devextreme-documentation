@@ -1,12 +1,8 @@
-<!--id-->LoadOptions.parentIds<!--/id-->
-===========================================================================
-<!--type-->Array<any><!--/type-->
-===========================================================================
+---
+id: LoadOptions.parentIds
+type: Array<any>
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

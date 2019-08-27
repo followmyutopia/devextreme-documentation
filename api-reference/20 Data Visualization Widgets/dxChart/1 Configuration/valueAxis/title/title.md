@@ -1,13 +1,12 @@
-<!--id-->dxChart.Options.valueAxis.title<!--/id-->
-===========================================================================
-<!--type-->String | Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.valueAxis.title
+type: String | Object
+---
+---
+##### shortDescription
 Configures the axis title.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The axis title is a short text displayed alongside the axis. Usually, the axis title shows units of measurement for values displayed by the axis. You can put any text in the axis title though.
 
 ![DevExtreme HTML5 Charts AxisTitles](/Content/images/doc/19_2/ChartJS/visual_elements/axis_titles.png)
@@ -24,4 +23,3 @@ is the same as this:
 
 #####See Also#####
 - **commonAxisSettings**.[title](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/title/) - configures all axis titles in the widget.
-<!--/fullDescription-->

@@ -1,41 +1,28 @@
-<!--id-->dxButton.Options.template<!--/id-->
-===========================================================================
-<!--default-->'content'<!--/default-->
-<!--type-->template<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxButton.Options.template
+type: template
+default: 'content'
+---
+---
+##### shortDescription
 Specifies a custom template for the **Button** widget.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(buttonData): Object
+The button's data.
+
+##### field(buttonData.icon): String
+The button's icon.
+
+##### field(buttonData.text): String
+The button's text.
+
+##### param(contentElement): dxElement
+#include common-ref-elementparam with { element: "button content" }
+
+##### return: String | Node | jQuery
+A template name or container.
+
+---
 #####See Also#####
 - [Customize the Appearance](/Documentation/Guide/Widgets/Button/Customize_the_Appearance/)
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->buttonData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The button's data.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->text<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->String<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The button's text.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->icon<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->String<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-The button's icon.
-<!--/typeFunctionParamDescription1_field2-->
-
-<!--typeFunctionParamName2-->contentElement<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-#include common-ref-elementparam with { element: "button content" }
-<!--/typeFunctionParamDescription2-->
-
-<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A template name or container.
-<!--/typeFunctionReturnDescription-->

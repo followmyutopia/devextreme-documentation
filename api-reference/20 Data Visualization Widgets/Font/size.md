@@ -1,13 +1,11 @@
-<!--id-->Font.size<!--/id-->
-===========================================================================
-<!--default-->12<!--/default-->
-<!--type-->String | Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Font.size
+type: String | Number
+default: 12
+---
+---
+##### shortDescription
 Specifies font size.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include dataviz-ref-fontsize-acceptedvalues
-<!--/fullDescription-->

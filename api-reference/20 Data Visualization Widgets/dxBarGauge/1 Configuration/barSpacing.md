@@ -1,13 +1,10 @@
-<!--id-->dxBarGauge.Options.barSpacing<!--/id-->
-===========================================================================
-<!--default-->4<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxBarGauge.Options.barSpacing
+type: Number
+default: 4
+---
+---
+##### shortDescription
 Specifies a distance between bars in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

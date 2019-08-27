@@ -1,15 +1,14 @@
-<!--id-->dxTreeList.Options.scrolling.mode<!--/id-->
-===========================================================================
-<!--default-->'virtual'<!--/default-->
-<!--acceptValues-->'standard' | 'virtual'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeList.Options.scrolling.mode
+acceptValues: 'standard' | 'virtual'
+type: String
+default: 'virtual'
+---
+---
+##### shortDescription
 Specifies the scrolling mode.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The following scrolling modes are available in the widget:
 
 - **Standard**      
@@ -22,4 +21,3 @@ This mode is an alternative to paging where pages are rendered when they get int
     enum: "`TreeListScrollingMode`",
     values: "`Standard` and `Virtual`"
 }
-<!--/fullDescription-->

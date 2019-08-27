@@ -1,13 +1,10 @@
-<!--id-->dxChart.Options.commonAxisSettings.minorGrid.visible<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonAxisSettings.minorGrid.visible
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Makes the minor grid visible.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

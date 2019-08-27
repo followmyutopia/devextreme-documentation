@@ -1,13 +1,10 @@
-<!--id-->PivotGridDataSource.Options.fields.headerFilter.height<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.Options.fields.headerFilter.height
+type: Number
+default: undefined
+---
+---
+##### shortDescription
 Specifies the height of the popup menu containing filtering values.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

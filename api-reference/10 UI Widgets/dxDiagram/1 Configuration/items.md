@@ -1,6 +1,5 @@
-<!--id-->dxDiagram.Options.zoomLevel.items<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Array<Number><!--/type-->
-===========================================================================
-
+---
+id: dxDiagram.Options.zoomLevel.items
+type: Array<Number>
+default: undefined
+---

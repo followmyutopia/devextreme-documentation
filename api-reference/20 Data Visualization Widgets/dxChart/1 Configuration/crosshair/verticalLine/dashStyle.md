@@ -1,14 +1,12 @@
-<!--id-->dxChart.Options.crosshair.verticalLine.dashStyle<!--/id-->
-===========================================================================
-<!--default-->'solid'<!--/default-->
-<!--acceptValues-->'dash' | 'dot' | 'longDash' | 'solid'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.crosshair.verticalLine.dashStyle
+acceptValues: 'dash' | 'dot' | 'longDash' | 'solid'
+type: String
+default: 'solid'
+---
+---
+##### shortDescription
 Specifies the dash style of the vertical crosshair line.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include dataviz-ref-dashstyle
-<!--/fullDescription-->

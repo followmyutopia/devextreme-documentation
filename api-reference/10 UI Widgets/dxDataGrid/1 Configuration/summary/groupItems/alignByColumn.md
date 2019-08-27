@@ -1,14 +1,13 @@
-<!--id-->dxDataGrid.Options.summary.groupItems.alignByColumn<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.Options.summary.groupItems.alignByColumn
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Indicates whether to display group summary items in parentheses after the group row header or to align them by the corresponding columns within the group row.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 When this option is set to **false**, group summary items are displayed in brackets of the group row header. Set this option to **true** to align them by the corresponding columns within the group row.
 
 You can also display group summary items in a group footer by setting the [showInGroupFooter](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/#showInGroupFooter) option to **true**.
@@ -21,4 +20,3 @@ You can also display group summary items in a group footer by setting the [showI
 
 #####See Also#####
 - [Group Summary - Alignment and Location](/Documentation/Guide/Widgets/DataGrid/Summaries/Group_Summary/#Alignment_and_Location)
-<!--/fullDescription-->

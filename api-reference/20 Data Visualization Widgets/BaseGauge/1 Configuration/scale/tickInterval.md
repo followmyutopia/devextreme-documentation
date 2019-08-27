@@ -1,13 +1,11 @@
-<!--id-->BaseGauge.Options.scale.tickInterval<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseGauge.Options.scale.tickInterval
+type: Number
+default: undefined
+---
+---
+##### shortDescription
 Specifies an interval between major ticks.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 If this property is not set, major ticks are arranged automatically.
-<!--/fullDescription-->

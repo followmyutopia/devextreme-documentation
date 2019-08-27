@@ -1,14 +1,12 @@
-<!--id-->dxBullet.Options.showTarget<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxBullet.Options.showTarget
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether or not to show the target line.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 - [Bullet - Target Line](/Documentation/Guide/Widgets/Bullet/Visual_Elements/#Target_Line)
-<!--/fullDescription-->

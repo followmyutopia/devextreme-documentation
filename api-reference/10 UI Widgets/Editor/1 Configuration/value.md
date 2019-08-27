@@ -1,14 +1,11 @@
-<!--id-->Editor.Options.value<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->any<!--/type-->
-<!--firedEvents-->valueChanged<!--/firedEvents-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Editor.Options.value
+type: any
+default: null
+firedEvents: valueChanged
+---
+---
+##### shortDescription
 Specifies the widget's value.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

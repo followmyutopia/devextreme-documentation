@@ -1,14 +1,19 @@
-<!--id-->PivotGridDataSource.Options.fields.calculateSummaryValue<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->function(e)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.Options.fields.calculateSummaryValue
+type: function(e)
+default: undefined
+---
+---
+##### shortDescription
 Specifies a custom post-processing function for summary values.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(e): dxPivotGridSummaryCell
+The cell whose summary value is being processed.
+
+##### return: Number
+The cell's new summary value.
+
+---
 This and [other post-processing functions](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#summaryDisplayMode) allow you to perform additional calculations on each summary value and take into account neighboring cells' summary values.
 
 ---
@@ -91,14 +96,3 @@ This and [other post-processing functions](/Documentation/ApiReference/Data_Laye
 #include uiwidgets-ref-functioncontext with { 
     value: "field's configuration"
 }
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->dxPivotGridSummaryCell<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The cell whose summary value is being processed.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->Number<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-The cell's new summary value.
-<!--/typeFunctionReturnDescription-->

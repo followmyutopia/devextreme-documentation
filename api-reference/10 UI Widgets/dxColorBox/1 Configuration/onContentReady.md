@@ -1,13 +1,9 @@
-<!--id-->dxColorBox.Options.onContentReady<!--/id-->
-<!--EventForAction-->dxColorBox.contentReady<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
+---
+id: dxColorBox.Options.onContentReady
+hidden: 
+EventForAction: dxColorBox.contentReady
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

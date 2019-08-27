@@ -1,21 +1,20 @@
-<!--id-->dxCircularGauge<!--/id-->
-<!--widgettree-->
-value: 48
-<!--/widgettree-->
-===========================================================================
-<!--module-->viz/circular_gauge<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->BaseGauge<!--/inherits-->
-<!--lib-->
-dx.viz.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxCircularGauge
+module: viz/circular_gauge
+export: default
+inherits: BaseGauge
+---
+---
+##### shortDescription
 The **CircularGauge** is a widget that indicates values on a circular numeric scale.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### widgettree
+value: 48
+
+##### lib
+dx.viz.js, dx.viz-web.js, dx.all.js
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/gaugescirculargaugescirculargaugebasicelementspaletteforranges/"
 }
@@ -26,4 +25,3 @@ The **CircularGauge** is a widget that indicates values on a circular numeric sc
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

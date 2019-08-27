@@ -1,5 +1,4 @@
-<!--id-->dxPolarChart.Options.argumentAxis.tick<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxPolarChart.Options.argumentAxis.tick
+type: Object
+---

@@ -1,14 +1,10 @@
-<!--id-->dxDiagram.Options.document.units<!--/id-->
-===========================================================================
-<!--default-->'in'<!--/default-->
-<!--acceptValues-->'in' | 'cm' | 'px'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.document.units
+default: 'in'
+acceptValues: 'in' | 'cm' | 'px'
+type: String
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

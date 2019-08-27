@@ -1,15 +1,14 @@
-<!--id-->PivotGridDataSource.Options.fields.runningTotal<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--acceptValues-->'column' | 'row'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.Options.fields.runningTotal
+acceptValues: 'column' | 'row'
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies whether to calculate the running total by rows or by columns.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 For example, a pivot grid row contains the following summary values:
 
     [ 3, 3, 3, 3, 3 ]
@@ -31,4 +30,3 @@ This also applies to columns if the **runningTotal** option is set to *"column"*
 
 #####See Also#####
 - **fields[]**.[allowCrossGroupCalculation](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#allowCrossGroupCalculation)
-<!--/fullDescription-->

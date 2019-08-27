@@ -1,13 +1,10 @@
-<!--id-->BaseLegend.margin.bottom<!--/id-->
-===========================================================================
-<!--default-->10<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseLegend.margin.bottom
+type: Number
+default: 10
+---
+---
+##### shortDescription
 Specifies the legend's bottom margin in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

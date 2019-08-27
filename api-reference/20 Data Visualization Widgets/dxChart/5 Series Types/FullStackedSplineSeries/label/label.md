@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.FullStackedSplineSeries.label<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.FullStackedSplineSeries.label
+type: Object
+---

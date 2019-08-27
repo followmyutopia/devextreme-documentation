@@ -1,15 +1,14 @@
-<!--id-->GridBaseColumn.filterType<!--/id-->
-===========================================================================
-<!--default-->'include'<!--/default-->
-<!--acceptValues-->'exclude' | 'include'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBaseColumn.filterType
+acceptValues: 'exclude' | 'include'
+type: String
+default: 'include'
+---
+---
+##### shortDescription
 Specifies whether a user changes the current filter by including (selecting) or excluding (clearing the selection of) values. Applies only if [headerFilter]({basewidgetpath}/Configuration/headerFilter/).**visible** and [allowHeaderFiltering]({basewidgetpath}/Configuration/columns/#allowHeaderFiltering) are **true**.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This option accepts the following values.
 
 - **include**       
@@ -44,4 +43,3 @@ This option changes when the user clicks the **Select All** checkbox in the [hea
 #####See Also#####
 - [Filtering API](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#API)
 - **columns[]**.[filterValues]({basewidgetpath}/Configuration/columns/#filterValues)
-<!--/fullDescription-->

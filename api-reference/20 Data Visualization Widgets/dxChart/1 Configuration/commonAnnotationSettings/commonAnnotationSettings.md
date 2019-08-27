@@ -1,14 +1,15 @@
-<!--id-->dxChart.Options.commonAnnotationSettings<!--/id-->
-===========================================================================
-<!--type-->dxChartCommonAnnotationConfig<!--/type-->
-<!--inheritsType-->dxChartCommonAnnotationConfig<!--/inheritsType-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonAnnotationSettings
+type: dxChartCommonAnnotationConfig
+---
+---
+##### shortDescription
 Specifies settings common for all annotations in the chart.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### inheritsType
+dxChartCommonAnnotationConfig
+
+---
 Settings specified here can be ignored in favor of individual annotation settings specified in the [annotations[]](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/) array. Refer to the array's description for information on how to configure annotations.
 
 The following code shows the **commonAnnotationSettings** declaration syntax:
@@ -130,4 +131,3 @@ The following code shows the **commonAnnotationSettings** declaration syntax:
 
 #####See Also#####
 - [customizeAnnotation](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#customizeAnnotation)
-<!--/fullDescription-->

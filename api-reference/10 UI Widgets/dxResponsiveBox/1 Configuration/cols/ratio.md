@@ -1,14 +1,12 @@
-<!--id-->dxResponsiveBox.Options.cols.ratio<!--/id-->
-===========================================================================
-<!--default-->1<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxResponsiveBox.Options.cols.ratio
+type: Number
+default: 1
+---
+---
+##### shortDescription
 The column width ratio.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 - [ResponsiveBox - Create the Layout Grid](/Documentation/Guide/Widgets/ResponsiveBox/Create_the_Layout_Grid/)
-<!--/fullDescription-->

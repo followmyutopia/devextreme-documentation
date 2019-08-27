@@ -1,12 +1,8 @@
-<!--id-->dxDiagram.Options.pageSize.items.height<!--/id-->
-===========================================================================
-<!--type-->Number<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.pageSize.items.height
+type: Number
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,23 +1,16 @@
-<!--id-->BaseChart.getSeriesByPos(seriesIndex)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: BaseChart.getSeriesByPos(seriesIndex)
+---
+---
+##### shortDescription
 Gets a series with a specific index.
-<!--/shortDescription-->
 
-<!--paramName1-->seriesIndex<!--/paramName1-->
-<!--paramType1-->Number<!--/paramType1-->
-<!--paramDescription1-->
-The series' index.
-<!--/paramDescription1-->
-
-<!--returnType-->chartSeriesObject<!--/returnType-->
-<!--returnDescription-->
+##### return: chartSeriesObject
 The [Series]({basewidgetpath}/Chart_Elements/Series/) object.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(seriesIndex): Number
+The series' index.
+
+---
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

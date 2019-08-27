@@ -1,17 +1,14 @@
-<!--id-->GridBase.getScrollable()<!--/id-->
-===================================================================
-===================================================================
+---
+id: GridBase.getScrollable()
+---
+---
+##### shortDescription
+Gets the instance of the widget's scrollable part.
 
-<!--shortDescription-->
-Gets the instance of the widget's scrollable part. 
-<!--/shortDescription-->
-
-<!--returnType-->dxScrollable<!--/returnType-->
-<!--returnDescription-->
+##### return: dxScrollable
 The scrollable part's instance.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 For information on API members of the scrollable part, refer to the [ScrollView](/Documentation/ApiReference/UI_Widgets/dxScrollView/) section, but bear in mind that several members described there are unavailable. Those are the following.
 
 **Options:** 
@@ -30,4 +27,3 @@ For information on API members of the scrollable part, refer to the [ScrollView]
 
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

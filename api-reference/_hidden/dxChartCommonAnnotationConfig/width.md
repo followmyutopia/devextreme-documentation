@@ -1,13 +1,10 @@
-<!--id-->dxChartCommonAnnotationConfig.width<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartCommonAnnotationConfig.width
+type: Number
+default: undefined
+---
+---
+##### shortDescription
 Specifies the annotation's width in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,18 +1,13 @@
-<!--id-->config()<!--/id-->
-===================================================================
-<!--module-->core/config<!--/module-->
-<!--export-->default<!--/export-->
-===================================================================
-
-<!--shortDescription-->
+---
+id: config()
+module: core/config
+export: default
+---
+---
+##### shortDescription
 Gets the current global configuration.
-<!--/shortDescription-->
 
-<!--returnType-->globalConfig<!--/returnType-->
-<!--returnDescription-->
+##### return: globalConfig
 The [global configuration](/Documentation/ApiReference/Common/Object_Structures/globalConfig/).
-<!--/returnDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

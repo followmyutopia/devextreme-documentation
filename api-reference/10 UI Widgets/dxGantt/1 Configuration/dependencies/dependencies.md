@@ -1,13 +1,9 @@
-<!--id-->dxGantt.Options.dependencies<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->Object<!--/type-->
-===========================================================================
+---
+id: dxGantt.Options.dependencies
+type: Object
+default: null
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

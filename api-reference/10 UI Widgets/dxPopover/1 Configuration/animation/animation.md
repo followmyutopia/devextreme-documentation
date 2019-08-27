@@ -1,13 +1,11 @@
-<!--id-->dxPopover.Options.animation<!--/id-->
-===========================================================================
-<!--default-->{ show: { type: 'fade', from: 0, to: 1 }, hide: { type: 'fade', to: 0 } }<!--/default-->
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPopover.Options.animation
+type: Object
+default: { show: { type: 'fade', from: 0, to: 1 }, hide: { type: 'fade', to: 0 } }
+---
+---
+##### shortDescription
 Configures widget visibility animations. This object contains two fields: [show](/Documentation/ApiReference/UI_Widgets/dxPopover/Configuration/animation/#show) and [hide](/Documentation/ApiReference/UI_Widgets/dxPopover/Configuration/animation/#hide).
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Set this object to **null** or **undefined** to disable animation.
-<!--/fullDescription-->

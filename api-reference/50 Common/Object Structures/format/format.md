@@ -1,15 +1,20 @@
-<!--id-->format<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--acceptValues-->'billions' | 'currency' | 'day' | 'decimal' | 'exponential' | 'fixedPoint' | 'largeNumber' | 'longDate' | 'longTime' | 'millions' | 'millisecond' | 'month' | 'monthAndDay' | 'monthAndYear' | 'percent' | 'quarter' | 'quarterAndYear' | 'shortDate' | 'shortTime' | 'thousands' | 'trillions' | 'year' | 'dayOfWeek' | 'hour' | 'longDateLongTime' | 'minute' | 'second' | 'shortDateShortTime'<!--/acceptValues-->
-<!--type-->String | function(value) | Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: format
+acceptValues: 'billions' | 'currency' | 'day' | 'decimal' | 'exponential' | 'fixedPoint' | 'largeNumber' | 'longDate' | 'longTime' | 'millions' | 'millisecond' | 'month' | 'monthAndDay' | 'monthAndYear' | 'percent' | 'quarter' | 'quarterAndYear' | 'shortDate' | 'shortTime' | 'thousands' | 'trillions' | 'year' | 'dayOfWeek' | 'hour' | 'longDateLongTime' | 'minute' | 'second' | 'shortDateShortTime'
+type: String | function(value) | Object
+default: undefined
+---
+---
+##### shortDescription
 Formats values.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(value): Number | Date
+The value to be formatted.
+
+##### return: String
+The value after formatting.
+
+---
 This option accepts three types of values:
 
 * **String**  
@@ -48,14 +53,3 @@ This option accepts three types of values:
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Localization/UsingIntl/jQuery/Light/"
 }
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->value<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Number|Date<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The value to be formatted.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-The value after formatting.
-<!--/typeFunctionReturnDescription-->

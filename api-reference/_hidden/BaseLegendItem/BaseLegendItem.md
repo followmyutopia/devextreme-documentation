@@ -1,13 +1,9 @@
-<!--id-->BaseLegendItem<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->Object<!--/type-->
-===========================================================================
+---
+id: BaseLegendItem
+type: Object
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

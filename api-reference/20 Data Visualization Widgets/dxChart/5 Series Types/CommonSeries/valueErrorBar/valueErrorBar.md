@@ -1,14 +1,15 @@
-<!--id-->dxChartSeriesTypes.CommonSeries.valueErrorBar<!--/id-->
-===========================================================================
-<!--propertyOf-->dxChartSeriesTypes.AreaSeries,dxChartSeriesTypes.BarSeries,dxChartSeriesTypes.LineSeries,dxChartSeriesTypes.ScatterSeries,dxChartSeriesTypes.SplineAreaSeries,dxChartSeriesTypes.StepAreaSeries,dxChartSeriesTypes.StepLineSeries<!--/propertyOf-->
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.CommonSeries.valueErrorBar
+type: Object
+---
+---
+##### shortDescription
 Configures error bars.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### propertyOf
+dxChartSeriesTypes.AreaSeries,dxChartSeriesTypes.BarSeries,dxChartSeriesTypes.LineSeries,dxChartSeriesTypes.ScatterSeries,dxChartSeriesTypes.SplineAreaSeries,dxChartSeriesTypes.StepAreaSeries,dxChartSeriesTypes.StepLineSeries
+
+---
 Error bars are used on charts to indicate an error or an uncertainty in a reported measurement. They give a general idea of how precise the measurement is.
 
 ![DevExtreme HTML5 Charts ErrorBars](/Content/images/doc/19_2/ChartJS/visual_elements/error_bars.png)
@@ -22,4 +23,3 @@ Alternatively, error bar values can be calculated according to an algorithm. In 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Charts/ErrorBars/jQuery/Light/"
 }
-<!--/fullDescription-->

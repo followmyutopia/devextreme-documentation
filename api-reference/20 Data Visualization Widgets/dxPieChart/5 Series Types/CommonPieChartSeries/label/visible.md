@@ -1,13 +1,10 @@
-<!--id-->dxPieChartSeriesTypes.CommonPieChartSeries.label.visible<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPieChartSeriesTypes.CommonPieChartSeries.label.visible
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies the visibility of point labels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

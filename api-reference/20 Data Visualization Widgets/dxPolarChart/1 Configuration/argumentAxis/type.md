@@ -1,15 +1,14 @@
-<!--id-->dxPolarChart.Options.argumentAxis.type<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--acceptValues-->'continuous' | 'discrete' | 'logarithmic'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChart.Options.argumentAxis.type
+acceptValues: 'continuous' | 'discrete' | 'logarithmic'
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies the required type of the argument axis.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The 'discrete' type is set when string arguments are specified in the data source of the chart's series. The discrete axis is divided by the values (called _categories_) that are specified as arguments in the data source. The categories order can be specified by the [categories](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/argumentAxis/#categories) property, if the order used in the data source is not appropriate.
 
 The 'continuous' type is set when numeric or date-time arguments are specified in the series data source. The continuous axis is divided automatically.
@@ -24,4 +23,3 @@ On continuous and logarithmic axes, ticks and grid lines are generated automatic
     enum: "`AxisScaleType`",
     values: "`Discrete`, `Continuous`, and `Logarithmic`"
 }
-<!--/fullDescription-->

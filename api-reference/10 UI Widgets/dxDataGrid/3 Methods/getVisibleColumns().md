@@ -1,18 +1,14 @@
-<!--id-->dxDataGrid.getVisibleColumns()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.getVisibleColumns()
+---
+---
+##### shortDescription
 Gets all visible columns.
-<!--/shortDescription-->
 
-<!--returnType-->Array<dxDataGridColumn><!--/returnType-->
-<!--returnDescription-->
+##### return: Array<dxDataGridColumn>
 Visible columns; may include [command columns](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Command_Columns/).
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 #include common-link-callmethods
 - [getVisibleColumns(headerLevel)]({basewidgetpath}/Methods/#getVisibleColumnsheaderLevel)
-<!--/fullDescription-->

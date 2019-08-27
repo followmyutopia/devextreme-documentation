@@ -1,14 +1,13 @@
-<!--id-->dxPivotGridPivotGridCell.columnType<!--/id-->
-===========================================================================
-<!--acceptValues-->'D' | 'T' | 'GT'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGridPivotGridCell.columnType
+acceptValues: 'D' | 'T' | 'GT'
+type: String
+---
+---
+##### shortDescription
 The type of the column to which the cell belongs. Available for data area cells only.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The **columnType** field has the following values:
 
 - *'D'*  
@@ -17,5 +16,3 @@ The **columnType** field has the following values:
     The [Total](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Totals) column.
 - *'GT'*  
     The [Grand total](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Totals) column.
-
-<!--/fullDescription-->

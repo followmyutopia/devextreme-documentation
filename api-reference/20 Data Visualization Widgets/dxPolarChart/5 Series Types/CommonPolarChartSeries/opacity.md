@@ -1,14 +1,13 @@
-<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.opacity<!--/id-->
-===========================================================================
-<!--propertyOf-->dxPolarChartSeriesTypes.areapolarseries<!--/propertyOf-->
-<!--default-->0.5<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.CommonPolarChartSeries.opacity
+type: Number
+default: 0.5
+---
+---
+##### shortDescription
 Specifies opacity for a series.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### propertyOf
+dxPolarChartSeriesTypes.areapolarseries
 
-<!--/fullDescription-->
+---

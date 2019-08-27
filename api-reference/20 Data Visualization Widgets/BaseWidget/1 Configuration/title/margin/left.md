@@ -1,13 +1,10 @@
-<!--id-->BaseWidget.Options.title.margin.left<!--/id-->
-===========================================================================
-<!--default-->10<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseWidget.Options.title.margin.left
+type: Number
+default: 10
+---
+---
+##### shortDescription
 Specifies the left margin of the title.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

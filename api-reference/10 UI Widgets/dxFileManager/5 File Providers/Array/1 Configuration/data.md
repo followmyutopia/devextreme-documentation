@@ -1,13 +1,12 @@
-<!--id-->ArrayFileProvider.Options.data<!--/id-->
-===========================================================================
-<!--type-->Array<any><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: ArrayFileProvider.Options.data
+type: Array<any>
+---
+---
+##### shortDescription
 Specifies an array of data objects that represent files and directories.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The data objects should have fields with the following names:
 
     {
@@ -24,4 +23,3 @@ The data objects should have fields with the following names:
     }
 
 These are conventional names that you can change via **[fieldName]Expr** options: [nameExpr](/Documentation/ApiReference/UI_Widgets/dxFileManager/File_Providers/Array/Configuration/#nameExpr), [sizeExpr](/Documentation/ApiReference/UI_Widgets/dxFileManager/File_Providers/Array/Configuration/#sizeExpr), [dateModifiedExpr](/Documentation/ApiReference/UI_Widgets/dxFileManager/File_Providers/Array/Configuration/#dateModifiedExpr), and so on.
-<!--/fullDescription-->

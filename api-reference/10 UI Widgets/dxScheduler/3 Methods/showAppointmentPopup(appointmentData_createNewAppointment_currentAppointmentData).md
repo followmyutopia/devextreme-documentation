@@ -1,30 +1,20 @@
-<!--id-->dxScheduler.showAppointmentPopup(appointmentData, createNewAppointment, currentAppointmentData)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler.showAppointmentPopup(appointmentData, createNewAppointment, currentAppointmentData)
+---
+---
+##### shortDescription
 Shows the appointment details form.
-<!--/shortDescription-->
 
-<!--paramName1-->appointmentData<!--/paramName1-->
-<!--paramType1-->Object|undefined<!--/paramType1-->
-<!--paramDescription1-->
+##### param(appointmentData): Object | undefined
 The initial appointment.
-<!--/paramDescription1-->
 
-<!--paramName2-->createNewAppointment<!--/paramName2-->
-<!--paramType2-->Boolean|undefined<!--/paramType2-->
-<!--paramDescription2-->
+##### param(createNewAppointment): Boolean | undefined
 Specifies whether a new appointment is created when editing is finished.
-<!--/paramDescription2-->
 
-<!--paramName3-->currentAppointmentData<!--/paramName3-->
-<!--paramType3-->Object|undefined<!--/paramType3-->
-<!--paramDescription3-->
+##### param(currentAppointmentData): Object | undefined
 The current appointment.
-<!--/paramDescription3-->
 
-<!--fullDescription-->
+---
 In case of recurring appointments or appointments with multiple resources, you may want to show a popup for the specified appointment, not the initial appointment. For this purpose, use the **currentAppointmentData** field of the function parameter. Otherwise, use the **appointmentData** field.
 
 For example, take a look at a recurring appointment that starts on July 18 at 8:00 AM, repeats every day and belongs to two owners. If you call the method for the appointment from the recurring series, for example the second appointment belonging to the second owner, the following information will be in the **appointmentData** and **currentAppointmentData** fields.
@@ -48,4 +38,3 @@ For example, take a look at a recurring appointment that starts on July 18 at 8:
 
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

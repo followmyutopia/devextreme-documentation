@@ -1,13 +1,10 @@
-<!--id-->dxTreeMap.Options.group.headerHeight<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMap.Options.group.headerHeight
+type: Number
+default: undefined
+---
+---
+##### shortDescription
 Specifies the height of the group headers in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

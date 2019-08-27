@@ -1,14 +1,13 @@
-<!--id-->dxPivotGridFieldChooser.Options.state<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGridFieldChooser.Options.state
+type: Object
+default: null
+---
+---
+##### shortDescription
 The widget's state.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The state includes field configurations, expanded headers, and other settings. The following code shows how to use the state to cancel or apply the settings to the **PivotGrid** widget:
 
 ---
@@ -106,4 +105,3 @@ The state includes field configurations, expanded headers, and other settings. T
 - [applyChanges()](/Documentation/ApiReference/UI_Widgets/dxPivotGridFieldChooser/Methods/#applyChanges)
 - [cancelChanges()](/Documentation/ApiReference/UI_Widgets/dxPivotGridFieldChooser/Methods/#cancelChanges)
 - [PivotGridDataSource - state()](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#state)
-<!--/fullDescription-->

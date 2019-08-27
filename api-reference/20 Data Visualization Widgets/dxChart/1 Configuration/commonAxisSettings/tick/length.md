@@ -1,13 +1,10 @@
-<!--id-->dxChart.Options.commonAxisSettings.tick.length<!--/id-->
-===========================================================================
-<!--default-->7<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonAxisSettings.tick.length
+type: Number
+default: 7
+---
+---
+##### shortDescription
 Specifies the length of ticks in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,8 +1,7 @@
-===========================================================================
-<!--merge--><!--/merge-->
-===========================================================================
+---
+##### merge
 
-<!--fullDescription-->
+---
 #include common-dataSource-description with {
     widget_works_with: "The **DropDownBox** works with collections of objects or `string`, `number`, or `boolean` values. ",
 
@@ -12,4 +11,3 @@
 
     dataSource_items_note: "- Do not specify the [items]({basewidgetpath}/Configuration/#items) option if you specified the **dataSource**, and vice versa."
 }
-<!--/fullDescription-->

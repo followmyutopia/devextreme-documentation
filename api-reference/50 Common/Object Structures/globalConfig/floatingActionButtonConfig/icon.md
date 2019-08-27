@@ -1,13 +1,11 @@
-<!--id-->globalConfig.floatingActionButtonConfig.icon<!--/id-->
-===========================================================================
-<!--default-->'add'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: globalConfig.floatingActionButtonConfig.icon
+type: String
+default: 'add'
+---
+---
+##### shortDescription
 Specifies the icon the FAB displays when the speed dial is closed.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include uiwidgets-ref-icon
-<!--/fullDescription-->

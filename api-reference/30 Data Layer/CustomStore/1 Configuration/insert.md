@@ -1,13 +1,18 @@
-<!--id-->CustomStore.Options.insert<!--/id-->
-===========================================================================
-<!--type-->function(values)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: CustomStore.Options.insert
+type: function(values)
+---
+---
+##### shortDescription
 Specifies a custom implementation of the [insert(values)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#insertvalues) method.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(values): Object
+The data item to be inserted.
+
+##### return: Promise<any>
+A Promise that is resolved after the data item is inserted. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
+
+---
 ---
 ##### jQuery
 
@@ -52,14 +57,3 @@ Specifies a custom implementation of the [insert(values)](/Documentation/ApiRefe
     })
 
 ---
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->values<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The data item to be inserted.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->Promise<any><!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A Promise that is resolved after the data item is inserted. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
-<!--/typeFunctionReturnDescription-->

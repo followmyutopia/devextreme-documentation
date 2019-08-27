@@ -1,13 +1,10 @@
-<!--id-->SearchBoxMixin.Options.searchValue<!--/id-->
-===========================================================================
-<!--default-->''<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: SearchBoxMixin.Options.searchValue
+type: String
+default: ''
+---
+---
+##### shortDescription
 Specifies the current search string.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

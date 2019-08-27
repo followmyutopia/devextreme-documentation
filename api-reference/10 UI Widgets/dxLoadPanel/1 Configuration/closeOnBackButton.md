@@ -1,6 +1,5 @@
-<!--id-->dxLoadPanel.Options.closeOnBackButton<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--default-->false<!--/default-->
-===========================================================================
-
+---
+id: dxLoadPanel.Options.closeOnBackButton
+default: false
+hidden: 
+---

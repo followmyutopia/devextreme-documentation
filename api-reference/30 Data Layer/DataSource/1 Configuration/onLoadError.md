@@ -1,14 +1,19 @@
-<!--id-->DataSource.Options.onLoadError<!--/id-->
-<!--EventForAction-->DataSource.loadError<!--/EventForAction-->
-===========================================================================
-<!--type-->function(error)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.Options.onLoadError
+type: function(error)
+EventForAction: DataSource.loadError
+---
+---
+##### shortDescription
 A function that is executed when data loading fails.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(error): Object
+The error.
+
+##### field(error.message): String
+The error message.
+
+---
 ---
 ##### jQuery
 
@@ -36,14 +41,3 @@ A function that is executed when data loading fails.
     }
 
 ---
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->error<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The error.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->message<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->String<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The error message.
-<!--/typeFunctionParamDescription1_field1-->

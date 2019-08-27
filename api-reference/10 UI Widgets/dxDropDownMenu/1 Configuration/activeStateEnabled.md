@@ -1,6 +1,5 @@
-<!--id-->dxDropDownMenu.Options.activeStateEnabled<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxDropDownMenu.Options.activeStateEnabled
+type: Boolean
+default: true
+---

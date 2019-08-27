@@ -1,13 +1,10 @@
-<!--id-->dxTreeList.Options.remoteOperations.filtering<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeList.Options.remoteOperations.filtering
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether filtering should be performed on the server.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

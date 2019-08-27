@@ -1,13 +1,10 @@
-<!--id-->dxChart.Options.commonAxisSettings.tick.visible<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonAxisSettings.tick.visible
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Makes ticks visible.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

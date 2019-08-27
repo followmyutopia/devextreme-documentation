@@ -1,16 +1,13 @@
-<!--id-->Editor<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--module-->ui/editor/editor<!--/module-->
-<!--export-->default<!--/export-->
-<!--type-->Object<!--/type-->
-<!--inherits-->Widget<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Editor
+module: ui/editor/editor
+export: default
+type: Object
+inherits: Widget
+hidden: 
+---
+---
+##### shortDescription
 A base class for editors.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,5 +1,4 @@
-<!--id-->dxValidationSummary.Options.itemHoldTimeout<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxValidationSummary.Options.itemHoldTimeout
+hidden: 
+---

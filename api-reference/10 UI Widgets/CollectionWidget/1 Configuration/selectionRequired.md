@@ -1,14 +1,10 @@
-<!--id-->CollectionWidget.Options.selectionRequired<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
+---
+id: CollectionWidget.Options.selectionRequired
+type: Boolean
+default: false
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

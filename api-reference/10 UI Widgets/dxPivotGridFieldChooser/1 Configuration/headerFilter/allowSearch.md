@@ -1,13 +1,10 @@
-<!--id-->dxPivotGridFieldChooser.Options.headerFilter.allowSearch<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGridFieldChooser.Options.headerFilter.allowSearch
+type: Boolean
+default: undefined
+---
+---
+##### shortDescription
 Specifies whether searching is enabled in the header filter.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

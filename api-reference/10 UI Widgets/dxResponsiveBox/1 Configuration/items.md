@@ -1,6 +1,5 @@
-<!--id-->dxResponsiveBox.Options.items<!--/id-->
-===========================================================================
-<!--type-->Array<String, dxResponsiveBoxItem, Object><!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
-===========================================================================
-
+---
+id: dxResponsiveBox.Options.items
+type: Array<String, dxResponsiveBoxItem, Object>
+firedEvents: optionChanged
+---

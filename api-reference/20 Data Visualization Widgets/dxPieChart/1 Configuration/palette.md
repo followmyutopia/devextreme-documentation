@@ -1,15 +1,14 @@
-<!--id-->dxPieChart.Options.palette<!--/id-->
-===========================================================================
-<!--default-->'Material'<!--/default-->
-<!--acceptValues-->'Bright' | 'Harmony Light' | 'Ocean' | 'Pastel' | 'Soft' | 'Soft Pastel' | 'Vintage' | 'Violet' | 'Carmine' | 'Dark Moon' | 'Dark Violet' | 'Green Mist' | 'Soft Blue' | 'Material' | 'Office'<!--/acceptValues-->
-<!--type-->Array<String> | String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPieChart.Options.palette
+acceptValues: 'Bright' | 'Harmony Light' | 'Ocean' | 'Pastel' | 'Soft' | 'Soft Pastel' | 'Vintage' | 'Violet' | 'Carmine' | 'Dark Moon' | 'Dark Violet' | 'Green Mist' | 'Soft Blue' | 'Material' | 'Office'
+type: Array<String> | String
+default: 'Material'
+---
+---
+##### shortDescription
 Sets the palette to be used to colorize series and their elements.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include dataviz-ref-palette
 
 #include common-ref-enum with {
@@ -22,4 +21,3 @@ Sets the palette to be used to colorize series and their elements.
 - [paletteExtensionMode]({basewidgetpath}/Configuration/#paletteExtensionMode)
 - [DevExpress.viz.generateColors(palette, count, options)](/Documentation/ApiReference/Common/utils/viz/#generateColorspalette_count_options)
 - **series**.[color]({basewidgetpath}/Configuration/series/#color)
-<!--/fullDescription-->

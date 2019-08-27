@@ -1,14 +1,28 @@
-<!--id-->dxTreeMap.Options.tooltip.customizeTooltip<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->function(info)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMap.Options.tooltip.customizeTooltip
+type: function(info)
+default: undefined
+---
+---
+##### shortDescription
 Allows you to change tooltip appearance.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(info): Object
+Information on the node being pressed or hovered over with the mouse pointer.
+
+##### field(info.node): dxTreeMapNode
+The [Node](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/) object.
+
+##### field(info.value): Number
+The raw node value.
+
+##### field(info.valueText): String
+The [formatted](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/tooltip/#format) value converted to a string.
+
+##### return: Object
+The tooltip's text or markup and color.
+
+---
 This option should be assigned a function returning a specific object. The following fields can be specified in this object.
 
 - **color**        
@@ -29,29 +43,3 @@ Specifies the color of the text displayed by a tooltip.
 Specifies the color of the tooltip border.
 
 #include dataviz-ref-functioncontext
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->info<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information on the node being pressed or hovered over with the mouse pointer.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->Number<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The raw node value.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->String<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-The [formatted](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/tooltip/#format) value converted to a string.
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->node<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->dxTreeMapNode<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The [Node](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/) object.
-<!--/typeFunctionParamDescription1_field3-->
-
-<!--typeFunctionReturnType-->Object<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-The tooltip's text or markup and color.
-<!--/typeFunctionReturnDescription-->

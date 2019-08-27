@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.StepAreaSeries.point<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.StepAreaSeries.point
+type: Object
+---

@@ -1,13 +1,11 @@
-<!--id-->dxPolarChart.Options.valueAxis.strips.color<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChart.Options.valueAxis.strips.color
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies a color for a strip.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

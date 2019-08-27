@@ -1,12 +1,9 @@
-<!--id-->chartPointObject.originalCloseValue<!--/id-->
-===========================================================================
-<!--type-->Number | String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: chartPointObject.originalCloseValue
+type: Number | String
+---
+---
+##### shortDescription
 Contains the close value of the point. This field is useful for points belonging to a series of the [candle stick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/CandleStickSeries/) or [stock](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/StockSeries/) type only.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

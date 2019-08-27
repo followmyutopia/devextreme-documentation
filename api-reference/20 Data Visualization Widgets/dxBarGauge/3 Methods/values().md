@@ -1,21 +1,17 @@
-<!--id-->dxBarGauge.values()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxBarGauge.values()
+---
+---
+##### shortDescription
 Gets all the [values](/Documentation/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/#values).
-<!--/shortDescription-->
 
-<!--returnType-->Array<Number><!--/returnType-->
-<!--returnDescription-->
+##### return: Array<Number>
 The values.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/gaugesbargaugesbargaugeapiandbindingvariablenumberofbars/"
 }
 
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

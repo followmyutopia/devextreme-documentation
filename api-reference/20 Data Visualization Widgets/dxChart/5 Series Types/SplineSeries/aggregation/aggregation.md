@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.SplineSeries.aggregation<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.SplineSeries.aggregation
+type: Object
+---

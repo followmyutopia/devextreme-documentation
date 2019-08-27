@@ -1,13 +1,11 @@
-<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.hoverStyle.border.color<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.CommonPolarChartSeries.hoverStyle.border.color
+type: String
+default: undefined
+---
+---
+##### shortDescription
 <p>Sets a border color for a hovered series.</p>
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

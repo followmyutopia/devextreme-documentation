@@ -1,12 +1,9 @@
-<!--id-->dxSchedulerAppointment.html<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSchedulerAppointment.html
+type: String
+---
+---
+##### shortDescription
 Specifies HTML code inserted into the appointment element.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,12 +1,8 @@
-<!--id-->dxButtonGroupItem.html<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
+---
+id: dxButtonGroupItem.html
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

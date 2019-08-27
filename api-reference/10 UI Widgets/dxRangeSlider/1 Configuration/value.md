@@ -1,6 +1,5 @@
-<!--id-->dxRangeSlider.Options.value<!--/id-->
-===========================================================================
-<!--default-->[40, 60]<!--/default-->
-<!--type-->Array<Number><!--/type-->
-===========================================================================
-
+---
+id: dxRangeSlider.Options.value
+type: Array<Number>
+default: [40, 60]
+---

@@ -1,15 +1,14 @@
-<!--id-->dxDropDownEditor.Options.applyValueMode<!--/id-->
-===========================================================================
-<!--default-->'instantly'<!--/default-->
-<!--acceptValues-->'instantly' | 'useButtons'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDropDownEditor.Options.applyValueMode
+acceptValues: 'instantly' | 'useButtons'
+type: String
+default: 'instantly'
+---
+---
+##### shortDescription
 Specifies the way an end-user applies the selected value.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The option accepts the following values.
 
 - "useButtons"  
@@ -22,4 +21,3 @@ The option accepts the following values.
     enum: "`EditorApplyValueMode`",
     values: "`Instantly` and `UseButtons`"
 }
-<!--/fullDescription-->

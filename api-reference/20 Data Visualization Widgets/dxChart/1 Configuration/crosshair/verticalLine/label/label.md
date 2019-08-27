@@ -1,13 +1,12 @@
-<!--id-->dxChart.Options.crosshair.verticalLine.label<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.crosshair.verticalLine.label
+type: Object
+---
+---
+##### shortDescription
 Configures the label that belongs to the vertical crosshair line.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Crosshair labels can be configured using the following objects.
 
 * **crosshair**.**horizontalLine**.**label**        
@@ -23,4 +22,3 @@ These objects have identical structure, but the **label** settings declared in t
 
 #####See Also#####
 - **crosshair**.**horizontalLine**.[label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/horizontalLine/label/) - configures the label that belongs to the horizontal crosshair line.
-<!--/fullDescription-->

@@ -1,16 +1,15 @@
-<!--id-->dxChart.Options.scrollingMode<!--/id-->
-<!--dep-->dxChart.Options.zoomAndPan<!--/dep-->
-===========================================================================
-<!--default-->'none'<!--/default-->
-<!--acceptValues-->'all' | 'mouse' | 'none' | 'touch'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.scrollingMode
+acceptValues: 'all' | 'mouse' | 'none' | 'touch'
+type: String
+default: 'none'
+dep: dxChart.Options.zoomAndPan
+---
+---
+##### shortDescription
 Enables scrolling in your chart.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This option allows you to control the scrolling capability in your chart. By default, this capability is off. To make scrolling available on touch-enabled devices only, assign *'touch'* to the **scrollingMode** option. In that case, a user will be able to scroll the chart using the flick gesture. If your chart is not supposed to be viewed on touch-enabled devices, but you still need scrolling to be enabled, assign *'mouse'* to the **scrollingMode** option. In that case, a user will be able to scroll the chart by dragging. To enable scrolling for all devices, assign *'all'* to the **scrollingMode** option.
 
 Scrolling may also be performed using the scroll bar. To make it visible assign **true** to the **visible** option of the [scrollBar](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/scrollBar/) object.
@@ -29,4 +28,3 @@ Scrolling may also be performed using the scroll bar. To make it visible assign 
 #####See Also#####
 - [zoomStart](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#zoomStart) - an event that fires when scrolling or zooming begins.
 - [zoomEnd](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#zoomEnd) - an event that fires when scrolling or zooming ends.
-<!--/fullDescription-->

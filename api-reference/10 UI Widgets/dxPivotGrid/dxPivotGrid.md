@@ -1,5 +1,14 @@
-<!--id-->dxPivotGrid<!--/id-->
-<!--widgettree-->
+---
+id: dxPivotGrid
+module: ui/pivot_grid
+export: default
+inherits: Widget
+---
+---
+##### shortDescription
+The **PivotGrid** is a widget that allows you to display and analyze multi-dimensional data from a local storage or an OLAP cube.
+
+##### widgettree
 fieldChooser: { width: 400 },
 showBorders: true,
 dataSource: {
@@ -17,21 +26,11 @@ dataSource: {
             cube: "Adventure Works"
         }
     }
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/pivot_grid<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->Widget<!--/inherits-->
-<!--lib-->
+
+##### lib
 dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
 
-<!--shortDescription-->
-The **PivotGrid** is a widget that allows you to display and analyze multi-dimensional data from a local storage or an OLAP cube.
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/data_grid-pivot_grid_data_binding-local_data_source"
 }
@@ -42,4 +41,3 @@ The **PivotGrid** is a widget that allows you to display and analyze multi-dimen
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

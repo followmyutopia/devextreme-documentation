@@ -1,13 +1,12 @@
-<!--id-->dxChart.Options.crosshair<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.crosshair
+type: Object
+---
+---
+##### shortDescription
 Configures the crosshair feature.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Crosshair is a pointer represented by two mutually-crossing lines stretched over the entire chart plot. The crosshair helps a user identify the values of the series points precisely. When enabled, the crosshair follows the cursor and snaps to the nearest series point.
 
 ![DevExtreme HTML5 Charts Crosshair](/Content/images/doc/19_2/ChartJS/visual_elements/crosshair.png)
@@ -19,4 +18,3 @@ Settings specified in the **crosshair** object apply to both the crosshair lines
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeaturescrosshair/"
 }
-<!--/fullDescription-->

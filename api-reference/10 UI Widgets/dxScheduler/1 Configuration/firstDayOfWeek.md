@@ -1,15 +1,14 @@
-<!--id-->dxScheduler.Options.firstDayOfWeek<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--acceptValues-->0 | 1 | 2 | 3 | 4 | 5 | 6<!--/acceptValues-->
-<!--type-->Number<!--/type-->
-===========================================================================
+---
+id: dxScheduler.Options.firstDayOfWeek
+acceptValues: 0 | 1 | 2 | 3 | 4 | 5 | 6
+type: Number
+default: undefined
+---
+---
+##### shortDescription
+Specifies the first day of a week. Does not apply to the [agenda view](/Documentation/Guide/Widgets/Scheduler/Views/View_Types/#Agenda_View).
 
-<!--shortDescription-->
-Specifies the first day of a week. Does not apply to the [agenda view](/Documentation/Guide/Widgets/Scheduler/Views/View_Types/#Agenda_View). 
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 This option can accept a value from 0 to 6:
 
 - 0 - Sunday
@@ -26,4 +25,3 @@ The value provided by the culture settings is used by default.
     enum: "`FirstDayOfWeek`",
     values: "`Sunday`, `Monday`, `Tuesday`, `Wednesday`, `Thursday`, `Friday`, and `Saturday`"
 }
-<!--/fullDescription-->

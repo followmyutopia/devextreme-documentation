@@ -1,12 +1,9 @@
-<!--id-->dxSankey.Options.link.border<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSankey.Options.link.border
+type: Object
+---
+---
+##### shortDescription
 Configures the links' borders.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

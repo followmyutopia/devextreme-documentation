@@ -1,5 +1,4 @@
-<!--id-->dxLoadPanel.Options.shadingColor<!--/id-->
-===========================================================================
-<!--default-->'transparent', '' (Android, iOS, Windows_Mobile)<!--/default-->
-===========================================================================
-
+---
+id: dxLoadPanel.Options.shadingColor
+default: 'transparent', '' (Android, iOS, Windows_Mobile)
+---

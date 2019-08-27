@@ -1,13 +1,12 @@
-<!--id-->dxChart.Options.commonAxisSettings.tick<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonAxisSettings.tick
+type: Object
+---
+---
+##### shortDescription
 Configures the appearance of major axis ticks.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Ticks divide an axis into sections that measure off values on this axis.
 
 ![DevExtreme HTML5 Charts MajorTicks](/Content/images/doc/19_2/ChartJS/visual_elements/major_ticks.png)
@@ -23,4 +22,3 @@ Axis-specific settings override common settings.
 - **argumentAxis**.[tickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/tickInterval/) - specifies the tick interval of the argument axis.
 - **valueAxis**.[tickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/tickInterval/) - specifies the tick interval of the value axis.
 - **commonAxisSettings**.[minorTick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/minorTick/) - customizes the appearance of minor ticks.
-<!--/fullDescription-->

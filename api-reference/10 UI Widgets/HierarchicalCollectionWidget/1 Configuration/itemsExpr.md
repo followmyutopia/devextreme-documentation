@@ -1,13 +1,10 @@
-<!--id-->HierarchicalCollectionWidget.Options.itemsExpr<!--/id-->
-===========================================================================
-<!--default-->'items'<!--/default-->
-<!--type-->String | function()<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: HierarchicalCollectionWidget.Options.itemsExpr
+type: String | function()
+default: 'items'
+---
+---
+##### shortDescription
 Specifies which data field contains nested items.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,18 +1,14 @@
-<!--id-->ui.themes.current(themeName)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: ui.themes.current(themeName)
+---
+---
+##### shortDescription
 Sets a theme with a specific name.
-<!--/shortDescription-->
 
-<!--paramName1-->themeName<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
-<!--paramDescription1-->
+##### param(themeName): String
 The theme's name.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 The theme name passed as a parameter should be the value of the **data-theme** attribute used within the **rel="dx-theme"** links to the theme. For instance, if you have links to two of your themes...
 
     <!--HTML--><link rel="dx-theme" data-theme="generic.mytheme-dark" href="css/mytheme-dark.css" data-active="true">
@@ -62,4 +58,3 @@ The theme name passed as a parameter should be the value of the **data-theme** a
 ---
 
 Refer to the [Predefined Themes](/Documentation/Guide/Themes_and_Styles/Predefined_Themes/) article for details on the themes that are supplied with DevExtreme.
-<!--/fullDescription-->

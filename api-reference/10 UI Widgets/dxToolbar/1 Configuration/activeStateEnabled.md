@@ -1,5 +1,4 @@
-<!--id-->dxToolbar.Options.activeStateEnabled<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxToolbar.Options.activeStateEnabled
+hidden: 
+---

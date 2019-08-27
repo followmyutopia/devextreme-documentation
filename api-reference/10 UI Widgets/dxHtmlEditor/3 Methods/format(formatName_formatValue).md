@@ -1,24 +1,17 @@
-<!--id-->dxHtmlEditor.format(formatName, formatValue)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxHtmlEditor.format(formatName, formatValue)
+---
+---
+##### shortDescription
 Applies a format to the selected content. Cannot be used with [embedded formats](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName/formats).
-<!--/shortDescription-->
 
-<!--paramName1-->formatName<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
-<!--paramDescription1-->
+##### param(formatName): String
 A [format name](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName).
-<!--/paramDescription1-->
 
-<!--paramName2-->formatValue<!--/paramName2-->
-<!--paramType2-->any<!--/paramType2-->
-<!--paramDescription2-->
+##### param(formatValue): any
 A format value.
-<!--/paramDescription2-->
 
-<!--fullDescription-->
+---
 If no content is selected, the format applies to the character typed next.
 
 ---
@@ -66,5 +59,3 @@ If no content is selected, the format applies to the character typed next.
 
 #####See Also#####
 - [insertEmbed()](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Methods/#insertEmbedindex_type_config)
-
-<!--/fullDescription-->

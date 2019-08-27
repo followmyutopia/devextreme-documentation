@@ -1,34 +1,24 @@
-<!--id-->UI Events.dxtranslate<!--/id-->
-===========================================================================
-<!--module-->events/transform<!--/module-->
-<!--type-->eventType<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: UI Events.dxtranslate
+module: events/transform
+type: eventType
+---
+---
+##### shortDescription
 Raised when the translate gesture has been performed.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(event): event
+#include common-ref-eventparam The following fields are added to existing fields of this argument object.
+
+##### field(event.cancel): boolean
+Allows you to cancel the gesture processing.
+
+##### field(event.deltaTranslation): object
+The distance between the previous and current position.
+
+##### field(event.translation): object
+The distance between the initial and current position.
+
+---
 #####See Also#####
 - [UI Events - Introduction](/Documentation/ApiReference/UI_Widgets/UI_Events/)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->event<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->event<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-#include common-ref-eventparam The following fields are added to existing fields of this argument object.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->translation<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The distance between the initial and current position.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->deltaTranslation<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->object<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-The distance between the previous and current position.
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->cancel<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->boolean<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-Allows you to cancel the gesture processing.
-<!--/typeFunctionParamDescription1_field3-->

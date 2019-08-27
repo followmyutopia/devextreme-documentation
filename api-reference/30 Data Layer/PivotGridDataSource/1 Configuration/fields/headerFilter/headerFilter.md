@@ -1,13 +1,12 @@
-<!--id-->PivotGridDataSource.Options.fields.headerFilter<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.Options.fields.headerFilter
+type: Object
+---
+---
+##### shortDescription
 Configures the field's header filter.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -70,4 +69,3 @@ Configures the field's header filter.
 #####See Also#####
 - **fields[]**.[allowFiltering](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#allowFiltering)
 - **PivotGrid**.[headerFilter](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/headerFilter/)
-<!--/fullDescription-->

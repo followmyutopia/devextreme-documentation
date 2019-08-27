@@ -1,14 +1,13 @@
-<!--id-->dxTreeMap.Options.colorField<!--/id-->
-===========================================================================
-<!--default-->'color'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMap.Options.colorField
+type: String
+default: 'color'
+---
+---
+##### shortDescription
 Specifies the name of the [data source](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#dataSource) field that provides colors for tiles.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 There are several approaches to colorizing tiles.
 
  - Colorizing each tile uniquely into the color specified directly in the data object.      
@@ -24,4 +23,3 @@ You can use the first approach only if objects of your data source contain a fie
 * <a href="http://www.w3.org/TR/SVG/types.html#ColorKeywords" target="_blank">Predefined SVG colors</a>
 
 This approach has the highest priority among the others. To get familiar with the other two approaches, see the [colorizer](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/colorizer/) and **tile**.[color](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/tile/#color) option descriptions.
-<!--/fullDescription-->

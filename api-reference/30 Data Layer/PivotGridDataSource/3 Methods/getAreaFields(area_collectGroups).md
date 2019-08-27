@@ -1,30 +1,21 @@
-<!--id-->PivotGridDataSource.getAreaFields(area, collectGroups)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.getAreaFields(area, collectGroups)
+---
+---
+##### shortDescription
 Gets all the fields within an area.
-<!--/shortDescription-->
 
-<!--paramName1-->area<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
-<!--paramDescription1-->
+##### return: Array<PivotGridDataSource_Options_fields>
+All the [options](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) of all the fields within the area.
+
+##### param(area): String
 The [area](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area) that contains the fields to get.
-<!--/paramDescription1-->
 
-<!--paramName2-->collectGroups<!--/paramName2-->
-<!--paramType2-->Boolean<!--/paramType2-->
-<!--paramDescription2-->
+##### param(collectGroups): Boolean
 Pass **true** to return [grouped fields](/Documentation/Guide/Widgets/PivotGrid/Grouping/#Fields_Grouping) in a single array entry or **false** to return them as separate entries.     
 The default value is **false**.
-<!--/paramDescription2-->
 
-<!--returnType-->Array<PivotGridDataSource_Options_fields><!--/returnType-->
-<!--returnDescription-->
-All the [options](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) of all the fields within the area.
-<!--/returnDescription-->
-
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -56,4 +47,3 @@ All the [options](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Con
 #####See Also#####
 - [fields()](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fields)
 - [field(id)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fieldid)
-<!--/fullDescription-->

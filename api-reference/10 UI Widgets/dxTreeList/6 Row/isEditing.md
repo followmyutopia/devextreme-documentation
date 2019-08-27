@@ -1,12 +1,9 @@
-<!--id-->dxTreeListRowObject.isEditing<!--/id-->
-===========================================================================
-<!--type-->Boolean<!--/type-->
-===========================================================================
+---
+id: dxTreeListRowObject.isEditing
+type: Boolean
+---
+---
+##### shortDescription
+Indicates whether the row is in the editing state.
 
-<!--shortDescription-->
-Indicates whether the row is in the editing state. 
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

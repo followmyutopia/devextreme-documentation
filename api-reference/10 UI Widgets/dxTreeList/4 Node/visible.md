@@ -1,12 +1,9 @@
-<!--id-->dxTreeListNode.visible<!--/id-->
-===========================================================================
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeListNode.visible
+type: Boolean
+---
+---
+##### shortDescription
 Indicates whether the node is visualized as a row.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

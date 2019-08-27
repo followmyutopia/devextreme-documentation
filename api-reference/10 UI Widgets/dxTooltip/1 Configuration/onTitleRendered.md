@@ -1,6 +1,5 @@
-<!--id-->dxTooltip.Options.onTitleRendered<!--/id-->
-<!--EventForAction-->dxTooltip.titleRendered<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxTooltip.Options.onTitleRendered
+hidden: 
+EventForAction: dxTooltip.titleRendered
+---

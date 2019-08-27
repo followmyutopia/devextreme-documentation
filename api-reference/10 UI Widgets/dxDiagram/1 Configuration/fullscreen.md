@@ -1,6 +1,5 @@
-<!--id-->dxDiagram.Options.fullScreen<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxDiagram.Options.fullScreen
+type: Boolean
+default: false
+---

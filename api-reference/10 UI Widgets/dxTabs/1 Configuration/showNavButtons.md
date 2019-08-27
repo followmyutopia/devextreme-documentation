@@ -1,13 +1,10 @@
-<!--id-->dxTabs.Options.showNavButtons<!--/id-->
-===========================================================================
-<!--default-->true, false (mobile_devices)<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTabs.Options.showNavButtons
+type: Boolean
+default: true, false (mobile_devices)
+---
+---
+##### shortDescription
 Specifies whether navigation buttons should be available when tabs exceed the widget's width.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

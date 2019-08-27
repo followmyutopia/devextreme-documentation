@@ -1,18 +1,17 @@
-<!--id-->dxSlideOut<!--/id-->
-===========================================================================
-<!--module-->ui/slide_out<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->CollectionWidget<!--/inherits-->
-<!--lib-->
-dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSlideOut
+module: ui/slide_out
+export: default
+inherits: CollectionWidget
+---
+---
+##### shortDescription
 The **SlideOut** widget is a classic slide-out menu paired with a view. An end user opens the menu by swiping away the view.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### lib
+dx.all.js
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/navigationslideoutslideoutgroupingmenuitems/iphone/ios7/default/default"
 }
@@ -23,4 +22,3 @@ The **SlideOut** widget is a classic slide-out menu paired with a view. An end u
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

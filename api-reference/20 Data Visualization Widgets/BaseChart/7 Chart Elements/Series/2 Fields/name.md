@@ -1,12 +1,9 @@
-<!--id-->baseSeriesObject.name<!--/id-->
-===========================================================================
-<!--type-->any<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: baseSeriesObject.name
+type: any
+---
+---
+##### shortDescription
 Returns the name of the series.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

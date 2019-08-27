@@ -1,16 +1,12 @@
-<!--id-->HierarchicalCollectionWidget<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--module-->ui/hierarchical_collection/ui.hierarchical_collection_widget<!--/module-->
-<!--export-->default<!--/export-->
-<!--type-->Object<!--/type-->
-<!--inherits-->CollectionWidget<!--/inherits-->
-===========================================================================
+---
+id: HierarchicalCollectionWidget
+module: ui/hierarchical_collection/ui.hierarchical_collection_widget
+export: default
+type: Object
+inherits: CollectionWidget
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

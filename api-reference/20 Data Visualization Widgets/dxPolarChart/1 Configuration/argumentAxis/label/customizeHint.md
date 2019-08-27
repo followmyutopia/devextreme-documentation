@@ -1,32 +1,22 @@
-<!--id-->dxPolarChart.Options.argumentAxis.label.customizeHint<!--/id-->
-===========================================================================
-<!--type-->function(argument)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChart.Options.argumentAxis.label.customizeHint
+type: function(argument)
+---
+---
+##### shortDescription
 Specifies the text for a hint that appears when a user hovers the mouse pointer over a label on the argument axis.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-#include dataviz-ref-functioncontext
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->argument<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
+##### param(argument): Object
 Information on the argument.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->Date | Number | String<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The raw argument value.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->String<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-The [formatted](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/argumentAxis/label/#format) value converted to a string.
-<!--/typeFunctionParamDescription1_field2-->
 
-<!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
+##### field(argument.value): Date | Number | String
+The raw argument value.
+
+##### field(argument.valueText): String
+The [formatted](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/argumentAxis/label/#format) value converted to a string.
+
+##### return: String
 The text for the hint to display.
-<!--/typeFunctionReturnDescription-->
+
+---
+#include dataviz-ref-functioncontext

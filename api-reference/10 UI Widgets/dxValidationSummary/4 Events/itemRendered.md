@@ -1,6 +1,5 @@
-<!--id-->dxValidationSummary.itemRendered<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->eventType<!--/type-->
-===========================================================================
-
+---
+id: dxValidationSummary.itemRendered
+type: eventType
+hidden: 
+---

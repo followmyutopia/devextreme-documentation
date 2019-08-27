@@ -1,12 +1,9 @@
-<!--id-->BarGaugeLegendItem.text<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BarGaugeLegendItem.text
+type: String
+---
+---
+##### shortDescription
 The text that the legend item displays.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

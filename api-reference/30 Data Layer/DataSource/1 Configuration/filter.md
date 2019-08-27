@@ -1,13 +1,12 @@
-<!--id-->DataSource.Options.filter<!--/id-->
-===========================================================================
-<!--type-->Filter expression<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.Options.filter
+type: Filter expression
+---
+---
+##### shortDescription
 Specifies data filtering conditions.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Possible variants:
 
 * Binary filter
@@ -69,4 +68,3 @@ Possible variants:
 
 #####See Also#####
 - [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering)
-<!--/fullDescription-->

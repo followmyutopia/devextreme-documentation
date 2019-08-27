@@ -1,24 +1,17 @@
-<!--id-->PivotGridDataSource.field(id, options)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.field(id, options)
+---
+---
+##### shortDescription
 Updates field options' values.
-<!--/shortDescription-->
 
-<!--paramName1-->id<!--/paramName1-->
-<!--paramType1-->Number|String<!--/paramType1-->
-<!--paramDescription1-->
+##### param(id): Number | String
 The field's [name](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#name), [caption](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#caption), [dataField](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#dataField), or index in the [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) array.
-<!--/paramDescription1-->
 
-<!--paramName2-->options<!--/paramName2-->
-<!--paramType2-->Object<!--/paramType2-->
-<!--paramDescription2-->
+##### param(options): Object
 The [options](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) with their new values.
-<!--/paramDescription2-->
 
-<!--fullDescription-->
+---
 Call the [load()](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#load) method to update the **PivotGrid**:
 
 ---
@@ -64,4 +57,3 @@ Call the [load()](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Met
     }
 
 ---
-<!--/fullDescription-->

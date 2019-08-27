@@ -1,13 +1,10 @@
-<!--id-->dxChartAnnotationConfig.name<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartAnnotationConfig.name
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies the annotation's name.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

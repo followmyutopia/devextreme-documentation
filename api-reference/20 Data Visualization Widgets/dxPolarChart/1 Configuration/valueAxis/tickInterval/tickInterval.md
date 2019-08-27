@@ -1,13 +1,12 @@
-<!--id-->dxPolarChart.Options.valueAxis.tickInterval<!--/id-->
-===========================================================================
-<!--inherits-->VizTimeInterval<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChart.Options.valueAxis.tickInterval
+inherits: VizTimeInterval
+---
+---
+##### shortDescription
 Specifies an interval between axis ticks/grid lines.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Use this option to divide the scale by ticks in a specified interval from each other. If this option is not set, ticks are automatically arranged so that their labels do not overlap each other.
 
 In case of a continuous or a logarithmic axis, assign a numeric value to this option.
@@ -19,4 +18,3 @@ When you use a [logarithmic axis](/Documentation/ApiReference/Data_Visualization
 To set the **tickInterval** option for several axis at once, use the [commonAxisSettings](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/commonAxisSettings/) configuration object. To set this option for an individual axis, use the [argumentAxis](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/argumentAxis/) or **valueAxis** configuration object.
 
 When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `VizTimeInterval` enum. This enum accepts the same values, but they start with an upper-case letter, for example, *'day'* becomes `Day`.
-<!--/fullDescription-->

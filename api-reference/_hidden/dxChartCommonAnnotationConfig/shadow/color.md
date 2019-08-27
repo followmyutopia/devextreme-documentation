@@ -1,13 +1,11 @@
-<!--id-->dxChartCommonAnnotationConfig.shadow.color<!--/id-->
-===========================================================================
-<!--default-->'#000000'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartCommonAnnotationConfig.shadow.color
+type: String
+default: '#000000'
+---
+---
+##### shortDescription
 Colors the annotation's shadows.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

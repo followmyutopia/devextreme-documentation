@@ -1,12 +1,9 @@
-<!--id-->StringLengthRule.min<!--/id-->
-===========================================================================
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: StringLengthRule.min
+type: Number
+---
+---
+##### shortDescription
 Specifies the minimum length allowed for the validated value.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

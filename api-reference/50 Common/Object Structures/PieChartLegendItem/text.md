@@ -1,12 +1,9 @@
-<!--id-->PieChartLegendItem.text<!--/id-->
-===========================================================================
-<!--type-->any<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PieChartLegendItem.text
+type: any
+---
+---
+##### shortDescription
 The text that the legend item displays.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

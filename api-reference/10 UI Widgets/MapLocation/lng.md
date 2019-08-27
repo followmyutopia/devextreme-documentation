@@ -1,13 +1,10 @@
-<!--id-->MapLocation.lng<!--/id-->
-===========================================================================
-<!--default-->0<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: MapLocation.lng
+type: Number
+default: 0
+---
+---
+##### shortDescription
 The longitude location of the widget.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

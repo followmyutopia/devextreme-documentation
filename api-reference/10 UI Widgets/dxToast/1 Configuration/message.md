@@ -1,13 +1,10 @@
-<!--id-->dxToast.Options.message<!--/id-->
-===========================================================================
-<!--default-->''<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxToast.Options.message
+type: String
+default: ''
+---
+---
+##### shortDescription
 The **Toast** message text.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

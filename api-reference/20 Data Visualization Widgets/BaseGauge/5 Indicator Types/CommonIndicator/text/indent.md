@@ -1,14 +1,14 @@
-<!--id-->CommonIndicator.text.indent<!--/id-->
-===========================================================================
-<!--propertyOf-->circularRangeBar,linearRangeBar<!--/propertyOf-->
-<!--default-->0<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: CommonIndicator.text.indent
+type: Number
+default: 0
+---
+---
+##### shortDescription
 Specifies the range bar's label indent in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### propertyOf
+circularRangeBar,linearRangeBar
+
+---
 If this property is set to 0, the range bar text is not shown.
-<!--/fullDescription-->

@@ -1,4 +1,8 @@
-<!--id-->circularRectangleNeedle.color<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->'#C2C2C2'<!--/default-->
-===========================================================================
+---
+id: circularRectangleNeedle.color
+default: '#C2C2C2'
+---
+---
+##### merge
+
+---

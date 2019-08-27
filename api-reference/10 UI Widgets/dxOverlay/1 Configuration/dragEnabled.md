@@ -1,13 +1,10 @@
-<!--id-->dxOverlay.Options.dragEnabled<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxOverlay.Options.dragEnabled
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether or not an end-user can drag the widget.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

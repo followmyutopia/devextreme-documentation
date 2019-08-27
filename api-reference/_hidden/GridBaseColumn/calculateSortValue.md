@@ -1,13 +1,18 @@
-<!--id-->GridBaseColumn.calculateSortValue<!--/id-->
-===========================================================================
-<!--type-->String | function(rowData)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBaseColumn.calculateSortValue
+type: String | function(rowData)
+---
+---
+##### shortDescription
 Calculates custom values to be used in sorting.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(rowData): Object
+The data of the row to which the cell belongs.
+
+##### return: any
+The value to be used in sorting.
+
+---
 This option accepts the name of the [data source field]({basewidgetpath}/Configuration/#dataSource) that provides values to be used in sorting...
 
 ---
@@ -113,14 +118,3 @@ Please review the following notes about the **calculateSortValue** option.
 
 #####See Also#####
 - [sortingMethod]({basewidgetpath}/Configuration/columns/#sortingMethod)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->rowData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The data of the row to which the cell belongs.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->any<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-The value to be used in sorting.
-<!--/typeFunctionReturnDescription-->

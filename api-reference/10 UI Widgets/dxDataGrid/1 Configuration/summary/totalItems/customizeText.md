@@ -1,35 +1,25 @@
-<!--id-->dxDataGrid.Options.summary.totalItems.customizeText<!--/id-->
-===========================================================================
-<!--type-->function(itemInfo)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.Options.summary.totalItems.customizeText
+type: function(itemInfo)
+---
+---
+##### shortDescription
 Customizes the text to be displayed in the summary item.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(itemInfo): Object
+The summary item's data.
+
+##### field(itemInfo.value): String | Number | Date
+The summary item's value as it was calculated.
+
+##### field(itemInfo.valueText): String
+The summary item's [formatted](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#valueFormat) value.
+
+##### return: String
+The text for the summary item to display.
+
+---
 This option accepts a function that must return the text to be displayed in the summary item. When you implement this function, you can access the summary item value using the fields of object passed to the function as its argument. 
 
 #####See Also#####
 - [Format Text and Value](/Documentation/Guide/Widgets/DataGrid/Summaries/Format_Text_and_Value/)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->itemInfo<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The summary item's data.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->String | Number | Date<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The summary item's value as it was calculated.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->String<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-The summary item's [formatted](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#valueFormat) value.
-<!--/typeFunctionParamDescription1_field2-->
-
-<!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-The text for the summary item to display.
-<!--/typeFunctionReturnDescription-->

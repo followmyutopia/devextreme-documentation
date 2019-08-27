@@ -1,19 +1,15 @@
-<!--id-->UI Events.dxdblclick<!--/id-->
-===========================================================================
-<!--module-->events/dblclick<!--/module-->
-<!--type-->eventType<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: UI Events.dxdblclick
+module: events/dblclick
+type: eventType
+---
+---
+##### shortDescription
 Raised when a user has performed a double click on the element.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(event): event
+#include common-ref-eventparam
+
+---
 #####See Also#####
 - [UI Events - Introduction](/Documentation/ApiReference/UI_Widgets/UI_Events/)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->event<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->event<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-#include common-ref-eventparam 
-<!--/typeFunctionParamDescription1-->

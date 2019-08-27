@@ -1,16 +1,11 @@
-<!--id-->dxTreeMapNode.isSelected()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMapNode.isSelected()
+---
+---
+##### shortDescription
 Indicates whether the node is selected or not.
-<!--/shortDescription-->
 
-<!--returnType-->Boolean<!--/returnType-->
-<!--returnDescription-->
+##### return: Boolean
 **true** if the node is selected; **false** otherwise.
-<!--/returnDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,14 +1,13 @@
-<!--id-->dxHtmlEditor.Options.variables<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->dxHtmlEditorVariables<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxHtmlEditor.Options.variables
+type: dxHtmlEditorVariables
+default: null
+---
+---
+##### shortDescription
 Configures variables, which are placeholders to be replaced with actual values when processing text.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 A user can insert variables in the text and remove them, but never modify them.
 
 ---
@@ -55,5 +54,3 @@ A user can insert variables in the text and remove them, but never modify them.
     })
 
 ---
-
-<!--/fullDescription-->

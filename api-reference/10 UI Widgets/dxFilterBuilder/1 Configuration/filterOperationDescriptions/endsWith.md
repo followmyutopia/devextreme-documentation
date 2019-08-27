@@ -1,13 +1,10 @@
-<!--id-->dxFilterBuilder.Options.filterOperationDescriptions.endsWith<!--/id-->
-===========================================================================
-<!--default-->'Ends with'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFilterBuilder.Options.filterOperationDescriptions.endsWith
+type: String
+default: 'Ends with'
+---
+---
+##### shortDescription
 The *"endswith"* operation's description.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

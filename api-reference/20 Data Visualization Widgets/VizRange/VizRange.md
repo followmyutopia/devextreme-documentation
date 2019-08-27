@@ -1,14 +1,10 @@
-<!--id-->VizRange<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->Object<!--/type-->
-<!--inlineType--><!--/inlineType-->
-===========================================================================
+---
+id: VizRange
+type: Object
+hidden: 
+inlineType: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

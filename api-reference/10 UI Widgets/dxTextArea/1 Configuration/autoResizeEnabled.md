@@ -1,15 +1,11 @@
-<!--id-->dxTextArea.Options.autoResizeEnabled<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTextArea.Options.autoResizeEnabled
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 A Boolean value specifying whether or not the auto resizing mode is enabled.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Setting this option makes sense only when the [height](/Documentation/ApiReference/UI_Widgets/dxTextArea/Configuration/#height) option is not specified.
-
-
-<!--/fullDescription-->

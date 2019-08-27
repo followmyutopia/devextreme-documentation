@@ -1,24 +1,17 @@
-<!--id-->dxList.deleteItem(itemElement)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxList.deleteItem(itemElement)
+---
+---
+##### shortDescription
 Removes an item found using its DOM node.
-<!--/shortDescription-->
 
-<!--paramName1-->itemElement<!--/paramName1-->
-<!--paramType1-->Node<!--/paramType1-->
-<!--paramDescription1-->
-The item's DOM node.
-<!--/paramDescription1-->
-
-<!--returnType-->Promise<void><!--/returnType-->
-<!--returnDescription-->
+##### return: Promise<void>
 A Promise that is resolved if the item is deleted and rejected otherwise. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(itemElement): Node
+The item's DOM node.
+
+---
 #####See Also#####
 #include common-link-callmethods
 - [List - Item Deletion API](/Documentation/Guide/Widgets/List/Item_Deletion/#API)
-<!--/fullDescription-->

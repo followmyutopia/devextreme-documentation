@@ -1,45 +1,31 @@
-<!--id-->dxMenu.submenuHiding<!--/id-->
-===========================================================================
-<!--type-->eventType<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxMenu.submenuHiding
+type: eventType
+---
+---
+##### shortDescription
 Raised before a submenu is hidden.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(e): Object
+Information about the event.
+
+##### field(e.cancel): Boolean
+Allows you to cancel submenu hiding.
+
+##### field(e.component): {WidgetName}
+The widget's instance.
+
+##### field(e.element): dxElement
+#include common-ref-elementparam with { element: "widget" }
+
+##### field(e.model): Object
+The model data. Available only if Knockout is used.
+
+##### field(e.rootItem): dxElement
+#include common-ref-elementparam with { element: "root menu element" }
+
+---
 Main article: [onSubmenuHiding](/Documentation/ApiReference/UI_Widgets/dxMenu/Configuration/#onSubmenuHiding)
 
 #####See Also#####
 #include common-link-handleevents
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the event.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-#include common-ref-elementparam with { element: "widget" }
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The model data. Available only if Knockout is used.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->rootItem<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->dxElement<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-#include common-ref-elementparam with { element: "root menu element" }
-<!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamName1_field5-->cancel<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->Boolean<!--/typeFunctionParamType1_field5-->
-<!--typeFunctionParamDescription1_field5-->
-Allows you to cancel submenu hiding.
-<!--/typeFunctionParamDescription1_field5-->

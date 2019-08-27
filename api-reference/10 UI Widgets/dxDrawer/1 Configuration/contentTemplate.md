@@ -1,19 +1,12 @@
-<!--id-->dxDrawer.Options.contentTemplate<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--default-->'content'<!--/default-->
-<!--type-->template<!--/type-->
-===========================================================================
+---
+id: dxDrawer.Options.contentTemplate
+type: template
+default: 'content'
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### param(contentElement): dxElement
 
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->contentElement<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->dxElement<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-
-<!--/typeFunctionParamDescription1-->
+---

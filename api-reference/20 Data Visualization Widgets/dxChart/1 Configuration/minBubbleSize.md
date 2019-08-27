@@ -1,14 +1,14 @@
-<!--id-->dxChart.Options.minBubbleSize<!--/id-->
-===========================================================================
-<!--propertyOf-->dxChartSeriesTypes.BubbleSeries<!--/propertyOf-->
-<!--default-->12<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.minBubbleSize
+type: Number
+default: 12
+---
+---
+##### shortDescription
 Specifies the diameter of the smallest bubble measured in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### propertyOf
+dxChartSeriesTypes.BubbleSeries
+
+---
 When defining a bubble series, you are required to specify a [size field](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/BubbleSeries/#sizeField). The smallest size value will be represented on the chart by the smallest bubble. To set its visual diameter, specify the **minBubbleSize** option.
-<!--/fullDescription-->

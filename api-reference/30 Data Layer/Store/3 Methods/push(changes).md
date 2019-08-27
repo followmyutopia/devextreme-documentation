@@ -1,18 +1,14 @@
-<!--id-->Store.push(changes)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: Store.push(changes)
+---
+---
+##### shortDescription
 Pushes data changes to the store and notifies the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/).
-<!--/shortDescription-->
 
-<!--paramName1-->changes<!--/paramName1-->
-<!--paramType1-->Array<any><!--/paramType1-->
-<!--paramDescription1-->
-Data changes to be pushed. 
-<!--/paramDescription1-->
+##### param(changes): Array<any>
+Data changes to be pushed.
 
-<!--fullDescription-->
+---
 There are three possible data change types:
 
 ---
@@ -72,4 +68,3 @@ When data is grouped or paginated, the widget bound to the **DataSource** ignore
 #####See Also#####
 - [Integration with Push Services](/Documentation/Guide/Data_Layer/Data_Layer/#Data_Modification/Integration_with_Push_Services)
 - **API Reference.WidgetName.repaintChangesOnly**, for example, **API Reference**.[DataGrid](/Documentation/ApiReference/UI_Widgets/dxDataGrid/).[repaintChangesOnly](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#repaintChangesOnly)
-<!--/fullDescription-->

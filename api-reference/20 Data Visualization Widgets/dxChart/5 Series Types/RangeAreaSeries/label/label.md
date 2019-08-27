@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.RangeAreaSeries.label<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.RangeAreaSeries.label
+type: Object
+---

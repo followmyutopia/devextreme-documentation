@@ -1,13 +1,11 @@
-<!--id-->dxChart.Options.commonAxisSettings.color<!--/id-->
-===========================================================================
-<!--default-->'#767676'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonAxisSettings.color
+type: String
+default: '#767676'
+---
+---
+##### shortDescription
 Specifies the color of the axis line.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

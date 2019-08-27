@@ -1,13 +1,18 @@
-<!--id-->DataSource.Options.postProcess<!--/id-->
-===========================================================================
-<!--type-->function(data)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.Options.postProcess
+type: function(data)
+---
+---
+##### shortDescription
 Specifies a post processing function.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(data): Array<any>
+The data loaded in the **DataSource**.
+
+##### return: Array<any>
+The data after processing.
+
+---
 ---
 ##### jQuery
 
@@ -53,14 +58,3 @@ Specifies a post processing function.
 
 #####See Also#####
 - [Post Processing](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Data_Transformation/Post_Processing)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->data<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Array<any><!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The data loaded in the **DataSource**.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->Array<any><!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-The data after processing.
-<!--/typeFunctionReturnDescription-->

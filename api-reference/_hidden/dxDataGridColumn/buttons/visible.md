@@ -1,14 +1,28 @@
-<!--id-->dxDataGridColumnButton.visible<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean | function(options)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGridColumnButton.visible
+type: Boolean | function(options)
+default: true
+---
+---
+##### shortDescription
 Specifies the button's visibility.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(options): Object
+Information about the row and column that contain the button.
+
+##### field(options.column): dxDataGridColumn
+The column's properties.
+
+##### field(options.component): dxDataGrid
+The widget's instance.
+
+##### field(options.row): dxDataGridRowObject
+The row's properties.
+
+##### return: Boolean
+**true** if the button should be visible; otherwise, **false**.
+
+---
 Use the function to show or hide the button for specific rows. For example, the widget lists online orders and allows users to edit them. The **Cancel** button should allow users to cancel their orders. However, completed orders should not be canceled. The **visible** function in this case may look as follows:
 
 ---
@@ -63,29 +77,3 @@ Use the function to show or hide the button for specific rows. For example, the 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/DataGrid/CommandColumnCustomization/jQuery/Light/"
 }
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the row and column that contain the button.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->dxDataGrid<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->row<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxDataGridRowObject<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-The row's properties.
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->column<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->dxDataGridColumn<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The column's properties.
-<!--/typeFunctionParamDescription1_field3-->
-
-<!--typeFunctionReturnType-->Boolean<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-**true** if the button should be visible; otherwise, **false**.
-<!--/typeFunctionReturnDescription-->

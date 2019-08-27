@@ -1,15 +1,15 @@
-<!--id-->dxPolarChartSeriesTypes.areapolarseries<!--/id-->
-===========================================================================
-<!--hidePropertyOf--><!--/hidePropertyOf-->
-<!--type-->Object<!--/type-->
-<!--inherits-->dxPolarChartSeriesTypes.CommonPolarChartSeries<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.areapolarseries
+type: Object
+inherits: dxPolarChartSeriesTypes.CommonPolarChartSeries
+---
+---
+##### shortDescription
 An object defining a series of the **area** type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### hidePropertyOf
+
+---
 #include dataviz-ref-series-type with { 
     seriesType: "area"
 }
@@ -19,4 +19,3 @@ An object defining a series of the **area** type.
 }
 
 ![AreaSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/PolarArea.png)
-<!--/fullDescription-->

@@ -1,14 +1,13 @@
-<!--id-->BaseWidget.Options.title.font<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-<!--inherits-->Font<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseWidget.Options.title.font
+type: Object
+inherits: Font
+---
+---
+##### shortDescription
 Specifies font options for the title.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -120,4 +119,3 @@ Specifies font options for the title.
     export default App;
 
 ---
-<!--/fullDescription-->

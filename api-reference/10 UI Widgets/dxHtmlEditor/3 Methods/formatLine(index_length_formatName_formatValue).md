@@ -1,37 +1,24 @@
-<!--id-->dxHtmlEditor.formatLine(index, length, formatName, formatValue)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxHtmlEditor.formatLine(index, length, formatName, formatValue)
+---
+---
+##### shortDescription
 Applies a single [block format](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName/formats) to all lines in the given range.
-<!--/shortDescription-->
 
-<!--paramName1-->index<!--/paramName1-->
-<!--paramType1-->Number<!--/paramType1-->
-<!--paramDescription1-->
+##### param(index): Number
 A zero-based index at which to begin formatting.
-<!--/paramDescription1-->
 
-<!--paramName2-->length<!--/paramName2-->
-<!--paramType2-->Number<!--/paramType2-->
-<!--paramDescription2-->
+##### param(length): Number
 The length of the content to be formatted.      
-[Embedded items](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName/formats) have a length of 1. 
-<!--/paramDescription2-->
+[Embedded items](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName/formats) have a length of 1.
 
-<!--paramName3-->formatName<!--/paramName3-->
-<!--paramType3-->String<!--/paramType3-->
-<!--paramDescription3-->
+##### param(formatName): String
 A format name.
-<!--/paramDescription3-->
 
-<!--paramName4-->formatValue<!--/paramName4-->
-<!--paramType4-->any<!--/paramType4-->
-<!--paramDescription4-->
+##### param(formatValue): any
 A format value.
-<!--/paramDescription4-->
 
-<!--fullDescription-->
+---
 [note] The entire line will be formatted even if only a single character from it falls within the given range.
 
 ---
@@ -66,5 +53,3 @@ A format value.
 #####See Also#####
 - [formatLine(index, length, formats)](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Methods/#formatLineindex_length_formats)
 - [formatText(index, length, formatName, formatValue)](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Methods/#formatTextindex_length_formatName_formatValue) | [formatText(index, length, formats)](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Methods/#formatTextindex_length_formats)
-
-<!--/fullDescription-->

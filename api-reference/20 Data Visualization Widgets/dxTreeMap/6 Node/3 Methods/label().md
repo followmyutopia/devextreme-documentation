@@ -1,16 +1,11 @@
-<!--id-->dxTreeMapNode.label()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMapNode.label()
+---
+---
+##### shortDescription
 Returns the label of the node.
-<!--/shortDescription-->
 
-<!--returnType-->String<!--/returnType-->
-<!--returnDescription-->
+##### return: String
 The label of the node.
-<!--/returnDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

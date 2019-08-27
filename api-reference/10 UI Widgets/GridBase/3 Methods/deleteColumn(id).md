@@ -1,18 +1,14 @@
-<!--id-->GridBase.deleteColumn(id)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.deleteColumn(id)
+---
+---
+##### shortDescription
 Removes a column.
-<!--/shortDescription-->
 
-<!--paramName1-->id<!--/paramName1-->
-<!--paramType1-->Number|String<!--/paramType1-->
-<!--paramDescription1-->
+##### param(id): Number | String
 The column's index, data field, caption or unique name.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 This method removes the first column found by either of the below:
 
 * **Name**        
@@ -31,4 +27,3 @@ The text displayed in the column header.
 #include common-link-callmethods
 - [addColumn(columnOptions)]({basewidgetpath}/Methods/#addColumncolumnOptions)
 - [deleteRow(rowIndex)]({basewidgetpath}/Methods/#deleteRowrowIndex)
-<!--/fullDescription-->

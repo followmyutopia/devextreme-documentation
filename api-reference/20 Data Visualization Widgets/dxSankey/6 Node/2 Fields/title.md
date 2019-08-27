@@ -1,12 +1,9 @@
-<!--id-->dxSankeyNode.title<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSankeyNode.title
+type: String
+---
+---
+##### shortDescription
 The node's title.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

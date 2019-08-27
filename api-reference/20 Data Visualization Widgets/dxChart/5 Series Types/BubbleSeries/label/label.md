@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.BubbleSeries.label<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.BubbleSeries.label
+type: Object
+---

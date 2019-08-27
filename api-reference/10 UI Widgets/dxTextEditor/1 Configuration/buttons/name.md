@@ -1,14 +1,12 @@
-<!--id-->dxTextEditorButton.name<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTextEditorButton.name
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies the button's name.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 - [getButton(name)]({basewidgetpath}/Methods/#getButtonname)
-<!--/fullDescription-->

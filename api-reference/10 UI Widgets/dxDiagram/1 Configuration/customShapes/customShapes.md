@@ -1,14 +1,13 @@
-<!--id-->dxDiagram.Options.customShapes<!--/id-->
-===========================================================================
-<!--default-->[]<!--/default-->
-<!--type-->Array<Object><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDiagram.Options.customShapes
+type: Array<Object>
+default: []
+---
+---
+##### shortDescription
 An array of custom shapes.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Use the **customShapes** option to extend a collection of built-in shapes with custom shapes. Custom shapes are displayed in the toolbox panel’s **Custom** tab.
 
 #include common-demobutton with {
@@ -42,5 +41,3 @@ Use the **customShapes** option to extend a collection of built-in shapes with c
         }).dxDiagram("instance");
     });    
 ---
-
-<!--/fullDescription-->

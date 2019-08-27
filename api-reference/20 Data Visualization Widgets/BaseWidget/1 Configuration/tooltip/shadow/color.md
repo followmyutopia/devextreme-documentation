@@ -1,13 +1,11 @@
-<!--id-->BaseWidget.Options.tooltip.shadow.color<!--/id-->
-===========================================================================
-<!--default-->#000000<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseWidget.Options.tooltip.shadow.color
+type: String
+default: #000000
+---
+---
+##### shortDescription
 Colors a tooltip's shadow.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

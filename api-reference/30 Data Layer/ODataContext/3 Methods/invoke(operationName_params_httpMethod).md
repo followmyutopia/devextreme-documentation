@@ -1,36 +1,24 @@
-<!--id-->ODataContext.invoke(operationName, params, httpMethod)<!--/id-->
-===================================================================
-===================================================================
+---
+id: ODataContext.invoke(operationName, params, httpMethod)
+---
+---
+##### shortDescription
+Invokes an OData operation that returns nothing.
 
-<!--shortDescription-->
-Invokes an OData operation that returns nothing. 
-<!--/shortDescription-->
+##### return: Promise<void>
+A Promise that is resolved after the operation has completed. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
 
-<!--paramName1-->operationName<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
-<!--paramDescription1-->
+##### param(operationName): String
 The operation's name
-<!--/paramDescription1-->
 
-<!--paramName2-->params<!--/paramName2-->
-<!--paramType2-->Object<!--/paramType2-->
-<!--paramDescription2-->
+##### param(params): Object
 The operation's parameters.
-<!--/paramDescription2-->
 
-<!--paramName3-->httpMethod<!--/paramName3-->
-<!--paramType3-->Object<!--/paramType3-->
-<!--paramDescription3-->
+##### param(httpMethod): Object
 The HTTP method for this operation ("GET", "POST", "PATCH", or "MERGE").            
 "POST" by default.
-<!--/paramDescription3-->
 
-<!--returnType-->Promise<void><!--/returnType-->
-<!--returnDescription-->
-A Promise that is resolved after the operation has completed. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
-<!--/returnDescription-->
-
-<!--fullDescription-->
+---
 ---
 #####jQuery
 
@@ -59,4 +47,3 @@ A Promise that is resolved after the operation has completed. It is a <a href="h
 
 #####See Also#####
 - [Invoking Service Operations](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData/Invoking_Service_Operations)
-<!--/fullDescription-->

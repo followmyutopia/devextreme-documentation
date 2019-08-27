@@ -1,14 +1,13 @@
-<!--id-->dxResponsiveBoxItem.location.screen<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxResponsiveBoxItem.location.screen
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Decides on which screens the current **location** settings should be applied to the element.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Before applying the current **location** settings, the widget considers the screen's width and applies the **location** settings only if the width matches the specified size qualifier. There are four size qualifiers in all.
 
 <div class="simple-table">
@@ -58,4 +57,3 @@ The **screen** option accepts one or several size qualifiers separated by a spac
 #####See Also#####
 - [Arrange Layout Elements](/Documentation/Guide/Widgets/ResponsiveBox/Arrange_Layout_Elements/)
 - [screenByWidth](/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/#screenByWidth)
-<!--/fullDescription-->

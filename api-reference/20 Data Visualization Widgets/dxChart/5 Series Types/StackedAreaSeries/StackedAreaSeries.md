@@ -1,15 +1,15 @@
-<!--id-->dxChartSeriesTypes.StackedAreaSeries<!--/id-->
-===========================================================================
-<!--hidePropertyOf--><!--/hidePropertyOf-->
-<!--type-->Object<!--/type-->
-<!--inherits-->dxChartSeriesTypes.CommonSeries<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.StackedAreaSeries
+type: Object
+inherits: dxChartSeriesTypes.CommonSeries
+---
+---
+##### shortDescription
 Describes settings supported by a series of the *stacked area* type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### hidePropertyOf
+
+---
 #include dataviz-ref-series-type with { 
     seriesType: "stackedarea"
 }
@@ -19,4 +19,3 @@ Describes settings supported by a series of the *stacked area* type.
 }
 
 ![DevExtreme HTML5 Charts StackedAreaSeriesType](/Content/images/doc/19_2/ChartJS/StackedArea.png)
-<!--/fullDescription-->

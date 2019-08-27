@@ -1,39 +1,26 @@
-<!--id-->events.on(element, eventName, data, handler)<!--/id-->
-===================================================================
-<!--module-->events<!--/module-->
-<!--export-->on<!--/export-->
-===================================================================
-
-<!--shortDescription-->
+---
+id: events.on(element, eventName, data, handler)
+module: events
+export: on
+---
+---
+##### shortDescription
 Attaches an event handler to the specified elements. Allows you to pass custom data to the handler.
-<!--/shortDescription-->
 
-<!--paramName1-->element<!--/paramName1-->
-<!--paramType1-->Node|Array<Node><!--/paramType1-->
-<!--paramDescription1-->
+##### param(element): Node | Array<Node>
 HTML elements to which to attach a handler.
-<!--/paramDescription1-->
 
-<!--paramName2-->eventName<!--/paramName2-->
-<!--paramType2-->String<!--/paramType2-->
-<!--paramDescription2-->
+##### param(eventName): String
 An event name.
-<!--/paramDescription2-->
 
-<!--paramName3-->data<!--/paramName3-->
-<!--paramType3-->Object<!--/paramType3-->
-<!--paramDescription3-->
+##### param(data): Object
 Data to be passed to the handler. This data is available in the **data** field of the handler's first parameter.
-<!--/paramDescription3-->
 
-<!--paramName4-->handler<!--/paramName4-->
-<!--paramType4-->function()<!--/paramType4-->
-<!--paramDescription4-->
+##### param(handler): function()
 The handler to attach.      
 Return **false** to stop the event's propagation.
-<!--/paramDescription4-->
 
-<!--fullDescription-->
+---
 The following parameters are passed to the **handler**:
 
 - **event**: [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/)    
@@ -65,5 +52,3 @@ Data passed as **extraParameters** to the [trigger(element, event, extraParamete
             console.log(event.data.value); // Outputs "value1"
         }
     );
-
-<!--/fullDescription-->

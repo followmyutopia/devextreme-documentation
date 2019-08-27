@@ -1,6 +1,5 @@
-<!--id-->dxTabPanel.Options.animationEnabled<!--/id-->
-===========================================================================
-<!--default-->false, true (Android, iOS, Windows_Mobile)<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxTabPanel.Options.animationEnabled
+type: Boolean
+default: false, true (Android, iOS, Windows_Mobile)
+---

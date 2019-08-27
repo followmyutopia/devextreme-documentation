@@ -1,6 +1,5 @@
-<!--id-->globalConfig.useLegacyStoreResult<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: globalConfig.useLegacyStoreResult
+type: Boolean
+default: false
+---

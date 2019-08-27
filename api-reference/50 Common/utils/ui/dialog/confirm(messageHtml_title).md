@@ -1,32 +1,22 @@
-<!--id-->ui.dialog.confirm(messageHtml,title)<!--/id-->
-===================================================================
-<!--module-->ui/dialog<!--/module-->
-<!--export-->confirm<!--/export-->
-===================================================================
-
-<!--shortDescription-->
+---
+id: ui.dialog.confirm(messageHtml,title)
+module: ui/dialog
+export: confirm
+---
+---
+##### shortDescription
 Creates a confirmation dialog with a message and **Yes** and **No** buttons.
-<!--/shortDescription-->
 
-<!--paramName1-->messageHtml<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
-<!--paramDescription1-->
-The dialog's message. Can contain HTML elements.
-<!--/paramDescription1-->
-
-<!--paramName2-->title<!--/paramName2-->
-<!--paramType2-->String<!--/paramType2-->
-<!--paramDescription2-->
-The dialog's title.
-<!--/paramDescription2-->
-
-<!--returnType-->Promise<Boolean><!--/returnType-->
-<!--returnDescription-->
+##### return: Promise<Boolean>
 A Promise that is resolved with a Boolean value indicating whether a user has clicked **Yes** or **No**. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(messageHtml): String
+The dialog's message. Can contain HTML elements.
 
+##### param(title): String
+The dialog's title.
+
+---
 ---
 #####jQuery
 
@@ -95,4 +85,3 @@ A Promise that is resolved with a Boolean value indicating whether a user has cl
     export default App;
 
 ---
-<!--/fullDescription-->

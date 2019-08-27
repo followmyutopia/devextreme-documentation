@@ -1,12 +1,9 @@
-<!--id-->GridBase.Options.selection<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.selection
+type: Object
+---
+---
+##### shortDescription
 Overridden.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

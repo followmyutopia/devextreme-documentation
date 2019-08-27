@@ -1,15 +1,13 @@
-<!--id-->dxChartSeriesTypes.CommonSeries.label.visible<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.CommonSeries.label.visible
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Makes the point labels visible.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Charts/AjaxRequest/jQuery/Light/"
 }
-<!--/fullDescription-->

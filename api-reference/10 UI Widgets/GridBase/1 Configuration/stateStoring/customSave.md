@@ -1,13 +1,15 @@
-<!--id-->GridBase.Options.stateStoring.customSave<!--/id-->
-===========================================================================
-<!--type-->function(gridState)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.stateStoring.customSave
+type: function(gridState)
+---
+---
+##### shortDescription
 Specifies a function that is executed on state saving. Applies only if the [type]({basewidgetpath}/Configuration/stateStoring/#type) is *"custom"*.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(gridState): Object
+The current widget state.
+
+---
 Use the **customSave** and [customLoad]({basewidgetpath}/Configuration/stateStoring/#customLoad) functions to manually implement state storing: in **customSave**, save the state to a custom storage; in **customLoad**, load it. You can also adjust the state in both functions.
  
 In the following code, the state is saved and loaded from a remote storage:
@@ -110,10 +112,3 @@ In the following code, the state is saved and loaded from a remote storage:
     </dx-{widget-name}>
 
 ---
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->gridState<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The current widget state.
-<!--/typeFunctionParamDescription1-->

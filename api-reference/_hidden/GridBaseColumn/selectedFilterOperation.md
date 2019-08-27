@@ -1,16 +1,15 @@
-<!--id-->GridBaseColumn.selectedFilterOperation<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--acceptValues-->'<' | '<=' | '<>' | '=' | '>' | '>=' | 'between' | 'contains' | 'endswith' | 'notcontains' | 'startswith'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBaseColumn.selectedFilterOperation
+acceptValues: '<' | '<=' | '<>' | '=' | '>' | '>=' | 'between' | 'contains' | 'endswith' | 'notcontains' | 'startswith'
+type: String
+default: undefined
+firedEvents: optionChanged
+---
+---
+##### shortDescription
 Specifies the column's filter operation displayed in the [filter row](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Filter_Row).
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The following table lists default filter operations by [data type]({basewidgetpath}/Configuration/columns/#dataType):
 
 <div class="simple-table">
@@ -41,4 +40,3 @@ The following table lists default filter operations by [data type]({basewidgetpa
 
 #####See Also#####
 - [Filtering API](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#API)
-<!--/fullDescription-->

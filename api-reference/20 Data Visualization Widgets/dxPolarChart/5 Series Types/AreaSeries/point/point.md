@@ -1,5 +1,4 @@
-<!--id-->dxPolarChartSeriesTypes.areapolarseries.point<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxPolarChartSeriesTypes.areapolarseries.point
+type: Object
+---

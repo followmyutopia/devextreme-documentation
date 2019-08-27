@@ -1,13 +1,10 @@
-<!--id-->dxFormSimpleItem.visible<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFormSimpleItem.visible
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether or not the current form item is visible.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

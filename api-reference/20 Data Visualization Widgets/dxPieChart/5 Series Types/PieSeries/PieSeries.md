@@ -1,15 +1,15 @@
-<!--id-->dxPieChartSeriesTypes.PieSeries<!--/id-->
-===========================================================================
-<!--hidePropertyOf--><!--/hidePropertyOf-->
-<!--type-->Object<!--/type-->
-<!--inherits-->dxPieChartSeriesTypes.CommonPieChartSeries<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPieChartSeriesTypes.PieSeries
+type: Object
+inherits: dxPieChartSeriesTypes.CommonPieChartSeries
+---
+---
+##### shortDescription
 An object defining a series of the **pie** type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### hidePropertyOf
+
+---
 #include dataviz-ref-series-type with { 
     seriesType: "pie"
 }
@@ -19,4 +19,3 @@ An object defining a series of the **pie** type.
 }
 
 ![PieSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/Pie.png)
-<!--/fullDescription-->

@@ -1,13 +1,12 @@
-<!--id-->dxButtonGroup.Options.items<!--/id-->
-===========================================================================
-<!--type-->Array<dxButtonGroupItem><!--/type-->
-===========================================================================
+---
+id: dxButtonGroup.Options.items
+type: Array<dxButtonGroupItem>
+---
+---
+##### shortDescription
+Configures buttons in the group.
 
-<!--shortDescription-->
-Configures buttons in the group. 
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 If you need to update the widget items, reassign the entire **items[]** array as shown in the following example:
 
     <!--JavaScript-->
@@ -18,4 +17,3 @@ If you need to update the widget items, reassign the entire **items[]** array as
 #####See Also#####
 - [keyExpr](/Documentation/ApiReference/UI_Widgets/dxButtonGroup/Configuration/#keyExpr)
 - [selectedItemKeys](/Documentation/ApiReference/UI_Widgets/dxButtonGroup/Configuration/#selectedItemKeys)
-<!--/fullDescription-->

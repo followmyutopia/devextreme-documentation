@@ -1,55 +1,37 @@
-<!--id-->dxDropDownList.itemClick<!--/id-->
-===========================================================================
-<!--type-->eventType<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDropDownList.itemClick
+type: eventType
+---
+---
+##### shortDescription
 Raised when a list item is clicked or tapped.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(e): Object
+Information about the event.
+
+##### field(e.component): {WidgetName}
+The widget's instance.
+
+##### field(e.element): dxElement
+#include common-ref-elementparam with { element: "widget" }
+
+##### field(e.event): event
+#include common-ref-eventparam
+
+##### field(e.itemData): Object
+The clicked item's data.
+
+##### field(e.itemElement): Object
+The item's container.
+
+##### field(e.itemIndex): Number | Object
+The clicked item's index. If the widget items are grouped, the index represents an object defining the group and item indexes: { group: 0, item: 0 }.
+
+##### field(e.model): Object
+The model data. Available only if Knockout is used.
+
+---
 Main article: [onItemClick]({basewidgetpath}/Configuration/#onItemClick)
 
 #####See Also#####
 #include common-link-handleevents
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the event.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-#include common-ref-elementparam with { element: "widget" }
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The model data. Available only if Knockout is used.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->itemData<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-The clicked item's data.
-<!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamName1_field5-->itemElement<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->Object<!--/typeFunctionParamType1_field5-->
-<!--typeFunctionParamDescription1_field5-->
-The item's container.
-<!--/typeFunctionParamDescription1_field5-->
-<!--typeFunctionParamName1_field6-->itemIndex<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->Number | Object<!--/typeFunctionParamType1_field6-->
-<!--typeFunctionParamDescription1_field6-->
-The clicked item's index. If the widget items are grouped, the index represents an object defining the group and item indexes: { group: 0, item: 0 }.
-<!--/typeFunctionParamDescription1_field6-->
-<!--typeFunctionParamName1_field7-->event<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->event<!--/typeFunctionParamType1_field7-->
-<!--typeFunctionParamDescription1_field7-->
-#include common-ref-eventparam
-<!--/typeFunctionParamDescription1_field7-->

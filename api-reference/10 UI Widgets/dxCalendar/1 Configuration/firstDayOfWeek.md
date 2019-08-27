@@ -1,15 +1,14 @@
-<!--id-->dxCalendar.Options.firstDayOfWeek<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--acceptValues-->0 | 1 | 2 | 3 | 4 | 5 | 6<!--/acceptValues-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxCalendar.Options.firstDayOfWeek
+acceptValues: 0 | 1 | 2 | 3 | 4 | 5 | 6
+type: Number
+default: undefined
+---
+---
+##### shortDescription
 Specifies the first day of a week.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The option can take on a value from 0 to 6.
 
 - 0 - Sunday
@@ -26,4 +25,3 @@ By default, the value provided by the culture settings is used.
     enum: "`FirstDayOfWeek`",
     values: "`Sunday`, `Monday`, `Tuesday`, `Wednesday`, `Thursday`, `Friday`, and `Saturday`"
 }
-<!--/fullDescription-->

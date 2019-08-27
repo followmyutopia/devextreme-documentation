@@ -1,14 +1,16 @@
-<!--id-->Store.Options.onPush<!--/id-->
-<!--EventForAction-->Store.push<!--/EventForAction-->
-===========================================================================
-<!--type-->function(changes)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Store.Options.onPush
+type: function(changes)
+EventForAction: Store.push
+---
+---
+##### shortDescription
 The function executed before changes are pushed to the store.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(changes): Array<any>
+Changes passed in the [push(changes)]({basewidgetpath}/Methods/#pushchanges) method.
+
+---
 ---
 ##### jQuery
 
@@ -36,9 +38,3 @@ The function executed before changes are pushed to the store.
     }
     
 ---
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->changes<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Array<any><!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Changes passed in the [push(changes)]({basewidgetpath}/Methods/#pushchanges) method.
-<!--/typeFunctionParamDescription1-->

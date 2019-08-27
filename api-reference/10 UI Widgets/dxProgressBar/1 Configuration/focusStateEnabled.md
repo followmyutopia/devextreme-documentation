@@ -1,5 +1,4 @@
-<!--id-->dxProgressBar.Options.focusStateEnabled<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxProgressBar.Options.focusStateEnabled
+hidden: 
+---

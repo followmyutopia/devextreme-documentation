@@ -1,13 +1,10 @@
-<!--id-->dxBarGauge.Options.geometry.startAngle<!--/id-->
-===========================================================================
-<!--default-->225<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxBarGauge.Options.geometry.startAngle
+type: Number
+default: 225
+---
+---
+##### shortDescription
 Specifies the start angle of the bar gauge's arc.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

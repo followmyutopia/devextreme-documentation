@@ -1,14 +1,10 @@
-<!--id-->DataHelperMixin<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--module-->data_helper<!--/module-->
-<!--export-->default<!--/export-->
-===========================================================================
+---
+id: DataHelperMixin
+module: data_helper
+export: default
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

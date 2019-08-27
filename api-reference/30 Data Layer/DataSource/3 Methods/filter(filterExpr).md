@@ -1,19 +1,15 @@
-<!--id-->DataSource.filter(filterExpr)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.filter(filterExpr)
+---
+---
+##### shortDescription
 Sets the [filter](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter) option's value.
-<!--/shortDescription-->
 
-<!--paramName1-->filterExpr<!--/paramName1-->
-<!--paramType1-->Object<!--/paramType1-->
-<!--paramDescription1-->
+##### param(filterExpr): Object
 A filter expression.      
 Pass **null** to clear filtering settings.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 Call the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method to update the widget bound to the **DataSource**:
 
 ---
@@ -53,4 +49,3 @@ Call the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#loa
 
 #####See Also#####
 - [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering)
-<!--/fullDescription-->

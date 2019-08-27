@@ -1,17 +1,14 @@
-<!--id-->dxPopover.Options.height<!--/id-->
-===========================================================================
-<!--default-->'auto'<!--/default-->
-<!--type-->Number | String | function()<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPopover.Options.height
+type: Number | String | function()
+default: 'auto'
+---
+---
+##### shortDescription
 Specifies the widget's height.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-#include uiwidgets-ref-height
-<!--/fullDescription-->
-<!--typeFunctionReturnType-->Number|String<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
+##### return: Number | String
 The widget height.
-<!--/typeFunctionReturnDescription-->
+
+---
+#include uiwidgets-ref-height

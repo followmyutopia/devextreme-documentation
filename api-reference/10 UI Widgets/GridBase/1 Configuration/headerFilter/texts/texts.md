@@ -1,12 +1,9 @@
-<!--id-->GridBase.Options.headerFilter.texts<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.headerFilter.texts
+type: Object
+---
+---
+##### shortDescription
 Contains options that specify text for various elements of the popup menu.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

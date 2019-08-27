@@ -1,13 +1,11 @@
-<!--id-->dxFunnel.Options.item.selectionStyle.border.color<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFunnel.Options.item.selectionStyle.border.color
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Colors the selected funnel item's border.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

@@ -1,13 +1,10 @@
-<!--id-->dxPopover.Options.hideEvent.delay<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPopover.Options.hideEvent.delay
+type: Number
+default: undefined
+---
+---
+##### shortDescription
 The delay in milliseconds after which the widget is hidden.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

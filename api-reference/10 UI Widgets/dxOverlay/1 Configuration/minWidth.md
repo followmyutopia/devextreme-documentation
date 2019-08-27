@@ -1,17 +1,14 @@
-<!--id-->dxOverlay.Options.minWidth<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->Number | String | function()<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxOverlay.Options.minWidth
+type: Number | String | function()
+default: null
+---
+---
+##### shortDescription
 Specifies the minimum width the widget can reach while resizing.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-#include uiwidgets-ref-width
-<!--/fullDescription-->
-<!--typeFunctionReturnType-->Number|String<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
+##### return: Number | String
 The minimum width.
-<!--/typeFunctionReturnDescription-->
+
+---
+#include uiwidgets-ref-width

@@ -1,14 +1,13 @@
-<!--id-->dxDataGrid.Options.summary.skipEmptyValues<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.Options.summary.skipEmptyValues
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether or not to skip *empty strings*, **null** and **undefined** values when calculating a summary.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Specified in the **summary** object, this option affects all summaries in the grid. In addition, the same option can be specified for an individual summary. It will override the global setting.
 
 [note]This option does not have any effect when you use a remote data source.
@@ -82,4 +81,3 @@ Specified in the **summary** object, this option affects all summaries in the gr
     })
 
 ---
-<!--/fullDescription-->

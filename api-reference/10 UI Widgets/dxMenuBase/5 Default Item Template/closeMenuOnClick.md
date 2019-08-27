@@ -1,13 +1,10 @@
-<!--id-->dxMenuBaseItem.closeMenuOnClick<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxMenuBaseItem.closeMenuOnClick
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies if a menu is closed when a user clicks the item.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

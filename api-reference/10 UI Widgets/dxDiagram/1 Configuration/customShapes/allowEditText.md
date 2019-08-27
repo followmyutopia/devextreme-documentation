@@ -1,12 +1,8 @@
-<!--id-->dxDiagram.Options.customShapes.allowEditText<!--/id-->
-===========================================================================
-<!--type-->Boolean<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.customShapes.allowEditText
+type: Boolean
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

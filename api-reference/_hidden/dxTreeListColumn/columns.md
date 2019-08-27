@@ -1,10 +1,10 @@
-<!--id-->dxTreeListColumn.columns<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Array<dxTreeListColumn, String><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeListColumn.columns
+type: Array<dxTreeListColumn, String>
+default: undefined
+---
+---
+##### shortDescription
 Configures columns.
-<!--/shortDescription-->
 
+---

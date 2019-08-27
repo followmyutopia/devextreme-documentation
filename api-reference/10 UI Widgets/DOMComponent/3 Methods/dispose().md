@@ -1,12 +1,11 @@
-<!--id-->DOMComponent.dispose()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: DOMComponent.dispose()
+---
+---
+##### shortDescription
 Disposes of all the resources allocated to the **{WidgetName}** instance.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The following code disposes of an **{WidgetName}** instance that corresponds to the element ID (or reference variable in Angular) and removes the element from the DOM:
 
 ---
@@ -37,4 +36,3 @@ The following code disposes of an **{WidgetName}** instance that corresponds to 
     }
 
 ---
-<!--/fullDescription-->

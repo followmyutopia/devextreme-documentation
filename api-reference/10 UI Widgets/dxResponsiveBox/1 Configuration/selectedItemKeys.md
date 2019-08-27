@@ -1,5 +1,4 @@
-<!--id-->dxResponsiveBox.Options.selectedItemKeys<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxResponsiveBox.Options.selectedItemKeys
+hidden: 
+---

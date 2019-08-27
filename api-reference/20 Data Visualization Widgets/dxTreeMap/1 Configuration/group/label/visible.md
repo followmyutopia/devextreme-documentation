@@ -1,13 +1,10 @@
-<!--id-->dxTreeMap.Options.group.label.visible<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMap.Options.group.label.visible
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Changes the visibility of the group labels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

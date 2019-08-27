@@ -1,13 +1,11 @@
-<!--id-->dxPieChartSeriesTypes.CommonPieChartSeries.selectionStyle.color<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPieChartSeriesTypes.CommonPieChartSeries.selectionStyle.color
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Sets a color for a series when it is selected.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

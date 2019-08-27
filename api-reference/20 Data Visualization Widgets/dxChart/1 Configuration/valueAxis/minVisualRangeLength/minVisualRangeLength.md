@@ -1,15 +1,15 @@
-<!--id-->dxChart.Options.valueAxis.minVisualRangeLength<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--default-->undefined<!--/default-->
-<!--inherits-->VizTimeInterval<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.valueAxis.minVisualRangeLength
+inherits: VizTimeInterval
+default: undefined
+---
+---
+##### shortDescription
 Specifies the minimum length of the [visual range](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/visualRange/).
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### notUsedInTheme
+
+---
 If the visual range is set on a numeric axis, assign a number to this option. If the axis displays date-time values, assign one of the accepted string values or an object to this option. The object should contain one or several fields described in this section, for example:
 
 ---
@@ -129,4 +129,3 @@ When you use the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET
 - [Visual and Whole Ranges](/Documentation/Guide/Widgets/Chart/Axes/Visual_and_Whole_Ranges/)
 - [visualRangeUpdateMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#visualRangeUpdateMode)
 - [zoomAndPan](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/zoomAndPan/)
-<!--/fullDescription-->

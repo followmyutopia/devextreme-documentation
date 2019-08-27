@@ -1,6 +1,5 @@
-<!--id-->dxValidationSummary.itemHold<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->eventType<!--/type-->
-===========================================================================
-
+---
+id: dxValidationSummary.itemHold
+type: eventType
+hidden: 
+---

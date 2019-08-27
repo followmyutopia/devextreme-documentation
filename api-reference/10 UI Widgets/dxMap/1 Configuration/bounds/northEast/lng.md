@@ -1,13 +1,9 @@
-<!--id-->dxMap.Options.bounds.northEast.lng<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->Number<!--/type-->
-===========================================================================
+---
+id: dxMap.Options.bounds.northEast.lng
+type: Number
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

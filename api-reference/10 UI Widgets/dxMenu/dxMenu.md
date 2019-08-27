@@ -1,5 +1,14 @@
-<!--id-->dxMenu<!--/id-->
-<!--widgettree-->
+---
+id: dxMenu
+module: ui/menu
+export: default
+inherits: dxMenuBase
+---
+---
+##### shortDescription
+The **Menu** widget is a panel with clickable items. A click on an item opens a drop-down menu, which can contain several submenus.
+
+##### widgettree
 dataSource: [
     { text: "Video Players" },
     { text: "Televisions" },
@@ -12,21 +21,11 @@ dataSource: [
         ]
     }
 ]
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/menu<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->dxMenuBase<!--/inherits-->
-<!--lib-->
+
+##### lib
 dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
 
-<!--shortDescription-->
-The **Menu** widget is a panel with clickable items. A click on an item opens a drop-down menu, which can contain several submenus.
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/navigationmenumenumenu/"
 }
@@ -37,4 +36,3 @@ The **Menu** widget is a panel with clickable items. A click on an item opens a 
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

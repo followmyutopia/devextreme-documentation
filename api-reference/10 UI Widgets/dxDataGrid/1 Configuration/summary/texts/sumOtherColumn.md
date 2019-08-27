@@ -1,14 +1,12 @@
-<!--id-->dxDataGrid.Options.summary.texts.sumOtherColumn<!--/id-->
-===========================================================================
-<!--default-->'Sum of {1} is {0}'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.Options.summary.texts.sumOtherColumn
+type: String
+default: 'Sum of {1} is {0}'
+---
+---
+##### shortDescription
 Specifies a pattern for the *"sum"* summary items displayed in a group row or in any other column rather than the parent one.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 - [Group Summary](/Documentation/Guide/Widgets/DataGrid/Summaries/Group_Summary/)
-<!--/fullDescription-->

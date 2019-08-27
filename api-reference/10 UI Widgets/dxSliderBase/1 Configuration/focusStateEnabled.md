@@ -1,5 +1,4 @@
-<!--id-->dxSliderBase.Options.focusStateEnabled<!--/id-->
-===========================================================================
-<!--default-->true (desktop)<!--/default-->
-===========================================================================
-
+---
+id: dxSliderBase.Options.focusStateEnabled
+default: true (desktop)
+---

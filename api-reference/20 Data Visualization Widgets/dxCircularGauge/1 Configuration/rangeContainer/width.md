@@ -1,13 +1,10 @@
-<!--id-->dxCircularGauge.Options.rangeContainer.width<!--/id-->
-===========================================================================
-<!--default-->5<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxCircularGauge.Options.rangeContainer.width
+type: Number
+default: 5
+---
+---
+##### shortDescription
 Specifies the range container's width in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,13 +1,10 @@
-<!--id-->dxChartCommonAnnotationConfig.height<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartCommonAnnotationConfig.height
+type: Number
+default: undefined
+---
+---
+##### shortDescription
 Specifies the annotation's height in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

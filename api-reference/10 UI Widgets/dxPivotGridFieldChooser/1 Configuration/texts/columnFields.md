@@ -1,13 +1,10 @@
-<!--id-->dxPivotGridFieldChooser.Options.texts.columnFields<!--/id-->
-===========================================================================
-<!--default-->'Column Fields'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGridFieldChooser.Options.texts.columnFields
+type: String
+default: 'Column Fields'
+---
+---
+##### shortDescription
 The string to display instead of **Column Fields**.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

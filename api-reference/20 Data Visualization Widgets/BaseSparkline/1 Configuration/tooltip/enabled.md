@@ -1,6 +1,5 @@
-<!--id-->BaseSparkline.Options.tooltip.enabled<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: BaseSparkline.Options.tooltip.enabled
+type: Boolean
+default: true
+---

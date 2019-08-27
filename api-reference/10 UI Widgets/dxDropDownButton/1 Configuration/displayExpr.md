@@ -1,25 +1,19 @@
-<!--id-->dxDropDownButton.Options.displayExpr<!--/id-->
-===========================================================================
-<!--default-->'this'<!--/default-->
-<!--type-->String | function(itemData)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDropDownButton.Options.displayExpr
+type: String | function(itemData)
+default: 'this'
+---
+---
+##### shortDescription
 Specifies the data field whose values should be displayed in the drop-down menu.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(itemData): Object
+The current item's data object.
+
+##### return: String
+The displayed value.
+
+---
 #include uiwidgets-ref-displayExpr
 
 Do not change the default value if the data source contains primitives.
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->itemData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The current item's data object.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-The displayed value.
-<!--/typeFunctionReturnDescription-->

@@ -1,5 +1,4 @@
-<!--id-->dxValidationSummary.Options.tabIndex<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxValidationSummary.Options.tabIndex
+hidden: 
+---

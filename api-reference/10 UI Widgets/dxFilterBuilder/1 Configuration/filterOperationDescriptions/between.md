@@ -1,13 +1,10 @@
-<!--id-->dxFilterBuilder.Options.filterOperationDescriptions.between<!--/id-->
-===========================================================================
-<!--default-->'Between'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFilterBuilder.Options.filterOperationDescriptions.between
+type: String
+default: 'Between'
+---
+---
+##### shortDescription
 The *"between"* operation's description.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

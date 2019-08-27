@@ -1,18 +1,14 @@
-<!--id-->dxScheduler.deleteAppointment(appointment)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler.deleteAppointment(appointment)
+---
+---
+##### shortDescription
 Deletes an appointment from the timetable and its object from the data source.
-<!--/shortDescription-->
 
-<!--paramName1-->appointment<!--/paramName1-->
-<!--paramType1-->Object<!--/paramType1-->
-<!--paramDescription1-->
+##### param(appointment): Object
 An appointment object from the [dataSource](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#dataSource).
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 If you delete a recurring appointment from the data source, all its occurrences are also deleted from the timetable:
 
 ---
@@ -246,4 +242,3 @@ If you delete a recurring appointment from the data source, all its occurrences 
 #include common-link-callmethods
 - [onAppointmentDeleting](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentDeleting)
 - [onAppointmentDeleted](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentDeleted)
-<!--/fullDescription-->

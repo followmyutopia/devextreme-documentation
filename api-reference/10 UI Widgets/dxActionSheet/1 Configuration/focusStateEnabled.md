@@ -1,14 +1,10 @@
-<!--id-->dxActionSheet.Options.focusStateEnabled<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
+---
+id: dxActionSheet.Options.focusStateEnabled
+type: Boolean
+default: false
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

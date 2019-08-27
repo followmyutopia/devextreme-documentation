@@ -1,13 +1,10 @@
-<!--id-->dxSpeedDialAction.Options.icon<!--/id-->
-===========================================================================
-<!--default-->''<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSpeedDialAction.Options.icon
+type: String
+default: ''
+---
+---
+##### shortDescription
 Specifies the icon the FAB or speed dial action button displays.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

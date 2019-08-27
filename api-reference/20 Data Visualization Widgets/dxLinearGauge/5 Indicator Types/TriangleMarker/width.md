@@ -1,4 +1,8 @@
-<!--id-->linearTriangleMarker.width<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->13<!--/default-->
-===========================================================================
+---
+id: linearTriangleMarker.width
+default: 13
+---
+---
+##### merge
+
+---

@@ -1,15 +1,21 @@
-<!--id-->BaseChart.Options.tooltip.customizeTooltip<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--default-->undefined<!--/default-->
-<!--type-->function(pointInfo)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseChart.Options.tooltip.customizeTooltip
+type: function(pointInfo)
+default: undefined
+---
+---
+##### shortDescription
 Allows you to change tooltip appearance.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(pointInfo): Object
+Information on the series point being pressed or hovered over with the mouse pointer.
+
+##### return: Object
+The tooltip's text or markup and appearance settings.
+
+##### notUsedInTheme
+
+---
 This option should be assigned a function returning a specific object. The following fields can be specified in this object.
 
 - **color**        
@@ -128,14 +134,3 @@ Specifies the reduction value of the currently hovered point with applied format
 
 #####See Also#####
 - [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->pointInfo<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information on the series point being pressed or hovered over with the mouse pointer.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->Object<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-The tooltip's text or markup and appearance settings.
-<!--/typeFunctionReturnDescription-->

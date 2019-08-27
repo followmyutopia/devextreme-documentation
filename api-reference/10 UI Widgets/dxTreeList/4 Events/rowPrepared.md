@@ -1,91 +1,59 @@
-<!--id-->dxTreeList.rowPrepared<!--/id-->
-===========================================================================
-<!--type-->eventType<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeList.rowPrepared
+type: eventType
+---
+---
+##### shortDescription
 Raised after a row is created.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(e): Object
+Information about the event.
+
+##### field(e.columns): Array<dxTreeListColumn>
+All column [configurations](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/).
+
+##### field(e.component): {WidgetName}
+The widget's instance.
+
+##### field(e.data): Object
+The row's data. Available if the **rowType** is *"data"*, *"detail"* or *"detailAdaptive"*.
+
+##### field(e.element): dxElement
+#include common-ref-elementparam with { element: "widget" }
+
+##### field(e.isExpanded): Boolean
+Indicates whether the row is expanded or collapsed. Available if **rowType** is *"data"* or *"detail"*.
+
+##### field(e.isSelected): Boolean
+Indicates whether the row is selected. Available if **rowType** is *"data"* or *"detail"*.
+
+##### field(e.key): any
+The row's key. Available if the **rowType** is *"data"*, *"detail"* or *"detailAdaptive"*.      
+For plain data, the value of the key depends on the [keyExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#keyExpr) option. For hierarchical data, the key is generated automatically or set in the underlying **Store** of the [data source](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataSource).
+
+##### field(e.level): Number
+The node's [hierarchical level](/Documentation/ApiReference/UI_Widgets/dxTreeList/Node/#level).
+
+##### field(e.model): Object
+The model data. Available only if you use Knockout.
+
+##### field(e.node): dxTreeListNode
+The row's node.
+
+##### field(e.rowElement): dxElement
+#include common-ref-elementparam with { element: "row" }
+
+##### field(e.rowIndex): Number
+The row's index. Refer to [Column and Row Indexes](/Documentation/Guide/Widgets/TreeList/Columns/Column_and_Row_Indexes/) for more information.
+
+##### field(e.rowType): String
+The row's [type](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/#rowType).
+
+##### field(e.values): Array<any>
+Values displayed in the row cells.
+
+---
 Main article: [onRowPrepared](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onRowPrepared)
 
 #####See Also#####
 #include common-link-handleevents
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the event.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-#include common-ref-elementparam with { element: "widget" }
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The model data. Available only if you use Knockout.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->data<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-The row's data. Available if the **rowType** is *"data"*, *"detail"* or *"detailAdaptive"*.
-<!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamName1_field5-->key<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->any<!--/typeFunctionParamType1_field5-->
-<!--typeFunctionParamDescription1_field5-->
-The row's key. Available if the **rowType** is *"data"*, *"detail"* or *"detailAdaptive"*.      
-For plain data, the value of the key depends on the [keyExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#keyExpr) option. For hierarchical data, the key is generated automatically or set in the underlying **Store** of the [data source](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataSource). 
-<!--/typeFunctionParamDescription1_field5-->
-<!--typeFunctionParamName1_field6-->values<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->Array<any><!--/typeFunctionParamType1_field6-->
-<!--typeFunctionParamDescription1_field6-->
-Values displayed in the row cells.
-<!--/typeFunctionParamDescription1_field6-->
-<!--typeFunctionParamName1_field7-->columns<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->Array<dxTreeListColumn><!--/typeFunctionParamType1_field7-->
-<!--typeFunctionParamDescription1_field7-->
-All column [configurations](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/).
-<!--/typeFunctionParamDescription1_field7-->
-<!--typeFunctionParamName1_field8-->rowIndex<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->Number<!--/typeFunctionParamType1_field8-->
-<!--typeFunctionParamDescription1_field8-->
-The row's index. Refer to [Column and Row Indexes](/Documentation/Guide/Widgets/TreeList/Columns/Column_and_Row_Indexes/) for more information.
-<!--/typeFunctionParamDescription1_field8-->
-<!--typeFunctionParamName1_field9-->rowType<!--/typeFunctionParamName1_field9-->
-<!--typeFunctionParamType1_field9-->String<!--/typeFunctionParamType1_field9-->
-<!--typeFunctionParamDescription1_field9-->
-The row's [type](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/#rowType).
-<!--/typeFunctionParamDescription1_field9-->
-<!--typeFunctionParamName1_field10-->isSelected<!--/typeFunctionParamName1_field10-->
-<!--typeFunctionParamType1_field10-->Boolean<!--/typeFunctionParamType1_field10-->
-<!--typeFunctionParamDescription1_field10-->
-Indicates whether the row is selected. Available if **rowType** is *"data"* or *"detail"*.
-<!--/typeFunctionParamDescription1_field10-->
-<!--typeFunctionParamName1_field11-->isExpanded<!--/typeFunctionParamName1_field11-->
-<!--typeFunctionParamType1_field11-->Boolean<!--/typeFunctionParamType1_field11-->
-<!--typeFunctionParamDescription1_field11-->
-Indicates whether the row is expanded or collapsed. Available if **rowType** is *"data"* or *"detail"*.
-<!--/typeFunctionParamDescription1_field11-->
-<!--typeFunctionParamName1_field12-->rowElement<!--/typeFunctionParamName1_field12-->
-<!--typeFunctionParamType1_field12-->dxElement<!--/typeFunctionParamType1_field12-->
-<!--typeFunctionParamDescription1_field12-->
-#include common-ref-elementparam with { element: "row" }
-<!--/typeFunctionParamDescription1_field12-->
-<!--typeFunctionParamName1_field13-->node<!--/typeFunctionParamName1_field13-->
-<!--typeFunctionParamType1_field13-->dxTreeListNode<!--/typeFunctionParamType1_field13-->
-<!--typeFunctionParamDescription1_field13-->
-The row's node.
-<!--/typeFunctionParamDescription1_field13-->
-<!--typeFunctionParamName1_field14-->level<!--/typeFunctionParamName1_field14-->
-<!--typeFunctionParamType1_field14-->Number<!--/typeFunctionParamType1_field14-->
-<!--typeFunctionParamDescription1_field14-->
-The node's [hierarchical level](/Documentation/ApiReference/UI_Widgets/dxTreeList/Node/#level).
-<!--/typeFunctionParamDescription1_field14-->

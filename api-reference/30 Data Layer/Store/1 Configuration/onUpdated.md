@@ -1,14 +1,19 @@
-<!--id-->Store.Options.onUpdated<!--/id-->
-<!--EventForAction-->Store.updated<!--/EventForAction-->
-===========================================================================
-<!--type-->function(key, values)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Store.Options.onUpdated
+type: function(key, values)
+EventForAction: Store.updated
+---
+---
+##### shortDescription
 A function that is executed after a data item is updated in the store.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(key): Object | String | Number
+The updated data item's key.
+
+##### param(values): Object
+Updated values.
+
+---
 ---
 ##### jQuery
 
@@ -36,15 +41,3 @@ A function that is executed after a data item is updated in the store.
     }
     
 ---
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->key<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object|String|Number<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The updated data item's key.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionParamName2-->values<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->Object<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-Updated values.
-<!--/typeFunctionParamDescription2-->

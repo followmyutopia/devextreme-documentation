@@ -1,15 +1,14 @@
-<!--id-->dxList.Options.pageLoadMode<!--/id-->
-===========================================================================
-<!--default-->'scrollBottom', 'nextButton' (desktop)<!--/default-->
-<!--acceptValues-->'nextButton' | 'scrollBottom'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxList.Options.pageLoadMode
+acceptValues: 'nextButton' | 'scrollBottom'
+type: String
+default: 'scrollBottom', 'nextButton' (desktop)
+---
+---
+##### shortDescription
 Specifies whether the next page is loaded when a user scrolls the widget to the bottom or when the "next" button is clicked.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-ref-enum with {
     enum: "`ListPageLoadMode`",
     values: "`ScrollBottom` and `NextButton`"
@@ -17,4 +16,3 @@ Specifies whether the next page is loaded when a user scrolls the widget to the 
 
 #####See Also#####
 - [List - Paging](/Documentation/Guide/Widgets/List/Paging/)
-<!--/fullDescription-->

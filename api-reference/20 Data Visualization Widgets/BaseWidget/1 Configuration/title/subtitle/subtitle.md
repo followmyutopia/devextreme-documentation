@@ -1,12 +1,10 @@
-<!--id-->BaseWidget.Options.title.subtitle<!--/id-->
-===========================================================================
-<!--type-->Object | String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseWidget.Options.title.subtitle
+type: Object | String
+---
+---
+##### shortDescription
 Configures the widget's subtitle.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 If you need to specify the subtitle's text only, assign it directly to this option. Otherwise, set this option to an object with the **text** and other fields specified.
-<!--/fullDescription-->

@@ -1,13 +1,12 @@
-<!--id-->LoadOptions.filter<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: LoadOptions.filter
+type: Object
+---
+---
+##### shortDescription
 A filter expression.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Defines filtering parameters. Possible variants:
 
 * Binary filter
@@ -32,4 +31,3 @@ Defines filtering parameters. Possible variants:
 
 #####See Also#####
 - [DataLayer - Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering)
-<!--/fullDescription-->

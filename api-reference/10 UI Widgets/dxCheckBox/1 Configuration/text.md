@@ -1,13 +1,10 @@
-<!--id-->dxCheckBox.Options.text<!--/id-->
-===========================================================================
-<!--default-->''<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxCheckBox.Options.text
+type: String
+default: ''
+---
+---
+##### shortDescription
 Specifies the text displayed by the check box.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

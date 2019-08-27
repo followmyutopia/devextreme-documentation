@@ -1,5 +1,4 @@
-<!--id-->dxAutocomplete.Options.showDataBeforeSearch<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxAutocomplete.Options.showDataBeforeSearch
+hidden: 
+---

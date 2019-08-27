@@ -1,15 +1,14 @@
-<!--id-->dxPolarChartSeriesTypes.stackedbarpolarseries.selectionMode<!--/id-->
-===========================================================================
-<!--default-->'onlyPoint'<!--/default-->
-<!--acceptValues-->'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'none'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.stackedbarpolarseries.selectionMode
+acceptValues: 'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'none'
+type: String
+default: 'onlyPoint'
+---
+---
+##### shortDescription
 Specifies series elements to be highlighted when a user selects the series.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 When a user selects the series, it may react in one of the following ways depending on the value of the **selectionMode** option.
 
 * **onlyPoint**   
@@ -28,4 +27,3 @@ The series does not react to selection.
 
 #####See Also#####
 - [selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Series_Types/StackedBarSeries/selectionStyle/)
-<!--/fullDescription-->

@@ -1,6 +1,5 @@
-<!--id-->dxTileView.Options.onSelectionChanged<!--/id-->
-<!--EventForAction-->dxTileView.selectionChanged<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxTileView.Options.onSelectionChanged
+hidden: 
+EventForAction: dxTileView.selectionChanged
+---

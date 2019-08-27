@@ -1,15 +1,21 @@
-<!--id-->dxChart.Options.customizeAnnotation<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--default-->undefined<!--/default-->
-<!--type-->function(annotationItem)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.customizeAnnotation
+type: function(annotationItem)
+default: undefined
+---
+---
+##### shortDescription
 Customizes an individual [annotation](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/).
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(annotationItem): dxChartAnnotationConfig | any
+The annotation before customizations.
+
+##### return: dxChartAnnotationConfig
+The annotation after customizations.
+
+##### notUsedInTheme
+
+---
 The following code shows how to use the **customizeAnnotation** function to apply different settings to text and image annotations:
 
 ---
@@ -147,14 +153,3 @@ The following code shows how to use the **customizeAnnotation** function to appl
 #####See Also#####
 - [annotations[]](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/)
 - [commonAnnotationSettings](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAnnotationSettings/)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->annotationItem<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->dxChartAnnotationConfig|any<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The annotation before customizations.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->dxChartAnnotationConfig<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-The annotation after customizations.
-<!--/typeFunctionReturnDescription-->

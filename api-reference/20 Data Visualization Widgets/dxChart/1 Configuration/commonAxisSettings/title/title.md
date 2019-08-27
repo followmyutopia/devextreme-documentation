@@ -1,13 +1,12 @@
-<!--id-->dxChart.Options.commonAxisSettings.title<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonAxisSettings.title
+type: Object
+---
+---
+##### shortDescription
 Configures axis titles.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Usually, an axis title displays units of measurement for values displayed by an axis. However, you can display any needed text in the axis title.
 
 ![DevExtreme HTML5 Charts AxisTitles](/Content/images/doc/19_2/ChartJS/visual_elements/axis_titles.png)
@@ -22,4 +21,3 @@ Axis-specific settings override common settings.
 #####See Also#####
 - **argumentAxis**.**title**.[text](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/tickInterval/) - specifies the text of the title for the argument axis.
 - **valueAxis**.**title**.[text](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/tickInterval/) - specifies the text of the title for the value axis.
-<!--/fullDescription-->

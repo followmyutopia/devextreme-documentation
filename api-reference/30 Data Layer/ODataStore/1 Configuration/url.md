@@ -1,13 +1,12 @@
-<!--id-->ODataStore.Options.url<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: ODataStore.Options.url
+type: String
+---
+---
+##### shortDescription
 Specifies the URL of an OData entity collection.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 ---
 #####jQuery
 
@@ -33,4 +32,3 @@ Specifies the URL of an OData entity collection.
     }
 
 ---
-<!--/fullDescription-->

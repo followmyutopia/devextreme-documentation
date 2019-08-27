@@ -1,22 +1,21 @@
-<!--id-->dxAutocomplete<!--/id-->
-<!--widgettree-->
+---
+id: dxAutocomplete
+module: ui/autocomplete
+export: default
+inherits: dxDropDownList
+---
+---
+##### shortDescription
+The **Autocomplete** widget is a textbox that provides suggestions while a user types into it.
+
+##### widgettree
 dataSource: ["New York", "Los Angeles", "Chicago", "Houston", "Philadelphia", "Phoenix", "San Antonio", "San Diego", "Dallas", "San Jose", "Austin", "Indianapolis", "Jacksonville", "San Francisco", "Columbus", "Charlotte", "Fort Worth", "Detroit", "El Paso", "Memphis", "Seattle", "Denver", "Washington", "Boston", "Nashville", "Baltimore", "Oklahoma City", "Louisville", "Portland", "Las Vegas", "Milwaukee", "Albuquerque", "Tucson", "Fresno", "Sacramento", "Long Beach", "Kansas City", "Mesa", "Virginia Beach", "Atlanta", "Colorado Springs", "Omaha", "Raleigh", "Miami", "Oakland", "Minneapolis", "Tulsa", "Cleveland", "Wichita", "Arlington", "New Orleans", "Bakersfield", "Tampa", "Honolulu", "Aurora", "Anaheim", "Santa Ana", "St. Louis", "Riverside", "Corpus Christi", "Lexington", "Pittsburgh", "Anchorage", "Stockton", "Cincinnati", "Saint Paul", "Toledo", "Greensboro", "Newark", "Plano", "Henderson", "Lincoln", "Buffalo", "Jersey City", "Chula Vista", "Fort Wayne", "Orlando", "St. Petersburg", "Chandler", "Laredo", "Norfolk", "Durham", "Madison", "Lubbock", "Irvine", "Winston–Salem", "Glendale", "Garland", "Hialeah", "Reno", "Chesapeake", "Gilbert", "Baton Rouge", "Irving", "Scottsdale", "North Las Vegas", "Fremont", "Boise", "Richmond"],
 placeholder: "City"
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/autocomplete<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->dxDropDownList<!--/inherits-->
-<!--lib-->
+
+##### lib
 dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
 
-<!--shortDescription-->
-The **Autocomplete** widget is a textbox that provides suggestions while a user types into it.
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/editorsautocompleteautocompleteautocomplete/"
 }
@@ -27,4 +26,3 @@ The **Autocomplete** widget is a textbox that provides suggestions while a user 
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

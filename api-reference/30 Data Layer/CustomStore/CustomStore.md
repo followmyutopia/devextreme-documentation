@@ -1,19 +1,18 @@
-<!--id-->CustomStore<!--/id-->
-===========================================================================
-<!--module-->data/custom_store<!--/module-->
-<!--export-->default<!--/export-->
-<!--type-->Object<!--/type-->
-<!--inherits-->Store<!--/inherits-->
-<!--lib-->
-dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: CustomStore
+module: data/custom_store
+export: default
+type: Object
+inherits: Store
+---
+---
+##### shortDescription
 The **CustomStore** enables you to implement custom data access logic for consuming data from any source.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### lib
+dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
+
+---
 DevExtreme provides extensions for <a href="https://github.com/DevExpress/DevExtreme.AspNet.Data/blob/master/README.md" target="_blank">ASP.NET</a> and <a href="https://github.com/DevExpress/DevExtreme-PHP-Data/blob/master/README.md" target="_blank">PHP</a> that configure the **CustomStore** and implement server-side data processing. A third-party extension is available for <a href="https://github.com/oliversturm/devextreme-query-mongodb/blob/master/README.md" target="_blank">MongoDB</a>. You can also implement the **CustomStore** manually.
 
 The **CustomStore**'s implementation depends on whether data is processed on the client or server. For client-side data processing, implement the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function to load data from the data source. Refer to the [Load Data in the Raw Mode](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources/Load_Data_in_Raw_Mode) article for more information.
@@ -151,4 +150,3 @@ If your data source supports CRUD operations, implement the [insert](/Documentat
 - [DataSource API Reference](/Documentation/ApiReference/Data_Layer/DataSource/)
 - [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/)
 - [Custom Sources](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources)
-<!--/fullDescription-->

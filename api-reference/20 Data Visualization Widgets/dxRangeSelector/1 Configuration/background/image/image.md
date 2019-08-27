@@ -1,13 +1,12 @@
-<!--id-->dxRangeSelector.Options.background.image<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.background.image
+type: Object
+---
+---
+##### shortDescription
 Specifies image options.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 You can display an image as the background of a range selector instead of the default color. Set the image's URL and location using the corresponding properties of the **image** object to do this.
 
 The width of the specified image must be less than or equal to the widget's [width](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/size/#width).
@@ -19,4 +18,3 @@ If the image size is smaller than the background size, a default background colo
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/formsandmulti-purposerangeselectorrangeselectorimageonbackground/"
 }
-<!--/fullDescription-->

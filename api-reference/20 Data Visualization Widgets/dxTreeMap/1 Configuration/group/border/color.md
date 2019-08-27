@@ -1,13 +1,11 @@
-<!--id-->dxTreeMap.Options.group.border.color<!--/id-->
-===========================================================================
-<!--default-->'#d3d3d3'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMap.Options.group.border.color
+type: String
+default: '#d3d3d3'
+---
+---
+##### shortDescription
 Colors the group borders.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

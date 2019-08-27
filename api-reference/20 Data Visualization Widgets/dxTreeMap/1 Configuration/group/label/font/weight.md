@@ -1,4 +1,8 @@
-<!--id-->dxTreeMap.Options.group.label.font.weight<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->600<!--/default-->
-===========================================================================
+---
+id: dxTreeMap.Options.group.label.font.weight
+default: 600
+---
+---
+##### merge
+
+---

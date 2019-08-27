@@ -1,15 +1,16 @@
-<!--id-->dxDataGrid.Options.columns<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Array<dxDataGridColumn, String><!--/type-->
-<!--inheritsType-->dxDataGridColumn<!--/inheritsType-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.Options.columns
+type: Array<dxDataGridColumn, String>
+default: undefined
+---
+---
+##### shortDescription
 An array of grid columns.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### inheritsType
+dxDataGridColumn
+
+---
 By default, a column is created for each field of a data source object, but in most cases, it is redundant. To specify a set of columns to be created in a grid, assign an array specifying these columns to the **columns** option. Each grid column is represented in this array by an object containing column settings or by a data source field that this column is bound to. Detailed information on specifying grid columns is given in the [Columns Overview](/Documentation/Guide/Widgets/DataGrid/Columns/Overview/) article.
 
 Column options define the behavior and appearance of a grid column. One of the other capabilities allows you to control the sorting of column values using the [allowSorting](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowSorting) and [sortOrder](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#sortOrder) options, apply a filter to grid records using the [allowFiltering](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowFiltering) and [filterOperations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#filterOperations) options, and group grid records using the [allowGrouping](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowGrouping) and [groupIndex](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#groupIndex) options. In addition, you can change the [visibility](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#visible) and [width](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#width) of a column using corresponding options.
@@ -30,4 +31,3 @@ To get or set an option or several options for a column at runtime, use the [col
 - [Hide a Column Using the API](/Documentation/Guide/Widgets/DataGrid/Columns/Hide_a_Column_Using_the_API/)
 - [Adaptability](/Documentation/Guide/Widgets/DataGrid/Columns/Adaptability/)
 - [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/)
-<!--/fullDescription-->

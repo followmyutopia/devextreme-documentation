@@ -1,13 +1,10 @@
-<!--id-->dxPolarChart.Options.commonAxisSettings.label.visible<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChart.Options.commonAxisSettings.label.visible
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Indicates whether or not axis labels are visible.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

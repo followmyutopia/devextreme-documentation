@@ -1,17 +1,14 @@
-<!--id-->validationEngine.getGroupConfig()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: validationEngine.getGroupConfig()
+---
+---
+##### shortDescription
 Gets the default validation group.
-<!--/shortDescription-->
 
-<!--returnType-->Object<!--/returnType-->
-<!--returnDescription-->
+##### return: Object
 The default validation group.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 The object returned by the **getGroupConfig(group)** function has the following structure.
 
 - **validators**  
@@ -29,5 +26,3 @@ The object returned by the **getGroupConfig(group)** function has the following 
     import validationEngine from 'devextreme/ui/validation_engine';
 
     let defaultValidationGroup = validationEngine.getGroupConfig();
-
-<!--/fullDescription-->

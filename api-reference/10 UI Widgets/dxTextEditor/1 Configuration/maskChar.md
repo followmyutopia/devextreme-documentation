@@ -1,13 +1,10 @@
-<!--id-->dxTextEditor.Options.maskChar<!--/id-->
-===========================================================================
-<!--default-->'_'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTextEditor.Options.maskChar
+type: String
+default: '_'
+---
+---
+##### shortDescription
 Specifies a mask placeholder character.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

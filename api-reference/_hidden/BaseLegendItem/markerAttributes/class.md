@@ -1,12 +1,8 @@
-<!--id-->BaseLegendItem.markerAttributes.class<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: BaseLegendItem.markerAttributes.class
+type: String
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

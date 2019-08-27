@@ -1,12 +1,9 @@
-<!--id-->Device.ios<!--/id-->
-===========================================================================
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Device.ios
+type: Boolean
+---
+---
+##### shortDescription
 Indicates whether or not the device platform is iOS.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

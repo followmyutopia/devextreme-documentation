@@ -1,21 +1,20 @@
-<!--id-->dxLinearGauge<!--/id-->
-<!--widgettree-->
-value: 50
-<!--/widgettree-->
-===========================================================================
-<!--module-->viz/linear_gauge<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->BaseGauge<!--/inherits-->
-<!--lib-->
-dx.viz.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxLinearGauge
+module: viz/linear_gauge
+export: default
+inherits: BaseGauge
+---
+---
+##### shortDescription
 The **LinearGauge** is a widget that indicates values on a linear numeric scale.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### widgettree
+value: 50
+
+##### lib
+dx.viz.js, dx.viz-web.js, dx.all.js
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/gaugeslineargaugeslineargaugebasicelementsscalecustomtickinterval/"
 }
@@ -26,4 +25,3 @@ The **LinearGauge** is a widget that indicates values on a linear numeric scale.
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

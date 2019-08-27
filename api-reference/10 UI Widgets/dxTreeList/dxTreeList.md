@@ -1,5 +1,14 @@
-<!--id-->dxTreeList<!--/id-->
-<!--widgettree-->
+---
+id: dxTreeList
+module: ui/tree_list
+export: default
+inherits: GridBase
+---
+---
+##### shortDescription
+The **TreeList** is a widget that represents data from a local or remote source in the form of a multi-column tree view. This widget offers such features as sorting, filtering, editing, selection, etc.
+
+##### widgettree
 dataSource: 
 [{
       id:1, parentId: 0, fullName:"John Heart", position:"CEO", email:"jheart@dx-email.com"
@@ -15,21 +24,11 @@ dataSource:
 autoExpandAll: true,
 showRowLines: true,
 columns: ["position", "fullName", "email"]
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/tree_list<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->GridBase<!--/inherits-->
-<!--lib-->
+
+##### lib
 dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
 
-<!--shortDescription-->
-The **TreeList** is a widget that represents data from a local or remote source in the form of a multi-column tree view. This widget offers such features as sorting, filtering, editing, selection, etc.
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/TreeList/Overview/jQuery/Light/"
 }
@@ -40,4 +39,3 @@ The **TreeList** is a widget that represents data from a local or remote source 
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

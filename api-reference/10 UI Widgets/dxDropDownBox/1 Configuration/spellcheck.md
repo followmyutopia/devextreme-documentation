@@ -1,14 +1,10 @@
-<!--id-->dxDropDownBox.Options.spellcheck<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
+---
+id: dxDropDownBox.Options.spellcheck
+type: Boolean
+default: false
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

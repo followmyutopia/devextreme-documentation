@@ -1,13 +1,10 @@
-<!--id-->dxFunnel.Options.label.border.width<!--/id-->
-===========================================================================
-<!--default-->1<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFunnel.Options.label.border.width
+type: Number
+default: 1
+---
+---
+##### shortDescription
 Specifies the label border width.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,13 +1,10 @@
-<!--id-->BaseLegend.title.margin.right<!--/id-->
-===========================================================================
-<!--default-->0<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseLegend.title.margin.right
+type: Number
+default: 0
+---
+---
+##### shortDescription
 Specifies the legend title's right margin.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

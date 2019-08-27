@@ -1,5 +1,14 @@
-<!--id-->dxChart<!--/id-->
-<!--widgettree-->
+---
+id: dxChart
+module: viz/chart
+export: default
+inherits: BaseChart
+---
+---
+##### shortDescription
+The **Chart** is a widget that visualizes data from a local or remote storage using a great variety of [series types](/Documentation/Guide/Widgets/Chart/Series_Types/) along with different interactive elements, such as [tooltips](/Documentation/Guide/Widgets/Chart/Tooltips/Overview/), [crosshair pointer](/Documentation/Guide/Widgets/Chart/Crosshair/), [legend](/Documentation/Guide/Widgets/Chart/Legend/Overview/), etc.
+
+##### widgettree
 dataSource: [{
     arg: "Monday",
     val: 3
@@ -22,21 +31,11 @@ dataSource: [{
     arg: "Sunday",
     val: 4
 }]
-<!--/widgettree-->
-===========================================================================
-<!--module-->viz/chart<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->BaseChart<!--/inherits-->
-<!--lib-->
+
+##### lib
 dx.viz.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
 
-<!--shortDescription-->
-The **Chart** is a widget that visualizes data from a local or remote storage using a great variety of [series types](/Documentation/Guide/Widgets/Chart/Series_Types/) along with different interactive elements, such as [tooltips](/Documentation/Guide/Widgets/Chart/Tooltips/Overview/), [crosshair pointer](/Documentation/Guide/Widgets/Chart/Crosshair/), [legend](/Documentation/Guide/Widgets/Chart/Legend/Overview/), etc.
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartsbarseriessimplestsingle/"
 }
@@ -47,4 +46,3 @@ The **Chart** is a widget that visualizes data from a local or remote storage us
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

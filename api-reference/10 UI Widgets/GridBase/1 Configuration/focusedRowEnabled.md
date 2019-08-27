@@ -1,14 +1,13 @@
-<!--id-->GridBase.Options.focusedRowEnabled<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.focusedRowEnabled
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether the focused row feature is enabled.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 When this option is set to **true**, the following applies:
 
 - Rows are initially sorted by keys if any field of [remoteOperations]({basewidgetpath}/Configuration/remoteOperations/) is **true**.
@@ -26,4 +25,3 @@ When this option is set to **true**, the following applies:
 - [navigateToRow(key)]({basewidgetpath}/Methods/#navigateToRowkey)
 - [focusedColumnIndex]({basewidgetpath}/Configuration/#focusedColumnIndex)
 - **key** in [ArrayStore](/Documentation/ApiReference/Data_Layer/ArrayStore/Configuration/#key) | [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#key) | [LocalStore](/Documentation/ApiReference/Data_Layer/LocalStore/Configuration/#key) | [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/Configuration/#key)
-<!--/fullDescription-->

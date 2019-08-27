@@ -1,11 +1,8 @@
-<!--id-->piePointObject.hide()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: piePointObject.hide()
+---
+---
+##### shortDescription
 Hides a specific point.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

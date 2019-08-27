@@ -1,13 +1,12 @@
-<!--id-->GridBaseColumn.validationRules<!--/id-->
-===========================================================================
-<!--type-->Array<RequiredRule, NumericRule, RangeRule, StringLengthRule, CustomRule, CompareRule, PatternRule, EmailRule><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBaseColumn.validationRules
+type: Array<RequiredRule, NumericRule, RangeRule, StringLengthRule, CustomRule, CompareRule, PatternRule, EmailRule>
+---
+---
+##### shortDescription
 Specifies [validation rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/) to be checked on updating cell values.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/DataGrid/DataValidation/jQuery/Light/"
 }
@@ -15,4 +14,3 @@ Specifies [validation rules](/Documentation/ApiReference/UI_Widgets/dxValidator/
 #####See Also#####
 - [Data Validation](/Documentation/Guide/Widgets/{WidgetName}/Editing/#Data_Validation)
 - [rowValidating]({basewidgetpath}/Events/#rowValidating)
-<!--/fullDescription-->

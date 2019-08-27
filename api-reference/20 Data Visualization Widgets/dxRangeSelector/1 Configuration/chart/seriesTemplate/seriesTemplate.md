@@ -1,14 +1,13 @@
-<!--id-->dxRangeSelector.Options.chart.seriesTemplate<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.chart.seriesTemplate
+type: Object
+default: undefined
+---
+---
+##### shortDescription
 Defines options for the series template.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 In most cases, you can organize the array that is assigned to the [dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#dataSource) option in the following way.
 
     [
@@ -38,4 +37,3 @@ If you need to specify individual values for the options of a particular series,
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/RangeSelector/ChartOnBackgroundWithSeriesTemplate/jQuery/Light/"
 }
-<!--/fullDescription-->

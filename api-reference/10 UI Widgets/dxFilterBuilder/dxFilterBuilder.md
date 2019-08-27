@@ -1,5 +1,14 @@
-<!--id-->dxFilterBuilder<!--/id-->
-<!--widgettree-->
+---
+id: dxFilterBuilder
+module: ui/filter_builder
+export: default
+inherits: Widget
+---
+---
+##### shortDescription
+The **FilterBuilder** widget allows a user to build complex filter expressions with an unlimited number of filter conditions, combined by logical operations using the UI.
+
+##### widgettree
 allowHierarchicalFields: true,
 value: [["UnitPrice", "=", 12], "and", ["Shipped", "=", "2017/12/1"]],
 fields: [{
@@ -21,21 +30,11 @@ fields: [{
     dataType: "date"
 }],
 onEditorPreparing: function(e) { e.editorOptions.width = 125; }
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/filter_builder<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->Widget<!--/inherits-->
-<!--lib-->
+
+##### lib
 dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
 
-<!--shortDescription-->
-The **FilterBuilder** widget allows a user to build complex filter expressions with an unlimited number of filter conditions, combined by logical operations using the UI.
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithDataGrid/jQuery/Light/"
 }
@@ -46,4 +45,3 @@ The **FilterBuilder** widget allows a user to build complex filter expressions w
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

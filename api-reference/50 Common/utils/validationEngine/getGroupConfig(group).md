@@ -1,23 +1,17 @@
-<!--id-->validationEngine.getGroupConfig(group)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: validationEngine.getGroupConfig(group)
+---
+---
+##### shortDescription
 Gets a validation group with a specific key.
-<!--/shortDescription-->
 
-<!--paramName1-->group<!--/paramName1-->
-<!--paramType1-->String|Object<!--/paramType1-->
-<!--paramDescription1-->
-The validation group's name or instance.
-<!--/paramDescription1-->
-
-<!--returnType-->Object<!--/returnType-->
-<!--returnDescription-->
+##### return: Object
 The validation group.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(group): String | Object
+The validation group's name or instance.
+
+---
 The object returned by the **getGroupConfig(group)** function has the following structure.
 
 - **group**  
@@ -37,5 +31,3 @@ The object returned by the **getGroupConfig(group)** function has the following 
     import validationEngine from 'devextreme/ui/validation_engine';
 
     let validationGroup = validationEngine.getGroupConfig('myGroup');
-
-<!--/fullDescription-->

@@ -1,19 +1,18 @@
-<!--id-->dxResponsiveBox<!--/id-->
-===========================================================================
-<!--module-->ui/responsive_box<!--/module-->
-<!--export-->default<!--/export-->
-<!--type-->Object<!--/type-->
-<!--inherits-->CollectionWidget<!--/inherits-->
-<!--lib-->
-dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxResponsiveBox
+module: ui/responsive_box
+export: default
+type: Object
+inherits: CollectionWidget
+---
+---
+##### shortDescription
 The **ResponsiveBox** widget allows you to create an application or a website with a layout adapted to different screen sizes.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### lib
+dx.web.js, dx.viz-web.js, dx.all.js
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/ResponsiveBox/Overview/jQuery/Light/"
 }
@@ -24,4 +23,3 @@ The **ResponsiveBox** widget allows you to create an application or a website wi
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

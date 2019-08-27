@@ -1,35 +1,23 @@
-<!--id-->Query.aggregate(seed, step, finalize)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: Query.aggregate(seed, step, finalize)
+---
+---
+##### shortDescription
 Calculates a custom summary for all data items.
-<!--/shortDescription-->
 
-<!--paramName1-->seed<!--/paramName1-->
-<!--paramType1-->Object<!--/paramType1-->
-<!--paramDescription1-->
-The initial value.
-<!--/paramDescription1-->
-
-<!--paramName2-->step<!--/paramName2-->
-<!--paramType2-->function()<!--/paramType2-->
-<!--paramDescription2-->
-A function called for each item.
-<!--/paramDescription2-->
-
-<!--paramName3-->finalize<!--/paramName3-->
-<!--paramType3-->function()<!--/paramType3-->
-<!--paramDescription3-->
-A function that is called after the calculation is finished.
-<!--/paramDescription3-->
-
-<!--returnType-->Promise<any><!--/returnType-->
-<!--returnDescription-->
+##### return: Promise<any>
 A Promise that is resolved after the operation is completed. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(seed): Object
+The initial value.
+
+##### param(step): function()
+A function called for each item.
+
+##### param(finalize): function()
+A function that is called after the calculation is finished.
+
+---
 ---
 ##### jQuery
 
@@ -78,4 +66,3 @@ A Promise that is resolved after the operation is completed. It is a <a href="ht
     }
 
 ---
-<!--/fullDescription-->

@@ -1,39 +1,27 @@
-<!--id-->dxForm.Options.onEditorEnterKey<!--/id-->
-<!--EventForAction-->dxForm.editorEnterKey<!--/EventForAction-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->function(e)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxForm.Options.onEditorEnterKey
+type: function(e)
+default: null
+EventForAction: dxForm.editorEnterKey
+---
+---
+##### shortDescription
 A function that is executed when the Enter key has been pressed while an editor is focused.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-[important] This function is executed only if the editor raises the **enterKey** event. See the **Events** section in the editor's API reference for the list of events the editor can raise. If the **enterKey** event is absent from the list, but you need to handle the Enter key press, [use another editor](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#editorType).
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
+##### param(e): Object
 Information about the event.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
+
+##### field(e.component): {WidgetName}
 The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-#include common-ref-elementparam with { element: "widget" }
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The model data. Available only if Knockout is used.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->dataField<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->String<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
+
+##### field(e.dataField): String
 The path to the [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData) object field associated with the current editor.
-<!--/typeFunctionParamDescription1_field4-->
+
+##### field(e.element): dxElement
+#include common-ref-elementparam with { element: "widget" }
+
+##### field(e.model): Object
+The model data. Available only if Knockout is used.
+
+---
+[important] This function is executed only if the editor raises the **enterKey** event. See the **Events** section in the editor's API reference for the list of events the editor can raise. If the **enterKey** event is absent from the list, but you need to handle the Enter key press, [use another editor](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#editorType).

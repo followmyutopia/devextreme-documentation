@@ -1,13 +1,10 @@
-<!--id-->dxFormGroupItem.alignItemLabels<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFormGroupItem.alignItemLabels
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether or not all group item labels are aligned.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

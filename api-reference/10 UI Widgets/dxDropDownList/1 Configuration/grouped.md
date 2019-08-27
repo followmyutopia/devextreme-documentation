@@ -1,14 +1,13 @@
-<!--id-->dxDropDownList.Options.grouped<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDropDownList.Options.grouped
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether data items should be grouped.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 When this option is **true**, make sure that all data source objects have the following structure:
 
     <!--JavaScript-->var dataSource = [{
@@ -30,4 +29,3 @@ You can supply data to this structure using the **DataSource** object's [group](
 - [TagBox - Grouped Items Demo](/Demos/WidgetsGallery/Demo/Tag_Box/GroupedItems/jQuery/Light/)
 - [SelectBox - Grouping](/Documentation/Guide/Widgets/SelectBox/Grouping/)
 - [TagBox - Grouping](/Documentation/Guide/Widgets/TagBox/Grouping/)
-<!--/fullDescription-->

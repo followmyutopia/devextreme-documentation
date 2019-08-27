@@ -1,16 +1,11 @@
-<!--id-->ui.themes.current()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: ui.themes.current()
+---
+---
+##### shortDescription
 Gets the current theme's name.
-<!--/shortDescription-->
 
-<!--returnType-->String<!--/returnType-->
-<!--returnDescription-->
+##### return: String
 The current theme's name.
-<!--/returnDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

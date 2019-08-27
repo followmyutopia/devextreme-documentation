@@ -1,12 +1,11 @@
-<!--id-->CustomStore.clearRawDataCache()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: CustomStore.clearRawDataCache()
+---
+---
+##### shortDescription
 Deletes data from the cache. Takes effect only if the [cacheRawData](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#cacheRawData) option is **true**.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -34,4 +33,3 @@ Deletes data from the cache. Takes effect only if the [cacheRawData](/Documentat
     }
     
 ---
-<!--/fullDescription-->

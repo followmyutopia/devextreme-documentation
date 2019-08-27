@@ -1,18 +1,17 @@
-<!--id-->dxValidationSummary<!--/id-->
-===========================================================================
-<!--module-->ui/validation_summary<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->CollectionWidget<!--/inherits-->
-<!--lib-->
-dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxValidationSummary
+module: ui/validation_summary
+export: default
+inherits: CollectionWidget
+---
+---
+##### shortDescription
 A widget for displaying the result of checking [validation rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/) for editors.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### lib
+dx.web.js, dx.viz-web.js, dx.all.js
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Validation/Overview/jQuery/Light/"
 }
@@ -24,4 +23,3 @@ A widget for displaying the result of checking [validation rules](/Documentation
 - [ASP.NET MVC Controls - Client-Side Data Validation](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Overview/)
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

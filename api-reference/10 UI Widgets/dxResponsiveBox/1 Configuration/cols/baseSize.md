@@ -1,15 +1,14 @@
-<!--id-->dxResponsiveBox.Options.cols.baseSize<!--/id-->
-===========================================================================
-<!--default-->0<!--/default-->
-<!--acceptValues-->'auto'<!--/acceptValues-->
-<!--type-->Number | String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxResponsiveBox.Options.cols.baseSize
+acceptValues: 'auto'
+type: Number | String
+default: 0
+---
+---
+##### shortDescription
 The column's base width. Calculated automatically when the [singleColumnScreen](/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/#singleColumnScreen) option arranges all elements in a single column.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-ref-enum with {
     enum: "`Mode`",
     values: "`Auto`"
@@ -17,4 +16,3 @@ The column's base width. Calculated automatically when the [singleColumnScreen](
 
 #####See Also#####
 - [ResponsiveBox - Create the Layout Grid](/Documentation/Guide/Widgets/ResponsiveBox/Create_the_Layout_Grid/)
-<!--/fullDescription-->

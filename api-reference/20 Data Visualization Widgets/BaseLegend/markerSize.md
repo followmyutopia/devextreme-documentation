@@ -1,13 +1,10 @@
-<!--id-->BaseLegend.markerSize<!--/id-->
-===========================================================================
-<!--default-->20<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseLegend.markerSize
+type: Number
+default: 20
+---
+---
+##### shortDescription
 Specifies the marker's size in a legend item in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

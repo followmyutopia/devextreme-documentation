@@ -1,14 +1,16 @@
-<!--id-->PivotGridDataSource.Options.onFieldsPrepared<!--/id-->
-<!--EventForAction-->PivotGridDataSource.fieldsPrepared<!--/EventForAction-->
-===========================================================================
-<!--type-->function(fields)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.Options.onFieldsPrepared
+type: function(fields)
+EventForAction: PivotGridDataSource.fieldsPrepared
+---
+---
+##### shortDescription
 A function that is executed when all fields are loaded from the [store](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/store/) and they are ready to be displayed in the **PivotGrid**.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(fields): Array<PivotGridDataSource_Options_fields>
+All [field configurations](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/).
+
+---
 ---
 ##### jQuery
 
@@ -57,9 +59,3 @@ A function that is executed when all fields are loaded from the [store](/Documen
     </dx-pivot-grid>
 
 ---
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->fields<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Array<PivotGridDataSource_Options_fields><!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-All [field configurations](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/).
-<!--/typeFunctionParamDescription1-->

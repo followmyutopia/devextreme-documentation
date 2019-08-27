@@ -1,8 +1,7 @@
-===========================================================================
-<!--merge--><!--/merge-->
-===========================================================================
+---
+##### merge
 
-<!--fullDescription-->
+---
 The option accepts the following values.
 
 - "useButtons"  
@@ -15,4 +14,3 @@ The option accepts the following values.
     enum: "`EditorApplyValueMode`",
     values: "`Instantly` and `UseButtons`"
 }
-<!--/fullDescription-->

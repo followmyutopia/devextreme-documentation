@@ -1,15 +1,27 @@
-<!--id-->dxTreeMap.Options.layoutAlgorithm<!--/id-->
-===========================================================================
-<!--default-->'squarified'<!--/default-->
-<!--acceptValues-->'sliceanddice' | 'squarified' | 'strip'<!--/acceptValues-->
-<!--type-->String | function(e)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMap.Options.layoutAlgorithm
+acceptValues: 'sliceanddice' | 'squarified' | 'strip'
+type: String | function(e)
+default: 'squarified'
+---
+---
+##### shortDescription
 Specifies the layout algorithm.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(e): Object
+Data for implementing a custom layout algorithm.
+
+##### field(e.items): Array<any>
+A set of items to distribute. Each object in this array contains the **value** and **rect** fields.<br/>By default, **rect** is **undefined**. It must be assigned an array of the following format: *[x1, y1, x2, y2]*, where *(x1, y1)* and *(x2, y2)* are coordinates of two diagonally-opposite points defining a rectangle.
+
+##### field(e.rect): Array<Number>
+The rectangle available for subdivision.    
+Contains the X and Y coordinates of two diagonally-opposite points in the following format: *[x1, y1, x2, y2]*.
+
+##### field(e.sum): Number
+The sum total value of all nodes on the current level.
+
+---
 Layout algorithms determine the position and size of tiles and groups. Therefore, the chosen algorithm plays the definitive role in the resulting look of the widget. **TreeMap** provides the following algorithms out of the box.
 
 * **Squarified**        
@@ -56,26 +68,3 @@ In addition, you can change the layout direction. For this purpose, use the [lay
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Charts/TilingAlgorithms/jQuery/Light/"
 }
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Data for implementing a custom layout algorithm.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->rect<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->Array<Number><!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The rectangle available for subdivision.    
-Contains the X and Y coordinates of two diagonally-opposite points in the following format: *[x1, y1, x2, y2]*.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->sum<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->Number<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-The sum total value of all nodes on the current level.
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->items<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Array<any><!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-A set of items to distribute. Each object in this array contains the **value** and **rect** fields.<br/>By default, **rect** is **undefined**. It must be assigned an array of the following format: *[x1, y1, x2, y2]*, where *(x1, y1)* and *(x2, y2)* are coordinates of two diagonally-opposite points defining a rectangle.
-<!--/typeFunctionParamDescription1_field3-->

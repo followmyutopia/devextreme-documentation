@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.StackedSplineAreaSeries.point<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.StackedSplineAreaSeries.point
+type: Object
+---

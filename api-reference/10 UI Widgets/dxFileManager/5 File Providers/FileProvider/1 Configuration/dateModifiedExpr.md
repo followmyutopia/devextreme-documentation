@@ -1,12 +1,9 @@
-<!--id-->FileProvider.Options.dateModifiedExpr<!--/id-->
-===========================================================================
-<!--type-->String | function()<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: FileProvider.Options.dateModifiedExpr
+type: String | function()
+---
+---
+##### shortDescription
 Specifies which data field provides timestamps that indicate when a file was last modified.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

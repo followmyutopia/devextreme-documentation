@@ -1,13 +1,10 @@
-<!--id-->dxSliderBase.Options.keyStep<!--/id-->
-===========================================================================
-<!--default-->1<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSliderBase.Options.keyStep
+type: Number
+default: 1
+---
+---
+##### shortDescription
 Specifies the step by which a handle moves when a user presses **Page Up** or **Page Down**.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

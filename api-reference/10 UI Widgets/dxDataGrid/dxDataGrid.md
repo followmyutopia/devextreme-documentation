@@ -1,5 +1,14 @@
-<!--id-->dxDataGrid<!--/id-->
-<!--widgettree-->
+---
+id: dxDataGrid
+module: ui/data_grid
+export: default
+inherits: GridBase
+---
+---
+##### shortDescription
+The **DataGrid** is a widget that represents data from a local or remote source in the form of a grid. This widget offers such basic features as [sorting](/Documentation/Guide/Widgets/DataGrid/Sorting/), [grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/), [filtering](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/), as well as more advanced capabilities, like [state storing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/stateStoring/), [export to Excel](/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/), [master-detail interface](/Documentation/Guide/Widgets/DataGrid/Master-Detail_Interface/), and many others.
+
+##### widgettree
 dataSource: [{
     "ID": 1,
     "CompanyName": "Super Mart of the West",
@@ -26,21 +35,11 @@ dataSource: [{
     "City": "Hoffman Estates",
     "State": "Illinois"
 }]
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/data_grid<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->GridBase<!--/inherits-->
-<!--lib-->
+
+##### lib
 dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
 
-<!--shortDescription-->
-The **DataGrid** is a widget that represents data from a local or remote source in the form of a grid. This widget offers such basic features as [sorting](/Documentation/Guide/Widgets/DataGrid/Sorting/), [grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/), [filtering](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/), as well as more advanced capabilities, like [state storing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/stateStoring/), [export to Excel](/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/), [master-detail interface](/Documentation/Guide/Widgets/DataGrid/Master-Detail_Interface/), and many others.
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/DataGridGallery/#chart/datagridspagingandscrollingpager"
 }
@@ -51,4 +50,3 @@ The **DataGrid** is a widget that represents data from a local or remote source 
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

@@ -1,13 +1,10 @@
-<!--id-->dxLookup.Options.searchPlaceholder<!--/id-->
-===========================================================================
-<!--default-->'Search'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxLookup.Options.searchPlaceholder
+type: String
+default: 'Search'
+---
+---
+##### shortDescription
 The text that is provided as a hint in the lookup's search bar.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

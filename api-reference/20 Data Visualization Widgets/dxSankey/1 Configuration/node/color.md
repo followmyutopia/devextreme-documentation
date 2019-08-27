@@ -1,13 +1,11 @@
-<!--id-->dxSankey.Options.node.color<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSankey.Options.node.color
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Colors the sankey nodes.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

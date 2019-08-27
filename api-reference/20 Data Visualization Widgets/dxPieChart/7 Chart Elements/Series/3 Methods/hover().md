@@ -1,12 +1,8 @@
-<!--id-->pieChartSeriesObject.hover()<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
+---
+id: pieChartSeriesObject.hover()
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

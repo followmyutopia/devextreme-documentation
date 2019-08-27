@@ -1,23 +1,17 @@
-<!--id-->dxMap.addMarker(markerOptions)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxMap.addMarker(markerOptions)
+---
+---
+##### shortDescription
 Adds a marker to the map.
-<!--/shortDescription-->
 
-<!--paramName1-->markerOptions<!--/paramName1-->
-<!--paramType1-->Object|Array<Object><!--/paramType1-->
-<!--paramDescription1-->
-The [Marker](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/markers/) object(s).
-<!--/paramDescription1-->
-
-<!--returnType-->Promise<Object><!--/returnType-->
-<!--returnDescription-->
+##### return: Promise<Object>
 A Promise that is resolved with an original marker instance when the marker is added. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(markerOptions): Object | Array<Object>
+The [Marker](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/markers/) object(s).
+
+---
 The marker object should include the following fields.
 
 - **location** (required) - the marker location. You can specify the location in one of the following formats:
@@ -32,4 +26,3 @@ The marker object should include the following fields.
 
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

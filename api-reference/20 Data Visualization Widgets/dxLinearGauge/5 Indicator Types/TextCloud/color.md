@@ -1,4 +1,8 @@
-<!--id-->linearTextCloud.color<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->'#679EC5'<!--/default-->
-===========================================================================
+---
+id: linearTextCloud.color
+default: '#679EC5'
+---
+---
+##### merge
+
+---

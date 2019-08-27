@@ -1,19 +1,15 @@
-<!--id-->dxTreeList.getVisibleColumns()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeList.getVisibleColumns()
+---
+---
+##### shortDescription
 Gets all visible columns.
-<!--/shortDescription-->
 
-<!--returnType-->Array<dxTreeListColumn><!--/returnType-->
-<!--returnDescription-->
+##### return: Array<dxTreeListColumn>
 Visible columns; may include command columns.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 #include common-link-callmethods
 - [getVisibleColumns(headerLevel)]({basewidgetpath}/Methods/#getVisibleColumnsheaderLevel)
 - [columns]({basewidgetpath}/Configuration/columns/)
-<!--/fullDescription-->

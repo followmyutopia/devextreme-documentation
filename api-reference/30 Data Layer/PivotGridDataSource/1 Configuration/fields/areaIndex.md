@@ -1,14 +1,13 @@
-<!--id-->PivotGridDataSource.Options.fields.areaIndex<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.Options.fields.areaIndex
+type: Number
+default: undefined
+---
+---
+##### shortDescription
 Specifies the field's order among the other fields in the same area. Corresponds to the field's order in the **fields** array by default.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -77,4 +76,3 @@ Specifies the field's order among the other fields in the same area. Corresponds
 ---
 
 [note] The field's order affects the [headers](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Headers)'s hierarchy structure and is not related to the sorting concept.
-<!--/fullDescription-->

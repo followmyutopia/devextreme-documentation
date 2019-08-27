@@ -1,6 +1,5 @@
-<!--id-->dxToolbar.Options.onSelectionChanged<!--/id-->
-<!--EventForAction-->dxToolbar.selectionChanged<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxToolbar.Options.onSelectionChanged
+hidden: 
+EventForAction: dxToolbar.selectionChanged
+---

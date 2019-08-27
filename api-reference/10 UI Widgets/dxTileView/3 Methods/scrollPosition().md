@@ -1,17 +1,13 @@
-<!--id-->dxTileView.scrollPosition()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxTileView.scrollPosition()
+---
+---
+##### shortDescription
 Gets the current scroll position.
-<!--/shortDescription-->
 
-<!--returnType-->Number<!--/returnType-->
-<!--returnDescription-->
+##### return: Number
 The scroll position in pixels.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

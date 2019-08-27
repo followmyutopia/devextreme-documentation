@@ -1,5 +1,4 @@
-<!--id-->dxNumberBox.Options.maskInvalidMessage<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxNumberBox.Options.maskInvalidMessage
+hidden: 
+---

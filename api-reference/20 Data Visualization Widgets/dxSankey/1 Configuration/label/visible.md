@@ -1,13 +1,10 @@
-<!--id-->dxSankey.Options.label.visible<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSankey.Options.label.visible
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether the labels are visible.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

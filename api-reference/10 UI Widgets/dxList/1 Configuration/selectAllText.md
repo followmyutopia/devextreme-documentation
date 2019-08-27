@@ -1,14 +1,10 @@
-<!--id-->dxList.Options.selectAllText<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--default-->'Select All'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxList.Options.selectAllText
+type: String
+default: 'Select All'
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

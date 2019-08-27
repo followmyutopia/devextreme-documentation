@@ -1,12 +1,9 @@
-<!--id-->dxTabPanelItem.title<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTabPanelItem.title
+type: String
+---
+---
+##### shortDescription
 Specifies the item title text displayed on a corresponding tab.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

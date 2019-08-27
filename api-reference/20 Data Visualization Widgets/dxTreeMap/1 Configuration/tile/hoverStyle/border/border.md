@@ -1,12 +1,9 @@
-<!--id-->dxTreeMap.Options.tile.hoverStyle.border<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMap.Options.tile.hoverStyle.border
+type: Object
+---
+---
+##### shortDescription
 Configures the appearance of the tile borders in the hover state.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

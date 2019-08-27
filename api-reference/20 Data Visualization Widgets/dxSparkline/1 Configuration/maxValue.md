@@ -1,13 +1,10 @@
-<!--id-->dxSparkline.Options.maxValue<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSparkline.Options.maxValue
+type: Number
+default: undefined
+---
+---
+##### shortDescription
 Specifies the maximum value of the sparkline's value axis.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

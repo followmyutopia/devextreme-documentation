@@ -1,12 +1,10 @@
-<!--id-->dxDropDownEditor.open()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxDropDownEditor.open()
+---
+---
+##### shortDescription
 Opens the drop-down editor.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

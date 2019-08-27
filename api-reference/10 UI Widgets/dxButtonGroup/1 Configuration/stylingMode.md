@@ -1,15 +1,14 @@
-<!--id-->dxButtonGroup.Options.stylingMode<!--/id-->
-===========================================================================
-<!--default-->'contained'<!--/default-->
-<!--acceptValues-->'text' | 'outlined' | 'contained'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxButtonGroup.Options.stylingMode
+acceptValues: 'text' | 'outlined' | 'contained'
+type: String
+default: 'contained'
+---
+---
+##### shortDescription
 Specifies how buttons in the group are styled.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The following styles are available: 
 
 ![Button Styling Modes](Content/images/doc/19_2/UiWidgets/button_stylingMode.png)
@@ -22,4 +21,3 @@ The following styles are available:
     enum: "`ButtonStylingMode`",
     values: "`Text`, `Outlined`, and `Contained`"
 }
-<!--/fullDescription-->

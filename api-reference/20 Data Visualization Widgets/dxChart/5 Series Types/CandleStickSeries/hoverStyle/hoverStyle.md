@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.CandleStickSeries.hoverStyle<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.CandleStickSeries.hoverStyle
+type: Object
+---

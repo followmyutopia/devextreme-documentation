@@ -1,15 +1,14 @@
-<!--id-->PivotGridDataSource.Options.fields.filterType<!--/id-->
-===========================================================================
-<!--default-->'include'<!--/default-->
-<!--acceptValues-->'exclude' | 'include'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.Options.fields.filterType
+acceptValues: 'exclude' | 'include'
+type: String
+default: 'include'
+---
+---
+##### shortDescription
 Specifies whether a user changes the current filter by including (selecting) or excluding (clearing the selection of) values.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This option accepts the following values:
 
 - **include**       
@@ -26,4 +25,3 @@ All values in the header filter are selected initially. Users changes the filter
 #####See Also#####
 - **fields[]**.[filterValues](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#filterValues)
 - **fields[]**.[allowFiltering](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#allowFiltering)
-<!--/fullDescription-->

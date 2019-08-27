@@ -1,13 +1,9 @@
-<!--id-->dxGantt.Options.tasks<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->Object<!--/type-->
-===========================================================================
+---
+id: dxGantt.Options.tasks
+type: Object
+default: null
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

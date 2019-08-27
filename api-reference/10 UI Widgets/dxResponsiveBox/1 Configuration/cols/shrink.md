@@ -1,14 +1,12 @@
-<!--id-->dxResponsiveBox.Options.cols.shrink<!--/id-->
-===========================================================================
-<!--default-->1<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxResponsiveBox.Options.cols.shrink
+type: Number
+default: 1
+---
+---
+##### shortDescription
 A factor that defines how much a column width shrinks relative to the rest of the columns in the container.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 - [ResponsiveBox - Create the Layout Grid](/Documentation/Guide/Widgets/ResponsiveBox/Create_the_Layout_Grid/)
-<!--/fullDescription-->

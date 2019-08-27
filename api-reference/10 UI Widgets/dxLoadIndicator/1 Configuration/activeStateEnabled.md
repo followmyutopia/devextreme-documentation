@@ -1,5 +1,4 @@
-<!--id-->dxLoadIndicator.Options.activeStateEnabled<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxLoadIndicator.Options.activeStateEnabled
+hidden: 
+---

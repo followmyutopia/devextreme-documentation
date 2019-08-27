@@ -1,6 +1,5 @@
-<!--id-->globalConfig.useLegacyVisibleIndex<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: globalConfig.useLegacyVisibleIndex
+type: Boolean
+default: false
+---

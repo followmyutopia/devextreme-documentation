@@ -1,14 +1,13 @@
-<!--id-->dxPolarChart.Options.useSpiderWeb<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChart.Options.useSpiderWeb
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Indicates whether or not to display a "spider web".
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 In a polar coordinate system, the argument axis is a circle because it tracks a continuous angle change. When the argument in the chart's data source is discrete, you may want to display the argument axis as a discrete axis. For this purpose, set the **useSpiderWeb** option to **true**. In this instance, the argument axis, as well as the value axis' grid lines, will be displayed by straight lines between axis ticks/grid lines.
 
 ![UseSpiderWeb ChartJS](/Content/images/doc/19_2/ChartJS/UseSpiderWeb.png)
@@ -24,4 +23,3 @@ The spider web option is supported in the following series types.
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartspolarandradarchartspolarandradarchartsspiderweb/"
 }
-<!--/fullDescription-->

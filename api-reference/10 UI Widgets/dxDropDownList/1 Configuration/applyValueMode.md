@@ -1,5 +1,4 @@
-<!--id-->dxDropDownList.Options.applyValueMode<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxDropDownList.Options.applyValueMode
+hidden: 
+---

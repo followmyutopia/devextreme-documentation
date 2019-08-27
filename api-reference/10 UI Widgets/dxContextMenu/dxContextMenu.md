@@ -1,5 +1,14 @@
-<!--id-->dxContextMenu<!--/id-->
-<!--widgettree-->
+---
+id: dxContextMenu
+module: ui/context_menu
+export: default
+inherits: dxMenuBase
+---
+---
+##### shortDescription
+The **ContextMenu** widget displays a single- or multi-level context menu. An end user invokes this menu by a right click or a long press.
+
+##### widgettree
 dataSource: [
     { text: "Hide" },
     { text: "Delete" },
@@ -13,21 +22,11 @@ dataSource: [
     }
 ],
 visible: true
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/context_menu<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->dxMenuBase<!--/inherits-->
-<!--lib-->
+
+##### lib
 dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
 
-<!--shortDescription-->
-The **ContextMenu** widget displays a single- or multi-level context menu. An end user invokes this menu by a right click or a long press.
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/actionsandlistscontextmenucontextmenucontextmenu/"
 }
@@ -38,4 +37,3 @@ The **ContextMenu** widget displays a single- or multi-level context menu. An en
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

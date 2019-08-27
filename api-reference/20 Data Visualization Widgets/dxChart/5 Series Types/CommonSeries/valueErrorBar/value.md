@@ -1,14 +1,13 @@
-<!--id-->dxChartSeriesTypes.CommonSeries.valueErrorBar.value<!--/id-->
-===========================================================================
-<!--default-->1<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.CommonSeries.valueErrorBar.value
+type: Number
+default: 1
+---
+---
+##### shortDescription
 Specifies the value to be used for generating error bars.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Depending on the value of the **type** option, the **value** option applies as follows.
 
 - **type**: *'percent'*        
@@ -25,4 +24,3 @@ The **value** option multiplies the calculated variance.
 
 - **type**: *'fixed'*        
 The **value** option specifies constant error bar values.
-<!--/fullDescription-->

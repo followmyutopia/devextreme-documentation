@@ -1,13 +1,11 @@
-<!--id-->dxChart.Options.commonAxisSettings.minorTick.color<!--/id-->
-===========================================================================
-<!--default-->'#767676'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonAxisSettings.minorTick.color
+type: String
+default: '#767676'
+---
+---
+##### shortDescription
 Specifies the color of minor ticks.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

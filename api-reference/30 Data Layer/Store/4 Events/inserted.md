@@ -1,23 +1,16 @@
-<!--id-->Store.inserted<!--/id-->
-===========================================================================
-<!--type-->eventType<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Store.inserted
+type: eventType
+---
+---
+##### shortDescription
 Raised after a data item is added to the store.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-Main article: [onInserted]({basewidgetpath}/Configuration/#onInserted)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->values<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
+##### param(values): Object
 The added data item.
-<!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionParamName2-->key<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->Object|String|Number<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
+##### param(key): Object | String | Number
 The item's key.
-<!--/typeFunctionParamDescription2-->
+
+---
+Main article: [onInserted]({basewidgetpath}/Configuration/#onInserted)

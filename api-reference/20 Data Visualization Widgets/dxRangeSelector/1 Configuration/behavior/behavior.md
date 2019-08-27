@@ -1,12 +1,9 @@
-<!--id-->dxRangeSelector.Options.behavior<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.behavior
+type: Object
+---
+---
+##### shortDescription
 Specifies the **RangeSelector**'s behavior options.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

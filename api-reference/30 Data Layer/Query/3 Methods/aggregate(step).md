@@ -1,23 +1,17 @@
-<!--id-->Query.aggregate(step)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: Query.aggregate(step)
+---
+---
+##### shortDescription
 Calculates a custom summary for all data items.
-<!--/shortDescription-->
 
-<!--paramName1-->step<!--/paramName1-->
-<!--paramType1-->function()<!--/paramType1-->
-<!--paramDescription1-->
-A function that is called for each item.
-<!--/paramDescription1-->
-
-<!--returnType-->Promise<any><!--/returnType-->
-<!--returnDescription-->
+##### return: Promise<any>
 A Promise that is resolved after the operation is completed. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(step): function()
+A function that is called for each item.
+
+---
 This is a shortcut for the [aggregate(seed, step, finalize)](/Documentation/ApiReference/Data_Layer/Query/Methods/#aggregateseed_step_finalize) method. It omits the **seed** and **finalize** parameters: instead of the **seed** value, the accumulator value is initialized with the first item's value; the **finalize** parameter's omission means that the calculation result is the accumulator value after the last **step** function's execution.
 
 ---
@@ -58,4 +52,3 @@ This is a shortcut for the [aggregate(seed, step, finalize)](/Documentation/ApiR
     }
 
 ---
-<!--/fullDescription-->

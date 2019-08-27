@@ -1,14 +1,13 @@
-<!--id-->GridBaseColumn.format<!--/id-->
-===========================================================================
-<!--default-->''<!--/default-->
-<!--type-->format<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBaseColumn.format
+type: format
+default: ''
+---
+---
+##### shortDescription
 Formats a value before it is displayed in a column cell.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 See the [format](/Documentation/ApiReference/Common/Object_Structures/format/) section for details on accepted values.
 
 In the following code, the *"fixedPoint"* [format type](/Documentation/ApiReference/Common/Object_Structures/format/#type) with a [precision](/Documentation/ApiReference/Common/Object_Structures/format/#precision) of **2** decimal places is applied to column values: 
@@ -134,4 +133,3 @@ The **format** option also controls the user input in cells that use the [DateBo
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/DataGrid/RecalculateWhileEditing/jQuery/Light/"
 }
-<!--/fullDescription-->

@@ -1,13 +1,11 @@
-<!--id-->dxSankey.Options.label.shadow.color<!--/id-->
-===========================================================================
-<!--default-->'#000000'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSankey.Options.label.shadow.color
+type: String
+default: '#000000'
+---
+---
+##### shortDescription
 Colors the labels' shadows.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

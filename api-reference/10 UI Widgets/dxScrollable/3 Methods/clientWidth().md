@@ -1,17 +1,13 @@
-<!--id-->dxScrollable.clientWidth()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxScrollable.clientWidth()
+---
+---
+##### shortDescription
 Gets the widget's width.
-<!--/shortDescription-->
 
-<!--returnType-->Number<!--/returnType-->
-<!--returnDescription-->
+##### return: Number
 The widget's width in pixels.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

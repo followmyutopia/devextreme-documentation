@@ -1,15 +1,15 @@
-<!--id-->dxChartSeriesTypes.StackedBarSeries<!--/id-->
-===========================================================================
-<!--hidePropertyOf--><!--/hidePropertyOf-->
-<!--type-->Object<!--/type-->
-<!--inherits-->dxChartSeriesTypes.CommonSeries<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.StackedBarSeries
+type: Object
+inherits: dxChartSeriesTypes.CommonSeries
+---
+---
+##### shortDescription
 Describes settings supported by a series of the *stacked bar* type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### hidePropertyOf
+
+---
 #include dataviz-ref-series-type with { 
     seriesType: "stackedbar"
 }
@@ -19,4 +19,3 @@ Describes settings supported by a series of the *stacked bar* type.
 }
 
 ![DevExtreme HTML5 Charts StackedBarSeriesType](/Content/images/doc/19_2/ChartJS/StackedBar.png)
-<!--/fullDescription-->

@@ -1,5 +1,4 @@
-<!--id-->dxAutocomplete.Options.showDropDownButton<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-===========================================================================
-
+---
+id: dxAutocomplete.Options.showDropDownButton
+default: false
+---

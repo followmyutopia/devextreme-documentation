@@ -1,6 +1,4 @@
-<!--id-->dxSlideOutView.registerKeyHandler(key, handler)<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
-
-
+---
+id: dxSlideOutView.registerKeyHandler(key, handler)
+hidden: 
+---

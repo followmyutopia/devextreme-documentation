@@ -1,13 +1,9 @@
-<!--id-->dxSliderBase<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--inherits-->dxTrackBar<!--/inherits-->
-===========================================================================
+---
+id: dxSliderBase
+inherits: dxTrackBar
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

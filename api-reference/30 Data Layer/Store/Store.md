@@ -1,19 +1,16 @@
-<!--id-->Store<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--module-->data/abstract_store<!--/module-->
-<!--export-->default<!--/export-->
-<!--type-->Object<!--/type-->
-<!--inherits-->EventsMixin<!--/inherits-->
-<!--lib-->
-dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Store
+module: data/abstract_store
+export: default
+type: Object
+inherits: EventsMixin
+hidden: 
+---
+---
+##### shortDescription
 The base class for all Stores.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### lib
+dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
 
-<!--/fullDescription-->
+---

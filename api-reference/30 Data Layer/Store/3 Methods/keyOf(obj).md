@@ -1,23 +1,17 @@
-<!--id-->Store.keyOf(obj)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: Store.keyOf(obj)
+---
+---
+##### shortDescription
 Gets a data item's key value.
-<!--/shortDescription-->
 
-<!--paramName1-->obj<!--/paramName1-->
-<!--paramType1-->Object<!--/paramType1-->
-<!--paramDescription1-->
-A data item.
-<!--/paramDescription1-->
-
-<!--returnType-->any<!--/returnType-->
-<!--returnDescription-->
+##### return: any
 The data item's key value.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(obj): Object
+A data item.
+
+---
 ---
 ##### jQuery
 
@@ -46,4 +40,3 @@ The data item's key value.
     }
     
 ---
-<!--/fullDescription-->

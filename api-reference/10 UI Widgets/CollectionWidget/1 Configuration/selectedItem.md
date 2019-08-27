@@ -1,14 +1,11 @@
-<!--id-->CollectionWidget.Options.selectedItem<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->Object<!--/type-->
-<!--firedEvents-->selectionChanged<!--/firedEvents-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: CollectionWidget.Options.selectedItem
+type: Object
+default: null
+firedEvents: selectionChanged
+---
+---
+##### shortDescription
 The selected item object.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

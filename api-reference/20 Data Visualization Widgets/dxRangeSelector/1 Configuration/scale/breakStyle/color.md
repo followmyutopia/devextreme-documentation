@@ -1,13 +1,11 @@
-<!--id-->dxRangeSelector.Options.scale.breakStyle.color<!--/id-->
-===========================================================================
-<!--default-->'#ababab'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.scale.breakStyle.color
+type: String
+default: '#ababab'
+---
+---
+##### shortDescription
 Specifies the scale breaks' color.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

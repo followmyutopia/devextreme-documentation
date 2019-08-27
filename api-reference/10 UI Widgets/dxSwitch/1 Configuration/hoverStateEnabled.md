@@ -1,6 +1,5 @@
-<!--id-->dxSwitch.Options.hoverStateEnabled<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxSwitch.Options.hoverStateEnabled
+type: Boolean
+default: true
+---

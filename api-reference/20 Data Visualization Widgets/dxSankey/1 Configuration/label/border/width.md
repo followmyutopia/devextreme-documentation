@@ -1,13 +1,10 @@
-<!--id-->dxSankey.Options.label.border.width<!--/id-->
-===========================================================================
-<!--default-->2<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSankey.Options.label.border.width
+type: Number
+default: 2
+---
+---
+##### shortDescription
 Sets the borders' width in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

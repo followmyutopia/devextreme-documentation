@@ -1,6 +1,5 @@
-<!--id-->dxTabs.Options.focusStateEnabled<!--/id-->
-===========================================================================
-<!--default-->true (desktop)<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxTabs.Options.focusStateEnabled
+type: Boolean
+default: true (desktop)
+---

@@ -1,14 +1,11 @@
-<!--id-->BaseGauge<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->Object<!--/type-->
-<!--inherits-->BaseWidget<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseGauge
+type: Object
+inherits: BaseWidget
+hidden: 
+---
+---
+##### shortDescription
 A gauge widget.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

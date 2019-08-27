@@ -1,17 +1,15 @@
-<!--id-->dxDropDownList.Options.searchMode<!--/id-->
-===========================================================================
-<!--default-->'contains'<!--/default-->
-<!--acceptValues-->'contains' | 'startswith'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDropDownList.Options.searchMode
+acceptValues: 'contains' | 'startswith'
+type: String
+default: 'contains'
+---
+---
+##### shortDescription
 Specifies a comparison operation used to search widget items.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-ref-enum with {
     enum: "`DropDownSearchMode`",
     values: "`Contains` and `StartsWith`"
 }
-<!--/fullDescription-->

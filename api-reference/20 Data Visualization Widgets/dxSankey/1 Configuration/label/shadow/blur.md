@@ -1,13 +1,10 @@
-<!--id-->dxSankey.Options.label.shadow.blur<!--/id-->
-===========================================================================
-<!--default-->1<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSankey.Options.label.shadow.blur
+type: Number
+default: 1
+---
+---
+##### shortDescription
 Specifies the shadows' blur distance. A larger value increases the blur distance.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,12 +1,9 @@
-<!--id-->dxFilterBuilder.Options.filterOperationDescriptions<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFilterBuilder.Options.filterOperationDescriptions
+type: Object
+---
+---
+##### shortDescription
 Specifies filter operation descriptions.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

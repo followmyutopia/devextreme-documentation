@@ -1,6 +1,5 @@
-<!--id-->dxTabs.Options.activeStateEnabled<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--default-->true<!--/default-->
-===========================================================================
-
+---
+id: dxTabs.Options.activeStateEnabled
+default: true
+hidden: 
+---

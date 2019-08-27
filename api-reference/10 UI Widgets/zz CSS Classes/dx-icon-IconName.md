@@ -1,11 +1,8 @@
-===========================================================================
-===========================================================================
-
-<!--shortDescription-->
+---
+##### shortDescription
 Use this class to add a custom icon to the style sheet used in your application.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The name of this class must include the real name of the icon. For instance, the "myicon" icon must be defined by the "dx-icon-myicon" class.
 
     <!--CSS-->.dx-icon-myicon
@@ -20,5 +17,3 @@ As you can see, the icon is added in the Base64 type in the code above. We recom
 The icons that are added to the stylesheet via this class can be used for DevExtreme widgets like predefined icons from the [built-in icon library](/Documentation/Guide/Themes_and_Styles/Icons/#Built-In_Icon_Library).
 
     <!--HTML--><div class="button" data-bind="dxButton: { icon: 'myicon', text: 'Click me' }"></div>
-
-<!--/fullDescription-->

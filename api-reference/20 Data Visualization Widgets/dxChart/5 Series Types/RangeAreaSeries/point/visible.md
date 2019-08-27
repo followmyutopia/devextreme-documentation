@@ -1,6 +1,5 @@
-<!--id-->dxChartSeriesTypes.RangeAreaSeries.point.visible<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.RangeAreaSeries.point.visible
+type: Boolean
+default: false
+---

@@ -1,14 +1,12 @@
-<!--id-->dxForm.Options.requiredMark<!--/id-->
-===========================================================================
-<!--default-->'*'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxForm.Options.requiredMark
+type: String
+default: '*'
+---
+---
+##### shortDescription
 The text displayed for required fields.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 - [Additional Marks](/Documentation/Guide/Widgets/Form/Configure_Item_Labels/Additional_Marks/)
-<!--/fullDescription-->

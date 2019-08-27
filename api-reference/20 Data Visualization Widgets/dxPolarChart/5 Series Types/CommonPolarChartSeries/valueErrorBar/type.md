@@ -1,15 +1,14 @@
-<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.valueErrorBar.type<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--acceptValues-->'fixed' | 'percent' | 'stdDeviation' | 'stdError' | 'variance'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.CommonPolarChartSeries.valueErrorBar.type
+acceptValues: 'fixed' | 'percent' | 'stdDeviation' | 'stdError' | 'variance'
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies how error bar values must be calculated.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Depending on the type of errors you need to visualize, use the error bars of one of the following types.
 
 - **percent**        
@@ -31,4 +30,3 @@ Defines the confidential interval in constant values. Error bar values are deter
     enum: "`ValueErrorBarType`",
     values: "`Percent`, `StdError`, `StdDeviation`, `Variance`, and `Fixed`"
 }
-<!--/fullDescription-->

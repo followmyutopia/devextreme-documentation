@@ -1,17 +1,15 @@
-<!--id-->GridBaseColumn.headerFilter.searchMode<!--/id-->
-===========================================================================
-<!--default-->'contains'<!--/default-->
-<!--acceptValues-->'contains' | 'startswith' | 'equals'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBaseColumn.headerFilter.searchMode
+acceptValues: 'contains' | 'startswith' | 'equals'
+type: String
+default: 'contains'
+---
+---
+##### shortDescription
 Specifies a comparison operation used to search header filter values.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-ref-enum with {
     enum: "`CollectionSearchMode`",
     values: "`Contains`, `StartsWith`, and `Equals`"
 }
-<!--/fullDescription-->

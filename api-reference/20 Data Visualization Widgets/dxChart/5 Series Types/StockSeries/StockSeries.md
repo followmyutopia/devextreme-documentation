@@ -1,15 +1,15 @@
-<!--id-->dxChartSeriesTypes.StockSeries<!--/id-->
-===========================================================================
-<!--hidePropertyOf--><!--/hidePropertyOf-->
-<!--type-->Object<!--/type-->
-<!--inherits-->dxChartSeriesTypes.CommonSeries<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.StockSeries
+type: Object
+inherits: dxChartSeriesTypes.CommonSeries
+---
+---
+##### shortDescription
 Describes settings supported by a series of the *stock* type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### hidePropertyOf
+
+---
 #include dataviz-ref-series-type with { 
     seriesType: "stock"
 }
@@ -19,4 +19,3 @@ Describes settings supported by a series of the *stock* type.
 }
 
 ![DevExtreme HTML5 Charts StockSeriesType](/Content/images/doc/19_2/ChartJS/Stock.png)
-<!--/fullDescription-->

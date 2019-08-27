@@ -1,17 +1,14 @@
-<!--id-->GridBase.refresh()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.refresh()
+---
+---
+##### shortDescription
 Reloads data and repaints the widget.
-<!--/shortDescription-->
 
-<!--returnType-->Promise<void><!--/returnType-->
-<!--returnDescription-->
+##### return: Promise<void>
 A Promise that is resolved after data is loaded. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 The widget cannot track changes a third party makes in the data source. To update data in the widget in this case, call the **refresh()** method. [Data sources]({basewidgetpath}/Configuration/columns/lookup/#dataSource) of lookup columns are updated with the main data source.
 
 The following code shows how to call this method:
@@ -162,4 +159,3 @@ The following code shows how to call this method:
 #####See Also#####
 - [refresh(changesOnly)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#refreshchangesOnly)
 #include common-link-callmethods
-<!--/fullDescription-->

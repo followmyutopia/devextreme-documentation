@@ -1,14 +1,13 @@
-<!--id-->dxDataGrid.Options.sortByGroupSummaryInfo<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Array<Object><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.Options.sortByGroupSummaryInfo
+type: Array<Object>
+default: undefined
+---
+---
+##### shortDescription
 Allows you to sort [groups](/Documentation/Guide/Widgets/DataGrid/Grouping/) according to the values of group summary items.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Normally, when records are grouped by a column, the groups are sorted according to the values of this column. In a number of cases, such approaches cannot address your needs, e.g., when you require to sort groups by the number of records in each. For these cases, you can implement sorting according to the values of group summary items. These items are specified in the [groupItems](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/) array. Assume that you have the following code that specifies three group summary items.
 
 ---
@@ -175,4 +174,3 @@ In addition, you can set an ascending or descending sort order for each summary-
 
 #####See Also#####
 - [Sort by Group Summary](/Documentation/Guide/Widgets/DataGrid/Summaries/Group_Summary/#Sort_by_Group_Summary)
-<!--/fullDescription-->

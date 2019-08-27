@@ -1,6 +1,5 @@
-<!--id-->dxAccordion.Options.hoverStateEnabled<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxAccordion.Options.hoverStateEnabled
+type: Boolean
+default: true
+---

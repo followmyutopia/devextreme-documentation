@@ -1,13 +1,12 @@
-<!--id-->chartAxisObject<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: chartAxisObject
+type: Object
+---
+---
+##### shortDescription
 This section describes the **Axis** object. This object represents a [chart axis](/Documentation/Guide/Widgets/Chart/Axes/Overview/).
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 You can call one of the following **Chart** instance methods to access this object:
 
 - [getArgumentAxis()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#getArgumentAxis)
@@ -18,4 +17,3 @@ Alternatively, you can call one of the following [Series](/Documentation/ApiRefe
 
 - [getArgumentAxis()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#getArgumentAxis)
 - [getValueAxis()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#getValueAxis)
-<!--/fullDescription-->

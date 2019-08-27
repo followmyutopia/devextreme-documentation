@@ -1,15 +1,47 @@
-<!--id-->dxTreeList.Options.onContextMenuPreparing<!--/id-->
-<!--EventForAction-->dxTreeList.contextMenuPreparing<!--/EventForAction-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->function(e)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeList.Options.onContextMenuPreparing
+type: function(e)
+default: null
+EventForAction: dxTreeList.contextMenuPreparing
+---
+---
+##### shortDescription
 A function that is executed before the context menu is rendered.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(e): Object
+Information about the event that caused the function's execution.
+
+##### field(e.column): dxTreeListColumn
+This column's [configuration](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/).
+
+##### field(e.columnIndex): Number
+The index of the column on which the context menu is invoked.
+
+##### field(e.component): {WidgetName}
+The widget's instance.
+
+##### field(e.element): dxElement
+#include common-ref-elementparam with { element: "widget" }
+
+##### field(e.items): Array<Object>
+Items to be displayed in the context menu. Their structure is described in the [Default Item Template](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Default_Item_Template/) section.
+
+##### field(e.model): Object
+The model data. Available only if you use Knockout.
+
+##### field(e.row): dxTreeListRowObject
+The row [properties](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/).
+
+##### field(e.rowIndex): Number
+The index of the row on which the context menu is invoked. Refer to [Column and Row Indexes](/Documentation/Guide/Widgets/TreeList/Columns/Column_and_Row_Indexes/) for more information.
+
+##### field(e.target): String
+The name of the element on which the context menu is invoked: *"header"*, *"content"*, or *"footer"*. This field is read-only.
+
+##### field(e.targetElement): dxElement
+#include common-ref-elementparam with { element: "element" }
+
+---
 In the following code, the **onContextMenuPreparing** function adds a custom item to the context menu invoked when a user right-clicks any column header:
 
 ---
@@ -169,60 +201,3 @@ In the following code, the **onContextMenuPreparing** function adds a custom ite
     export default App;
 
 ---
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the event that caused the function's execution.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-#include common-ref-elementparam with { element: "widget" }
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The model data. Available only if you use Knockout.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->items<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Array<Object><!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-Items to be displayed in the context menu. Their structure is described in the [Default Item Template](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Default_Item_Template/) section.
-<!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamName1_field5-->target<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->String<!--/typeFunctionParamType1_field5-->
-<!--typeFunctionParamDescription1_field5-->
-The name of the element on which the context menu is invoked: *"header"*, *"content"*, or *"footer"*. This field is read-only.
-<!--/typeFunctionParamDescription1_field5-->
-<!--typeFunctionParamName1_field6-->targetElement<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->dxElement<!--/typeFunctionParamType1_field6-->
-<!--typeFunctionParamDescription1_field6-->
-#include common-ref-elementparam with { element: "element" }
-<!--/typeFunctionParamDescription1_field6-->
-<!--typeFunctionParamName1_field7-->columnIndex<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->Number<!--/typeFunctionParamType1_field7-->
-<!--typeFunctionParamDescription1_field7-->
-The index of the column on which the context menu is invoked.
-<!--/typeFunctionParamDescription1_field7-->
-<!--typeFunctionParamName1_field8-->column<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->dxTreeListColumn<!--/typeFunctionParamType1_field8-->
-<!--typeFunctionParamDescription1_field8-->
-This column's [configuration](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/).
-<!--/typeFunctionParamDescription1_field8-->
-<!--typeFunctionParamName1_field9-->rowIndex<!--/typeFunctionParamName1_field9-->
-<!--typeFunctionParamType1_field9-->Number<!--/typeFunctionParamType1_field9-->
-<!--typeFunctionParamDescription1_field9-->
-The index of the row on which the context menu is invoked. Refer to [Column and Row Indexes](/Documentation/Guide/Widgets/TreeList/Columns/Column_and_Row_Indexes/) for more information.
-<!--/typeFunctionParamDescription1_field9-->
-<!--typeFunctionParamName1_field10-->row<!--/typeFunctionParamName1_field10-->
-<!--typeFunctionParamType1_field10-->dxTreeListRowObject<!--/typeFunctionParamType1_field10-->
-<!--typeFunctionParamDescription1_field10-->
-The row [properties](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/). 
-<!--/typeFunctionParamDescription1_field10-->

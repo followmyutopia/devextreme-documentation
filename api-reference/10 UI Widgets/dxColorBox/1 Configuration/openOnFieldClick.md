@@ -1,12 +1,8 @@
-<!--id-->dxColorBox.Options.openOnFieldClick<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
+---
+id: dxColorBox.Options.openOnFieldClick
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

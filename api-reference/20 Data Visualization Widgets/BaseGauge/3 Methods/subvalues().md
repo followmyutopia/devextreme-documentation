@@ -1,17 +1,14 @@
-<!--id-->BaseGauge.subvalues()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: BaseGauge.subvalues()
+---
+---
+##### shortDescription
 Gets subvalues.
-<!--/shortDescription-->
 
-<!--returnType-->Array<Number><!--/returnType-->
-<!--returnDescription-->
+##### return: Array<Number>
 The subvalues.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 See the **subvalues** option description for more information on gauge subvalues.
 
 #include common-demobutton with {
@@ -20,4 +17,3 @@ See the **subvalues** option description for more information on gauge subvalues
 
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

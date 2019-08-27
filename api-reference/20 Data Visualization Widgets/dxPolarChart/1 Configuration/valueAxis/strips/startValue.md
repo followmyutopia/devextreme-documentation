@@ -1,13 +1,10 @@
-<!--id-->dxPolarChart.Options.valueAxis.strips.startValue<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number | Date | String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChart.Options.valueAxis.strips.startValue
+type: Number | Date | String
+default: undefined
+---
+---
+##### shortDescription
 Specifies a start value for a strip.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

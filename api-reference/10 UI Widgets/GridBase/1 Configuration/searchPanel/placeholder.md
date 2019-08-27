@@ -1,13 +1,10 @@
-<!--id-->GridBase.Options.searchPanel.placeholder<!--/id-->
-===========================================================================
-<!--default-->'Search...'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.searchPanel.placeholder
+type: String
+default: 'Search...'
+---
+---
+##### shortDescription
 Specifies a placeholder for the search panel.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

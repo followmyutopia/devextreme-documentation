@@ -1,6 +1,5 @@
-<!--id-->dxPieChart.Options.adaptiveLayout.keepLabels<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxPieChart.Options.adaptiveLayout.keepLabels
+type: Boolean
+default: false
+---

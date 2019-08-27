@@ -1,15 +1,14 @@
-<!--id-->EndpointSelector<!--/id-->
-===========================================================================
-<!--module-->data/endpoint_selector<!--/module-->
-<!--export-->default<!--/export-->
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: EndpointSelector
+module: data/endpoint_selector
+export: default
+type: Object
+---
+---
+##### shortDescription
 The **EndpointSelector** is an object for managing OData endpoints in your application.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This object selects local or production OData service URL depending on whether the app's local or deployed version is running.
 
 ---
@@ -88,4 +87,3 @@ This object selects local or production OData service URL depending on whether t
     ko.applyBindings(viewModel);
 
 ---
-<!--/fullDescription-->

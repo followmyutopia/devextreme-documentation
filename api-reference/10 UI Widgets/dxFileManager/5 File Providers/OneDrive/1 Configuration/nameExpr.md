@@ -1,12 +1,8 @@
-<!--id-->OneDriveFileProvider.Options.nameExpr<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
+---
+id: OneDriveFileProvider.Options.nameExpr
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

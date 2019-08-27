@@ -1,15 +1,14 @@
-<!--id-->dxVectorMap.Options.layers.palette<!--/id-->
-===========================================================================
-<!--default-->'Material'<!--/default-->
-<!--acceptValues-->'Bright' | 'Harmony Light' | 'Ocean' | 'Pastel' | 'Soft' | 'Soft Pastel' | 'Vintage' | 'Violet' | 'Carmine' | 'Dark Moon' | 'Dark Violet' | 'Green Mist' | 'Soft Blue' | 'Material' | 'Office'<!--/acceptValues-->
-<!--type-->Array<String> | String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxVectorMap.Options.layers.palette
+acceptValues: 'Bright' | 'Harmony Light' | 'Ocean' | 'Pastel' | 'Soft' | 'Soft Pastel' | 'Vintage' | 'Violet' | 'Carmine' | 'Dark Moon' | 'Dark Violet' | 'Green Mist' | 'Soft Blue' | 'Material' | 'Office'
+type: Array<String> | String
+default: 'Material'
+---
+---
+##### shortDescription
 Specifies the name of the palette or a custom range of colors to be used for coloring a layer.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 A palette defines a range of colors that are used to paint layer elements. This range is divided into segments using the value assigned to the [paletteSize](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#paletteSize) option. Each segment contributes a color into a resulting array of colors. The more of these segments, the greater the variety of colors in this array. All available palettes are listed in the accepted values.
 
 In order to apply a palette to a map, follow the next steps.
@@ -22,4 +21,3 @@ In order to apply a palette to a map, follow the next steps.
     enum: "`VizPalette`",
     values: "`Default`, `SoftPastel`, `HarmonyLight`, `Pastel`, `Bright`, `Soft`, `Ocean`, `Vintage`, `Violet`, `Carmine`, `DarkMoon`, `SoftBlue`, `DarkViolet`, and `GreenMist`"
 }
-<!--/fullDescription-->

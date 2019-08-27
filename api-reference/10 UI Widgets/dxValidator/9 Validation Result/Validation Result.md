@@ -1,12 +1,9 @@
-<!--id-->dxValidatorResult<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxValidatorResult
+type: Object
+---
+---
+##### shortDescription
 A validation result.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

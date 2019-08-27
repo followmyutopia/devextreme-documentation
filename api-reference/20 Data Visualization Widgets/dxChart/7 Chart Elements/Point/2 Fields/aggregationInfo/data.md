@@ -1,12 +1,9 @@
-<!--id-->chartPointAggregationInfoObject.data<!--/id-->
-===========================================================================
-<!--type-->Array<any><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: chartPointAggregationInfoObject.data
+type: Array<any>
+---
+---
+##### shortDescription
 Contains data objects that were aggregated into this point.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

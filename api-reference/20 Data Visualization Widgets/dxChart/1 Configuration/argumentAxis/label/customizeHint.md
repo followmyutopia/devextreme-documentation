@@ -1,34 +1,24 @@
-<!--id-->dxChart.Options.argumentAxis.label.customizeHint<!--/id-->
-===========================================================================
-<!--type-->function(argument)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.argumentAxis.label.customizeHint
+type: function(argument)
+---
+---
+##### shortDescription
 Specifies the hint that appears when a user points to an axis label.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(argument): Object
+Information on the axis argument.
+
+##### field(argument.value): Date | Number | String
+The raw argument value.
+
+##### field(argument.valueText): String
+The [formatted](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/label/#format) value converted to a string.
+
+##### return: String
+The text for the hint to display.
+
+---
 ![DevExtreme HTML5 Charts AxisLabelHint](/Content/images/doc/19_2/ChartJS/visual_elements/axis_label_hint.png)
 
 #include dataviz-ref-functioncontext
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->argument<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information on the axis argument.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->Date | Number | String<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The raw argument value.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->String<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-The [formatted](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/label/#format) value converted to a string.
-<!--/typeFunctionParamDescription1_field2-->
-
-<!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-The text for the hint to display.
-<!--/typeFunctionReturnDescription-->

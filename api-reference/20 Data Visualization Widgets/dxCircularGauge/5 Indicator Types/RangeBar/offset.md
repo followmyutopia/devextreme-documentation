@@ -1,4 +1,8 @@
-<!--id-->circularRangeBar.offset<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->30<!--/default-->
-===========================================================================
+---
+id: circularRangeBar.offset
+default: 30
+---
+---
+##### merge
+
+---

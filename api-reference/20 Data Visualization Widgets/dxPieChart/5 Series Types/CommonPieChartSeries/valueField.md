@@ -1,13 +1,11 @@
-<!--id-->dxPieChartSeriesTypes.CommonPieChartSeries.valueField<!--/id-->
-===========================================================================
-<!--default-->'val'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPieChartSeriesTypes.CommonPieChartSeries.valueField
+type: String
+default: 'val'
+---
+---
+##### shortDescription
 Specifies the data source field that provides values for series points.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 When defining a series, set the **valueField** property to the corresponding field from the data source.
-<!--/fullDescription-->

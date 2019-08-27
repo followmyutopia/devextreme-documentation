@@ -1,13 +1,10 @@
-<!--id-->dxDropDownButton.Options.focusStateEnabled<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDropDownButton.Options.focusStateEnabled
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether users can use keyboard to focus the widget.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,13 +1,9 @@
-<!--id-->dxDiagram.Options.snapToGrid<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.snapToGrid
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

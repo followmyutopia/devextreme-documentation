@@ -1,13 +1,11 @@
-<!--id-->dxTreeMap.Options.tile.border.color<!--/id-->
-===========================================================================
-<!--default-->'#000000'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMap.Options.tile.border.color
+type: String
+default: '#000000'
+---
+---
+##### shortDescription
 Colors the tile borders.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

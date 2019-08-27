@@ -1,15 +1,11 @@
-<!--id-->dxTileView.Options.baseItemWidth<!--/id-->
-===========================================================================
-<!--default-->100<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTileView.Options.baseItemWidth
+type: Number
+default: 100
+---
+---
+##### shortDescription
 Specifies the width of the base tile view item.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The actual item width equals the **widthRatio** value of an item multiplied by the value of this option.
-
-
-<!--/fullDescription-->

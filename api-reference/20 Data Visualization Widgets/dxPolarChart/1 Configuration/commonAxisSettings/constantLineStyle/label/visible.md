@@ -1,13 +1,10 @@
-<!--id-->dxPolarChart.Options.commonAxisSettings.constantLineStyle.label.visible<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChart.Options.commonAxisSettings.constantLineStyle.label.visible
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Indicates whether or not to display labels for the axis constant lines.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

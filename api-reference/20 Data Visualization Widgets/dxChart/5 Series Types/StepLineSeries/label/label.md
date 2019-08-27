@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.StepLineSeries.label<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.StepLineSeries.label
+type: Object
+---

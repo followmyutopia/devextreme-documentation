@@ -1,13 +1,10 @@
-<!--id-->dxFilterBuilder.Options.groupOperationDescriptions.notOr<!--/id-->
-===========================================================================
-<!--default-->'Not Or'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFilterBuilder.Options.groupOperationDescriptions.notOr
+type: String
+default: 'Not Or'
+---
+---
+##### shortDescription
 The *"notor"* operation's description.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

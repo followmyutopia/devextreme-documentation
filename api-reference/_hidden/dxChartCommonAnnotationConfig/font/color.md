@@ -1,4 +1,8 @@
-<!--id-->dxChartCommonAnnotationConfig.font.color<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->'#333333'<!--/default-->
-===========================================================================
+---
+id: dxChartCommonAnnotationConfig.font.color
+default: '#333333'
+---
+---
+##### merge
+
+---

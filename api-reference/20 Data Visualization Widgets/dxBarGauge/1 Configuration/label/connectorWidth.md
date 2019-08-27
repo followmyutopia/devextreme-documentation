@@ -1,13 +1,10 @@
-<!--id-->dxBarGauge.Options.label.connectorWidth<!--/id-->
-===========================================================================
-<!--default-->2<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxBarGauge.Options.label.connectorWidth
+type: Number
+default: 2
+---
+---
+##### shortDescription
 Specifies the width of the label connector in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

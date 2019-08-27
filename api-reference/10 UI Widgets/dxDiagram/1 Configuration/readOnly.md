@@ -1,13 +1,9 @@
-<!--id-->dxDiagram.Options.readOnly<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.readOnly
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

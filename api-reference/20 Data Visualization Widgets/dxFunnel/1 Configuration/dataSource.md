@@ -1,14 +1,14 @@
-<!--id-->dxFunnel.Options.dataSource<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->Array<any> | DataSource | DataSource_Options | String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFunnel.Options.dataSource
+type: Array<any> | DataSource | DataSource_Options | String
+---
+---
+##### shortDescription
 Binds the widget to data.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### notUsedInTheme
+
+---
 #include common-dataSource-description with {
     widget_works_with: "The **{WidgetName}** works with collections of objects.",
 
@@ -18,4 +18,3 @@ Binds the widget to data.
 
     paginate_note: "- If you wrap the store into the **DataSource** object explicitly, set the [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) option to **false** to prevent data from partitioning."
 }
-<!--/fullDescription-->

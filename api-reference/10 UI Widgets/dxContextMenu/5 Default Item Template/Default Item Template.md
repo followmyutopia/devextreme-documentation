@@ -1,6 +1,5 @@
-<!--id-->dxContextMenuItem<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-<!--inherits-->dxMenuBaseItem<!--/inherits-->
-===========================================================================
-
+---
+id: dxContextMenuItem
+type: Object
+inherits: dxMenuBaseItem
+---

@@ -1,14 +1,13 @@
-<!--id-->dxHtmlEditorMention.dataSource<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->Array<String> | DataSource | DataSource_Options<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxHtmlEditorMention.dataSource
+type: Array<String> | DataSource | DataSource_Options
+default: null
+---
+---
+##### shortDescription
 Provides data for the suggestion list.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 If you use DevExtreme ASP.NET MVC Controls, refer to the [Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/) article.
 
 Depending on your data source, specify this option as described in the following list. The data source can provide `string` values or objects. In the latter case, also specify the [displayExpr](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/mentions/#displayExpr) and [valueExpr](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/mentions/#valueExpr).
@@ -169,4 +168,3 @@ Implement a [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/).
 The stores are immutable. You cannot change their configurations at runtime. Instead, create a new store or **DataSource** and assign it to the **dataSource** option as shown in the articles about changing options in [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Get_and_Set_Options/), [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/#Two-Way_Option_Binding), [React](/Documentation/Guide/React_Components/State_Management/#Controlled_Mode), and <a href="https://github.com/DevExpress/devextreme-vue#two-way-binding" target="_blank">Vue</a>.
 
 [/note]
-<!--/fullDescription-->

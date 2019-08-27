@@ -1,16 +1,14 @@
-<!--id-->dxDataGrid.Options.summary.totalItems.valueFormat<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->format<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.Options.summary.totalItems.valueFormat
+type: format
+default: undefined
+---
+---
+##### shortDescription
 Specifies a summary item value's display format.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 See the [format](/Documentation/ApiReference/Common/Object_Structures/format/) section for details on accepted values. 
 
 #####See Also#####
 - [Format Text and Value](/Documentation/Guide/Widgets/DataGrid/Summaries/Format_Text_and_Value/)
-<!--/fullDescription-->

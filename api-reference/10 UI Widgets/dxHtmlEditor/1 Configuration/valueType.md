@@ -1,15 +1,14 @@
-<!--id-->dxHtmlEditor.Options.valueType<!--/id-->
-===========================================================================
-<!--default-->'html'<!--/default-->
-<!--acceptValues-->'html' | 'markdown'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxHtmlEditor.Options.valueType
+acceptValues: 'html' | 'markdown'
+type: String
+default: 'html'
+---
+---
+##### shortDescription
+Specifies in which markup language the [value](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/#value) is stored.
 
-<!--shortDescription-->
-Specifies in which markup language the [value](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/#value) is stored. 
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 [note]
 
 Markdown requires the <a href="https://www.npmjs.com/package/turndown" target="_blank">turndown</a> and <a href="https://www.npmjs.com/package/showdown" target="_blank">showdown</a> libraries. If you use browser scripts, link them before the DevExtreme scripts. If you use JavaScript modules, import the Markdown converter:
@@ -28,4 +27,3 @@ Markdown requires the <a href="https://www.npmjs.com/package/turndown" target="_
     enum: "`HtmlEditorValueType`",
     values: "`Html` and `Markdown`"
 }
-<!--/fullDescription-->

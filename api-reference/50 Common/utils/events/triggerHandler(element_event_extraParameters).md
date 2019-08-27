@@ -1,32 +1,16 @@
-<!--id-->events.triggerHandler(element, event, extraParameters)<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-<!--module-->events<!--/module-->
-<!--export-->triggerHandler<!--/export-->
-===================================================================
+---
+id: events.triggerHandler(element, event, extraParameters)
+module: events
+export: triggerHandler
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### param(element): Node | Array<Node>
 
-<!--/shortDescription-->
+##### param(event): String | event
 
-<!--paramName1-->element<!--/paramName1-->
-<!--paramType1-->Node|Array<Node><!--/paramType1-->
-<!--paramDescription1-->
+##### param(extraParameters): Object
 
-<!--/paramDescription1-->
-
-<!--paramName2-->event<!--/paramName2-->
-<!--paramType2-->String|event<!--/paramType2-->
-<!--paramDescription2-->
-
-<!--/paramDescription2-->
-
-<!--paramName3-->extraParameters<!--/paramName3-->
-<!--paramType3-->Object<!--/paramType3-->
-<!--paramDescription3-->
-
-<!--/paramDescription3-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

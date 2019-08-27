@@ -1,19 +1,18 @@
-<!--id-->ODataStore<!--/id-->
-===========================================================================
-<!--module-->data/odata/store<!--/module-->
-<!--export-->default<!--/export-->
-<!--type-->Object<!--/type-->
-<!--inherits-->Store<!--/inherits-->
-<!--lib-->
-dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: ODataStore
+module: data/odata/store
+export: default
+type: Object
+inherits: Store
+---
+---
+##### shortDescription
 The **ODataStore** is a store that provides an interface for loading and editing data from an individual OData entity collection and handling related events.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### lib
+dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
+
+---
 ---
 ##### jQuery  
 
@@ -151,4 +150,3 @@ To access an entire OData service, use the [ODataContext](/Documentation/ApiRefe
 - [DataSource API Reference](/Documentation/ApiReference/Data_Layer/DataSource/)
 - [DataSource Examples - OData](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData)
 - [ASP.NET MVC Controls - Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/)
-<!--/fullDescription-->

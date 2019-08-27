@@ -1,24 +1,17 @@
-<!--id-->dxList.expandGroup(groupIndex)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxList.expandGroup(groupIndex)
+---
+---
+##### shortDescription
 Expands a group with a specific index.
-<!--/shortDescription-->
 
-<!--paramName1-->groupIndex<!--/paramName1-->
-<!--paramType1-->Number<!--/paramType1-->
-<!--paramDescription1-->
-The group's index.
-<!--/paramDescription1-->
-
-<!--returnType-->Promise<void><!--/returnType-->
-<!--returnDescription-->
+##### return: Promise<void>
 A Promise that is resolved if the group is expanded and rejected otherwise. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(groupIndex): Number
+The group's index.
+
+---
 #####See Also#####
 #include common-link-callmethods
 - [List - Expand and Collapse a Group](/Documentation/Guide/Widgets/List/Grouping/Expand_and_Collapse_a_Group/)
-<!--/fullDescription-->

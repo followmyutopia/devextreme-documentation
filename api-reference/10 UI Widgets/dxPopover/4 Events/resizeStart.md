@@ -1,27 +1,15 @@
-<!--id-->dxPopover.resizeStart<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->eventType<!--/type-->
-===========================================================================
+---
+id: dxPopover.resizeStart
+type: eventType
+hidden: 
+---
+---
+##### param(e): Object
 
+##### field(e.component): {WidgetName}
 
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
+##### field(e.element): dxElement
 
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
+##### field(e.model): Object
 
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-
-<!--/typeFunctionParamDescription1_field3-->
+---

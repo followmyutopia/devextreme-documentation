@@ -1,13 +1,10 @@
-<!--id-->dxScrollable.Options.useNative<!--/id-->
-===========================================================================
-<!--default-->true, false (desktop), true (Mac)<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxScrollable.Options.useNative
+type: Boolean
+default: true, false (desktop), true (Mac)
+---
+---
+##### shortDescription
 Indicates whether to use native or simulated scrolling.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

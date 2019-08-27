@@ -1,13 +1,10 @@
-<!--id-->dxPivotGrid.Options.headerFilter.width<!--/id-->
-===========================================================================
-<!--default-->252<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGrid.Options.headerFilter.width
+type: Number
+default: 252
+---
+---
+##### shortDescription
 Specifies the width of the popup menu containing filtering values.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

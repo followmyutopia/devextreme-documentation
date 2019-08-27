@@ -1,13 +1,12 @@
-<!--id-->GridBaseColumn.formItem<!--/id-->
-===========================================================================
-<!--type-->dxFormSimpleItem<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBaseColumn.formItem
+type: dxFormSimpleItem
+---
+---
+##### shortDescription
 Configures the form item that the column produces in the editing state. Applies only if **editing**.[mode]({basewidgetpath}/Configuration/editing/#mode) is *"form"* or *"popup"*.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 In the following code, the `Full_Name` grid column in the editing state produces a form item that spans two form columns. The item's label is on top of the editor:
 
 ---
@@ -92,4 +91,3 @@ In the following code, the `Full_Name` grid column in the editing state produces
 
 #####See Also#####
 - [Form Edit Mode](/Documentation/Guide/Widgets/{WidgetName}/Editing/#User_Interaction/Form_Mode)
-<!--/fullDescription-->

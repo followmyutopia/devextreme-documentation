@@ -1,12 +1,8 @@
-<!--id-->BaseLegendItem.marker<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
+---
+id: BaseLegendItem.marker
+type: Object
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

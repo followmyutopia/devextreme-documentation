@@ -1,15 +1,14 @@
-<!--id-->GridBase.Options.columns<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Array<GridBaseColumn, String><!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
-<!--inheritsType-->GridBaseColumn<!--/inheritsType-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.columns
+type: Array<GridBaseColumn, String>
+default: undefined
+firedEvents: optionChanged
+---
+---
+##### shortDescription
 Overridden.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### inheritsType
+GridBaseColumn
 
-<!--/fullDescription-->
+---

@@ -1,13 +1,10 @@
-<!--id-->GridBase.Options.filterPanel.texts.createFilter<!--/id-->
-===========================================================================
-<!--default-->'Create Filter'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.filterPanel.texts.createFilter
+type: String
+default: 'Create Filter'
+---
+---
+##### shortDescription
 The text of the *"Create Filter"* link.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

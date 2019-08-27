@@ -1,19 +1,16 @@
-<!--id-->dxTileView.Options.height<!--/id-->
-===========================================================================
-<!--default-->500<!--/default-->
-<!--type-->Number | String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTileView.Options.height
+type: Number | String
+default: 500
+---
+---
+##### shortDescription
 Specifies the widget's height.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### return: number|string
+The widget's height.
+
+---
 #include uiwidgets-ref-height
 
 [note] This option does not support the value `"auto"`.
-<!--/fullDescription-->
-<!--typeFunctionReturnType-->number|string<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-The widget's height.
-<!--/typeFunctionReturnDescription-->

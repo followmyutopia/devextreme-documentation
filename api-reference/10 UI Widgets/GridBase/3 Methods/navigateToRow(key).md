@@ -1,18 +1,14 @@
-<!--id-->GridBase.navigateToRow(key)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.navigateToRow(key)
+---
+---
+##### shortDescription
 Navigates the grid to the data page that contains the row with the specified key and scrolls the grid to display the row if it is not in the viewport.
-<!--/shortDescription-->
 
-<!--paramName1-->key<!--/paramName1-->
-<!--paramType1-->any<!--/paramType1-->
-<!--paramDescription1-->
+##### param(key): any
 The row's key.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 The following requirements apply when you use this method: 
 
 - The widget's [keyExpr]({basewidgetpath}/Configuration/#keyExpr) or the [store's](/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores) **key** option should be specified.
@@ -20,4 +16,3 @@ The following requirements apply when you use this method:
 
 #####See Also#####
 - [Focused Row](/Documentation/Guide/Widgets/{WidgetName}/Focused_Row/)
-<!--/fullDescription-->

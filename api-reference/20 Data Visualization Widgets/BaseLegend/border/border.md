@@ -1,12 +1,9 @@
-<!--id-->BaseLegend.border<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseLegend.border
+type: Object
+---
+---
+##### shortDescription
 Configures the legend's border.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

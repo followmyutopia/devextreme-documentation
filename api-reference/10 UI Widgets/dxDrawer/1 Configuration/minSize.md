@@ -1,14 +1,12 @@
-<!--id-->dxDrawer.Options.minSize<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
+---
+id: dxDrawer.Options.minSize
+type: Number
+default: null
+---
+---
+##### shortDescription
+Specifies the drawer's width or height (depending on the drawer's [position](/Documentation/ApiReference/UI_Widgets/dxDrawer/Configuration/#position)) in the closed state.
 
-<!--shortDescription-->
-Specifies the drawer's width or height (depending on the drawer's [position](/Documentation/ApiReference/UI_Widgets/dxDrawer/Configuration/#position)) in the closed state. 
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #####See Also#####
 - [maxSize](/Documentation/ApiReference/UI_Widgets/dxDrawer/Configuration/#maxSize)
-<!--/fullDescription-->

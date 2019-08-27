@@ -1,13 +1,10 @@
-<!--id-->dxScrollView.Options.pullingDownText<!--/id-->
-===========================================================================
-<!--default-->'Pull down to refresh...', '' (Material)<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxScrollView.Options.pullingDownText
+type: String
+default: 'Pull down to refresh...', '' (Material)
+---
+---
+##### shortDescription
 Specifies the text shown in the pullDown panel while pulling the content down to the refresh threshold.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,12 +1,8 @@
-<!--id-->OneDriveFileProvider.Options.sizeExpr<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
+---
+id: OneDriveFileProvider.Options.sizeExpr
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

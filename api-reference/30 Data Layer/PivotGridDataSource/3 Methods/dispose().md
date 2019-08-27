@@ -1,12 +1,11 @@
-<!--id-->PivotGridDataSource.dispose()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.dispose()
+---
+---
+##### shortDescription
 Disposes of all the resources allocated to the **PivotGridDataSource** instance.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -36,4 +35,3 @@ Disposes of all the resources allocated to the **PivotGridDataSource** instance.
 ---
 
 [note] Do not call this method if the widget created the **PivotGridDataSource** instance.
-<!--/fullDescription-->

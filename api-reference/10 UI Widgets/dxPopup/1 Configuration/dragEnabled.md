@@ -1,14 +1,13 @@
-<!--id-->dxPopup.Options.dragEnabled<!--/id-->
-===========================================================================
-<!--default-->false, true (desktop)<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPopup.Options.dragEnabled
+type: Boolean
+default: false, true (desktop)
+---
+---
+##### shortDescription
 Specifies whether or not to allow a user to drag the popup window.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 A user can drag the popup window by the title. Therefore, this option makes sense if the [showTitle](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#showTitle) option is set to true.
 
 [note]Dragging is possible only if the "height: 100%" style setting is applied to the **html** element and "min-height: 100%" - to the **body** element.
@@ -22,6 +21,3 @@ A user can drag the popup window by the title. Therefore, this option makes sens
         . . .
         </body>
     </html>
-
-
-<!--/fullDescription-->

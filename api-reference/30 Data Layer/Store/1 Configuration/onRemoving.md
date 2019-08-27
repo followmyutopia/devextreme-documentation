@@ -1,14 +1,16 @@
-<!--id-->Store.Options.onRemoving<!--/id-->
-<!--EventForAction-->Store.removing<!--/EventForAction-->
-===========================================================================
-<!--type-->function(key)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Store.Options.onRemoving
+type: function(key)
+EventForAction: Store.removing
+---
+---
+##### shortDescription
 A function that is executed before a data item is removed from the store.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(key): Object | String | Number
+The key of the data item to be removed.
+
+---
 ---
 ##### jQuery
 
@@ -36,9 +38,3 @@ A function that is executed before a data item is removed from the store.
     }
     
 ---
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->key<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object|String|Number<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The key of the data item to be removed.
-<!--/typeFunctionParamDescription1-->

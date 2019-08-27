@@ -1,13 +1,10 @@
-<!--id-->dxActionSheet.Options.title<!--/id-->
-===========================================================================
-<!--default-->''<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxActionSheet.Options.title
+type: String
+default: ''
+---
+---
+##### shortDescription
 The title of the action sheet.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

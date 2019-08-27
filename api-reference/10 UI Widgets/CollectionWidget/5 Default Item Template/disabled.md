@@ -1,13 +1,10 @@
-<!--id-->CollectionWidgetItem.disabled<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: CollectionWidgetItem.disabled
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether a widget item should be disabled.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

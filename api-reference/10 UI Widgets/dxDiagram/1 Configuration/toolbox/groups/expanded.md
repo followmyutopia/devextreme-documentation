@@ -1,12 +1,8 @@
-<!--id-->dxDiagram.Options.toolbox.groups.expanded<!--/id-->
-===========================================================================
-<!--type-->Boolean<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.toolbox.groups.expanded
+type: Boolean
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

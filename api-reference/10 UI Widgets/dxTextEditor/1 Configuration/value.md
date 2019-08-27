@@ -1,13 +1,10 @@
-<!--id-->dxTextEditor.Options.value<!--/id-->
-===========================================================================
-<!--default-->''<!--/default-->
-<!--type-->any<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTextEditor.Options.value
+type: any
+default: ''
+---
+---
+##### shortDescription
 Specifies the current value displayed by the widget.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

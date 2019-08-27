@@ -1,13 +1,10 @@
-<!--id-->MapLocation.lat<!--/id-->
-===========================================================================
-<!--default-->0<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: MapLocation.lat
+type: Number
+default: 0
+---
+---
+##### shortDescription
 The latitude location of the widget.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,13 +1,12 @@
-<!--id-->BaseChart.Options.adaptiveLayout<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseChart.Options.adaptiveLayout
+type: Object
+---
+---
+##### shortDescription
 Specifies adaptive layout options.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The adaptive layout enables the widget to hide optional elements if they do not fit in the container. Elements are hidden in the following sequence:
 
 1. [Title]({basewidgetpath}/Configuration/title)
@@ -23,4 +22,3 @@ Use the **height** and **width** options in the **adaptiveLayout** object to spe
 
 #####See Also#####
 - [Adaptive Layout](/Documentation/Guide/Widgets/{WidgetName}/Adaptive_Layout/)
-<!--/fullDescription-->

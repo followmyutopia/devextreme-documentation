@@ -1,13 +1,10 @@
-<!--id-->dxDataGrid.Options.summary.texts.count<!--/id-->
-===========================================================================
-<!--default-->'Count={0}'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.Options.summary.texts.count
+type: String
+default: 'Count={0}'
+---
+---
+##### shortDescription
 Specifies a pattern for the *"count"* summary items.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

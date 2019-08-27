@@ -1,13 +1,10 @@
-<!--id-->ChartSeries.tag<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->any<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: ChartSeries.tag
+type: any
+default: undefined
+---
+---
+##### shortDescription
 Specifies data about a series.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

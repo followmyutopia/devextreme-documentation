@@ -1,14 +1,11 @@
-<!--id-->BaseLegend.itemTextPosition<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--acceptValues-->'bottom' | 'left' | 'right' | 'top'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseLegend.itemTextPosition
+acceptValues: 'bottom' | 'left' | 'right' | 'top'
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies the text's position relative to the marker in a legend item.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

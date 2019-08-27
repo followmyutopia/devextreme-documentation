@@ -1,17 +1,14 @@
-<!--id-->DOMComponent.Options.width<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number | String | function()<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: DOMComponent.Options.width
+type: Number | String | function()
+default: undefined
+---
+---
+##### shortDescription
 Specifies the widget's width.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-#include uiwidgets-ref-width
-<!--/fullDescription-->
-<!--typeFunctionReturnType-->Number|String<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
+##### return: Number | String
 The widget's width.
-<!--/typeFunctionReturnDescription-->
+
+---
+#include uiwidgets-ref-width

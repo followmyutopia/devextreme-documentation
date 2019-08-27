@@ -1,15 +1,14 @@
-<!--id-->dxPivotGrid.Options.scrolling.mode<!--/id-->
-===========================================================================
-<!--default-->'standard'<!--/default-->
-<!--acceptValues-->'standard' | 'virtual'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGrid.Options.scrolling.mode
+acceptValues: 'standard' | 'virtual'
+type: String
+default: 'standard'
+---
+---
+##### shortDescription
 Specifies the scrolling mode.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 There are two different scrolling modes.
 
 - **Standard Mode**        
@@ -26,4 +25,3 @@ There are two different scrolling modes.
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/PivotGrid/VirtualScrolling/jQuery/Light/"
 }
-<!--/fullDescription-->

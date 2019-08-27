@@ -1,13 +1,10 @@
-<!--id-->dxSliderBase.Options.showRange<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSliderBase.Options.showRange
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether to highlight the selected range.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

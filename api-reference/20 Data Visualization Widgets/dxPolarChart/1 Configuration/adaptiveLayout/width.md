@@ -1,6 +1,5 @@
-<!--id-->dxPolarChart.Options.adaptiveLayout.width<!--/id-->
-===========================================================================
-<!--default-->170<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
+---
+id: dxPolarChart.Options.adaptiveLayout.width
+type: Number
+default: 170
+---

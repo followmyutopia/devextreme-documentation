@@ -1,13 +1,18 @@
-<!--id-->dxDropDownBox.Options.displayValueFormatter<!--/id-->
-===========================================================================
-<!--type-->function(value)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDropDownBox.Options.displayValueFormatter
+type: function(value)
+---
+---
+##### shortDescription
 Customizes text before it is displayed in the input field.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(value): String | Array<any>
+One or more values from the [displayExpr](/Documentation/ApiReference/UI_Widgets/dxDropDownBox/Configuration/#displayExpr) that correspond(s) to the selected [widget values](/Documentation/ApiReference/UI_Widgets/dxDropDownBox/Configuration/#value).
+
+##### return: String
+Text for the input field.
+
+---
 This function receives values from the data field set in the [displayExpr](/Documentation/ApiReference/UI_Widgets/dxDropDownBox/Configuration/#displayExpr) option and should return a string that contains text for the input field. If the **displayExpr** is not set, the function receives full data objects. 
 
 The following code demonstrates how to change separators from commas to semicolons by using the **displayValueFormatter** function. You can try it if you copy this code to the [Multiple Selection demo](/Demos/WidgetsGallery/Demo/DropDownBox/MultipleSelection/jQuery/Light/):
@@ -127,14 +132,3 @@ The following code demonstrates how to change separators from commas to semicolo
     export default App;
 
 ---
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->value<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->String|Array<any><!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-One or more values from the [displayExpr](/Documentation/ApiReference/UI_Widgets/dxDropDownBox/Configuration/#displayExpr) that correspond(s) to the selected [widget values](/Documentation/ApiReference/UI_Widgets/dxDropDownBox/Configuration/#value).
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-Text for the input field.
-<!--/typeFunctionReturnDescription-->

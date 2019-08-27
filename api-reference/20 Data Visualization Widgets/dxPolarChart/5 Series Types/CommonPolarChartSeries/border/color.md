@@ -1,14 +1,14 @@
-<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.border.color<!--/id-->
-===========================================================================
-<!--propertyOf-->dxPolarChartSeriesTypes.areapolarseries,dxPolarChartSeriesTypes.barpolarseries,dxPolarChartSeriesTypes.stackedbarpolarseries<!--/propertyOf-->
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.CommonPolarChartSeries.border.color
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Sets a border color for a series.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### propertyOf
+dxPolarChartSeriesTypes.areapolarseries,dxPolarChartSeriesTypes.barpolarseries,dxPolarChartSeriesTypes.stackedbarpolarseries
+
+---
 #include common-colorlist
-<!--/fullDescription-->

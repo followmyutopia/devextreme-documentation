@@ -1,23 +1,16 @@
-<!--id-->EventsMixin.off(eventName)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: EventsMixin.off(eventName)
+---
+---
+##### shortDescription
 Detaches all event handlers from a single event.
-<!--/shortDescription-->
 
-<!--paramName1-->eventName<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
-<!--paramDescription1-->
-The event's name.
-<!--/paramDescription1-->
-
-<!--returnType-->{WidgetName}<!--/returnType-->
-<!--returnDescription-->
+##### return: {WidgetName}
 The object for which this method is called.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(eventName): String
+The event's name.
+
+---
 #####See Also#####
 #include common-link-handleevents
-<!--/fullDescription-->

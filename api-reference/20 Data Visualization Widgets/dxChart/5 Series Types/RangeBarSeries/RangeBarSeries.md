@@ -1,15 +1,15 @@
-<!--id-->dxChartSeriesTypes.RangeBarSeries<!--/id-->
-===========================================================================
-<!--hidePropertyOf--><!--/hidePropertyOf-->
-<!--type-->Object<!--/type-->
-<!--inherits-->dxChartSeriesTypes.CommonSeries<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.RangeBarSeries
+type: Object
+inherits: dxChartSeriesTypes.CommonSeries
+---
+---
+##### shortDescription
 Describes settings supported by a series of the *range bar* type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### hidePropertyOf
+
+---
 #include dataviz-ref-series-type with { 
     seriesType: "rangebar"
 }
@@ -19,4 +19,3 @@ Describes settings supported by a series of the *range bar* type.
 }
 
 ![DevExtreme HTML5 Charts RangeBarSeriesType](/Content/images/doc/19_2/ChartJS/RangeBar.png)
-<!--/fullDescription-->

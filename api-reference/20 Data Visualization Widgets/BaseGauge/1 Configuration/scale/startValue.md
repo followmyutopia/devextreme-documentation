@@ -1,14 +1,12 @@
-<!--id-->BaseGauge.Options.scale.startValue<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--default-->0<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseGauge.Options.scale.startValue
+type: Number
+default: 0
+---
+---
+##### shortDescription
 Specifies the start value for the scale of the gauge.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### notUsedInTheme
 
-<!--/fullDescription-->
+---

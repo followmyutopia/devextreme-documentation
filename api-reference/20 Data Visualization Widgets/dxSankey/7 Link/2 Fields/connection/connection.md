@@ -1,12 +1,9 @@
-<!--id-->dxSankeyLink.connection<!--/id-->
-===========================================================================
-<!--type-->dxSankeyConnectionInfoObject<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSankeyLink.connection
+type: dxSankeyConnectionInfoObject
+---
+---
+##### shortDescription
 An object that describes the connection.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

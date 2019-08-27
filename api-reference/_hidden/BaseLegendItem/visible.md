@@ -1,12 +1,8 @@
-<!--id-->BaseLegendItem.visible<!--/id-->
-===========================================================================
-<!--type-->Boolean<!--/type-->
-===========================================================================
+---
+id: BaseLegendItem.visible
+type: Boolean
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

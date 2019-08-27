@@ -1,13 +1,12 @@
-<!--id-->dxTreeMap.Options.group<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMap.Options.group
+type: Object
+---
+---
+##### shortDescription
 Configures groups.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 A group is an element that collects several [tiles](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/tile/) in it. In terms of data, it is a node that has children in the current context. Groups appear only if the [data source](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#dataSource) implies a hierarchical structure.
 
 The following list provides an overview of group features that you can configure using the **group** object.
@@ -24,4 +23,3 @@ A group can be in the [hover](/Documentation/ApiReference/Data_Visualization_Wid
 Specify the fields of the [border](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/group/border/) object to configure group borders.
 
 An object assigned to the **group** field configures all groups in the widget. To customize a specific group, pass a similar object to the [customize(options)](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#customizeoptions) method of the node represented by the group.
-<!--/fullDescription-->

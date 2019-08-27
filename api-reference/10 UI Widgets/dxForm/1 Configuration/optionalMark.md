@@ -1,14 +1,12 @@
-<!--id-->dxForm.Options.optionalMark<!--/id-->
-===========================================================================
-<!--default-->'optional'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxForm.Options.optionalMark
+type: String
+default: 'optional'
+---
+---
+##### shortDescription
 The text displayed for optional fields.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 - [Additional Marks](/Documentation/Guide/Widgets/Form/Configure_Item_Labels/Additional_Marks/)
-<!--/fullDescription-->

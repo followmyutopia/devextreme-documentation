@@ -1,15 +1,15 @@
-<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.hoverStyle.dashStyle<!--/id-->
-===========================================================================
-<!--propertyOf-->dxPolarChartSeriesTypes.linepolarseries<!--/propertyOf-->
-<!--default-->'solid'<!--/default-->
-<!--acceptValues-->'dash' | 'dot' | 'longDash' | 'solid'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.CommonPolarChartSeries.hoverStyle.dashStyle
+acceptValues: 'dash' | 'dot' | 'longDash' | 'solid'
+type: String
+default: 'solid'
+---
+---
+##### shortDescription
 Specifies the dash style for the line in a hovered series.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### propertyOf
+dxPolarChartSeriesTypes.linepolarseries
+
+---
 #include dataviz-ref-dashstyle
-<!--/fullDescription-->

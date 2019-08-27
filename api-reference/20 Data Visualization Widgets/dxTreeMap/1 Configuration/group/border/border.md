@@ -1,12 +1,9 @@
-<!--id-->dxTreeMap.Options.group.border<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMap.Options.group.border
+type: Object
+---
+---
+##### shortDescription
 Configures the group borders.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

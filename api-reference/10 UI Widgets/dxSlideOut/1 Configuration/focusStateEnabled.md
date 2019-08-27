@@ -1,5 +1,4 @@
-<!--id-->dxSlideOut.Options.focusStateEnabled<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxSlideOut.Options.focusStateEnabled
+hidden: 
+---

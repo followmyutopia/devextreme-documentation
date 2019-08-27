@@ -1,4 +1,8 @@
-<!--id-->dxRangeSelector.Options.sliderMarker.font.color<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->'#FFFFFF'<!--/default-->
-===========================================================================
+---
+id: dxRangeSelector.Options.sliderMarker.font.color
+default: '#FFFFFF'
+---
+---
+##### merge
+
+---

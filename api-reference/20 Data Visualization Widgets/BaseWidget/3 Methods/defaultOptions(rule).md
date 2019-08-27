@@ -1,12 +1,8 @@
-<!--id-->BaseWidget.defaultOptions(rule)<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
+---
+id: BaseWidget.defaultOptions(rule)
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

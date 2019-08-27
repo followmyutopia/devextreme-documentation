@@ -1,13 +1,9 @@
-<!--id-->dxDiagram.Options.gridSize<!--/id-->
-===========================================================================
-<!--default-->0.125<!--/default-->
-<!--type-->Number | Object<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.gridSize
+type: Number | Object
+default: 0.125
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

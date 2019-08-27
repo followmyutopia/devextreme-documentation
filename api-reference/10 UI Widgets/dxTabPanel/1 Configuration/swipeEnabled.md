@@ -1,6 +1,5 @@
-<!--id-->dxTabPanel.Options.swipeEnabled<!--/id-->
-===========================================================================
-<!--default-->false (non-touch_devices)<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxTabPanel.Options.swipeEnabled
+type: Boolean
+default: false (non-touch_devices)
+---

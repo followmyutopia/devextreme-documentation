@@ -1,8 +1,7 @@
-===========================================================================
-<!--merge--><!--/merge-->
-===========================================================================
+---
+##### merge
 
-<!--fullDescription-->
+---
 #include uiwidgets-ref-width
 
 [note]
@@ -13,5 +12,3 @@ Even if the width of the widget is specified, the count of columns may depend on
     screenByWidth: function() { }
 
 [/note]
-
-<!--/fullDescription-->

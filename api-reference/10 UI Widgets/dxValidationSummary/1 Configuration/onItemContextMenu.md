@@ -1,6 +1,5 @@
-<!--id-->dxValidationSummary.Options.onItemContextMenu<!--/id-->
-<!--EventForAction-->dxValidationSummary.itemContextMenu<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxValidationSummary.Options.onItemContextMenu
+hidden: 
+EventForAction: dxValidationSummary.itemContextMenu
+---

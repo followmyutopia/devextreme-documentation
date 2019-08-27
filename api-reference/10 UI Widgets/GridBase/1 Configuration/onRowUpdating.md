@@ -1,15 +1,39 @@
-<!--id-->GridBase.Options.onRowUpdating<!--/id-->
-<!--EventForAction-->GridBase.rowUpdating<!--/EventForAction-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->function(e)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.onRowUpdating
+type: function(e)
+default: null
+EventForAction: GridBase.rowUpdating
+---
+---
+##### shortDescription
 A function that is executed before a row is updated in the data source.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(e): Object
+Information about the event that caused the function's execution.
+
+##### field(e.cancel): Boolean | Promise<void>
+**true**, a Promise resolved with **true**, or a rejected Promise stops row updating.       
+**false** or a Promise resolved with **false** or **undefined** continues row updating.
+
+##### field(e.component): {WidgetName}
+The widget's instance.
+
+##### field(e.element): dxElement
+#include common-ref-elementparam with { element: "widget" }
+
+##### field(e.key): any
+The row's key.
+
+##### field(e.model): Object
+The model data. Available only if you use Knockout.
+
+##### field(e.newData): Object
+The row's updated data.
+
+##### field(e.oldData): Object
+The row's old data.
+
+---
 [note] In batch [editing mode]({basewidgetpath}/Configuration/editing/#mode), this function is executed for each row individually if several rows should be updated.
 
 The following code shows how to use the function parameter's **cancel** field to prevent or continue row updating. In this code, a Promise is assigned to this field. Row updating continues if row data validation on the server succeeds (the Promise is resolved); otherwise, row updating is prevented (the Promise is rejected).
@@ -71,46 +95,3 @@ The following code shows how to use the function parameter's **cancel** field to
     </dx-{widget-name}>
 
 ---
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the event that caused the function's execution.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-#include common-ref-elementparam with { element: "widget" }
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The model data. Available only if you use Knockout.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->oldData<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-The row's old data.
-<!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamName1_field5-->newData<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->Object<!--/typeFunctionParamType1_field5-->
-<!--typeFunctionParamDescription1_field5-->
-The row's updated data.
-<!--/typeFunctionParamDescription1_field5-->
-<!--typeFunctionParamName1_field6-->key<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->any<!--/typeFunctionParamType1_field6-->
-<!--typeFunctionParamDescription1_field6-->
-The row's key. 
-<!--/typeFunctionParamDescription1_field6-->
-<!--typeFunctionParamName1_field7-->cancel<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->Boolean | Promise<void><!--/typeFunctionParamType1_field7-->
-<!--typeFunctionParamDescription1_field7-->
-**true**, a Promise resolved with **true**, or a rejected Promise stops row updating.       
-**false** or a Promise resolved with **false** or **undefined** continues row updating.
-<!--/typeFunctionParamDescription1_field7-->

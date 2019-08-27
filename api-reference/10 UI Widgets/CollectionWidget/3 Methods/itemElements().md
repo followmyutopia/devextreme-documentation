@@ -1,17 +1,10 @@
-<!--id-->CollectionWidget.itemElements()<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
+---
+id: CollectionWidget.itemElements()
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### return: Array<Node>
 
-<!--/shortDescription-->
-
-<!--returnType-->Array<Node><!--/returnType-->
-<!--returnDescription-->
-
-<!--/returnDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

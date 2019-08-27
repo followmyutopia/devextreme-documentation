@@ -1,15 +1,11 @@
-<!--id-->dxResizable.Options.stepPrecision<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--default-->'simple'<!--/default-->
-<!--acceptValues-->'simple' | 'strict'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxResizable.Options.stepPrecision
+acceptValues: 'simple' | 'strict'
+type: String
+default: 'simple'
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

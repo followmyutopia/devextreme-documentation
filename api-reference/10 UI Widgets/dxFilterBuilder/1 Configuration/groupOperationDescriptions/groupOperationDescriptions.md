@@ -1,13 +1,11 @@
-<!--id-->dxFilterBuilder.Options.groupOperationDescriptions<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFilterBuilder.Options.groupOperationDescriptions
+type: Object
+---
+---
+##### shortDescription
 Specifies group operation descriptions.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 - [groupOperations](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#groupOperations)
-<!--/fullDescription-->

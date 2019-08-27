@@ -1,17 +1,14 @@
-<!--id-->DataSource.totalCount()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.totalCount()
+---
+---
+##### shortDescription
 Gets the number of data items in the store after the last [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) operation without paging. Takes effect only if [requireTotalCount](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#requireTotalCount) is **true**
-<!--/shortDescription-->
 
-<!--returnType-->Number<!--/returnType-->
-<!--returnDescription-->
+##### return: Number
 The number of data items.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -40,4 +37,3 @@ The number of data items.
     }
 
 ---
-<!--/fullDescription-->

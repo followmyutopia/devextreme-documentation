@@ -1,12 +1,9 @@
-<!--id-->dxRangeSelector.Options.scale.breakStyle<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.scale.breakStyle
+type: Object
+---
+---
+##### shortDescription
 Configures the scale breaks' appearance.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

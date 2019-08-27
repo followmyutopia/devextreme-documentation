@@ -1,13 +1,10 @@
-<!--id-->BaseWidget.Options.margin.left<!--/id-->
-===========================================================================
-<!--default-->0<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseWidget.Options.margin.left
+type: Number
+default: 0
+---
+---
+##### shortDescription
 Specifies the left margin of the widget in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

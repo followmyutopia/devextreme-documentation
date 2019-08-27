@@ -1,16 +1,11 @@
-<!--id-->MapLayer.getElements()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: MapLayer.getElements()
+---
+---
+##### shortDescription
 Gets all layer elements.
-<!--/shortDescription-->
 
-<!--returnType-->Array<MapLayerElement><!--/returnType-->
-<!--returnDescription-->
+##### return: Array<MapLayerElement>
 The array of [layer elements](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element/).
-<!--/returnDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

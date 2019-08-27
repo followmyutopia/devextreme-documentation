@@ -1,14 +1,11 @@
-<!--id-->dxToolbar.Options.selectedIndex<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--default-->-1<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxToolbar.Options.selectedIndex
+type: Number
+default: -1
+hidden: 
+---
+---
+##### shortDescription
 The index of the currently selected widget item.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

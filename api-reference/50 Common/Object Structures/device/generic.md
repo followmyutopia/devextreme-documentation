@@ -1,12 +1,9 @@
-<!--id-->Device.generic<!--/id-->
-===========================================================================
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Device.generic
+type: Boolean
+---
+---
+##### shortDescription
 Indicates whether or not the device platform is generic, which means that the application will look and behave according to a generic "light" or "dark" [theme](/Documentation/Guide/Themes_and_Styles/Predefined_Themes/).
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

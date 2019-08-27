@@ -1,16 +1,12 @@
-<!--id-->dxPieChart.Options.legend.customizeItems<!--/id-->
-===========================================================================
-<!--type-->function(items)<!--/type-->
-===========================================================================
-
-
-<!--typeFunctionParamName1-->items<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Array<PieChartLegendItem><!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
+---
+id: dxPieChart.Options.legend.customizeItems
+type: function(items)
+---
+---
+##### param(items): Array<PieChartLegendItem>
 Legend items before customizations.
-<!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->Array<PieChartLegendItem><!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
+##### return: Array<PieChartLegendItem>
 Legend items after customizations.
-<!--/typeFunctionReturnDescription-->
+
+---

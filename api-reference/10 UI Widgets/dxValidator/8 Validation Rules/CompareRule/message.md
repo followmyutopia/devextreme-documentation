@@ -1,15 +1,13 @@
-<!--id-->CompareRule.message<!--/id-->
-===========================================================================
-<!--default-->'Values do not match'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: CompareRule.message
+type: String
+default: 'Values do not match'
+---
+---
+##### shortDescription
 Specifies the message that is shown for end-users if the current rule is broken.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 You do not have to specify this field. In this instance, a default message will be shown. To include the name of the validated editor into the default validation message as a subject, set the [name](/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#name) field of the **dxValidator** object.
 
 If you assign an empty string to the **message** field, the message will not be shown.
-<!--/fullDescription-->

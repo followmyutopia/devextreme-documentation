@@ -1,22 +1,15 @@
-<!--id-->viz.map.projection.get(name)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: viz.map.projection.get(name)
+---
+---
+##### shortDescription
 Gets the default or custom projection from the projection storage.
-<!--/shortDescription-->
 
-<!--paramName1-->name<!--/paramName1-->
-<!--paramType1-->String|'equirectangular'|'lambert'|'mercator'|'miller'<!--/paramType1-->
-<!--paramDescription1-->
-The projection's name.
-<!--/paramDescription1-->
-
-<!--returnType-->Object<!--/returnType-->
-<!--returnDescription-->
+##### return: Object
 The projection.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(name): String | 'equirectangular' | 'lambert' | 'mercator' | 'miller'
+The projection's name.
+
+---
 To apply the projection, assign the returning object to the [projection](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/#projection) option of the  widget.
-<!--/fullDescription-->

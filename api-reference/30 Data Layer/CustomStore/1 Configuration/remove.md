@@ -1,13 +1,18 @@
-<!--id-->CustomStore.Options.remove<!--/id-->
-===========================================================================
-<!--type-->function(key)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: CustomStore.Options.remove
+type: function(key)
+---
+---
+##### shortDescription
 Specifies a custom implementation of the [remove(key)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#removekey) method.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(key): Object | String | Number
+The key of the data item to be removed.
+
+##### return: Promise<void>
+A Promise that is resolved after the data item is removed. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
+
+---
 ---
 ##### jQuery
 
@@ -51,14 +56,3 @@ Specifies a custom implementation of the [remove(key)](/Documentation/ApiReferen
     })
 
 ---
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->key<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object|String|Number<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The key of the data item to be removed.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->Promise<void><!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A Promise that is resolved after the data item is removed. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
-<!--/typeFunctionReturnDescription-->

@@ -1,23 +1,17 @@
-<!--id-->GridBase.selectRowsByIndexes(indexes)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.selectRowsByIndexes(indexes)
+---
+---
+##### shortDescription
 Selects rows with specific indexes.
-<!--/shortDescription-->
 
-<!--paramName1-->indexes<!--/paramName1-->
-<!--paramType1-->Array<Number><!--/paramType1-->
-<!--paramDescription1-->
-The row indexes.
-<!--/paramDescription1-->
-
-<!--returnType-->Promise<any><!--/returnType-->
-<!--returnDescription-->
+##### return: Promise<any>
 A Promise that is resolved after the rows are selected. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(indexes): Array<Number>
+The row indexes.
+
+---
 This method has the following specifics:
 
 - This method call clears selection of all previously selected rows.
@@ -27,4 +21,3 @@ This method has the following specifics:
 #####See Also#####
 #include common-link-callmethods
 - [Initial and Runtime Selection](/Documentation/Guide/Widgets/DataGrid/Selection/#API/Initial_and_Runtime_Selection)
-<!--/fullDescription-->

@@ -1,17 +1,11 @@
-<!--id-->baseLabelObject.hide(holdInvisible)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: baseLabelObject.hide(holdInvisible)
+---
+---
+##### shortDescription
 Hides the point label and keeps it invisible until the [show()]({basewidgetpath}/Chart_Elements/Label/Methods/#show) method is called.
-<!--/shortDescription-->
 
-<!--paramName1-->holdInvisible<!--/paramName1-->
-<!--paramType1-->Boolean<!--/paramType1-->
-<!--paramDescription1-->
+##### param(holdInvisible): Boolean
 Specifies whether to keep the point label invisible.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

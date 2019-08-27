@@ -1,12 +1,9 @@
-<!--id-->BaseGauge.Options.rangeContainer.ranges.startValue<!--/id-->
-===========================================================================
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseGauge.Options.rangeContainer.ranges.startValue
+type: Number
+---
+---
+##### shortDescription
 Specifies a start value of a range.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

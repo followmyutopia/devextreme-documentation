@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.CandleStickSeries.selectionStyle<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.CandleStickSeries.selectionStyle
+type: Object
+---

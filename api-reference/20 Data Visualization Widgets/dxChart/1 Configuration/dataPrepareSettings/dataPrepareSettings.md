@@ -1,13 +1,12 @@
-<!--id-->dxChart.Options.dataPrepareSettings<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.dataPrepareSettings
+type: Object
+---
+---
+##### shortDescription
 Processes data before visualizing it.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The following code shows the **dataPrepareSettings** declaration syntax:
 
 ---
@@ -121,4 +120,3 @@ The following code shows the **dataPrepareSettings** declaration syntax:
     export default App;
 
 ---
-<!--/fullDescription-->

@@ -1,15 +1,14 @@
-<!--id-->dxChartSeriesTypes.LineSeries.selectionMode<!--/id-->
-===========================================================================
-<!--default-->'includePoints'<!--/default-->
-<!--acceptValues-->'includePoints' | 'excludePoints' | 'none'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.LineSeries.selectionMode
+acceptValues: 'includePoints' | 'excludePoints' | 'none'
+type: String
+default: 'includePoints'
+---
+---
+##### shortDescription
 Specifies series elements to be highlighted when a user selects a series.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 [note]Though not provided out of the box, the selection capability can be implemented using the widget API. Refer to the [onSeriesClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onSeriesClick) option description for details.
 
 When a user selects a series, it may react in one of the following ways depending on the value of the **selectionMode** option.
@@ -50,4 +49,3 @@ When a user selects a series, it may react in one of the following ways dependin
 - **series**.[selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/LineSeries/selectionStyle/) - specifies the appearance of a series in the selected state.
 - **series**.**point**.[selectionMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/LineSeries/point/#selectionMode) - specifies the selection mode of series points.
 - [seriesSelectionChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#seriesSelectionChanged) - an event that fires after the selection state of a series has been changed.
-<!--/fullDescription-->

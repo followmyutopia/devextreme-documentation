@@ -1,12 +1,8 @@
-<!--id-->dxDiagram.Options.customShapes.defaultText<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.customShapes.defaultText
+type: String
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

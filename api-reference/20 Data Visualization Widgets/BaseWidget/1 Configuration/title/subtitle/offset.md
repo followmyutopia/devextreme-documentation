@@ -1,13 +1,10 @@
-<!--id-->BaseWidget.Options.title.subtitle.offset<!--/id-->
-===========================================================================
-<!--default-->0<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseWidget.Options.title.subtitle.offset
+type: Number
+default: 0
+---
+---
+##### shortDescription
 Specifies the distance between the [title]({basewidgetpath}/Configuration/title/) and subtitle in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

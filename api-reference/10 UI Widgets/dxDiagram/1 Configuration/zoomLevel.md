@@ -1,13 +1,9 @@
-<!--id-->dxDiagram.Options.zoomLevel<!--/id-->
-===========================================================================
-<!--default-->1<!--/default-->
-<!--type-->Number | Object<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.zoomLevel
+type: Number | Object
+default: 1
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

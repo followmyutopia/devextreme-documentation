@@ -1,16 +1,18 @@
-<!--id-->dxChartSeriesTypes.CommonSeries.valueField<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--propertyOf-->dxChartSeriesTypes.LineSeries,dxChartSeriesTypes.StackedLineSeries,dxChartSeriesTypes.FullStackedLineSeries,dxChartSeriesTypes.StackedSplineSeries,dxChartSeriesTypes.FullStackedSplineSeries,dxChartSeriesTypes.SplineSeries,dxChartSeriesTypes.StepLineSeries,dxChartSeriesTypes.AreaSeries,dxChartSeriesTypes.StackedAreaSeries,dxChartSeriesTypes.StackedSplineAreaSeries,dxChartSeriesTypes.FullStackedAreaSeries,dxChartSeriesTypes.FullStackedSplineAreaSeries,dxChartSeriesTypes.SplineAreaSeries,dxChartSeriesTypes.StepAreaSeries,dxChartSeriesTypes.ScatterSeries,dxChartSeriesTypes.BarSeries,dxChartSeriesTypes.StackedBarSeries,dxChartSeriesTypes.FullStackedBarSeries,dxChartSeriesTypes.BubbleSeries<!--/propertyOf-->
-<!--default-->'val'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.CommonSeries.valueField
+type: String
+default: 'val'
+---
+---
+##### shortDescription
 Specifies which data source field provides values for series points.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### propertyOf
+dxChartSeriesTypes.LineSeries,dxChartSeriesTypes.StackedLineSeries,dxChartSeriesTypes.FullStackedLineSeries,dxChartSeriesTypes.StackedSplineSeries,dxChartSeriesTypes.FullStackedSplineSeries,dxChartSeriesTypes.SplineSeries,dxChartSeriesTypes.StepLineSeries,dxChartSeriesTypes.AreaSeries,dxChartSeriesTypes.StackedAreaSeries,dxChartSeriesTypes.StackedSplineAreaSeries,dxChartSeriesTypes.FullStackedAreaSeries,dxChartSeriesTypes.FullStackedSplineAreaSeries,dxChartSeriesTypes.SplineAreaSeries,dxChartSeriesTypes.StepAreaSeries,dxChartSeriesTypes.ScatterSeries,dxChartSeriesTypes.BarSeries,dxChartSeriesTypes.StackedBarSeries,dxChartSeriesTypes.FullStackedBarSeries,dxChartSeriesTypes.BubbleSeries
+
+##### notUsedInTheme
+
+---
 In the Cartesian coordinate system, each point is characterized by a pair of coordinates (X, Y). In a common case, X's are provided by the **argumentField**; Y's are provided by the **valueField**.
 
 Certain series types require more than one value field, because their points are characterized by a larger number of coordinates. These series types are:
@@ -21,4 +23,3 @@ Certain series types require more than one value field, because their points are
 [*Stock*](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/StockSeries/) and [*candlestick*](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/CandleStickSeries/) require four value fields: **openValueField**, **closeValueField**, **highValueField** and **lowValueField**.
 
 If you use a [series template](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/seriesTemplate/), specify the value field properties in the [commonSeriesSettings](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/) object. Otherwise, do this in the series object within the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/) array.
-<!--/fullDescription-->

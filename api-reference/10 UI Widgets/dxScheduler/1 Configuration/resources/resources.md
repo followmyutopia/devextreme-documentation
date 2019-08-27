@@ -1,14 +1,13 @@
-<!--id-->dxScheduler.Options.resources<!--/id-->
-===========================================================================
-<!--default-->[]<!--/default-->
-<!--type-->Array<Object><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler.Options.resources
+type: Array<Object>
+default: []
+---
+---
+##### shortDescription
 Specifies an array of resources available in the scheduler.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Each element of this array is an object that defines a resource kind - a room, a car or any other resource kind. A resource kind object must have at least the following fields.
 
 - [dataSource](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/#dataSource)  
@@ -22,4 +21,3 @@ There are more fields that can be specified within a resource kind object. They 
 #####See Also#####
 - **Demos**: [Resources](/Demos/WidgetsGallery/Demo/Scheduler/Resources/jQuery/Light/) | [Grouping by Resources](/Demos/WidgetsGallery/Demo/Scheduler/GroupedAppointments/jQuery/Light/)
 - [Resources](/Documentation/Guide/Widgets/Scheduler/Resources/Assign_Appointments_to_Resources/)
-<!--/fullDescription-->

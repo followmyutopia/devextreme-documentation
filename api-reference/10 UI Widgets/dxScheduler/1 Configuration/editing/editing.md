@@ -1,15 +1,13 @@
-<!--id-->dxScheduler.Options.editing<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean | Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler.Options.editing
+type: Boolean | Object
+default: true
+---
+---
+##### shortDescription
 Specifies which editing operations an end-user can perform on appointments.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Scheduler/Editing/jQuery/Light/"
 }
-<!--/fullDescription-->

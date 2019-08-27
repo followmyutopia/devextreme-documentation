@@ -1,17 +1,14 @@
-<!--id-->ArrayStore.createQuery()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: ArrayStore.createQuery()
+---
+---
+##### shortDescription
 Creates a **Query** for the underlying array.
-<!--/shortDescription-->
 
-<!--returnType-->Object<!--/returnType-->
-<!--returnDescription-->
+##### return: Object
 The [Query](/Documentation/ApiReference/Data_Layer/Query/) object.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -43,4 +40,3 @@ The [Query](/Documentation/ApiReference/Data_Layer/Query/) object.
 
 #####See Also#####
 - [Query Concept](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept)
-<!--/fullDescription-->

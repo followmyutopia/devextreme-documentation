@@ -1,14 +1,16 @@
-<!--id-->Store.Options.onRemoved<!--/id-->
-<!--EventForAction-->Store.removed<!--/EventForAction-->
-===========================================================================
-<!--type-->function(key)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Store.Options.onRemoved
+type: function(key)
+EventForAction: Store.removed
+---
+---
+##### shortDescription
 A function that is executed after a data item is removed from the store.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(key): Object | String | Number
+The removed data item's key.
+
+---
 ---
 ##### jQuery
 
@@ -36,9 +38,3 @@ A function that is executed after a data item is removed from the store.
     }
     
 ---
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->key<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object|String|Number<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The removed data item's key.
-<!--/typeFunctionParamDescription1-->

@@ -1,18 +1,14 @@
-<!--id-->dxBarGauge.values(newValues)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxBarGauge.values(newValues)
+---
+---
+##### shortDescription
 Updates all the [values](/Documentation/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/#values).
-<!--/shortDescription-->
 
-<!--paramName1-->values<!--/paramName1-->
-<!--paramType1-->Array<Number><!--/paramType1-->
-<!--paramDescription1-->
+##### param(values): Array<Number>
 New values.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 Use this method to change gauge values at runtime.
 
 #include common-demobutton with {
@@ -21,4 +17,3 @@ Use this method to change gauge values at runtime.
 
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

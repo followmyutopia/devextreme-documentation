@@ -1,13 +1,12 @@
-<!--id-->PivotGridDataSource.Options.store<!--/id-->
-===========================================================================
-<!--type-->Store | Store_Options | XmlaStore | XmlaStore_Options | Array<Object> | Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.Options.store
+type: Store | Store_Options | XmlaStore | XmlaStore_Options | Array<Object> | Object
+---
+---
+##### shortDescription
 Configures the **DataSource**'s underlying store.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This option accepts one of the following:
 
 * **Store instance**            
@@ -80,4 +79,3 @@ Assigning an array to the **store** option automatically creates an **ArrayStore
 ---
 
 See the [Use CustomStore](/Documentation/Guide/Widgets/PivotGrid/Use_CustomStore/) topic for information on how to implement custom data access logic.
-<!--/fullDescription-->

@@ -1,17 +1,14 @@
-<!--id-->EdmLiteral.valueOf()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: EdmLiteral.valueOf()
+---
+---
+##### shortDescription
 Gets the **EdmLiteral**'s value converted to a string.
-<!--/shortDescription-->
 
-<!--returnType-->String<!--/returnType-->
-<!--returnDescription-->
+##### return: String
 The value.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -32,4 +29,3 @@ The value.
     }
 
 ---
-<!--/fullDescription-->

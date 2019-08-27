@@ -1,13 +1,12 @@
-<!--id-->format.precision<!--/id-->
-===========================================================================
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: format.precision
+type: Number
+---
+---
+##### shortDescription
 Specifies a precision for values of a numeric format.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This option applies when the [type](/Documentation/ApiReference/Common/Object_Structures/format/#type) option has one of the following values.
 
 - 'currency'
@@ -24,4 +23,3 @@ This option applies when the [type](/Documentation/ApiReference/Common/Object_St
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Gauges/LabelsCustomization/jQuery/Light/"
 }
-<!--/fullDescription-->

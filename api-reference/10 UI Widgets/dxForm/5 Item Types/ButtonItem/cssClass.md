@@ -1,13 +1,10 @@
-<!--id-->dxFormButtonItem.cssClass<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFormButtonItem.cssClass
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies a CSS class to be applied to the item.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

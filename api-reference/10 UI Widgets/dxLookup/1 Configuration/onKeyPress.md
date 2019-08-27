@@ -1,6 +1,5 @@
-<!--id-->dxLookup.Options.onKeyPress<!--/id-->
-<!--EventForAction-->dxLookup.keyPress<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxLookup.Options.onKeyPress
+hidden: 
+EventForAction: dxLookup.keyPress
+---

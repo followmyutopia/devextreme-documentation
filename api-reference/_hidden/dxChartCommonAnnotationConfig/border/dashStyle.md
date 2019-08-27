@@ -1,14 +1,12 @@
-<!--id-->dxChartCommonAnnotationConfig.border.dashStyle<!--/id-->
-===========================================================================
-<!--default-->'solid'<!--/default-->
-<!--acceptValues-->'dash' | 'dot' | 'longDash' | 'solid'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartCommonAnnotationConfig.border.dashStyle
+acceptValues: 'dash' | 'dot' | 'longDash' | 'solid'
+type: String
+default: 'solid'
+---
+---
+##### shortDescription
 Specifies the dash style of the annotation's border.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include dataviz-ref-dashstyle
-<!--/fullDescription-->

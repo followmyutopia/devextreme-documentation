@@ -1,13 +1,12 @@
-<!--id-->DataSource.Options.searchExpr<!--/id-->
-===========================================================================
-<!--type-->getter | Array<getter><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.Options.searchExpr
+type: getter | Array<getter>
+---
+---
+##### shortDescription
 Specifies the fields to search.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 In most cases, you should pass the name of a field by whose value data items are searched. Assign an array of field names to this option if you need to search elements by several field values.
 
 ---
@@ -43,4 +42,3 @@ You can use this option along with [searchOperation](/Documentation/ApiReference
 #####See Also#####
 - [Data Layer - Search Api](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Search_Api)
 - [Data Layer - Getters and Setters](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters)
-<!--/fullDescription-->

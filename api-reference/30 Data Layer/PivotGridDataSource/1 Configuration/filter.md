@@ -1,13 +1,12 @@
-<!--id-->PivotGridDataSource.Options.filter<!--/id-->
-===========================================================================
-<!--type-->Filter expression<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.Options.filter
+type: Filter expression
+---
+---
+##### shortDescription
 Specifies data filtering conditions. Cannot be used with an [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/).
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Possible variants:
 
 * Binary filter
@@ -79,4 +78,3 @@ Possible variants:
 
 #####See Also#####
 - [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering)
-<!--/fullDescription-->

@@ -1,14 +1,13 @@
-<!--id-->dxMenu.Options.showFirstSubmenuMode.delay<!--/id-->
-===========================================================================
-<!--default-->{ show: 50, hide: 300 }<!--/default-->
-<!--type-->Object | Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxMenu.Options.showFirstSubmenuMode.delay
+type: Object | Number
+default: { show: 50, hide: 300 }
+---
+---
+##### shortDescription
 Specifies the delay in submenu showing and hiding.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Passing a number to this option is the same as passing an object whose **show** and **hide** fields hold equal values. For example, the following ways to specify the delay are identical.
 
     <!--JavaScript-->
@@ -20,6 +19,3 @@ Passing a number to this option is the same as passing an object whose **show** 
         show: 300,
         hide: 300
     }
-
-
-<!--/fullDescription-->

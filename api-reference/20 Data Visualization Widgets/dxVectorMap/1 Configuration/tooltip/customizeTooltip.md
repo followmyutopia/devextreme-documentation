@@ -1,15 +1,21 @@
-<!--id-->dxVectorMap.Options.tooltip.customizeTooltip<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--default-->undefined<!--/default-->
-<!--type-->function(info)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxVectorMap.Options.tooltip.customizeTooltip
+type: function(info)
+default: undefined
+---
+---
+##### shortDescription
 Specifies text and appearance of a set of tooltips.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(info): MapLayerElement
+Information on the area or marker being pressed or hovered over with the mouse pointer.
+
+##### return: Object
+The tooltip's text or markup and color.
+
+##### notUsedInTheme
+
+---
 This option should be assigned a function that returns a specific object. The following fields can be specified in this object.
 
 - **text**        
@@ -38,14 +44,3 @@ Specifies the color of the tooltip border.
     url: "/Demos/WidgetsGallery/Demo/VectorMap/TooltipHTMLSupport/jQuery/Light/",
     name: "Tooltip HTML Support"
 }
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->info<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->MapLayerElement<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information on the area or marker being pressed or hovered over with the mouse pointer.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->Object<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-The tooltip's text or markup and color.
-<!--/typeFunctionReturnDescription-->

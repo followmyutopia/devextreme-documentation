@@ -1,8 +1,7 @@
-===========================================================================
-<!--merge--><!--/merge-->
-===========================================================================
+---
+##### merge
 
-<!--fullDescription-->
+---
 All point labels in a chart are identical by default, but you can specify a unique appearance for individual labels using the **customizeLabel** function. This function should return an object with options that will be changed for a certain label. See the [label]({basewidgetpath}/Configuration/series/label) object for information about all options available for changing.
 
 The **customizeLabel** function accepts an object providing information about the series point that the label belongs to. This object contains the following fields.
@@ -103,4 +102,3 @@ In the financial series ([*candlestick*](/Documentation/ApiReference/Data_Visual
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeaturescustomizepoints/"
 }
-<!--/fullDescription-->

@@ -1,12 +1,8 @@
-<!--id-->OneDriveFileProvider.Options.isDirectoryExpr<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
+---
+id: OneDriveFileProvider.Options.isDirectoryExpr
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,18 +1,11 @@
-<!--id-->dxGantt.Options.tasks.titleExpr<!--/id-->
-===========================================================================
-<!--default-->'title'<!--/default-->
-<!--type-->String | function(data)<!--/type-->
-===========================================================================
+---
+id: dxGantt.Options.tasks.titleExpr
+type: String | function(data)
+default: 'title'
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### param(data): Object
 
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->data<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-
-<!--/typeFunctionParamDescription1-->
+---

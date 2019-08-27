@@ -1,12 +1,10 @@
-<!--id-->dxActionSheetItem.icon<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxActionSheetItem.icon
+type: String
+---
+---
+##### shortDescription
 Specifies the icon to be displayed on the action sheet button.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include uiwidgets-ref-icon
-<!--/fullDescription-->

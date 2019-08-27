@@ -1,14 +1,13 @@
-<!--id-->GridBaseColumn.dataField<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBaseColumn.dataField
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Binds the column to a field of the [dataSource]({basewidgetpath}/Configuration/#dataSource).
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The **columns** array can contain only the names of data source fields, which is sufficient if you do not need to specify any other column options. But if you do, then this array should contain objects that configure columns. To bind the columns to data source fields, use the **dataField** option. Note that you can combine both declarations in a single array as shown in the following code.
 
 ---
@@ -58,4 +57,3 @@ The **columns** array can contain only the names of data source fields, which is
 
 #####See Also#####
 - [Columns - Overview](/Documentation/Guide/Widgets/{WidgetName}/Columns/Overview/)
-<!--/fullDescription-->

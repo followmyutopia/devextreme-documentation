@@ -1,15 +1,14 @@
-<!--id-->dxDataGrid.Options.summary.totalItems.summaryType<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--acceptValues-->'avg' | 'count' | 'custom' | 'max' | 'min' | 'sum'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.Options.summary.totalItems.summaryType
+acceptValues: 'avg' | 'count' | 'custom' | 'max' | 'min' | 'sum'
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies how to aggregate data for the total summary item.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The following summary types are supported:
 
 - *"sum"*        
@@ -35,4 +34,3 @@ Applies a custom server-side aggregate function. Refer to [Server-Side Data Aggr
 
 #####See Also#####
 - [Total Summary](/Documentation/Guide/Widgets/DataGrid/Summaries/Total_Summary/)
-<!--/fullDescription-->

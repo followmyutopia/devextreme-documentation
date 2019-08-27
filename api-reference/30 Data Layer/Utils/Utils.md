@@ -1,14 +1,11 @@
-<!--id-->Utils<!--/id-->
-===========================================================================
-<!--lib-->
-dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Utils
+---
+---
+##### shortDescription
 This section describes the utility objects that the DevExtreme data layer provides.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### lib
+dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
 
-<!--/fullDescription-->
+---

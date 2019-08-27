@@ -1,13 +1,12 @@
-<!--id-->XmlaStore.Options.url<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: XmlaStore.Options.url
+type: String
+---
+---
+##### shortDescription
 Specifies the OLAP server's URL.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This should be the MSMDPUMP.dll URL and usually has the following format: *http://&lt;servername&gt;/OLAP/msmdpump.dll*.
 
 ---
@@ -46,4 +45,3 @@ This should be the MSMDPUMP.dll URL and usually has the following format: *http:
     }
 
 ---
-<!--/fullDescription-->

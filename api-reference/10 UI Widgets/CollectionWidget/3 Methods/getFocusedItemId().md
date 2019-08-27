@@ -1,17 +1,10 @@
-<!--id-->CollectionWidget.getFocusedItemId()<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
+---
+id: CollectionWidget.getFocusedItemId()
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### return: String
 
-<!--/shortDescription-->
-
-<!--returnType-->String<!--/returnType-->
-<!--returnDescription-->
-
-<!--/returnDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

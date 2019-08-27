@@ -1,6 +1,5 @@
-<!--id-->dxButton.Options.focusStateEnabled<!--/id-->
-===========================================================================
-<!--default-->true (desktop)<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxButton.Options.focusStateEnabled
+type: Boolean
+default: true (desktop)
+---

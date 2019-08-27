@@ -1,46 +1,33 @@
-<!--id-->dxRangeSelector.valueChanged<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->eventType<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.valueChanged
+type: eventType
+---
+---
+##### shortDescription
 Raised after the widget's [value](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#value) is changed.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(e): Object
+Information about the event.
+
+##### field(e.component): {WidgetName}
+The widget's instance.
+
+##### field(e.element): dxElement
+#include common-ref-elementparam with { element: "widget" }
+
+##### field(e.model): Object
+The model data. Available only if you use Knockout.
+
+##### field(e.previousValue): Array<Number, String, Date>
+Two values that represent old start and end values.
+
+##### field(e.value): Array<Number, String, Date>
+Two values that represent new start and end values.
+
+##### notUsedInTheme
+
+---
 Main article: [onValueChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#onValueChanged)
 
 #####See Also#####
 #include common-link-handleevents
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the event.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-#include common-ref-elementparam with { element: "widget" }
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The model data. Available only if you use Knockout.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->value<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Array<Number, String, Date><!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-Two values that represent new start and end values.
-<!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamName1_field5-->previousValue<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->Array<Number, String, Date><!--/typeFunctionParamType1_field5-->
-<!--typeFunctionParamDescription1_field5-->
-Two values that represent old start and end values.
-<!--/typeFunctionParamDescription1_field5-->

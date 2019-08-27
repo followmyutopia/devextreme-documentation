@@ -1,13 +1,12 @@
-<!--id-->dxHtmlEditorToolbarItem.formatName<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxHtmlEditorToolbarItem.formatName
+type: String
+---
+---
+##### shortDescription
 Specifies the built-in control that this object customizes or a format with multiple choices.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 To customize a built-in control, assign its name to this option and specify the other control options. See the full list of available controls in the [items](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/) description.
 
 This option also accepts names of formats with multiple choices. In addition to the format name, specify [formatValues](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatValues). On the toolbar, such formats are represented by [SelectBox](/Documentation/Guide/Widgets/SelectBox/Overview/) widgets whose [options](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/) you can specify in the [options](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#options) object.
@@ -193,4 +192,3 @@ The following tables list available formats and their values categorized in thre
 
 #####See Also#####
 - [widget](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#widget)
-<!--/fullDescription-->

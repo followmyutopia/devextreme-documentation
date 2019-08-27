@@ -1,13 +1,11 @@
-<!--id-->dxAutocomplete.open()<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxAutocomplete.open()
+hidden: 
+---
+---
+##### shortDescription
 Opens the drop-down editor.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

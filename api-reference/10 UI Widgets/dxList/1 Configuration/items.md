@@ -1,6 +1,5 @@
-<!--id-->dxList.Options.items<!--/id-->
-===========================================================================
-<!--type-->Array<String, dxListItem, Object><!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
-===========================================================================
-
+---
+id: dxList.Options.items
+type: Array<String, dxListItem, Object>
+firedEvents: optionChanged
+---

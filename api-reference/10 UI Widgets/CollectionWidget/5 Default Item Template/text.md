@@ -1,12 +1,9 @@
-<!--id-->CollectionWidgetItem.text<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: CollectionWidgetItem.text
+type: String
+---
+---
+##### shortDescription
 Specifies text displayed for the widget item.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

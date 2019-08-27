@@ -1,18 +1,13 @@
-<!--id-->hideTopOverlay()<!--/id-->
-===================================================================
-<!--module-->mobile/hide_top_overlay<!--/module-->
-<!--export-->default<!--/export-->
-===================================================================
-
-<!--shortDescription-->
+---
+id: hideTopOverlay()
+module: mobile/hide_top_overlay
+export: default
+---
+---
+##### shortDescription
 Hides the last displayed overlay widget.
-<!--/shortDescription-->
 
-<!--returnType-->Boolean<!--/returnType-->
-<!--returnDescription-->
-**true** if hiding was successful; **false** if not or if no displayed overlay widget was found.     
-<!--/returnDescription-->
+##### return: Boolean
+**true** if hiding was successful; **false** if not or if no displayed overlay widget was found.
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

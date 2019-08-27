@@ -1,17 +1,14 @@
-<!--id-->DataSource.items()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.items()
+---
+---
+##### shortDescription
 Gets data items the **DataSource** performs operations on.
-<!--/shortDescription-->
 
-<!--returnType-->Array<any><!--/returnType-->
-<!--returnDescription-->
+##### return: Array<any>
 The data items.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -38,4 +35,3 @@ The data items.
     }
 
 ---
-<!--/fullDescription-->

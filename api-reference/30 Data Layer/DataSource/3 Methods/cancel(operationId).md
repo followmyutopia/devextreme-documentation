@@ -1,17 +1,14 @@
-<!--id-->DataSource.cancel(operationId)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.cancel(operationId)
+---
+---
+##### shortDescription
 Cancels the load operation with a specific identifier.
-<!--/shortDescription-->
 
-<!--returnType-->Boolean<!--/returnType-->
-<!--returnDescription-->
+##### return: Boolean
 **true** if the operation was canceled; **false** if it was not found.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 You can access the operation identifier using the **operationId** field that extends the Promise object returned from the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) and [reload()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#reload) methods.
 
     <!--JavaScript-->
@@ -27,4 +24,3 @@ You can access the operation identifier using the **operationId** field that ext
     ds.cancel(loadPromise.operationId);
 
 [note] Calling this method does not interrupt the HTTP request.
-<!--/fullDescription-->

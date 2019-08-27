@@ -1,14 +1,20 @@
-<!--id-->dxChartSeriesTypes.SplineSeries.label.customizeText<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->function(pointInfo)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.SplineSeries.label.customizeText
+type: function(pointInfo)
+---
+---
+##### shortDescription
 Customizes the text displayed by point labels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(pointInfo): Object
+Information on the series point.
+
+##### return: String
+The text for the label to display.
+
+##### notUsedInTheme
+
+---
 This option accepts a function whose parameter exposes the following fields.
 
 <div class="simple-table">
@@ -60,14 +66,3 @@ This option accepts a function whose parameter exposes the following fields.
 
 #####See Also#####
 - [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/#Data_Formatting)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->pointInfo<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information on the series point.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-The text for the label to display.
-<!--/typeFunctionReturnDescription-->

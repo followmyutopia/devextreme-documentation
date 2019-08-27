@@ -1,15 +1,15 @@
-<!--id-->dxChart.Options.seriesTemplate<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--default-->undefined<!--/default-->
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.seriesTemplate
+type: Object
+default: undefined
+---
+---
+##### shortDescription
 Defines options for the series template.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### notUsedInTheme
+
+---
 In most cases, you can organize the array that is assigned to the chart's [dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#dataSource) option in the following way.
 
     [
@@ -39,4 +39,3 @@ If you need to specify individual values for options of a particular series, ass
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeaturesseriestemplates/"
 }
-<!--/fullDescription-->

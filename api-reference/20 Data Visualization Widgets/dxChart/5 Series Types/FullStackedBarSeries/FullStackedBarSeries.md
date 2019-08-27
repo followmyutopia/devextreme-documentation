@@ -1,15 +1,15 @@
-<!--id-->dxChartSeriesTypes.FullStackedBarSeries<!--/id-->
-===========================================================================
-<!--hidePropertyOf--><!--/hidePropertyOf-->
-<!--type-->Object<!--/type-->
-<!--inherits-->dxChartSeriesTypes.CommonSeries<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.FullStackedBarSeries
+type: Object
+inherits: dxChartSeriesTypes.CommonSeries
+---
+---
+##### shortDescription
 Describes settings supported by a series of the *full-stacked bar* type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### hidePropertyOf
+
+---
 #include dataviz-ref-series-type with { 
     seriesType: "fullstackedbar"
 }
@@ -19,4 +19,3 @@ Describes settings supported by a series of the *full-stacked bar* type.
 }
 
 ![DevExtreme HTML5 Charts FullStackedBarSeriesType](/Content/images/doc/19_2/ChartJS/FullStackedBar.png)
-<!--/fullDescription-->

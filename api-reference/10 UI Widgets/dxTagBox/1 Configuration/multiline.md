@@ -1,13 +1,10 @@
-<!--id-->dxTagBox.Options.multiline<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
+---
+id: dxTagBox.Options.multiline
+type: Boolean
+default: true
+---
+---
+##### shortDescription
+A Boolean value specifying whether or not the widget is multiline.
 
-<!--shortDescription-->
-A Boolean value specifying whether or not the widget is multiline. 
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

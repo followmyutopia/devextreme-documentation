@@ -1,16 +1,11 @@
-<!--id-->dxPivotGridSummaryCell.grandTotal()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGridSummaryCell.grandTotal()
+---
+---
+##### shortDescription
 Gets the **Grand Total** of the entire pivot grid.
-<!--/shortDescription-->
 
-<!--returnType-->dxPivotGridSummaryCell<!--/returnType-->
-<!--returnDescription-->
+##### return: dxPivotGridSummaryCell
 The Grand Total cell.
-<!--/returnDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

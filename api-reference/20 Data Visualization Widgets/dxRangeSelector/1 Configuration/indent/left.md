@@ -1,14 +1,12 @@
-<!--id-->dxRangeSelector.Options.indent.left<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.indent.left
+type: Number
+default: undefined
+---
+---
+##### shortDescription
 Specifies range selector's left indent.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### notUsedInTheme
 
-<!--/fullDescription-->
+---

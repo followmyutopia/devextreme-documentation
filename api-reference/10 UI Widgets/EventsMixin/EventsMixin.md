@@ -1,14 +1,11 @@
-<!--id-->EventsMixin<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--module-->core/events_mixin<!--/module-->
-<!--export-->default<!--/export-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: EventsMixin
+module: core/events_mixin
+export: default
+hidden: 
+---
+---
+##### shortDescription
 A mixin that provides a capability to fire and subscribe to events.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

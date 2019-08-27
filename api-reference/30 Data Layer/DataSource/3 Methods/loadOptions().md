@@ -1,17 +1,14 @@
-<!--id-->DataSource.loadOptions()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.loadOptions()
+---
+---
+##### shortDescription
 Gets an object with current data processing settings.
-<!--/shortDescription-->
 
-<!--returnType-->Object<!--/returnType-->
-<!--returnDescription-->
+##### return: Object
 [Data processing settings](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/).
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -38,4 +35,3 @@ Gets an object with current data processing settings.
     }
 
 ---
-<!--/fullDescription-->

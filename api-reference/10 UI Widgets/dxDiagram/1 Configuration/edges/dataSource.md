@@ -1,13 +1,11 @@
-<!--id-->dxDiagram.Options.edges.dataSource<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->Array<Object> | DataSource | DataSource_Options<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDiagram.Options.edges.dataSource
+type: Array<Object> | DataSource | DataSource_Options
+default: null
+---
+---
+##### shortDescription
 Binds the **edges** collection to the specified data.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The Diagram widget creates a connector between two shapes for every edge in the collection.
-<!--/fullDescription-->

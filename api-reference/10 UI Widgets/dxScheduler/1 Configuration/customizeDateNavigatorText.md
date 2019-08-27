@@ -1,14 +1,28 @@
-<!--id-->dxScheduler.Options.customizeDateNavigatorText<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->function(info)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler.Options.customizeDateNavigatorText
+type: function(info)
+default: undefined
+---
+---
+##### shortDescription
 Customizes the date navigator's text.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(info): Object
+Information about the date navigator.
+
+##### field(info.endDate): Date
+The view interval's end date.
+
+##### field(info.startDate): Date
+The view interval's start date.
+
+##### field(info.text): String
+The text displayed in the date navigator.
+
+##### return: String
+The text that should be displayed.
+
+---
 ![Scheduler Date Navigator](/Content/images/doc/19_2/UiWidgets/Scheduler_Date_Navigator.png)
 
 In the following code, the **customizeDateNavigatorText** function is used to show dates in the `mm/dd/yyyy` format (`mm/yyyy` for the *"month"* view):
@@ -78,30 +92,3 @@ In the following code, the **customizeDateNavigatorText** function is used to sh
     </dx-scheduler>
 
 ---
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->info<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the date navigator.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->startDate<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->Date<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The view interval's start date.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->endDate<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->Date<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-The view interval's end date.
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->text<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->String<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The text displayed in the date navigator.
-<!--/typeFunctionParamDescription1_field3-->
-
-<!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-The text that should be displayed.
-<!--/typeFunctionReturnDescription-->

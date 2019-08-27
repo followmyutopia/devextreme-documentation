@@ -1,13 +1,11 @@
-<!--id-->dxTreeMap.Options.group.color<!--/id-->
-===========================================================================
-<!--default-->'#eeeeee'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMap.Options.group.color
+type: String
+default: '#eeeeee'
+---
+---
+##### shortDescription
 Colors the group headers.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

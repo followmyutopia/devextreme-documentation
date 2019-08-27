@@ -1,15 +1,20 @@
-<!--id-->events.Event<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--module-->events<!--/module-->
-<!--export-->Event<!--/export-->
-<!--type-->eventType<!--/type-->
-===========================================================================
+---
+id: events.Event
+module: events
+export: Event
+type: eventType
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### return: event
+<!-- Description goes here -->
 
-<!--/shortDescription-->
+##### param(source): string|event
+<!-- Description goes here -->
 
-<!--fullDescription-->
+##### param(config): object
+<!-- Description goes here -->
 
-<!--/fullDescription-->
+---

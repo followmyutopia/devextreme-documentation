@@ -1,6 +1,5 @@
-<!--id-->dxPopover.Options.shading<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxPopover.Options.shading
+type: Boolean
+default: false
+---

@@ -1,13 +1,11 @@
-<!--id-->dxFormTabbedItem.tabs.icon<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFormTabbedItem.tabs.icon
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies the icon to be displayed on the tab.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include uiwidgets-ref-icon
-<!--/fullDescription-->

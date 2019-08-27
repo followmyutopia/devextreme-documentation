@@ -1,13 +1,10 @@
-<!--id-->GridBase.Options.loadPanel.height<!--/id-->
-===========================================================================
-<!--default-->90<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.loadPanel.height
+type: Number
+default: 90
+---
+---
+##### shortDescription
 Specifies the height of the load panel in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

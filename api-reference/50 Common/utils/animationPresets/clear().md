@@ -1,11 +1,8 @@
-<!--id-->animationPresets.clear()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: animationPresets.clear()
+---
+---
+##### shortDescription
 Removes all animations from the repository.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,12 +1,9 @@
-===========================================================================
-===========================================================================
-
-<!--shortDescription-->
+---
+##### shortDescription
 A class used to display a field name within the [dx-field](/Documentation/ApiReference/UI_Widgets/CSS_Classes/#dx-field) element.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-    <!--HTML-->
+---
+<!--HTML-->
     <div class="dx-field">
         <div class="dx-field-label">Full Name</div>
         <div class="dx-field-value">John Smith</div>
@@ -23,4 +20,3 @@ The **dx-field-label** element can hold plain text, UI widgets, knockout binding
     .dx-field-value {
         float: left;
     }
-<!--/fullDescription-->

@@ -1,4 +1,8 @@
-<!--id-->dxSankey.Options.label.font.color<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->'#FFFFFF'<!--/default-->
-===========================================================================
+---
+id: dxSankey.Options.label.font.color
+default: '#FFFFFF'
+---
+---
+##### merge
+
+---

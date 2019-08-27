@@ -1,13 +1,10 @@
-<!--id-->BaseWidget.Options.margin.top<!--/id-->
-===========================================================================
-<!--default-->0<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseWidget.Options.margin.top
+type: Number
+default: 0
+---
+---
+##### shortDescription
 Specifies the top margin of the widget in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

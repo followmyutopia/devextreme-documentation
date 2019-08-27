@@ -1,13 +1,10 @@
-<!--id-->dxRangeSelector.Options.background.visible<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.background.visible
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Indicates whether or not the background (background color and/or image) is visible.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

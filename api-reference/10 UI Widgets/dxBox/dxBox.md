@@ -1,18 +1,17 @@
-<!--id-->dxBox<!--/id-->
-===========================================================================
-<!--module-->ui/box<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->CollectionWidget<!--/inherits-->
-<!--lib-->
-dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxBox
+module: ui/box
+export: default
+inherits: CollectionWidget
+---
+---
+##### shortDescription
 The **Box** widget allows you to arrange various elements within it. Separate and adaptive, the **Box** widget acts as a building block for the layout.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### lib
+dx.web.js, dx.viz-web.js, dx.all.js
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/formsandmulti-purposeboxboxbox/"
 }
@@ -23,4 +22,3 @@ The **Box** widget allows you to arrange various elements within it. Separate an
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

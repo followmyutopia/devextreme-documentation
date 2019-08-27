@@ -1,13 +1,10 @@
-<!--id-->dxMenuBaseItem.disabled<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxMenuBaseItem.disabled
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether or not the menu item is disabled.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,12 +1,9 @@
-<!--id-->dxValidatorResult.brokenRule<!--/id-->
-===========================================================================
-<!--type-->RequiredRule | NumericRule | RangeRule | StringLengthRule | CustomRule | CompareRule | PatternRule | EmailRule<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxValidatorResult.brokenRule
+type: RequiredRule | NumericRule | RangeRule | StringLengthRule | CustomRule | CompareRule | PatternRule | EmailRule
+---
+---
+##### shortDescription
 A rule that failed to pass the check.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

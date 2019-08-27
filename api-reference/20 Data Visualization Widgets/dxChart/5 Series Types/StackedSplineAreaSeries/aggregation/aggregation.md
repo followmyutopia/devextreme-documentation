@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.StackedSplineAreaSeries.aggregation<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.StackedSplineAreaSeries.aggregation
+type: Object
+---

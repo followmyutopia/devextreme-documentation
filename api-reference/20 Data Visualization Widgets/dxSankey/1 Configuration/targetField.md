@@ -1,13 +1,10 @@
-<!--id-->dxSankey.Options.targetField<!--/id-->
-===========================================================================
-<!--default-->'target'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSankey.Options.targetField
+type: String
+default: 'target'
+---
+---
+##### shortDescription
 Specifies which data source field provides links' target nodes.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,14 +1,13 @@
-<!--id-->dxPivotGrid.Options.dataSource<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->Array<Object> | PivotGridDataSource | PivotGridDataSource_Options<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGrid.Options.dataSource
+type: Array<Object> | PivotGridDataSource | PivotGridDataSource_Options
+default: null
+---
+---
+##### shortDescription
 Binds the widget to data.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 If you use DevExtreme ASP.NET MVC Controls, refer to the [Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/) article.
 
 The **PivotGrid** is bound to data via the [PivotGridDataSource](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/), a component that allows you to sort, filter, group, and otherwise shape data. The **PivotGridDataSource**'s underlying data access logic is isolated in the store. You use different store types for different data sources.
@@ -183,4 +182,3 @@ Please review the following notes about data binding:
 - **PivotGridDataSource** and stores provide methods to process and update data. However, the methods do not allow you to perform particular tasks (for example, replace the entire dataset, reconfigure data access at runtime). For such tasks, create a new **PivotGridDataSource** and assign it to the **dataSource** option as shown in the articles about changing options in [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Get_and_Set_Options/), [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/#Two-Way_Option_Binding), [React](/Documentation/Guide/React_Components/State_Management/#Controlled_Mode), and <a href="https://github.com/DevExpress/devextreme-vue#two-way-binding" target="_blank">Vue</a>.
 
 [/note]
-<!--/fullDescription-->

@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.StepAreaSeries.selectionStyle<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.StepAreaSeries.selectionStyle
+type: Object
+---

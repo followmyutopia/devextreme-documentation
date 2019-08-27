@@ -1,16 +1,14 @@
-<!--id-->dxChartSeriesTypes.FullStackedBarSeries.aggregation.method<!--/id-->
-===========================================================================
-<!--default-->'sum'<!--/default-->
-<!--acceptValues-->'avg' | 'count' | 'max' | 'min' | 'sum' | 'custom'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxChartSeriesTypes.FullStackedBarSeries.aggregation.method
+acceptValues: 'avg' | 'count' | 'max' | 'min' | 'sum' | 'custom'
+type: String
+default: 'sum'
+---
+---
+##### shortDescription
+Specifies how to aggregate series points.
 
-<!--shortDescription-->
-Specifies how to aggregate series points. 
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include dataviz-ref-aggrmethod-singlepointseries with {
     seriesType: "Full-Stacked Bar"
 }
-<!--/fullDescription-->

@@ -1,6 +1,5 @@
-<!--id-->dxCheckBox.Options.activeStateEnabled<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxCheckBox.Options.activeStateEnabled
+type: Boolean
+default: true
+---

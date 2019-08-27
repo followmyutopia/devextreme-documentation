@@ -1,13 +1,10 @@
-<!--id-->dxFilterBuilderCustomOperation.hasValue<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFilterBuilderCustomOperation.hasValue
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether the operation can have a value. If it can, the editor is displayed.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

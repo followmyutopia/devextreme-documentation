@@ -1,6 +1,4 @@
-<!--id-->dxPivotGrid.registerKeyHandler(key, handler)<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
-
-
+---
+id: dxPivotGrid.registerKeyHandler(key, handler)
+hidden: 
+---

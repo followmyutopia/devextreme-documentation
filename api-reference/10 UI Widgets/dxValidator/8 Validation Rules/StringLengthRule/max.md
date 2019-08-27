@@ -1,12 +1,9 @@
-<!--id-->StringLengthRule.max<!--/id-->
-===========================================================================
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: StringLengthRule.max
+type: Number
+---
+---
+##### shortDescription
 Specifies the maximum length allowed for the validated value.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

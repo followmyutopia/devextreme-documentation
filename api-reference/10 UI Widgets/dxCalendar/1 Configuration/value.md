@@ -1,14 +1,13 @@
-<!--id-->dxCalendar.Options.value<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->Date | Number | String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxCalendar.Options.value
+type: Date | Number | String
+default: null
+---
+---
+##### shortDescription
 An object or a value specifying the date and time currently selected in the calendar.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 You can specify the current widget value using any of the following formats.
 
 - Date  
@@ -26,6 +25,3 @@ You can specify the current widget value using any of the following formats.
  - "yyyy-MM-ddTHH:mm:ssx" (for example, "2017-03-27T16:54:10+03")
 
 If the widget value is changed by an end-user, the new value is saved in the same format as the initial value.
-
-
-<!--/fullDescription-->

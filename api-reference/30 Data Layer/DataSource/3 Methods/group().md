@@ -1,17 +1,14 @@
-<!--id-->DataSource.group()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.group()
+---
+---
+##### shortDescription
 Gets the [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option's value.
-<!--/shortDescription-->
 
-<!--returnType-->Object<!--/returnType-->
-<!--returnDescription-->
+##### return: Object
 A group expression.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -43,4 +40,3 @@ A group expression.
 
 #####See Also#####
 - [Grouping](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Grouping)
-<!--/fullDescription-->

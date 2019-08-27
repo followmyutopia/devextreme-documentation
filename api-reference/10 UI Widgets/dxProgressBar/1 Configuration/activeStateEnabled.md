@@ -1,5 +1,4 @@
-<!--id-->dxProgressBar.Options.activeStateEnabled<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxProgressBar.Options.activeStateEnabled
+hidden: 
+---

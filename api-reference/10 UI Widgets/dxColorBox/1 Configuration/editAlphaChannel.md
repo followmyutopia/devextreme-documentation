@@ -1,13 +1,10 @@
-<!--id-->dxColorBox.Options.editAlphaChannel<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxColorBox.Options.editAlphaChannel
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether or not the widget value includes the alpha channel component.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

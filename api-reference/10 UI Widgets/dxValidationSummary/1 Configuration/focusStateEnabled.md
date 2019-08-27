@@ -1,5 +1,4 @@
-<!--id-->dxValidationSummary.Options.focusStateEnabled<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxValidationSummary.Options.focusStateEnabled
+hidden: 
+---

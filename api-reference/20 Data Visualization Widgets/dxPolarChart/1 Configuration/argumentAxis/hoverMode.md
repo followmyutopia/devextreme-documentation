@@ -1,15 +1,14 @@
-<!--id-->dxPolarChart.Options.argumentAxis.hoverMode<!--/id-->
-===========================================================================
-<!--default-->'none'<!--/default-->
-<!--acceptValues-->'allArgumentPoints' | 'none'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChart.Options.argumentAxis.hoverMode
+acceptValues: 'allArgumentPoints' | 'none'
+type: String
+default: 'none'
+---
+---
+##### shortDescription
 Specifies the elements that will be highlighted when the argument axis is hovered over.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The following values are accepted:
 
 * **none**    
@@ -21,4 +20,3 @@ The points that correspond to the argument that is currently hovered over are hi
     enum: "`ArgumentAxisHoverMode`",
     values: "`AllArgumentPoints` and `None`"
 }
-<!--/fullDescription-->

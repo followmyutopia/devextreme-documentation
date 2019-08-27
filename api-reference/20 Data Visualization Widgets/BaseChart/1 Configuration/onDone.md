@@ -1,38 +1,29 @@
-<!--id-->BaseChart.Options.onDone<!--/id-->
-<!--EventForAction-->BaseChart.done<!--/EventForAction-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--default-->null<!--/default-->
-<!--type-->function(e)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseChart.Options.onDone
+type: function(e)
+default: null
+EventForAction: BaseChart.done
+---
+---
+##### shortDescription
 A function that is executed when all series are ready.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(e): Object
+Information about the event.
+
+##### field(e.component): {WidgetName}
+The widget's instance.
+
+##### field(e.element): dxElement
+#include common-ref-elementparam with { element: "widget" }
+
+##### field(e.model): Object
+The model data. Available only if you use Knockout.
+
+##### notUsedInTheme
+
+---
 #####See Also#####
 - [getAllSeries()]({basewidgetpath}/Methods/#getAllSeries)
 - [getSeriesByName(seriesName)]({basewidgetpath}/Methods/#getSeriesByNameseriesName)
 - [getSeriesByPos(seriesIndex)]({basewidgetpath}/Methods/#getSeriesByPosseriesIndex)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the event.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-#include common-ref-elementparam with { element: "widget" }
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The model data. Available only if you use Knockout.
-<!--/typeFunctionParamDescription1_field3-->

@@ -1,5 +1,4 @@
-<!--id-->dxToast.Options.closeOnOutsideClick<!--/id-->
-===========================================================================
-<!--default-->true (Android)<!--/default-->
-===========================================================================
-
+---
+id: dxToast.Options.closeOnOutsideClick
+default: true (Android)
+---

@@ -1,22 +1,16 @@
-<!--id-->DataSource.loadError<!--/id-->
-===========================================================================
-<!--type-->eventType<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.loadError
+type: eventType
+---
+---
+##### shortDescription
 Raised when data loading fails.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-Main article: [onLoadError](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#onLoadError)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->error<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
+##### param(error): Object
 The occurred error.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->message<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->String<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
+
+##### field(error.message): String
 The system message about the error.
-<!--/typeFunctionParamDescription1_field1-->
+
+---
+Main article: [onLoadError](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#onLoadError)

@@ -1,5 +1,4 @@
-<!--id-->dxDropDownList.Options.fieldTemplate<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxDropDownList.Options.fieldTemplate
+hidden: 
+---

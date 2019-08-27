@@ -1,13 +1,10 @@
-<!--id-->dxPopup.Options.toolbarItems.visible<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPopup.Options.toolbarItems.visible
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether or not a widget item must be displayed.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

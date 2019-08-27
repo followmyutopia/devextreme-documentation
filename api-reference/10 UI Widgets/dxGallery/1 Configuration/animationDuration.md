@@ -1,13 +1,10 @@
-<!--id-->dxGallery.Options.animationDuration<!--/id-->
-===========================================================================
-<!--default-->400<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxGallery.Options.animationDuration
+type: Number
+default: 400
+---
+---
+##### shortDescription
 The time, in milliseconds, spent on slide animation.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

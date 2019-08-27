@@ -1,18 +1,14 @@
-<!--id-->EdmLiteral.ctor(value)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: EdmLiteral.ctor(value)
+---
+---
+##### shortDescription
 Creates an **EdmLiteral** instance with a new value.
-<!--/shortDescription-->
 
-<!--paramName1-->value<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
-<!--paramDescription1-->
+##### param(value): String
 A value in a format the OData's <a href="http://www.odata.org/documentation/odata-version-2-0/overview/#AbstractTypeSystem" target="_blank">Abstract Type System</a> defines.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -31,4 +27,3 @@ A value in a format the OData's <a href="http://www.odata.org/documentation/odat
     }
 
 ---
-<!--/fullDescription-->

@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.StepAreaSeries.hoverStyle.border<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.StepAreaSeries.hoverStyle.border
+type: Object
+---

@@ -1,13 +1,12 @@
-<!--id-->BaseWidget.Options.margin<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseWidget.Options.margin
+type: Object
+---
+---
+##### shortDescription
 Generates space around the widget.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 ![WidgetMargin DevExtreme ChartJS](/Content/images/doc/19_2/ChartJS/WidgetMargin.png)
 
 ---
@@ -130,4 +129,3 @@ Generates space around the widget.
     export default App;
 
 ---
-<!--/fullDescription-->

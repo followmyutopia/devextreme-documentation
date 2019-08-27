@@ -1,4 +1,8 @@
-<!--id-->linearTriangleMarker.length<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->14<!--/default-->
-===========================================================================
+---
+id: linearTriangleMarker.length
+default: 14
+---
+---
+##### merge
+
+---

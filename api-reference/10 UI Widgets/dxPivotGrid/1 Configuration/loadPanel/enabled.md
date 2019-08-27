@@ -1,13 +1,10 @@
-<!--id-->dxPivotGrid.Options.loadPanel.enabled<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGrid.Options.loadPanel.enabled
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Enables or disables the load panel.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

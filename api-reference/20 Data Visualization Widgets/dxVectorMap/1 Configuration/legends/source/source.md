@@ -1,13 +1,11 @@
-<!--id-->dxVectorMap.Options.legends.source<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxVectorMap.Options.legends.source
+type: Object
+---
+---
+##### shortDescription
 Specifies the source of data for the legend.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### notUsedInTheme
 
-<!--/fullDescription-->
+---

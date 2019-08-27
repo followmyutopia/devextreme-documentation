@@ -1,12 +1,10 @@
-<!--id-->dxTabsItem.icon<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTabsItem.icon
+type: String
+---
+---
+##### shortDescription
 Specifies the icon to be displayed on the tab.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include uiwidgets-ref-icon
-<!--/fullDescription-->

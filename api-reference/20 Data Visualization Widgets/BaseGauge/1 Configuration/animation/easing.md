@@ -1,15 +1,14 @@
-<!--id-->BaseGauge.Options.animation.easing<!--/id-->
-===========================================================================
-<!--default-->'easeOutCubic'<!--/default-->
-<!--acceptValues-->'easeOutCubic' | 'linear'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseGauge.Options.animation.easing
+acceptValues: 'easeOutCubic' | 'linear'
+type: String
+default: 'easeOutCubic'
+---
+---
+##### shortDescription
 Specifies the animation easing mode.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The animation easing mode specifies the speed at which the animation progresses at different points within the animation. The following values are available.
 
 * **easeOutCubic**   
@@ -21,4 +20,3 @@ The animation progresses at a constant pace.
     enum: "`VizAnimationEasing`",
     values: "`EaseOutCubic` and `Linear`"
 }
-<!--/fullDescription-->

@@ -1,18 +1,14 @@
-<!--id-->validationEngine.registerModelForValidation(model)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: validationEngine.registerModelForValidation(model)
+---
+---
+##### shortDescription
 Registers all the [Validator](/Documentation/ApiReference/UI_Widgets/dxValidator/) objects extending fields of the specified ViewModel.
-<!--/shortDescription-->
 
-<!--paramName1-->model<!--/paramName1-->
-<!--paramType1-->Object<!--/paramType1-->
-<!--paramDescription1-->
+##### param(model): Object
 The ViewModel object has fields extended by the **dxValidator** objects.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 To specify validation rules for ViewModel fields, extend the latter with the **dxValidator** object.
 
     <!--JavaScript-->var viewModel = {
@@ -29,4 +25,3 @@ To register the rules that are defined within the **dxValidator** objects, call 
     <!--JavaScript-->DevExpress.validationEngine.registerModelForValidation(viewModel);
 
 To validate the rules that are defined within the **dxValidator** objects, call the [DevExpress.validationEngine.validateModel(model)](/Documentation/ApiReference/Common/utils/validationEngine/#validateModelmodel) function passing the ViewModel object as a parameter.
-<!--/fullDescription-->

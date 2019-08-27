@@ -1,14 +1,12 @@
-<!--id-->dxList.Options.scrollByContent<!--/id-->
-===========================================================================
-<!--default-->true, false (non-touch_devices)<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxList.Options.scrollByContent
+type: Boolean
+default: true, false (non-touch_devices)
+---
+---
+##### shortDescription
 A Boolean value specifying if the list is scrolled by content.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 - [List - Scrolling - User Interaction](/Documentation/Guide/Widgets/List/Scrolling/#User_Interaction)
-<!--/fullDescription-->

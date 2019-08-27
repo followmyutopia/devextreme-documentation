@@ -1,13 +1,10 @@
-<!--id-->dxBarGauge.Options.label.visible<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxBarGauge.Options.label.visible
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether bar labels appear on a gauge or not.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

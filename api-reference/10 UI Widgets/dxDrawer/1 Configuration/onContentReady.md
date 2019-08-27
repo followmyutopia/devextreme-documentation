@@ -1,13 +1,9 @@
-<!--id-->dxDrawer.Options.onContentReady<!--/id-->
-<!--EventForAction-->dxDrawer.contentReady<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
+---
+id: dxDrawer.Options.onContentReady
+hidden: 
+EventForAction: dxDrawer.contentReady
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

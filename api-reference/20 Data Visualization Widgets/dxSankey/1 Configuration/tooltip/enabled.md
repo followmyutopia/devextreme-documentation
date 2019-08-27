@@ -1,6 +1,5 @@
-<!--id-->dxSankey.Options.tooltip.enabled<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxSankey.Options.tooltip.enabled
+type: Boolean
+default: true
+---

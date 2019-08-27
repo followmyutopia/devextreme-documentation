@@ -1,13 +1,10 @@
-<!--id-->GridBase.Options.filterRow.operationDescriptions.lessThan<!--/id-->
-===========================================================================
-<!--default-->'Less than'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.filterRow.operationDescriptions.lessThan
+type: String
+default: 'Less than'
+---
+---
+##### shortDescription
 A description for the *"<"* operation.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

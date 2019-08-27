@@ -1,13 +1,10 @@
-<!--id-->dxMenu.Options.showFirstSubmenuMode.delay.show<!--/id-->
-===========================================================================
-<!--default-->50<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxMenu.Options.showFirstSubmenuMode.delay.show
+type: Number
+default: 50
+---
+---
+##### shortDescription
 The time span after which the submenu is shown.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

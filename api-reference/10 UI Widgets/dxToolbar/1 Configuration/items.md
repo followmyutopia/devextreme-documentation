@@ -1,6 +1,5 @@
-<!--id-->dxToolbar.Options.items<!--/id-->
-===========================================================================
-<!--type-->Array<String, dxToolbarItem, Object><!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
-===========================================================================
-
+---
+id: dxToolbar.Options.items
+type: Array<String, dxToolbarItem, Object>
+firedEvents: optionChanged
+---

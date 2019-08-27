@@ -1,6 +1,5 @@
-<!--id-->dxLoadIndicator.Options.hoverStateEnabled<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--default-->false<!--/default-->
-===========================================================================
-
+---
+id: dxLoadIndicator.Options.hoverStateEnabled
+default: false
+hidden: 
+---

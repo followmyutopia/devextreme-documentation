@@ -1,6 +1,5 @@
-<!--id-->dxRadioGroup.Options.activeStateEnabled<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxRadioGroup.Options.activeStateEnabled
+type: Boolean
+default: true
+---

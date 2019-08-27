@@ -1,14 +1,12 @@
-<!--id-->LocalStore.Options.name<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: LocalStore.Options.name
+type: String
+---
+---
+##### shortDescription
 Specifies the name under which data should be saved in the local storage. The `dx-data-localStore-` prefix will be added to the name.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
+---
 ---
 #####jQuery
 
@@ -34,5 +32,3 @@ Specifies the name under which data should be saved in the local storage. The `d
     }
 
 ---
-
-<!--/fullDescription-->

@@ -1,14 +1,16 @@
-<!--id-->DataSource.Options.onLoadingChanged<!--/id-->
-<!--EventForAction-->DataSource.loadingChanged<!--/EventForAction-->
-===========================================================================
-<!--type-->function(isLoading)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.Options.onLoadingChanged
+type: function(isLoading)
+EventForAction: DataSource.loadingChanged
+---
+---
+##### shortDescription
 A function that is executed when the data loading status changes.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(isLoading): Boolean
+Indicates whether data is being loaded.
+
+---
 ---
 ##### jQuery
 
@@ -36,10 +38,3 @@ A function that is executed when the data loading status changes.
     }
 
 ---
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->isLoading<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Boolean<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Indicates whether data is being loaded.
-<!--/typeFunctionParamDescription1-->

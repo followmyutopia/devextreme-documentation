@@ -1,6 +1,5 @@
-<!--id-->dxLookup.Options.onKeyUp<!--/id-->
-<!--EventForAction-->dxLookup.keyUp<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxLookup.Options.onKeyUp
+hidden: 
+EventForAction: dxLookup.keyUp
+---

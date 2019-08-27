@@ -1,12 +1,9 @@
-<!--id-->dxSliderBase.Options.tooltip<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSliderBase.Options.tooltip
+type: Object
+---
+---
+##### shortDescription
 Configures a tooltip.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

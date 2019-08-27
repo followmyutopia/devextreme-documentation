@@ -1,13 +1,34 @@
-<!--id-->dxDataGrid.Options.masterDetail.template<!--/id-->
-===========================================================================
-<!--type-->template<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.Options.masterDetail.template
+type: template
+---
+---
+##### shortDescription
 Specifies a custom template for detail sections.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(detailElement): dxElement
+#include common-ref-elementparam with { element: "detail section" }
+
+##### param(detailInfo): Object
+Information about the master row.
+
+##### field(detailInfo.data): Object
+The master row's data object.
+
+##### field(detailInfo.key): any
+The master row's key.
+
+##### field(detailInfo.watch): function()
+Allows tracking a variable and performing actions when it changes. Applies when [repaintChangesOnly](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#repaintChangesOnly) is **true**.       
+This function has the following parameters:     
+
+- **getter(data)**: Function        
+A function that returns the variable that should be tracked.
+
+- **handler(newValue)**: Function       
+A function called when this variable changes.
+
+---
 You should call the [updateDimensions()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#updateDimensions) method each time the size of the detail section's content changes to make the table layout automatically adapt its size. In the following code, the [TabPanel](/Documentation/Guide/Widgets/TabPanel/Overview/) in the detail section contains views that can have different heights. The **updateDimensions** method is called in the [onSelectionChanged](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#onSelectionChanged) handler to update the table layout when another view is selected.
 
 ---
@@ -63,37 +84,3 @@ You should call the [updateDimensions()](/Documentation/ApiReference/UI_Widgets/
 
 #####See Also#####
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->detailElement<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->dxElement<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-#include common-ref-elementparam with { element: "detail section" }
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionParamName2-->detailInfo<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->Object<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-Information about the master row.
-<!--/typeFunctionParamDescription2-->
-<!--typeFunctionParamName2_field1-->key<!--/typeFunctionParamName2_field1-->
-<!--typeFunctionParamType2_field1-->any<!--/typeFunctionParamType2_field1-->
-<!--typeFunctionParamDescription2_field1-->
-The master row's key.
-<!--/typeFunctionParamDescription2_field1-->
-<!--typeFunctionParamName2_field2-->data<!--/typeFunctionParamName2_field2-->
-<!--typeFunctionParamType2_field2-->Object<!--/typeFunctionParamType2_field2-->
-<!--typeFunctionParamDescription2_field2-->
-The master row's data object.
-<!--/typeFunctionParamDescription2_field2-->
-<!--typeFunctionParamName2_field3-->watch<!--/typeFunctionParamName2_field3-->
-<!--typeFunctionParamType2_field3-->function()<!--/typeFunctionParamType2_field3-->
-<!--typeFunctionParamDescription2_field3-->
-Allows tracking a variable and performing actions when it changes. Applies when [repaintChangesOnly](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#repaintChangesOnly) is **true**.       
-This function has the following parameters:     
-
-- **getter(data)**: Function        
-A function that returns the variable that should be tracked.
-
-- **handler(newValue)**: Function       
-A function called when this variable changes.
-<!--/typeFunctionParamDescription2_field3-->

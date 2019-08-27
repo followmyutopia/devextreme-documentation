@@ -1,18 +1,14 @@
-<!--id-->PivotGridDataSource.fields(fields)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.fields(fields)
+---
+---
+##### shortDescription
 Specifies a new [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) collection.
-<!--/shortDescription-->
 
-<!--paramName1-->fields<!--/paramName1-->
-<!--paramType1-->Array<PivotGridDataSource_Options_fields><!--/paramType1-->
-<!--paramDescription1-->
+##### param(fields): Array<PivotGridDataSource_Options_fields>
 New fields.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 Call the [load()](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#load) method to update the **PivotGrid**:
 
 ---
@@ -68,4 +64,3 @@ Call the [load()](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Met
     }
 
 ---
-<!--/fullDescription-->

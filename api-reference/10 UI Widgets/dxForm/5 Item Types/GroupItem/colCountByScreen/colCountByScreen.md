@@ -1,15 +1,14 @@
-<!--id-->dxFormGroupItem.colCountByScreen<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Object<!--/type-->
-<!--inherits-->ColCountResponsible<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFormGroupItem.colCountByScreen
+type: Object
+inherits: ColCountResponsible
+default: undefined
+---
+---
+##### shortDescription
 Specifies the relation between the [screen size qualifier](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#screenByWidth) and the number of columns in the grouped layout.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -63,4 +62,3 @@ Specifies the relation between the [screen size qualifier](/Documentation/ApiRef
     export class AppModule { }
 
 ---
-<!--/fullDescription-->

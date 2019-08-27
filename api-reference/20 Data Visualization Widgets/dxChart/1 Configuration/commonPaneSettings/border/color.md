@@ -1,13 +1,11 @@
-<!--id-->dxChart.Options.commonPaneSettings.border.color<!--/id-->
-===========================================================================
-<!--default-->'#d3d3d3'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonPaneSettings.border.color
+type: String
+default: '#d3d3d3'
+---
+---
+##### shortDescription
 Specifies the color of the pane border.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

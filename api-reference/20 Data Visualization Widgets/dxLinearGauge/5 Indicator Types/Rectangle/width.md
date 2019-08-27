@@ -1,4 +1,8 @@
-<!--id-->linearRectangle.width<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->15<!--/default-->
-===========================================================================
+---
+id: linearRectangle.width
+default: 15
+---
+---
+##### merge
+
+---

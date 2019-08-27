@@ -1,13 +1,10 @@
-<!--id-->dxRangeSelector.Options.sliderMarker.paddingTopBottom<!--/id-->
-===========================================================================
-<!--default-->2<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.sliderMarker.paddingTopBottom
+type: Number
+default: 2
+---
+---
+##### shortDescription
 Specifies the empty space between the marker's top and bottom borders and the marker's text.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

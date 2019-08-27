@@ -1,13 +1,10 @@
-<!--id-->BaseWidget.Options.title.subtitle.font<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-<!--inherits-->Font<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseWidget.Options.title.subtitle.font
+type: Object
+inherits: Font
+---
+---
+##### shortDescription
 Specifies font options for the subtitle.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

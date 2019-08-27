@@ -1,6 +1,5 @@
-<!--id-->dxTreeList.Options.paging.enabled<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxTreeList.Options.paging.enabled
+type: Boolean
+default: false
+---

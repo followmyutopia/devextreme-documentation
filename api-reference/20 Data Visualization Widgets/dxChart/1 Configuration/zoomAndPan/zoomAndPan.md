@@ -1,13 +1,12 @@
-<!--id-->dxChart.Options.zoomAndPan<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.zoomAndPan
+type: Object
+---
+---
+##### shortDescription
 Configures zooming and panning.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 You can enable zooming and panning for the argument and value axes independently. Set the [argumentAxis](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/zoomAndPan/#argumentAxis) and [valueAxis](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/zoomAndPan/#valueAxis) options to enable zooming, panning, or both for a specific axis.
 
 Users can use the mouse and touch gestures to zoom and pan. The following table illustrates user interaction:
@@ -50,4 +49,3 @@ Zooming and panning are related to the visual/whole range concept. Refer to the 
 - [Zooming and Panning](/Documentation/Guide/Widgets/Chart/Zooming_and_Panning/)
 - [onZoomStart](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onZoomStart) | [onZoomEnd](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onZoomEnd)
 - **argumentAxis**.[visualRange](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/visualRange/) | **valueAxis**.[visualRange](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/visualRange/)
-<!--/fullDescription-->

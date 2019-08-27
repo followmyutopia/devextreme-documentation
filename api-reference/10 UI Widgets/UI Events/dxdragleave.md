@@ -1,24 +1,18 @@
-<!--id-->UI Events.dxdragleave<!--/id-->
-===========================================================================
-<!--module-->events/drag<!--/module-->
-<!--type-->eventType<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: UI Events.dxdragleave
+module: events/drag
+type: eventType
+---
+---
+##### shortDescription
 Raised when a user moves the pointer out of the element, provided that the drag gesture is being performed.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(event): event
+#include common-ref-eventparam The following field is added to existing fields of this argument object.
+
+##### field(event.draggingElement): Node
+The element being dragged.
+
+---
 #####See Also#####
 - [UI Events - Introduction](/Documentation/ApiReference/UI_Widgets/UI_Events/)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->event<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->event<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-#include common-ref-eventparam The following field is added to existing fields of this argument object. 
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->draggingElement<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->Node<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The element being dragged.
-<!--/typeFunctionParamDescription1_field1-->

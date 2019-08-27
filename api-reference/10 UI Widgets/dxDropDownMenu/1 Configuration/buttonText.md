@@ -1,13 +1,10 @@
-<!--id-->dxDropDownMenu.Options.buttonText<!--/id-->
-===========================================================================
-<!--default-->''<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDropDownMenu.Options.buttonText
+type: String
+default: ''
+---
+---
+##### shortDescription
 The text displayed in the DropDownMenu button.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

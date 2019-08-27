@@ -1,13 +1,10 @@
-<!--id-->BaseLegend.columnItemSpacing<!--/id-->
-===========================================================================
-<!--default-->20<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseLegend.columnItemSpacing
+type: Number
+default: 20
+---
+---
+##### shortDescription
 Specifies an empty space between item columns in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,15 +1,15 @@
-<!--id-->dxPolarChartSeriesTypes.scatterpolarseries<!--/id-->
-===========================================================================
-<!--hidePropertyOf--><!--/hidePropertyOf-->
-<!--type-->Object<!--/type-->
-<!--inherits-->dxPolarChartSeriesTypes.CommonPolarChartSeries<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.scatterpolarseries
+type: Object
+inherits: dxPolarChartSeriesTypes.CommonPolarChartSeries
+---
+---
+##### shortDescription
 An object defining a series of the **scatter** type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### hidePropertyOf
+
+---
 #include dataviz-ref-series-type with { 
     seriesType: "scatter"
 }
@@ -19,4 +19,3 @@ An object defining a series of the **scatter** type.
 }
 
 ![PolarScatterSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/PolarScatter_useSpiderWeb.png)
-<!--/fullDescription-->

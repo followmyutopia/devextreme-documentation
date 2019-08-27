@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.BubbleSeries.aggregation<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.BubbleSeries.aggregation
+type: Object
+---

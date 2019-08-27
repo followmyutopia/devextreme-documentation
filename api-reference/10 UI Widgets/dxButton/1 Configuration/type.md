@@ -1,15 +1,14 @@
-<!--id-->dxButton.Options.type<!--/id-->
-===========================================================================
-<!--default-->'normal'<!--/default-->
-<!--acceptValues-->'back' | 'danger' | 'default' | 'normal' | 'success'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxButton.Options.type
+acceptValues: 'back' | 'danger' | 'default' | 'normal' | 'success'
+type: String
+default: 'normal'
+---
+---
+##### shortDescription
 Specifies the button type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 DevExtreme provides the following button types.
 
 ![Button Types](/Content/images/doc/19_2/UiWidgets/Button_Types.png) 
@@ -25,4 +24,3 @@ DevExtreme provides the following button types.
 
 #####See Also#####
 - [stylingMode](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#stylingMode)
-<!--/fullDescription-->

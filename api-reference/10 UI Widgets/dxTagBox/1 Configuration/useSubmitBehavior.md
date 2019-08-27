@@ -1,14 +1,10 @@
-<!--id-->dxTagBox.Options.useSubmitBehavior<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
+---
+id: dxTagBox.Options.useSubmitBehavior
+type: Boolean
+default: true
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

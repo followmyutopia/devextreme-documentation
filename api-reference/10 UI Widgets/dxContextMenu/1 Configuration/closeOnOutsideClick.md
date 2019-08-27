@@ -1,14 +1,19 @@
-<!--id-->dxContextMenu.Options.closeOnOutsideClick<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean | function(event)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxContextMenu.Options.closeOnOutsideClick
+type: Boolean | function(event)
+default: true
+---
+---
+##### shortDescription
 Specifies whether to close the **ContextMenu** if a user clicks outside it.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(event): event
+The event that caused widget closing. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a <a href="http://api.jquery.com/category/events/event-object/" target="_blank">jQuery.Event</a> when you use jQuery.
+
+##### return: Boolean
+**true** if the widget should be closed; otherwise **false**.
+
+---
 The function passed to this option enables you to specify a custom condition for closing the widget. For instance, you can prevent closing until a user clicks a certain element.
 
 ---
@@ -49,15 +54,3 @@ The function passed to this option enables you to specify a custom condition for
     </dx-context-menu>
 
 ---
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->event<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->event<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The event that caused widget closing. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a <a href="http://api.jquery.com/category/events/event-object/" target="_blank">jQuery.Event</a> when you use jQuery.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->Boolean<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-**true** if the widget should be closed; otherwise **false**.
-<!--/typeFunctionReturnDescription-->

@@ -1,6 +1,4 @@
-<!--id-->dxPopover.registerKeyHandler(key, handler)<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
-
-
+---
+id: dxPopover.registerKeyHandler(key, handler)
+hidden: 
+---

@@ -1,11 +1,8 @@
-===========================================================================
-===========================================================================
-
-<!--shortDescription-->
+---
+##### shortDescription
 Defines the appearance of an element displaying a field-value pair within a [dx-fieldset](/Documentation/ApiReference/UI_Widgets/CSS_Classes/#dx-fieldset) element.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The **dx-field** field element may include label and value elements intended to display the field name and value respectively. Use the **dx-field-label**, **dx-field-value** and **dx-field-value-static** classes to create label and value elements.
 
     <!--HTML-->
@@ -56,4 +53,3 @@ DevExtreme UI widgets include <a href="http://www.w3.org/WAI/intro/aria.php" tar
     .dx-field-value-static {
         float: left;
     }
-<!--/fullDescription-->

@@ -1,14 +1,11 @@
-<!--id-->utils<!--/id-->
-===========================================================================
-<!--lib-->
-dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: utils
+---
+---
+##### shortDescription
 An object that serves as a namespace for utility methods that can be helpful when working with the DevExtreme framework and UI widgets.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### lib
+dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
 
-<!--/fullDescription-->
+---

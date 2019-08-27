@@ -1,12 +1,9 @@
-<!--id-->dxFunnel.Options.item<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFunnel.Options.item
+type: Object
+---
+---
+##### shortDescription
 Configures funnel items' appearance.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

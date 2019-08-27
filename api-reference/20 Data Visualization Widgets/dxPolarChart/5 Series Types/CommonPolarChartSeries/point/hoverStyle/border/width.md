@@ -1,14 +1,13 @@
-<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.point.hoverStyle.border.width<!--/id-->
-===========================================================================
-<!--propertyOf-->dxPolarChartSeriesTypes.linepolarseries,dxPolarChartSeriesTypes.areapolarseries,dxPolarChartSeriesTypes.scatterpolarseries<!--/propertyOf-->
-<!--default-->4<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.CommonPolarChartSeries.point.hoverStyle.border.width
+type: Number
+default: 4
+---
+---
+##### shortDescription
 Sets a border width for a hovered point.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### propertyOf
+dxPolarChartSeriesTypes.linepolarseries,dxPolarChartSeriesTypes.areapolarseries,dxPolarChartSeriesTypes.scatterpolarseries
 
-<!--/fullDescription-->
+---

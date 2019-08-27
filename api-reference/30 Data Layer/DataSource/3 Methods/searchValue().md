@@ -1,16 +1,11 @@
-<!--id-->DataSource.searchValue()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.searchValue()
+---
+---
+##### shortDescription
 Gets the [searchValue](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchValue) option's value.
-<!--/shortDescription-->
 
-<!--returnType-->any<!--/returnType-->
-<!--returnDescription-->
+##### return: any
 The option's value.
-<!--/returnDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

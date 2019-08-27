@@ -1,13 +1,10 @@
-<!--id-->BaseLegend.margin.left<!--/id-->
-===========================================================================
-<!--default-->10<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseLegend.margin.left
+type: Number
+default: 10
+---
+---
+##### shortDescription
 Specifies the legend's left margin in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

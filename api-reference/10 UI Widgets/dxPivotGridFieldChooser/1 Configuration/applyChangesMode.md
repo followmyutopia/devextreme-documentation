@@ -1,15 +1,14 @@
-<!--id-->dxPivotGridFieldChooser.Options.applyChangesMode<!--/id-->
-===========================================================================
-<!--default-->'instantly'<!--/default-->
-<!--acceptValues-->'instantly' | 'onDemand'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGridFieldChooser.Options.applyChangesMode
+acceptValues: 'instantly' | 'onDemand'
+type: String
+default: 'instantly'
+---
+---
+##### shortDescription
 Specifies when to apply changes made in the widget to the **PivotGrid**.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The following modes are available: 
 
 - *"instantly"*     
@@ -21,4 +20,3 @@ Applies or cancels changes only when this is requested from the API - by calling
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/PivotGrid/StandaloneFieldChooser/jQuery/Light/"
 }
-<!--/fullDescription-->

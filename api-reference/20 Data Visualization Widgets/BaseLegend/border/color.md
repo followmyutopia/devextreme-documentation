@@ -1,15 +1,13 @@
-<!--id-->BaseLegend.border.color<!--/id-->
-===========================================================================
-<!--default-->'#d3d3d3'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseLegend.border.color
+type: String
+default: '#d3d3d3'
+---
+---
+##### shortDescription
 Colors the legend's border.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
 
 [note] Make the legend's border visible by setting the **legend**.**border**.[visible]({basewidgetpath}/Configuration/legend/border/#visible) option to **true**.
-<!--/fullDescription-->

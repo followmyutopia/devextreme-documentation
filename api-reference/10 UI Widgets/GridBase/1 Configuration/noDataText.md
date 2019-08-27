@@ -1,13 +1,10 @@
-<!--id-->GridBase.Options.noDataText<!--/id-->
-===========================================================================
-<!--default-->'No data'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.noDataText
+type: String
+default: 'No data'
+---
+---
+##### shortDescription
 Specifies text shown when the widget does not display any data.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

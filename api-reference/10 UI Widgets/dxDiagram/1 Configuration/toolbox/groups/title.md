@@ -1,12 +1,8 @@
-<!--id-->dxDiagram.Options.toolbox.groups.title<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.toolbox.groups.title
+type: String
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

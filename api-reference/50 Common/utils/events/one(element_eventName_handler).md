@@ -1,33 +1,23 @@
-<!--id-->events.one(element, eventName, handler)<!--/id-->
-===================================================================
-<!--module-->events<!--/module-->
-<!--export-->one<!--/export-->
-===================================================================
-
-<!--shortDescription-->
+---
+id: events.one(element, eventName, handler)
+module: events
+export: one
+---
+---
+##### shortDescription
 Attaches an event handler that is executed only once to the specified elements.
-<!--/shortDescription-->
 
-<!--paramName1-->element<!--/paramName1-->
-<!--paramType1-->Node|Array<Node><!--/paramType1-->
-<!--paramDescription1-->
+##### param(element): Node | Array<Node>
 HTML elements to which to attach a handler.
-<!--/paramDescription1-->
 
-<!--paramName2-->eventName<!--/paramName2-->
-<!--paramType2-->String<!--/paramType2-->
-<!--paramDescription2-->
+##### param(eventName): String
 An event name.
-<!--/paramDescription2-->
 
-<!--paramName3-->handler<!--/paramName3-->
-<!--paramType3-->function()<!--/paramType3-->
-<!--paramDescription3-->
+##### param(handler): function()
 The handler to attach.      
 Return **false** to stop the event's propagation.
-<!--/paramDescription3-->
 
-<!--fullDescription-->
+---
 The following parameters are passed to the **handler**:
 
 - **event**: [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/)    
@@ -57,5 +47,3 @@ Data passed as **extraParameters** to the [trigger(element, event, extraParamete
             // Your code goes here
         }
     );
-
-<!--/fullDescription-->

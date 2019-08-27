@@ -1,14 +1,16 @@
-<!--id-->PivotGridDataSource.Options.onLoadError<!--/id-->
-<!--EventForAction-->PivotGridDataSource.loadError<!--/EventForAction-->
-===========================================================================
-<!--type-->function(error)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.Options.onLoadError
+type: function(error)
+EventForAction: PivotGridDataSource.loadError
+---
+---
+##### shortDescription
 A function that is executed when data loading fails.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(error): Object
+The error.
+
+---
 ---
 ##### jQuery
 
@@ -57,9 +59,3 @@ A function that is executed when data loading fails.
     </dx-pivot-grid>
 
 ---
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->error<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The error.
-<!--/typeFunctionParamDescription1-->

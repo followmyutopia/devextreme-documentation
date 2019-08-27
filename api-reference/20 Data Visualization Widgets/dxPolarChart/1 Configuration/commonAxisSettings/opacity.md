@@ -1,13 +1,10 @@
-<!--id-->dxPolarChart.Options.commonAxisSettings.opacity<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChart.Options.commonAxisSettings.opacity
+type: Number
+default: undefined
+---
+---
+##### shortDescription
 Specifies the opacity of the line that represents an axis.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,14 +1,13 @@
-<!--id-->dxMap.Options.routes.locations<!--/id-->
-===========================================================================
-<!--type-->Array<Object><!--/type-->
-<!--inherits-->MapLocation<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxMap.Options.routes.locations
+type: Array<Object>
+inherits: MapLocation
+---
+---
+##### shortDescription
 Contains an array of objects making up the route.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 You can specify the **locations** value in one of the following formats.
 
  - { lat: 40.749825, lng: -73.987963}
@@ -35,4 +34,3 @@ When you use the **Map** as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NE
             End Sub)
         End Sub)
     )
-<!--/fullDescription-->

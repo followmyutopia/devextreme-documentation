@@ -1,14 +1,13 @@
-<!--id-->positionConfig.collision<!--/id-->
-===========================================================================
-<!--acceptValues-->'fit' | 'fit flip' | 'fit flipfit' | 'fit none' | 'flip' | 'flip fit' | 'flip none' | 'flipfit' | 'flipfit fit' | 'flipfit none' | 'none' | 'none fit' | 'none flip' | 'none flipfit'<!--/acceptValues-->
-<!--type-->String | Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: positionConfig.collision
+acceptValues: 'fit' | 'fit flip' | 'fit flipfit' | 'fit none' | 'flip' | 'flip fit' | 'flip none' | 'flipfit' | 'flipfit fit' | 'flipfit none' | 'none' | 'none fit' | 'none flip' | 'none flipfit'
+type: String | Object
+---
+---
+##### shortDescription
 Specifies how to move the widget if it overflows the screen.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 A string passed to this option should contain a collision handler name, or a pair of names separated by space. If the string consists of a single collision handler name, it is applied to both horizontal and vertical axes. If you pass a pair of names separated by space, the first collision handler will be applied to the horizontal axis, the second to the vertical axis.
 
     <!--JavaScript-->
@@ -51,4 +50,3 @@ When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC
             p.Collision(PositionResolveCollision.Fit, PositionResolveCollision.Flip)
         End Sub)
     )
-<!--/fullDescription-->

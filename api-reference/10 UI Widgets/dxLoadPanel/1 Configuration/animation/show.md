@@ -1,6 +1,5 @@
-<!--id-->dxLoadPanel.Options.animation.show<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->animationConfig<!--/type-->
-===========================================================================
-
+---
+id: dxLoadPanel.Options.animation.show
+type: animationConfig
+default: null
+---

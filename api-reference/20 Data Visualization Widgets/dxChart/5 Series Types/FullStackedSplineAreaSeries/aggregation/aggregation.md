@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.FullStackedSplineAreaSeries.aggregation<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.FullStackedSplineAreaSeries.aggregation
+type: Object
+---

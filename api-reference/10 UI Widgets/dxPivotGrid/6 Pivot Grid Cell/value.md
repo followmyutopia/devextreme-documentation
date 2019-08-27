@@ -1,11 +1,8 @@
-<!--id-->dxPivotGridPivotGridCell.value<!--/id-->
-===========================================================================
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGridPivotGridCell.value
+---
+---
+##### shortDescription
 The cell's value.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

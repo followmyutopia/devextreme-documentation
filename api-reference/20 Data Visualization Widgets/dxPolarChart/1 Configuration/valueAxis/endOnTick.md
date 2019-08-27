@@ -1,6 +1,5 @@
-<!--id-->dxPolarChart.Options.valueAxis.endOnTick<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxPolarChart.Options.valueAxis.endOnTick
+type: Boolean
+default: false
+---

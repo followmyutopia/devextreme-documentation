@@ -1,13 +1,10 @@
-<!--id-->GridBase.Options.filterPanel.texts<!--/id-->
-===========================================================================
-<!--default-->{}<!--/default-->
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.filterPanel.texts
+type: Object
+default: {}
+---
+---
+##### shortDescription
 Specifies texts for the filter panel's elements.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

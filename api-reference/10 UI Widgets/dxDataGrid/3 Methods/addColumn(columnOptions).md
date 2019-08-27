@@ -1,19 +1,14 @@
-<!--id-->dxDataGrid.addColumn(columnOptions)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.addColumn(columnOptions)
+---
+---
+##### shortDescription
 Adds a new column.
-<!--/shortDescription-->
 
-<!--paramName1-->columnOptions<!--/paramName1-->
-<!--paramType1-->Object|String<!--/paramType1-->
-<!--paramDescription1-->
+##### param(columnOptions): Object | String
 The column's [configuration](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) or the data field for which the column should be created.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 #include common-link-callmethods
 - [columns]({basewidgetpath}/Configuration/columns/)
-<!--/fullDescription-->

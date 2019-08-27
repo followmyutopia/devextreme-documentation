@@ -1,5 +1,4 @@
-<!--id-->dxAutocomplete.Options.searchEnabled<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxAutocomplete.Options.searchEnabled
+hidden: 
+---

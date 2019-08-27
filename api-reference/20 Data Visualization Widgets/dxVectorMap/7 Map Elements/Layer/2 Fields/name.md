@@ -1,12 +1,9 @@
-<!--id-->MapLayer.name<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: MapLayer.name
+type: String
+---
+---
+##### shortDescription
 The name of the layer.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

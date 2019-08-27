@@ -1,13 +1,12 @@
-<!--id-->DataSource.Options.store<!--/id-->
-===========================================================================
-<!--type-->Store | Store_Options | Array<any> | any<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.Options.store
+type: Store | Store_Options | Array<any> | any
+---
+---
+##### shortDescription
 Configures the store underlying the **DataSource**.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This option accepts one of the following:
 
 * **Store instance**            
@@ -65,4 +64,3 @@ Assigning an array to the **store** option automatically creates an **ArrayStore
     }
     
 ---
-<!--/fullDescription-->

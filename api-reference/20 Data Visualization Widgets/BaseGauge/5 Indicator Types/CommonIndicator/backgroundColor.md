@@ -1,14 +1,13 @@
-<!--id-->CommonIndicator.backgroundColor<!--/id-->
-===========================================================================
-<!--propertyOf-->circularRangeBar,linearRangeBar<!--/propertyOf-->
-<!--default-->'none'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: CommonIndicator.backgroundColor
+type: String
+default: 'none'
+---
+---
+##### shortDescription
 Specifies the background color for the indicator of the *rangeBar* type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### propertyOf
+circularRangeBar,linearRangeBar
 
-<!--/fullDescription-->
+---

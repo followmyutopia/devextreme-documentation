@@ -1,12 +1,9 @@
-<!--id-->basePointObject.data<!--/id-->
-===========================================================================
-<!--type-->any<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: basePointObject.data
+type: any
+---
+---
+##### shortDescription
 Contains the data object that the series point represents.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

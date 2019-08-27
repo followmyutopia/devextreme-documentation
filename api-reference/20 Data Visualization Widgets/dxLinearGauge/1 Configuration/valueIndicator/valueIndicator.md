@@ -1,15 +1,14 @@
-<!--id-->dxLinearGauge.Options.valueIndicator<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-<!--inherits-->GaugeIndicator<!--/inherits-->
-<!--inheritAll--><!--/inheritAll-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxLinearGauge.Options.valueIndicator
+type: Object
+inherits: GaugeIndicator
+inheritAll: 
+---
+---
+##### shortDescription
 Specifies the appearance options of the value indicator.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The value indicator is a pointer that designates the main value of the gauge. There are several types of value indicators. Set the required one by using the [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/valueIndicator/#type) option, and then specify the options that are specific to this type, if needed. To learn about the options that can be specified for a particular type, refer to one of the following sections.
 
 - [Circle](/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Indicator_Types/Circle/)
@@ -22,4 +21,3 @@ The value indicator is a pointer that designates the main value of the gauge. Th
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/gaugeslineargaugeslineargaugebasicelementsdifferentvalueindicatortypes/"
 }
-<!--/fullDescription-->

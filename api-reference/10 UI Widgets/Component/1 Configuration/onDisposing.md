@@ -1,24 +1,17 @@
-<!--id-->Component.Options.onDisposing<!--/id-->
-<!--EventForAction-->Component.disposing<!--/EventForAction-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->function(e)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Component.Options.onDisposing
+type: function(e)
+default: null
+EventForAction: Component.disposing
+---
+---
+##### shortDescription
 A function that is executed before the widget is [disposed of]({basewidgetpath}/Methods/#dispose).
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
+##### param(e): Object
 Information about the event.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
+
+##### field(e.component): {WidgetName}
 The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
+
+---

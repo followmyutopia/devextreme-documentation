@@ -1,4 +1,8 @@
-<!--id-->linearRectangle.offset<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->2.5<!--/default-->
-===========================================================================
+---
+id: linearRectangle.offset
+default: 2.5
+---
+---
+##### merge
+
+---

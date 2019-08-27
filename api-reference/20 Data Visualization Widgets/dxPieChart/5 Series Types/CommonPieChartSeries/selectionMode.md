@@ -1,15 +1,14 @@
-<!--id-->dxPieChartSeriesTypes.CommonPieChartSeries.selectionMode<!--/id-->
-===========================================================================
-<!--default-->'onlyPoint'<!--/default-->
-<!--acceptValues-->'none' | 'onlyPoint'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPieChartSeriesTypes.CommonPieChartSeries.selectionMode
+acceptValues: 'none' | 'onlyPoint'
+type: String
+default: 'onlyPoint'
+---
+---
+##### shortDescription
 <p>Specifies the chart elements to highlight when the series is selected.</p>
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 <p>The **PieChart** widget comes with an API that allows you to select a series or a particular point in code. Use the <b>selectionMode</b> property to specify which series elements to select when the series is selected.</p>
 
 <ul>
@@ -27,4 +26,3 @@ The appearance of the selected series is not changed.
     enum: "`PieChartSeriesInteractionMode`",
     values: "`OnlyPoint` and `None`"
 }
-<!--/fullDescription-->

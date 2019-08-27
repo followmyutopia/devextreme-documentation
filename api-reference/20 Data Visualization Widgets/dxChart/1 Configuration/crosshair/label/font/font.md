@@ -1,13 +1,10 @@
-<!--id-->dxChart.Options.crosshair.label.font<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-<!--inherits-->Font<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.crosshair.label.font
+type: Object
+inherits: Font
+---
+---
+##### shortDescription
 Specifies font options for the crosshair labels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

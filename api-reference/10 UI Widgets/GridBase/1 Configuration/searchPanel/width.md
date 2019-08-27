@@ -1,13 +1,10 @@
-<!--id-->GridBase.Options.searchPanel.width<!--/id-->
-===========================================================================
-<!--default-->160<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.searchPanel.width
+type: Number
+default: 160
+---
+---
+##### shortDescription
 Specifies the width of the search panel in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

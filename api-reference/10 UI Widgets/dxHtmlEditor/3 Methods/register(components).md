@@ -1,21 +1,17 @@
-<!--id-->dxHtmlEditor.register(components)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxHtmlEditor.register(components)
+---
+---
+##### shortDescription
 Registers custom formats and modules.
-<!--/shortDescription-->
 
-<!--paramName1-->modules<!--/paramName1-->
-<!--paramType1-->Object<!--/paramType1-->
-<!--paramDescription1-->
+##### param(modules): Object
 Formats and modules to be registered.        
 This object should have the following structure:            
 `{ "path1": "object1", ... }`           
 where `path1` is *formats/[formatName]* for formats or *modules/[moduleName]* for modules.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -119,4 +115,3 @@ where `path1` is *formats/[formatName]* for formats or *modules/[moduleName]* fo
 #####See Also#####
 - [get(componentPath)](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Methods/#getcomponentPath)
 - [customizeModules](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/#customizeModules)
-<!--/fullDescription-->

@@ -1,13 +1,9 @@
-<!--id-->dxDiagram.Options.pageColor<!--/id-->
-===========================================================================
-<!--default-->'white'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.pageColor
+type: String
+default: 'white'
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

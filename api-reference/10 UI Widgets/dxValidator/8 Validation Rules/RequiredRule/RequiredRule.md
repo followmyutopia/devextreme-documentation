@@ -1,13 +1,12 @@
-<!--id-->RequiredRule<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: RequiredRule
+type: Object
+---
+---
+##### shortDescription
 A validation rule that demands that a validated field has a value.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Use this rule type to ensure the target editor value is specified. The rule will be broken in the following cases.
 
 - If the validated value is null.
@@ -19,4 +18,3 @@ Use this rule type to ensure the target editor value is specified. The rule will
 
 #####See Also#####
 - [Data Validation](/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/)
-<!--/fullDescription-->

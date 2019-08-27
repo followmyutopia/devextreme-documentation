@@ -1,13 +1,9 @@
-<!--id-->dxGantt.Options.resourceAssignments<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->Object<!--/type-->
-===========================================================================
+---
+id: dxGantt.Options.resourceAssignments
+type: Object
+default: null
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

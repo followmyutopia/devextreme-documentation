@@ -1,14 +1,22 @@
-<!--id-->GridBaseColumn.sortingMethod<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->function(value1, value2)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBaseColumn.sortingMethod
+type: function(value1, value2)
+default: undefined
+---
+---
+##### shortDescription
 Specifies a custom comparison function for sorting. Applies only when sorting is performed on the client.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(value1): any
+A value to be compared.
+
+##### param(value2): any
+A value to be compared.
+
+##### return: Number
+Specifies whether *value1* goes before *value2*.
+
+---
 This function accepts two cell values and should return a number indicating their sort order:
 
 - *Less than zero*     
@@ -79,20 +87,3 @@ The string comparison is culture-insensitive by default. Use the following code 
 #include uiwidgets-ref-functioncontext with { 
     value: "column's configuration"
 }
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->value1<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->any<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-A value to be compared.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionParamName2-->value2<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->any<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-A value to be compared. 
-<!--/typeFunctionParamDescription2-->
-
-<!--typeFunctionReturnType-->Number<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-Specifies whether *value1* goes before *value2*.
-<!--/typeFunctionReturnDescription-->

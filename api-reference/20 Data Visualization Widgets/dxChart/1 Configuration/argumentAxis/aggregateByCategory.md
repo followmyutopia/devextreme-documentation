@@ -1,13 +1,9 @@
-<!--id-->dxChart.Options.argumentAxis.aggregateByCategory<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
+---
+id: dxChart.Options.argumentAxis.aggregateByCategory
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

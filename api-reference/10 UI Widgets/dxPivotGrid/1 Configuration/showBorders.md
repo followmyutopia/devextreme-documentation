@@ -1,13 +1,10 @@
-<!--id-->dxPivotGrid.Options.showBorders<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGrid.Options.showBorders
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether the outer borders of the grid are visible or not.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

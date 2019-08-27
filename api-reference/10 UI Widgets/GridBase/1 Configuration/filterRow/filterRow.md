@@ -1,13 +1,12 @@
-<!--id-->GridBase.Options.filterRow<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.filterRow
+type: Object
+---
+---
+##### shortDescription
 Configures the filter row.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The filter row allows a user to filter data by values of individual columns.
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout {WidgetName} FilterRow](/Content/images/doc/19_2/{WidgetName}/visual_elements/filter_row.png)
@@ -26,4 +25,3 @@ To make the filter row visible, assign **true** to the **filterRow**.[visible]({
 - [Filter Row](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Filter_Row)
 - [filter(filterExpr)]({basewidgetpath}/Methods/#filterfilterExpr)
 - [clearFilter(filterName)]({basewidgetpath}/Methods/#clearFilterfilterName)
-<!--/fullDescription-->

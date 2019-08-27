@@ -1,15 +1,15 @@
-<!--id-->circularTextCloud<!--/id-->
-===========================================================================
-<!--hidePropertyOf--><!--/hidePropertyOf-->
-<!--type-->Object<!--/type-->
-<!--inherits-->CommonIndicator<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: circularTextCloud
+type: Object
+inherits: CommonIndicator
+---
+---
+##### shortDescription
 An object that defines a gauge indicator of the **textCloud** type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### hidePropertyOf
+
+---
 ---
 ##### jQuery  
 
@@ -74,4 +74,3 @@ An object that defines a gauge indicator of the **textCloud** type.
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Gauges/DifferentValueIndicatorTypes/jQuery/Light/"
 }
-<!--/fullDescription-->

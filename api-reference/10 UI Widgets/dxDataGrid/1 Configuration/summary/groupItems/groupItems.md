@@ -1,14 +1,13 @@
-<!--id-->dxDataGrid.Options.summary.groupItems<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Array<Object><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.Options.summary.groupItems
+type: Array<Object>
+default: undefined
+---
+---
+##### shortDescription
 Specifies items of the group summary.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The group summary provides a synopsis of a group of data. Groups of data are formed in the process of [grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/). The group summary contains several items. Each item displays a value that is a product of applying an aggregate function to a group of data.
 
 To specify the items of the group summary, declare an array of objects, each of which contains at least two fields: [column](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/#column) and [summaryType](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/#summaryType). The **column** field specifies the identifier of the column that provides data for an aggregate function. The **summaryType** specifies the aggregate function to be applied. The following code snippet shows how to declare two summary items.
@@ -74,4 +73,3 @@ A group summary item may be located either in the group row or the group footer.
 
 #####See Also#####
 - [Group Summary](/Documentation/Guide/Widgets/DataGrid/Summaries/Group_Summary/)
-<!--/fullDescription-->

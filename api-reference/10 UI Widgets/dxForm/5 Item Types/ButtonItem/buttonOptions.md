@@ -1,14 +1,13 @@
-<!--id-->dxFormButtonItem.buttonOptions<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->dxButton_Options<!--/type-->
-===========================================================================
+---
+id: dxFormButtonItem.buttonOptions
+type: dxButton_Options
+default: undefined
+---
+---
+##### shortDescription
+Configures the button.
 
-<!--shortDescription-->
-Configures the button. 
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 See the [Button configuration](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/) for options that you can specify in this object.
 
 ---
@@ -66,4 +65,3 @@ See the [Button configuration](/Documentation/ApiReference/UI_Widgets/dxButton/C
 ---
 
 #include widgets-config-object-option-note
-<!--/fullDescription-->

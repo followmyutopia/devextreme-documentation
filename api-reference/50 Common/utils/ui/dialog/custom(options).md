@@ -1,57 +1,41 @@
-<!--id-->ui.dialog.custom(options)<!--/id-->
-===================================================================
-<!--module-->ui/dialog<!--/module-->
-<!--export-->custom<!--/export-->
-===================================================================
-
-<!--shortDescription-->
+---
+id: ui.dialog.custom(options)
+module: ui/dialog
+export: custom
+---
+---
+##### shortDescription
 Creates a dialog with custom buttons.
-<!--/shortDescription-->
 
-<!--paramName1-->options<!--/paramName1-->
-<!--paramType1-->Object<!--/paramType1-->
-<!--paramDescription1-->
+##### return: Object
+An object that represents the dialog.
+
+##### param(options): Object
 The dialog's options.
-<!--/paramDescription1-->
-<!--paramName1_field1-->title<!--/paramName1_field1-->
-<!--paramType1_field1-->String<!--/paramType1_field1-->
-<!--paramDescription1_field1-->
-The dialog's title.
-<!--/paramDescription1_field1-->
-<!--paramName1_field2-->messageHtml<!--/paramName1_field2-->
-<!--paramType1_field2-->String<!--/paramType1_field2-->
-<!--paramDescription1_field2-->
-The dialog's message. Can contain HTML elements.
-<!--/paramDescription1_field2-->
-<!--paramName1_field3-->buttons<!--/paramName1_field3-->
-<!--paramType1_field3-->Array<dxButton_Options><!--/paramType1_field3-->
-<!--paramDescription1_field3-->
+
+##### field(options.buttons): Array<dxButton_Options>
 Buttons to be displayed in the dialog.
-<!--/paramDescription1_field3-->
-<!--paramName1_field4-->showTitle<!--/paramName1_field4-->
-<!--paramType1_field4-->Boolean<!--/paramType1_field4-->
-<!--paramDescription1_field4-->
-Specifies whether to show the title. Defaults to **true**.
-<!--/paramDescription1_field4-->
-<!--paramName1_field5-->message<!--/paramName1_field5-->
-<!--paramType1_field5-->String<!--/paramType1_field5-->
-<!--paramDescription1_field5-->
-The dialog's message. Deprecated in favor of the **messageHtml** field.
-<!--/paramDescription1_field5-->
-<!--paramDeprecated1_field5-->Use 'messageHtml' instead.<!--/paramDeprecated1_field5-->
-<!--paramName1_field6-->dragEnabled<!--/paramName1_field6-->
-<!--paramType1_field6-->Boolean<!--/paramType1_field6-->
-<!--paramDescription1_field6-->
+
+##### field(options.dragEnabled): Boolean
 Specifies whether the dialog window can be dragged. Defaults to the **showTitle** value.        
 Ensure the **showTitle** field is not explicitly set to **false** because a user can drag the dialog only by its title.
-<!--/paramDescription1_field6-->
 
-<!--returnType-->Object<!--/returnType-->
-<!--returnDescription-->
-An object that represents the dialog.
-<!--/returnDescription-->
+##### field(options.message).deprecated
+Use 'messageHtml' instead.
 
-<!--fullDescription-->
+##### field(options.message): String
+The dialog's message. Deprecated in favor of the **messageHtml** field.
+
+##### field(options.messageHtml): String
+The dialog's message. Can contain HTML elements.
+
+##### field(options.showTitle): Boolean
+Specifies whether to show the title. Defaults to **true**.
+
+##### field(options.title): String
+The dialog's title.
+
+---
 The **custom(options)** method only creates a dialog. To display it, call the dialog instance's **show()** method. This method returns a Promise that is resolved with the dialog result. The result contains anything you return from the clicked button's [onClick](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#onClick) function. In the following code, it is the clicked button's text. If the message contains HTML tags, encode it as shown in the following example:
 
 ---
@@ -177,5 +161,3 @@ The **custom(options)** method only creates a dialog. To display it, call the di
 Call the **hide()** method to close the dialog before any button is clicked. In the following code, the dialog is closed after 5 seconds if a user does not click any button:
 
     setTimeout(function() { myDialog.hide(); }, 5000);
-
-<!--/fullDescription-->

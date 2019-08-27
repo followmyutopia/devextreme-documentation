@@ -1,14 +1,12 @@
-<!--id-->dxChartSeriesTypes.CommonSeries.aggregation.enabled<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.CommonSeries.aggregation.enabled
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Enables data aggregation for the series.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 - [Data Aggregation](/Documentation/Guide/Widgets/Chart/Data_Aggregation/)
-<!--/fullDescription-->

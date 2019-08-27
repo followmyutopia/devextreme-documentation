@@ -1,12 +1,9 @@
-<!--id-->BaseWidget.Options.tooltip.shadow<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseWidget.Options.tooltip.shadow
+type: Object
+---
+---
+##### shortDescription
 Configures a tooltip's shadow.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

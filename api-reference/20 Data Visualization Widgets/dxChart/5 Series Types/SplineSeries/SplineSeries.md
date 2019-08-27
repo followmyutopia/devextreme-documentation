@@ -1,15 +1,15 @@
-<!--id-->dxChartSeriesTypes.SplineSeries<!--/id-->
-===========================================================================
-<!--hidePropertyOf--><!--/hidePropertyOf-->
-<!--type-->Object<!--/type-->
-<!--inherits-->dxChartSeriesTypes.CommonSeries<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.SplineSeries
+type: Object
+inherits: dxChartSeriesTypes.CommonSeries
+---
+---
+##### shortDescription
 Describes settings supported by a series of the *spline* type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### hidePropertyOf
+
+---
 #include dataviz-ref-series-type with { 
     seriesType: "spline"
 }
@@ -19,4 +19,3 @@ Describes settings supported by a series of the *spline* type.
 }
 
 ![DevExtreme HTML5 Charts SplineSeriesType](/Content/images/doc/19_2/ChartJS/Spline.png)
-<!--/fullDescription-->

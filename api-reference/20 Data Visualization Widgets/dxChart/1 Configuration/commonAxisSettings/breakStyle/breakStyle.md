@@ -1,12 +1,9 @@
-<!--id-->dxChart.Options.commonAxisSettings.breakStyle<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonAxisSettings.breakStyle
+type: Object
+---
+---
+##### shortDescription
 Configures the scale breaks' appearance.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

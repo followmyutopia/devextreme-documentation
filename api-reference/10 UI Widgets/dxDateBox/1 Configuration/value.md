@@ -1,14 +1,13 @@
-<!--id-->dxDateBox.Options.value<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->Date | Number | String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDateBox.Options.value
+type: Date | Number | String
+default: null
+---
+---
+##### shortDescription
 An object or a value specifying the date and time currently selected using the date box.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 You can specify the current widget value using any of the following formats.
 
 - Date  
@@ -29,4 +28,3 @@ If the widget value is changed by an end-user, the new value is saved in the sam
 
 #####See Also#####
 - [displayFormat](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#displayFormat)
-<!--/fullDescription-->

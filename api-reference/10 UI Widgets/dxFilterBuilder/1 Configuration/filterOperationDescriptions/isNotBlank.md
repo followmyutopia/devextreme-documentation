@@ -1,13 +1,10 @@
-<!--id-->dxFilterBuilder.Options.filterOperationDescriptions.isNotBlank<!--/id-->
-===========================================================================
-<!--default-->'Is not blank'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFilterBuilder.Options.filterOperationDescriptions.isNotBlank
+type: String
+default: 'Is not blank'
+---
+---
+##### shortDescription
 The *"isnotblank"* operation's description.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

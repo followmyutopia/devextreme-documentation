@@ -1,15 +1,14 @@
-<!--id-->dxList.Options.selectionMode<!--/id-->
-===========================================================================
-<!--default-->'none'<!--/default-->
-<!--acceptValues-->'all' | 'multiple' | 'none' | 'single'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxList.Options.selectionMode
+acceptValues: 'all' | 'multiple' | 'none' | 'single'
+type: String
+default: 'none'
+---
+---
+##### shortDescription
 Specifies item selection mode.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This option accepts the following values.
 
 - *"none"*  
@@ -38,4 +37,3 @@ This option accepts the following values.
 
 #####See Also#####
 - [List - Selection - User Interaction](/Documentation/Guide/Widgets/List/Selection/#User_Interaction)
-<!--/fullDescription-->

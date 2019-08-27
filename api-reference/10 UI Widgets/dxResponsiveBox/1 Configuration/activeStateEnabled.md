@@ -1,5 +1,4 @@
-<!--id-->dxResponsiveBox.Options.activeStateEnabled<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxResponsiveBox.Options.activeStateEnabled
+hidden: 
+---

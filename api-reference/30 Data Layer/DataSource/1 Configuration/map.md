@@ -1,13 +1,18 @@
-<!--id-->DataSource.Options.map<!--/id-->
-===========================================================================
-<!--type-->function(dataItem)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.Options.map
+type: function(dataItem)
+---
+---
+##### shortDescription
 Specifies an item mapping function.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(dataItem): Object
+An initial data item.
+
+##### return: Object
+A modified data item.
+
+---
 ---
 ##### jQuery
 
@@ -78,14 +83,3 @@ Specifies an item mapping function.
 
 #####See Also#####
 - [Item Mapping](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Data_Transformation/Item_Mapping)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->dataItem<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-An initial data item.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->Object<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A modified data item.
-<!--/typeFunctionReturnDescription-->

@@ -1,13 +1,10 @@
-<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.label.rotationAngle<!--/id-->
-===========================================================================
-<!--default-->0<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.CommonPolarChartSeries.label.rotationAngle
+type: Number
+default: 0
+---
+---
+##### shortDescription
 Specifies the angle used to rotate point labels from their initial position.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

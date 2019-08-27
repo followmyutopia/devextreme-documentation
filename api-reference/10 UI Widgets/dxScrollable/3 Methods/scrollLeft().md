@@ -1,17 +1,13 @@
-<!--id-->dxScrollable.scrollLeft()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxScrollable.scrollLeft()
+---
+---
+##### shortDescription
 Gets the left scroll offset.
-<!--/shortDescription-->
 
-<!--returnType-->Number<!--/returnType-->
-<!--returnDescription-->
+##### return: Number
 The left scroll offset in pixels.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

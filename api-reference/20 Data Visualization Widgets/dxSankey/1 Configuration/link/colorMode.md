@@ -1,15 +1,14 @@
-<!--id-->dxSankey.Options.link.colorMode<!--/id-->
-===========================================================================
-<!--default-->'none'<!--/default-->
-<!--acceptValues-->'none' | 'source' | 'target' | 'gradient'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSankey.Options.link.colorMode
+acceptValues: 'none' | 'source' | 'target' | 'gradient'
+type: String
+default: 'none'
+---
+---
+##### shortDescription
 Specifies how to color links.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This option accepts the following values:
 
 - *"none"*      
@@ -32,4 +31,3 @@ A gradient color between the source node's and target node's color is used.
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Charts/SankeyChart/jQuery/Light/"
 }
-<!--/fullDescription-->

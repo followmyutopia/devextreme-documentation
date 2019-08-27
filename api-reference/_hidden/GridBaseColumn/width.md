@@ -1,14 +1,13 @@
-<!--id-->GridBaseColumn.width<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number | String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBaseColumn.width
+type: Number | String
+default: undefined
+---
+---
+##### shortDescription
 Specifies the column's width in pixels or as a percentage. Ignored if it is less than [minWidth]({basewidgetpath}/Configuration/columns/#minWidth).
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The option supports the following types of values:
 
  - **Number**  
@@ -21,4 +20,3 @@ The option supports the following types of values:
 #####See Also#####
 - [columnAutoWidth]({basewidgetpath}/Configuration/#columnAutoWidth)
 - [width]({basewidgetpath}/Configuration/#width)
-<!--/fullDescription-->

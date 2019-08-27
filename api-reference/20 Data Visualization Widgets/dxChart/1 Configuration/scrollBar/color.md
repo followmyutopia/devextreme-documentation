@@ -1,13 +1,11 @@
-<!--id-->dxChart.Options.scrollBar.color<!--/id-->
-===========================================================================
-<!--default-->'gray'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.scrollBar.color
+type: String
+default: 'gray'
+---
+---
+##### shortDescription
 Specifies the color of the scroll bar.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

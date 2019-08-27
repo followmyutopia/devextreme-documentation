@@ -1,12 +1,8 @@
-<!--id-->pieChartSeriesObject.clearHover()<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
+---
+id: pieChartSeriesObject.clearHover()
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

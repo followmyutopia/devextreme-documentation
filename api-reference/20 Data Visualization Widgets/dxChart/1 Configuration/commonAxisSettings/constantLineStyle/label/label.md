@@ -1,13 +1,12 @@
-<!--id-->dxChart.Options.commonAxisSettings.constantLineStyle.label<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonAxisSettings.constantLineStyle.label
+type: Object
+---
+---
+##### shortDescription
 Configures constant line labels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 A constant line label displays the value of a constant line.
 
 ![DevExtreme HTML5 Charts ConstantLine ConstantLineLabel](/Content/images/doc/19_2/ChartJS/visual_elements/constant_line_labels.png)
@@ -23,4 +22,3 @@ To configure the labels of individual constant lines use the following objects.
 - **valueAxis**.**constantLines[]**.[label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/constantLines/label/) 
 
 Individual settings override axis-specific settings which, in their turn, override common settings.
-<!--/fullDescription-->

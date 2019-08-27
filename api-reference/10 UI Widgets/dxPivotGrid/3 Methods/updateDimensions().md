@@ -1,12 +1,10 @@
-<!--id-->dxPivotGrid.updateDimensions()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGrid.updateDimensions()
+---
+---
+##### shortDescription
 Updates the widget to the size of its content.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

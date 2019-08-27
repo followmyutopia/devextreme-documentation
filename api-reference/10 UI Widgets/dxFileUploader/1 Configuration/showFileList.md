@@ -1,13 +1,10 @@
-<!--id-->dxFileUploader.Options.showFileList<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFileUploader.Options.showFileList
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether or not the widget displays the list of selected files.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

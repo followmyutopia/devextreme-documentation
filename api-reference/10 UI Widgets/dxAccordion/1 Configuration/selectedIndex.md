@@ -1,13 +1,10 @@
-<!--id-->dxAccordion.Options.selectedIndex<!--/id-->
-===========================================================================
-<!--default-->0<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxAccordion.Options.selectedIndex
+type: Number
+default: 0
+---
+---
+##### shortDescription
 The index number of the currently selected item.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

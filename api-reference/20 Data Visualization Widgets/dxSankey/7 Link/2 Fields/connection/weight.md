@@ -1,12 +1,9 @@
-<!--id-->dxSankeyConnectionInfoObject.weight<!--/id-->
-===========================================================================
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSankeyConnectionInfoObject.weight
+type: Number
+---
+---
+##### shortDescription
 The link's weight.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

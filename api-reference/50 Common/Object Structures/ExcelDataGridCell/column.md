@@ -1,12 +1,9 @@
-<!--id-->ExcelDataGridCell.column<!--/id-->
-===========================================================================
-<!--type-->dxDataGridColumn<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: ExcelDataGridCell.column
+type: dxDataGridColumn
+---
+---
+##### shortDescription
 The configuration of the cell's column.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

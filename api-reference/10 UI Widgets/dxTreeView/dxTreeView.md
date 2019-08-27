@@ -1,5 +1,14 @@
-<!--id-->dxTreeView<!--/id-->
-<!--widgettree-->
+---
+id: dxTreeView
+module: ui/tree_view
+export: default
+inherits: HierarchicalCollectionWidget,SearchBoxMixin
+---
+---
+##### shortDescription
+The **TreeView** widget is a tree-like representation of textual data.
+
+##### widgettree
 dataSource: [{
     id: "1",
     text: "Stores",
@@ -89,21 +98,11 @@ dataSource: [{
 
     }]
 }]
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/tree_view<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->HierarchicalCollectionWidget,SearchBoxMixin<!--/inherits-->
-<!--lib-->
+
+##### lib
 dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
 
-<!--shortDescription-->
-The **TreeView** widget is a tree-like representation of textual data.
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/navigationtreeviewtreeviewsimpletreeview/"
 }
@@ -114,4 +113,3 @@ The **TreeView** widget is a tree-like representation of textual data.
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

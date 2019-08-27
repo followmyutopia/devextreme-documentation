@@ -1,14 +1,13 @@
-<!--id-->GridBase.Options.editing.selectTextOnEditStart<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.editing.selectTextOnEditStart
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether to select text in a cell when a user starts editing.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/DataGrid/BatchEditing/jQuery/Light/"
 }
@@ -16,4 +15,3 @@ Specifies whether to select text in a cell when a user starts editing.
 #####See Also#####
 - [startEditAction]({basewidgetpath}/Configuration/editing/#startEditAction)
 - [editOnKeyPress]({basewidgetpath}/Configuration/keyboardNavigation/#editOnKeyPress)
-<!--/fullDescription-->

@@ -1,4 +1,8 @@
-<!--id-->circularTriangleMarker.width<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->13<!--/default-->
-===========================================================================
+---
+id: circularTriangleMarker.width
+default: 13
+---
+---
+##### merge
+
+---

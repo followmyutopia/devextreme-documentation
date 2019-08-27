@@ -1,8 +1,7 @@
-===========================================================================
-<!--merge--><!--/merge-->
-===========================================================================
+---
+##### merge
 
-<!--fullDescription-->
+---
 This option should be assigned a function returning a specific object. The following fields can be specified in this object.
 
 - **color**        
@@ -47,5 +46,4 @@ The function's parameter represents the same object as the **this** object. If a
 #include dataviz-ref-functioncontext
 
 #####See Also#####
-- [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/) 
-<!--/fullDescription-->
+- [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/)

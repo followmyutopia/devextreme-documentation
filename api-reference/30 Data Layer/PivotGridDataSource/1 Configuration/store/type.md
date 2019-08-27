@@ -1,14 +1,13 @@
-<!--id-->PivotGridDataSource.Options.store.type<!--/id-->
-===========================================================================
-<!--acceptValues-->'array' | 'local' | 'odata' | 'xmla'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.Options.store.type
+acceptValues: 'array' | 'local' | 'odata' | 'xmla'
+type: String
+---
+---
+##### shortDescription
 Specifies the **PivotGridDataSource**'s storage type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This option accepts one of the following values:
 
 - "array"  
@@ -26,4 +25,3 @@ This option accepts one of the following values:
 Each store has options that are detailed in the links above. Declare these options in the **store** object.
 
 You can also implement custom data access logic as described in the [Use CustomStore](/Documentation/Guide/Widgets/PivotGrid/Use_CustomStore/) topic.
-<!--/fullDescription-->

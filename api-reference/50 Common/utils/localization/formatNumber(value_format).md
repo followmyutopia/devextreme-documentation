@@ -1,32 +1,22 @@
-<!--id-->localization.formatNumber(value, format)<!--/id-->
-===================================================================
-<!--module-->localization<!--/module-->
-<!--export-->formatNumber<!--/export-->
-===================================================================
-
-<!--shortDescription-->
+---
+id: localization.formatNumber(value, format)
+module: localization
+export: formatNumber
+---
+---
+##### shortDescription
 Converts a numeric value to a string using the specified format.
-<!--/shortDescription-->
 
-<!--paramName1-->value<!--/paramName1-->
-<!--paramType1-->Number<!--/paramType1-->
-<!--paramDescription1-->
-A numeric value to be converted.
-<!--/paramDescription1-->
-
-<!--paramName2-->format<!--/paramName2-->
-<!--paramType2-->format<!--/paramType2-->
-<!--paramDescription2-->
-The [format](/Documentation/ApiReference/Common/Object_Structures/format/) to be used for conversion.
-<!--/paramDescription2-->
-
-<!--returnType-->String<!--/returnType-->
-<!--returnDescription-->
+##### return: String
 The formatted string.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(value): Number
+A numeric value to be converted.
 
+##### param(format): format
+The [format](/Documentation/ApiReference/Common/Object_Structures/format/) to be used for conversion.
+
+---
 ---
 ##### jQuery
 
@@ -47,4 +37,3 @@ The formatted string.
     }
 
 ---
-<!--/fullDescription-->

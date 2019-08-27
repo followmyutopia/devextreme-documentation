@@ -1,13 +1,10 @@
-<!--id-->dxFilterBuilder.Options.filterOperationDescriptions.notEqual<!--/id-->
-===========================================================================
-<!--default-->'Does not equal'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFilterBuilder.Options.filterOperationDescriptions.notEqual
+type: String
+default: 'Does not equal'
+---
+---
+##### shortDescription
 The *"<>"* operation's description.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

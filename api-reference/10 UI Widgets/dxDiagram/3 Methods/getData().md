@@ -1,18 +1,13 @@
-<!--id-->dxDiagram.getData()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxDiagram.getData()
+---
+---
+##### shortDescription
 Gets the diagram data.
-<!--/shortDescription-->
 
-<!--returnType-->String<!--/returnType-->
-<!--returnDescription-->
+##### return: String
 
-<!--/returnDescription-->
-
-<!--fullDescription-->
-
+---
 The **getData** method allows you to save information about a diagram's layout, appearance, and the diagram's shape positions. You can call the [setData]({basewidgetpath}/Methods/#setDatadata_updateExistingItemsOnly) method to save this data and load it on demand.
 
 ---
@@ -35,5 +30,3 @@ The **getData** method allows you to save information about a diagram's layout, 
     });
 
 ---
-
-<!--/fullDescription-->

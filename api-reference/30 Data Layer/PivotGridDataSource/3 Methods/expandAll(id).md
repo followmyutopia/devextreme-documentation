@@ -1,18 +1,14 @@
-<!--id-->PivotGridDataSource.expandAll(id)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.expandAll(id)
+---
+---
+##### shortDescription
 Expands all the header items of a field with the specified identifier.
-<!--/shortDescription-->
 
-<!--paramName1-->id<!--/paramName1-->
-<!--paramType1-->Number|String<!--/paramType1-->
-<!--paramDescription1-->
+##### param(id): Number | String
 The field's [name](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#name), [caption](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#caption), [dataField](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#dataField), or index in the [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) array.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -44,4 +40,3 @@ The field's [name](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Co
 #####See Also#####
 - [collapseAll(id)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#collapseAllid)
 - **fields[]**.[expanded](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#expanded)
-<!--/fullDescription-->

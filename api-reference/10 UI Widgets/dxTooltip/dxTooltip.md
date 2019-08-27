@@ -1,18 +1,17 @@
-<!--id-->dxTooltip<!--/id-->
-===========================================================================
-<!--module-->ui/tooltip<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->dxPopover<!--/inherits-->
-<!--lib-->
-dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTooltip
+module: ui/tooltip
+export: default
+inherits: dxPopover
+---
+---
+##### shortDescription
 The **Tooltip** widget displays a tooltip for a specified element on the page.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### lib
+dx.web.js, dx.viz-web.js, dx.all.js
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/dialogsandnotificationstooltiptooltiptooltip/"
 }
@@ -23,4 +22,3 @@ The **Tooltip** widget displays a tooltip for a specified element on the page.
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

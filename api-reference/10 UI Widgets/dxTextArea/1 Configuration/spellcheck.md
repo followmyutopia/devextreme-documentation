@@ -1,13 +1,10 @@
-<!--id-->dxTextArea.Options.spellcheck<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTextArea.Options.spellcheck
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether or not the widget checks the inner text for spelling mistakes.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

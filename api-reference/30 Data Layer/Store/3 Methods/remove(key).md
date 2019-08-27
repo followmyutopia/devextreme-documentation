@@ -1,23 +1,17 @@
-<!--id-->Store.remove(key)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: Store.remove(key)
+---
+---
+##### shortDescription
 Removes a data item with a specific key from the store.
-<!--/shortDescription-->
 
-<!--paramName1-->key<!--/paramName1-->
-<!--paramType1-->Object|String|Number<!--/paramType1-->
-<!--paramDescription1-->
-A data item's key value.
-<!--/paramDescription1-->
-
-<!--returnType-->Promise<void><!--/returnType-->
-<!--returnDescription-->
+##### return: Promise<void>
 A Promise that is resolved after the data item is removed. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(key): Object | String | Number
+A data item's key value.
+
+---
 ---
 ##### jQuery
 
@@ -93,4 +87,3 @@ A Promise that is resolved after the data item is removed. It is a <a href="http
     }
     
 ---
-<!--/fullDescription-->

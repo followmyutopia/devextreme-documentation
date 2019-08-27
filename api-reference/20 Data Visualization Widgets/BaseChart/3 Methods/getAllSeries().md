@@ -1,17 +1,13 @@
-<!--id-->BaseChart.getAllSeries()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: BaseChart.getAllSeries()
+---
+---
+##### shortDescription
 Gets all the series.
-<!--/shortDescription-->
 
-<!--returnType-->Array<baseSeriesObject><!--/returnType-->
-<!--returnDescription-->
+##### return: Array<baseSeriesObject>
 The [Series]({basewidgetpath}/Chart_Elements/Series/) objects.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

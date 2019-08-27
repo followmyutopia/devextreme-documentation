@@ -1,14 +1,10 @@
-<!--id-->GaugeIndicator<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--inlineType--><!--/inlineType-->
-<!--inherits-->CommonIndicator<!--/inherits-->
-===========================================================================
+---
+id: GaugeIndicator
+inherits: CommonIndicator
+hidden: 
+inlineType: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

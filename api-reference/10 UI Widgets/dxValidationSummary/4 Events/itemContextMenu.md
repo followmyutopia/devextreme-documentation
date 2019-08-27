@@ -1,6 +1,5 @@
-<!--id-->dxValidationSummary.itemContextMenu<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->eventType<!--/type-->
-===========================================================================
-
+---
+id: dxValidationSummary.itemContextMenu
+type: eventType
+hidden: 
+---

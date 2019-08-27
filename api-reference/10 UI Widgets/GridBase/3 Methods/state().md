@@ -1,17 +1,14 @@
-<!--id-->GridBase.state()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.state()
+---
+---
+##### shortDescription
 Gets the current widget state.
-<!--/shortDescription-->
 
-<!--returnType-->Object<!--/returnType-->
-<!--returnDescription-->
+##### return: Object
 The current widget state.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 The following example shows how to save the widget state in the local storage and load it from there:
 
 ---
@@ -87,4 +84,3 @@ The following example shows how to save the widget state in the local storage an
 #####See Also#####
 #include common-link-callmethods
 - [stateStoring]({basewidgetpath}/Configuration/stateStoring/)
-<!--/fullDescription-->

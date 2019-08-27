@@ -1,12 +1,9 @@
-<!--id-->dxAccordionItem.title<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxAccordionItem.title
+type: String
+---
+---
+##### shortDescription
 Specifies text displayed for the widget item title.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

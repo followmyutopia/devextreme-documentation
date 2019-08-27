@@ -1,13 +1,18 @@
-<!--id-->dxDataGrid.Options.customizeExportData<!--/id-->
-===========================================================================
-<!--type-->function(columns, rows)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.Options.customizeExportData
+type: function(columns, rows)
+---
+---
+##### shortDescription
 Customizes data before export. You can use the **export**.[customizeExcelCell](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#customizeExcelCell) function instead.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(columns): Array<dxDataGridColumn>
+All column [configurations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/).
+
+##### param(rows): Array<dxDataGridRowObject>
+The [Row](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/) objects. This array contains only exported rows.
+
+---
 This function is called between the [onExporting](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExporting) and [onExported](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExported) functions. This function customizes data; the other functions can be used to customize grid columns.
  
 In the following code, the **customizeExportData** function replaces empty values with the *"Is Blank"* value:
@@ -66,15 +71,3 @@ In the following code, the **customizeExportData** function replaces empty value
 - [Client-Side Exporting](/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/)
 - [export](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/).**enabled**
 - **columns[]**.[allowExporting](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowExporting)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->columns<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Array<dxDataGridColumn><!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-All column [configurations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/).
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionParamName2-->rows<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->Array<dxDataGridRowObject><!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-The [Row](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/) objects. This array contains only exported rows.
-<!--/typeFunctionParamDescription2-->

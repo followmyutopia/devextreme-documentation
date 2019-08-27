@@ -1,12 +1,8 @@
-<!--id-->dxDiagram.Options.customShapes.imageWidth<!--/id-->
-===========================================================================
-<!--type-->Number<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.customShapes.imageWidth
+type: Number
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

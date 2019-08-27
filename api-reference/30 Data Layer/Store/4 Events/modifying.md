@@ -1,12 +1,10 @@
-<!--id-->Store.modifying<!--/id-->
-===========================================================================
-<!--type-->eventType<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Store.modifying
+type: eventType
+---
+---
+##### shortDescription
 Raised before a data item is added, updated, or removed from the store.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Main article: [onModifying]({basewidgetpath}/Configuration/#onModifying)
-<!--/fullDescription-->

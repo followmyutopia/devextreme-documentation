@@ -1,14 +1,10 @@
-<!--id-->dxSelectBox.Options.allowClearing<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
+---
+id: dxSelectBox.Options.allowClearing
+type: Boolean
+default: true
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

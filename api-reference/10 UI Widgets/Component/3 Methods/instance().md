@@ -1,17 +1,13 @@
-<!--id-->Component.instance()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: Component.instance()
+---
+---
+##### shortDescription
 Gets the widget's instance. Use it to access other methods of the widget.
-<!--/shortDescription-->
 
-<!--returnType-->{WidgetName}<!--/returnType-->
-<!--returnDescription-->
+##### return: {WidgetName}
 This widget's instance.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

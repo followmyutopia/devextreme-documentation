@@ -1,13 +1,10 @@
-<!--id-->dxNumberBox.Options.min<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxNumberBox.Options.min
+type: Number
+default: undefined
+---
+---
+##### shortDescription
 The minimum value accepted by the number box.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

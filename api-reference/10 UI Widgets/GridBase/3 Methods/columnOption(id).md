@@ -1,23 +1,17 @@
-<!--id-->GridBase.columnOption(id)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.columnOption(id)
+---
+---
+##### shortDescription
 Gets all options of a column with a specific identifier.
-<!--/shortDescription-->
 
-<!--paramName1-->id<!--/paramName1-->
-<!--paramType1-->Number|String<!--/paramType1-->
-<!--paramDescription1-->
-The column's index, data field, caption, type, or unique name.
-<!--/paramDescription1-->
-
-<!--returnType-->Object<!--/returnType-->
-<!--returnDescription-->
+##### return: Object
 The column's options.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(id): Number | String
+The column's index, data field, caption, type, or unique name.
+
+---
 This method gets the options of the first column found by either of the below:
 
 * **Name**        
@@ -41,4 +35,3 @@ Any string matching the following format: *"optionName:value"*, where *optionNam
 #####See Also#####
 - [columns]({basewidgetpath}/Configuration/columns/)
 #include common-link-callmethods
-<!--/fullDescription-->

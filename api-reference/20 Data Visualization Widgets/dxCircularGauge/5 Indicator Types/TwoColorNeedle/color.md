@@ -1,4 +1,8 @@
-<!--id-->circularTwoColorNeedle.color<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->'#C2C2C2'<!--/default-->
-===========================================================================
+---
+id: circularTwoColorNeedle.color
+default: '#C2C2C2'
+---
+---
+##### merge
+
+---

@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.ScatterSeries.aggregation<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.ScatterSeries.aggregation
+type: Object
+---

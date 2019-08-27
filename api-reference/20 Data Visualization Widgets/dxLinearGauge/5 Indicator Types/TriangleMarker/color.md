@@ -1,4 +1,8 @@
-<!--id-->linearTriangleMarker.color<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->'#8798A5'<!--/default-->
-===========================================================================
+---
+id: linearTriangleMarker.color
+default: '#8798A5'
+---
+---
+##### merge
+
+---

@@ -1,13 +1,10 @@
-<!--id-->dxFilterBuilderCustomOperation.name<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFilterBuilderCustomOperation.name
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies the operation's identifier.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

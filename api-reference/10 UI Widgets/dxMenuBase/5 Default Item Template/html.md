@@ -1,13 +1,9 @@
-<!--id-->dxMenuBaseItem.html<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxMenuBaseItem.html
+type: String
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

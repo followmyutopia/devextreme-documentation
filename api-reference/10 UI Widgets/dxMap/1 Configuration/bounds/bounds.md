@@ -1,13 +1,9 @@
-<!--id-->dxMap.Options.bounds<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->Object<!--/type-->
-===========================================================================
+---
+id: dxMap.Options.bounds
+type: Object
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

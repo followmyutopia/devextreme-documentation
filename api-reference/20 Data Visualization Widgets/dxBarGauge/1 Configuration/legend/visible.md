@@ -1,6 +1,5 @@
-<!--id-->dxBarGauge.Options.legend.visible<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxBarGauge.Options.legend.visible
+type: Boolean
+default: false
+---

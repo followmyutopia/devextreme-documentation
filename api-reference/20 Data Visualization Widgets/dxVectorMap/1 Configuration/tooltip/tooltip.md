@@ -1,13 +1,12 @@
-<!--id-->dxVectorMap.Options.tooltip<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxVectorMap.Options.tooltip
+type: Object
+---
+---
+##### shortDescription
 Configures tooltips.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 A tooltip is a miniature rectangle displaying data of an area or a marker. A tooltip appears when the end-user hovers the cursor over an area or a marker. To show tooltips, do the following.
 
 - Enable tooltips.  
@@ -21,4 +20,3 @@ You can also change the appearance of tooltips using fields of the **tooltip** c
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/VectorMap/TooltipHTMLSupport/jQuery/Light/"
 }
-<!--/fullDescription-->

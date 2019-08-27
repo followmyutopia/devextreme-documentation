@@ -1,21 +1,19 @@
-<!--id-->dxMap<!--/id-->
-<!--widgettree-->
-
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/map<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->Widget<!--/inherits-->
-<!--lib-->
-dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxMap
+module: ui/map
+export: default
+inherits: Widget
+---
+---
+##### shortDescription
 The **Map** is an interactive widget that displays a geographic map with markers and routes.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### widgettree
+
+##### lib
+dx.web.js, dx.viz-web.js, dx.all.js
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/mapsmapmapmap/"
 }
@@ -26,4 +24,3 @@ The **Map** is an interactive widget that displays a geographic map with markers
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

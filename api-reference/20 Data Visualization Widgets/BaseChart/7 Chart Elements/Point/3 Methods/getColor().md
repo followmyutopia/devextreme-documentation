@@ -1,16 +1,11 @@
-<!--id-->basePointObject.getColor()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: basePointObject.getColor()
+---
+---
+##### shortDescription
 Gets the color of a particular point.
-<!--/shortDescription-->
 
-<!--returnType-->String<!--/returnType-->
-<!--returnDescription-->
+##### return: String
 The color of a point.
-<!--/returnDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

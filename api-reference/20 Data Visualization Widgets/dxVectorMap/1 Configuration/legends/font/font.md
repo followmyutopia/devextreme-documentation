@@ -1,6 +1,5 @@
-<!--id-->dxVectorMap.Options.legends.font<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-<!--inherits-->Font<!--/inherits-->
-===========================================================================
-
+---
+id: dxVectorMap.Options.legends.font
+type: Object
+inherits: Font
+---

@@ -1,16 +1,11 @@
-<!--id-->dxTreeMapNode.getChildrenCount()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMapNode.getChildrenCount()
+---
+---
+##### shortDescription
 Indicates how many direct descendants the current node has.
-<!--/shortDescription-->
 
-<!--returnType-->Number<!--/returnType-->
-<!--returnDescription-->
+##### return: Number
 The number of direct descendants of the current node. *0* if there are none.
-<!--/returnDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

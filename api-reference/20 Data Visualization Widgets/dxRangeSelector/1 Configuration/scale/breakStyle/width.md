@@ -1,13 +1,10 @@
-<!--id-->dxRangeSelector.Options.scale.breakStyle.width<!--/id-->
-===========================================================================
-<!--default-->5<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.scale.breakStyle.width
+type: Number
+default: 5
+---
+---
+##### shortDescription
 Specifies the scale breaks' width in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,4 +1,8 @@
-<!--id-->BaseLegend.title.font.size<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->18<!--/default-->
-===========================================================================
+---
+id: BaseLegend.title.font.size
+default: 18
+---
+---
+##### merge
+
+---

@@ -1,18 +1,13 @@
-<!--id-->dxScrollable.scrollTo(targetLocation)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxScrollable.scrollTo(targetLocation)
+---
+---
+##### shortDescription
 Scrolls the content to a specific position.
-<!--/shortDescription-->
 
-<!--paramName1-->targetLocation<!--/paramName1-->
-<!--paramType1-->Number<!--/paramType1-->
-<!--paramDescription1-->
+##### param(targetLocation): Number
 The position to scroll to (in pixels).
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

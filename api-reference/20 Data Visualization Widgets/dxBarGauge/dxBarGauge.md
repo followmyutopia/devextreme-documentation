@@ -1,21 +1,20 @@
-<!--id-->dxBarGauge<!--/id-->
-<!--widgettree-->
-values: [50, 30, 90]
-<!--/widgettree-->
-===========================================================================
-<!--module-->viz/bar_gauge<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->BaseWidget<!--/inherits-->
-<!--lib-->
-dx.viz.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxBarGauge
+module: viz/bar_gauge
+export: default
+inherits: BaseWidget
+---
+---
+##### shortDescription
 The **BarGauge** widget contains several circular bars that each indicates a single value.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### widgettree
+values: [50, 30, 90]
+
+##### lib
+dx.viz.js, dx.viz-web.js, dx.all.js
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/gaugesbargaugesbargaugebasicelementslabelscustomization/"
 }
@@ -26,4 +25,3 @@ The **BarGauge** widget contains several circular bars that each indicates a sin
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

@@ -1,12 +1,9 @@
-<!--id-->GridBase.Options.keyboardNavigation<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.keyboardNavigation
+type: Object
+---
+---
+##### shortDescription
 Configures keyboard navigation.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

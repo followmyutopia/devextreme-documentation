@@ -1,18 +1,15 @@
-<!--id-->dxOverlay<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--module-->ui/overlay<!--/module-->
-<!--type-->Object<!--/type-->
-<!--inherits-->Widget<!--/inherits-->
-<!--lib-->
-dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxOverlay
+module: ui/overlay
+type: Object
+inherits: Widget
+hidden: 
+---
+---
+##### shortDescription
 The **Overlay** widget represents a window overlaying the current view. It displays data located within the HTML element representing the widget.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### lib
+dx.web.js, dx.viz-web.js, dx.all.js
 
-<!--/fullDescription-->
+---

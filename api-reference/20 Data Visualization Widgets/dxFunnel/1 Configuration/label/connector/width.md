@@ -1,13 +1,10 @@
-<!--id-->dxFunnel.Options.label.connector.width<!--/id-->
-===========================================================================
-<!--default-->1<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFunnel.Options.label.connector.width
+type: Number
+default: 1
+---
+---
+##### shortDescription
 Specifies the label connector width in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

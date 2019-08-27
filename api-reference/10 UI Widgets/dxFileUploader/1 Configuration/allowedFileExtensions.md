@@ -1,16 +1,13 @@
-<!--id-->dxFileUploader.Options.allowedFileExtensions<!--/id-->
-===========================================================================
-<!--default-->[]<!--/default-->
-<!--type-->Array<String><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFileUploader.Options.allowedFileExtensions
+type: Array<String>
+default: []
+---
+---
+##### shortDescription
 Restricts file extensions that can be uploaded to the server.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/FileUploader/Validation/jQuery/Light/"
 }
-
-<!--/fullDescription-->

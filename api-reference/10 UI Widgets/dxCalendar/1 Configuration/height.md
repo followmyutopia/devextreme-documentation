@@ -1,8 +1,7 @@
-===========================================================================
-<!--merge--><!--/merge-->
-===========================================================================
+---
+##### merge
 
-<!--fullDescription-->
+---
 #include uiwidgets-ref-height
 
 [note]
@@ -14,4 +13,3 @@ The widget's minimum height depends on the current theme. If the **height** opti
 - iOS - 260x260
 
 [/note]
-<!--/fullDescription-->

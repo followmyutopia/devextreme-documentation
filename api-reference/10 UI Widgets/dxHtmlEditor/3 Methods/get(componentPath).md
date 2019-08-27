@@ -1,23 +1,17 @@
-<!--id-->dxHtmlEditor.get(componentPath)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxHtmlEditor.get(componentPath)
+---
+---
+##### shortDescription
 Gets a format, module, or <a href="https://github.com/quilljs/parchment/" target="_blank">Parchment</a>.
-<!--/shortDescription-->
 
-<!--paramName1-->componentPath<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
-<!--paramDescription1-->
-A path to a format (*"formats/[formatName]"*), module (*"modules/[moduleName]"*), or Parchment (*"parchment"*).  
-<!--/paramDescription1-->
-
-<!--returnType-->Object<!--/returnType-->
-<!--returnDescription-->
+##### return: Object
 A format, module, or Parchment content.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(componentPath): String
+A path to a format (*"formats/[formatName]"*), module (*"modules/[moduleName]"*), or Parchment (*"parchment"*).
+
+---
 You can perform the following tasks after getting a format, module, or Parchment:
 
 - **Modify the format**      
@@ -179,4 +173,3 @@ In the following code, the `bold` format is associated with the `<b>` tag instea
 #####See Also#####
 - [register(components)](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Methods/#registercomponents)
 - [customizeModules](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/#customizeModules)
-<!--/fullDescription-->

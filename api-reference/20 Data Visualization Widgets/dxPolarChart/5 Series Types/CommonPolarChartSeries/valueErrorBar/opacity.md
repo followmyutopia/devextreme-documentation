@@ -1,13 +1,10 @@
-<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.valueErrorBar.opacity<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.CommonPolarChartSeries.valueErrorBar.opacity
+type: Number
+default: undefined
+---
+---
+##### shortDescription
 Specifies the opacity of error bars.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

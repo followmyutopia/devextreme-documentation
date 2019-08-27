@@ -1,13 +1,10 @@
-<!--id-->PieChartSeries.name<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PieChartSeries.name
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies the name that identifies the series.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,13 +1,10 @@
-<!--id-->BaseWidget.Options.title.text<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseWidget.Options.title.text
+type: String
+default: null
+---
+---
+##### shortDescription
 Specifies the title's text.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,12 +1,9 @@
-<!--id-->BaseChartLegendItem.visible<!--/id-->
-===========================================================================
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseChartLegendItem.visible
+type: Boolean
+---
+---
+##### shortDescription
 Indicates and specifies whether the legend item is visible.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

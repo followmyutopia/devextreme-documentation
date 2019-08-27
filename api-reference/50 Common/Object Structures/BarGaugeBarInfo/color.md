@@ -1,12 +1,9 @@
-<!--id-->BarGaugeBarInfo.color<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BarGaugeBarInfo.color
+type: String
+---
+---
+##### shortDescription
 The bar's hexadecimal color code.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

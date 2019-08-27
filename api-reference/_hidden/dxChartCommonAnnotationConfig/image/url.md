@@ -1,13 +1,10 @@
-<!--id-->dxChartCommonAnnotationConfig.image.url<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartCommonAnnotationConfig.image.url
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies the image's URL.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,17 +1,14 @@
-<!--id-->DataSource.store()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.store()
+---
+---
+##### shortDescription
 Gets the instance of the store underlying the **DataSource**.
-<!--/shortDescription-->
 
-<!--returnType-->Object<!--/returnType-->
-<!--returnDescription-->
+##### return: Object
 A store instance.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -42,4 +39,3 @@ A store instance.
     }
 
 ---
-<!--/fullDescription-->

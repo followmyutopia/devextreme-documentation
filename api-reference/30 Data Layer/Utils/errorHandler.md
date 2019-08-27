@@ -1,26 +1,21 @@
-<!--id-->Utils.errorHandler<!--/id-->
-===========================================================================
-<!--module-->data/errors<!--/module-->
-<!--export-->errorHandler<!--/export-->
-<!--type-->function(e)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Utils.errorHandler
+module: data/errors
+export: errorHandler
+type: function(e)
+---
+---
+##### shortDescription
 Specifies the function that is executed when a data layer object throws an error.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(e): Error
+A JavaScript **Error** object.
 
-    <!--JavaScript-->
+---
+<!--JavaScript-->
     DevExpress.data.errorHandler = function (error) {
         console.log(error.message);
     };
 
 #####See Also#####
 - [Handling Errors](/Documentation/Guide/Data_Layer/Data_Layer/#Handling_Errors)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Error<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-A JavaScript **Error** object.
-<!--/typeFunctionParamDescription1-->

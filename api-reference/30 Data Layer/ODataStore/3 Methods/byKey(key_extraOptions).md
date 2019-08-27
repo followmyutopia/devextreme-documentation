@@ -1,39 +1,26 @@
-<!--id-->ODataStore.byKey(key, extraOptions)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: ODataStore.byKey(key, extraOptions)
+---
+---
+##### shortDescription
 Gets an entity with a specific key.
-<!--/shortDescription-->
 
-<!--paramName1-->key<!--/paramName1-->
-<!--paramType1-->Object|String|Number<!--/paramType1-->
-<!--paramDescription1-->
-An entity's key value.
-<!--/paramDescription1-->
-
-<!--paramName2-->extraOptions<!--/paramName2-->
-<!--paramType2-->Object<!--/paramType2-->
-<!--paramDescription2-->
-Additional options.
-<!--/paramDescription2-->
-<!--paramName2_field1-->expand<!--/paramName2_field1-->
-<!--paramType2_field1-->String | Array<String><!--/paramType2_field1-->
-<!--paramDescription2_field1-->
-The names of the navigation properties to be loaded simultaneously with the entity (see [OData - Associations](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData/Associations)).
-<!--/paramDescription2_field1-->
-<!--paramName2_field2-->select<!--/paramName2_field2-->
-<!--paramType2_field2-->String | Array<String><!--/paramType2_field2-->
-<!--paramDescription2_field2-->
-One or more fields to select from the entity.
-<!--/paramDescription2_field2-->
-
-<!--returnType-->Promise<any><!--/returnType-->
-<!--returnDescription-->
+##### return: Promise<any>
 A Promise that is resolved after the entity is loaded. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(key): Object | String | Number
+An entity's key value.
+
+##### param(extraOptions): Object
+Additional options.
+
+##### field(extraOptions.expand): String | Array<String>
+The names of the navigation properties to be loaded simultaneously with the entity (see [OData - Associations](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData/Associations)).
+
+##### field(extraOptions.select): String | Array<String>
+One or more fields to select from the entity.
+
+---
 In the following code, the **byKey** method loads the product with ID `1` along with the `"Category"` navigation property:
 
 ---
@@ -72,4 +59,3 @@ In the following code, the **byKey** method loads the product with ID `1` along 
     }
 
 ---
-<!--/fullDescription-->

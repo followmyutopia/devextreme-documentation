@@ -1,5 +1,4 @@
-<!--id-->dxContextMenuItem.items<!--/id-->
-===========================================================================
-<!--type-->Array<dxContextMenuItem><!--/type-->
-===========================================================================
-
+---
+id: dxContextMenuItem.items
+type: Array<dxContextMenuItem>
+---

@@ -1,13 +1,10 @@
-<!--id-->dxTextBox.Options.value<!--/id-->
-===========================================================================
-<!--default-->''<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTextBox.Options.value
+type: String
+default: ''
+---
+---
+##### shortDescription
 Specifies a value the widget displays.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

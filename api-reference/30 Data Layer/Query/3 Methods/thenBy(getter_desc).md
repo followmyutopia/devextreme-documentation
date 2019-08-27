@@ -1,29 +1,20 @@
-<!--id-->Query.thenBy(getter, desc)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: Query.thenBy(getter, desc)
+---
+---
+##### shortDescription
 Sorts data items by one more [getter](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters) in the specified sorting order.
-<!--/shortDescription-->
 
-<!--paramName1-->getter<!--/paramName1-->
-<!--paramType1-->Object<!--/paramType1-->
-<!--paramDescription1-->
-A getter; in most cases, the name of the data field to sort by.
-<!--/paramDescription1-->
-
-<!--paramName2-->desc<!--/paramName2-->
-<!--paramType2-->Boolean<!--/paramType2-->
-<!--paramDescription2-->
-Pass **true** to sort in descending order, **false** or nothing to sort in ascending order.
-<!--/paramDescription2-->
-
-<!--returnType-->Query<!--/returnType-->
-<!--returnDescription-->
+##### return: Query
 The **Query** with transformed data.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(getter): Object
+A getter; in most cases, the name of the data field to sort by.
+
+##### param(desc): Boolean
+Pass **true** to sort in descending order, **false** or nothing to sort in ascending order.
+
+---
 This method can only follow the [sortBy(getter)](/Documentation/ApiReference/Data_Layer/Query/Methods/#sortBygetter), [sortBy(getter, desc)](/Documentation/ApiReference/Data_Layer/Query/Methods/#sortBygetter_desc), [thenBy(getter)](/Documentation/ApiReference/Data_Layer/Query/Methods/#thenBygetter), or another **thenBy(getter, desc)** method call.
 
 ---
@@ -85,4 +76,3 @@ This method can only follow the [sortBy(getter)](/Documentation/ApiReference/Dat
 
 #####See Also#####
 - [Sorting](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Sorting)
-<!--/fullDescription-->

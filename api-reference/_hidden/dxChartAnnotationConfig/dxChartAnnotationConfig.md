@@ -1,6 +1,5 @@
-<!--id-->dxChartAnnotationConfig<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-<!--inherits-->dxChartCommonAnnotationConfig<!--/inherits-->
-===========================================================================
-
+---
+id: dxChartAnnotationConfig
+type: Object
+inherits: dxChartCommonAnnotationConfig
+---

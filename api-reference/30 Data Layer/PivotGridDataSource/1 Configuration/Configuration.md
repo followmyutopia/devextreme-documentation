@@ -1,9 +1,8 @@
-
-<!--shortDescription-->
+---
+##### shortDescription
 This section describes options that configure the **PivotGridDataSource**.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 [note]
 
 The **PivotGridDataSource** allows specifying [**CustomStore** options](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/) in its configuration object, as shown in the following code:
@@ -46,4 +45,3 @@ The **PivotGridDataSource** allows specifying [**CustomStore** options](/Documen
 ---
 
 [/note]
-<!--/fullDescription-->

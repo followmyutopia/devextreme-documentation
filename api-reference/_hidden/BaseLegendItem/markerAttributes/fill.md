@@ -1,12 +1,8 @@
-<!--id-->BaseLegendItem.markerAttributes.fill<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: BaseLegendItem.markerAttributes.fill
+type: String
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

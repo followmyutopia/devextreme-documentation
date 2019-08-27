@@ -1,15 +1,14 @@
-<!--id-->dxMap.Options.type<!--/id-->
-===========================================================================
-<!--default-->'roadmap'<!--/default-->
-<!--acceptValues-->'hybrid' | 'roadmap' | 'satellite'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxMap.Options.type
+acceptValues: 'hybrid' | 'roadmap' | 'satellite'
+type: String
+default: 'roadmap'
+---
+---
+##### shortDescription
 The type of a map to display.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The available option values are based on map types supported by the Google map provider. If you use the Bing map, the widget casts the option value to the appropriate value supported by the "Bing" provider.
 
 - hybrid -> Aerial
@@ -23,4 +22,3 @@ The available option values are based on map types supported by the Google map p
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Map/ProvidersAndTypes/jQuery/Light/"
 }
-<!--/fullDescription-->

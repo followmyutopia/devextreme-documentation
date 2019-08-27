@@ -1,13 +1,10 @@
-<!--id-->dxPivotGrid.Options.texts.total<!--/id-->
-===========================================================================
-<!--default-->'{0} Total'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGrid.Options.texts.total
+type: String
+default: '{0} Total'
+---
+---
+##### shortDescription
 The string to display as a header of the **Total** row and column.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,12 +1,8 @@
-<!--id-->dxDiagram.Options.document.pageSize<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.document.pageSize
+type: Object
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

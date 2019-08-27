@@ -1,11 +1,8 @@
-<!--id-->piePointObject.show()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: piePointObject.show()
+---
+---
+##### shortDescription
 Makes a specific point visible.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

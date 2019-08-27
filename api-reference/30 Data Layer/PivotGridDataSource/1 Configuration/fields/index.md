@@ -1,14 +1,10 @@
-<!--id-->PivotGridDataSource.Options.fields.index<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
+---
+id: PivotGridDataSource.Options.fields.index
+type: Number
+default: undefined
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

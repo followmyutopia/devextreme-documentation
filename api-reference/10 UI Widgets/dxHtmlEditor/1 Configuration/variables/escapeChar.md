@@ -1,14 +1,13 @@
-<!--id-->dxHtmlEditorVariables.escapeChar<!--/id-->
-===========================================================================
-<!--default-->''<!--/default-->
-<!--type-->String | Array<String><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxHtmlEditorVariables.escapeChar
+type: String | Array<String>
+default: ''
+---
+---
+##### shortDescription
 Specifies the special character(s) that should surround the variables.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 ---
 #####jQuery
 
@@ -52,4 +51,3 @@ Specifies the special character(s) that should surround the variables.
     })
 
 ---
-<!--/fullDescription-->

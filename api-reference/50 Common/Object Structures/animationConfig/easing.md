@@ -1,14 +1,13 @@
-<!--id-->animationConfig.easing<!--/id-->
-===========================================================================
-<!--default-->'ease'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: animationConfig.easing
+type: String
+default: 'ease'
+---
+---
+##### shortDescription
 A string specifying the easing function for animation.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 DevExtreme supports predefined jQuery easing (*"linear"* and *"swing"*) and CSS transition timing functions (*"linear"*, *"ease"*, *"ease-in"*, *"ease-out"*, *"ease-in-out"*, *"cubic-besier(0,1,1,0)"*, etc.). For more information on CSS transition timing functions, see <a href="http://www.w3schools.com/cssref/css3_pr_transition-timing-function.asp" target="_blank">CSS3 transition-timing-function Property</a>. You can also register a custom easing function using jQuery and pass its name to the **easing** option.
 
     <!--JavaScript-->
@@ -56,4 +55,3 @@ In case you want to employ the cubic-bezier transition function, use the `Easing
             a.Hide(Sub(h) h.EasingCubicBezier(0, 1, 1, 0))
         End Sub)
     )
-<!--/fullDescription-->

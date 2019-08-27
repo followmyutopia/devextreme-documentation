@@ -1,13 +1,10 @@
-<!--id-->dxChart.Options.commonAxisSettings.title.font<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-<!--inherits-->Font<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonAxisSettings.title.font
+type: Object
+inherits: Font
+---
+---
+##### shortDescription
 Specifies font options for the axis title.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

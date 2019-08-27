@@ -1,15 +1,14 @@
-<!--id-->dxTextEditor.Options.buttons<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--acceptValues-->'clear'<!--/acceptValues-->
-<!--type-->Array<String, dxTextEditorButton><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTextEditor.Options.buttons
+acceptValues: 'clear'
+type: Array<String, dxTextEditorButton>
+default: undefined
+---
+---
+##### shortDescription
 Allows you to add custom buttons to the input text field.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Built-in buttons should also be declared in this array. You can find an example in the following demo:
 
 #include common-demobutton with {
@@ -17,5 +16,3 @@ Built-in buttons should also be declared in this array. You can find an example 
 }
 
 <!-- https://github.com/DevExpress/devextreme-docs-private/pull/4129/files -->
-
-<!--/fullDescription-->

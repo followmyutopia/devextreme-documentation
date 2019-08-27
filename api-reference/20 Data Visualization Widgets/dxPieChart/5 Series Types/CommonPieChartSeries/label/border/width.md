@@ -1,13 +1,10 @@
-<!--id-->dxPieChartSeriesTypes.CommonPieChartSeries.label.border.width<!--/id-->
-===========================================================================
-<!--default-->1<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPieChartSeriesTypes.CommonPieChartSeries.label.border.width
+type: Number
+default: 1
+---
+---
+##### shortDescription
 Specifies the border width for point labels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,8 +1,7 @@
-===========================================================================
-<!--merge--><!--/merge-->
-===========================================================================
+---
+##### merge
 
-<!--fullDescription-->
+---
 This option should be assigned a function returning a specific object. The following fields can be specified in this object.
 
 - **color**        
@@ -46,5 +45,3 @@ To get general information on data formatting, refer to the [Data Formatting](/D
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeaturestooltiphtmlsupport"
 }
-
-<!--/fullDescription-->

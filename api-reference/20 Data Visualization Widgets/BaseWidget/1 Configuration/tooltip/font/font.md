@@ -1,13 +1,10 @@
-<!--id-->BaseWidget.Options.tooltip.font<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-<!--inherits-->Font<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseWidget.Options.tooltip.font
+type: Object
+inherits: Font
+---
+---
+##### shortDescription
 Specifies tooltips' font options.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

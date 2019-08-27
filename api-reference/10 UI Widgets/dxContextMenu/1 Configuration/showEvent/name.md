@@ -1,14 +1,13 @@
-<!--id-->dxContextMenu.Options.showEvent.name<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxContextMenu.Options.showEvent.name
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies the event names on which the widget is shown.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The option takes a string value representing a <a href="https://en.wikipedia.org/wiki/DOM_events#HTML_events" target="_blank">DOM event</a> or a DevExtreme [UI Event](/Documentation/ApiReference/UI_Widgets/UI_Events/) name. You can also pass several event names separated by a space. The DevExtreme and DOM events may be combined.
 
     <!--JavaScript-->
@@ -16,6 +15,3 @@ The option takes a string value representing a <a href="https://en.wikipedia.org
         name: "dxdblclick keyup",
         delay: 70
     }
-
-
-<!--/fullDescription-->

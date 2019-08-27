@@ -1,14 +1,13 @@
-<!--id-->dxScheduler.Options.resources.dataSource<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->String | Array<Object> | DataSource | DataSource_Options<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler.Options.resources.dataSource
+type: String | Array<Object> | DataSource | DataSource_Options
+default: null
+---
+---
+##### shortDescription
 Specifies available resource instances.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 If you use DevExtreme ASP.NET MVC Controls, refer to the [Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/) article.
 
 Each resource instance is an object with the  `id`, `color`, and `text` fields. If your resource instances have a different structure, specify the [valueExpr](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/#valueExpr), [colorExpr](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/#colorExpr) and [displayExpr](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/#displayExpr) options.
@@ -196,4 +195,3 @@ Please review the following notes about data binding:
 - The stores are immutable. You cannot change their configurations at runtime. Instead, create a new store or **DataSource** and assign it to the **dataSource** option as shown in the articles about changing options in [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Get_and_Set_Options/), [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/#Two-Way_Option_Binding), [React](/Documentation/Guide/React_Components/State_Management/#Controlled_Mode), and <a href="https://github.com/DevExpress/devextreme-vue#two-way-binding" target="_blank">Vue</a>.
 
 [/note]
-<!--/fullDescription-->

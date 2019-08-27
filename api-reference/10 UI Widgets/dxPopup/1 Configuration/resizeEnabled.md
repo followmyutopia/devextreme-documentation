@@ -1,13 +1,10 @@
-<!--id-->dxPopup.Options.resizeEnabled<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPopup.Options.resizeEnabled
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether or not an end user can resize the widget.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

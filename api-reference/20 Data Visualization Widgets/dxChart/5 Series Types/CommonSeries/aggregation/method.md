@@ -1,14 +1,13 @@
-<!--id-->dxChartSeriesTypes.CommonSeries.aggregation.method<!--/id-->
-===========================================================================
-<!--acceptValues-->'avg' | 'count' | 'max' | 'min' | 'ohlc' | 'range' | 'sum' | 'custom'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxChartSeriesTypes.CommonSeries.aggregation.method
+acceptValues: 'avg' | 'count' | 'max' | 'min' | 'ohlc' | 'range' | 'sum' | 'custom'
+type: String
+---
+---
+##### shortDescription
+Specifies how to aggregate series points.
 
-<!--shortDescription-->
-Specifies how to aggregate series points. 
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 Series points get aggregated by individual [aggregation intervals](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/aggregationInterval/). The following list describes available aggregation methods per series type:
 
 - **[Line](/Documentation/Guide/Widgets/Chart/Series_Types/Line_Series/), [bar](/Documentation/Guide/Widgets/Chart/Series_Types/Bar_Series/), [area](/Documentation/Guide/Widgets/Chart/Series_Types/Area_Series/), and [Scatter](/Documentation/Guide/Widgets/Chart/Series_Types/Scatter_Series/) series:**     
@@ -55,4 +54,3 @@ Series points get aggregated by individual [aggregation intervals](/Documentatio
 
 #####See Also#####
 - [Data Aggregation](/Documentation/Guide/Widgets/Chart/Data_Aggregation/)
-<!--/fullDescription-->

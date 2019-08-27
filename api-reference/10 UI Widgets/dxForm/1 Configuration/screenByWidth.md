@@ -1,14 +1,13 @@
-<!--id-->dxForm.Options.screenByWidth<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->function()<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxForm.Options.screenByWidth
+type: function()
+default: null
+---
+---
+##### shortDescription
 Specifies a function that categorizes screens by their width.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The widget uses the following size qualifiers to categorize screens by width:
 
 <div class="simple-table">
@@ -90,4 +89,3 @@ Implement the **screenByWidth** function to change the relation between a size q
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Form/ColumnsAdaptability/jQuery/Light/"
 }
-<!--/fullDescription-->

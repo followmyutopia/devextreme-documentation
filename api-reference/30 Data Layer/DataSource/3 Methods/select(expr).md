@@ -1,18 +1,14 @@
-<!--id-->DataSource.select(expr)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.select(expr)
+---
+---
+##### shortDescription
 Sets the [select](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#select) option's value.
-<!--/shortDescription-->
 
-<!--paramName1-->expr<!--/paramName1-->
-<!--paramType1-->any<!--/paramType1-->
-<!--paramDescription1-->
+##### param(expr): any
 A select expression.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -46,4 +42,3 @@ A select expression.
 
 #####See Also#####
 - [Select Expressions](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Data_Transformation/Select_Expressions)
-<!--/fullDescription-->

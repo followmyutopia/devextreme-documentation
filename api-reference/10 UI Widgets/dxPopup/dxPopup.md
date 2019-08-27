@@ -1,21 +1,20 @@
-<!--id-->dxPopup<!--/id-->
-<!--widgettree-->
+---
+id: dxPopup
+module: ui/popup
+export: default
+inherits: dxOverlay
+---
+---
+##### shortDescription
+The **Popup** widget is a pop-up window overlaying the current view.
+
+##### widgettree
 visible: true
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/popup<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->dxOverlay<!--/inherits-->
-<!--lib-->
+
+##### lib
 dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
 
-<!--shortDescription-->
-The **Popup** widget is a pop-up window overlaying the current view. 
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/dialogsandnotificationspopuppopuppopup/"
 }
@@ -26,4 +25,3 @@ The **Popup** widget is a pop-up window overlaying the current view.
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

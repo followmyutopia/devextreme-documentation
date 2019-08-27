@@ -1,13 +1,10 @@
-<!--id-->dxSlideOut.Options.menuVisible<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSlideOut.Options.menuVisible
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether or not the slide-out menu is displayed.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

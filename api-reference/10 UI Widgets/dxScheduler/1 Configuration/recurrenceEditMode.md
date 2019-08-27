@@ -1,15 +1,14 @@
-<!--id-->dxScheduler.Options.recurrenceEditMode<!--/id-->
-===========================================================================
-<!--default-->'dialog'<!--/default-->
-<!--acceptValues-->'dialog' | 'occurrence' | 'series'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler.Options.recurrenceEditMode
+acceptValues: 'dialog' | 'occurrence' | 'series'
+type: String
+default: 'dialog'
+---
+---
+##### shortDescription
 Specifies the edit mode for recurring appointments.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This option accepts the following values.
 
 - "dialog"  
@@ -25,4 +24,3 @@ This option accepts the following values.
     enum: "`SchedulerRecurrenceEditMode`",
     values: "`Dialog`, `Series`, and `Occurrence`"
 }
-<!--/fullDescription-->

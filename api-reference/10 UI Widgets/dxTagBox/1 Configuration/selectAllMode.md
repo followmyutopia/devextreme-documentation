@@ -1,15 +1,14 @@
-<!--id-->dxTagBox.Options.selectAllMode<!--/id-->
-===========================================================================
-<!--default-->'page'<!--/default-->
-<!--acceptValues-->'allPages' | 'page'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTagBox.Options.selectAllMode
+acceptValues: 'allPages' | 'page'
+type: String
+default: 'page'
+---
+---
+##### shortDescription
 Specifies the mode in which all items are selected.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The **selectAllMode** specifies how records should be selected on clicking the ["Select All" check box](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#showSelectionControls). The following modes are available.
 
 - *'page'*  
@@ -17,4 +16,3 @@ The **selectAllMode** specifies how records should be selected on clicking the [
 
 - *'allPages'*  
  Selects items on all pages.
-<!--/fullDescription-->

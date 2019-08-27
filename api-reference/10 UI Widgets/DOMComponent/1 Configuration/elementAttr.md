@@ -1,14 +1,13 @@
-<!--id-->DOMComponent.Options.elementAttr<!--/id-->
-===========================================================================
-<!--default-->{}<!--/default-->
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: DOMComponent.Options.elementAttr
+type: Object
+default: {}
+---
+---
+##### shortDescription
 Specifies the <a href="http://www.w3schools.com/tags/ref_attributes.asp" target="_blank">attributes</a> to be attached to the widget's root element.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 ---
 #####jQuery
 
@@ -75,5 +74,3 @@ Specifies the <a href="http://www.w3schools.com/tags/ref_attributes.asp" target=
     )
 
 ---
-
-<!--/fullDescription-->

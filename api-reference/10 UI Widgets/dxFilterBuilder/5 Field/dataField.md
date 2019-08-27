@@ -1,13 +1,10 @@
-<!--id-->dxFilterBuilderField.dataField<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFilterBuilderField.dataField
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies the name of a field to be filtered.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

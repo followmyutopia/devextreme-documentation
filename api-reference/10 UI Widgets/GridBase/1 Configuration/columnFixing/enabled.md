@@ -1,14 +1,12 @@
-<!--id-->GridBase.Options.columnFixing.enabled<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.columnFixing.enabled
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Enables column fixing.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 - **columns[]**.[fixedPosition]({basewidgetpath}/Configuration/columns/#fixedPosition)
-<!--/fullDescription-->

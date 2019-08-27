@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.RangeAreaSeries.aggregation<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.RangeAreaSeries.aggregation
+type: Object
+---

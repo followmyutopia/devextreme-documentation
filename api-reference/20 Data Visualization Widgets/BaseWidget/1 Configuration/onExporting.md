@@ -1,51 +1,35 @@
-<!--id-->BaseWidget.Options.onExporting<!--/id-->
-<!--EventForAction-->BaseWidget.exporting<!--/EventForAction-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->function(e)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseWidget.Options.onExporting
+type: function(e)
+default: null
+EventForAction: BaseWidget.exporting
+---
+---
+##### shortDescription
 A function that is executed before the widget is exported.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(e): Object
+Information about the event.
+
+##### field(e.cancel): Boolean
+Allows you to prevent exporting.
+
+##### field(e.component): {WidgetName}
+The widget's instance.
+
+##### field(e.element): dxElement
+#include common-ref-elementparam with { element: "widget" }
+
+##### field(e.fileName): String
+The name of the file to which the widget is about to be exported.
+
+##### field(e.format): String
+The resulting file format. One of PNG, PDF, JPEG, SVG and GIF.
+
+##### field(e.model): Object
+The model data. Available only if you use Knockout.
+
+---
 #####See Also#####
 - [onExported]({basewidgetpath}/Configuration#onExported)
 - [onFileSaving]({basewidgetpath}/Configuration#onFileSaving)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the event.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-#include common-ref-elementparam with { element: "widget" }
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The model data. Available only if you use Knockout.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->fileName<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->String<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-The name of the file to which the widget is about to be exported.
-<!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamName1_field5-->cancel<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->Boolean<!--/typeFunctionParamType1_field5-->
-<!--typeFunctionParamDescription1_field5-->
-Allows you to prevent exporting.
-<!--/typeFunctionParamDescription1_field5-->
-<!--typeFunctionParamName1_field6-->format<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->String<!--/typeFunctionParamType1_field6-->
-<!--typeFunctionParamDescription1_field6-->
-The resulting file format. One of PNG, PDF, JPEG, SVG and GIF.
-<!--/typeFunctionParamDescription1_field6-->

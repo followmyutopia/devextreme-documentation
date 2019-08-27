@@ -1,13 +1,9 @@
-<!--id-->dxCalendar.Options.onContentReady<!--/id-->
-<!--EventForAction-->dxCalendar.contentReady<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
+---
+id: dxCalendar.Options.onContentReady
+hidden: 
+EventForAction: dxCalendar.contentReady
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,21 +1,19 @@
-<!--id-->dxLoadIndicator<!--/id-->
-<!--widgettree-->
-
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/load_indicator<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->Widget<!--/inherits-->
-<!--lib-->
-dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxLoadIndicator
+module: ui/load_indicator
+export: default
+inherits: Widget
+---
+---
+##### shortDescription
 The **LoadIndicator** is a UI element notifying the viewer that a process is in progress.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### widgettree
+
+##### lib
+dx.web.js, dx.viz-web.js, dx.all.js
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/dialogsandnotificationsloadindicatorloadindicatorloadindicator/"
 }
@@ -26,4 +24,3 @@ The **LoadIndicator** is a UI element notifying the viewer that a process is in 
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

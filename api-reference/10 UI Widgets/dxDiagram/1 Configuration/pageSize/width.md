@@ -1,13 +1,9 @@
-<!--id-->dxDiagram.Options.pageSize.width<!--/id-->
-===========================================================================
-<!--default-->5.827<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.pageSize.width
+type: Number
+default: 5.827
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

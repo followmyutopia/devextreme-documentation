@@ -1,13 +1,10 @@
-<!--id-->GridBase.Options.columnFixing.texts.fix<!--/id-->
-===========================================================================
-<!--default-->'Fix'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.columnFixing.texts.fix
+type: String
+default: 'Fix'
+---
+---
+##### shortDescription
 Specifies text for the context menu item that fixes a column.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,6 +1,4 @@
-<!--id-->dxValidationGroup.defaultOptions(rule)<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
-
-
+---
+id: dxValidationGroup.defaultOptions(rule)
+hidden: 
+---

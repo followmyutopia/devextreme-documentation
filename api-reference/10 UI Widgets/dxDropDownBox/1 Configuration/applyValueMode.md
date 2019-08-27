@@ -1,15 +1,11 @@
-<!--id-->dxDropDownBox.Options.applyValueMode<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--default-->'instantly'<!--/default-->
-<!--acceptValues-->'useButtons' | 'instantly'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxDropDownBox.Options.applyValueMode
+acceptValues: 'useButtons' | 'instantly'
+type: String
+default: 'instantly'
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

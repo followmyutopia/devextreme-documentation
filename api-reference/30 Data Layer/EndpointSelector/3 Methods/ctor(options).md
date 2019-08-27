@@ -1,18 +1,10 @@
-<!--id-->EndpointSelector.ctor(options)<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
+---
+id: EndpointSelector.ctor(options)
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### param(options): Object
 
-<!--/shortDescription-->
-
-<!--paramName1-->options<!--/paramName1-->
-<!--paramType1-->Object<!--/paramType1-->
-<!--paramDescription1-->
-
-<!--/paramDescription1-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

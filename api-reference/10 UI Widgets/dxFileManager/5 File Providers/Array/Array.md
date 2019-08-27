@@ -1,16 +1,15 @@
-<!--id-->ArrayFileProvider<!--/id-->
-===========================================================================
-<!--module-->ui/file_manager/file_provider/array<!--/module-->
-<!--export-->default<!--/export-->
-<!--type-->Object<!--/type-->
-<!--inherits-->FileProvider<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: ArrayFileProvider
+module: ui/file_manager/file_provider/array
+export: default
+type: Object
+inherits: FileProvider
+---
+---
+##### shortDescription
 The **Array** file provider works with a virtual file system represented by an in-memory array of JSON objects.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Assign the array to the [data](/Documentation/ApiReference/UI_Widgets/dxFileManager/File_Providers/Array/Configuration/#data) option. Data object fields should have conventional names listed in the **data** description. Otherwise, specify **[fieldName]Expr** options: [nameExpr](/Documentation/ApiReference/UI_Widgets/dxFileManager/File_Providers/Array/Configuration/#nameExpr), [sizeExpr](/Documentation/ApiReference/UI_Widgets/dxFileManager/File_Providers/Array/Configuration/#sizeExpr), [dateModifiedExpr](/Documentation/ApiReference/UI_Widgets/dxFileManager/File_Providers/Array/Configuration/#dateModifiedExpr), and so on.
 
 The following code shows how to bind the **FileManager** to the **Array** file provider:
@@ -44,4 +43,3 @@ The following code shows how to bind the **FileManager** to the **Array** file p
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/FileManager/BindingToHierarchicalStructure/jQuery/Light/"
 }
-<!--/fullDescription-->

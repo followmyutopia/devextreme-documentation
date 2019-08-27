@@ -1,46 +1,34 @@
-<!--id-->dxActionSheetItem.onClick<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->function(e) | String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxActionSheetItem.onClick
+type: function(e) | String
+default: null
+---
+---
+##### shortDescription
 A handler for the [click](/Documentation/ApiReference/UI_Widgets/dxButton/Events/#click) event raised for the button representing the given action sheet button.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(e): Object
+Information about the event.
+
+##### field(e.component): dxActionSheet
+The widget's instance.
+
+##### field(e.element): dxElement
+#include common-ref-elementparam with { element: "widget" }
+
+##### field(e.event): event
+#include common-ref-eventparam
+
+##### field(e.jQueryEvent).deprecated
+Use 'event' instead.
+
+##### field(e.jQueryEvent): jQuery.Event
+The jQuery event that caused the handler execution. Deprecated in favor of the **event** field.
+
+##### field(e.model): Object
+The model data. Available only if Knockout is used.
+
+---
 Assign a function to perform a custom action when a button representing an action sheet item is clicked.
 
 To navigate to a specific URL when the **click** event fires for action sheet buttons, assign that URL directly to this option.
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the event.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->dxActionSheet<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-#include common-ref-elementparam with { element: "widget" }
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The model data. Available only if Knockout is used.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->jQueryEvent<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->jQuery.Event<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-The jQuery event that caused the handler execution. Deprecated in favor of the **event** field.
-<!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamDeprecated1_field4-->Use 'event' instead.<!--/typeFunctionParamDeprecated1_field4-->
-<!--typeFunctionParamName1_field5-->event<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->event<!--/typeFunctionParamType1_field5-->
-<!--typeFunctionParamDescription1_field5-->
-#include common-ref-eventparam
-<!--/typeFunctionParamDescription1_field5-->

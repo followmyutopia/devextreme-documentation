@@ -1,8 +1,5 @@
-
-<!--shortDescription-->
+---
+##### shortDescription
 This section describes methods that control a **Guid** instance.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

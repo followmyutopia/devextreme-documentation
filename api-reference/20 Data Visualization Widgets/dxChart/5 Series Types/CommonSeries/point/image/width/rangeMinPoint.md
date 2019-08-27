@@ -1,14 +1,13 @@
-<!--id-->dxChartSeriesTypes.CommonSeries.point.image.width.rangeMinPoint<!--/id-->
-===========================================================================
-<!--propertyOf-->dxChartSeriesTypes.RangeAreaSeries<!--/propertyOf-->
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.CommonSeries.point.image.width.rangeMinPoint
+type: Number
+default: undefined
+---
+---
+##### shortDescription
 Specifies the width of the image that represents the minimum point in a *range area* series.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### propertyOf
+dxChartSeriesTypes.RangeAreaSeries
 
-<!--/fullDescription-->
+---

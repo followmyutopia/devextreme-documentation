@@ -1,12 +1,9 @@
-<!--id-->dxPopup.Options.toolbarItems.text<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPopup.Options.toolbarItems.text
+type: String
+---
+---
+##### shortDescription
 Specifies text displayed for the toolbar item.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

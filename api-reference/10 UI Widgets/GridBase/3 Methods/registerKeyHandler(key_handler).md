@@ -1,6 +1,4 @@
-<!--id-->GridBase.registerKeyHandler(key, handler)<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
-
-
+---
+id: GridBase.registerKeyHandler(key, handler)
+hidden: 
+---

@@ -1,15 +1,25 @@
-<!--id-->dxScheduler.Options.views.resourceCellTemplate<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->template<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler.Options.views.resourceCellTemplate
+type: template
+default: null
+---
+---
+##### shortDescription
 Specifies a custom template for resource headers.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(itemData): Object
+The current resource header's data.
 
+##### param(itemIndex): Number
+The current resource header's index.
+
+##### param(itemElement): dxElement
+#include common-ref-elementparam with { element: "resource header" }
+
+##### return: String | Node | jQuery
+A template name or container.
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-scheduler-cell_templates"
 }
@@ -17,26 +27,3 @@ Specifies a custom template for resource headers.
 #####See Also#####
 - [Customize Individual Views](/Documentation/Guide/Widgets/Scheduler/Views/Customize_Individual_Views/)
 - [Customize Resource Headers](/Documentation/Guide/Widgets/Scheduler/Resources/Customize_Resource_Headers/)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->itemData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The current resource header's data.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionParamName2-->itemIndex<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->Number<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-The current resource header's index.
-<!--/typeFunctionParamDescription2-->
-
-<!--typeFunctionParamName3-->itemElement<!--/typeFunctionParamName3-->
-<!--typeFunctionParamType3-->dxElement<!--/typeFunctionParamType3-->
-<!--typeFunctionParamDescription3-->
-#include common-ref-elementparam with { element: "resource header" }
-<!--/typeFunctionParamDescription3-->
-
-<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A template name or container.
-<!--/typeFunctionReturnDescription-->

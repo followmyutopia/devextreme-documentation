@@ -1,15 +1,15 @@
-<!--id-->dxChartSeriesTypes.StackedSplineSeries<!--/id-->
-===========================================================================
-<!--hidePropertyOf--><!--/hidePropertyOf-->
-<!--type-->Object<!--/type-->
-<!--inherits-->dxChartSeriesTypes.CommonSeries<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.StackedSplineSeries
+type: Object
+inherits: dxChartSeriesTypes.CommonSeries
+---
+---
+##### shortDescription
 Describes settings supported by a series of the *stacked spline* type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### hidePropertyOf
+
+---
 #include dataviz-ref-series-type with { 
     seriesType: "stackedspline"
 }
@@ -19,4 +19,3 @@ Describes settings supported by a series of the *stacked spline* type.
 }
 
 ![DevExtreme HTML5 Charts StackedSplineSeriesType](/Content/images/doc/19_2/ChartJS/StackedSpline.png)
-<!--/fullDescription-->

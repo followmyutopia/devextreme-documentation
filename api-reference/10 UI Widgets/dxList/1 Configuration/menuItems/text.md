@@ -1,12 +1,9 @@
-<!--id-->dxList.Options.menuItems.text<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxList.Options.menuItems.text
+type: String
+---
+---
+##### shortDescription
 Specifies the menu item text.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

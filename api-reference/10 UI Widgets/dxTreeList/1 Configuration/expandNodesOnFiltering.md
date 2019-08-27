@@ -1,13 +1,10 @@
-<!--id-->dxTreeList.Options.expandNodesOnFiltering<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeList.Options.expandNodesOnFiltering
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether nodes appear expanded or collapsed after filtering is applied.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

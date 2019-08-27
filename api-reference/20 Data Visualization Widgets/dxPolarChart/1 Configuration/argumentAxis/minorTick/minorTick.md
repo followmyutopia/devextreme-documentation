@@ -1,5 +1,4 @@
-<!--id-->dxPolarChart.Options.argumentAxis.minorTick<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxPolarChart.Options.argumentAxis.minorTick
+type: Object
+---

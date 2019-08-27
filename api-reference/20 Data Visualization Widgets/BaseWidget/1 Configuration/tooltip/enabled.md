@@ -1,13 +1,10 @@
-<!--id-->BaseWidget.Options.tooltip.enabled<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseWidget.Options.tooltip.enabled
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Enables tooltips.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

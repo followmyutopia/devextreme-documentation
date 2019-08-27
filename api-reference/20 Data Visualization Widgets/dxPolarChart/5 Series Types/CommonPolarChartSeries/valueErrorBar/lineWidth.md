@@ -1,13 +1,10 @@
-<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.valueErrorBar.lineWidth<!--/id-->
-===========================================================================
-<!--default-->2<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.CommonPolarChartSeries.valueErrorBar.lineWidth
+type: Number
+default: 2
+---
+---
+##### shortDescription
 Specifies the width of the error bar line.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

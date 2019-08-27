@@ -1,13 +1,25 @@
-<!--id-->GridBaseColumn.calculateFilterExpression<!--/id-->
-===========================================================================
-<!--type-->function(filterValue, selectedFilterOperation, target)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBaseColumn.calculateFilterExpression
+type: function(filterValue, selectedFilterOperation, target)
+---
+---
+##### shortDescription
 Specifies the column's custom filtering rules.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(filterValue): any
+A user input value.
+
+##### param(selectedFilterOperation): String
+The selected filter operation.
+
+##### param(target): String
+The UI element where the filter expression was set.  
+Possible values: *"filterRow"*, *"headerFilter"*, *"filterBuilder", and *"search"*.
+
+##### return: Filter expression
+A filter expression.
+
+---
 This function must return a [filter expression](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering). The simplest filter expression has the following format:
 
     [selector, selectedFilterOperation, filterValue]
@@ -90,27 +102,3 @@ In the previous code, the **defaultCalculateFilterExpression** function invokes 
 #include uiwidgets-ref-functioncontext with { 
     value: "column's configuration"
 }
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->filterValue<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->any<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-A user input value.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionParamName2-->selectedFilterOperation<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->String<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-The selected filter operation.
-<!--/typeFunctionParamDescription2-->
-
-<!--typeFunctionParamName3-->target<!--/typeFunctionParamName3-->
-<!--typeFunctionParamType3-->String<!--/typeFunctionParamType3-->
-<!--typeFunctionParamDescription3-->
-The UI element where the filter expression was set.  
-Possible values: *"filterRow"*, *"headerFilter"*, *"filterBuilder", and *"search"*.
-<!--/typeFunctionParamDescription3-->
-
-<!--typeFunctionReturnType-->Filter expression<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A filter expression.
-<!--/typeFunctionReturnDescription-->

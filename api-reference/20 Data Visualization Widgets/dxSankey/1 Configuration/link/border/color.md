@@ -1,13 +1,11 @@
-<!--id-->dxSankey.Options.link.border.color<!--/id-->
-===========================================================================
-<!--default-->'#000000'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSankey.Options.link.border.color
+type: String
+default: '#000000'
+---
+---
+##### shortDescription
 Colors the links' borders.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

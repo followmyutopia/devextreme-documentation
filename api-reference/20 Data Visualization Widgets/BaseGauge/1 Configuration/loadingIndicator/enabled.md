@@ -1,13 +1,9 @@
-<!--id-->BaseGauge.Options.loadingIndicator.enabled<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
+---
+id: BaseGauge.Options.loadingIndicator.enabled
+type: Boolean
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

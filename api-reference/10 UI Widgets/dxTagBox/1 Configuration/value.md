@@ -1,14 +1,10 @@
-<!--id-->dxTagBox.Options.value<!--/id-->
-===========================================================================
-<!--type-->Array<String, Number, Object><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTagBox.Options.value
+type: Array<String, Number, Object>
+---
+---
+##### shortDescription
 Specifies the selected items.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Pass an array of items to this option to select them.
-
-
-<!--/fullDescription-->

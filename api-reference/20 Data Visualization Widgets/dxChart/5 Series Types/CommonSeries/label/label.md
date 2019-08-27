@@ -1,13 +1,12 @@
-<!--id-->dxChartSeriesTypes.CommonSeries.label<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.CommonSeries.label
+type: Object
+---
+---
+##### shortDescription
 Configures point labels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Declared in [commonSeriesSettings](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/), the **label** settings apply to all point labels in the chart. Declared in a [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/) configuration object, the **label** settings apply only to the point labels that belong to this particular series. The series-specific **label** settings override the common ones.
 
 ---
@@ -154,4 +153,3 @@ Declared in [commonSeriesSettings](/Documentation/ApiReference/Data_Visualizatio
 
 #####See Also#####
 - [customizeLabel](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#customizeLabel)
-<!--/fullDescription-->

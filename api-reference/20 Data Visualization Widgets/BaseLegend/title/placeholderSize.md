@@ -1,13 +1,10 @@
-<!--id-->BaseLegend.title.placeholderSize<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseLegend.title.placeholderSize
+type: Number
+default: undefined
+---
+---
+##### shortDescription
 Reserves a pixel-measured space for the legend title.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

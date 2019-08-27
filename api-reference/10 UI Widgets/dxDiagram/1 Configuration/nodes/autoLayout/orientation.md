@@ -1,13 +1,9 @@
-<!--id-->dxDiagram.Options.nodes.autoLayout.orientation<!--/id-->
-===========================================================================
-<!--acceptValues-->'auto' | 'vertical' | 'horizontal'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.nodes.autoLayout.orientation
+acceptValues: 'auto' | 'vertical' | 'horizontal'
+type: String
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

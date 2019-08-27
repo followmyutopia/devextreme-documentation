@@ -1,15 +1,14 @@
-<!--id-->BaseGauge.Options.rangeContainer.palette<!--/id-->
-===========================================================================
-<!--default-->'Material'<!--/default-->
-<!--acceptValues-->'Bright' | 'Harmony Light' | 'Ocean' | 'Pastel' | 'Soft' | 'Soft Pastel' | 'Vintage' | 'Violet' | 'Carmine' | 'Dark Moon' | 'Dark Violet' | 'Green Mist' | 'Soft Blue' | 'Material' | 'Office'<!--/acceptValues-->
-<!--type-->Array<String> | String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseGauge.Options.rangeContainer.palette
+acceptValues: 'Bright' | 'Harmony Light' | 'Ocean' | 'Pastel' | 'Soft' | 'Soft Pastel' | 'Vintage' | 'Violet' | 'Carmine' | 'Dark Moon' | 'Dark Violet' | 'Green Mist' | 'Soft Blue' | 'Material' | 'Office'
+type: Array<String> | String
+default: 'Material'
+---
+---
+##### shortDescription
 Specifies the palette to be used for colorizing ranges in the range container.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include dataviz-ref-palette
 
 #include common-ref-enum with {
@@ -26,4 +25,3 @@ Specifies the palette to be used for colorizing ranges in the range container.
 - [paletteExtensionMode]({basewidgetpath}/Configuration/rangeContainer/#paletteExtensionMode)
 - [DevExpress.viz.generateColors(palette, count, options)](/Documentation/ApiReference/Common/utils/viz/#generateColorspalette_count_options)
 - **rangeContainer**.**ranges[]**.[color]({basewidgetpath}/Configuration/rangeContainer/ranges/#color)
-<!--/fullDescription-->

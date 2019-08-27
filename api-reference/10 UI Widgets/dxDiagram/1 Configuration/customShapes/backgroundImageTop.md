@@ -1,12 +1,8 @@
-<!--id-->dxDiagram.Options.customShapes.backgroundImageTop<!--/id-->
-===========================================================================
-<!--type-->Number<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.customShapes.backgroundImageTop
+type: Number
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

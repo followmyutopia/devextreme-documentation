@@ -1,13 +1,12 @@
-<!--id-->dxFormTabbedItem<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFormTabbedItem
+type: Object
+---
+---
+##### shortDescription
 This article describes configuration options of a tabbed form item.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 An item representing a tabbed container for other form items. 
 
 #include common-demobutton with {
@@ -16,4 +15,3 @@ An item representing a tabbed container for other form items.
 
 #####See Also#####
 - [Form - Organize Simple Items in Tabs](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Tabs/)
-<!--/fullDescription-->

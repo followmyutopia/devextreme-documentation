@@ -1,19 +1,14 @@
-<!--id-->dxTreeMapNode.select(state)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMapNode.select(state)
+---
+---
+##### shortDescription
 Sets the selection state of a node.
-<!--/shortDescription-->
 
-<!--paramName1-->state<!--/paramName1-->
-<!--paramType1-->Boolean<!--/paramType1-->
-<!--paramDescription1-->
+##### param(state): Boolean
 Pass **true** to select the node; **false** to deselect.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 [note]If the [selectionMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#selectionMode) option is set to *"single"*, calling this method with **true** as the argument selects one node and deselects all the others.
 
 To deselect all nodes at once, call the [clearSelection()](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Methods/#clearSelection) method.
-<!--/fullDescription-->

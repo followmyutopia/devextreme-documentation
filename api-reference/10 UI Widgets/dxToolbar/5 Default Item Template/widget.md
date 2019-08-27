@@ -1,14 +1,13 @@
-<!--id-->dxToolbarItem.widget<!--/id-->
-===========================================================================
-<!--acceptValues-->'dxAutocomplete' | 'dxButton' | 'dxCheckBox' | 'dxDateBox' | 'dxMenu' | 'dxSelectBox' | 'dxTabs' | 'dxTextBox' | 'dxButtonGroup' | 'dxDropDownButton'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxToolbarItem.widget
+acceptValues: 'dxAutocomplete' | 'dxButton' | 'dxCheckBox' | 'dxDateBox' | 'dxMenu' | 'dxSelectBox' | 'dxTabs' | 'dxTextBox' | 'dxButtonGroup' | 'dxDropDownButton'
+type: String
+---
+---
+##### shortDescription
 A widget that presents a toolbar item.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 [note]Import the specified widget's module when using [DevExtreme modules](/Documentation/Guide/Common/Modularity/). 
 
 When using [ASP.NET MVC Controls](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), configure this option with a lambda expression in the following manner.
@@ -35,4 +34,3 @@ When using [ASP.NET MVC Controls](/Documentation/Guide/ASP.NET_MVC_Controls/Fund
 #####See Also#####
 - [Default Item Template - options](/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/#options)
 - [Toolbar - Specify Item Type](/Documentation/Guide/Widgets/Toolbar/Specify_Item_Type/)
-<!--/fullDescription-->

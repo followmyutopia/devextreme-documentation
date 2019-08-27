@@ -1,13 +1,10 @@
-<!--id-->dxTreeMap.Options.tile.hoverStyle.border.width<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMap.Options.tile.hoverStyle.border.width
+type: Number
+default: undefined
+---
+---
+##### shortDescription
 Specifies the width of the tile borders in pixels. Applies to a tile in the hover state.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

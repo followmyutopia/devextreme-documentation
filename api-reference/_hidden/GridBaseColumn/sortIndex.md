@@ -1,15 +1,14 @@
-<!--id-->GridBaseColumn.sortIndex<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBaseColumn.sortIndex
+type: Number
+default: undefined
+firedEvents: optionChanged
+---
+---
+##### shortDescription
 Specifies the index according to which columns participate in sorting.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This option accepts an integer specifying the index of the column in a collection of columns with applied sorting. For example, consider the following data source that can provide data for three columns.
 
     <!--JavaScript-->var dataSource = [
@@ -59,4 +58,3 @@ To sort data first by the *"Last Name"* and then by the *"First Name"* column, u
 ---
 
 You can set the **sortIndex** option at design time to specify initial sorting, or change this option using the [columnOption]({basewidgetname}/Methods/#columnOptionid_optionName_optionValue) method to sort at runtime.
-<!--/fullDescription-->

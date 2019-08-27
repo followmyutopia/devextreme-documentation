@@ -1,17 +1,19 @@
-<!--id-->dxVectorMap.Options.projection<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--default-->'mercator'<!--/default-->
-<!--acceptValues-->'equirectangular' | 'lambert' | 'mercator' | 'miller'<!--/acceptValues-->
-<!--type-->String | VectorMapProjectionConfig | Object<!--/type-->
-<!--inheritsType-->VectorMapProjectionConfig<!--/inheritsType-->
-===========================================================================
+---
+id: dxVectorMap.Options.projection
+acceptValues: 'equirectangular' | 'lambert' | 'mercator' | 'miller'
+type: String | VectorMapProjectionConfig | Object
+default: 'mercator'
+---
+---
+##### shortDescription
+Specifies the map projection.
 
-<!--shortDescription-->
-Specifies the map projection. 
-<!--/shortDescription-->
+##### notUsedInTheme
 
-<!--fullDescription-->
+##### inheritsType
+VectorMapProjectionConfig
+
+---
 You can use one of the following out-of-the-box projections:
 
 - <a href="https://en.wikipedia.org/wiki/Mercator_projection" target="_blank">Mercator projection</a>
@@ -29,4 +31,3 @@ To set a custom projection, implement two functions ([from](/Documentation/ApiRe
     url: "/Demos/WidgetsGallery/Demo/VectorMap/FloorPlan/jQuery/Light/",
     name: "Floor Plan"
 }
-<!--/fullDescription-->

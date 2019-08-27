@@ -1,13 +1,10 @@
-<!--id-->dxLookup.Options.placeholder<!--/id-->
-===========================================================================
-<!--default-->'Select'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxLookup.Options.placeholder
+type: String
+default: 'Select'
+---
+---
+##### shortDescription
 The text displayed by the widget when nothing is selected.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

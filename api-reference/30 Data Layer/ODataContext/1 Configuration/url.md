@@ -1,13 +1,12 @@
-<!--id-->ODataContext.Options.url<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: ODataContext.Options.url
+type: String
+---
+---
+##### shortDescription
 Specifies the URL of an OData service.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 ---
 #####jQuery
 
@@ -36,4 +35,3 @@ Specifies the URL of an OData service.
 
 #####See Also#####
 - [entities](/Documentation/ApiReference/Data_Layer/ODataContext/Configuration/#entities)
-<!--/fullDescription-->

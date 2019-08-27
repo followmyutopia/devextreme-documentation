@@ -1,14 +1,13 @@
-<!--id-->dxChart.Options.autoHidePointMarkers<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.autoHidePointMarkers
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether to hide [series point markers](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/point/#symbol) automatically to reduce visual clutter.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Point markers are hidden when:
 
 - In a single-series chart, at least half of all point markers are overlapped by adjacent markers.
@@ -16,4 +15,3 @@ Point markers are hidden when:
 
 #####See Also#####
 - **series**.[aggregation](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/aggregation/)
-<!--/fullDescription-->

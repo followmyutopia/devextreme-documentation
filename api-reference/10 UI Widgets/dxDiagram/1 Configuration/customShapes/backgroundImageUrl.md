@@ -1,12 +1,8 @@
-<!--id-->dxDiagram.Options.customShapes.backgroundImageUrl<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.customShapes.backgroundImageUrl
+type: String
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

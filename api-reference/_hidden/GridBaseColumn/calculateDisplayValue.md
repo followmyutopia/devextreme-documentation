@@ -1,13 +1,18 @@
-<!--id-->GridBaseColumn.calculateDisplayValue<!--/id-->
-===========================================================================
-<!--type-->String | function(rowData)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBaseColumn.calculateDisplayValue
+type: String | function(rowData)
+---
+---
+##### shortDescription
 Calculates custom display values for column cells. Requires specifying the [dataField]({basewidgetpath}/Configuration/columns/#dataField) or [calculateCellValue]({basewidgetpath}/Configuration/columns/#calculateCellValue) option. Used in [lookup optimization](/Documentation/Guide/Widgets/DataGrid/Enhance_Performance_on_Large_Datasets/#Lookup_Optimization).
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(rowData): Object
+The data of the row to which the cell belongs.
+
+##### return: any
+The value for the cell to display.
+
+---
 This option accepts the name of the [data source field]({basewidgetpath}/Configuration/#dataSource) that provides display values...
 
 ---
@@ -149,14 +154,3 @@ The widget uses the specified display values in [sorting](/Documentation/Guide/W
 }
 
 Do not use this option to format text in cells. Instead, use the [format]({basewidgetpath}/Configuration/columns/#format), [customizeText]({basewidgetpath}/Configuration/columns/#customizeText), or [cellTemplate]({basewidgetpath}/Configuration/columns/#cellTemplate) option.
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->rowData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The data of the row to which the cell belongs.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->any<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-The value for the cell to display.
-<!--/typeFunctionReturnDescription-->

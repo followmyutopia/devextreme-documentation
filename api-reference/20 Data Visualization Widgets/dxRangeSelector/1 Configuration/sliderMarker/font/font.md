@@ -1,13 +1,10 @@
-<!--id-->dxRangeSelector.Options.sliderMarker.font<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-<!--inherits-->Font<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.sliderMarker.font
+type: Object
+inherits: Font
+---
+---
+##### shortDescription
 Specifies font options for the text displayed by the range selector slider markers.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

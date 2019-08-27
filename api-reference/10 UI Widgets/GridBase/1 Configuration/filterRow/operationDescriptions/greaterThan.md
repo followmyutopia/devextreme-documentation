@@ -1,13 +1,10 @@
-<!--id-->GridBase.Options.filterRow.operationDescriptions.greaterThan<!--/id-->
-===========================================================================
-<!--default-->'Greater than'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.filterRow.operationDescriptions.greaterThan
+type: String
+default: 'Greater than'
+---
+---
+##### shortDescription
 A description for the *">"* operation.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

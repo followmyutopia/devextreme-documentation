@@ -1,5 +1,4 @@
-<!--id-->dxLookup.Options.dropDownButtonTemplate<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxLookup.Options.dropDownButtonTemplate
+hidden: 
+---

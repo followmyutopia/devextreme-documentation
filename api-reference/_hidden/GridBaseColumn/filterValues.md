@@ -1,15 +1,14 @@
-<!--id-->GridBaseColumn.filterValues<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Array<any><!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBaseColumn.filterValues
+type: Array<any>
+default: undefined
+firedEvents: optionChanged
+---
+---
+##### shortDescription
 Specifies values selected in the column's [header filter](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Header_Filter).
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 If the **headerFilter**.[groupInterval]({basewidgetpath}/Configuration/columns/headerFilter/#groupInterval) option is set, each value in the **filterValues** array specifies the beginning of an interval instead of an exact value:
 
 ---
@@ -63,4 +62,3 @@ If the **headerFilter**.[groupInterval]({basewidgetpath}/Configuration/columns/h
 
 #####See Also#####
 - [Filtering - Header Filter](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Header_Filter)
-<!--/fullDescription-->

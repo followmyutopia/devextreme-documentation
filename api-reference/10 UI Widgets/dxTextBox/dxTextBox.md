@@ -1,21 +1,19 @@
-<!--id-->dxTextBox<!--/id-->
-<!--widgettree-->
-
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/text_box<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->dxTextEditor<!--/inherits-->
-<!--lib-->
-dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTextBox
+module: ui/text_box
+export: default
+inherits: dxTextEditor
+---
+---
+##### shortDescription
 The **TextBox** is a widget that enables a user to enter and edit a single line of text.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### widgettree
+
+##### lib
+dx.web.js, dx.viz-web.js, dx.all.js
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/editorstextboxtextboxtextbox/"
 }
@@ -26,4 +24,3 @@ The **TextBox** is a widget that enables a user to enter and edit a single line 
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

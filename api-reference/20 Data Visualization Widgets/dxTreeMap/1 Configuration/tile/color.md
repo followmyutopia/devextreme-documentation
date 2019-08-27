@@ -1,14 +1,13 @@
-<!--id-->dxTreeMap.Options.tile.color<!--/id-->
-===========================================================================
-<!--default-->'#$5f8b95'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMap.Options.tile.color
+type: String
+default: '#$5f8b95'
+---
+---
+##### shortDescription
 Specifies a single color for all tiles.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 There are several approaches to colorizing tiles.
 
  - Colorizing each tile uniquely into the [color specified directly](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#colorField) in the data object.      
@@ -24,4 +23,3 @@ Use the latter approach only if you need to color all tiles uniformly. The **til
 * <a href="http://www.w3.org/TR/SVG/types.html#ColorKeywords" target="_blank">Predefined SVG colors</a>
 
 This approach has the lowest priority among the others. To find more about the other two approaches, see the [colorField](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#colorField) and [colorizer](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/colorizer/) option descriptions.
-<!--/fullDescription-->

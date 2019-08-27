@@ -1,13 +1,10 @@
-<!--id-->BaseWidget.Options.tooltip.arrowLength<!--/id-->
-===========================================================================
-<!--default-->10<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseWidget.Options.tooltip.arrowLength
+type: Number
+default: 10
+---
+---
+##### shortDescription
 Specifies the length of a tooltip's arrow in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

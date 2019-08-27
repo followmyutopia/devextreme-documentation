@@ -1,12 +1,9 @@
-<!--id-->GridBase.Options.editing<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.editing
+type: Object
+---
+---
+##### shortDescription
 Overriden.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

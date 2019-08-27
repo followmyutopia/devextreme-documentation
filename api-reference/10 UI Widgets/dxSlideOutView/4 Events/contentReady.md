@@ -1,13 +1,9 @@
-<!--id-->dxSlideOutView.contentReady<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->eventType<!--/type-->
-===========================================================================
+---
+id: dxSlideOutView.contentReady
+type: eventType
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

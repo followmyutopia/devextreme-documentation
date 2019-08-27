@@ -1,15 +1,12 @@
-<!--id-->dxDropDownList<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--module-->ui/drop_down_editor/ui.drop_down_list<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->DataExpressionMixin,dxDropDownEditor<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDropDownList
+module: ui/drop_down_editor/ui.drop_down_list
+export: default
+inherits: DataExpressionMixin,dxDropDownEditor
+hidden: 
+---
+---
+##### shortDescription
 A base class for drop-down list widgets.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

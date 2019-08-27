@@ -1,13 +1,10 @@
-<!--id-->dxFilterBuilder.Options.filterOperationDescriptions.greaterThanOrEqual<!--/id-->
-===========================================================================
-<!--default-->'Greater than or equal to'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFilterBuilder.Options.filterOperationDescriptions.greaterThanOrEqual
+type: String
+default: 'Greater than or equal to'
+---
+---
+##### shortDescription
 The *">="* operation's description.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

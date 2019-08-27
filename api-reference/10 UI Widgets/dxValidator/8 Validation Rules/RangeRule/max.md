@@ -1,12 +1,9 @@
-<!--id-->RangeRule.max<!--/id-->
-===========================================================================
-<!--type-->Date | Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: RangeRule.max
+type: Date | Number
+---
+---
+##### shortDescription
 Specifies the maximum value allowed for the validated value.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

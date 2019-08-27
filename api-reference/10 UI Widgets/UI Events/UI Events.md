@@ -1,15 +1,14 @@
-<!--id-->UI Events<!--/id-->
-===========================================================================
-<!--lib-->
-dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: UI Events
+---
+---
+##### shortDescription
 The events used to handle user interaction with UI elements.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### lib
+dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
+
+---
 <a name="introduction"></a>
 DevExtreme provides UI events for processing a user's interaction with a specific UI element. The [DevExpress.events](/Documentation/ApiReference/Common/utils/events/) namespace exposes an API to work with the UI events. 
 
@@ -84,4 +83,3 @@ See <a href="http://knockoutjs.com/documentation/event-binding.html" target="_bl
 [note]AngularJS does not provide an API to unsubscribe from an event.
  
 ---
-<!--/fullDescription-->

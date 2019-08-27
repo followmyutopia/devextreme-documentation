@@ -1,17 +1,14 @@
-<!--id-->Guid.valueOf()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: Guid.valueOf()
+---
+---
+##### shortDescription
 Gets the GUID. Works identically to the [toString()](/Documentation/ApiReference/Data_Layer/Guid/Methods/#toString) method.
-<!--/shortDescription-->
 
-<!--returnType-->String<!--/returnType-->
-<!--returnDescription-->
+##### return: String
 The GUID.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 The returned GUID is always hyphened even if the **Guid** was created with a non-hyphened version:
 
 ---
@@ -34,4 +31,3 @@ The returned GUID is always hyphened even if the **Guid** was created with a non
     }
 
 ---
-<!--/fullDescription-->

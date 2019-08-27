@@ -1,12 +1,9 @@
-<!--id-->dxTreeMap.Options.tile.border<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMap.Options.tile.border
+type: Object
+---
+---
+##### shortDescription
 Configures the tile borders.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,13 +1,10 @@
-<!--id-->dxPivotGridFieldChooser.Options.texts.dataFields<!--/id-->
-===========================================================================
-<!--default-->'Data Fields'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGridFieldChooser.Options.texts.dataFields
+type: String
+default: 'Data Fields'
+---
+---
+##### shortDescription
 The string to display instead of **Data Fields**.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

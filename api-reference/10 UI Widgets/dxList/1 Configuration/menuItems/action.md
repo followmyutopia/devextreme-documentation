@@ -1,23 +1,15 @@
-<!--id-->dxList.Options.menuItems.action<!--/id-->
-===========================================================================
-<!--type-->function(itemElement, itemData)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxList.Options.menuItems.action
+type: function(itemElement, itemData)
+---
+---
+##### shortDescription
 Holds on a function called when the item is clicked.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->itemElement<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->dxElement<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
+##### param(itemElement): dxElement
 #include common-ref-elementparam with { element: "clicked item" }
-<!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionParamName2-->itemData<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->Object<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
+##### param(itemData): Object
 The item's data.
-<!--/typeFunctionParamDescription2-->
+
+---

@@ -1,14 +1,13 @@
-<!--id-->dxDataGrid.Options.summary.totalItems<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Array<Object><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.Options.summary.totalItems
+type: Array<Object>
+default: undefined
+---
+---
+##### shortDescription
 Specifies items of the total summary.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The total summary, which is located in the grid footer, provides a synopsis of all data contained in the grid. It contains several summary items. Each item displays a value that is a product of applying an aggregate function to the data of a specific column.
 
 To specify the items of the total summary, declare an array of objects, each of which contains at least two fields: [column](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#column) and [summaryType](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#summaryType). The **column** field specifies the identifier of the column that provides data for an aggregate function. The **summaryType** specifies the aggregate function to be applied. The following code snippet shows how to declare two summary items.
@@ -73,4 +72,3 @@ By default, a summary item is placed in the column that provides data for it. If
 
 #####See Also#####
 - [Total Summary](/Documentation/Guide/Widgets/DataGrid/Summaries/Total_Summary/)
-<!--/fullDescription-->

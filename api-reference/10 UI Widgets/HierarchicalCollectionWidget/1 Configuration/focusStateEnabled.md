@@ -1,6 +1,5 @@
-<!--id-->HierarchicalCollectionWidget.Options.focusStateEnabled<!--/id-->
-===========================================================================
-<!--default-->true (desktop)<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: HierarchicalCollectionWidget.Options.focusStateEnabled
+type: Boolean
+default: true (desktop)
+---

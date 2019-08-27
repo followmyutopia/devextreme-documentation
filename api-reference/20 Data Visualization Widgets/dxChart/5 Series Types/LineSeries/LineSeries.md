@@ -1,15 +1,15 @@
-<!--id-->dxChartSeriesTypes.LineSeries<!--/id-->
-===========================================================================
-<!--hidePropertyOf--><!--/hidePropertyOf-->
-<!--type-->Object<!--/type-->
-<!--inherits-->dxChartSeriesTypes.CommonSeries<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.LineSeries
+type: Object
+inherits: dxChartSeriesTypes.CommonSeries
+---
+---
+##### shortDescription
 Describes settings supported by a series of the *line* type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### hidePropertyOf
+
+---
 #include dataviz-ref-series-type with { 
     seriesType: "line"
 }
@@ -19,4 +19,3 @@ Describes settings supported by a series of the *line* type.
 }
 
 ![DevExtreme HTML5 Charts LineSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/Line.png)
-<!--/fullDescription-->

@@ -1,14 +1,13 @@
-<!--id-->PivotGridDataSource.Options.fields.format<!--/id-->
-===========================================================================
-<!--default-->''<!--/default-->
-<!--type-->format<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.Options.fields.format
+type: format
+default: ''
+---
+---
+##### shortDescription
 Formats field values before they are displayed.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 See the [format](/Documentation/ApiReference/Common/Object_Structures/format/) section for details on accepted values.
 
 ---
@@ -95,4 +94,3 @@ See the [format](/Documentation/ApiReference/Common/Object_Structures/format/) s
 
 #####See Also#####
 - **fields[]**.[customizeText](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#customizeText)
-<!--/fullDescription-->

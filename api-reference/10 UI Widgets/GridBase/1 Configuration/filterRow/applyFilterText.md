@@ -1,13 +1,10 @@
-<!--id-->GridBase.Options.filterRow.applyFilterText<!--/id-->
-===========================================================================
-<!--default-->'Apply filter'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.filterRow.applyFilterText
+type: String
+default: 'Apply filter'
+---
+---
+##### shortDescription
 Specifies text for a hint that appears when a user pauses on a button that applies the filter.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

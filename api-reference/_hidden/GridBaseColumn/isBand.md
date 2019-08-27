@@ -1,14 +1,13 @@
-<!--id-->GridBaseColumn.isBand<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBaseColumn.isBand
+type: Boolean
+default: undefined
+---
+---
+##### shortDescription
 Specifies whether the column bands other columns or not.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Unlike normal columns, band columns do not hold data. Instead, they collect two or more columns under one column header. In most cases, to set up this layout, you can declare the band column using a hierarchical structure. For example, the following code bands three columns under the *"Address"* header.
 
 ---
@@ -129,4 +128,3 @@ Band columns can have the following properties only:
 
 #####See Also#####
 - [Band Columns](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Types/Band_Columns/)
-<!--/fullDescription-->

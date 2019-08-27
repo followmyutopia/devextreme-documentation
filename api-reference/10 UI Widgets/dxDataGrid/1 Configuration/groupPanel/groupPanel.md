@@ -1,13 +1,12 @@
-<!--id-->dxDataGrid.Options.groupPanel<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.Options.groupPanel
+type: Object
+---
+---
+##### shortDescription
 Configures the [group panel](/Documentation/Guide/Widgets/DataGrid/Grouping/#User_Interaction/Group_Data).
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Data in **DataGrid** can be grouped by one column or by several. Once a column is used for grouping, it is added to the group panel.
 
 By default, the group panel is hidden. To make it visible, set the **groupPanel**.[visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/groupPanel/#visible) option to **true**. Alternatively, the visibility of the group panel can depend on the device's screen size. To accomplish this behavior, set the **visible** option to *"auto"*.
@@ -22,4 +21,3 @@ In case you need to show the group panel, but make it irresponsive, assign **fal
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/datagridgridgroupinglocaldatagrouping/"
 }
-<!--/fullDescription-->

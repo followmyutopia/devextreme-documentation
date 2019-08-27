@@ -1,16 +1,17 @@
-<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.point.selectionMode<!--/id-->
-===========================================================================
-<!--propertyOf-->dxPolarChartSeriesTypes.linepolarseries,dxPolarChartSeriesTypes.areapolarseries,dxPolarChartSeriesTypes.scatterpolarseries<!--/propertyOf-->
-<!--default-->'onlyPoint'<!--/default-->
-<!--acceptValues-->'allArgumentPoints' | 'allSeriesPoints' | 'none' | 'onlyPoint'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.CommonPolarChartSeries.point.selectionMode
+acceptValues: 'allArgumentPoints' | 'allSeriesPoints' | 'none' | 'onlyPoint'
+type: String
+default: 'onlyPoint'
+---
+---
+##### shortDescription
 Specifies what series points to highlight when a point is selected.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### propertyOf
+dxPolarChartSeriesTypes.linepolarseries,dxPolarChartSeriesTypes.areapolarseries,dxPolarChartSeriesTypes.scatterpolarseries
+
+---
 The **PolarChart** widget comes with the API that allows you to select a point in code. Use the **selectionMode** property to specify what series points to select when a point is selected:
 
 * **onlyPoint**   
@@ -28,4 +29,3 @@ To set custom options for the 'selected' style, which is applied when a point is
     enum: "`ChartPointInteractionMode`",
     values: "`OnlyPoint`, `AllSeriesPoints`, `AllArgumentPoints`, and `None`"
 }
-<!--/fullDescription-->

@@ -1,14 +1,13 @@
-<!--id-->ExcelFont.underline<!--/id-->
-===========================================================================
-<!--acceptValues-->'double' | 'doubleAccounting' | 'none' | 'single' | 'singleAccounting'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: ExcelFont.underline
+acceptValues: 'double' | 'doubleAccounting' | 'none' | 'single' | 'singleAccounting'
+type: String
+---
+---
+##### shortDescription
 The underline formatting style.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 <div class="simple-table">
     <table>
         <thead>
@@ -41,4 +40,3 @@ The underline formatting style.
         </tbody>
     </table>
 </div>
-<!--/fullDescription-->

@@ -1,16 +1,11 @@
-<!--id-->DataSource.pageSize()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.pageSize()
+---
+---
+##### shortDescription
 Gets the [page size](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#pageSize).
-<!--/shortDescription-->
 
-<!--returnType-->Number<!--/returnType-->
-<!--returnDescription-->
+##### return: Number
 The page size.
-<!--/returnDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

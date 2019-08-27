@@ -1,13 +1,9 @@
-<!--id-->dxFileManager.Options.rootFolderName<!--/id-->
-===========================================================================
-<!--default-->'Files'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxFileManager.Options.rootFolderName
+type: String
+default: 'Files'
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

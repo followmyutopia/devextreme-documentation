@@ -1,13 +1,9 @@
-<!--id-->dxDiagram.Options.toolbox.visible<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.toolbox.visible
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

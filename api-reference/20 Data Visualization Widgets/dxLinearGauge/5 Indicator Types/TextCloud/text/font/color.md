@@ -1,4 +1,8 @@
-<!--id-->linearTextCloud.text.font.color<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->'#FFFFFF'<!--/default-->
-===========================================================================
+---
+id: linearTextCloud.text.font.color
+default: '#FFFFFF'
+---
+---
+##### merge
+
+---

@@ -1,13 +1,10 @@
-<!--id-->positionConfig.my.x<!--/id-->
-===========================================================================
-<!--acceptValues-->'center' | 'left' | 'right'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: positionConfig.my.x
+acceptValues: 'center' | 'left' | 'right'
+type: String
+---
+---
+##### shortDescription
 Holds the horizontal position specifier.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

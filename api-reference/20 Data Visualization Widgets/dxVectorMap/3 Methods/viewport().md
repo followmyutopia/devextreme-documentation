@@ -1,17 +1,14 @@
-<!--id-->dxVectorMap.viewport()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxVectorMap.viewport()
+---
+---
+##### shortDescription
 Gets the current map viewport coordinates.
-<!--/shortDescription-->
 
-<!--returnType-->Array<Number><!--/returnType-->
-<!--returnDescription-->
+##### return: Array<Number>
 The viewport coordinates.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 This method returns the viewport coordinates as an array of four values in the [*minLongitude*, *maxLatitude*, *maxLongitude*, *minLatitude*] form.
 
 #include common-demobutton with {
@@ -20,4 +17,3 @@ This method returns the viewport coordinates as an array of four values in the [
 
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

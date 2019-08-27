@@ -1,6 +1,5 @@
-<!--id-->dxTagBox.Options.onCut<!--/id-->
-<!--EventForAction-->dxTagBox.cut<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxTagBox.Options.onCut
+hidden: 
+EventForAction: dxTagBox.cut
+---

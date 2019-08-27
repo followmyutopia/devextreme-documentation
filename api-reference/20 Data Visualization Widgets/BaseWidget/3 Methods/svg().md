@@ -1,18 +1,14 @@
-<!--id-->BaseWidget.svg()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: BaseWidget.svg()
+---
+---
+##### shortDescription
 Gets the widget's SVG markup.
-<!--/shortDescription-->
 
-<!--returnType-->String<!--/returnType-->
-<!--returnDescription-->
+##### return: String
 The widget's SVG markup.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 - [DevExpress.viz.getMarkup(widgetInstances)](/Documentation/ApiReference/Common/utils/viz/#getMarkupwidgetInstances)
 #include common-link-callmethods
-<!--/fullDescription-->

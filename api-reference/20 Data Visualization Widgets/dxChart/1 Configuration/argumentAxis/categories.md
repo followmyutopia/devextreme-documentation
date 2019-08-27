@@ -1,13 +1,12 @@
-<!--id-->dxChart.Options.argumentAxis.categories<!--/id-->
-===========================================================================
-<!--type-->Array<Number, String, Date><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.argumentAxis.categories
+type: Array<Number, String, Date>
+---
+---
+##### shortDescription
 Specifies the order of categories on an axis of the *"discrete"* [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#type).
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 By default, arguments on a discrete axis keep the order of objects in the data source. For example, objects in the following data source are sorted by decreasing **area** value. The resulting arguments will be sorted the same way.
 
     <!--JavaScript-->var continentsByArea = [
@@ -61,4 +60,3 @@ To sort the arguments, for example, alphabetically, you need to assign an array 
 ---
 
 [note]Arguments missing from the **categories** array will be added to its end automatically.
-<!--/fullDescription-->

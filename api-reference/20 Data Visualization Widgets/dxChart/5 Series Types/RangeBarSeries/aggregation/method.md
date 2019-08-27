@@ -1,15 +1,14 @@
-<!--id-->dxChartSeriesTypes.RangeBarSeries.aggregation.method<!--/id-->
-===========================================================================
-<!--default-->'range'<!--/default-->
-<!--acceptValues-->'range' | 'custom'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxChartSeriesTypes.RangeBarSeries.aggregation.method
+acceptValues: 'range' | 'custom'
+type: String
+default: 'range'
+---
+---
+##### shortDescription
+Specifies how to aggregate series points.
 
-<!--shortDescription-->
-Specifies how to aggregate series points. 
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 Series points get aggregated by individual [aggregation intervals](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/aggregationInterval/). The following list describes aggregation methods available for series of the **Range Area** type:
 
 - *"range"*         
@@ -25,4 +24,3 @@ Applies a custom aggregate function specified in the [calculate](/Documentation/
 
 #####See Also#####
 - [Data Aggregation](/Documentation/Guide/Widgets/Chart/Data_Aggregation/)
-<!--/fullDescription-->

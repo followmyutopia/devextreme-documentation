@@ -1,13 +1,27 @@
-<!--id-->dxFormGroupItem.template<!--/id-->
-===========================================================================
-<!--type-->template<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFormGroupItem.template
+type: template
+---
+---
+##### shortDescription
 A template to be used for rendering a group item.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(data): Object
+Information about the **Form**.
+
+##### field(data.component): dxForm
+The **Form** instance.
+
+##### field(data.formData): Object
+The [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData) object.
+
+##### param(itemElement): dxElement
+#include common-ref-elementparam with { element: "current group item" }
+
+##### return: String | Node | jQuery
+A template name or container.
+
+---
 Use the **template** option of a group item to display custom content under a group caption, for instance an image. To specify a custom template for items contained in a group, define the **template** option of each of these items.
 
 ![Form With Image](/Content/images/doc/19_2/UiWidgets/FormWithImage.png)
@@ -16,30 +30,3 @@ Use the **template** option of a group item to display custom content under a gr
 
 #####See Also#####
 - [Custom Content within a Group](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Groups/#Custom_Content_within_a_Group)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->data<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the **Form**.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->dxForm<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The **Form** instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->formData<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->Object<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-The [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData) object.
-<!--/typeFunctionParamDescription1_field2-->
-
-<!--typeFunctionParamName2-->itemElement<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-#include common-ref-elementparam with { element: "current group item" }
-<!--/typeFunctionParamDescription2-->
-
-<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A template name or container.
-<!--/typeFunctionReturnDescription-->

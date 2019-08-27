@@ -1,13 +1,33 @@
-<!--id-->dxDataGrid.Options.summary.calculateCustomSummary<!--/id-->
-===========================================================================
-<!--type-->function(options)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.Options.summary.calculateCustomSummary
+type: function(options)
+---
+---
+##### shortDescription
 Specifies a custom aggregate function. This function is called for summary items whose [summaryType](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#summaryType) is *"custom"*.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(options): Object
+Summary information.
+
+##### field(options.component): dxDataGrid
+The widget's instance.
+
+##### field(options.groupIndex): Number
+A zero-based group level. Available only when calculating group summary items.
+
+##### field(options.name): String
+The summary item's [name](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#name).
+
+##### field(options.summaryProcess): String
+Indicates the stage of the summary item calculation; equals *"start"*, *"calculate"* or *"finalize"*.
+
+##### field(options.totalValue): any
+The resulting summary item's value.
+
+##### field(options.value): any
+If the custom summary item is calculated by a [column](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#column), this field contains the value from a cell of this column. Otherwise, it contains a whole object from the data source.
+
+---
 This is a single function for all custom summary items. Specify a [name](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#name) for each item to identify them in the function.
 
 A summary value calculation is conducted in three stages: *start* - the **totalValue** is initialized; *calculate* - the **totalValue** is modified; *finalize* - the **totalValue** is adjusted. To identify the current stage, check the value of the **summaryProcess** field that belongs to the function's parameter:
@@ -109,39 +129,3 @@ A summary value calculation is conducted in three stages: *start* - the **totalV
 
 #####See Also#####
 - [Custom Aggregate Function](/Documentation/Guide/Widgets/DataGrid/Summaries/Custom_Aggregate_Function/)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Summary information.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->dxDataGrid<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->name<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->String<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-The summary item's [name](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#name).
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->summaryProcess<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->String<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-Indicates the stage of the summary item calculation; equals *"start"*, *"calculate"* or *"finalize"*.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->value<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->any<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-If the custom summary item is calculated by a [column](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#column), this field contains the value from a cell of this column. Otherwise, it contains a whole object from the data source.
-<!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamName1_field5-->totalValue<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->any<!--/typeFunctionParamType1_field5-->
-<!--typeFunctionParamDescription1_field5-->
-The resulting summary item's value.
-<!--/typeFunctionParamDescription1_field5-->
-<!--typeFunctionParamName1_field6-->groupIndex<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->Number<!--/typeFunctionParamType1_field6-->
-<!--typeFunctionParamDescription1_field6-->
-A zero-based group level. Available only when calculating group summary items.
-<!--/typeFunctionParamDescription1_field6-->

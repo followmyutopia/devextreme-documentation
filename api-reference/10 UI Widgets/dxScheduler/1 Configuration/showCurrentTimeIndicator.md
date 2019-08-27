@@ -1,15 +1,13 @@
-<!--id-->dxScheduler.Options.showCurrentTimeIndicator<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler.Options.showCurrentTimeIndicator
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies the current date-time indicator's visibility.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Scheduler/CurrentTimeIndicator/jQuery/Light/"
 }
-<!--/fullDescription-->

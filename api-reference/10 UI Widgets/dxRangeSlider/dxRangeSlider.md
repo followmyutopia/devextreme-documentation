@@ -1,21 +1,19 @@
-<!--id-->dxRangeSlider<!--/id-->
-<!--widgettree-->
-
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/range_slider<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->dxSliderBase<!--/inherits-->
-<!--lib-->
-dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSlider
+module: ui/range_slider
+export: default
+inherits: dxSliderBase
+---
+---
+##### shortDescription
 The **RangeSlider** is a widget that allows an end user to choose a range of numeric values.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### widgettree
+
+##### lib
+dx.web.js, dx.viz-web.js, dx.all.js
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/formsandmulti-purposerangesliderrangesliderrangeslider/"
 }
@@ -26,4 +24,3 @@ The **RangeSlider** is a widget that allows an end user to choose a range of num
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

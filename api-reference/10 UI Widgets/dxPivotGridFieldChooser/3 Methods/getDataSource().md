@@ -1,17 +1,13 @@
-<!--id-->dxPivotGridFieldChooser.getDataSource()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGridFieldChooser.getDataSource()
+---
+---
+##### shortDescription
 Gets the **PivotGridDataSource** instance.
-<!--/shortDescription-->
 
-<!--returnType-->PivotGridDataSource<!--/returnType-->
-<!--returnDescription-->
+##### return: PivotGridDataSource
 The [PivotGridDataSource](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/) instance.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

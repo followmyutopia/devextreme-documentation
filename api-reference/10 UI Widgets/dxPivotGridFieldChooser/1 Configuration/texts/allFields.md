@@ -1,13 +1,10 @@
-<!--id-->dxPivotGridFieldChooser.Options.texts.allFields<!--/id-->
-===========================================================================
-<!--default-->'All Fields'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGridFieldChooser.Options.texts.allFields
+type: String
+default: 'All Fields'
+---
+---
+##### shortDescription
 The string to display instead of **All Fields**.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

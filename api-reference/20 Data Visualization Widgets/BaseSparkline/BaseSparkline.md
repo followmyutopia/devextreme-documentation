@@ -1,14 +1,11 @@
-<!--id-->BaseSparkline<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->Object<!--/type-->
-<!--inherits-->BaseWidget<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseSparkline
+type: Object
+inherits: BaseWidget
+hidden: 
+---
+---
+##### shortDescription
 Overridden by descriptions for particular widgets.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,44 +1,29 @@
-<!--id-->dxScheduler.Options.onAppointmentAdded<!--/id-->
-<!--EventForAction-->dxScheduler.appointmentAdded<!--/EventForAction-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->function(e)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler.Options.onAppointmentAdded
+type: function(e)
+default: null
+EventForAction: dxScheduler.appointmentAdded
+---
+---
+##### shortDescription
 A function that is executed after an appointment is added to the data source.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
+##### param(e): Object
 Information about the event.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-#include common-ref-elementparam with { element: "widget" }
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The model data. Available only if Knockout is used.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->appointmentData<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
+
+##### field(e.appointmentData): Object
 The added appointment's data.
-<!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamName1_field5-->error<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->Error<!--/typeFunctionParamType1_field5-->
-<!--typeFunctionParamDescription1_field5-->
+
+##### field(e.component): {WidgetName}
+The widget's instance.
+
+##### field(e.element): dxElement
+#include common-ref-elementparam with { element: "widget" }
+
+##### field(e.error): Error
 The standard <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error" target="_blank">Error</a> object that defines the occurred error.
-<!--/typeFunctionParamDescription1_field5-->
+
+##### field(e.model): Object
+The model data. Available only if Knockout is used.
+
+---

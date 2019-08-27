@@ -1,6 +1,5 @@
-<!--id-->dxSliderBase.Options.name<!--/id-->
-===========================================================================
-<!--hidden-->false<!--/hidden-->
-<!--type-->String<!--/type-->
-===========================================================================
-
+---
+id: dxSliderBase.Options.name
+type: String
+hidden: false
+---

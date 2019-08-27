@@ -1,15 +1,14 @@
-<!--id-->dxDrawer.Options.position<!--/id-->
-===========================================================================
-<!--default-->'left'<!--/default-->
-<!--acceptValues-->'left' | 'right' | 'top' | 'bottom' | 'before' | 'after'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDrawer.Options.position
+acceptValues: 'left' | 'right' | 'top' | 'bottom' | 'before' | 'after'
+type: String
+default: 'left'
+---
+---
+##### shortDescription
 Specifies the drawer's position in relation to the view.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Use *"before"* and *"after"* if the **Drawer** should be positioned differently in right-to-left and regular representations. The following table shows the dependency between the [rtlEnabled](/Documentation/ApiReference/Common/Object_Structures/globalConfig/#rtlEnabled) value and *"before"* and *"after"* positions:
 
 <div class="simple-table">
@@ -46,4 +45,3 @@ Use *"before"* and *"after"* if the **Drawer** should be positioned differently 
     enum: "`DrawerPosition`",
     values: "`Left`, `Right`, `Top`, `Bottom`, `Before`, and `After`"
 }
-<!--/fullDescription-->

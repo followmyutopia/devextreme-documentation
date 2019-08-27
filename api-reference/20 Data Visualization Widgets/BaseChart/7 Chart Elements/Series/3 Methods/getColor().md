@@ -1,16 +1,11 @@
-<!--id-->baseSeriesObject.getColor()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: baseSeriesObject.getColor()
+---
+---
+##### shortDescription
 Gets the color of a particular series.
-<!--/shortDescription-->
 
-<!--returnType-->String<!--/returnType-->
-<!--returnDescription-->
+##### return: String
 The color of a series.
-<!--/returnDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

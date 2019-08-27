@@ -1,6 +1,4 @@
-<!--id-->dxScheduler.registerKeyHandler(key, handler)<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
-
-
+---
+id: dxScheduler.registerKeyHandler(key, handler)
+hidden: 
+---

@@ -1,14 +1,12 @@
-<!--id-->dxFilterBuilder.Options.defaultGroupOperation<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--default-->'and'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFilterBuilder.Options.defaultGroupOperation
+type: String
+default: 'and'
+hidden: 
+---
+---
+##### shortDescription
 Specifies the default group operation.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The following operations are available: *"and"*, *"notAnd"*, *"or"* and *"notOr"*.
-<!--/fullDescription-->

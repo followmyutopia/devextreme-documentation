@@ -1,13 +1,10 @@
-<!--id-->dxPieChartSeriesTypes.CommonPieChartSeries.label.radialOffset<!--/id-->
-===========================================================================
-<!--default-->0<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPieChartSeriesTypes.CommonPieChartSeries.label.radialOffset
+type: Number
+default: 0
+---
+---
+##### shortDescription
 Specifies how to shift labels from their initial position in a radial direction in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

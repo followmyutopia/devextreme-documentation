@@ -1,12 +1,10 @@
-<!--id-->dxDateBox.close()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxDateBox.close()
+---
+---
+##### shortDescription
 Closes the drop-down editor.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

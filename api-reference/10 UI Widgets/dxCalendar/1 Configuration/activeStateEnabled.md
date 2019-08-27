@@ -1,6 +1,5 @@
-<!--id-->dxCalendar.Options.activeStateEnabled<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxCalendar.Options.activeStateEnabled
+type: Boolean
+default: true
+---

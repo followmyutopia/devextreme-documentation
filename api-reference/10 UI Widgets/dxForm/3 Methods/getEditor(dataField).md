@@ -1,23 +1,17 @@
-<!--id-->dxForm.getEditor(dataField)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxForm.getEditor(dataField)
+---
+---
+##### shortDescription
 Gets an editor instance. Takes effect only if the form item is visible.
-<!--/shortDescription-->
 
-<!--paramName1-->dataField<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
-<!--paramDescription1-->
-The item's [name](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#name) or [dataField](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#dataField).
-<!--/paramDescription1-->
-
-<!--returnType-->Editor|undefined<!--/returnType-->
-<!--returnDescription-->
+##### return: Editor | undefined
 The editor instance.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(dataField): String
+The item's [name](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#name) or [dataField](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#dataField).
+
+---
 The following code shows how to get an editor of an item in a group:
 
     <!--JavaScript-->
@@ -47,4 +41,3 @@ The following code shows how to get an editor of an item in a group:
 #####See Also#####
 #include common-link-callmethods
 - [Change Options at Runtime - Editor Options](/Documentation/Guide/Widgets/Form/Change_Options_at_Runtime/Editor_Options/)
-<!--/fullDescription-->

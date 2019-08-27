@@ -1,14 +1,12 @@
-<!--id-->dxFilterBuilder.Options.allowHierarchicalFields<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
+---
+id: dxFilterBuilder.Options.allowHierarchicalFields
+type: Boolean
+default: false
+---
+---
+##### shortDescription
+Specifies whether the widget can display hierarchical data fields.
 
-<!--shortDescription-->
-Specifies whether the widget can display hierarchical data fields. 
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #####See Also#####
 - [Filter Hierarchical Fields](/Documentation/Guide/Widgets/FilterBuilder/Filter_Hierarchical_Fields/)
-<!--/fullDescription-->

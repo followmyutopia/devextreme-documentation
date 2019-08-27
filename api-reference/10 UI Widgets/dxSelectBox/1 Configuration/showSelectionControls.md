@@ -1,13 +1,10 @@
-<!--id-->dxSelectBox.Options.showSelectionControls<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSelectBox.Options.showSelectionControls
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether or not to display selection controls.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

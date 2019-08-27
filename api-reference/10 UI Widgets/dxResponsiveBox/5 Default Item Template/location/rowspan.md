@@ -1,14 +1,12 @@
-<!--id-->dxResponsiveBoxItem.location.rowspan<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxResponsiveBoxItem.location.rowspan
+type: Number
+default: undefined
+---
+---
+##### shortDescription
 Specifies how many rows the element should span.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 - [Arrange Layout Elements](/Documentation/Guide/Widgets/ResponsiveBox/Arrange_Layout_Elements/)
-<!--/fullDescription-->

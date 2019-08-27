@@ -1,13 +1,10 @@
-<!--id-->dxLinearGauge.Options.rangeContainer.width.end<!--/id-->
-===========================================================================
-<!--default-->5<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxLinearGauge.Options.rangeContainer.width.end
+type: Number
+default: 5
+---
+---
+##### shortDescription
 Specifies an end width of a range container.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

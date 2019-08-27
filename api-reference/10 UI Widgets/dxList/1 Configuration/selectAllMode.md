@@ -1,15 +1,14 @@
-<!--id-->dxList.Options.selectAllMode<!--/id-->
-===========================================================================
-<!--default-->'page'<!--/default-->
-<!--acceptValues-->'allPages' | 'page'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxList.Options.selectAllMode
+acceptValues: 'allPages' | 'page'
+type: String
+default: 'page'
+---
+---
+##### shortDescription
 Specifies the mode in which all items are selected.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The **selectAllMode** specifies how records should be selected on clicking the "Select All" check box. The following modes are available: 
 
 - *"page"*  
@@ -26,4 +25,3 @@ The **selectAllMode** specifies how records should be selected on clicking the "
 
 #####See Also#####
 - [List - Selection - User Interaction](/Documentation/Guide/Widgets/List/Selection/#User_Interaction)
-<!--/fullDescription-->

@@ -1,14 +1,12 @@
-<!--id-->dxList.Options.scrollingEnabled<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxList.Options.scrollingEnabled
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 A Boolean value specifying whether to enable or disable list scrolling.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 - [List - Scrolling - User Interaction](/Documentation/Guide/Widgets/List/Scrolling/#User_Interaction)
-<!--/fullDescription-->

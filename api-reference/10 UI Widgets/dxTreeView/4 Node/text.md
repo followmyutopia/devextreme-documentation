@@ -1,13 +1,11 @@
-<!--id-->dxTreeViewNode.text<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeViewNode.text
+type: String
+---
+---
+##### shortDescription
 Contains the text displayed by the node.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 - [displayExpr](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#displayExpr)
-<!--/fullDescription-->

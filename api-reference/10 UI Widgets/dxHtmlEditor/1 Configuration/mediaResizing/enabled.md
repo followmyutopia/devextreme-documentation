@@ -1,13 +1,10 @@
-<!--id-->dxHtmlEditorMediaResizing.enabled<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxHtmlEditorMediaResizing.enabled
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Enables media resizing.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

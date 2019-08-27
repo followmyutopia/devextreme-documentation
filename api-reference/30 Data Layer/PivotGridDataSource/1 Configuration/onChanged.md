@@ -1,14 +1,13 @@
-<!--id-->PivotGridDataSource.Options.onChanged<!--/id-->
-<!--EventForAction-->PivotGridDataSource.changed<!--/EventForAction-->
-===========================================================================
-<!--type-->function()<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.Options.onChanged
+type: function()
+EventForAction: PivotGridDataSource.changed
+---
+---
+##### shortDescription
 A function that is executed after data is successfully loaded.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -57,4 +56,3 @@ A function that is executed after data is successfully loaded.
     </dx-pivot-grid>
 
 ---
-<!--/fullDescription-->

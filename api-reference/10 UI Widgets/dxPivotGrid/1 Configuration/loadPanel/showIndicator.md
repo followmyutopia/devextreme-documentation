@@ -1,13 +1,10 @@
-<!--id-->dxPivotGrid.Options.loadPanel.showIndicator<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGrid.Options.loadPanel.showIndicator
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether or not to show a load indicator.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

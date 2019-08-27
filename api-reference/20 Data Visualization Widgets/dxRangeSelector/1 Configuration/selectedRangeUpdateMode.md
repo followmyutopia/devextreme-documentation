@@ -1,15 +1,14 @@
-<!--id-->dxRangeSelector.Options.selectedRangeUpdateMode<!--/id-->
-===========================================================================
-<!--default-->'reset'<!--/default-->
-<!--acceptValues-->'auto' | 'keep' | 'reset' | 'shift'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.selectedRangeUpdateMode
+acceptValues: 'auto' | 'keep' | 'reset' | 'shift'
+type: String
+default: 'reset'
+---
+---
+##### shortDescription
 Specifies how the selected range should behave when data is updated. Applies only when the **RangeSelector** is [bound to a data source](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#dataSource).
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The following modes are available:
 
 - *"shift"*     
@@ -29,4 +28,3 @@ The applied mode changes depending on the selected range's position on the scale
 
 #####See Also#####
 - [value](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#value)
-<!--/fullDescription-->

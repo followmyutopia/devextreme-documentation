@@ -1,22 +1,15 @@
-<!--id-->dxPivotGridSummaryCell.prev(direction)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGridSummaryCell.prev(direction)
+---
+---
+##### shortDescription
 Gets the cell prior to the current one in a specified direction.
-<!--/shortDescription-->
 
-<!--paramName1-->direction<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
-<!--paramDescription1-->
-The direction in which to search for the previous cell. Can be "row" or "column".
-<!--/paramDescription1-->
-
-<!--returnType-->dxPivotGridSummaryCell<!--/returnType-->
-<!--returnDescription-->
+##### return: dxPivotGridSummaryCell
 The cell before the current one.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(direction): String
+The direction in which to search for the previous cell. Can be "row" or "column".
+
+---
 This method is opposite of the [next(direction)](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Summary_Cell/#nextdirection) method.
-<!--/fullDescription-->

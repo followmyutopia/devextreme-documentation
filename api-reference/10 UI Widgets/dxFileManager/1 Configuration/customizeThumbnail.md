@@ -1,13 +1,18 @@
-<!--id-->dxFileManager.Options.customizeThumbnail<!--/id-->
-===========================================================================
-<!--type-->function(fileItem)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFileManager.Options.customizeThumbnail
+type: function(fileItem)
+---
+---
+##### shortDescription
 Allows you to provide custom icons to be used as thumbnails.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(fileItem): Object
+File or folder parameters.
+
+##### return: String
+An icon to use as a thumbnail.
+
+---
 This function should return one of the following:
 
 - The icon's URL
@@ -18,14 +23,3 @@ This function should return one of the following:
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/FileManager/CustomThumbnails/jQuery/Light/"
 }
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->fileItem<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-File or folder parameters.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-An icon to use as a thumbnail.
-<!--/typeFunctionReturnDescription-->

@@ -1,13 +1,11 @@
-<!--id-->dxChartCommonAnnotationConfig.color<!--/id-->
-===========================================================================
-<!--default-->'#ffffff'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartCommonAnnotationConfig.color
+type: String
+default: '#ffffff'
+---
+---
+##### shortDescription
 Specifies the color that fills the annotation.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

@@ -1,14 +1,12 @@
-<!--id-->dxPieChartSeriesTypes.CommonPieChartSeries.label.border.dashStyle<!--/id-->
-===========================================================================
-<!--default-->'solid'<!--/default-->
-<!--acceptValues-->'dash' | 'dot' | 'longDash' | 'solid'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPieChartSeriesTypes.CommonPieChartSeries.label.border.dashStyle
+acceptValues: 'dash' | 'dot' | 'longDash' | 'solid'
+type: String
+default: 'solid'
+---
+---
+##### shortDescription
 Specifies a dash style for the borders of point labels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include dataviz-ref-dashstyle
-<!--/fullDescription-->

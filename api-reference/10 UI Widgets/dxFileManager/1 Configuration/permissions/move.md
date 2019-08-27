@@ -1,13 +1,10 @@
-<!--id-->dxFileManager.Options.permissions.move<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFileManager.Options.permissions.move
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether a user is allowed to move files and folders.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

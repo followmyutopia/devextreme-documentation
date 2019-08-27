@@ -1,13 +1,9 @@
-<!--id-->dxDiagram.Options.simpleView<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.simpleView
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

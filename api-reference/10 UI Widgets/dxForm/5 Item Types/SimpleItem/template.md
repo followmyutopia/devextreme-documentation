@@ -1,58 +1,39 @@
-<!--id-->dxFormSimpleItem.template<!--/id-->
-===========================================================================
-<!--type-->template<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFormSimpleItem.template
+type: template
+---
+---
+##### shortDescription
 A template to be used for rendering the form item.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(data): Object
+The item's data.
+
+##### field(data.component): dxForm
+The **Form** instance.
+
+##### field(data.dataField): String
+The item's [dataField](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#dataField).
+
+##### field(data.editorOptions): Object
+The item editor's [configuration](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#editorOptions).
+
+##### field(data.editorType): String
+The editor's [type](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#editorType).
+
+##### field(data.name): String
+The item's [name](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#name).
+
+##### param(itemElement): dxElement
+#include common-ref-elementparam with { element: "item" }
+
+##### return: String | Node | jQuery
+A template name or container.
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Common/FormsAndMultiPurposeOverview/jQuery/Light/"
 }
 
 #####See Also#####
 - [Customize a Simple Item](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/#Customize_a_Simple_Item)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->data<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The item's data.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->dxForm<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The **Form** instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->dataField<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->String<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-The item's [dataField](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#dataField).
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->editorOptions<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The item editor's [configuration](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#editorOptions).
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->editorType<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->String<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-The editor's [type](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#editorType).
-<!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamName1_field5-->name<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->String<!--/typeFunctionParamType1_field5-->
-<!--typeFunctionParamDescription1_field5-->
-The item's [name](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#name).
-<!--/typeFunctionParamDescription1_field5-->
-
-<!--typeFunctionParamName2-->itemElement<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-#include common-ref-elementparam with { element: "item" }
-<!--/typeFunctionParamDescription2-->
-
-<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A template name or container.
-<!--/typeFunctionReturnDescription-->

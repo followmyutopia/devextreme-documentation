@@ -1,6 +1,5 @@
-<!--id-->dxActionSheet.Options.onSelectionChanged<!--/id-->
-<!--EventForAction-->dxActionSheet.selectionChanged<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxActionSheet.Options.onSelectionChanged
+hidden: 
+EventForAction: dxActionSheet.selectionChanged
+---

@@ -1,13 +1,18 @@
-<!--id-->dxTreeView.Options.createChildren<!--/id-->
-===========================================================================
-<!--type-->function(parentNode)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeView.Options.createChildren
+type: function(parentNode)
+---
+---
+##### shortDescription
 Allows you to load nodes on demand.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(parentNode): dxTreeViewNode
+The node that has been expanded; **null** for the root node.
+
+##### return: Promise<any> | Array<Object>
+A Promise that is resolved with the result from the server or an array of objects to be converted to child nodes.
+
+---
 **createChildren** is called at the beginning of the widget's lifetime and each time a user expands a node whose child nodes have not been loaded yet. It allows you to load the entire tree in portions: load root nodes first (when the function's **parentNode** parameter is **null**) and the child nodes of each expanded node later.
 
 This function has the following restrictions:
@@ -85,14 +90,3 @@ The following code shows how to use this function with a remote service:
 #####See Also#####
 - [Enhance Performance on Large Datasets](/Documentation/Guide/Widgets/TreeView/Enhance_Performance_on_Large_Datasets/)
 - [TreeView - Use Plain Data](/Documentation/Guide/Widgets/TreeView/Use_Plain_Data/)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->parentNode<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->dxTreeViewNode<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The node that has been expanded; **null** for the root node.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->Promise<any>|Array<Object><!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A Promise that is resolved with the result from the server or an array of objects to be converted to child nodes.
-<!--/typeFunctionReturnDescription-->

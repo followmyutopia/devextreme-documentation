@@ -1,17 +1,13 @@
-<!--id-->dxScheduler.getStartViewDate()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler.getStartViewDate()
+---
+---
+##### shortDescription
 Gets the current view's start date.
-<!--/shortDescription-->
 
-<!--returnType-->Date<!--/returnType-->
-<!--returnDescription-->
+##### return: Date
 The view's start date.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

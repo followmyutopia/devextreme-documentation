@@ -1,18 +1,10 @@
-<!--id-->DataSource.ctor(data)<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
+---
+id: DataSource.ctor(data)
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### param(data): Array<any>
 
-<!--/shortDescription-->
-
-<!--paramName1-->data<!--/paramName1-->
-<!--paramType1-->Array<any><!--/paramType1-->
-<!--paramDescription1-->
-
-<!--/paramDescription1-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

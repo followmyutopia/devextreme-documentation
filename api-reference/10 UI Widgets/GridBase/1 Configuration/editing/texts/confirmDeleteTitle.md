@@ -1,14 +1,12 @@
-<!--id-->GridBase.Options.editing.texts.confirmDeleteTitle<!--/id-->
-===========================================================================
-<!--default-->''<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.editing.texts.confirmDeleteTitle
+type: String
+default: ''
+---
+---
+##### shortDescription
 Specifies a title for the window that asks a user to confirm deletion.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 - **editing**.**texts**.[confirmDeleteMessage]({basewidgetpath}/Configuration/editing/texts/#confirmDeleteMessage)
-<!--/fullDescription-->

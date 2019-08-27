@@ -1,14 +1,14 @@
-<!--id-->CommonIndicator.spindleGapSize<!--/id-->
-===========================================================================
-<!--propertyOf-->circularTwoColorNeedle,circularRectangleNeedle,circularTriangleNeedle<!--/propertyOf-->
-<!--default-->10<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: CommonIndicator.spindleGapSize
+type: Number
+default: 10
+---
+---
+##### shortDescription
 Specifies the inner diameter in pixels, so that the spindle has the shape of a ring.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### propertyOf
+circularTwoColorNeedle,circularRectangleNeedle,circularTriangleNeedle
+
+---
 Set this property to 0 so that the spindle has the shape of a circle.
-<!--/fullDescription-->

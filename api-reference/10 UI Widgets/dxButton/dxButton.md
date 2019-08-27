@@ -1,22 +1,21 @@
-<!--id-->dxButton<!--/id-->
-<!--widgettree-->
+---
+id: dxButton
+module: ui/button
+export: default
+inherits: Widget
+---
+---
+##### shortDescription
+The **Button** widget is a simple button that performs specified commands when a user clicks it.
+
+##### widgettree
 icon: "favorites",
 text: "Click"
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/button<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->Widget<!--/inherits-->
-<!--lib-->
+
+##### lib
 dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
 
-<!--shortDescription-->
-The **Button** widget is a simple button that performs specified commands when a user clicks it.
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/actionsandlistsbuttonbuttonbutton/"
 }
@@ -27,4 +26,3 @@ The **Button** widget is a simple button that performs specified commands when a
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

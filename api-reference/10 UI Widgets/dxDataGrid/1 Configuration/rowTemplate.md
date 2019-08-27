@@ -1,13 +1,18 @@
-<!--id-->dxDataGrid.Options.rowTemplate<!--/id-->
-===========================================================================
-<!--type-->template<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.Options.rowTemplate
+type: template
+---
+---
+##### shortDescription
 Specifies a custom template for rows.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(rowElement): dxElement
+#include common-ref-elementparam with { element: "row" }
+
+##### param(rowInfo): Object
+The [Row](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/) object extended by the **DataGrid**'s instance (the **component** field) and the column configuration (**columns**).
+
+---
 [note]
 
 Disable [column reordering](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#allowColumnReordering), [grouping](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowGrouping), and [column fixing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnFixing/) when you specify the row template. Its content cannot automatically synchronize with the column layout, which makes these features inoperative.
@@ -179,15 +184,3 @@ You can also use a 3rd-party template engine to customize row appearance. See th
 #####See Also#####
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 - [onRowPrepared](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onRowPrepared)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->rowElement<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->dxElement<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-#include common-ref-elementparam with { element: "row" }
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionParamName2-->rowInfo<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->Object<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-The [Row](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/) object extended by the **DataGrid**'s instance (the **component** field) and the column configuration (**columns**).
-<!--/typeFunctionParamDescription2-->

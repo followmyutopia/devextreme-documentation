@@ -1,23 +1,14 @@
-<!--id-->MapLayerElement.attribute(name, value)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: MapLayerElement.attribute(name, value)
+---
+---
+##### shortDescription
 Sets the value of an attribute.
-<!--/shortDescription-->
 
-<!--paramName1-->name<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
-<!--paramDescription1-->
+##### param(name): String
 The name of an attribute.
-<!--/paramDescription1-->
 
-<!--paramName2-->value<!--/paramName2-->
-<!--paramType2-->any<!--/paramType2-->
-<!--paramDescription2-->
+##### param(value): any
 The new attribute value.
-<!--/paramDescription2-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,13 +1,11 @@
-<!--id-->dxPolarChart.Options.commonAxisSettings.constantLineStyle.color<!--/id-->
-===========================================================================
-<!--default-->'#000000'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChart.Options.commonAxisSettings.constantLineStyle.color
+type: String
+default: '#000000'
+---
+---
+##### shortDescription
 Specifies a color for a constant line.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

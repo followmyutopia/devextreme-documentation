@@ -1,17 +1,13 @@
-<!--id-->dxScrollable.scrollHeight()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxScrollable.scrollHeight()
+---
+---
+##### shortDescription
 Gets the scrollable content's height in pixels.
-<!--/shortDescription-->
 
-<!--returnType-->Number<!--/returnType-->
-<!--returnDescription-->
+##### return: Number
 The content's height in pixels.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

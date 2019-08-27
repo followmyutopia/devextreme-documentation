@@ -1,13 +1,10 @@
-<!--id-->positionConfig.at.y<!--/id-->
-===========================================================================
-<!--acceptValues-->'bottom' | 'center' | 'top'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: positionConfig.at.y
+acceptValues: 'bottom' | 'center' | 'top'
+type: String
+---
+---
+##### shortDescription
 Holds the vertical position specifier.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

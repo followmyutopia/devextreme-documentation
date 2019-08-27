@@ -1,5 +1,4 @@
-<!--id-->dxLoadPanel.Options.maxHeight<!--/id-->
-===========================================================================
-<!--default-->60 (Material)<!--/default-->
-===========================================================================
-
+---
+id: dxLoadPanel.Options.maxHeight
+default: 60 (Material)
+---

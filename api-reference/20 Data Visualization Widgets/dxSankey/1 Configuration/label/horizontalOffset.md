@@ -1,13 +1,11 @@
-<!--id-->dxSankey.Options.label.horizontalOffset<!--/id-->
-===========================================================================
-<!--default-->5<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSankey.Options.label.horizontalOffset
+type: Number
+default: 5
+---
+---
+##### shortDescription
 Moves the labels horizontally from their initial positions.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The number assigned to this option specifies the shift in pixels. A negative number shifts the labels to the left, a positive number - to the right.
-<!--/fullDescription-->

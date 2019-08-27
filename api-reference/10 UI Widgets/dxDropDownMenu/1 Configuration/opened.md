@@ -1,13 +1,10 @@
-<!--id-->dxDropDownMenu.Options.opened<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDropDownMenu.Options.opened
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether or not the drop-down menu is displayed.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

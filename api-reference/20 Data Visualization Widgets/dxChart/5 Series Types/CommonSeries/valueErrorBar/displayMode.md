@@ -1,15 +1,14 @@
-<!--id-->dxChartSeriesTypes.CommonSeries.valueErrorBar.displayMode<!--/id-->
-===========================================================================
-<!--default-->'auto'<!--/default-->
-<!--acceptValues-->'auto' | 'high' | 'low' | 'none'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.CommonSeries.valueErrorBar.displayMode
+acceptValues: 'auto' | 'high' | 'low' | 'none'
+type: String
+default: 'auto'
+---
+---
+##### shortDescription
 Specifies whether error bars must be displayed in full or partially.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This option accepts the following values.
 
 <div class="simple-table">
@@ -45,4 +44,3 @@ This option accepts the following values.
     enum: "`ValueErrorBarDisplayMode`",
     values: "`Auto`, `Low`, `High`, and `None`"
 }
-<!--/fullDescription-->

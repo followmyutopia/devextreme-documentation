@@ -1,13 +1,12 @@
-<!--id-->dxVectorMap.Options.controlBar<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxVectorMap.Options.controlBar
+type: Object
+---
+---
+##### shortDescription
 Configures the control bar.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Users can use the pan control and zoom bar in the control bar panel to navigate the map.
 
 ![DevExtreme Vector Map - Control Bar](/Content/images/doc/19_2/ChartJS/ControlBar.png)
@@ -104,4 +103,3 @@ The following code shows how to use the **controlBar** object to move the contro
     )
 
 ---
-<!--/fullDescription-->

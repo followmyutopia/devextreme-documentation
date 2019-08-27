@@ -1,16 +1,39 @@
-<!--id-->CollectionWidget.Options.onItemDeleting<!--/id-->
-<!--EventForAction-->CollectionWidget.itemDeleting<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--default-->null<!--/default-->
-<!--type-->function(e)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: CollectionWidget.Options.onItemDeleting
+type: function(e)
+default: null
+hidden: 
+EventForAction: CollectionWidget.itemDeleting
+---
+---
+##### shortDescription
 A function that is executed before a collection item is deleted from the data source.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(e): Object
+Information about the event.
+
+##### field(e.cancel): Boolean | Promise<void>
+Allows you to cancel the item deletion.
+
+##### field(e.component): {WidgetName}
+The widget's instance.
+
+##### field(e.element): dxElement
+#include common-ref-elementparam with { element: "widget" }
+
+##### field(e.itemData): Object
+The data of the item to be removed.
+
+##### field(e.itemElement): dxElement
+#include common-ref-elementparam with { element: "item" }
+
+##### field(e.itemIndex): Number | Object
+The item's index.
+
+##### field(e.model): Object
+The model data. Available only if you use Knockout.
+
+---
 You can cancel item deletion by setting the handler parameter's **cancel** field to **true**. This field also accepts a Promise (<a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery</a> or <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native</a>), which enables you to perform an asynchronous action before an item is deleted.
 
     <!--JavaScript-->
@@ -27,45 +50,3 @@ You can cancel item deletion by setting the handler parameter's **cancel** field
     }
 
 Note that the **onItemDeleted** and **onItemDeleting** handlers are not executed if an item is deleted from the data source without using the widget's UI or API.
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the event.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-#include common-ref-elementparam with { element: "widget" }
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The model data. Available only if you use Knockout.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->itemData<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-The data of the item to be removed.
-<!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamName1_field5-->itemElement<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->dxElement<!--/typeFunctionParamType1_field5-->
-<!--typeFunctionParamDescription1_field5-->
-#include common-ref-elementparam with { element: "item" }
-<!--/typeFunctionParamDescription1_field5-->
-<!--typeFunctionParamName1_field6-->itemIndex<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->Number | Object<!--/typeFunctionParamType1_field6-->
-<!--typeFunctionParamDescription1_field6-->
-The item's index.
-<!--/typeFunctionParamDescription1_field6-->
-<!--typeFunctionParamName1_field7-->cancel<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->Boolean | Promise<void><!--/typeFunctionParamType1_field7-->
-<!--typeFunctionParamDescription1_field7-->
-Allows you to cancel the item deletion.
-<!--/typeFunctionParamDescription1_field7-->

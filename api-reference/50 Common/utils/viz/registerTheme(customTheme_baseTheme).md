@@ -1,25 +1,17 @@
-<!--id-->viz.registerTheme(customTheme, baseTheme)<!--/id-->
-===================================================================
-<!--module-->viz/themes<!--/module-->
-<!--export-->registerTheme<!--/export-->
-===================================================================
-
-<!--shortDescription-->
+---
+id: viz.registerTheme(customTheme, baseTheme)
+module: viz/themes
+export: registerTheme
+---
+---
+##### shortDescription
 Registers a new theme based on the existing one.
-<!--/shortDescription-->
 
-<!--paramName1-->customTheme<!--/paramName1-->
-<!--paramType1-->Object<!--/paramType1-->
-<!--paramDescription1-->
+##### param(customTheme): Object
 The theme's settings.
-<!--/paramDescription1-->
 
-<!--paramName2-->baseTheme<!--/paramName2-->
-<!--paramType2-->String<!--/paramType2-->
-<!--paramDescription2-->
+##### param(baseTheme): String
 The base theme's name.
-<!--/paramDescription2-->
 
-<!--fullDescription-->
+---
 For details on how to customize a theme, refer to the [Themes](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Themes) article.
-<!--/fullDescription-->

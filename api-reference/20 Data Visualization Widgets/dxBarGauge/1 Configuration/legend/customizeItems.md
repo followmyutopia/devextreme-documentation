@@ -1,22 +1,16 @@
-<!--id-->dxBarGauge.Options.legend.customizeItems<!--/id-->
-===========================================================================
-<!--type-->function(items)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxBarGauge.Options.legend.customizeItems
+type: function(items)
+---
+---
+##### shortDescription
 Allows you to change the order, text, and visibility of legend items.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-#include dataviz-legend-customizeitems-example
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->items<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Array<BarGaugeLegendItem><!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
+##### param(items): Array<BarGaugeLegendItem>
 Legend items before customizations.
-<!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->Array<BarGaugeLegendItem><!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
+##### return: Array<BarGaugeLegendItem>
 Legend items after customizations.
-<!--/typeFunctionReturnDescription-->
+
+---
+#include dataviz-legend-customizeitems-example

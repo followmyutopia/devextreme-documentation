@@ -1,13 +1,10 @@
-<!--id-->dxFormSimpleItem.label.text<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFormSimpleItem.label.text
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies the label text.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

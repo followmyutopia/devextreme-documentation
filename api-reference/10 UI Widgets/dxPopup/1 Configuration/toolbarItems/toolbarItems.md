@@ -1,13 +1,12 @@
-<!--id-->dxPopup.Options.toolbarItems<!--/id-->
-===========================================================================
-<!--type-->Array<Object><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPopup.Options.toolbarItems
+type: Array<Object>
+---
+---
+##### shortDescription
 Configures toolbar items.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 In the following code, two items are defined on the toolbar: one is plain text, another is the [Button](/Documentation/ApiReference/UI_Widgets/dxButton/) widget:
 
 ---
@@ -187,4 +186,3 @@ In the following code, two items are defined on the toolbar: one is plain text, 
     export default App;
 
 ---
-<!--/fullDescription-->

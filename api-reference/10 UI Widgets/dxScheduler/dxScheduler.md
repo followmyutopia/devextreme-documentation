@@ -1,21 +1,20 @@
-<!--id-->dxScheduler<!--/id-->
-<!--widgettree-->
-dataSource: []
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/scheduler<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->Widget,DataHelperMixin<!--/inherits-->
-<!--lib-->
-dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler
+module: ui/scheduler
+export: default
+inherits: Widget,DataHelperMixin
+---
+---
+##### shortDescription
 The **Scheduler** is a widget that represents scheduled data and allows a user to manage and edit it.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### widgettree
+dataSource: []
+
+##### lib
+dx.web.js, dx.viz-web.js, dx.all.js
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/"
 }
@@ -26,4 +25,3 @@ The **Scheduler** is a widget that represents scheduled data and allows a user t
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

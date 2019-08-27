@@ -1,39 +1,27 @@
-<!--id-->dxFilterBuilderCustomOperation.customizeText<!--/id-->
-===========================================================================
-<!--type-->function(fieldInfo)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFilterBuilderCustomOperation.customizeText
+type: function(fieldInfo)
+---
+---
+##### shortDescription
 Customizes the field value's text representation.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(fieldInfo): Object
+Information about a **FilterBuilder** field.
+
+##### field(fieldInfo.field): dxFilterBuilderField
+The field's configuration.
+
+##### field(fieldInfo.value): String | Number | Date
+The field's unformatted value (specified using the editor).
+
+##### field(fieldInfo.valueText): String
+The value with the [format](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#format) applied.
+
+##### return: String
+The text to be displayed.
+
+---
 #include uiwidgets-ref-functioncontext with { 
     value: "custom operation's configuration"
 }
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->fieldInfo<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about a **FilterBuilder** field.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->String | Number | Date<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The field's unformatted value (specified using the editor).
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->String<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-The value with the [format](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#format) applied.
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->field<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->dxFilterBuilderField<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The field's configuration.
-<!--/typeFunctionParamDescription1_field3-->
-
-<!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-The text to be displayed.
-<!--/typeFunctionReturnDescription-->

@@ -1,14 +1,13 @@
-<!--id-->dxResponsiveBox.Options.cols.screen<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxResponsiveBox.Options.cols.screen
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Decides on which screens the current column is rendered.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Before rendering the column, the widget considers the screen's width. If the width matches the specified size qualifier, the column will be rendered. There are four size qualifiers in all. The **screen** option accepts one or several of them separated by a space.
 
 <div class="simple-table">
@@ -45,4 +44,3 @@ Before rendering the column, the widget considers the screen's width. If the wid
 #####See Also#####
 - [ResponsiveBox - Create the Layout Grid](/Documentation/Guide/Widgets/ResponsiveBox/Create_the_Layout_Grid/)
 - [screenByWidth](/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/#screenByWidth)
-<!--/fullDescription-->

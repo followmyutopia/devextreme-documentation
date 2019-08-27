@@ -1,4 +1,8 @@
-<!--id-->BaseWidget.Options.title.subtitle.font.size<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->16<!--/default-->
-===========================================================================
+---
+id: BaseWidget.Options.title.subtitle.font.size
+default: 16
+---
+---
+##### merge
+
+---

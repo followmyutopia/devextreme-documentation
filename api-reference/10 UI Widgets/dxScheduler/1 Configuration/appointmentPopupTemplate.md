@@ -1,15 +1,23 @@
-<!--id-->dxScheduler.Options.appointmentPopupTemplate<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--default-->'appointmentPopup'<!--/default-->
-<!--type-->template<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler.Options.appointmentPopupTemplate
+type: template
+default: 'appointmentPopup'
+hidden: 
+---
+---
+##### shortDescription
 The template to be used for rendering an appointment details popup.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(appointmentData): Object
+The data of the appointment whose popup is rendered.
+
+##### param(contentElement): dxElement
+#include common-ref-elementparam with { element: "appointment" }
+
+##### return: String | Node | jQuery
+A template name or container.
+
+---
 A binding context of an appointment popup template is the data source object that corresponds to the currently rendered appointment.
 
 So, in **Knockout approach**, you can bind template elements to the appointment object fields directly. To access another binding context within an appointment popup template, use <a href="http://knockoutjs.com/documentation/binding-context.html" target="_blank">Knockout</a> binding variables.
@@ -38,20 +46,3 @@ In **AngularJS approach**, if you need to access appointment object's fields wit
 
 #####See Also#####
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->appointmentData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The data of the appointment whose popup is rendered.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionParamName2-->contentElement<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-#include common-ref-elementparam with { element: "appointment" }
-<!--/typeFunctionParamDescription2-->
-
-<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A template name or container.
-<!--/typeFunctionReturnDescription-->

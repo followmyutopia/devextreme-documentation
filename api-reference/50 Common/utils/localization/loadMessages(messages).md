@@ -1,21 +1,16 @@
-<!--id-->localization.loadMessages(messages)<!--/id-->
-===================================================================
-<!--module-->localization<!--/module-->
-<!--export-->loadMessages<!--/export-->
-===================================================================
-
-<!--shortDescription-->
+---
+id: localization.loadMessages(messages)
+module: localization
+export: loadMessages
+---
+---
+##### shortDescription
 Loads localized messages.
-<!--/shortDescription-->
 
-<!--paramName1-->messages<!--/paramName1-->
-<!--paramType1-->Object<!--/paramType1-->
-<!--paramDescription1-->
+##### param(messages): Object
 The messages to be loaded.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
-
+---
 ---
 ##### jQuery
 
@@ -58,4 +53,3 @@ The messages to be loaded.
 ---
 
 [note]It is necessary to reload the page each time you load new messages.
-<!--/fullDescription-->

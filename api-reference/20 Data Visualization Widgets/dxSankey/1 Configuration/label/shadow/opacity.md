@@ -1,13 +1,11 @@
-<!--id-->dxSankey.Options.label.shadow.opacity<!--/id-->
-===========================================================================
-<!--default-->0<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSankey.Options.label.shadow.opacity
+type: Number
+default: 0
+---
+---
+##### shortDescription
 Specifies the shadows' transparency.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This option accepts a value from 0 to 1: 0 makes the shadows transparent; 1 makes them opaque.
-<!--/fullDescription-->

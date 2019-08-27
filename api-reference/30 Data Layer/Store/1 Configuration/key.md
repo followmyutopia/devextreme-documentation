@@ -1,13 +1,12 @@
-<!--id-->Store.Options.key<!--/id-->
-===========================================================================
-<!--type-->String | Array<String><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Store.Options.key
+type: String | Array<String>
+---
+---
+##### shortDescription
 Specifies the key property (or properties) used to access data items.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 In the following example, the `ProductID` and `ProductCode` properties are specified as key properties:
 
 ---
@@ -35,4 +34,3 @@ In the following example, the `ProductID` and `ProductCode` properties are speci
     }
     
 ---
-<!--/fullDescription-->

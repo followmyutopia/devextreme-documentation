@@ -1,17 +1,15 @@
-<!--id-->dxPopup.Options.toolbarItems.location<!--/id-->
-===========================================================================
-<!--default-->'center'<!--/default-->
-<!--acceptValues-->'after' | 'before' | 'center'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPopup.Options.toolbarItems.location
+acceptValues: 'after' | 'before' | 'center'
+type: String
+default: 'center'
+---
+---
+##### shortDescription
 Specifies a location for the item on the toolbar.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-ref-enum with {
     enum: "`ToolbarItemLocation`",
     values: "`Before`, `After`, and `Center`"
 }
-<!--/fullDescription-->

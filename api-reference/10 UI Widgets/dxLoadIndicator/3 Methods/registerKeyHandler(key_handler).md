@@ -1,6 +1,4 @@
-<!--id-->dxLoadIndicator.registerKeyHandler(key, handler)<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
-
-
+---
+id: dxLoadIndicator.registerKeyHandler(key, handler)
+hidden: 
+---

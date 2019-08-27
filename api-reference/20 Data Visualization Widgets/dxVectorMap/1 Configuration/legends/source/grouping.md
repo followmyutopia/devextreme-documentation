@@ -1,14 +1,14 @@
-<!--id-->dxVectorMap.Options.legends.source.grouping<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxVectorMap.Options.legends.source.grouping
+type: String
+---
+---
+##### shortDescription
 Specifies the type of the legend grouping.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### notUsedInTheme
+
+---
 The **VectorMap**'s legend supports three grouping types.
 
 - **color**        
@@ -20,4 +20,3 @@ Available for markers of a bubble [type](/Documentation/ApiReference/Data_Visual
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/maps-vector_map-area_with_labels_and_two_legends"
 }
-<!--/fullDescription-->

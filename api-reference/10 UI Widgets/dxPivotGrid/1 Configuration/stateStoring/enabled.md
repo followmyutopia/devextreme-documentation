@@ -1,13 +1,10 @@
-<!--id-->dxPivotGrid.Options.stateStoring.enabled<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGrid.Options.stateStoring.enabled
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether or not a grid saves its state.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

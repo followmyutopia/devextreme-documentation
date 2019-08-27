@@ -1,13 +1,10 @@
-<!--id-->dxGallery.Options.wrapAround<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxGallery.Options.wrapAround
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether or not to display parts of previous and next images along the sides of the current image.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

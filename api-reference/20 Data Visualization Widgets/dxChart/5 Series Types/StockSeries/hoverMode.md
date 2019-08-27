@@ -1,15 +1,14 @@
-<!--id-->dxChartSeriesTypes.StockSeries.hoverMode<!--/id-->
-===========================================================================
-<!--default-->'onlyPoint'<!--/default-->
-<!--acceptValues-->'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'none'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.StockSeries.hoverMode
+acceptValues: 'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'none'
+type: String
+default: 'onlyPoint'
+---
+---
+##### shortDescription
 Specifies series elements to be highlighted when a user pauses on a series.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 When a user pauses on a series, it may react in one of the following ways depending on the value of the **hoverMode** option.
 
 * **onlyPoint**   
@@ -28,4 +27,3 @@ The series does not react to pointing to it.
 
 #####See Also#####
 - [hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/StockSeries/hoverStyle/) - specifies the appearance of series in the hover state.
-<!--/fullDescription-->

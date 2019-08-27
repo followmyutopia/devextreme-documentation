@@ -1,6 +1,5 @@
-<!--id-->dxChart.Options.argumentAxis.endOnTick<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxChart.Options.argumentAxis.endOnTick
+type: Boolean
+default: false
+---

@@ -1,15 +1,11 @@
-<!--id-->DataExpressionMixin<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--module-->ui/editor/ui.data_expression<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->DataHelperMixin<!--/inherits-->
-===========================================================================
+---
+id: DataExpressionMixin
+module: ui/editor/ui.data_expression
+export: default
+inherits: DataHelperMixin
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

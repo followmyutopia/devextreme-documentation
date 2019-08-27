@@ -1,13 +1,12 @@
-<!--id-->dxSankeyNode.linksOut<!--/id-->
-===========================================================================
-<!--type-->Array<Object><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSankeyNode.linksOut
+type: Array<Object>
+---
+---
+##### shortDescription
 The node's outgoing links.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Each object has the following structure: 
 
     {
@@ -15,4 +14,3 @@ Each object has the following structure:
         weight: Number, // The link's weight
         node: String // The title of the link's target node
     }
-<!--/fullDescription-->

@@ -1,12 +1,9 @@
-<!--id-->CommonIndicator.color<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: CommonIndicator.color
+type: String
+---
+---
+##### shortDescription
 Specifies a color of the indicator.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

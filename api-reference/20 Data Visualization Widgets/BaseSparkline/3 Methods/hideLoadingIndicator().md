@@ -1,6 +1,4 @@
-<!--id-->BaseSparkline.hideLoadingIndicator()<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
-
-
+---
+id: BaseSparkline.hideLoadingIndicator()
+hidden: 
+---

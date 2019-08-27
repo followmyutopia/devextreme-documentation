@@ -1,13 +1,11 @@
-<!--id-->dxBoxItem.box<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->dxBox_Options<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxBoxItem.box
+type: dxBox_Options
+default: undefined
+---
+---
+##### shortDescription
 Holds a [Box configuration object](/Documentation/ApiReference/UI_Widgets/dxBox/Configuration/) for the item.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Use this field to make the item a nested **Box** widget.
-<!--/fullDescription-->

@@ -1,12 +1,10 @@
-<!--id-->Font.color<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Font.color
+type: String
+---
+---
+##### shortDescription
 Specifies font color.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

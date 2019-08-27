@@ -1,15 +1,14 @@
-<!--id-->BaseChart.Options.animation.easing<!--/id-->
-===========================================================================
-<!--default-->'easeOutCubic'<!--/default-->
-<!--acceptValues-->'easeOutCubic' | 'linear'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseChart.Options.animation.easing
+acceptValues: 'easeOutCubic' | 'linear'
+type: String
+default: 'easeOutCubic'
+---
+---
+##### shortDescription
 Specifies the easing function of the animation.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Easing functions specify how the speed of the animation changes over time. The following easing functions are available.
 
 * **easeOutCubic**   
@@ -21,4 +20,3 @@ The animation progresses at a constant pace.
     enum: "`VizAnimationEasing`",
     values: "`EaseOutCubic` and `Linear`"
 }
-<!--/fullDescription-->

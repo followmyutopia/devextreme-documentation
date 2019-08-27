@@ -1,15 +1,14 @@
-<!--id-->GridBase.Options.sorting.mode<!--/id-->
-===========================================================================
-<!--default-->'single'<!--/default-->
-<!--acceptValues-->'multiple' | 'none' | 'single'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.sorting.mode
+acceptValues: 'multiple' | 'none' | 'single'
+type: String
+default: 'single'
+---
+---
+##### shortDescription
 Specifies the sorting mode.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The following selection modes are available in the widget:
 
 - **Single**        
@@ -22,4 +21,3 @@ Rows can be sorted by values of several columns.
     enum: "`GridSortingMode`",
     values: "`None`, `Single`, and `Multiple`"
 }
-<!--/fullDescription-->

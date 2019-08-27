@@ -1,16 +1,13 @@
-<!--id-->viz.exportWidgets(widgetInstances)<!--/id-->
-===================================================================
-<!--module-->viz/export<!--/module-->
-<!--export-->exportWidgets<!--/export-->
-===================================================================
-
-<!--shortDescription-->
+---
+id: viz.exportWidgets(widgetInstances)
+module: viz/export
+export: exportWidgets
+---
+---
+##### shortDescription
 Exports one or several widgets to PNG.
-<!--/shortDescription-->
 
-<!--paramName1-->widgetInstances<!--/paramName1-->
-<!--paramType1-->Array<Array<DOMComponent>><!--/paramType1-->
-<!--paramDescription1-->
+##### param(widgetInstances): Array<Array<DOMComponent>>
 An array with the following format:
 
     [
@@ -21,13 +18,11 @@ An array with the following format:
     ]
 
 Each nested array contains widget instances that should be in the same row in the exported document.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Charts/ExportSeveralCharts/jQuery/Light/"
 }
 
 #####See Also#####
 - [exportTo(fileName, format)](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#exportTofileName_format)
-<!--/fullDescription-->

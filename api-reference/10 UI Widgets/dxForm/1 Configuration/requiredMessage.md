@@ -1,13 +1,10 @@
-<!--id-->dxForm.Options.requiredMessage<!--/id-->
-===========================================================================
-<!--default-->'{0} is required'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxForm.Options.requiredMessage
+type: String
+default: '{0} is required'
+---
+---
+##### shortDescription
 Specifies the message that is shown for end-users if a required field value is not specified.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

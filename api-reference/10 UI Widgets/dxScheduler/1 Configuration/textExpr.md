@@ -1,13 +1,10 @@
-<!--id-->dxScheduler.Options.textExpr<!--/id-->
-===========================================================================
-<!--default-->'text'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler.Options.textExpr
+type: String
+default: 'text'
+---
+---
+##### shortDescription
 Specifies the name of the data source item field that holds the subject of an appointment.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

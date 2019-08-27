@@ -1,15 +1,12 @@
-<!--id-->ChartSeries<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->Object<!--/type-->
-<!--inlineType--><!--/inlineType-->
-<!--inherits-->dxChartSeriesTypes.CommonSeries<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: ChartSeries
+type: Object
+inherits: dxChartSeriesTypes.CommonSeries
+hidden: 
+inlineType: 
+---
+---
+##### shortDescription
 Specifies options for Chart widget series.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

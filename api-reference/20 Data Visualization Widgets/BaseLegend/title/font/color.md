@@ -1,4 +1,8 @@
-<!--id-->BaseLegend.title.font.color<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->'#232323'<!--/default-->
-===========================================================================
+---
+id: BaseLegend.title.font.color
+default: '#232323'
+---
+---
+##### merge
+
+---

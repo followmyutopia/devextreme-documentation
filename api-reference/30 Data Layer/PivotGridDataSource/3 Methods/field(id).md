@@ -1,23 +1,17 @@
-<!--id-->PivotGridDataSource.field(id)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.field(id)
+---
+---
+##### shortDescription
 Gets all the options of a field with the specified identifier.
-<!--/shortDescription-->
 
-<!--paramName1-->id<!--/paramName1-->
-<!--paramType1-->Number|String<!--/paramType1-->
-<!--paramDescription1-->
-The field's [name](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#name), [caption](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#caption), [dataField](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#dataField), or index in the [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) array.
-<!--/paramDescription1-->
-
-<!--returnType-->Object<!--/returnType-->
-<!--returnDescription-->
+##### return: Object
 The field's [options](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/).
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(id): Number | String
+The field's [name](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#name), [caption](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#caption), [dataField](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#dataField), or index in the [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) array.
+
+---
 ---
 ##### jQuery
 
@@ -66,4 +60,3 @@ The field's [options](/Documentation/ApiReference/Data_Layer/PivotGridDataSource
 #####See Also#####
 - [getAreaFields(area, collectGroups)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#getAreaFieldsarea_collectGroups)
 - [fields()](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fields)
-<!--/fullDescription-->

@@ -1,6 +1,5 @@
-<!--id-->dxTreeListColumnButton<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-<!--inherits-->GridBaseColumnButton<!--/inherits-->
-===========================================================================
-
+---
+id: dxTreeListColumnButton
+type: Object
+inherits: GridBaseColumnButton
+---

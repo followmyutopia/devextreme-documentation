@@ -1,23 +1,17 @@
-<!--id-->dxTreeList.getSelectedRowsData(mode)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeList.getSelectedRowsData(mode)
+---
+---
+##### shortDescription
 Gets the selected rows' data objects.
-<!--/shortDescription-->
 
-<!--paramName1-->mode<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
-<!--paramDescription1-->
-*"all"*, *"excludeRecursive"*, or *"leavesOnly"*.
-<!--/paramDescription1-->
-
-<!--returnType-->Array<any><!--/returnType-->
-<!--returnDescription-->
+##### return: Array<any>
 Data objects of selected rows. The data objects are stored in the order the user selects rows.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(mode): String
+*"all"*, *"excludeRecursive"*, or *"leavesOnly"*.
+
+---
 Below is an example of a **TreeList** with several selected rows:
 
 ![Selection in the DevExtreme TreeList widget](/Content/images/doc/19_2/treelist/getselectedrowkeys.png)
@@ -44,4 +38,3 @@ Returns only leaves' data objects.
 #####See Also#####
 #include common-link-callmethods
 - [getSelectedRowKeys(mode)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#getSelectedRowKeysmode)
-<!--/fullDescription-->

@@ -1,12 +1,9 @@
-<!--id-->Device.phone<!--/id-->
-===========================================================================
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Device.phone
+type: Boolean
+---
+---
+##### shortDescription
 Indicates whether or not the device type is 'phone'.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

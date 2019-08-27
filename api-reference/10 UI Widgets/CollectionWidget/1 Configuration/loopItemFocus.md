@@ -1,13 +1,9 @@
-<!--id-->CollectionWidget.Options.loopItemFocus<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
+---
+id: CollectionWidget.Options.loopItemFocus
+type: Boolean
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

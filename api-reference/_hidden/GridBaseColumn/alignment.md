@@ -1,15 +1,14 @@
-<!--id-->GridBaseColumn.alignment<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--acceptValues-->undefined | 'center' | 'left' | 'right'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBaseColumn.alignment
+acceptValues: undefined | 'center' | 'left' | 'right'
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Aligns the content of the column.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The default alignment of the content depends on the [type of data]({basewidgetpath}/Configuration/columns/#dataType). 
 
 <div class="simple-table">
@@ -49,5 +48,3 @@ The default alignment of the content depends on the [type of data]({basewidgetpa
     enum: "`HorizontalAlignment`",
     values: "`Left`, `Center`, and `Right`"
 }
-
-<!--/fullDescription-->

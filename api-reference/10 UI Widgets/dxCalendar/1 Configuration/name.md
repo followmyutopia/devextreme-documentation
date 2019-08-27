@@ -1,6 +1,5 @@
-<!--id-->dxCalendar.Options.name<!--/id-->
-===========================================================================
-<!--hidden-->false<!--/hidden-->
-<!--type-->String<!--/type-->
-===========================================================================
-
+---
+id: dxCalendar.Options.name
+type: String
+hidden: false
+---

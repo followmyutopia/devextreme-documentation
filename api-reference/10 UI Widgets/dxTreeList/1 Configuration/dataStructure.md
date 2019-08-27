@@ -1,15 +1,14 @@
-<!--id-->dxTreeList.Options.dataStructure<!--/id-->
-===========================================================================
-<!--default-->'plain'<!--/default-->
-<!--acceptValues-->'plain' | 'tree'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeList.Options.dataStructure
+acceptValues: 'plain' | 'tree'
+type: String
+default: 'plain'
+---
+---
+##### shortDescription
 Notifies the widget of the used data structure.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The widget expects that data has a plain structure where:
 
 - each data item contains a `parentId` and a unique `id`;
@@ -66,4 +65,3 @@ If each data item has a Boolean field that specifies whether this data item nest
 #####See Also#####
 - [Use Plain Data](/Documentation/Guide/Widgets/TreeList/Data_Binding/Use_Plain_Data/)
 - [Use Hierarchical Data](/Documentation/Guide/Widgets/TreeList/Data_Binding/Use_Hierarchical_Data/)
-<!--/fullDescription-->

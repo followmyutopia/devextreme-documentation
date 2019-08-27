@@ -1,15 +1,14 @@
-<!--id-->dxChartSeriesTypes.CommonSeries.valueErrorBar.type<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--acceptValues-->'fixed' | 'percent' | 'stdDeviation' | 'stdError' | 'variance'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.CommonSeries.valueErrorBar.type
+acceptValues: 'fixed' | 'percent' | 'stdDeviation' | 'stdError' | 'variance'
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies how error bar values must be calculated.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Depending on the type of errors you need to visualize, use error bars of one of the following types.
 
 <div class="simple-table">
@@ -49,4 +48,3 @@ Depending on the type of errors you need to visualize, use error bars of one of 
     enum: "`ValueErrorBarType`",
     values: "`Percent`, `StdError`, `StdDeviation`, `Variance`, and `Fixed`"
 }
-<!--/fullDescription-->

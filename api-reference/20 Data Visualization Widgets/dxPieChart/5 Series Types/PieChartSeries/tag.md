@@ -1,13 +1,10 @@
-<!--id-->PieChartSeries.tag<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->any<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PieChartSeries.tag
+type: any
+default: undefined
+---
+---
+##### shortDescription
 Specifies data about a series.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

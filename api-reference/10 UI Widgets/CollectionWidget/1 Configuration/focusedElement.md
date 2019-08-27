@@ -1,7 +1,6 @@
-<!--id-->CollectionWidget.Options.focusedElement<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--default-->null<!--/default-->
-<!--type-->dxElement<!--/type-->
-===========================================================================
-
+---
+id: CollectionWidget.Options.focusedElement
+type: dxElement
+default: null
+hidden: 
+---

@@ -1,29 +1,20 @@
-<!--id-->ODataContext.get(operationName, params)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: ODataContext.get(operationName, params)
+---
+---
+##### shortDescription
 Invokes an OData operation that returns a value.
-<!--/shortDescription-->
 
-<!--paramName1-->operationName<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
-<!--paramDescription1-->
-The operation's name.
-<!--/paramDescription1-->
-
-<!--paramName2-->params<!--/paramName2-->
-<!--paramType2-->Object<!--/paramType2-->
-<!--paramDescription2-->
-The operation's parameters.
-<!--/paramDescription2-->
-
-<!--returnType-->Promise<any><!--/returnType-->
-<!--returnDescription-->
+##### return: Promise<any>
 A Promise that is resolved after the operation has completed. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(operationName): String
+The operation's name.
+
+##### param(params): Object
+The operation's parameters.
+
+---
 ---
 #####jQuery
 
@@ -52,4 +43,3 @@ A Promise that is resolved after the operation has completed. It is a <a href="h
 
 #####See Also#####
 - [Invoking Service Operations](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData/Invoking_Service_Operations)
-<!--/fullDescription-->

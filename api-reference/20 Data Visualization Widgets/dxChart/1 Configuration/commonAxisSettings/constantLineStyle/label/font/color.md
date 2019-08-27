@@ -1,4 +1,8 @@
-<!--id-->dxChart.Options.commonAxisSettings.constantLineStyle.label.font.color<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->'#767676'<!--/default-->
-===========================================================================
+---
+id: dxChart.Options.commonAxisSettings.constantLineStyle.label.font.color
+default: '#767676'
+---
+---
+##### merge
+
+---

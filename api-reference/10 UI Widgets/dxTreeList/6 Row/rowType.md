@@ -1,13 +1,12 @@
-<!--id-->dxTreeListRowObject.rowType<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeListRowObject.rowType
+type: String
+---
+---
+##### shortDescription
 The row's type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This field accepts the following values.
 
 - *"data"*  
@@ -22,4 +21,3 @@ This field accepts the following values.
     The [filter row](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/filterRow/).
 
 Properties available in the row object depend on the row type. For example, the [data](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/#data) and [key](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/#key) properties are available only for *detail*, *detailAdaptive* and *data* rows. To get information on a particular property, see its description.
-<!--/fullDescription-->

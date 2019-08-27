@@ -1,16 +1,11 @@
-<!--id-->dxTreeMapNode.getParent()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMapNode.getParent()
+---
+---
+##### shortDescription
 Returns the parent node of the current node.
-<!--/shortDescription-->
 
-<!--returnType-->dxTreeMapNode<!--/returnType-->
-<!--returnDescription-->
+##### return: dxTreeMapNode
 The parent node of the current node. **null** if the parent is the root node.
-<!--/returnDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

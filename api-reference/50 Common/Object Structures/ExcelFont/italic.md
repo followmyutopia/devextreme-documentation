@@ -1,12 +1,9 @@
-<!--id-->ExcelFont.italic<!--/id-->
-===========================================================================
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: ExcelFont.italic
+type: Boolean
+---
+---
+##### shortDescription
 Specifies whether the text should be in italic.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

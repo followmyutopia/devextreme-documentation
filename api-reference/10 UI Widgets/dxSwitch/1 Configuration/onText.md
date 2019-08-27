@@ -1,15 +1,11 @@
-<!--id-->dxSwitch.Options.onText<!--/id-->
-<!--dep-->dxSwitch.Options.switchedOnText<!--/dep-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSwitch.Options.onText
+type: String
+dep: dxSwitch.Options.switchedOnText
+---
+---
+##### shortDescription
 Text displayed when the widget is in an enabled state.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 [note]The widget may or may not display text depending on the current theme.
-
-
-<!--/fullDescription-->

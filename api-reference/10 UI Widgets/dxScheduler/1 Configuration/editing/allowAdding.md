@@ -1,14 +1,12 @@
-<!--id-->dxScheduler.Options.editing.allowAdding<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler.Options.editing.allowAdding
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether or not an end-user can add appointments.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 - [Add Appointments](/Documentation/Guide/Widgets/Scheduler/Appointments/Add_Appointments/)
-<!--/fullDescription-->

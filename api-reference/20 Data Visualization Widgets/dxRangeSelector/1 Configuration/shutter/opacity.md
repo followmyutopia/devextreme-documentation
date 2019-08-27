@@ -1,13 +1,10 @@
-<!--id-->dxRangeSelector.Options.shutter.opacity<!--/id-->
-===========================================================================
-<!--default-->0.75<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.shutter.opacity
+type: Number
+default: 0.75
+---
+---
+##### shortDescription
 Specifies the opacity of the **color** of shutters.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,29 +1,20 @@
-<!--id-->Query.slice(skip, take)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: Query.slice(skip, take)
+---
+---
+##### shortDescription
 Gets a specified number of data items starting from a given index.
-<!--/shortDescription-->
 
-<!--paramName1-->skip<!--/paramName1-->
-<!--paramType1-->Number<!--/paramType1-->
-<!--paramDescription1-->
-The index of the first data item to get.
-<!--/paramDescription1-->
-
-<!--paramName2-->take<!--/paramName2-->
-<!--paramType2-->Number|undefined<!--/paramType2-->
-<!--paramDescription2-->
-Optional. The number of data items to get.
-<!--/paramDescription2-->
-
-<!--returnType-->Query<!--/returnType-->
-<!--returnDescription-->
+##### return: Query
 The **Query** with transformed data.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(skip): Number
+The index of the first data item to get.
+
+##### param(take): Number | undefined
+Optional. The number of data items to get.
+
+---
 ---
 ##### jQuery
 
@@ -74,4 +65,3 @@ The **Query** with transformed data.
     }
 
 ---
-<!--/fullDescription-->

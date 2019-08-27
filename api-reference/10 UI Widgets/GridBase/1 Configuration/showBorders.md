@@ -1,13 +1,10 @@
-<!--id-->GridBase.Options.showBorders<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.showBorders
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether the outer borders of the widget are visible.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

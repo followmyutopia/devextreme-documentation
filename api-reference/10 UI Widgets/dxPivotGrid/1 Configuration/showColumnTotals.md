@@ -1,13 +1,11 @@
-<!--id-->dxPivotGrid.Options.showColumnTotals<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGrid.Options.showColumnTotals
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether to display the Total columns.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Total columns show the summary values calculated for all previous hierarchy levels starting with the deepest expanded one.
-<!--/fullDescription-->

@@ -1,29 +1,20 @@
-<!--id-->Store.update(key, values)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: Store.update(key, values)
+---
+---
+##### shortDescription
 Updates a data item with a specific key.
-<!--/shortDescription-->
 
-<!--paramName1-->key<!--/paramName1-->
-<!--paramType1-->Object|String|Number<!--/paramType1-->
-<!--paramDescription1-->
-A data item's key value.
-<!--/paramDescription1-->
-
-<!--paramName2-->values<!--/paramName2-->
-<!--paramType2-->Object<!--/paramType2-->
-<!--paramDescription2-->
-An object with new values for the data item.
-<!--/paramDescription2-->
-
-<!--returnType-->Promise<any><!--/returnType-->
-<!--returnDescription-->
+##### return: Promise<any>
 A Promise that is resolved after the data item is updated. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(key): Object | String | Number
+A data item's key value.
+
+##### param(values): Object
+An object with new values for the data item.
+
+---
 In the following code, **dataObj** is a data object updated in the database and returned from the server. If the server returns nothing or the store works with local data, **dataObj** contains the data object passed to the **update** method.
 
 ---
@@ -101,5 +92,3 @@ In the following code, **dataObj** is a data object updated in the database and 
     }
     
 ---
-
-<!--/fullDescription-->

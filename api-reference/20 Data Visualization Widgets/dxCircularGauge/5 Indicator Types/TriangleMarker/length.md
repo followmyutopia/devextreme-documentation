@@ -1,4 +1,8 @@
-<!--id-->circularTriangleMarker.length<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->14<!--/default-->
-===========================================================================
+---
+id: circularTriangleMarker.length
+default: 14
+---
+---
+##### merge
+
+---

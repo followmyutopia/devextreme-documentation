@@ -1,12 +1,9 @@
-<!--id-->BarGaugeLegendItem.visible<!--/id-->
-===========================================================================
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BarGaugeLegendItem.visible
+type: Boolean
+---
+---
+##### shortDescription
 Indicates and specifies whether the legend item is visible.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

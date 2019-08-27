@@ -1,5 +1,14 @@
-<!--id-->dxButtonGroup<!--/id-->
-<!--widgettree-->
+---
+id: dxButtonGroup
+module: ui/button_group
+export: default
+inherits: Widget
+---
+---
+##### shortDescription
+The **ButtonGroup** is a widget that contains a set of toggle buttons and can be used as a mode switcher.
+
+##### widgettree
 items: [{
     style: "bold",
     icon: "bold"
@@ -16,18 +25,8 @@ items: [{
 keyExpr: "style",
 stylingMode: "outlined",
 selectionMode: "multiple"
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/button_group<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->Widget<!--/inherits-->
-===========================================================================
 
-<!--shortDescription-->
-The **ButtonGroup** is a widget that contains a set of toggle buttons and can be used as a mode switcher.
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include common-tutorialbutton with {
     url: "/Documentation/Guide/Widgets/ButtonGroup/Getting_Started_with_ButtonGroup/" 
 }
@@ -38,4 +37,3 @@ The **ButtonGroup** is a widget that contains a set of toggle buttons and can be
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

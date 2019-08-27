@@ -1,14 +1,10 @@
-<!--id-->dxScheduler.Options.indicatorTime<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--default-->undefined<!--/default-->
-<!--type-->Date<!--/type-->
-===========================================================================
+---
+id: dxScheduler.Options.indicatorTime
+type: Date
+default: undefined
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

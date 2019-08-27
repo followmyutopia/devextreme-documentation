@@ -1,32 +1,32 @@
-<!--id-->dxPivotGrid.bindChart(chart, integrationOptions)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGrid.bindChart(chart, integrationOptions)
+---
+---
+##### shortDescription
 Binds a [Chart](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/) to the **PivotGrid**.
-<!--/shortDescription-->
 
-<!--paramName1-->chart<!--/paramName1-->
-<!--paramType1-->String|jQuery|Object<!--/paramType1-->
-<!--paramDescription1-->
+##### return: function() | null
+Unbinds the **Chart**. If **null**, then binding failed.
+
+##### param(chart): String | jQuery | Object
 The **Chart** to be bound to the **PivotGrid**.    
 Accepts the **Chart**'s instance, <a href="http://api.jquery.com/Types/#jQuery" target="_blank">jQuery element</a> or container <a href="https://api.jquery.com/category/selectors/" target="_blank">selector</a>.
-<!--/paramDescription1-->
 
-<!--paramName2-->integrationOptions<!--/paramName2-->
-<!--paramType2-->Object<!--/paramType2-->
-<!--paramDescription2-->
+##### param(integrationOptions): Object
 The **Chart**'s configuration.
-<!--/paramDescription2-->
-<!--paramName2_field1-->inverted<!--/paramName2_field1-->
-<!--paramType2_field1-->Boolean<!--/paramType2_field1-->
-<!--paramDescription2_field1-->
-Default Value: **false**.    
-If **true**, [row field](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Headers) values go to the [chart arguments](/Documentation/Guide/Widgets/Chart/Axes/Overview/) and [column field](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Headers) values form [series](/Documentation/Guide/Widgets/Chart/Series/Overview/). If **false** - vice versa.
-<!--/paramDescription2_field1-->
-<!--paramName2_field2-->dataFieldsDisplayMode<!--/paramName2_field2-->
-<!--paramType2_field2-->String<!--/paramType2_field2-->
-<!--paramDescription2_field2-->
+
+##### field(integrationOptions.alternateDataFields): Boolean
+Default Value: **true**.   
+Specifies whether to alternate data fields in the resulting chart or not.   
+Applies only if the **PivotGrid** contains several data fields.
+
+##### field(integrationOptions.customizeChart): function()
+Allows you to customize the **Chart**'s appearance.
+
+##### field(integrationOptions.customizeSeries): function()
+Allows you to customize the series.
+
+##### field(integrationOptions.dataFieldsDisplayMode): String
 Default Value: *"splitAxes"*.   
 Accepts one of the following values.   
 
@@ -35,45 +35,22 @@ Accepts one of the following values.
 - *"splitPanes"* - each data field gets an individual [pane](/Documentation/Guide/Widgets/Chart/Panes/Overview/). Applies only if **putDataFieldsInto** is *"series"*.      
 
 Applies only if the **PivotGrid** contains several [data fields](/Documentation/Guide/Widgets/PivotGrid/Fields_and_Areas/#Fields).
-<!--/paramDescription2_field2-->
-<!--paramName2_field3-->putDataFieldsInto<!--/paramName2_field3-->
-<!--paramType2_field3-->String<!--/paramType2_field3-->
-<!--paramDescription2_field3-->
+
+##### field(integrationOptions.inverted): Boolean
+Default Value: **false**.    
+If **true**, [row field](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Headers) values go to the [chart arguments](/Documentation/Guide/Widgets/Chart/Axes/Overview/) and [column field](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Headers) values form [series](/Documentation/Guide/Widgets/Chart/Series/Overview/). If **false** - vice versa.
+
+##### field(integrationOptions.processCell): function()
+Allows you to process cell data before the **Chart** visualizes it.
+
+##### field(integrationOptions.putDataFieldsInto): String
 Default Value: *"series"*.   
 Accepts one of the following values.
 
 - *"args"* - data fields go to the chart arguments.  
-- *"series"* - data fields go to the chart series.  
-<!--/paramDescription2_field3-->
-<!--paramName2_field4-->alternateDataFields<!--/paramName2_field4-->
-<!--paramType2_field4-->Boolean<!--/paramType2_field4-->
-<!--paramDescription2_field4-->
-Default Value: **true**.   
-Specifies whether to alternate data fields in the resulting chart or not.   
-Applies only if the **PivotGrid** contains several data fields.
-<!--/paramDescription2_field4-->
-<!--paramName2_field5-->processCell<!--/paramName2_field5-->
-<!--paramType2_field5-->function()<!--/paramType2_field5-->
-<!--paramDescription2_field5-->
-Allows you to process cell data before the **Chart** visualizes it.
-<!--/paramDescription2_field5-->
-<!--paramName2_field6-->customizeChart<!--/paramName2_field6-->
-<!--paramType2_field6-->function()<!--/paramType2_field6-->
-<!--paramDescription2_field6-->
-Allows you to customize the **Chart**'s appearance.
-<!--/paramDescription2_field6-->
-<!--paramName2_field7-->customizeSeries<!--/paramName2_field7-->
-<!--paramType2_field7-->function()<!--/paramType2_field7-->
-<!--paramDescription2_field7-->
-Allows you to customize the series.
-<!--/paramDescription2_field7-->
+- *"series"* - data fields go to the chart series.
 
-<!--returnType-->function()|null<!--/returnType-->
-<!--returnDescription-->
-Unbinds the **Chart**. If **null**, then binding failed.
-<!--/returnDescription-->
-
-<!--fullDescription-->
+---
 Main article: [Integration with Chart](/Documentation/Guide/Widgets/PivotGrid/Integration_with_Chart/)
 
 #include common-demobutton with {
@@ -82,4 +59,3 @@ Main article: [Integration with Chart](/Documentation/Guide/Widgets/PivotGrid/In
 
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

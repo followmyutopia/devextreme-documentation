@@ -1,14 +1,14 @@
-<!--id-->dxTreeMap.Options.dataSource<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->Array<any> | DataSource | DataSource_Options | String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMap.Options.dataSource
+type: Array<any> | DataSource | DataSource_Options | String
+---
+---
+##### shortDescription
 Binds the widget to data.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### notUsedInTheme
+
+---
 If you use DevExtreme ASP.NET MVC Controls, refer to the [Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/) article.
 
 The **TreeMap** works with collections of objects. 
@@ -220,4 +220,3 @@ Please review the following notes about data binding:
 - **DataSource** and stores provide methods to process and update data. However, the methods do not allow you to perform particular tasks (for example, replace the entire dataset, reconfigure data access at runtime). For such tasks, create a new array, store, or **DataSource** and assign it to the **dataSource** option as shown in the articles about changing options in [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Get_and_Set_Options/), [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/#Two-Way_Option_Binding), [React](/Documentation/Guide/React_Components/State_Management/#Controlled_Mode), and <a href="https://github.com/DevExpress/devextreme-vue#two-way-binding" target="_blank">Vue</a>.
 
 [/note]
-<!--/fullDescription-->

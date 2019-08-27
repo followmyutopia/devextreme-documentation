@@ -1,29 +1,15 @@
-<!--id-->BaseChart.Options.legend.markerTemplate<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->template<!--/type-->
-===========================================================================
+---
+id: BaseChart.Options.legend.markerTemplate
+type: template
+default: undefined
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### param(legendItem): BaseChartLegendItem
 
-<!--/shortDescription-->
+##### param(element): SVGGElement
 
-<!--fullDescription-->
+##### return: String | SVGElement | jQuery
 
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->legendItem<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->BaseChartLegendItem<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionParamName2-->element<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->SVGGElement<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-
-<!--/typeFunctionParamDescription2-->
-
-<!--typeFunctionReturnType-->String|SVGElement|jQuery<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-
-<!--/typeFunctionReturnDescription-->
+---

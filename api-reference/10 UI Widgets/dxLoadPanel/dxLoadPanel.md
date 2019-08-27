@@ -1,21 +1,20 @@
-<!--id-->dxLoadPanel<!--/id-->
-<!--widgettree-->
-visible: true
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/load_panel<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->dxOverlay<!--/inherits-->
-<!--lib-->
-dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxLoadPanel
+module: ui/load_panel
+export: default
+inherits: dxOverlay
+---
+---
+##### shortDescription
 The **LoadPanel** is an overlay widget notifying the viewer that loading is in progress.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### widgettree
+visible: true
+
+##### lib
+dx.web.js, dx.viz-web.js, dx.all.js
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/dialogsandnotificationsloadpanelloadpanelloadpanel/"
 }
@@ -26,4 +25,3 @@ The **LoadPanel** is an overlay widget notifying the viewer that loading is in p
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

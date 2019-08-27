@@ -1,13 +1,10 @@
-<!--id-->dxPivotGrid.Options.fieldChooser.width<!--/id-->
-===========================================================================
-<!--default-->600<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGrid.Options.fieldChooser.width
+type: Number
+default: 600
+---
+---
+##### shortDescription
 Specifies the field chooser width.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

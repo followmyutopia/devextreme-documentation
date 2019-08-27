@@ -1,14 +1,11 @@
-<!--id-->BaseWidget<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->Object<!--/type-->
-<!--inherits-->DOMComponent<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseWidget
+type: Object
+inherits: DOMComponent
+hidden: 
+---
+---
+##### shortDescription
 This section describes options and methods that are common to all widgets.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

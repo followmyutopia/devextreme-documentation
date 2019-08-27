@@ -1,15 +1,14 @@
-<!--id-->BaseLegend.horizontalAlignment<!--/id-->
-===========================================================================
-<!--default-->'right'<!--/default-->
-<!--acceptValues-->'center' | 'left' | 'right'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseLegend.horizontalAlignment
+acceptValues: 'center' | 'left' | 'right'
+type: String
+default: 'right'
+---
+---
+##### shortDescription
 Along with [verticalAlignment]({basewidgetpath}/Configuration/legend/#verticalAlignment), specifies the legend's position.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-ref-enum with {
     enum: "`HorizontalAlignment`",
     values: "`Left`, `Center`, and `Right`"
@@ -17,4 +16,3 @@ Along with [verticalAlignment]({basewidgetpath}/Configuration/legend/#verticalAl
 
 #####See Also#####
 - **legend**.[orientation]({basewidgetpath}/Configuration/legend/#orientation)
-<!--/fullDescription-->

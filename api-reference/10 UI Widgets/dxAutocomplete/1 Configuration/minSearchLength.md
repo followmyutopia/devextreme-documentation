@@ -1,13 +1,10 @@
-<!--id-->dxAutocomplete.Options.minSearchLength<!--/id-->
-===========================================================================
-<!--default-->1<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxAutocomplete.Options.minSearchLength
+type: Number
+default: 1
+---
+---
+##### shortDescription
 The minimum number of characters that must be entered into the text box to begin a search.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

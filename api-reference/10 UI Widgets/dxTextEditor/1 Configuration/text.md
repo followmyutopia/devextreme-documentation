@@ -1,13 +1,11 @@
-<!--id-->dxTextEditor.Options.text<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-<!--readonly--><!--/readonly-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTextEditor.Options.text
+type: String
+---
+---
+##### shortDescription
 The read-only option that holds the text displayed by the widget **input** element.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### readonly
 
-<!--/fullDescription-->
+---

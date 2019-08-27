@@ -1,16 +1,11 @@
-<!--id-->DataSource.paginate()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.paginate()
+---
+---
+##### shortDescription
 Gets the [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) option's value.
-<!--/shortDescription-->
 
-<!--returnType-->Boolean<!--/returnType-->
-<!--returnDescription-->
+##### return: Boolean
 The option's value.
-<!--/returnDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

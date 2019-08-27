@@ -1,14 +1,13 @@
-<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.width<!--/id-->
-===========================================================================
-<!--propertyOf-->dxPolarChartSeriesTypes.linepolarseries<!--/propertyOf-->
-<!--default-->2<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.CommonPolarChartSeries.width
+type: Number
+default: 2
+---
+---
+##### shortDescription
 Specifies a line width.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### propertyOf
+dxPolarChartSeriesTypes.linepolarseries
 
-<!--/fullDescription-->
+---

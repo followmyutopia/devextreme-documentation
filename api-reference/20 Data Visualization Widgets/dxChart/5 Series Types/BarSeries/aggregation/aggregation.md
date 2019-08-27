@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.BarSeries.aggregation<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.BarSeries.aggregation
+type: Object
+---

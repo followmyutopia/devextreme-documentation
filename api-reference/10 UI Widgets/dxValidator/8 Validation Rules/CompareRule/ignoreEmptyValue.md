@@ -1,13 +1,10 @@
-<!--id-->CompareRule.ignoreEmptyValue<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: CompareRule.ignoreEmptyValue
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 If set to **true**, empty values are valid.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,18 +1,14 @@
-<!--id-->DataSource.searchValue(value)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.searchValue(value)
+---
+---
+##### shortDescription
 Sets the [searchValue](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchValue) option's value.
-<!--/shortDescription-->
 
-<!--paramName1-->value<!--/paramName1-->
-<!--paramType1-->any<!--/paramType1-->
-<!--paramDescription1-->
+##### param(value): any
 A new value.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 Call the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method to update the widget bound to the **DataSource**:
 
 ---
@@ -53,4 +49,3 @@ Call the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#loa
 
 #####See Also#####
 - [Data Layer - Search API](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Search_Api)
-<!--/fullDescription-->

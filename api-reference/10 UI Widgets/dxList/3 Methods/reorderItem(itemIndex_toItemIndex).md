@@ -1,29 +1,20 @@
-<!--id-->dxList.reorderItem(itemIndex, toItemIndex)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxList.reorderItem(itemIndex, toItemIndex)
+---
+---
+##### shortDescription
 Reorders items with specific indexes.
-<!--/shortDescription-->
 
-<!--paramName1-->itemIndex<!--/paramName1-->
-<!--paramType1-->Number|Object<!--/paramType1-->
-<!--paramDescription1-->
-The index of the item to be reordered.
-<!--/paramDescription1-->
-
-<!--paramName2-->toItemIndex<!--/paramName2-->
-<!--paramType2-->Number|Object<!--/paramType2-->
-<!--paramDescription2-->
-The index of the item after which the reordered item should be placed.
-<!--/paramDescription2-->
-
-<!--returnType-->Promise<void><!--/returnType-->
-<!--returnDescription-->
+##### return: Promise<void>
 A Promise that is resolved if the item is moved and rejected otherwise. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(itemIndex): Number | Object
+The index of the item to be reordered.
+
+##### param(toItemIndex): Number | Object
+The index of the item after which the reordered item should be placed.
+
+---
 If the widget displays a grouped list, the item index should be specified like the following.
 
     <!--JavaScript-->
@@ -51,4 +42,3 @@ This code will move the 4th item of the 1st group to the 3rd position in the 3rd
 #####See Also#####
 #include common-link-callmethods
 - [List - Item Reordering API](/Documentation/Guide/Widgets/List/Item_Reordering/#API)
-<!--/fullDescription-->

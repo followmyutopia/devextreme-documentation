@@ -1,5 +1,4 @@
-<!--id-->dxFileUploader.Options.validationMessageMode<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxFileUploader.Options.validationMessageMode
+hidden: 
+---

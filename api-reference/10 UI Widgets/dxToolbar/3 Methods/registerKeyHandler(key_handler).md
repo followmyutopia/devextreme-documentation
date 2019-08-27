@@ -1,6 +1,4 @@
-<!--id-->dxToolbar.registerKeyHandler(key, handler)<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
-
-
+---
+id: dxToolbar.registerKeyHandler(key, handler)
+hidden: 
+---

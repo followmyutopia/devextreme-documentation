@@ -1,13 +1,10 @@
-<!--id-->dxMenuBaseItem.visible<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxMenuBaseItem.visible
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether or not the menu item is visible.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,13 +1,10 @@
-<!--id-->dxChart.Options.crosshair.enabled<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.crosshair.enabled
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Enables the crosshair.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

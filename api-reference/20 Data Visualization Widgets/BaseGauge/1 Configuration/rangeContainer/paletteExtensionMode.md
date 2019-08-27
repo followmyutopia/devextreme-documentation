@@ -1,14 +1,12 @@
-<!--id-->BaseGauge.Options.rangeContainer.paletteExtensionMode<!--/id-->
-===========================================================================
-<!--default-->'blend'<!--/default-->
-<!--acceptValues-->'alternate' | 'blend' | 'extrapolate'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseGauge.Options.rangeContainer.paletteExtensionMode
+acceptValues: 'alternate' | 'blend' | 'extrapolate'
+type: String
+default: 'blend'
+---
+---
+##### shortDescription
 Specifies what to do with colors in the [palette]({basewidgetpath}/Configuration/rangeContainer/#palette) when their number is less than the number of ranges in the range container.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include dataviz-ref-paletteextensionmode
-<!--/fullDescription-->

@@ -1,14 +1,11 @@
-<!--id-->dxFilterBuilderField.defaultFilterOperation<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--acceptValues-->'=' | '<>' | '<' | '<=' | '>' | '>=' | 'contains' | 'endswith' | 'isblank' | 'isnotblank' | 'notcontains' | 'startswith' | 'between'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFilterBuilderField.defaultFilterOperation
+acceptValues: '=' | '<>' | '<' | '<=' | '>' | '>=' | 'contains' | 'endswith' | 'isblank' | 'isnotblank' | 'notcontains' | 'startswith' | 'between'
+type: String
+hidden: 
+---
+---
+##### shortDescription
 A default filter operation.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

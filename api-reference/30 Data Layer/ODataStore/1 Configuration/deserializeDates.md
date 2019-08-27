@@ -1,13 +1,12 @@
-<!--id-->ODataStore.Options.deserializeDates<!--/id-->
-===========================================================================
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: ODataStore.Options.deserializeDates
+type: Boolean
+---
+---
+##### shortDescription
 Specifies whether the store serializes/parses date-time values.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 ODataStore can parse date-time values in <a href="https://www.w3.org/TR/NOTE-datetime" target="_blank">ISO8601 format</a> (for example, `"2016-07-13T16:05:00.000Z"`) or <a href="https://weblogs.asp.net/bleroy/dates-and-json" target="_blank">Microsoft format</a> (for instance, `"/Date(1198908717056)/"`). In the first case, the store ignores the timezone modifier (usually `Z`) when parsing the value. In the second case, the store adds the time-zone offset to the value according to the client's time-zone.
 
 [note]
@@ -17,4 +16,3 @@ Disabling deserialization may cause filtering issues in widgets bound to the **O
 To prevent these issues, the store's **deserializeDates** option should be set to **true** or set the widget's **dateSerializationFormat** option to **null**.
 
 [/note]
-<!--/fullDescription-->

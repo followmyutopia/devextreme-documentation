@@ -1,6 +1,5 @@
-<!--id-->dxTagBox.Options.onPaste<!--/id-->
-<!--EventForAction-->dxTagBox.paste<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxTagBox.Options.onPaste
+hidden: 
+EventForAction: dxTagBox.paste
+---

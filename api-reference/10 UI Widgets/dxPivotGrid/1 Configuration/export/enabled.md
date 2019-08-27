@@ -1,13 +1,10 @@
-<!--id-->dxPivotGrid.Options.export.enabled<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGrid.Options.export.enabled
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Enables client-side exporting.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

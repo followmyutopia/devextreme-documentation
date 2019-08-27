@@ -1,13 +1,10 @@
-<!--id-->dxPolarChart.Options.commonAxisSettings.minorTick.width<!--/id-->
-===========================================================================
-<!--default-->1<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChart.Options.commonAxisSettings.minorTick.width
+type: Number
+default: 1
+---
+---
+##### shortDescription
 Specifies minor tick width.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

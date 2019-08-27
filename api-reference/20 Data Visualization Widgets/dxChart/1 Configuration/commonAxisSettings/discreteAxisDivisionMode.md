@@ -1,15 +1,14 @@
-<!--id-->dxChart.Options.commonAxisSettings.discreteAxisDivisionMode<!--/id-->
-===========================================================================
-<!--default-->'betweenLabels'<!--/default-->
-<!--acceptValues-->'betweenLabels' | 'crossLabels'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonAxisSettings.discreteAxisDivisionMode
+acceptValues: 'betweenLabels' | 'crossLabels'
+type: String
+default: 'betweenLabels'
+---
+---
+##### shortDescription
 Specifies whether ticks and grid lines should cross axis labels or lie between them. Applies only to the axes of the *"discrete"* type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-ref-enum with {
     enum: "`DiscreteAxisDivisionMode`",
     values: "`BetweenLabels` and `CrossLabels`"
@@ -18,4 +17,3 @@ Specifies whether ticks and grid lines should cross axis labels or lie between t
 #####See Also#####
 - **argumentAxis**.[type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#type) - sets the type of the argument axis.
 - **valueAxis**.[type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#type) - sets the type of the value axis.
-<!--/fullDescription-->

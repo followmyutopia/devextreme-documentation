@@ -1,13 +1,11 @@
-<!--id-->dxTreeMap.Options.tile.selectionStyle.color<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMap.Options.tile.selectionStyle.color
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Colors tiles in the selected state.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

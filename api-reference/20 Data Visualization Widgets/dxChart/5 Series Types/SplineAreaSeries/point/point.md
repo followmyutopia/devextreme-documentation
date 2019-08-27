@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.SplineAreaSeries.point<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.SplineAreaSeries.point
+type: Object
+---

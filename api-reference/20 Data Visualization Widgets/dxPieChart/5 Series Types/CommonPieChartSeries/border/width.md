@@ -1,13 +1,10 @@
-<!--id-->dxPieChartSeriesTypes.CommonPieChartSeries.border.width<!--/id-->
-===========================================================================
-<!--default-->2<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPieChartSeriesTypes.CommonPieChartSeries.border.width
+type: Number
+default: 2
+---
+---
+##### shortDescription
 Sets a border width for a series in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

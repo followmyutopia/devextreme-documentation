@@ -1,17 +1,14 @@
-<!--id-->DataSource.key()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.key()
+---
+---
+##### shortDescription
 Gets the value of the underlying store's **key** option.
-<!--/shortDescription-->
 
-<!--returnType-->Object|String|Number<!--/returnType-->
-<!--returnDescription-->
+##### return: Object | String | Number
 A key expression.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -47,4 +44,3 @@ A key expression.
 
 #####See Also#####
 - **key** in [ArrayStore](/Documentation/ApiReference/Data_Layer/ArrayStore/Configuration/#key) | [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#key) | [LocalStore](/Documentation/ApiReference/Data_Layer/LocalStore/Configuration/#key) | [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/Configuration/#key)
-<!--/fullDescription-->

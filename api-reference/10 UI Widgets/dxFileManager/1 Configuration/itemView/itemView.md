@@ -1,15 +1,11 @@
-<!--id-->dxFileManager.Options.itemView<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFileManager.Options.itemView
+type: Object
+default: null
+---
+---
+##### shortDescription
 Configures the file and folder view.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
+---
 <!-- IMAGE -->
-
-<!--/fullDescription-->

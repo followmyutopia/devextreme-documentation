@@ -1,14 +1,13 @@
-<!--id-->dxDropDownList.Options.selectedItem<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->any<!--/type-->
-<!--readonly--><!--/readonly-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDropDownList.Options.selectedItem
+type: any
+default: null
+---
+---
+##### shortDescription
 Gets the currently selected item.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### readonly
+
+---
 [note]This option is read-only.
-<!--/fullDescription-->

@@ -1,5 +1,4 @@
-<!--id-->dxMultiView.Options.selectedItemKeys<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxMultiView.Options.selectedItemKeys
+hidden: 
+---

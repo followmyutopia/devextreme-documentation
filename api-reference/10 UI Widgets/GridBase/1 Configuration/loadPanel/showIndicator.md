@@ -1,13 +1,10 @@
-<!--id-->GridBase.Options.loadPanel.showIndicator<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.loadPanel.showIndicator
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether to show the loading indicator.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

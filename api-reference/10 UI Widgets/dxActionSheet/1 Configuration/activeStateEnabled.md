@@ -1,5 +1,4 @@
-<!--id-->dxActionSheet.Options.activeStateEnabled<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxActionSheet.Options.activeStateEnabled
+hidden: 
+---

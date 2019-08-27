@@ -1,17 +1,13 @@
-<!--id-->PivotGridDataSource.loadError<!--/id-->
-===========================================================================
-<!--type-->eventType<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.loadError
+type: eventType
+---
+---
+##### shortDescription
 Raised when data loading fails.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-Main article: [onLoadError](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/#onLoadError)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->error<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
+##### param(error): Object
 The error.
-<!--/typeFunctionParamDescription1-->
+
+---
+Main article: [onLoadError](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/#onLoadError)

@@ -1,6 +1,5 @@
-<!--id-->dxPopup.Options.focusStateEnabled<!--/id-->
-===========================================================================
-<!--default-->true (desktop)<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxPopup.Options.focusStateEnabled
+type: Boolean
+default: true (desktop)
+---

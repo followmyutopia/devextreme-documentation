@@ -1,5 +1,4 @@
-<!--id-->chartPointAggregationInfoObject<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: chartPointAggregationInfoObject
+type: Object
+---

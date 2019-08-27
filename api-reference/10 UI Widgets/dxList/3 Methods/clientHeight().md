@@ -1,17 +1,13 @@
-<!--id-->dxList.clientHeight()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxList.clientHeight()
+---
+---
+##### shortDescription
 Gets the widget's height in pixels.
-<!--/shortDescription-->
 
-<!--returnType-->Number<!--/returnType-->
-<!--returnDescription-->
+##### return: Number
 The widget's height in pixels.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

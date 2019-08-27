@@ -1,15 +1,13 @@
-<!--id-->SearchBoxMixin.Options.searchEnabled<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
+---
+id: SearchBoxMixin.Options.searchEnabled
+type: Boolean
+default: false
+---
+---
+##### shortDescription
+Specifies whether the search panel is visible.
 
-<!--shortDescription-->
-Specifies whether the search panel is visible. 
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/{WidgetName}/{WidgetName}WithSearchBar/jQuery/Light/"
 }
-<!--/fullDescription-->

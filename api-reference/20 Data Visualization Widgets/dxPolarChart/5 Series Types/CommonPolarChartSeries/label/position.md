@@ -1,18 +1,18 @@
-<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.label.position<!--/id-->
-===========================================================================
-<!--propertyOf-->dxPolarChartSeriesTypes.barpolarseries,dxPolarChartSeriesTypes.stackedbarpolarseries<!--/propertyOf-->
-<!--default-->'outside'<!--/default-->
-<!--acceptValues-->'inside' | 'outside'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.CommonPolarChartSeries.label.position
+acceptValues: 'inside' | 'outside'
+type: String
+default: 'outside'
+---
+---
+##### shortDescription
 Specifies a label position in bar-like series.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### propertyOf
+dxPolarChartSeriesTypes.barpolarseries,dxPolarChartSeriesTypes.stackedbarpolarseries
+
+---
 #include common-ref-enum with {
     enum: "`RelativePosition`",
     values: "`Inside` and `Outside`"
 }
-<!--/fullDescription-->

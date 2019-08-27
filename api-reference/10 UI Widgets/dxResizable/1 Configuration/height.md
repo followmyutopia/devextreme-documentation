@@ -1,5 +1,4 @@
-<!--id-->dxResizable.Options.height<!--/id-->
-===========================================================================
-<!--firedEvents-->resize<!--/firedEvents-->
-===========================================================================
-
+---
+id: dxResizable.Options.height
+firedEvents: resize
+---

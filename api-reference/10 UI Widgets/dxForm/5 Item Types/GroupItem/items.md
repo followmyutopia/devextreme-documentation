@@ -1,14 +1,13 @@
-<!--id-->dxFormGroupItem.items<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Array<dxFormSimpleItem, dxFormGroupItem, dxFormTabbedItem, dxFormEmptyItem, dxFormButtonItem><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFormGroupItem.items
+type: Array<dxFormSimpleItem, dxFormGroupItem, dxFormTabbedItem, dxFormEmptyItem, dxFormButtonItem>
+default: undefined
+---
+---
+##### shortDescription
 Holds an array of form items displayed within the group.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Like the [items](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#items) option of the **Form** widget, the array passed to the **items** field of a group item can hold items of the following types.
 
 - [Simple](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/)  
@@ -22,4 +21,3 @@ Like the [items](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#it
 
 - [Empty](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/EmptyItem/)  
  An empty item used to add a space between neighboring items.
-<!--/fullDescription-->

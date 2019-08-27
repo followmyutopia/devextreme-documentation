@@ -1,13 +1,10 @@
-<!--id-->GridBase.Options.loadPanel.width<!--/id-->
-===========================================================================
-<!--default-->200<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.loadPanel.width
+type: Number
+default: 200
+---
+---
+##### shortDescription
 Specifies the width of the load panel in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

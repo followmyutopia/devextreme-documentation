@@ -1,15 +1,15 @@
-<!--id-->linearRhombus<!--/id-->
-===========================================================================
-<!--hidePropertyOf--><!--/hidePropertyOf-->
-<!--type-->Object<!--/type-->
-<!--inherits-->CommonIndicator<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: linearRhombus
+type: Object
+inherits: CommonIndicator
+---
+---
+##### shortDescription
 An object defining a gauge indicator of the **rhombus** type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### hidePropertyOf
+
+---
 ---
 ##### jQuery  
 
@@ -74,4 +74,3 @@ An object defining a gauge indicator of the **rhombus** type.
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Gauges/DifferentValueIndicatorTypesLinearGauge/jQuery/Light/"
 }
-<!--/fullDescription-->

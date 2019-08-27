@@ -1,12 +1,9 @@
-<!--id-->MapLayer.index<!--/id-->
-===========================================================================
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: MapLayer.index
+type: Number
+---
+---
+##### shortDescription
 The layer index in the [layers](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/) array.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

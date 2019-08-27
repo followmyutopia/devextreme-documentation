@@ -1,13 +1,12 @@
-<!--id-->ArrayStore.Options.data<!--/id-->
-===========================================================================
-<!--type-->Array<any><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: ArrayStore.Options.data
+type: Array<any>
+---
+---
+##### shortDescription
 Specifies the store's associated array.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -37,4 +36,3 @@ Specifies the store's associated array.
     }
     
 ---
-<!--/fullDescription-->

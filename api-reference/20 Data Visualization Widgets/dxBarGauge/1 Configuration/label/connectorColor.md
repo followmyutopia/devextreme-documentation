@@ -1,13 +1,11 @@
-<!--id-->dxBarGauge.Options.label.connectorColor<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxBarGauge.Options.label.connectorColor
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies a color for the label connector text.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

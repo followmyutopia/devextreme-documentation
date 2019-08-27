@@ -1,25 +1,19 @@
-<!--id-->viz.getPalette(paletteName)<!--/id-->
-===================================================================
-<!--module-->viz/palette<!--/module-->
-<!--export-->getPalette<!--/export-->
-===================================================================
-
-<!--shortDescription-->
+---
+id: viz.getPalette(paletteName)
+module: viz/palette
+export: getPalette
+---
+---
+##### shortDescription
 Gets the color sets of a predefined or registered palette.
-<!--/shortDescription-->
 
-<!--paramName1-->paletteName<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
-<!--paramDescription1-->
-The palette's name.
-<!--/paramDescription1-->
-
-<!--returnType-->Object<!--/returnType-->
-<!--returnDescription-->
+##### return: Object
 The palette's settings.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(paletteName): String
+The palette's name.
+
+---
 The returned value is an object of the following structure:
 
     <!--JavaScript-->{
@@ -32,4 +26,3 @@ The returned value is an object of the following structure:
     }
 
 The built-in palettes are listed in the [Appearance Customization](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Palettes) topic.
-<!--/fullDescription-->

@@ -1,24 +1,15 @@
-<!--id-->dxHtmlEditor.setSelection(index, length)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxHtmlEditor.setSelection(index, length)
+---
+---
+##### shortDescription
 Selects and highlights content in the specified range.
-<!--/shortDescription-->
 
-<!--paramName1-->index<!--/paramName1-->
-<!--paramType1-->Number<!--/paramType1-->
-<!--paramDescription1-->
+##### param(index): Number
 A zero-based index at which to begin selecting.
-<!--/paramDescription1-->
 
-<!--paramName2-->length<!--/paramName2-->
-<!--paramType2-->Number<!--/paramType2-->
-<!--paramDescription2-->
+##### param(length): Number
 The length of the content to be selected.       
-[Embedded items](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName/formats) have a length of 1. 
-<!--/paramDescription2-->
+[Embedded items](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName/formats) have a length of 1.
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,6 +1,5 @@
-<!--id-->dxLookup.Options.onCut<!--/id-->
-<!--EventForAction-->dxLookup.cut<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxLookup.Options.onCut
+hidden: 
+EventForAction: dxLookup.cut
+---

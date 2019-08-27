@@ -1,13 +1,11 @@
-<!--id-->dxChart.Options.commonAxisSettings.minorGrid.color<!--/id-->
-===========================================================================
-<!--default-->'#d3d3d3'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonAxisSettings.minorGrid.color
+type: String
+default: '#d3d3d3'
+---
+---
+##### shortDescription
 Specifies a color for the lines of the minor grid.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

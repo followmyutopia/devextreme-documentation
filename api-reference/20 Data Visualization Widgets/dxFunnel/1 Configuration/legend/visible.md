@@ -1,6 +1,5 @@
-<!--id-->dxFunnel.Options.legend.visible<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxFunnel.Options.legend.visible
+type: Boolean
+default: false
+---

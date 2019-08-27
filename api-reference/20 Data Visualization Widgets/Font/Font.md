@@ -1,14 +1,11 @@
-<!--id-->Font<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->Object<!--/type-->
-<!--inlineType--><!--/inlineType-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Font
+type: Object
+hidden: 
+inlineType: 
+---
+---
+##### shortDescription
 Font options.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

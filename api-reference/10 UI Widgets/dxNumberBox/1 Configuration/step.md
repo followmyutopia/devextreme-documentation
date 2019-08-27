@@ -1,13 +1,10 @@
-<!--id-->dxNumberBox.Options.step<!--/id-->
-===========================================================================
-<!--default-->1<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxNumberBox.Options.step
+type: Number
+default: 1
+---
+---
+##### shortDescription
 Specifies how much the widget's value changes when using the spin buttons, Up/Down arrow keys, or mouse wheel.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

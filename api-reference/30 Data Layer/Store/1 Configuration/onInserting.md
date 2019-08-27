@@ -1,14 +1,16 @@
-<!--id-->Store.Options.onInserting<!--/id-->
-<!--EventForAction-->Store.inserting<!--/EventForAction-->
-===========================================================================
-<!--type-->function(values)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Store.Options.onInserting
+type: function(values)
+EventForAction: Store.inserting
+---
+---
+##### shortDescription
 A function that is executed before a data item is added to the store.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(values): Object
+The data item to be added.
+
+---
 ---
 ##### jQuery
 
@@ -36,9 +38,3 @@ A function that is executed before a data item is added to the store.
     }
     
 ---
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->values<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The data item to be added.
-<!--/typeFunctionParamDescription1-->

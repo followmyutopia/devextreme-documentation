@@ -1,15 +1,15 @@
-<!--id-->dxChartSeriesTypes.BubbleSeries<!--/id-->
-===========================================================================
-<!--hidePropertyOf--><!--/hidePropertyOf-->
-<!--type-->Object<!--/type-->
-<!--inherits-->dxChartSeriesTypes.CommonSeries<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.BubbleSeries
+type: Object
+inherits: dxChartSeriesTypes.CommonSeries
+---
+---
+##### shortDescription
 Describes settings supported by a series of the *bubble* type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### hidePropertyOf
+
+---
 #include dataviz-ref-series-type with { 
     seriesType: "bubble"
 }
@@ -19,4 +19,3 @@ Describes settings supported by a series of the *bubble* type.
 }
 
 ![DevExtreme HTML5 Charts BubbleSeriesType](/Content/images/doc/19_2/ChartJS/Bubble.png)
-<!--/fullDescription-->

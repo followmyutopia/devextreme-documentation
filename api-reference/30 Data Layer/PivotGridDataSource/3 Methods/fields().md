@@ -1,17 +1,14 @@
-<!--id-->PivotGridDataSource.fields()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.fields()
+---
+---
+##### shortDescription
 Gets all the fields including those [generated automatically](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/#retrieveFields).
-<!--/shortDescription-->
 
-<!--returnType-->Array<PivotGridDataSource_Options_fields><!--/returnType-->
-<!--returnDescription-->
+##### return: Array<PivotGridDataSource_Options_fields>
 All [options](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) of all the fields.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -43,4 +40,3 @@ All [options](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configu
 #####See Also#####
 - [getAreaFields(area, collectGroups)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#getAreaFieldsarea_collectGroups)
 - [field(id)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fieldid)
-<!--/fullDescription-->

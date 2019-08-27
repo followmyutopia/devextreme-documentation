@@ -1,15 +1,32 @@
-<!--id-->dxScheduler.Options.onAppointmentFormOpening<!--/id-->
-<!--EventForAction-->dxScheduler.appointmentFormOpening<!--/EventForAction-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->function(e)<!--/type-->
-===========================================================================
+---
+id: dxScheduler.Options.onAppointmentFormOpening
+type: function(e)
+default: null
+EventForAction: dxScheduler.appointmentFormOpening
+---
+---
+##### shortDescription
+A function that is executed before an appointment details form is opened.
 
-<!--shortDescription-->
-A function that is executed before an appointment details form is opened. 
-<!--/shortDescription-->
+##### param(e): Object
+Information about the event.
 
-<!--fullDescription-->
+##### field(e.appointmentData): Object
+The data of the appointment for which a form is opened.
+
+##### field(e.component): {WidgetName}
+The widget's instance.
+
+##### field(e.element): dxElement
+#include common-ref-elementparam with { element: "widget" }
+
+##### field(e.form): dxForm
+The form's instance; created only once - when the function is executed for the first time.
+
+##### field(e.model): Object
+The model data. Available only if you use Knockout.
+
+---
 The appointment details form contains the [Form](/Documentation/Guide/Widgets/Form/Overview/) widget whose instance is passed to this function in the **form** field. Use the [widget's API](/Documentation/ApiReference/UI_Widgets/dxForm/) to customize the appointment details form.
 
 The following code shows how to use the **onAppointmentFormOpening** function to customize a form item (`startDate`), make hidden items visible (`startDateTimeZone` and `endDateTimeZone`), and add a new form item (`location`). Note that in the last case, the array of [form items](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#items) should be checked to ensure that it does not already contain an item with the same data field.
@@ -115,35 +132,3 @@ The following code shows how to use the **onAppointmentFormOpening** function to
 
 #####See Also#####
 - [Form - Change Options at Runtime](/Documentation/Guide/Widgets/Form/Change_Options_at_Runtime/Widget_Options/)
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the event.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-#include common-ref-elementparam with { element: "widget" }
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The model data. Available only if you use Knockout.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->appointmentData<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-The data of the appointment for which a form is opened.
-<!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamName1_field5-->form<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->dxForm<!--/typeFunctionParamType1_field5-->
-<!--typeFunctionParamDescription1_field5-->
-The form's instance; created only once - when the function is executed for the first time.
-<!--/typeFunctionParamDescription1_field5-->

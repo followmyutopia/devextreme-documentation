@@ -1,15 +1,14 @@
-<!--id-->animationConfig.type<!--/id-->
-===========================================================================
-<!--default-->'custom'<!--/default-->
-<!--acceptValues-->'css' | 'fade' | 'fadeIn' | 'fadeOut' | 'pop' | 'slide' | 'slideIn' | 'slideOut'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: animationConfig.type
+acceptValues: 'css' | 'fade' | 'fadeIn' | 'fadeOut' | 'pop' | 'slide' | 'slideIn' | 'slideOut'
+type: String
+default: 'custom'
+---
+---
+##### shortDescription
 A string value specifying the animation type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The value of the option affects the widget's initial and target states, which are specified using the [from](/Documentation/ApiReference/Common/Object_Structures/animationConfig/#from) and [to](/Documentation/ApiReference/Common/Object_Structures/animationConfig/#to) options. 
 
 The type options can take on the following values.
@@ -48,4 +47,3 @@ The type options can take on the following values.
 If the **type** option is set to "slideIn" or "slideOut", specify the sliding direction using the **direction** option.
 
 When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `AnimationType` enum. This enum accepts the following values: `Css`, `Fade`, `FadeIn`, `FadeOut`, `Pop`, `Slide`, `SlideIn` and `SlideOut`.
-<!--/fullDescription-->

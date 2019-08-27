@@ -1,5 +1,4 @@
-<!--id-->dxResizable.Options.width<!--/id-->
-===========================================================================
-<!--firedEvents-->resize<!--/firedEvents-->
-===========================================================================
-
+---
+id: dxResizable.Options.width
+firedEvents: resize
+---

@@ -1,8 +1,7 @@
-===========================================================================
-<!--merge--><!--/merge-->
-===========================================================================
+---
+##### merge
 
-<!--fullDescription-->
+---
 By default, all series points in a chart are identical, but you can specify a unique appearance for individual points using the **customizePoint** function. This function should return an object with options that will be changed for a certain point. See the [point]({basewidgetpath}/Configuration/series/point) object for information about all options available for changing.
 
 [note]The **hoverMode** and **selectionMode** options cannot be changed using the **customizePoint** function, because they do not have anything to do with the appearance of series points.
@@ -41,4 +40,3 @@ The **customizePoint** function accepts an object providing information about th
         </tbody>
     </table>
 </div>
-<!--/fullDescription-->

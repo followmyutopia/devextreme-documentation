@@ -1,6 +1,5 @@
-<!--id-->dxChartSeriesTypes.StepAreaSeries.point.visible<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.StepAreaSeries.point.visible
+type: Boolean
+default: false
+---

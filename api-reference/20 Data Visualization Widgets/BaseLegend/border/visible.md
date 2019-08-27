@@ -1,13 +1,10 @@
-<!--id-->BaseLegend.border.visible<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseLegend.border.visible
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Shows the legend's border.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

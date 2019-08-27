@@ -1,19 +1,15 @@
-<!--id-->localization.locale()<!--/id-->
-===================================================================
-<!--module-->localization<!--/module-->
-<!--export-->locale<!--/export-->
-===================================================================
-
-<!--shortDescription-->
+---
+id: localization.locale()
+module: localization
+export: locale
+---
+---
+##### shortDescription
 Gets the current locale identifier.
-<!--/shortDescription-->
 
-<!--returnType-->String<!--/returnType-->
-<!--returnDescription-->
+##### return: String
 The identifier.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 - [Localization](/Documentation/Guide/Common/Localization/)
-<!--/fullDescription-->

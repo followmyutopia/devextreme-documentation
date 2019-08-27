@@ -1,19 +1,14 @@
-<!--id-->GridBase.pageSize(value)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.pageSize(value)
+---
+---
+##### shortDescription
 Sets the [page size]({basewidgetpath}/Configuration/paging/#pageSize).
-<!--/shortDescription-->
 
-<!--paramName1-->value<!--/paramName1-->
-<!--paramType1-->Number<!--/paramType1-->
-<!--paramDescription1-->
+##### param(value): Number
 The page size.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 #include common-link-callmethods
 - [Paging - API](/Documentation/Guide/Widgets/{WidgetName}/Paging/#API)
-<!--/fullDescription-->

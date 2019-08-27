@@ -1,15 +1,11 @@
-<!--id-->FileProvider<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--module-->ui/file_manager/file_provider/file_provider<!--/module-->
-<!--export-->default<!--/export-->
-<!--type-->Object<!--/type-->
-===========================================================================
+---
+id: FileProvider
+module: ui/file_manager/file_provider/file_provider
+export: default
+type: Object
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

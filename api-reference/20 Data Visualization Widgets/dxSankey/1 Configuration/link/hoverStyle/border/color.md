@@ -1,13 +1,11 @@
-<!--id-->dxSankey.Options.link.hoverStyle.border.color<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSankey.Options.link.hoverStyle.border.color
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies the color a link's border changes to when the link is hovered over or pressed.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

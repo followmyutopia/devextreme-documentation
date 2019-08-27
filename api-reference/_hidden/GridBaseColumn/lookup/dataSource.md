@@ -1,14 +1,25 @@
-<!--id-->GridBaseColumn.lookup.dataSource<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Array<any> | DataSource_Options | Store | function(options)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBaseColumn.lookup.dataSource
+type: Array<any> | DataSource_Options | Store | function(options)
+default: undefined
+---
+---
+##### shortDescription
 Specifies the data source for the lookup column.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(options): Object
+Information on the current row.
+
+##### field(options.data): Object
+The row's data.
+
+##### field(options.key): any
+The row's key.
+
+##### return: Array<any> | DataSource_Options | Store
+An array of objects or primitives, a store instance, or a **DataSource** configuration.
+
+---
 This option accepts one of the following:
 
 - **Array of objects or primitives**       
@@ -33,24 +44,3 @@ If the lookup data source contains objects, specify the [valueExpr]({basewidgetp
 
 #####See Also#####
 - [How to: Bind a Lookup Column to a Custom Data Source](/Documentation/Guide/Widgets/{WidgetName}/How_To/Bind_a_Lookup_Column_to_a_Custom_Data_Source/)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information on the current row.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->data<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->Object<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The row's data.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->key<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->any<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-The row's key.
-<!--/typeFunctionParamDescription1_field2-->
-
-<!--typeFunctionReturnType-->Array<any>|DataSource_Options|Store<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-An array of objects or primitives, a store instance, or a **DataSource** configuration.
-<!--/typeFunctionReturnDescription-->

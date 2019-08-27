@@ -1,13 +1,12 @@
-<!--id-->dxChart.Options.argumentAxis.aggregationInterval<!--/id-->
-===========================================================================
-<!--inherits-->VizTimeInterval<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.argumentAxis.aggregationInterval
+inherits: VizTimeInterval
+---
+---
+##### shortDescription
 Specifies the length of aggregation intervals in axis units. Applies only to axes of continuous and logarithmic [types](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#type).
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 For data aggregation, the argument axis is divided into intervals. Series points that fall within the same interval get aggregated together. The **aggregationInterval** option defines the length of each interval. 
 
 If the axis displays numbers, assign a number to this option. For example, an **aggregationInterval** of 100 produces the following intervals: 0 to 100, 100 to 200, 200 to 300, etc. If the axis displays date-time values, set this option to one of the accepted string values. Alternatively, you can set it to an object that contains one of the fields described in this section.
@@ -66,4 +65,3 @@ When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_M
 - [Data Aggregation](/Documentation/Guide/Widgets/Chart/Data_Aggregation/)
 - **series**.[aggregation](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/aggregation/)
 - [aggregationGroupWidth](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#aggregationGroupWidth)
-<!--/fullDescription-->

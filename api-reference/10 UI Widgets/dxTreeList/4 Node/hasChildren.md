@@ -1,12 +1,9 @@
-<!--id-->dxTreeListNode.hasChildren<!--/id-->
-===========================================================================
-<!--type-->Boolean<!--/type-->
-===========================================================================
+---
+id: dxTreeListNode.hasChildren
+type: Boolean
+---
+---
+##### shortDescription
+Indicates whether the node has child nodes.
 
-<!--shortDescription-->
-Indicates whether the node has child nodes. 
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

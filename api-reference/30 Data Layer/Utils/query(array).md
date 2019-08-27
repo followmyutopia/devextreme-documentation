@@ -1,25 +1,19 @@
-<!--id-->Utils.query(array)<!--/id-->
-===================================================================
-<!--module-->data/query<!--/module-->
-<!--export-->default<!--/export-->
-===================================================================
-
-<!--shortDescription-->
+---
+id: Utils.query(array)
+module: data/query
+export: default
+---
+---
+##### shortDescription
 Creates a [Query](/Documentation/ApiReference/Data_Layer/Query/) instance.
-<!--/shortDescription-->
 
-<!--paramName1-->array<!--/paramName1-->
-<!--paramType1-->Array<any><!--/paramType1-->
-<!--paramDescription1-->
-Data to be associated with the **Query**.
-<!--/paramDescription1-->
-
-<!--returnType-->Query<!--/returnType-->
-<!--returnDescription-->
+##### return: Query
 A **Query** instance.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(array): Array<any>
+Data to be associated with the **Query**.
+
+---
 ---
 ##### jQuery
 
@@ -41,4 +35,3 @@ A **Query** instance.
 
 #####See Also#####
 - [Query Concept](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept)
-<!--/fullDescription-->

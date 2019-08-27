@@ -1,17 +1,13 @@
-<!--id-->GridBase.pageSize()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.pageSize()
+---
+---
+##### shortDescription
 Gets the current [page size]({basewidgetpath}/Configuration/paging/#pageSize).
-<!--/shortDescription-->
 
-<!--returnType-->Number<!--/returnType-->
-<!--returnDescription-->
+##### return: Number
 The current page size.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

@@ -1,14 +1,13 @@
-<!--id-->dxScheduler.Options.groups<!--/id-->
-===========================================================================
-<!--default-->[]<!--/default-->
-<!--type-->Array<String><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler.Options.groups
+type: Array<String>
+default: []
+---
+---
+##### shortDescription
 Specifies the [resource kinds](/Documentation/Guide/Widgets/Scheduler/Resources/Assign_Appointments_to_Resources/) by which the scheduler's appointments are grouped in a timetable.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This array should contain one or more values that correspond to the [fieldExpr](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/#fieldExpr) values of resource kinds:
 
 ---
@@ -62,5 +61,3 @@ To group appointments by resources of one kind, for instance to group appointmen
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Scheduler/GroupOrientation/jQuery/Light/"
 }
-
-<!--/fullDescription-->

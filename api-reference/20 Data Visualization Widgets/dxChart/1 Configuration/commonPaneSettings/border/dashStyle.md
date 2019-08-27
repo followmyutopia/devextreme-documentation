@@ -1,14 +1,12 @@
-<!--id-->dxChart.Options.commonPaneSettings.border.dashStyle<!--/id-->
-===========================================================================
-<!--default-->'solid'<!--/default-->
-<!--acceptValues-->'dash' | 'dot' | 'longDash' | 'solid'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonPaneSettings.border.dashStyle
+acceptValues: 'dash' | 'dot' | 'longDash' | 'solid'
+type: String
+default: 'solid'
+---
+---
+##### shortDescription
 Specifies the dash style of the pane border.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include dataviz-ref-dashstyle
-<!--/fullDescription-->

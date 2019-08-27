@@ -1,15 +1,15 @@
-<!--id-->dxChartSeriesTypes.CandleStickSeries<!--/id-->
-===========================================================================
-<!--hidePropertyOf--><!--/hidePropertyOf-->
-<!--type-->Object<!--/type-->
-<!--inherits-->dxChartSeriesTypes.CommonSeries<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.CandleStickSeries
+type: Object
+inherits: dxChartSeriesTypes.CommonSeries
+---
+---
+##### shortDescription
 Describes settings supported by a series of the *candlestick* type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### hidePropertyOf
+
+---
 #include dataviz-ref-series-type with { 
     seriesType: "candlestick"
 }
@@ -19,4 +19,3 @@ Describes settings supported by a series of the *candlestick* type.
 }
 
 ![DevExtreme HTML5 Charts CandleStickSeriesType](/Content/images/doc/19_2/ChartJS/CandleStick.png)
-<!--/fullDescription-->

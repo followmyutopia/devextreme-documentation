@@ -1,13 +1,10 @@
-<!--id-->dxRangeSelector.Options.sliderHandle.width<!--/id-->
-===========================================================================
-<!--default-->1<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.sliderHandle.width
+type: Number
+default: 1
+---
+---
+##### shortDescription
 Specifies the width of the slider handles.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

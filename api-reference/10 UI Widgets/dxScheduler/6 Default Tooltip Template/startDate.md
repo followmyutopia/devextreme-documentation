@@ -1,12 +1,9 @@
-<!--id-->dxSchedulerAppointmentTooltipTemplate.startDate<!--/id-->
-===========================================================================
-<!--type-->Date<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSchedulerAppointmentTooltipTemplate.startDate
+type: Date
+---
+---
+##### shortDescription
 Specifies the start of the appointment.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

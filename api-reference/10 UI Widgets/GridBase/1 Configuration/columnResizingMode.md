@@ -1,15 +1,14 @@
-<!--id-->GridBase.Options.columnResizingMode<!--/id-->
-===========================================================================
-<!--default-->'nextColumn'<!--/default-->
-<!--acceptValues-->'nextColumn' | 'widget'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.columnResizingMode
+acceptValues: 'nextColumn' | 'widget'
+type: String
+default: 'nextColumn'
+---
+---
+##### shortDescription
 Specifies how the widget resizes columns. Applies only if [allowColumnResizing]({basewidgetpath}/Configuration/#allowColumnResizing) is **true**.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The **columnResizingMode** option accepts one of the following values:
 
 - **nextColumn**  
@@ -17,5 +16,3 @@ The **columnResizingMode** option accepts one of the following values:
 - **widget**  
     When a user resizes a column, the width of the widget changes.  
     This mode is ignored if you specify the [width]({basewidgetpath}/Configuration/columns/#width) of any column in percent.
-
-<!--/fullDescription-->

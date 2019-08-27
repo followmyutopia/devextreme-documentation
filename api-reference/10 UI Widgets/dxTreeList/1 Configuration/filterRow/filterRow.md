@@ -1,8 +1,7 @@
-===========================================================================
-<!--merge--><!--/merge-->
-===========================================================================
+---
+##### merge
 
-<!--fullDescription-->
+---
 The filter row allows a user to filter data by values of individual columns.
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList FilterRow](/Content/images/doc/19_2/treelist/visual_elements/filter_row.png)
@@ -22,4 +21,3 @@ To make the filter row visible, assign **true** to the **filterRow**.[visible]({
 - [expandNodesOnFiltering](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#expandNodesOnFiltering)
 - [filter(filterExpr)]({basewidgetpath}/Methods/#filterfilterExpr)
 - [clearFilter(filterName)]({basewidgetpath}/Methods/#clearFilterfilterName)
-<!--/fullDescription-->

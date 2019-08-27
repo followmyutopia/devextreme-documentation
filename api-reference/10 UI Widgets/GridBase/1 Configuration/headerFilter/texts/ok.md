@@ -1,13 +1,10 @@
-<!--id-->GridBase.Options.headerFilter.texts.ok<!--/id-->
-===========================================================================
-<!--default-->'Ok'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.headerFilter.texts.ok
+type: String
+default: 'Ok'
+---
+---
+##### shortDescription
 Specifies text for the button that applies the specified filter.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

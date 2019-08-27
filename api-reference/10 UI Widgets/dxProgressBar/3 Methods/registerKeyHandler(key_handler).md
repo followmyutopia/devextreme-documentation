@@ -1,6 +1,4 @@
-<!--id-->dxProgressBar.registerKeyHandler(key, handler)<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
-
-
+---
+id: dxProgressBar.registerKeyHandler(key, handler)
+hidden: 
+---

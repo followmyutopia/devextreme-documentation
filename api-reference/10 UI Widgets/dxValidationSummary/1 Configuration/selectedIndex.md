@@ -1,5 +1,4 @@
-<!--id-->dxValidationSummary.Options.selectedIndex<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxValidationSummary.Options.selectedIndex
+hidden: 
+---

@@ -1,13 +1,10 @@
-<!--id-->dxNumberBox.Options.value<!--/id-->
-===========================================================================
-<!--default-->0<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxNumberBox.Options.value
+type: Number
+default: 0
+---
+---
+##### shortDescription
 The current number box value.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

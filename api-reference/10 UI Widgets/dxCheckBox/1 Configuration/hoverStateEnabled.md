@@ -1,6 +1,5 @@
-<!--id-->dxCheckBox.Options.hoverStateEnabled<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxCheckBox.Options.hoverStateEnabled
+type: Boolean
+default: true
+---

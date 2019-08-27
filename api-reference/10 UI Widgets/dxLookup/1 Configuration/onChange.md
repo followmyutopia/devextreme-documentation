@@ -1,6 +1,5 @@
-<!--id-->dxLookup.Options.onChange<!--/id-->
-<!--EventForAction-->dxLookup.change<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxLookup.Options.onChange
+hidden: 
+EventForAction: dxLookup.change
+---

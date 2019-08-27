@@ -1,14 +1,13 @@
-<!--id-->dxScheduler.Options.dateSerializationFormat<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxScheduler.Options.dateSerializationFormat
+type: String
+default: undefined
+---
+---
+##### shortDescription
+Specifies the date-time values' serialization format. Use it only if you do not specify the [dataSource]({basewidgetpath}/Configuration/#dataSource) at design time.
 
-<!--shortDescription-->
-Specifies the date-time values' serialization format. Use it only if you do not specify the [dataSource]({basewidgetpath}/Configuration/#dataSource) at design time. 
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 Without a data source, the widget cannot detect the date-time values' format. In this case, specify the **dateSerializationFormat** option that supports the following formats:
 
 - `"yyyy-MM-dd"` - a local date  
@@ -20,4 +19,3 @@ Without a data source, the widget cannot detect the date-time values' format. In
 - `"yyyy-MM-ddTHH:mm:ssx"` - date and time with a timezone
 
 This option applies only if the **forceIsoDateParsing** field is set to **true** in the [global configuration object](/Documentation/ApiReference/Common/utils/#configconfig).
-<!--/fullDescription-->

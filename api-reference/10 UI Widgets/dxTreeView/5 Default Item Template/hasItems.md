@@ -1,13 +1,11 @@
-<!--id-->dxTreeViewItem.hasItems<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeViewItem.hasItems
+type: Boolean
+default: undefined
+---
+---
+##### shortDescription
 Specifies whether or not the tree view item has children.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This field is used when the virtual mode is enabled. It can hold a Boolean value or a function that returns a Boolean value.
-<!--/fullDescription-->

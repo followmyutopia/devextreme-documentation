@@ -1,17 +1,14 @@
-<!--id-->dxOverlay.Options.maxWidth<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->Number | String | function()<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxOverlay.Options.maxWidth
+type: Number | String | function()
+default: null
+---
+---
+##### shortDescription
 Specifies the maximum width the widget can reach while resizing.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-#include uiwidgets-ref-width
-<!--/fullDescription-->
-<!--typeFunctionReturnType-->Number|String<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
+##### return: Number | String
 The maximum width.
-<!--/typeFunctionReturnDescription-->
+
+---
+#include uiwidgets-ref-width

@@ -1,18 +1,17 @@
-<!--id-->dxDropDownBox<!--/id-->
-===========================================================================
-<!--module-->ui/drop_down_box<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->DataExpressionMixin,dxDropDownEditor<!--/inherits-->
-<!--lib-->
-dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDropDownBox
+module: ui/drop_down_box
+export: default
+inherits: DataExpressionMixin,dxDropDownEditor
+---
+---
+##### shortDescription
 The **DropDownBox** widget consists of a text field, which displays the current value, and a drop-down field, which can contain any UI element.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### lib
+dx.web.js, dx.viz-web.js, dx.all.js
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/DropDownBox/SingleSelection/jQuery/Light/"
 }
@@ -23,4 +22,3 @@ The **DropDownBox** widget consists of a text field, which displays the current 
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

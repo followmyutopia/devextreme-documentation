@@ -1,22 +1,15 @@
-<!--id-->dxPivotGridSummaryCell.value(field)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGridSummaryCell.value(field)
+---
+---
+##### shortDescription
 Gets the value of any field linked with the current cell.
-<!--/shortDescription-->
 
-<!--paramName1-->field<!--/paramName1-->
-<!--paramType1-->PivotGridDataSource_Options_fields|String<!--/paramType1-->
-<!--paramDescription1-->
-The index in the [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) array, [dataField](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#dataField) or [caption](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#caption) of the field.
-<!--/paramDescription1-->
-
-<!--returnType-->any<!--/returnType-->
-<!--returnDescription-->
+##### return: any
 The field value.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(field): PivotGridDataSource_Options_fields | String
+The index in the [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) array, [dataField](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#dataField) or [caption](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#caption) of the field.
+
+---
 Use this method when you need extra information about the current cell. You can get the value of any field to which the cell belongs.
-<!--/fullDescription-->

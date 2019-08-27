@@ -1,14 +1,12 @@
-<!--id-->dxChart.Options.valueAxis.minorTickCount<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.valueAxis.minorTickCount
+type: Number
+default: undefined
+---
+---
+##### shortDescription
 Specifies how many [minor ticks](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/minorTick/) to place between two neighboring major ticks.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 - **valueAxis**.[minorTickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/minorTickInterval/) - specifies the interval between minor ticks. Has a higher priority than the **minorTickCount** option.
-<!--/fullDescription-->

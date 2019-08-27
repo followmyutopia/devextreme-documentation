@@ -1,6 +1,5 @@
-<!--id-->dxCalendar.Options.focusStateEnabled<!--/id-->
-===========================================================================
-<!--default-->true (desktop)<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxCalendar.Options.focusStateEnabled
+type: Boolean
+default: true (desktop)
+---

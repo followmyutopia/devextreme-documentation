@@ -1,12 +1,9 @@
-<!--id-->dxMenuBaseItem.text<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxMenuBaseItem.text
+type: String
+---
+---
+##### shortDescription
 Specifies the text inserted into the item element.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

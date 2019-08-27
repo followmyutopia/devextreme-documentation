@@ -1,13 +1,10 @@
-<!--id-->Widget.Options.visible<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Widget.Options.visible
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether the widget is visible.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

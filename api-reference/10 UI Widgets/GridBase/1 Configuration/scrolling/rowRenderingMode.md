@@ -1,15 +1,14 @@
-<!--id-->GridBase.Options.scrolling.rowRenderingMode<!--/id-->
-===========================================================================
-<!--default-->'standard'<!--/default-->
-<!--acceptValues-->'standard' | 'virtual'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: GridBase.Options.scrolling.rowRenderingMode
+acceptValues: 'standard' | 'virtual'
+type: String
+default: 'standard'
+---
+---
+##### shortDescription
+Specifies the rendering mode for loaded rows.
 
-<!--shortDescription-->
-Specifies the rendering mode for loaded rows. 
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 Unlike the [mode]({basewidgetpath}/Configuration/scrolling/#mode) option, which defines when to load data for rows, this option defines when to render them. The following rendering modes are available: 
 
 - *"standard"*        
@@ -26,4 +25,3 @@ Renders only those rows that get into the viewport. Use this mode if the [pageSi
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/DataGrid/RemoteVirtualScrolling/jQuery/Light/"
 }
-<!--/fullDescription-->

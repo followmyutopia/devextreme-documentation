@@ -1,13 +1,9 @@
-<!--id-->CollectionWidget.Options.selectOnFocus<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
+---
+id: CollectionWidget.Options.selectOnFocus
+type: Boolean
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

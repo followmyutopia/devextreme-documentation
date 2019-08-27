@@ -1,13 +1,10 @@
-<!--id-->dxPivotGrid.Options.fieldChooser.texts.filterFields<!--/id-->
-===========================================================================
-<!--default-->'Filter Fields'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGrid.Options.fieldChooser.texts.filterFields
+type: String
+default: 'Filter Fields'
+---
+---
+##### shortDescription
 The string to display instead of **Filter Fields**.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

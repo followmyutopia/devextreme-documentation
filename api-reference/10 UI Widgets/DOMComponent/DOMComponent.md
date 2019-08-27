@@ -1,16 +1,13 @@
-<!--id-->DOMComponent<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--module-->core/dom_component<!--/module-->
-<!--export-->default<!--/export-->
-<!--type-->Object<!--/type-->
-<!--inherits-->Component<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: DOMComponent
+module: core/dom_component
+export: default
+type: Object
+inherits: Component
+hidden: 
+---
+---
+##### shortDescription
 A base class for all components.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

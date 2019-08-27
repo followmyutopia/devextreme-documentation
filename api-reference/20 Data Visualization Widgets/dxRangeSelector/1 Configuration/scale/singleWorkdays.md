@@ -1,14 +1,12 @@
-<!--id-->dxRangeSelector.Options.scale.singleWorkdays<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Array<Date, String> | Array<Number><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.scale.singleWorkdays
+type: Array<Date, String> | Array<Number>
+default: undefined
+---
+---
+##### shortDescription
 Days to be included in the scale when [workdaysOnly](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/#workdaysOnly) is **true**.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 - [workWeek](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/#workWeek)
-<!--/fullDescription-->

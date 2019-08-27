@@ -1,13 +1,12 @@
-<!--id-->dxItem<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxItem
+type: Object
+---
+---
+##### shortDescription
 Specifies markup for a widget item.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The **dxItem** component defines custom markup for items in layout and collection widgets. **dxItem** has different options depending on the widget where it is used. See the **Default Item Template** section in a specific widget's API Reference for a full list of them.
 
 ---
@@ -115,4 +114,3 @@ The **dxItem** component defines custom markup for items in layout and collectio
 ---
 
 [note]**dxItem** elements are ignored when the **dataSource** option is defined.
-<!--/fullDescription-->

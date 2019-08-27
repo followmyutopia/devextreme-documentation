@@ -1,14 +1,13 @@
-<!--id-->dxDiagram.Options.nodes<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDiagram.Options.nodes
+type: Object
+default: null
+---
+---
+##### shortDescription
 An array of diagram nodes.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Use the **nodes** option to populate an array of diagram nodes.
 
 #include common-demobutton with {
@@ -32,5 +31,3 @@ Use the **nodes** option to populate an array of diagram nodes.
     });
     
 ---
-
-<!--/fullDescription-->

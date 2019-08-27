@@ -1,14 +1,11 @@
-<!--id-->CollectionWidget.Options.selectedIndex<!--/id-->
-===========================================================================
-<!--default-->-1<!--/default-->
-<!--type-->Number<!--/type-->
-<!--firedEvents-->selectionChanged<!--/firedEvents-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: CollectionWidget.Options.selectedIndex
+type: Number
+default: -1
+firedEvents: selectionChanged
+---
+---
+##### shortDescription
 The index of the currently selected widget item.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,8 +1,5 @@
-
-<!--shortDescription-->
+---
+##### shortDescription
 This section describes the events exposed by the **DevExpress.devices** namespace.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

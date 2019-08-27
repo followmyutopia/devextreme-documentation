@@ -1,18 +1,14 @@
-<!--id-->BaseGauge.value(value)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: BaseGauge.value(value)
+---
+---
+##### shortDescription
 Updates the [main value]({basewidgetpath}/Configuration/#value).
-<!--/shortDescription-->
 
-<!--paramName1-->value<!--/paramName1-->
-<!--paramType1-->Number<!--/paramType1-->
-<!--paramDescription1-->
+##### param(value): Number
 A new value.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 Use this method to change the main gauge value at runtime.
 
 #include common-demobutton-named with {
@@ -26,4 +22,3 @@ Use this method to change the main gauge value at runtime.
 
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

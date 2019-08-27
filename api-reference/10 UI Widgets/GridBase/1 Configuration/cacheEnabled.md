@@ -1,14 +1,13 @@
-<!--id-->GridBase.Options.cacheEnabled<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.cacheEnabled
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether data should be cached.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 When this option is set to **true**, data loaded once is saved in cache. Then, the widget takes data from this cache when performing such operations as sorting, grouping, paging, etc. Caching is helpful when the data source takes significant time to load. But, consider disabling it for frequently changing data sources. 
 
 To update data in cache, call the [refresh()]({basewidgetpath}/Methods/#refresh) method of the widget or the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method of the **DataSource**.
@@ -18,4 +17,3 @@ To update data in cache, call the [refresh()]({basewidgetpath}/Methods/#refresh)
 #####See Also#####
 - [Data Caching](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Data_Caching/)
 - [getDataSource()]({basewidgetpath}/Methods/#getDataSource)
-<!--/fullDescription-->

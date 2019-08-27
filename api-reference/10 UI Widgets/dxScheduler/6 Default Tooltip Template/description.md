@@ -1,12 +1,9 @@
-<!--id-->dxSchedulerAppointmentTooltipTemplate.description<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSchedulerAppointmentTooltipTemplate.description
+type: String
+---
+---
+##### shortDescription
 Specifies the appointment description.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

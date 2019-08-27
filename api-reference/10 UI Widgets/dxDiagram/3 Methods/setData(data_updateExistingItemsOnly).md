@@ -1,25 +1,18 @@
-<!--id-->dxDiagram.setData(data, updateExistingItemsOnly)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxDiagram.setData(data, updateExistingItemsOnly)
+---
+---
+##### shortDescription
 Sets the diagram data.
-<!--/shortDescription-->
 
-<!--paramName1-->data<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
-<!--paramDescription1-->
+##### param(data): String
 Contains information about a diagram's layout, appearance, and shape positions.
-<!--/paramDescription1-->
 
-<!--paramName2-->updateExistingItemsOnly<!--/paramName2-->
-<!--paramType2-->Boolean<!--/paramType2-->
-<!--paramDescription2-->
+##### param(updateExistingItemsOnly): Boolean
 **true** to apply diagram data without rewriting diagram items;
 **false** to apply diagram data and replace diagram items with the items from the data parameter.
-<!--/paramDescription2-->
 
-<!--fullDescription-->
+---
 The [getData]({basewidgetpath}/Methods/#getData) method allows you to save information about a diagram's layout, appearance, and the diagram's shape positions. Use the **setData** method to load this data on demand.
 
 ---
@@ -42,5 +35,3 @@ The [getData]({basewidgetpath}/Methods/#getData) method allows you to save infor
     });
 
 ---
-
-<!--/fullDescription-->

@@ -1,13 +1,10 @@
-<!--id-->dxSlider.Options.value<!--/id-->
-===========================================================================
-<!--default-->50<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSlider.Options.value
+type: Number
+default: 50
+---
+---
+##### shortDescription
 The current slider value.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,13 +1,9 @@
-<!--id-->dxGantt.Options.treeListWidth<!--/id-->
-===========================================================================
-<!--default-->300<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
+---
+id: dxGantt.Options.treeListWidth
+type: Number
+default: 300
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

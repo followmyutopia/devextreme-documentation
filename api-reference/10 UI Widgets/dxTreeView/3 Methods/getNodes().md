@@ -1,16 +1,11 @@
-<!--id-->dxTreeView.getNodes()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeView.getNodes()
+---
+---
+##### shortDescription
 Gets all nodes.
-<!--/shortDescription-->
 
-<!--returnType-->Array<dxTreeViewNode><!--/returnType-->
-<!--returnDescription-->
+##### return: Array<dxTreeViewNode>
 All nodes. Their structure is described in the [Node](/Documentation/ApiReference/UI_Widgets/dxTreeView/Node/) section.
-<!--/returnDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

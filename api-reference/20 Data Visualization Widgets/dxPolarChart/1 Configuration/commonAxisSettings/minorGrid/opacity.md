@@ -1,13 +1,10 @@
-<!--id-->dxPolarChart.Options.commonAxisSettings.minorGrid.opacity<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChart.Options.commonAxisSettings.minorGrid.opacity
+type: Number
+default: undefined
+---
+---
+##### shortDescription
 Specifies an opacity for the lines of the minor grid.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,13 +1,10 @@
-<!--id-->dxLinearGauge.Options.rangeContainer.width.start<!--/id-->
-===========================================================================
-<!--default-->5<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxLinearGauge.Options.rangeContainer.width.start
+type: Number
+default: 5
+---
+---
+##### shortDescription
 Specifies a start width of a range container.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

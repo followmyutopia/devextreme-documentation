@@ -1,13 +1,10 @@
-<!--id-->dxScheduler.Options.editing.allowDragging<!--/id-->
-===========================================================================
-<!--default-->true, false (Android, iOS, Windows_Mobile)<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler.Options.editing.allowDragging
+type: Boolean
+default: true, false (Android, iOS, Windows_Mobile)
+---
+---
+##### shortDescription
 Specifies whether or not an end-user can drag appointments.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

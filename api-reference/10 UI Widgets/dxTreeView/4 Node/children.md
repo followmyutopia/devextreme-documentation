@@ -1,12 +1,9 @@
-<!--id-->dxTreeViewNode.children<!--/id-->
-===========================================================================
-<!--type-->Array<dxTreeViewNode><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeViewNode.children
+type: Array<dxTreeViewNode>
+---
+---
+##### shortDescription
 Contains all the child nodes of the current node.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

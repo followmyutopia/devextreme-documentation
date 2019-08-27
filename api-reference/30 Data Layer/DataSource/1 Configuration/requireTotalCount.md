@@ -1,13 +1,12 @@
-<!--id-->DataSource.Options.requireTotalCount<!--/id-->
-===========================================================================
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.Options.requireTotalCount
+type: Boolean
+---
+---
+##### shortDescription
 Specifies whether the **DataSource** requests the total count of data items in the storage.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 If this option is set to **true**, the Promise that the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method returns is resolved with a second argument that contains the **totalCount** field:
 
     <!--JavaScript-->
@@ -23,4 +22,3 @@ If this option is set to **true**, the Promise that the [load()](/Documentation/
         });
 
 [note] When [scrolling](/Documentation/Guide/Widgets/DataGrid/Scrolling/) is infinite in the **DataGrid**, this option's value is always **false**.
-<!--/fullDescription-->

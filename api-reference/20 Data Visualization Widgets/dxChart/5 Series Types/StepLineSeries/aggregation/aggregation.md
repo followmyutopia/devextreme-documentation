@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.StepLineSeries.aggregation<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.StepLineSeries.aggregation
+type: Object
+---

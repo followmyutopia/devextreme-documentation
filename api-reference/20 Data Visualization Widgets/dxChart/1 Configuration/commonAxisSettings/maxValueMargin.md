@@ -1,14 +1,13 @@
-<!--id-->dxChart.Options.commonAxisSettings.maxValueMargin<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonAxisSettings.maxValueMargin
+type: Number
+default: undefined
+---
+---
+##### shortDescription
 Controls the empty space between the maximum series points and the axis. Applies only to the axes of the *"continuous"* and *"logarithmic"* type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 By default, the axes extend slightly beyond their extrema generating an empty space between the axes and the minimum/maximum series points. It prevents cutting off parts of those points. To control this empty space, use the **minValueMargin** and **maxValueMargin** options. These options are used in the following formulas for the actual start and end axis values.
 
     startAxisValue = minDataValue - (maxDataValue - minDataValue) * minValueMargin
@@ -21,4 +20,3 @@ For example, consider that `minDataValue` is 1960 and `maxDataValue` is 2010. If
 
 #####See Also#####
 - **commonAxisSettings**.[valueMarginsEnabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/#valueMarginsEnabled)
-<!--/fullDescription-->

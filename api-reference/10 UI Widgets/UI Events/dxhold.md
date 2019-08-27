@@ -1,14 +1,16 @@
-<!--id-->UI Events.dxhold<!--/id-->
-===========================================================================
-<!--module-->events/hold<!--/module-->
-<!--type-->eventType<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: UI Events.dxhold
+module: events/hold
+type: eventType
+---
+---
+##### shortDescription
 Raised when the element is being held during a specified time.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(event): event
+#include common-ref-eventparam
+
+---
 To specify the time span after which the event is raised, pass the object containing the timeout property to the function subscribing to the event.
 
 If you need to subscribe to **dxhold** for two elements that are in the parent-child relationship, make sure that the timeout of the parent element is equal or longer than that of the child. The following example illustrates the case when the parent's timeout is longer:
@@ -192,9 +194,3 @@ If you need to subscribe to **dxhold** for two elements that are in the parent-c
 
 #####See Also#####
 - [UI Events - Introduction](/Documentation/ApiReference/UI_Widgets/UI_Events/)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->event<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->event<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-#include common-ref-eventparam 
-<!--/typeFunctionParamDescription1-->

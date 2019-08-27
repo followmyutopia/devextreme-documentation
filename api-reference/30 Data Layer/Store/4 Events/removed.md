@@ -1,17 +1,13 @@
-<!--id-->Store.removed<!--/id-->
-===========================================================================
-<!--type-->eventType<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Store.removed
+type: eventType
+---
+---
+##### shortDescription
 Raised after a data item is removed from the store.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-Main article: [onRemoved]({basewidgetpath}/Configuration/#onRemoved)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->key<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object|String|Number<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
+##### param(key): Object | String | Number
 The removed data item's key.
-<!--/typeFunctionParamDescription1-->
+
+---
+Main article: [onRemoved]({basewidgetpath}/Configuration/#onRemoved)

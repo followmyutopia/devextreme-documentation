@@ -1,13 +1,11 @@
-<!--id-->dxPieChartSeriesTypes.CommonPieChartSeries.selectionStyle.border.color<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPieChartSeriesTypes.CommonPieChartSeries.selectionStyle.border.color
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Sets a border color for a selected series.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

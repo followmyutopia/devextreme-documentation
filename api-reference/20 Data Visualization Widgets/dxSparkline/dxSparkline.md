@@ -1,5 +1,14 @@
-<!--id-->dxSparkline<!--/id-->
-<!--widgettree-->
+---
+id: dxSparkline
+module: viz/sparkline
+export: default
+inherits: BaseSparkline,DataHelperMixin
+---
+---
+##### shortDescription
+The **Sparkline** widget is a compact chart that contains only one series. Owing to their size, sparklines occupy very little space and can be easily collected in a table or embedded straight in text.
+
+##### widgettree
 dataSource: [{
     arg: "1",
     val: 1
@@ -25,21 +34,11 @@ dataSource: [{
     arg: "8",
     val: 3
 }]
-<!--/widgettree-->
-===========================================================================
-<!--module-->viz/sparkline<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->BaseSparkline,DataHelperMixin<!--/inherits-->
-<!--lib-->
+
+##### lib
 dx.viz.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
 
-<!--shortDescription-->
-The **Sparkline** widget is a compact chart that contains only one series. Owing to their size, sparklines occupy very little space and can be easily collected in a table or embedded straight in text.
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartssparklinessparklinesline/"
 }
@@ -50,4 +49,3 @@ The **Sparkline** widget is a compact chart that contains only one series. Owing
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

@@ -1,5 +1,4 @@
-<!--id-->dxPivotGrid.Options.hoverStateEnabled<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxPivotGrid.Options.hoverStateEnabled
+hidden: 
+---

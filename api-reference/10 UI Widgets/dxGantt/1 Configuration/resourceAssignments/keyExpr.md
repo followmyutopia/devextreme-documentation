@@ -1,18 +1,11 @@
-<!--id-->dxGantt.Options.resourceAssignments.keyExpr<!--/id-->
-===========================================================================
-<!--default-->'id'<!--/default-->
-<!--type-->String | function(data)<!--/type-->
-===========================================================================
+---
+id: dxGantt.Options.resourceAssignments.keyExpr
+type: String | function(data)
+default: 'id'
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### param(data): Object
 
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->data<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-
-<!--/typeFunctionParamDescription1-->
+---

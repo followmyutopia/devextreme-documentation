@@ -1,5 +1,20 @@
-<!--id-->dxFileManager<!--/id-->
-<!--widgettree-->
+---
+id: dxFileManager
+module: ui/file_manager
+export: default
+inherits: Widget
+---
+---
+##### shortDescription
+[tags] ctp
+
+The **FileManager** is a widget that allows users to upload, select, and manage files and directories in different file storages.
+
+#include common-ctp-note with {
+    component: "FileManager"
+}
+
+##### widgettree
 fileProvider: [{
     name: "Documents",
     isDirectory: true,
@@ -60,25 +75,8 @@ permissions: {
 itemView: {
     mode: "thumbnails"
 }
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/file_manager<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->Widget<!--/inherits-->
-===========================================================================
 
-<!--shortDescription-->
-[tags] ctp
-
-The **FileManager** is a widget that allows users to upload, select, and manage files and directories in different file storages.
-
-#include common-ctp-note with {
-    component: "FileManager"
-}
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/FileManager/BindingToHierarchicalStructure/jQuery/Light/"
 }
-<!--/fullDescription-->

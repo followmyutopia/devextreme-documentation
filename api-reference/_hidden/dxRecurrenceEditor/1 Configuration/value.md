@@ -1,7 +1,6 @@
-<!--id-->dxRecurrenceEditor.Options.value<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->String<!--/type-->
-<!--firedEvents-->valueChanged<!--/firedEvents-->
-===========================================================================
-
+---
+id: dxRecurrenceEditor.Options.value
+type: String
+default: null
+firedEvents: valueChanged
+---

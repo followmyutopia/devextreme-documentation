@@ -1,13 +1,10 @@
-<!--id-->GridBase.Options.loadPanel.showPane<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.loadPanel.showPane
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether to show the pane of the load panel.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

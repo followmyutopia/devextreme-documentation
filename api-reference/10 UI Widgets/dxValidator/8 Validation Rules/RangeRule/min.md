@@ -1,12 +1,9 @@
-<!--id-->RangeRule.min<!--/id-->
-===========================================================================
-<!--type-->Date | Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: RangeRule.min
+type: Date | Number
+---
+---
+##### shortDescription
 Specifies the minimum value allowed for the validated value.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

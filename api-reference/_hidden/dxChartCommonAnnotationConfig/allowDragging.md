@@ -1,13 +1,9 @@
-<!--id-->dxChartCommonAnnotationConfig.allowDragging<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
+---
+id: dxChartCommonAnnotationConfig.allowDragging
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

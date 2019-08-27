@@ -1,13 +1,10 @@
-<!--id-->dxDropDownEditor.Options.value<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->any<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDropDownEditor.Options.value
+type: any
+default: null
+---
+---
+##### shortDescription
 Specifies the currently selected value.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

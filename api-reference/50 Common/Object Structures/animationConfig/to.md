@@ -1,14 +1,13 @@
-<!--id-->animationConfig.to<!--/id-->
-===========================================================================
-<!--default-->{}<!--/default-->
-<!--type-->Number | String | Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: animationConfig.to
+type: Number | String | Object
+default: {}
+---
+---
+##### shortDescription
 Specifies a final animation state.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The values that this option accepts depend on the specified [animation type](/Documentation/ApiReference/Common/Object_Structures/animationConfig/#type). The following list illustrates the dependency:
 
 - **fade**  
@@ -72,5 +71,3 @@ When using [ASP.NET MVC Controls](/Documentation/Guide/ASP.NET_MVC_Controls/Fund
             End Sub)
         End Sub)
     )
-
-<!--/fullDescription-->

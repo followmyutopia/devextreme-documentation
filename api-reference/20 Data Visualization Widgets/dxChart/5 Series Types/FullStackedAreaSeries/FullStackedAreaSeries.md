@@ -1,15 +1,15 @@
-<!--id-->dxChartSeriesTypes.FullStackedAreaSeries<!--/id-->
-===========================================================================
-<!--hidePropertyOf--><!--/hidePropertyOf-->
-<!--type-->Object<!--/type-->
-<!--inherits-->dxChartSeriesTypes.CommonSeries<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.FullStackedAreaSeries
+type: Object
+inherits: dxChartSeriesTypes.CommonSeries
+---
+---
+##### shortDescription
 Describes settings supported by a series of the *full-stacked area* type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### hidePropertyOf
+
+---
 #include dataviz-ref-series-type with { 
     seriesType: "fullstackedarea"
 }
@@ -19,4 +19,3 @@ Describes settings supported by a series of the *full-stacked area* type.
 }
 
 ![DevExtreme HTML5 Charts FullStackedAreaSeriesType](/Content/images/doc/19_2/ChartJS/FullStackedArea.png)
-<!--/fullDescription-->

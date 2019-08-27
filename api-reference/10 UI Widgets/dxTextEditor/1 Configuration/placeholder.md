@@ -1,13 +1,10 @@
-<!--id-->dxTextEditor.Options.placeholder<!--/id-->
-===========================================================================
-<!--default-->''<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTextEditor.Options.placeholder
+type: String
+default: ''
+---
+---
+##### shortDescription
 The text displayed by the widget when the widget value is empty.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

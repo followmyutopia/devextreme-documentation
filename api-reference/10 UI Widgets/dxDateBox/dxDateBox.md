@@ -1,21 +1,20 @@
-<!--id-->dxDateBox<!--/id-->
-<!--widgettree-->
-opened: true
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/date_box<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->dxDropDownEditor<!--/inherits-->
-<!--lib-->
-dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDateBox
+module: ui/date_box
+export: default
+inherits: dxDropDownEditor
+---
+---
+##### shortDescription
 The **DateBox** is a widget that displays date and time in a specified format, and enables a user to pick or type in the required date/time value.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### widgettree
+opened: true
+
+##### lib
+dx.web.js, dx.viz-web.js, dx.all.js
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/editorsdateboxdateboxdatebox/"
 }
@@ -26,4 +25,3 @@ The **DateBox** is a widget that displays date and time in a specified format, a
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

@@ -1,32 +1,22 @@
-<!--id-->ui.notify(message,type,displayTime)<!--/id-->
-===================================================================
-<!--module-->ui/notify<!--/module-->
-<!--export-->default<!--/export-->
-===================================================================
-
-<!--shortDescription-->
+---
+id: ui.notify(message,type,displayTime)
+module: ui/notify
+export: default
+---
+---
+##### shortDescription
 Creates a toast message.
-<!--/shortDescription-->
 
-<!--paramName1-->message<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
-<!--paramDescription1-->
+##### param(message): String
 The message's text.
-<!--/paramDescription1-->
 
-<!--paramName2-->type<!--/paramName2-->
-<!--paramType2-->String|undefined<!--/paramType2-->
-<!--paramDescription2-->
+##### param(type): String | undefined
 The message's type: *"info"*, *"warning"*, *"error"* or *"success"*.
-<!--/paramDescription2-->
 
-<!--paramName3-->displayTime<!--/paramName3-->
-<!--paramType3-->Number|undefined<!--/paramType3-->
-<!--paramDescription3-->
+##### param(displayTime): Number | undefined
 The time interval in milliseconds for which the message is displayed.
-<!--/paramDescription3-->
 
-<!--fullDescription-->
+---
 ---
 #####jQuery
 
@@ -87,4 +77,3 @@ The time interval in milliseconds for which the message is displayed.
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Button/PredefinedTypes/Angular/Light/"
 }
-<!--/fullDescription-->

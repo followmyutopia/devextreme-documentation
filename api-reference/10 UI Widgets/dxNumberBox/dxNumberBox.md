@@ -1,21 +1,19 @@
-<!--id-->dxNumberBox<!--/id-->
-<!--widgettree-->
-
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/number_box<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->dxTextEditor<!--/inherits-->
-<!--lib-->
-dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxNumberBox
+module: ui/number_box
+export: default
+inherits: dxTextEditor
+---
+---
+##### shortDescription
 The **NumberBox** is a widget that displays a numeric value and allows a user to modify it by typing in a value, and incrementing or decrementing it using the keyboard or mouse.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### widgettree
+
+##### lib
+dx.web.js, dx.viz-web.js, dx.all.js
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/editorsnumberboxnumberboxnumberbox/"
 }
@@ -26,4 +24,3 @@ The **NumberBox** is a widget that displays a numeric value and allows a user to
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

@@ -1,13 +1,10 @@
-<!--id-->BaseGauge.Options.scale.tick.visible<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseGauge.Options.scale.tick.visible
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Indicates whether scale major ticks are visible or not.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

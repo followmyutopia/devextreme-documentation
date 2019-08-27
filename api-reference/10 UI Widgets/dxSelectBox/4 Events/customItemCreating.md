@@ -1,45 +1,31 @@
-<!--id-->dxSelectBox.customItemCreating<!--/id-->
-===========================================================================
-<!--type-->eventType<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSelectBox.customItemCreating
+type: eventType
+---
+---
+##### shortDescription
 Raised when a user adds a custom item.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(e): Object
+Information about the event.
+
+##### field(e.component): {WidgetName}
+The widget's instance.
+
+##### field(e.customItem): String | Object | Promise<any>
+The field where to place a custom item.
+
+##### field(e.element): dxElement
+#include common-ref-elementparam with { element: "widget" }
+
+##### field(e.model): Object
+The model data. Available only if you use Knockout.
+
+##### field(e.text): String
+The input field's text.
+
+---
 Main article: [onCustomItemCreating]({basewidgetpath}/Configuration/#onCustomItemCreating)
 
 #####See Also#####
 #include common-link-handleevents
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the event.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-#include common-ref-elementparam with { element: "widget" }
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The model data. Available only if you use Knockout.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->text<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->String<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-The input field's text.
-<!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamName1_field5-->customItem<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->String | Object | Promise<any><!--/typeFunctionParamType1_field5-->
-<!--typeFunctionParamDescription1_field5-->
-The field where to place a custom item.
-<!--/typeFunctionParamDescription1_field5-->

@@ -1,15 +1,15 @@
-<!--id-->dxChartSeriesTypes.StepAreaSeries<!--/id-->
-===========================================================================
-<!--hidePropertyOf--><!--/hidePropertyOf-->
-<!--type-->Object<!--/type-->
-<!--inherits-->dxChartSeriesTypes.CommonSeries<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.StepAreaSeries
+type: Object
+inherits: dxChartSeriesTypes.CommonSeries
+---
+---
+##### shortDescription
 Describes settings supported by a series of the *step rea* type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### hidePropertyOf
+
+---
 #include dataviz-ref-series-type with { 
     seriesType: "steparea"
 }
@@ -19,4 +19,3 @@ Describes settings supported by a series of the *step rea* type.
 }
 
 ![DevExtreme HTML5 Charts StepAreaSeriesType](/Content/images/doc/19_1/ChartJS/StepArea.png)
-<!--/fullDescription-->

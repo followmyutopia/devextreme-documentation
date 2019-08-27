@@ -1,7 +1,6 @@
-<!--id-->dxNumberBox.Options.buttons<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--acceptValues-->'clear' | 'spins'<!--/acceptValues-->
-<!--type-->Array<String, dxTextEditorButton><!--/type-->
-===========================================================================
-
+---
+id: dxNumberBox.Options.buttons
+acceptValues: 'clear' | 'spins'
+type: Array<String, dxTextEditorButton>
+default: undefined
+---

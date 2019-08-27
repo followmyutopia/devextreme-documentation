@@ -1,15 +1,14 @@
-<!--id-->PivotGridDataSource.Options.fields.summaryDisplayMode<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--acceptValues-->'absoluteVariation' | 'percentOfColumnGrandTotal' | 'percentOfColumnTotal' | 'percentOfGrandTotal' | 'percentOfRowGrandTotal' | 'percentOfRowTotal' | 'percentVariation'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.Options.fields.summaryDisplayMode
+acceptValues: 'absoluteVariation' | 'percentOfColumnGrandTotal' | 'percentOfColumnTotal' | 'percentOfGrandTotal' | 'percentOfRowGrandTotal' | 'percentOfRowTotal' | 'percentVariation'
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies a predefined post-processing function. Does not apply when the [calculateSummaryValue](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#calculateSummaryValue) option is set.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Post-processing functions allow you to perform additional calculations on each summary value and take into account neighboring cells' summary values.
 
 The following list describes the available post-processing functions. These functions apply to one summary value at a time. This value is referred to as the "current value" in the descriptions.
@@ -47,4 +46,3 @@ To specify a custom post-processing function, use the [calculateSummaryValue](/D
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Pivot_Grid/SummaryDisplayModes/jQuery/Light/"
 }
-<!--/fullDescription-->

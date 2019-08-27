@@ -1,16 +1,11 @@
-<!--id-->DataSource.searchExpr()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.searchExpr()
+---
+---
+##### shortDescription
 Gets the [searchExpr](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchExpr) option's value.
-<!--/shortDescription-->
 
-<!--returnType-->getter|Array<getter><!--/returnType-->
-<!--returnDescription-->
+##### return: getter | Array<getter>
 The option's value; described in the [Getters and Setters](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters) section.
-<!--/returnDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

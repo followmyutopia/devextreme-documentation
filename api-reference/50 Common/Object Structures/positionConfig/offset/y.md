@@ -1,13 +1,10 @@
-<!--id-->positionConfig.offset.y<!--/id-->
-===========================================================================
-<!--default-->0<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: positionConfig.offset.y
+type: Number
+default: 0
+---
+---
+##### shortDescription
 Specifies the vertical offset.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

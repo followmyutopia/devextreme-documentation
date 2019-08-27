@@ -1,12 +1,8 @@
-<!--id-->dxBarGauge.Options.loadingIndicator.enabled<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
+---
+id: dxBarGauge.Options.loadingIndicator.enabled
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

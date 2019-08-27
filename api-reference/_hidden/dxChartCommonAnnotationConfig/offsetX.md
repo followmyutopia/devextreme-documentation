@@ -1,13 +1,9 @@
-<!--id-->dxChartCommonAnnotationConfig.offsetX<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
+---
+id: dxChartCommonAnnotationConfig.offsetX
+type: Number
+default: undefined
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

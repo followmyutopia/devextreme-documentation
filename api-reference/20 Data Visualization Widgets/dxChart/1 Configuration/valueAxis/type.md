@@ -1,15 +1,14 @@
-<!--id-->dxChart.Options.valueAxis.type<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--acceptValues-->'continuous' | 'discrete' | 'logarithmic'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.valueAxis.type
+acceptValues: 'continuous' | 'discrete' | 'logarithmic'
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies the type of the value axis.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The value axis can have one of the following types.
 
 - **Continuous**        
@@ -29,4 +28,3 @@ Normally, there is no need to specify this option, because the axis type is dete
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeatureslogarithmicaxis/"
 }
-<!--/fullDescription-->

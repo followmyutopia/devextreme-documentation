@@ -1,23 +1,17 @@
-<!--id-->Query.groupBy(getter)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: Query.groupBy(getter)
+---
+---
+##### shortDescription
 Groups data items by the specified [getter](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters).
-<!--/shortDescription-->
 
-<!--paramName1-->getter<!--/paramName1-->
-<!--paramType1-->Object<!--/paramType1-->
-<!--paramDescription1-->
-A getter; in most cases, the name of the data field to group by.
-<!--/paramDescription1-->
-
-<!--returnType-->Query<!--/returnType-->
-<!--returnDescription-->
+##### return: Query
 The **Query** with transformed data.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(getter): Object
+A getter; in most cases, the name of the data field to group by.
+
+---
 ---
 ##### jQuery
 
@@ -89,4 +83,3 @@ The **Query** with transformed data.
 
 #####See Also#####
 - [Grouping](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Grouping)
-<!--/fullDescription-->

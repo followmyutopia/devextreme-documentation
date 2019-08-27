@@ -1,12 +1,9 @@
-<!--id-->CollectionWidgetItem.html<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: CollectionWidgetItem.html
+type: String
+---
+---
+##### shortDescription
 Specifies html code inserted into the widget item element.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

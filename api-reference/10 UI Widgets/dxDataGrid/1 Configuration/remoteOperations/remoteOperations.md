@@ -1,13 +1,12 @@
-<!--id-->dxDataGrid.Options.remoteOperations<!--/id-->
-===========================================================================
-<!--type-->Boolean | Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.Options.remoteOperations
+type: Boolean | Object
+---
+---
+##### shortDescription
 Notifies the **DataGrid** of the server's data processing operations.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Server-side data processing improves the widget's performance on large datasets. When the server does not implement particular operations (and/or the corresponding **remoteOperations** fields are **false**) they are executed on the client. Note that the widget may send queries to the server while executing a client-side operation.
 
 The following table lists the possible **remoteOperations** configurations and the operations the server should implement. The server should also implement additional operations depending on the used widget functionality.
@@ -89,4 +88,3 @@ The following restrictions apply to widget functionality when operations are rem
 
 #####See Also#####
 - **Data Binding**: [Web API Service](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Web_API_Service/) | [PHP Service](/Documentation/Guide/Widgets/DataGrid/Data_Binding/PHP_Service/) | [MongoDB Service](/Documentation/Guide/Widgets/DataGrid/Data_Binding/MongoDB_Service/) | [Custom Sources](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Custom_Sources/)
-<!--/fullDescription-->

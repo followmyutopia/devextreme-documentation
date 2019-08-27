@@ -1,11 +1,8 @@
-<!--id-->MapLayer.clearSelection()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: MapLayer.clearSelection()
+---
+---
+##### shortDescription
 Deselects all layer elements.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

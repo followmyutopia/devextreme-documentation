@@ -1,6 +1,5 @@
-<!--id-->dxValidationSummary.Options.onItemHold<!--/id-->
-<!--EventForAction-->dxValidationSummary.itemHold<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxValidationSummary.Options.onItemHold
+hidden: 
+EventForAction: dxValidationSummary.itemHold
+---

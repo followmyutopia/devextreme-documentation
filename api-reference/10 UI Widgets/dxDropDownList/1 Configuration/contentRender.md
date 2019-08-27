@@ -1,5 +1,4 @@
-<!--id-->dxDropDownList.Options.contentRender<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxDropDownList.Options.contentRender
+hidden: 
+---

@@ -1,14 +1,13 @@
-<!--id-->dxScheduler.Options.dataSource<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->String | Array<dxSchedulerAppointment> | DataSource | DataSource_Options<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler.Options.dataSource
+type: String | Array<dxSchedulerAppointment> | DataSource | DataSource_Options
+default: null
+---
+---
+##### shortDescription
 Binds the widget to data.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-dataSource-description with {
     widget_works_with: "The **Scheduler** works with collections of objects.",
 
@@ -20,4 +19,3 @@ Binds the widget to data.
 
     paginate_note: "- If you wrap the store into the **DataSource** object explicitly, set the [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) option to **false** to prevent data from partitioning."
 }
-<!--/fullDescription-->

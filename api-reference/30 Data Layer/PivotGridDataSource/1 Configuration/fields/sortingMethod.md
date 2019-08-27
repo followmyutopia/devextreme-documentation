@@ -1,14 +1,34 @@
-<!--id-->PivotGridDataSource.Options.fields.sortingMethod<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->function(a, b)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.Options.fields.sortingMethod
+type: function(a, b)
+default: undefined
+---
+---
+##### shortDescription
 Specifies a custom comparison function that sorts the field's values in the [headers](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Headers).
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(a): Object
+A field value to be compared.
+
+##### field(a.children): Array<any>
+The field value's children; available only when the corresponding header item is expanded.
+
+##### field(a.value): String | Number
+The field value.
+
+##### param(b): Object
+A field value to be compared.
+
+##### field(b.children): Array<any>
+The field value's children; available only when the corresponding header item is expanded.
+
+##### field(b.value): String | Number
+The field value.
+
+##### return: Number
+Specifies whether *a* goes before *b*.
+
+---
 This function accepts two field values and should return a number indicating their sort order:
 
 - *Less than zero*     
@@ -92,40 +112,3 @@ Inside this function, you can access the [field's configuration](/Documentation/
 
 #####See Also#####
 - **fields[]**.[sortOrder](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#sortOrder)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->a<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-A field value to be compared.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->String | Number<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The field value.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->children<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->Array<any><!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-The field value's children; available only when the corresponding header item is expanded.
-<!--/typeFunctionParamDescription1_field2-->
-
-<!--typeFunctionParamName2-->b<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->Object<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-A field value to be compared.
-<!--/typeFunctionParamDescription2-->
-<!--typeFunctionParamName2_field1-->value<!--/typeFunctionParamName2_field1-->
-<!--typeFunctionParamType2_field1-->String | Number<!--/typeFunctionParamType2_field1-->
-<!--typeFunctionParamDescription2_field1-->
-The field value.
-<!--/typeFunctionParamDescription2_field1-->
-<!--typeFunctionParamName2_field2-->children<!--/typeFunctionParamName2_field2-->
-<!--typeFunctionParamType2_field2-->Array<any><!--/typeFunctionParamType2_field2-->
-<!--typeFunctionParamDescription2_field2-->
-The field value's children; available only when the corresponding header item is expanded.
-<!--/typeFunctionParamDescription2_field2-->
-
-<!--typeFunctionReturnType-->Number<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-Specifies whether *a* goes before *b*.
-<!--/typeFunctionReturnDescription-->

@@ -1,14 +1,13 @@
-<!--id-->dxTreeView.Options.virtualModeEnabled<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeView.Options.virtualModeEnabled
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Enables the virtual mode in which nodes are loaded on demand. Use it to enhance the performance on large datasets.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 If this option is **true**, the widget initially loads only the root nodes. Child nodes are loaded when their parent is being expanded.
 
 The virtual mode has the following restrictions:
@@ -26,4 +25,3 @@ The virtual mode has the following restrictions:
 #####See Also#####
 - [Enhance Performance on Large Datasets](/Documentation/Guide/Widgets/TreeView/Enhance_Performance_on_Large_Datasets/)
 - [createChildren](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#createChildren)
-<!--/fullDescription-->

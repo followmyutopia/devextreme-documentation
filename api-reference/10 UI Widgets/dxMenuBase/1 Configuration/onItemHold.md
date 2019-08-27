@@ -1,6 +1,5 @@
-<!--id-->dxMenuBase.Options.onItemHold<!--/id-->
-<!--EventForAction-->dxMenuBase.itemHold<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxMenuBase.Options.onItemHold
+hidden: 
+EventForAction: dxMenuBase.itemHold
+---

@@ -1,29 +1,21 @@
-<!--id-->viz.currentTheme(platform, colorScheme)<!--/id-->
-===================================================================
-<!--module-->viz/themes<!--/module-->
-<!--export-->currentTheme<!--/export-->
-===================================================================
-
-<!--shortDescription-->
+---
+id: viz.currentTheme(platform, colorScheme)
+module: viz/themes
+export: currentTheme
+---
+---
+##### shortDescription
 Changes the current theme for all data visualization widgets on the page. The color scheme is defined separately.
-<!--/shortDescription-->
 
-<!--paramName1-->platform<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
-<!--paramDescription1-->
+##### param(platform): String
 The platform name or *"generic"*.
-<!--/paramDescription1-->
 
-<!--paramName2-->colorScheme<!--/paramName2-->
-<!--paramType2-->String<!--/paramType2-->
-<!--paramDescription2-->
+##### param(colorScheme): String
 The color scheme: *"light"* or *"dark"*.
-<!--/paramDescription2-->
 
-<!--fullDescription-->
+---
 Only the widgets created after calling this method use the new theme. Refresh the styling settings in other widgets using the [DevExpress.viz.refreshTheme()](/Documentation/ApiReference/Common/utils/viz/#refreshTheme) method.
 
 #####See Also#####
 - [Themes](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Themes)
 - [DevExpress.viz.registerTheme(customTheme, baseTheme)](/Documentation/ApiReference/Common/utils/viz/#registerThemecustomTheme_baseTheme)
-<!--/fullDescription-->

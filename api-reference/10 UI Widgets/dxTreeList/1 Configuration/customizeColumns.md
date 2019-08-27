@@ -1,13 +1,15 @@
-<!--id-->dxTreeList.Options.customizeColumns<!--/id-->
-===========================================================================
-<!--type-->function(columns)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeList.Options.customizeColumns
+type: function(columns)
+---
+---
+##### shortDescription
 Customizes columns after they are created.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(columns): Array<dxTreeListColumn>
+All column [configurations](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/).
+
+---
 Use this function to make minor adjustments to automatically generated columns. You can access and modify column configurations using the function's parameter. 
 
 ---
@@ -51,10 +53,3 @@ Use this function to make minor adjustments to automatically generated columns. 
 ---
 
 For a more profound column customization, declare the [columns](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/) array.
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->columns<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Array<dxTreeListColumn><!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-All column [configurations](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/).
-<!--/typeFunctionParamDescription1-->

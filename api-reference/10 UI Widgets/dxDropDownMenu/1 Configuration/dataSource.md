@@ -1,13 +1,10 @@
-<!--id-->dxDropDownMenu.Options.dataSource<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->String | Array<Object> | DataSource | DataSource_Options<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDropDownMenu.Options.dataSource
+type: String | Array<Object> | DataSource | DataSource_Options
+default: null
+---
+---
+##### shortDescription
 Overriden
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

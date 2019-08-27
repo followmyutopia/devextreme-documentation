@@ -1,15 +1,14 @@
-<!--id-->dxPieChartSeriesTypes.CommonPieChartSeries.hoverMode<!--/id-->
-===========================================================================
-<!--default-->'onlyPoint'<!--/default-->
-<!--acceptValues-->'none' | 'onlyPoint'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPieChartSeriesTypes.CommonPieChartSeries.hoverMode
+acceptValues: 'none' | 'onlyPoint'
+type: String
+default: 'onlyPoint'
+---
+---
+##### shortDescription
 Specifies the chart elements to highlight when a series is hovered over.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 <p>The following values are available.</p>
 
 <ul>
@@ -27,4 +26,3 @@ The appearance of the hovered series is not changed.
     enum: "`PieChartSeriesInteractionMode`",
     values: "`OnlyPoint` and `None`"
 }
-<!--/fullDescription-->

@@ -1,14 +1,13 @@
-<!--id-->format.type<!--/id-->
-===========================================================================
-<!--acceptValues-->'billions' | 'currency' | 'day' | 'decimal' | 'exponential' | 'fixedPoint' | 'largeNumber' | 'longDate' | 'longTime' | 'millions' | 'millisecond' | 'month' | 'monthAndDay' | 'monthAndYear' | 'percent' | 'quarter' | 'quarterAndYear' | 'shortDate' | 'shortTime' | 'thousands' | 'trillions' | 'year' | 'dayOfWeek' | 'hour' | 'longDateLongTime' | 'minute' | 'second' | 'shortDateShortTime'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: format.type
+acceptValues: 'billions' | 'currency' | 'day' | 'decimal' | 'exponential' | 'fixedPoint' | 'largeNumber' | 'longDate' | 'longTime' | 'millions' | 'millisecond' | 'month' | 'monthAndDay' | 'monthAndYear' | 'percent' | 'quarter' | 'quarterAndYear' | 'shortDate' | 'shortTime' | 'thousands' | 'trillions' | 'year' | 'dayOfWeek' | 'hour' | 'longDateLongTime' | 'minute' | 'second' | 'shortDateShortTime'
+type: String
+---
+---
+##### shortDescription
 Specifies a predefined format. Does not apply if you have specified the [formatter](/Documentation/ApiReference/Common/Object_Structures/format/#formatter) function.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 You can choose one of the predefined formats, depending on the values you need to format, from the following groups:
 
 **Numeric Formats**
@@ -97,4 +96,3 @@ When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC
 #####See Also#####
 - **format**.[currency](/Documentation/ApiReference/Common/Object_Structures/format/#currency)
 - **format**.[precision](/Documentation/ApiReference/Common/Object_Structures/format/#precision)
-<!--/fullDescription-->

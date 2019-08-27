@@ -1,5 +1,20 @@
-<!--id-->dxHtmlEditor<!--/id-->
-<!--widgettree-->
+---
+id: dxHtmlEditor
+module: ui/html_editor
+export: default
+inherits: Editor
+---
+---
+##### shortDescription
+[tags] ctp
+
+**HtmlEditor** is a WYSIWYG editor that allows you to format textual and visual content and to output it in HTML or Markdown. **HtmlEditor** is built on top of and requires <a href="https://quilljs.com/" target="_blank">Quill</a>.
+
+#include common-ctp-note with {
+    component: "HtmlEditor"
+}
+
+##### widgettree
 valueType: "html",
 value: "This is <b>HtmlEditor</b>.<br/>Select text and use a toolbar control.",
 toolbar: {
@@ -14,25 +29,8 @@ variables: {
     dataSource: [ "FirstName", "LastName", "Company" ],
     escapeChar: [ "{", "}" ]
 }
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/html_editor<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->Editor<!--/inherits-->
-===========================================================================
 
-<!--shortDescription-->
-[tags] ctp
-
-**HtmlEditor** is a WYSIWYG editor that allows you to format textual and visual content and to output it in HTML or Markdown. **HtmlEditor** is built on top of and requires <a href="https://quilljs.com/" target="_blank">Quill</a>.
-
-#include common-ctp-note with {
-    component: "HtmlEditor"
-}
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/HtmlEditor/Overview/jQuery/Light/"
 }
@@ -43,4 +41,3 @@ variables: {
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

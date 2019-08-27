@@ -1,17 +1,15 @@
-<!--id-->dxSliderBase.Options.tooltip.showMode<!--/id-->
-===========================================================================
-<!--default-->'onHover'<!--/default-->
-<!--acceptValues-->'always' | 'onHover'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSliderBase.Options.tooltip.showMode
+acceptValues: 'always' | 'onHover'
+type: String
+default: 'onHover'
+---
+---
+##### shortDescription
 Specifies when the widget shows a tooltip.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-ref-enum with {
     enum: "`SliderTooltipShowMode`",
     values: "`OnHover` and `Always`"
 }
-<!--/fullDescription-->

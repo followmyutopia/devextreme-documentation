@@ -1,14 +1,13 @@
-<!--id-->dxCalendar.Options.dateSerializationFormat<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxCalendar.Options.dateSerializationFormat
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies the date-time value serialization format. Use it only if you do not specify the [value](/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#value) at design time.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Without a value, the widget cannot detect its format. In this case, specify the **dateSerializationFormat** option that supports the following formats:
 
 - `"yyyy-MM-dd"` - a local date  
@@ -22,4 +21,3 @@ Without a value, the widget cannot detect its format. In this case, specify the 
 This option applies only if the **forceIsoDateParsing** field is set to **true** in the [global configuration object](/Documentation/ApiReference/Common/utils/#configconfig).
 
 [note] If you are going to change the **value** using the API, make sure that it has the same format that you specified in this option.
-<!--/fullDescription-->

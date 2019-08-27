@@ -1,13 +1,10 @@
-<!--id-->dxDateBox.Options.invalidDateMessage<!--/id-->
-===========================================================================
-<!--default-->'Value must be a date or time'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDateBox.Options.invalidDateMessage
+type: String
+default: 'Value must be a date or time'
+---
+---
+##### shortDescription
 Specifies the message displayed if the typed value is not a valid date or time.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

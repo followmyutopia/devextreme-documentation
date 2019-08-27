@@ -1,19 +1,14 @@
-<!--d-->
+---
+##### d
 get label of point
-<!--/d-->
-<!--rd-->label of the point<!--/rd-->
-===================================================================
-===================================================================
 
-<!--shortDescription-->
+##### rd
+label of the point
+
+##### shortDescription
 Allows you to obtain the label of the series point.
-<!--/shortDescription-->
 
-<!--returnType-->pieChartPointLabel<!--/returnType-->
-<!--returnDescription-->
+##### return: pieChartPointLabel
 The point label.
-<!--/returnDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

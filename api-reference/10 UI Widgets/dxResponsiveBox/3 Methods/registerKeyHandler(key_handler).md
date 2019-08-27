@@ -1,6 +1,4 @@
-<!--id-->dxResponsiveBox.registerKeyHandler(key, handler)<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
-
-
+---
+id: dxResponsiveBox.registerKeyHandler(key, handler)
+hidden: 
+---

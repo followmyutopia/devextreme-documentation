@@ -1,13 +1,10 @@
-<!--id-->BaseLegend.title.text<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseLegend.title.text
+type: String
+default: null
+---
+---
+##### shortDescription
 Specifies the legend title's text.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

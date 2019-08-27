@@ -1,16 +1,11 @@
-<!--id-->DataSource.isLoading()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.isLoading()
+---
+---
+##### shortDescription
 Checks whether data is being loaded in the **DataSource**.
-<!--/shortDescription-->
 
-<!--returnType-->Boolean<!--/returnType-->
-<!--returnDescription-->
+##### return: Boolean
 **true** if data is being loaded; otherwise **false**.
-<!--/returnDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

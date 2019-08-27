@@ -1,12 +1,9 @@
-<!--id-->BaseChartLegendItem.series<!--/id-->
-===========================================================================
-<!--type-->baseSeriesObject<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseChartLegendItem.series
+type: baseSeriesObject
+---
+---
+##### shortDescription
 The series that the item represents on the legend.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

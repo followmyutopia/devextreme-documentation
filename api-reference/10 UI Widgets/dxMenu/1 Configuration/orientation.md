@@ -1,15 +1,14 @@
-<!--id-->dxMenu.Options.orientation<!--/id-->
-===========================================================================
-<!--default-->'horizontal'<!--/default-->
-<!--acceptValues-->'horizontal' | 'vertical'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxMenu.Options.orientation
+acceptValues: 'horizontal' | 'vertical'
+type: String
+default: 'horizontal'
+---
+---
+##### shortDescription
 Specifies whether the menu has horizontal or vertical orientation.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-ref-enum with {
     enum: "`Orientation`",
     values: "`Horizontal` and `Vertical`"
@@ -18,4 +17,3 @@ Specifies whether the menu has horizontal or vertical orientation.
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Menu/Overview/jQuery/Light/"
 }
-<!--/fullDescription-->

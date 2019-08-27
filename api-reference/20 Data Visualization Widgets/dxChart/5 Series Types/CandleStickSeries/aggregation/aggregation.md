@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.CandleStickSeries.aggregation<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.CandleStickSeries.aggregation
+type: Object
+---

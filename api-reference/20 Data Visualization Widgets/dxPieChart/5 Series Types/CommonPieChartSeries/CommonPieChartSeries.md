@@ -1,13 +1,10 @@
-<!--id-->dxPieChartSeriesTypes.CommonPieChartSeries<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPieChartSeriesTypes.CommonPieChartSeries
+type: Object
+hidden: 
+---
+---
+##### shortDescription
 An object that defines configuration options for chart series.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,14 +1,13 @@
-<!--id-->PivotGridDataSource.Options.fields.selector<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->function()<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.Options.fields.selector
+type: function()
+default: undefined
+---
+---
+##### shortDescription
 Specifies a function that combines the field's values into groups for the [headers](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Headers). Cannot be used with an [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/) or [remote operations](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/#remoteOperations).
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This function is an alternative to the [groupInterval](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#groupInterval) option and should return a group name that corresponds to a data object. The function's parameter represents this data object. For example, the **selector** function in the following code groups birth dates by decades:
 
 ---
@@ -146,4 +145,3 @@ Another example: a **selector** that places values below and over 1000 into diff
 
 #####See Also#####
 - [Data Grouping](/Documentation/Guide/Widgets/PivotGrid/Grouping/#Data_Grouping)
-<!--/fullDescription-->

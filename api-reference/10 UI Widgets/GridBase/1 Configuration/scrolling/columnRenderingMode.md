@@ -1,15 +1,14 @@
-<!--id-->GridBase.Options.scrolling.columnRenderingMode<!--/id-->
-===========================================================================
-<!--default-->'standard'<!--/default-->
-<!--acceptValues-->'standard' | 'virtual'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.scrolling.columnRenderingMode
+acceptValues: 'standard' | 'virtual'
+type: String
+default: 'standard'
+---
+---
+##### shortDescription
 Specifies the rendering mode for columns. Applies when columns are left outside the viewport. Requires the [columnWidth]({basewidgetpath}/Configuration/#columnWidth), [columnAutoWidth]({basewidgetpath}/Configuration/#columnAutoWidth), or [width]({basewidgetpath}/Configuration/columns/#width) (for all columns) option specified.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The following rendering modes are available in the widget: 
 
 - *"standard"*        
@@ -22,4 +21,3 @@ Renders only those columns that get into the viewport.
     enum: "`GridColumnRenderingMode`",
     values: "`Standard` and `Virtual`"
 }
-<!--/fullDescription-->

@@ -1,13 +1,10 @@
-<!--id-->dxFileManager.Options.permissions.create<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFileManager.Options.permissions.create
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether a user is allowed to create files and folders.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

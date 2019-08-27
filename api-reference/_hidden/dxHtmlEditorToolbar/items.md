@@ -1,5 +1,4 @@
-<!--id-->dxHtmlEditorToolbar.items<!--/id-->
-===========================================================================
-<!--type-->Array<dxHtmlEditorToolbarItem, String><!--/type-->
-===========================================================================
-
+---
+id: dxHtmlEditorToolbar.items
+type: Array<dxHtmlEditorToolbarItem, String>
+---

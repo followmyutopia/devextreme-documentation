@@ -1,12 +1,11 @@
-<!--id-->ArrayStore.clear()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: ArrayStore.clear()
+---
+---
+##### shortDescription
 Clears all the **ArrayStore**'s associated data.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -33,4 +32,3 @@ Clears all the **ArrayStore**'s associated data.
     }
 
 ---
-<!--/fullDescription-->

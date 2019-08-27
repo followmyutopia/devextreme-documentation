@@ -1,16 +1,14 @@
-<!--id-->dxHtmlEditor.Options.toolbar<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->dxHtmlEditorToolbar<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxHtmlEditor.Options.toolbar
+type: dxHtmlEditorToolbar
+default: null
+---
+---
+##### shortDescription
 Configures the widget's toolbar.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 ![DevExtreme HTML5 JavaScript HtmlEditor Toolbar](Content/images/doc/19_2/htmlEditor/visual_elements/toolbar.png)
 
 #####See Also#####
 - [Toolbar](/Documentation/Guide/Widgets/HtmlEditor/Toolbar/Built-In_Controls/)
-<!--/fullDescription-->

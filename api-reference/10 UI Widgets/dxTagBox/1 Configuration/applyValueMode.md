@@ -1,15 +1,14 @@
-<!--id-->dxTagBox.Options.applyValueMode<!--/id-->
-===========================================================================
-<!--default-->'instantly'<!--/default-->
-<!--acceptValues-->'instantly' | 'useButtons'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTagBox.Options.applyValueMode
+acceptValues: 'instantly' | 'useButtons'
+type: String
+default: 'instantly'
+---
+---
+##### shortDescription
 Specifies how the widget applies values.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The option accepts the following values.
 
 - **instantly**  
@@ -22,4 +21,3 @@ The option accepts the following values.
     enum: "`EditorApplyValueMode`",
     values: "`Instantly` and `UseButtons`"
 }
-<!--/fullDescription-->

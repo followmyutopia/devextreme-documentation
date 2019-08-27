@@ -1,8 +1,7 @@
-===========================================================================
-<!--merge--><!--/merge-->
-===========================================================================
+---
+##### merge
 
-<!--fullDescription-->
+---
 The following list points out the differences in editing modes.
 
 - [**Row**](/Documentation/Guide/Widgets/{WidgetName}/Editing/#User_Interaction/Row_Mode)       
@@ -20,4 +19,3 @@ Differs from the form mode in that the form with editable fields is placed in a 
     enum: "`GridEditMode`",
     values: "`Row`, `Batch`, `Cell`, `Form`, and `Popup`"
 }
-<!--/fullDescription-->

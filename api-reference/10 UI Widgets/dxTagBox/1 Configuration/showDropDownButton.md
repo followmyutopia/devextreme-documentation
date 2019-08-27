@@ -1,5 +1,4 @@
-<!--id-->dxTagBox.Options.showDropDownButton<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-===========================================================================
-
+---
+id: dxTagBox.Options.showDropDownButton
+default: false
+---

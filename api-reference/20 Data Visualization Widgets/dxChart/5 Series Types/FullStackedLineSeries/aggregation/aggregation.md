@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.FullStackedLineSeries.aggregation<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.FullStackedLineSeries.aggregation
+type: Object
+---

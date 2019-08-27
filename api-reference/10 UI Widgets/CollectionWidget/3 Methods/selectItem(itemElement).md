@@ -1,18 +1,10 @@
-<!--id-->CollectionWidget.selectItem(itemElement)<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
+---
+id: CollectionWidget.selectItem(itemElement)
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### param(itemElement): Node
 
-<!--/shortDescription-->
-
-<!--paramName1-->itemElement<!--/paramName1-->
-<!--paramType1-->Node<!--/paramType1-->
-<!--paramDescription1-->
-
-<!--/paramDescription1-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

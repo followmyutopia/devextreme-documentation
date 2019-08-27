@@ -1,13 +1,10 @@
-<!--id-->dxPieChartSeriesTypes.CommonPieChartSeries.hoverStyle.hatching.opacity<!--/id-->
-===========================================================================
-<!--default-->0.75<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPieChartSeriesTypes.CommonPieChartSeries.hoverStyle.hatching.opacity
+type: Number
+default: 0.75
+---
+---
+##### shortDescription
 Specifies the opacity of hatching lines.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,15 +1,14 @@
-<!--id-->dxFileUploader.Options.uploadMode<!--/id-->
-===========================================================================
-<!--default-->'instantly'<!--/default-->
-<!--acceptValues-->'instantly' | 'useButtons' | 'useForm'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFileUploader.Options.uploadMode
+acceptValues: 'instantly' | 'useButtons' | 'useForm'
+type: String
+default: 'instantly'
+---
+---
+##### shortDescription
 Specifies how the widget uploads files.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Depending on the **uploadMode**, the **FileUploader** widget uses an <a href="http://www.w3schools.com/html/html_forms.asp" target="_blank">HTML form</a> or a <a href="https://developer.mozilla.org/en/docs/Web/API/FormData" target="_blank">FormData</a> interface with a series of Ajax requests to upload files. The **uploadMode** option accepts one of the following values:
 
 - *"instantly"* (default)       
@@ -32,4 +31,3 @@ HTML form upload. Files are uploaded when the HTML form is submitted.
 
 #####See Also#####
 - [Upload Mode](/Documentation/Guide/Widgets/FileUploader/Upload_Files/Client-Side_Settings/#Upload_Mode)
-<!--/fullDescription-->

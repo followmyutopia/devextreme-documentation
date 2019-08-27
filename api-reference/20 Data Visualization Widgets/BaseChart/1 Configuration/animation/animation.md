@@ -1,13 +1,12 @@
-<!--id-->BaseChart.Options.animation<!--/id-->
-===========================================================================
-<!--type-->Object | Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseChart.Options.animation
+type: Object | Boolean
+---
+---
+##### shortDescription
 Specifies animation options.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The widget animates its elements at the beginning of its lifetime and when the data source changes.
 
 ---
@@ -126,4 +125,3 @@ The widget animates its elements at the beginning of its lifetime and when the d
     export default App;
 
 ---
-<!--/fullDescription-->

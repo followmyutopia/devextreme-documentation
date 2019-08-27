@@ -1,13 +1,12 @@
-<!--id-->DataSource.Options.customQueryParams<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.Options.customQueryParams
+type: Object
+---
+---
+##### shortDescription
 Custom parameters that should be passed to an OData service with the load query. Available only for the [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/).
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -46,4 +45,3 @@ Custom parameters that should be passed to an OData service with the load query.
 
 #####See Also#####
 - [OData - Invoking Service Operations](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData/Invoking_Service_Operations)
-<!--/fullDescription-->

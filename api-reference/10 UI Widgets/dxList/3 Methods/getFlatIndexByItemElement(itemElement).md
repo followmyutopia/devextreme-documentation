@@ -1,23 +1,12 @@
-<!--id-->dxList.getFlatIndexByItemElement(itemElement)<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
+---
+id: dxList.getFlatIndexByItemElement(itemElement)
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### return: Object
 
-<!--/shortDescription-->
+##### param(itemElement): Node
 
-<!--paramName1-->itemElement<!--/paramName1-->
-<!--paramType1-->Node<!--/paramType1-->
-<!--paramDescription1-->
-
-<!--/paramDescription1-->
-
-<!--returnType-->Object<!--/returnType-->
-<!--returnDescription-->
-
-<!--/returnDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

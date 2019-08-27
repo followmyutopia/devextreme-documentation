@@ -1,14 +1,11 @@
-<!--id-->dxList.Options.selectedIndex<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--default-->-1<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxList.Options.selectedIndex
+type: Number
+default: -1
+hidden: 
+---
+---
+##### shortDescription
 The index of the currently selected list item.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

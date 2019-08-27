@@ -1,7 +1,6 @@
-<!--id-->dxChartSeriesTypes.StackedBarSeries.label.position<!--/id-->
-===========================================================================
-<!--default-->'inside'<!--/default-->
-<!--acceptValues-->'inside' | 'outside'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.StackedBarSeries.label.position
+acceptValues: 'inside' | 'outside'
+type: String
+default: 'inside'
+---

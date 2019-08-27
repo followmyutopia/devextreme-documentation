@@ -1,13 +1,10 @@
-<!--id-->dxPivotGrid.Options.fieldChooser.height<!--/id-->
-===========================================================================
-<!--default-->600<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGrid.Options.fieldChooser.height
+type: Number
+default: 600
+---
+---
+##### shortDescription
 Specifies the field chooser height.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

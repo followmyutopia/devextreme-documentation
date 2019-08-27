@@ -1,15 +1,15 @@
-<!--id-->dxChartSeriesTypes.SplineAreaSeries<!--/id-->
-===========================================================================
-<!--hidePropertyOf--><!--/hidePropertyOf-->
-<!--type-->Object<!--/type-->
-<!--inherits-->dxChartSeriesTypes.CommonSeries<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.SplineAreaSeries
+type: Object
+inherits: dxChartSeriesTypes.CommonSeries
+---
+---
+##### shortDescription
 Describes settings supported by a series of the *spline area* type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### hidePropertyOf
+
+---
 #include dataviz-ref-series-type with { 
     seriesType: "splinearea"
 }
@@ -19,4 +19,3 @@ Describes settings supported by a series of the *spline area* type.
 }
 
 ![DevExtreme HTML5 Charts SplineAreaSeriesType](/Content/images/doc/19_2/ChartJS/SplineArea.png)
-<!--/fullDescription-->

@@ -1,12 +1,10 @@
-===========================================================================
-<!--merge--><!--/merge-->
-===========================================================================
+---
+##### merge
 
-<!--shortDescription-->
+##### shortDescription
 Along with [verticalAlignment]({basewidgetpath}/Configuration/legends/#verticalAlignment), specifies the legend's position.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-ref-enum with {
     enum: "`HorizontalAlignment`",
     values: "`Left`, `Center`, and `Right`"
@@ -14,4 +12,3 @@ Along with [verticalAlignment]({basewidgetpath}/Configuration/legends/#verticalA
 
 #####See Also#####
 - **legends[]**.[orientation]({basewidgetpath}/Configuration/legends/#orientation)
-<!--/fullDescription-->

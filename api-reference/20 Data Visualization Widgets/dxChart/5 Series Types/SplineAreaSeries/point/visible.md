@@ -1,6 +1,5 @@
-<!--id-->dxChartSeriesTypes.SplineAreaSeries.point.visible<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.SplineAreaSeries.point.visible
+type: Boolean
+default: false
+---

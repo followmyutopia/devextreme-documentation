@@ -1,5 +1,4 @@
-<!--id-->dxValidationSummary.Options.activeStateEnabled<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxValidationSummary.Options.activeStateEnabled
+hidden: 
+---

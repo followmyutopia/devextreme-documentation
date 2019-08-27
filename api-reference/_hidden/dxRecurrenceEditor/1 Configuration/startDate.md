@@ -1,7 +1,6 @@
-<!--id-->dxRecurrenceEditor.Options.startDate<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--default-->new Date()<!--/default-->
-<!--type-->Date<!--/type-->
-===========================================================================
-
+---
+id: dxRecurrenceEditor.Options.startDate
+type: Date
+default: new Date()
+hidden: 
+---

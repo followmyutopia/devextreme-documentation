@@ -1,6 +1,5 @@
-<!--id-->dxTextEditor.Options.focusStateEnabled<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxTextEditor.Options.focusStateEnabled
+type: Boolean
+default: true
+---

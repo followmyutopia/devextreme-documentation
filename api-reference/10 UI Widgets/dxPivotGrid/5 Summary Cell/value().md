@@ -1,16 +1,11 @@
-<!--id-->dxPivotGridSummaryCell.value()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGridSummaryCell.value()
+---
+---
+##### shortDescription
 Gets the value of the current cell.
-<!--/shortDescription-->
 
-<!--returnType-->any<!--/returnType-->
-<!--returnDescription-->
+##### return: any
 The cell value.
-<!--/returnDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

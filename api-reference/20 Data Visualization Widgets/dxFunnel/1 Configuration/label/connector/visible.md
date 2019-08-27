@@ -1,13 +1,10 @@
-<!--id-->dxFunnel.Options.label.connector.visible<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFunnel.Options.label.connector.visible
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Shows label connectors.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

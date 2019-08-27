@@ -1,12 +1,9 @@
-<!--id-->ExcelDataGridCell.rowType<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: ExcelDataGridCell.rowType
+type: String
+---
+---
+##### shortDescription
 The [type](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#rowType) of the cell's row.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

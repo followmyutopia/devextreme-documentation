@@ -1,13 +1,10 @@
-<!--id-->dxPolarChart.Options.commonAxisSettings.minorGrid.visible<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChart.Options.commonAxisSettings.minorGrid.visible
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Indicates whether the minor grid is visible or not.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

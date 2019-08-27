@@ -1,8 +1,7 @@
-===========================================================================
-<!--merge--><!--/merge-->
-===========================================================================
+---
+##### merge
 
-<!--fullDescription-->
+---
 #include uiwidgets-ref-width
 
 [note]
@@ -16,4 +15,3 @@ The option affects only the size of the widget container. To specify the size of
     }
 
 [/note]
-<!--/fullDescription-->

@@ -1,6 +1,5 @@
-<!--id-->dxTagBox.Options.onCopy<!--/id-->
-<!--EventForAction-->dxTagBox.copy<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxTagBox.Options.onCopy
+hidden: 
+EventForAction: dxTagBox.copy
+---

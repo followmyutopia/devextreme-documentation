@@ -1,13 +1,10 @@
-<!--id-->dxTreeMap.Options.tile.border.width<!--/id-->
-===========================================================================
-<!--default-->1<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMap.Options.tile.border.width
+type: Number
+default: 1
+---
+---
+##### shortDescription
 Specifies the width of the tile borders in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

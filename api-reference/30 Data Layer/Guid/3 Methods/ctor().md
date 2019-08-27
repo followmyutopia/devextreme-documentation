@@ -1,12 +1,11 @@
-<!--id-->Guid.ctor()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: Guid.ctor()
+---
+---
+##### shortDescription
 Creates a new **Guid** instance that contains a generated GUID.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -25,4 +24,3 @@ Creates a new **Guid** instance that contains a generated GUID.
     }
 
 ---
-<!--/fullDescription-->

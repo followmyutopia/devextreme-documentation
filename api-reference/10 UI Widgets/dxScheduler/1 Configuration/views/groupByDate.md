@@ -1,15 +1,13 @@
-<!--id-->dxScheduler.Options.views.groupByDate<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler.Options.views.groupByDate
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether to group appointments by date first. Applies only if [groupOrientation](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/#groupOrientation) is *"horizontal"*.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
+---
 ![DevExtreme Scheduler Group By Date](/Content/images/doc/19_2/UiWidgets/Scheduler_groupByDate.png)
 
 #include common-demobutton with {
@@ -18,4 +16,3 @@ Specifies whether to group appointments by date first. Applies only if [groupOri
 
 #####See Also#####
 - [Group Appointments by Resources](/Documentation/Guide/Widgets/Scheduler/Resources/Group_Appointments_by_Resources/)
-<!--/fullDescription-->

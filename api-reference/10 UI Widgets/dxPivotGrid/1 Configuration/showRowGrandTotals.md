@@ -1,13 +1,11 @@
-<!--id-->dxPivotGrid.Options.showRowGrandTotals<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGrid.Options.showRowGrandTotals
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether to display the Grand Total row.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Grand Total row displays the summary values of an entire column.
-<!--/fullDescription-->

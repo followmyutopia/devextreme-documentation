@@ -1,3 +1,7 @@
-<!--id-->circularTextCloud.text.font<!--/id-->
-<!--merge--><!--/merge-->
-===========================================================================
+---
+id: circularTextCloud.text.font
+---
+---
+##### merge
+
+---

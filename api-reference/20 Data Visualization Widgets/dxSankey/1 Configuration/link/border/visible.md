@@ -1,13 +1,10 @@
-<!--id-->dxSankey.Options.link.border.visible<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSankey.Options.link.border.visible
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether the borders are visible.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

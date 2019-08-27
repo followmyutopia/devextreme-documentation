@@ -1,13 +1,10 @@
-<!--id-->dxRangeSelector.Options.scale.label.visible<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.scale.label.visible
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether or not the scale's labels are visible.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

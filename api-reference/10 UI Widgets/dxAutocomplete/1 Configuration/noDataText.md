@@ -1,14 +1,10 @@
-<!--id-->dxAutocomplete.Options.noDataText<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--default-->''<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxAutocomplete.Options.noDataText
+type: String
+default: ''
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

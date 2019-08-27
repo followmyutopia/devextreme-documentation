@@ -1,13 +1,12 @@
-<!--id-->ODataStore.Options.filterToLower<!--/id-->
-===========================================================================
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: ODataStore.Options.filterToLower
+type: Boolean
+---
+---
+##### shortDescription
 Specifies whether to convert string values to lowercase in filter and search requests. Applies to the following operations: *"startswith"*, *"endswith"*, *"contains"*, and *"notcontains"*.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Defaults to the global [oDataFilterToLower](/Documentation/ApiReference/Common/Object_Structures/globalConfig/#oDataFilterToLower) setting.
 
 When this option is **true**, the filter expression sent to the server contains a `tolower()` function call and a lowercase filter value.
@@ -52,4 +51,3 @@ When this option is **true**, the filter expression sent to the server contains 
     }
 
 ---
-<!--/fullDescription-->

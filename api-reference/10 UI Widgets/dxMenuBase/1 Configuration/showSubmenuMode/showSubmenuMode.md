@@ -1,17 +1,15 @@
-<!--id-->dxMenuBase.Options.showSubmenuMode<!--/id-->
-===========================================================================
-<!--default-->{ name: 'onHover', delay: { show: 0, hide: 0 } }<!--/default-->
-<!--acceptValues-->'onClick' | 'onHover'<!--/acceptValues-->
-<!--type-->Object | String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxMenuBase.Options.showSubmenuMode
+acceptValues: 'onClick' | 'onHover'
+type: Object | String
+default: { name: 'onHover', delay: { show: 0, hide: 0 } }
+---
+---
+##### shortDescription
 Specifies options of submenu showing and hiding.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-ref-enum with {
     enum: "`ShowSubmenuMode`",
     values: "`OnHover` and `OnClick`"
 }
-<!--/fullDescription-->

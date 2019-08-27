@@ -1,15 +1,15 @@
-<!--id-->dxScheduler.Options.selectedCellData<!--/id-->
-===========================================================================
-<!--default-->[]<!--/default-->
-<!--type-->Array<any><!--/type-->
-<!--readonly--><!--/readonly-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler.Options.selectedCellData
+type: Array<any>
+default: []
+---
+---
+##### shortDescription
 Currently selected cells' data.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### readonly
+
+---
 This array contains objects with the following structure:
 
     {
@@ -24,4 +24,3 @@ This array contains objects with the following structure:
 #####See Also#####
 - [Group Appointments by Resources](/Documentation/Guide/Widgets/Scheduler/Resources/Group_Appointments_by_Resources/)
 - [showAllDayPanel](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#showAllDayPanel)
-<!--/fullDescription-->

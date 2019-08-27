@@ -1,19 +1,18 @@
-<!--id-->LocalStore<!--/id-->
-===========================================================================
-<!--module-->data/local_store<!--/module-->
-<!--export-->default<!--/export-->
-<!--type-->Object<!--/type-->
-<!--inherits-->ArrayStore<!--/inherits-->
-<!--lib-->
-dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: LocalStore
+module: data/local_store
+export: default
+type: Object
+inherits: ArrayStore
+---
+---
+##### shortDescription
 The **LocalStore** is a store that provides an interface for loading and editing data from HTML Web Storage (also known as <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage" target="_blank">window.localStorage</a>) and handling related events.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### lib
+dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
+
+---
 When configuring the **LocalStore**, specify the [name](/Documentation/ApiReference/Data_Layer/LocalStore/Configuration/#name) under which data should be saved in the browser's **localStorage** object.
 
 ---
@@ -153,4 +152,3 @@ When configuring the **LocalStore**, specify the [name](/Documentation/ApiRefere
 #####See Also#####
 - [DataSource API Reference](/Documentation/ApiReference/Data_Layer/DataSource/)
 - [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/)
-<!--/fullDescription-->

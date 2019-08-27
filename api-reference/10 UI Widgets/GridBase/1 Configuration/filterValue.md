@@ -1,15 +1,14 @@
-<!--id-->GridBase.Options.filterValue<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->Filter expression<!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
-===========================================================================
+---
+id: GridBase.Options.filterValue
+type: Filter expression
+default: null
+firedEvents: optionChanged
+---
+---
+##### shortDescription
+Specifies a filter expression.
 
-<!--shortDescription-->
-Specifies a filter expression.         
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 If [filterSyncEnabled]({basewidgetpath}/Configuration/#filterSyncEnabled) is **true**, the filter expression includes a combination of the [filter row](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Filter_Row), [header filter](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Header_Filter), and [filter builder]({basewidgetpath}/Configuration/#filterBuilder) filters. Otherwise, it contains only the filter builder filter.
 
 The filter expression can contain the following operations: *"="*, *"<>"*, *"<"*, *">"*, *"<="*, *">="*, *"between"*, *"contains"*, *"notcontains"*, *"startswith"*, *"endswith"*, *"anyof"*, *"noneof"*, and the filter builder's [custom operations](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/customOperations/). Use *"anyof"* and *"noneof"* to select and clear the selection of items in the header filter's popup menu. In the following code, *"anyof"* is used to select items with IDs `500` and `700`:
@@ -110,4 +109,3 @@ If a column's [groupInterval]({basewidgetpath}/Configuration/columns/headerFilte
 
 #####See Also#####
 - [Filter Panel with Filter Builder](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Filter_Panel_with_Filter_Builder)
-<!--/fullDescription-->

@@ -1,15 +1,14 @@
-<!--id-->dxVectorMap.Options.layers.selectionMode<!--/id-->
-===========================================================================
-<!--default-->'single'<!--/default-->
-<!--acceptValues-->'multiple' | 'none' | 'single'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxVectorMap.Options.layers.selectionMode
+acceptValues: 'multiple' | 'none' | 'single'
+type: String
+default: 'single'
+---
+---
+##### shortDescription
 Specifies whether single or multiple map elements can be selected on a vector map.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Several options and methods are connected with the selection operation. To specify whether single or multiple areas can be selected at a time, use the **selectionMode** option. To determine whether a certain area is selected when the widget is created, use the **isSelected** field of the object returned by the [customize](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#customize) callback function.
 
 At runtime, you can do the following operations.
@@ -26,4 +25,3 @@ The change of the selection state invokes the callback function assigned to the 
     enum: "`SelectionMode`",
     values: "`None`, `Single` and `Multiple`"
 }
-<!--/fullDescription-->

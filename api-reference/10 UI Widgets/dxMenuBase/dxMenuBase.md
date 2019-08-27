@@ -1,14 +1,10 @@
-<!--id-->dxMenuBase<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->Object<!--/type-->
-<!--inherits-->HierarchicalCollectionWidget<!--/inherits-->
-===========================================================================
+---
+id: dxMenuBase
+type: Object
+inherits: HierarchicalCollectionWidget
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

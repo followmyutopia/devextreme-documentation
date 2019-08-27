@@ -1,13 +1,18 @@
-<!--id-->CustomStore.Options.load<!--/id-->
-===========================================================================
-<!--type-->function(options)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: CustomStore.Options.load
+type: function(options)
+---
+---
+##### shortDescription
 Specifies a custom implementation of the [load(options)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#loadoptions) method.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(options): LoadOptions
+Data processing settings.
+
+##### return: Promise<any> | Array<any>
+An array with data or a Promise that is resolved after data is loaded. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
+
+---
 This function's implementation has certain specifics depending on the widget in which you use the **CustomStore**. Refer to the **Custom Sources** topic of a specific widget for details:
 
 - [DataGrid](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Custom_Sources/)
@@ -22,14 +27,3 @@ This function's implementation has certain specifics depending on the widget in 
 
 #####See Also#####
 - [Load Data in Raw Mode](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources/Load_Data_in_Raw_Mode)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->LoadOptions<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Data processing settings.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->Promise<any>|Array<any><!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-An array with data or a Promise that is resolved after data is loaded. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
-<!--/typeFunctionReturnDescription-->

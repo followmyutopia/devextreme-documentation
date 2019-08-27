@@ -1,40 +1,28 @@
-<!--id-->dxBarGauge.Options.onTooltipShown<!--/id-->
-<!--EventForAction-->dxBarGauge.tooltipShown<!--/EventForAction-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--default-->null<!--/default-->
-<!--type-->function(e)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxBarGauge.Options.onTooltipShown
+type: function(e)
+default: null
+EventForAction: dxBarGauge.tooltipShown
+---
+---
+##### shortDescription
 A function that is executed when a tooltip appears.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
+##### param(e): Object
 Information about the event.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
+
+##### field(e.component): {WidgetName}
 The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
+
+##### field(e.element): dxElement
 #include common-ref-elementparam with { element: "widget" }
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
+
+##### field(e.model): Object
 The model data. Available only if you use Knockout.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->target<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
+
+##### field(e.target): Object
 Information on the bar being pressed or hovered over with the mouse pointer. Contains the **index** field.
-<!--/typeFunctionParamDescription1_field4-->
+
+##### notUsedInTheme
+
+---

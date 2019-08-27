@@ -1,12 +1,8 @@
-<!--id-->BaseLegendItem.markerAttributes.opacity<!--/id-->
-===========================================================================
-<!--type-->Number<!--/type-->
-===========================================================================
+---
+id: BaseLegendItem.markerAttributes.opacity
+type: Number
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,18 +1,11 @@
-<!--id-->dxGantt.Options.resources.textExpr<!--/id-->
-===========================================================================
-<!--default-->'text'<!--/default-->
-<!--type-->String | function(data)<!--/type-->
-===========================================================================
+---
+id: dxGantt.Options.resources.textExpr
+type: String | function(data)
+default: 'text'
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### param(data): Object
 
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->data<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-
-<!--/typeFunctionParamDescription1-->
+---

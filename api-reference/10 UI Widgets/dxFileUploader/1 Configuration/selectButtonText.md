@@ -1,13 +1,10 @@
-<!--id-->dxFileUploader.Options.selectButtonText<!--/id-->
-===========================================================================
-<!--default-->'Select File'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFileUploader.Options.selectButtonText
+type: String
+default: 'Select File'
+---
+---
+##### shortDescription
 The text displayed on the button that opens the file browser.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

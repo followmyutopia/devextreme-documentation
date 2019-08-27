@@ -1,13 +1,10 @@
-<!--id-->StringLengthRule.ignoreEmptyValue<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: StringLengthRule.ignoreEmptyValue
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 If set to **true**, empty values are valid.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

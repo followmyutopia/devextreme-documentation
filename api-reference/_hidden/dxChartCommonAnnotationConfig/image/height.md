@@ -1,13 +1,10 @@
-<!--id-->dxChartCommonAnnotationConfig.image.height<!--/id-->
-===========================================================================
-<!--default-->30<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartCommonAnnotationConfig.image.height
+type: Number
+default: 30
+---
+---
+##### shortDescription
 Specifies the image's height in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

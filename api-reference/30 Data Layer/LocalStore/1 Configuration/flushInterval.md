@@ -1,14 +1,13 @@
-<!--id-->LocalStore.Options.flushInterval<!--/id-->
-===========================================================================
-<!--default-->10000<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: LocalStore.Options.flushInterval
+type: Number
+default: 10000
+---
+---
+##### shortDescription
 Specifies a delay in milliseconds between when data changes and the moment these changes are saved in the local storage. Applies only if [immediate](/Documentation/ApiReference/Data_Layer/LocalStore/Configuration/#immediate) is **false**.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 ---
 #####jQuery
 
@@ -36,4 +35,3 @@ Specifies a delay in milliseconds between when data changes and the moment these
     }
 
 ---
-<!--/fullDescription-->

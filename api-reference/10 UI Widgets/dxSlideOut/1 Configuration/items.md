@@ -1,6 +1,5 @@
-<!--id-->dxSlideOut.Options.items<!--/id-->
-===========================================================================
-<!--type-->Array<String, dxSlideOutItem, Object><!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
-===========================================================================
-
+---
+id: dxSlideOut.Options.items
+type: Array<String, dxSlideOutItem, Object>
+firedEvents: optionChanged
+---

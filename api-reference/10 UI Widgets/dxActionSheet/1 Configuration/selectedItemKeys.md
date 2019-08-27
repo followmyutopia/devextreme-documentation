@@ -1,5 +1,4 @@
-<!--id-->dxActionSheet.Options.selectedItemKeys<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxActionSheet.Options.selectedItemKeys
+hidden: 
+---

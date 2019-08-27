@@ -1,15 +1,13 @@
-<!--id-->GridBaseColumn.cssClass<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBaseColumn.cssClass
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies a <a href="http://www.w3schools.com/cssref/sel_class.asp" target="_blank">CSS class</a> to be applied to the column.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
+---
 In the following code, this option is assigned a `cell-highlighted` CSS class that customizes the `position` column's cell and header styles:
 
 ---
@@ -211,5 +209,3 @@ In the following code, this option is assigned a `cell-highlighted` CSS class th
     }
 
 ---
-
-<!--/fullDescription-->

@@ -1,15 +1,14 @@
-<!--id-->dxChart.Options.valueAxis.position<!--/id-->
-===========================================================================
-<!--default-->'left'<!--/default-->
-<!--acceptValues-->'bottom' | 'left' | 'right' | 'top'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.valueAxis.position
+acceptValues: 'bottom' | 'left' | 'right' | 'top'
+type: String
+default: 'left'
+---
+---
+##### shortDescription
 Relocates the value axis.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Depending on the value of the [rotated](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#rotated) option, **position** accepts different values.
 
 <div class="simple-table">
@@ -33,4 +32,3 @@ Depending on the value of the [rotated](/Documentation/ApiReference/Data_Visuali
     </table>
 </div>
 <div style="height:5px"></div>
-<!--/fullDescription-->

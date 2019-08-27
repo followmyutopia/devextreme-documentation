@@ -1,6 +1,5 @@
-<!--id-->dxPolarChartSeriesTypes.areapolarseries.point.visible<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxPolarChartSeriesTypes.areapolarseries.point.visible
+type: Boolean
+default: false
+---

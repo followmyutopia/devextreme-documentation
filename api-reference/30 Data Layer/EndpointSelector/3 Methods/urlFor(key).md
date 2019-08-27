@@ -1,23 +1,17 @@
-<!--id-->EndpointSelector.urlFor(key)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: EndpointSelector.urlFor(key)
+---
+---
+##### shortDescription
 Gets an endpoint with a specific key.
-<!--/shortDescription-->
 
-<!--paramName1-->key<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
-<!--paramDescription1-->
-The endpoint's key.
-<!--/paramDescription1-->
-
-<!--returnType-->String<!--/returnType-->
-<!--returnDescription-->
+##### return: String
 The endpoint.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(key): String
+The endpoint's key.
+
+---
 ---
 ##### jQuery
 
@@ -63,4 +57,3 @@ The endpoint.
     }
 
 ---
-<!--/fullDescription-->

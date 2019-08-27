@@ -1,15 +1,15 @@
-<!--id-->dxPolarChartSeriesTypes.linepolarseries<!--/id-->
-===========================================================================
-<!--hidePropertyOf--><!--/hidePropertyOf-->
-<!--type-->Object<!--/type-->
-<!--inherits-->dxPolarChartSeriesTypes.CommonPolarChartSeries<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.linepolarseries
+type: Object
+inherits: dxPolarChartSeriesTypes.CommonPolarChartSeries
+---
+---
+##### shortDescription
 An object defining a series of the **line** type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### hidePropertyOf
+
+---
 #include dataviz-ref-series-type with { 
     seriesType: "line"
 }
@@ -19,4 +19,3 @@ An object defining a series of the **line** type.
 }
 
 ![LineSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/PolarLine.png)
-<!--/fullDescription-->

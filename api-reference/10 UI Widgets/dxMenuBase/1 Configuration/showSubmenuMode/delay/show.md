@@ -1,13 +1,10 @@
-<!--id-->dxMenuBase.Options.showSubmenuMode.delay.show<!--/id-->
-===========================================================================
-<!--default-->50<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxMenuBase.Options.showSubmenuMode.delay.show
+type: Number
+default: 50
+---
+---
+##### shortDescription
 The time span after which the submenu is shown.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,18 +1,14 @@
-<!--id-->GridBase.expandAdaptiveDetailRow(key)<!--/id-->
-===================================================================
-===================================================================
+---
+id: GridBase.expandAdaptiveDetailRow(key)
+---
+---
+##### shortDescription
+Expands an adaptive detail row.
 
-<!--shortDescription-->
-Expands an adaptive detail row. 
-<!--/shortDescription-->
-
-<!--paramName1-->key<!--/paramName1-->
-<!--paramType1-->any<!--/paramType1-->
-<!--paramDescription1-->
+##### param(key): any
 The key of the data row to which the adaptive detail row belongs.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 To access a data row by its key, you should specify the field that provides keys in the [data source]({basewidgetpath}/Configuration/#dataSource). If no key was specified, the whole data object is considered the key.
 
 #####See Also#####
@@ -21,4 +17,3 @@ To access a data row by its key, you should specify the field that provides keys
 - [collapseAdaptiveDetailRow()]({basewidgetpath}/Methods/#collapseAdaptiveDetailRow)
 - [onAdaptiveDetailRowPreparing]({basewidgetpath}/Configuration/#onAdaptiveDetailRowPreparing)
 - [columnHidingEnabled]({basewidgetpath}/Configuration/#columnHidingEnabled)
-<!--/fullDescription-->

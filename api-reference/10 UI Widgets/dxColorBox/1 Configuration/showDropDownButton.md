@@ -1,5 +1,4 @@
-<!--id-->dxColorBox.Options.showDropDownButton<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxColorBox.Options.showDropDownButton
+hidden: 
+---

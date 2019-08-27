@@ -1,17 +1,14 @@
-<!--id-->BaseGauge.value()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: BaseGauge.value()
+---
+---
+##### shortDescription
 Gets the [main value]({basewidgetpath}/Configuration/#value).
-<!--/shortDescription-->
 
-<!--returnType-->Number<!--/returnType-->
-<!--returnDescription-->
+##### return: Number
 The main value.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 See the **value** option description for more information on the main gauge value.
 
 #include common-demobutton with {
@@ -20,4 +17,3 @@ See the **value** option description for more information on the main gauge valu
 
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

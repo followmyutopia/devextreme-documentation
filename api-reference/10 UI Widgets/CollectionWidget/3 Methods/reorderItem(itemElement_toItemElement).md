@@ -1,29 +1,14 @@
-<!--id-->CollectionWidget.reorderItem(itemElement, toItemElement)<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
+---
+id: CollectionWidget.reorderItem(itemElement, toItemElement)
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### return: Promise<void>
 
-<!--/shortDescription-->
+##### param(itemElement): Node
 
-<!--paramName1-->itemElement<!--/paramName1-->
-<!--paramType1-->Node<!--/paramType1-->
-<!--paramDescription1-->
+##### param(toItemElement): Node
 
-<!--/paramDescription1-->
-
-<!--paramName2-->toItemElement<!--/paramName2-->
-<!--paramType2-->Node<!--/paramType2-->
-<!--paramDescription2-->
-
-<!--/paramDescription2-->
-
-<!--returnType-->Promise<void><!--/returnType-->
-<!--returnDescription-->
-
-<!--/returnDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,14 +1,13 @@
-<!--id-->dxList.Options.grouped<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxList.Options.grouped
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether data items should be grouped.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 When this option is **true**, make sure that all data source objects have the following structure:
 
     <!--JavaScript-->var dataSource = [{
@@ -31,4 +30,3 @@ You can supply data to this structure using the **DataSource** object's [group](
 
 #####See Also#####
 - [List - Grouping](/Documentation/Guide/Widgets/List/Grouping/In_the_Data_Source/)
-<!--/fullDescription-->

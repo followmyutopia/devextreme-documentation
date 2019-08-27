@@ -1,13 +1,10 @@
-<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.selectionStyle.border.width<!--/id-->
-===========================================================================
-<!--default-->3<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.CommonPolarChartSeries.selectionStyle.border.width
+type: Number
+default: 3
+---
+---
+##### shortDescription
 Sets a border width for a selected series.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

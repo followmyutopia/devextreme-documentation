@@ -1,13 +1,9 @@
-<!--id-->dxDropDownBox.contentReady<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->eventType<!--/type-->
-===========================================================================
+---
+id: dxDropDownBox.contentReady
+type: eventType
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

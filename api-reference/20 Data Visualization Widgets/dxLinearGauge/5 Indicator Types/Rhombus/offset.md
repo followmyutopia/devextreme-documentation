@@ -1,4 +1,8 @@
-<!--id-->linearRhombus.offset<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->2.5<!--/default-->
-===========================================================================
+---
+id: linearRhombus.offset
+default: 2.5
+---
+---
+##### merge
+
+---

@@ -1,14 +1,19 @@
-<!--id-->Store.Options.onInserted<!--/id-->
-<!--EventForAction-->Store.inserted<!--/EventForAction-->
-===========================================================================
-<!--type-->function(values, key)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Store.Options.onInserted
+type: function(values, key)
+EventForAction: Store.inserted
+---
+---
+##### shortDescription
 A function that is executed after a data item is added to the store.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(values): Object
+The added data item.
+
+##### param(key): Object | String | Number
+The item's key.
+
+---
 ---
 ##### jQuery
 
@@ -36,15 +41,3 @@ A function that is executed after a data item is added to the store.
     }
     
 ---
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->values<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The added data item.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionParamName2-->key<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->Object|String|Number<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-The item's key.
-<!--/typeFunctionParamDescription2-->

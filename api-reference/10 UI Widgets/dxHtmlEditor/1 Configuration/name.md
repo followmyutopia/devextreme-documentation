@@ -1,6 +1,5 @@
-<!--id-->dxHtmlEditor.Options.name<!--/id-->
-===========================================================================
-<!--hidden-->false<!--/hidden-->
-<!--type-->String<!--/type-->
-===========================================================================
-
+---
+id: dxHtmlEditor.Options.name
+type: String
+hidden: false
+---

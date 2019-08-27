@@ -1,5 +1,4 @@
-<!--id-->dxContextMenu.Options.itemHoldAction<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxContextMenu.Options.itemHoldAction
+hidden: 
+---

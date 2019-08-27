@@ -1,16 +1,15 @@
-<!--id-->Query<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-<!--lib-->
-dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Query
+type: Object
+---
+---
+##### shortDescription
 The **Query** is an object that provides a chainable interface for making data queries.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### lib
+dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
+
+---
 To create a **Query**, call the [query(array)](/Documentation/ApiReference/Data_Layer/Utils/#queryarray) or [query(url, queryOptions)](/Documentation/ApiReference/Data_Layer/Utils/#queryurl_queryOptions) method, depending on the type of the storage you access. The **Query** supports method chaining. This enables you to execute several methods in a single statement.
 
 ---
@@ -95,4 +94,3 @@ To create a **Query**, call the [query(array)](/Documentation/ApiReference/Data_
 
 #####See Also#####
 - [Query Concept](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept)
-<!--/fullDescription-->

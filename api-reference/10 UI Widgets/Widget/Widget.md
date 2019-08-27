@@ -1,16 +1,13 @@
-<!--id-->Widget<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--module-->ui/widget/ui.widget<!--/module-->
-<!--export-->default<!--/export-->
-<!--type-->Object<!--/type-->
-<!--inherits-->DOMComponent<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Widget
+module: ui/widget/ui.widget
+export: default
+type: Object
+inherits: DOMComponent
+hidden: 
+---
+---
+##### shortDescription
 The base class for widgets.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

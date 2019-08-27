@@ -1,13 +1,10 @@
-<!--id-->dxLookup.Options.cleanSearchOnOpening<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxLookup.Options.cleanSearchOnOpening
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether or not the widget cleans the search box when the popup window is displayed.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

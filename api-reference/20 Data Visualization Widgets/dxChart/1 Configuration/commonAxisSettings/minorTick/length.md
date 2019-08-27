@@ -1,13 +1,10 @@
-<!--id-->dxChart.Options.commonAxisSettings.minorTick.length<!--/id-->
-===========================================================================
-<!--default-->7<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonAxisSettings.minorTick.length
+type: Number
+default: 7
+---
+---
+##### shortDescription
 Specifies the length of minor ticks in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

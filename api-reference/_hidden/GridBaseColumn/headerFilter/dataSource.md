@@ -1,14 +1,22 @@
-<!--id-->GridBaseColumn.headerFilter.dataSource<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Array<any> | function(options) | DataSource_Options<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBaseColumn.headerFilter.dataSource
+type: Array<any> | function(options) | DataSource_Options
+default: undefined
+---
+---
+##### shortDescription
 Specifies a data source for the header filter.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(options): Object
+Data source options.
+
+##### field(options.component): Object
+The widget's instance.
+
+##### field(options.dataSource): DataSource_Options
+The header filter's data source.
+
+---
 This option accepts one of the following values:
 
 - **Array of Objects**      
@@ -304,20 +312,3 @@ If you use a data source that does not contain the required fields (**text** and
     </dx-{widget-name}>
 
 ---
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Data source options.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->Object<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->dataSource<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->DataSource_Options<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-The header filter's data source.
-<!--/typeFunctionParamDescription1_field2-->

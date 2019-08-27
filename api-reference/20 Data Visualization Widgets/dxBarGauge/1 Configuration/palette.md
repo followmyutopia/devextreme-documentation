@@ -1,15 +1,14 @@
-<!--id-->dxBarGauge.Options.palette<!--/id-->
-===========================================================================
-<!--default-->'Material'<!--/default-->
-<!--acceptValues-->'Bright' | 'Harmony Light' | 'Ocean' | 'Pastel' | 'Soft' | 'Soft Pastel' | 'Vintage' | 'Violet' | 'Carmine' | 'Dark Moon' | 'Dark Violet' | 'Green Mist' | 'Soft Blue' | 'Material' | 'Office'<!--/acceptValues-->
-<!--type-->Array<String> | String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxBarGauge.Options.palette
+acceptValues: 'Bright' | 'Harmony Light' | 'Ocean' | 'Pastel' | 'Soft' | 'Soft Pastel' | 'Vintage' | 'Violet' | 'Carmine' | 'Dark Moon' | 'Dark Violet' | 'Green Mist' | 'Soft Blue' | 'Material' | 'Office'
+type: Array<String> | String
+default: 'Material'
+---
+---
+##### shortDescription
 Sets the palette to be used for colorizing bars in the gauge.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include dataviz-ref-palette
 
 #include common-ref-enum with {
@@ -25,4 +24,3 @@ Sets the palette to be used for colorizing bars in the gauge.
 - [Palettes](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Palettes)
 - [paletteExtensionMode]({basewidgetpath}/Configuration/#paletteExtensionMode)
 - [DevExpress.viz.generateColors(palette, count, options)](/Documentation/ApiReference/Common/utils/viz/#generateColorspalette_count_options)
-<!--/fullDescription-->

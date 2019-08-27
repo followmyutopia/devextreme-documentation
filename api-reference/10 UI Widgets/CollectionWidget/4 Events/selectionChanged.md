@@ -1,45 +1,31 @@
-<!--id-->CollectionWidget.selectionChanged<!--/id-->
-===========================================================================
-<!--type-->eventType<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: CollectionWidget.selectionChanged
+type: eventType
+---
+---
+##### shortDescription
 Raised when a collection item is selected or selection is canceled.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(e): Object
+Information about the event.
+
+##### field(e.addedItems): Array<any>
+The data of the items that have been selected.
+
+##### field(e.component): {WidgetName}
+The widget's instance.
+
+##### field(e.element): dxElement
+#include common-ref-elementparam with { element: "widget" }
+
+##### field(e.model): Object
+The model data. Available only if you use Knockout.
+
+##### field(e.removedItems): Array<any>
+The data of the items whose selection has been canceled.
+
+---
 Main article: [onSelectionChanged]({basewidgetpath}/Configuration/#onSelectionChanged)
 
 #####See Also#####
 #include common-link-handleevents
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the event.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-#include common-ref-elementparam with { element: "widget" }
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The model data. Available only if you use Knockout.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->addedItems<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Array<any><!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-The data of the items that have been selected.
-<!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamName1_field5-->removedItems<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->Array<any><!--/typeFunctionParamType1_field5-->
-<!--typeFunctionParamDescription1_field5-->
-The data of the items whose selection has been canceled.
-<!--/typeFunctionParamDescription1_field5-->

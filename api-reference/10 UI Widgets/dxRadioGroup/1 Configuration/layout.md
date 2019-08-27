@@ -1,15 +1,14 @@
-<!--id-->dxRadioGroup.Options.layout<!--/id-->
-===========================================================================
-<!--default-->'vertical', 'horizontal' (tablets)<!--/default-->
-<!--acceptValues-->'horizontal' | 'vertical'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRadioGroup.Options.layout
+acceptValues: 'horizontal' | 'vertical'
+type: String
+default: 'vertical', 'horizontal' (tablets)
+---
+---
+##### shortDescription
 Specifies the radio group layout.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The following values are available.
 
 - "vertical"  
@@ -22,4 +21,3 @@ The following values are available.
     enum: "`Orientation`",
     values: "`Horizontal` and `Vertical`"
 }
-<!--/fullDescription-->

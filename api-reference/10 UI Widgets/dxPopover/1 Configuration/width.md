@@ -1,17 +1,14 @@
-<!--id-->dxPopover.Options.width<!--/id-->
-===========================================================================
-<!--default-->'auto'<!--/default-->
-<!--type-->Number | String | function()<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPopover.Options.width
+type: Number | String | function()
+default: 'auto'
+---
+---
+##### shortDescription
 Specifies the widget's width.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-#include uiwidgets-ref-width 
-<!--/fullDescription-->
-<!--typeFunctionReturnType-->Number|String<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
+##### return: Number | String
 The widget's width.
-<!--/typeFunctionReturnDescription-->
+
+---
+#include uiwidgets-ref-width

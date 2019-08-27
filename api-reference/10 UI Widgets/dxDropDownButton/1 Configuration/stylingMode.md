@@ -1,15 +1,14 @@
-<!--id-->dxDropDownButton.Options.stylingMode<!--/id-->
-===========================================================================
-<!--default-->'outlined'<!--/default-->
-<!--acceptValues-->'text' | 'outlined' | 'contained'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDropDownButton.Options.stylingMode
+acceptValues: 'text' | 'outlined' | 'contained'
+type: String
+default: 'outlined'
+---
+---
+##### shortDescription
 Specifies how the button is styled.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The following styles are available: 
 
 ![DevExtreme DropDownButton: Styling modes](Content/images/doc/19_2/UiWidgets/dropdownbutton_stylingMode.png)
@@ -18,4 +17,3 @@ The following styles are available:
     enum: "`ButtonStylingMode`",
     values: "`Text`, `Outlined`, and `Contained`"
 }
-<!--/fullDescription-->

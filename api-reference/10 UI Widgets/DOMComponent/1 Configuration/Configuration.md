@@ -1,8 +1,5 @@
-
-<!--shortDescription-->
+---
+##### shortDescription
 This section describes options used to configure the component.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,13 +1,10 @@
-<!--id-->dxFunnel.Options.label.border.visible<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFunnel.Options.label.border.visible
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Shows the label borders.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

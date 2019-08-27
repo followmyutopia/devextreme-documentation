@@ -1,14 +1,12 @@
-<!--id-->dxPolarChart.Options.commonAxisSettings.constantLineStyle.dashStyle<!--/id-->
-===========================================================================
-<!--default-->'solid'<!--/default-->
-<!--acceptValues-->'dash' | 'dot' | 'longDash' | 'solid'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChart.Options.commonAxisSettings.constantLineStyle.dashStyle
+acceptValues: 'dash' | 'dot' | 'longDash' | 'solid'
+type: String
+default: 'solid'
+---
+---
+##### shortDescription
 Specifies a dash style for a constant line.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include dataviz-ref-dashstyle
-<!--/fullDescription-->

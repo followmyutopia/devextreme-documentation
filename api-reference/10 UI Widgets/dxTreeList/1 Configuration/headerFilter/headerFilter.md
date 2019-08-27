@@ -1,8 +1,7 @@
-===========================================================================
-<!--merge--><!--/merge-->
-===========================================================================
+---
+##### merge
 
-<!--fullDescription-->
+---
 A header filter allows a user to filter values in an individual column by including or excluding them from the applied filter. A click on a header filter icon invokes a popup menu with all unique values in the column. By selecting or clearing the selection of values in this menu, the user includes or excludes them from the filter.
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList HeaderFilter](/Content/images/doc/19_2/treelist/visual_elements/header_filter.png)
@@ -18,4 +17,3 @@ To make header filter icons visible, assign **true** to the **headerFilter**.[vi
 - **columns[]**.[allowHeaderFiltering]({basewidgetpath}/Configuration/columns/#allowHeaderFiltering)
 - [filter(filterExpr)]({basewidgetpath}/Methods/#filterfilterExpr)
 - [clearFilter(filterName)]({basewidgetpath}/Methods/#clearFilterfilterName)
-<!--/fullDescription-->

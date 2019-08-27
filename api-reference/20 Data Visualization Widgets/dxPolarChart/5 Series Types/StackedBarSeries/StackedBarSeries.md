@@ -1,15 +1,15 @@
-<!--id-->dxPolarChartSeriesTypes.stackedbarpolarseries<!--/id-->
-===========================================================================
-<!--hidePropertyOf--><!--/hidePropertyOf-->
-<!--type-->Object<!--/type-->
-<!--inherits-->dxPolarChartSeriesTypes.CommonPolarChartSeries<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.stackedbarpolarseries
+type: Object
+inherits: dxPolarChartSeriesTypes.CommonPolarChartSeries
+---
+---
+##### shortDescription
 An object defining a series of the **stackedBar** type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### hidePropertyOf
+
+---
 #include dataviz-ref-series-type with { 
     seriesType: "stackedbar"
 }
@@ -19,4 +19,3 @@ An object defining a series of the **stackedBar** type.
 }
 
 ![PolarStackedBarSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/PolarStackedBar.png)
-<!--/fullDescription-->

@@ -1,6 +1,5 @@
-<!--id-->dxCalendar.Options.hoverStateEnabled<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxCalendar.Options.hoverStateEnabled
+type: Boolean
+default: true
+---

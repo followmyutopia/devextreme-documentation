@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.StackedBarSeries.aggregation<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.StackedBarSeries.aggregation
+type: Object
+---

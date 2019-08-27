@@ -1,12 +1,9 @@
-<!--id-->dxSchedulerAppointmentTooltipTemplate.endDate<!--/id-->
-===========================================================================
-<!--type-->Date<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSchedulerAppointmentTooltipTemplate.endDate
+type: Date
+---
+---
+##### shortDescription
 Specifies the ending of the appointment.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

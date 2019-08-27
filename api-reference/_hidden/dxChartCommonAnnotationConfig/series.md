@@ -1,14 +1,13 @@
-<!--id-->dxChartCommonAnnotationConfig.series<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartCommonAnnotationConfig.series
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Anchors the annotation to a series point. Accepts the [name](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#name) of the point's series.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Use this option when the annotation is positioned relative to an [argument](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#argument).
 
 For example, the following chart displays two series and an annotation. The annotation is positioned relative to the argument `B` but not anchored to any of the two series points that correspond to this argument:
@@ -44,4 +43,3 @@ To anchor the annotation to one of these series points, specify the annotation's
 #####See Also#####
 - [x](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#x) | [y](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#y)
 - [value](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#value)
-<!--/fullDescription-->

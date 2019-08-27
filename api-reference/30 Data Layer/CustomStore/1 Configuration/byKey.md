@@ -1,13 +1,18 @@
-<!--id-->CustomStore.Options.byKey<!--/id-->
-===========================================================================
-<!--type-->function(key)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: CustomStore.Options.byKey
+type: function(key)
+---
+---
+##### shortDescription
 Specifies a custom implementation of the [byKey(key)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#byKeykey) method.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(key): Object | String | Number
+A key value.
+
+##### return: Promise<any>
+A Promise that is resolved after the data item is loaded. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
+
+---
 ---
 ##### jQuery
 
@@ -53,14 +58,3 @@ Specifies a custom implementation of the [byKey(key)](/Documentation/ApiReferenc
     })
 
 ---
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->key<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object|String|Number<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-A key value.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->Promise<any><!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A Promise that is resolved after the data item is loaded. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
-<!--/typeFunctionReturnDescription-->

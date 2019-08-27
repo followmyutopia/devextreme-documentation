@@ -1,5 +1,4 @@
-<!--id-->dxDropDownEditor.Options.maskInvalidMessage<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxDropDownEditor.Options.maskInvalidMessage
+hidden: 
+---

@@ -1,13 +1,10 @@
-<!--id-->dxPieChartSeriesTypes.CommonPieChartSeries.hoverStyle.hatching.width<!--/id-->
-===========================================================================
-<!--default-->4<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPieChartSeriesTypes.CommonPieChartSeries.hoverStyle.hatching.width
+type: Number
+default: 4
+---
+---
+##### shortDescription
 Specifies the width of hatching lines in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,6 +1,5 @@
-<!--id-->dxValidationSummary.Options.onSelectionChanged<!--/id-->
-<!--EventForAction-->dxValidationSummary.selectionChanged<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxValidationSummary.Options.onSelectionChanged
+hidden: 
+EventForAction: dxValidationSummary.selectionChanged
+---

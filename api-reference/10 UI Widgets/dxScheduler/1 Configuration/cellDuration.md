@@ -1,13 +1,10 @@
-<!--id-->dxScheduler.Options.cellDuration<!--/id-->
-===========================================================================
-<!--default-->30<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler.Options.cellDuration
+type: Number
+default: 30
+---
+---
+##### shortDescription
 Specifies cell duration in minutes.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

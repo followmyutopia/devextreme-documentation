@@ -1,12 +1,9 @@
-<!--id-->Device.tablet<!--/id-->
-===========================================================================
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Device.tablet
+type: Boolean
+---
+---
+##### shortDescription
 Indicates whether or not the device type is 'tablet'.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

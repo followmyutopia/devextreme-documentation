@@ -1,13 +1,15 @@
-<!--id-->dxHtmlEditor.Options.customizeModules<!--/id-->
-===========================================================================
-<!--type-->function(config)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxHtmlEditor.Options.customizeModules
+type: function(config)
+---
+---
+##### shortDescription
 Allows you to customize Quill and 3rd-party modules.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(config): Object
+Module configurations.
+
+---
 Quill modules and the API you can use to customize them are described in the <a href="https://quilljs.com/docs/modules/" target="_blank">Modules</a> documentation section. For example, the <a href="https://quilljs.com/docs/modules/history/#history-module" target="_blank">History</a> module, which handles the undo and redo operations, can be customized as follows:
 
 ---
@@ -133,9 +135,3 @@ If 3rd-party modules are used in the **HtmlEditor**, refer to their documentatio
 #####See Also#####
 - [get(componentPath)](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Methods/#getcomponentPath)
 - [register(components)](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Methods/#registercomponents)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->config<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Module configurations.
-<!--/typeFunctionParamDescription1-->

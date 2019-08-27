@@ -1,14 +1,13 @@
-<!--id-->dxChartSeriesTypes.CommonSeries.point.image.url.rangeMinPoint<!--/id-->
-===========================================================================
-<!--propertyOf-->dxChartSeriesTypes.RangeAreaSeries<!--/propertyOf-->
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.CommonSeries.point.image.url.rangeMinPoint
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies the URL of the image to be used as a maximum point marker.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### propertyOf
+dxChartSeriesTypes.RangeAreaSeries
 
-<!--/fullDescription-->
+---

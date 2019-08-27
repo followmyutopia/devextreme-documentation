@@ -1,16 +1,17 @@
-<!--id-->dxChartSeriesTypes.CommonSeries.point.hoverMode<!--/id-->
-===========================================================================
-<!--propertyOf-->dxChartSeriesTypes.LineSeries,dxChartSeriesTypes.StackedLineSeries,dxChartSeriesTypes.FullStackedLineSeries,dxChartSeriesTypes.StackedSplineSeries,dxChartSeriesTypes.FullStackedSplineSeries,dxChartSeriesTypes.SplineSeries,dxChartSeriesTypes.StepLineSeries,dxChartSeriesTypes.AreaSeries,dxChartSeriesTypes.StackedAreaSeries,dxChartSeriesTypes.FullStackedAreaSeries,dxChartSeriesTypes.StackedSplineAreaSeries,dxChartSeriesTypes.FullStackedSplineAreaSeries,dxChartSeriesTypes.SplineAreaSeries,dxChartSeriesTypes.StepAreaSeries,dxChartSeriesTypes.RangeAreaSeries,dxChartSeriesTypes.ScatterSeries<!--/propertyOf-->
-<!--default-->'onlyPoint'<!--/default-->
-<!--acceptValues-->'allArgumentPoints' | 'allSeriesPoints' | 'none' | 'onlyPoint'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.CommonSeries.point.hoverMode
+acceptValues: 'allArgumentPoints' | 'allSeriesPoints' | 'none' | 'onlyPoint'
+type: String
+default: 'onlyPoint'
+---
+---
+##### shortDescription
 Specifies series elements to be highlighted when a user pauses on a series point.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### propertyOf
+dxChartSeriesTypes.LineSeries,dxChartSeriesTypes.StackedLineSeries,dxChartSeriesTypes.FullStackedLineSeries,dxChartSeriesTypes.StackedSplineSeries,dxChartSeriesTypes.FullStackedSplineSeries,dxChartSeriesTypes.SplineSeries,dxChartSeriesTypes.StepLineSeries,dxChartSeriesTypes.AreaSeries,dxChartSeriesTypes.StackedAreaSeries,dxChartSeriesTypes.FullStackedAreaSeries,dxChartSeriesTypes.StackedSplineAreaSeries,dxChartSeriesTypes.FullStackedSplineAreaSeries,dxChartSeriesTypes.SplineAreaSeries,dxChartSeriesTypes.StepAreaSeries,dxChartSeriesTypes.RangeAreaSeries,dxChartSeriesTypes.ScatterSeries
+
+---
 When a user pauses on a series point, this and other series points may react in one of the following ways depending on the value of the **hoverMode** option.
 
 * **onlyPoint**   
@@ -33,4 +34,3 @@ The point does not react to pointing to it.
 
 #####See Also#####
 - [stickyHovering](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#stickyHovering)
-<!--/fullDescription-->

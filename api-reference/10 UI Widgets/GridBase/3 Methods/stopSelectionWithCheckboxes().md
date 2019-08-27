@@ -1,17 +1,10 @@
-<!--id-->GridBase.stopSelectionWithCheckboxes()<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
+---
+id: GridBase.stopSelectionWithCheckboxes()
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### return: Boolean
 
-<!--/shortDescription-->
-
-<!--returnType-->Boolean<!--/returnType-->
-<!--returnDescription-->
-
-<!--/returnDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

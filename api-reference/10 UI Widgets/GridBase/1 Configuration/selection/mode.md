@@ -1,15 +1,14 @@
-<!--id-->GridBase.Options.selection.mode<!--/id-->
-===========================================================================
-<!--default-->'none'<!--/default-->
-<!--acceptValues-->'multiple' | 'none' | 'single'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.selection.mode
+acceptValues: 'multiple' | 'none' | 'single'
+type: String
+default: 'none'
+---
+---
+##### shortDescription
 Specifies the selection mode.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The following selection modes are available in the widget:
 
 - **Single**        
@@ -22,4 +21,3 @@ Several rows can be in the selected state at a time.
     enum: "`SelectionMode`",
     values: "`None`, `Single`, and `Multiple`"
 }
-<!--/fullDescription-->

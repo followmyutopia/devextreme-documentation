@@ -1,5 +1,4 @@
-<!--id-->dxValidationSummary.Options.disabled<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxValidationSummary.Options.disabled
+hidden: 
+---

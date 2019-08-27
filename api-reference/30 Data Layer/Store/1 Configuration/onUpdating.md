@@ -1,14 +1,19 @@
-<!--id-->Store.Options.onUpdating<!--/id-->
-<!--EventForAction-->Store.updating<!--/EventForAction-->
-===========================================================================
-<!--type-->function(key, values)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Store.Options.onUpdating
+type: function(key, values)
+EventForAction: Store.updating
+---
+---
+##### shortDescription
 A function that is executed before a data item is updated in the store.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(key): Object | String | Number
+The key of the data item to be updated.
+
+##### param(values): Object
+New values for the data item fields.
+
+---
 ---
 ##### jQuery
 
@@ -36,15 +41,3 @@ A function that is executed before a data item is updated in the store.
     }
     
 ---
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->key<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object|String|Number<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The key of the data item to be updated.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionParamName2-->values<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->Object<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-New values for the data item fields.
-<!--/typeFunctionParamDescription2-->

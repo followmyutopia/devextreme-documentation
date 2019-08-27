@@ -1,12 +1,9 @@
-<!--id-->dxValidatorResult.validationRules<!--/id-->
-===========================================================================
-<!--type-->Array<RequiredRule, NumericRule, RangeRule, StringLengthRule, CustomRule, CompareRule, PatternRule, EmailRule><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxValidatorResult.validationRules
+type: Array<RequiredRule, NumericRule, RangeRule, StringLengthRule, CustomRule, CompareRule, PatternRule, EmailRule>
+---
+---
+##### shortDescription
 Validation rules specified for the **Validator**.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

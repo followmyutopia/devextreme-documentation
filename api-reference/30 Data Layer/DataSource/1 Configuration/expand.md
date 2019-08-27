@@ -1,13 +1,12 @@
-<!--id-->DataSource.Options.expand<!--/id-->
-===========================================================================
-<!--type-->Array<String> | String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.Options.expand
+type: Array<String> | String
+---
+---
+##### shortDescription
 Specifies the navigation properties to be loaded with the OData entity. Available only for the [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/).
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -59,4 +58,3 @@ Specifies the navigation properties to be loaded with the OData entity. Availabl
 
 #####See Also#####
 - [OData - Associations](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData/Associations)
-<!--/fullDescription-->

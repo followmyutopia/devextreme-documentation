@@ -1,15 +1,14 @@
-<!--id-->dxSparkline.Options.type<!--/id-->
-===========================================================================
-<!--default-->'line'<!--/default-->
-<!--acceptValues-->'area' | 'bar' | 'line' | 'spline' | 'splinearea' | 'steparea' | 'stepline' | 'winloss'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSparkline.Options.type
+acceptValues: 'area' | 'bar' | 'line' | 'spline' | 'splinearea' | 'steparea' | 'stepline' | 'winloss'
+type: String
+default: 'line'
+---
+---
+##### shortDescription
 Determines the type of a sparkline.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 A sparkline type determines the visual representation of data. Different options of the **Sparkline** widget are available for different types. The table below reflects options that can be configured for the sparkline of a certain type.
 
 <div id="tableScrollView">
@@ -206,5 +205,3 @@ To see the sparklines of each type in operation, refer to our [Visualization Gal
 <a href="/Demos/WidgetsGallery/Demo/Charts/AreaSparklines/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Area Sparkline Demo</a>
 <a href="/Demos/WidgetsGallery/Demo/Charts/BarSparklines/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Bar Sparkline Demo</a>
 <a href="/Demos/WidgetsGallery/Demo/Charts/WinlossSparklines/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Winloss Sparkline Demo</a>
-
-<!--/fullDescription-->

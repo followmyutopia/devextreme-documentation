@@ -1,14 +1,12 @@
-<!--id-->PieChartLegendItem<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-<!--inherits-->BaseLegendItem<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PieChartLegendItem
+type: Object
+inherits: BaseLegendItem
+---
+---
+##### shortDescription
 An object that provides information about a legend item in the [PieChart](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/) widget.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 - [legend](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/legend/)
-<!--/fullDescription-->

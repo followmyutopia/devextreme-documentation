@@ -1,32 +1,22 @@
-<!--id-->localization.formatMessage(key, value)<!--/id-->
-===================================================================
-<!--module-->localization<!--/module-->
-<!--export-->formatMessage<!--/export-->
-===================================================================
-
-<!--shortDescription-->
+---
+id: localization.formatMessage(key, value)
+module: localization
+export: formatMessage
+---
+---
+##### shortDescription
 Substitutes the provided value(s) for placeholders in a message that the key specifies.
-<!--/shortDescription-->
 
-<!--paramName1-->key<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
-<!--paramDescription1-->
-The key that identifies the message in a dictionary.
-<!--/paramDescription1-->
-
-<!--paramName2-->value<!--/paramName2-->
-<!--paramType2-->String|Array<String><!--/paramType2-->
-<!--paramDescription2-->
-One or several values used to fill placeholders in the message.
-<!--/paramDescription2-->
-
-<!--returnType-->String<!--/returnType-->
-<!--returnDescription-->
+##### return: String
 The formatted message.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(key): String
+The key that identifies the message in a dictionary.
 
+##### param(value): String | Array<String>
+One or several values used to fill placeholders in the message.
+
+---
 ---
 ##### jQuery
 
@@ -77,4 +67,3 @@ The formatted message.
     }
 
 ---
-<!--/fullDescription-->

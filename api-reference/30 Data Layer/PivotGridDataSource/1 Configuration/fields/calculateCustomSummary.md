@@ -1,13 +1,24 @@
-<!--id-->PivotGridDataSource.Options.fields.calculateCustomSummary<!--/id-->
-===========================================================================
-<!--type-->function(options)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.Options.fields.calculateCustomSummary
+type: function(options)
+---
+---
+##### shortDescription
 Specifies a custom aggregate function. Applies only if the [summaryType](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#summaryType) is *"custom"* and the [remoteOperations](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/#remoteOperations) is **false**. Cannot be used with an [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/).
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(options): Object
+Information on the summary.
+
+##### field(options.summaryProcess): String
+The summary value calculation stage: *"start"*, *"calculate"*, or *"finalize"*.
+
+##### field(options.totalValue): any
+The total summary value.
+
+##### field(options.value): any
+A value to be aggregated.
+
+---
 A summary value calculation is conducted in three stages: *start*, in which the **totalValue** is initialized, *calculate*, in which it is modified, and *finalize*, in which the **totalValue** is adjusted. To identify the current stage, check the value of the **summaryProcess** field that belongs to the function's parameter.
 
 ---
@@ -123,24 +134,3 @@ A summary value calculation is conducted in three stages: *start*, in which the 
 #include uiwidgets-ref-functioncontext with { 
     value: "field's configuration"
 }
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information on the summary.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->summaryProcess<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->String<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The summary value calculation stage: *"start"*, *"calculate"*, or *"finalize"*.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->value<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->any<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-A value to be aggregated.
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->totalValue<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->any<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The total summary value.
-<!--/typeFunctionParamDescription1_field3-->

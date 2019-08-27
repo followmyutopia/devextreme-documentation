@@ -1,13 +1,10 @@
-<!--id-->dxTextEditor.Options.maskInvalidMessage<!--/id-->
-===========================================================================
-<!--default-->'Value is invalid'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTextEditor.Options.maskInvalidMessage
+type: String
+default: 'Value is invalid'
+---
+---
+##### shortDescription
 A message displayed when the entered text does not match the specified pattern.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

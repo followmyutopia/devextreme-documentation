@@ -1,13 +1,10 @@
-<!--id-->dxFileUploader.Options.uploadHeaders<!--/id-->
-===========================================================================
-<!--default-->{}<!--/default-->
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFileUploader.Options.uploadHeaders
+type: Object
+default: {}
+---
+---
+##### shortDescription
 Specifies headers for the upload request.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,13 +1,10 @@
-<!--id-->dxPivotGrid.Options.loadPanel.height<!--/id-->
-===========================================================================
-<!--default-->70<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGrid.Options.loadPanel.height
+type: Number
+default: 70
+---
+---
+##### shortDescription
 Specifies the height of the load panel.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

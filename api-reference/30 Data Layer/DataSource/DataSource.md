@@ -1,19 +1,18 @@
-<!--id-->DataSource<!--/id-->
-===========================================================================
-<!--module-->data/data_source<!--/module-->
-<!--export-->default<!--/export-->
-<!--type-->Object<!--/type-->
-<!--inherits-->EventsMixin<!--/inherits-->
-<!--lib-->
-dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: DataSource
+module: data/data_source
+export: default
+type: Object
+inherits: EventsMixin
+---
+---
+##### shortDescription
 The **DataSource** is an object that provides an API for processing data from an underlying [store](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/store/).
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### lib
+dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
+
+---
 ---
 ##### jQuery  
 
@@ -101,4 +100,3 @@ When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC
 
 #####See Also#####
 - [ASP.NET MVC Controls - Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/)
-<!--/fullDescription-->

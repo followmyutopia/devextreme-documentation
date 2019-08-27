@@ -1,13 +1,9 @@
-<!--id-->dxDiagram.Options.propertiesPanel.groups<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Array<Object><!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.propertiesPanel.groups
+type: Array<Object>
+default: undefined
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

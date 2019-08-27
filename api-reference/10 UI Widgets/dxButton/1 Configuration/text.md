@@ -1,13 +1,10 @@
-<!--id-->dxButton.Options.text<!--/id-->
-===========================================================================
-<!--default-->''<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxButton.Options.text
+type: String
+default: ''
+---
+---
+##### shortDescription
 The text displayed on the button.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

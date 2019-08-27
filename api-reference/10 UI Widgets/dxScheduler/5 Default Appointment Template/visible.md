@@ -1,13 +1,10 @@
-<!--id-->dxSchedulerAppointment.visible<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSchedulerAppointment.visible
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether or not an appointment must be displayed.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

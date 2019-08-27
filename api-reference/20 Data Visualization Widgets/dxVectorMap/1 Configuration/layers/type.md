@@ -1,17 +1,16 @@
-<!--id-->dxVectorMap.Options.layers.type<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--acceptValues-->'area' | 'line' | 'marker'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxVectorMap.Options.layers.type
+acceptValues: 'area' | 'line' | 'marker'
+type: String
+---
+---
+##### shortDescription
 Specifies layer type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### notUsedInTheme
+
+---
 #include common-ref-enum with {
     enum: "`VectorMapLayerType`",
     values: "`Area`, `Marker` and `Line`"
 }
-<!--/fullDescription-->

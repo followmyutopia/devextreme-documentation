@@ -1,15 +1,14 @@
-<!--id-->dxTileView.Options.direction<!--/id-->
-===========================================================================
-<!--default-->'horizontal'<!--/default-->
-<!--acceptValues-->'horizontal' | 'vertical'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTileView.Options.direction
+acceptValues: 'horizontal' | 'vertical'
+type: String
+default: 'horizontal'
+---
+---
+##### shortDescription
 Specifies whether tiles are placed horizontally or vertically.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-ref-enum with {
     enum: "`Orientation`",
     values: "`Horizontal` and `Vertical`"
@@ -18,4 +17,3 @@ Specifies whether tiles are placed horizontally or vertically.
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Tile_View/Directions/jQuery/Light/"
 }
-<!--/fullDescription-->

@@ -1,18 +1,14 @@
-<!--id-->GridBase.filter(filterExpr)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.filter(filterExpr)
+---
+---
+##### shortDescription
 Applies a filter to the widget's [data source]({basewidgetpath}/Configuration/#dataSource).
-<!--/shortDescription-->
 
-<!--paramName1-->filterExpr<!--/paramName1-->
-<!--paramType1-->any<!--/paramType1-->
-<!--paramDescription1-->
+##### param(filterExpr): any
 A [filter expression](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering).
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 Pass an array with the following members to this method:
 
 1. The data source field by which data items are filtered.
@@ -25,4 +21,3 @@ The filter passed to this method is not reflected in [any of the filtering UI el
 #include common-link-callmethods
 - [getCombinedFilter()]({basewidgetpath}/Methods/#getCombinedFilter)
 - [filterValue]({basewidgetpath}/Configuration/#filterValue)
-<!--/fullDescription-->

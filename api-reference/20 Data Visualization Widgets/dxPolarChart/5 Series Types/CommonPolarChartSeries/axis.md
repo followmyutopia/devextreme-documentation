@@ -1,14 +1,10 @@
-<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.axis<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxPolarChartSeriesTypes.CommonPolarChartSeries.axis
+type: String
+default: undefined
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

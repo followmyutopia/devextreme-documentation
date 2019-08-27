@@ -1,18 +1,14 @@
-<!--id-->PivotGridDataSource.collapseAll(id)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.collapseAll(id)
+---
+---
+##### shortDescription
 Collapses all header items of a field with the specified identifier.
-<!--/shortDescription-->
 
-<!--paramName1-->id<!--/paramName1-->
-<!--paramType1-->Number|String<!--/paramType1-->
-<!--paramDescription1-->
+##### param(id): Number | String
 The field's [name](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#name), [dataField](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#dataField), [caption](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#caption), or index in the [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) array.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -44,4 +40,3 @@ The field's [name](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Co
 #####See Also#####
 - [expandAll(id)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#expandAllid)
 - **fields[]**.[expanded](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#expanded)
-<!--/fullDescription-->

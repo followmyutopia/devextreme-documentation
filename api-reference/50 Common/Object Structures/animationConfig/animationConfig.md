@@ -1,12 +1,9 @@
-<!--id-->animationConfig<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: animationConfig
+type: Object
+---
+---
+##### shortDescription
 Defines animation options.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,13 +1,12 @@
-<!--id-->dxPivotGrid.Options.fieldPanel<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGrid.Options.fieldPanel
+type: Object
+---
+---
+##### shortDescription
 Configures the [field panel](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Field_Panel).
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The field panel is a component that displays the fields involved in the calculation of grid summaries. It consists of four field areas: column, row, data and filter. Each area holds fields of the corresponding type.
 
 By default, the field panel is hidden. To make it visible, assign **true** to the [visible](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/fieldPanel/#visible) property. To control the visibility of an individual field area, change the [showColumnFields](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/fieldPanel/#showColumnFields), [showRowFields](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/fieldPanel/#showRowields), [showDataFields](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/fieldPanel/#showDataFields) or [showFilterFields](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/fieldPanel/#showFilterFields) property respectively.
@@ -19,5 +18,3 @@ In addition, if the [allowSorting](/Documentation/ApiReference/UI_Widgets/dxPivo
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Pivot_Grid/FieldPanel/jQuery/Light/"
 }
-
-<!--/fullDescription-->

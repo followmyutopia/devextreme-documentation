@@ -1,15 +1,14 @@
-<!--id-->dxRangeSelector.Options.scale.label.overlappingBehavior<!--/id-->
-===========================================================================
-<!--default-->'hide'<!--/default-->
-<!--acceptValues-->'hide' | 'none'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.scale.label.overlappingBehavior
+acceptValues: 'hide' | 'none'
+type: String
+default: 'hide'
+---
+---
+##### shortDescription
 Decides how to arrange scale labels when there is not enough space to keep all of them.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 When scale labels overlap each other, you can rearrange them by setting this option to one of the following values.
 
 - **hide**      
@@ -21,4 +20,3 @@ Leaves scale labels overlapped.
     enum: "`ScaleLabelOverlappingBehavior`",
     values: "`Hide` and `None`"
 }
-<!--/fullDescription-->

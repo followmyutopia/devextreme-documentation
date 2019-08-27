@@ -1,15 +1,15 @@
-<!--id-->dxChart.Options.argumentAxis.constantLines<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->Array<Object><!--/type-->
-<!--inherits-->dxChart.Options.commonAxisSettings.constantLineStyle<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.argumentAxis.constantLines
+type: Array<Object>
+inherits: dxChart.Options.commonAxisSettings.constantLineStyle
+---
+---
+##### shortDescription
 Declares a collection of constant lines belonging to the argument axis.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### notUsedInTheme
+
+---
 ![DevExtreme HTML5 Charts ConstantLines](/Content/images/doc/19_2/ChartJS/visual_elements/constant_lines.png)
 
 Each object in the **constantLines** array configures a single constant line. Setting the **value** option is necessary for a constant line to be displayed.
@@ -17,4 +17,3 @@ Each object in the **constantLines** array configures a single constant line. Se
 #####See Also#####
 - **argumentAxis**.[constantLineStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/constantLineStyle/) - specifies the appearance of those constant lines that belong to the argument axis.
 - **commonAxisSettings**.[constantLineStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/constantLineStyle/) - specifies the appearance of all constant lines in the widget.
-<!--/fullDescription-->

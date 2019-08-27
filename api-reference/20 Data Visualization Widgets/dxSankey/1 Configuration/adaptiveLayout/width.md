@@ -1,13 +1,10 @@
-<!--id-->dxSankey.Options.adaptiveLayout.width<!--/id-->
-===========================================================================
-<!--default-->80<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSankey.Options.adaptiveLayout.width
+type: Number
+default: 80
+---
+---
+##### shortDescription
 Specifies the minimum container width at which the layout begins to adapt.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,23 +1,17 @@
-<!--id-->Query.filter(predicate)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: Query.filter(predicate)
+---
+---
+##### shortDescription
 Filters data items using a custom function.
-<!--/shortDescription-->
 
-<!--paramName1-->predicate<!--/paramName1-->
-<!--paramType1-->function()<!--/paramType1-->
-<!--paramDescription1-->
-A function that accepts a data item and returns **true** if it should be included in the resulting array and **false** otherwise.
-<!--/paramDescription1-->
-
-<!--returnType-->Query<!--/returnType-->
-<!--returnDescription-->
+##### return: Query
 The **Query** with transformed data.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(predicate): function()
+A function that accepts a data item and returns **true** if it should be included in the resulting array and **false** otherwise.
+
+---
 ---
 ##### jQuery
 
@@ -49,4 +43,3 @@ The **Query** with transformed data.
 
 #####See Also#####
 - [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering)
-<!--/fullDescription-->

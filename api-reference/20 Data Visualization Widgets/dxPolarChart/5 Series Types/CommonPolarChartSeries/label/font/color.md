@@ -1,4 +1,8 @@
-<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.label.font.color<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->'#FFFFFF'<!--/default-->
-===========================================================================
+---
+id: dxPolarChartSeriesTypes.CommonPolarChartSeries.label.font.color
+default: '#FFFFFF'
+---
+---
+##### merge
+
+---

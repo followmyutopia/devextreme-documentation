@@ -1,12 +1,9 @@
-<!--id-->dxEvent.data<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
+---
+id: dxEvent.data
+type: Object
+---
+---
+##### shortDescription
+Data passed to the event handler.
 
-<!--shortDescription-->
-Data passed to the event handler.  
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

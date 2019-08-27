@@ -1,15 +1,11 @@
-<!--id-->dxFileUploader.Options.uploadButtonText<!--/id-->
-===========================================================================
-<!--default-->'Upload'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFileUploader.Options.uploadButtonText
+type: String
+default: 'Upload'
+---
+---
+##### shortDescription
 The text displayed on the button that starts uploading.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The option makes sense only if the [uploadMode](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#uploadMode) option is set to "useButtons" or "instantly".
-
-
-<!--/fullDescription-->

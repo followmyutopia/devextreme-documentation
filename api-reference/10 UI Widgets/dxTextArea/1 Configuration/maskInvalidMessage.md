@@ -1,5 +1,4 @@
-<!--id-->dxTextArea.Options.maskInvalidMessage<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxTextArea.Options.maskInvalidMessage
+hidden: 
+---

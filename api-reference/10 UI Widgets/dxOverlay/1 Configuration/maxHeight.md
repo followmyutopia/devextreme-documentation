@@ -1,17 +1,14 @@
-<!--id-->dxOverlay.Options.maxHeight<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->Number | String | function()<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxOverlay.Options.maxHeight
+type: Number | String | function()
+default: null
+---
+---
+##### shortDescription
 Specifies the maximum height the widget can reach while resizing.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-#include uiwidgets-ref-height
-<!--/fullDescription-->
-<!--typeFunctionReturnType-->Number|String<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
+##### return: Number | String
 The maximum height.
-<!--/typeFunctionReturnDescription-->
+
+---
+#include uiwidgets-ref-height

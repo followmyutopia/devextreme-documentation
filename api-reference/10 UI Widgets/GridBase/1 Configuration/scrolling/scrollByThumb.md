@@ -1,13 +1,10 @@
-<!--id-->GridBase.Options.scrolling.scrollByThumb<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.scrolling.scrollByThumb
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether a user can scroll the content with the scrollbar. Applies only if [useNative]({basewidgetpath}/Configuration/scrolling/#useNative) is **false**.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

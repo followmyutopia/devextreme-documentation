@@ -1,13 +1,10 @@
-<!--id-->ScaleBreak.endValue<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number | Date | String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: ScaleBreak.endValue
+type: Number | Date | String
+default: undefined
+---
+---
+##### shortDescription
 Along with the **startValue** option, limits the scale break.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

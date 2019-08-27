@@ -1,15 +1,13 @@
-<!--id-->GridBaseColumn.fixed<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBaseColumn.fixed
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Fixes the column.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 - [columnFixing]({basewidgetpath}/Configuration/columnFixing/)
 - **columns[]**.[fixedPosition]({basewidgetpath}/Configuration/columns/#fixedPosition)
-<!--/fullDescription-->

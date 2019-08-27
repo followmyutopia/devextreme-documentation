@@ -1,13 +1,11 @@
-<!--id-->dxPolarChart.Options.commonAxisSettings.grid.color<!--/id-->
-===========================================================================
-<!--default-->'#d3d3d3'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChart.Options.commonAxisSettings.grid.color
+type: String
+default: '#d3d3d3'
+---
+---
+##### shortDescription
 Specifies a color for grid lines.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

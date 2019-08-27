@@ -1,16 +1,16 @@
-<!--id-->dxChart.Options.argumentAxis.visualRange<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->Object | Array<Number, String, Date><!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
-<!--inherits-->VizRange<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.argumentAxis.visualRange
+type: Object | Array<Number, String, Date>
+inherits: VizRange
+firedEvents: optionChanged
+---
+---
+##### shortDescription
 Defines the axis' displayed range. Cannot be wider than the [wholeRange](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/wholeRange/).
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### notUsedInTheme
+
+---
 #include dataviz-ref-vizrangevariants with {
     basepath: "/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/visualRange",
     objectName: "visualRange",
@@ -30,4 +30,3 @@ To specify the minimum visual range that a user can set, use the [minVisualRange
 - [zoomAndPan](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/zoomAndPan/)
 - [onZoomStart](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onZoomStart) | [onZoomEnd](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onZoomEnd)
 - **Axis**.[visualRange()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Axis/Methods/#visualRange)
-<!--/fullDescription-->

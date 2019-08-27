@@ -1,8 +1,7 @@
-===========================================================================
-<!--merge--><!--/merge-->
-===========================================================================
+---
+##### merge
 
-<!--fullDescription-->
+---
 #include uiwidgets-ref-displayExpr
 
 #include common-demobutton with {
@@ -12,4 +11,3 @@
 #####See Also#####
 - [Use Hierarchical Data](/Documentation/Guide/Widgets/TreeView/Use_Hierarchical_Data/)
 - [Use Plain Data](/Documentation/Guide/Widgets/TreeView/Use_Plain_Data/)
-<!--/fullDescription-->

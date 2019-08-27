@@ -1,5 +1,14 @@
-<!--id-->dxForm<!--/id-->
-<!--widgettree-->
+---
+id: dxForm
+module: ui/form
+export: default
+inherits: Widget
+---
+---
+##### shortDescription
+The **Form** widget represents fields of a data object as a collection of label-editor pairs. These pairs can be arranged in several groups, tabs and columns.
+
+##### widgettree
 formData: {
     "ID": 1,
     "CompanyName": "Super Mart of the West",
@@ -11,21 +20,11 @@ formData: {
     "Fax": "(800) 555-2171",
     "Website": "http://www.nowebsite.com"
 }
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/form<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->Widget<!--/inherits-->
-<!--lib-->
+
+##### lib
 dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
 
-<!--shortDescription-->
-The **Form** widget represents fields of a data object as a collection of label-editor pairs. These pairs can be arranged in several groups, tabs and columns.
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Form/Overview/jQuery/Light/"
 }
@@ -36,4 +35,3 @@ The **Form** widget represents fields of a data object as a collection of label-
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

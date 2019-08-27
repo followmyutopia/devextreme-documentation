@@ -1,13 +1,9 @@
-<!--id-->dxDiagram.Options.propertiesPanel.groups.commands<!--/id-->
-===========================================================================
-<!--acceptValues-->'zoomLevel' | 'autoZoom' | 'showGrid' | 'snapToGrid' | 'gridSize' | 'units' | 'pageSize' | 'pageLandscape' | 'pageColor'<!--/acceptValues-->
-<!--type-->Array<String><!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.propertiesPanel.groups.commands
+acceptValues: 'zoomLevel' | 'autoZoom' | 'showGrid' | 'snapToGrid' | 'gridSize' | 'units' | 'pageSize' | 'pageLandscape' | 'pageColor'
+type: Array<String>
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

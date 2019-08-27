@@ -1,4 +1,8 @@
-<!--id-->circularTextCloud.color<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->'#679EC5'<!--/default-->
-===========================================================================
+---
+id: circularTextCloud.color
+default: '#679EC5'
+---
+---
+##### merge
+
+---

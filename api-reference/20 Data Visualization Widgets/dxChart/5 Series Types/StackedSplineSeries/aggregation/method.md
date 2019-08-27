@@ -1,16 +1,14 @@
-<!--id-->dxChartSeriesTypes.StackedSplineSeries.aggregation.method<!--/id-->
-===========================================================================
-<!--default-->'avg'<!--/default-->
-<!--acceptValues-->'avg' | 'count' | 'max' | 'min' | 'sum' | 'custom'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxChartSeriesTypes.StackedSplineSeries.aggregation.method
+acceptValues: 'avg' | 'count' | 'max' | 'min' | 'sum' | 'custom'
+type: String
+default: 'avg'
+---
+---
+##### shortDescription
+Specifies how to aggregate series points.
 
-<!--shortDescription-->
-Specifies how to aggregate series points. 
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include dataviz-ref-aggrmethod-singlepointseries with {
     seriesType: "Stacked Spline"
 }
-<!--/fullDescription-->

@@ -1,15 +1,15 @@
-<!--id-->linearCircle<!--/id-->
-===========================================================================
-<!--hidePropertyOf--><!--/hidePropertyOf-->
-<!--type-->Object<!--/type-->
-<!--inherits-->CommonIndicator<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: linearCircle
+type: Object
+inherits: CommonIndicator
+---
+---
+##### shortDescription
 An object that defines a gauge indicator of the **circle** type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### hidePropertyOf
+
+---
 ---
 ##### jQuery  
 
@@ -74,4 +74,3 @@ An object that defines a gauge indicator of the **circle** type.
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Gauges/DifferentValueIndicatorTypesLinearGauge/jQuery/Light/"
 }
-<!--/fullDescription-->

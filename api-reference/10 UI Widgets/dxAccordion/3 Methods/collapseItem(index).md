@@ -1,26 +1,18 @@
-<!--id-->dxAccordion.collapseItem(index)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxAccordion.collapseItem(index)
+---
+---
+##### shortDescription
 Collapses an item with a specific index.
-<!--/shortDescription-->
 
-<!--paramName1-->index<!--/paramName1-->
-<!--paramType1-->Number<!--/paramType1-->
-<!--paramDescription1-->
-The item's index.
-<!--/paramDescription1-->
-
-<!--returnType-->Promise<void><!--/returnType-->
-<!--returnDescription-->
+##### return: Promise<void>
 A Promise that is resolved if the item is collapsed and rejected otherwise. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
 
-<!--/returnDescription-->
+##### param(index): Number
+The item's index.
 
-<!--fullDescription-->
+---
 [note]The method applies when the [collapsible](/Documentation/ApiReference/UI_Widgets/dxAccordion/Configuration/#collapsible) option is set to **true**.
 
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

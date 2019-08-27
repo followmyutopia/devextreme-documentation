@@ -1,14 +1,10 @@
-<!--id-->dxGantt<!--/id-->
-===========================================================================
-<!--module-->ui/gantt<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->Widget<!--/inherits-->
-===========================================================================
+---
+id: dxGantt
+module: ui/gantt
+export: default
+inherits: Widget
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

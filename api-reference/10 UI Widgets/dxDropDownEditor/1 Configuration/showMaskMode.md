@@ -1,5 +1,4 @@
-<!--id-->dxDropDownEditor.Options.showMaskMode<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxDropDownEditor.Options.showMaskMode
+hidden: 
+---

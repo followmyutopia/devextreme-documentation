@@ -1,8 +1,7 @@
-===========================================================================
-<!--merge--><!--/merge-->
-===========================================================================
+---
+##### merge
 
-<!--fullDescription-->
+---
 When this option is set to **true**, the following applies:
 
 - The editor's value cannot be changed using the UI.
@@ -297,4 +296,3 @@ When this option is set to **true**, the following applies:
         export default App;
 
     ---
-<!--/fullDescription-->

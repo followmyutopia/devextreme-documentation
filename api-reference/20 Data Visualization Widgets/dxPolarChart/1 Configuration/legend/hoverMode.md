@@ -1,15 +1,14 @@
-<!--id-->dxPolarChart.Options.legend.hoverMode<!--/id-->
-===========================================================================
-<!--default-->'includePoints'<!--/default-->
-<!--acceptValues-->'excludePoints' | 'includePoints' | 'none'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChart.Options.legend.hoverMode
+acceptValues: 'excludePoints' | 'includePoints' | 'none'
+type: String
+default: 'includePoints'
+---
+---
+##### shortDescription
 Specifies what series elements to highlight when a corresponding item in the legend is hovered over.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 In the **PolarChart** widget, legend items represent series. When a legend item is hovered over, the corresponding series is highlighted. To prevent this behavior, set the **hoverMode** property to _'none'_.
 
 You can set a custom 'hover' style for a series and/or its points. To do this, use the series' [hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/series/hoverStyle/) configuration object and/or the **point**.[hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/series/point/hoverStyle/) configuration object.
@@ -18,4 +17,3 @@ You can set a custom 'hover' style for a series and/or its points. To do this, u
     enum: "`ChartLegendHoverMode`",
     values: "`IncludePoints`, `ExcludePoints`, and `None`"
 }
-<!--/fullDescription-->

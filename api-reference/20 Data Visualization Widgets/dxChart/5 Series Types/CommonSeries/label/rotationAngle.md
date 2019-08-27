@@ -1,13 +1,10 @@
-<!--id-->dxChartSeriesTypes.CommonSeries.label.rotationAngle<!--/id-->
-===========================================================================
-<!--default-->0<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.CommonSeries.label.rotationAngle
+type: Number
+default: 0
+---
+---
+##### shortDescription
 Rotates point labels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

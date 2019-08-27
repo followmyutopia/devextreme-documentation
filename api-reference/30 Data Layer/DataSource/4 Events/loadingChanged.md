@@ -1,17 +1,13 @@
-<!--id-->DataSource.loadingChanged<!--/id-->
-===========================================================================
-<!--type-->eventType<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.loadingChanged
+type: eventType
+---
+---
+##### shortDescription
 Raised when the data loading status is changed.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-Main article: [onLoadingChanged](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#onLoadingChanged)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->isLoading<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Boolean<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
+##### param(isLoading): Boolean
 Indicates whether data is being loaded.
-<!--/typeFunctionParamDescription1-->
+
+---
+Main article: [onLoadingChanged](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#onLoadingChanged)

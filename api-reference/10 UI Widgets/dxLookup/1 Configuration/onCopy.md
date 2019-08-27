@@ -1,6 +1,5 @@
-<!--id-->dxLookup.Options.onCopy<!--/id-->
-<!--EventForAction-->dxLookup.copy<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxLookup.Options.onCopy
+hidden: 
+EventForAction: dxLookup.copy
+---

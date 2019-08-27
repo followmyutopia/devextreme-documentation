@@ -1,21 +1,19 @@
-<!--id-->dxSwitch<!--/id-->
-<!--widgettree-->
-
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/switch<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->Editor<!--/inherits-->
-<!--lib-->
-dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSwitch
+module: ui/switch
+export: default
+inherits: Editor
+---
+---
+##### shortDescription
 The **Switch** is a widget that can be in two states: "On" and "Off".
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### widgettree
+
+##### lib
+dx.web.js, dx.viz-web.js, dx.all.js
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/editorsswitchswitchswitch/"
 }
@@ -26,4 +24,3 @@ The **Switch** is a widget that can be in two states: "On" and "Off".
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

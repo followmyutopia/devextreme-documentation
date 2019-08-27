@@ -1,29 +1,15 @@
-<!--id-->dxChartCommonAnnotationConfig.template<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->template<!--/type-->
-===========================================================================
+---
+id: dxChartCommonAnnotationConfig.template
+type: template
+default: undefined
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### param(annotationItem): dxChartAnnotationConfig | any
 
-<!--/shortDescription-->
+##### param(element): SVGGElement
 
-<!--fullDescription-->
+##### return: String | SVGElement | jQuery
 
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->annotationItem<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->dxChartAnnotationConfig|any<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionParamName2-->element<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->SVGGElement<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-
-<!--/typeFunctionParamDescription2-->
-
-<!--typeFunctionReturnType-->String|SVGElement|jQuery<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-
-<!--/typeFunctionReturnDescription-->
+---

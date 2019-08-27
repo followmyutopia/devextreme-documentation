@@ -1,23 +1,11 @@
-<!--id-->dxDiagram.exportTo(format, callback)<!--/id-->
-===================================================================
-===================================================================
+---
+id: dxDiagram.exportTo(format, callback)
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### param(format): 'svg' | 'png' | 'jpg'
 
-<!--/shortDescription-->
+##### param(callback): function()
 
-<!--paramName1-->format<!--/paramName1-->
-<!--paramType1-->'svg'|'png'|'jpg'<!--/paramType1-->
-<!--paramDescription1-->
-
-<!--/paramDescription1-->
-
-<!--paramName2-->callback<!--/paramName2-->
-<!--paramType2-->function()<!--/paramType2-->
-<!--paramDescription2-->
-
-<!--/paramDescription2-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

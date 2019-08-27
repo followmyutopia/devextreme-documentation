@@ -1,14 +1,13 @@
-<!--id-->dxTextEditor.Options.inputAttr<!--/id-->
-===========================================================================
-<!--default-->{}<!--/default-->
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTextEditor.Options.inputAttr
+type: Object
+default: {}
+---
+---
+##### shortDescription
 Specifies the attributes to be passed on to the underlying HTML element.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 ---
 #####jQuery
 
@@ -69,5 +68,3 @@ Specifies the attributes to be passed on to the underlying HTML element.
     )
 
 ---
-
-<!--/fullDescription-->

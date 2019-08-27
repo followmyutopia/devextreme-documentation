@@ -1,12 +1,8 @@
-<!--id-->dxDiagram.Options.pageSize.items.text<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.pageSize.items.text
+type: String
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

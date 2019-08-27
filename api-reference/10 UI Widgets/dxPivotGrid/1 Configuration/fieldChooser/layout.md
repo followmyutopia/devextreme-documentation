@@ -1,15 +1,14 @@
-<!--id-->dxPivotGrid.Options.fieldChooser.layout<!--/id-->
-===========================================================================
-<!--default-->0<!--/default-->
-<!--acceptValues-->0 | 1 | 2<!--/acceptValues-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGrid.Options.fieldChooser.layout
+acceptValues: 0 | 1 | 2
+type: Number
+default: 0
+---
+---
+##### shortDescription
 Specifies the field chooser layout.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The image below shows different layout types.
 
 ![](/Content/images/doc/19_2/DataGrid/fieldChooserLayouts.png)
@@ -26,4 +25,3 @@ The following abbreviations are used on the image.
     enum: "`PivotGridFieldChooserLayout`",
     values: "`Layout0`, `Layout1`, and `Layout2`"
 }
-<!--/fullDescription-->

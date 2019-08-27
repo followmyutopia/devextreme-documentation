@@ -1,13 +1,10 @@
-<!--id-->dxChart.Options.valueAxis.strips.endValue<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number | Date | String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.valueAxis.strips.endValue
+type: Number | Date | String
+default: undefined
+---
+---
+##### shortDescription
 Along with the **startValue** option, limits the strip.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

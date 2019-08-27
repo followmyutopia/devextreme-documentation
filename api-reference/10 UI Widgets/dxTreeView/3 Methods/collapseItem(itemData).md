@@ -1,17 +1,11 @@
-<!--id-->dxTreeView.collapseItem(itemData)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeView.collapseItem(itemData)
+---
+---
+##### shortDescription
 Collapses an item with a specific key.
-<!--/shortDescription-->
 
-<!--paramName1-->itemData<!--/paramName1-->
-<!--paramType1-->Object<!--/paramType1-->
-<!--paramDescription1-->
-The key. 
-<!--/paramDescription1-->
+##### param(itemData): Object
+The key.
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

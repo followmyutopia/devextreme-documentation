@@ -1,13 +1,10 @@
-<!--id-->dxPivotGrid.Options.loadPanel.text<!--/id-->
-===========================================================================
-<!--default-->'Loading...'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGrid.Options.loadPanel.text
+type: String
+default: 'Loading...'
+---
+---
+##### shortDescription
 Specifies the text to display inside a load panel.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,12 +1,11 @@
-<!--id-->DataSource.dispose()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.dispose()
+---
+---
+##### shortDescription
 Disposes of all the resources allocated to the **DataSource** instance.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -35,4 +34,3 @@ Disposes of all the resources allocated to the **DataSource** instance.
 ---
 
 [note] Do not call this method if a widget created the **DataSource** instance.
-<!--/fullDescription-->

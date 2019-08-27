@@ -1,13 +1,12 @@
-<!--id-->dxChart.Options.argumentAxis.tickInterval<!--/id-->
-===========================================================================
-<!--inherits-->VizTimeInterval<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.argumentAxis.tickInterval
+inherits: VizTimeInterval
+---
+---
+##### shortDescription
 Specifies the interval between [major ticks](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/tick/).
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Major ticks divide an axis into segments, thus improving the viewer's perception of visualized data. Major ticks are generated automatically, unless the **tickInterval** option is set.
 
 If the axis displays numbers, assign a number to this option. If the axis displays date-time values, assign one of the accepted string values or an object to this option. The object should contain one or several fields described in this section, for example:
@@ -56,4 +55,3 @@ When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_M
 #####See Also#####
 - **argumentAxis**.[tick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/tick/) - configures the appearance of major ticks.
 - **argumentAxis**.[minorTickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/minorTickInterval/) - specifies the interval between minor ticks.
-<!--/fullDescription-->

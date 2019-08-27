@@ -1,4 +1,8 @@
-<!--id-->linearRhombus.width<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->15<!--/default-->
-===========================================================================
+---
+id: linearRhombus.width
+default: 15
+---
+---
+##### merge
+
+---

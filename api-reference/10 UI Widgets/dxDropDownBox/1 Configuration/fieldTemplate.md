@@ -1,14 +1,22 @@
-<!--id-->dxDropDownBox.Options.fieldTemplate<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->template<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDropDownBox.Options.fieldTemplate
+type: template
+default: null
+---
+---
+##### shortDescription
 Specifies a custom template for the text field. Must contain the [TextBox](/Documentation/Guide/Widgets/TextBox/Overview/) widget.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(value): Object
+Selected values.
+
+##### param(fieldElement): dxElement
+#include common-ref-elementparam with { element: "field" }
+
+##### return: String | Node | jQuery
+A template name or container.
+
+---
 In the following code, the **fieldTemplate** is used to stylize the text field with a custom CSS class:
 
 ---
@@ -98,20 +106,3 @@ In the following code, the **fieldTemplate** is used to stylize the text field w
 
 #####See Also#####
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->value<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Selected values.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionParamName2-->fieldElement<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-#include common-ref-elementparam with { element: "field" }
-<!--/typeFunctionParamDescription2-->
-
-<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A template name or container.
-<!--/typeFunctionReturnDescription-->

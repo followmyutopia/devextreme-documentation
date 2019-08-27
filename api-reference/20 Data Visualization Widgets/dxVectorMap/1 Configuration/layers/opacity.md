@@ -1,13 +1,10 @@
-<!--id-->dxVectorMap.Options.layers.opacity<!--/id-->
-===========================================================================
-<!--default-->1<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxVectorMap.Options.layers.opacity
+type: Number
+default: 1
+---
+---
+##### shortDescription
 Specifies the layer opacity (from 0 to 1).
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.SplineAreaSeries.label<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.SplineAreaSeries.label
+type: Object
+---

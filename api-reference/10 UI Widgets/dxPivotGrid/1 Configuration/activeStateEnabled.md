@@ -1,5 +1,4 @@
-<!--id-->dxPivotGrid.Options.activeStateEnabled<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxPivotGrid.Options.activeStateEnabled
+hidden: 
+---

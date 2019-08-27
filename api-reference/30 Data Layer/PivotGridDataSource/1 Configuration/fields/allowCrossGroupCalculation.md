@@ -1,14 +1,13 @@
-<!--id-->PivotGridDataSource.Options.fields.allowCrossGroupCalculation<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.Options.fields.allowCrossGroupCalculation
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether to take neighboring groups' summary values into account when calculating a [running total](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#runningTotal) and [absolute or percent variation](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#summaryDisplayMode).
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 For example, a pivot grid row contains the following summary values split into three groups:
 
     [ [1, 1, 1], [2, 2, 2], [3, 3, 3] ]
@@ -21,4 +20,3 @@ This row can be displayed differently depending on the **allowCrossGroupCalculat
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/PivotGrid/RunningTotals/jQuery/Light/"
 }
-<!--/fullDescription-->

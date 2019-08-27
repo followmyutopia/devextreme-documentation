@@ -1,14 +1,13 @@
-<!--id-->dxFormGroupItem.colCount<!--/id-->
-===========================================================================
-<!--default-->1<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFormGroupItem.colCount
+type: Number
+default: 1
+---
+---
+##### shortDescription
 The count of columns in the group layout.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 [note]
 
 For extra small screens, this option always equals *1* to make the widget adaptive. Specify the [colCountByScreen](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/GroupItem/colCountByScreen/) option to override this logic.
@@ -63,4 +62,3 @@ For extra small screens, this option always equals *1* to make the widget adapti
 
 #####See Also#####
 - [Columns within a Group](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Groups/#Columns_within_a_Group)
-<!--/fullDescription-->

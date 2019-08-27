@@ -1,12 +1,9 @@
-<!--id-->dxCalendarCellTemplate.text<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxCalendarCellTemplate.text
+type: String
+---
+---
+##### shortDescription
 The text displayed by the cell.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

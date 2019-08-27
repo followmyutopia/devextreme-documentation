@@ -1,6 +1,4 @@
-<!--id-->dxDrawer.registerKeyHandler(key, handler)<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
-
-
+---
+id: dxDrawer.registerKeyHandler(key, handler)
+hidden: 
+---

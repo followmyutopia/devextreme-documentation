@@ -1,18 +1,17 @@
-<!--id-->dxScrollView<!--/id-->
-===========================================================================
-<!--module-->ui/scroll_view<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->dxScrollable<!--/inherits-->
-<!--lib-->
-dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxScrollView
+module: ui/scroll_view
+export: default
+inherits: dxScrollable
+---
+---
+##### shortDescription
 The **ScrollView** is a widget that enables a user to scroll its content.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### lib
+dx.web.js, dx.viz-web.js, dx.all.js
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/formsandmulti-purposescrollviewscrollviewscrollview/"
 }
@@ -23,4 +22,3 @@ The **ScrollView** is a widget that enables a user to scroll its content.
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

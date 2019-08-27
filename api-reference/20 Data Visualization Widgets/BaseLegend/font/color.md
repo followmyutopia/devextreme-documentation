@@ -1,4 +1,8 @@
-<!--id-->BaseLegend.font.color<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->'#767676'<!--/default-->
-===========================================================================
+---
+id: BaseLegend.font.color
+default: '#767676'
+---
+---
+##### merge
+
+---

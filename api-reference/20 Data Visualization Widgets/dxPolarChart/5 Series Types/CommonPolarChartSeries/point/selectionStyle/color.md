@@ -1,14 +1,14 @@
-<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.point.selectionStyle.color<!--/id-->
-===========================================================================
-<!--propertyOf-->dxPolarChartSeriesTypes.linepolarseries,dxPolarChartSeriesTypes.areapolarseries,dxPolarChartSeriesTypes.scatterpolarseries<!--/propertyOf-->
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.CommonPolarChartSeries.point.selectionStyle.color
+type: String
+default: undefined
+---
+---
+##### shortDescription
 <p>Sets a color for a point when it is selected.</p>
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### propertyOf
+dxPolarChartSeriesTypes.linepolarseries,dxPolarChartSeriesTypes.areapolarseries,dxPolarChartSeriesTypes.scatterpolarseries
+
+---
 #include common-colorlist
-<!--/fullDescription-->

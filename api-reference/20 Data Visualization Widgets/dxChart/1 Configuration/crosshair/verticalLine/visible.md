@@ -1,14 +1,12 @@
-<!--id-->dxChart.Options.crosshair.verticalLine.visible<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.crosshair.verticalLine.visible
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether to show the vertical crosshair line or not.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 - **crosshair**.[enabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/#enabled) - enables the crosshair feature.
-<!--/fullDescription-->

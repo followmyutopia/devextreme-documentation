@@ -1,15 +1,14 @@
-<!--id-->dxRangeSelector.Options.scale.type<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--acceptValues-->'continuous' | 'discrete' | 'logarithmic' | 'semidiscrete'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.scale.type
+acceptValues: 'continuous' | 'discrete' | 'logarithmic' | 'semidiscrete'
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies the type of the scale.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 To decide on the scale type to use, check the [type of values](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/#valueType) the scale contains.
 
 The *"continuous"* type is used by default when the scale displays numeric or date-time values. Although it is divided into intervals automatically, you can specify custom intervals using the [tickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/tickInterval/) and [minorTickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/minorTickInterval/) properties.
@@ -50,4 +49,3 @@ Another example: a semidiscrete scale built on numeric values. This time, the sc
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/formsandmulti-purposerangeselectorrangeselectorlogarithmicscale/"
 }
-<!--/fullDescription-->

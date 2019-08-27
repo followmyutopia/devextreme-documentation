@@ -1,29 +1,15 @@
-<!--id-->setTemplateEngine(options)<!--/id-->
-===================================================================
-<!--module-->core/set_template_engine<!--/module-->
-<!--export-->default<!--/export-->
-===================================================================
+---
+id: setTemplateEngine(options)
+module: core/set_template_engine
+export: default
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### param(templateEngineOptions): Object
 
-<!--/shortDescription-->
+##### field(templateEngineOptions.compile): function()
 
-<!--paramName1-->templateEngineOptions<!--/paramName1-->
-<!--paramType1-->Object<!--/paramType1-->
-<!--paramDescription1-->
+##### field(templateEngineOptions.render): function()
 
-<!--/paramDescription1-->
-<!--paramName1_field1-->compile<!--/paramName1_field1-->
-<!--paramType1_field1-->function()<!--/paramType1_field1-->
-<!--paramDescription1_field1-->
-
-<!--/paramDescription1_field1-->
-<!--paramName1_field2-->render<!--/paramName1_field2-->
-<!--paramType1_field2-->function()<!--/paramType1_field2-->
-<!--paramDescription1_field2-->
-
-<!--/paramDescription1_field2-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

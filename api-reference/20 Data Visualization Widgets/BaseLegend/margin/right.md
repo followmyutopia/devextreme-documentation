@@ -1,13 +1,10 @@
-<!--id-->BaseLegend.margin.right<!--/id-->
-===========================================================================
-<!--default-->10<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseLegend.margin.right
+type: Number
+default: 10
+---
+---
+##### shortDescription
 Specifies the legend's right margin in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

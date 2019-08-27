@@ -1,13 +1,10 @@
-<!--id-->dxFunnel.Options.item.border.visible<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFunnel.Options.item.border.visible
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Makes a funnel item's border visible.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

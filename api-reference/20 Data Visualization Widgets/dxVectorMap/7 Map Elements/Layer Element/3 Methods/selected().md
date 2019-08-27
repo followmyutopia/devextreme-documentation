@@ -1,16 +1,11 @@
-<!--id-->MapLayerElement.selected()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: MapLayerElement.selected()
+---
+---
+##### shortDescription
 Gets the selection state of the layer element.
-<!--/shortDescription-->
 
-<!--returnType-->Boolean<!--/returnType-->
-<!--returnDescription-->
+##### return: Boolean
 Is **true** when the element is selected, otherwise, **false**.
-<!--/returnDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

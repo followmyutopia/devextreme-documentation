@@ -1,13 +1,10 @@
-<!--id-->dxDataGrid.Options.export.fileName<!--/id-->
-===========================================================================
-<!--default-->'DataGrid'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.Options.export.fileName
+type: String
+default: 'DataGrid'
+---
+---
+##### shortDescription
 Specifies a default name for the file to which grid data is exported.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

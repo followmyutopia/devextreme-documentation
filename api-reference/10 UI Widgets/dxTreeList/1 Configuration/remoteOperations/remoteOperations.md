@@ -1,13 +1,12 @@
-<!--id-->dxTreeList.Options.remoteOperations<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeList.Options.remoteOperations
+type: Object
+---
+---
+##### shortDescription
 Notifies the **TreeList** of the server's data processing operations. Applies only if data has a [plain structure](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataStructure).
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Server-side data processing improves the widget's performance on large datasets. When the server does not implement particular operations (and/or the corresponding **remoteOperations** fields are **false**) they are executed on the client. Note that the widget may send queries to the server while executing a client-side operation.
 
 The following table lists the possible **remoteOperations** configurations and the operations the server should implement. The server should also implement additional operations depending on the used widget functionality. 
@@ -55,4 +54,3 @@ When operations are performed on the server side, the **TreeList** does not supp
 
 #####See Also#####
 - **Data Binding**: [Web API Service](/Documentation/Guide/Widgets/TreeList/Data_Binding/Web_API_Service/) | [PHP Service](/Documentation/Guide/Widgets/TreeList/Data_Binding/PHP_Service/) | [MongoDB Service](/Documentation/Guide/Widgets/TreeList/Data_Binding/MongoDB_Service/) | [Custom Sources](/Documentation/Guide/Widgets/TreeList/Data_Binding/Custom_Sources/)
-<!--/fullDescription-->

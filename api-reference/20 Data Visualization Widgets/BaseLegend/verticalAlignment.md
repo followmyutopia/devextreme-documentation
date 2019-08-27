@@ -1,15 +1,14 @@
-<!--id-->BaseLegend.verticalAlignment<!--/id-->
-===========================================================================
-<!--default-->'top'<!--/default-->
-<!--acceptValues-->'bottom' | 'top'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseLegend.verticalAlignment
+acceptValues: 'bottom' | 'top'
+type: String
+default: 'top'
+---
+---
+##### shortDescription
 Along with [horizontalAlignment]({basewidgetpath}/Configuration/legend/#horizontalAlignment), specifies the legend's position.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-ref-enum with {
     enum: "`VerticalEdge`",
     values: "`Top` and `Bottom`"
@@ -17,4 +16,3 @@ Along with [horizontalAlignment]({basewidgetpath}/Configuration/legend/#horizont
 
 #####See Also#####
 - **legend**.[orientation]({basewidgetpath}/Configuration/legend/#orientation)
-<!--/fullDescription-->

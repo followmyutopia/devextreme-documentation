@@ -1,48 +1,33 @@
-<!--id-->dxFilterBuilderCustomOperation.editorTemplate<!--/id-->
-===========================================================================
-<!--type-->template<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFilterBuilderCustomOperation.editorTemplate
+type: template
+---
+---
+##### shortDescription
 Specifies a custom template for the widget used to edit the field value.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(conditionInfo): Object
+Information about a **FilterBuilder** field.
+
+##### field(conditionInfo.field): dxFilterBuilderField
+The field's configuration.
+
+##### field(conditionInfo.setValue): function()
+A method that you should call to change the field value after the editor value changes.
+
+##### field(conditionInfo.value): String | Number | Date
+The editor's value.
+
+##### param(container): dxElement
+#include common-ref-elementparam with { element: "editor" }
+
+##### return: String | Node | jQuery
+A template name or container.
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/FilterBuilder/Customization/jQuery/Light/"
 }
 
 #####See Also#####
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->conditionInfo<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about a **FilterBuilder** field.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->String | Number | Date<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The editor's value.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->field<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxFilterBuilderField<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-The field's configuration.
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->setValue<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->function()<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-A method that you should call to change the field value after the editor value changes.
-<!--/typeFunctionParamDescription1_field3-->
-
-<!--typeFunctionParamName2-->container<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-#include common-ref-elementparam with { element: "editor" }
-<!--/typeFunctionParamDescription2-->
-
-<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A template name or container.
-<!--/typeFunctionReturnDescription-->

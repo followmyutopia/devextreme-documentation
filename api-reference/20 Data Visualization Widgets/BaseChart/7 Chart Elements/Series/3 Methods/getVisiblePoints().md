@@ -1,16 +1,11 @@
-<!--id-->baseSeriesObject.getVisiblePoints()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: baseSeriesObject.getVisiblePoints()
+---
+---
+##### shortDescription
 Gets visible series points.
-<!--/shortDescription-->
 
-<!--returnType-->Array<basePointObject><!--/returnType-->
-<!--returnDescription-->
+##### return: Array<basePointObject>
 Visible series points.
-<!--/returnDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

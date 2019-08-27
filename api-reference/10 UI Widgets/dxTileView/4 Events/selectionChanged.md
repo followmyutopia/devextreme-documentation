@@ -1,6 +1,5 @@
-<!--id-->dxTileView.selectionChanged<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->eventType<!--/type-->
-===========================================================================
-
+---
+id: dxTileView.selectionChanged
+type: eventType
+hidden: 
+---

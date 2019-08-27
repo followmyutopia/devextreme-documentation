@@ -1,11 +1,8 @@
-<!--id-->baseSeriesObject.show()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: baseSeriesObject.show()
+---
+---
+##### shortDescription
 Makes a particular series visible.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

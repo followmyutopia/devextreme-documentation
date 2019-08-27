@@ -1,13 +1,10 @@
-<!--id-->dxRangeSelector.Options.scale.endOnTick<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.scale.endOnTick
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether to force the scale to start and end on ticks.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

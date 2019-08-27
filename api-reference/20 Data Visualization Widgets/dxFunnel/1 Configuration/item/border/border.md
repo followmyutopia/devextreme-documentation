@@ -1,12 +1,9 @@
-<!--id-->dxFunnel.Options.item.border<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFunnel.Options.item.border
+type: Object
+---
+---
+##### shortDescription
 Configures a funnel item's border.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,13 +1,10 @@
-<!--id-->BaseWidget.Options.loadingIndicator.text<!--/id-->
-===========================================================================
-<!--default-->'Loading...'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseWidget.Options.loadingIndicator.text
+type: String
+default: 'Loading...'
+---
+---
+##### shortDescription
 Specifies the text to be displayed by the loading indicator.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

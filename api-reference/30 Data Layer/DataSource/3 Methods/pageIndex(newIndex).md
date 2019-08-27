@@ -1,18 +1,14 @@
-<!--id-->DataSource.pageIndex(newIndex)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.pageIndex(newIndex)
+---
+---
+##### shortDescription
 Sets the index of the page that should be loaded on the next [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method call.
-<!--/shortDescription-->
 
-<!--paramName1-->newIndex<!--/paramName1-->
-<!--paramType1-->Number<!--/paramType1-->
-<!--paramDescription1-->
+##### param(newIndex): Number
 A zero-based page index.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 Call the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method to update the widget bound to the **DataSource**:
 
 ---
@@ -47,4 +43,3 @@ Call the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#loa
     }
 
 ---
-<!--/fullDescription-->

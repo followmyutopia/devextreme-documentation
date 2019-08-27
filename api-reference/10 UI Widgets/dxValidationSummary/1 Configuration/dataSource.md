@@ -1,5 +1,4 @@
-<!--id-->dxValidationSummary.Options.dataSource<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxValidationSummary.Options.dataSource
+hidden: 
+---

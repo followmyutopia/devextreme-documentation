@@ -1,17 +1,14 @@
-<!--id-->Store.key()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: Store.key()
+---
+---
+##### shortDescription
 Gets the key property (or properties) as specified in the [key]({basewidgetpath}/Configuration/#key) option.
-<!--/shortDescription-->
 
-<!--returnType-->any<!--/returnType-->
-<!--returnDescription-->
+##### return: any
 The **key** option's value.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -40,4 +37,3 @@ The **key** option's value.
     }
     
 ---
-<!--/fullDescription-->

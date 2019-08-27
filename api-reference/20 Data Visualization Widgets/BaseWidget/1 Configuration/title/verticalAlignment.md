@@ -1,15 +1,14 @@
-<!--id-->BaseWidget.Options.title.verticalAlignment<!--/id-->
-===========================================================================
-<!--default-->'top'<!--/default-->
-<!--acceptValues-->'bottom' | 'top'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseWidget.Options.title.verticalAlignment
+acceptValues: 'bottom' | 'top'
+type: String
+default: 'top'
+---
+---
+##### shortDescription
 Specifies the title's alignment in a vertical direction.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-ref-enum with {
     enum: "`VerticalEdge`",
     values: "`Top` and `Bottom`"
@@ -17,4 +16,3 @@ Specifies the title's alignment in a vertical direction.
 
 #####See Also#####
 - **title**.[horizontalAlignment]({basewidgetpath}/Configuration/title#horizontalAlignment)
-<!--/fullDescription-->

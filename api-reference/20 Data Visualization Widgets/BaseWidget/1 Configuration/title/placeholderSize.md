@@ -1,13 +1,10 @@
-<!--id-->BaseWidget.Options.title.placeholderSize<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseWidget.Options.title.placeholderSize
+type: Number
+default: undefined
+---
+---
+##### shortDescription
 Reserves a pixel-measured space for the title.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

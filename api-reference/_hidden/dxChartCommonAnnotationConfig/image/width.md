@@ -1,13 +1,10 @@
-<!--id-->dxChartCommonAnnotationConfig.image.width<!--/id-->
-===========================================================================
-<!--default-->30<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartCommonAnnotationConfig.image.width
+type: Number
+default: 30
+---
+---
+##### shortDescription
 Specifies the image's width in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

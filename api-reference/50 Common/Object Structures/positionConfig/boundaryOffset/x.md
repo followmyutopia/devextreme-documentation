@@ -1,13 +1,10 @@
-<!--id-->positionConfig.boundaryOffset.x<!--/id-->
-===========================================================================
-<!--default-->0<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: positionConfig.boundaryOffset.x
+type: Number
+default: 0
+---
+---
+##### shortDescription
 Specifies the horizontal offset.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

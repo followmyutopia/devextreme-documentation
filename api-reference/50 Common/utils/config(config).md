@@ -1,22 +1,17 @@
-<!--id-->config(config)<!--/id-->
-===================================================================
-<!--module-->core/config<!--/module-->
-<!--export-->default<!--/export-->
-===================================================================
+---
+id: config(config)
+module: core/config
+export: default
+---
+---
+##### shortDescription
+Configures your application before its launch.
 
-<!--shortDescription-->
-Configures your application before its launch. 
-<!--/shortDescription-->
-
-<!--paramName1-->config<!--/paramName1-->
-<!--paramType1-->globalConfig<!--/paramType1-->
-<!--paramDescription1-->
+##### param(config): globalConfig
 Global configuration options.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
-  
-    DevExpress.config({
+---
+DevExpress.config({
         rtlEnabled: true,
         forceIsoDateParsing: false,
         // ...
@@ -31,4 +26,3 @@ Global configuration options.
     })
 
 [note] This method should be called only once - at the application's launch. It is necessary to reload the page each time you need to apply new global configuration parameters.
-<!--/fullDescription-->

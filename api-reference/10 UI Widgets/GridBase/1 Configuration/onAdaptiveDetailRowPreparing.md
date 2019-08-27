@@ -1,15 +1,29 @@
-<!--id-->GridBase.Options.onAdaptiveDetailRowPreparing<!--/id-->
-<!--EventForAction-->GridBase.adaptiveDetailRowPreparing<!--/EventForAction-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->function(e)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.onAdaptiveDetailRowPreparing
+type: function(e)
+default: null
+EventForAction: GridBase.adaptiveDetailRowPreparing
+---
+---
+##### shortDescription
 A function that is executed before an adaptive detail row is rendered.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(e): Object
+Information about the event that caused the function's execution.
+
+##### field(e.component): {WidgetName}
+The widget's instance.
+
+##### field(e.element): dxElement
+#include common-ref-elementparam with { element: "widget" }
+
+##### field(e.formOptions): Object
+The options of the [Form](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/) widget.
+
+##### field(e.model): Object
+The model data. Available only if you use Knockout.
+
+---
 Adaptive detail rows display information from columns that were hidden when the widget adapted to the screen or container size. Each adaptive detail row contains the [Form](/Documentation/Guide/Widgets/Form/Overview/) widget that you can customize within the **onAdaptiveDetailRowPreparing** function using the **formOptions** object. Refer to the [Form Configuration](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/) section for details on options of the **Form** widget.
 
 [note]
@@ -26,29 +40,3 @@ The following **Form** options cannot be specified using **formOptions**:
 - [columnHidingEnabled]({basewidgetpath}/Configuration/#columnHidingEnabled)
 - **columns[]**.[hidingPriority]({basewidgetpath}/Configuration/columns/#hidingPriority)
 - [Adaptability](/Documentation/Guide/Widgets/{WidgetName}/Columns/Adaptability/)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the event that caused the function's execution.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-#include common-ref-elementparam with { element: "widget" }
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The model data. Available only if you use Knockout.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->formOptions<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-The options of the [Form](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/) widget.
-<!--/typeFunctionParamDescription1_field4-->

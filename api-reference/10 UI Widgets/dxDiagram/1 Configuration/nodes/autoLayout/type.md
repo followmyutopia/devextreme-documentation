@@ -1,13 +1,9 @@
-<!--id-->dxDiagram.Options.nodes.autoLayout.type<!--/id-->
-===========================================================================
-<!--acceptValues-->'off' | 'tree' | 'layered'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.nodes.autoLayout.type
+acceptValues: 'off' | 'tree' | 'layered'
+type: String
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

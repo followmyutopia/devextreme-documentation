@@ -1,13 +1,10 @@
-<!--id-->dxDateBox.Options.cancelButtonText<!--/id-->
-===========================================================================
-<!--default-->'Cancel'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDateBox.Options.cancelButtonText
+type: String
+default: 'Cancel'
+---
+---
+##### shortDescription
 The text displayed on the Cancel button.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

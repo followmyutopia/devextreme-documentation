@@ -1,13 +1,11 @@
-<!--id-->dxSparkline.Options.pointColor<!--/id-->
-===========================================================================
-<!--default-->'#ffffff'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSparkline.Options.pointColor
+type: String
+default: '#ffffff'
+---
+---
+##### shortDescription
 Sets a color for points on a sparkline. Available for the sparklines of the line- and area-like types.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

@@ -1,13 +1,10 @@
-<!--id-->dxDropDownEditor.Options.acceptCustomValue<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDropDownEditor.Options.acceptCustomValue
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether or not the widget allows an end-user to enter a custom value.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

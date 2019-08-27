@@ -1,15 +1,11 @@
-<!--id-->GridBase<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--module-->ui/grid_base<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->Widget,DataHelperMixin<!--/inherits-->
-===========================================================================
+---
+id: GridBase
+module: ui/grid_base
+export: default
+inherits: Widget,DataHelperMixin
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

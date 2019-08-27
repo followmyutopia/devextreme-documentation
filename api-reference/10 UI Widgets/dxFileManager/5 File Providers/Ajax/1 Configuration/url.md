@@ -1,13 +1,12 @@
-<!--id-->AjaxFileProvider.Options.url<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: AjaxFileProvider.Options.url
+type: String
+---
+---
+##### shortDescription
 Specifies the URL used to load an array of JSON objects that represent files and directories.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The objects should have fields with the following names:
 
     {
@@ -24,4 +23,3 @@ The objects should have fields with the following names:
     }
 
 These are conventional names that you can change via **[fieldName]Expr** options: [nameExpr](/Documentation/ApiReference/UI_Widgets/dxFileManager/File_Providers/Ajax/Configuration/#nameExpr), [sizeExpr](/Documentation/ApiReference/UI_Widgets/dxFileManager/File_Providers/Ajax/Configuration/#sizeExpr), [dateModifiedExpr](/Documentation/ApiReference/UI_Widgets/dxFileManager/File_Providers/Ajax/Configuration/#dateModifiedExpr), and so on.
-<!--/fullDescription-->

@@ -1,15 +1,14 @@
-<!--id-->dxFunnel.Options.algorithm<!--/id-->
-===========================================================================
-<!--default-->'dynamicSlope'<!--/default-->
-<!--acceptValues-->'dynamicHeight' | 'dynamicSlope'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFunnel.Options.algorithm
+acceptValues: 'dynamicHeight' | 'dynamicSlope'
+type: String
+default: 'dynamicSlope'
+---
+---
+##### shortDescription
 Specifies the algorithm for building the funnel.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Two algorithms are available:
 
 - *"dynamicSlope"*
@@ -24,4 +23,3 @@ Two algorithms are available:
 - [argumentField](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/#argumentField)
 - [valueField](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/#valueField)
 - [colorField](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/#colorField)
-<!--/fullDescription-->

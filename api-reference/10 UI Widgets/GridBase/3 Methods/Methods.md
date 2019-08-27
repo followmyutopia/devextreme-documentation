@@ -1,8 +1,5 @@
-
-<!--shortDescription-->
+---
+##### shortDescription
 Overridden.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

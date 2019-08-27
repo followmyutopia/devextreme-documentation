@@ -1,14 +1,13 @@
-<!--id-->dxScheduler.Options.views.intervalCount<!--/id-->
-===========================================================================
-<!--default-->1<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler.Options.views.intervalCount
+type: Number
+default: 1
+---
+---
+##### shortDescription
 Multiplies the default view interval. Applies to all [view types](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/#type) except *"agenda"*.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The following is a list of views and their default intervals:
 
 - *"day"*, *"timelineDay"* - a day    
@@ -22,4 +21,3 @@ The following is a list of views and their default intervals:
 
 #####See Also#####
 - [agendaDuration](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/#agendaDuration)
-<!--/fullDescription-->

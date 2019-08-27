@@ -1,13 +1,10 @@
-<!--id-->dxMenu.Options.showFirstSubmenuMode.delay.hide<!--/id-->
-===========================================================================
-<!--default-->300<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxMenu.Options.showFirstSubmenuMode.delay.hide
+type: Number
+default: 300
+---
+---
+##### shortDescription
 The time span after which the submenu is hidden.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

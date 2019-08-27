@@ -1,6 +1,5 @@
-<!--id-->dxDataGridColumnButton<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-<!--inherits-->GridBaseColumnButton<!--/inherits-->
-===========================================================================
-
+---
+id: dxDataGridColumnButton
+type: Object
+inherits: GridBaseColumnButton
+---

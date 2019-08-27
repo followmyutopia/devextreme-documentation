@@ -1,55 +1,38 @@
-<!--id-->dxDropDownList.Options.onValueChanged<!--/id-->
-<!--EventForAction-->dxDropDownList.valueChanged<!--/EventForAction-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->function(e)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDropDownList.Options.onValueChanged
+type: function(e)
+default: null
+EventForAction: dxDropDownList.valueChanged
+---
+---
+##### shortDescription
 A function that is executed after the widget's [value]({basewidgetpath}/Configuration/#value) is changed.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
+##### param(e): Object
 Information about the event.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
+
+##### field(e.component): {WidgetName}
 The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
+
+##### field(e.element): dxElement
 #include common-ref-elementparam with { element: "widget" }
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The model data. Available only if Knockout is used.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->value<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-The widget's new value.
-<!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamName1_field5-->previousValue<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->Object<!--/typeFunctionParamType1_field5-->
-<!--typeFunctionParamDescription1_field5-->
-The widget's previous value.
-<!--/typeFunctionParamDescription1_field5-->
-<!--typeFunctionParamName1_field6-->jQueryEvent<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->jQuery.Event<!--/typeFunctionParamType1_field6-->
-<!--typeFunctionParamDescription1_field6-->
-The jQuery event that caused the handler execution. Deprecated in favor of the **event** field.
-<!--/typeFunctionParamDescription1_field6-->
-<!--typeFunctionParamDeprecated1_field6-->Use 'event' instead.<!--/typeFunctionParamDeprecated1_field6-->
-<!--typeFunctionParamName1_field7-->event<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->event<!--/typeFunctionParamType1_field7-->
-<!--typeFunctionParamDescription1_field7-->
+
+##### field(e.event): event
 #include common-ref-eventparam
-<!--/typeFunctionParamDescription1_field7-->
+
+##### field(e.jQueryEvent).deprecated
+Use 'event' instead.
+
+##### field(e.jQueryEvent): jQuery.Event
+The jQuery event that caused the handler execution. Deprecated in favor of the **event** field.
+
+##### field(e.model): Object
+The model data. Available only if Knockout is used.
+
+##### field(e.previousValue): Object
+The widget's previous value.
+
+##### field(e.value): Object
+The widget's new value.
+
+---

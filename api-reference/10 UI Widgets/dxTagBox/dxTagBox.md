@@ -1,5 +1,14 @@
-<!--id-->dxTagBox<!--/id-->
-<!--widgettree-->
+---
+id: dxTagBox
+module: ui/tag_box
+export: default
+inherits: dxSelectBox
+---
+---
+##### shortDescription
+The **TagBox** widget is an editor that allows an end user to select multiple items from a drop-down list.
+
+##### widgettree
 dataSource: [
     "HD Video Player",
     "SuperHD Video Player",
@@ -16,21 +25,11 @@ dataSource: [
     "ExcelRemote BT",
     "ExcelRemote IP"
 ]
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/tag_box<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->dxSelectBox<!--/inherits-->
-<!--lib-->
+
+##### lib
 dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
 
-<!--shortDescription-->
-The **TagBox** widget is an editor that allows an end user to select multiple items from a drop-down list.
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/editorstagboxtagboxmainfeatures/"
 }
@@ -41,4 +40,3 @@ The **TagBox** widget is an editor that allows an end user to select multiple it
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

@@ -1,13 +1,33 @@
-<!--id-->XmlaStore.Options.beforeSend<!--/id-->
-===========================================================================
-<!--type-->function(options)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: XmlaStore.Options.beforeSend
+type: function(options)
+---
+---
+##### shortDescription
 Specifies a function that customizes the request before it is sent to the server.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(options): Object
+The request parameters. When jQuery is used, this object can contain <a href="http://api.jquery.com/jquery.ajax/" target="_blank">jQuery.ajax()</a>-supported fields.
+
+##### field(options.data): String
+A query string that contains data to be sent to the server.
+
+##### field(options.dataType): String
+The expected result's data type.
+
+##### field(options.headers): Object
+The request headers.
+
+##### field(options.method): String
+The request method ("GET", "POST", "PATCH", or "MERGE").
+
+##### field(options.url): String
+The request URL.
+
+##### field(options.xhrFields): Object
+Native <a href="https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest#Properties" target="_blank">XMLHttpRequest object properties</a>.
+
+---
 ---
 ##### jQuery
 
@@ -54,39 +74,3 @@ Specifies a function that customizes the request before it is sent to the server
     }
 
 ---
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The request parameters. When jQuery is used, this object can contain <a href="http://api.jquery.com/jquery.ajax/" target="_blank">jQuery.ajax()</a>-supported fields.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->url<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->String<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The request URL.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->method<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->String<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-The request method ("GET", "POST", "PATCH", or "MERGE").
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->headers<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The request headers.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->xhrFields<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-Native <a href="https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest#Properties" target="_blank">XMLHttpRequest object properties</a>.
-<!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamName1_field5-->data<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->String<!--/typeFunctionParamType1_field5-->
-<!--typeFunctionParamDescription1_field5-->
-A query string that contains data to be sent to the server.
-<!--/typeFunctionParamDescription1_field5-->
-<!--typeFunctionParamName1_field6-->dataType<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->String<!--/typeFunctionParamType1_field6-->
-<!--typeFunctionParamDescription1_field6-->
-The expected result's data type. 
-<!--/typeFunctionParamDescription1_field6-->

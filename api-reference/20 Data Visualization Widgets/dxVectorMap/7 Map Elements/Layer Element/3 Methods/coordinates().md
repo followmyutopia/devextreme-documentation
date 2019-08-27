@@ -1,16 +1,11 @@
-<!--id-->MapLayerElement.coordinates()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: MapLayerElement.coordinates()
+---
+---
+##### shortDescription
 Gets the layer element coordinates.
-<!--/shortDescription-->
 
-<!--returnType-->Object<!--/returnType-->
-<!--returnDescription-->
+##### return: Object
 The element coordinates.
-<!--/returnDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

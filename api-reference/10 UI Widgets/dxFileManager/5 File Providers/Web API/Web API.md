@@ -1,16 +1,15 @@
-<!--id-->WebApiFileProvider<!--/id-->
-===========================================================================
-<!--module-->ui/file_manager/file_provider/webapi<!--/module-->
-<!--export-->default<!--/export-->
-<!--type-->Object<!--/type-->
-<!--inherits-->FileProvider<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: WebApiFileProvider
+module: ui/file_manager/file_provider/webapi
+export: default
+type: Object
+inherits: FileProvider
+---
+---
+##### shortDescription
 The **Web API** file provider works with a file system located on the server.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Set the [endpointUrl](/Documentation/ApiReference/UI_Widgets/dxFileManager/File_Providers/Web_API/Configuration/#endpointUrl) option to specify the endpoint used to access and modify the file system.
 
 The server should return data objects of the following structure:
@@ -49,4 +48,3 @@ On the server-side, you need to process file management requests. DevExtreme pro
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/FileManager/BindingToFileSystem/NetCore/Light/"
 }
-<!--/fullDescription-->

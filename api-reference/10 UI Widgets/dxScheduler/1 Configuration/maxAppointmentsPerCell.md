@@ -1,15 +1,14 @@
-<!--id-->dxScheduler.Options.maxAppointmentsPerCell<!--/id-->
-===========================================================================
-<!--default-->'auto'<!--/default-->
-<!--acceptValues-->'auto' | 'unlimited'<!--/acceptValues-->
-<!--type-->Number | String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler.Options.maxAppointmentsPerCell
+acceptValues: 'auto' | 'unlimited'
+type: Number | String
+default: 'auto'
+---
+---
+##### shortDescription
 Specifies the limit of full-sized appointments displayed per cell. Applies to all views except *"agenda"*.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This option accepts the following values: 
 
 - *"unlimited"*      
@@ -24,4 +23,3 @@ The number of appointments allowed in a single cell. Appointments are aggregated
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Scheduler/LimitAppointmentCountPerCell/jQuery/Light/"
 }
-<!--/fullDescription-->

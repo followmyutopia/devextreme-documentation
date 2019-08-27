@@ -1,13 +1,12 @@
-<!--id-->ODataContext.Options.entities<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: ODataContext.Options.entities
+type: Object
+---
+---
+##### shortDescription
 Specifies entity collections to be accessed.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The **ODataContext** creates an **ODataStore** per entity collection, so you need to use [ODataStore options](/Documentation/ApiReference/Data_Layer/ODataStore/Configuration/) for configuring access to entity collections. In the following code, access to the `Employees` and `Customers` entity collections is configured, but only `Customers` is loaded using the [load()](/Documentation/ApiReference/Data_Layer/ODataStore/Methods/#load) method:
 
 ---
@@ -61,5 +60,3 @@ The **ODataContext** creates an **ODataStore** per entity collection, so you nee
     }
 
 ---
-
-<!--/fullDescription-->

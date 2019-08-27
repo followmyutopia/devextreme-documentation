@@ -1,17 +1,15 @@
-<!--id-->dxTreeView.Options.selectionMode<!--/id-->
-===========================================================================
-<!--default-->'multiple'<!--/default-->
-<!--acceptValues-->'multiple' | 'single'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeView.Options.selectionMode
+acceptValues: 'multiple' | 'single'
+type: String
+default: 'multiple'
+---
+---
+##### shortDescription
 Specifies item selection mode.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-ref-enum with {
     enum: "`NavSelectionMode`",
     values: "`Single` and `Multiple`"
 }
-<!--/fullDescription-->

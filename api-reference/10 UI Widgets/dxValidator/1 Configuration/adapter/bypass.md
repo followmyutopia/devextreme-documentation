@@ -1,12 +1,10 @@
-<!--id-->dxValidator.Options.adapter.bypass<!--/id-->
-===========================================================================
-<!--type-->function()<!--/type-->
-===========================================================================
+---
+id: dxValidator.Options.adapter.bypass
+type: function()
+---
+---
+##### shortDescription
+A function that returns a Boolean value specifying whether or not to bypass validation.
 
-<!--shortDescription-->
-A function that returns a Boolean value specifying whether or not to bypass validation. 
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 If the function returns **true**, validation is bypassed, otherwise validation is performed.
-<!--/fullDescription-->

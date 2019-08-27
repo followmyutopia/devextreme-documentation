@@ -1,13 +1,11 @@
-<!--id-->dxDropDownMenu.Options.popupHeight<!--/id-->
-===========================================================================
-<!--default-->auto<!--/default-->
-<!--type-->Number | String | function()<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDropDownMenu.Options.popupHeight
+type: Number | String | function()
+default: auto
+---
+---
+##### shortDescription
 Specifies the popup element's height in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include uiwidgets-ref-height
-<!--/fullDescription-->

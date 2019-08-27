@@ -1,13 +1,10 @@
-<!--id-->dxChartSeriesTypes.CommonSeries.showInLegend<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.CommonSeries.showInLegend
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether to show the series in the [legend](/Documentation/Guide/Widgets/Chart/Legend/Overview/) or not.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

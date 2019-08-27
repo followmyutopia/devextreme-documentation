@@ -1,13 +1,15 @@
-<!--id-->CollectionWidgetItem.template<!--/id-->
-===========================================================================
-<!--type-->template<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: CollectionWidgetItem.template
+type: template
+---
+---
+##### shortDescription
 Specifies an item template that should be used to render this item only.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### return: String | Node | jQuery
+A template name or container.
+
+---
 Whether you use a default or a custom template for widget items, you can specify a specific template for a particular item. To do so, set the **template** field for the data source object of this item. The following types of the specified value are available.
 
 - Assign a string containing the name of the required [template](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/).
@@ -17,8 +19,3 @@ Whether you use a default or a custom template for widget items, you can specify
 
 #####See Also#####
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
-<!--/fullDescription-->
-<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A template name or container.
-<!--/typeFunctionReturnDescription-->

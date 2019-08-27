@@ -1,12 +1,9 @@
-<!--id-->dxTreeListNode.parent<!--/id-->
-===========================================================================
-<!--type-->dxTreeListNode<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeListNode.parent
+type: dxTreeListNode
+---
+---
+##### shortDescription
 The parent node.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

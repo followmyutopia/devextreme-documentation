@@ -1,14 +1,13 @@
-<!--id-->PivotGridDataSource.Options.fields.isMeasure<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.Options.fields.isMeasure
+type: Boolean
+default: undefined
+---
+---
+##### shortDescription
 Specifies whether the field should be treated as a measure (a field providing data for calculation).
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 There are no restrictions for rearranging fields in the [areas](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area) using the [field chooser](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Field_Chooser). However, we recommend restricting measures to the data area by setting their **isMeasure** option to **true**. You can also set this option to **false** for a non-measure field to prohibit placing it in the data area.
 
 ---
@@ -81,4 +80,3 @@ There are no restrictions for rearranging fields in the [areas](/Documentation/A
 
 #####See Also#####
 - [Fields and Areas](/Documentation/Guide/Widgets/PivotGrid/Fields_and_Areas/)
-<!--/fullDescription-->

@@ -1,15 +1,14 @@
-<!--id-->dxPolarChartSeriesTypes.linepolarseries.selectionMode<!--/id-->
-===========================================================================
-<!--default-->'includePoints'<!--/default-->
-<!--acceptValues-->'includePoints' | 'excludePoints' | 'none'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.linepolarseries.selectionMode
+acceptValues: 'includePoints' | 'excludePoints' | 'none'
+type: String
+default: 'includePoints'
+---
+---
+##### shortDescription
 Specifies series elements to be highlighted when a user selects the series.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 When a user selects the series, it may react in one of the following ways depending on the value of the **selectionMode** option.
 
 * **includePoints**   
@@ -27,4 +26,3 @@ The series does not react to selection.
 #####See Also#####
 - [selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Series_Types/LineSeries/selectionStyle/)
 - **point**.[selectionMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Series_Types/LineSeries/point/#selectionMode)
-<!--/fullDescription-->

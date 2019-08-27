@@ -1,14 +1,13 @@
-<!--id-->ODataStore.Options.fieldTypes<!--/id-->
-===========================================================================
-<!--default-->{}<!--/default-->
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: ODataStore.Options.fieldTypes
+type: Object
+default: {}
+---
+---
+##### shortDescription
 Specifies the data field types. Accepts the following types: *"String"*, *"Int32"*, *"Int64"*, *"Boolean"*, *"Single"*, "*Decimal"* and *"[Guid](/Documentation/ApiReference/Data_Layer/Guid/)"*.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Set this option if you are going to [filter data](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering). An object assigned to it should list data fields and their types as field-value pairs. You can also use this option instead of the [keyType](/Documentation/ApiReference/Data_Layer/ODataStore/Configuration/#keyType) to specify the key property's type.
 
 ---
@@ -60,5 +59,3 @@ Set this option if you are going to [filter data](/Documentation/Guide/Data_Laye
     )
 
 ---
-
-<!--/fullDescription-->

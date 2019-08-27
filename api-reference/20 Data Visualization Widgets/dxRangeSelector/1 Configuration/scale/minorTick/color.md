@@ -1,13 +1,11 @@
-<!--id-->dxRangeSelector.Options.scale.minorTick.color<!--/id-->
-===========================================================================
-<!--default-->'#000000'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.scale.minorTick.color
+type: String
+default: '#000000'
+---
+---
+##### shortDescription
 Specifies the color of the scale's minor ticks.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

@@ -1,13 +1,10 @@
-<!--id-->dxSankey.Options.sourceField<!--/id-->
-===========================================================================
-<!--default-->'source'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSankey.Options.sourceField
+type: String
+default: 'source'
+---
+---
+##### shortDescription
 Specifies which data source field provides links' source nodes.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

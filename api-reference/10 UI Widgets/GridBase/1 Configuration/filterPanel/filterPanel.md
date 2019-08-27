@@ -1,14 +1,13 @@
-<!--id-->GridBase.Options.filterPanel<!--/id-->
-===========================================================================
-<!--default-->{}<!--/default-->
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.filterPanel
+type: Object
+default: {}
+---
+---
+##### shortDescription
 Configures the filter panel.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The filter panel displays the applied filter expression.
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout {WidgetName} Filter Panel](/Content/images/doc/19_2/{WidgetName}/visual_elements/filter_panel.png)
@@ -22,4 +21,3 @@ If you change the filter expression in the filter panel or filter builder, the c
 #####See Also#####
 - [Filter Panel with Filter Builder](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Filter_Panel_with_Filter_Builder)
 - [filterBuilderPopup]({basewidgetpath}/Configuration/#filterBuilderPopup)
-<!--/fullDescription-->

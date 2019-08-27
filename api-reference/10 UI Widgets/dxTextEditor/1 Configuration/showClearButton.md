@@ -1,15 +1,11 @@
-<!--id-->dxTextEditor.Options.showClearButton<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTextEditor.Options.showClearButton
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether to display the **Clear** button in the widget.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The **Clear** button sets the widget value to **null**.
-
-
-<!--/fullDescription-->

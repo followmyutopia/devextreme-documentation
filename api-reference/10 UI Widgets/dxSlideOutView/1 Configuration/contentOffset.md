@@ -1,5 +1,4 @@
-<!--id-->dxSlideOutView.Options.contentOffset<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxSlideOutView.Options.contentOffset
+hidden: 
+---

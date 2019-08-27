@@ -1,12 +1,11 @@
-<!--id-->LocalStore.clear()<!--/id-->
-===================================================================
-===================================================================
+---
+id: LocalStore.clear()
+---
+---
+##### shortDescription
+Removes data from the local storage.
 
-<!--shortDescription-->
-Removes data from the local storage. 
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 Depending on the [immediate](/Documentation/ApiReference/Data_Layer/LocalStore/Configuration/#immediate) option's value, this method removes data immediately or after a specified [delay](/Documentation/ApiReference/Data_Layer/LocalStore/Configuration/#flushInterval).
 
 ---
@@ -34,4 +33,3 @@ Depending on the [immediate](/Documentation/ApiReference/Data_Layer/LocalStore/C
     }
 
 ---
-<!--/fullDescription-->

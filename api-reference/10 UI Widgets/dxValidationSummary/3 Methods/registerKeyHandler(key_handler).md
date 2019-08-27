@@ -1,6 +1,4 @@
-<!--id-->dxValidationSummary.registerKeyHandler(key, handler)<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
-
-
+---
+id: dxValidationSummary.registerKeyHandler(key, handler)
+hidden: 
+---

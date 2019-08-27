@@ -1,30 +1,20 @@
-<!--id-->dxScheduler.showAppointmentTooltip(appointmentData, target, currentAppointmentData)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler.showAppointmentTooltip(appointmentData, target, currentAppointmentData)
+---
+---
+##### shortDescription
 Shows a tooltip for a target element.
-<!--/shortDescription-->
 
-<!--paramName1-->appointmentData<!--/paramName1-->
-<!--paramType1-->Object<!--/paramType1-->
-<!--paramDescription1-->
+##### param(appointmentData): Object
 The initial appointment.
-<!--/paramDescription1-->
 
-<!--paramName2-->target<!--/paramName2-->
-<!--paramType2-->String|Node|jQuery<!--/paramType2-->
-<!--paramDescription2-->
+##### param(target): String | Node | jQuery
 The target element.
-<!--/paramDescription2-->
 
-<!--paramName3-->currentAppointmentData<!--/paramName3-->
-<!--paramType3-->Object|undefined<!--/paramType3-->
-<!--paramDescription3-->
+##### param(currentAppointmentData): Object | undefined
 The current appointment.
-<!--/paramDescription3-->
 
-<!--fullDescription-->
+---
 In case of recurring appointments or appointments with multiple resources, you may want to show a tooltip for the specified appointment, not the initial one. For this purpose, use the **currentAppointmentData** of the method parameters. Otherwise, use the **appointmentData** parameter.
 
 For example, there is a recurring appointment that starts on July 18 at 8:00 AM, repeats every day and belongs to two owners. If you call the method for an appointment from the recurring series, for example the second appointment belonging to the second owner, the following information will be presented in the **appointmentData** and **currentAppointmentData** parameters.
@@ -48,4 +38,3 @@ For example, there is a recurring appointment that starts on July 18 at 8:00 AM,
 
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

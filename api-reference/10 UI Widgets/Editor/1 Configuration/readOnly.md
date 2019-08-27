@@ -1,13 +1,10 @@
-<!--id-->Editor.Options.readOnly<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Editor.Options.readOnly
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether the editor is read-only.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

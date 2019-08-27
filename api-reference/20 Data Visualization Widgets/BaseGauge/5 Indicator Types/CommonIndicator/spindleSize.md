@@ -1,14 +1,13 @@
-<!--id-->CommonIndicator.spindleSize<!--/id-->
-===========================================================================
-<!--propertyOf-->circularTwoColorNeedle,circularRectangleNeedle,circularTriangleNeedle<!--/propertyOf-->
-<!--default-->14<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: CommonIndicator.spindleSize
+type: Number
+default: 14
+---
+---
+##### shortDescription
 Specifies the spindle's diameter in pixels for the indicator of a needle-like type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### propertyOf
+circularTwoColorNeedle,circularRectangleNeedle,circularTriangleNeedle
 
-<!--/fullDescription-->
+---

@@ -1,33 +1,23 @@
-<!--id-->Store.totalCount(options)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: Store.totalCount(options)
+---
+---
+##### shortDescription
 Gets the total count of items the [load()]({basewidgetpath}/Methods/#load) function returns.
-<!--/shortDescription-->
 
-<!--paramName1-->obj<!--/paramName1-->
-<!--paramType1-->Object<!--/paramType1-->
-<!--paramDescription1-->
-Filtering and grouping options.
-<!--/paramDescription1-->
-<!--paramName1_field1-->filter<!--/paramName1_field1-->
-<!--paramType1_field1-->Object<!--/paramType1_field1-->
-<!--paramDescription1_field1-->
-A filtering expression; described in the [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering) section.
-<!--/paramDescription1_field1-->
-<!--paramName1_field2-->group<!--/paramName1_field2-->
-<!--paramType1_field2-->Object<!--/paramType1_field2-->
-<!--paramDescription1_field2-->
-A grouping expression; described in the [Grouping](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Grouping) section.
-<!--/paramDescription1_field2-->
-
-<!--returnType-->Promise<Number><!--/returnType-->
-<!--returnDescription-->
+##### return: Promise<Number>
 A Promise that is resolved after the total item count is obtained. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(obj): Object
+Filtering and grouping options.
+
+##### field(obj.filter): Object
+A filtering expression; described in the [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering) section.
+
+##### field(obj.group): Object
+A grouping expression; described in the [Grouping](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Grouping) section.
+
+---
 ---
 ##### jQuery
 
@@ -64,5 +54,3 @@ A Promise that is resolved after the total item count is obtained. It is a <a hr
     }
     
 ---
-
-<!--/fullDescription-->

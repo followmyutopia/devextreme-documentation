@@ -1,15 +1,14 @@
-<!--id-->dxChart.Options.argumentAxis.type<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--acceptValues-->'continuous' | 'discrete' | 'logarithmic'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.argumentAxis.type
+acceptValues: 'continuous' | 'discrete' | 'logarithmic'
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies the type of the argument axis.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The argument axis can have one of the following types.
 
 - **Continuous**        
@@ -25,4 +24,3 @@ Normally, there is no need to specify this option, because the axis type is dete
     enum: "`AxisScaleType`",
     values: "`Discrete`, `Continuous`, and `Logarithmic`"
 }
-<!--/fullDescription-->

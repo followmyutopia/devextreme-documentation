@@ -1,18 +1,14 @@
-<!--id-->BaseGauge.subvalues(subvalues)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: BaseGauge.subvalues(subvalues)
+---
+---
+##### shortDescription
 Updates subvalues.
-<!--/shortDescription-->
 
-<!--paramName1-->subvalues<!--/paramName1-->
-<!--paramType1-->Array<Number><!--/paramType1-->
-<!--paramDescription1-->
+##### param(subvalues): Array<Number>
 New subvalues.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 Use this method to change gauge subvalues at runtime.
 
 [note]It is necessary to set the [subvalues]({basewidgetpath}/Configuration#subvalues) option in order to use the **subvalues(subvalues)** method. Set this option to an empty array, in case you don't need to show subvalues initially.
@@ -28,4 +24,3 @@ Use this method to change gauge subvalues at runtime.
 
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

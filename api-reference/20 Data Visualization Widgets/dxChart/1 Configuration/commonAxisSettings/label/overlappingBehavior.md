@@ -1,15 +1,14 @@
-<!--id-->dxChart.Options.commonAxisSettings.label.overlappingBehavior<!--/id-->
-===========================================================================
-<!--default-->'hide'<!--/default-->
-<!--acceptValues-->'rotate' | 'stagger' | 'none' | 'hide'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonAxisSettings.label.overlappingBehavior
+acceptValues: 'rotate' | 'stagger' | 'none' | 'hide'
+type: String
+default: 'hide'
+---
+---
+##### shortDescription
 Decides how to arrange axis labels when there is not enough space to keep all of them.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 When axis labels overlap each other, you can rearrange them by setting the **overlappingBehavior** option. Depending on whether an axis is horizontal or vertical, this option accepts different values.
 
 [note]Unless the [rotated](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#rotated) option is set to **true**, the argument axis is horizontal and the value axis is vertical.
@@ -39,4 +38,3 @@ Arranges axis labels in two rows in a staggering manner. An empty space between 
 
 #####See Also#####
 - [Axis Labels](/Documentation/Guide/Widgets/Chart/Axes/Axis_Labels/)
-<!--/fullDescription-->

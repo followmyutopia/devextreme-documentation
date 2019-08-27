@@ -1,14 +1,13 @@
-<!--id-->BaseLegend.title.font<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-<!--inherits-->Font<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseLegend.title.font
+type: Object
+inherits: Font
+---
+---
+##### shortDescription
 Specifies the legend title's font options.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -131,4 +130,3 @@ Specifies the legend title's font options.
     export default App;
 
 ---
-<!--/fullDescription-->

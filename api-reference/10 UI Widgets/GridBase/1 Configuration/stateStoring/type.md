@@ -1,15 +1,14 @@
-<!--id-->GridBase.Options.stateStoring.type<!--/id-->
-===========================================================================
-<!--default-->'localStorage'<!--/default-->
-<!--acceptValues-->'custom' | 'localStorage' | 'sessionStorage'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.stateStoring.type
+acceptValues: 'custom' | 'localStorage' | 'sessionStorage'
+type: String
+default: 'localStorage'
+---
+---
+##### shortDescription
 Specifies the type of storage where the state is saved.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This option accepts the following values: 
 
 - *"sessionStorage"*    
@@ -25,4 +24,3 @@ This option accepts the following values:
     enum: "`StateStoringType`",
     values: "`LocalStorage`, `SessionStorage`, and `Custom`"
 }
-<!--/fullDescription-->

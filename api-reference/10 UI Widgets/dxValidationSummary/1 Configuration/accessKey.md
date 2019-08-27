@@ -1,5 +1,4 @@
-<!--id-->dxValidationSummary.Options.accessKey<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxValidationSummary.Options.accessKey
+hidden: 
+---

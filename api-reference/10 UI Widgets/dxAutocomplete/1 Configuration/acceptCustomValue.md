@@ -1,5 +1,4 @@
-<!--id-->dxAutocomplete.Options.acceptCustomValue<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxAutocomplete.Options.acceptCustomValue
+hidden: 
+---

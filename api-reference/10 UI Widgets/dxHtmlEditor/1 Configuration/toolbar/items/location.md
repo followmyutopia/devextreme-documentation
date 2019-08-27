@@ -1,5 +1,4 @@
-<!--id-->dxHtmlEditorToolbarItem.location<!--/id-->
-===========================================================================
-<!--default-->'before'<!--/default-->
-===========================================================================
-
+---
+id: dxHtmlEditorToolbarItem.location
+default: 'before'
+---

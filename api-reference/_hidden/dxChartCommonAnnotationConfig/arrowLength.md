@@ -1,13 +1,10 @@
-<!--id-->dxChartCommonAnnotationConfig.arrowLength<!--/id-->
-===========================================================================
-<!--default-->14<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartCommonAnnotationConfig.arrowLength
+type: Number
+default: 14
+---
+---
+##### shortDescription
 Specifies the length of the annotation's arrow in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

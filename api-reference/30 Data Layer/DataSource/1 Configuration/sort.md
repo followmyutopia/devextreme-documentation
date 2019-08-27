@@ -1,13 +1,12 @@
-<!--id-->DataSource.Options.sort<!--/id-->
-===========================================================================
-<!--type-->Sort expression<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.Options.sort
+type: Sort expression
+---
+---
+##### shortDescription
 Specifies data sorting options.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This option accepts one of the following:
 
 - **String**        
@@ -127,4 +126,3 @@ A function that returns the value to sort by.
 
 #####See Also#####
 - [Sorting](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Sorting)
-<!--/fullDescription-->

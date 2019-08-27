@@ -1,15 +1,14 @@
-<!--id-->dxDataGrid.Options.selection.selectAllMode<!--/id-->
-===========================================================================
-<!--default-->'allPages'<!--/default-->
-<!--acceptValues-->'allPages' | 'page'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.Options.selection.selectAllMode
+acceptValues: 'allPages' | 'page'
+type: String
+default: 'allPages'
+---
+---
+##### shortDescription
 Specifies the mode in which all the records are selected. Applies only if **selection**.[allowSelectAll](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#allowSelectAll) is **true**.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 **selectAllMode** specifies how records should be selected on clicking the ["Select All" check box](/Documentation/Guide/Widgets/DataGrid/Selection/#User_Interaction) and by calling the [selectAll()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#selectAll)/[deselectAll()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#deselectAll) methods. The following modes are available.
 
 - *"page"*  
@@ -32,4 +31,3 @@ Specifies the mode in which all the records are selected. Applies only if **sele
 
 #####See Also#####
 - [Selection - User Interaction](/Documentation/Guide/Widgets/DataGrid/Selection/#User_Interaction)
-<!--/fullDescription-->

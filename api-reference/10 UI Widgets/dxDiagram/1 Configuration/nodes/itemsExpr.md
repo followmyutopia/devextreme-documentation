@@ -1,18 +1,12 @@
-<!--id-->dxDiagram.Options.nodes.itemsExpr<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String | function(data)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDiagram.Options.nodes.itemsExpr
+type: String | function(data)
+default: undefined
+---
+---
+##### shortDescription
 Specifies the data field that contains nested items.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(data): Object
 
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->data<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-
-<!--/typeFunctionParamDescription1-->
+---

@@ -1,15 +1,12 @@
-<!--id-->PieChartSeries<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->Object<!--/type-->
-<!--inlineType--><!--/inlineType-->
-<!--inherits-->dxPieChartSeriesTypes.CommonPieChartSeries<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PieChartSeries
+type: Object
+inherits: dxPieChartSeriesTypes.CommonPieChartSeries
+hidden: 
+inlineType: 
+---
+---
+##### shortDescription
 Specifies options for the series of the PieChart widget.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

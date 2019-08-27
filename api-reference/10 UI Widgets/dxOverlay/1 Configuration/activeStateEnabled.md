@@ -1,5 +1,4 @@
-<!--id-->dxOverlay.Options.activeStateEnabled<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxOverlay.Options.activeStateEnabled
+hidden: 
+---

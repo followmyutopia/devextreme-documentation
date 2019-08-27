@@ -1,13 +1,11 @@
-<!--id-->dxRangeSelector.Options.sliderHandle.color<!--/id-->
-===========================================================================
-<!--default-->'#000000'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.sliderHandle.color
+type: String
+default: '#000000'
+---
+---
+##### shortDescription
 Specifies the color of the slider handles.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

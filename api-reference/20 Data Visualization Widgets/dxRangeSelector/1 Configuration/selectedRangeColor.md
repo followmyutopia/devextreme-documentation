@@ -1,13 +1,10 @@
-<!--id-->dxRangeSelector.Options.selectedRangeColor<!--/id-->
-===========================================================================
-<!--default-->'#606060'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.selectedRangeColor
+type: String
+default: '#606060'
+---
+---
+##### shortDescription
 Specifies the color of the selected range.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

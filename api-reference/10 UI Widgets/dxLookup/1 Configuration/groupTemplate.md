@@ -1,37 +1,25 @@
-<!--id-->dxLookup.Options.groupTemplate<!--/id-->
-===========================================================================
-<!--default-->'group'<!--/default-->
-<!--type-->template<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxLookup.Options.groupTemplate
+type: template
+default: 'group'
+---
+---
+##### shortDescription
 Specifies a custom template for group captions.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(itemData): Object
+The current group's data.
+
+##### param(itemIndex): Number
+The group's index.
+
+##### param(itemElement): dxElement
+#include common-ref-elementparam with { element: "group" }
+
+##### return: String | Node | jQuery
+A template name or container.
+
+---
 #####See Also#####
 - [Enable Grouping](/Documentation/Guide/Widgets/Lookup/Enable_Grouping/)
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->itemData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The current group's data.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionParamName2-->itemIndex<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->Number<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-The group's index.
-<!--/typeFunctionParamDescription2-->
-
-<!--typeFunctionParamName3-->itemElement<!--/typeFunctionParamName3-->
-<!--typeFunctionParamType3-->dxElement<!--/typeFunctionParamType3-->
-<!--typeFunctionParamDescription3-->
-#include common-ref-elementparam with { element: "group" }
-<!--/typeFunctionParamDescription3-->
-
-<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A template name or container.
-<!--/typeFunctionReturnDescription-->

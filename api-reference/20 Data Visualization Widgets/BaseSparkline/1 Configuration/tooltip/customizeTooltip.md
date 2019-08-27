@@ -1,24 +1,19 @@
-<!--id-->BaseSparkline.Options.tooltip.customizeTooltip<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--default-->undefined<!--/default-->
-<!--type-->function(pointsInfo)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseSparkline.Options.tooltip.customizeTooltip
+type: function(pointsInfo)
+default: undefined
+---
+---
+##### shortDescription
 Allows you to change tooltip appearance.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-#include dataviz-ref-functioncontext
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->pointsInfo<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
+##### param(pointsInfo): Object
 Information on the point being pressed or hovered over with the mouse pointer.
-<!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->Object<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
+##### return: Object
 The tooltip's text or markup and appearance settings.
-<!--/typeFunctionReturnDescription-->
+
+##### notUsedInTheme
+
+---
+#include dataviz-ref-functioncontext

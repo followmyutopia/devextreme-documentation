@@ -1,15 +1,15 @@
-<!--id-->dxChartSeriesTypes.ScatterSeries<!--/id-->
-===========================================================================
-<!--hidePropertyOf--><!--/hidePropertyOf-->
-<!--type-->Object<!--/type-->
-<!--inherits-->dxChartSeriesTypes.CommonSeries<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.ScatterSeries
+type: Object
+inherits: dxChartSeriesTypes.CommonSeries
+---
+---
+##### shortDescription
 Describes settings supported by a series of the *scatter* type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### hidePropertyOf
+
+---
 #include dataviz-ref-series-type with { 
     seriesType: "scatter"
 }
@@ -19,4 +19,3 @@ Describes settings supported by a series of the *scatter* type.
 }
 
 ![DevExtreme HTML5 Charts ScatterSeriesType](/Content/images/doc/19_2/ChartJS/Scatter.png)
-<!--/fullDescription-->

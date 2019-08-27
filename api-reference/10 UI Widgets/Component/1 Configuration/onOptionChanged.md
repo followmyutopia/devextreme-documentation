@@ -1,39 +1,26 @@
-<!--id-->Component.Options.onOptionChanged<!--/id-->
-<!--EventForAction-->Component.optionChanged<!--/EventForAction-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->function(e)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Component.Options.onOptionChanged
+type: function(e)
+default: null
+EventForAction: Component.optionChanged
+---
+---
+##### shortDescription
 A function that is executed after a widget option is changed.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
+##### param(e): Object
 Information about the event.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
+
+##### field(e.component): {WidgetName}
 The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field4-->name<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->String<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
+
+##### field(e.fullName): String
+The path to the modified option that includes all parent options.
+
+##### field(e.name): String
 The modified option if it belongs to the first level. Otherwise, the first-level option it is nested into.
-<!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamName1_field5-->fullName<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->String<!--/typeFunctionParamType1_field5-->
-<!--typeFunctionParamDescription1_field5-->
-The path to the modified option that includes all parent options. 
-<!--/typeFunctionParamDescription1_field5-->
-<!--typeFunctionParamName1_field6-->value<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->any<!--/typeFunctionParamType1_field6-->
-<!--typeFunctionParamDescription1_field6-->
+
+##### field(e.value): any
 The modified option's new value.
-<!--/typeFunctionParamDescription1_field6-->
+
+---

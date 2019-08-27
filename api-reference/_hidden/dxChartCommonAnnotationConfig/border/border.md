@@ -1,12 +1,9 @@
-<!--id-->dxChartCommonAnnotationConfig.border<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartCommonAnnotationConfig.border
+type: Object
+---
+---
+##### shortDescription
 Configures the appearance of the annotation's border.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

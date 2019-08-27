@@ -1,13 +1,11 @@
-<!--id-->BaseGauge.Options.scale.tick.color<!--/id-->
-===========================================================================
-<!--default-->'#FFFFFF'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseGauge.Options.scale.tick.color
+type: String
+default: '#FFFFFF'
+---
+---
+##### shortDescription
 Specifies the color of the scale's major ticks.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

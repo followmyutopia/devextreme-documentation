@@ -1,6 +1,5 @@
-<!--id-->dxGallery.Options.focusStateEnabled<!--/id-->
-===========================================================================
-<!--default-->true (desktop)<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxGallery.Options.focusStateEnabled
+type: Boolean
+default: true (desktop)
+---

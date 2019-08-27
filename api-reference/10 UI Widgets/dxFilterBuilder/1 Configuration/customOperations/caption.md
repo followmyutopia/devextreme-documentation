@@ -1,13 +1,10 @@
-<!--id-->dxFilterBuilderCustomOperation.caption<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFilterBuilderCustomOperation.caption
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies the operation's caption.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

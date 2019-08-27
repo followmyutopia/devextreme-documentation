@@ -1,66 +1,46 @@
-<!--id-->dxList.Options.onItemSwipe<!--/id-->
-<!--EventForAction-->dxList.itemSwipe<!--/EventForAction-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->function(e)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxList.Options.onItemSwipe
+type: function(e)
+default: null
+EventForAction: dxList.itemSwipe
+---
+---
+##### shortDescription
 A function that is executed when a list item is swiped.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(e): Object
+Information about the event.
+
+##### field(e.component): {WidgetName}
+The widget's instance.
+
+##### field(e.direction): String
+The direction in which the item is swiped.
+
+##### field(e.element): dxElement
+#include common-ref-elementparam with { element: "widget" }
+
+##### field(e.event): event
+#include common-ref-eventparam
+
+##### field(e.itemData): Object
+The swiped item's data.
+
+##### field(e.itemElement): dxElement
+#include common-ref-elementparam with { element: "item" }
+
+##### field(e.itemIndex): Number | Object
+The item's index. In a grouped list, the index represents an object defining the group and item indexes: { group: 0, item: 0 }.
+
+##### field(e.jQueryEvent).deprecated
+Use 'event' instead.
+
+##### field(e.jQueryEvent): jQuery.Event
+The jQuery event that caused the handler execution. Deprecated in favor of the **event** field.
+
+##### field(e.model): Object
+The model data. Available only if Knockout is used.
+
+---
 #####See Also#####
 - [List - Touch-Screen Gestures](/Documentation/Guide/Widgets/List/End-User_Interaction/Touch-Screen_Gestures/)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the event.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-#include common-ref-elementparam with { element: "widget" }
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The model data. Available only if Knockout is used.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->jQueryEvent<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->jQuery.Event<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-The jQuery event that caused the handler execution. Deprecated in favor of the **event** field.
-<!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamDeprecated1_field4-->Use 'event' instead.<!--/typeFunctionParamDeprecated1_field4-->
-<!--typeFunctionParamName1_field5-->event<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->event<!--/typeFunctionParamType1_field5-->
-<!--typeFunctionParamDescription1_field5-->
-#include common-ref-eventparam 
-<!--/typeFunctionParamDescription1_field5-->
-<!--typeFunctionParamName1_field6-->itemData<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->Object<!--/typeFunctionParamType1_field6-->
-<!--typeFunctionParamDescription1_field6-->
-The swiped item's data.
-<!--/typeFunctionParamDescription1_field6-->
-<!--typeFunctionParamName1_field7-->itemElement<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->dxElement<!--/typeFunctionParamType1_field7-->
-<!--typeFunctionParamDescription1_field7-->
-#include common-ref-elementparam with { element: "item" }
-<!--/typeFunctionParamDescription1_field7-->
-<!--typeFunctionParamName1_field8-->itemIndex<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->Number | Object<!--/typeFunctionParamType1_field8-->
-<!--typeFunctionParamDescription1_field8-->
-The item's index. In a grouped list, the index represents an object defining the group and item indexes: { group: 0, item: 0 }.
-<!--/typeFunctionParamDescription1_field8-->
-<!--typeFunctionParamName1_field9-->direction<!--/typeFunctionParamName1_field9-->
-<!--typeFunctionParamType1_field9-->String<!--/typeFunctionParamType1_field9-->
-<!--typeFunctionParamDescription1_field9-->
-The direction in which the item is swiped. 
-<!--/typeFunctionParamDescription1_field9-->

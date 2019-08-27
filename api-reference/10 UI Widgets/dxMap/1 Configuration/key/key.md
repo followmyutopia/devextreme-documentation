@@ -1,14 +1,13 @@
-<!--id-->dxMap.Options.key<!--/id-->
-===========================================================================
-<!--default-->''<!--/default-->
-<!--type-->String | Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxMap.Options.key
+type: String | Object
+default: ''
+---
+---
+##### shortDescription
 A key used to authenticate the application within the required map provider.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -124,4 +123,3 @@ A key used to authenticate the application within the required map provider.
 ---
 
 [note] The value of this option cannot be changed dynamically.
-<!--/fullDescription-->

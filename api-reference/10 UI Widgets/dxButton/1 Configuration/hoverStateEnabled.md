@@ -1,6 +1,5 @@
-<!--id-->dxButton.Options.hoverStateEnabled<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxButton.Options.hoverStateEnabled
+type: Boolean
+default: true
+---

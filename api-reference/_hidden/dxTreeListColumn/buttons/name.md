@@ -1,14 +1,13 @@
-<!--id-->dxTreeListColumnButton.name<!--/id-->
-===========================================================================
-<!--acceptValues-->'add' | 'cancel' | 'delete' | 'edit' | 'save' | 'undelete'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeListColumnButton.name
+acceptValues: 'add' | 'cancel' | 'delete' | 'edit' | 'save' | 'undelete'
+type: String
+---
+---
+##### shortDescription
 The name used to identify a built-in button.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 To configure a built-in button, assign its name to this option. The other options in the object configure the button. For example, the following code adds a custom CSS class to the **Save** button:
 
 ---
@@ -55,4 +54,3 @@ To configure a built-in button, assign its name to this option. The other option
     })
     
 ---
-<!--/fullDescription-->

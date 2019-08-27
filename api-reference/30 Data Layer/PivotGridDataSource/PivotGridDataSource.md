@@ -1,19 +1,18 @@
-<!--id-->PivotGridDataSource<!--/id-->
-===========================================================================
-<!--module-->ui/pivot_grid/data_source<!--/module-->
-<!--export-->default<!--/export-->
-<!--type-->Object<!--/type-->
-<!--inherits-->EventsMixin<!--/inherits-->
-<!--lib-->
-dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource
+module: ui/pivot_grid/data_source
+export: default
+type: Object
+inherits: EventsMixin
+---
+---
+##### shortDescription
 The **PivotGridDataSource** is an object that provides an API for processing data from an underlying [store](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/store/). This object is used in the [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) widget.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### lib
+dx.web.js, dx.viz-web.js, dx.all.js
+
+---
 ---
 ##### jQuery  
 
@@ -191,4 +190,3 @@ When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC
 
 #####See Also#####
 - [ASP.NET MVC Controls - Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/)
-<!--/fullDescription-->

@@ -1,14 +1,28 @@
-<!--id-->dxDateBox.Options.disabledDates<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->Array<Date> | function(data)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDateBox.Options.disabledDates
+type: Array<Date> | function(data)
+default: null
+---
+---
+##### shortDescription
 Specifies dates to be disabled. Applies only if [pickerType](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#pickerType) is *"calendar"*.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(data): Object
+Information about the checked date.
+
+##### field(data.component): dxDateBox
+The widget's [instance](/Documentation/ApiReference/UI_Widgets/dxDateBox/Methods/#instance).
+
+##### field(data.date): Date
+The currently checked date.
+
+##### field(data.view): String
+The current view: *"month"*, *"year"*, *"decade"*, or *"century"*.
+
+##### return: Boolean
+**true** if the date should be disabled; otherwise **false**.
+
+---
 ---
 ##### jQuery
 
@@ -256,30 +270,3 @@ Specifies dates to be disabled. Applies only if [pickerType](/Documentation/ApiR
     export default App;
 
 ---
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->data<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the checked date.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->dxDateBox<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget's [instance](/Documentation/ApiReference/UI_Widgets/dxDateBox/Methods/#instance).
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->date<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->Date<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-The currently checked date.
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->view<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->String<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The current view: *"month"*, *"year"*, *"decade"*, or *"century"*.
-<!--/typeFunctionParamDescription1_field3-->
-
-<!--typeFunctionReturnType-->Boolean<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-**true** if the date should be disabled; otherwise **false**.
-<!--/typeFunctionReturnDescription-->

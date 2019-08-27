@@ -1,12 +1,9 @@
-<!--id-->dxListItem.key<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxListItem.key
+type: String
+---
+---
+##### shortDescription
 Specifies the name of the list items group in a grouped list.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

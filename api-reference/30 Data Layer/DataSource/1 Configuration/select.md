@@ -1,13 +1,12 @@
-<!--id-->DataSource.Options.select<!--/id-->
-===========================================================================
-<!--type-->Select expression<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.Options.select
+type: Select expression
+---
+---
+##### shortDescription
 Specifies the fields to select from data objects.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This option accepts one of the following:
 
 - **String**        
@@ -56,4 +55,3 @@ A function implementing custom selection logic.
 
 #####See Also#####
 - [Select Expressions](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Data_Transformation/Select_Expressions)
-<!--/fullDescription-->

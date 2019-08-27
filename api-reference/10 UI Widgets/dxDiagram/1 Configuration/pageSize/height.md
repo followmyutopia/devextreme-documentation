@@ -1,13 +1,9 @@
-<!--id-->dxDiagram.Options.pageSize.height<!--/id-->
-===========================================================================
-<!--default-->8.268<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.pageSize.height
+type: Number
+default: 8.268
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

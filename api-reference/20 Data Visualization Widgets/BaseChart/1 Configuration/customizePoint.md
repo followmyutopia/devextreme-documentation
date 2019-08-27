@@ -1,13 +1,18 @@
-<!--id-->BaseChart.Options.customizePoint<!--/id-->
-===========================================================================
-<!--type-->function(pointInfo)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseChart.Options.customizePoint
+type: function(pointInfo)
+---
+---
+##### shortDescription
 Customizes the appearance of an individual series point.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(pointInfo): Object
+Information on the series point.
+
+##### return: dxChartSeriesTypes_CommonSeries_point
+The point's [configuration]({basewidgetpath}/Configuration/series/point/).
+
+---
 By default, all series points in a chart are identical, but you can specify a unique appearance for individual points using the **customizePoint** function. This function should return an object with options that will be changed for a certain point. See the [point]({basewidgetpath}/Configuration/series/point) object for information about all options available for changing.
 
 [note]The **hoverMode** and **selectionMode** options cannot be changed using the **customizePoint** function, because they do not have anything to do with the appearance of series points.
@@ -110,14 +115,3 @@ In the financial series ([*candlestick*](/Documentation/ApiReference/Data_Visual
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeaturespointimage/"
 }
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->pointInfo<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information on the series point.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->dxChartSeriesTypes_CommonSeries_point<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-The point's [configuration]({basewidgetpath}/Configuration/series/point/).
-<!--/typeFunctionReturnDescription-->

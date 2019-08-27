@@ -1,15 +1,14 @@
-<!--id-->dxChartSeriesTypes.SplineSeries.hoverMode<!--/id-->
-===========================================================================
-<!--default-->'nearestPoint'<!--/default-->
-<!--acceptValues-->'nearestPoint' | 'includePoints' | 'excludePoints' | 'none'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.SplineSeries.hoverMode
+acceptValues: 'nearestPoint' | 'includePoints' | 'excludePoints' | 'none'
+type: String
+default: 'nearestPoint'
+---
+---
+##### shortDescription
 Specifies series elements to be highlighted when a user points to a series.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 When a user points to a series, it may react in one of the following ways depending on the value of the **hoverMode** option.
 
 <div class="simple-table">
@@ -54,4 +53,3 @@ When a user points to a series, it may react in one of the following ways depend
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeatureshovermode/"
 }
-<!--/fullDescription-->

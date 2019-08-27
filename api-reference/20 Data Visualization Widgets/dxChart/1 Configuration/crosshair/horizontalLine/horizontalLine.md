@@ -1,13 +1,12 @@
-<!--id-->dxChart.Options.crosshair.horizontalLine<!--/id-->
-===========================================================================
-<!--type-->Object | Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.crosshair.horizontalLine
+type: Object | Boolean
+---
+---
+##### shortDescription
 Configures the horizontal crosshair line individually.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Crosshair lines can be configured using the following objects.
 
 * **crosshair**.**horizontalLine**       
@@ -22,4 +21,3 @@ Configures both the crosshair lines.
 Options declared in the **horizontalLine** and **verticalLine** objects override the options declared in the **crosshair** object.
 
 [note]Instead of an object, you can assign a Boolean value to the **horizontalLine** field. This value will control the visibility of the horizontal crosshair line.
-<!--/fullDescription-->

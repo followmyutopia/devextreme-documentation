@@ -1,15 +1,29 @@
-<!--id-->GridBase.Options.onToolbarPreparing<!--/id-->
-<!--EventForAction-->GridBase.toolbarPreparing<!--/EventForAction-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->function(e)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.onToolbarPreparing
+type: function(e)
+default: null
+EventForAction: GridBase.toolbarPreparing
+---
+---
+##### shortDescription
 A function that is executed before the toolbar is created.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(e): Object
+Information about the event that caused the function's execution.
+
+##### field(e.component): {WidgetName}
+The widget's instance.
+
+##### field(e.element): dxElement
+#include common-ref-elementparam with { element: "widget" }
+
+##### field(e.model): Object
+The model data. Available only if you use Knockout.
+
+##### field(e.toolbarOptions): dxToolbar_Options
+The [options of the toolbar](/Documentation/ApiReference/UI_Widgets/dxToolbar/Configuration/).
+
+---
 This function allows you to customize the toolbar. Depending on the configuration, the widget may add the following items to the toolbar:
 
 - <img src="/Content/images/doc/19_2/DataGrid/icons/columnChooser.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid Toolbar ColumnChooserButton" style="margin:1px; vertical-align:middle"/> - *"columnChooserButton"*    
@@ -92,29 +106,3 @@ The following code shows how you can customize the toolbar using this function.
     url: "/Demos/WidgetsGallery/Demo/Data_Grid/ToolbarCustomization/jQuery/Light/"
 } 
 <a href="https://www.youtube.com/watch?v=oWWL6iILMPM&index=1&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z&t=3s" class="button orange small fix-width-155" target="_blank">Watch Video</a>
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the event that caused the function's execution.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-#include common-ref-elementparam with { element: "widget" }
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The model data. Available only if you use Knockout.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->toolbarOptions<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->dxToolbar_Options<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-The [options of the toolbar](/Documentation/ApiReference/UI_Widgets/dxToolbar/Configuration/). 
-<!--/typeFunctionParamDescription1_field4-->

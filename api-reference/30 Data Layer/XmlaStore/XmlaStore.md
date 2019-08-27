@@ -1,18 +1,17 @@
-<!--id-->XmlaStore<!--/id-->
-===========================================================================
-<!--module-->ui/pivot_grid/xmla_store<!--/module-->
-<!--export-->default<!--/export-->
-<!--type-->Object<!--/type-->
-<!--lib-->
-dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: XmlaStore
+module: ui/pivot_grid/xmla_store
+export: default
+type: Object
+---
+---
+##### shortDescription
 The **XmlaStore** is a store that provides an interface for accessing an OLAP cube according to the XMLA standard.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### lib
+dx.web.js, dx.viz-web.js, dx.all.js
+
+---
 The **XmlaStore** is used in the [PivotGridDataSource](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/) which, in turn, is used in the [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) widget.
 
 ---
@@ -143,4 +142,3 @@ The **XmlaStore** currently supports only the Microsoft Analysis Services OLAP t
 
 #####See Also#####
 - [ASP.NET MVC Controls - Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/)
-<!--/fullDescription-->

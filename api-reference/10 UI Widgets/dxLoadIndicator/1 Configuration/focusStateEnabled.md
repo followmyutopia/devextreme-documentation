@@ -1,5 +1,4 @@
-<!--id-->dxLoadIndicator.Options.focusStateEnabled<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxLoadIndicator.Options.focusStateEnabled
+hidden: 
+---

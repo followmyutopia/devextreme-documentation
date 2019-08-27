@@ -1,6 +1,5 @@
-<!--id-->dxValidationSummary.selectionChanged<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->eventType<!--/type-->
-===========================================================================
-
+---
+id: dxValidationSummary.selectionChanged
+type: eventType
+hidden: 
+---

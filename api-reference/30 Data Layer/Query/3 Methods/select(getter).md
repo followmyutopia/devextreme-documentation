@@ -1,23 +1,17 @@
-<!--id-->Query.select(getter)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: Query.select(getter)
+---
+---
+##### shortDescription
 Selects individual fields from data objects.
-<!--/shortDescription-->
 
-<!--paramName1-->getter<!--/paramName1-->
-<!--paramType1-->Object<!--/paramType1-->
-<!--paramDescription1-->
-A getter; in most cases, the names of the data fields to select.
-<!--/paramDescription1-->
-
-<!--returnType-->Query<!--/returnType-->
-<!--returnDescription-->
+##### return: Query
 The **Query** with transformed data.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(getter): Object
+A getter; in most cases, the names of the data fields to select.
+
+---
 ---
 ##### jQuery
 
@@ -72,4 +66,3 @@ The **Query** with transformed data.
     }
 
 ---
-<!--/fullDescription-->

@@ -1,14 +1,20 @@
-<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.label.customizeText<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->function(pointInfo)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.CommonPolarChartSeries.label.customizeText
+type: function(pointInfo)
+---
+---
+##### shortDescription
 Specifies a callback function that returns the text to be displayed by point labels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(pointInfo): Object
+Information on the series point.
+
+##### return: String
+The text for the label to display.
+
+##### notUsedInTheme
+
+---
 The function's parameter has the following fields:
 
 * **originalValue**    
@@ -35,15 +41,4 @@ Specifies the series of the currently represented point.
 #include dataviz-ref-functioncontext
 
 #####See Also#####
-- [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/) 
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->pointInfo<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information on the series point.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-The text for the label to display.
-<!--/typeFunctionReturnDescription-->
+- [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/)

@@ -1,17 +1,13 @@
-<!--id-->dxScrollable.scrollOffset()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxScrollable.scrollOffset()
+---
+---
+##### shortDescription
 Gets the scroll offset.
-<!--/shortDescription-->
 
-<!--returnType-->Object<!--/returnType-->
-<!--returnDescription-->
+##### return: Object
 The scroll offset. Has the following format: { top: *scrollTop*, left: *scrollLeft* }.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

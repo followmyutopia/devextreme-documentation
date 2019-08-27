@@ -1,14 +1,12 @@
-<!--id-->dxDropDownEditor.Options.openOnFieldClick<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDropDownEditor.Options.openOnFieldClick
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether a user can open the drop-down list by clicking a text field.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 - [showDropDownButton]({basewidgetpath}/Configuration/#showDropDownButton)
-<!--/fullDescription-->

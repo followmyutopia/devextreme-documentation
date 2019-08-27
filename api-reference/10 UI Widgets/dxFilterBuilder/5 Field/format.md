@@ -1,14 +1,13 @@
-<!--id-->dxFilterBuilderField.format<!--/id-->
-===========================================================================
-<!--default-->''<!--/default-->
-<!--type-->format<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFilterBuilderField.format
+type: format
+default: ''
+---
+---
+##### shortDescription
 Formats a value before it is displayed.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This option also controls the user input in cells that use the [DateBox](/Documentation/Guide/Widgets/DateBox/Overview/) widget for editing. For cells that use other widgets, you can specify the [editorOptions](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#editorOptions).**format** option.
 
 ---
@@ -61,4 +60,3 @@ This option also controls the user input in cells that use the [DateBox](/Docume
 
 #####See Also#####
 - [format](/Documentation/ApiReference/Common/Object_Structures/format/)
-<!--/fullDescription-->

@@ -1,13 +1,15 @@
-<!--id-->dxForm.Options.customizeItem<!--/id-->
-===========================================================================
-<!--type-->function(item)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxForm.Options.customizeItem
+type: function(item)
+---
+---
+##### shortDescription
 Specifies a function that customizes a form item after it has been created.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(item): dxFormSimpleItem | dxFormGroupItem | dxFormTabbedItem | dxFormEmptyItem | dxFormButtonItem
+The item's object.
+
+---
 If you did not define form items using the [items]({basewidgetpath}/Configuration/#items) option, the **Form** widget creates them automatically according to the structure of an object passed to the [formData]({basewidgetpath}/Configuration/#formData) option. The **customizeItem** option enables you to modify options of each generated item before this item is rendered. Each generated item passed to this function as an argument has a [Simple Item](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/) structure.
 
 If the **items** option contains definition for form items, you usually do not need to pass a function to the **customizeItem** option because you can customize items before passing them to the **items** option. However, if you assign a function to this option, it will be called for each item. In this case, an item can have structure corresponding to any of the following item types.
@@ -27,9 +29,3 @@ If the **items** option contains definition for form items, you usually do not n
 
 #####See Also#####
 - [Customize a Simple Item](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/#Customize_a_Simple_Item)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->item<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->dxFormSimpleItem|dxFormGroupItem|dxFormTabbedItem|dxFormEmptyItem|dxFormButtonItem<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The item's object.
-<!--/typeFunctionParamDescription1-->

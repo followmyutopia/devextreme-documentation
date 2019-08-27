@@ -1,12 +1,9 @@
-<!--id-->dxPivotGridPivotGridCell.text<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGridPivotGridCell.text
+type: String
+---
+---
+##### shortDescription
 The text displayed in the cell.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

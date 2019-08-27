@@ -1,5 +1,4 @@
-<!--id-->dxDropDownList.Options.contentTemplate<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxDropDownList.Options.contentTemplate
+hidden: 
+---

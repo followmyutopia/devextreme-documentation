@@ -1,13 +1,12 @@
-<!--id-->LoadOptions.group<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: LoadOptions.group
+type: Object
+---
+---
+##### shortDescription
 A group expression.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Defines grouping levels to be applied to the data. This object can have the following fields:
 
 * **selector**: <span style="font-size:smaller">String</span>     
@@ -18,4 +17,3 @@ Defines the selector field's descending sort order.
 Defines whether the group's data objects should be returned instead of grouping data. Relevant only for the last group.
 * **groupInterval**: <span style="font-size:smaller">Number or String</span>     
 A numeric value groups data in ranges of the given length. A string value applies only to dates and can be *"year"*, *"quarter"*, *"month"*, *"day"*, *"dayOfWeek"*, *"hour"*, *"minute"* and *"second"*.
-<!--/fullDescription-->

@@ -1,13 +1,10 @@
-<!--id-->validationEngine<!--/id-->
-===========================================================================
-<!--module-->ui/validation_engine<!--/module-->
-<!--export-->default<!--/export-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: validationEngine
+module: ui/validation_engine
+export: default
+---
+---
+##### shortDescription
 An object that serves as a namespace for the methods required to perform validation.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

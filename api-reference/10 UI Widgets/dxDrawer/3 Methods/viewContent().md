@@ -1,17 +1,10 @@
-<!--id-->dxDrawer.viewContent()<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
+---
+id: dxDrawer.viewContent()
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### return: dxElement
 
-<!--/shortDescription-->
-
-<!--returnType-->dxElement<!--/returnType-->
-<!--returnDescription-->
-
-<!--/returnDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

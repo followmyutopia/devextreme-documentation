@@ -1,13 +1,10 @@
-<!--id-->dxPolarChart.Options.commonAxisSettings.grid.opacity<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChart.Options.commonAxisSettings.grid.opacity
+type: Number
+default: undefined
+---
+---
+##### shortDescription
 Specifies an opacity for grid lines.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

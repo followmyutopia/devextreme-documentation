@@ -1,6 +1,5 @@
-<!--id-->dxResponsiveBox.selectionChanged<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->eventType<!--/type-->
-===========================================================================
-
+---
+id: dxResponsiveBox.selectionChanged
+type: eventType
+hidden: 
+---

@@ -1,14 +1,22 @@
-<!--id-->dxTagBox.Options.tagTemplate<!--/id-->
-===========================================================================
-<!--default-->'tag'<!--/default-->
-<!--type-->template<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTagBox.Options.tagTemplate
+type: template
+default: 'tag'
+---
+---
+##### shortDescription
 Specifies a custom template for tags.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(itemData): Object
+The current tag's data.
+
+##### param(itemElement): dxElement
+#include common-ref-elementparam with { element: "tag" }
+
+##### return: String | Node | jQuery
+A template name or container.
+
+---
 This template replaces the default tag template. If you need to recreate the default tag appearance and specific template elements (such as the closing button) in your custom template, do so as follows:
 
 ---
@@ -118,20 +126,3 @@ This template replaces the default tag template. If you need to recreate the def
 #####See Also#####
 - [Customize Item Appearance](/Documentation/Guide/Widgets/TagBox/Customize_Item_Appearance/)
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->itemData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The current tag's data.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionParamName2-->itemElement<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-#include common-ref-elementparam with { element: "tag" }
-<!--/typeFunctionParamDescription2-->
-
-<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A template name or container.
-<!--/typeFunctionReturnDescription-->

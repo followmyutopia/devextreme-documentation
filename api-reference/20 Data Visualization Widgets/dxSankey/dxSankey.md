@@ -1,5 +1,14 @@
-<!--id-->dxSankey<!--/id-->
-<!--widgettree-->
+---
+id: dxSankey
+module: viz/sankey
+export: default
+inherits: BaseWidget,DataHelperMixin
+---
+---
+##### shortDescription
+The **Sankey** is a widget that visualizes the flow magnitude between value sets. The values being connected are called nodes; the connections - links. The higher the flow magnitude, the wider the link is.
+
+##### widgettree
 dataSource: [
     { source: "Brazil", target: "Portugal", weight: 5 },
     { source: "Brazil", target: "France", weight: 1 },
@@ -13,19 +22,9 @@ dataSource: [
     { source: "Mexico", target: "Spain", weight: 5 },
     { source: "Mexico", target: "England", weight: 1 }
 ],
-link: { colorMode: "gradient" } 
-<!--/widgettree-->
-===========================================================================
-<!--module-->viz/sankey<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->BaseWidget,DataHelperMixin<!--/inherits-->
-===========================================================================
+link: { colorMode: "gradient" }
 
-<!--shortDescription-->
-The **Sankey** is a widget that visualizes the flow magnitude between value sets. The values being connected are called nodes; the connections - links. The higher the flow magnitude, the wider the link is. 
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Charts/SankeyChart/jQuery/Light/"
 }
@@ -36,4 +35,3 @@ The **Sankey** is a widget that visualizes the flow magnitude between value sets
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

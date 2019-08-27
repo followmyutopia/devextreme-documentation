@@ -1,13 +1,10 @@
-<!--id-->dxLookup.Options.refreshingText<!--/id-->
-===========================================================================
-<!--default-->'Refreshing...'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxLookup.Options.refreshingText
+type: String
+default: 'Refreshing...'
+---
+---
+##### shortDescription
 Specifies the text displayed in the pullDown panel while the widget is being refreshed.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

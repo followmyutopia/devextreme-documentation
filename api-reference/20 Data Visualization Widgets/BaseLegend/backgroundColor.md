@@ -1,13 +1,11 @@
-<!--id-->BaseLegend.backgroundColor<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseLegend.backgroundColor
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Colors the legend's background.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

@@ -1,5 +1,4 @@
-<!--id-->ODataStore.Options.onLoading<!--/id-->
-<!--EventForAction-->ODataStore.loading<!--/EventForAction-->
-===========================================================================
-===========================================================================
-
+---
+id: ODataStore.Options.onLoading
+EventForAction: ODataStore.loading
+---

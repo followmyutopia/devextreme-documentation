@@ -1,12 +1,8 @@
-<!--id-->dxDiagram.Options.customShapes.connectionPoints<!--/id-->
-===========================================================================
-<!--type-->Array<Object><!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.customShapes.connectionPoints
+type: Array<Object>
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

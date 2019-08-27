@@ -1,14 +1,13 @@
-<!--id-->CommonIndicator.size<!--/id-->
-===========================================================================
-<!--propertyOf-->circularRangeBar,linearRangeBar<!--/propertyOf-->
-<!--default-->10<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: CommonIndicator.size
+type: Number
+default: 10
+---
+---
+##### shortDescription
 Specifies the range bar size for an indicator of the *rangeBar* type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### propertyOf
+circularRangeBar,linearRangeBar
 
-<!--/fullDescription-->
+---

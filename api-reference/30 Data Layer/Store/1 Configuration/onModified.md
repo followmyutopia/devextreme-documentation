@@ -1,14 +1,13 @@
-<!--id-->Store.Options.onModified<!--/id-->
-<!--EventForAction-->Store.modified<!--/EventForAction-->
-===========================================================================
-<!--type-->function()<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Store.Options.onModified
+type: function()
+EventForAction: Store.modified
+---
+---
+##### shortDescription
 A function that is executed after a data item is added, updated, or removed from the store.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -36,4 +35,3 @@ A function that is executed after a data item is added, updated, or removed from
     }
     
 ---
-<!--/fullDescription-->

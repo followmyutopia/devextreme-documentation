@@ -1,14 +1,13 @@
-<!--id-->dxScheduler.Options.views.groupOrientation<!--/id-->
-===========================================================================
-<!--acceptValues-->'horizontal' | 'vertical'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxScheduler.Options.views.groupOrientation
+acceptValues: 'horizontal' | 'vertical'
+type: String
+---
+---
+##### shortDescription
+Arranges resource headers vertically (in a column) or horizontally (in a row).
 
-<!--shortDescription-->
-Arranges resource headers vertically (in a column) or horizontally (in a row). 
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 This option's default value depends on the view [type](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/#type). The following list illustrates the dependency:
 
 - *"horizontal"*        
@@ -23,4 +22,3 @@ For the **timelineDay**, **timelineMonth**, **timelineWeek**, and **timelineWork
 
 #####See Also#####
 - [Group Appointments by Resources](/Documentation/Guide/Widgets/Scheduler/Resources/Group_Appointments_by_Resources/)
-<!--/fullDescription-->

@@ -1,13 +1,10 @@
-<!--id-->GridBase.Options.columnChooser.allowSearch<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.columnChooser.allowSearch
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether searching is enabled in the column chooser.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

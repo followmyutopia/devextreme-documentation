@@ -1,6 +1,5 @@
-<!--id-->dxChartSeriesTypes.StepAreaSeries.border.visible<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.StepAreaSeries.border.visible
+type: Boolean
+default: true
+---

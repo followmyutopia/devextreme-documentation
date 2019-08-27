@@ -1,13 +1,12 @@
-<!--id-->DataSource.Options.group<!--/id-->
-===========================================================================
-<!--type-->Group expression<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.Options.group
+type: Group expression
+---
+---
+##### shortDescription
 Specifies data grouping options.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This option accepts one of the following:
 
 - **String**        
@@ -83,4 +82,3 @@ A function that returns the value to group by.
 
 #####See Also#####
 - [Grouping](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Grouping)
-<!--/fullDescription-->

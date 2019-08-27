@@ -1,14 +1,13 @@
-<!--id-->CommonIndicator.text.font<!--/id-->
-===========================================================================
-<!--propertyOf-->circularRangeBar,linearRangeBar,circularTextCloud,linearTextCloud<!--/propertyOf-->
-<!--type-->Object<!--/type-->
-<!--inherits-->Font<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: CommonIndicator.text.font
+type: Object
+inherits: Font
+---
+---
+##### shortDescription
 Specifies font options for the text displayed by the indicator.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### propertyOf
+circularRangeBar,linearRangeBar,circularTextCloud,linearTextCloud
 
-<!--/fullDescription-->
+---

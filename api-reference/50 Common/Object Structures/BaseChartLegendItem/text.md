@@ -1,12 +1,9 @@
-<!--id-->BaseChartLegendItem.text<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseChartLegendItem.text
+type: String
+---
+---
+##### shortDescription
 The text that the legend item displays.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

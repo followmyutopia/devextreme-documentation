@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.StockSeries.label<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.StockSeries.label
+type: Object
+---

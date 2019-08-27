@@ -1,17 +1,11 @@
-<!--id-->dxTreeView.expandItem(key)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeView.expandItem(key)
+---
+---
+##### shortDescription
 Expands an item with a specific key.
-<!--/shortDescription-->
 
-<!--paramName1-->key<!--/paramName1-->
-<!--paramType1-->any<!--/paramType1-->
-<!--paramDescription1-->
+##### param(key): any
 The item's key.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

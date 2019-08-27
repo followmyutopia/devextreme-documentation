@@ -1,14 +1,13 @@
-<!--id-->dxDropDownButton.Options.showArrowIcon<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDropDownButton.Options.showArrowIcon
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether the arrow icon should be displayed.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The following table demonstrates how the **showArrowIcon** option affects the **DropDownButton**'s appearance:
 
 <div class="simple-table">
@@ -50,4 +49,3 @@ The following table demonstrates how the **showArrowIcon** option affects the **
         border-right: none;
     }
 </style>
-<!--/fullDescription-->

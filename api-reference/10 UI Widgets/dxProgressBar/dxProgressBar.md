@@ -1,21 +1,19 @@
-<!--id-->dxProgressBar<!--/id-->
-<!--widgettree-->
-
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/progress_bar<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->dxTrackBar<!--/inherits-->
-<!--lib-->
-dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxProgressBar
+module: ui/progress_bar
+export: default
+inherits: dxTrackBar
+---
+---
+##### shortDescription
 The **ProgressBar** is a widget that shows current progress.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### widgettree
+
+##### lib
+dx.web.js, dx.viz-web.js, dx.all.js
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/dialogsandnotificationsprogressbarprogressbarprogressbar/"
 }
@@ -26,4 +24,3 @@ The **ProgressBar** is a widget that shows current progress.
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

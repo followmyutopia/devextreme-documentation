@@ -1,4 +1,8 @@
-<!--id-->dxTreeMap.Options.tile.label.font.color<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->'#FFFFFF'<!--/default-->
-===========================================================================
+---
+id: dxTreeMap.Options.tile.label.font.color
+default: '#FFFFFF'
+---
+---
+##### merge
+
+---

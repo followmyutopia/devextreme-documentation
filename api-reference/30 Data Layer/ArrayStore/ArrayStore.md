@@ -1,19 +1,18 @@
-<!--id-->ArrayStore<!--/id-->
-===========================================================================
-<!--module-->data/array_store<!--/module-->
-<!--export-->default<!--/export-->
-<!--type-->Object<!--/type-->
-<!--inherits-->Store<!--/inherits-->
-<!--lib-->
-dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: ArrayStore
+module: data/array_store
+export: default
+type: Object
+inherits: Store
+---
+---
+##### shortDescription
 The **ArrayStore** is a store that provides an interface for loading and editing an in-memory array and handling related events.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### lib
+dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
+
+---
 ---
 ##### jQuery  
 
@@ -199,4 +198,3 @@ The **ArrayStore** is a store that provides an interface for loading and editing
 #####See Also#####
 - [DataSource API Reference](/Documentation/ApiReference/Data_Layer/DataSource/)
 - [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/)
-<!--/fullDescription-->

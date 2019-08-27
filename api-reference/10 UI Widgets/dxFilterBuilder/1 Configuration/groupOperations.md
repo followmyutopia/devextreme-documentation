@@ -1,15 +1,14 @@
-<!--id-->dxFilterBuilder.Options.groupOperations<!--/id-->
-===========================================================================
-<!--default-->['and', 'or', 'notAnd', 'notOr']<!--/default-->
-<!--acceptValues-->'and' | 'or' | 'notAnd' | 'notOr'<!--/acceptValues-->
-<!--type-->Array<String><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFilterBuilder.Options.groupOperations
+acceptValues: 'and' | 'or' | 'notAnd' | 'notOr'
+type: Array<String>
+default: ['and', 'or', 'notAnd', 'notOr']
+---
+---
+##### shortDescription
 Specifies a set of available group operations.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The group operations are:
 
 - *"and"*       
@@ -26,4 +25,3 @@ The group operations are:
 #####See Also#####
 - [maxGroupLevel](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#maxGroupLevel)
 - [groupOperationDescriptions](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/groupOperationDescriptions/)
-<!--/fullDescription-->

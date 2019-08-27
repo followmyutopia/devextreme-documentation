@@ -1,14 +1,13 @@
-<!--id-->dxDataGrid.Options.summary.totalItems.displayFormat<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.Options.summary.totalItems.displayFormat
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies the summary item's text.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 You can use the following position markers in this text: 
 
 - {0} - [formatted](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#valueFormat) summary value.
@@ -129,4 +128,3 @@ You can use the following position markers in this text:
 ---
 
 Use the [customizeText](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#customizeText) option for more advanced text customizations.
-<!--/fullDescription-->

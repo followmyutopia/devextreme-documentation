@@ -1,24 +1,17 @@
-<!--id-->GridBase.getRowIndexByKey(key)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.getRowIndexByKey(key)
+---
+---
+##### shortDescription
 Gets the index of a row with a specific key.
-<!--/shortDescription-->
 
-<!--paramName1-->key<!--/paramName1-->
-<!--paramType1-->Object|String|Number<!--/paramType1-->
-<!--paramDescription1-->
-The row's key.
-<!--/paramDescription1-->
-
-<!--returnType-->Number<!--/returnType-->
-<!--returnDescription-->
+##### return: Number
 The row's index; *-1* if nothing found. Refer to [Column and Row Indexes](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_and_Row_Indexes/) for more information.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(key): Object | String | Number
+The row's key.
+
+---
 #####See Also#####
 #include common-link-callmethods
 - [getKeyByRowIndex(rowIndex)]({basewidgetpath}/Methods/#getKeyByRowIndexrowIndex)
-<!--/fullDescription-->

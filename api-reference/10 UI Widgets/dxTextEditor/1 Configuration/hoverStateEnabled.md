@@ -1,6 +1,5 @@
-<!--id-->dxTextEditor.Options.hoverStateEnabled<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxTextEditor.Options.hoverStateEnabled
+type: Boolean
+default: true
+---

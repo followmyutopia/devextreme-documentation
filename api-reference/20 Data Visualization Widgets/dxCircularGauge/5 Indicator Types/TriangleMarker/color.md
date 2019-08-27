@@ -1,4 +1,8 @@
-<!--id-->circularTriangleMarker.color<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->'#8798A5'<!--/default-->
-===========================================================================
+---
+id: circularTriangleMarker.color
+default: '#8798A5'
+---
+---
+##### merge
+
+---

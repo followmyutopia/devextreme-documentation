@@ -1,17 +1,15 @@
-<!--id-->dxFormButtonItem.horizontalAlignment<!--/id-->
-===========================================================================
-<!--default-->'right'<!--/default-->
-<!--acceptValues-->'center' | 'left' | 'right'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxFormButtonItem.horizontalAlignment
+acceptValues: 'center' | 'left' | 'right'
+type: String
+default: 'right'
+---
+---
+##### shortDescription
+Specifies the button's horizontal alignment.
 
-<!--shortDescription-->
-Specifies the button's horizontal alignment. 
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include common-ref-enum with {
     enum: "`HorizontalAlignment`",
     values: "`Left`, `Right`, and `Center`"
 }
-<!--/fullDescription-->

@@ -1,14 +1,12 @@
-<!--id-->BaseChart.hideTooltip()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: BaseChart.hideTooltip()
+---
+---
+##### shortDescription
 Hides all widget tooltips.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Use this method to hide all widget tooltips programmatically.
 
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

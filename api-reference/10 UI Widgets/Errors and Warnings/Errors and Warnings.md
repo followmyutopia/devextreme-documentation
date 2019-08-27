@@ -1,11 +1,8 @@
-<!--id-->ErrorsUIWidgets<!--/id-->
-===========================================================================
-===========================================================================
-
-<!--shortDescription-->
+---
+id: ErrorsUIWidgets
+---
+---
+##### shortDescription
 This section lists errors and warnings that may occur in UI widgets.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

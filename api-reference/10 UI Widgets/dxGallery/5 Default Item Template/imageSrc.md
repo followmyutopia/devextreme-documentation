@@ -1,12 +1,9 @@
-<!--id-->dxGalleryItem.imageSrc<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxGalleryItem.imageSrc
+type: String
+---
+---
+##### shortDescription
 Specifies the URL of the image displayed by the item.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

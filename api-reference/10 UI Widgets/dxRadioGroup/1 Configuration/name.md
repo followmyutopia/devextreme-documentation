@@ -1,6 +1,5 @@
-<!--id-->dxRadioGroup.Options.name<!--/id-->
-===========================================================================
-<!--hidden-->false<!--/hidden-->
-<!--type-->String<!--/type-->
-===========================================================================
-
+---
+id: dxRadioGroup.Options.name
+type: String
+hidden: false
+---

@@ -1,15 +1,13 @@
-<!--id-->dxAccordion.Options.collapsible<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxAccordion.Options.collapsible
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether all items can be collapsed or whether at least one item must always be expanded.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Accordion/Overview/jQuery/Light/"
 }
-<!--/fullDescription-->

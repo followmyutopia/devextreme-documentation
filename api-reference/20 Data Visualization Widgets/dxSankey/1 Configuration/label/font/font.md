@@ -1,13 +1,10 @@
-<!--id-->dxSankey.Options.label.font<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-<!--inherits-->Font<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSankey.Options.label.font
+type: Object
+inherits: Font
+---
+---
+##### shortDescription
 Specifies the labels' font options.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

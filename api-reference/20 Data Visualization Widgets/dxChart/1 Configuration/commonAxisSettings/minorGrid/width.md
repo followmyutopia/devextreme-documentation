@@ -1,13 +1,10 @@
-<!--id-->dxChart.Options.commonAxisSettings.minorGrid.width<!--/id-->
-===========================================================================
-<!--default-->1<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonAxisSettings.minorGrid.width
+type: Number
+default: 1
+---
+---
+##### shortDescription
 Specifies a width for the lines of the minor grid in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

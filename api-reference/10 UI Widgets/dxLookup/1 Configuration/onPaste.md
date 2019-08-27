@@ -1,6 +1,5 @@
-<!--id-->dxLookup.Options.onPaste<!--/id-->
-<!--EventForAction-->dxLookup.paste<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxLookup.Options.onPaste
+hidden: 
+EventForAction: dxLookup.paste
+---

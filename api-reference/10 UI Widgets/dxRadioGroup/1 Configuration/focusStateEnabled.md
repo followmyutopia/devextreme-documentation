@@ -1,6 +1,5 @@
-<!--id-->dxRadioGroup.Options.focusStateEnabled<!--/id-->
-===========================================================================
-<!--default-->true (desktop)<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxRadioGroup.Options.focusStateEnabled
+type: Boolean
+default: true (desktop)
+---

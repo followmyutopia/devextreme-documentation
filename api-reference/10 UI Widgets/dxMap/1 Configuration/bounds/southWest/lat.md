@@ -1,13 +1,9 @@
-<!--id-->dxMap.Options.bounds.southWest.lat<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->Number<!--/type-->
-===========================================================================
+---
+id: dxMap.Options.bounds.southWest.lat
+type: Number
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,15 +1,14 @@
-<!--id-->dxCalendar.Options.maxZoomLevel<!--/id-->
-===========================================================================
-<!--default-->'month'<!--/default-->
-<!--acceptValues-->'century' | 'decade' | 'month' | 'year'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxCalendar.Options.maxZoomLevel
+acceptValues: 'century' | 'decade' | 'month' | 'year'
+type: String
+default: 'month'
+---
+---
+##### shortDescription
 Specifies the maximum [zoom level](/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#zoomLevel) of the calendar.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-ref-enum with {
     enum: "`CalendarZoomLevel`",
     values: "`Month`, `Year`, `Decade`, and `Century`"
@@ -17,4 +16,3 @@ Specifies the maximum [zoom level](/Documentation/ApiReference/UI_Widgets/dxCale
 
 #####See Also#####
 - [Specify Zoom Level](/Documentation/Guide/Widgets/Calendar/Specify_Zoom_Level/)
-<!--/fullDescription-->

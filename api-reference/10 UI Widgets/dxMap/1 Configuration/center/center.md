@@ -1,15 +1,14 @@
-<!--id-->dxMap.Options.center<!--/id-->
-===========================================================================
-<!--type-->Object | String | Array<Number><!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
-<!--inherits-->MapLocation<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxMap.Options.center
+type: Object | String | Array<Number>
+inherits: MapLocation
+firedEvents: optionChanged
+---
+---
+##### shortDescription
 An object, a string, or an array specifying which part of the map is displayed at the widget's center using coordinates. The widget can change this value if [autoAdjust](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#autoAdjust) is enabled.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 You can specify the **center** value in one of the following formats:
 
  - { lat: 40.749825, lng: -73.987963}
@@ -30,4 +29,3 @@ When you use the **Map** as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NE
         ' ===== or =====
         .Center(40.74982, -73.987963)
     )
-<!--/fullDescription-->

@@ -1,6 +1,5 @@
-<!--id-->dxLookup.Options.onFocusOut<!--/id-->
-<!--EventForAction-->dxLookup.focusOut<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxLookup.Options.onFocusOut
+hidden: 
+EventForAction: dxLookup.focusOut
+---

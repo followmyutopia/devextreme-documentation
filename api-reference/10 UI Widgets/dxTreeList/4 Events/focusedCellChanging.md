@@ -1,85 +1,55 @@
-<!--id-->dxTreeList.focusedCellChanging<!--/id-->
-===========================================================================
-<!--type-->eventType<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeList.focusedCellChanging
+type: eventType
+---
+---
+##### shortDescription
 Raised before the focused cell changes.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(e): Object
+Information about the event.
+
+##### field(e.cancel): Boolean
+Allows you to cancel focusing a new cell.
+
+##### field(e.cellElement): dxElement
+#include common-ref-elementparam with { element: "to-be-focused cell" }
+
+##### field(e.columns): Array<dxTreeListColumn>
+The visible columns' properties.
+
+##### field(e.component): {WidgetName}
+The widget's instance.
+
+##### field(e.element): dxElement
+#include common-ref-elementparam with { element: "widget" }
+
+##### field(e.event): event
+#include common-ref-eventparam
+
+##### field(e.isHighlighted): Boolean
+**true** if the cell is highlighted; otherwise **false**, even if the cell's row is highlighted.
+
+##### field(e.model): Object
+The model data. Available only if you use Knockout.
+
+##### field(e.newColumnIndex): Number
+The index of the column the cell that should be focused belongs to.
+
+##### field(e.newRowIndex): Number
+The index of the row the cell that should be focused belongs to.
+
+##### field(e.prevColumnIndex): Number
+The index of the previously focused cell's column.
+
+##### field(e.prevRowIndex): Number
+The index of the previously focused cell's row.
+
+##### field(e.rows): Array<dxTreeListRowObject>
+The visible rows' properties.
+
+---
 Main article: [onFocusedCellChanging](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onFocusedCellChanging)
 
 #####See Also#####
 #include common-link-handleevents
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the event.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-#include common-ref-elementparam with { element: "widget" }
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The model data. Available only if you use Knockout.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->cellElement<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->dxElement<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-#include common-ref-elementparam with { element: "to-be-focused cell" }
-<!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamName1_field5-->prevColumnIndex<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->Number<!--/typeFunctionParamType1_field5-->
-<!--typeFunctionParamDescription1_field5-->
-The index of the previously focused cell's column.
-<!--/typeFunctionParamDescription1_field5-->
-<!--typeFunctionParamName1_field6-->prevRowIndex<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->Number<!--/typeFunctionParamType1_field6-->
-<!--typeFunctionParamDescription1_field6-->
-The index of the previously focused cell's row.
-<!--/typeFunctionParamDescription1_field6-->
-<!--typeFunctionParamName1_field7-->newColumnIndex<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->Number<!--/typeFunctionParamType1_field7-->
-<!--typeFunctionParamDescription1_field7-->
-The index of the column the cell that should be focused belongs to.
-<!--/typeFunctionParamDescription1_field7-->
-<!--typeFunctionParamName1_field8-->newRowIndex<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->Number<!--/typeFunctionParamType1_field8-->
-<!--typeFunctionParamDescription1_field8-->
-The index of the row the cell that should be focused belongs to.
-<!--/typeFunctionParamDescription1_field8-->
-<!--typeFunctionParamName1_field9-->event<!--/typeFunctionParamName1_field9-->
-<!--typeFunctionParamType1_field9-->event<!--/typeFunctionParamType1_field9-->
-<!--typeFunctionParamDescription1_field9-->
-#include common-ref-eventparam
-<!--/typeFunctionParamDescription1_field9-->
-<!--typeFunctionParamName1_field10-->rows<!--/typeFunctionParamName1_field10-->
-<!--typeFunctionParamType1_field10-->Array<dxTreeListRowObject><!--/typeFunctionParamType1_field10-->
-<!--typeFunctionParamDescription1_field10-->
-The visible rows' properties.
-<!--/typeFunctionParamDescription1_field10-->
-<!--typeFunctionParamName1_field11-->columns<!--/typeFunctionParamName1_field11-->
-<!--typeFunctionParamType1_field11-->Array<dxTreeListColumn><!--/typeFunctionParamType1_field11-->
-<!--typeFunctionParamDescription1_field11-->
-The visible columns' properties.
-<!--/typeFunctionParamDescription1_field11-->
-<!--typeFunctionParamName1_field12-->cancel<!--/typeFunctionParamName1_field12-->
-<!--typeFunctionParamType1_field12-->Boolean<!--/typeFunctionParamType1_field12-->
-<!--typeFunctionParamDescription1_field12-->
-Allows you to cancel focusing a new cell.
-<!--/typeFunctionParamDescription1_field12-->
-<!--typeFunctionParamName1_field13-->isHighlighted<!--/typeFunctionParamName1_field13-->
-<!--typeFunctionParamType1_field13-->Boolean<!--/typeFunctionParamType1_field13-->
-<!--typeFunctionParamDescription1_field13-->
-**true** if the cell is highlighted; otherwise **false**, even if the cell's row is highlighted.
-<!--/typeFunctionParamDescription1_field13-->

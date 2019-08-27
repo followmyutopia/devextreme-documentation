@@ -1,12 +1,10 @@
-<!--id-->dxLinearGauge.Options.scale<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxLinearGauge.Options.scale
+type: Object
+---
+---
+##### shortDescription
 Specifies the gauge's scale options.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 To divide a scale, set its **startValue** and **endValue** properties. The scale's major and minor ticks will be calculated automatically. Major ticks will be shown by default. To show minor ticks, set their [visible](/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/scale/minorTick/#visible) property to **true**. You can set custom major and minor tick intervals, show custom major and minor ticks, and format tick labels. These and other scale options are available in the **scale** configuration object.
-<!--/fullDescription-->

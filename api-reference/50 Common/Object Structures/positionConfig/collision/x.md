@@ -1,14 +1,11 @@
-<!--id-->positionConfig.collision.x<!--/id-->
-===========================================================================
-<!--default-->'none'<!--/default-->
-<!--acceptValues-->'fit' | 'flip' | 'flipfit' | 'none'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: positionConfig.collision.x
+acceptValues: 'fit' | 'flip' | 'flipfit' | 'none'
+type: String
+default: 'none'
+---
+---
+##### shortDescription
 Specifies the horizontal collision handler.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

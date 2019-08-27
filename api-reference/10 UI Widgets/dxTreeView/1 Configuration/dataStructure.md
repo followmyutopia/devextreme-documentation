@@ -1,15 +1,14 @@
-<!--id-->dxTreeView.Options.dataStructure<!--/id-->
-===========================================================================
-<!--default-->'tree'<!--/default-->
-<!--acceptValues-->'plain' | 'tree'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeView.Options.dataStructure
+acceptValues: 'plain' | 'tree'
+type: String
+default: 'tree'
+---
+---
+##### shortDescription
 Notifies the widget of the used data structure.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The widget expects that data has a hierarchical structure where each data item contains a `text`, a unique `id`, and an `items` array if the data item nests other data items:
 
     <!--JavaScript-->
@@ -59,4 +58,3 @@ If data has a plain structure, set the **dataStructure** option to *"plain"*. In
 #####See Also#####
 - [TreeView - Use Hierarchical Data](/Documentation/Guide/Widgets/TreeView/Use_Hierarchical_Data/)
 - [TreeView - Use Plain Data](/Documentation/Guide/Widgets/TreeView/Use_Plain_Data/)
-<!--/fullDescription-->

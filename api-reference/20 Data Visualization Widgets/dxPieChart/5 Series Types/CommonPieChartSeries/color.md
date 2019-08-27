@@ -1,13 +1,11 @@
-<!--id-->dxPieChartSeriesTypes.CommonPieChartSeries.color<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPieChartSeriesTypes.CommonPieChartSeries.color
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies a series color.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Use this option to paint all pie slices in one color.
-<!--/fullDescription-->

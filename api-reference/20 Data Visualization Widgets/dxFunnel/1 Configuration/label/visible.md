@@ -1,13 +1,10 @@
-<!--id-->dxFunnel.Options.label.visible<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFunnel.Options.label.visible
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Controls the labels' visibility.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

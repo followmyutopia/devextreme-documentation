@@ -1,5 +1,4 @@
-<!--id-->BaseSparkline.Options.loadingIndicator<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: BaseSparkline.Options.loadingIndicator
+hidden: 
+---

@@ -1,13 +1,10 @@
-<!--id-->globalConfig.rtlEnabled<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: globalConfig.rtlEnabled
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether the widgets support a right-to-left representation. Available for individual widgets as well.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

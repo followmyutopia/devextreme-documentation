@@ -1,13 +1,12 @@
-<!--id-->dxHtmlEditorToolbarItem<!--/id-->
-===========================================================================
-<!--inherits-->dxToolbarItem<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxHtmlEditorToolbarItem
+inherits: dxToolbarItem
+---
+---
+##### shortDescription
 Configures toolbar controls. These controls allow users to format text and execute commands.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The toolbar provides built-in controls and supports custom controls. To add a built-in control to the toolbar, include it in the **items** array:
 
 ---
@@ -210,4 +209,3 @@ The toolbar also provides short syntax for implementing a custom drop-down contr
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/HtmlEditor/ToolbarCustomization/jQuery/Light/"
 }
-<!--/fullDescription-->

@@ -1,6 +1,5 @@
-<!--id-->dxToolbar.selectionChanged<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->eventType<!--/type-->
-===========================================================================
-
+---
+id: dxToolbar.selectionChanged
+type: eventType
+hidden: 
+---

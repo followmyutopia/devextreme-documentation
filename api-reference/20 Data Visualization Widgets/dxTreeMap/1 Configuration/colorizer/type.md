@@ -1,15 +1,14 @@
-<!--id-->dxTreeMap.Options.colorizer.type<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--acceptValues-->'discrete' | 'gradient' | 'none' | 'range'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMap.Options.colorizer.type
+acceptValues: 'discrete' | 'gradient' | 'none' | 'range'
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies the colorizing algorithm.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The **TreeMap** widget provides three algorithms for tile colorization: *"discrete"*, *"gradient"* and *"range"*.
 
 The *"discrete"* algorithm is the simplest of all. It paints each tile within a group in a color taken from the [palette](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/colorizer/#palette). When there are several groups, colorization begins from scratch in each. Alternatively, you can force the widget to continue colorization across groups. For this purpose, set the [colorizeGroups](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/colorizer/#colorizeGroups) option to **true**. It will colorize not each tile, but each group of tiles in a single color taken from the palette.
@@ -42,4 +41,3 @@ As a result, tile values will be split up into three ranges: 0 to 300, 300 to 70
     enum: "`TreeMapColorizerType`",
     values: "`Discrete`, `Gradient`, `Range`, and `None`"
 }
-<!--/fullDescription-->

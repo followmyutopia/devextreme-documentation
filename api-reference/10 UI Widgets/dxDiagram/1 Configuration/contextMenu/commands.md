@@ -1,14 +1,10 @@
-<!--id-->dxDiagram.Options.contextMenu.commands<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--acceptValues-->'cut' | 'copy' | 'paste' | 'selectAll' | 'delete' | 'bringToFront' | 'sendToBack' | 'lock' | 'unlock'<!--/acceptValues-->
-<!--type-->Array<String><!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.contextMenu.commands
+acceptValues: 'cut' | 'copy' | 'paste' | 'selectAll' | 'delete' | 'bringToFront' | 'sendToBack' | 'lock' | 'unlock'
+type: Array<String>
+default: undefined
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

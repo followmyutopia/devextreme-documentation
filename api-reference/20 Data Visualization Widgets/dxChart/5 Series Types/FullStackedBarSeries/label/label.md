@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.FullStackedBarSeries.label<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.FullStackedBarSeries.label
+type: Object
+---

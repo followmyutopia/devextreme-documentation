@@ -1,13 +1,18 @@
-<!--id-->BaseChart.Options.customizeLabel<!--/id-->
-===========================================================================
-<!--type-->function(pointInfo)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseChart.Options.customizeLabel
+type: function(pointInfo)
+---
+---
+##### shortDescription
 Customizes the appearance of an individual point label.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(pointInfo): Object
+Information on the series point.
+
+##### return: dxChartSeriesTypes_CommonSeries_label
+The label's [configuration]({basewidgetpath}/Configuration/commonSeriesSettings/label/).
+
+---
 All point labels in a chart are identical by default, but you can specify a unique appearance for individual labels using the **customizeLabel** function. This function should return an object with options that will be changed for a certain label. See the [label]({basewidgetpath}/Configuration/series/label) object for information about all options available for changing.
 
 The **customizeLabel** function accepts an object providing information about the series point that the label belongs to. This object contains the following fields.
@@ -44,14 +49,3 @@ The **customizeLabel** function accepts an object providing information about th
         </tbody>
     </table>
 </div>
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->pointInfo<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information on the series point.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->dxChartSeriesTypes_CommonSeries_label<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-The label's [configuration]({basewidgetpath}/Configuration/commonSeriesSettings/label/).
-<!--/typeFunctionReturnDescription-->

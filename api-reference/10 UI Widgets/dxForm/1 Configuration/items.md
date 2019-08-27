@@ -1,14 +1,13 @@
-<!--id-->dxForm.Options.items<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Array<dxFormSimpleItem, dxFormGroupItem, dxFormTabbedItem, dxFormEmptyItem, dxFormButtonItem><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxForm.Options.items
+type: Array<dxFormSimpleItem, dxFormGroupItem, dxFormTabbedItem, dxFormEmptyItem, dxFormButtonItem>
+default: undefined
+---
+---
+##### shortDescription
 Holds an array of form items.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-demobutton-named with {
     name: "Simple Items",
     url: "/Demos/WidgetsGallery/Demo/Form/CustomizeItem/jQuery/Light/"
@@ -83,5 +82,3 @@ When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_M
                 End Sub)
         End Sub)
     )
-    
-<!--/fullDescription-->

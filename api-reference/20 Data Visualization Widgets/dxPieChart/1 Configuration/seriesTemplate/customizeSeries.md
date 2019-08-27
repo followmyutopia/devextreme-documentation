@@ -1,24 +1,18 @@
-<!--id-->dxPieChart.Options.seriesTemplate.customizeSeries<!--/id-->
-===========================================================================
-<!--type-->function(seriesName)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPieChart.Options.seriesTemplate.customizeSeries
+type: function(seriesName)
+---
+---
+##### shortDescription
 Specifies a callback function that returns a [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/series/) object with individual series settings.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(seriesName): any
+The name of the series to be customized.
+
+##### return: PieChartSeries
+The series' [configuration](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/series/).
+
+---
 Use this option to specify individual settings for a particular series.
 
 To determine the series to which the function's return value will be applied, use the function's parameter. The parameter is set to the series name that is specified in the data source's field.
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->seriesName<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->any<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The name of the series to be customized.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->PieChartSeries<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-The series' [configuration](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/series/).
-<!--/typeFunctionReturnDescription-->

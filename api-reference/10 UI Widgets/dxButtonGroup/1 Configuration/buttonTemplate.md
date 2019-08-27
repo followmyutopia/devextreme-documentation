@@ -1,14 +1,22 @@
-<!--id-->dxButtonGroup.Options.buttonTemplate<!--/id-->
-===========================================================================
-<!--default-->'content'<!--/default-->
-<!--type-->template<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxButtonGroup.Options.buttonTemplate
+type: template
+default: 'content'
+---
+---
+##### shortDescription
 Specifies a template for all the buttons in the group.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(buttonData): Object
+An object from the [items](/Documentation/ApiReference/UI_Widgets/dxButtonGroup/Configuration/#items) array, extended with the **icon** and **text** fields.
+
+##### param(buttonContent): dxElement
+The button content's container.
+
+##### return: String | Node | jQuery
+A template name or container.
+
+---
 ---
 ##### jQuery
 
@@ -111,20 +119,3 @@ Specifies a template for all the buttons in the group.
     export default App;
 
 ---
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->buttonData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-An object from the [items](/Documentation/ApiReference/UI_Widgets/dxButtonGroup/Configuration/#items) array, extended with the **icon** and **text** fields.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionParamName2-->buttonContent<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-The button content's container.
-<!--/typeFunctionParamDescription2-->
-
-<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A template name or container.
-<!--/typeFunctionReturnDescription-->

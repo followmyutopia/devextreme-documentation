@@ -1,5 +1,4 @@
-<!--id-->dxValidationSummary.Options.itemRender<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxValidationSummary.Options.itemRender
+hidden: 
+---

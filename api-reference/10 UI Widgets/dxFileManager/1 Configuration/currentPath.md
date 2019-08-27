@@ -1,13 +1,9 @@
-<!--id-->dxFileManager.Options.currentPath<!--/id-->
-===========================================================================
-<!--default-->''<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxFileManager.Options.currentPath
+type: String
+default: ''
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

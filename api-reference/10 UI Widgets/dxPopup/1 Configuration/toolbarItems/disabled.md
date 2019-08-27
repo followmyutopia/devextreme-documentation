@@ -1,13 +1,10 @@
-<!--id-->dxPopup.Options.toolbarItems.disabled<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPopup.Options.toolbarItems.disabled
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether a toolbar item should be disabled.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

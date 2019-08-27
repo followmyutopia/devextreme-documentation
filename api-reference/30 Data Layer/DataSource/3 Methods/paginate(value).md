@@ -1,18 +1,14 @@
-<!--id-->DataSource.paginate(value)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.paginate(value)
+---
+---
+##### shortDescription
 Sets the [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) option's value.
-<!--/shortDescription-->
 
-<!--paramName1-->value<!--/paramName1-->
-<!--paramType1-->Boolean<!--/paramType1-->
-<!--paramDescription1-->
+##### param(value): Boolean
 A new value.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 Call the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method to update the widget bound to the **DataSource**:
 
 ---
@@ -47,4 +43,3 @@ Call the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#loa
     }
 
 ---
-<!--/fullDescription-->

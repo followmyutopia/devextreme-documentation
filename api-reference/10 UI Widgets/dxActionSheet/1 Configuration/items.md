@@ -1,6 +1,5 @@
-<!--id-->dxActionSheet.Options.items<!--/id-->
-===========================================================================
-<!--type-->Array<String, dxActionSheetItem, Object><!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
-===========================================================================
-
+---
+id: dxActionSheet.Options.items
+type: Array<String, dxActionSheetItem, Object>
+firedEvents: optionChanged
+---

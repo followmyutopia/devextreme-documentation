@@ -1,13 +1,11 @@
-<!--id-->dxPieChartSeriesTypes.CommonPieChartSeries.hoverStyle.border.color<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPieChartSeriesTypes.CommonPieChartSeries.hoverStyle.border.color
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Sets a border color for the series when it is hovered over.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

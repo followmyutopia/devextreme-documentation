@@ -1,14 +1,16 @@
-<!--id-->Store.Options.onLoaded<!--/id-->
-<!--EventForAction-->Store.loaded<!--/EventForAction-->
-===========================================================================
-<!--type-->function(result)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Store.Options.onLoaded
+type: function(result)
+EventForAction: Store.loaded
+---
+---
+##### shortDescription
 A function that is executed after data is loaded to the store.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(result): Array<any>
+The loaded data.
+
+---
 ---
 ##### jQuery
 
@@ -36,9 +38,3 @@ A function that is executed after data is loaded to the store.
     }
     
 ---
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->result<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Array<any><!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The loaded data.
-<!--/typeFunctionParamDescription1-->

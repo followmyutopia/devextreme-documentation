@@ -1,15 +1,15 @@
-<!--id-->dxVectorMap.Options.bounds<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--default-->undefined<!--/default-->
-<!--type-->Array<Number><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxVectorMap.Options.bounds
+type: Array<Number>
+default: undefined
+---
+---
+##### shortDescription
 Specifies the positioning of a map in geographical coordinates.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### notUsedInTheme
+
+---
 When you need to display only a specific region on a map, specify the geographical coordinates of this region using the **bounds** option. Assign an array of four values to this option. These values represent geographical coordinates in the following format: *[minLongitude, maxLatitude, maxLongitude, minLatitude]* with the default range of **longitude** [-180, 180] and **latitude** [-90, 90]. See the image below to review how these values are applied to a map.
 
 ![ChartMargin ChartJS](/Content/images/doc/19_2/ChartJS/VectorMapBounds.png)
@@ -17,4 +17,3 @@ When you need to display only a specific region on a map, specify the geographic
 If your [dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#dataSource) contains coordinates in a different range, implement a [custom projection](/Demos/WidgetsGallery/Demo/VectorMap/CustomProjection/jQuery/Light/).
 
 [note] Specifying the **bounds** option with the { minLon: *minLongitude*, maxLat: *maxLatitude*, maxLon: *maxLongitude*, minLat: *minLatitude* } object is now <font color="red">deprecated</font>.
-<!--/fullDescription-->

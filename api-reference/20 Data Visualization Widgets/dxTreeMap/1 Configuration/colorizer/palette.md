@@ -1,15 +1,14 @@
-<!--id-->dxTreeMap.Options.colorizer.palette<!--/id-->
-===========================================================================
-<!--default-->'Material'<!--/default-->
-<!--acceptValues-->'Bright' | 'Harmony Light' | 'Ocean' | 'Pastel' | 'Soft' | 'Soft Pastel' | 'Vintage' | 'Violet' | 'Carmine' | 'Dark Moon' | 'Dark Violet' | 'Green Mist' | 'Soft Blue' | 'Material' | 'Office'<!--/acceptValues-->
-<!--type-->Array<String> | String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMap.Options.colorizer.palette
+acceptValues: 'Bright' | 'Harmony Light' | 'Ocean' | 'Pastel' | 'Soft' | 'Soft Pastel' | 'Vintage' | 'Violet' | 'Carmine' | 'Dark Moon' | 'Dark Violet' | 'Green Mist' | 'Soft Blue' | 'Material' | 'Office'
+type: Array<String> | String
+default: 'Material'
+---
+---
+##### shortDescription
 Sets the palette to be used to colorize tiles.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include dataviz-ref-palette
 
 #include common-ref-enum with {
@@ -42,4 +41,3 @@ But the *"gradient"* and *"range"* types require strictly two colors.
 - [Palettes](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Palettes)
 - **colorizer**.[paletteExtensionMode]({basewidgetpath}/Configuration/colorizer/#paletteExtensionMode)
 - [DevExpress.viz.generateColors(palette, count, options)](/Documentation/ApiReference/Common/utils/viz/#generateColorspalette_count_options)
-<!--/fullDescription-->

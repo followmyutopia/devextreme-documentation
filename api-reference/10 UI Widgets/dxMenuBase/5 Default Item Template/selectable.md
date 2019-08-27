@@ -1,13 +1,10 @@
-<!--id-->dxMenuBaseItem.selectable<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxMenuBaseItem.selectable
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether or not a user can select a menu item.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

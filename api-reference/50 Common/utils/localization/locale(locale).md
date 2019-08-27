@@ -1,22 +1,17 @@
-<!--id-->localization.locale(locale)<!--/id-->
-===================================================================
-<!--module-->localization<!--/module-->
-<!--export-->locale<!--/export-->
-===================================================================
-
-<!--shortDescription-->
+---
+id: localization.locale(locale)
+module: localization
+export: locale
+---
+---
+##### shortDescription
 Sets the current locale identifier.
-<!--/shortDescription-->
 
-<!--paramName1-->locale<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
-<!--paramDescription1-->
+##### param(locale): String
 The required locale identifier.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 [note] This method should be called only once - at the application's launch. It is necessary to reload the page each time you need to set new locale.
 
 #####See Also#####
 - [Localization](/Documentation/Guide/Common/Localization/)
-<!--/fullDescription-->

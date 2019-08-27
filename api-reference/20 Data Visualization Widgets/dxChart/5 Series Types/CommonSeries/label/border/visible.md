@@ -1,13 +1,10 @@
-<!--id-->dxChartSeriesTypes.CommonSeries.label.border.visible<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.CommonSeries.label.border.visible
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Makes the border visible.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

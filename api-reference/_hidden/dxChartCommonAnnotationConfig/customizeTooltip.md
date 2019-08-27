@@ -1,15 +1,21 @@
-<!--id-->dxChartCommonAnnotationConfig.customizeTooltip<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--default-->undefined<!--/default-->
-<!--type-->function(annotationItem)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartCommonAnnotationConfig.customizeTooltip
+type: function(annotationItem)
+default: undefined
+---
+---
+##### shortDescription
 Customizes the text and appearance of the annotation's tooltip.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(annotationItem): dxChartAnnotationConfig | any
+The annotation's [configuration object](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/).
+
+##### return: Object
+The tooltip's text or markup and appearance settings.
+
+##### notUsedInTheme
+
+---
 Set this option to a function that returns an object with the following fields:
 
 - **color**        
@@ -33,14 +39,3 @@ Colors the tooltip's border.
 
 #####See Also#####
 - [tooltipEnabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#tooltipEnabled)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->annotationItem<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->dxChartAnnotationConfig|any<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The annotation's [configuration object](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/).
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->Object<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-The tooltip's text or markup and appearance settings.
-<!--/typeFunctionReturnDescription-->

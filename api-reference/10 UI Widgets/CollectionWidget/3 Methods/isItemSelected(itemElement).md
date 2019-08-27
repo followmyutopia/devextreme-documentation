@@ -1,23 +1,12 @@
-<!--id-->CollectionWidget.isItemSelected(itemElement)<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
+---
+id: CollectionWidget.isItemSelected(itemElement)
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### return: Boolean
 
-<!--/shortDescription-->
+##### param(itemElement): Node
 
-<!--paramName1-->itemElement<!--/paramName1-->
-<!--paramType1-->Node<!--/paramType1-->
-<!--paramDescription1-->
-
-<!--/paramDescription1-->
-
-<!--returnType-->Boolean<!--/returnType-->
-<!--returnDescription-->
-
-<!--/returnDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

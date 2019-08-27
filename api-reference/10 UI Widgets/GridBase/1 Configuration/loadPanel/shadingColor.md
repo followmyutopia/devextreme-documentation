@@ -1,13 +1,11 @@
-<!--id-->GridBase.Options.loadPanel.shadingColor<!--/id-->
-===========================================================================
-<!--default-->''<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.loadPanel.shadingColor
+type: String
+default: ''
+---
+---
+##### shortDescription
 Specifies the shading color. Applies only if [shading]({basewidgetpath}/Configuration/loadPanel/#shading) is **true**.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

@@ -1,26 +1,19 @@
-<!--id-->viz.registerPalette(paletteName, palette)<!--/id-->
-===================================================================
-<!--module-->viz/palette<!--/module-->
-<!--export-->registerPalette<!--/export-->
-===================================================================
-
-<!--shortDescription-->
+---
+id: viz.registerPalette(paletteName, palette)
+module: viz/palette
+export: registerPalette
+---
+---
+##### shortDescription
 Registers a new palette.
-<!--/shortDescription-->
 
-<!--paramName1-->paletteName<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
-<!--paramDescription1-->
+##### param(paletteName): String
 The palette's name.
-<!--/paramDescription1-->
 
-<!--paramName2-->palette<!--/paramName2-->
-<!--paramType2-->Object<!--/paramType2-->
-<!--paramDescription2-->
+##### param(palette): Object
 The palette's settings.
-<!--/paramDescription2-->
 
-<!--fullDescription-->
+---
 The palette settings is an object of the following structure:
 
     <!--JavaScript-->{
@@ -31,4 +24,3 @@ The palette settings is an object of the following structure:
         // Applies in the VectorMap and TreeMap with a gradient or range colorizer 
         gradientSet: ['#78b6d9', '#eeba69'] 
     }
-<!--/fullDescription-->

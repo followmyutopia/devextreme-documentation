@@ -1,13 +1,11 @@
-<!--id-->dxVectorMap.Options.layers.name<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxVectorMap.Options.layers.name
+type: String
+---
+---
+##### shortDescription
 Specifies the layer name.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### notUsedInTheme
 
-<!--/fullDescription-->
+---

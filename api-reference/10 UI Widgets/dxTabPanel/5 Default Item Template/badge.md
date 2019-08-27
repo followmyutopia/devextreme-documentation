@@ -1,12 +1,9 @@
-<!--id-->dxTabPanelItem.badge<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTabPanelItem.badge
+type: String
+---
+---
+##### shortDescription
 Specifies a badge text for the tab.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

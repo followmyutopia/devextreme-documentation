@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.CandleStickSeries.label<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.CandleStickSeries.label
+type: Object
+---

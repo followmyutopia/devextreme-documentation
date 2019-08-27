@@ -1,13 +1,10 @@
-<!--id-->PolarChartSeries.name<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PolarChartSeries.name
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies the name that identifies the series.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

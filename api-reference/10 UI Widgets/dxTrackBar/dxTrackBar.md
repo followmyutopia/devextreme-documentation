@@ -1,13 +1,10 @@
-<!--id-->dxTrackBar<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--inherits-->Editor<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTrackBar
+inherits: Editor
+hidden: 
+---
+---
+##### shortDescription
 A base class for track bar widgets.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

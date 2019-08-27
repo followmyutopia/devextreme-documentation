@@ -1,13 +1,10 @@
-<!--id-->dxLookup.Options.clearButtonText<!--/id-->
-===========================================================================
-<!--default-->'Clear'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxLookup.Options.clearButtonText
+type: String
+default: 'Clear'
+---
+---
+##### shortDescription
 The text displayed on the Clear button.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

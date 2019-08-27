@@ -1,13 +1,10 @@
-<!--id-->GridBase.Options.searchPanel.visible<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.searchPanel.visible
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether the search panel is visible or not.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

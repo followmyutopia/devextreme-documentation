@@ -1,5 +1,14 @@
-<!--id-->dxToolbar<!--/id-->
-<!--widgettree-->
+---
+id: dxToolbar
+module: ui/toolbar
+export: default
+inherits: CollectionWidget
+---
+---
+##### shortDescription
+The **Toolbar** is a widget containing items that usually manage screen content. Those items can be plain text or widgets.
+
+##### widgettree
 dataSource: [{
         text: "Contacts",
         location: "before"
@@ -10,21 +19,11 @@ dataSource: [{
         location: "after"
     }
 ]
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/toolbar<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->CollectionWidget<!--/inherits-->
-<!--lib-->
+
+##### lib
 dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
 
-<!--shortDescription-->
-The **Toolbar** is a widget containing items that usually manage screen content. Those items can be plain text or widgets.
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Toolbar/Overview/jQuery/Light/"
 }
@@ -35,4 +34,3 @@ The **Toolbar** is a widget containing items that usually manage screen content.
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

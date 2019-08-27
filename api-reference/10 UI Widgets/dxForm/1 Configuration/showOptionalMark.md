@@ -1,14 +1,12 @@
-<!--id-->dxForm.Options.showOptionalMark<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxForm.Options.showOptionalMark
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether or not the [optional mark](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#optionalMark) is displayed for optional fields.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 - [Additional Marks](/Documentation/Guide/Widgets/Form/Configure_Item_Labels/Additional_Marks/)
-<!--/fullDescription-->

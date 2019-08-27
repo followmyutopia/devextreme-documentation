@@ -1,18 +1,17 @@
-<!--id-->dxValidator<!--/id-->
-===========================================================================
-<!--module-->ui/validator<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->DOMComponent<!--/inherits-->
-<!--lib-->
-dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxValidator
+module: ui/validator
+export: default
+inherits: DOMComponent
+---
+---
+##### shortDescription
 A widget that is used to validate the associated DevExtreme editors against the defined validation rules.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### lib
+dx.web.js, dx.viz-web.js, dx.all.js
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Validation/Overview/jQuery/Light/"
 }
@@ -24,4 +23,3 @@ A widget that is used to validate the associated DevExtreme editors against the 
 - [ASP.NET MVC Controls - Client-Side Data Validation](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Overview/)
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

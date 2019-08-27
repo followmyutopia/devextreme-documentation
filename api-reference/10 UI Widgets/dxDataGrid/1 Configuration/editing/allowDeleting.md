@@ -1,14 +1,25 @@
-<!--id-->dxDataGrid.Options.editing.allowDeleting<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean | function(options)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.Options.editing.allowDeleting
+type: Boolean | function(options)
+default: false
+---
+---
+##### shortDescription
 Specifies whether a user can delete rows. It is called for each data row when defined as a function.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(options): Object
+Information about the current row.
+
+##### field(options.component): dxDataGrid
+The widget's instance.
+
+##### field(options.row): dxDataGridRowObject
+The row's properties.
+
+##### return: Boolean
+**true** if the row can be deleted; otherwise **false**.
+
+---
 The following code allows a user to delete only even data rows:
 
 ---
@@ -60,24 +71,3 @@ The following code allows a user to delete only even data rows:
 - [onRowRemoving](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onRowRemoving)
 - [deleteRow(rowIndex)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#deleteRowrowIndex)
 - [undeleteRow(rowIndex)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#undeleteRowrowIndex)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the current row.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->dxDataGrid<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->row<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxDataGridRowObject<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-The row's properties. 
-<!--/typeFunctionParamDescription1_field2-->
-
-<!--typeFunctionReturnType-->Boolean<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-**true** if the row can be deleted; otherwise **false**.
-<!--/typeFunctionReturnDescription-->

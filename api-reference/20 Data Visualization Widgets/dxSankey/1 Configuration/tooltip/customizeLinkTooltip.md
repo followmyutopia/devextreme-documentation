@@ -1,14 +1,28 @@
-<!--id-->dxSankey.Options.tooltip.customizeLinkTooltip<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->function(info)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSankey.Options.tooltip.customizeLinkTooltip
+type: function(info)
+default: undefined
+---
+---
+##### shortDescription
 Customizes link tooltips' appearance.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(info): Object
+Information about a sankey link being pressed or hovered over.
+
+##### field(info.source): String
+The title of the link's source node.
+
+##### field(info.target): String
+The title of the link's target node.
+
+##### field(info.weight): Number
+The link's weight.
+
+##### return: Object
+The current tooltip's text or markup and appearance settings.
+
+---
 This function should return an object with the following fields:
 
 - **color**        
@@ -31,29 +45,3 @@ Colors the tooltip's border.
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Charts/SankeyChart/jQuery/Light/"
 }
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->info<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about a sankey link being pressed or hovered over.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->source<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->String<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The title of the link's source node. 
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->target<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->String<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-The title of the link's target node. 
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->weight<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Number<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The link's weight.
-<!--/typeFunctionParamDescription1_field3-->
-
-<!--typeFunctionReturnType-->Object<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-The current tooltip's text or markup and appearance settings.
-<!--/typeFunctionReturnDescription-->

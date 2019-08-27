@@ -1,13 +1,9 @@
-<!--id-->dxDiagram.Options.toolbox.groups.style<!--/id-->
-===========================================================================
-<!--acceptValues-->'icons' | 'texts'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.toolbox.groups.style
+acceptValues: 'icons' | 'texts'
+type: String
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

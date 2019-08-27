@@ -1,6 +1,5 @@
-<!--id-->dxMultiView.Options.items<!--/id-->
-===========================================================================
-<!--type-->Array<String, dxMultiViewItem, Object><!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
-===========================================================================
-
+---
+id: dxMultiView.Options.items
+type: Array<String, dxMultiViewItem, Object>
+firedEvents: optionChanged
+---

@@ -1,15 +1,14 @@
-<!--id-->dxBullet.Options.value<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--default-->0<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxBullet.Options.value
+type: Number
+default: 0
+---
+---
+##### shortDescription
 Specifies the primary value indicated by the bullet bar.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### notUsedInTheme
+
+---
 #####See Also#####
 - [Bullet - Bullet Bar](/Documentation/Guide/Widgets/Bullet/Visual_Elements/#Bullet_Bar)
-<!--/fullDescription-->

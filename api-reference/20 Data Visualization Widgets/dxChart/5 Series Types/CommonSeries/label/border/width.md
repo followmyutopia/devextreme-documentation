@@ -1,13 +1,10 @@
-<!--id-->dxChartSeriesTypes.CommonSeries.label.border.width<!--/id-->
-===========================================================================
-<!--default-->1<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.CommonSeries.label.border.width
+type: Number
+default: 1
+---
+---
+##### shortDescription
 Specifies the width of the border in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

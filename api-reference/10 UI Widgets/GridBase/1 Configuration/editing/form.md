@@ -1,13 +1,12 @@
-<!--id-->GridBase.Options.editing.form<!--/id-->
-===========================================================================
-<!--type-->dxForm_Options<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.editing.form
+type: dxForm_Options
+---
+---
+##### shortDescription
 Configures the form. Used only if **editing**.[mode]({basewidgetpath}/Configuration/editing/#mode) is *"form"* or *"popup"*.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Default form editors depend on the [columns' configuration]({basewidgetpath}/Configuration/columns/). If the generated form does not meet your requirements, and you need to reorganize form items or set other [form options](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/), specify it in the **form** object. To link a [form item](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#items) with a grid column, assign identical values to the **form**.**items**.[dataField](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#dataField) and **columns**.[dataField]({basewidgetpath}/Configuration/columns/#dataField) options.
 
 ---
@@ -267,4 +266,3 @@ If you need to customize an individual form item, use the [formItem]({basewidget
 
 #####See Also#####
 - [Form Guides](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/)
-<!--/fullDescription-->

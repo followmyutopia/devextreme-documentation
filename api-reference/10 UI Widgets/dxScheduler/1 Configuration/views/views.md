@@ -1,15 +1,14 @@
-<!--id-->dxScheduler.Options.views<!--/id-->
-===========================================================================
-<!--default-->['day', 'week']<!--/default-->
-<!--acceptValues-->'day' | 'week' | 'workWeek' | 'month' | 'timelineDay' | 'timelineWeek' | 'timelineWorkWeek' | 'timelineMonth' | 'agenda'<!--/acceptValues-->
-<!--type-->Array<String, Object><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler.Options.views
+acceptValues: 'day' | 'week' | 'workWeek' | 'month' | 'timelineDay' | 'timelineWeek' | 'timelineWorkWeek' | 'timelineMonth' | 'agenda'
+type: Array<String, Object>
+default: ['day', 'week']
+---
+---
+##### shortDescription
 Specifies and configures the [views](/Documentation/Guide/Widgets/Scheduler/Views/View_Types/) to be available in the [view switcher](/Documentation/Guide/Widgets/Scheduler/View_Switcher/).
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This option accepts an array of strings and objects:
 
 - **String**        
@@ -28,4 +27,3 @@ To specify the default view, use the [currentView](/Documentation/ApiReference/U
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Scheduler/CustomizeIndividualViews/jQuery/Light/"
 }
-<!--/fullDescription-->

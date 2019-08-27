@@ -1,15 +1,14 @@
-<!--id-->dxFunnel.Options.label.position<!--/id-->
-===========================================================================
-<!--default-->'columns'<!--/default-->
-<!--acceptValues-->'columns' | 'inside' | 'outside'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFunnel.Options.label.position
+acceptValues: 'columns' | 'inside' | 'outside'
+type: String
+default: 'columns'
+---
+---
+##### shortDescription
 Specifies whether to display labels inside or outside funnel items or arrange them in columns.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-ref-enum with {
     enum: "`FunnelLabelPosition`",
     values: "`Inside`, `Outside`, and `Columns`"
@@ -18,4 +17,3 @@ Specifies whether to display labels inside or outside funnel items or arrange th
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Charts/FunnelChart/jQuery/Light/"
 }
-<!--/fullDescription-->

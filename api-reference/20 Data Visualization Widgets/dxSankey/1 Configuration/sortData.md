@@ -1,14 +1,13 @@
-<!--id-->dxSankey.Options.sortData<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSankey.Options.sortData
+type: Object
+default: undefined
+---
+---
+##### shortDescription
 Specifies nodes' sorting order in their columns.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The sorting order depends on the node's weight: the heavier the node, the lower it is in the column. All nodes have the same weight initially (equals 1).
 
 For example, without the **sortData** object, source nodes in the following code would be sorted as declared in the data source (top to bottom): Australia, New Zealand, Japan. Weights in the **sortData** object specify the following sorting order: New Zealand, Japan, Australia.
@@ -56,5 +55,3 @@ For example, without the **sortData** object, source nodes in the following code
     </dx-sankey>
 
 ---
-
-<!--/fullDescription-->

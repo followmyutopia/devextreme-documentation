@@ -1,14 +1,13 @@
-<!--id-->dxPolarChart.Options.valueAxis.minValueMargin<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChart.Options.valueAxis.minValueMargin
+type: Number
+default: undefined
+---
+---
+##### shortDescription
 Specifies a coefficient that determines the spacing between the minimum series point and the axis.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 When [margins are enabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/valueAxis/#valueMarginsEnabled) in a chart, an axis extends slightly beyond its start and end values. It is required for preventing the cutting off of parts of the minimum and maximum series points.
 
 By default, margins are calculated automatically and equal to half of an axis' [tick interval](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Axes/Axis_Ticks_Arrangement). If you need to specify custom margins, use the **minValueMargin** and **maxValueMargin** options. These options accept coefficients that are used to calculate the actual start and end values for an axis with applied margin susing the following formulas:
@@ -24,4 +23,3 @@ For example, consider that `minDataValue` is 1960 and `maxDataValue` is 2010. If
 ![MinValueMargin ChartJS](/Content/images/doc/19_2/ChartJS/PolarValueMargins.png)
 
 [note]Margins can be added to axes of the continuous or logarithmic type only.
-<!--/fullDescription-->

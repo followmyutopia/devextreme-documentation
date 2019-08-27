@@ -1,49 +1,32 @@
-<!--id-->dxFilterBuilderField.editorTemplate<!--/id-->
-===========================================================================
-<!--type-->template<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFilterBuilderField.editorTemplate
+type: template
+---
+---
+##### shortDescription
 Specifies the editor's custom template.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(conditionInfo): Object
+The condition's settings.
+
+##### field(conditionInfo.field): dxFilterBuilderField
+The condition's configuration.
+
+##### field(conditionInfo.filterOperation): String
+The condition's operation.
+
+##### field(conditionInfo.setValue): function()
+A method that you should call to change the field value after the editor's value is changed.
+
+##### field(conditionInfo.value): String | Number | Date
+The condition's data field value.
+
+##### param(container): dxElement
+#include common-ref-elementparam with { element: "editor" }
+
+##### return: String | Node | jQuery
+A template name or container.
+
+---
 #####See Also#####
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->conditionInfo<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The condition's settings.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->String | Number | Date<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The condition's data field value.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->filterOperation<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->String<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-The condition's operation.
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->field<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->dxFilterBuilderField<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The condition's configuration.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->setValue<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->function()<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-A method that you should call to change the field value after the editor's value is changed.
-<!--/typeFunctionParamDescription1_field4-->
-
-<!--typeFunctionParamName2-->container<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-#include common-ref-elementparam with { element: "editor" }
-<!--/typeFunctionParamDescription2-->
-
-<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A template name or container.
-<!--/typeFunctionReturnDescription-->

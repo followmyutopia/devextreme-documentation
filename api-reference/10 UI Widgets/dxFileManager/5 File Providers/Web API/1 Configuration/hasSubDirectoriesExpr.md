@@ -1,12 +1,9 @@
-<!--id-->WebApiFileProvider.Options.hasSubDirectoriesExpr<!--/id-->
-===========================================================================
-<!--type-->String | function()<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: WebApiFileProvider.Options.hasSubDirectoriesExpr
+type: String | function()
+---
+---
+##### shortDescription
 Specifies which data field provides information about whether a directory has subdirectories.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

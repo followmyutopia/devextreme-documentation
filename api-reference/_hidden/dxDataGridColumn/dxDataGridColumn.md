@@ -1,6 +1,5 @@
-<!--id-->dxDataGridColumn<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-<!--inherits-->GridBaseColumn<!--/inherits-->
-===========================================================================
-
+---
+id: dxDataGridColumn
+type: Object
+inherits: GridBaseColumn
+---

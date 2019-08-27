@@ -1,13 +1,10 @@
-<!--id-->dxPivotGrid.Options.hideEmptySummaryCells<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGrid.Options.hideEmptySummaryCells
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether or not to hide rows and columns with no data.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

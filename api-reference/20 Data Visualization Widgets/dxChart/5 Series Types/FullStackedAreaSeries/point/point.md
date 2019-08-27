@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.FullStackedAreaSeries.point<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.FullStackedAreaSeries.point
+type: Object
+---

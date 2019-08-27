@@ -1,23 +1,16 @@
-<!--id-->dxVectorMap.getLayerByIndex(index)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxVectorMap.getLayerByIndex(index)
+---
+---
+##### shortDescription
 Gets a layer with a specific index.
-<!--/shortDescription-->
 
-<!--paramName1-->index<!--/paramName1-->
-<!--paramType1-->Number<!--/paramType1-->
-<!--paramDescription1-->
-The index in the [layers](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/) array.
-<!--/paramDescription1-->
-
-<!--returnType-->MapLayer<!--/returnType-->
-<!--returnDescription-->
+##### return: MapLayer
 The [Layer](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element/) object.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(index): Number
+The index in the [layers](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/) array.
+
+---
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

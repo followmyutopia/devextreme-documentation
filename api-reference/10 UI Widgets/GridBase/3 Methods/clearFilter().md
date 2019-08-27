@@ -1,12 +1,10 @@
-<!--id-->GridBase.clearFilter()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.clearFilter()
+---
+---
+##### shortDescription
 Clears all filters applied to widget rows.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

@@ -1,15 +1,14 @@
-<!--id-->dxDateBox.Options.pickerType<!--/id-->
-===========================================================================
-<!--default-->'calendar', 'native' (iOS, Android), 'rollers' (Android_below_version_4.4, mobile_devices)<!--/default-->
-<!--acceptValues-->'calendar' | 'list' | 'native' | 'rollers'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDateBox.Options.pickerType
+acceptValues: 'calendar' | 'list' | 'native' | 'rollers'
+type: String
+default: 'calendar', 'native' (iOS, Android), 'rollers' (Android_below_version_4.4, mobile_devices)
+---
+---
+##### shortDescription
 Specifies the type of the date/time picker.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This option accepts the following values.
 
 - "native"  
@@ -28,4 +27,3 @@ This option accepts the following values.
     enum: "`DateBoxPickerType`",
     values: "`Native`, `Calendar`, `Rollers`, and `List`"
 }
-<!--/fullDescription-->

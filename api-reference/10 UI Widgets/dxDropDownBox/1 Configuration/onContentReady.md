@@ -1,13 +1,9 @@
-<!--id-->dxDropDownBox.Options.onContentReady<!--/id-->
-<!--EventForAction-->dxDropDownBox.contentReady<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
+---
+id: dxDropDownBox.Options.onContentReady
+hidden: 
+EventForAction: dxDropDownBox.contentReady
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

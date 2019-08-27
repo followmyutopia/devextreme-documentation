@@ -1,13 +1,12 @@
-<!--id-->template<!--/id-->
-===========================================================================
-<!--type-->String | function() | Node | jQuery<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: template
+type: String | function() | Node | jQuery
+---
+---
+##### shortDescription
 A template notation used to specify templates for widget elements.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 To use a template, pass a value with one of the following types to a widget's **...Template** option:
 
 - **String**         
@@ -116,4 +115,3 @@ Combines the HTML markup using jQuery <a href="http://api.jquery.com/category/ma
 
 #####See Also#####
 - [Templates](/Documentation/Guide/Widgets/Common/Templates/)
-<!--/fullDescription-->

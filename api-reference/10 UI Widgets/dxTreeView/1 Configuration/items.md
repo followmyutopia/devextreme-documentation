@@ -1,5 +1,4 @@
-<!--id-->dxTreeView.Options.items<!--/id-->
-===========================================================================
-<!--type-->Array<dxTreeViewItem><!--/type-->
-===========================================================================
-
+---
+id: dxTreeView.Options.items
+type: Array<dxTreeViewItem>
+---

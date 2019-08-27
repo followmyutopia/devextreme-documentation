@@ -1,13 +1,9 @@
-<!--id-->dxSlideOutView.Options.onContentReady<!--/id-->
-<!--EventForAction-->dxSlideOutView.contentReady<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
+---
+id: dxSlideOutView.Options.onContentReady
+hidden: 
+EventForAction: dxSlideOutView.contentReady
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

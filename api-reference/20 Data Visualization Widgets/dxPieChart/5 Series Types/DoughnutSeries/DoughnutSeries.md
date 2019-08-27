@@ -1,15 +1,15 @@
-<!--id-->dxPieChartSeriesTypes.DoughnutSeries<!--/id-->
-===========================================================================
-<!--hidePropertyOf--><!--/hidePropertyOf-->
-<!--type-->Object<!--/type-->
-<!--inherits-->dxPieChartSeriesTypes.CommonPieChartSeries<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPieChartSeriesTypes.DoughnutSeries
+type: Object
+inherits: dxPieChartSeriesTypes.CommonPieChartSeries
+---
+---
+##### shortDescription
 An object defining a series of the **doughnut** type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### hidePropertyOf
+
+---
 #include dataviz-ref-series-type with { 
     seriesType: "doughnut"
 }
@@ -19,4 +19,3 @@ An object defining a series of the **doughnut** type.
 }
 
 ![DoughnutSeriesType DonutSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/Doughnut.png)
-<!--/fullDescription-->

@@ -1,6 +1,5 @@
-<!--id-->dxTreeListColumn<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-<!--inherits-->GridBaseColumn<!--/inherits-->
-===========================================================================
-
+---
+id: dxTreeListColumn
+type: Object
+inherits: GridBaseColumn
+---

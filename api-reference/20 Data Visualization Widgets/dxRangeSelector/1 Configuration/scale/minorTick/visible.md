@@ -1,13 +1,10 @@
-<!--id-->dxRangeSelector.Options.scale.minorTick.visible<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.scale.minorTick.visible
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Indicates whether scale minor ticks are visible or not.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

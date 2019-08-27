@@ -1,13 +1,11 @@
-<!--id-->BaseWidget.Options.tooltip.border.color<!--/id-->
-===========================================================================
-<!--default-->'#d3d3d3'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseWidget.Options.tooltip.border.color
+type: String
+default: '#d3d3d3'
+---
+---
+##### shortDescription
 Colors a tooltip's border.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

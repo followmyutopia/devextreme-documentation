@@ -1,15 +1,14 @@
-<!--id-->dxChartSeriesTypes.RangeBarSeries.hoverMode<!--/id-->
-===========================================================================
-<!--default-->'onlyPoint'<!--/default-->
-<!--acceptValues-->'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'none'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.RangeBarSeries.hoverMode
+acceptValues: 'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'none'
+type: String
+default: 'onlyPoint'
+---
+---
+##### shortDescription
 Specifies series elements to be highlighted when a user points to a series.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 When a user points to a series, it may react in one of the following ways depending on the value of the **hoverMode** option.
 
 <div class="simple-table">
@@ -49,4 +48,3 @@ When a user points to a series, it may react in one of the following ways depend
 
 #####See Also#####
 - [hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/RangeBarSeries/hoverStyle/) - specifies the appearance of series in the hover state.
-<!--/fullDescription-->

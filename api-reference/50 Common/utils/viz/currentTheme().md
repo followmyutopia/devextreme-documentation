@@ -1,18 +1,13 @@
-<!--id-->viz.currentTheme()<!--/id-->
-===================================================================
-<!--module-->viz/themes<!--/module-->
-<!--export-->currentTheme<!--/export-->
-===================================================================
-
-<!--shortDescription-->
+---
+id: viz.currentTheme()
+module: viz/themes
+export: currentTheme
+---
+---
+##### shortDescription
 Gets the current [theme](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#theme)'s name.
-<!--/shortDescription-->
 
-<!--returnType-->String<!--/returnType-->
-<!--returnDescription-->
-The current theme's name. 
-<!--/returnDescription-->
+##### return: String
+The current theme's name.
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

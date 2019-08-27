@@ -1,24 +1,12 @@
-<!--id-->DOMComponent.ctor(element,options)<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
+---
+id: DOMComponent.ctor(element,options)
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### param(element): Node | jQuery
 
-<!--/shortDescription-->
+##### param(options): DOMComponent_Options | undefined
 
-<!--paramName1-->element<!--/paramName1-->
-<!--paramType1-->Node|jQuery<!--/paramType1-->
-<!--paramDescription1-->
-
-<!--/paramDescription1-->
-
-<!--paramName2-->options<!--/paramName2-->
-<!--paramType2-->DOMComponent_Options|undefined<!--/paramType2-->
-<!--paramDescription2-->
-
-<!--/paramDescription2-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

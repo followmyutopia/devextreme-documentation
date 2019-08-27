@@ -1,13 +1,9 @@
-<!--id-->dxDiagram.Options.pageSize.items<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Array<Object><!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.pageSize.items
+type: Array<Object>
+default: undefined
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

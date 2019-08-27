@@ -1,15 +1,14 @@
-<!--id-->dxDataGrid.Options.summary.totalItems.alignment<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--acceptValues-->'center' | 'left' | 'right'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.Options.summary.totalItems.alignment
+acceptValues: 'center' | 'left' | 'right'
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies the alignment of a summary item.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The default alignment of a summary item depends on the [type of data](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#dataType) that is held by the column that displays this item. The following table illustrates the dependency between the default alignment and the column data type.
 
 <div class="simple-table">
@@ -56,4 +55,3 @@ The default alignment of a summary item depends on the [type of data](/Documenta
 
 #####See Also#####
 - [Total Summary - Alignment and Location](/Documentation/Guide/Widgets/DataGrid/Summaries/Total_Summary/#Alignment_and_Location)
-<!--/fullDescription-->

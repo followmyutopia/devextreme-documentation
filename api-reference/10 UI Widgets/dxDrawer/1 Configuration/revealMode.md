@@ -1,15 +1,14 @@
-<!--id-->dxDrawer.Options.revealMode<!--/id-->
-===========================================================================
-<!--default-->'slide'<!--/default-->
-<!--acceptValues-->'slide' | 'expand'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDrawer.Options.revealMode
+acceptValues: 'slide' | 'expand'
+type: String
+default: 'slide'
+---
+---
+##### shortDescription
 Specifies the drawer's reveal mode.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The following modes are available:
 
 * *"slide"*     
@@ -29,4 +28,3 @@ The drawer expands from the closed position. The drawer's width is animated; its
 
 #####See Also#####
 - [openedStateMode](/Documentation/ApiReference/UI_Widgets/dxDrawer/Configuration/#openedStateMode)
-<!--/fullDescription-->

@@ -1,14 +1,10 @@
-<!--id-->dxMap.Options.bounds.southWest<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--default-->null<!--/default-->
-<!--type-->Object | String | Array<Object><!--/type-->
-===========================================================================
+---
+id: dxMap.Options.bounds.southWest
+type: Object | String | Array<Object>
+default: null
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

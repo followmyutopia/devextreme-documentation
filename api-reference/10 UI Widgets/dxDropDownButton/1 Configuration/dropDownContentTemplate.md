@@ -1,14 +1,22 @@
-<!--id-->dxDropDownButton.Options.dropDownContentTemplate<!--/id-->
-===========================================================================
-<!--default-->'content'<!--/default-->
-<!--type-->template<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDropDownButton.Options.dropDownContentTemplate
+type: template
+default: 'content'
+---
+---
+##### shortDescription
 Specifies custom content for the drop-down field.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(data): Array<String, Number, Object> | DataSource
+The array passed to the [items](/Documentation/ApiReference/UI_Widgets/dxDropDownButton/Configuration/#items) option or a **DataSource** instance created using the [dataSource](/Documentation/ApiReference/UI_Widgets/dxDropDownButton/Configuration/#dataSource) configuration.
+
+##### param(contentElement): dxElement
+#include common-ref-elementparam with { element: "drop-down field" }
+
+##### return: String | Node | jQuery
+A template name or container.
+
+---
 The drop-down field contains the [List](/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/) widget. Implement this template to replace the widget with custom content. The following restrictions apply when the template is specified:
 
 - [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxDropDownButton/Configuration/#itemTemplate) is ignored;
@@ -17,20 +25,3 @@ The drop-down field contains the [List](/Demos/WidgetsGallery/Demo/List/ListEdit
 
 #####See Also#####
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->data<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Array<String, Number, Object>|DataSource<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The array passed to the [items](/Documentation/ApiReference/UI_Widgets/dxDropDownButton/Configuration/#items) option or a **DataSource** instance created using the [dataSource](/Documentation/ApiReference/UI_Widgets/dxDropDownButton/Configuration/#dataSource) configuration.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionParamName2-->contentElement<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-#include common-ref-elementparam with { element: "drop-down field" }
-<!--/typeFunctionParamDescription2-->
-
-<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A template name or container.
-<!--/typeFunctionReturnDescription-->

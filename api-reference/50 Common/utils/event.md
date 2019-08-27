@@ -1,13 +1,9 @@
-<!--id-->event<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->dxEvent | jQuery.Event<!--/type-->
-===========================================================================
+---
+id: event
+type: dxEvent | jQuery.Event
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

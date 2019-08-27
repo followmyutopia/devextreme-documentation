@@ -1,13 +1,9 @@
-<!--id-->dxChart.Options.panes.height<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number | String<!--/type-->
-===========================================================================
+---
+id: dxChart.Options.panes.height
+type: Number | String
+default: undefined
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

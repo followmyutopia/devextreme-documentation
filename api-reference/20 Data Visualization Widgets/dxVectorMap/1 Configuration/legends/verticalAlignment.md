@@ -1,12 +1,10 @@
-===========================================================================
-<!--merge--><!--/merge-->
-===========================================================================
+---
+##### merge
 
-<!--shortDescription-->
+##### shortDescription
 Along with [horizontalAlignment]({basewidgetpath}/Configuration/legends/#horizontalAlignment), specifies the legend's position.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-ref-enum with {
     enum: "`VerticalEdge`",
     values: "`Top` and `Bottom`"
@@ -14,4 +12,3 @@ Along with [horizontalAlignment]({basewidgetpath}/Configuration/legends/#horizon
 
 #####See Also#####
 - **legends[]**.[orientation]({basewidgetpath}/Configuration/legends/#orientation)
-<!--/fullDescription-->

@@ -1,15 +1,15 @@
-<!--id-->dxChart.Options.panes<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->Object | Array<Object><!--/type-->
-<!--inherits-->dxChart.Options.commonPaneSettings<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.panes
+type: Object | Array<Object>
+inherits: dxChart.Options.commonPaneSettings
+---
+---
+##### shortDescription
 Declares a collection of panes.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### notUsedInTheme
+
+---
 A pane is a chart area containing series. If there are many series an a chart, they can be distributed between multiple panes.
 
 ![DevExtreme HTML5 Charts Panes](/Content/images/doc/19_2/ChartJS/visual_elements/panes.png)
@@ -24,4 +24,3 @@ Each object in the **panes** array configures a single pane. If you have several
 - [commonPaneSettings](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonPaneSettings/) - specifies common settings for all panes in a chart.
 - **series**.[pane](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#pane) - binds a series to a pane.
 - [defaultPane](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#defaultPane) - specifies which pane must be used by default.
-<!--/fullDescription-->

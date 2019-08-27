@@ -1,5 +1,4 @@
-<!--id-->dxScheduler.Options.activeStateEnabled<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxScheduler.Options.activeStateEnabled
+hidden: 
+---

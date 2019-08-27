@@ -1,13 +1,10 @@
-<!--id-->dxFileManager.Options.permissions.rename<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFileManager.Options.permissions.rename
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether a user is allowed to rename files and folders.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,14 +1,12 @@
-<!--id-->dxFilterBuilderField<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFilterBuilderField
+type: Object
+---
+---
+##### shortDescription
 The **FilterBuilder**'s field structure.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithDataGrid/jQuery/Light/"
 }
-<!--/fullDescription-->

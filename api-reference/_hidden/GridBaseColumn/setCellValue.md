@@ -1,13 +1,21 @@
-<!--id-->GridBaseColumn.setCellValue<!--/id-->
-===========================================================================
-<!--type-->function(newData, value, currentRowData)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBaseColumn.setCellValue
+type: function(newData, value, currentRowData)
+---
+---
+##### shortDescription
 Specifies a function to be invoked after the user has edited a cell value, but before it will be saved in the data source.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(newData): Object
+The data object where new data should be set.
+
+##### param(value): any
+The input value.
+
+##### param(currentRowData): Object
+A read-only parameter providing access to the current row data.
+
+---
 Using this function, you can process user input before it is saved to the data source. This function accepts the **newData**, **value** and **currentRowData** parameters. **value** is the user input that you should assign to one of the fields of the **newData**. Initially, **newData** is an empty object. Fill it with fields whose values should be saved in the data object of the current row. **currentRowData** is a read-only parameter used to access the current row data.
 
 ---
@@ -147,22 +155,3 @@ To invoke the default behavior, call the **this.defaultSetCellValue(newData, val
 #include uiwidgets-ref-functioncontext with { 
     value: "column's configuration"
 }
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->newData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The data object where new data should be set.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionParamName2-->value<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->any<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-The input value.
-<!--/typeFunctionParamDescription2-->
-
-<!--typeFunctionParamName3-->currentRowData<!--/typeFunctionParamName3-->
-<!--typeFunctionParamType3-->Object<!--/typeFunctionParamType3-->
-<!--typeFunctionParamDescription3-->
-A read-only parameter providing access to the current row data.
-<!--/typeFunctionParamDescription3-->

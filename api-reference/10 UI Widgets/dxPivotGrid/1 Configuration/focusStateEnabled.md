@@ -1,5 +1,4 @@
-<!--id-->dxPivotGrid.Options.focusStateEnabled<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxPivotGrid.Options.focusStateEnabled
+hidden: 
+---

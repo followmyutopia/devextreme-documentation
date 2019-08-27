@@ -1,6 +1,4 @@
-<!--id-->dxActionSheet.registerKeyHandler(key, handler)<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
-
-
+---
+id: dxActionSheet.registerKeyHandler(key, handler)
+hidden: 
+---

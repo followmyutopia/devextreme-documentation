@@ -1,16 +1,15 @@
-<!--id-->dxChart.Options.commonSeriesSettings<!--/id-->
-===========================================================================
-<!--hideDefaults-->true<!--/hideDefaults-->
-<!--type-->Object<!--/type-->
-<!--inherits-->dxChartSeriesTypes.CommonSeries<!--/inherits-->
-<!--inheritAll--><!--/inheritAll-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonSeriesSettings
+type: Object
+inherits: dxChartSeriesTypes.CommonSeries
+hideDefaults: true
+inheritAll: 
+---
+---
+##### shortDescription
 Specifies settings common for all series in the chart.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 There are three ways to configure a series.
 
 - The **commonSeriesSettings** object     
@@ -23,4 +22,3 @@ Specifies settings for all series of the **seriesType**.
 Specifies settings for an individual series.
 
 [note]You can use these objects together, but note that individual settings override type-specific settings, which in their turn, override common settings.
-<!--/fullDescription-->

@@ -1,13 +1,12 @@
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->array<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+default: undefined
+type: array
+---
+---
+##### shortDescription
 Columns banded by the current column.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Unlike normal columns, band columns do not hold data. Instead, they collect two or more columns under one column header. To set up this layout, declare the band column using a hierarchical structure. For this, assign the nested columns to the **columns** field of the band column. For example, the following code declares the *"Address"* band column and nests three columns within it.
 
 ---
@@ -179,4 +178,3 @@ Band columns have the [isBand](/Documentation/ApiReference/UI_Widgets/dx{WidgetN
 #####See Also#####
 - [Band Columns](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Types/Band_Columns/)
 - [Column Fixing](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Fixing/)
-<!--/fullDescription-->

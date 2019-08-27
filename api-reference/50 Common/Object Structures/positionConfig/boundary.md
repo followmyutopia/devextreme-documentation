@@ -1,12 +1,10 @@
-<!--id-->positionConfig.boundary<!--/id-->
-===========================================================================
-<!--type-->String | Node | jQuery | Window<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: positionConfig.boundary
+type: String | Node | jQuery | Window
+---
+---
+##### shortDescription
 The element within which the widget is positioned.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 All collisions are computed against the element passed to this option. By default, widgets use the window object as a boundary element.
-<!--/fullDescription-->

@@ -1,15 +1,14 @@
-<!--id-->dxDataGrid.Options.scrolling.mode<!--/id-->
-===========================================================================
-<!--default-->'standard'<!--/default-->
-<!--acceptValues-->'infinite' | 'standard' | 'virtual'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.Options.scrolling.mode
+acceptValues: 'infinite' | 'standard' | 'virtual'
+type: String
+default: 'standard'
+---
+---
+##### shortDescription
 Specifies the scrolling mode.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The following scrolling modes are available in the widget:
 
 - **Standard**      
@@ -33,4 +32,3 @@ This mode is an alternative to paging where each next page is loaded once the sc
 
 #####See Also#####
 - [Scrolling](/Documentation/Guide/Widgets/DataGrid/Scrolling/)
-<!--/fullDescription-->

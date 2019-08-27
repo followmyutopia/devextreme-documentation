@@ -1,6 +1,5 @@
-<!--id-->dxCheckBox.Options.name<!--/id-->
-===========================================================================
-<!--hidden-->false<!--/hidden-->
-<!--type-->String<!--/type-->
-===========================================================================
-
+---
+id: dxCheckBox.Options.name
+type: String
+hidden: false
+---

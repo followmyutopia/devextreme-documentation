@@ -1,13 +1,10 @@
-<!--id-->Widget.Options.focusStateEnabled<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Widget.Options.focusStateEnabled
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether the widget can be focused using keyboard navigation.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,13 +1,12 @@
-<!--id-->GridBase.Options.headerFilter<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.headerFilter
+type: Object
+---
+---
+##### shortDescription
 Configures the header filter feature.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 A header filter allows a user to filter values in an individual column by including/excluding them in/from the applied filter. A click on a header filter icon invokes a popup menu with all unique values in the column. By selecting or clearing the selection of values in this menu, the user includes/excludes them in/from the filter.
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget {WidgetName} HeaderFilter](/Content/images/doc/19_2/{WidgetName}/visual_elements/header_filter.png)
@@ -28,4 +27,3 @@ To make header filter icons visible, assign **true** to the **headerFilter**.[vi
 - **columns[]**.[allowHeaderFiltering]({basewidgetpath}/Configuration/columns/#allowHeaderFiltering)
 - [filter(filterExpr)]({basewidgetpath}/Methods/#filterfilterExpr)
 - [clearFilter(filterName)]({basewidgetpath}/Methods/#clearFilterfilterName)
-<!--/fullDescription-->

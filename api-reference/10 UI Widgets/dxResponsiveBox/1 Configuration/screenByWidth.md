@@ -1,14 +1,13 @@
-<!--id-->dxResponsiveBox.Options.screenByWidth<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->function()<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxResponsiveBox.Options.screenByWidth
+type: function()
+default: null
+---
+---
+##### shortDescription
 Specifies the function returning the [size qualifier](/Documentation/Guide/Widgets/ResponsiveBox/Size_Qualifiers/) depending on the screen's width.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The function passed to this option accepts the screen's width as a parameter and should return a string containing the needed size qualifier.
 
     <!--JavaScript-->
@@ -23,4 +22,3 @@ The function passed to this option accepts the screen's width as a parameter and
             return "lg";
         }
     }
-<!--/fullDescription-->

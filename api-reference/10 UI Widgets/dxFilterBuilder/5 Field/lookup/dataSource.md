@@ -1,14 +1,13 @@
-<!--id-->dxFilterBuilderField.lookup.dataSource<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Array<any> | DataSource_Options<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFilterBuilderField.lookup.dataSource
+type: Array<any> | DataSource_Options
+default: undefined
+---
+---
+##### shortDescription
 Specifies the lookup data source.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This option accepts one of the following:
 
 - **Array of objects or primitives**       
@@ -27,4 +26,3 @@ If the lookup data source contains objects, specify the [valueExpr](/Documentati
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithList/jQuery/Light/"
 }
-<!--/fullDescription-->

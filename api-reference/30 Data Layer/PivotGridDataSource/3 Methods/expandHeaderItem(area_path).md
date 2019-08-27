@@ -1,24 +1,17 @@
-<!--id-->PivotGridDataSource.expandHeaderItem(area, path)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.expandHeaderItem(area, path)
+---
+---
+##### shortDescription
 Expands a specific header item.
-<!--/shortDescription-->
 
-<!--paramName1-->area<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
-<!--paramDescription1-->
+##### param(area): String
 The [area](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area) that contains the header item to expand.
-<!--/paramDescription1-->
 
-<!--paramName2-->path<!--/paramName2-->
-<!--paramType2-->Array<Object><!--/paramType2-->
-<!--paramDescription2-->
+##### param(path): Array<Object>
 A path to the header item.
-<!--/paramDescription2-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -52,4 +45,3 @@ A path to the header item.
 #####See Also#####
 - [collapseHeaderItem(area, path)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#collapseHeaderItemarea_path)
 - **fields[]**.[expanded](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#expanded)
-<!--/fullDescription-->

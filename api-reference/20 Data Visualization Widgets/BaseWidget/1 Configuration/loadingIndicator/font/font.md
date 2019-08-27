@@ -1,13 +1,10 @@
-<!--id-->BaseWidget.Options.loadingIndicator.font<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-<!--inherits-->Font<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseWidget.Options.loadingIndicator.font
+type: Object
+inherits: Font
+---
+---
+##### shortDescription
 Specifies font options for the loading indicator.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

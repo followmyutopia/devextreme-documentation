@@ -1,62 +1,44 @@
-<!--id-->dxScheduler.appointmentContextMenu<!--/id-->
-===========================================================================
-<!--type-->eventType<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler.appointmentContextMenu
+type: eventType
+---
+---
+##### shortDescription
 Raised when a user attempts to open the browser's context menu for an appointment.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(e): Object
+Information about the event.
+
+##### field(e.appointmentData): Object
+The initial appointment.
+
+##### field(e.appointmentElement): dxElement
+#include common-ref-elementparam with { element: "appointment" }
+
+##### field(e.component): {WidgetName}
+The widget's instance.
+
+##### field(e.element): dxElement
+#include common-ref-elementparam with { element: "widget" }
+
+##### field(e.event): event
+#include common-ref-eventparam
+
+##### field(e.jQueryEvent).deprecated
+Use 'event' instead.
+
+##### field(e.jQueryEvent): jQuery.Event
+The jQuery event that caused the handler's execution. Deprecated in favor of the **event** field.
+
+##### field(e.model): Object
+The model data. Available only if you use Knockout.
+
+##### field(e.targetedAppointmentData): Object
+The appointment on which the context menu is invoked.           
+For details on the difference between this and the **appointmentData** fields, see the [onAppointmentClick](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentClick) option description.
+
+---
 Main article: [onAppointmentContextMenu](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentContextMenu)
 
 #####See Also#####
 #include common-link-handleevents
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the event.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-#include common-ref-elementparam with { element: "widget" }
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The model data. Available only if you use Knockout.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->appointmentData<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-The initial appointment.        
-<!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamName1_field5-->targetedAppointmentData<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->Object<!--/typeFunctionParamType1_field5-->
-<!--typeFunctionParamDescription1_field5-->
-The appointment on which the context menu is invoked.           
-For details on the difference between this and the **appointmentData** fields, see the [onAppointmentClick](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentClick) option description.
-<!--/typeFunctionParamDescription1_field5-->
-<!--typeFunctionParamName1_field6-->appointmentElement<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->dxElement<!--/typeFunctionParamType1_field6-->
-<!--typeFunctionParamDescription1_field6-->
-#include common-ref-elementparam with { element: "appointment" }
-<!--/typeFunctionParamDescription1_field6-->
-<!--typeFunctionParamName1_field7-->jQueryEvent<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->jQuery.Event<!--/typeFunctionParamType1_field7-->
-<!--typeFunctionParamDescription1_field7-->
-The jQuery event that caused the handler's execution. Deprecated in favor of the **event** field.
-<!--/typeFunctionParamDescription1_field7-->
-<!--typeFunctionParamDeprecated1_field7-->Use 'event' instead.<!--/typeFunctionParamDeprecated1_field7-->
-<!--typeFunctionParamName1_field8-->event<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->event<!--/typeFunctionParamType1_field8-->
-<!--typeFunctionParamDescription1_field8-->
-#include common-ref-eventparam
-<!--/typeFunctionParamDescription1_field8-->

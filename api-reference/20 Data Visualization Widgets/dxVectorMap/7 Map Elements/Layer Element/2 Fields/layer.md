@@ -1,12 +1,9 @@
-<!--id-->MapLayerElement.layer<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: MapLayerElement.layer
+type: Object
+---
+---
+##### shortDescription
 The parent layer of the layer element.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

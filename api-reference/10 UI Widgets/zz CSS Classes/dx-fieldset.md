@@ -1,11 +1,8 @@
-===========================================================================
-===========================================================================
-
-<!--shortDescription-->
+---
+##### shortDescription
 Defines the appearance of an element displaying a list of field-value pairs.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 To create a fieldset element, create an element and assign **"dx-fieldset"** to its **class** attribute.
 
     <!--HTML-->
@@ -56,4 +53,3 @@ DevExtreme UI widgets include <a href="http://www.w3.org/WAI/intro/aria.php" tar
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/formsandmulti-purposefieldsetfieldsetfieldset/"
 }
-<!--/fullDescription-->

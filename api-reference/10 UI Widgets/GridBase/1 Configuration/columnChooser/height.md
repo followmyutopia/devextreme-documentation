@@ -1,13 +1,10 @@
-<!--id-->GridBase.Options.columnChooser.height<!--/id-->
-===========================================================================
-<!--default-->260<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.columnChooser.height
+type: Number
+default: 260
+---
+---
+##### shortDescription
 Specifies the height of the column chooser.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

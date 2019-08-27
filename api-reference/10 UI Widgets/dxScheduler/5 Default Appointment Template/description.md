@@ -1,12 +1,9 @@
-<!--id-->dxSchedulerAppointment.description<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSchedulerAppointment.description
+type: String
+---
+---
+##### shortDescription
 Specifies a detail description of the appointment.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

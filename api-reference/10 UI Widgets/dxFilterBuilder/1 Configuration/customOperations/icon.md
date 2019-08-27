@@ -1,13 +1,11 @@
-<!--id-->dxFilterBuilderCustomOperation.icon<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFilterBuilderCustomOperation.icon
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies the icon that should represent the filter operation.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include uiwidgets-ref-icon
-<!--/fullDescription-->

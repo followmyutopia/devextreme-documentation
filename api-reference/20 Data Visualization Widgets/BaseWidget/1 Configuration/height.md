@@ -1,13 +1,9 @@
-<!--id-->BaseWidget.Options.height<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->Number | String | function()<!--/type-->
-===========================================================================
+---
+id: BaseWidget.Options.height
+type: Number | String | function()
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

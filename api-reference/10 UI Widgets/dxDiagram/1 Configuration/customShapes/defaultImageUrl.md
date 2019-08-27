@@ -1,12 +1,8 @@
-<!--id-->dxDiagram.Options.customShapes.defaultImageUrl<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.customShapes.defaultImageUrl
+type: String
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

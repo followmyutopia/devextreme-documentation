@@ -1,6 +1,5 @@
-<!--id-->dxVectorMap.Options.legends.markerSize<!--/id-->
-===========================================================================
-<!--default-->12<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
+---
+id: dxVectorMap.Options.legends.markerSize
+type: Number
+default: 12
+---

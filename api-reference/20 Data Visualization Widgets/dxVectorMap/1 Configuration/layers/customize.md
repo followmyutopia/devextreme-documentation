@@ -1,14 +1,17 @@
-<!--id-->dxVectorMap.Options.layers.customize<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->function(elements)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxVectorMap.Options.layers.customize
+type: function(elements)
+---
+---
+##### shortDescription
 Specifies the function that customizes each layer element individually.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(elements): Array<MapLayerElement>
+The array of [layer elements](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element).
+
+##### notUsedInTheme
+
+---
 Only the following options can be changed in the **customize** function.
 
 - [borderColor](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#borderColor)
@@ -29,9 +32,3 @@ Only the following options can be changed in the **customize** function.
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/VectorMap/ColorsCustomization/jQuery/Light/"
 }
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->elements<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Array<MapLayerElement><!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The array of [layer elements](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element).
-<!--/typeFunctionParamDescription1-->

@@ -1,15 +1,14 @@
-<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.hoverStyle.hatching.direction<!--/id-->
-===========================================================================
-<!--default-->'none'<!--/default-->
-<!--acceptValues-->'left' | 'none' | 'right'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.CommonPolarChartSeries.hoverStyle.hatching.direction
+acceptValues: 'left' | 'none' | 'right'
+type: String
+default: 'none'
+---
+---
+##### shortDescription
 Specifies how to apply hatching to highlight the hovered series.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The following values are available.
 
 * **none**   
@@ -23,4 +22,3 @@ Apply a downward diagonal hatching style from left to right.
     enum: "`HatchingDirection`",
     values: "`Right`, `Left`, and `None`"
 }
-<!--/fullDescription-->

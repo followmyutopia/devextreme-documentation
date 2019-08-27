@@ -1,13 +1,10 @@
-<!--id-->dxDateBox.Options.applyButtonText<!--/id-->
-===========================================================================
-<!--default-->'OK'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDateBox.Options.applyButtonText
+type: String
+default: 'OK'
+---
+---
+##### shortDescription
 The text displayed on the Apply button.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

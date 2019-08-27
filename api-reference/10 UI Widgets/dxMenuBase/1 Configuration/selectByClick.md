@@ -1,13 +1,10 @@
-<!--id-->dxMenuBase.Options.selectByClick<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
+---
+id: dxMenuBase.Options.selectByClick
+type: Boolean
+default: false
+---
+---
+##### shortDescription
+Specifies whether or not an item becomes selected if a user clicks it.
 
-<!--shortDescription-->
-Specifies whether or not an item becomes selected if a user clicks it. 
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

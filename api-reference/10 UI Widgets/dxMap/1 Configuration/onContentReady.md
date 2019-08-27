@@ -1,13 +1,9 @@
-<!--id-->dxMap.Options.onContentReady<!--/id-->
-<!--EventForAction-->dxMap.contentReady<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
+---
+id: dxMap.Options.onContentReady
+hidden: 
+EventForAction: dxMap.contentReady
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

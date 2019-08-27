@@ -1,42 +1,31 @@
-<!--id-->dxVectorMap.Options.onZoomFactorChanged<!--/id-->
-<!--EventForAction-->dxVectorMap.zoomFactorChanged<!--/EventForAction-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--default-->null<!--/default-->
-<!--type-->function(e)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxVectorMap.Options.onZoomFactorChanged
+type: function(e)
+default: null
+EventForAction: dxVectorMap.zoomFactorChanged
+---
+---
+##### shortDescription
 A function that is executed each time the zoom factor is changed.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(e): Object
+Information about the event.
+
+##### field(e.component): {WidgetName}
+The widget's instance.
+
+##### field(e.element): dxElement
+#include common-ref-elementparam with { element: "widget" }
+
+##### field(e.model): Object
+The model data. Available only if you use Knockout.
+
+##### field(e.zoomFactor): Number
+The updated zoom factor.
+
+##### notUsedInTheme
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/mapsvectormapvectormapviewport/"
 }
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the event.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-#include common-ref-elementparam with { element: "widget" }
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The model data. Available only if you use Knockout.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->zoomFactor<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Number<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-The updated zoom factor.
-<!--/typeFunctionParamDescription1_field4-->

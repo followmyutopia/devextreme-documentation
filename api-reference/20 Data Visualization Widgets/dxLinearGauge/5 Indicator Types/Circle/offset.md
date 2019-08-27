@@ -1,4 +1,8 @@
-<!--id-->linearCircle.offset<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->2.5<!--/default-->
-===========================================================================
+---
+id: linearCircle.offset
+default: 2.5
+---
+---
+##### merge
+
+---

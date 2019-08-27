@@ -1,23 +1,17 @@
-<!--id-->Store.insert(values)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: Store.insert(values)
+---
+---
+##### shortDescription
 Adds a data item to the store.
-<!--/shortDescription-->
 
-<!--paramName1-->values<!--/paramName1-->
-<!--paramType1-->Object<!--/paramType1-->
-<!--paramDescription1-->
-A data item.
-<!--/paramDescription1-->
-
-<!--returnType-->Promise<any><!--/returnType-->
-<!--returnDescription-->
+##### return: Promise<any>
 A Promise that is resolved after a data item is added. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(values): Object
+A data item.
+
+---
 In the following code, **dataObj** is a data object added to the database and returned from the server. If the server returns nothing or the store works with local data, **dataObj** contains the data object passed to the **insert** method.
 
 ---
@@ -58,4 +52,3 @@ In the following code, **dataObj** is a data object added to the database and re
 ---
 
 [note] The data item's key value should be unique, otherwise, the insertion will fail.
-<!--/fullDescription-->

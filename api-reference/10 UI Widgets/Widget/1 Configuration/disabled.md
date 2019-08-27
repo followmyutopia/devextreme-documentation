@@ -1,13 +1,10 @@
-<!--id-->Widget.Options.disabled<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Widget.Options.disabled
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether the widget responds to user interaction.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

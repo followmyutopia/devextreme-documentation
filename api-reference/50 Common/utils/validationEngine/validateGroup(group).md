@@ -1,24 +1,18 @@
-<!--id-->validationEngine.validateGroup(group)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: validationEngine.validateGroup(group)
+---
+---
+##### shortDescription
 Validates editors from a specific validation group.
-<!--/shortDescription-->
 
-<!--paramName1-->group<!--/paramName1-->
-<!--paramType1-->String|Object<!--/paramType1-->
-<!--paramDescription1-->
-The validation group's name or instance.
-<!--/paramDescription1-->
-
-<!--returnType-->dxValidationGroupResult<!--/returnType-->
-<!--returnDescription-->
+##### return: dxValidationGroupResult
 The validation result.
-<!--/returnDescription-->
 
-<!--fullDescription-->
-    <!--JavaScript-->
+##### param(group): String | Object
+The validation group's name or instance.
+
+---
+<!--JavaScript-->
     let validationResult = DevExpress.validationEngine.validateGroup('myGroup');
     // ===== or when using modules =====
     import validationEngine from 'devextreme/ui/validation_engine';
@@ -27,4 +21,3 @@ The validation result.
 
 #####See Also#####
 - [Validation Rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#validationRules)
-<!--/fullDescription-->

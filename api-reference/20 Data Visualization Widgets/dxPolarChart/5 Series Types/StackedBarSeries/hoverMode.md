@@ -1,15 +1,14 @@
-<!--id-->dxPolarChartSeriesTypes.stackedbarpolarseries.hoverMode<!--/id-->
-===========================================================================
-<!--default-->'onlyPoint'<!--/default-->
-<!--acceptValues-->'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'none'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.stackedbarpolarseries.hoverMode
+acceptValues: 'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'none'
+type: String
+default: 'onlyPoint'
+---
+---
+##### shortDescription
 Specifies series elements to be highlighted when a user points to the series.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 When a user points to the series, it may react in one of the following ways depending on the value of the **hoverMode** option.
 
 * **onlyPoint**   
@@ -28,4 +27,3 @@ The series does not react to pointing to it.
 
 #####See Also#####
 - [hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Series_Types/StackedBarSeries/hoverStyle/)
-<!--/fullDescription-->

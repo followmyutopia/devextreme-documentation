@@ -1,6 +1,5 @@
-<!--id-->dxScheduler.Options.focusStateEnabled<!--/id-->
-===========================================================================
-<!--default-->true (desktop)<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxScheduler.Options.focusStateEnabled
+type: Boolean
+default: true (desktop)
+---

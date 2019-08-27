@@ -1,16 +1,17 @@
-<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.point.hoverMode<!--/id-->
-===========================================================================
-<!--propertyOf-->dxPolarChartSeriesTypes.linepolarseries,dxPolarChartSeriesTypes.areapolarseries,dxPolarChartSeriesTypes.scatterpolarseries<!--/propertyOf-->
-<!--default-->'onlyPoint'<!--/default-->
-<!--acceptValues-->'allArgumentPoints' | 'allSeriesPoints' | 'none' | 'onlyPoint'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.CommonPolarChartSeries.point.hoverMode
+acceptValues: 'allArgumentPoints' | 'allSeriesPoints' | 'none' | 'onlyPoint'
+type: String
+default: 'onlyPoint'
+---
+---
+##### shortDescription
 Specifies what series points to highlight when a point is hovered over.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### propertyOf
+dxPolarChartSeriesTypes.linepolarseries,dxPolarChartSeriesTypes.areapolarseries,dxPolarChartSeriesTypes.scatterpolarseries
+
+---
 The following values are available:
 
 * **onlyPoint**   
@@ -28,4 +29,3 @@ To set custom options for the 'hover' style, which is applied when a point is ho
     enum: "`ChartPointInteractionMode`",
     values: "`OnlyPoint`, `AllSeriesPoints`, `AllArgumentPoints`, and `None`"
 }
-<!--/fullDescription-->

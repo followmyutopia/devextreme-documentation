@@ -1,17 +1,15 @@
-<!--id-->dxMenu.Options.showFirstSubmenuMode.name<!--/id-->
-===========================================================================
-<!--default-->'onClick'<!--/default-->
-<!--acceptValues-->'onClick' | 'onHover'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxMenu.Options.showFirstSubmenuMode.name
+acceptValues: 'onClick' | 'onHover'
+type: String
+default: 'onClick'
+---
+---
+##### shortDescription
 Specifies the mode name.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-ref-enum with {
     enum: "`ShowSubmenuMode`",
     values: "`OnHover` and `OnClick`"
 }
-<!--/fullDescription-->

@@ -1,13 +1,9 @@
-<!--id-->dxGantt.Options.dependencies.dataSource<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->Array<Object> | DataSource | DataSource_Options<!--/type-->
-===========================================================================
+---
+id: dxGantt.Options.dependencies.dataSource
+type: Array<Object> | DataSource | DataSource_Options
+default: null
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

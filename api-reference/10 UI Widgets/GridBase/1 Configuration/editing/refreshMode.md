@@ -1,15 +1,14 @@
-<!--id-->GridBase.Options.editing.refreshMode<!--/id-->
-===========================================================================
-<!--default-->'full'<!--/default-->
-<!--acceptValues-->'full' | 'reshape' | 'repaint'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.editing.refreshMode
+acceptValues: 'full' | 'reshape' | 'repaint'
+type: String
+default: 'full'
+---
+---
+##### shortDescription
 Specifies operations that are performed after saving changes.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The following table shows the operations that are performed after saving changes in different modes:
 
 <div class="simple-table">
@@ -58,4 +57,3 @@ When the **refreshMode** is *"reshape"* or *"repaint"*, the server should respon
     enum: "`GridEditRefreshMode`",
     values: "`Full`, `Reshape`, and `Repaint`"
 }
-<!--/fullDescription-->

@@ -1,12 +1,8 @@
-<!--id-->OneDriveFileProvider.Options.thumbnailExpr<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
+---
+id: OneDriveFileProvider.Options.thumbnailExpr
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,13 +1,10 @@
-<!--id-->BaseWidget.Options.tooltip.shadow.blur<!--/id-->
-===========================================================================
-<!--default-->2<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseWidget.Options.tooltip.shadow.blur
+type: Number
+default: 2
+---
+---
+##### shortDescription
 Specifies the blur distance of a tooltip's shadow. The larger the value, the blurrier the shadow's edge.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

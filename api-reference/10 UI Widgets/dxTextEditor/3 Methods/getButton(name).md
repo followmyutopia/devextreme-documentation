@@ -1,23 +1,17 @@
-<!--id-->dxTextEditor.getButton(name)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxTextEditor.getButton(name)
+---
+---
+##### shortDescription
 Gets an instance of a [custom action button]({basewidgetpath}/Configuration/buttons/).
-<!--/shortDescription-->
 
-<!--paramName1-->name<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
-<!--paramDescription1-->
-The button's [name]({basewidgetpath}/Configuration/buttons/#name).
-<!--/paramDescription1-->
-
-<!--returnType-->dxButton|undefined<!--/returnType-->
-<!--returnDescription-->
+##### return: dxButton | undefined
 The [Button](/Documentation/ApiReference/UI_Widgets/dxButton/) widget's instance.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(name): String
+The button's [name]({basewidgetpath}/Configuration/buttons/#name).
+
+---
 Use the returned button instance to call the [**Button** widget's methods](/Documentation/ApiReference/UI_Widgets/dxButton/Methods/), for example, [focus()](/Documentation/ApiReference/UI_Widgets/dxButton/Methods/#focus):
 
 ---
@@ -126,4 +120,3 @@ Use the returned button instance to call the [**Button** widget's methods](/Docu
     export default App;
 
 ---
-<!--/fullDescription-->

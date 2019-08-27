@@ -1,12 +1,9 @@
-<!--id-->dxEvent.target<!--/id-->
-===========================================================================
-<!--type-->Node<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxEvent.target
+type: Node
+---
+---
+##### shortDescription
 The DOM element that initiated the event.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,13 +1,10 @@
-<!--id-->dxCalendarCellTemplate.view<!--/id-->
-===========================================================================
-<!--acceptValues-->'month' | 'year' | 'decade' | 'century'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxCalendarCellTemplate.view
+acceptValues: 'month' | 'year' | 'decade' | 'century'
+type: String
+---
+---
+##### shortDescription
+The current view's name.
 
-<!--shortDescription-->
-The current view's name. 
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

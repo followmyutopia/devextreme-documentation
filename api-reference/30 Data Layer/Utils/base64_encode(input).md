@@ -1,25 +1,19 @@
-<!--id-->Utils.base64_encode(input)<!--/id-->
-===================================================================
-<!--module-->data/utils<!--/module-->
-<!--export-->base64_encode<!--/export-->
-===================================================================
-
-<!--shortDescription-->
+---
+id: Utils.base64_encode(input)
+module: data/utils
+export: base64_encode
+---
+---
+##### shortDescription
 Encodes a string or array of bytes in <a href="https://en.wikipedia.org/wiki/Base64" target="_blank">Base64</a>.
-<!--/shortDescription-->
 
-<!--paramName1-->input<!--/paramName1-->
-<!--paramType1-->String|Array<Number><!--/paramType1-->
-<!--paramDescription1-->
-A string or array of bytes to be encoded.
-<!--/paramDescription1-->
-
-<!--returnType-->String<!--/returnType-->
-<!--returnDescription-->
+##### return: String
 A Base64-encoded string.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(input): String | Array<Number>
+A string or array of bytes to be encoded.
+
+---
 ---
 ##### jQuery
 
@@ -38,4 +32,3 @@ A Base64-encoded string.
     }
 
 ---
-<!--/fullDescription-->

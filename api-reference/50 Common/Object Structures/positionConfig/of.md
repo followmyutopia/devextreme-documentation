@@ -1,13 +1,12 @@
-<!--id-->positionConfig.of<!--/id-->
-===========================================================================
-<!--type-->String | Node | jQuery | Window<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: positionConfig.of
+type: String | Node | jQuery | Window
+---
+---
+##### shortDescription
 The target element that the widget is positioned against.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The option accepts one of the following values.
 
 - A <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Selectors" target="_blank">native CSS selector</a>, or a <a href="https://api.jquery.com/category/selectors/" target="_blank">jQuery selector</a> if you use jQuery
@@ -34,4 +33,3 @@ The option accepts one of the following values.
             $("#popover").dxPopover("option", "position.of", event);
             // ...
         })
-<!--/fullDescription-->

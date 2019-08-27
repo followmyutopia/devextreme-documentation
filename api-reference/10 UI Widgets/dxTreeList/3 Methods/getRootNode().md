@@ -1,18 +1,14 @@
-<!--id-->dxTreeList.getRootNode()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeList.getRootNode()
+---
+---
+##### shortDescription
 Gets the root node.
-<!--/shortDescription-->
 
-<!--returnType-->dxTreeListNode<!--/returnType-->
-<!--returnDescription-->
+##### return: dxTreeListNode
 The root node.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 #include common-link-callmethods
 - [Node Structure](/Documentation/ApiReference/UI_Widgets/dxTreeList/Node/)
-<!--/fullDescription-->

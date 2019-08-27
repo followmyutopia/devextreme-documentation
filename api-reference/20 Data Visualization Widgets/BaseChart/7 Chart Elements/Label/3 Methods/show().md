@@ -1,11 +1,9 @@
-<!--id-->baseLabelObject.show()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: baseLabelObject.show()
+---
+---
+##### shortDescription
 Shows the point label.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include dataviz-ref-label-visibility-note
-<!--/fullDescription-->

@@ -1,6 +1,5 @@
-<!--id-->dxLookup.Options.focusStateEnabled<!--/id-->
-===========================================================================
-<!--default-->false, true (desktop)<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxLookup.Options.focusStateEnabled
+type: Boolean
+default: false, true (desktop)
+---

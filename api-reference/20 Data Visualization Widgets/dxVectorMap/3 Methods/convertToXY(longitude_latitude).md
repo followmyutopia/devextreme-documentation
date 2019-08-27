@@ -1,28 +1,13 @@
-<!--id-->dxVectorMap.convertToXY(longitude, latitude)<!--/id-->
-===================================================================
-===================================================================
+---
+id: dxVectorMap.convertToXY(longitude, latitude)
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### return: Array<Number>
 
-<!--/shortDescription-->
+##### param(longitude): Number
 
-<!--paramName1-->longitude<!--/paramName1-->
-<!--paramType1-->Number<!--/paramType1-->
-<!--paramDescription1-->
+##### param(latitude): Number
 
-<!--/paramDescription1-->
-
-<!--paramName2-->latitude<!--/paramName2-->
-<!--paramType2-->Number<!--/paramType2-->
-<!--paramDescription2-->
-
-<!--/paramDescription2-->
-
-<!--returnType-->Array<Number><!--/returnType-->
-<!--returnDescription-->
-
-<!--/returnDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,5 +1,4 @@
-<!--id-->dxValidationSummary.Options.selectedItemKeys<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxValidationSummary.Options.selectedItemKeys
+hidden: 
+---

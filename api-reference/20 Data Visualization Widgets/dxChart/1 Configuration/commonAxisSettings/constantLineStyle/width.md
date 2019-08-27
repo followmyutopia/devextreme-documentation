@@ -1,13 +1,10 @@
-<!--id-->dxChart.Options.commonAxisSettings.constantLineStyle.width<!--/id-->
-===========================================================================
-<!--default-->1<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonAxisSettings.constantLineStyle.width
+type: Number
+default: 1
+---
+---
+##### shortDescription
 Specifies the width of constant lines in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

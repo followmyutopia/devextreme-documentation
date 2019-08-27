@@ -1,13 +1,10 @@
-<!--id-->GridBase.Options.paging.enabled<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.paging.enabled
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Enables paging.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

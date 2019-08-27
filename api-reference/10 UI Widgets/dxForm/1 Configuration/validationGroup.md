@@ -1,14 +1,13 @@
-<!--id-->dxForm.Options.validationGroup<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxForm.Options.validationGroup
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Gives a name to the internal validation group.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 In some cases, the **Form** editors should be validated by the [Button](/Documentation/ApiReference/UI_Widgets/dxButton/) widget. By default, these editors are collected in an unnamed validation group, what makes it impossible for the **Button** to validate them. In this case, give this validation group a name using the **validationGroup** option of the **Form** widget. Also, pass the same name to the [validationGroup](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#validationGroup) option of the **Button** widget.
 
     $(function () {
@@ -29,4 +28,3 @@ In some cases, the **Form** editors should be validated by the [Button](/Documen
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Form/Validation/jQuery/Light/"
 }
-<!--/fullDescription-->

@@ -1,13 +1,10 @@
-<!--id-->dxRangeSelector.Options.sliderMarker.visible<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.sliderMarker.visible
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Indicates whether or not the slider markers are visible.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

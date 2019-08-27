@@ -1,32 +1,22 @@
-<!--id-->localization.formatDate(value, format)<!--/id-->
-===================================================================
-<!--module-->localization<!--/module-->
-<!--export-->formatDate<!--/export-->
-===================================================================
-
-<!--shortDescription-->
+---
+id: localization.formatDate(value, format)
+module: localization
+export: formatDate
+---
+---
+##### shortDescription
 Converts a Date object to a string using the specified format.
-<!--/shortDescription-->
 
-<!--paramName1-->value<!--/paramName1-->
-<!--paramType1-->Date<!--/paramType1-->
-<!--paramDescription1-->
-A <a href="https://www.w3schools.com/js/js_dates.asp" target="_blank">Date</a> object to be converted.
-<!--/paramDescription1-->
-
-<!--paramName2-->format<!--/paramName2-->
-<!--paramType2-->format<!--/paramType2-->
-<!--paramDescription2-->
-The [format](/Documentation/ApiReference/Common/Object_Structures/format/) to be used for conversion.
-<!--/paramDescription2-->
-
-<!--returnType-->String<!--/returnType-->
-<!--returnDescription-->
+##### return: String
 The formatted string.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(value): Date
+A <a href="https://www.w3schools.com/js/js_dates.asp" target="_blank">Date</a> object to be converted.
 
+##### param(format): format
+The [format](/Documentation/ApiReference/Common/Object_Structures/format/) to be used for conversion.
+
+---
 ---
 ##### jQuery
 
@@ -47,4 +37,3 @@ The formatted string.
     }
 
 ---
-<!--/fullDescription-->

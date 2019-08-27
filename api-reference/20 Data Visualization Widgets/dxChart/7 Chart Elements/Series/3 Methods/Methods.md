@@ -1,7 +1,7 @@
-===================================================================
-<!--merge--><!--/merge-->
-===================================================================
+---
+##### merge
 
-<!--shortDescription-->
+##### shortDescription
 Methods used to control the series.
-<!--/shortDescription-->
+
+---

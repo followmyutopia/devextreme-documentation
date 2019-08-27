@@ -1,13 +1,10 @@
-<!--id-->dxChartCommonAnnotationConfig.border.visible<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartCommonAnnotationConfig.border.visible
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies the visibility of the annotation's border.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

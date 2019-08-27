@@ -1,13 +1,12 @@
-<!--id-->dxTreeMap.Options.tile<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMap.Options.tile
+type: Object
+---
+---
+##### shortDescription
 Configures tiles.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 A tile is a rectangle representing a node that has no children in the current context. Several tiles can be collected into a [group](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/group/) if the [data source](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#dataSource) implies a hierarchical structure.
 
 The following list provides an overview of tiles' features that you can configure using the **tile** object.
@@ -22,4 +21,3 @@ A tile can be in the [hover](/Documentation/ApiReference/Data_Visualization_Widg
 Specify the fields of the [border](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/tile/border/) object to configure the tile borders.
 
 An object assigned to the **tile** field configures all tiles in the widget. To customize a specific tile, pass a similar object to the [customize(options)](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#customizeoptions) method of the node represented by the tile.
-<!--/fullDescription-->

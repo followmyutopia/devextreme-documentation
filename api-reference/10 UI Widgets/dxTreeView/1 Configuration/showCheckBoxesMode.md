@@ -1,15 +1,14 @@
-<!--id-->dxTreeView.Options.showCheckBoxesMode<!--/id-->
-===========================================================================
-<!--default-->'none'<!--/default-->
-<!--acceptValues-->'none' | 'normal' | 'selectAll'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeView.Options.showCheckBoxesMode
+acceptValues: 'none' | 'normal' | 'selectAll'
+type: String
+default: 'none'
+---
+---
+##### shortDescription
 Specifies the current check boxes display mode.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The option accepts the following values.
 
 - "none"  
@@ -32,4 +31,3 @@ The option accepts the following values.
 
 #####See Also#####
 - [Select Nodes - User Interaction](/Documentation/Guide/Widgets/TreeView/Select_Nodes/#User_Interaction)
-<!--/fullDescription-->

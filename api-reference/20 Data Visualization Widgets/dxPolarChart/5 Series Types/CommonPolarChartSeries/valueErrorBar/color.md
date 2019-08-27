@@ -1,13 +1,11 @@
-<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.valueErrorBar.color<!--/id-->
-===========================================================================
-<!--default-->black<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.CommonPolarChartSeries.valueErrorBar.color
+type: String
+default: black
+---
+---
+##### shortDescription
 Specifies the color of error bars.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

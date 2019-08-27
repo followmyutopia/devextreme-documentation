@@ -1,13 +1,10 @@
-<!--id-->GridBase.Options.columnChooser.emptyPanelText<!--/id-->
-===========================================================================
-<!--default-->'Drag a column here to hide it'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.columnChooser.emptyPanelText
+type: String
+default: 'Drag a column here to hide it'
+---
+---
+##### shortDescription
 Specifies text displayed by the column chooser when it is empty.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

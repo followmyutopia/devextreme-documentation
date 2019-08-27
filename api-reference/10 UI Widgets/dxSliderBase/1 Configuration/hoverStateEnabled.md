@@ -1,6 +1,5 @@
-<!--id-->dxSliderBase.Options.hoverStateEnabled<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxSliderBase.Options.hoverStateEnabled
+type: Boolean
+default: true
+---

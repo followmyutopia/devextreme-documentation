@@ -1,25 +1,18 @@
-<!--id-->GridBase.getRowElement(rowIndex)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.getRowElement(rowIndex)
+---
+---
+##### shortDescription
 Gets the container of a row with a specific index.
-<!--/shortDescription-->
 
-<!--paramName1-->rowIndex<!--/paramName1-->
-<!--paramType1-->Number<!--/paramType1-->
-<!--paramDescription1-->
-The row's visible index. Refer to [Column and Row Indexes](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_and_Row_Indexes/) for more information.
-<!--/paramDescription1-->
-
-<!--returnType-->Array<Node>|jQuery|undefined<!--/returnType-->
-<!--returnDescription-->
+##### return: Array<Node> | jQuery | undefined
 The row's container.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(rowIndex): Number
+The row's visible index. Refer to [Column and Row Indexes](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_and_Row_Indexes/) for more information.
+
+---
 Note that if the widget has [fixed columns]({basewidgetpath}/Configuration/columnFixing/), the method returns an array of two separate elements: with unfixed and with fixed columns.
 
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

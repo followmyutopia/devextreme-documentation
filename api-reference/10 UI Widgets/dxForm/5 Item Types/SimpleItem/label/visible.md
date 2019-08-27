@@ -1,13 +1,10 @@
-<!--id-->dxFormSimpleItem.label.visible<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFormSimpleItem.label.visible
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether or not the label is visible.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

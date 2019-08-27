@@ -1,13 +1,10 @@
-<!--id-->dxPivotGrid.Options.texts.exportToExcel<!--/id-->
-===========================================================================
-<!--default-->'Export to Excel file'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGrid.Options.texts.exportToExcel
+type: String
+default: 'Export to Excel file'
+---
+---
+##### shortDescription
 The string to display as an **Export to Excel file** context menu item.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

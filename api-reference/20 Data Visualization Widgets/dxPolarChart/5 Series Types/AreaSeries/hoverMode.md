@@ -1,15 +1,14 @@
-<!--id-->dxPolarChartSeriesTypes.areapolarseries.hoverMode<!--/id-->
-===========================================================================
-<!--default-->'nearestPoint'<!--/default-->
-<!--acceptValues-->'nearestPoint' | 'includePoints' | 'excludePoints' | 'none'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.areapolarseries.hoverMode
+acceptValues: 'nearestPoint' | 'includePoints' | 'excludePoints' | 'none'
+type: String
+default: 'nearestPoint'
+---
+---
+##### shortDescription
 Specifies series elements to be highlighted when a user points to the series.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 When a user points to the series, it may react in one of the following ways depending on the value of the **hoverMode** option.
 
 * **nearestPoint**   
@@ -31,4 +30,3 @@ The series does not react to pointing to it.
 #####See Also#####
 - [hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Series_Types/AreaSeries/hoverStyle/)
 - **point**.[hoverMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Series_Types/AreaSeries/point/#hoverMode)
-<!--/fullDescription-->

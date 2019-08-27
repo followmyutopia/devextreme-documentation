@@ -1,6 +1,5 @@
-<!--id-->dxMap.Options.focusStateEnabled<!--/id-->
-===========================================================================
-<!--default-->true (desktop)<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxMap.Options.focusStateEnabled
+type: Boolean
+default: true (desktop)
+---

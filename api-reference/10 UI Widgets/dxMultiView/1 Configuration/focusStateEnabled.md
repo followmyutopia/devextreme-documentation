@@ -1,6 +1,5 @@
-<!--id-->dxMultiView.Options.focusStateEnabled<!--/id-->
-===========================================================================
-<!--default-->true (desktop)<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxMultiView.Options.focusStateEnabled
+type: Boolean
+default: true (desktop)
+---

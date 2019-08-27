@@ -1,7 +1,6 @@
-<!--id-->dxDropDownEditor.Options.buttons<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--acceptValues-->'clear' | 'dropDown'<!--/acceptValues-->
-<!--type-->Array<String, dxTextEditorButton><!--/type-->
-===========================================================================
-
+---
+id: dxDropDownEditor.Options.buttons
+acceptValues: 'clear' | 'dropDown'
+type: Array<String, dxTextEditorButton>
+default: undefined
+---

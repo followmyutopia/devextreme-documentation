@@ -1,14 +1,14 @@
-<!--id-->dxPolarChartSeriesTypes.CommonPolarChartSeries.point.hoverStyle.color<!--/id-->
-===========================================================================
-<!--propertyOf-->dxPolarChartSeriesTypes.linepolarseries,dxPolarChartSeriesTypes.areapolarseries,dxPolarChartSeriesTypes.scatterpolarseries<!--/propertyOf-->
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChartSeriesTypes.CommonPolarChartSeries.point.hoverStyle.color
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Sets a color for a point when it is hovered over.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### propertyOf
+dxPolarChartSeriesTypes.linepolarseries,dxPolarChartSeriesTypes.areapolarseries,dxPolarChartSeriesTypes.scatterpolarseries
+
+---
 #include common-colorlist
-<!--/fullDescription-->

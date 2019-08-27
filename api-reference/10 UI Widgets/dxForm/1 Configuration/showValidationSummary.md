@@ -1,13 +1,10 @@
-<!--id-->dxForm.Options.showValidationSummary<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxForm.Options.showValidationSummary
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether or not the total validation summary is displayed on the form.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

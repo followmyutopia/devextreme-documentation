@@ -1,12 +1,9 @@
-<!--id-->dxChartCommonAnnotationConfig.shadow<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartCommonAnnotationConfig.shadow
+type: Object
+---
+---
+##### shortDescription
 Configures the annotation's shadows.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

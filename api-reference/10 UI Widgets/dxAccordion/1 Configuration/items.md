@@ -1,6 +1,5 @@
-<!--id-->dxAccordion.Options.items<!--/id-->
-===========================================================================
-<!--type-->Array<String, dxAccordionItem, Object><!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
-===========================================================================
-
+---
+id: dxAccordion.Options.items
+type: Array<String, dxAccordionItem, Object>
+firedEvents: optionChanged
+---

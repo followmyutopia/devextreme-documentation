@@ -1,6 +1,4 @@
-<!--id-->dxLoadPanel.registerKeyHandler(key, handler)<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
-
-
+---
+id: dxLoadPanel.registerKeyHandler(key, handler)
+hidden: 
+---

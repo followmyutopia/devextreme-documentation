@@ -1,5 +1,4 @@
-<!--id-->dxContextMenu.Options.onItemReordered<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxContextMenu.Options.onItemReordered
+hidden: 
+---

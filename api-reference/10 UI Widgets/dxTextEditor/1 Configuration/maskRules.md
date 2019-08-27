@@ -1,14 +1,13 @@
-<!--id-->dxTextEditor.Options.maskRules<!--/id-->
-===========================================================================
-<!--default-->'{}'<!--/default-->
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTextEditor.Options.maskRules
+type: Object
+default: '{}'
+---
+---
+##### shortDescription
 Specifies custom mask rules.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Each field of an object passed to this option corresponds to a single rule. A field name is a character used in a mask enclosed in quotes. A field accepts the following values.
 
     <!--JavaScript-->
@@ -34,6 +33,3 @@ Each field of an object passed to this option corresponds to a single rule. A fi
     }
 
 A function that specifies a custom rule accepts a character as an argument and returns a Boolean value that specifies whether or not the character is appropriate.
-
-
-<!--/fullDescription-->

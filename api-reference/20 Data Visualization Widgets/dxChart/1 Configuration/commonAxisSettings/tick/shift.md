@@ -1,14 +1,13 @@
-<!--id-->dxChart.Options.commonAxisSettings.tick.shift<!--/id-->
-===========================================================================
-<!--default-->3<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonAxisSettings.tick.shift
+type: Number
+default: 3
+---
+---
+##### shortDescription
 Shifts ticks from the reference position.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 In the reference position, the axis runs through the center of each tick:
 
 ![DevExtreme Chart - Reference position for tick shift](/Content/images/doc/19_2/ChartJS/shift-argumentaxis-reference-position.png)
@@ -59,4 +58,3 @@ The following table illustrates this option:
         border-right: none;
     }
 </style>
-<!--/fullDescription-->

@@ -1,13 +1,11 @@
-<!--id-->dxDiagram.Options.nodes.dataSource<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->Array<Object> | DataSource | DataSource_Options<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.nodes.dataSource
+type: Array<Object> | DataSource | DataSource_Options
+default: null
+---
+---
+##### shortDescription
+Binds the **nodes** collection to the specified data.
 
-<!--shortDescription-->
-Binds the **nodes** collection to the specified data. 
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 The Diagram widget creates a shape for every node in the collection.
-<!--/fullDescription-->

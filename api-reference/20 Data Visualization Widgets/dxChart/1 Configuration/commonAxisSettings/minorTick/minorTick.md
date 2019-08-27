@@ -1,13 +1,12 @@
-<!--id-->dxChart.Options.commonAxisSettings.minorTick<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonAxisSettings.minorTick
+type: Object
+---
+---
+##### shortDescription
 Configures the appearance of minor axis ticks.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Along with [major ticks](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/tick/), the **Chart** widget supports minor ticks. They divide an axis segment limited by two neighboring major ticks.
 
 ![DevExtreme HTML5 Charts MinorTicks](/Content/images/doc/19_2/ChartJS/visual_elements/minor_ticks.png)
@@ -24,4 +23,3 @@ Axis-specific settings override common settings.
 #####See Also#####
 - **argumentAxis**.[minorTickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/minorTickInterval/) - specifies the minor tick interval of the argument axis.
 - **valueAxis**.[minorTickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/minorTickInterval/) - specifies the minor tick interval of the value axis.
-<!--/fullDescription-->

@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.ScatterSeries.label<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.ScatterSeries.label
+type: Object
+---

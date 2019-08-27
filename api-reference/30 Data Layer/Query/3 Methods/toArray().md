@@ -1,17 +1,14 @@
-<!--id-->Query.toArray()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: Query.toArray()
+---
+---
+##### shortDescription
 Gets data items associated with the **Query**. This is a synchronous alternative to the [enumerate()](/Documentation/ApiReference/Data_Layer/Query/Methods/#enumerate) method.
-<!--/shortDescription-->
 
-<!--returnType-->Array<any><!--/returnType-->
-<!--returnDescription-->
+##### return: Array<any>
 The data items.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 ---
 ##### jQuery
 
@@ -38,4 +35,3 @@ The data items.
     }
 
 ---
-<!--/fullDescription-->

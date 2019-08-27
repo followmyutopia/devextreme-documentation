@@ -1,6 +1,5 @@
-<!--id-->dxBox.Options.onSelectionChanged<!--/id-->
-<!--EventForAction-->dxBox.selectionChanged<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxBox.Options.onSelectionChanged
+hidden: 
+EventForAction: dxBox.selectionChanged
+---

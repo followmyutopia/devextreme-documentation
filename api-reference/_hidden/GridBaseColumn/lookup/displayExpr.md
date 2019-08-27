@@ -1,14 +1,16 @@
-<!--id-->GridBaseColumn.lookup.displayExpr<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String | function(data)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBaseColumn.lookup.displayExpr
+type: String | function(data)
+default: undefined
+---
+---
+##### shortDescription
 Specifies the data source field whose values must be displayed.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(data): Object
+A row's data.
+
+---
 This option accepts a string - the name of the data field that provides displayed values, or a function that returns the displayed value.
 
 [note]
@@ -51,9 +53,3 @@ Values in a lookup column are sorted by the **valueExpr** field. Implement the c
 ---
 
 [/note]
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->data<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-A row's data.
-<!--/typeFunctionParamDescription1-->

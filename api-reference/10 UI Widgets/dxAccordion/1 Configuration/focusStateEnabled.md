@@ -1,6 +1,5 @@
-<!--id-->dxAccordion.Options.focusStateEnabled<!--/id-->
-===========================================================================
-<!--default-->true (desktop)<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxAccordion.Options.focusStateEnabled
+type: Boolean
+default: true (desktop)
+---

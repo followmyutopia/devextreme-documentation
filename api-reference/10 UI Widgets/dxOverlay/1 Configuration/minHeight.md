@@ -1,17 +1,14 @@
-<!--id-->dxOverlay.Options.minHeight<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->Number | String | function()<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxOverlay.Options.minHeight
+type: Number | String | function()
+default: null
+---
+---
+##### shortDescription
 Specifies the minimum height the widget can reach while resizing.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-#include uiwidgets-ref-height
-<!--/fullDescription-->
-<!--typeFunctionReturnType-->Number|String<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
+##### return: Number | String
 The minimum height.
-<!--/typeFunctionReturnDescription-->
+
+---
+#include uiwidgets-ref-height

@@ -1,4 +1,8 @@
-<!--id-->dxChartSeriesTypes.CommonSeries.label.font.color<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->'#FFFFFF'<!--/default-->
-===========================================================================
+---
+id: dxChartSeriesTypes.CommonSeries.label.font.color
+default: '#FFFFFF'
+---
+---
+##### merge
+
+---

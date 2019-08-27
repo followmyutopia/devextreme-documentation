@@ -1,13 +1,10 @@
-<!--id-->dxRangeSelector.Options.sliderMarker.invalidRangeColor<!--/id-->
-===========================================================================
-<!--default-->'red'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.sliderMarker.invalidRangeColor
+type: String
+default: 'red'
+---
+---
+##### shortDescription
 Specifies the color used for the slider marker text when the currently selected range does not match the [minRange](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/minRange/) and [maxRange](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/maxRange/) values.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

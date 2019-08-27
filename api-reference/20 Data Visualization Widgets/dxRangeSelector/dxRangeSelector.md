@@ -1,5 +1,14 @@
-<!--id-->dxRangeSelector<!--/id-->
-<!--widgettree-->
+---
+id: dxRangeSelector
+module: viz/range_selector
+export: default
+inherits: BaseWidget,DataHelperMixin
+---
+---
+##### shortDescription
+The **RangeSelector** is a widget that allows a user to select a range of values on a scale.
+
+##### widgettree
 dataSource: [{
     arg: "1",
     val: 1
@@ -25,21 +34,11 @@ dataSource: [{
     arg: "8",
     val: 8
 }]
-<!--/widgettree-->
-===========================================================================
-<!--module-->viz/range_selector<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->BaseWidget,DataHelperMixin<!--/inherits-->
-<!--lib-->
+
+##### lib
 dx.viz.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
 
-<!--shortDescription-->
-The **RangeSelector** is a widget that allows a user to select a range of values on a scale.
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 This widget represents a scale (numeric or date-time) and two sliders. A user selects the required range by moving the sliders.
 
 <img style="margin:0px auto;display:block" src="/Content/images/doc/19_2/ChartJS/RangeSelector_new.gif" alt="RangeSelector" />
@@ -56,4 +55,3 @@ A chart can be displayed in the [background](/Documentation/ApiReference/Data_Vi
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

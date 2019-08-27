@@ -1,18 +1,13 @@
-<!--id-->dxScrollable.scrollToElement(targetLocation)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxScrollable.scrollToElement(targetLocation)
+---
+---
+##### shortDescription
 Scrolls the content to an element.
-<!--/shortDescription-->
 
-<!--paramName1-->element<!--/paramName1-->
-<!--paramType1-->Node|jQuery<!--/paramType1-->
-<!--paramDescription1-->
+##### param(element): Node | jQuery
 A DOM Node or jQuery element to scroll to.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

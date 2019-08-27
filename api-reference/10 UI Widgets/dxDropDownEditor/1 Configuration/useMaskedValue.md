@@ -1,5 +1,4 @@
-<!--id-->dxDropDownEditor.Options.useMaskedValue<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxDropDownEditor.Options.useMaskedValue
+hidden: 
+---

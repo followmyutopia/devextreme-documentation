@@ -1,13 +1,10 @@
-<!--id-->dxFormTabbedItem.tabs.title<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFormTabbedItem.tabs.title
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies the tab title.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

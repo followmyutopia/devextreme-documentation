@@ -1,13 +1,10 @@
-<!--id-->GridBase.Options.columnFixing.texts.rightPosition<!--/id-->
-===========================================================================
-<!--default-->'To the right'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.columnFixing.texts.rightPosition
+type: String
+default: 'To the right'
+---
+---
+##### shortDescription
 Specifies text for the context menu subitem that fixes a column to the right edge of the widget.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

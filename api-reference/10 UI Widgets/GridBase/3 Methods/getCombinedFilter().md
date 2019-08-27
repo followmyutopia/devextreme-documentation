@@ -1,19 +1,15 @@
-<!--id-->GridBase.getCombinedFilter()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.getCombinedFilter()
+---
+---
+##### shortDescription
 Gets the total filter that combines all the filters applied.
-<!--/shortDescription-->
 
-<!--returnType-->any<!--/returnType-->
-<!--returnDescription-->
+##### return: any
 A [filter expression](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering).
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 Use this method to get the total filter. This filter combines filters applied using [filtering UI elements](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/) and the [filter(filterExpr)]({basewidgetpath}/Methods/#filterfilterExpr) method. Note that the total filter contains [getters](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters). To get the total filter containing data fields, call the [getCombinedFilter(returnDataField)]({basewidgetpath}/Methods/#getCombinedFilterreturnDataField) method.
 
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

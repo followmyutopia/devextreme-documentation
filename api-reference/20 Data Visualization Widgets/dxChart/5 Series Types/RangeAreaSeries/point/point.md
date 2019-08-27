@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.RangeAreaSeries.point<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.RangeAreaSeries.point
+type: Object
+---

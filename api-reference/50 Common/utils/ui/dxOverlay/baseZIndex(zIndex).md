@@ -1,20 +1,16 @@
-<!--id-->ui.dxOverlay.baseZIndex(zIndex)<!--/id-->
-===================================================================
-<!--module-->ui/overlay<!--/module-->
-<!--export-->dxOverlay.baseZIndex<!--/export-->
-===================================================================
-
-<!--shortDescription-->
+---
+id: ui.dxOverlay.baseZIndex(zIndex)
+module: ui/overlay
+export: dxOverlay.baseZIndex
+---
+---
+##### shortDescription
 Specifies the base z-index for all overlay widgets.
-<!--/shortDescription-->
 
-<!--paramName1-->zIndex<!--/paramName1-->
-<!--paramType1-->Number<!--/paramType1-->
-<!--paramDescription1-->
+##### param(zIndex): Number
 The z-index value.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 The z-index of all overlay widgets located on a page is calculated based on the value passed to this method. Since an overlay widget is added, its z-index is increased by one relative to a previously added overlay widget.
 
 The following example demonstrates how to call the method.
@@ -35,4 +31,3 @@ The method affects the following widgets.
 - [Popup](/Documentation/ApiReference/UI_Widgets/dxPopup/)
 - [Toast](/Documentation/ApiReference/UI_Widgets/dxToast/)
 - [Tooltip](/Documentation/ApiReference/UI_Widgets/dxTooltip/)
-<!--/fullDescription-->

@@ -1,14 +1,13 @@
-<!--id-->dxFormSimpleItem.editorOptions<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFormSimpleItem.editorOptions
+type: Object
+default: undefined
+---
+---
+##### shortDescription
 Configures the form item's editor.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This object should contain the options of the DevExtreme editor specified in the [editorType](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#editorType).
 
 When using [ASP.NET MVC Controls](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), configure the editor in the following manner.
@@ -48,4 +47,3 @@ When using [ASP.NET MVC Controls](/Documentation/Guide/ASP.NET_MVC_Controls/Fund
 
 #####See Also#####
 - [Configure Simple Items](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/)
-<!--/fullDescription-->

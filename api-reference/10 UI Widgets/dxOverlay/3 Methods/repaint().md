@@ -1,12 +1,10 @@
-<!--id-->dxOverlay.repaint()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxOverlay.repaint()
+---
+---
+##### shortDescription
 Recalculates the widget's size and position without rerendering.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

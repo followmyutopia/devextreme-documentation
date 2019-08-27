@@ -1,13 +1,10 @@
-<!--id-->dxFilterBuilder.Options.groupOperationDescriptions.notAnd<!--/id-->
-===========================================================================
-<!--default-->'Not And'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFilterBuilder.Options.groupOperationDescriptions.notAnd
+type: String
+default: 'Not And'
+---
+---
+##### shortDescription
 The *"notand"* operation's description.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

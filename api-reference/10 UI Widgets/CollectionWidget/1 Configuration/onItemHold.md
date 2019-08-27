@@ -1,54 +1,35 @@
-<!--id-->CollectionWidget.Options.onItemHold<!--/id-->
-<!--EventForAction-->CollectionWidget.itemHold<!--/EventForAction-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->function(e)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: CollectionWidget.Options.onItemHold
+type: function(e)
+default: null
+EventForAction: CollectionWidget.itemHold
+---
+---
+##### shortDescription
 A function that is executed when a collection item has been held for a [specified period]({basewidgetpath}/Configuration/#itemHoldTimeout).
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
+##### param(e): Object
 Information about the event.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
+
+##### field(e.component): {WidgetName}
 The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
+
+##### field(e.element): dxElement
 #include common-ref-elementparam with { element: "widget" }
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The model data. Available only if you use Knockout.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->itemData<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-The data of the item being held.
-<!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamName1_field5-->itemElement<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->dxElement<!--/typeFunctionParamType1_field5-->
-<!--typeFunctionParamDescription1_field5-->
-#include common-ref-elementparam with { element: "item" }
-<!--/typeFunctionParamDescription1_field5-->
-<!--typeFunctionParamName1_field6-->itemIndex<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->Number<!--/typeFunctionParamType1_field6-->
-<!--typeFunctionParamDescription1_field6-->
-The item's index.
-<!--/typeFunctionParamDescription1_field6-->
-<!--typeFunctionParamName1_field7-->event<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->event<!--/typeFunctionParamType1_field7-->
-<!--typeFunctionParamDescription1_field7-->
+
+##### field(e.event): event
 #include common-ref-eventparam
-<!--/typeFunctionParamDescription1_field7-->
+
+##### field(e.itemData): Object
+The data of the item being held.
+
+##### field(e.itemElement): dxElement
+#include common-ref-elementparam with { element: "item" }
+
+##### field(e.itemIndex): Number
+The item's index.
+
+##### field(e.model): Object
+The model data. Available only if you use Knockout.
+
+---

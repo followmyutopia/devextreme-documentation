@@ -1,6 +1,5 @@
-<!--id-->dxSliderBase.Options.activeStateEnabled<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxSliderBase.Options.activeStateEnabled
+type: Boolean
+default: true
+---

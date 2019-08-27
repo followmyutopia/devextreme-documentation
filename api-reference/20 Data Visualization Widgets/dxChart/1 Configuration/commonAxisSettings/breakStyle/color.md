@@ -1,13 +1,11 @@
-<!--id-->dxChart.Options.commonAxisSettings.breakStyle.color<!--/id-->
-===========================================================================
-<!--default-->'#ababab'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonAxisSettings.breakStyle.color
+type: String
+default: '#ababab'
+---
+---
+##### shortDescription
 Specifies the scale breaks' color.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

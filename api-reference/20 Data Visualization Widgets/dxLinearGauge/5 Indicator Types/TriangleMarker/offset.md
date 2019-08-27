@@ -1,4 +1,8 @@
-<!--id-->linearTriangleMarker.offset<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->10<!--/default-->
-===========================================================================
+---
+id: linearTriangleMarker.offset
+default: 10
+---
+---
+##### merge
+
+---

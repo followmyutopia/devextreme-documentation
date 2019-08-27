@@ -1,6 +1,5 @@
-<!--id-->dxLookup.Options.onFocusIn<!--/id-->
-<!--EventForAction-->dxLookup.focusIn<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxLookup.Options.onFocusIn
+hidden: 
+EventForAction: dxLookup.focusIn
+---

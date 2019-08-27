@@ -1,5 +1,4 @@
-<!--id-->dxDropDownBox.Options.openOnFieldClick<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-===========================================================================
-
+---
+id: dxDropDownBox.Options.openOnFieldClick
+default: true
+---

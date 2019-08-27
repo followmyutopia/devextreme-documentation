@@ -1,17 +1,14 @@
-<!--id-->dxPivotGridFieldChooser.Options.height<!--/id-->
-===========================================================================
-<!--default-->400<!--/default-->
-<!--type-->Number | String | function()<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGridFieldChooser.Options.height
+type: Number | String | function()
+default: 400
+---
+---
+##### shortDescription
 Specifies the widget's height.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-#include uiwidgets-ref-height
-<!--/fullDescription-->
-<!--typeFunctionReturnType-->Number|String<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
+##### return: Number | String
 The widget's height.
-<!--/typeFunctionReturnDescription-->
+
+---
+#include uiwidgets-ref-height

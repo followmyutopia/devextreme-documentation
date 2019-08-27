@@ -1,14 +1,16 @@
-<!--id-->PivotGridDataSource.Options.onLoadingChanged<!--/id-->
-<!--EventForAction-->PivotGridDataSource.loadingChanged<!--/EventForAction-->
-===========================================================================
-<!--type-->function(isLoading)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.Options.onLoadingChanged
+type: function(isLoading)
+EventForAction: PivotGridDataSource.loadingChanged
+---
+---
+##### shortDescription
 A function that is executed when the data loading status changes.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(isLoading): Boolean
+Indicates whether data is being loaded.
+
+---
 ---
 ##### jQuery
 
@@ -57,9 +59,3 @@ A function that is executed when the data loading status changes.
     </dx-pivot-grid>
 
 ---
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->isLoading<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Boolean<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Indicates whether data is being loaded.
-<!--/typeFunctionParamDescription1-->

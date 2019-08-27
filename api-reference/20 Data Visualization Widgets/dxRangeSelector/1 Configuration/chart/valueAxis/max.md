@@ -1,13 +1,10 @@
-<!--id-->dxRangeSelector.Options.chart.valueAxis.max<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.chart.valueAxis.max
+type: Number
+default: undefined
+---
+---
+##### shortDescription
 Specifies the maximum value of the chart's value axis.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

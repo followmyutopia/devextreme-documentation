@@ -1,13 +1,10 @@
-<!--id-->BaseLegend.title.subtitle.text<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseLegend.title.subtitle.text
+type: String
+default: null
+---
+---
+##### shortDescription
 Specifies the subtitle's text.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

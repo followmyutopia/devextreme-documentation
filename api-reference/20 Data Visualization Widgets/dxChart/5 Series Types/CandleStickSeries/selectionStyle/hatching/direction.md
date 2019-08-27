@@ -1,7 +1,6 @@
-<!--id-->dxChartSeriesTypes.CandleStickSeries.selectionStyle.hatching.direction<!--/id-->
-===========================================================================
-<!--default-->'none'<!--/default-->
-<!--acceptValues-->'left' | 'none' | 'right'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.CandleStickSeries.selectionStyle.hatching.direction
+acceptValues: 'left' | 'none' | 'right'
+type: String
+default: 'none'
+---

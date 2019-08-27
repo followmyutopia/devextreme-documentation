@@ -1,6 +1,5 @@
-<!--id-->DOMComponent.Options.bindingOptions<!--/id-->
-===========================================================================
-<!--default-->{}<!--/default-->
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: DOMComponent.Options.bindingOptions
+type: Object
+default: {}
+---

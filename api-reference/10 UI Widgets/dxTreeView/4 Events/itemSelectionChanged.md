@@ -1,45 +1,31 @@
-<!--id-->dxTreeView.itemSelectionChanged<!--/id-->
-===========================================================================
-<!--type-->eventType<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeView.itemSelectionChanged
+type: eventType
+---
+---
+##### shortDescription
 Raised when a tree view item is selected or selection is canceled.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(e): Object
+Information about the event.
+
+##### field(e.component): {WidgetName}
+The widget's instance.
+
+##### field(e.element): dxElement
+#include common-ref-elementparam with { element: "widget" }
+
+##### field(e.itemElement): dxElement
+#include common-ref-elementparam with { element: "item" }
+
+##### field(e.model): Object
+The model data. Available only if Knockout is used.
+
+##### field(e.node): dxTreeViewNode
+The item's node.
+
+---
 Main article: [onItemSelectionChanged](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#onItemSelectionChanged)
 
 #####See Also#####
 #include common-link-handleevents
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the event.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-#include common-ref-elementparam with { element: "widget" }
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The model data. Available only if Knockout is used.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->node<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->dxTreeViewNode<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-The item's node.
-<!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamName1_field5-->itemElement<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->dxElement<!--/typeFunctionParamType1_field5-->
-<!--typeFunctionParamDescription1_field5-->
-#include common-ref-elementparam with { element: "item" }
-<!--/typeFunctionParamDescription1_field5-->

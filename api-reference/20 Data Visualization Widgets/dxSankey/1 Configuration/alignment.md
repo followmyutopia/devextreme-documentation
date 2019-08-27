@@ -1,15 +1,14 @@
-<!--id-->dxSankey.Options.alignment<!--/id-->
-===========================================================================
-<!--default-->'center'<!--/default-->
-<!--acceptValues-->'bottom' | 'center' | 'top'<!--/acceptValues-->
-<!--type-->String | Array<String><!--/type-->
-===========================================================================
+---
+id: dxSankey.Options.alignment
+acceptValues: 'bottom' | 'center' | 'top'
+type: String | Array<String>
+default: 'center'
+---
+---
+##### shortDescription
+Aligns node columns vertically.
 
-<!--shortDescription-->
-Aligns node columns vertically. 
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 A string value aligns all node columns uniformly. An array of strings allows you to align each node column individually. For example, the **Sankey** widget contains four columns, and the **alignment** option is specified as follows:
 
 ---
@@ -52,4 +51,3 @@ With this setting, the leftmost node column is aligned to the top, and the next 
     enum: "`VerticalAlignment`",
     values: "`Bottom`, `Center`, and `Top`"
 }
-<!--/fullDescription-->

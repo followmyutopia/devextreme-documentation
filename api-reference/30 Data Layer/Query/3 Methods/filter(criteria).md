@@ -1,23 +1,17 @@
-<!--id-->Query.filter(criteria)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: Query.filter(criteria)
+---
+---
+##### shortDescription
 Filters data items using a filter expression.
-<!--/shortDescription-->
 
-<!--paramName1-->criteria<!--/paramName1-->
-<!--paramType1-->Array<any><!--/paramType1-->
-<!--paramDescription1-->
-A filter expression; described in the [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering) section.
-<!--/paramDescription1-->
-
-<!--returnType-->Query<!--/returnType-->
-<!--returnDescription-->
+##### return: Query
 The **Query** with transformed data.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(criteria): Array<any>
+A filter expression; described in the [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering) section.
+
+---
 ---
 ##### jQuery
 
@@ -48,4 +42,3 @@ The **Query** with transformed data.
     }
 
 ---
-<!--/fullDescription-->

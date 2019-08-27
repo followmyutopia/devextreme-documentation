@@ -1,6 +1,5 @@
-<!--id-->dxSwitch.Options.focusStateEnabled<!--/id-->
-===========================================================================
-<!--default-->true (desktop)<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxSwitch.Options.focusStateEnabled
+type: Boolean
+default: true (desktop)
+---

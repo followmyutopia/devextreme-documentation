@@ -1,13 +1,10 @@
-<!--id-->dxRangeSelector.Options.scale.allowDecimals<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.scale.allowDecimals
+type: Boolean
+default: undefined
+---
+---
+##### shortDescription
 Specifies whether to allow decimal values on the scale. When **false**, the scale contains integer values only.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,6 +1,5 @@
-<!--id-->dxMenu.Options.onSelectionChange<!--/id-->
-<!--EventForAction-->dxMenu.selectionChange<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxMenu.Options.onSelectionChange
+hidden: 
+EventForAction: dxMenu.selectionChange
+---

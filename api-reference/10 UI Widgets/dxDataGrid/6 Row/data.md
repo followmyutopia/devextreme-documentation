@@ -1,13 +1,12 @@
-<!--id-->dxDataGridRowObject.data<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGridRowObject.data
+type: Object
+---
+---
+##### shortDescription
 The [data object](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource) represented by the row.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The contents of this object depend on the value of the [rowType](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#rowType) property. The following list illustrates this dependency.
 
 - **rowType** is *"data"* &rArr; **data** contains the data object of the row
@@ -28,4 +27,3 @@ The contents of this object depend on the value of the [rowType](/Documentation/
             aggregates: array // contains values calculated for the group summary
         }
 - **rowType** is *"header"*, *"filter"* or *"totalFooter"* &rArr; **data** is **undefined**
-<!--/fullDescription-->

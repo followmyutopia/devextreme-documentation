@@ -1,17 +1,14 @@
-<!--id-->PivotGridDataSource.getData()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.getData()
+---
+---
+##### shortDescription
 Gets the loaded data. Another data portion is loaded every time a [header item](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Headers) is expanded.
-<!--/shortDescription-->
 
-<!--returnType-->Object<!--/returnType-->
-<!--returnDescription-->
+##### return: Object
 The loaded data.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 This method returns an object with the following structure:
 
     <!--JavaScript-->{
@@ -99,4 +96,3 @@ If you use the [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/) an
 
 #####See Also#####
 - [createDrillDownDataSource(options)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#createDrillDownDataSourceoptions)
-<!--/fullDescription-->

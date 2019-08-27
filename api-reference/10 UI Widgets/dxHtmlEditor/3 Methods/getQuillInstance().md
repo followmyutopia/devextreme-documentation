@@ -1,16 +1,11 @@
-<!--id-->dxHtmlEditor.getQuillInstance()<!--/id-->
-===================================================================
-===================================================================
+---
+id: dxHtmlEditor.getQuillInstance()
+---
+---
+##### shortDescription
+Gets <a href="https://quilljs.com/docs/api/" target="_blank">Quill</a>'s instance.
 
-<!--shortDescription-->
-Gets <a href="https://quilljs.com/docs/api/" target="_blank">Quill</a>'s instance. 
-<!--/shortDescription-->
-
-<!--returnType-->Object<!--/returnType-->
-<!--returnDescription-->
+##### return: Object
 <a href="https://quilljs.com/docs/api/" target="_blank">Quill</a>'s instance.
-<!--/returnDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

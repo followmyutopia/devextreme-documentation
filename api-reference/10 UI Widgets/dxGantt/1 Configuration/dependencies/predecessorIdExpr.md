@@ -1,18 +1,11 @@
-<!--id-->dxGantt.Options.dependencies.predecessorIdExpr<!--/id-->
-===========================================================================
-<!--default-->'predecessorId'<!--/default-->
-<!--type-->String | function(data)<!--/type-->
-===========================================================================
+---
+id: dxGantt.Options.dependencies.predecessorIdExpr
+type: String | function(data)
+default: 'predecessorId'
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### param(data): Object
 
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->data<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-
-<!--/typeFunctionParamDescription1-->
+---

@@ -1,14 +1,13 @@
-<!--id-->dxChartSeriesTypes.CommonSeries.label.format<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->format<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.CommonSeries.label.format
+type: format
+default: undefined
+---
+---
+##### shortDescription
 Formats the point value before it will be displayed in the point label.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This option accepts an object whose fields are described in the [format](/Documentation/ApiReference/Common/Object_Structures/format/) section. However, there is one more field, called **percentPrecision**, which is available only to full-stacked-like series, where one point always has an absolute and a percentage value. The **percentPrecision** field specifies how many digits after the decimal point to save in the percentage value. See an example in the following code.
 
     format: {
@@ -22,4 +21,3 @@ This option accepts an object whose fields are described in the [format](/Docume
 #####See Also#####
 - [format](/Documentation/ApiReference/Common/Object_Structures/format/) - provides a comprehensive overview of formatting capabilities.
 - [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/#Data_Formatting) - shows how to apply formatting to various widget elements.
-<!--/fullDescription-->

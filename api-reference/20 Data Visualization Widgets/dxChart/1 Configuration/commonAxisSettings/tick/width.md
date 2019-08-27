@@ -1,13 +1,10 @@
-<!--id-->dxChart.Options.commonAxisSettings.tick.width<!--/id-->
-===========================================================================
-<!--default-->1<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonAxisSettings.tick.width
+type: Number
+default: 1
+---
+---
+##### shortDescription
 Specifies the width of ticks in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

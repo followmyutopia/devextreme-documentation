@@ -1,13 +1,10 @@
-<!--id-->dxPolarChart.Options.commonAxisSettings.constantLineStyle.label.font<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-<!--inherits-->Font<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChart.Options.commonAxisSettings.constantLineStyle.label.font
+type: Object
+inherits: Font
+---
+---
+##### shortDescription
 Specifies font options for a constant line label.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,15 +1,15 @@
-<!--id-->dxVectorMap.Options.layers<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--default-->undefined<!--/default-->
-<!--type-->Array<Object> | Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxVectorMap.Options.layers
+type: Array<Object> | Object
+default: undefined
+---
+---
+##### shortDescription
 Specifies options for **VectorMap** widget layers.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### notUsedInTheme
+
+---
 The vector map may contain several different layers. Each layer can be of *"area"*, *"line"* or *"marker"* [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#type).
 
 The <a href="https://en.wikipedia.org/wiki/Z-order" target="_blank">Z-order</a> of layers depends on their order in the **layers** array in the following way: the first layer occupies the background, the last layer is brought to the foreground.
@@ -17,4 +17,3 @@ The <a href="https://en.wikipedia.org/wiki/Z-order" target="_blank">Z-order</a> 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Vector_Map/MultipleLayers/jQuery/Light/"
 }
-<!--/fullDescription-->

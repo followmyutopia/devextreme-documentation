@@ -1,5 +1,4 @@
-<!--id-->dxSelectBox.Options.openOnFieldClick<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-===========================================================================
-
+---
+id: dxSelectBox.Options.openOnFieldClick
+default: true
+---

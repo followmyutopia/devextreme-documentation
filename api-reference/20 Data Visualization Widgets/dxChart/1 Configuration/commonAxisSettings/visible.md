@@ -1,13 +1,10 @@
-<!--id-->dxChart.Options.commonAxisSettings.visible<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonAxisSettings.visible
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Makes the axis line visible.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

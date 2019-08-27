@@ -1,13 +1,11 @@
-<!--id-->dxSankey.Options.node.hoverStyle.color<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSankey.Options.node.hoverStyle.color
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Specifies the color a node changes to when it is hovered over or pressed.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-colorlist
-<!--/fullDescription-->

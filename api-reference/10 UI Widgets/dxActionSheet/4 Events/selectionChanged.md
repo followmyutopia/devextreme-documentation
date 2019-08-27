@@ -1,6 +1,5 @@
-<!--id-->dxActionSheet.selectionChanged<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--type-->eventType<!--/type-->
-===========================================================================
-
+---
+id: dxActionSheet.selectionChanged
+type: eventType
+hidden: 
+---

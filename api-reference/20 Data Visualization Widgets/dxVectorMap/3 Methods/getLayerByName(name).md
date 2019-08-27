@@ -1,23 +1,16 @@
-<!--id-->dxVectorMap.getLayerByName(name)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxVectorMap.getLayerByName(name)
+---
+---
+##### shortDescription
 Gets a layer with a specific name.
-<!--/shortDescription-->
 
-<!--paramName1-->name<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
-<!--paramDescription1-->
-The layer's [name](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#name).
-<!--/paramDescription1-->
-
-<!--returnType-->MapLayer<!--/returnType-->
-<!--returnDescription-->
+##### return: MapLayer
 The [Layer](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element/) object.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(name): String
+The layer's [name](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#name).
+
+---
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

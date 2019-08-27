@@ -1,13 +1,10 @@
-<!--id-->dxScheduler.Options.endDateExpr<!--/id-->
-===========================================================================
-<!--default-->'endDate'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler.Options.endDateExpr
+type: String
+default: 'endDate'
+---
+---
+##### shortDescription
 Specifies the name of the data source item field that defines the ending of an appointment.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

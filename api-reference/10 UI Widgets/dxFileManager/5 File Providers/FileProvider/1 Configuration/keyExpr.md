@@ -1,12 +1,8 @@
-<!--id-->FileProvider.Options.keyExpr<!--/id-->
-===========================================================================
-<!--type-->String | function()<!--/type-->
-===========================================================================
+---
+id: FileProvider.Options.keyExpr
+type: String | function()
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

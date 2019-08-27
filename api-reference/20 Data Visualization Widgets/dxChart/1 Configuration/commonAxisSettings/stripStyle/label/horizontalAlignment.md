@@ -1,14 +1,12 @@
-<!--id-->dxChart.Options.commonAxisSettings.stripStyle.label.horizontalAlignment<!--/id-->
-===========================================================================
-<!--default-->'left'<!--/default-->
-<!--acceptValues-->'center' | 'left' | 'right'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonAxisSettings.stripStyle.label.horizontalAlignment
+acceptValues: 'center' | 'left' | 'right'
+type: String
+default: 'left'
+---
+---
+##### shortDescription
 Aligns strip labels in the horizontal direction.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `HorizontalAlignment` enum. This enum accepts the following values: `Left`, `Center` and `Right`.
-<!--/fullDescription-->

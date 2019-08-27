@@ -1,14 +1,13 @@
-<!--id-->DataExpressionMixin.Options.dataSource<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->String | Array<CollectionWidgetItem, Object> | DataSource | DataSource_Options<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: DataExpressionMixin.Options.dataSource
+type: String | Array<CollectionWidgetItem, Object> | DataSource | DataSource_Options
+default: null
+---
+---
+##### shortDescription
 Binds the widget to data.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-dataSource-description with {
     widget_works_with: "The **{WidgetName}** works with collections of objects or `string`, `number`, or `boolean` values.",
 
@@ -16,4 +15,3 @@ Binds the widget to data.
 
     dataSource_items_note: "- Do not specify the [items]({basewidgetpath}/Configuration/#items) option if you specified the **dataSource**, and vice versa."
 }
-<!--/fullDescription-->

@@ -1,5 +1,4 @@
-<!--id-->dxChartSeriesTypes.StackedAreaSeries.label<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.StackedAreaSeries.label
+type: Object
+---

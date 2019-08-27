@@ -1,13 +1,10 @@
-<!--id-->dxPivotGrid.Options.texts.collapseAll<!--/id-->
-===========================================================================
-<!--default-->'Collapse All'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGrid.Options.texts.collapseAll
+type: String
+default: 'Collapse All'
+---
+---
+##### shortDescription
 The string to display as a **Collapse All** context menu item.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

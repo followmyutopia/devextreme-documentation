@@ -1,15 +1,14 @@
-<!--id-->dxDrawer.Options.openedStateMode<!--/id-->
-===========================================================================
-<!--default-->'shrink'<!--/default-->
-<!--acceptValues-->'overlap' | 'shrink' | 'push'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDrawer.Options.openedStateMode
+acceptValues: 'overlap' | 'shrink' | 'push'
+type: String
+default: 'shrink'
+---
+---
+##### shortDescription
 Specifies how the drawer interacts with the view in the opened state.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The following modes are available:
 
 - *"overlap"*       
@@ -32,4 +31,3 @@ The drawer partially displaces the view.
 
 #####See Also#####
 - [revealMode](/Documentation/ApiReference/UI_Widgets/dxDrawer/Configuration/#revealMode)
-<!--/fullDescription-->

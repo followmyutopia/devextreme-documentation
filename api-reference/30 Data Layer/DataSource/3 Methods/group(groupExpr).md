@@ -1,18 +1,14 @@
-<!--id-->DataSource.group(groupExpr)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.group(groupExpr)
+---
+---
+##### shortDescription
 Sets the [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option's value.
-<!--/shortDescription-->
 
-<!--paramName1-->groupExpr<!--/paramName1-->
-<!--paramType1-->Object<!--/paramType1-->
-<!--paramDescription1-->
+##### param(groupExpr): Object
 A group expression.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 Call the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method to update the widget bound to the **DataSource**:
 
 ---
@@ -46,4 +42,3 @@ Call the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#loa
 
 #####See Also#####
 - [Grouping](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Grouping)
-<!--/fullDescription-->

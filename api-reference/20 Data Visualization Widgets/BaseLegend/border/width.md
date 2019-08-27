@@ -1,13 +1,10 @@
-<!--id-->BaseLegend.border.width<!--/id-->
-===========================================================================
-<!--default-->1<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseLegend.border.width
+type: Number
+default: 1
+---
+---
+##### shortDescription
 Specifies the width of the legend's border in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

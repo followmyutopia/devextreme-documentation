@@ -1,13 +1,10 @@
-<!--id-->dxTabs.Options.scrollingEnabled<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTabs.Options.scrollingEnabled
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether or not an end-user can scroll tabs.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

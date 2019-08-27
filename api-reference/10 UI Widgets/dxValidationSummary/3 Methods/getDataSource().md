@@ -1,6 +1,4 @@
-<!--id-->dxValidationSummary.getDataSource()<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
-
-
+---
+id: dxValidationSummary.getDataSource()
+hidden: 
+---

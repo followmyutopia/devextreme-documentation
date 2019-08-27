@@ -1,14 +1,12 @@
-<!--id-->dxRangeSelector.Options.sliderMarker.placeholderHeight<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.sliderMarker.placeholderHeight
+type: Number
+default: undefined
+---
+---
+##### shortDescription
 Specifies the placeholder height of the slider marker.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### notUsedInTheme
 
-<!--/fullDescription-->
+---

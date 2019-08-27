@@ -1,17 +1,15 @@
-<!--id-->dxSliderBase.Options.label.position<!--/id-->
-===========================================================================
-<!--default-->'bottom'<!--/default-->
-<!--acceptValues-->'bottom' | 'top'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSliderBase.Options.label.position
+acceptValues: 'bottom' | 'top'
+type: String
+default: 'bottom'
+---
+---
+##### shortDescription
 Specifies whether labels are over or under the scale.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-ref-enum with {
     enum: "`VerticalEdge`",
     values: "`Top` and `Bottom`"
 }
-<!--/fullDescription-->

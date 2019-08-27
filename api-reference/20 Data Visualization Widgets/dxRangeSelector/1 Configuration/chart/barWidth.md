@@ -1,13 +1,11 @@
-<!--id-->dxRangeSelector.Options.chart.barWidth<!--/id-->
-<!--dep-->dxChartSeriesTypes.CommonSeries.barPadding<!--/dep-->
-===========================================================================
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.chart.barWidth
+type: Number
+dep: dxChartSeriesTypes.CommonSeries.barPadding
+---
+---
+##### shortDescription
 Specifies a common bar width as a percentage from 0 to 1.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Works only if the [equalBarWidth](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/chart/#equalBarWidth) option is set to **true**.
-<!--/fullDescription-->

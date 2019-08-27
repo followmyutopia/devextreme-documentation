@@ -1,6 +1,5 @@
-<!--id-->dxDropDownMenu.Options.hoverStateEnabled<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxDropDownMenu.Options.hoverStateEnabled
+type: Boolean
+default: true
+---

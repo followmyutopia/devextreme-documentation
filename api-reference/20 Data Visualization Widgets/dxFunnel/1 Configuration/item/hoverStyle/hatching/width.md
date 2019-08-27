@@ -1,13 +1,10 @@
-<!--id-->dxFunnel.Options.item.hoverStyle.hatching.width<!--/id-->
-===========================================================================
-<!--default-->2<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFunnel.Options.item.hoverStyle.hatching.width
+type: Number
+default: 2
+---
+---
+##### shortDescription
 Specifies hatching lines' width in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

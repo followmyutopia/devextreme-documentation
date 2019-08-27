@@ -1,14 +1,12 @@
-<!--id-->BaseWidget.Options.disabled<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseWidget.Options.disabled
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether the widget responds to the user interaction.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### notUsedInTheme
 
-<!--/fullDescription-->
+---

@@ -1,15 +1,14 @@
-<!--id-->dxResizable.Options.handles<!--/id-->
-===========================================================================
-<!--default-->'all'<!--/default-->
-<!--acceptValues-->'bottom' | 'left' | 'right' | 'top' | 'all'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxResizable.Options.handles
+acceptValues: 'bottom' | 'left' | 'right' | 'top' | 'all'
+type: String
+default: 'all'
+---
+---
+##### shortDescription
 Specifies which borders of the widget element are used as a handle.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 You can pass several values separated by a space. For example, "right bottom".
 
 #include common-ref-enum with {
@@ -31,4 +30,3 @@ You can pass several values separated by a space. For example, "right bottom".
                 @* resizable content *@
             End Sub).Render()
     End Code
-<!--/fullDescription-->

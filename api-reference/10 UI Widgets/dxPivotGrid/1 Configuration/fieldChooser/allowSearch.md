@@ -1,13 +1,10 @@
-<!--id-->dxPivotGrid.Options.fieldChooser.allowSearch<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPivotGrid.Options.fieldChooser.allowSearch
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether the field chooser allows searching in the *"All Fields"* section.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

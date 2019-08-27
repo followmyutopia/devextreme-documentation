@@ -1,15 +1,12 @@
-<!--id-->dxTreeMap.Options.resolveLabelOverflow<!--/id-->
-<!--dep-->dxTreeMap.Options.tile.label.textOverflow<!--/dep-->
-===========================================================================
-<!--default-->'hide'<!--/default-->
-<!--acceptValues-->'ellipsis' | 'hide'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMap.Options.resolveLabelOverflow
+acceptValues: 'ellipsis' | 'hide'
+type: String
+default: 'hide'
+dep: dxTreeMap.Options.tile.label.textOverflow
+---
+---
+##### shortDescription
 Decides whether those labels that overflow their tile/group should be hidden or truncated with ellipsis.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

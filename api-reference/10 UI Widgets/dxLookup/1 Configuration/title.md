@@ -1,13 +1,10 @@
-<!--id-->dxLookup.Options.title<!--/id-->
-===========================================================================
-<!--default-->''<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxLookup.Options.title
+type: String
+default: ''
+---
+---
+##### shortDescription
 The title of the lookup window.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

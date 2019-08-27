@@ -1,14 +1,10 @@
-<!--id-->dxGantt.Options.taskTitlePosition<!--/id-->
-===========================================================================
-<!--default-->'inside'<!--/default-->
-<!--acceptValues-->'inside' | 'outside' | 'none'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxGantt.Options.taskTitlePosition
+acceptValues: 'inside' | 'outside' | 'none'
+type: String
+default: 'inside'
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,15 +1,38 @@
-<!--id-->dxButton.Options.onClick<!--/id-->
-<!--EventForAction-->dxButton.click<!--/EventForAction-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->function(e)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxButton.Options.onClick
+type: function(e)
+default: null
+EventForAction: dxButton.click
+---
+---
+##### shortDescription
 A function that is executed when the **Button** is clicked or tapped.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(e): Object
+Information about the event.
+
+##### field(e.component): {WidgetName}
+The widget's instance.
+
+##### field(e.element): dxElement
+#include common-ref-elementparam with { element: "widget" }
+
+##### field(e.event): event
+#include common-ref-eventparam
+
+##### field(e.jQueryEvent).deprecated
+Use 'event' instead.
+
+##### field(e.jQueryEvent): jQuery.Event
+The jQuery event that caused the handler execution. Deprecated in favor of the **event** field.
+
+##### field(e.model): Object
+The model data. Available only if you use Knockout.
+
+##### field(e.validationGroup): Object
+The validation group to which the button is related.
+
+---
 To validate the editors that are related to the [validation group](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#validationGroup) specified for this button, use the **validationGroup** field of the object passed as the event handler's parameter. The **validationGroup** object has the following structure.
 
 - **group**  
@@ -20,40 +43,3 @@ To validate the editors that are related to the [validation group](/Documentatio
     The method that allows you to validate the widgets included in the validation group.
 - **validated**  
     The event that occurs after the group is validated. You can attach/detach a handler using the **on(eventName, eventHandler)**/**off(eventName)** methods of the group.
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the event.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-#include common-ref-elementparam with { element: "widget" }
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The model data. Available only if you use Knockout.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->jQueryEvent<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->jQuery.Event<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-The jQuery event that caused the handler execution. Deprecated in favor of the **event** field.
-<!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamDeprecated1_field4-->Use 'event' instead.<!--/typeFunctionParamDeprecated1_field4-->
-<!--typeFunctionParamName1_field5-->event<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->event<!--/typeFunctionParamType1_field5-->
-<!--typeFunctionParamDescription1_field5-->
-#include common-ref-eventparam
-<!--/typeFunctionParamDescription1_field5-->
-<!--typeFunctionParamName1_field6-->validationGroup<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->Object<!--/typeFunctionParamType1_field6-->
-<!--typeFunctionParamDescription1_field6-->
-The validation group to which the button is related.
-<!--/typeFunctionParamDescription1_field6-->

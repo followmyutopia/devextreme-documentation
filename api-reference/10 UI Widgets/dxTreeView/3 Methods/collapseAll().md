@@ -1,11 +1,8 @@
-<!--id-->dxTreeView.collapseAll()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeView.collapseAll()
+---
+---
+##### shortDescription
 Collapses all items.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

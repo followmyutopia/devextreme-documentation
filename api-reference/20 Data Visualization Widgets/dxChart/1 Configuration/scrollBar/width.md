@@ -1,13 +1,10 @@
-<!--id-->dxChart.Options.scrollBar.width<!--/id-->
-===========================================================================
-<!--default-->10<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.scrollBar.width
+type: Number
+default: 10
+---
+---
+##### shortDescription
 Specifies the width of the scroll bar in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,13 +1,9 @@
-<!--id-->dxGantt.Options.tasks.dataSource<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->Array<Object> | DataSource | DataSource_Options<!--/type-->
-===========================================================================
+---
+id: dxGantt.Options.tasks.dataSource
+type: Array<Object> | DataSource | DataSource_Options
+default: null
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,16 +1,11 @@
-<!--id-->DataSource.searchOperation()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: DataSource.searchOperation()
+---
+---
+##### shortDescription
 Gets the [searchOperation](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchOperation) option's value.
-<!--/shortDescription-->
 
-<!--returnType-->String<!--/returnType-->
-<!--returnDescription-->
+##### return: String
 The option's value.
-<!--/returnDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

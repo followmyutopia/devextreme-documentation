@@ -1,13 +1,10 @@
-<!--id-->dxTreeView.Options.expandAllEnabled<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeView.Options.expandAllEnabled
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether or not a user can expand all tree view items by the "*" hot key.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

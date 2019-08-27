@@ -1,13 +1,10 @@
-<!--id-->dxTreeList.Options.autoExpandAll<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeList.Options.autoExpandAll
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether all rows are expanded initially.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

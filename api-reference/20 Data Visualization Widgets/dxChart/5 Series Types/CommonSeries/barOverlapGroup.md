@@ -1,15 +1,16 @@
-<!--id-->dxChartSeriesTypes.CommonSeries.barOverlapGroup<!--/id-->
-===========================================================================
-<!--propertyOf-->dxChartSeriesTypes.BarSeries,dxChartSeriesTypes.RangeBarSeries<!--/propertyOf-->
-<!--default-->undefined<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.CommonSeries.barOverlapGroup
+type: String
+default: undefined
+---
+---
+##### shortDescription
 Allows you to group bar series so that bars with the same argument overlap.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### propertyOf
+dxChartSeriesTypes.BarSeries,dxChartSeriesTypes.RangeBarSeries
+
+---
 Set this option to identical values for the series you want to collect in a single group.
 
 The following image shows a regular bar chart with two series...
@@ -23,4 +24,3 @@ The following image shows a regular bar chart with two series...
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Charts/Timeline/jQuery/Light/"
 }
-<!--/fullDescription-->

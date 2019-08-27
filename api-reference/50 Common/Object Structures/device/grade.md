@@ -1,14 +1,13 @@
-<!--id-->Device.grade<!--/id-->
-===========================================================================
-<!--acceptValues-->'A' | 'B' | 'C'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Device.grade
+acceptValues: 'A' | 'B' | 'C'
+type: String
+---
+---
+##### shortDescription
 Specifies a performance grade of the current device.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The current device can have one of the grades of its performance.
 
 - **'A'**  
@@ -33,5 +32,3 @@ Use the **grade** option when specifying the device on which a particular animat
     });
 
 In the code above, when the 'my-animation' [animation preset](/Documentation/ApiReference/Common/Utils/animationPresets/) is requested, the 'fade' animation will be performed if the current device has the 'A' category and animation will not be performed at all if the current device has the 'C' category.
-
-<!--/fullDescription-->

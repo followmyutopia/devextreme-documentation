@@ -1,13 +1,10 @@
-<!--id-->GridBase.Options.filterRow.showOperationChooser<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.filterRow.showOperationChooser
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether icons that open the filter lists are visible.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

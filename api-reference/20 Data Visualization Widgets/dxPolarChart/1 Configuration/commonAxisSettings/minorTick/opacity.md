@@ -1,13 +1,10 @@
-<!--id-->dxPolarChart.Options.commonAxisSettings.minorTick.opacity<!--/id-->
-===========================================================================
-<!--default-->0.3<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChart.Options.commonAxisSettings.minorTick.opacity
+type: Number
+default: 0.3
+---
+---
+##### shortDescription
 Specifies an opacity for the minor ticks.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

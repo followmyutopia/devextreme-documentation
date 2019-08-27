@@ -1,9 +1,8 @@
-
-<!--shortDescription-->
+---
+##### shortDescription
 This section describes options that configure the **DataSource**.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 [note]
 
 The **DataSource** allows specifying [**CustomStore** options](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/) in its configuration object, as shown in the following code:
@@ -43,4 +42,3 @@ The **DataSource** allows specifying [**CustomStore** options](/Documentation/Ap
 ---
 
 [/note]
-<!--/fullDescription-->

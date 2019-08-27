@@ -1,14 +1,14 @@
-<!--id-->dxVectorMap.Options.layers.dataSource<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->Object | DataSource | DataSource_Options | String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxVectorMap.Options.layers.dataSource
+type: Object | DataSource | DataSource_Options | String
+---
+---
+##### shortDescription
 Specifies a data source for the layer.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### notUsedInTheme
+
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Vector_Map/CustomMapData/jQuery/Light/"
 }
@@ -19,4 +19,3 @@ Specifies a data source for the layer.
 - **Layer**.[getDataSource()](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer/Methods/#getDataSource)
 - [Data Layer - Overview](/Documentation/Guide/Data_Layer/Data_Layer)
 - [Data Layer - Data Source Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples)
-<!--/fullDescription-->

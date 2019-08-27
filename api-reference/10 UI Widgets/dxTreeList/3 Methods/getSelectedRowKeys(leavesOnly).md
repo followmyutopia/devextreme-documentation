@@ -1,26 +1,20 @@
-<!--id-->dxTreeList.getSelectedRowKeys(leavesOnly)<!--/id-->
-<!--dep--><!--/dep-->
-===================================================================
-===================================================================
+---
+id: dxTreeList.getSelectedRowKeys(leavesOnly)
+dep: 
+---
+---
+##### shortDescription
+Gets the selected rows' keys.
 
-<!--deprecated-->
-Use the [getSelectedRowKeys(mode)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#getSelectedRowKeysmode) method instead.
-<!--/deprecated--><!--shortDescription-->
-Gets the selected rows' keys. 
-<!--/shortDescription-->
-
-<!--paramName1-->leavesOnly<!--/paramName1-->
-<!--paramType1-->Boolean<!--/paramType1-->
-<!--paramDescription1-->
-Specifies whether this method returns only leaves' keys.
-<!--/paramDescription1-->
-
-<!--returnType-->Array<any><!--/returnType-->
-<!--returnDescription-->
+##### return: Array<any>
 Keys of selected rows. The keys are stored in the order the user selects rows.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### deprecated
+Use the [getSelectedRowKeys(mode)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#getSelectedRowKeysmode) method instead.
+
+##### param(leavesOnly): Boolean
+Specifies whether this method returns only leaves' keys.
+
+---
 #####See Also#####
 #include common-link-callmethods
-<!--/fullDescription-->

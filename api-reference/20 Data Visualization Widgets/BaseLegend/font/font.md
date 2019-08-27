@@ -1,13 +1,10 @@
-<!--id-->BaseLegend.font<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-<!--inherits-->Font<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseLegend.font
+type: Object
+inherits: Font
+---
+---
+##### shortDescription
 Specifies the legend items' font options.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

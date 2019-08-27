@@ -1,7 +1,6 @@
-<!--id-->dxDropDownBox.Options.itemTemplate<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--default-->'item'<!--/default-->
-<!--type-->template<!--/type-->
-===========================================================================
-
+---
+id: dxDropDownBox.Options.itemTemplate
+type: template
+default: 'item'
+hidden: 
+---

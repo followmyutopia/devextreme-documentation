@@ -1,12 +1,10 @@
-<!--id-->dxSchedulerAppointment.endDate<!--/id-->
-===========================================================================
-<!--type-->Date<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSchedulerAppointment.endDate
+type: Date
+---
+---
+##### shortDescription
 Specifies the ending of the appointment.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The **startDate** and **endDate** fields are used to position the rectangle representing an appointment in the scheduler.
-<!--/fullDescription-->

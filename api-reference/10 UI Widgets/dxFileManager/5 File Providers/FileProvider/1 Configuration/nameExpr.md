@@ -1,12 +1,9 @@
-<!--id-->FileProvider.Options.nameExpr<!--/id-->
-===========================================================================
-<!--type-->String | function()<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: FileProvider.Options.nameExpr
+type: String | function()
+---
+---
+##### shortDescription
 Specifies which data field provides file and directory names.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

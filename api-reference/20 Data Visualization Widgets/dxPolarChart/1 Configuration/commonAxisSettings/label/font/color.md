@@ -1,4 +1,8 @@
-<!--id-->dxPolarChart.Options.commonAxisSettings.label.font.color<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->'#767676'<!--/default-->
-===========================================================================
+---
+id: dxPolarChart.Options.commonAxisSettings.label.font.color
+default: '#767676'
+---
+---
+##### merge
+
+---

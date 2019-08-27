@@ -1,13 +1,10 @@
-<!--id-->dxMap.Options.key.google<!--/id-->
-===========================================================================
-<!--default-->''<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxMap.Options.key.google
+type: String
+default: ''
+---
+---
+##### shortDescription
 A key used to authenticate the application within the "Google" map provider.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

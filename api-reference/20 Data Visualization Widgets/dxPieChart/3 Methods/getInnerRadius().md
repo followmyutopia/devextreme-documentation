@@ -1,16 +1,9 @@
-<!--id-->dxPieChart.getInnerRadius()<!--/id-->
-===================================================================
-===================================================================
+---
+id: dxPieChart.getInnerRadius()
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### return: Number
 
-<!--/shortDescription-->
-
-<!--returnType-->Number<!--/returnType-->
-<!--returnDescription-->
-
-<!--/returnDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

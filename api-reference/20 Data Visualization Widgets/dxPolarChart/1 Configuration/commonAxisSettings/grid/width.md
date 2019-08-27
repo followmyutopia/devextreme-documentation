@@ -1,13 +1,10 @@
-<!--id-->dxPolarChart.Options.commonAxisSettings.grid.width<!--/id-->
-===========================================================================
-<!--default-->1<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPolarChart.Options.commonAxisSettings.grid.width
+type: Number
+default: 1
+---
+---
+##### shortDescription
 Specifies the width of grid lines.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

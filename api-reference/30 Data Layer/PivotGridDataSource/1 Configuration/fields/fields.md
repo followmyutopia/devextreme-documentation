@@ -1,14 +1,13 @@
-<!--id-->PivotGridDataSource.Options.fields<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Array<Object><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: PivotGridDataSource.Options.fields
+type: Array<Object>
+default: undefined
+---
+---
+##### shortDescription
 Configures pivot grid fields.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 This option accepts an array of objects where each object configures a single field. Each pivot grid field must be associated with a data field using the [dataField](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#dataField) option. Fields with the specified [area](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area) option are displayed in the pivot grid; other fields' headers are displayed in the [field chooser](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Field_Chooser).
 
 ---
@@ -86,4 +85,3 @@ If the [retrieveFields](/Documentation/ApiReference/Data_Layer/PivotGridDataSour
 - [Fields and Areas](/Documentation/Guide/Widgets/PivotGrid/Fields_and_Areas/)
 - [field(id)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fieldid) | [field(id, options)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fieldid_options)
 - [fields()](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fields) | [fields(fields)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fieldsfields)
-<!--/fullDescription-->

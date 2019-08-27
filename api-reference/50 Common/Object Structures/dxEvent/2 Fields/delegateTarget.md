@@ -1,12 +1,9 @@
-<!--id-->dxEvent.delegateTarget<!--/id-->
-===========================================================================
-<!--type-->Node<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxEvent.delegateTarget
+type: Node
+---
+---
+##### shortDescription
 The DOM element to which the currently-called event handler was attached.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

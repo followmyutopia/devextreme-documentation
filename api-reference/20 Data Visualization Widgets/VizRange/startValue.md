@@ -1,14 +1,11 @@
-<!--id-->VizRange.startValue<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number | Date | String<!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: VizRange.startValue
+type: Number | Date | String
+default: undefined
+firedEvents: optionChanged
+---
+---
+##### shortDescription
 The range's start value.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

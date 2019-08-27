@@ -1,11 +1,8 @@
-<!--id-->TransitionExecutor.stop()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: TransitionExecutor.stop()
+---
+---
+##### shortDescription
 Stops all started animations.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

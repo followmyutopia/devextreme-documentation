@@ -1,13 +1,10 @@
-<!--id-->dxResizable.Options.minWidth<!--/id-->
-===========================================================================
-<!--default-->30<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxResizable.Options.minWidth
+type: Number
+default: 30
+---
+---
+##### shortDescription
 Specifies the lower width boundary for resizing.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

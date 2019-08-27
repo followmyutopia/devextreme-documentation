@@ -1,13 +1,10 @@
-<!--id-->dxGallery.Options.animationEnabled<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxGallery.Options.animationEnabled
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether or not to animate the displayed item change.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

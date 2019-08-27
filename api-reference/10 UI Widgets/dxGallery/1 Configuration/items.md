@@ -1,6 +1,5 @@
-<!--id-->dxGallery.Options.items<!--/id-->
-===========================================================================
-<!--type-->Array<String, dxGalleryItem, Object><!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
-===========================================================================
-
+---
+id: dxGallery.Options.items
+type: Array<String, dxGalleryItem, Object>
+firedEvents: optionChanged
+---

@@ -1,12 +1,9 @@
-<!--id-->dxFunnel.Options.label.border<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFunnel.Options.label.border
+type: Object
+---
+---
+##### shortDescription
 Configures the label borders.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,5 +1,14 @@
-<!--id-->dxMultiView<!--/id-->
-<!--widgettree-->
+---
+id: dxMultiView
+module: ui/multi_view
+export: default
+inherits: CollectionWidget
+---
+---
+##### shortDescription
+The **MultiView** is a widget that contains several views. An end user navigates through the views by swiping them in the horizontal direction.
+
+##### widgettree
 dataSource: [
     { text: "Super Mart of the West" },
     { text: "Electronics Depot" },
@@ -7,21 +16,11 @@ dataSource: [
 ],
 height: 300,
 loop: true
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/multi_view<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->CollectionWidget<!--/inherits-->
-<!--lib-->
+
+##### lib
 dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
 
-<!--shortDescription-->
-The **MultiView** is a widget that contains several views. An end user navigates through the views by swiping them in the horizontal direction. 
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/navigationmultiviewmultiviewmultiview/"
 }
@@ -32,4 +31,3 @@ The **MultiView** is a widget that contains several views. An end user navigates
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

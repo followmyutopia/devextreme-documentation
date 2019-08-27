@@ -1,13 +1,12 @@
-<!--id-->dxChart.Options.valueAxis.tickInterval<!--/id-->
-===========================================================================
-<!--inherits-->VizTimeInterval<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.valueAxis.tickInterval
+inherits: VizTimeInterval
+---
+---
+##### shortDescription
 Specifies the interval between [major ticks](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/tick/). Does not apply to [discrete axes](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#type).
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 If the axis displays numbers, set the **tickInterval** to a number. This number should fall into a range of 0 to 1 for a full-stacked series. For example, a **tickInterval** of 0.2 places a tick every 20%. If the axis displays date-time values, set the **tickInterval** to an accepted string value or object that contains one of the fields described in this section, for example:
 
 ---
@@ -54,4 +53,3 @@ When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_M
 #####See Also#####
 - **valueAxis**.[tick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/tick/)
 - **valueAxis**.[minorTickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/minorTickInterval/)
-<!--/fullDescription-->

@@ -1,14 +1,13 @@
-<!--id-->dxDateBox.Options.calendarOptions<!--/id-->
-===========================================================================
-<!--default-->{}<!--/default-->
-<!--type-->dxCalendar_Options<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDateBox.Options.calendarOptions
+type: dxCalendar_Options
+default: {}
+---
+---
+##### shortDescription
 Configures the calendar's value picker. Applies only if the [pickerType](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#pickerType) is *"calendar"*.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 You can specify most of the [Calendar options](/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/) in this object except those listed below. These options are overridden by their **DateBox** counterparts.
 
 - [dateSerializationFormat](/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#dateSerializationFormat)
@@ -138,4 +137,3 @@ You can specify most of the [Calendar options](/Documentation/ApiReference/UI_Wi
 ---
 
 #include widgets-config-object-option-note
-<!--/fullDescription-->

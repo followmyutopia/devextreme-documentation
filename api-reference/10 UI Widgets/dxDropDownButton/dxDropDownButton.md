@@ -1,5 +1,14 @@
-<!--id-->dxDropDownButton<!--/id-->
-<!--widgettree-->
+---
+id: dxDropDownButton
+module: ui/drop_down_button
+export: default
+inherits: Widget,DataHelperMixin
+---
+---
+##### shortDescription
+The **DropDownButton** is a button that opens a drop-down menu.
+
+##### widgettree
 displayExpr: "name",
 keyExpr: "id",
 selectedItemKey: 1,
@@ -12,18 +21,8 @@ items: [
     {id: 2, name: "Center", icon: "aligncenter"},
     {id: 3, name: "Justify", icon: "alignjustify"}
 ]
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/drop_down_button<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->Widget,DataHelperMixin<!--/inherits-->
-===========================================================================
 
-<!--shortDescription-->
-The **DropDownButton** is a button that opens a drop-down menu.
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include common-tutorialbutton with {
     url: "/Documentation/Guide/Widgets/DropDownButton/Getting_Started_with_DropDownButton/"
 }
@@ -34,4 +33,3 @@ The **DropDownButton** is a button that opens a drop-down menu.
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

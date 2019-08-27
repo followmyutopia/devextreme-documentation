@@ -1,18 +1,14 @@
-<!--id-->HierarchicalCollectionWidget.Options.displayExpr<!--/id-->
-===========================================================================
-<!--default-->'text'<!--/default-->
-<!--type-->String | function(item)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: HierarchicalCollectionWidget.Options.displayExpr
+type: String | function(item)
+default: 'text'
+---
+---
+##### shortDescription
 Specifies the data field whose values should be displayed.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-#include uiwidgets-ref-displayExpr
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->item<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
+##### param(item): Object
 The current item's data object.
-<!--/typeFunctionParamDescription1-->
+
+---
+#include uiwidgets-ref-displayExpr

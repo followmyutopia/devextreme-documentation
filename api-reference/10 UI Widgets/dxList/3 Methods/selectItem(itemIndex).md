@@ -1,18 +1,14 @@
-<!--id-->dxList.selectItem(itemIndex)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxList.selectItem(itemIndex)
+---
+---
+##### shortDescription
 Selects an item with a specific index.
-<!--/shortDescription-->
 
-<!--paramName1-->itemIndex<!--/paramName1-->
-<!--paramType1-->Number|Object<!--/paramType1-->
-<!--paramDescription1-->
+##### param(itemIndex): Number | Object
 The item's index. If items are grouped, the index represents an object defining the group and item indexes: { group: 0, item: 0 }.
-<!--/paramDescription1-->
 
-<!--fullDescription-->
+---
 Note that the result of the method execution depends on the current value of the [selectionMode](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#selectionMode) option that accepts the following values.
 
 - **none**  
@@ -27,4 +23,3 @@ Note that the result of the method execution depends on the current value of the
 #####See Also#####
 #include common-link-callmethods
 - [List - Selection API](/Documentation/Guide/Widgets/List/Selection/#API)
-<!--/fullDescription-->

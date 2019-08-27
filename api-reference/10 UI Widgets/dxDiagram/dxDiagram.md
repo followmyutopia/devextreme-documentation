@@ -1,11 +1,11 @@
-<!--id-->dxDiagram<!--/id-->
-===========================================================================
-<!--module-->ui/diagram<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->Widget<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDiagram
+module: ui/diagram
+export: default
+inherits: Widget
+---
+---
+##### shortDescription
 [tags] ctp
 
 The **Diagram** widget provides a visual interface to help you design new and modify existing diagrams. 
@@ -13,9 +13,8 @@ The **Diagram** widget provides a visual interface to help you design new and mo
 #include common-ctp-note with {
     component: "Diagram"
 }
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 #include common-tutorialbutton with {
     url: "/Documentation/Guide/Widgets/Diagram/Getting_Started_with_Diagram/" 
 }
@@ -26,4 +25,3 @@ The **Diagram** widget provides a visual interface to help you design new and mo
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

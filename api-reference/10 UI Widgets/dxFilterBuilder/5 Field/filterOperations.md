@@ -1,15 +1,14 @@
-<!--id-->dxFilterBuilderField.filterOperations<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--acceptValues-->'=' | '<>' | '<' | '<=' | '>' | '>=' | 'contains' | 'endswith' | 'isblank' | 'isnotblank' | 'notcontains' | 'startswith' | 'between'<!--/acceptValues-->
-<!--type-->Array<String><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFilterBuilderField.filterOperations
+acceptValues: '=' | '<>' | '<' | '<=' | '>' | '>=' | 'contains' | 'endswith' | 'isblank' | 'isnotblank' | 'notcontains' | 'startswith' | 'between'
+type: Array<String>
+default: undefined
+---
+---
+##### shortDescription
 Specifies a set of available filter operations.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The following table lists default operations by [data type](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#dataType):
 
 <div class="simple-table">
@@ -53,4 +52,3 @@ The *"isblank"* operation returns null values and empty strings; *"isnotblank"* 
     enum: "`FilterBuilderFieldFilterOperations`",
     values: "`Equal`, `NotEqual`, `LessThan`, `LessThanOrEqual`, `GreaterThan`, `GreaterThanOrEqual`, `Between`, `NotContains`, `Contains`, `StartsWith`, `EndsWith`, `IsBlank`, and `IsNotBlank`"
 }
-<!--/fullDescription-->

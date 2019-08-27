@@ -1,14 +1,13 @@
-<!--id-->dxMap.Options.markers.location<!--/id-->
-===========================================================================
-<!--type-->Object | String | Array<Number><!--/type-->
-<!--inherits-->MapLocation<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxMap.Options.markers.location
+type: Object | String | Array<Number>
+inherits: MapLocation
+---
+---
+##### shortDescription
 Specifies the marker location.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 You can specify the **location** value in one of the following formats.
 
  - { lat: 40.749825, lng: -73.987963}
@@ -31,4 +30,3 @@ When you use the **Map** as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NE
             markers.Add().Coordinates(40.74982, -73.987963)
         End Sub)
     )
-<!--/fullDescription-->

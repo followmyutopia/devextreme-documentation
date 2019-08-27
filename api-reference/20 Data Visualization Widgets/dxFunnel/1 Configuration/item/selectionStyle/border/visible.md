@@ -1,13 +1,10 @@
-<!--id-->dxFunnel.Options.item.selectionStyle.border.visible<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFunnel.Options.item.selectionStyle.border.visible
+type: Boolean
+default: undefined
+---
+---
+##### shortDescription
 Shows the selected funnel item's border.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,17 +1,10 @@
-<!--id-->GridBase.startSelectionWithCheckboxes()<!--/id-->
-===================================================================
-<!--hidden--><!--/hidden-->
-===================================================================
+---
+id: GridBase.startSelectionWithCheckboxes()
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
+##### return: Boolean
 
-<!--/shortDescription-->
-
-<!--returnType-->Boolean<!--/returnType-->
-<!--returnDescription-->
-
-<!--/returnDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,6 +1,5 @@
-<!--id-->dxDiagram.Options.zoomLevel.value<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
+---
+id: dxDiagram.Options.zoomLevel.value
+type: Number
+default: undefined
+---

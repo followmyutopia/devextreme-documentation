@@ -1,14 +1,13 @@
-<!--id-->globalConfig.defaultCurrency<!--/id-->
-===========================================================================
-<!--default-->'USD'<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: globalConfig.defaultCurrency
+type: String
+default: 'USD'
+---
+---
+##### shortDescription
 The default currency. Accepts a 3-letter <a href="https://www.currency-iso.org/en/home/tables/table-a1.html" target="_blank">ISO 4217</a> code.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 [note] [Reference Globalize or Intl](/Documentation/Guide/Common/Localization/#Localize_Dates_Numbers_and_Currencies/) if you specify a currency other than "USD".
 
 Assign the currency code to this field if you use Intl, or do the following if you use Globalize: 
@@ -22,4 +21,3 @@ Assign the currency code to this field if you use Intl, or do the following if y
 
 #####See Also#####
 - [Localization](/Documentation/Guide/Common/Localization/)
-<!--/fullDescription-->

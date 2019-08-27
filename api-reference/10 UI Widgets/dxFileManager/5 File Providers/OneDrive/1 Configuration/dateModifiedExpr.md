@@ -1,12 +1,8 @@
-<!--id-->OneDriveFileProvider.Options.dateModifiedExpr<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
+---
+id: OneDriveFileProvider.Options.dateModifiedExpr
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

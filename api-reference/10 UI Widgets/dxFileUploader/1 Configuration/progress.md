@@ -1,13 +1,10 @@
-<!--id-->dxFileUploader.Options.progress<!--/id-->
-===========================================================================
-<!--default-->0<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFileUploader.Options.progress
+type: Number
+default: 0
+---
+---
+##### shortDescription
 Gets the current progress in percentages.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

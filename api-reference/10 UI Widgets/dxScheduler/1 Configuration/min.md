@@ -1,13 +1,10 @@
-<!--id-->dxScheduler.Options.min<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Date | Number | String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxScheduler.Options.min
+type: Date | Number | String
+default: undefined
+---
+---
+##### shortDescription
 The earliest date the widget allows you to select.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

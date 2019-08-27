@@ -1,12 +1,9 @@
-<!--id-->dxValidationGroupResult<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxValidationGroupResult
+type: Object
+---
+---
+##### shortDescription
 A group validation result.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

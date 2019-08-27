@@ -1,16 +1,16 @@
-<!--id-->dxChartSeriesTypes.FullStackedSplineSeries<!--/id-->
-===========================================================================
-<!--hidePropertyOf--><!--/hidePropertyOf-->
-<!--type-->Object<!--/type-->
-<!--inherits-->dxChartSeriesTypes.CommonSeries<!--/inherits-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChartSeriesTypes.FullStackedSplineSeries
+type: Object
+inherits: dxChartSeriesTypes.CommonSeries
+---
+---
+##### shortDescription
 Describes settings supported by a series of the *full-stacked spline area* type.
 An object defining a series of the **fullStackedSpline** type.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### hidePropertyOf
+
+---
 #include dataviz-ref-series-type with { 
     seriesType: "fullstackedspline"
 }
@@ -20,4 +20,3 @@ An object defining a series of the **fullStackedSpline** type.
 }
 
 ![DevExtreme HTML5 Charts FullStackedSplineSeriesType](/Content/images/doc/19_2/ChartJS/FullStackedSpline.png)
-<!--/fullDescription-->

@@ -1,17 +1,14 @@
-<!--id-->dxOverlay.Options.width<!--/id-->
-===========================================================================
-<!--default-->function() {return $(window).width() * 0.8 }<!--/default-->
-<!--type-->Number | String | function()<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxOverlay.Options.width
+type: Number | String | function()
+default: function() {return $(window).width() * 0.8 }
+---
+---
+##### shortDescription
 Specifies the widget's width in pixels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-#include uiwidgets-ref-width
-<!--/fullDescription-->
-<!--typeFunctionReturnType-->Number|String<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
+##### return: Number | String
 The widget's width.
-<!--/typeFunctionReturnDescription-->
+
+---
+#include uiwidgets-ref-width

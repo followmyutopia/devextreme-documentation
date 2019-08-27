@@ -1,13 +1,18 @@
-<!--id-->GridBaseColumn.calculateCellValue<!--/id-->
-===========================================================================
-<!--type-->function(rowData)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBaseColumn.calculateCellValue
+type: function(rowData)
+---
+---
+##### shortDescription
 Calculates custom cell values. Use this function to create an unbound data column.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(rowData): Object
+The data of the row to which the cell belongs.
+
+##### return: any
+A cell's custom value.
+
+---
 Unlike data columns bound to a [data field]({basewidgetpath}/Configuration/columns/#dataField), unbound columns display custom values returned from the **calculateCellValue** function. It is called each time a new row is rendered.
 
 In the following code, the **calculateCellValue** function is used to create an unbound column that displays a calculated sales amount. Data objects contain the `Price` and `UnitsSold` fields used in the calculation:
@@ -367,14 +372,3 @@ To invoke the default behavior, call the **this.defaultCalculateCellValue(rowDat
 #####See Also#####
 - **columns[]**.[customizeText]({basewidgetpath}/Configuration/columns/#customizeText)
 - **columns[]**.[calculateDisplayValue]({basewidgetpath}/Configuration/columns/#calculateDisplayValue)
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->rowData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The data of the row to which the cell belongs.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->any<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A cell's custom value.
-<!--/typeFunctionReturnDescription-->

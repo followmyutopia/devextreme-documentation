@@ -1,5 +1,14 @@
-<!--id-->dxAccordion<!--/id-->
-<!--widgettree-->
+---
+id: dxAccordion
+module: ui/accordion
+export: default
+inherits: CollectionWidget
+---
+---
+##### shortDescription
+The **Accordion** widget contains several panels displayed one under another. These panels can be collapsed or expanded by an end user, which makes this widget very useful for presenting information in a limited amount of space.
+
+##### widgettree
 dataSource: [
 {
     title: "Personal Data",
@@ -9,21 +18,11 @@ dataSource: [
     title: "Contacts",
     text: "Phone: (555)555-5555, Email: John.Smith@example.com",
 }]
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/accordion<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->CollectionWidget<!--/inherits-->
-<!--lib-->
+
+##### lib
 dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
 
-<!--shortDescription-->
-The **Accordion** widget contains several panels displayed one under another. These panels can be collapsed or expanded by an end user, which makes this widget very useful for presenting information in a limited amount of space.
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/navigationaccordionaccordionaccordion/"
 }
@@ -34,4 +33,3 @@ The **Accordion** widget contains several panels displayed one under another. Th
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

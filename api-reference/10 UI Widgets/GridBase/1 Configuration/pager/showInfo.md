@@ -1,13 +1,10 @@
-<!--id-->GridBase.Options.pager.showInfo<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.pager.showInfo
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether to show the [page information]({basewidgetpath}/Configuration/pager/#infoText).
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

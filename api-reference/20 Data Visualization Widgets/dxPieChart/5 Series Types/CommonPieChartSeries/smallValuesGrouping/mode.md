@@ -1,15 +1,14 @@
-<!--id-->dxPieChartSeriesTypes.CommonPieChartSeries.smallValuesGrouping.mode<!--/id-->
-===========================================================================
-<!--default-->'none'<!--/default-->
-<!--acceptValues-->'none' | 'smallValueThreshold' | 'topN'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxPieChartSeriesTypes.CommonPieChartSeries.smallValuesGrouping.mode
+acceptValues: 'none' | 'smallValueThreshold' | 'topN'
+type: String
+default: 'none'
+---
+---
+##### shortDescription
 Specifies the segment grouping mode.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 If you need to group specific chart segments into one, set the options of the **smallValuesGrouping** configuration object. Using the **mode** option of this object, you can define the grouping mode.
 
 Use a *'topN'* mode to group all segments with an index that is equal to or greater than the value of the **topCount** option.
@@ -26,4 +25,3 @@ To switch the grouping off, assign *'none'* to the **mode** option.
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartsdoughnutseriesdoughnutwithtopnseries/"
 }
-<!--/fullDescription-->

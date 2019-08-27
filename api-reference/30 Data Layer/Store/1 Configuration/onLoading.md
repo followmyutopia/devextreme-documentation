@@ -1,14 +1,16 @@
-<!--id-->Store.Options.onLoading<!--/id-->
-<!--EventForAction-->Store.loading<!--/EventForAction-->
-===========================================================================
-<!--type-->function(loadOptions)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Store.Options.onLoading
+type: function(loadOptions)
+EventForAction: Store.loading
+---
+---
+##### shortDescription
 A function that is executed before data is loaded to the store.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(loadOptions): LoadOptions
+Data processing settings.
+
+---
 ---
 ##### jQuery
 
@@ -36,9 +38,3 @@ A function that is executed before data is loaded to the store.
     }
     
 ---
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->loadOptions<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->LoadOptions<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Data processing settings.
-<!--/typeFunctionParamDescription1-->

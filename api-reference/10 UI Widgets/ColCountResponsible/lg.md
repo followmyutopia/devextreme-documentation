@@ -1,13 +1,10 @@
-<!--id-->ColCountResponsible.lg<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: ColCountResponsible.lg
+type: Number
+default: undefined
+---
+---
+##### shortDescription
 The count of columns for a large screen size.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

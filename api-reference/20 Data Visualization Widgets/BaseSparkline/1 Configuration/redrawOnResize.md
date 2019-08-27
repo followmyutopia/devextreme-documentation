@@ -1,5 +1,4 @@
-<!--id-->BaseSparkline.Options.redrawOnResize<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: BaseSparkline.Options.redrawOnResize
+hidden: 
+---

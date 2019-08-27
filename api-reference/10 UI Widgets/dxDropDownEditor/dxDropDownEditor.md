@@ -1,18 +1,15 @@
-<!--id-->dxDropDownEditor<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--module-->ui/drop_down_editor/ui.drop_down_editor<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->dxTextBox<!--/inherits-->
-<!--lib-->
-dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDropDownEditor
+module: ui/drop_down_editor/ui.drop_down_editor
+export: default
+inherits: dxTextBox
+hidden: 
+---
+---
+##### shortDescription
 A drop-down editor widget.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### lib
+dx.web.js, dx.viz-web.js, dx.all.js
 
-<!--/fullDescription-->
+---

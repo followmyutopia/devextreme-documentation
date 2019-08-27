@@ -1,14 +1,13 @@
-<!--id-->dxTextEditor.Options.mask<!--/id-->
-===========================================================================
-<!--default-->''<!--/default-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTextEditor.Options.mask
+type: String
+default: ''
+---
+---
+##### shortDescription
 The editor mask that specifies the format of the entered string.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 A mask can contain the following elements.
 
 <div class="simple-table">
@@ -57,4 +56,3 @@ A mask can contain the following elements.
 </div>
 
 [note] To escape the masking elements, use the double backslash character (\\\). For example, *"000.\\\0\\\0"*.
-<!--/fullDescription-->

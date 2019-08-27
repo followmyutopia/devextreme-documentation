@@ -1,5 +1,14 @@
-<!--id-->dxTabPanel<!--/id-->
-<!--widgettree-->
+---
+id: dxTabPanel
+module: ui/tab_panel
+export: default
+inherits: dxMultiView
+---
+---
+##### shortDescription
+The **TabPanel** is a widget consisting of the [Tabs](/Documentation/Guide/Widgets/Tabs/Overview/) and [MultiView](/Documentation/Guide/Widgets/MultiView/Overview/) widgets. It automatically synchronizes the selected tab with the currently displayed view and vice versa.
+
+##### widgettree
 dataSource: [
         {
             title: "Info",
@@ -15,21 +24,11 @@ dataSource: [
         }
 ],
 height: 200
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/tab_panel<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->dxMultiView<!--/inherits-->
-<!--lib-->
+
+##### lib
 dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
 
-<!--shortDescription-->
-The **TabPanel** is a widget consisting of the [Tabs](/Documentation/Guide/Widgets/Tabs/Overview/) and [MultiView](/Documentation/Guide/Widgets/MultiView/Overview/) widgets. It automatically synchronizes the selected tab with the currently displayed view and vice versa.
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/navigationtabpaneltabpaneltabpanel/"
 }
@@ -40,4 +39,3 @@ The **TabPanel** is a widget consisting of the [Tabs](/Documentation/Guide/Widge
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

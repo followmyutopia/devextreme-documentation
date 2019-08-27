@@ -1,4 +1,8 @@
-<!--id-->circularRangeBar.color<!--/id-->
-<!--merge--><!--/merge-->
-<!--default-->'#CBC5CF'<!--/default-->
-===========================================================================
+---
+id: circularRangeBar.color
+default: '#CBC5CF'
+---
+---
+##### merge
+
+---

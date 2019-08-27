@@ -1,14 +1,10 @@
-<!--id-->dxDiagram.Options.autoZoom<!--/id-->
-===========================================================================
-<!--default-->'disabled'<!--/default-->
-<!--acceptValues-->'fitContent' | 'fitWidth' | 'disabled'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.autoZoom
+acceptValues: 'fitContent' | 'fitWidth' | 'disabled'
+type: String
+default: 'disabled'
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

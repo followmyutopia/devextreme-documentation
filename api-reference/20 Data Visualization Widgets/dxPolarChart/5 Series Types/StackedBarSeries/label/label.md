@@ -1,5 +1,4 @@
-<!--id-->dxPolarChartSeriesTypes.stackedbarpolarseries.label<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
+---
+id: dxPolarChartSeriesTypes.stackedbarpolarseries.label
+type: Object
+---

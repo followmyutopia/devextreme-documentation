@@ -1,13 +1,11 @@
-<!--id-->dxChart.Options.commonAxisSettings.title.margin<!--/id-->
-===========================================================================
-<!--default-->6<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonAxisSettings.title.margin
+type: Number
+default: 6
+---
+---
+##### shortDescription
 Adds a pixel-measured empty space between the axis title and axis labels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 ![DevExtreme HTML5 Charts AxesTitleMargin](/Content/images/doc/19_2/ChartJS/AxesTitleMargin.png)
-<!--/fullDescription-->

@@ -1,12 +1,9 @@
-<!--id-->ExcelFont<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: ExcelFont
+type: Object
+---
+---
+##### shortDescription
 An object that configures the font in an Excel cell.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

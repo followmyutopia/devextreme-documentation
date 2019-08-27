@@ -1,8 +1,7 @@
-===========================================================================
-<!--merge--><!--/merge-->
-===========================================================================
+---
+##### merge
 
-<!--fullDescription-->
+---
 #include uiwidgets-ref-width
 
 [note]
@@ -14,4 +13,3 @@ The widget has a minimum width that depends on the current theme. If the **width
 - iOS - 260x260
 
 [/note]
-<!--/fullDescription-->

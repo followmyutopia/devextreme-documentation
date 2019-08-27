@@ -1,12 +1,9 @@
-<!--id-->dxSankey.Options.label.shadow<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSankey.Options.label.shadow
+type: Object
+---
+---
+##### shortDescription
 Configures the labels' shadows.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

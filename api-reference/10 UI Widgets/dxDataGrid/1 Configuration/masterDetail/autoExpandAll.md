@@ -1,13 +1,11 @@
-<!--id-->dxDataGrid.Options.masterDetail.autoExpandAll<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.Options.masterDetail.autoExpandAll
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Specifies whether detail sections appear expanded or collapsed.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 [note]This feature is available only when all data is located locally.
-<!--/fullDescription-->

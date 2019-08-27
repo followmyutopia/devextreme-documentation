@@ -1,14 +1,10 @@
-<!--id-->dxDiagram.Options.document.pageOrientation<!--/id-->
-===========================================================================
-<!--default-->'portrait'<!--/default-->
-<!--acceptValues-->'portrait' | 'landscape'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
+---
+id: dxDiagram.Options.document.pageOrientation
+default: 'portrait'
+acceptValues: 'portrait' | 'landscape'
+type: String
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,13 +1,10 @@
-<!--id-->BaseWidget.Options.export.enabled<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseWidget.Options.export.enabled
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Enables the client-side exporting in the widget.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,6 +1,5 @@
-<!--id-->dxChartSeriesTypes.FullStackedAreaSeries.point.visible<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
+---
+id: dxChartSeriesTypes.FullStackedAreaSeries.point.visible
+type: Boolean
+default: false
+---

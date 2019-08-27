@@ -1,13 +1,12 @@
-<!--id-->dxTagBox.Options.selectedItems<!--/id-->
-===========================================================================
-<!--type-->Array<String, Number, Object><!--/type-->
-<!--readonly--><!--/readonly-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTagBox.Options.selectedItems
+type: Array<String, Number, Object>
+---
+---
+##### shortDescription
 Gets the currently selected items.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### readonly
+
+---
 [note]This option is read-only.
-<!--/fullDescription-->

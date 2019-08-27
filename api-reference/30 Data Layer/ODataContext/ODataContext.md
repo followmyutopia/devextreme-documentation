@@ -1,18 +1,17 @@
-<!--id-->ODataContext<!--/id-->
-===========================================================================
-<!--module-->data/odata/context<!--/module-->
-<!--export-->default<!--/export-->
-<!--type-->Object<!--/type-->
-<!--lib-->
-dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: ODataContext
+module: data/odata/context
+export: default
+type: Object
+---
+---
+##### shortDescription
 The **ODataContent** is an object that provides access to an entire OData service.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### lib
+dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
+
+---
 This object creates several [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/) instances. Each instance accesses an individual entity collection.
 
 ---
@@ -144,4 +143,3 @@ This object creates several [ODataStore](/Documentation/ApiReference/Data_Layer/
 
 #####See Also#####
 - [DataSource Examples - OData](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData)
-<!--/fullDescription-->

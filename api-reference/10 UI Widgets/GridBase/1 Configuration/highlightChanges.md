@@ -1,14 +1,13 @@
-<!--id-->GridBase.Options.highlightChanges<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
+---
+id: GridBase.Options.highlightChanges
+type: Boolean
+default: false
+---
+---
+##### shortDescription
+Specifies whether to highlight rows and cells whose data changed.
 
-<!--shortDescription-->
-Specifies whether to highlight rows and cells whose data changed. 
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 You can change the following CSS rules and classes that control highlighting:
 
     <!--CSS-->
@@ -26,5 +25,3 @@ You can change the following CSS rules and classes that control highlighting:
     .dx-{widgetname}-row-inserted-animation {
         animation: dx-{widgetname}-highlight-change 1s;
     }
-
-<!--/fullDescription-->

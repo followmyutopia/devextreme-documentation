@@ -1,13 +1,10 @@
-<!--id-->dxFunnel.Options.inverted<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFunnel.Options.inverted
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Turns the funnel upside down.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

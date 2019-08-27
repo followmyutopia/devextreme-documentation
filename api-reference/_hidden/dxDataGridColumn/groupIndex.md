@@ -1,15 +1,14 @@
-<!--id-->dxDataGridColumn.groupIndex<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Number<!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGridColumn.groupIndex
+type: Number
+default: undefined
+firedEvents: optionChanged
+---
+---
+##### shortDescription
 Specifies the index of a column when grid records are [grouped](/Documentation/Guide/Widgets/DataGrid/Grouping/) by the values of this column.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 At runtime, the user can group grid records using the [context menu](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#contextMenuEnabled) or the [group panel](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/groupPanel/). But there may be cases when grid records must be grouped initially. To do this, assign an integer value to the **groupIndex** option of those columns that should be used for grouping grid records. For example, consider the following data source.
 
     <!--JavaScript-->var dataSource = [
@@ -63,5 +62,3 @@ To group these records first by the *"LastName"* field and then by the *"FirstNa
 
 #####See Also#####
 -[Initial and Runtime Grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/#API/Initial_and_Runtime_Grouping)
-
-<!--/fullDescription-->

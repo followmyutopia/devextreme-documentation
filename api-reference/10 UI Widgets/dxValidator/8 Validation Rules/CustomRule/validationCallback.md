@@ -1,13 +1,30 @@
-<!--id-->CustomRule.validationCallback<!--/id-->
-===========================================================================
-<!--type-->function(options)<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: CustomRule.validationCallback
+type: function(options)
+---
+---
+##### shortDescription
 A function that validates the target value.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### param(options): Object
+An object defining validation parameters.
+
+##### field(options.data): Object
+The current row data. Exists only when you validate a [DataGrid](/Documentation/ApiReference/UI_Widgets/dxDataGrid) or [TreeList](/Documentation/ApiReference/UI_Widgets/dxTreeList) cell's value.
+
+##### field(options.rule): Object
+The current rule object that exposes user-defined options, the **isValid** and **message** fields, and the rule type-specific fields.
+
+##### field(options.validator): Object
+The [Validator](/Documentation/ApiReference/UI_Widgets/dxValidator) object that initiated the validation.
+
+##### field(options.value): String | Number
+The validated value.
+
+##### return: Boolean
+A Boolean value that indicates whether the validated value is valid against the checked rule.
+
+---
 In the following code, only odd numbers are considered valid:
 
 ---
@@ -62,35 +79,3 @@ In the following code, only odd numbers are considered valid:
 ---
 
 See [this](/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/#Server-Side_Validation) topic for a server-side validation example.
-
-<!--/fullDescription-->
-<!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-An object defining validation parameters.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->String | Number<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The validated value.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->rule<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->Object<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-The current rule object that exposes user-defined options, the **isValid** and **message** fields, and the rule type-specific fields.
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->validator<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The [Validator](/Documentation/ApiReference/UI_Widgets/dxValidator) object that initiated the validation.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->data<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-The current row data. Exists only when you validate a [DataGrid](/Documentation/ApiReference/UI_Widgets/dxDataGrid) or [TreeList](/Documentation/ApiReference/UI_Widgets/dxTreeList) cell's value.
-<!--/typeFunctionParamDescription1_field4-->
-
-<!--typeFunctionReturnType-->Boolean<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A Boolean value that indicates whether the validated value is valid against the checked rule.
-<!--/typeFunctionReturnDescription-->

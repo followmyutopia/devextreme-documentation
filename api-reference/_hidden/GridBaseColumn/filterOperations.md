@@ -1,15 +1,14 @@
-<!--id-->GridBaseColumn.filterOperations<!--/id-->
-===========================================================================
-<!--default-->undefined<!--/default-->
-<!--acceptValues-->'=' | '<>' | '<' | '<=' | '>' | '>=' | 'notcontains' | 'contains' | 'startswith' | 'endswith' | 'between'<!--/acceptValues-->
-<!--type-->Array<String><!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBaseColumn.filterOperations
+acceptValues: '=' | '<>' | '<' | '<=' | '>' | '>=' | 'notcontains' | 'contains' | 'startswith' | 'endswith' | 'between'
+type: Array<String>
+default: undefined
+---
+---
+##### shortDescription
 Specifies a set of available filter operations. Applies only if [filterRow]({basewidgetpath}/Configuration/filterRow/).**visible** and [allowFiltering]({basewidgetpath}/Configuration/columns/#allowFiltering) are **true**.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The following table lists available filters by [data types]({basewidgetpath}/Configuration/columns/#dataType). The same filters are assigned to columns of a specific data type by default.
 
 <div class="simple-table">
@@ -47,4 +46,3 @@ The **filterOperations** option can also accept an empty array. In this case, th
 #####See Also#####
 - **columns[]**.[selectedFilterOperation]({basewidgetpath}/Configuration/columns/#selectedFilterOperation)
 - **columns[]**.[filterValue]({basewidgetpath}/Configuration/columns/#filterValue)
-<!--/fullDescription-->

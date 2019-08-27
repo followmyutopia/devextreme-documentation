@@ -1,13 +1,11 @@
-<!--id-->dxVectorMap.Options.touchEnabled<!--/id-->
-===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxVectorMap.Options.touchEnabled
+type: Boolean
+default: true
+---
+---
+##### shortDescription
 Specifies whether the map should respond to touch gestures.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Assign **false** to this option if your map is not supposed to be viewed on touch-enabled devices.
-<!--/fullDescription-->

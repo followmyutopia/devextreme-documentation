@@ -1,14 +1,13 @@
-<!--id-->dxDataGrid.Options.masterDetail.enabled<!--/id-->
-===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxDataGrid.Options.masterDetail.enabled
+type: Boolean
+default: false
+---
+---
+##### shortDescription
 Enables an end-user to expand/collapse detail sections.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 If you set this option to **true**, each grid row will be supplied with an arrow that allows an end-user to expand/collapse the detail section of this row.
 
 If the **masterDetail**.**enabled** option is **false**, the expanding arrows are missing. It makes detail sections unreachable for an end-user.
@@ -21,4 +20,3 @@ Setting this option to **false** is recommended if you need a custom logic of ex
 
 #####See Also#####
 - [Master-Detail Interface](/Documentation/Guide/Widgets/DataGrid/Master-Detail_Interface/)
-<!--/fullDescription-->

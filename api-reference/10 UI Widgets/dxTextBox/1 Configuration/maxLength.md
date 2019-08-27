@@ -1,15 +1,11 @@
-<!--id-->dxTextBox.Options.maxLength<!--/id-->
-===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->String | Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTextBox.Options.maxLength
+type: String | Number
+default: null
+---
+---
+##### shortDescription
 Specifies the maximum number of characters you can enter into the textbox.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 If the number of entered characters reaches the value assigned to this option, the widget does not allow you to enter any more characters.
-
-
-<!--/fullDescription-->

@@ -1,14 +1,10 @@
-<!--id-->SearchBoxMixin<!--/id-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-<!--module-->ui/widget/ui.search_box_mixin<!--/module-->
-<!--export-->default<!--/export-->
-===========================================================================
+---
+id: SearchBoxMixin
+module: ui/widget/ui.search_box_mixin
+export: default
+hidden: 
+---
+---
+##### shortDescription
 
-<!--shortDescription-->
-
-<!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

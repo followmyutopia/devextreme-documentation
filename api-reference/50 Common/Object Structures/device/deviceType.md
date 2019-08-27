@@ -1,15 +1,13 @@
-<!--id-->Device.deviceType<!--/id-->
-===========================================================================
-<!--acceptValues-->'phone' | 'tablet' | 'desktop'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: Device.deviceType
+acceptValues: 'phone' | 'tablet' | 'desktop'
+type: String
+---
+---
+##### shortDescription
 Specifies the type of the device on which the application is running.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The device type can influence how widgets are displayed and behave in the application.
 
 [note]Use this field, as well as the [platform](/Documentation/ApiReference/Common/Object_Structures/device/#platform) and [version](/Documentation/ApiReference/Common/Object_Structures/device/#version) fields, to define a device passed to the [DevExpress.devices.current(device)](/Documentation/ApiReference/Common/Utils/devices/Methods/#currentdeviceName) method. In this instance, a particular [predefined theme](/Documentation/Guide/Themes_and_Styles/Predefined_Themes/) will always be applied to your DevExtreme application wherever the application runs.
-<!--/fullDescription-->

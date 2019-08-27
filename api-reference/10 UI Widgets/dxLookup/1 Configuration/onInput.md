@@ -1,6 +1,5 @@
-<!--id-->dxLookup.Options.onInput<!--/id-->
-<!--EventForAction-->dxLookup.input<!--/EventForAction-->
-===========================================================================
-<!--hidden--><!--/hidden-->
-===========================================================================
-
+---
+id: dxLookup.Options.onInput
+hidden: 
+EventForAction: dxLookup.input
+---

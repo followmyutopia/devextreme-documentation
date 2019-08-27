@@ -1,12 +1,8 @@
-===========================================================================
-===========================================================================
-
-<!--shortDescription-->
+---
+##### shortDescription
 A class used to display a field value containing a widget within the [dx-field](/Documentation/ApiReference/UI_Widgets/CSS_Classes/#dx-field) element.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
+---
 - [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
@@ -91,4 +87,3 @@ DevExtreme UI widgets includes <a href="http://www.w3.org/WAI/intro/aria.php" ta
     .dx-field-value {
         float: left;
     }
-<!--/fullDescription-->

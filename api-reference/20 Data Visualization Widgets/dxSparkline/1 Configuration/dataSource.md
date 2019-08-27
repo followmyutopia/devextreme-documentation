@@ -1,14 +1,14 @@
-<!--id-->dxSparkline.Options.dataSource<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->Array<any> | DataSource | DataSource_Options | String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxSparkline.Options.dataSource
+type: Array<any> | DataSource | DataSource_Options | String
+---
+---
+##### shortDescription
 Binds the widget to data.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### notUsedInTheme
+
+---
 #include common-dataSource-description with {
     widget_works_with: "The **Sparkline** works with collections of objects.",
 
@@ -16,4 +16,3 @@ Binds the widget to data.
 
     array_view_demo: "[View Demo](/Demos/WidgetsGallery/Demo/Charts/SimpleSparklines/jQuery/Light/)"
 }
-<!--/fullDescription-->

@@ -1,13 +1,12 @@
-<!--id-->dxTreeMap.Options.colorizer<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMap.Options.colorizer
+type: Object
+---
+---
+##### shortDescription
 Manages the color settings.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 There are several approaches to colorizing tiles.
 
  - Colorizing each tile uniquely into the [color specified directly](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#colorField) in the data object.      
@@ -23,4 +22,3 @@ To find out how else you can colorize tiles, see the [colorField](/Documentation
     url: "/Demos/WidgetsGallery/Demo/Charts/Colorization/jQuery/Light/"
 }
 <a href="https://www.youtube.com/watch?v=xTyN69v7kWU&index=5&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">Watch Video</a>
-<!--/fullDescription-->

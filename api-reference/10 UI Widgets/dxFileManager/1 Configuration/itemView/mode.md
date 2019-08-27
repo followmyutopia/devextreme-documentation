@@ -1,15 +1,14 @@
-<!--id-->dxFileManager.Options.itemView.mode<!--/id-->
-===========================================================================
-<!--default-->'details'<!--/default-->
-<!--acceptValues-->'details' | 'thumbnails'<!--/acceptValues-->
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxFileManager.Options.itemView.mode
+acceptValues: 'details' | 'thumbnails'
+type: String
+default: 'details'
+---
+---
+##### shortDescription
 Specifies the file system representation mode.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 A user can use the view switcher on the toolbar to switch between the modes.
 
 <!-- IMAGE -->
@@ -17,4 +16,3 @@ A user can use the view switcher on the toolbar to switch between the modes.
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/FileManager/BindingToHierarchicalStructure/jQuery/Light/"
 }
-<!--/fullDescription-->

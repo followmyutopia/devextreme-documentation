@@ -1,13 +1,10 @@
-<!--id-->BaseGauge.Options.scale.tick.width<!--/id-->
-===========================================================================
-<!--default-->2<!--/default-->
-<!--type-->Number<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: BaseGauge.Options.scale.tick.width
+type: Number
+default: 2
+---
+---
+##### shortDescription
 Specifies the width of the scale's major ticks.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

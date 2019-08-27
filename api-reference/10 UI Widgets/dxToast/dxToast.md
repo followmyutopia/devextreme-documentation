@@ -1,23 +1,22 @@
-<!--id-->dxToast<!--/id-->
-<!--widgettree-->
+---
+id: dxToast
+module: ui/toast
+export: default
+inherits: dxOverlay
+---
+---
+##### shortDescription
+The **Toast** is a widget that provides pop-up notifications.
+
+##### widgettree
 displayTime: 20000,
 visible: true,
 message: "Toast message"
-<!--/widgettree-->
-===========================================================================
-<!--module-->ui/toast<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->dxOverlay<!--/inherits-->
-<!--lib-->
+
+##### lib
 dx.web.js, dx.viz-web.js, dx.all.js
-<!--/lib-->
-===========================================================================
 
-<!--shortDescription-->
-The **Toast** is a widget that provides pop-up notifications.
-<!--/shortDescription-->
-
-<!--fullDescription-->
+---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/dialogsandnotificationstoasttoasttoast/"
 }
@@ -28,4 +27,3 @@ The **Toast** is a widget that provides pop-up notifications.
 #####See Also#####
 #include common-link-setupdevextreme
 #include common-link-configurewidget
-<!--/fullDescription-->

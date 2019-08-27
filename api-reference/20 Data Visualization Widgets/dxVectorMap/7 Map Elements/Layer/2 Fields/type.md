@@ -1,12 +1,9 @@
-<!--id-->MapLayer.type<!--/id-->
-===========================================================================
-<!--type-->String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: MapLayer.type
+type: String
+---
+---
+##### shortDescription
 The layer type. Can be *"area"*, *"line"* or *"marker"*.
-<!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
+---

@@ -1,23 +1,17 @@
-<!--id-->Query.sortBy(getter)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: Query.sortBy(getter)
+---
+---
+##### shortDescription
 Sorts data items by the specified [getter](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters) in ascending order.
-<!--/shortDescription-->
 
-<!--paramName1-->getter<!--/paramName1-->
-<!--paramType1-->Object<!--/paramType1-->
-<!--paramDescription1-->
-A getter; in most cases, the name of the data field to sort by.
-<!--/paramDescription1-->
-
-<!--returnType-->Query<!--/returnType-->
-<!--returnDescription-->
+##### return: Query
 The **Query** with transformed data.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+##### param(getter): Object
+A getter; in most cases, the name of the data field to sort by.
+
+---
 ---
 ##### jQuery
 
@@ -77,4 +71,3 @@ To sort data items by one more getter, call the [thenBy(getter)](/Documentation/
 
 #####See Also#####
 - [Sorting](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Sorting)
-<!--/fullDescription-->

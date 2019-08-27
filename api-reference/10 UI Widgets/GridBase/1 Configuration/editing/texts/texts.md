@@ -1,13 +1,12 @@
-<!--id-->GridBase.Options.editing.texts<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: GridBase.Options.editing.texts
+type: Object
+---
+---
+##### shortDescription
 Contains options that specify texts for editing-related UI elements.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 The following code shows the **editing**.**texts** declaration syntax:
 
 ---
@@ -132,4 +131,3 @@ The following code shows the **editing**.**texts** declaration syntax:
     export default App;
 
 ---
-<!--/fullDescription-->

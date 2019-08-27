@@ -1,34 +1,23 @@
-<!--id-->animationPresets.registerPreset(name, config)<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: animationPresets.registerPreset(name, config)
+---
+---
+##### shortDescription
 Adds an animation with a specific name to the animation repository.
-<!--/shortDescription-->
 
-<!--paramName1-->name<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
-<!--paramDescription1-->
+##### param(name): String
 The animation's name.
-<!--/paramDescription1-->
 
-<!--paramName2-->config<!--/paramName2-->
-<!--paramType2-->Object<!--/paramType2-->
-<!--paramDescription2-->
+##### param(config): Object
 Information on the animation.
-<!--/paramDescription2-->
-<!--paramName2_field1-->animation<!--/paramName2_field1-->
-<!--paramType2_field1-->animationConfig<!--/paramType2_field1-->
-<!--paramDescription2_field1-->
-The animation's configuration.
-<!--/paramDescription2_field1-->
-<!--paramName2_field2-->device<!--/paramName2_field2-->
-<!--paramType2_field2-->Device<!--/paramType2_field2-->
-<!--paramDescription2_field2-->
-The animation's target device.
-<!--/paramDescription2_field2-->
 
-<!--fullDescription-->
+##### field(config.animation): animationConfig
+The animation's configuration.
+
+##### field(config.device): Device
+The animation's target device.
+
+---
 The animation repository allows you to store common animations that can be used for different elements in an application/site. These common animations are the presets that are registered by certain names. These presets can define the same animation, thus they have the same name, but be targeted for different devices, thus they have different animation configurations. Here is an example of an iOS-specific animation preset registered by the "my-animation" name.
 
     <!--JavaScript-->DevExpress.animationPresets.registerPreset('my-animation', {
@@ -57,4 +46,3 @@ You can register several animation presets common for all devices and then use t
     DevExpress.animationPresets.registerPreset('view-content-change', { animation: 'fade', device: { deviceType: 'desktop', platform: 'generic' } } );
 
 [note]The changes performed by the **registerPreset(name, config)** method are not applied to the animation repository automatically. You should also call the [applyChanges()](/Documentation/ApiReference/Common/utils/animationPresets/#applyChanges) method then. But consider calling the latter method once after you made all the required changes, because a single update of the repository takes less time then the updates performed each time you make a change.
-<!--/fullDescription-->

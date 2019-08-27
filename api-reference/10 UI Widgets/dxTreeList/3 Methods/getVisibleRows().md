@@ -1,19 +1,15 @@
-<!--id-->dxTreeList.getVisibleRows()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeList.getVisibleRows()
+---
+---
+##### shortDescription
 Gets currently rendered rows.
-<!--/shortDescription-->
 
-<!--returnType-->Array<dxTreeListRowObject><!--/returnType-->
-<!--returnDescription-->
-Currently rendered rows. 
-<!--/returnDescription-->
+##### return: Array<dxTreeListRowObject>
+Currently rendered rows.
 
-<!--fullDescription-->
+---
 #####See Also#####
 #include common-link-callmethods
 - [Row Structure](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/)
 - [getVisibleColumns()]({basewidgetpath}/Methods/#getVisibleColumns)
-<!--/fullDescription-->

@@ -1,14 +1,14 @@
-<!--id-->dxRangeSelector.Options.dataSource<!--/id-->
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->Array<any> | DataSource | DataSource_Options | String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxRangeSelector.Options.dataSource
+type: Array<any> | DataSource | DataSource_Options | String
+---
+---
+##### shortDescription
 Specifies a data source for the scale values and for the [chart](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/chart/) at the background.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+##### notUsedInTheme
+
+---
 Use this property in the following cases:
 
 * to initialize a scale with data from one of the data source fields. Set the **dataSourceField** property to specify which field to use as the source for scale values.
@@ -23,4 +23,3 @@ For details on how to configure a data source, refer to the [Data Binding](/Docu
 - [getDataSource()]({basewidgetpath}/Methods/#getDataSource)
 - [Data Layer - Overview](/Documentation/Guide/Data_Layer/Data_Layer)
 - [Data Layer - Data Source Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples)
-<!--/fullDescription-->

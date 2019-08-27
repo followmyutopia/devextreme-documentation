@@ -1,16 +1,12 @@
-<!--id-->dxTreeMapNode.value()<!--/id-->
-===================================================================
-===================================================================
-
-<!--shortDescription-->
+---
+id: dxTreeMapNode.value()
+---
+---
+##### shortDescription
 Gets the raw value of the node.
-<!--/shortDescription-->
 
-<!--returnType-->Number<!--/returnType-->
-<!--returnDescription-->
+##### return: Number
 The raw value of the node.
-<!--/returnDescription-->
 
-<!--fullDescription-->
+---
 [note]If the node is a group, this method returns the sum total of values of all nested nodes.
-<!--/fullDescription-->

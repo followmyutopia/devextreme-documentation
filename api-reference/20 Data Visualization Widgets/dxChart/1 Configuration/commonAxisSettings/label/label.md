@@ -1,13 +1,12 @@
-<!--id-->dxChart.Options.commonAxisSettings.label<!--/id-->
-===========================================================================
-<!--type-->Object<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
+---
+id: dxChart.Options.commonAxisSettings.label
+type: Object
+---
+---
+##### shortDescription
 Configures axis labels.
-<!--/shortDescription-->
 
-<!--fullDescription-->
+---
 Axis labels display the values of [major axis ticks](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/tick/).
 
 ![DevExtreme HTML5 Charts AxisLabels](/Content/images/doc/19_2/ChartJS/visual_elements/axis_labels.png)
@@ -18,4 +17,3 @@ The **commonAxisSettings**.**label** object, which is described here, specifies 
 - **valueAxis**.[label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/label/)       
 
 Axis-specific settings override common settings.
-<!--/fullDescription-->
