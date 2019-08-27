@@ -10,6 +10,9 @@ Specifies the data field whose values should be displayed. Defaults to *"text"* 
 ##### param(item): Object
 The current item's data object.
 
+##### return: String
+<!-- Description goes here -->
+
 ---
 #include uiwidgets-ref-displayExpr
 

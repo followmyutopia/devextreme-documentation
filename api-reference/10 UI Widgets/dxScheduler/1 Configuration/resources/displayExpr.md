@@ -10,6 +10,9 @@ Specifies which field from the [resource data objects](/Documentation/ApiReferen
 ##### param(resource): Object
 The current resource's data object.
 
+##### return: String
+<!-- Description goes here -->
+
 ---
 #include uiwidgets-ref-displayExpr
 

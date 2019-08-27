@@ -10,6 +10,9 @@ Specifies the data field whose values should be displayed.
 ##### param(data): Object
 The current data object.
 
+##### return: String
+<!-- Description goes here -->
+
 ---
 #include uiwidgets-ref-displayExpr
 

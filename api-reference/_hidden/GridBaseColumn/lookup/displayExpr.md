@@ -10,6 +10,9 @@ Specifies the data source field whose values must be displayed.
 ##### param(data): Object
 A row's data.
 
+##### return: String
+<!-- Description goes here -->
+
 ---
 This option accepts a string - the name of the data field that provides displayed values, or a function that returns the displayed value.
 
