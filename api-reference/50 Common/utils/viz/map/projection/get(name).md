@@ -1,5 +1,6 @@
 ---
 id: viz.map.projection.get(name)
+hidden: 
 ---
 ---
 ##### shortDescription
