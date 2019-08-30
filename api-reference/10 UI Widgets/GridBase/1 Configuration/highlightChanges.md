@@ -1,11 +1,11 @@
 ---
 id: GridBase.Options.highlightChanges
-type: Boolean
 default: false
+type: Boolean
 ---
 ---
 ##### shortDescription
-Specifies whether to highlight rows and cells whose data changed.
+Specifies whether to highlight rows and cells with edited data. [repaintChangesOnly]({basewidgetpath}/Configuration/#repaintChangesOnly) should be **true**.
 
 ---
 You can change the following CSS rules and classes that control highlighting:
