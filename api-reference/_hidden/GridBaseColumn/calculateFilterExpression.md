@@ -17,7 +17,8 @@ The UI element where the filter expression was set.
 Possible values: *"filterRow"*, *"headerFilter"*, *"filterBuilder", and *"search"*.
 
 ##### return: Filter expression
-A filter expression.
+A filter expression. If you are using [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/), it should not contain functions.
+
 
 ---
 This function must return a [filter expression](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering). The simplest filter expression has the following format:
@@ -97,8 +98,9 @@ In the following code, the **calculateFilterExpression** function implements an 
     
 ---
 
-In the previous code, the **defaultCalculateFilterExpression** function invokes the default behavior. You can omit the function call if you do not need it. 
+In the previous code, the **defaultCalculateFilterExpression** function invokes default behavior. You can omit this function call if you so choose.
 
 #include uiwidgets-ref-functioncontext with { 
     value: "column's configuration"
 }
+

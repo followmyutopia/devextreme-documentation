@@ -77,6 +77,8 @@ The following restrictions apply to widget functionality when operations are rem
 
 - [Custom summary calculation](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/#calculateCustomSummary) is not supported.
 
+- The [calculateFilterExpression](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateFilterExpression) option does not apply if it returns a function or a filter expression that contains functions.
+
 #include common-demobutton-named with {
     name: "Web API Service",
     url: "/Demos/WidgetsGallery/Demo/DataGrid/WebAPIService/jQuery/Light/"
@@ -88,3 +90,4 @@ The following restrictions apply to widget functionality when operations are rem
 
 #####See Also#####
 - **Data Binding**: [Web API Service](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Web_API_Service/) | [PHP Service](/Documentation/Guide/Widgets/DataGrid/Data_Binding/PHP_Service/) | [MongoDB Service](/Documentation/Guide/Widgets/DataGrid/Data_Binding/MongoDB_Service/) | [Custom Sources](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Custom_Sources/)
+
