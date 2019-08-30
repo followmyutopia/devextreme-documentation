@@ -126,5 +126,9 @@ Band columns can have the following properties only:
 - [visible]({basewidgetpath}/Configuration/columns/#visible)
 - [visibleIndex]({basewidgetpath}/Configuration/columns/#visibleIndex)
 
+[note] Band columns cannot nest [command columns](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Types/Command_Columns/).
+
 #####See Also#####
+
 - [Band Columns](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Types/Band_Columns/)
+<!--/fullDescription-->
