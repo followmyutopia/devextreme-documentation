@@ -1,7 +1,7 @@
 ---
 id: dxScheduler.Options.editing.allowDragging
 type: Boolean
-default: true, false (Android, iOS, Windows_Mobile)
+default: true, false (Android, iOS)
 ---
 ---
 ##### shortDescription

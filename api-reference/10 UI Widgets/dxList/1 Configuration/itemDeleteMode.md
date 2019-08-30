@@ -2,7 +2,7 @@
 id: dxList.Options.itemDeleteMode
 acceptValues: 'context' | 'slideButton' | 'slideItem' | 'static' | 'swipe' | 'toggle'
 type: String
-default: 'static', 'slideItem' (iOS), 'swipe' (Android), 'context' (Windows_Mobile)
+default: 'static', 'slideItem' (iOS), 'swipe' (Android)
 ---
 ---
 ##### shortDescription

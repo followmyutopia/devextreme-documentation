@@ -1,6 +1,6 @@
 ---
 id: Device.platform
-acceptValues: 'android' | 'ios' | 'win' | 'generic'
+acceptValues: 'android' | 'ios' | 'generic'
 type: String
 ---
 ---
