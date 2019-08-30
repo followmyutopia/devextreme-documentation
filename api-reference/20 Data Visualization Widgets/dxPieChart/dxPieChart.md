@@ -33,7 +33,16 @@ dataSource: [{
 }, {
     arg: "Others",
     val: 55
-}]
+}],
+series: 
+{
+    argumentField: "arg",
+    valueField: "val"
+},
+legend: {
+    horizontalAlignment: "center",
+    verticalAlignment: "bottom"
+}
 
 ##### lib
 dx.viz.js, dx.viz-web.js, dx.all.js

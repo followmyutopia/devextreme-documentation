@@ -30,7 +30,15 @@ dataSource: [{
 }, {
     arg: "Sunday",
     val: 4
-}]
+}],
+series: {
+    type: "line"
+},
+legend: {
+    horizontalAlignment: "center",
+    verticalAlignment: "bottom",
+    itemTextPosition: "right"
+}
 
 ##### lib
 dx.viz.js, dx.viz-web.js, dx.all.js
