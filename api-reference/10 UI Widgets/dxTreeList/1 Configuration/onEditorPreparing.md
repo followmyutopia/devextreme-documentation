@@ -1,38 +1,18 @@
 ---
 id: dxTreeList.Options.onEditorPreparing
-type: function(e)
-default: null
 EventForAction: dxTreeList.editorPreparing
+default: null
+type: function(e)
 ---
 ---
 ##### shortDescription
-A function that is executed before a cell's editor is created. Not executed for cells with an [editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editCellTemplate).
+A function used to customize or replace [default editors](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editorOptions). Not executed for cells with an [editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editCellTemplate).
 
 ##### param(e): Object
 Information about the event that caused the function's execution.
 
-##### field(e.cancel): Boolean
-Allows you to cancel creating the editor.        
-Set it to **true** and implement a custom editor if your scenario requires it.
-
 ##### field(e.component): {WidgetName}
 The widget's instance.
-
-##### field(e.dataField): String
-The name of the field that provides data for the column the editor belongs to.
-
-##### field(e.disabled): Boolean
-Indicates whether the editor is disabled.
-
-##### field(e.editorElement): dxElement
-#include common-ref-elementparam with { element: "editor" }
-
-##### field(e.editorName): String
-Allows you to change the editor. Accepts names of DevExtreme widgets only, for example, *"dxTextBox"*.       
-Import a new editor's module when using [DevExtreme modules](/Documentation/Guide/Common/Modularity/).
-
-##### field(e.editorOptions): Object
-Gets and sets the editor configuration.
 
 ##### field(e.element): dxElement
 #include common-ref-elementparam with { element: "widget" }
@@ -43,40 +23,202 @@ The model data. Available only if you use Knockout.
 ##### field(e.parentType): String
 The editor's location. One of *"dataRow"*, *"filterRow"*, *"headerRow"* or *"searchPanel"*.
 
-##### field(e.readOnly): Boolean
-Indicates whether the editor is read-only.
-
-##### field(e.row): dxTreeListRowObject
-The [properties](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/) of the row editor belongs to.
-
-##### field(e.rtlEnabled): Boolean
-Indicates whether the editor uses right-to-left representation.
-
-##### field(e.setValue(newValue, newText)): any
-A method that you should call to change the cell value and, optionally, the displayed value after the editor's value is changed.
-
-##### field(e.updateValueTimeout): Number
-Gets and sets the delay between the moment a user stops typing a filter value and the moment it is applied. Available if **parentType** is *"filterRow"* or *"searchPanel"*.
-
 ##### field(e.value): any
 The editor's value.
+
+##### field(e.setValue(newValue, newText)): any
+A method you should call to change the cell value and, optionally, the displayed value after the editor's value is changed.
+
+##### field(e.updateValueTimeout): Number
+Gets and sets the delay between the moment a user stops typing a filter value and the change is applied. Available if the **parentType** is *"filterRow"* or *"searchPanel"*.
 
 ##### field(e.width): Number
 The editor's width; equals **null** for all editors except for those whose **parentType** equals *"searchPanel"*.
 
+##### field(e.disabled): Boolean
+Indicates whether the editor is disabled.
+
+##### field(e.rtlEnabled): Boolean
+Indicates whether the editor uses right-to-left representation.
+
+##### field(e.cancel): Boolean
+Allows you to cancel creating the editor.        
+Set it to **true** and implement a custom editor.
+
+##### field(e.editorElement): dxElement
+#include common-ref-elementparam with { element: "editor" }
+
+##### field(e.readOnly): Boolean
+Indicates whether the editor is read-only.
+
+##### field(e.editorName): String
+Allows you to change the editor. Accepts names of DevExtreme widgets only, for example, *"dxTextBox"*.       
+Import a new editor's module when [DevExtreme modules](/Documentation/Guide/Common/Modularity/) are used.
+
+##### field(e.editorOptions): Object
+Gets and sets the editor configuration.
+
+##### field(e.dataField): String
+The name of the field that provides data for the column the editor belongs to.
+
+##### field(e.row): dxTreeListRowObject
+The [properties](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/) of the row the editor belongs to.
+
 ---
-Numerous **TreeList** elements are based on editors: the [search panel](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#Search_Panel) is a text box, the [filter row](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#Filter_Row) uses text boxes, calendars, and select boxes, and so on. Use this function to customize the default editors or substitute them for other editors. 
+Use this function to:
 
-The following code shows how to add custom logic to a default editor's **onValueChanged** handler:
+- Override the default editor's **onValueChanged** handler. For other default editor customizations, use [editorOptions](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editorOptions).
 
----
-##### jQuery
+    ---
+    ##### jQuery
 
-    <!--JavaScript-->$(function() {
-        $("#treeListContainer").dxTreeList({
+        <!-- tab: index.js -->
+        $(function() {
+            $("#treeListContainer").dxTreeList({
+                // ...
+                onEditorPreparing: function(e) {
+                    if (e.dataField === "requiredDataField" && e.parentType === "dataRow") {
+                        var standardHandler = e.editorOptions.onValueChanged;
+                        e.editorOptions.onValueChanged = function(e) { // Overrides the standard handler
+                            // ...
+                            // Custom commands go here
+                            // ...
+                            standardHandler(e); // Calls the standard handler to save the edited value
+                        }
+                    }
+                }
+            });
+        });
+
+    ##### Angular
+
+        <!-- tab: app.component.html -->
+        <dx-tree-list ...
+            (onEditorPreparing)="overrideOnValueChanged($event)">
+        </dx-tree-list>
+
+        <!-- tab: app.component.ts -->
+        import { Component } from '@angular/core';
+
+        @Component({
+            selector: 'app-root',
+            templateUrl: './app.component.html',
+            styleUrls: ['./app.component.css']
+        })
+        export class AppComponent {
+            overrideOnValueChanged(e) {
+                if (e.dataField === 'requiredDataField' && e.parentType === 'dataRow') {
+                    let standardHandler = e.editorOptions.onValueChanged;
+                    e.editorOptions.onValueChanged = function (e) { // Overrides the standard handler
+                        // ...
+                        // Custom commands go here
+                        // ...
+                        standardHandler(e); // Calls the standard handler to save the edited value
+                    }
+                }
+            }
+        }
+
+        <!-- tab: app.module.ts -->
+        import { BrowserModule } from '@angular/platform-browser';
+        import { NgModule } from '@angular/core';
+        import { AppComponent } from './app.component';
+
+        import { DxTreeListModule } from 'devextreme-angular';
+
+        @NgModule({
+            declarations: [
+                AppComponent
+            ],
+            imports: [
+                BrowserModule,
+                DxTreeListModule
+            ],
+            providers: [],
+            bootstrap: [AppComponent]
+        })
+        export class AppModule { }
+
+    ##### Vue
+
+        <!-- tab: App.vue -->
+        <template>
+            <dx-tree-list ...
+                @editor-preparing="overrideOnValueChanged">
+            </dx-tree-list>
+        </template>
+
+        <script>
+        import 'devextreme/dist/css/dx.common.css';
+        import 'devextreme/dist/css/dx.light.css';
+
+        import DxTreeList from 'devextreme-vue/data-grid';
+
+        export default {
+            components: {
+                DxTreeList
+            },
             // ...
-            onEditorPreparing: function(e) {
-                if (e.dataField == "requiredDataField") {
+            methods: {
+                overrideOnValueChanged(e) {
+                    if (e.dataField === 'requiredDataField' && e.parentType === 'dataRow') {
+                        let standardHandler = e.editorOptions.onValueChanged;
+                        e.editorOptions.onValueChanged = function (e) { // Overrides the standard handler
+                            // ...
+                            // Custom commands go here
+                            // ...
+                            standardHandler(e); // Calls the standard handler to save the edited value
+                        }
+                    }
+                }
+            }
+        }
+        </script>
+
+    ##### React
+
+        <!-- tab: App.js -->
+        import React from 'react';
+
+        import 'devextreme/dist/css/dx.common.css';
+        import 'devextreme/dist/css/dx.light.css';
+
+        import TreeList from 'devextreme-react/data-grid';
+
+        class App extends React.Component {
+            overrideOnValueChanged(e) {
+                if (e.dataField === 'requiredDataField' && e.parentType === 'dataRow') {
+                    let standardHandler = e.editorOptions.onValueChanged;
+                    e.editorOptions.onValueChanged = function (e) { // Overrides the standard handler
+                        // ...
+                        // Custom commands go here
+                        // ...
+                        standardHandler(e); // Calls the standard handler to save the edited value
+                    }
+                }
+            }
+
+            render() {
+                return (
+                    <TreeList ...
+                        onEditorPreparing={this.overrideOnValueChanged}>
+                    </TreeList>
+                );
+            }
+        }
+        export default App;
+
+    ##### ASP.NET MVC Controls
+
+        <!-- tab: Razor C# -->
+        @(Html.DevExtreme().TreeList()
+            // ...
+            .OnEditorPreparing("overrideOnValueChanged")
+        )
+
+        <script type="text/javascript">
+            function overrideOnValueChanged(e) {
+                if (e.dataField === "requiredDataField" && e.parentType === "dataRow") {
                     var standardHandler = e.editorOptions.onValueChanged;
                     e.editorOptions.onValueChanged = function(e) { // Overrides the standard handler
                         // ...
@@ -86,152 +228,160 @@ The following code shows how to add custom logic to a default editor's **onValue
                     }
                 }
             }
+        </script>
+
+    ---
+
+- Replace the default editor. The old editor's configuration applies to the replacement editor. If you want to define the configuration from scratch, use an [editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editCellTemplate).
+    
+    In the following code, the replacement editor is the DevExtreme [TextArea](/Demos/WidgetsGallery/Demo/TextArea/Overview/jQuery/Light/) widget:
+
+    ---
+    ##### jQuery
+
+        <!-- tab: index.js -->
+        $(function() {
+            $("#treeListContainer").dxTreeList({
+                // ...
+                onEditorPreparing: function(e) {
+                    if (e.dataField === "description" && e.parentType === "dataRow") {
+                        e.editorName = "dxTextArea";
+                    }
+                }
+            });
         });
-    });
 
-##### Angular
+    ##### Angular
 
-    <!--TypeScript-->
-    import { DxTreeListModule } from "devextreme-angular";
-    // ...
-    export class AppComponent {
-        onEditorPreparing (e) {
-            if (e.dataField == "requiredDataField") {
-                let standardHandler = e.editorOptions.onValueChanged;
-                e.editorOptions.onValueChanged = function (e) { // Overrides the standard handler
-                    // ...
-                    // Custom commands go here
-                    // ...
-                    standardHandler(e); // Calls the standard handler to save the edited value
+        <!-- tab: app.component.html -->
+        <dx-tree-list ...
+            (onEditorPreparing)="replaceEditor($event)">
+        </dx-tree-list>
+
+        <!-- tab: app.component.ts -->
+        import { Component } from '@angular/core';
+        import 'devextreme/ui/text_area';
+
+        @Component({
+            selector: 'app-root',
+            templateUrl: './app.component.html',
+            styleUrls: ['./app.component.css']
+        })
+        export class AppComponent {
+            replaceEditor(e) { 
+                if (e.dataField === 'description' && e.parentType === 'dataRow') {
+                    e.editorName = 'dxTextArea';
                 }
             }
         }
-    }
-    @NgModule({
-        imports: [
+
+        <!-- tab: app.module.ts -->
+        import { BrowserModule } from '@angular/platform-browser';
+        import { NgModule } from '@angular/core';
+        import { AppComponent } from './app.component';
+
+        import { DxTreeListModule } from 'devextreme-angular';
+
+        @NgModule({
+            declarations: [
+                AppComponent
+            ],
+            imports: [
+                BrowserModule,
+                DxTreeListModule
+            ],
+            providers: [],
+            bootstrap: [AppComponent]
+        })
+        export class AppModule { }
+
+    ##### Vue
+
+        <!-- tab: App.vue -->
+        <template>
+            <dx-tree-list ...
+                @editor-preparing="replaceEditor">
+            </dx-tree-list>
+        </template>
+
+        <script>
+        import 'devextreme/dist/css/dx.common.css';
+        import 'devextreme/dist/css/dx.light.css';
+
+        import DxTreeList from 'devextreme-vue/data-grid';
+        import 'devextreme/ui/text_area';
+
+        export default {
+            components: {
+                DxTreeList
+            },
             // ...
-            DxTreeListModule
-        ],
-        // ...
-    })
-
-    <!--HTML-->
-    <dx-tree-list ... 
-        (onEditorPreparing)="onEditorPreparing($event)">
-    </dx-tree-list>
-
----
-
-In the following code, a default editor is replaced with the DevExtreme [TextArea](/Documentation/Guide/Widgets/TextArea/Overview/) widget. Note that the widget's **onValueChanged** function is overridden, and its declaration ends with the **setValue(newValue, newText)** method's call. This method updates the cell value.
-
----
-##### jQuery
-
-    <!--JavaScript-->
-    $(function() {
-        $("#treeList").dxTreeList({
-            // ...
-            onEditorPreparing: function(e) {
-                if (e.dataField == "description") {
-                    e.editorName = "dxTextArea"; 
-                    e.editorOptions.showClearButton = true;
-                    e.editorOptions.onValueChanged = function(event) {
-                        var value = event.value;
-                        e.setValue(value.toLowerCase()); 
+            methods: {
+                replaceEditor(e) { 
+                    if (e.dataField === 'description' && e.parentType === 'dataRow') {
+                        e.editorName = 'dxTextArea';
                     }
                 }
             }
-        });
-    });
+        }
+        </script>
 
-##### Angular
+    ##### React
 
-    <!--TypeScript-->
-    import { DxTreeListModule } from "devextreme-angular";
-    // ...
-    export class AppComponent {
-        onEditorPreparing (e) { 
-            if (e.dataField == "description") {
-                e.editorName = "dxTextArea"; 
-                e.editorOptions.showClearButton = true;
-                e.editorOptions.onValueChanged = (event) => {
-                    let value = event.value;
-                    e.setValue(value.toLowerCase()); 
+        <!-- tab: App.js -->
+        import React from 'react';
+
+        import 'devextreme/dist/css/dx.common.css';
+        import 'devextreme/dist/css/dx.light.css';
+
+        import TreeList from 'devextreme-react/data-grid';
+        import 'devextreme/ui/text_area';
+
+        class App extends React.Component {
+            replaceEditor(e) { 
+                if (e.dataField === 'description' && e.parentType === 'dataRow') {
+                    e.editorName = 'dxTextArea';
                 }
             }
+
+            render() {
+                return (
+                    <TreeList ...
+                        onEditorPreparing={this.replaceEditor}>
+                    </TreeList>
+                );
+            }
         }
-    }
-    @NgModule({
-        imports: [
+        export default App;
+
+    ##### ASP.NET MVC Controls
+
+        <!-- tab: Razor C# -->
+        @(Html.DevExtreme().TreeList()
             // ...
-            DxTreeListModule
-        ],
-        // ...
-    })
+            .OnEditorPreparing("replaceEditor")
+        )
 
-    <!--HTML-->
-    <dx-tree-list ...
-        (onEditorPreparing)="onEditorPreparing($event)">
-    </dx-tree-list>
-    
----
-
-The following code shows how to replace a default editor with a non-DevExtreme editor (an HTML checkbox in this case):
-
----
-##### jQuery
-
-    <!--JavaScript-->
-    $(function() {
-        $("#treeList").dxTreeList({
-            // ...
-            onEditorPreparing: function(e) {
-                if(e.dataField === "completed") {
-                    e.cancel = true; // Cancels creating the default editor
-                    $('<input type="checkbox">')
-                        .prop("checked", e.value)
-                        .on("change", function(event) {
-                            e.setValue(event.target.checked); 
-                        })
-                        .appendTo(e.editorElement);
+        <script type="text/javascript">
+            function replaceEditor(e) {
+                if (e.dataField === "description" && e.parentType === "dataRow") {
+                    e.editorName = "dxTextArea";
                 }
             }
-        });
-    });
+        </script>
 
-##### Angular
+    ---
 
-    <!--TypeScript-->
-    import { DxTreeListModule } from "devextreme-angular";
-    // ...
-    export class AppComponent {
-        onEditorPreparing (e) { 
-            if(e.dataField === "completed") {
-                e.cancel = true; // Cancels creating the default editor
-                let checkbox = document.createElement("INPUT");
-                checkbox.setAttribute("type", "checkbox");
-                checkbox.setAttribute("checked", e.value);
-                checkbox.addEventListener("change", (event) => {
-                    e.setValue(event.target.checked);
-                });
-                e.editorElement.appendChild(checkbox);
-            }
-        }
-    }
-    @NgModule({
-        imports: [
-            // ...
-            DxTreeListModule
-        ],
-        // ...
-    })
+- Customize editors used in the [search panel](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/searchPanel/), [filter row](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/filterRow/), and [selection column](/Documentation/Guide/Widgets/TreeList/Columns/Column_Types/Command_Columns/).        
+Use the **parentType** function parameter to check if the editor being customized belongs to one of these UI elements.
 
-    <!--HTML-->
-    <dx-tree-list ...
-        (onEditorPreparing)="onEditorPreparing($event)">
-    </dx-tree-list>
-    
----
+- [Dynamically change editor options in the editing state](/Documentation/Guide/Widgets/DataGrid/How_To/Dynamically_Change_Editor_Options_in_the_Editing_State/).
+
+- Implement other customization cases.
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/CommandColumnCustomization/jQuery/Light/"
+}
 
 #####See Also#####
-- [Customize Editors](/Documentation/Guide/Widgets/TreeList/Editing/#Customize_Editors)
+- **columns[]**.[showEditorAlways](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#showEditorAlways)

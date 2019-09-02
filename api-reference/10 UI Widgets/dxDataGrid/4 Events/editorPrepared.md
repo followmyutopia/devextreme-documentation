@@ -38,13 +38,13 @@ Indicates whether the editor is read-only.
 The [properties](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/) of the row the editor belongs to.
 
 ##### field(options.rtlEnabled): Boolean
-Indicates whether the editor uses a right-to-left representation.
+Indicates whether the editor uses right-to-left representation.
 
 ##### field(options.setValue(newValue, newText)): any
-A method that you should call to change the cell value and, optionally, the displayed value after the editor's value is changed.
+A method you should call to change the cell value and, optionally, the displayed value after the editor's value is changed.
 
 ##### field(options.updateValueTimeout): Number
-Gets and sets the delay between the moment a user stops typing a filter value and the moment it is applied. Available if **parentType** is *"filterRow"* or *"searchPanel"*.
+Gets and sets the delay between the moment a user stops typing a filter value and the change is applied. Available if the **parentType** is *"filterRow"* or *"searchPanel"*.
 
 ##### field(options.value): any
 The editor's value.

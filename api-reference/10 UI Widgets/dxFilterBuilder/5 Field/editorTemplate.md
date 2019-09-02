@@ -16,7 +16,7 @@ The condition's configuration.
 The condition's operation.
 
 ##### field(conditionInfo.setValue): function()
-A method that you should call to change the field value after the editor's value is changed.
+A method you should call to change the field value after the editor's value is changed.
 
 ##### field(conditionInfo.value): String | Number | Date
 The condition's data field value.

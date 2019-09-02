@@ -13,7 +13,7 @@ Information about a **FilterBuilder** field.
 The field's configuration.
 
 ##### field(conditionInfo.setValue): function()
-A method that you should call to change the field value after the editor value changes.
+A method you should call to change the field value after the editor value changes.
 
 ##### field(conditionInfo.value): String | Number | Date
 The editor's value.

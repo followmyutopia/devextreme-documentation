@@ -40,7 +40,7 @@ Indicates whether the editor is read-only.
 Indicates whether the editor uses right-to-left representation.
 
 ##### field(e.setValue(newValue)): any
-A method that you need to call to change the field's value after the editor's value changes.
+A method you need to call to change the field's value after the editor's value changes.
 
 ##### field(e.updateValueTimeout): Number
 Gets and sets the delay between when a user stops typing the field value and when it is applied.

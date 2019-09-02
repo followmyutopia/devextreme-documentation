@@ -13,7 +13,7 @@ Information about the event.
 
 ##### field(e.cancel): Boolean
 Allows you to cancel the creation of the editor.    
-Set it to **true** and implement a custom editor if your scenario requires it.
+Set it to **true** and implement a custom editor.
 
 ##### field(e.component): {WidgetName}
 The widget's [instance](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Methods/#instance).
@@ -29,7 +29,7 @@ Indicates whether the editor is disabled.
 
 ##### field(e.editorName): String
 Allows you to change the editor. Accepts names of DevExtreme widgets only, for example, *"dxTextBox"*.      
-Import a new editor's module when using [DevExtreme modules](/Documentation/Guide/Common/Modularity/).
+Import a new editor's module when [DevExtreme modules](/Documentation/Guide/Common/Modularity/) are used.
 
 ##### field(e.editorOptions): Object
 Gets and sets the editor configuration.
@@ -50,7 +50,7 @@ Indicates whether the editor is read-only.
 Indicates whether the editor uses right-to-left representation.
 
 ##### field(e.setValue(newValue)): any
-A method that you should call to change the field's value after the editor's value changes.
+A method you should call to change the field's value after the editor's value changes.
 
 ##### field(e.updateValueTimeout): Number
 Gets and sets the delay between when a user stops typing the field value and when it is applied.

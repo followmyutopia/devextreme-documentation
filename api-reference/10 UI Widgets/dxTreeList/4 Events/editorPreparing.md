@@ -11,7 +11,7 @@ Information about the event.
 
 ##### field(e.cancel): Boolean
 Allows you to cancel creating the editor.        
-Set it to **true** and implement a custom editor if your scenario requires it.
+Set it to **true** and implement a custom editor.
 
 ##### field(e.component): {WidgetName}
 The widget's instance.
@@ -27,7 +27,7 @@ Indicates whether the editor is disabled.
 
 ##### field(e.editorName): String
 Allows you to change the editor. Accepts names of DevExtreme widgets only, for example, *"dxTextBox"*.          
-Import a new editor's module when using [DevExtreme modules](/Documentation/Guide/Common/Modularity/).
+Import a new editor's module when [DevExtreme modules](/Documentation/Guide/Common/Modularity/) are used.
 
 ##### field(e.editorOptions): Object
 Gets and sets the editor configuration.
@@ -51,10 +51,10 @@ The [properties](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/) of the 
 Indicates whether the editor uses right-to-left representation.
 
 ##### field(e.setValue(newValue, newText)): any
-A method that you should call to change the cell value and, optionally, the displayed value after the editor's value is changed.
+A method you should call to change the cell value and, optionally, the displayed value after the editor's value is changed.
 
 ##### field(e.updateValueTimeout): Number
-Gets and sets the delay between the moment a user stops typing a filter value and the moment it is applied. Available if **parentType** is *"filterRow"* or *"searchPanel"*.
+Gets and sets the delay between the moment a user stops typing a filter value and the change is applied. Available if the **parentType** is *"filterRow"* or *"searchPanel"*.
 
 ##### field(e.value): any
 The editor's value.
