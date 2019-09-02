@@ -5,6 +5,9 @@ default: null
 EventForAction: dxGantt.selectionChanged
 ---
 ---
+##### shortDescription
+<!-- Description goes here -->
+
 ##### param(e): Object
 <!-- Description goes here -->
 
@@ -18,9 +21,6 @@ EventForAction: dxGantt.selectionChanged
 <!-- Description goes here -->
 
 ##### field(e.selectedRowKey): any
-<!-- Description goes here -->
-
-##### shortDescription
 <!-- Description goes here -->
 
 ---

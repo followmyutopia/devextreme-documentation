@@ -1,7 +1,7 @@
 ---
 id: GridBase.Options.highlightChanges
-default: false
 type: Boolean
+default: false
 ---
 ---
 ##### shortDescription

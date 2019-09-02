@@ -1,5 +1,6 @@
 ---
 id: dxHtmlEditorToolbarItem.formatName
+acceptValues: 'background' | 'bold' | 'color' | 'font' | 'italic' | 'link' | 'size' | 'strike' | 'script' | 'underline' | 'blockquote' | 'header' | 'indent' | 'list' | 'align' | 'code-block'
 type: String
 ---
 ---

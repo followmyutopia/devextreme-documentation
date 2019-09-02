@@ -19,7 +19,6 @@ Possible values: *"filterRow"*, *"headerFilter"*, *"filterBuilder", and *"search
 ##### return: Filter expression
 A filter expression. If you are using [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/), it should not contain functions.
 
-
 ---
 This function must return a [filter expression](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering). The simplest filter expression has the following format:
 
