@@ -54,4 +54,13 @@ The row's [type](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#rowType)
 Raw values displayed in the row's cells.
 
 ---
-[note] **onRowDblClick** is not executed when the clicked row is in the editing state or switches to this state. You can use **onCellDblClick** instead.
+[note]
+
+**onRowDblClick** is not executed when the clicked row enters or is in the editing state. You can use **onCellDblClick** instead.
+
+This event handler is also not executed on mobile devices, because double tap gesture is reserved for zooming. To force **onRowDblClick** execution, add the following CSS property to the widget's container: 
+
+    <!--HTML-->
+    <div style="touch-action:manipulation"></div>
+
+[/note]
