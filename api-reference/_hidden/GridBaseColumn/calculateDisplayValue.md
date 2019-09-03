@@ -50,6 +50,62 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
         ],
         // ...
     })
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-{widget-name}>
+            <dx-column          
+                data-field="countryID" <!-- provides values for editing -->
+                calculate-display-value="country"> <!-- provides display values -->  
+            />
+        </dx-{widget-name}>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import Dx{WidgetName}, {
+        DxColumn 
+    } from 'devextreme-vue/{widget-name}';
+
+    export default {
+        components: {
+            Dx{WidgetName},
+            DxColumn 
+        },
+        // ...
+    }
+    </script>  
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import {WidgetName}, {
+        Column
+    } from 'devextreme-react/{widget-name}';
+
+    class App extends React.Component {
+        // ...
+
+        render() {
+            return (
+                <{WidgetName}>
+                    <Column 
+                        dataField="countryID"  <!-- provides values for editing -->
+                        calculateDisplayValue="country"  <!-- provides display values -->  
+                    />
+                </{WidgetName}>
+            );
+        }
+    }
+    export default App;
 
 ##### ASP.NET MVC Controls
 
@@ -113,6 +169,71 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
         ],
         // ...
     })
+    
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-{widget-name}>
+            <dx-column       
+                data-field="countryID" <!-- provides values for editing -->
+                :calculate-display-value="getCountryWithCapital" <!-- combines display values -->
+            />
+        </dx-{widget-name}>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import Dx{WidgetName}, {
+        DxColumn 
+    } from 'devextreme-vue/{widget-name}';
+
+    export default {
+        components: {
+            Dx{WidgetName},
+            DxColumn 
+        },
+        methods: {
+            getCountryWithCapital(rowData) {
+                return rowData.capital + " (" + rowData.country + ")";
+            }
+        }
+    }
+    </script>  
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import {WidgetName}, {
+        Column
+    } from 'devextreme-react/{widget-name}';
+
+    class App extends React.Component {
+        // ...
+
+        render() {
+            return (
+                <{WidgetName}>
+                    <Column
+                        dataField="countryID" <!-- provides values for editing -->                 
+                        calculateDisplayValue={this.getCountryWithCapital} <!-- combines display values -->
+                    />
+                </{WidgetName}>
+            );
+        }
+        
+        getCountryWithCapital(rowData) {
+            return rowData.capital + " (" + rowData.country + ")";
+        }
+    }
+    export default App;
 
 ##### ASP.NET MVC Controls
 
