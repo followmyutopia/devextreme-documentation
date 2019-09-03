@@ -4,7 +4,7 @@ Do the following to apply a theme:
 Include `dx.common.css` and a [theme stylesheet](/Documentation/Guide/Themes_and_Styles/Predefined_Themes/#theme-files) in the `<head>` tag on your index page. You can use [local files](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) or get the stylesheets [from CDN](/Documentation/Guide/Getting_Started/Installation/CDN_Services/).
 
 - **Angular, React, or Vue**    
-Configure the module bundler you are using and import `dx.common.css` and a theme stylesheet. See the following instructions: [Angular](/Documentation/Guide/Angular_Components/Getting_Started/Add_DevExtreme_to_an_Angular_CLI_Application/#Configure_Stylesheets), [React](/Documentation/Guide/React_Components/Add_DevExtreme_to_a_React_Application/#Import_Stylesheets), <a href="https://github.com/DevExpress/devextreme-vue#additional-configuration" target="_blank">Vue</a>.
+Configure the module bundler you are using and import `dx.common.css` and a theme stylesheet. See the following instructions: [Angular](/Documentation/Guide/Angular_Components/Getting_Started/Add_DevExtreme_to_an_Angular_CLI_Application/#Configure_Stylesheets), [React](/Documentation/Guide/React_Components/Add_DevExtreme_to_a_React_Application/#Import_Stylesheets), [Vue](/Documentation/Guide/Vue_Components/Add_DevExtreme_to_a_Vue_Application/#Import_Stylesheets).
 
 - **ASP.NET MVC 5**     
 

@@ -24,4 +24,4 @@ Specifies whether to override the existing `app.component` or create a component
         // ...
 
 #####See Also#####
-- **Create and Configure a Widget** in [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/), [React](/Documentation/Guide/React_Components/Component_Configuration_Syntax/), and <a href="https://github.com/DevExpress/devextreme-vue#component-configuration" target="_blank">Vue</a>.
+- **Create and Configure a Widget** in [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/), [React](/Documentation/Guide/React_Components/Component_Configuration_Syntax/), and [Vue](/Documentation/Guide/Vue_Components/Component_Configuration_Syntax/).

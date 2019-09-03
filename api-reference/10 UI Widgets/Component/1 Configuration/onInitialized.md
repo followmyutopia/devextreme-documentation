@@ -19,4 +19,4 @@ The widget's instance.
 
 ---
 #####See Also#####
-- **Get a Widget Instance** in [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/#Get_a_Widget_Instance) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Get_a_Widget_Instance/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Get_a_Widget_Instance/) | <a href="https://github.com/DevExpress/devextreme-vue#widget-instance" target="_blank">Vue</a> | [React](/Documentation/Guide/React_Components/Component_Configuration_Syntax/#Get_a_Widget_Instance)
+- **Get a Widget Instance** in [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/#Get_a_Widget_Instance) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Get_a_Widget_Instance/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Get_a_Widget_Instance/) | [Vue](/Documentation/Guide/Vue_Components/Component_Configuration_Syntax/#Get_a_Widget_Instance) | [React](/Documentation/Guide/React_Components/Component_Configuration_Syntax/#Get_a_Widget_Instance)
