@@ -5,7 +5,7 @@ default: ''
 ---
 ---
 ##### shortDescription
-The editor mask that specifies the format of the entered string.
+The editor mask that specifies the custom format of the entered string.
 
 ---
 A mask can contain the following elements.
