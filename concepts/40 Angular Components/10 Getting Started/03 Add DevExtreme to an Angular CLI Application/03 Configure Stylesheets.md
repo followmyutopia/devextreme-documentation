@@ -41,3 +41,5 @@ Open the `angular.json` file and reference `dx.common.css` and a [predefined the
     }
 
 [note] [SVG-based widgets](/Documentation/Guide/Themes_and_Styles/HTML-_and_SVG-Based_Widgets/) do not require theme stylesheets. If you do reference the stylesheets, the widgets apply an appearance that matches them.
+
+[tags] theme

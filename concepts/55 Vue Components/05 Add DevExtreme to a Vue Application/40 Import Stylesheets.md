@@ -6,3 +6,5 @@ Open the main component file (`main.js`) and import `dx.common.css` and a [prede
     // ...
 
 [note] [SVG-based widgets](/Documentation/Guide/Themes_and_Styles/HTML-_and_SVG-Based_Widgets/) do not require theme stylesheets. If you do import the stylesheets, the widgets apply an appearance that matches them.
+
+[tags] theme
