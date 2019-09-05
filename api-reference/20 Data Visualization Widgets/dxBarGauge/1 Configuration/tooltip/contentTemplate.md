@@ -4,6 +4,9 @@ type: template
 default: undefined
 ---
 ---
+##### shortDescription
+<!-- Description goes here -->
+
 ##### param(scaleValue): Object
 <!-- Description goes here -->
 
@@ -20,9 +23,6 @@ default: undefined
 <!-- Description goes here -->
 
 ##### return: String | Node | jQuery
-<!-- Description goes here -->
-
-##### shortDescription
 <!-- Description goes here -->
 
 ---

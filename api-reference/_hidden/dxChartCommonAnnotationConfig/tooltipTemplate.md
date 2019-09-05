@@ -4,6 +4,9 @@ type: template
 default: undefined
 ---
 ---
+##### shortDescription
+<!-- Description goes here -->
+
 ##### param(annotationItem): dxChartAnnotationConfig | any
 <!-- Description goes here -->
 
@@ -11,9 +14,6 @@ default: undefined
 <!-- Description goes here -->
 
 ##### return: String | Node | jQuery
-<!-- Description goes here -->
-
-##### shortDescription
 <!-- Description goes here -->
 
 ---
