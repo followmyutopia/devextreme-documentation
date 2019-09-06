@@ -4,7 +4,7 @@ type: String
 ---
 ---
 ##### shortDescription
-Specifies date-time values' serialization format. Use it only if you do not specify the [dataSource]({basewidgetpath}/Configuration/#dataSource) at design time.
+Specifies the format in which date-time values should be sent to the server. Use it only if you do not specify the [dataSource]({basewidgetpath}/Configuration/#dataSource) at design time.
 
 ---
 Without a data source, the widget cannot detect the date-time values' format. In this case, specify the **dateSerializationFormat** option that supports the following formats:
@@ -18,3 +18,6 @@ Without a data source, the widget cannot detect the date-time values' format. In
 - `"yyyy-MM-ddTHH:mm:ssx"` - date and time with a timezone
 
 This option applies only if the **forceIsoDateParsing** field is set to **true** in the [global configuration object](/Documentation/ApiReference/Common/utils/#configconfig).
+
+#####See Also#####
+- [format]({basewidgetpath}/Configuration/columns/#format)
