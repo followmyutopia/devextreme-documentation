@@ -5,7 +5,7 @@ id: dxHtmlEditor.format(formatName, formatValue)
 ##### shortDescription
 Applies a format to the selected content. Cannot be used with [embedded formats](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName/formats).
 
-##### param(formatName): String
+##### param(formatName): String | 'background' | 'bold' | 'color' | 'font' | 'italic' | 'link' | 'size' | 'strike' | 'script' | 'underline' | 'blockquote' | 'header' | 'indent' | 'list' | 'align' | 'code-block'
 A [format name](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName).
 
 ##### param(formatValue): any

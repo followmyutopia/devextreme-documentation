@@ -12,7 +12,7 @@ A zero-based index at which to begin formatting.
 The length of the content to be formatted.      
 [Embedded items](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName/formats) have a length of 1.
 
-##### param(formatName): String
+##### param(formatName): String | 'background' | 'bold' | 'color' | 'font' | 'italic' | 'link' | 'size' | 'strike' | 'script' | 'underline' | 'blockquote' | 'header' | 'indent' | 'list' | 'align' | 'code-block'
 A format name.
 
 ##### param(formatValue): any

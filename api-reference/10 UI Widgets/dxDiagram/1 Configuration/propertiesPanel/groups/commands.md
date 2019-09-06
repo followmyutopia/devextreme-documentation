@@ -1,6 +1,6 @@
 ---
 id: dxDiagram.Options.propertiesPanel.groups.commands
-acceptValues: 'zoomLevel' | 'autoZoom' | 'showGrid' | 'snapToGrid' | 'gridSize' | 'units' | 'pageSize' | 'pageLandscape' | 'pageColor'
+acceptValues: 'zoomLevel' | 'autoZoom' | 'showGrid' | 'snapToGrid' | 'gridSize' | 'units' | 'pageSize' | 'pageOrientation' | 'pageColor'
 type: Array<String>
 ---
 ---
