@@ -1,4 +1,4 @@
-Scaffolding in Visual Studio allows you to generate a component that contains a DevExtreme widget and a data service for the widget. You can scaffold the [DataGrid](/Documentation/Guide/Widgets/DataGrid/Overview/) and [TreeList](/Documentation/Guide/Widgets/TreeList/Overview/) widgets.
+Scaffolding in Visual Studio allows you to generate a component that contains a DevExtreme widget and a data service for the widget. You can scaffold the [DataGrid](/Demos/WidgetsGallery/Demo/DataGrid/Overview/Angular/Light/), [TreeList](/Demos/WidgetsGallery/Demo/TreeList/Overview/Angular/Light/), and [Form](/Demos/WidgetsGallery/Demo/Form/Overview/Angular/Light/) widgets.
 
 Scaffolding has the following requirements:
 
