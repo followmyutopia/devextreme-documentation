@@ -17,6 +17,9 @@ The widget's instance.
 ##### field(e.element): dxElement
 #include common-ref-elementparam with { element: "widget" }
 
+##### field(e.event): event
+<!-- Description goes here -->
+
 ##### field(e.model): Object
 The model data. Available only if you use Knockout.
 
