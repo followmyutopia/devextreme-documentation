@@ -12,7 +12,9 @@ Specifies the function that is executed when a data layer object throws an error
 A JavaScript **Error** object.
 
 ---
-<!--JavaScript-->
+<!--->
+
+    <!--JavaScript-->
     DevExpress.data.errorHandler = function (error) {
         console.log(error.message);
     };

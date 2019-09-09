@@ -3,7 +3,9 @@
 A class used to display header of a [dx-fieldset](/Documentation/ApiReference/UI_Widgets/CSS_Classes/#dx-fieldset) element.
 
 ---
-<!--HTML-->
+<!--->
+
+    <!--HTML-->
     <div class="dx-fieldset">
         <div class="dx-fieldset-header">Personal Data</div>
         <div class="dx-field">

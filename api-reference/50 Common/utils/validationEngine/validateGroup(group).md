@@ -12,7 +12,9 @@ The validation result.
 The validation group's name or instance.
 
 ---
-<!--JavaScript-->
+<!--->
+
+    <!--JavaScript-->
     let validationResult = DevExpress.validationEngine.validateGroup('myGroup');
     // ===== or when using modules =====
     import validationEngine from 'devextreme/ui/validation_engine';

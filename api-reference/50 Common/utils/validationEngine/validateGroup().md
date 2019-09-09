@@ -9,7 +9,9 @@ Validates editors from the default validation group.
 The validation result.
 
 ---
-<!--JavaScript-->
+<!--->
+
+    <!--JavaScript-->
     let validationResult = DevExpress.validationEngine.validateGroup();
     // ===== or when using modules =====
     import validationEngine from 'devextreme/ui/validation_engine';

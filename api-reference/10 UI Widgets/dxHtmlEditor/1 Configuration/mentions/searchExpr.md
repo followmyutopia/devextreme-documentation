@@ -8,7 +8,9 @@ default: 'this'
 Specifies one or several [data fields](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/mentions/#dataSource) to search.
 
 ---
-<!--JavaScript-->
+<!--->
+
+    <!--JavaScript-->
     // Search a single data field
     searchExpr: "name"
     // Search several data fields

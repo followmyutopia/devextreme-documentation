@@ -11,7 +11,9 @@ Gets the current [palette](/Documentation/ApiReference/Data_Visualization_Widget
 The current palette's name.
 
 ---
-<!--JavaScript-->
+<!--->
+
+    <!--JavaScript-->
     var paletteName = DevExpress.viz.currentPalette();
     // ===== or when using modules =====
     import { currentPalette } from 'devextreme/viz/palette';
