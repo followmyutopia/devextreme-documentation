@@ -11,7 +11,9 @@ Specifies a fixed width for all bars in a series, measured in pixels. Takes prec
 dxChartSeriesTypes.BarSeries,dxChartSeriesTypes.StackedBarSeries,dxChartSeriesTypes.FullStackedBarSeries,dxChartSeriesTypes.RangeBarSeries
 
 ---
+A bar's maximum width is limited. In single-series charts, it cannot be greater than the interval between two [major ticks](/Documentation/Guide/Widgets/Chart/Axes/Axis_Ticks/). In multi-series charts, it depends on the number of bars in the parent group and this group's actual width. See the [Specify the Bar Width](/Documentation/Guide/Widgets/Chart/Series_Types/Bar_Series/#Specify_the_Bar_Width) article for more information.
+
+
 #####See Also#####
-- [Specify the Bar Width](/Documentation/Guide/Widgets/Chart/Series_Types/Bar_Series/#Specify_the_Bar_Width)
 - [barGroupWidth](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#barGroupWidth)
 - **series**.[minBarSize](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#minBarSize)
