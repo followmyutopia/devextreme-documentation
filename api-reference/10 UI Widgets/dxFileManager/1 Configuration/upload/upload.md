@@ -1,11 +1,9 @@
 ---
-id: dxPolarChart.getValueAxis()
+id: dxFileManager.Options.upload
+type: Object
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
-
-##### return: chartAxisObject
 <!-- Description goes here -->
 
 ---

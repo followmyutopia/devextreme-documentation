@@ -5,6 +5,9 @@ default: null
 EventForAction: dxPolarChart.zoomEnd
 ---
 ---
+##### shortDescription
+<!-- Description goes here -->
+
 ##### param(e): Object
 <!-- Description goes here -->
 
@@ -54,9 +57,6 @@ Use 'range' instead.
 <!-- Description goes here -->
 
 ##### notUsedInTheme
-
-##### shortDescription
-<!-- Description goes here -->
 
 ---
 <!-- Description goes here -->

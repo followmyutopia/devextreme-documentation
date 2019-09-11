@@ -5,10 +5,10 @@ inherits: VizRange
 firedEvents: optionChanged
 ---
 ---
-##### notUsedInTheme
-
 ##### shortDescription
 <!-- Description goes here -->
+
+##### notUsedInTheme
 
 ---
 <!-- Description goes here -->

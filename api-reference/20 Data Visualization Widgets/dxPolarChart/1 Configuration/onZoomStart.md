@@ -5,6 +5,9 @@ default: null
 EventForAction: dxPolarChart.zoomStart
 ---
 ---
+##### shortDescription
+<!-- Description goes here -->
+
 ##### param(e): Object
 <!-- Description goes here -->
 
@@ -33,9 +36,6 @@ EventForAction: dxPolarChart.zoomStart
 <!-- Description goes here -->
 
 ##### notUsedInTheme
-
-##### shortDescription
-<!-- Description goes here -->
 
 ---
 <!-- Description goes here -->

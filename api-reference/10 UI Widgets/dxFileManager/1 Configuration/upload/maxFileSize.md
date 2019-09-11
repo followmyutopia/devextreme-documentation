@@ -1,11 +1,10 @@
 ---
-id: dxPolarChart.getValueAxis()
+id: dxFileManager.Options.upload.maxFileSize
+type: Number
+default: 0
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
-
-##### return: chartAxisObject
 <!-- Description goes here -->
 
 ---

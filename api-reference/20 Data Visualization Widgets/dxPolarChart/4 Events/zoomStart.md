@@ -3,6 +3,9 @@ id: dxPolarChart.zoomStart
 type: eventType
 ---
 ---
+##### shortDescription
+<!-- Description goes here -->
+
 ##### param(e): Object
 <!-- Description goes here -->
 
@@ -31,9 +34,6 @@ type: eventType
 <!-- Description goes here -->
 
 ##### notUsedInTheme
-
-##### shortDescription
-<!-- Description goes here -->
 
 ---
 <!-- Description goes here -->
