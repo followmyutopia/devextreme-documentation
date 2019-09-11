@@ -77,6 +77,82 @@ This option accepts an array of objects where each object configures a single fi
         [dataSource]="pivotGridDataSource">
     </dx-pivot-grid>
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-pivot-grid
+            :data-source="pivotGridDataSource"
+        />
+    </template>
+    
+    <script>
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+    import DxPivotGrid from 'devextreme-vue/pivot-grid';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        // ...
+        fields: [{
+            dataField: 'region',
+            area: 'row'
+        }, {
+            dataField: 'date',
+            dataType: 'date',
+            area: 'column'
+        }, {
+            dataField: 'sales',
+            summaryType: 'sum',
+            area: 'data'
+        }]
+    });
+
+    export default {
+        components: {
+            DxPivotGrid
+        },
+        data() {
+            return {
+                pivotGridDataSource
+            }
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+    import DxPivotGrid from 'devextreme-react/pivot-grid';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        // ...
+        fields: [{
+            dataField: 'region',
+            area: 'row'
+        }, {
+            dataField: 'date',
+            dataType: 'date',
+            area: 'column'
+        }, {
+            dataField: 'sales',
+            summaryType: 'sum',
+            area: 'data'
+        }]
+    });
+
+    class App extends React.Component {
+        render() {
+            return (
+                <PivotGrid
+                    dataSource={pivotGridDataSource}
+                />
+            );
+        }
+    }
+    export default App;
+
 ---
 
 If the [retrieveFields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/#retrieveFields) option is **true**, fields configured in the **fields** array are accompanied by auto-generated fields that do not belong to any area. However, a user can move them to any area using the field chooser.

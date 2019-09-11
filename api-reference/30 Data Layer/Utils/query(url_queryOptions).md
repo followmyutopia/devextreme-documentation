@@ -36,6 +36,36 @@ The **queryOptions** object should contain the **adapter** function that impleme
         };
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->  
+    <script>
+    import Query from 'devextreme/data/query';
+
+    export default {
+        mounted() {
+            this.query = Query('http://mydomain.com/MyDataService', queryOptions);
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import Query from 'devextreme/data/query';
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            
+            this.query = Query('http://mydomain.com/MyDataService', queryOptions);
+        }
+        // ...
+    }
+    export default App;
+
 ---
 
 #####See Also#####

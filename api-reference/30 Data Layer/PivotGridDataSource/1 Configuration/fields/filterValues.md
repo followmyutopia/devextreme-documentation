@@ -61,6 +61,68 @@ Specifies the values by which the field is filtered.
         [dataSource]="pivotGridDataSource">
     </dx-pivot-grid>
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-pivot-grid
+            :data-source="pivotGridDataSource"
+        />
+    </template>
+    
+    <script>
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+    import DxPivotGrid from 'devextreme-vue/pivot-grid';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        // ...
+        fields: [{
+            // ...
+            filterType: 'exclude',
+            filterValues: [[2015], [2016]]
+        }]
+    });
+
+    export default {
+        components: {
+            DxPivotGrid
+        },
+        data() {
+            return {
+                pivotGridDataSource
+            }
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+    import DxPivotGrid from 'devextreme-react/pivot-grid';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        // ...
+        fields: [{
+            // ...
+            filterType: 'exclude',
+            filterValues: [[2015], [2016]]
+        }]
+    });
+
+    class App extends React.Component {
+        render() {
+            return (
+                <PivotGrid
+                    dataSource={pivotGridDataSource}
+                />
+            );
+        }
+    }
+    export default App;
+
 ---
 
 #####See Also#####

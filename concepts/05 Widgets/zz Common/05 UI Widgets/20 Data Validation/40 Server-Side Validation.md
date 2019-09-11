@@ -190,11 +190,7 @@ Use the ["custom"](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation
 
 ##### Vue
 
-In this example, HTTP requests are performed using the [axios](https://github.com/axios/axios#axios) library. To replicate the example in your application, install this library:
-
-    npm install axios
-
-<!---->
+#include common-note-axios
 
     <!-- tab: App.vue -->
     <template>
@@ -258,11 +254,7 @@ In this example, HTTP requests are performed using the [axios](https://github.co
 
 ##### React
 
-In this example, HTTP requests are performed using the [axios](https://github.com/axios/axios#axios) library. To replicate the example in your application, install this library:
-
-    npm install axios
-
-<!---->
+#include common-note-axios
 
     <!-- tab: App.js -->
     import React from 'react';

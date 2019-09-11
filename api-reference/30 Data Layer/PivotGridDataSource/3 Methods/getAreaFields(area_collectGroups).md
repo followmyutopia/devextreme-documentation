@@ -42,6 +42,44 @@ The default value is **false**.
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->  
+    <script>
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        // PivotGridDataSource is configured here
+    });
+
+    export default {
+        mounted() {
+            this.columnAreaFields = pivotGridDataSource.getAreaFields('column', true);
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        // PivotGridDataSource is configured here
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            
+            this.columnAreaFields = pivotGridDataSource.getAreaFields('column', true);
+        }
+        // ...
+    }
+    export default App;
+
 ---
 
 #####See Also#####

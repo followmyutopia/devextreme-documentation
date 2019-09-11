@@ -71,6 +71,70 @@ This and [other post-processing functions](/Documentation/ApiReference/Data_Laye
         [dataSource]="pivotGridDataSource">
     </dx-pivot-grid>
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-pivot-grid
+            :data-source="pivotGridDataSource"
+        />
+    </template>
+    
+    <script>
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+    import DxPivotGrid from 'devextreme-vue/pivot-grid';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        // ...
+        fields: [{
+            // ...
+            calculateSummaryValue: function (summaryCell) {
+                // Your code goes here
+            }
+        }]
+    });
+
+    export default {
+        components: {
+            DxPivotGrid
+        },
+        data() {
+            return {
+                pivotGridDataSource
+            }
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+    import DxPivotGrid from 'devextreme-react/pivot-grid';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        // ...
+        fields: [{
+            // ...
+            calculateSummaryValue: function (summaryCell) {
+                // Your code goes here
+            }
+        }]
+    });
+
+    class App extends React.Component {
+        render() {
+            return (
+                <PivotGrid
+                    dataSource={pivotGridDataSource}
+                />
+            );
+        }
+    }
+    export default App;
+
 ##### ASP.NET MVC Controls
 
     <!--Razor C#-->

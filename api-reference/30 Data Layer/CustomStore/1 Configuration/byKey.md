@@ -57,4 +57,48 @@ A Promise that is resolved after the data item is loaded. It is a <a href="https
         // ...
     })
 
+##### Vue
+
+#include common-note-axios
+
+    <!-- tab: App.vue -->
+    <script>
+    import CustomStore from 'devextreme/data/custom_store';
+    import DataSource from 'devextreme/data/data_source';
+    import axios from 'axios';
+
+    const store = new CustomStore({
+        // ...
+        byKey: (key) => {
+            return axios.get("http://mydomain.com/MyDataService?id=" + key);
+        }
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+#include common-note-axios
+
+    <!-- tab: App.js -->
+    // ...
+    import CustomStore from 'devextreme/data/custom_store';
+    import DataSource from 'devextreme/data/data_source';
+    import axios from 'axios';
+
+    const store = new CustomStore({
+        // ...
+        byKey: (key) => {
+            return axios.get("http://mydomain.com/MyDataService?id=" + key);
+        }
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+
 ---

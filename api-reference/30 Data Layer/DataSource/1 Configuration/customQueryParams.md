@@ -41,6 +41,48 @@ Custom parameters that should be passed to an OData service with the load query.
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import DataSource from 'devextreme/data/data_source';
+    import ODataStore from 'devextreme/data/odata/store';
+
+    const ds = new DataSource({
+        store: new ODataStore({
+            // ODataStore is configured here
+        }),
+        customQueryParams: {
+            param: 'value'
+        }
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import DataSource from 'devextreme/data/data_source';
+    import ODataStore from 'devextreme/data/odata/store';
+
+    const ds = new DataSource({
+        store: new ODataStore({
+            // ODataStore is configured here
+        }),
+        customQueryParams: {
+            param: 'value'
+        }
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+
 ---
 
 #####See Also#####

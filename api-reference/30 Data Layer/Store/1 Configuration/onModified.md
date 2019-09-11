@@ -33,5 +33,41 @@ A function that is executed after a data item is added, updated, or removed from
             })
         }
     }
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import {WidgetName} from 'devextreme/data/{widget_name}';
+
+    const store = new {WidgetName}({
+        // ...
+        onModified: function () {
+            // Your code goes here
+        }
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import {WidgetName} from 'devextreme/data/{widget_name}';
+
+    const store = new {WidgetName}({
+        // ...
+        onModified: function () {
+            // Your code goes here
+        }
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
     
 ---

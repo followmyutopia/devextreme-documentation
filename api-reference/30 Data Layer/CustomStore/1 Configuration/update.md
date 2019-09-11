@@ -24,7 +24,7 @@ A Promise that is resolved after the data item is updated. It is a <a href="http
         // ...
         update: function (key, values) {
             return $.ajax({
-                url: "http://mydomain.com/MyDataService/myEntity" + encodeURIComponent(key),
+                url: "http://mydomain.com/MyDataService/myEntity/" + encodeURIComponent(key),
                 method: "PUT",
                 data: values
             })
@@ -45,7 +45,7 @@ A Promise that is resolved after the data item is updated. It is a <a href="http
             this.store = new CustomStore({
                 // ...
                 update: (key, values) => {
-                    return httpClient.put("http://mydomain.com/MyDataService/myEntity" + encodeURIComponent(key), values)
+                    return httpClient.put("http://mydomain.com/MyDataService/myEntity/" + encodeURIComponent(key), values)
                         .toPromise();
                 }
             });
@@ -58,5 +58,49 @@ A Promise that is resolved after the data item is updated. It is a <a href="http
         ],
         // ...
     })
+
+##### Vue
+
+#include common-note-axios
+
+    <!-- tab: App.vue -->
+    <script>
+    import CustomStore from 'devextreme/data/custom_store';
+    import DataSource from 'devextreme/data/data_source';
+    import axios from 'axios';
+
+    const store = new CustomStore({
+        // ...
+        update: (key, values) => {
+            return axios.put("http://mydomain.com/MyDataService/myEntity/" + encodeURIComponent(key), values);
+        }
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+#include common-note-axios
+
+    <!-- tab: App.js -->
+    // ...
+    import CustomStore from 'devextreme/data/custom_store';
+    import DataSource from 'devextreme/data/data_source';
+    import axios from 'axios';
+
+    const store = new CustomStore({
+        // ...
+        update: (key, values) => {
+            return axios.put("http://mydomain.com/MyDataService/myEntity/" + encodeURIComponent(key), values);
+        }
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
 
 ---

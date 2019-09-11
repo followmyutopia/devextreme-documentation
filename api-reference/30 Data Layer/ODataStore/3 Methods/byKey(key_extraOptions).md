@@ -58,4 +58,48 @@ In the following code, the **byKey** method loads the product with ID `1` along 
         };
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import ODataStore from 'devextreme/data/odata/store';
+
+    const store = new ODataStore({
+        // ...
+        key: 'Product_ID'
+    });
+
+    export default {
+        mounted() {
+            store.byKey(1, { expand: 'Category' }).then(
+                (dataItem) => { /* Process the "dataItem" here */ },
+                (error) => { /* Handle the "error" here */ }
+            );
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import ODataStore from 'devextreme/data/odata/store';
+
+    const store = new ODataStore({
+        // ...
+        key: 'Product_ID'
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            store.byKey(1, { expand: 'Category' }).then(
+                (dataItem) => { /* Process the "dataItem" here */ },
+                (error) => { /* Handle the "error" here */ }
+            );
+        }
+    }
+    export default App;
+
 ---

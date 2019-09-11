@@ -147,6 +147,82 @@ dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
 
     ko.applyBindings(viewModel);
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import ArrayStore from 'devextreme/data/array_store';
+    import DataSource from 'devextreme/data/data_source';
+
+    const states = [
+        { id: 1, state: 'Alabama', capital: 'Montgomery' },
+        { id: 2, state: 'Alaska', capital: 'Juneau' },
+        { id: 3, state: 'Arizona', capital: 'Phoenix' },
+        // ...
+    ];
+
+    const store = new ArrayStore({
+        key: 'id',
+        data: states,
+        // Other ArrayStore options go here
+    });
+
+    // ===== or a simplified version =====
+    const store = new ArrayStore(states);
+
+    // ===== or inside the DataSource =====
+    const dataSource = new DataSource({
+        store: new ArrayStore({
+            key: 'id',
+            data: states,
+            // Other ArrayStore options go here
+        }),
+        // Other DataSource options go here
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import ArrayStore from 'devextreme/data/array_store';
+    import DataSource from 'devextreme/data/data_source';
+
+    const states = [
+        { id: 1, state: 'Alabama', capital: 'Montgomery' },
+        { id: 2, state: 'Alaska', capital: 'Juneau' },
+        { id: 3, state: 'Arizona', capital: 'Phoenix' },
+        // ...
+    ];
+
+    const store = new ArrayStore({
+        key: 'id',
+        data: states,
+        // Other ArrayStore options go here
+    });
+
+    // ===== or a simplified version =====
+    const store = new ArrayStore(states);
+
+    // ===== or inside the DataSource =====
+    const dataSource = new DataSource({
+        store: new ArrayStore({
+            key: 'id',
+            data: states,
+            // Other ArrayStore options go here
+        }),
+        // Other DataSource options go here
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+    
 ##### ASP.NET MVC Controls
 
     <!--Razor C#-->

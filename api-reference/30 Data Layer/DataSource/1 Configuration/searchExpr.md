@@ -33,6 +33,38 @@ In most cases, you should pass the name of a field by whose value data items are
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        // ...
+        searchExpr: ['firstName', 'lastName']
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        // ...
+        searchExpr: ['firstName', 'lastName']
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+
 ---
 
 You can use this option along with [searchOperation](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchOperation) and [searchValue](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchValue) to specify a simple filter. Use the [filter](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter) option for more complex filtering conditions. Filters are combined if you specify them in both ways.

@@ -37,4 +37,40 @@ Indicates whether data is being loaded.
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        // ...
+        onLoadingChanged: (isLoading) => {
+            // Your code goes here
+        }
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        // ...
+        onLoadingChanged: (isLoading) => {
+            // Your code goes here
+        }
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+
 ---

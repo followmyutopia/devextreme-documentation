@@ -56,4 +56,48 @@ A Promise that is resolved after the data item is inserted. It is a <a href="htt
         // ...
     })
 
+##### Vue
+
+#include common-note-axios
+
+    <!-- tab: App.vue -->
+    <script>
+    import CustomStore from 'devextreme/data/custom_store';
+    import DataSource from 'devextreme/data/data_source';
+    import axios from 'axios';
+
+    const store = new CustomStore({
+        // ...
+        insert: (values) => {
+            return axios.post("http://mydomain.com/MyDataService/myEntity", values);
+        }
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+#include common-note-axios
+
+    <!-- tab: App.js -->
+    // ...
+    import CustomStore from 'devextreme/data/custom_store';
+    import DataSource from 'devextreme/data/data_source';
+    import axios from 'axios';
+
+    const store = new CustomStore({
+        // ...
+        insert: (values) => {
+            return axios.post("http://mydomain.com/MyDataService/myEntity", values);
+        }
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+
 ---

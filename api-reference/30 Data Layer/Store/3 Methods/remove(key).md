@@ -85,5 +85,85 @@ A data item's key value.
             );
         };
     }
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import {WidgetName} from 'devextreme/data/{widget_name}';
+
+    // The key consists of a single data field
+    const singleKeyStore = new {WidgetName}({
+        key: "field1",
+        // ...
+    });
+
+    // The key consists of several data fields
+    const compositeKeyStore = new {WidgetName}({
+        key: [ "field1", "field2" ],
+        // ...
+    });
+
+    export default {
+        mounted() {
+            // Removes the data item with "field1" being equal to 1
+            singleKeyStore.remove(1).then(
+                (key) => { /* Process the "key" here */ },
+                (error) => { /* Handle the "error" here */ }
+            );
+
+            // Removes the data item with both "field1" and "field2" being equal to 1
+            compositeKeyStore.remove({
+                field1: 1,
+                field2: 1
+            }).then(
+                (key) => { /* Process the "key" here */ },
+                (error) => { /* Handle the "error" here */ }
+            );
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import {WidgetName} from 'devextreme/data/{widget_name}';
+
+    // The key consists of a single data field
+    const singleKeyStore = new {WidgetName}({
+        key: "field1",
+        // ...
+    });
+
+    // The key consists of several data fields
+    const compositeKeyStore = new {WidgetName}({
+        key: [ "field1", "field2" ],
+        // ...
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+
+            // Removes the data item with "field1" being equal to 1
+            singleKeyStore.remove(1).then(
+                (key) => { /* Process the "key" here */ },
+                (error) => { /* Handle the "error" here */ }
+            );
+
+            // Removes the data item with both "field1" and "field2" being equal to 1
+            compositeKeyStore.remove({
+                field1: 1,
+                field2: 1
+            }).then(
+                (key) => { /* Process the "key" here */ },
+                (error) => { /* Handle the "error" here */ }
+            );
+        }
+        // ...
+    }
+    export default App;
     
 ---

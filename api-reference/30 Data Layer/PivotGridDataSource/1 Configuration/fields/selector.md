@@ -50,6 +50,74 @@ This function is an alternative to the [groupInterval](/Documentation/ApiReferen
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-pivot-grid
+            :data-source="pivotGridDataSource"
+        />
+    </template>
+    
+    <script>
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+    import DxPivotGrid from 'devextreme-vue/pivot-grid';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        // ...
+        fields: [{
+            caption: 'Birth Decade',
+            area: 'column',
+            selector: function (data) {
+                let birthDate = new Date(data.birthDate);
+                return Math.floor(birthDate.getFullYear() / 10) * 10;
+            }
+        }]
+    });
+
+    export default {
+        components: {
+            DxPivotGrid
+        },
+        data() {
+            return {
+                pivotGridDataSource
+            }
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+    import DxPivotGrid from 'devextreme-react/pivot-grid';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        // ...
+        fields: [{
+            caption: 'Birth Decade',
+            area: 'column',
+            selector: function (data) {
+                let birthDate = new Date(data.birthDate);
+                return Math.floor(birthDate.getFullYear() / 10) * 10;
+            }
+        }]
+    });
+
+    class App extends React.Component {
+        render() {
+            return (
+                <PivotGrid
+                    dataSource={pivotGridDataSource}
+                />
+            );
+        }
+    }
+    export default App;
+
 ##### ASP.NET MVC Controls
 
     <!--Razor C#-->
@@ -87,7 +155,7 @@ Another example: a **selector** that places values below and over 1000 into diff
                 caption: "Amount",
                 area: "column",
                 selector: function (data) {
-                    return data.amount > 1000 ? "> 1000" : "< 1000"
+                    return data.amount > 1000 ? "> 1000" : "< 1000";
                 }
             }]
         });
@@ -107,12 +175,78 @@ Another example: a **selector** that places values below and over 1000 into diff
                     caption: "Amount",
                     area: "column",
                     selector: function (data) {
-                        return data.amount > 1000 ? "> 1000" : "< 1000"
+                        return data.amount > 1000 ? "> 1000" : "< 1000";
                     }
                 }]
             });
         }
     }
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-pivot-grid
+            :data-source="pivotGridDataSource"
+        />
+    </template>
+    
+    <script>
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+    import DxPivotGrid from 'devextreme-vue/pivot-grid';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        // ...
+        fields: [{
+            caption: 'Amount',
+            area: 'column',
+            selector: function (data) {
+                return data.amount > 1000 ? '> 1000' : '< 1000';
+            }
+        }]
+    });
+
+    export default {
+        components: {
+            DxPivotGrid
+        },
+        data() {
+            return {
+                pivotGridDataSource
+            }
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+    import DxPivotGrid from 'devextreme-react/pivot-grid';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        // ...
+        fields: [{
+            caption: 'Amount',
+            area: 'column',
+            selector: function (data) {
+                return data.amount > 1000 ? '> 1000' : '< 1000';
+            }
+        }]
+    });
+
+    class App extends React.Component {
+        render() {
+            return (
+                <PivotGrid
+                    dataSource={pivotGridDataSource}
+                />
+            );
+        }
+    }
+    export default App;
 
 ##### ASP.NET MVC Controls
 
@@ -131,7 +265,7 @@ Another example: a **selector** that places values below and over 1000 into diff
 
     <script type="text/javascript">
         function classifyValues (data) {
-            return data.amount > 1000 ? "> 1000" : "< 1000"
+            return data.amount > 1000 ? "> 1000" : "< 1000";
         }
     </script>
 

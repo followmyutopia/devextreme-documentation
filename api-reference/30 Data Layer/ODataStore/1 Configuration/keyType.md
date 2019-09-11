@@ -42,6 +42,46 @@ Set this option if you do not need to [filter data](/Documentation/Guide/Data_La
         };
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import ODataStore from 'devextreme/data/odata/store';
+
+    const store = new ODataStore({
+        url: 'https://js.devexpress.com/Demos/DevAV/odata/Products',
+        key: [ 'Product_ID', 'Product_Code' ],
+        keyType: {
+            Product_ID: 'Guid',
+            Product_Code: 'Int32'
+        }
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import ODataStore from 'devextreme/data/odata/store';
+
+    const store = new ODataStore({
+        url: 'https://js.devexpress.com/Demos/DevAV/odata/Products',
+        key: [ 'Product_ID', 'Product_Code' ],
+        keyType: {
+            Product_ID: 'Guid',
+            Product_Code: 'Int32'
+        }
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+
 ---
 
 When specifying this option in an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), use the `EdmType` enum that has the following values: `Int32`, `Int64`, `Guid`, `String`, `Boolean`, `Single` and `Decimal`.

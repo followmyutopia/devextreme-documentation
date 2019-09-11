@@ -31,5 +31,44 @@ Deletes data from the cache. Takes effect only if the [cacheRawData](/Documentat
             this.store.clearRawDataCache();
         };
     }
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import CustomStore from 'devextreme/data/custom_store';
+
+    const store = new CustomStore({
+        // CustomStore is configured here
+        cacheRawData: true
+    });
+
+    export default {
+        mounted() {
+            store.clearRawDataCache();
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import CustomStore from 'devextreme/data/custom_store';
+
+    const store = new CustomStore({
+        // CustomStore is configured here
+        cacheRawData: true
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            store.clearRawDataCache();
+        }
+        // ...
+    }
+    export default App;
     
 ---

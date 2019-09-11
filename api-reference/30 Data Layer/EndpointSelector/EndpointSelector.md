@@ -86,4 +86,50 @@ This object selects local or production OData service URL depending on whether t
 
     ko.applyBindings(viewModel);
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import EndpointSelector from 'devextreme/data/endpoint_selector';
+
+    const endpointSelector = new EndpointSelector({
+        db1: {
+            local: 'http://localhost:55555/service1.svc/',
+            production: 'http://services.example.com/service1.svc/'
+        },
+        db2: {
+            local: 'http://localhost:55555/service2.svc/',
+            production: 'http://services.example.com/service2.svc/'
+        },
+        // ...
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import EndpointSelector from 'devextreme/data/endpoint_selector';
+
+    const endpointSelector = new EndpointSelector({
+        db1: {
+            local: 'http://localhost:55555/service1.svc/',
+            production: 'http://services.example.com/service1.svc/'
+        },
+        db2: {
+            local: 'http://localhost:55555/service2.svc/',
+            production: 'http://services.example.com/service2.svc/'
+        },
+        // ...
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+
 ---

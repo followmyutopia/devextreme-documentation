@@ -58,4 +58,62 @@ The error.
         [dataSource]="pivotGridDataSource">
     </dx-pivot-grid>
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-pivot-grid
+            :data-source="pivotGridDataSource"
+        />
+    </template>
+    
+    <script>
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+    import DxPivotGrid from 'devextreme-vue/pivot-grid';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        // ...
+        onLoadError: (error) => {
+            console.log(error.message);
+        }
+    });
+
+    export default {
+        components: {
+            DxPivotGrid
+        },
+        data() {
+            return {
+                pivotGridDataSource
+            }
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+    import DxPivotGrid from 'devextreme-react/pivot-grid';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        // ...
+        onLoadError: (error) => {
+            console.log(error.message);
+        }
+    });
+
+    class App extends React.Component {
+        render() {
+            return (
+                <PivotGrid
+                    dataSource={pivotGridDataSource}
+                />
+            );
+        }
+    }
+    export default App;
+
 ---

@@ -39,6 +39,43 @@ A function that accepts a data item and returns **true** if it should be include
         };
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import Query from 'devextreme/data/query';
+
+    export default {
+        mounted() {
+            this.filteredData = Query([10, 20, 40, 50, 30])
+                .filter(dataItem => dataItem < 25)
+                .toArray();
+
+            console.log(this.filteredData); // outputs [10, 20]
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import Query from 'devextreme/data/query';
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+
+            this.filteredData = Query([10, 20, 40, 50, 30])
+                .filter(dataItem => dataItem < 25)
+                .toArray();
+
+            console.log(this.filteredData); // outputs [10, 20]
+        }
+    }
+    export default App;
+
 ---
 
 #####See Also#####

@@ -59,4 +59,66 @@ The **ODataContext** creates an **ODataStore** per entity collection, so you nee
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import ODataContext from 'devextreme/data/odata/context';
+
+    const context = new ODataContext({
+        url: 'https://js.devexpress.com/Demos/DevAV/odata/',
+        entities: { 
+            // Configures access to "https://js.devexpress.com/Demos/DevAV/odata/Employees"
+            Employees: { 
+                key: 'Employee_ID', 
+                keyType: 'Int32' 
+            },
+            // Configures access to "https://js.devexpress.com/Demos/DevAV/odata/Customers"
+            Clients: {              // The collection alias
+                name: 'Customers',  // The collection name
+                key: 'Customer_ID', 
+                keyType: 'Int32' 
+            }
+        }
+    });
+
+    export default {
+        mounted: {
+            context.Clients.load();
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import ODataContext from 'devextreme/data/odata/context';
+
+    const context = new ODataContext({
+        url: 'https://js.devexpress.com/Demos/DevAV/odata/',
+        entities: { 
+            // Configures access to "https://js.devexpress.com/Demos/DevAV/odata/Employees"
+            Employees: { 
+                key: 'Employee_ID', 
+                keyType: 'Int32' 
+            },
+            // Configures access to "https://js.devexpress.com/Demos/DevAV/odata/Customers"
+            Clients: {              // The collection alias
+                name: 'Customers',  // The collection name
+                key: 'Customer_ID', 
+                keyType: 'Int32' 
+            }
+        }
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            context.Clients.load();
+        }
+    }
+    export default App;
+
 ---

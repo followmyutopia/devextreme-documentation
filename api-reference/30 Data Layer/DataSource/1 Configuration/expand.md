@@ -37,6 +37,44 @@ Specifies the navigation properties to be loaded with the OData entity. Availabl
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import DataSource from 'devextreme/data/data_source';
+    import ODataStore from 'devextreme/data/odata/store';
+
+    const ds = new DataSource({
+        store: new ODataStore({
+            // ODataStore is configured here
+        }),
+        expand: ['PropertyName1', 'PropertyName2']
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import DataSource from 'devextreme/data/data_source';
+    import ODataStore from 'devextreme/data/odata/store';
+
+    const ds = new DataSource({
+        store: new ODataStore({
+            // ODataStore is configured here
+        }),
+        expand: ['PropertyName1', 'PropertyName2']
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+
 ##### ASP.NET MVC Controls
 
     <!--Razor C#-->

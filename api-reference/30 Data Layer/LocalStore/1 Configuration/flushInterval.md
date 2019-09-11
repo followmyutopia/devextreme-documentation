@@ -34,4 +34,38 @@ Specifies a delay in milliseconds between when data changes and the moment these
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import LocalStore from 'devextreme/data/local_store';
+
+    const store = new LocalStore({
+        // ...
+        immediate: false,
+        flushInterval: 3000
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import LocalStore from 'devextreme/data/local_store';
+
+    const store = new LocalStore({
+        // ...
+        immediate: false,
+        flushInterval: 3000
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+
 ---

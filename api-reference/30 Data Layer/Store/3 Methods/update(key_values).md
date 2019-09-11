@@ -91,4 +91,84 @@ In the following code, **dataObj** is a data object updated in the database and 
         };
     }
     
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import {WidgetName} from 'devextreme/data/{widget_name}';
+
+    // The key consists of a single data field
+    const singleKeyStore = new {WidgetName}({
+        key: "field1",
+        // ...
+    });
+
+    // The key consists of several data fields
+    const compositeKeyStore = new {WidgetName}({
+        key: [ "field1", "field2" ],
+        // ...
+    });
+
+    export default {
+        mounted() {
+            // Updates the data item with "field1" being equal to 1
+            singleKeyStore.update(1, { name: "John Smith" }).then(
+                (dataObj) => { /* Process the data object here */ },
+                (error) => { /* Handle the "error" here */ }
+            );
+
+            // Updates the data item with both "field1" and "field2" being equal to 1
+            compositeKeyStore.update(
+                { field1: 1, field2: 1 },
+                { name: "John Smith" }
+            ).then(
+                (dataObj) => { /* Process the data object here */ },
+                (error) => { /* Handle the "error" here */ }
+            );
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import {WidgetName} from 'devextreme/data/{widget_name}';
+
+    // The key consists of a single data field
+    const singleKeyStore = new {WidgetName}({
+        key: "field1",
+        // ...
+    });
+
+    // The key consists of several data fields
+    const compositeKeyStore = new {WidgetName}({
+        key: [ "field1", "field2" ],
+        // ...
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+
+            // Updates the data item with "field1" being equal to 1
+            singleKeyStore.update(1, { name: "John Smith" }).then(
+                (dataObj) => { /* Process the data object here */ },
+                (error) => { /* Handle the "error" here */ }
+            );
+
+            // Updates the data item with both "field1" and "field2" being equal to 1
+            compositeKeyStore.update(
+                { field1: 1, field2: 1 },
+                { name: "John Smith" }
+            ).then(
+                (dataObj) => { /* Process the data object here */ },
+                (error) => { /* Handle the "error" here */ }
+            );
+        }
+        // ...
+    }
+    export default App;
+    
 ---

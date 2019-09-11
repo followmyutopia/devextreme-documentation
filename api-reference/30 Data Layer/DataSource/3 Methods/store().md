@@ -38,4 +38,45 @@ A store instance.
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        store: {
+            // Store is configured here
+        }
+    });
+
+    export default {
+        mounted() {
+            this.store = ds.store();
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        store: {
+            // Store is configured here
+        }
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            
+            this.store = ds.store();
+        }
+    }
+    export default App;
+
 ---

@@ -40,4 +40,40 @@ The error message.
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        // ...
+        onLoadError: (error) => {
+            console.log(error.message);
+        }
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        // ...
+        onLoadError: (error) => {
+            console.log(error.message);
+        }
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+
 ---

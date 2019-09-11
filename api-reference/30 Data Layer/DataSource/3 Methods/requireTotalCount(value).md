@@ -40,4 +40,45 @@ Call the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#loa
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        // ...
+        requireTotalCount: true
+    });
+
+    export default {
+        mounted() {
+            ds.requireTotalCount(false);
+            ds.load();
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        // ...
+        requireTotalCount: true
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            
+            ds.requireTotalCount(false);
+            ds.load();
+        }
+    }
+    export default App;
+
 ---

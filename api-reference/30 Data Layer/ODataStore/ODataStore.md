@@ -66,6 +66,66 @@ dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import ODataStore from 'devextreme/data/odata/store';
+    import DataSource from 'devextreme/data/data_source';
+
+    const store = new ODataStore({
+        url: 'http://www.example.com/Northwind.svc/Products',
+        key: 'ProductID',
+        keyType: 'Int32',
+        // Other ODataStore options go here
+    });
+
+    // ===== or inside the DataSource =====
+    const dataSource = new DataSource({
+        store: new ODataStore({
+            url: 'http://www.example.com/Northwind.svc/Products',
+            key: 'ProductID',
+            keyType: 'Int32',
+            // Other ODataStore options go here
+        }),
+        // Other DataSource options go here
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import ODataStore from 'devextreme/data/odata/store';
+    import DataSource from 'devextreme/data/data_source';
+
+    const store = new ODataStore({
+        url: 'http://www.example.com/Northwind.svc/Products',
+        key: 'ProductID',
+        keyType: 'Int32',
+        // Other ODataStore options go here
+    });
+
+    // ===== or inside the DataSource =====
+    const dataSource = new DataSource({
+        store: new ODataStore({
+            url: 'http://www.example.com/Northwind.svc/Products',
+            key: 'ProductID',
+            keyType: 'Int32',
+            // Other ODataStore options go here
+        }),
+        // Other DataSource options go here
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+
 ##### AngularJS  
 
     <!--JavaScript-->
@@ -142,7 +202,7 @@ dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
 
 ---
 
-To access an entire OData service, use the [ODataContext](/Documentation/ApiReference/Data_Layer/ODataContext/) instead.
+To access an entire OData service, use the [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/) instead.
 
 #include datalayer-store-note-immutable with { name: "ODataStore" }
 

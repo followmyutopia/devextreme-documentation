@@ -65,4 +65,63 @@ A function that is called after the calculation is finished.
         };
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import Query from 'devextreme/data/query';
+
+    const step = (total, itemData) => {
+        // "total" is an accumulator value that should be changed on each iteration
+        // "itemData" is the item to which the function is being applied
+        return total + itemData;
+    }
+
+    const finalize = total => {
+        // "total" is the resulting accumulator value
+        return total / 1000;
+    }
+
+    export default {
+        mounted() {
+            Query([10, 20, 30, 40, 50])
+                .aggregate(0, step, finalize)
+                .then(result => {
+                    console.log(result); // outputs 0.15
+                });
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import Query from 'devextreme/data/query';
+
+    const step = (total, itemData) => {
+        // "total" is an accumulator value that should be changed on each iteration
+        // "itemData" is the item to which the function is being applied
+        return total + itemData;
+    }
+
+    const finalize = total => {
+        // "total" is the resulting accumulator value
+        return total / 1000;
+    }
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+
+            Query([10, 20, 30, 40, 50])
+                .aggregate(0, step, finalize)
+                .then(result => {
+                    console.log(result); // outputs 0.15
+                });
+        }
+    }
+    export default App;
+
 ---

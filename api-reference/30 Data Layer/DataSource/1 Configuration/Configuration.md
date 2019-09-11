@@ -39,6 +39,46 @@ The **DataSource** allows specifying [**CustomStore** options](/Documentation/Ap
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import DataSource from 'devextreme/data/data_source';
+
+    const infiniteList = new DataSource({
+        load: (loadOptions) => {
+            // Loading data objects
+        },
+        byKey: (key) => {
+            // Retrieving a data object by key
+        }
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import DataSource from 'devextreme/data/data_source';
+
+    const infiniteList = new DataSource({
+        load: (loadOptions) => {
+            // Loading data objects
+        },
+        byKey: (key) => {
+            // Retrieving a data object by key
+        }
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+
 ---
 
 [/note]

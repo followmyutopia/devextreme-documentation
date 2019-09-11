@@ -56,6 +56,62 @@ The field's [name](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Co
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->  
+    <script>
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        // ...
+        fields: [{
+            caption: 'Sales',
+            dataField: 'amount',
+            summaryType: 'sum',
+            area: 'data'
+        }]
+    });
+
+    export default {
+        mounted() {
+            // The following commands return the same object
+            pivotGridDataSource.field('Sales');
+            pivotGridDataSource.field('amount');
+            pivotGridDataSource.field(0);
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+    
+    const pivotGridDataSource = new PivotGridDataSource({
+        // ...
+        fields: [{
+            caption: 'Sales',
+            dataField: 'amount',
+            summaryType: 'sum',
+            area: 'data'
+        }]
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            
+            // The following commands return the same object
+            pivotGridDataSource.field('Sales');
+            pivotGridDataSource.field('amount');
+            pivotGridDataSource.field(0);
+        }
+        // ...
+    }
+    export default App;
+
 ---
 #####See Also#####
 - [getAreaFields(area, collectGroups)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#getAreaFieldsarea_collectGroups)

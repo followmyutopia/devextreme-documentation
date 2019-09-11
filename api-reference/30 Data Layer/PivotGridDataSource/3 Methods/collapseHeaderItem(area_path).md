@@ -40,6 +40,46 @@ A path to the header item.
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->  
+    <script>
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        // PivotGridDataSource is configured here
+    });
+
+    export default {
+        mounted() {
+            // Collapses the second quarter of 2015 in the column area
+            pivotGridDataSource.collapseHeaderItem('column', [2015, 2]);
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        // PivotGridDataSource is configured here
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            
+            // Collapses the second quarter of 2015 in the column area
+            pivotGridDataSource.collapseHeaderItem('column', [2015, 2]);
+        }
+        // ...
+    }
+    export default App;
+
 ---
 
 #####See Also#####

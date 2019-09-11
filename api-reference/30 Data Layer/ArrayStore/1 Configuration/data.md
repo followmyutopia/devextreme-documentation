@@ -35,4 +35,40 @@ Specifies the store's associated array.
         }
     }
     
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import ArrayStore from 'devextreme/data/array_store';
+
+    const store = new ArrayStore({
+        data: [
+            { id: 1, name: 'John Doe' },
+            // ...
+        ]
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import ArrayStore from 'devextreme/data/array_store';
+
+    const store = new ArrayStore({
+        data: [
+            { id: 1, name: 'John Doe' },
+            // ...
+        ]
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+
 ---

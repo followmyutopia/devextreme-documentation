@@ -65,6 +65,66 @@ Call this method within the [insert()](/Documentation/ApiReference/Data_Layer/OD
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import ODataContext from 'devextreme/data/odata/context';
+
+    const context = new ODataContext({
+        url: 'https://js.devexpress.com/Demos/DevAV/odata/',
+        entities: { 
+            Orders: {  
+                key: 'Order_ID', 
+                keyType: 'Int32' 
+            },
+            Customers: { 
+                key: 'Customer_ID', 
+                keyType: 'Int32' 
+            }
+        }
+    });
+
+    export default {
+        mounted() {
+            context.Orders.update(1, {
+                Customer: context.objectLink('Customers', 2) 
+            });
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import ODataContext from 'devextreme/data/odata/context';
+
+    const context = new ODataContext({
+        url: 'https://js.devexpress.com/Demos/DevAV/odata/',
+        entities: { 
+            Orders: {  
+                key: 'Order_ID', 
+                keyType: 'Int32' 
+            },
+            Customers: { 
+                key: 'Customer_ID', 
+                keyType: 'Int32' 
+            }
+        }
+    });
+    
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            context.Orders.update(1, {
+                Customer: context.objectLink('Customers', 2) 
+            });
+        }
+    }
+    export default App;
+
 ---
 
 #####See Also#####

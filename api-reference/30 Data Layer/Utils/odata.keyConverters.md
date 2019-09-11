@@ -32,6 +32,40 @@ The following code shows how to register a custom type converter:
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->  
+    <script>
+    import { keyConverters } from 'devextreme/data/odata/utils';
+
+    export default {
+        mounted() {
+            keyConverters['MyType'] = value => {
+                return value + 'MT';
+            }
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import { keyConverters } from 'devextreme/data/odata/utils';
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            
+            keyConverters['MyType'] = value => {
+                return value + 'MT';
+            }
+        }
+        // ...
+    }
+    export default App;
+
 ---
 
 #####See Also#####

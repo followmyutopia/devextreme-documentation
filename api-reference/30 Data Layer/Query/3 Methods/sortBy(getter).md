@@ -65,6 +65,71 @@ A getter; in most cases, the name of the data field to sort by.
         };
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import Query from 'devextreme/data/query';
+
+    const dataObjects = [
+        { name: 'Amelia', birthYear: 1991, gender: 'female' },
+        { name: 'Benjamin', birthYear: 1983, gender: 'male' },
+        { name: 'Daniela', birthYear: 1987, gender: 'female' },
+        { name: 'Lee', birthYear: 1981, gender: 'male' }
+    ];
+
+    export default {
+        mounted() {
+            this.sortedData = Query(dataObjects)
+                .sortBy('birthYear')
+                .toArray();
+
+            console.log(this.sortedData);
+            /* outputs
+            [
+                { name: "Lee", birthYear: 1981, gender: "male" },
+                { name: "Benjamin", birthYear: 1983, gender: "male" },
+                { name: "Daniela", birthYear: 1987, gender: "female" },
+                { name: "Amelia", birthYear: 1991, gender: "female" }
+            ] */
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import Query from 'devextreme/data/query';
+
+    const dataObjects = [
+        { name: 'Amelia', birthYear: 1991, gender: 'female' },
+        { name: 'Benjamin', birthYear: 1983, gender: 'male' },
+        { name: 'Daniela', birthYear: 1987, gender: 'female' },
+        { name: 'Lee', birthYear: 1981, gender: 'male' }
+    ];
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+
+            this.sortedData = Query(dataObjects)
+                .sortBy('birthYear')
+                .toArray();
+
+            console.log(this.sortedData);
+            /* outputs
+            [
+                { name: "Lee", birthYear: 1981, gender: "male" },
+                { name: "Benjamin", birthYear: 1983, gender: "male" },
+                { name: "Daniela", birthYear: 1987, gender: "female" },
+                { name: "Amelia", birthYear: 1991, gender: "female" }
+            ] */
+        }
+    }
+    export default App;
+
 ---
 
 To sort data items by one more getter, call the [thenBy(getter)](/Documentation/ApiReference/Data_Layer/Query/Methods/#thenBygetter) or [thenBy(getter, desc)](/Documentation/ApiReference/Data_Layer/Query/Methods/#thenBygetter_desc) method after **sortBy**.

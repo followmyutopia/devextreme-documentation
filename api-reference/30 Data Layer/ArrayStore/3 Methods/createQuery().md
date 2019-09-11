@@ -36,6 +36,40 @@ The [Query](/Documentation/ApiReference/Data_Layer/Query/) object.
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import {WidgetName} from 'devextreme/data/{widget_name}';
+
+    const store = new {WidgetName}({
+        // ArrayStore is configured here
+    });
+
+    const query = store.createQuery();
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import {WidgetName} from 'devextreme/data/{widget_name}';
+
+    const store = new {WidgetName}({
+        // ArrayStore is configured here
+    });
+    
+    const query = store.createQuery();
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+
 ---
 
 #####See Also#####

@@ -44,6 +44,48 @@ Set this option if you are going to [filter data](/Documentation/Guide/Data_Laye
         };
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import ODataStore from 'devextreme/data/odata/store';
+
+    const store = new ODataStore({
+        url: 'https://js.devexpress.com/Demos/DevAV/odata/Products',  
+        key: 'Product_ID',
+        fieldTypes: {
+            Product_ID: 'Guid',
+            Product_Name: 'String',
+            Product_Price: 'Int32'
+        }
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import ODataStore from 'devextreme/data/odata/store';
+
+    const store = new ODataStore({
+        url: 'https://js.devexpress.com/Demos/DevAV/odata/Products',  
+        key: 'Product_ID',
+        fieldTypes: {
+            Product_ID: 'Guid',
+            Product_Name: 'String',
+            Product_Price: 'Int32'
+        }
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+
 ##### ASP.NET MVC Controls
 
     <!--Razor C#-->@(Html.DevExtreme().WidgetName()

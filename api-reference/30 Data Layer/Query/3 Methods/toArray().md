@@ -34,4 +34,41 @@ The data items.
         };
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import Query from 'devextreme/data/query';
+
+    export default {
+        mounted() {
+            this.data = Query([10, 20, 50, 40, 30])
+                .sortBy()
+                .toArray();
+
+            console.log(this.data); // outputs [10, 20, 30, 40, 50]
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import Query from 'devextreme/data/query';
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+
+            this.data = Query([10, 20, 50, 40, 30])
+                .sortBy()
+                .toArray();
+
+            console.log(this.data); // outputs [10, 20, 30, 40, 50]
+        }
+    }
+    export default App;
+
 ---

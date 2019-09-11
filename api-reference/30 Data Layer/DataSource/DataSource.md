@@ -64,6 +64,40 @@ dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
 
     ko.applyBindings(viewModel);
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import DataSource from 'devextreme/data/data_source';
+
+    const dataSource = new DataSource({
+        // ...
+        // DataSource is configured here
+        // ...
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import DataSource from 'devextreme/data/data_source';
+
+    const dataSource = new DataSource({
+        // ...
+        // DataSource is configured here
+        // ...
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+
 ---
 
 [note] If you create a **DataSource** instance outside a widget (as shown above), make sure to [dispose](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#dispose) of it when it is no longer required. If the instance is created inside a widget, it is disposed of automatically.

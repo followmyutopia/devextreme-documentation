@@ -84,5 +84,85 @@ A data item's key value.
             );
         };
     }
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import {WidgetName} from 'devextreme/data/{widget_name}';
+
+    // The key consists of a single data field
+    const singleKeyStore = new {WidgetName}({
+        key: "field1",
+        // ...
+    });
+
+    // The key consists of several data fields
+    const compositeKeyStore = new {WidgetName}({
+        key: [ "field1", "field2" ],
+        // ...
+    });
+
+    export default {
+        mounted() {
+            // Gets the data item with "field1" being equal to 1
+            singleKeyStore.byKey(1).then(
+                (dataItem) => { /* Process the "dataItem" here */ },
+                (error) => { /* Handle the "error" here */ }
+            );
+
+            // Gets the data item with both "field1" and "field2" being equal to 1
+            compositeKeyStore.byKey({
+                field1: 1,
+                field2: 1
+            }).then(
+                (dataItem) => { /* Process the "dataItem" here */ },
+                (error) => { /* Handle the "error" here */ }
+            );
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import {WidgetName} from 'devextreme/data/{widget_name}';
+
+    // The key consists of a single data field
+    const singleKeyStore = new {WidgetName}({
+        key: "field1",
+        // ...
+    });
+
+    // The key consists of several data fields
+    const compositeKeyStore = new {WidgetName}({
+        key: [ "field1", "field2" ],
+        // ...
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+
+            // Gets the data item with "field1" being equal to 1
+            singleKeyStore.byKey(1).then(
+                (dataItem) => { /* Process the "dataItem" here */ },
+                (error) => { /* Handle the "error" here */ }
+            );
+
+            // Gets the data item with both "field1" and "field2" being equal to 1
+            compositeKeyStore.byKey({
+                field1: 1,
+                field2: 1
+            }).then(
+                (dataItem) => { /* Process the "dataItem" here */ },
+                (error) => { /* Handle the "error" here */ }
+            );
+        }
+        // ...
+    }
+    export default App;
     
 ---

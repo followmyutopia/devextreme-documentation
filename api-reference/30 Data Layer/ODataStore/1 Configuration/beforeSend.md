@@ -72,4 +72,52 @@ The request URL.
         };
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import ODataStore from 'devextreme/data/odata/store';
+
+    const store = new ODataStore({
+        url: 'https://js.devexpress.com/Demos/DevAV/odata/Products',  
+        beforeSend: (e) => {  
+            e.params = {
+                'param1': 'value1',
+                'param2': 'value2'
+            };
+            e.headers = {
+                'Custom Header': 'value'
+            };
+        }
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import ODataStore from 'devextreme/data/odata/store';
+
+    const store = new ODataStore({
+        url: 'https://js.devexpress.com/Demos/DevAV/odata/Products',  
+        beforeSend: (e) => {  
+            e.params = {
+                'param1': 'value1',
+                'param2': 'value2'
+            };
+            e.headers = {
+                'Custom Header': 'value'
+            };
+        }
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+
 ---

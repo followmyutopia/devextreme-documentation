@@ -56,6 +56,58 @@ A modified data item.
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import DataSource from 'devextreme/data/data_source';
+    import ArrayStore from 'devextreme/data/array_store';
+
+    const ds = new DataSource({
+        store: new ArrayStore({
+            data: [{
+                firstName: 'John',
+                lastName: 'Smith'
+            }]
+        }),
+        map: (dataItem) => {
+            return {
+                fullName: dataItem.firstName + ' ' + dataItem.lastName
+            }
+        }
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import DataSource from 'devextreme/data/data_source';
+    import ArrayStore from 'devextreme/data/array_store';
+
+    const ds = new DataSource({
+        store: new ArrayStore({
+            data: [{
+                firstName: 'John',
+                lastName: 'Smith'
+            }]
+        }),
+        map: (dataItem) => {
+            return {
+                fullName: dataItem.firstName + ' ' + dataItem.lastName
+            }
+        }
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+
 ##### ASP.NET MVC Controls
 
     <!--Razor C#-->

@@ -34,4 +34,41 @@ A Promise that is resolved after the operation is completed. It is a <a href="ht
         };
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import Query from 'devextreme/data/query';
+
+    export default {
+        mounted() {
+            Query([10, 20, 30, 40, 50])
+                .count()
+                .then(result => {
+                    console.log(result); // outputs 5
+                });
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import Query from 'devextreme/data/query';
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+
+            Query([10, 20, 30, 40, 50])
+                .count()
+                .then(result => {
+                    console.log(result); // outputs 5
+                });
+        }
+    }
+    export default App;
+
 ---

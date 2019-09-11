@@ -145,6 +145,86 @@ When configuring the **LocalStore**, specify the [name](/Documentation/ApiRefere
 
     ko.applyBindings(viewModel);
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import LocalStore from 'devextreme/data/local_store';
+    import DataSource from 'devextreme/data/data_source';
+
+    const states = [
+        { id: 1, state: 'Alabama', capital: 'Montgomery' },
+        { id: 2, state: 'Alaska', capital: 'Juneau' },
+        { id: 3, state: 'Arizona', capital: 'Phoenix' },
+        // ...
+    ];
+
+    const store = new LocalStore({
+        key: 'id',
+        data: states,
+        name: 'myLocalData',
+        // Other LocalStore options go here
+    });
+
+    // ===== or a simplified version =====
+    const store = new LocalStore(states);
+
+    // ===== or inside the DataSource =====
+    const dataSource = new DataSource({
+        store: new LocalStore({
+            key: 'id',
+            data: states,
+            name: 'myLocalData',
+            // Other LocalStore options go here
+        }),
+        // Other DataSource options go here
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import LocalStore from 'devextreme/data/local_store';
+    import DataSource from 'devextreme/data/data_source';
+
+    const states = [
+        { id: 1, state: 'Alabama', capital: 'Montgomery' },
+        { id: 2, state: 'Alaska', capital: 'Juneau' },
+        { id: 3, state: 'Arizona', capital: 'Phoenix' },
+        // ...
+    ];
+
+    const store = new LocalStore({
+        key: 'id',
+        data: states,
+        name: 'myLocalData',
+        // Other LocalStore options go here
+    });
+
+    // ===== or a simplified version =====
+    const store = new LocalStore(states);
+
+    // ===== or inside the DataSource =====
+    const dataSource = new DataSource({
+        store: new LocalStore({
+            key: 'id',
+            data: states,
+            name: 'myLocalData',
+            // Other LocalStore options go here
+        }),
+        // Other DataSource options go here
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+
 ---
 
 #include datalayer-store-note-immutable with { name: "LocalStore" }

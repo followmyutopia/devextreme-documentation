@@ -35,6 +35,44 @@ All [options](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configu
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->  
+    <script>
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        // PivotGridDataSource is configured here
+    });
+
+    export default {
+        mounted() {
+            this.pivotGridFields = pivotGridDataSource.fields();
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+    
+    const pivotGridDataSource = new PivotGridDataSource({
+        // PivotGridDataSource is configured here
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            
+            this.pivotGridFields = pivotGridDataSource.fields();
+        }
+        // ...
+    }
+    export default App;
+
 ---
 
 #####See Also#####

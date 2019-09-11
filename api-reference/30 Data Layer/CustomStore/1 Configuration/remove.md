@@ -21,7 +21,7 @@ A Promise that is resolved after the data item is removed. It is a <a href="http
         // ...
         remove: function (key) {
             return $.ajax({
-                url: "http://mydomain.com/MyDataService/myEntity" + encodeURIComponent(key),
+                url: "http://mydomain.com/MyDataService/myEntity/" + encodeURIComponent(key),
                 method: "DELETE",
             })
         }
@@ -41,7 +41,7 @@ A Promise that is resolved after the data item is removed. It is a <a href="http
             this.store = new CustomStore({
                 // ...
                 remove: (key) => {
-                    return httpClient.delete("http://mydomain.com/MyDataService" + encodeURIComponent(key))
+                    return httpClient.delete("http://mydomain.com/MyDataService/myEntity/" + encodeURIComponent(key))
                         .toPromise();
                 }
             });
@@ -54,5 +54,49 @@ A Promise that is resolved after the data item is removed. It is a <a href="http
         ],
         // ...
     })
+
+##### Vue
+
+#include common-note-axios
+
+    <!-- tab: App.vue -->
+    <script>
+    import CustomStore from 'devextreme/data/custom_store';
+    import DataSource from 'devextreme/data/data_source';
+    import axios from 'axios';
+
+    const store = new CustomStore({
+        // ...
+        remove: (key) => {
+            return axios.delete("http://mydomain.com/MyDataService/myEntity/" + encodeURIComponent(key));
+        }
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+#include common-note-axios
+
+    <!-- tab: App.js -->
+    // ...
+    import CustomStore from 'devextreme/data/custom_store';
+    import DataSource from 'devextreme/data/data_source';
+    import axios from 'axios';
+
+    const store = new CustomStore({
+        // ...
+        remove: (key) => {
+            return axios.delete("http://mydomain.com/MyDataService/myEntity/" + encodeURIComponent(key));
+        }
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
 
 ---

@@ -31,4 +31,47 @@ First, call the [select(getter)](/Documentation/ApiReference/Data_Layer/Query/Me
         };
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import Query from 'devextreme/data/query';
+
+    const dataObjects = [ ... ];
+
+    export default {
+        mounted() {
+            Query(dataObjects)
+                .select('price')
+                .${{summary}}()
+                .then(result => {
+                    // "result" contains the calculated value 
+                });
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import Query from 'devextreme/data/query';
+
+    const dataObjects = [ ... ];
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+
+            Query(dataObjects)
+                .select('price')
+                .${{summary}}()
+                .then(result => {
+                    // "result" contains the calculated value 
+                });
+        }
+    }
+    export default App;
+
 ---

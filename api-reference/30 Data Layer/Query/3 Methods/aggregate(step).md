@@ -51,4 +51,53 @@ This is a shortcut for the [aggregate(seed, step, finalize)](/Documentation/ApiR
         };
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import Query from 'devextreme/data/query';
+
+    const step = (total, itemData) => {
+        // "total" is an accumulator value that should be changed on each iteration
+        // "itemData" is the item to which the function is being applied
+        return total + itemData;
+    }
+
+    export default {
+        mounted() {
+            Query([10, 20, 30, 40, 50])
+                .aggregate(step)
+                .then(result => {
+                    console.log(result); // outputs 150
+                });
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import Query from 'devextreme/data/query';
+
+    const step = (total, itemData) => {
+        // "total" is an accumulator value that should be changed on each iteration
+        // "itemData" is the item to which the function is being applied
+        return total + itemData;
+    }
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+
+            Query([10, 20, 30, 40, 50])
+                .aggregate(step)
+                .then(result => {
+                    console.log(result); // outputs 150
+                });
+        }
+    }
+    export default App;
+
 ---

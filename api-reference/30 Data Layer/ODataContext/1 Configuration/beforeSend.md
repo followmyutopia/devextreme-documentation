@@ -92,4 +92,72 @@ The request URL.
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import ODataContext from 'devextreme/data/odata/context';
+
+    const context = new ODataContext({
+        url: 'https://js.devexpress.com/Demos/DevAV/odata/',
+        entities: { 
+            Employees: { 
+                key: 'Employee_ID', 
+                keyType: 'Int32' 
+            },
+            Customers: { 
+                key: 'Customer_ID', 
+                keyType: 'Int32' 
+            }
+        },
+        beforeSend: (e) => {  
+            e.params = {
+                'param1': 'value1',
+                'param2': 'value2'
+            };
+            e.headers = {
+                'Custom Header': 'value'
+            };
+        }
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import ODataContext from 'devextreme/data/odata/context';
+
+    const context = new ODataContext({
+        url: 'https://js.devexpress.com/Demos/DevAV/odata/',
+        entities: { 
+            Employees: { 
+                key: 'Employee_ID', 
+                keyType: 'Int32' 
+            },
+            Customers: { 
+                key: 'Customer_ID', 
+                keyType: 'Int32' 
+            }
+        },
+        beforeSend: (e) => {  
+            e.params = {
+                'param1': 'value1',
+                'param2': 'value2'
+            };
+            e.headers = {
+                'Custom Header': 'value'
+            };
+        }
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+
 ---

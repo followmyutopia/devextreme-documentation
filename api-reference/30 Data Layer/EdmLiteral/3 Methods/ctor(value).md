@@ -26,4 +26,33 @@ A value in a format the OData's <a href="http://www.odata.org/documentation/odat
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import { EdmLiteral } from 'devextreme/data/odata/utils';
+
+    export default {
+        mounted() {
+            this.edmLiteral = new EdmLiteral('100000L');
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import { EdmLiteral } from 'devextreme/data/odata/utils';
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            
+            this.edmLiteral = new EdmLiteral('100000L');
+        }
+    }
+    export default App;
+
 ---

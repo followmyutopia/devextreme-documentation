@@ -63,4 +63,68 @@ Call the [load()](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Met
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->  
+    <script>
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        // PivotGridDataSource is configured here
+    });
+
+    export default {
+        mounted() {
+            pivotGridDataSource.fields([{
+                dataField: 'region',
+                area: 'row'
+            }, {
+                dataField: 'date',
+                dataType: 'date',
+                area: 'column'
+            },  {
+                dataField: 'sales',
+                summaryType: 'sum',
+                area: 'data'
+            }]);
+            
+            pivotGridDataSource.load();
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        // PivotGridDataSource is configured here
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            
+            pivotGridDataSource.fields([{
+                dataField: 'region',
+                area: 'row'
+            }, {
+                dataField: 'date',
+                dataType: 'date',
+                area: 'column'
+            },  {
+                dataField: 'sales',
+                summaryType: 'sum',
+                area: 'data'
+            }]);
+            
+            pivotGridDataSource.load();
+        }
+        // ...
+    }
+    export default App;
+
 ---

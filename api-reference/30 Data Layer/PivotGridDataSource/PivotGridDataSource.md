@@ -146,6 +146,88 @@ dx.web.js, dx.viz-web.js, dx.all.js
         dataSource: pivotGridDataSource
     }"></div>
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-pivot-grid
+            :data-source="pivotGridDataSource"
+        />
+    </template>
+    
+    <script>
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+    import DxPivotGrid from 'devextreme-vue/pivot-grid';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        store: {
+            // ...
+            // Underlying store is configured here
+            // ...
+        },
+        fields: [{
+            area: 'column',
+            dataField: 'OrderDate',
+            dataType: 'date'
+        }, {
+            area: 'row',
+            dataField: 'ShipCity'
+        }, {
+            area: 'data',
+            summaryType: 'count'
+        }]
+    });
+
+    export default {
+        components: {
+            DxPivotGrid
+        },
+        data() {
+            return {
+                pivotGridDataSource
+            }
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+    import DxPivotGrid from 'devextreme-react/pivot-grid';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        store: {
+            // ...
+            // Underlying store is configured here
+            // ...
+        },
+        fields: [{
+            area: 'column',
+            dataField: 'OrderDate',
+            dataType: 'date'
+        }, {
+            area: 'row',
+            dataField: 'ShipCity'
+        }, {
+            area: 'data',
+            summaryType: 'count'
+        }]
+    });
+
+    class App extends React.Component {
+        render() {
+            return (
+                <PivotGrid
+                    dataSource={pivotGridDataSource}
+                />
+            );
+        }
+    }
+    export default App;
+
 ---
 
 [note] If you create a **PivotGridDataSource** instance outside the widget (as shown above), make sure to [dispose](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#dispose) of it when it is no longer used. If the instance is created inside the widget, it will be disposed of automatically.

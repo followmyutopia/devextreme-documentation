@@ -39,6 +39,42 @@ The operation's parameters.
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import ODataContext from 'devextreme/data/odata/context';
+
+    const context = new ODataContext({
+        // ODataContext is configured here
+    });
+
+    export default {
+        mounted() {
+            this.products = context.get('GetProductsByRating', { rating: 3 });
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import ODataContext from 'devextreme/data/odata/context';
+
+    const context = new ODataContext({
+        // ODataContext is configured here
+    });
+    
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            this.products = context.get('GetProductsByRating', { rating: 3 });
+        }
+    }
+    export default App;
+
 ---
 
 #####See Also#####

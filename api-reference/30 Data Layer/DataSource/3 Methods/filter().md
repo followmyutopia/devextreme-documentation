@@ -36,6 +36,45 @@ A filter expression.
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        // ...
+        filter: ['age', '>', 18]
+    });
+
+    export default {
+        mounted() {
+            this.filterExpr = ds.filter(); // returns ["age", ">", 18]
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        // ...
+        filter: ['age', '>', 18]
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            
+            this.filterExpr = ds.filter(); // returns ["age", ">", 18]
+        }
+    }
+    export default App;
+
 ---
 
 #####See Also#####

@@ -32,9 +32,45 @@ An object containing the [expand](/Documentation/ApiReference/Data_Layer/CustomS
             this.store = new ODataStore({
                 // ODataStore is configured here
             });
-            this.store.createQuery({ expand: "propertyName" });
+            this.query = this.store.createQuery({ expand: "propertyName" });
         };
     }
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import ODataStore from 'devextreme/data/odata/store';
+
+    const store = new ODataStore({
+        // ODataStore is configured here
+    });
+
+    export default {
+        mounted() {
+            this.query = store.createQuery({ expand: 'propertyName' });
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import ODataStore from 'devextreme/data/odata/store';
+
+    const store = new ODataStore({
+        // ODataStore is configured here
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            this.query = store.createQuery({ expand: 'propertyName' });
+        }
+    }
+    export default App;
 
 ---
 

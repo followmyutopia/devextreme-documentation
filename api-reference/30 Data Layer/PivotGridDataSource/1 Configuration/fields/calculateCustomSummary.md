@@ -98,6 +98,92 @@ A summary value calculation is conducted in three stages: *start*, in which the 
         [dataSource]="pivotGridDataSource">
     </dx-pivot-grid>
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-pivot-grid
+            :data-source="pivotGridDataSource"
+        />
+    </template>
+
+    <script>
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+    import DxPivotGrid from 'devextreme-vue/pivot-grid';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        // ...
+        fields: [{
+            // ...
+            summaryType: 'custom',
+            calculateCustomSummary: (options) => {
+                switch(options.summaryProcess) {
+                    case 'start':
+                        // Initializing "totalValue" here
+                        break;
+                    case 'calculate':
+                        // Modifying "totalValue" here
+                        break;
+                    case 'finalize':
+                        // Assigning the final value to "totalValue" here
+                        break;
+                }
+            }
+        }]
+    });
+
+    export default {
+        components: {
+            DxPivotGrid
+        },
+        data() {
+            return {
+                pivotGridDataSource
+            }
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+    import DxPivotGrid from 'devextreme-react/pivot-grid';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        // ...
+        fields: [{
+            // ...
+            summaryType: 'custom',
+            calculateCustomSummary: (options) => {
+                switch(options.summaryProcess) {
+                    case 'start':
+                        // Initializing "totalValue" here
+                        break;
+                    case 'calculate':
+                        // Modifying "totalValue" here
+                        break;
+                    case 'finalize':
+                        // Assigning the final value to "totalValue" here
+                        break;
+                }
+            }
+        }]
+    });
+
+    class App extends React.Component {
+        render() {
+            return (
+                <PivotGrid
+                    dataSource={pivotGridDataSource}
+                />
+            );
+        }
+    }
+    export default App;
+
 ##### ASP.NET MVC Controls
 
     <!--Razor C#-->

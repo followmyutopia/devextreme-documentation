@@ -43,6 +43,42 @@ The HTTP method for this operation ("GET", "POST", "PATCH", or "MERGE").
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import ODataContext from 'devextreme/data/odata/context';
+
+    const context = new ODataContext({
+        // ODataContext is configured here
+    });
+
+    export default {
+        mounted() {
+            context.invoke('Add', { fieldName: 'fieldValue' }, 'POST');
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import ODataContext from 'devextreme/data/odata/context';
+
+    const context = new ODataContext({
+        // ODataContext is configured here
+    });
+    
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            context.invoke('Add', { fieldName: 'fieldValue' }, 'POST');
+        }
+    }
+    export default App;
+
 ---
 
 #####See Also#####

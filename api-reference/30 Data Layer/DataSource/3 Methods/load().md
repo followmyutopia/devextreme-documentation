@@ -44,6 +44,51 @@ A Promise that is resolved after data is loaded. It is a <a href="https://develo
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        // DataSource is configured here
+    });
+
+    export default {
+        mounted() {
+            ds.load()
+                .then(
+                    (data) => { /* Process "data" here */ },
+                    (error) => { /* Handle the "error" here */ }
+                )
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        // DataSource is configured here
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            
+            ds.load()
+                .then(
+                    (data) => { /* Process "data" here */ },
+                    (error) => { /* Handle the "error" here */ }
+                )
+        }
+    }
+    export default App;
+
 ---
 
 The Promise returned from this method is extended with the **operationId** field which you can use to cancel the invoked operation. See [cancel(operationId)](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#canceloperationId) for details.

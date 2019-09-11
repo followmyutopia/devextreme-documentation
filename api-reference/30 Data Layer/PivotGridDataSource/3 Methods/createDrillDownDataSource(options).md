@@ -81,6 +81,64 @@ Data in the drill-down data source is paginated by default. Only the items on th
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->  
+    <script>
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        // PivotGridDataSource is configured here
+    });
+
+    export default {
+        mounted() {
+            this.drillDownDataSource = pivotGridDataSource.createDrillDownDataSource({
+                // Options are passed here
+            });
+
+            this.drillDownDataSource.paginate(false);
+
+            this.drillDownDataSource.load()
+                .then(
+                    (data) => { /* Process "data" here */ },
+                    (error) => { /* Handle the "error" here */ }
+                )
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        // PivotGridDataSource is configured here
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            
+            this.drillDownDataSource = pivotGridDataSource.createDrillDownDataSource({
+                // Options are passed here
+            });
+
+            this.drillDownDataSource.paginate(false);
+
+            this.drillDownDataSource.load()
+                .then(
+                    (data) => { /* Process "data" here */ },
+                    (error) => { /* Handle the "error" here */ }
+                )
+        }
+        // ...
+    }
+    export default App;
+
 ---
 
 [/note]

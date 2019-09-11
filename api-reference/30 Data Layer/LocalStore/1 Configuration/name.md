@@ -31,4 +31,36 @@ Specifies the name under which data should be saved in the local storage. The `d
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import LocalStore from 'devextreme/data/local_store';
+
+    const store = new LocalStore({
+        // ...
+        name: 'myStore'
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import LocalStore from 'devextreme/data/local_store';
+
+    const store = new LocalStore({
+        // ...
+        name: 'myStore'
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+
 ---

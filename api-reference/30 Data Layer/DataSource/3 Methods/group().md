@@ -36,6 +36,45 @@ A group expression.
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        // ...
+        group: { selector: 'employeeID', desc: true }
+    });
+
+    export default {
+        mounted() {
+            this.groupExpr = ds.group(); // returns { selector: "employeeID", desc: true }
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        // ...
+        group: { selector: 'employeeID', desc: true }
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            
+            this.groupExpr = ds.group(); // returns { selector: "employeeID", desc: true }
+        }
+    }
+    export default App;
+
 ---
 
 #####See Also#####

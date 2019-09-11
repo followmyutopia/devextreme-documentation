@@ -34,4 +34,41 @@ Gets an object with current data processing settings.
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        // DataSource is configured here
+    });
+
+    export default {
+        mounted() {
+            this.loadOptions = ds.loadOptions();
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        // DataSource is configured here
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            
+            this.loadOptions = ds.loadOptions();
+        }
+    }
+    export default App;
+
 ---

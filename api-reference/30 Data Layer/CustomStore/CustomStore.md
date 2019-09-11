@@ -76,7 +76,7 @@ If your data source supports CRUD operations, implement the [insert](/Documentat
 
             // ===== or inside the DataSource =====
             this.dataSource = new DataSource({
-               // ...
+                // ...
                 // a mix of CustomStore and DataSource options
                 // ...
             });
@@ -142,6 +142,76 @@ If your data source supports CRUD operations, implement the [insert](/Documentat
 
     ko.applyBindings(viewModel);
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import CustomStore from 'devextreme/data/custom_store';
+    import DataSource from 'devextreme/data/data_source';
+
+    const store = new CustomStore({
+        key: 'id',
+        load: (loadOptions) => {
+            // ...
+        },
+        insert: (values) => {
+            // ...
+        },
+        update: (key, values) => {
+            // ...
+        },
+        remove: (key) => {
+            // ...
+        }
+    });
+
+    // ===== or inside the DataSource =====
+    const dataSource = new DataSource({
+        // ...
+        // a mix of CustomStore and DataSource options
+        // ...
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import CustomStore from 'devextreme/data/custom_store';
+    import DataSource from 'devextreme/data/data_source';
+
+    const store = new CustomStore({
+        key: 'id',
+        load: (loadOptions) => {
+            // ...
+        },
+        insert: (values) => {
+            // ...
+        },
+        update: (key, values) => {
+            // ...
+        },
+        remove: (key) => {
+            // ...
+        }
+    });
+
+    // ===== or inside the DataSource =====
+    const dataSource = new DataSource({
+        // ...
+        // a mix of CustomStore and DataSource options
+        // ...
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+    
 ---
 
 #include datalayer-store-note-immutable with { name: "CustomStore" }

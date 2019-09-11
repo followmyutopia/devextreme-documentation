@@ -72,6 +72,60 @@ A function that returns the value to sort by.
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        // ...
+        sort: [
+            'Position',
+            { selector: 'Last_Name', desc: true }
+        ],
+        /* or as a function
+        sort: function(e) {
+            // CEOs are always displayed at the top
+            if(e.Position == 'CEO') 
+                return '!';
+            else
+                return e.Position;
+        } */
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        // ...
+        sort: [
+            'Position',
+            { selector: 'Last_Name', desc: true }
+        ],
+        /* or as a function
+        sort: function(e) {
+            // CEOs are always displayed at the top
+            if(e.Position == 'CEO') 
+                return '!';
+            else
+                return e.Position;
+        } */
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+
 ##### ASP.NET MVC Controls
 
     <!--Razor C#-->

@@ -36,4 +36,43 @@ The number of data items.
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        // ...
+        requireTotalCount: true
+    });
+
+    export default {
+        mounted() {
+            this.itemCount = ds.totalCount();
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        // ...
+        requireTotalCount: true
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            
+            this.itemCount = ds.totalCount();
+        }
+    }
+    export default App;
+
 ---

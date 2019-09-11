@@ -23,4 +23,33 @@ Creates a new **Guid** instance that contains a generated GUID.
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import Guid from 'devextreme/core/guid';
+
+    export default {
+        mounted() {
+            this.guid = new Guid();
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import Guid from 'devextreme/core/guid';
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+
+            this.guid = new Guid();
+        }
+    }
+    export default App;
+
 ---

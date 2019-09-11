@@ -90,6 +90,57 @@ To create a **Query**, call the [query(array)](/Documentation/ApiReference/Data_
 
     ko.applyBindings(viewModel);
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import Query from 'devextreme/data/query';
+
+    const dataObjects = [
+        { name: 'Amelia', birthYear: 1991, gender: 'female' },
+        { name: 'Benjamin', birthYear: 1983, gender: 'male' },
+        { name: 'Daniela', birthYear: 1987, gender: 'female' },
+        { name: 'Lee', birthYear: 1981, gender: 'male' }
+    ];
+
+    export default {
+        mounted() {
+            this.processedArray = Query(dataObjects)
+                .filter([ 'gender', '=', 'female' ])
+                .sortBy('birthYear')
+                .select('name', 'birthYear')
+                .toArray();
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import Query from 'devextreme/data/query';
+
+    const dataObjects = [
+        { name: 'Amelia', birthYear: 1991, gender: 'female' },
+        { name: 'Benjamin', birthYear: 1983, gender: 'male' },
+        { name: 'Daniela', birthYear: 1987, gender: 'female' },
+        { name: 'Lee', birthYear: 1981, gender: 'male' }
+    ];
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+
+            this.processedArray = Query(dataObjects)
+                .filter([ 'gender', '=', 'female' ])
+                .sortBy('birthYear')
+                .select('name', 'birthYear')
+                .toArray();
+        }
+    }
+    export default App;
+
 ---
 
 #####See Also#####

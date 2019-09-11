@@ -37,6 +37,46 @@ A filter expression.
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->  
+    <script>
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        // ...
+        filter: ['age', '>', 18]
+    });
+
+    export default {
+        mounted() {
+            this.filterExpr = pivotGridDataSource.filter(); // returns ["age", ">", 18]
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        // ...
+        filter: ['age', '>', 18]
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            
+            this.filterExpr = pivotGridDataSource.filter(); // returns ["age", ">", 18]
+        }
+        // ...
+    }
+    export default App;
+
 ---
 
 #####See Also#####

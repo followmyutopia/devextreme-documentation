@@ -32,5 +32,37 @@ In the following example, the `ProductID` and `ProductCode` properties are speci
             })
         }
     }
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import {WidgetName} from 'devextreme/data/{widget_name}';
+
+    const store = new {WidgetName}({
+        // ...
+        key: ['ProductID', 'ProductCode']
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import {WidgetName} from 'devextreme/data/{widget_name}';
+
+    const store = new {WidgetName}({
+        // ...
+        key: ['ProductID', 'ProductCode']
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
     
 ---

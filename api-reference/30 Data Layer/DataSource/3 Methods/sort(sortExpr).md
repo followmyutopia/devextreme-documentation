@@ -38,6 +38,45 @@ Call the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#loa
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        // DataSource is configured here
+    });
+
+    export default {
+        mounted() {
+            ds.sort({ selector: 'Discount', desc: true });
+            ds.load();
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        // DataSource is configured here
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            
+            ds.sort({ selector: 'Discount', desc: true });
+            ds.load();
+        }
+    }
+    export default App;
+
 ---
 
 #####See Also#####

@@ -48,6 +48,52 @@ In the following code, **dataObj** is a data object added to the database and re
                 );
         };
     }
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import {WidgetName} from 'devextreme/data/{widget_name}';
+
+    const store = new {WidgetName}({
+        // {WidgetName} is configured here
+    });
+
+    export default {
+        mounted() {
+            store.insert({ id: 1, name: "John Doe" })
+                .then(
+                    (dataObj) => { /* Process the data object here */ },
+                    (error) => { /* Handle the "error" here */ }
+                );
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import {WidgetName} from 'devextreme/data/{widget_name}';
+
+    const store = new {WidgetName}({
+        // {WidgetName} is configured here
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+
+            store.insert({ id: 1, name: "John Doe" })
+                .then(
+                    (dataObj) => { /* Process the data object here */ },
+                    (error) => { /* Handle the "error" here */ }
+                );
+        }
+        // ...
+    }
+    export default App;
     
 ---
 

@@ -40,9 +40,55 @@ A Promise that is resolved after data is loaded. It is a <a href="https://develo
                 .then(
                     (data) => { /* Process "data" here */ },
                     (error) => { /* Handle the "error" here */ }
-                )
+                );
         }
     }
+
+##### Vue
+
+    <!-- tab: App.vue -->  
+    <script>
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        // PivotGridDataSource is configured here
+    });
+
+    export default {
+        mounted() {
+            pivotGridDataSource.load()
+                .then(
+                    (data) => { /* Process "data" here */ },
+                    (error) => { /* Handle the "error" here */ }
+                );
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        // PivotGridDataSource is configured here
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            
+            pivotGridDataSource.load()
+                .then(
+                    (data) => { /* Process "data" here */ },
+                    (error) => { /* Handle the "error" here */ }
+                );
+        }
+        // ...
+    }
+    export default App;
 
 ---
 

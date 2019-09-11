@@ -50,5 +50,57 @@ Data processing settings.
                 );
         };
     }
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import {WidgetName} from 'devextreme/data/{widget_name}';
+
+    const store = new {WidgetName}({
+        // {WidgetName} is configured here
+    });
+
+    export default {
+        mounted() {
+            let options = {
+                // Data processing settings are specified here
+            };
+            store.load(options)
+                .then(
+                    (data) => { /* Process "data" here */ },
+                    (error) => { /* Handle the "error" here */ }
+                );
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import {WidgetName} from 'devextreme/data/{widget_name}';
+
+    const store = new {WidgetName}({
+        // {WidgetName} is configured here
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+
+            let options = {
+                // Data processing settings are specified here
+            };
+            store.load(options)
+                .then(
+                    (data) => { /* Process "data" here */ },
+                    (error) => { /* Handle the "error" here */ }
+                );
+        }
+        // ...
+    }
+    export default App;
     
 ---

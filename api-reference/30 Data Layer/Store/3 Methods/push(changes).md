@@ -40,6 +40,47 @@ There are three possible data change types:
         };
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import {WidgetName} from 'devextreme/data/{widget_name}';
+
+    const store = new {WidgetName}({
+        // {WidgetName} is configured here
+    });
+
+    export default {
+        mounted() {
+            store.push([{ type: "insert", data: data }]);
+            store.push([{ type: "update", data: data, key: key }]);
+            store.push([{ type: "remove", key: key }]);
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import {WidgetName} from 'devextreme/data/{widget_name}';
+
+    const store = new {WidgetName}({
+        // {WidgetName} is configured here
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+
+            store.push([{ type: "insert", data: data }]);
+            store.push([{ type: "update", data: data, key: key }]);
+            store.push([{ type: "remove", key: key }]);
+        }
+        // ...
+    }
+    export default App;
+
 ---
 
 The **DataSource** does not automatically sort, group, filter, or otherwise shape pushed data. If it should, enable the [reshapeOnPush](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#reshapeOnPush) option. We also recommend specifying the [pushAggregationTimeout](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#pushAggregationTimeout) to reduce the number of updates and recalculations.

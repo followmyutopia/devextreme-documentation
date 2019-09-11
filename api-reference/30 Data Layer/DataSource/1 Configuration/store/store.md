@@ -62,5 +62,59 @@ Assigning an array to the **store** option automatically creates an **ArrayStore
             });
         }
     }
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import DataSource from 'devextreme/data/data_source';
+    import ArrayStore from 'devextreme/data/array_store';
+
+    const ds = new DataSource({
+        store: new ArrayStore({
+            // ArrayStore instance
+        })
+        // ===== or =====
+        store: {
+            type: 'array',
+            // ArrayStore configuration object
+        }
+        // ===== or =====
+        store: [
+            { id: 1, name: 'John Doe' }
+        ]
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import DataSource from 'devextreme/data/data_source';
+    import ArrayStore from 'devextreme/data/array_store';
+
+    const ds = new DataSource({
+        store: new ArrayStore({
+            // ArrayStore instance
+        })
+        // ===== or =====
+        store: {
+            type: 'array',
+            // ArrayStore configuration object
+        }
+        // ===== or =====
+        store: [
+            { id: 1, name: 'John Doe' }
+        ]
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
     
 ---

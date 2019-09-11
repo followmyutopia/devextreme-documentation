@@ -79,4 +79,40 @@ Native <a href="https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest#
         };
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import ODataStore from 'devextreme/data/odata/store';
+
+    const store = new ODataStore({
+        // ...
+        errorHandler: (error) => {
+            console.log(error.message);
+        }
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import ODataStore from 'devextreme/data/odata/store';
+
+    const store = new ODataStore({
+        // ...
+        errorHandler: (error) => {
+            console.log(error.message);
+        }
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+
 ---

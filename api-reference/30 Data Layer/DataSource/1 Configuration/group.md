@@ -60,6 +60,48 @@ A function that returns the value to group by.
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        // ...
+        group: { selector: 'LastName', desc: true },
+        /* or as a function
+        group: function(e) {
+            // creates two custom groups
+            return e.BirthYear < 1990 ? 'Born before 1990' : 'Born after 1990';
+        } */
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        // ...
+        group: { selector: 'LastName', desc: true },
+        /* or as a function
+        group: function(e) {
+            // creates two custom groups
+            return e.BirthYear < 1990 ? 'Born before 1990' : 'Born after 1990';
+        } */
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+
 ##### ASP.NET MVC Controls
 
     <!--Razor C#-->

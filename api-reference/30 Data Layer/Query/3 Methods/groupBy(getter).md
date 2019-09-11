@@ -79,6 +79,85 @@ A getter; in most cases, the name of the data field to group by.
         };
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import Query from 'devextreme/data/query';
+
+    const dataObjects = [
+        { name: 'Amelia', birthYear: 1991, gender: 'female' },
+        { name: 'Benjamin', birthYear: 1983, gender: 'male' },
+        { name: 'Daniela', birthYear: 1987, gender: 'female' },
+        { name: 'Lee', birthYear: 1981, gender: 'male' }
+    ];
+
+    export default {
+        mounted() {
+            this.groupedData = Query(dataObjects)
+                .groupBy('gender')
+                .toArray();
+
+            console.log(this.groupedData);
+            /* outputs
+            [{
+                key: "female",
+                items: [
+                    { name: "Amelia", birthYear: 1991, gender: "female" },
+                    { name: "Daniela", birthYear: 1987, gender: "female" }
+                ]
+            }, {
+                key: "male",
+                items: [
+                    { name: "Benjamin", birthYear: 1983, gender: "male" },
+                    { name: "Lee", birthYear: 1981, gender: "male" }
+                ]
+            }] */
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import Query from 'devextreme/data/query';
+
+    const dataObjects = [
+        { name: 'Amelia', birthYear: 1991, gender: 'female' },
+        { name: 'Benjamin', birthYear: 1983, gender: 'male' },
+        { name: 'Daniela', birthYear: 1987, gender: 'female' },
+        { name: 'Lee', birthYear: 1981, gender: 'male' }
+    ];
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+
+            this.groupedData = Query(dataObjects)
+                .groupBy('gender')
+                .toArray();
+
+            console.log(this.groupedData);
+            /* outputs
+            [{
+                key: "female",
+                items: [
+                    { name: "Amelia", birthYear: 1991, gender: "female" },
+                    { name: "Daniela", birthYear: 1987, gender: "female" }
+                ]
+            }, {
+                key: "male",
+                items: [
+                    { name: "Benjamin", birthYear: 1983, gender: "male" },
+                    { name: "Lee", birthYear: 1981, gender: "male" }
+                ]
+            }] */
+        }
+    }
+    export default App;
+
 ---
 
 #####See Also#####

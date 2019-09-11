@@ -34,4 +34,41 @@ The data items.
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        // DataSource is configured here
+    });
+
+    export default {
+        mounted() {
+            this.dataItems = ds.items();
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        // DataSource is configured here
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            
+            this.dataItems = ds.items();
+        }
+    }
+    export default App;
+
 ---

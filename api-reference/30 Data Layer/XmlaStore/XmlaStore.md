@@ -111,6 +111,62 @@ The **XmlaStore** is used in the [PivotGridDataSource](/Documentation/ApiReferen
 
     ko.applyBindings(viewModel);
 
+##### Vue
+
+    <!-- tab: App.vue -->   
+    <script>
+    import XmlaStore from 'devextreme/ui/pivot_grid/xmla_store';
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+
+    const store = new XmlaStore({
+        url: 'http://my-web-srv01/OLAP/msmdpump.dll',
+        catalog: 'AdventureWorksDW2012',
+        cube: 'Adventure Works'
+    });
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        store: {
+            type: 'xmla',
+            url: 'http://my-web-srv01/OLAP/msmdpump.dll',
+            catalog: 'AdventureWorksDW2012',
+            cube: 'Adventure Works'
+        },
+        // Other PivotGridDataSource options go here
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import XmlaStore from 'devextreme/ui/pivot_grid/xmla_store';
+    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+
+    const store = new XmlaStore({
+        url: 'http://my-web-srv01/OLAP/msmdpump.dll',
+        catalog: 'AdventureWorksDW2012',
+        cube: 'Adventure Works'
+    });
+
+    const pivotGridDataSource = new PivotGridDataSource({
+        store: {
+            type: 'xmla',
+            url: 'http://my-web-srv01/OLAP/msmdpump.dll',
+            catalog: 'AdventureWorksDW2012',
+            cube: 'Adventure Works'
+        },
+        // Other PivotGridDataSource options go here
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+
 ##### ASP.NET MVC Controls
 
     <!--Razor C#-->@(Html.DevExtreme().PivotGrid()

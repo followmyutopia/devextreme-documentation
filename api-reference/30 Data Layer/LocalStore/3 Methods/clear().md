@@ -32,4 +32,41 @@ Depending on the [immediate](/Documentation/ApiReference/Data_Layer/LocalStore/C
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import LocalStore from 'devextreme/data/local_store';
+
+    const store = new LocalStore({
+        // LocalStore is configured here
+    });
+
+    export default {
+        mounted() {
+            store.clear();
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import LocalStore from 'devextreme/data/local_store';
+
+    const store = new LocalStore({
+        // LocalStore is configured here
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            store.clear();
+        }
+        // ...
+    }
+    export default App;
+
 ---

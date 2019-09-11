@@ -34,4 +34,41 @@ A Promise that is resolved after the operation is completed. It is a <a href="ht
         };
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import Query from 'devextreme/data/query';
+
+    export default {
+        mounted() {
+            Query('http://mydomain.com/MyDataService', queryOptions)
+                .enumerate()
+                .then(result => {
+                    // "result" contains the obtained array
+                });
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import Query from 'devextreme/data/query';
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+
+            Query('http://mydomain.com/MyDataService', queryOptions)
+                .enumerate()
+                .then(result => {
+                    // "result" contains the obtained array
+                });
+        }
+    }
+    export default App;
+
 ---

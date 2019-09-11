@@ -63,4 +63,68 @@ When this option is **true**, the filter expression sent to the server contains 
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import ODataContext from 'devextreme/data/odata/context';
+    import DataSource from 'devextreme/data/data_source';
+
+    const context = new ODataContext({
+        url: 'https://js.devexpress.com/Demos/DevAV/odata/',
+        entities: { 
+            Employees: { 
+                key: 'Employee_ID', 
+                keyType: 'Int32' 
+            },
+            // ...
+        },
+        filterToLower: true
+    });
+
+    const ds = new DataSource({
+        store: context.Employees,
+        filter: ['Employee_Name', 'startswith', 'Jo']
+    });
+
+    // The filter expression in the request looks like the following:
+    // https://...?filter=startswith(tolower(Employee_Name), 'jo')
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import ODataContext from 'devextreme/data/odata/context';
+    import DataSource from 'devextreme/data/data_source';
+
+    const context = new ODataContext({
+        url: 'https://js.devexpress.com/Demos/DevAV/odata/',
+        entities: { 
+            Employees: { 
+                key: 'Employee_ID', 
+                keyType: 'Int32' 
+            },
+            // ...
+        },
+        filterToLower: true
+    });
+
+    const ds = new DataSource({
+        store: context.Employees,
+        filter: ['Employee_Name', 'startswith', 'Jo']
+    });
+
+    // The filter expression in the request looks like the following:
+    // https://...?filter=startswith(tolower(Employee_Name), 'jo')
+    
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+
 ---

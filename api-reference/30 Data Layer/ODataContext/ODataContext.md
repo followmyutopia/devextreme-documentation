@@ -137,6 +137,76 @@ This object creates several [ODataStore](/Documentation/ApiReference/Data_Layer/
 
     ko.applyBindings(viewModel);
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import ODataContext from 'devextreme/data/odata/context';
+
+    const context = new ODataContext({
+        url: 'http://www.example.com/Northwind.svc',
+        entities: {
+            Categories: {
+                key: 'CategoryID',
+                keyType: 'Int32'
+            },
+            // An entity collection alias
+            Clients: {
+                name: 'Customers',
+                key: 'CustomerID',
+                keyType: 'String'
+            },
+            Products: {
+                // A composite key
+                key: ['ProductID', 'ProductCode'],
+                keyType: {
+                    ProductID: 'Guid',
+                    ProductCode: 'Int32' 
+                }
+            }
+        }
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import ODataContext from 'devextreme/data/odata/context';
+
+    const context = new ODataContext({
+        url: 'http://www.example.com/Northwind.svc',
+        entities: {
+            Categories: {
+                key: 'CategoryID',
+                keyType: 'Int32'
+            },
+            // An entity collection alias
+            Clients: {
+                name: 'Customers',
+                key: 'CustomerID',
+                keyType: 'String'
+            },
+            Products: {
+                // A composite key
+                key: ['ProductID', 'ProductCode'],
+                keyType: {
+                    ProductID: 'Guid',
+                    ProductCode: 'Int32' 
+                }
+            }
+        }
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
+
 ---
 
 #include datalayer-store-note-immutable with { name: "ODataContext" }

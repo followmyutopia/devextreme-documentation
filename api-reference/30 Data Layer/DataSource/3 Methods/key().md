@@ -40,6 +40,49 @@ A key expression.
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        store: {
+            // ...
+            key: 'ProductID'
+        }
+    });
+
+    export default {
+        mounted() {
+            this.keyProps = ds.key(); // returns "ProductID"
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        store: {
+            // ...
+            key: 'ProductID'
+        }
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            
+            this.keyProps = ds.key(); // returns "ProductID"
+        }
+    }
+    export default App;
+
 ---
 
 #####See Also#####

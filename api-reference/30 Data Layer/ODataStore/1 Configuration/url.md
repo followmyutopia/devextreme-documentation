@@ -13,7 +13,7 @@ Specifies the URL of an OData entity collection.
     <!--JavaScript-->
     var store = new DevExpress.data.ODataStore({
         // ...
-        url: "https://js.devexpress.com/Demos/DevAV/odata/Products",
+        url: "https://js.devexpress.com/Demos/DevAV/odata/Products"
     });
 
 #####Angular
@@ -30,5 +30,37 @@ Specifies the URL of an OData entity collection.
             });
         };
     }
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import ODataStore from 'devextreme/data/odata/store';
+
+    const store = new ODataStore({
+        // ...
+        url: 'https://js.devexpress.com/Demos/DevAV/odata/Products'
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import ODataStore from 'devextreme/data/odata/store';
+
+    const store = new ODataStore({
+        // ...
+        url: 'https://js.devexpress.com/Demos/DevAV/odata/Products'
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
 
 ---

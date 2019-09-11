@@ -72,6 +72,73 @@ This method can only follow the [sortBy(getter)](/Documentation/ApiReference/Dat
         };
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import Query from 'devextreme/data/query';
+
+    const dataObjects = [
+        { name: 'Amelia', birthYear: 1991, gender: 'female' },
+        { name: 'Benjamin', birthYear: 1983, gender: 'male' },
+        { name: 'Daniela', birthYear: 1987, gender: 'female' },
+        { name: 'Lee', birthYear: 1981, gender: 'male' }
+    ];
+
+    export default {
+        mounted() {
+            this.sortedData = Query(dataObjects)
+                .sortBy('gender')
+                .thenBy('birthYear', true)
+                .toArray();
+
+            console.log(this.sortedData);
+            /* outputs
+            [
+                { name: "Amelia", birthYear: 1991, gender: "female" },
+                { name: "Daniela", birthYear: 1987, gender: "female" },
+                { name: "Benjamin", birthYear: 1983, gender: "male" },
+                { name: "Lee", birthYear: 1981, gender: "male" }
+            ] */
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import Query from 'devextreme/data/query';
+
+    const dataObjects = [
+        { name: 'Amelia', birthYear: 1991, gender: 'female' },
+        { name: 'Benjamin', birthYear: 1983, gender: 'male' },
+        { name: 'Daniela', birthYear: 1987, gender: 'female' },
+        { name: 'Lee', birthYear: 1981, gender: 'male' }
+    ];
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+
+            this.sortedData = Query(dataObjects)
+                .sortBy('gender')
+                .thenBy('birthYear', true)
+                .toArray();
+
+            console.log(this.sortedData);
+            /* outputs
+            [
+                { name: "Amelia", birthYear: 1991, gender: "female" },
+                { name: "Daniela", birthYear: 1987, gender: "female" },
+                { name: "Benjamin", birthYear: 1983, gender: "male" },
+                { name: "Lee", birthYear: 1981, gender: "male" }
+            ] */
+        }
+    }
+    export default App;
+
 ---
 
 #####See Also#####

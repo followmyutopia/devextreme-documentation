@@ -36,5 +36,41 @@ The removed data item's key.
             })
         }
     }
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import {WidgetName} from 'devextreme/data/{widget_name}';
+
+    const store = new {WidgetName}({
+        // ...
+        onRemoved: function (key) {
+            // Your code goes here
+        }
+    });
+
+    export default {
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import {WidgetName} from 'devextreme/data/{widget_name}';
+
+    const store = new {WidgetName}({
+        // ...
+        onRemoved: function (key) {
+            // Your code goes here
+        }
+    });
+
+    class App extends React.Component {
+        // ...
+    }
+    export default App;
     
 ---

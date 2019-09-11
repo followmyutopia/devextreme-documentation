@@ -41,4 +41,45 @@ A filter expression; described in the [Filtering](/Documentation/Guide/Data_Laye
         };
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import Query from 'devextreme/data/query';
+
+    const dataObjects = [ ... ];
+
+    export default {
+        mounted() {
+            this.filteredData = Query(dataObjects)
+                .filter(['price', '<', 500])
+                // or
+                // .filter('price', '<', 500)
+                .toArray();
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import Query from 'devextreme/data/query';
+
+    const dataObjects = [ ... ];
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+
+            this.filteredData = Query(dataObjects)
+                .filter(['price', '<', 500])
+                // or
+                // .filter('price', '<', 500)
+                .toArray();
+        }
+    }
+    export default App;
+
 ---

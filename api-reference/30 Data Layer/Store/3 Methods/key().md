@@ -35,5 +35,45 @@ The **key** option's value.
             let keyProps = this.store.key(); // returns "ProductID"
         };
     }
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import {WidgetName} from 'devextreme/data/{widget_name}';
+
+    const store = new {WidgetName}({
+        // ...
+        key: 'ProductID'
+    });
+
+    export default {
+        mounted() {
+            this.keyProps = store.key(); // returns "ProductID"
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import {WidgetName} from 'devextreme/data/{widget_name}';
+
+    const store = new {WidgetName}({
+        // ...
+        key: 'ProductID'
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+
+            this.keyProps = store.key(); // returns "ProductID"
+        }
+        // ...
+    }
+    export default App;
     
 ---

@@ -38,6 +38,47 @@ A select expression.
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        // DataSource is configured here
+    });
+
+    export default {
+        mounted() {
+            ds.select(['firstName', 'lastName', 'birthDate']);
+            // or
+            // ds.select('firstName', 'lastName', 'birthDate');
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import DataSource from 'devextreme/data/data_source';
+
+    const ds = new DataSource({
+        // DataSource is configured here
+    });
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            
+            ds.select(['firstName', 'lastName', 'birthDate']);
+            // or
+            // ds.select('firstName', 'lastName', 'birthDate');
+        }
+    }
+    export default App;
+
 ---
 
 #####See Also#####

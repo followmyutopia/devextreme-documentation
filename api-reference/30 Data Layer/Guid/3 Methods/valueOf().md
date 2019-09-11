@@ -30,4 +30,35 @@ The returned GUID is always hyphened even if the **Guid** was created with a non
         }
     }
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <script>
+    import Guid from 'devextreme/core/guid';
+
+    export default {
+        mounted() {
+            this.guid = new Guid("40810dcce08b10a28227c67c8933c31a");
+            console.log(this.guid.valueOf()); // logs 40810dcc-e08b-10a2-8227-c67c8933c31a
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // ...
+    import Guid from 'devextreme/core/guid';
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+
+            this.guid = new Guid("40810dcce08b10a28227c67c8933c31a");
+            console.log(this.guid.valueOf()); // logs 40810dcc-e08b-10a2-8227-c67c8933c31a
+        }
+    }
+    export default App;
+
 ---
