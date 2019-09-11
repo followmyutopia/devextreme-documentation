@@ -11,8 +11,9 @@ A header filter allows a user to filter values in an individual column by includ
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget {WidgetName} HeaderFilter](/Content/images/doc/19_2/{WidgetName}/visual_elements/header_filter.png)
 
-To make header filter icons visible, assign **true** to the **headerFilter**.[visible]({basewidgetpath}/Configuration/headerFilter/#visible) option. Data in the popup menu can be customized using the [headerFilter]({basewidgetpath}/Configuration/columns/headerFilter/) option of a specific column.
+To make header filter icons visible, assign **true** to the **headerFilter**.[visible]({basewidgetpath}/Configuration/headerFilter/#visible) option.
 
+A header filter's popup menu lists all column values. If they are numbers or dates, you can group them using the [groupInterval]({basewidgetpath}/Configuration/columns/headerFilter/#groupInterval) option in the column's [headerFilter]({basewidgetpath}/Configuration/columns/headerFilter/). You can also provide a custom data source for a header filter using the [dataSource]({basewidgetpath}/Configuration/columns/headerFilter/#dataSource) option.
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/{WidgetName}/Filtering/jQuery/Light/"
 }
