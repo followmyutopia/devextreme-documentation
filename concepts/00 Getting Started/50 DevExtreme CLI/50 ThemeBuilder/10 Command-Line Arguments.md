@@ -17,4 +17,9 @@ Specifies the custom color scheme name (default: `custom-scheme`).
 If present, creates a [color swatch](/Documentation/Guide/Themes_and_Styles/Predefined_Themes/#Color_Swatches), i.e., adds a CSS scope to each CSS rule (`.dx-swatch-xxx`, where `xxx` is the value from the `--output-color-scheme` parameter).
 
 * `--base`      
-Exports only base variables which are used to produce the derived variables.
+Exports only base variables used to produce derived variables.
+
+* `--widgets`       
+Specifies a comma-separated list of widgets whose styles should be included in the resulting CSS file. If this argument is not specified, styles of all widgets are included. Syntax example:
+
+        --widgets=datagrid,treelist,selectbox

@@ -14,7 +14,8 @@ Theme metadata is a JSON object that describes the theme. It is used to export o
         "baseTheme": "material.blue.light.compact",
         "outputColorScheme": "custom-scheme",
         "makeSwatch": true,
-        "version": "19.1.4"
+        "version": "19.1.4",
+        "widgets": "datagrid,treelist,selectbox"
     }
 
 The metadata object contains the following properties:
@@ -37,6 +38,9 @@ A flag that indicates whether the theme is a [color swatch](/Documentation/Guide
 
 - `version`     
 The target DevExtreme version.
+
+* `widgets`       
+A list of widgets whose styles are included in the resulting CSS file.
 
 Run the following command to export the metadata as a `.json` file:
 
