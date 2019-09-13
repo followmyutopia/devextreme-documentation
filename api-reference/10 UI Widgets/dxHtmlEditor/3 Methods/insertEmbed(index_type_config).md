@@ -9,10 +9,10 @@ Inserts an embedded content at the specified position.
 A zero-based index at which to insert an embedded content.
 
 ##### param(type): String
-An embedded format's [name](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName/formats).
+An embedded format's [name](/Documentation/Guide/Widgets/HtmlEditor/Formats/).
 
 ##### param(config): any
-An embedded format's [value](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName/formats).
+An embedded format's [value](/Documentation/Guide/Widgets/HtmlEditor/Formats/).
 
 ---
 ---

@@ -2,7 +2,7 @@
 ##### merge
 
 ##### shortDescription
-The name of the widget that should represent the toolbar control.
+The name of the widget that should represent the toolbar item.
 
 ---
 [note]Import the specified widget's module when using [DevExtreme modules](/Documentation/Guide/Common/Modularity/). 
@@ -13,7 +13,7 @@ Configure the specified widget in the [options](/Documentation/ApiReference/UI_W
     url: "/Demos/WidgetsGallery/Demo/HtmlEditor/ToolbarCustomization/jQuery/Light/"
 }
 
-In the following example, the [CheckBox](/Documentation/ApiReference/UI_Widgets/dxCheckBox/) widget with a label and a custom **valueChanged** event handler is added as a custom toolbar control. The [locateInMenu](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#locateInMenu) option set to *"never"* ensures that the toolbar control is never hidden to the overflow menu.
+In the following example, the [CheckBox](/Documentation/ApiReference/UI_Widgets/dxCheckBox/) widget is added as a custom toolbar item. It has a label and a custom **valueChanged** event handler. The toolbar item's [locateInMenu](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#locateInMenu) option is set to *"never"* to specify that the toolbar item should never be hidden in the overflow menu.
 
 ---
 #####jQuery

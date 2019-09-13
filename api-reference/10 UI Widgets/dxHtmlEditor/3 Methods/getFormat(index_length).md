@@ -15,6 +15,6 @@ A zero-based index indicating the range's start.
 
 ##### param(length): Number
 The range's length.     
-[Embedded items](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName/formats) have a length of 1.
+[Embedded items](/Documentation/Guide/Widgets/HtmlEditor/Formats/) have a length of 1.
 
 ---

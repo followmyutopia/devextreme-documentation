@@ -1,4 +1,4 @@
-To customize a button, assign its [name](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#controlNames) to the [formatName](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName) option and specify [button options](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/) in the [options](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#options) object: 
+To customize a button, assign its [name](/Documentation/Guide/Widgets/HtmlEditor/Toolbar/Predefined_Items/) to the [formatName](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName) option and specify [button options](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/) in the [options](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#options) object: 
 
 ---
 #####jQuery
@@ -125,4 +125,4 @@ To customize a select box, specify [select box options](/Documentation/ApiRefere
 ---
 
 #####See Also#####
-- [Add a Custom Control](/Documentation/Guide/Widgets/HtmlEditor/Toolbar/Add_a_Custom_Control/)
+- [Add a Custom Item](/Documentation/Guide/Widgets/HtmlEditor/Toolbar/Add_a_Custom_Item/)

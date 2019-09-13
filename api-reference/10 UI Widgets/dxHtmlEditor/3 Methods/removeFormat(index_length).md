@@ -10,6 +10,6 @@ A zero-based index at which to begin removing.
 
 ##### param(length): Number
 The length of the content to be removed.        
-[Embedded items](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName/formats) have a length of 1.
+[Embedded items](/Documentation/Guide/Widgets/HtmlEditor/Formats/) have a length of 1.
 
 ---

@@ -8,9 +8,12 @@
     url: "/Demos/WidgetsGallery/Demo/HtmlEditor/Overview/jQuery/Light/"
 }
 
-To add the **HtmlEditor** to your page, reference (import) Quill and use the [valueType](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/#valueType) option to specify the desired output markup language - HTML or Markdown. The content is converted into this language and stored in the widget's [value](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/#value).
+Follow the steps below to add the **HtmlEditor** to a page.
 
-Optionally, specify the initial content in the widget's **value**. The content's language should correspond to the **valueType**. HTML content can also be declared directly inside the widget's container, in which case the language (HTML) and the **valueType** can differ.
+1. Reference or import Quill as shown in the code samples below.
+2. Set the output markup language (HTML or Markdown) in the [valueType](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/#valueType) option.
+3. If you choose Markdown as the output format, link the **turndown** and **showdown** scripts before the DevExtreme scripts. When you use JavaScript modules, import the Markdown converter instead.
+4. Optionally, specify the initial content in the widget's **value** option. The content's language should correspond to the **valueType**. HTML content can also be declared directly inside the widget's container, in which case the language (HTML) and the **valueType** can differ.
 
 ---
 #####jQuery
@@ -89,9 +92,9 @@ Optionally, specify the initial content in the widget's **value**. The content's
 
 ---
 
-The **HtmlEditor** supports a wide range of features:
+The **HtmlEditor** supports the following features:
 
-- Inline, block, and embedded [formats](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName/formats) 
+- Inline, block, and embedded [formats](/Documentation/Guide/Widgets/HtmlEditor/Formats/) 
 - [Adaptive toolbar](/Documentation/Guide/Widgets/HtmlEditor/Toolbar/Built-In_Controls/) 
 - [Built-in formats' and modules' extension](/Documentation/Guide/Widgets/HtmlEditor/Customize_Built-In_Formats_and_Modules/)
 - [Custom formats and modules](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Methods/#getcomponentPath)

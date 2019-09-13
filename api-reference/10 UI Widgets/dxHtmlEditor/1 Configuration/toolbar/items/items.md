@@ -4,10 +4,10 @@ inherits: dxToolbarItem
 ---
 ---
 ##### shortDescription
-Configures toolbar controls. These controls allow users to format text and execute commands.
+Configures toolbar items. These items allow users to format text and execute commands.
 
 ---
-The toolbar provides built-in controls and supports custom controls. To add a built-in control to the toolbar, include it in the **items** array:
+The toolbar provides [predefined items](/Documentation/Guide/Widgets/HtmlEditor/Toolbar/Predefined_Items/) and supports custom items. To add a predefined item to the toolbar, include it in the **items** array:
 
 ---
 #####jQuery
@@ -59,90 +59,8 @@ The toolbar provides built-in controls and supports custom controls. To add a bu
 
 ---
 
-The following built-in controls are available:
 
-<table id="controlNames">
-    <tr>
-        <td colspan="2">Formatting Controls</td>
-        <td class="separateColumn">Action and Other Controls</td>
-    </tr>
-    <tr>
-        <td>
-            <ul>
-                <li>"background"</li>
-                <li>"bold"</li>
-                <li>"color"</li>
-                <li>"italic"</li>
-                <li>"link"</li>
-                <li>"image"</li>
-                <li>"strike"</li>
-                <li>"subscript"</li>
-                <li>"superscript"</li>
-                <li>"underline"</li>
-                <li>"blockquote"</li>
-            </ul>
-        </td>
-        <td>
-            <ul>
-                <li>"header"</li>
-                <li>"increaseIndent"</li>
-                <li>"decreaseIndent"</li>
-                <li>"orderedList"</li>
-                <li>"bulletList"</li>
-                <li>"alignLeft"</li>
-                <li>"alignCenter"</li>
-                <li>"alignRight"</li>
-                <li>"alignJustify"</li>
-                <li>"codeBlock"</li>
-                <li>"variable"</li>
-            </ul>
-        </td>
-        <td class="separateColumn">
-            <ul>
-                <li>"separator"</li>
-                <li>"undo"</li>
-                <li>"redo"</li>
-                <li>"clear"</li>
-            </ul>
-        </td>
-    </tr>
-</table>
-
-<style>
-    #controlNames {
-        color: #333333;
-    }
-    #controlNames tr:first-child td {
-        padding-bottom: 10px;
-        font-weight: bold;
-    }
-    #controlNames td {
-        padding-right: 50px;
-        vertical-align: top;
-    }
-    #controlNames ul {
-        padding-left: 0px;
-    }
-    #controlNames li {
-        list-style-type: none;
-        font-style: italic;
-    }
-    #controlNames .separateColumn {
-        padding-left: 50px;
-        border-left: 1px solid #e6e6e6;
-    }
-    #controlNames li:before {
-        color: #627789;
-        content: "";
-        border-radius: 3px;
-        border: 3px solid #627789;
-        display: inline-block;
-        margin-right: 15px;
-        vertical-align: middle;
-    }
-</style>
-
-These controls are buttons. To customize a button, assign its name to the [formatName](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName) option and specify the [button options](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/) in the [options](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#options) object: 
+Most of the predefined items are buttons. To customize a button, assign its name to the [formatName](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName) option and specify the [button options](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/) in the [options](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#options) object: 
 
 ---
 #####jQuery
@@ -204,7 +122,7 @@ These controls are buttons. To customize a button, assign its name to the [forma
 
 To use another widget instead of a button, specify the [widget](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#widget) option and configure the widget in the [options](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#options) object. In this case, you should also implement all the logic. 
 
-The toolbar also provides short syntax for implementing a custom drop-down control with multiple choices. Refer to the [formatName](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName) description for more information.
+The toolbar provides a short syntax for implementing a custom drop-down menu with multiple choices. Refer to the [formatName](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName) description for more information.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/HtmlEditor/ToolbarCustomization/jQuery/Light/"

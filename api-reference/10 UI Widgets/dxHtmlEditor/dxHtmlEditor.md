@@ -16,7 +16,7 @@ inherits: Editor
 
 ##### widgettree
 valueType: "html",
-value: "This is <b>HtmlEditor</b>.<br/>Select text and use a toolbar control.",
+value: "This is <b>HtmlEditor</b>.<br/>Select text and use a toolbar item.",
 toolbar: {
     items: ["bold", "italic", "color", "background", "link",
     {

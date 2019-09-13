@@ -17,7 +17,7 @@ A user can insert variables in the text and remove them, but never modify them.
     $(function(){
         $("#htmlEditorContainer").dxHtmlEditor({
             toolbar: {
-                // Adds a toolbar control that allows users to insert variables
+                // Adds a toolbar item that allows users to insert variables
                 items: [ "variable" ]
             },
             variables: {
@@ -31,7 +31,7 @@ A user can insert variables in the text and remove them, but never modify them.
 
     <!--HTML-->
     <dx-html-editor>
-        <!-- Adds a toolbar control that allows users to insert variables -->
+        <!-- Adds a toolbar item that allows users to insert variables -->
         <dxo-toolbar [items]="[ 'variable' ]"></dxo-toolbar>
         <dxo-variables
             [dataSource]="[ 'FirstName', 'LastName', 'Company' ]"
