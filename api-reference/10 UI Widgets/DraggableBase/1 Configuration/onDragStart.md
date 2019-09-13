@@ -5,6 +5,9 @@ default: null
 EventForAction: DraggableBase.dragStart
 ---
 ---
+##### shortDescription
+<!-- Description goes here -->
+
 ##### param(e): Object
 <!-- Description goes here -->
 
@@ -18,9 +21,6 @@ EventForAction: DraggableBase.dragStart
 <!-- Description goes here -->
 
 ##### field(e.model): Object
-<!-- Description goes here -->
-
-##### shortDescription
 <!-- Description goes here -->
 
 ---

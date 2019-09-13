@@ -1,6 +1,6 @@
 ---
 id: dxValidatorResult.brokenRule
-type: RequiredRule | NumericRule | RangeRule | StringLengthRule | CustomRule | CompareRule | PatternRule | EmailRule
+type: RequiredRule | NumericRule | RangeRule | StringLengthRule | CustomRule | CompareRule | PatternRule | EmailRule | AsyncRule
 ---
 ---
 ##### shortDescription

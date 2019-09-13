@@ -1,8 +1,8 @@
 ---
-id: dxSortable.Options.filter
+id: Editor.Options.validationStatus
+acceptValues: 'valid' | 'invalid' | 'pending'
 type: String
-default: '> *'
-hidden: 
+default: 'valid'
 ---
 ---
 ##### shortDescription

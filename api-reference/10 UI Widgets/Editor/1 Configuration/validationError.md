@@ -1,7 +1,7 @@
 ---
 id: Editor.Options.validationError
 type: Object
-default: undefined
+default: null
 ---
 ---
 ##### shortDescription

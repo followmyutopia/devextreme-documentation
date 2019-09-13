@@ -4,10 +4,10 @@ type: template
 default: undefined
 ---
 ---
-##### return: String | Node | jQuery
+##### shortDescription
 <!-- Description goes here -->
 
-##### shortDescription
+##### return: String | Node | jQuery
 <!-- Description goes here -->
 
 ---

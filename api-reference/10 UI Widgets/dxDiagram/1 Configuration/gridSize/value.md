@@ -1,13 +1,10 @@
 ---
-id: DraggableBase.Options.template
-type: template
+id: dxDiagram.Options.gridSize.value
+type: Number
 default: undefined
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
-
-##### return: String | Node | jQuery
 <!-- Description goes here -->
 
 ---

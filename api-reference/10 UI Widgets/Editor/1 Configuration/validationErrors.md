@@ -1,8 +1,7 @@
 ---
-id: dxSortable.Options.filter
-type: String
-default: '> *'
-hidden: 
+id: Editor.Options.validationErrors
+type: Array<Object>
+default: null
 ---
 ---
 ##### shortDescription

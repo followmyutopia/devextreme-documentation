@@ -1,8 +1,7 @@
 ---
-id: dxSortable.Options.filter
-type: String
-default: '> *'
-hidden: 
+id: AsyncRule.reevaluate
+type: Boolean
+default: true
 ---
 ---
 ##### shortDescription

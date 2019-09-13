@@ -1,8 +1,6 @@
 ---
-id: dxSortable.Options.filter
-type: String
-default: '> *'
-hidden: 
+id: dxValidationGroupResult.complete
+type: Promise<dxValidationGroupResult>
 ---
 ---
 ##### shortDescription

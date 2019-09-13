@@ -1,6 +1,6 @@
 ---
 id: GridBaseColumn.validationRules
-type: Array<RequiredRule, NumericRule, RangeRule, StringLengthRule, CustomRule, CompareRule, PatternRule, EmailRule>
+type: Array<RequiredRule, NumericRule, RangeRule, StringLengthRule, CustomRule, CompareRule, PatternRule, EmailRule, AsyncRule>
 ---
 ---
 ##### shortDescription

@@ -9,7 +9,7 @@ Raised after cells in a row are validated against [validation rules]({basewidget
 ##### param(e): Object
 Information about the event.
 
-##### field(e.brokenRules): Array<RequiredRule, NumericRule, RangeRule, StringLengthRule, CustomRule, CompareRule, PatternRule, EmailRule>
+##### field(e.brokenRules): Array<RequiredRule, NumericRule, RangeRule, StringLengthRule, CustomRule, CompareRule, PatternRule, EmailRule, AsyncRule>
 An array of broken rules. The structure of rule objects is described in the [Validation Rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/) section.
 
 ##### field(e.component): {WidgetName}

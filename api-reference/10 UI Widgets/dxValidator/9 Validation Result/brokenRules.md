@@ -1,9 +1,10 @@
 ---
-id: dxValidationGroupResult.brokenRules
+id: dxValidatorResult.brokenRules
 type: Array<RequiredRule, NumericRule, RangeRule, StringLengthRule, CustomRule, CompareRule, PatternRule, EmailRule, AsyncRule>
 ---
 ---
 ##### shortDescription
-Rules that failed to pass the check.
+<!-- Description goes here -->
 
 ---
+<!-- Description goes here -->

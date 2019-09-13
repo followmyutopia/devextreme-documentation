@@ -1,11 +1,11 @@
 ---
-id: DraggableBase.dragMove
-type: eventType
+id: dxSortable.Options.onDragChange
+type: function(e)
+default: null
+hidden: 
+EventForAction: dxSortable.dragChange
 ---
 ---
-##### shortDescription
-<!-- Description goes here -->
-
 ##### param(e): Object
 <!-- Description goes here -->
 
@@ -19,6 +19,9 @@ type: eventType
 <!-- Description goes here -->
 
 ##### field(e.model): Object
+<!-- Description goes here -->
+
+##### shortDescription
 <!-- Description goes here -->
 
 ---

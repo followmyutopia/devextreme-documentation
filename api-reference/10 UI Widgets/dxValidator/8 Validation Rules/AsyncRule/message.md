@@ -1,8 +1,7 @@
 ---
-id: dxSortable.Options.filter
+id: AsyncRule.message
 type: String
-default: '> *'
-hidden: 
+default: 'Value is invalid'
 ---
 ---
 ##### shortDescription
