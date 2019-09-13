@@ -15,9 +15,9 @@ The [Row](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/) object extende
 ---
 [note]
 
-Disable [column reordering](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#allowColumnReordering), [grouping](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowGrouping), and [column fixing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnFixing/) when you specify the row template. Its content cannot automatically synchronize with the column layout, which makes these features inoperative.
+Disable [column reordering](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#allowColumnReordering), [grouping](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowGrouping), and [column fixing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnFixing/) when you specify the row template. Its content cannot automatically synchronize with the column layout, which makes these features inoperative. [Command columns](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Command_Columns/) are not supported either.
 
-You should also implement the following features manually: [editing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#editRowrowIndex), [adaptability](/Documentation/Guide/Widgets/DataGrid/Columns/Adaptability/), [multiple selection](/Documentation/Guide/Widgets/DataGrid/Selection/#API), and [master-detail interface](/Documentation/Guide/Widgets/DataGrid/Master-Detail_Interface/#API). Follow the links to see the API that can help you with this task. 
+You should also implement the following features manually: [editing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#editRowrowIndex), [adaptability](/Documentation/Guide/Widgets/DataGrid/Columns/Adaptability/), [multiple selection](/Documentation/Guide/Widgets/DataGrid/Selection/#API), and [master-detail interface](/Documentation/Guide/Widgets/DataGrid/Master-Detail_Interface/#API). Follow the links to see the API that can help you with this task.
 
 [/note]
 
