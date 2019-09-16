@@ -5,7 +5,7 @@ default: undefined
 ---
 ---
 ##### shortDescription
-Specifies a custom template for text in the pie's center.
+Specifies a custom template for content in the pie's center.
 
 ##### param(component): dxPieChart
 The widget's instance.
