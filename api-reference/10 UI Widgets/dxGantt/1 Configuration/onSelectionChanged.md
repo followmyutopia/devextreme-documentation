@@ -6,22 +6,47 @@ EventForAction: dxGantt.selectionChanged
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+A function that is executed after users select a task or clear its selection. 
 
 ##### param(e): Object
-<!-- Description goes here -->
+Information about the event that caused the function's execution.
 
 ##### field(e.component): {WidgetName}
-<!-- Description goes here -->
+The widget's instance.
 
 ##### field(e.element): dxElement
-<!-- Description goes here -->
+#include common-ref-elementparam with { element: "widget" }
 
 ##### field(e.model): Object
-<!-- Description goes here -->
+The model data. Available only if you use Knockout.
 
 ##### field(e.selectedRowKey): any
-<!-- Description goes here -->
+The key of the row whose selection state was changed.
 
 ---
-<!-- Description goes here -->
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Gantt/Overview/jQuery/Light/"
+}
+
+---
+##### jQuery
+
+    <!-- tab: index.js -->
+    $(function() {
+        $("#gantt").dxGantt({
+            // ...
+            onSelectionChanged: function (e) {
+                if (e.selectedRowKey === 2) {
+                    // your code
+                } else {
+                    // your code
+                }
+            }
+        });
+    }); 
+
+---
+
+#####See Also#####
+- [allowSelection](/Documentation/ApiReference/UI_Widgets/dxGantt/Configuration/#allowSelection) 
+- [selectedRowKey](/Documentation/ApiReference/UI_Widgets/dxGantt/Configuration/#selectedRowKey)

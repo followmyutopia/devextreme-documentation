@@ -5,7 +5,27 @@ default: undefined
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Allows you to select a row or determine which row is selected.
 
 ---
-<!-- Description goes here -->
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Gantt/Overview/jQuery/Light/"
+}
+
+---
+
+##### jQuery
+
+    <!--JavaScript-->
+    $(function() {
+        $("#gantt").dxGantt({
+            selectedRowKey: 1,
+            // ...
+        });
+    }); 
+
+---
+
+#####See Also#####
+- [allowSelection](/Documentation/ApiReference/UI_Widgets/dxGantt/Configuration/#allowSelection) 
+- [onSelectionChanged](/Documentation/ApiReference/UI_Widgets/dxGantt/Configuration/#onSelectionChanged)
