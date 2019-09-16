@@ -3,6 +3,9 @@ id: AsyncRule.validationCallback
 type: function(options)
 ---
 ---
+##### shortDescription
+<!-- Description goes here -->
+
 ##### param(options): Object
 <!-- Description goes here -->
 
@@ -19,9 +22,6 @@ type: function(options)
 <!-- Description goes here -->
 
 ##### return: Promise<any>
-<!-- Description goes here -->
-
-##### shortDescription
 <!-- Description goes here -->
 
 ---

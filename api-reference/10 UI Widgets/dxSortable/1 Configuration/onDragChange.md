@@ -6,6 +6,9 @@ hidden:
 EventForAction: dxSortable.dragChange
 ---
 ---
+##### shortDescription
+<!-- Description goes here -->
+
 ##### param(e): Object
 <!-- Description goes here -->
 
@@ -19,9 +22,6 @@ EventForAction: dxSortable.dragChange
 <!-- Description goes here -->
 
 ##### field(e.model): Object
-<!-- Description goes here -->
-
-##### shortDescription
 <!-- Description goes here -->
 
 ---
