@@ -6,7 +6,7 @@ EventForAction: dxGantt.selectionChanged
 ---
 ---
 ##### shortDescription
-A function that is executed after users select a task or clear its selection. 
+A function that is executed after users select a task or clear its selection.
 
 ##### param(e): Object
 Information about the event that caused the function's execution.
