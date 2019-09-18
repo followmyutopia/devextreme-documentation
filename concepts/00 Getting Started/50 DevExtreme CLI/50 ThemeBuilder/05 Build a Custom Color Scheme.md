@@ -1,3 +1,3 @@
-    devextreme build-theme [--base-theme][--input-file][--make-swatch][--output-file][--output-color-scheme][--widgets][--help]
+    devextreme build-theme [--base-theme][--input-file][--make-swatch][--output-file][--widgets][--assetsBasePath][--output-color-scheme][--help]
     // ===== or without installing the DevExtreme CLI =====
-    npx -p devextreme-cli devextreme build-theme [--base-theme][--input-file][--make-swatch][--output-file][--widgets][--output-color-scheme]
+    npx -p devextreme-cli devextreme build-theme [--base-theme][--input-file][--make-swatch][--output-file][--widgets][--assetsBasePath][--output-color-scheme]

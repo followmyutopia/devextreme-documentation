@@ -23,3 +23,6 @@ Exports only base variables used to produce derived variables.
 Specifies a comma-separated list of widgets whose styles should be included in the resulting CSS file. If this argument is not specified, styles of all widgets are included. Syntax example:
 
         --widgets=datagrid,treelist,selectbox
+
+- `--assetsBasePath`            
+Specifies a path to the folder that contains the DevExtreme `icons` and `fonts` folders. Use this argument if the icons and fonts are not in the same folder as your custom theme.

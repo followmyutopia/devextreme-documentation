@@ -15,7 +15,8 @@ Theme metadata is a JSON object that describes the theme. It is used to export o
         "outputColorScheme": "custom-scheme",
         "makeSwatch": true,
         "version": "19.1.4",
-        "widgets": "datagrid,treelist,selectbox"
+        "widgets": "datagrid,treelist,selectbox",
+        "assetsBasePath": "../../../node_modules/devextreme/dist/css/"
     }
 
 The metadata object contains the following properties:
@@ -41,6 +42,9 @@ The target DevExtreme version.
 
 * `widgets`       
 A list of widgets whose styles are included in the resulting CSS file.
+
+- `assetsBasePath`            
+A path to the folder that contains the DevExtreme `icons` and `fonts` folders. This property is used only if the icons and fonts are not in the same folder as your custom theme.
 
 Run the following command to export the metadata as a `.json` file:
 
