@@ -5,7 +5,18 @@ default: true
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies whether to show/hide horizontal faint lines that separate tasks.
 
 ---
-<!-- Description goes here -->
+---
+##### jQuery
+
+    <!--JavaScript-->
+    $(function() {
+        $("#gantt").dxGantt({
+            showRowLines: false,
+            // ...
+        });
+    }); 
+
+---

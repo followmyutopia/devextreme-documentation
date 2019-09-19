@@ -5,5 +5,20 @@ default: null
 ---
 ---
 ##### shortDescription
+Binds the widget to the data source which contains tasks.
+
+---
+---
+##### jQuery
+
+    <!-- tab: index.js -->
+    $(function() {
+        $("#gantt").dxGantt({
+            tasks: {
+                dataSource: tasks
+            },
+            //...
+        });
+    });
 
 ---

@@ -1,5 +1,4 @@
 ---
 ##### shortDescription
-<!-- Description goes here -->
-
+This section describes the events this widget raises.
 ---

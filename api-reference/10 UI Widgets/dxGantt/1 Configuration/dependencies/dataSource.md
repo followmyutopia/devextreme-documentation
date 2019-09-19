@@ -5,5 +5,19 @@ default: null
 ---
 ---
 ##### shortDescription
+Binds the widget to the data source which contains dependencies.
+---
+---
+##### jQuery
+
+    <!-- tab: index.js -->
+    $(function() {
+        $("#gantt").dxGantt({
+            dependencies: {
+                dataSource: dependencies
+            },
+            //...
+        });
+    });
 
 ---

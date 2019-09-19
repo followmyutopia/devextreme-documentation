@@ -5,6 +5,7 @@ default: 'resourceId'
 ---
 ---
 ##### shortDescription
+Specifies the data field that provides resource IDs.
 
 ##### param(data): Object
 

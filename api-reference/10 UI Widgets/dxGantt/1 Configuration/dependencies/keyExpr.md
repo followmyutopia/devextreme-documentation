@@ -5,6 +5,7 @@ default: 'id'
 ---
 ---
 ##### shortDescription
+Specifies the data field that provides keys for dependencies.
 
 ##### param(data): Object
 

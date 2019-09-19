@@ -4,22 +4,22 @@ type: eventType
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Raised after users select a task or clear its selection.
 
 ##### param(e): Object
-<!-- Description goes here -->
+Information about the event.
 
 ##### field(e.component): {WidgetName}
-<!-- Description goes here -->
+The widget's instance.
 
 ##### field(e.element): dxElement
-<!-- Description goes here -->
+The widget's container.
 
 ##### field(e.model): Object
-<!-- Description goes here -->
+The model data. Available only if you use Knockout.
 
 ##### field(e.selectedRowKey): any
-<!-- Description goes here -->
+The key of the row whose selection state changed.
 
 ---
-<!-- Description goes here -->
+Main article: [onSelectionChanged](/Documentation/ApiReference/UI_Widgets/dxGantt/Configuration/onSelectionChanged)
