@@ -14,7 +14,7 @@ HTML elements for which to trigger an event.
 An event or its name.
 
 ---
-// Modular approach
+    // Modular approach
     import { trigger } from "devextreme/events";
     // ...
     trigger(document.getElementById("target"), "customEvent");

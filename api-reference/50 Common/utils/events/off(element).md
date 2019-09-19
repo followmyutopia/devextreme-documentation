@@ -11,7 +11,7 @@ Detaches all handlers from the specified elements.
 HTML elements from which to detach all handlers.
 
 ---
-// Modular approach
+    // Modular approach
     import { off } from "devextreme/events";
     // ...
     off(document.getElementById("target"));

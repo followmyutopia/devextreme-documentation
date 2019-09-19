@@ -14,7 +14,7 @@ HTML elements from which to detach handlers.
 An event name.
 
 ---
-// Modular approach
+    // Modular approach
     import { off } from "devextreme/events";
     // ...
     off(document.getElementById("target"), "dxclick");

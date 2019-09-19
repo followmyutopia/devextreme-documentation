@@ -17,7 +17,7 @@ An event or its name.
 Additional parameters to be passed to event handlers.
 
 ---
-// Modular approach
+    // Modular approach
     import { trigger } from "devextreme/events";
     // ...
     trigger(document.getElementById("target"), "customEvent", { timeout: 1000 });

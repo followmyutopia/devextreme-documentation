@@ -20,7 +20,7 @@ A <a href="https://www.w3schools.com/cssref/css_selectors.asp" target="_blank">C
 The handler to detach.
 
 ---
-// Modular approach
+    // Modular approach
     import { off } from "devextreme/events";
     // ...
     off(document.getElementById("target"), "dxclick", "#elementID", clickHandler);
