@@ -10,7 +10,7 @@ Specifies the data source field whose values should be replaced.
 ##### param(data): Object
 <!-- Description goes here -->
 
-##### return: String
+##### return: String | Number | Boolean
 <!-- Description goes here -->
 
 ---

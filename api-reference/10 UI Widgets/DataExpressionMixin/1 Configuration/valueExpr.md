@@ -10,7 +10,7 @@ Specifies which data field provides unique values to the widget's [value]({basew
 ##### param(item): Object
 <!-- Description goes here -->
 
-##### return: String
+##### return: String | Number | Boolean
 <!-- Description goes here -->
 
 ---

@@ -4,6 +4,9 @@ type: function(svg, canvas)
 default: undefined
 ---
 ---
+##### shortDescription
+<!-- Description goes here -->
+
 ##### param(svg): SVGElement
 <!-- Description goes here -->
 
@@ -11,9 +14,6 @@ default: undefined
 <!-- Description goes here -->
 
 ##### return: Promise<void>
-<!-- Description goes here -->
-
-##### shortDescription
 <!-- Description goes here -->
 
 ---
