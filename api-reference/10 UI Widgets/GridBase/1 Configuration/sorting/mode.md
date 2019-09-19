@@ -21,3 +21,7 @@ Rows can be sorted by values of several columns.
     enum: "`GridSortingMode`",
     values: "`None`, `Single`, and `Multiple`"
 }
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Data_Grid/MultipleSorting/jQuery/Light/"
+}
