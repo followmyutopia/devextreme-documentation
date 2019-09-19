@@ -5,7 +5,20 @@ default: true
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies whether a user can delete [resources]({basewidgetpath}/Configuration/#resources).
 
 ---
-<!-- Description goes here -->
+---
+##### jQuery
+
+    <!-- tab: index.js -->
+    $(function() {
+        $("#gantt").dxGantt({
+            editing: {
+                allowResourceDeleting: false, 
+                //...
+            }
+        });
+    }); 
+
+---

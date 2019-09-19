@@ -5,7 +5,20 @@ default: true
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies whether a user can update [tasks]({basewidgetpath}/Configuration/#tasks).
 
 ---
-<!-- Description goes here -->
+---
+##### jQuery
+
+    <!-- tab: index.js -->
+    $(function() {
+        $("#gantt").dxGantt({
+            editing: {
+                allowTaskUpdating: false, 
+                //...
+            }
+        });
+    }); 
+
+---

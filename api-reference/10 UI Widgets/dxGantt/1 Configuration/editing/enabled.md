@@ -5,7 +5,20 @@ default: false
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies whether a user can edit tasks, resources and dependencies.
 
 ---
-<!-- Description goes here -->
+---
+##### jQuery
+
+    <!-- tab: index.js -->
+    $(function() {
+        $("#gantt").dxGantt({
+            editing: {
+                enabled: true, 
+                //...
+            }
+        });
+    }); 
+
+---
