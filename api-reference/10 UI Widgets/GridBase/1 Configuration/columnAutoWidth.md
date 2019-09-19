@@ -3,6 +3,7 @@ id: GridBase.Options.columnAutoWidth
 type: Boolean
 default: false
 ---
+---
 ##### shortDescription
 Specifies whether columns should adjust their widths to the content.
 
