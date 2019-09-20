@@ -9,11 +9,9 @@ Create the DevExtreme configuration file in your project folder.
 
 Here, *<bundle_name>* is a name of the configuration file without an extension. By default, it is **dx.custom**.
 
-After the file is created, you can edit it and leave only modules and exports you need.  
+After the file was created, you can edit it and leave only modules and exports you need.  
 
-[note]To use the DevExtreme widgets with the Knockout approach, check to ensure you use the [Knockout integration module](/Documentation/Guide/Common/Modularity/#DevExtreme_Modules_Structure/integration/knockout).
-
-[note]To use the DevExtreme widgets with the AngularJS approach, check to ensure you use the [AngularJS integration module](/Documentation/Guide/Common/Modularity/#DevExtreme_Modules_Structure/integration/angular).
+[note]To use DevExtreme widgets with jQuery, Knockout, or AngularJS, ensure that you import the [jquery](/Documentation/Guide/Common/Modularity/DevExtreme_Modules_Structure/#integration/jquery), [knockout](/Documentation/Guide/Common/Modularity/DevExtreme_Modules_Structure/#integration/knockout), or [angular](/Documentation/Guide/Common/Modularity/DevExtreme_Modules_Structure/#integration/angular) integration module.
 
 
 The following command produces a minified bundle.
@@ -76,6 +74,8 @@ The example below demonstrates how to create an application with a single button
     <!--JavaScript-->
     /* Core (dx.module-core.js) */
     var DevExpress = require("devextreme/bundles/modules/core");
+    /* Integrations (dx.module-core.js) */
+    require("devextreme/integration/jquery");
     /* UI core (dx.module-core.js) */
     var ui = DevExpress.ui = require("devextreme/bundles/modules/ui");
     ui.dialog = require("devextreme/ui/dialog");
