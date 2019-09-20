@@ -6,7 +6,7 @@ default: 'vertical'
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Notifies the widget of the items' orientation.
 
 ---
 <!-- Description goes here -->

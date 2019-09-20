@@ -6,7 +6,7 @@ inherits: DraggableBase
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+**Sortable** is a user interface utility that allows a widget's items to be reordered via drag and drop gestures.
 
 ---
 <!-- Description goes here -->

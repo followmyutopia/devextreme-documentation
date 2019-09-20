@@ -1,11 +1,11 @@
 ---
 id: DraggableBase.Options.container
 type: String | Node | jQuery
-default: undefined
+default: body
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies a custom container in which the draggable element should be rendered.
 
 ---
-<!-- Description goes here -->
+#include uiwidgets-ref-domelementacceptedvalues

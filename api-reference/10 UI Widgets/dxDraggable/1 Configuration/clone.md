@@ -5,7 +5,7 @@ default: false
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Allows a user to drag clones of elements instead of actual elements.
 
 ---
 <!-- Description goes here -->
