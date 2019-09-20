@@ -5,5 +5,9 @@ default: {}
 ---
 ---
 ##### shortDescription
-
+Provides access to Properties panel settings.
 ---
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Diagram/UICustomization/jQuery/Light/"
+}
+

@@ -5,5 +5,5 @@ default: true
 ---
 ---
 ##### shortDescription
-
+Specifies the Properties panel's visibility.
 ---

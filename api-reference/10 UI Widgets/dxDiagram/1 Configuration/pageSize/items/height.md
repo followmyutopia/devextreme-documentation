@@ -4,5 +4,5 @@ type: Number
 ---
 ---
 ##### shortDescription
-
+Specifies the page height.
 ---

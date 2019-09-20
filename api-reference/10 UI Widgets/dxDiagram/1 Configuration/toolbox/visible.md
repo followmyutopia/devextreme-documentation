@@ -5,5 +5,5 @@ default: true
 ---
 ---
 ##### shortDescription
-
+Specifies the toolbox's visibility.
 ---

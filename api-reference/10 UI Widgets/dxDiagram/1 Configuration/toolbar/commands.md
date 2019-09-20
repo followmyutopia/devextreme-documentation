@@ -6,5 +6,5 @@ default: undefined
 ---
 ---
 ##### shortDescription
-
+Lists commands in the toolbar.
 ---

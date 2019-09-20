@@ -4,5 +4,5 @@ type: String
 ---
 ---
 ##### shortDescription
-
+Specifies the group title in the toolbox.
 ---

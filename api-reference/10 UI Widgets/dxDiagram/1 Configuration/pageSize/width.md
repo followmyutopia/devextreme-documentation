@@ -5,5 +5,5 @@ default: 5.827
 ---
 ---
 ##### shortDescription
-
+Specifies the page width.
 ---
