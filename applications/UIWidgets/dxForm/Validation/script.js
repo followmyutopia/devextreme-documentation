@@ -48,5 +48,12 @@ customizeItem = function (item) {
     }
 };
 $(function () {
-    $(".dx-form").dxForm("instance").validate();
+    $("#form").dxForm({
+        formData: employeeData,
+        colCount: 3,
+        labelLocation: 'top',
+        showValidationSummary: true,
+        customizeItem: customizeItem
+    });
+    $("#form").dxForm("instance").validate();
 });
