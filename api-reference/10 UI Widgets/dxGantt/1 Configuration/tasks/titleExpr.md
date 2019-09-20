@@ -1,6 +1,6 @@
 ---
 id: dxGantt.Options.tasks.titleExpr
-type: String | function(data)
+type: String | function()
 default: 'title'
 ---
 ---

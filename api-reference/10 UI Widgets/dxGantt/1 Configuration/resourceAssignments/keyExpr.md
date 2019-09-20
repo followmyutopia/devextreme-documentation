@@ -1,6 +1,6 @@
 ---
 id: dxGantt.Options.resourceAssignments.keyExpr
-type: String | function(data)
+type: String | function()
 default: 'id'
 ---
 ---

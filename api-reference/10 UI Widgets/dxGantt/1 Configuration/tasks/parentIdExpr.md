@@ -1,6 +1,6 @@
 ---
 id: dxGantt.Options.tasks.parentIdExpr
-type: String | function(data)
+type: String | function()
 default: 'parentId'
 ---
 ---

@@ -1,6 +1,6 @@
 ---
 id: dxGantt.Options.dependencies.predecessorIdExpr
-type: String | function(data)
+type: String | function()
 default: 'predecessorId'
 ---
 ---

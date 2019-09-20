@@ -7,6 +7,7 @@ default: 'inside'
 ---
 ##### shortDescription
 Specifies a task's title position.
+
 ---
 
 Titles can be displayed *"inside"* or *"outside"* the the task. Set the position to *"none"* to hide the title.

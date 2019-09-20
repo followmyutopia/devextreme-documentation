@@ -1,6 +1,6 @@
 ---
 id: dxGantt.Options.tasks.startExpr
-type: String | function(data)
+type: String | function()
 default: 'start'
 ---
 ---

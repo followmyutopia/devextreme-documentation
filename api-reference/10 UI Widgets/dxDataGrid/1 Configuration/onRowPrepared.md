@@ -29,6 +29,9 @@ The row's [group index](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Config
 ##### field(e.isExpanded): Boolean
 Indicates whether the row is expanded or collapsed. Unavailable if **rowType** is *"header"*, *"filter"* or *"totalFooter"*.
 
+##### field(e.isNewRow): Boolean
+<!-- Description goes here -->
+
 ##### field(e.isSelected): Boolean
 Indicates whether the prepared row is [selected](/Documentation/Guide/Widgets/DataGrid/Selection/). Available only if **rowType** is *"data"*.
 

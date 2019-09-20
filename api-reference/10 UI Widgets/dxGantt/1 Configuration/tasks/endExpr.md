@@ -1,6 +1,6 @@
 ---
 id: dxGantt.Options.tasks.endExpr
-type: String | function(data)
+type: String | function()
 default: 'end'
 ---
 ---

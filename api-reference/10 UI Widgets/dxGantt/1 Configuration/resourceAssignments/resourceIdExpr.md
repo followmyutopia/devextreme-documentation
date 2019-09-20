@@ -1,6 +1,6 @@
 ---
 id: dxGantt.Options.resourceAssignments.resourceIdExpr
-type: String | function(data)
+type: String | function()
 default: 'resourceId'
 ---
 ---

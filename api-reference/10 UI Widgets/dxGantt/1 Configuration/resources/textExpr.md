@@ -1,6 +1,6 @@
 ---
 id: dxGantt.Options.resources.textExpr
-type: String | function(data)
+type: String | function()
 default: 'text'
 ---
 ---

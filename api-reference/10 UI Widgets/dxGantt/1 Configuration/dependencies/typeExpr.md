@@ -1,6 +1,6 @@
 ---
 id: dxGantt.Options.dependencies.typeExpr
-type: String | function(data)
+type: String | function()
 default: 'type'
 ---
 ---

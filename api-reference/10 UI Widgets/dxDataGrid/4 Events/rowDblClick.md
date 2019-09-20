@@ -30,6 +30,9 @@ The row's [group index](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Config
 ##### field(e.isExpanded): Boolean
 Indicates whether the row is expanded or collapsed. Available if **rowType** is *"data"*, *"detail"*, or *"group"*.
 
+##### field(e.isNewRow): Boolean
+<!-- Description goes here -->
+
 ##### field(e.isSelected): Boolean
 Indicates whether the row is selected. Available if **rowType** is *"data"* or *"detail"*.
 

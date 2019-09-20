@@ -35,6 +35,9 @@ The cell's displayed value. Differs from the **value** field only when the colum
 ##### field(e.isExpanded): Boolean
 Indicates whether the row is expanded or collapsed. Unavailable if **rowType** is *"header"*, *"filter"* or *"totalFooter"*.
 
+##### field(e.isNewRow): Boolean
+<!-- Description goes here -->
+
 ##### field(e.isSelected): Boolean
 Indicates whether the row is selected.
 

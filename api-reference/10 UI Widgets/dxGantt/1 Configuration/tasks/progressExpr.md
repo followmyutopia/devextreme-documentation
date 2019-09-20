@@ -1,6 +1,6 @@
 ---
 id: dxGantt.Options.tasks.progressExpr
-type: String | function(data)
+type: String | function()
 default: 'progress'
 ---
 ---

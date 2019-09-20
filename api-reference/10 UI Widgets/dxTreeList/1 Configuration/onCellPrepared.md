@@ -36,6 +36,9 @@ Differs from the **value** field only when the cell belongs to the [lookup](/Doc
 ##### field(e.isExpanded): Boolean
 Indicates whether the row is expanded or collapsed. Available if **rowType** is *"data"* or *"detail"*.
 
+##### field(e.isNewRow): Boolean
+<!-- Description goes here -->
+
 ##### field(e.isSelected): Boolean
 Indicates whether the row is selected. Available if **rowType** is *"data"* or *"detail"*.
 

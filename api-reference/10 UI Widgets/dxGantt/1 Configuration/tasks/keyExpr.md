@@ -1,6 +1,6 @@
 ---
 id: dxGantt.Options.tasks.keyExpr
-type: String | function(data)
+type: String | function()
 default: 'id'
 ---
 ---

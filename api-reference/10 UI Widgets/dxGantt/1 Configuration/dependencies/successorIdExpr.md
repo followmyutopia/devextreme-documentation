@@ -1,6 +1,6 @@
 ---
 id: dxGantt.Options.dependencies.successorIdExpr
-type: String | function(data)
+type: String | function()
 default: 'successorId'
 ---
 ---

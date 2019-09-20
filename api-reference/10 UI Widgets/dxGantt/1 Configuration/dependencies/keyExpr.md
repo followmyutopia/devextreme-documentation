@@ -1,6 +1,6 @@
 ---
 id: dxGantt.Options.dependencies.keyExpr
-type: String | function(data)
+type: String | function()
 default: 'id'
 ---
 ---

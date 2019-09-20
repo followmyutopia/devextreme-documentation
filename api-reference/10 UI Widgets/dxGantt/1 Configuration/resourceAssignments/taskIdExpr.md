@@ -1,6 +1,6 @@
 ---
 id: dxGantt.Options.resourceAssignments.taskIdExpr
-type: String | function(data)
+type: String | function()
 default: 'taskId'
 ---
 ---

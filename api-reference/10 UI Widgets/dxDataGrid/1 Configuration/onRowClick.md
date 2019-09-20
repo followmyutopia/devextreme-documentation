@@ -35,6 +35,9 @@ Indicates whether internal widget functions have already handled the event.
 ##### field(e.isExpanded): Boolean
 Indicates whether or not the group row is expanded. Available if **rowType** is *"group"*.
 
+##### field(e.isNewRow): Boolean
+<!-- Description goes here -->
+
 ##### field(e.isSelected): Boolean
 Indicates whether the row is [selected](/Documentation/Guide/Widgets/DataGrid/Selection/).
 
