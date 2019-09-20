@@ -8,10 +8,10 @@ default: 'this'
 Specifies which data field provides unique values to the widget's [value]({basewidgetpath}/Configuration/#value).
 
 ##### param(item): Object
-<!-- Description goes here -->
+The current item's data object.
 
 ##### return: String | Number | Boolean
-<!-- Description goes here -->
+A unique item identifier. 
 
 ---
 Always set this option if the [dataSource]({basewidgetpath}/Configuration/#dataSource) contains objects. Alternatively, you can specify the [key](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#key) in the store. 
