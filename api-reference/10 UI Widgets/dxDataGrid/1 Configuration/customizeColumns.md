@@ -52,4 +52,6 @@ Use this function to make minor adjustments to automatically generated columns. 
     
 ---
 
-For a more profound column customization, declare the [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) array.
+For a more detailed column customization, declare the [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) array.
+
+[note] We do not recommend that you create new columns via **customizeColumns**, because this disables data operations (sorting, filtering, summary) for the created columns. Add them to the **columns** array instead.
