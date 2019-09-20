@@ -21,7 +21,7 @@ This option accepts three types of values:
  A [predefined format](/Documentation/ApiReference/Common/Object_Structures/format/#type) or [custom format string](/Documentation/Guide/Common/Value_Formatting/#Format_Widget_Values/Custom_Format_String).
 
 * **Function**  
- Specifies a custom format. A shortcut for the [formatter](/Documentation/ApiReference/Common/Object_Structures/format/#formatter) option.
+ Applies a custom format to a value and returns this value as a string. A shortcut for the [formatter](/Documentation/ApiReference/Common/Object_Structures/format/#formatter) option.
  
 * **Object**  
  Allows you to configure the format. Can have one of the following structures:

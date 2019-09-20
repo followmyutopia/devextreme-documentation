@@ -4,7 +4,7 @@ type: function(value)
 ---
 ---
 ##### shortDescription
-Specifies a custom format.
+A function that converts numeric or date-time values to a string.
 
 ##### param(value): Number | Date
 The value to be formatted.
