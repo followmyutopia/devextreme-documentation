@@ -6,7 +6,7 @@ id: DOMComponent.dispose()
 Disposes of all the resources allocated to the **{WidgetName}** instance.
 
 ---
-The following code disposes of an **{WidgetName}** instance that corresponds to the element ID (or reference variable in Angular) and removes the element from the DOM:
+After calling this method, remove the DOM element associated with the widget:
 
 ---
 ##### jQuery
