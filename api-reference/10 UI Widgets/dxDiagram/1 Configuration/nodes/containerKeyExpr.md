@@ -1,13 +1,13 @@
 ---
-id: dxSortable.Options.placeholderTemplate
-type: template
+id: dxDiagram.Options.nodes.containerKeyExpr
+type: String | function(data)
 default: undefined
 ---
 ---
-##### shortDescription
+##### param(data): Object
 <!-- Description goes here -->
 
-##### return: String | Node | jQuery
+##### shortDescription
 <!-- Description goes here -->
 
 ---

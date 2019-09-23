@@ -6,4 +6,5 @@ type: Array<String> | Array<String>
 ---
 ##### shortDescription
 Lists the shapes in the group.
+
 ---

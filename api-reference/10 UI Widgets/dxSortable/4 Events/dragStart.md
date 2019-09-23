@@ -1,12 +1,12 @@
 ---
-id: DraggableBase.dragMove
+id: dxSortable.dragStart
 type: eventType
 ---
 ---
-##### shortDescription
+##### param(e): Object
 <!-- Description goes here -->
 
-##### param(e): Object
+##### field(e.cancel): Boolean
 <!-- Description goes here -->
 
 ##### field(e.component): {WidgetName}
@@ -18,7 +18,19 @@ type: eventType
 ##### field(e.event): event
 <!-- Description goes here -->
 
+##### field(e.fromIndex): Number
+<!-- Description goes here -->
+
+##### field(e.itemData): any
+<!-- Description goes here -->
+
+##### field(e.itemElement): dxElement
+<!-- Description goes here -->
+
 ##### field(e.model): Object
+<!-- Description goes here -->
+
+##### shortDescription
 <!-- Description goes here -->
 
 ---

@@ -6,4 +6,5 @@ type: Array<String>
 ---
 ##### shortDescription
 Lists commands in a group.
+
 ---

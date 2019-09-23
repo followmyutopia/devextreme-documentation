@@ -6,6 +6,7 @@ default: undefined
 ---
 ##### shortDescription
 An array that specifies the page size items in the _Paze Size_ combobox on _Properties_ panel.
+
 ---
 
 ---

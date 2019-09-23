@@ -5,6 +5,7 @@ type: Object
 ---
 ##### shortDescription
 Specifies a size of pages.
+
 ---
 The [units](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/#units) option specifies the page's measurement units.
 

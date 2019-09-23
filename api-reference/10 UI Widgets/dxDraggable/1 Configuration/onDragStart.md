@@ -1,14 +1,14 @@
 ---
-id: DraggableBase.Options.onDragStart
+id: dxDraggable.Options.onDragStart
 type: function(e)
 default: null
-EventForAction: DraggableBase.dragStart
+EventForAction: dxDraggable.dragStart
 ---
 ---
-##### shortDescription
+##### param(e): Object
 <!-- Description goes here -->
 
-##### param(e): Object
+##### field(e.cancel): Boolean
 <!-- Description goes here -->
 
 ##### field(e.component): {WidgetName}
@@ -20,7 +20,16 @@ EventForAction: DraggableBase.dragStart
 ##### field(e.event): event
 <!-- Description goes here -->
 
+##### field(e.itemData): any
+<!-- Description goes here -->
+
+##### field(e.itemElement): dxElement
+<!-- Description goes here -->
+
 ##### field(e.model): Object
+<!-- Description goes here -->
+
+##### shortDescription
 <!-- Description goes here -->
 
 ---

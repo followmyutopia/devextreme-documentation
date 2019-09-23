@@ -5,8 +5,8 @@ default: 'white'
 ---
 ---
 ##### shortDescription
-
 Specifies the color of a diagram page.
+
 ---
 The following color formats are available:
 

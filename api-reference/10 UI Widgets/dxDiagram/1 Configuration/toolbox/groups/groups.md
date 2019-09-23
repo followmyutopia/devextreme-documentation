@@ -6,8 +6,8 @@ default: undefined
 ---
 ---
 ##### shortDescription
-
 Lists toolbox groups.
+
 ---
 
 #include common-demobutton with {

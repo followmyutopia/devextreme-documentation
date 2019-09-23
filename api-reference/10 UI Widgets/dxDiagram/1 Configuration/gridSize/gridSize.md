@@ -6,6 +6,7 @@ default: 0.125
 ---
 ##### shortDescription
 Specifies the grid pitch.
+
 ---
 When the [showGrid](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/#showGrid) option is set to **true**, the Diagram widget displays grid lines that help users align diagram elements. Use the **gridSize** option to specify the grid pitch.
 

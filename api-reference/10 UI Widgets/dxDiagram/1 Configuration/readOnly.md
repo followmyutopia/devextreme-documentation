@@ -6,6 +6,7 @@ default: false
 ---
 ##### shortDescription
 Specifies whether the diagram is read-only.
+
 ---
 Set the **readOnly** option to **true** to prohibit users from editing the diagram.
 

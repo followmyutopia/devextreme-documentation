@@ -6,6 +6,7 @@ default: undefined
 ---
 ##### shortDescription
 Specifies the name of a data source field or an expression that provides edge texts.
+
 ##### param(data): Object
 
 ---

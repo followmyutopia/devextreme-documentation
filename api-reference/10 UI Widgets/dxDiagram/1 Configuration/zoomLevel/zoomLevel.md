@@ -6,6 +6,7 @@ default: 1
 ---
 ##### shortDescription
 Specifies the zoom level.
+
 ---
 
 ---

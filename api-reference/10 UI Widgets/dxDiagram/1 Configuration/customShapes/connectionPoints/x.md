@@ -5,6 +5,7 @@ type: Number
 ---
 ##### shortDescription
 Specifies the horizontal offset.
+
 ---
 This option specifies a fractional horizontal offset of a connection point toward the shape width.
 

@@ -1,7 +1,7 @@
 ---
 id: DraggableBase.Options.container
 type: String | Node | jQuery
-default: body
+default: undefined
 ---
 ---
 ##### shortDescription

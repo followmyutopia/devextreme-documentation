@@ -5,6 +5,7 @@ type: Number
 ---
 ##### shortDescription
 Specifies the vertical offset.
+
 ---
 This option specifies a fractional vertical offset of a connection point toward the shape height.
 

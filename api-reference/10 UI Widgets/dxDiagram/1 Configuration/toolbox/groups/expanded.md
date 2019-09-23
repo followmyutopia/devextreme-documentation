@@ -5,4 +5,5 @@ type: Boolean
 ---
 ##### shortDescription
 Specifies whether the group is expanded.
+
 ---

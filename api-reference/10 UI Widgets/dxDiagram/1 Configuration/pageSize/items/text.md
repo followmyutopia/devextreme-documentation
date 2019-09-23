@@ -5,4 +5,5 @@ type: String
 ---
 ##### shortDescription
 Specifies the display text.
+
 ---

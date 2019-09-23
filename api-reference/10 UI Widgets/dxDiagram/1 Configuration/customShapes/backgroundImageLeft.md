@@ -5,6 +5,7 @@ type: Number
 ---
 ##### shortDescription
 Specifies the shape background image's left offset.
+
 ---
 This option specifies a fractional left offset of a shape background image toward the shape width. If the **backgroundImageLeft** option is set to 0, the image's left edge matches the shape's left edge.
 

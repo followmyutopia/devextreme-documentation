@@ -6,6 +6,7 @@ default: undefined
 ---
 ##### shortDescription
 Contains an array of command groups in the Properties panel.
+
 ---
 
 ---

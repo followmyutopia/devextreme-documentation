@@ -2,8 +2,8 @@
 id: dxSortable.Options.onDragChange
 type: function(e)
 default: null
-hidden: 
 EventForAction: dxSortable.dragChange
+hidden: 
 ---
 ---
 ##### shortDescription
@@ -12,7 +12,13 @@ EventForAction: dxSortable.dragChange
 ##### param(e): Object
 <!-- Description goes here -->
 
+##### field(e.cancel): Boolean
+<!-- Description goes here -->
+
 ##### field(e.component): {WidgetName}
+<!-- Description goes here -->
+
+##### field(e.dropInsideItem): Boolean
 <!-- Description goes here -->
 
 ##### field(e.element): dxElement
@@ -21,7 +27,25 @@ EventForAction: dxSortable.dragChange
 ##### field(e.event): event
 <!-- Description goes here -->
 
+##### field(e.fromComponent): dxSortable | dxDraggable
+<!-- Description goes here -->
+
+##### field(e.fromIndex): Number
+<!-- Description goes here -->
+
+##### field(e.itemData): any
+<!-- Description goes here -->
+
+##### field(e.itemElement): dxElement
+<!-- Description goes here -->
+
 ##### field(e.model): Object
+<!-- Description goes here -->
+
+##### field(e.toComponent): dxSortable | dxDraggable
+<!-- Description goes here -->
+
+##### field(e.toIndex): Number
 <!-- Description goes here -->
 
 ---

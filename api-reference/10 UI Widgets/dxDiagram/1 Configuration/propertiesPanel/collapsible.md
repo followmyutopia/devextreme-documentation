@@ -6,4 +6,5 @@ default: true
 ---
 ##### shortDescription
 Specifies whether the Properties panel can be collapsed.
+
 ---

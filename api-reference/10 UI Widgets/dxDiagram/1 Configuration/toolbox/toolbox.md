@@ -6,6 +6,7 @@ default: {}
 ---
 ##### shortDescription
 Provides access to toolbox settings.
+
 ---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Diagram/UICustomization/jQuery/Light/"

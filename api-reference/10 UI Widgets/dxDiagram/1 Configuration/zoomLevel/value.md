@@ -6,4 +6,5 @@ default: undefined
 ---
 ##### shortDescription
 Specifies the zoom level.
+
 ---

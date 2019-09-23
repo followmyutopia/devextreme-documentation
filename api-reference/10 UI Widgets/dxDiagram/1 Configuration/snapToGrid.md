@@ -4,9 +4,7 @@ type: Boolean
 default: true
 ---
 ---
-
 ##### shortDescription
-
 Specifies whether diagram elements should snap to grid lines.
 
 ---

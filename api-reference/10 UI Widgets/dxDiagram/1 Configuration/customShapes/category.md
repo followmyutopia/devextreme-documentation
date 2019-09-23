@@ -5,6 +5,7 @@ type: String
 ---
 ##### shortDescription
 Specifies a category to which the custom shape belongs.
+
 ---
 Use the **category** option to link a custom shape to a default of custom category. If the option in not specified, it is set to `"custom"`. 
 

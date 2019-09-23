@@ -5,6 +5,7 @@ type: Boolean
 ---
 ##### shortDescription
 Specifies whether the shape's text can be edited.
+
 ---
 
 #####See Also#####
