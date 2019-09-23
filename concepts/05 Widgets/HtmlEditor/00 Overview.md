@@ -95,8 +95,8 @@ Follow the steps below to add the **HtmlEditor** to a page.
 The **HtmlEditor** supports the following features:
 
 - Inline, block, and embedded [formats](/Documentation/Guide/Widgets/HtmlEditor/Formats/) 
-- [Adaptive toolbar](/Documentation/Guide/Widgets/HtmlEditor/Toolbar/Built-In_Controls/) 
-- [Built-in formats' and modules' extension](/Documentation/Guide/Widgets/HtmlEditor/Customize_Built-In_Formats_and_Modules/)
+- [Adaptive toolbar](/Documentation/Guide/Widgets/HtmlEditor/Toolbar/Predefined_Items/) 
+- [Built-in formats' and modules' extension](/Documentation/Guide/Widgets/HtmlEditor/Formats/#Customize_Built-In_Formats_and_Modules)
 - [Custom formats and modules](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Methods/#getcomponentPath)
 - [Mail-merge placeholders](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/variables/) (for example, %username%)
 - Drag-and-drop images
