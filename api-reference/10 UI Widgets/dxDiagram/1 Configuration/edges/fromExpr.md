@@ -5,7 +5,7 @@ default: 'from'
 ---
 ---
 ##### shortDescription
-Specifies the data field that provides an edge's start node key.
+Specifies the name of a data source field or an expression that provides an edge's start node key.
 
 ##### param(data): Object
 

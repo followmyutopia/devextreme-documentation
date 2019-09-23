@@ -5,7 +5,7 @@ default: undefined
 ---
 ---
 ##### shortDescription
-
+Specifies the name of a data source field or an expression that provides an edge's line start tip.
 ##### param(data): Object
 
 ---

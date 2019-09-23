@@ -5,8 +5,6 @@ default: 'to'
 ---
 ---
 ##### shortDescription
-Specifies the data field that provides an edge's end node key.
-
+Specifies the name of a data source field or an expression that provides an edge's end node key.
 ##### param(data): Object
-
 ---

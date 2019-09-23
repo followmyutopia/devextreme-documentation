@@ -5,7 +5,7 @@ default: 'id'
 ---
 ---
 ##### shortDescription
-Specifies the data field that provides a key for an edge.
+Specifies the name of a data source field or an expression that provides edge keys.
 
 ##### param(data): Object
 
