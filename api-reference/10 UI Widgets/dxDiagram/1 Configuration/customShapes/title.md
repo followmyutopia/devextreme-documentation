@@ -4,6 +4,6 @@ type: String
 ---
 ---
 ##### shortDescription
-Specifies a shape's tooltip that is displayed in a toolbox panel.
+Specifies the shape's tooltip in the toolbox panel.
 
 ---

@@ -4,6 +4,7 @@ type: Number
 ---
 ---
 ##### shortDescription
-Specifies the initial width of a shape that is drag-and-dropped from the toolbox to the diagram area.
+Specifies the initial width of the shape.
 
 ---
+The [units](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/#units) option specifies the measurement unit.

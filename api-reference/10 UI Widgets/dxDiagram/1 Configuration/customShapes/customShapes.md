@@ -8,36 +8,51 @@ default: []
 An array of custom shapes.
 
 ---
-Use the **customShapes** option to extend a collection of built-in shapes with custom shapes. Custom shapes are displayed in the toolbox panel’s **Custom** tab.
+Use the **customShapes** option to extend a collection of built-in shapes with custom shapes.
+
+Use the [toolbox](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/toolbox/) option to add the custom shapes to the toolbox.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Diagram/CustomShapes/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Diagram/CustomShapesWithIcons/jQuery/Light/"
 }
 
+
 ---
+
 #####jQuery
 
     <!--JavaScript-->
     $(function() {
         var diagram = $("#diagram").dxDiagram({
             customShapes: [{
-                id: 0,
+                category: "hardware",
+                type: "internet",
                 title: "Internet",
-                svgUrl: "images/shapes/internet.svg",
-                defaultWidth: 1.27,
-                defaultHeight: 1.27,
-                allowHasText: false
+                backgroundImageUrl: "images/shapes/internet.svg",
+                backgroundImageLeft: 0.15,
+                backgroundImageTop: 0,
+                backgroundImageWidth: 0.7,
+                backgroundImageHeight: 0.7,
+                defaultWidth: 0.75,
+                defaultHeight: 0.75,
+                defaultText: "Internet",
+                allowEditText: true,
+                textLeft: 0,
+                textTop: 0.7,
+                textWidth: 1,
+                textHeight: 0.3,
+                connectionPoints: [
+                    { x: 0.5, y: 0 },
+                    { x: 0.9, y: 0.5 },
+                    { x: 0.5, y: 1 },
+                    { x: 0.1, y: 0.5 }
+                ]
             },
-            {
-                id: 1,
-                title: "Laptop",
-                svgUrl: "images/shapes/laptop.svg",
-                defaultWidth: 1.27,
-                defaultHeight: 1.27,
-                allowHasText: false
-            },
-            // ...
-            ]
-        }).dxDiagram("instance");
-    });    
+            ...
+        ],
+        toolbox: {
+            groups: [{ category: "hardware", title: "Hardware" }]
+        }
+    }).dxDiagram("instance");
+    
 ---
