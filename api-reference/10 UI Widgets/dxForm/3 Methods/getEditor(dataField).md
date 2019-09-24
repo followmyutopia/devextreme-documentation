@@ -38,6 +38,8 @@ The following code shows how to get an editor of an item in a group:
         });
     });
 
+[note] This method works only for [predefined editors](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#editorType), and is unavailable when using a custom [template](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#template).
+
 #####See Also#####
 #include common-link-callmethods
 - [Change Options at Runtime - Editor Options](/Documentation/Guide/Widgets/Form/Change_Options_at_Runtime/Editor_Options/)
