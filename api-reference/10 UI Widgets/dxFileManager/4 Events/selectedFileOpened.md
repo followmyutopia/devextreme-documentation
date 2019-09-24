@@ -9,7 +9,7 @@ Raised when the selected file is opened.
 ##### param(e): Object
 Information about the event that caused the function's execution.
 
-##### field(e.component): FileManager
+##### field(e.component): {WidgetName}
 The widget's instance.
 
 ##### field(e.element): dxElement

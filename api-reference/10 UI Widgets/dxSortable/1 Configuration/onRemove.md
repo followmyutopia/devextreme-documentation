@@ -5,6 +5,9 @@ default: null
 EventForAction: dxSortable.remove
 ---
 ---
+##### shortDescription
+<!-- Description goes here -->
+
 ##### param(e): Object
 <!-- Description goes here -->
 
@@ -42,9 +45,6 @@ EventForAction: dxSortable.remove
 <!-- Description goes here -->
 
 ##### field(e.toIndex): Number
-<!-- Description goes here -->
-
-##### shortDescription
 <!-- Description goes here -->
 
 ---

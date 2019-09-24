@@ -3,6 +3,9 @@ id: dxSortable.dragStart
 type: eventType
 ---
 ---
+##### shortDescription
+<!-- Description goes here -->
+
 ##### param(e): Object
 <!-- Description goes here -->
 
@@ -28,9 +31,6 @@ type: eventType
 <!-- Description goes here -->
 
 ##### field(e.model): Object
-<!-- Description goes here -->
-
-##### shortDescription
 <!-- Description goes here -->
 
 ---

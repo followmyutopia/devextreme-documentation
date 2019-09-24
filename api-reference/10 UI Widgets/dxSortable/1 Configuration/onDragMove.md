@@ -5,6 +5,9 @@ default: null
 EventForAction: dxSortable.dragMove
 ---
 ---
+##### shortDescription
+<!-- Description goes here -->
+
 ##### param(e): Object
 <!-- Description goes here -->
 
@@ -42,9 +45,6 @@ EventForAction: dxSortable.dragMove
 <!-- Description goes here -->
 
 ##### field(e.toIndex): Number
-<!-- Description goes here -->
-
-##### shortDescription
 <!-- Description goes here -->
 
 ---

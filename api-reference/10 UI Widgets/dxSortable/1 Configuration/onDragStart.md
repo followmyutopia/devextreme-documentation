@@ -5,6 +5,9 @@ default: null
 EventForAction: dxSortable.dragStart
 ---
 ---
+##### shortDescription
+<!-- Description goes here -->
+
 ##### param(e): Object
 <!-- Description goes here -->
 
@@ -30,9 +33,6 @@ EventForAction: dxSortable.dragStart
 <!-- Description goes here -->
 
 ##### field(e.model): Object
-<!-- Description goes here -->
-
-##### shortDescription
 <!-- Description goes here -->
 
 ---

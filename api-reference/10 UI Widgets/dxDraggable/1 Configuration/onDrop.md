@@ -5,6 +5,9 @@ default: null
 EventForAction: dxDraggable.drop
 ---
 ---
+##### shortDescription
+<!-- Description goes here -->
+
 ##### param(e): Object
 <!-- Description goes here -->
 
@@ -33,9 +36,6 @@ EventForAction: dxDraggable.drop
 <!-- Description goes here -->
 
 ##### field(e.toComponent): dxSortable | dxDraggable
-<!-- Description goes here -->
-
-##### shortDescription
 <!-- Description goes here -->
 
 ---

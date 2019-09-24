@@ -4,10 +4,10 @@ type: String | function(data)
 default: undefined
 ---
 ---
-##### param(data): Object
+##### shortDescription
 <!-- Description goes here -->
 
-##### shortDescription
+##### param(data): Object
 <!-- Description goes here -->
 
 ---

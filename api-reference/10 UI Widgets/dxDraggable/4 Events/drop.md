@@ -3,6 +3,9 @@ id: dxDraggable.drop
 type: eventType
 ---
 ---
+##### shortDescription
+<!-- Description goes here -->
+
 ##### param(e): Object
 <!-- Description goes here -->
 
@@ -31,9 +34,6 @@ type: eventType
 <!-- Description goes here -->
 
 ##### field(e.toComponent): dxSortable | dxDraggable
-<!-- Description goes here -->
-
-##### shortDescription
 <!-- Description goes here -->
 
 ---
