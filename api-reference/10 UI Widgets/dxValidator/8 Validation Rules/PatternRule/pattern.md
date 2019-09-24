@@ -7,4 +7,10 @@ type: RegExp | String
 Specifies the regular expression that the validated value must match.
 
 ---
-[note]If your pattern is a string, escape the backslash to use such characters as "\s", "\S" and others.
+[note]
+
+If your pattern is a string, escape the backslash.  For example, the following pattern matches a character other than white space:
+    
+    pattern: '\\S'
+
+[/note]
