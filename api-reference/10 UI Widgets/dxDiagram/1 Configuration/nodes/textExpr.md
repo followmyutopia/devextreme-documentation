@@ -5,7 +5,7 @@ default: 'text'
 ---
 ---
 ##### shortDescription
-Specifies data field that provides a text for a node.
+Specifies the name of a data source field or an expression that provides node texts.
 
 ##### param(data): Object
 

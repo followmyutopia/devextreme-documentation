@@ -5,29 +5,10 @@ default: null
 ---
 ---
 ##### shortDescription
-An array of diagram nodes.
+Allows you to bind the collection of diagram nodes to a data source.
 
 ---
-Use the **nodes** option to populate an array of diagram nodes.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Diagram/NodesAndEdgesArrays/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Diagram/AdvancedDataBinding/jQuery/Light/"
 }
-
----
-#####jQuery
-
-    <!--JavaScript-->
-    $(function() {
-        $("#diagram").dxDiagram({
-            nodes: {
-                dataSource: orgItems
-            },
-            edges: {
-                dataSource: orgLinks
-            },
-            layout: "tree"
-        });
-    });
-    
----

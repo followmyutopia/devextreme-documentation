@@ -5,8 +5,7 @@ default: 'type'
 ---
 ---
 ##### shortDescription
-Specifies data field that provides a shape type for a node.
-
+Specifies the name of a data source field or an expression that provides the shape type for a node.
 ##### param(data): Object
 
 ---

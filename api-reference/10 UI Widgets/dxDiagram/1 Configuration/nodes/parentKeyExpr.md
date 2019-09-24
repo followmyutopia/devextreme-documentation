@@ -5,7 +5,7 @@ default: undefined
 ---
 ---
 ##### shortDescription
-Specifies data field that provides a parent node ID for a node.
+Specifies the name of a data source field or an expression that provides a parent node ID for a node.
 
 ##### param(data): Object
 

@@ -5,8 +5,7 @@ default: undefined
 ---
 ---
 ##### shortDescription
-Specifies the data field that contains nested items.
-
+Specifies the name of a data source field or an expression that provides a node's nested items.
 ##### param(data): Object
 
 ---
