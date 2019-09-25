@@ -75,6 +75,9 @@ The parameter contains the following fields:
 ##### field(options.proxyUrl): String
 The URL of a server-side proxy required for export in Safari on Mac OS. See [proxyUrl](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#proxyUrl) for details.
 
+##### field(options.svgToCanvas): function()
+<!-- Description goes here -->
+
 ##### field(options.width): Number
 The SVG block's width in pixels.
 This field is <font color="red">required</font>.

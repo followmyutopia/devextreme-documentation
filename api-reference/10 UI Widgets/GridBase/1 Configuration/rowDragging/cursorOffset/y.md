@@ -1,12 +1,11 @@
 ---
-id: dxDiagram.Options.gridSize.value
+id: GridBase.Options.rowDragging.cursorOffset.y
 type: Number
-default: undefined
+default: 0
 ---
 ---
 ##### shortDescription
 <!-- Description goes here -->
-Specifies the grid pitch.
 
 ---
 <!-- Description goes here -->

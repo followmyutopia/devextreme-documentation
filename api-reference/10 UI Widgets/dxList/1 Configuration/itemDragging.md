@@ -1,12 +1,10 @@
 ---
-id: dxDiagram.Options.gridSize.value
-type: Number
-default: undefined
+id: dxList.Options.itemDragging
+type: dxSortable_Options
 ---
 ---
 ##### shortDescription
 <!-- Description goes here -->
-Specifies the grid pitch.
 
 ---
 <!-- Description goes here -->

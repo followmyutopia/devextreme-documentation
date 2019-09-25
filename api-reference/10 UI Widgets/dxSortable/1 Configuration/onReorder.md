@@ -11,9 +11,6 @@ EventForAction: dxSortable.reorder
 ##### param(e): Object
 <!-- Description goes here -->
 
-##### field(e.cancel): Boolean
-<!-- Description goes here -->
-
 ##### field(e.component): {WidgetName}
 <!-- Description goes here -->
 
@@ -45,6 +42,9 @@ EventForAction: dxSortable.reorder
 <!-- Description goes here -->
 
 ##### field(e.toIndex): Number
+<!-- Description goes here -->
+
+##### field(e.cancel): Boolean
 <!-- Description goes here -->
 
 ---

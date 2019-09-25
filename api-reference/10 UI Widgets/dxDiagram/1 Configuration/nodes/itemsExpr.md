@@ -6,6 +6,7 @@ default: undefined
 ---
 ##### shortDescription
 Specifies the name of a data source field or an expression that provides a node's nested items.
+
 ##### param(data): Object
 
 ---

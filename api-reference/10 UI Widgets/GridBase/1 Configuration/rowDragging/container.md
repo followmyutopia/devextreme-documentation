@@ -1,6 +1,7 @@
 ---
-id: GridBaseRowDragging
-type: dxSortable_Options
+id: GridBase.Options.rowDragging.container
+type: String | Node | jQuery
+default: undefined
 ---
 ---
 ##### shortDescription

@@ -1,12 +1,11 @@
 ---
-id: dxDiagram.Options.gridSize.value
-type: Number
+id: GridBase.Options.rowDragging.group
+type: any
 default: undefined
 ---
 ---
 ##### shortDescription
 <!-- Description goes here -->
-Specifies the grid pitch.
 
 ---
 <!-- Description goes here -->

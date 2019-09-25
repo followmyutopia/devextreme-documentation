@@ -1,12 +1,11 @@
 ---
-id: dxDiagram.Options.gridSize.value
+id: GridBase.Options.rowDragging.scrollSensitivity
 type: Number
-default: undefined
+default: 60
 ---
 ---
 ##### shortDescription
 <!-- Description goes here -->
-Specifies the grid pitch.
 
 ---
 <!-- Description goes here -->

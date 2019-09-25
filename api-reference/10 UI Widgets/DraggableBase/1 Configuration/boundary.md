@@ -1,7 +1,7 @@
 ---
 id: DraggableBase.Options.boundary
 type: String | Node | jQuery
-default: window
+default: undefined
 ---
 ---
 ##### shortDescription

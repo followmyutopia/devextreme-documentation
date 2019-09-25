@@ -1,6 +1,6 @@
 ---
-id: dxSortable.add
-type: eventType
+id: GridBase.Options.rowDragging.onAdd
+type: function(e)
 ---
 ---
 ##### shortDescription
@@ -9,13 +9,7 @@ type: eventType
 ##### param(e): Object
 <!-- Description goes here -->
 
-##### field(e.component): {WidgetName}
-<!-- Description goes here -->
-
 ##### field(e.dropInsideItem): Boolean
-<!-- Description goes here -->
-
-##### field(e.element): dxElement
 <!-- Description goes here -->
 
 ##### field(e.event): event
@@ -33,16 +27,10 @@ type: eventType
 ##### field(e.itemElement): dxElement
 <!-- Description goes here -->
 
-##### field(e.model): Object
-<!-- Description goes here -->
-
 ##### field(e.toComponent): dxSortable | dxDraggable
 <!-- Description goes here -->
 
 ##### field(e.toIndex): Number
-<!-- Description goes here -->
-
-##### field(e.cancel): Boolean
 <!-- Description goes here -->
 
 ---

@@ -1,7 +1,7 @@
 ---
-id: GridBaseRowDragging.showDragIcons
+id: GridBase.Options.rowDragging.allowDropInsideItem
 type: Boolean
-default: true
+default: false
 ---
 ---
 ##### shortDescription

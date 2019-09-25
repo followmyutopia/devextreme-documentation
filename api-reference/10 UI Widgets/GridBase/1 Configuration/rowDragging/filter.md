@@ -1,7 +1,7 @@
 ---
-id: GridBaseRowDragging.enabled
-type: Boolean
-default: false
+id: GridBase.Options.rowDragging.filter
+type: String
+default: '> *'
 ---
 ---
 ##### shortDescription

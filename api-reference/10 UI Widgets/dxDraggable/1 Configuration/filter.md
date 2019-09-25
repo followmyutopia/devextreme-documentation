@@ -1,12 +1,12 @@
 ---
-id: dxDiagram.Options.gridSize.value
-type: Number
-default: undefined
+id: dxDraggable.Options.filter
+type: String
+default: ''
+hidden: 
 ---
 ---
 ##### shortDescription
 <!-- Description goes here -->
-Specifies the grid pitch.
 
 ---
 <!-- Description goes here -->

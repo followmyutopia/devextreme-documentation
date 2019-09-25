@@ -1,13 +1,10 @@
 ---
 id: GridBase.Options.rowDragging
-type: GridBaseRowDragging
+type: Object
 ---
 ---
 ##### shortDescription
 <!-- Description goes here -->
-
-##### inheritsType
-GridBaseRowDragging
 
 ---
 <!-- Description goes here -->

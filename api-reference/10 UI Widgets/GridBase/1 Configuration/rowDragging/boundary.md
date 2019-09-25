@@ -1,12 +1,11 @@
 ---
-id: dxDiagram.Options.gridSize.value
-type: Number
-default: undefined
+id: GridBase.Options.rowDragging.boundary
+type: String | Node | jQuery
+default: window
 ---
 ---
 ##### shortDescription
 <!-- Description goes here -->
-Specifies the grid pitch.
 
 ---
 <!-- Description goes here -->

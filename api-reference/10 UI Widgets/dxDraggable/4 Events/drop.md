@@ -1,15 +1,13 @@
 ---
 id: dxDraggable.drop
 type: eventType
+hidden: 
 ---
 ---
 ##### shortDescription
 <!-- Description goes here -->
 
 ##### param(e): Object
-<!-- Description goes here -->
-
-##### field(e.cancel): Boolean
 <!-- Description goes here -->
 
 ##### field(e.component): {WidgetName}
@@ -34,6 +32,9 @@ type: eventType
 <!-- Description goes here -->
 
 ##### field(e.toComponent): dxSortable | dxDraggable
+<!-- Description goes here -->
+
+##### field(e.cancel): Boolean
 <!-- Description goes here -->
 
 ---

@@ -9,9 +9,6 @@ type: eventType
 ##### param(e): Object
 <!-- Description goes here -->
 
-##### field(e.cancel): Boolean
-<!-- Description goes here -->
-
 ##### field(e.component): {WidgetName}
 <!-- Description goes here -->
 
@@ -43,6 +40,9 @@ type: eventType
 <!-- Description goes here -->
 
 ##### field(e.toIndex): Number
+<!-- Description goes here -->
+
+##### field(e.cancel): Boolean
 <!-- Description goes here -->
 
 ---

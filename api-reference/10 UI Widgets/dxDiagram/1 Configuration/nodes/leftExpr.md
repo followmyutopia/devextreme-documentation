@@ -6,6 +6,7 @@ default: undefined
 ---
 ##### shortDescription
 Specifies the name of a data source field or an expression that provides the x-coordinate of a node's left border.
+
 ##### param(data): Object
 
 ---
