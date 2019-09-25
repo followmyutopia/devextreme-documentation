@@ -8,7 +8,7 @@ inherits: Widget
 ##### shortDescription
 [tags] ctp
 
-The **Gantt** is a widget that displays the task flow and dependencies between tasks. 
+The **Gantt** is a widget that displays the task flow and dependencies between tasks.
 
 #include common-ctp-note with {
     component: "Gantt"
@@ -68,10 +68,7 @@ tasks: {
     "progress": 0
 }]
 },
-columns: [{
-    dataField: "title",
-    caption: "Subject"
-}],
+columns: ["title", "start", "end"],
 treeListWidth: 150
 
 ##### lib

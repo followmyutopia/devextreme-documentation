@@ -22,4 +22,4 @@ The model data. Available only if you use Knockout.
 The key of the row whose selection state changed.
 
 ---
-Main article: [onSelectionChanged](/Documentation/ApiReference/UI_Widgets/dxGantt/Configuration/onSelectionChanged)
+Main article: [onSelectionChanged](/Documentation/ApiReference/UI_Widgets/dxGantt/Configuration/#onSelectionChanged)
