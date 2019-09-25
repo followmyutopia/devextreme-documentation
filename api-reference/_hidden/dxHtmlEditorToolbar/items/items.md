@@ -1,10 +1,14 @@
 ---
-id: dxHtmlEditorToolbarItem
-inherits: dxToolbarItem
+id: dxHtmlEditorToolbar.items
+acceptValues: 'background' | 'bold' | 'color' | 'italic' | 'link' | 'image' | 'strike' | 'subscript' | 'superscript' | 'underline' | 'blockquote' | 'header' | 'increaseIndent' | 'decreaseIndent' | 'orderedList' | 'bulletList' | 'alignLeft' | 'alignCenter' | 'alignRight' | 'alignJustify' | 'codeBlock' | 'variable' | 'separator' | 'undo' | 'redo' | 'clear'
+type: Array<dxHtmlEditorToolbarItem, String>
 ---
 ---
 ##### shortDescription
 Configures toolbar items. These items allow users to format text and execute commands.
+
+##### inheritsType
+dxHtmlEditorToolbarItem
 
 ---
 The toolbar provides [predefined items](/Documentation/Guide/Widgets/HtmlEditor/Toolbar/Predefined_Items/) and supports custom items. To add a predefined item to the toolbar, include it in the **items** array:

@@ -1,6 +1,4 @@
 ---
-##### merge
-
 ##### shortDescription
 The name of the widget that should represent the toolbar item.
 

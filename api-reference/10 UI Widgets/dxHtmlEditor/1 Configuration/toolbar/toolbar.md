@@ -7,6 +7,9 @@ default: null
 ##### shortDescription
 Configures the widget's toolbar.
 
+##### inheritsType
+dxHtmlEditorToolbar
+
 ---
 ![DevExtreme HTML5 JavaScript HtmlEditor Toolbar](Content/images/doc/19_2/htmlEditor/visual_elements/toolbar.png)
 
