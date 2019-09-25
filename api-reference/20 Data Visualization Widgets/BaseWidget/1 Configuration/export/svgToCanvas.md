@@ -5,16 +5,15 @@ default: undefined
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+A function that renders SVG markup on the HTML canvas.
 
 ##### param(svg): SVGElement
-<!-- Description goes here -->
+An SVG element that will be parsed.
 
 ##### param(canvas): HTMLCanvasElement
-<!-- Description goes here -->
+A container where the content of the SVG Element is drawn.
 
 ##### return: Promise<void>
-<!-- Description goes here -->
+A Promise that is resolved after the HTML canvas content is rendered.
 
 ---
-<!-- Description goes here -->

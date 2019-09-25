@@ -1,0 +1,1 @@
+[note]To [export]({basewidgetpath}/Configuration/export/) custom SVG content rendered by this template, parse the content in the [svgToCanvas]({basewidgetpath}/Configuration/export/#svgToCanvas) function. Refer to the [Export Custom Markup](/Demos/WidgetsGallery/Demo/Charts/ExportCustomMarkup/jQuery/Light/) demo for an example.
