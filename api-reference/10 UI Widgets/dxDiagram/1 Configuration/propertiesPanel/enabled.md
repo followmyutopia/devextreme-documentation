@@ -6,6 +6,10 @@ default: true
 ---
 ##### shortDescription
 <!-- Description goes here -->
-
+Specifies whether the Properties panel is available.
 ---
-<!-- Description goes here -->
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Diagram/ReadOnly/jQuery/Light/"
+}
+
+When the **enabled** property is set to **false**, the Properties toolbar button is hidden.

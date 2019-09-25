@@ -5,5 +5,5 @@ type: String
 ---
 ---
 ##### shortDescription
-
+Specifies the diagram layout orientation.
 ---

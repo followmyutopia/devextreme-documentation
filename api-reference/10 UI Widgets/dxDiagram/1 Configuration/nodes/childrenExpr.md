@@ -5,10 +5,10 @@ default: 'children'
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies the name of a data source field or an expression that provides a container's nested items.
 
 ##### param(data): Object
 <!-- Description goes here -->
 
 ---
-<!-- Description goes here -->
+This option is in effect for nodes of the `"verticalContainer"` or `"horizontalContainer"` type.

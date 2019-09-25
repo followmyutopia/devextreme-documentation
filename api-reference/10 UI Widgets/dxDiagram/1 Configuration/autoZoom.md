@@ -5,6 +5,6 @@ type: String
 default: 'disabled'
 ---
 ---
-##### shortDescription
-
+##### shortDescription 
+Specifies whether the Diagram widget automatically zooms the work area.
 ---

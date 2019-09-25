@@ -5,7 +5,6 @@ default: undefined
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
-
+An array that specifies the grid size items in the _Grid Size_ combobox on _Properties_ panel.
 ---
 <!-- Description goes here -->
