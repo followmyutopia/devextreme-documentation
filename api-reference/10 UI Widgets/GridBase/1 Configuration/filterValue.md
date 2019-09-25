@@ -14,7 +14,7 @@ If [filterSyncEnabled]({basewidgetpath}/Configuration/#filterSyncEnabled) is **t
 The filter expression can contain the following operations: *"="*, *"<>"*, *"<"*, *">"*, *"<="*, *">="*, *"between"*, *"contains"*, *"notcontains"*, *"startswith"*, *"endswith"*, *"anyof"*, *"noneof"*, and the filter builder's [custom operations](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/customOperations/). Use *"anyof"* and *"noneof"* to select and clear the selection of items in the header filter's popup menu. In the following code, *"anyof"* is used to select items with IDs `500` and `700`:
 
 ---
-#####jQuery
+##### jQuery
 
     <!--JavaScript-->
     $(function() {
@@ -26,7 +26,7 @@ The filter expression can contain the following operations: *"="*, *"<>"*, *"<"*
         })
     });
 
-#####Angular
+##### Angular
 
     <!--HTML-->
     <dx-{widget-name} ...
@@ -51,17 +51,90 @@ The filter expression can contain the following operations: *"="*, *"<>"*, *"<"*
         // ...
     })
 
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-{widget-name} ...
+            :filter-sync-enabled="true"
+            :filter-value="filterValue"> 
+            <dx-header-filter :visible="true" />
+        </dx-{widget-name}>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import Dx{WidgetName}, {
+        DxHeaderFilter,
+        // ...
+    } from 'devextreme-vue/{widget-name}';
+
+    export default {
+        components: {
+            Dx{WidgetName},
+            DxHeaderFilter,
+            // ...
+        },
+        data() {
+            return {
+                filterValue: ['ID', 'anyof', [500, 700]]
+            }
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import {WidgetName}, {
+        HeaderFilter,
+        // ...
+    } from 'devextreme-react/{widget-name}';
+
+    const filterValue = ['ID', 'anyof', [500, 700]];
+
+    class App extends React.Component {
+        render() {
+            return (
+                <{WidgetName} ...
+                    filterSyncEnabled={true}
+                    defaultFilterValue={filterValue}>
+                    <HeaderFilter visible={true} />
+                </{WidgetName}>
+            );
+        }
+    }
+    export default App;
+
+##### ASP.NET MVC Controls
+
+    <!-- tab: Razor C# -->
+    @(Html.DevExtreme().DataGrid()
+        // ...
+        .FilterSyncEnabled(true)
+        .HeaderFilter(hf => hf.Visible(true))
+        .FilterValue("['ID', 'anyof', [500, 700]]")
+    )
+
 ---
 
 If a column's [groupInterval]({basewidgetpath}/Configuration/columns/headerFilter/#groupInterval) option is set, the *"anyof"* and *"noneof"* operations for this column accept the beginning of intervals instead of exact values:
 
 ---
-#####jQuery
+##### jQuery
 
     <!--JavaScript-->
     $(function() {
         $("#{widgetName}Container").dx{WidgetName}({
             // ...
+            headerFilter: { visible: true },
             filterValue: ["ID", "anyof", [500, 700]], // Filter intervals are 500-600 and 700-800
             columns: [{
                 dataField: "ID",
@@ -73,12 +146,15 @@ If a column's [groupInterval]({basewidgetpath}/Configuration/columns/headerFilte
         })
     });
 
-#####Angular
+##### Angular
 
     <!--HTML-->
     <dx-{widget-name} ...
         <!-- Filter intervals are 500-600 and 700-800 -->
-        [(filterValue)]="['ID', 'anyof', [500, 700]]"> 
+        [(filterValue)]="['ID', 'anyof', [500, 700]]">
+            <dxo-header-filter 
+                [visible]="true">
+            </dxo-header-filter>
             <dxi-column
                 dataField="ID"
                 dataType="number">
@@ -101,6 +177,100 @@ If a column's [groupInterval]({basewidgetpath}/Configuration/columns/headerFilte
         ],
         // ...
     })
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-{widget-name} ...
+            <!-- Filter intervals are 500-600 and 700-800 -->
+            :filter-value="filterValue">
+            <dx-header-filter :visible="true" />
+            <dx-column
+                data-field="ID"
+                data-type="number">
+                <dx-column-header-filter :group-interval="100" />
+            </dx-column>
+        </dx-{widget-name}>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import Dx{WidgetName}, {
+        DxColumn,
+        DxHeaderFilter,
+        DxColumnHeaderFilter,
+        // ...
+    } from 'devextreme-vue/{widget-name}';
+
+    export default {
+        components: {
+            Dx{WidgetName},
+            DxColumn,
+            DxHeaderFilter,
+            DxColumnHeaderFilter,
+            // ...
+        },
+        data() {
+            return {
+                filterValue: ['ID', 'anyof', [500, 700]]
+            }
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import {WidgetName}, {
+        Column,
+        HeaderFilter,
+        ColumnHeaderFilter,
+        // ...
+    } from 'devextreme-react/{widget-name}';
+
+    const filterValue = ['ID', 'anyof', [500, 700]];
+
+    class App extends React.Component {
+        render() {
+            return (
+                <{WidgetName} ...
+                    {/* Filter intervals are 500-600 and 700-800 */}
+                    defaultFilterValue={filterValue}>
+                    <HeaderFilter visible={true} />
+                    <Column
+                        dataField={'ID'}
+                        dataType={'number'}>
+                        <ColumnHeaderFilter groupInterval={100} />
+                    </Column>
+                </{WidgetName}>
+            );
+        }
+    }
+    export default App;
+
+##### ASP.NET MVC Controls
+
+    <!-- tab: Razor C# -->
+    @(Html.DevExtreme().DataGrid()
+        // ...
+        // Filter intervals are 500-600 and 700-800
+        .HeaderFilter(headerFilter => headerFilter.Visible(true))
+        .FilterValue("['ID', 'anyof', [500, 700]]")
+        .Columns(columns => {
+            columns.AddFor(m => m.ID)
+                .DataType(GridColumnDataType.Number)
+                .HeaderFilter(hf => hf.GroupInterval(100));
+            // ...
+        })
+    )
 
 ---
 
