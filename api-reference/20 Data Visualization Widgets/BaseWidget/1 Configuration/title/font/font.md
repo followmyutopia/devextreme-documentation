@@ -118,4 +118,14 @@ Specifies font options for the title.
     }
     export default App;
 
+##### ASP.NET MVC Controls
+
+    <!-- tab: Razor C# -->
+    @(Html.DevExtreme().{WidgetName}()
+        // ...
+        .Title(t => t
+            .Font(f => f.Color("black"))
+        )
+    )
+
 ---
