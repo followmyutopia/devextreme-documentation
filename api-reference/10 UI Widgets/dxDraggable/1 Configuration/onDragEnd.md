@@ -26,6 +26,9 @@ EventForAction: dxDraggable.dragEnd
 ##### field(e.fromComponent): dxSortable | dxDraggable
 <!-- Description goes here -->
 
+##### field(e.fromData): any
+<!-- Description goes here -->
+
 ##### field(e.itemData): any
 <!-- Description goes here -->
 
@@ -36,6 +39,9 @@ EventForAction: dxDraggable.dragEnd
 <!-- Description goes here -->
 
 ##### field(e.toComponent): dxSortable | dxDraggable
+<!-- Description goes here -->
+
+##### field(e.toData): any
 <!-- Description goes here -->
 
 ---

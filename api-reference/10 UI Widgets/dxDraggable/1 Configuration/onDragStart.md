@@ -23,6 +23,9 @@ EventForAction: dxDraggable.dragStart
 ##### field(e.event): event
 <!-- Description goes here -->
 
+##### field(e.fromData): any
+<!-- Description goes here -->
+
 ##### field(e.itemData): any
 <!-- Description goes here -->
 

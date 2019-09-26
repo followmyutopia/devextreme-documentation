@@ -1,13 +1,11 @@
 ---
-id: dxPolarChart.Options.valueAxis.minVisualRangeLength
-inherits: VizTimeInterval
+id: DraggableBase.Options.data
+type: any
 default: undefined
 ---
 ---
 ##### shortDescription
 <!-- Description goes here -->
-
-##### notUsedInTheme
 
 ---
 <!-- Description goes here -->

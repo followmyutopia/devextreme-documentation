@@ -12,9 +12,6 @@ type: eventType
 ##### field(e.component): {WidgetName}
 <!-- Description goes here -->
 
-##### field(e.dropInsideItem): Boolean
-<!-- Description goes here -->
-
 ##### field(e.element): dxElement
 <!-- Description goes here -->
 
@@ -22,6 +19,9 @@ type: eventType
 <!-- Description goes here -->
 
 ##### field(e.fromComponent): dxSortable | dxDraggable
+<!-- Description goes here -->
+
+##### field(e.fromData): any
 <!-- Description goes here -->
 
 ##### field(e.fromIndex): Number
@@ -39,7 +39,13 @@ type: eventType
 ##### field(e.toComponent): dxSortable | dxDraggable
 <!-- Description goes here -->
 
+##### field(e.toData): any
+<!-- Description goes here -->
+
 ##### field(e.toIndex): Number
+<!-- Description goes here -->
+
+##### field(e.dropInsideItem): Boolean
 <!-- Description goes here -->
 
 ##### field(e.cancel): Boolean

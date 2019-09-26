@@ -2,7 +2,7 @@
 id: GridBase.Options.rowDragging.dropFeedbackMode
 acceptValues: 'push' | 'indicate'
 type: String
-default: 'push'
+default: 'indicate'
 ---
 ---
 ##### shortDescription

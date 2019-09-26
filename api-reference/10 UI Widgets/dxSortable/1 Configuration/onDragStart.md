@@ -23,6 +23,9 @@ EventForAction: dxSortable.dragStart
 ##### field(e.event): event
 <!-- Description goes here -->
 
+##### field(e.fromData): any
+<!-- Description goes here -->
+
 ##### field(e.fromIndex): Number
 <!-- Description goes here -->
 

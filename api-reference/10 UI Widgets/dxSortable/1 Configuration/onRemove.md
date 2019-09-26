@@ -14,9 +14,6 @@ EventForAction: dxSortable.remove
 ##### field(e.component): {WidgetName}
 <!-- Description goes here -->
 
-##### field(e.dropInsideItem): Boolean
-<!-- Description goes here -->
-
 ##### field(e.element): dxElement
 <!-- Description goes here -->
 
@@ -24,6 +21,9 @@ EventForAction: dxSortable.remove
 <!-- Description goes here -->
 
 ##### field(e.fromComponent): dxSortable | dxDraggable
+<!-- Description goes here -->
+
+##### field(e.fromData): any
 <!-- Description goes here -->
 
 ##### field(e.fromIndex): Number
@@ -41,7 +41,13 @@ EventForAction: dxSortable.remove
 ##### field(e.toComponent): dxSortable | dxDraggable
 <!-- Description goes here -->
 
+##### field(e.toData): any
+<!-- Description goes here -->
+
 ##### field(e.toIndex): Number
+<!-- Description goes here -->
+
+##### field(e.dropInsideItem): Boolean
 <!-- Description goes here -->
 
 ##### field(e.cancel): Boolean

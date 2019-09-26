@@ -27,6 +27,9 @@ type: eventType
 ##### field(e.fromComponent): dxSortable | dxDraggable
 <!-- Description goes here -->
 
+##### field(e.fromData): any
+<!-- Description goes here -->
+
 ##### field(e.fromIndex): Number
 <!-- Description goes here -->
 
@@ -40,6 +43,9 @@ type: eventType
 <!-- Description goes here -->
 
 ##### field(e.toComponent): dxSortable | dxDraggable
+<!-- Description goes here -->
+
+##### field(e.toData): any
 <!-- Description goes here -->
 
 ##### field(e.toIndex): Number
