@@ -15,3 +15,7 @@ The diagram data in JSON format.
 The [export](/Documentation/ApiReference/UI_Widgets/dxDiagram/Methods/#export) method allows you to save information about a diagram's layout, appearance, and the diagram's shape positions. 
 
 Use the **import** method to load this data on demand.
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Diagram/Overview/jQuery/Light/"
+}

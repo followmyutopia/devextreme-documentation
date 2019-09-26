@@ -15,17 +15,3 @@ Lists toolbox groups.
 }
 
 Use the **groups** option to customize the toolbox's content. You can populate it with default or custom groups.
-
----
-##### jQuery
-
-    <!--JavaScript-->
-    $(function() {
-        $("#diagram").dxDiagram({
-            toolbox: {
-                groups: ["general", { category: "orgChart", title: "Organizational Chart", expanded: true }]
-            }
-        });
-    });
-
----
