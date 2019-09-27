@@ -40,7 +40,7 @@ This option accepts three types of values:
             parser: Function // a parsing function for string values
         }
 
- You can specify the Intl <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat#Parameters" target="_blank">NumberFormat</a>'s and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat#Parameters" target="_blank">DateTimeFormat</a>'s `options` parameter fields if you [use Devextreme-Intl](/Documentation/Guide/Common/Localization/#Localize_Dates_Numbers_and_Currencies/Using_Intl):    
+ You can specify the Intl <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat#Parameters" target="_blank">NumberFormat</a>'s and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat#Parameters" target="_blank">DateTimeFormat</a>'s `options` parameter fields:    
 
         format: { year: "2-digit", month: "narrow", day: "2-digit" }
         === or ===

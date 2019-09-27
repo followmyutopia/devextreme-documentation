@@ -1,109 +1,118 @@
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl" target="_blank">Intl</a> is the short name used to refer to a particular <a href="http://ecma-international.org/ecma-402/1.0/" target="_blank">ECMAScript Internationalization API</a> object. DevExtreme supports this API via the <a href="https://github.com/DevExpress/DevExtreme-Intl" target="_blank">DevExtreme-Intl</a> module. It is available on CDN and npm, or you can save the module (JavaScript file) on your local machine.
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl" target="_blank">Intl</a> is the short name used to refer to a particular <a href="http://ecma-international.org/ecma-402/1.0/" target="_blank">ECMAScript Internationalization API</a> object. DevExtreme supports this API out of the box. All you need to do is set the locale:
 
-* **CDN or local file**        
+---
+##### jQuery
 
-    Use the `<script>` tag as shown in the example below to include the DevExtreme-Intl module. German and Russian [dictionaries](/Documentation/Guide/Common/Localization/#Dictionaries) are included in this example. You can also add or replace dictionaries.
+    <!-- tab: index.js -->
+    DevExpress.localization.locale(navigator.language);
+    // ...
+    // DevExtreme widgets are configured here
+    // ...
 
-    ---
-    ##### CDN
+    <!-- tab: index.html -->
+    <head>
+        <!-- ... -->
+        <!-- DevExtreme library -->
+        <script src="https://cdn3.devexpress.com/jslib/minor_19_2/js/dx.all.js"></script>
+        <!-- Dictionary files for German and Russian languages -->
+        <script src="https://cdn3.devexpress.com/jslib/minor_19_2/js/localization/dx.messages.de.js"></script>
+        <script src="https://cdn3.devexpress.com/jslib/minor_19_2/js/localization/dx.messages.ru.js"></script>
+        <script src="index.js"></script>
+    </head>
 
-        <!--HTML-->
-        <head>
-            <!-- ... -->
-            <!-- DevExtreme library -->
-            <script src="https://cdn3.devexpress.com/jslib/minor_19_2/js/dx.all.js"></script>
-            <!-- DevExtreme-Intl module -->
-            <script src="https://unpkg.com/devextreme-intl@19.2/dist/devextreme-intl.min.js"></script>
-            <!-- Dictionary files for German and Russian languages -->
-            <script src="https://cdn3.devexpress.com/jslib/minor_19_2/js/localization/dx.messages.de.js"></script>
-            <script src="https://cdn3.devexpress.com/jslib/minor_19_2/js/localization/dx.messages.ru.js"></script>
-        </head>
-        <body>
-            <script>
-                DevExpress.localization.locale(navigator.language);
-                // ...
-                // DevExtreme widgets are configured here
-                // ...
-            </script>
-        </body>
+##### Angular
 
-    ---
+    <!-- tab: app.component.ts -->
+    import { Component } from '@angular/core';
+    // Dictionaries for German and Russian languages
+    import deMessages from "devextreme/localization/messages/de.json";
+    import ruMessages from "devextreme/localization/messages/ru.json";
 
-    #include common-demobutton with {
-        url: "/Demos/WidgetsGallery/Demo/Localization/UsingIntl/jQuery/Light/"
+    // In projects created with Angular CLI earlier than 6
+    // import deMessages from "devextreme/localization/messages/de.json!json";
+    // import ruMessages from "devextreme/localization/messages/ru.json!json";
+    
+    import { locale, loadMessages } from "devextreme/localization";
+
+    @Component({
+        selector: 'app-root',
+        templateUrl: './app.component.html',
+        styleUrls: ['./app.component.css']
+    })
+    export class AppComponent {
+        constructor() {
+            loadMessages(deMessages);
+            loadMessages(ruMessages);
+            locale(navigator.language);
+        }
     }
 
-* **npm**       
+##### Vue
 
-    Install the `devextreme-intl` package:
+    <!-- tab: App.vue -->
+    <template>
+        <!-- ... -->
+    </template>
 
-        npm install --save-dev devextreme-intl
+    <script>
+    // Dictionaries for German and Russian languages
+    import deMessages from "devextreme/localization/messages/de.json";
+    import ruMessages from "devextreme/localization/messages/ru.json";
+    
+    import { locale, loadMessages } from "devextreme/localization";
 
-    Then, include the `devextreme-intl` module using the `import` or `require` statement&mdash;the statement depends on the syntax for working with modules. The code below shows ECMAScript 6 and CommonJS syntaxes. These examples include German and Russian dictionaries.
-
-    ---
-    ##### npm: ECMAScript 6 syntax
-
-        <!--JavaScript-->
-        // ...
-        import "devextreme-intl";
-        // Dictionaries for German and Russian languages
-        import deMessages from "devextreme/localization/messages/de.json";
-        import ruMessages from "devextreme/localization/messages/ru.json";
-
-        // In projects created with Angular CLI earlier than 6
-        // import deMessages from "devextreme/localization/messages/de.json!json";
-        // import ruMessages from "devextreme/localization/messages/ru.json!json";
-        
-        import { locale, loadMessages } from "devextreme/localization";
-
-        // ===== Angular ======
-        export class AppComponent {
-            constructor() {
-                loadMessages(deMessages);
-                loadMessages(ruMessages);
-                locale(navigator.language);
-            }
+    export default {
+        created() {
+            loadMessages(deMessages);
+            loadMessages(ruMessages);
+            locale(navigator.language);
         }
-
-        // ===== Vue ======
-        export default {
-            created() {
-                loadMessages(deMessages);
-                loadMessages(ruMessages);
-                locale(navigator.language);
-            }
-        }
-
-        // ===== React ======
-        class App extends React.Component {
-            constructor(props) {
-                super(props);
-                loadMessages(deMessages);
-                loadMessages(ruMessages);
-                locale(navigator.language);
-            }
-        }
-
-    ##### npm: CommonJS syntax
-
-        <!--JavaScript-->
-        // ...
-        require("devextreme-intl");
-        // Dictionaries for German and Russian languages
-        const deMessages = require('devextreme/localization/messages/de.json');
-        const ruMessages = require('devextreme/localization/messages/ru.json');
-        const localization = require('devextreme/localization');
-
-        localization.loadMessages(deMessages);
-        localization.loadMessages(ruMessages);
-        localization.locale(navigator.language);
-        
-    ---
-
-    #include common-demobutton with {
-        url: "/Demos/WidgetsGallery/Demo/Localization/UsingIntl/Angular/Light/"
     }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    // Dictionaries for German and Russian languages
+    import deMessages from "devextreme/localization/messages/de.json";
+    import ruMessages from "devextreme/localization/messages/ru.json";
+    
+    import { locale, loadMessages } from "devextreme/localization";
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            loadMessages(deMessages);
+            loadMessages(ruMessages);
+            locale(navigator.language);
+        }
+
+        render() {
+            return (
+                {/* ... */}
+            );
+        }
+    }
+    export default App;
+
+##### CommonJS syntax
+
+    <!--JavaScript-->
+    // ...
+    // Dictionaries for German and Russian languages
+    const deMessages = require('devextreme/localization/messages/de.json');
+    const ruMessages = require('devextreme/localization/messages/ru.json');
+    const localization = require('devextreme/localization');
+
+    localization.loadMessages(deMessages);
+    localization.loadMessages(ruMessages);
+    localization.locale(navigator.language);
+
+---
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Localization/UsingIntl/jQuery/Light/"
+}
 
 Strings, numbers, dates, and currencies are now automatically localized and formatted according to the specified locale. You can also specify a currency other than USD globally (using the [defaultCurrency](/Documentation/ApiReference/Common/Object_Structures/globalConfig/#defaultCurrency) setting) or in format definitions:
 
@@ -133,8 +142,6 @@ Strings, numbers, dates, and currencies are now automatically localized and form
     <!-- tab: app.component.ts -->
     import { Component } from '@angular/core';
     import config from 'devextreme/core/config';
-    // ...
-    // import dictionaries and localization modules here
 
     @Component({
         selector: 'app-root',
@@ -197,8 +204,6 @@ Strings, numbers, dates, and currencies are now automatically localized and form
     <script>
     import 'devextreme/dist/css/dx.common.css';
     import 'devextreme/dist/css/dx.light.css';
-    // ...
-    // import dictionaries and localization modules here
 
     import config from 'devextreme/core/config';
 
@@ -231,8 +236,6 @@ Strings, numbers, dates, and currencies are now automatically localized and form
     import DataGrid, {
         Column, Format
     } from 'devextreme-react/data-grid';
-    // ...
-    // import dictionaries and localization modules here
 
     class App extends React.Component {
         constructor(props) {
@@ -259,6 +262,4 @@ Strings, numbers, dates, and currencies are now automatically localized and form
 
 ---
 
-You can use structures compatible with the Intl API for value formatting. See an example in the DevExtreme-Intl README's <a href="https://github.com/DevExpress/DevExtreme-Intl#api" target="_blank">API</a> section. The [Value Formatting](/Documentation/Guide/Common/Value_Formatting/) article provides information on the extended formatting functionality DevExtreme provides out of the box.
-
-You can use the <a href="https://github.com/DevExpress/devextreme-examples/tree/19_2/intl-angular" target="_blank">Intl-Angular</a> sample project as a starting point for creating new apps or as an example to copy code from when implementing specific functionality in your app.
+You can use structures compatible with the Intl API for value formatting. Refer to the [Intl Formats](/Documentation/Guide/Common/Value_Formatting/#Format_Widget_Values/Intl_Formats) section in the [Value Formatting](/Documentation/Guide/Common/Value_Formatting/) article for more information.

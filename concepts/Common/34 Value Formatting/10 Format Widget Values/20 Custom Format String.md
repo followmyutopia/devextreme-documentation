@@ -26,14 +26,14 @@ A custom format string specifies a format using Unicode Locale Data Markup Langu
       <td>.</td>
       <td>
             A decimal separator. </br>
-            Displayed according to the <a href="/Documentation/ApiReference/Common/Object_Structures/globalConfig/#decimalSeparator">decimalSeparator</a> or the set locale if you use Intl or Globalize.
+            Displayed according to the specified locale.
       </td>
     </tr>
     <tr>
       <td>,</td>
       <td>
             A group separator. </br>
-            Displayed according to the <a href="/Documentation/ApiReference/Common/Object_Structures/globalConfig/#thousandsSeparator">thousandsSeparator</a> or the set locale if you use Intl or Globalize.
+            Displayed according to the specified locale.
       </td>
     </tr>
     <tr>

@@ -2,4 +2,4 @@ DevExtreme provides an [API](/Documentation/ApiReference/Common/utils/localizati
 
 To localize a message, add it to a dictionary as shown in the [Add Strings to a Dictionary](/Documentation/Guide/Common/Localization/#Dictionaries/Add_Strings_to_a_Dictionary) article.
 
-To localize a custom date or number, apply a format to it as shown in the [Format Custom Values](/Documentation/Guide/Common/Value_Formatting/#Format_Custom_Values) article. You app should have [Intl](/Documentation/Guide/Common/Localization/#Localize_Dates_Numbers_and_Currencies/Using_Intl) or [Globalize](/Documentation/Guide/Common/Localization/#Localize_Dates_Numbers_and_Currencies/Using_Globalize) configured.
+To localize a custom date or number, apply a format to it as shown in the [Format Custom Values](/Documentation/Guide/Common/Value_Formatting/#Format_Custom_Values) article.
