@@ -76,7 +76,7 @@ The parameter contains the following fields:
 The URL of a server-side proxy required for export in Safari on Mac OS. See [proxyUrl](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#proxyUrl) for details.
 
 ##### field(options.svgToCanvas): function()
-<!-- Description goes here -->
+A function that renders SVG markup on the HTML canvas. Refer to the [svgToCanvas](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#svgToCanvas) decription for details.
 
 ##### field(options.width): Number
 The SVG block's width in pixels.
