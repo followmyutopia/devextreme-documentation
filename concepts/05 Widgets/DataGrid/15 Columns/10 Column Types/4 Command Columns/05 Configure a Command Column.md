@@ -36,6 +36,70 @@ The following example shows how to specify the adaptive column's [width](/Docume
         ],
         // ...
     })
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-data-grid ... >
+            <dx-column type="adaptive" :width="50" />
+        </dx-data-grid>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DxDataGrid, {
+        DxColumn
+    } from 'devextreme-vue/data-grid';
+
+    export default {
+        components: {
+            DxDataGrid,
+            DxColumn
+        },
+        data() {
+            return {
+                // ...
+            }
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DataGrid, {
+        Column
+    } from 'devextreme-react/data-grid';
+
+    class App extends React.Component {
+
+        render() {
+            return (
+                <DataGrid ... >
+                    <Column type="adaptive" width={50} />
+                </DataGrid>
+            );
+        }
+    }
+    export default App;
+
+##### ASP.NET MVC Controls
+
+    <!-- tab: Razor C# -->
+    @(Html.DevExtreme().DataGrid()
+        // ...
+        .Columns(cols => {
+            cols.Add().Type(GridCommandColumnType.Adaptive).Width(50);
+        })
+    )
     
 ---
 
@@ -90,5 +154,97 @@ If a command column should have custom content, specify the column's [cellTempla
         ],
         // ...
     })
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-data-grid ... >
+            <dx-column
+                type="selection"
+                cell-template="selectionCellTemplate"
+                header-cell-template="selectionHeaderCellTemplate"
+            />
+            <template #selectionCellTemplate="{ data }">
+                <!-- Declare custom cell content here -->
+            </template>
+            <template #selectionHeaderCellTemplate="{ data }">
+                <!-- Declare custom header content here -->
+            </template>
+        </dx-data-grid>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DxDataGrid, {
+        DxColumn
+    } from 'devextreme-vue/data-grid';
+
+    export default {
+        components: {
+            DxDataGrid,
+            DxColumn
+        },
+        data() {
+            return {
+                // ...
+            }
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DataGrid, {
+        Column
+    } from 'devextreme-react/data-grid';
+
+    const renderCell = (cellInfo) => {
+        {/* Declare custom cell content here */}
+    }
+
+    const renderHeaderCell = (headerInfo) => {
+        {/* Declare custom header content here */}
+    }
+
+    class App extends React.Component {
+        render() {
+            return (
+                <DataGrid ... >
+                    <Column
+                        type="selection"
+                        cellRender={renderCell}
+                        headerCellRender={renderHeaderCell}
+                    />
+                </DataGrid>
+            );
+        }
+    }
+    export default App;
+
+##### ASP.NET MVC Controls
+
+    <!-- tab: Razor C# -->
+    @(Html.DevExtreme().DataGrid()
+        // ...
+        .Columns(cols => {
+            cols.Add()
+                .Type(GridCommandColumnType.Selection)
+                .CellTemplate(@<text>
+                   @* Declare custom cell content here *@
+                </text>)
+                .HeaderCellTemplate(@<text>
+                    @* Declare custom header content here *@
+                </text>);
+        })
+    )
     
 ---

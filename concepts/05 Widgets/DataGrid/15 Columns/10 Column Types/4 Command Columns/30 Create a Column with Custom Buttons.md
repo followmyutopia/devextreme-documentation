@@ -47,5 +47,103 @@ The following code shows how to add a command column with custom [buttons](/Docu
         ],
         // ...
     })
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-data-grid ... >
+            <dx-column type="buttons">
+                <dx-button name="edit" />
+                <dx-button name="delete" />
+            </dx-column>
+            <dx-column data-field="firstName" />
+            <dx-column data-field="lastName" />
+            <dx-column type="buttons">
+                <dx-button ... />
+                <!-- Declare and configure custom buttons here -->
+            </dx-column>
+        </dx-data-grid>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DxDataGrid, {
+        DxColumn,
+        DxButton
+    } from 'devextreme-vue/data-grid';
+
+    export default {
+        components: {
+            DxDataGrid,
+            DxColumn,
+            DxButton
+        },
+        data() {
+            return {
+                // ...
+            }
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DataGrid, {
+        Column,
+        Button
+    } from 'devextreme-react/data-grid';
+
+    class App extends React.Component {
+        render() {
+            return (
+                <DataGrid ... >
+                    <Column type="buttons">
+                        <Button name="edit" />
+                        <Button name="delete" />
+                    </Column>
+                    <Column dataField="firstName" />
+                    <Column dataField="lastName" />
+                    <Column type="buttons">
+                        <Button ... />
+                        {/* Declare and configure custom buttons here */}
+                    </Column>
+                </DataGrid>
+            );
+        }
+    }
+    export default App;
+
+##### ASP.NET MVC Controls
+
+    <!-- tab: Razor C# -->
+    @(Html.DevExtreme().DataGrid()
+        // ...
+        .Columns(cols => {
+            cols.Add()
+                .Type(GridCommandColumnType.Buttons)
+                .Buttons(btns => {
+                    btns.Add().Name(GridColumnButtonName.Edit);
+                    btns.Add().Name(GridColumnButtonName.Delete);
+
+                });
+            cols.Add().DataField("firstName");
+            cols.Add().DataField("lastName");
+            cols.Add()
+                .Type(GridCommandColumnType.Buttons)
+                .Buttons(btns => {
+                    btns.Add() ...
+                    @* Declare and configure custom buttons here *@
+                });
+        })
+    )
     
 ---

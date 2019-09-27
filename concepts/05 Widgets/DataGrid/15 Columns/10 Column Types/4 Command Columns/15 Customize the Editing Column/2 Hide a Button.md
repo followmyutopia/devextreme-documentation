@@ -46,6 +46,96 @@ The **Edit** and **Delete** buttons can be hidden by omitting them when declarin
         ],
         // ...
     })
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-data-grid ... >
+            <dx-editing
+                :allow-updating="true"
+                :allow-deleting="true"
+            />
+            <dx-column type="buttons">
+                <dx-button name="edit" />
+            </dx-column>
+        </dx-data-grid>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DxDataGrid, {
+        DxEditing,
+        DxColumn,
+        DxButton
+    } from 'devextreme-vue/data-grid';
+
+    export default {
+        components: {
+            DxDataGrid,
+            DxEditing,
+            DxColumn,
+            DxButton
+        },
+        data() {
+            return {
+                // ...
+            }
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DataGrid, {
+        Editing,
+        Column,
+        Button
+    } from 'devextreme-react/data-grid';
+
+    class App extends React.Component {
+
+        render() {
+            return (
+                <DataGrid ... >
+                    <Editing
+                        allowUpdating={true}
+                        allowDeleting={true}
+                    />
+                    <Column type="buttons">
+                        <Button name="edit" />
+                    </Column>
+                </DataGrid>
+            );
+        }
+    }
+    export default App;
+
+##### ASP.NET MVC Controls
+
+    <!-- tab: Razor C# -->
+    @(Html.DevExtreme().DataGrid()
+        // ...
+        .Editing(ed => ed
+            .AllowUpdating(true)
+            .AllowDeleting(true)
+        )
+        .Columns(cols => {
+            cols.Add()
+                .Type(GridCommandColumnType.Buttons)
+                .Buttons(btns => {
+                    btns.Add().Name(GridColumnButtonName.Edit);
+                });
+        })
+    )
     
 ---
 
