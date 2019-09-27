@@ -19,6 +19,9 @@ default: undefined
 ##### field(info.weightOut): Number
 <!-- Description goes here -->
 
+##### param(element): dxElement
+<!-- Description goes here -->
+
 ##### return: String | Node | jQuery
 <!-- Description goes here -->
 

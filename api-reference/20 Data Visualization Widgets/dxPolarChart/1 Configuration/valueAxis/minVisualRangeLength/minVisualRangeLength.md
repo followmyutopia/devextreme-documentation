@@ -4,7 +4,7 @@ inherits: VizTimeInterval
 default: undefined
 ---
 ---
-##### shortDescription 
+##### shortDescription
 <!-- Description goes here -->
 
 ##### notUsedInTheme

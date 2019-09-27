@@ -21,10 +21,6 @@ Because the **Toast** is supposed to notify a user when something happens, it ca
       <td><a href="/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#closeOnSwipe">closeOnSwipe</a></td>
       <td>Hides the <b>Toast</b> when a user swipes it out of the screen.</td>
     </tr>
-    <tr>
-      <td><a href="/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#closeOnBackButton">closeOnBackButton</a></td>
-      <td>Hides the <b>Toast</b> when a user presses the <b>Back</b> button on the device.</td>
-    </tr>
     </tbody>
   </table>
 </div>
