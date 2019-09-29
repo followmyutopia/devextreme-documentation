@@ -48,9 +48,7 @@ Initialize the **Diagram** widget in a DOM element.
         $(function() {
             $("#diagram").dxDiagram();
         });
-
-    <!---->
-        
+  
         <!--HTML-->
         <div id="diagram"></div>
 
