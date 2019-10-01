@@ -1,9 +1,1 @@
-Exposes methods that specify a template engine.
-
-Exports:
-
-- *default* - The [setTemplateEngine(name)](/Documentation/ApiReference/Common/utils/ui/#setTemplateEnginename) and [setTemplateEngine(options)](/Documentation/ApiReference/Common/utils/ui/#setTemplateEngineoptions) methods
-
-        require("ui/set_template_engine");
-        // ===== or =====
-        import setTemplateEngine from "devextreme/ui/set_template_engine";
+This module is deprecated. Use the [core/set\_template\_engine](/Documentation/Guide/Common/Modularity/DevExtreme_Modules_Structure/#core/set_template_engine) module instead.

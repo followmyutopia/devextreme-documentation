@@ -83,7 +83,7 @@ Specifies the name of the template to use if the template is defined within a wi
 Specifies the page element containing the template. Useful for referring to external templates when [using a 3rd-party template engine](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines).
 
         <!--JavaScript-->
-        DevExpress.ui.setTemplateEngine("underscore");
+        DevExpress.setTemplateEngine("underscore");
 
         $(function() {
             $("#list").dxList({
