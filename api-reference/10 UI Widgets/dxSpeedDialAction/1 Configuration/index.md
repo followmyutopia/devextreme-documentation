@@ -1,7 +1,7 @@
 ---
-id: GridBase.Options.rowDragging.allowReordering
-type: Boolean
-default: false
+id: dxSpeedDialAction.Options.index
+type: Number
+default: 0
 ---
 ---
 ##### shortDescription
