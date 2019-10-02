@@ -16,63 +16,60 @@ The **Gantt** is a widget that displays the task flow and dependencies between t
 
 ##### widgettree
 tasks: {
- dataSource: 
-[{
-    "id": 1,
-    "parentId": 0,
-    "title": "Software Development",
-    "start": "2019-02-17T05:00:00.000Z",
-    "end": "2019-02-22T09:00:00.000Z",
-    "progress": 31
-}, {
-    "id": 2,
-    "parentId": 1,
-    "title": "Scope",
-    "start": "2019-02-17T05:00:00.000Z",
-    "end": "2019-02-22T09:00:00.000Z",
-    "progress": 60
-}, {
-    "id": 3,
-    "parentId": 2,
-    "title": "Determine project scope",
-    "start": "2019-02-17T05:00:00.000Z",
-    "end": "2019-02-17T09:00:00.000Z",
-    "progress": 100
-}, {
-    "id": 4,
-    "parentId": 2,
-    "title": "Secure project sponsorship",
-    "start": "2019-02-17T10:00:00.000Z",
-    "end": "2019-02-18T09:00:00.000Z",
-    "progress": 100
-}, {
-    "id": 5,
-    "parentId": 2,
-    "title": "Define preliminary resources",
-    "start": "2019-02-18T10:00:00.000Z",
-    "end": "2019-02-21T09:00:00.000Z",
-    "progress": 60
-}, {
-    "id": 6,
-    "parentId": 2,
-    "title": "Secure core resources",
-    "start": "2019-02-21T10:00:00.000Z",
-    "end": "2019-02-22T09:00:00.000Z",
-    "progress": 0
-}, {
-    "id": 7,
-    "parentId": 2,
-    "title": "Scope complete",
-    "start": "2019-02-22T09:00:00.000Z",
-    "end": "2019-02-22T09:00:00.000Z",
-    "progress": 0
-}]
+    dataSource: [{
+        "id": 1,
+        "title": "Market Analysis",
+        "start": "2019-01-05",
+        "end": "2019-01-13",
+        "progress": 100
+    }, {
+        "id": 2,
+        "title": "Feature Planning",
+        "start": "2019-01-13",
+        "end": "2019-02-02",
+        "progress": 100
+    }, {
+        "id": 3,
+        "title": "Implementation",
+        "start": "2019-02-02",
+        "end": "2019-03-21",
+        "progress": 35
+    }, {
+        "id": 4,
+        "title": "Demos",
+        "start": "2019-02-28",
+        "end": "2019-03-21",
+        "progress": 0
+    }, {
+        "id": 5,
+        "title": "Docs",
+        "start": "2019-02-28",
+        "end": "2019-03-21",
+        "progress": 0
+    }, {
+        "id": 6,
+        "title": "Testing",
+        "start": "2019-03-21",
+        "end": "2019-04-05",
+        "progress": 0
+    }, {
+        "id": 7,
+        "title": "Bug Fixing",
+        "start": "2019-03-21",
+        "end": "2019-04-15",
+        "progress": 0
+    }, {
+        "id": 8,
+        "title": "Feature Release",
+        "start": "2019-04-15",
+        "end": "2019-04-15"
+    }]
 },
-columns: ["title", "start", "end"],
-treeListWidth: 150
+columns: ["title"],
+taskListWidth: 140
 
 ##### lib
-dx.web.js, dx.viz-web.js, dx.all.js
+dx-gantt.js, dx.all.js
 
 ---
 #include common-demobutton with {
