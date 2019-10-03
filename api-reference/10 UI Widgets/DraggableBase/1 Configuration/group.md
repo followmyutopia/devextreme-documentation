@@ -1,6 +1,6 @@
 ---
 id: DraggableBase.Options.group
-type: any
+type: String
 default: undefined
 ---
 ---

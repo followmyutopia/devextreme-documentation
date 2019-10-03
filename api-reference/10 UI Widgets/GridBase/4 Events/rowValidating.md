@@ -36,6 +36,9 @@ The data of the validated row after changes.
 ##### field(e.oldData): Object
 The data of the validated row before changes.
 
+##### field(e.promise): Promise<void>
+<!-- Description goes here -->
+
 ---
 Main article: [onRowValidating]({basewidgetpath}/Configuration/#onRowValidating)
 

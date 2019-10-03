@@ -38,6 +38,9 @@ The data of the validated row after changes.
 ##### field(e.oldData): Object
 The data of the validated row before changes.
 
+##### field(e.promise): Promise<void>
+<!-- Description goes here -->
+
 ---
 Use this function to interfere before a message on the broken validation rules is displayed. For instance, you can perform additional checks in this function and change the validation result by changing the **isValid** field of the function parameter. Or, you can correct the error message using the **errorText** field of the same parameter.
 

@@ -1,6 +1,6 @@
 ---
 id: GridBase.Options.rowDragging.group
-type: any
+type: String
 default: undefined
 ---
 ---

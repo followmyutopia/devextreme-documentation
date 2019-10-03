@@ -23,6 +23,9 @@ The data of the inserted row; initially empty.
 ##### field(e.model): Object
 The model data. Available only if you use Knockout.
 
+##### field(e.promise): Promise<void>
+<!-- Description goes here -->
+
 ---
 Using this function, you can populate a newly added row with data by default. Add fields to the **data** object so that they correspond to fields of a [data source]({basewidgetpath}/Configuration/#dataSource) object. Note that the **data** object may omit some fields present in the data source object. Add only those fields that must initialize specific cells of a new row.
 
