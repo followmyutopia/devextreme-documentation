@@ -5,16 +5,15 @@ default: undefined
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies a custom template for an annotation's tooltip.
 
 ##### param(annotationItem): dxChartAnnotationConfig | any
-<!-- Description goes here -->
+The annotation's [configuration object](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/).
 
 ##### param(element): dxElement
-<!-- Description goes here -->
+#include common-ref-elementparam with { element: "tooltip" }
 
 ##### return: String | Node | jQuery
-<!-- Description goes here -->
+#include common-template-return-value
 
 ---
-<!-- Description goes here -->

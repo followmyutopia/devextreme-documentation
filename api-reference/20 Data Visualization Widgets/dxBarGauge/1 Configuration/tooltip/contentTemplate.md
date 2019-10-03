@@ -5,25 +5,24 @@ default: undefined
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies a custom template for a tooltip.
 
 ##### param(scaleValue): Object
-<!-- Description goes here -->
+Information on the bar value.
 
 ##### field(scaleValue.index): Number
-<!-- Description goes here -->
+The index of the bar being pressed or hovered over. 0 for the bar closest to the gauge's center, 1 for the bar over it, etc.
 
 ##### field(scaleValue.value): Number
-<!-- Description goes here -->
+The raw value.
 
 ##### field(scaleValue.valueText): String
-<!-- Description goes here -->
+The [formatted]({basewidgetpath}/Configuration/tooltip/#format) value converted to a string.
 
 ##### param(element): dxElement
-<!-- Description goes here -->
+#include common-ref-elementparam with { element: "tooltip" }
 
 ##### return: String | Node | jQuery
-<!-- Description goes here -->
+#include common-template-return-value
 
 ---
-<!-- Description goes here -->

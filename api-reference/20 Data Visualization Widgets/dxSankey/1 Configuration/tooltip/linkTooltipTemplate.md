@@ -5,25 +5,24 @@ default: undefined
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies a custom template for a [link](Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/link/)'s tooltip.
 
 ##### param(info): Object
-<!-- Description goes here -->
+Information about a sankey link being pressed or hovered over.
 
 ##### field(info.source): String
-<!-- Description goes here -->
+The [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/label/) of the link's source [node](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/node/).
 
 ##### field(info.target): String
-<!-- Description goes here -->
+The label of the link's target node.
 
 ##### field(info.weight): Number
-<!-- Description goes here -->
+The link's weight.
 
 ##### param(element): dxElement
-<!-- Description goes here -->
+#include common-ref-elementparam with { element: "tooltip" }
 
 ##### return: String | Node | jQuery
-<!-- Description goes here -->
+#include common-template-return-value
 
 ---
-<!-- Description goes here -->

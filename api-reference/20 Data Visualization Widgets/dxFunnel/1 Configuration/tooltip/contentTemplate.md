@@ -5,31 +5,30 @@ default: undefined
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies a custom template for a tooltip.
 
 ##### param(info): Object
-<!-- Description goes here -->
+Information on the funnel item being pressed or hovered over.
 
 ##### field(info.item): dxFunnelItem
-<!-- Description goes here -->
+The [Item](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/) object.
 
 ##### field(info.percent): Number
-<!-- Description goes here -->
+The item's percentage value.
 
 ##### field(info.percentText): String
-<!-- Description goes here -->
+The item's [formatted](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/label/#format) percentage value converted to a string.
 
 ##### field(info.value): Number
-<!-- Description goes here -->
+The raw item value.
 
 ##### field(info.valueText): String
-<!-- Description goes here -->
+The item's [formatted](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/label/#format) value converted to a string.
 
 ##### param(element): dxElement
-<!-- Description goes here -->
+#include common-ref-elementparam with { element: "tooltip" }
 
 ##### return: String | Node | jQuery
-<!-- Description goes here -->
+#include common-template-return-value
 
 ---
-<!-- Description goes here -->

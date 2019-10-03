@@ -5,16 +5,18 @@ default: undefined
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies a custom template for a tooltip.
 
 ##### param(pointInfo): Object
-<!-- Description goes here -->
+Information on the series point being pressed or hovered over.
 
 ##### param(element): dxElement
-<!-- Description goes here -->
+#include common-ref-elementparam with { element: "tooltip" }
 
 ##### return: String | Node | jQuery
-<!-- Description goes here -->
+#include common-template-return-value
 
 ---
-<!-- Description goes here -->
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/TooltipHTMLSupport/jQuery/Light/"
+}
