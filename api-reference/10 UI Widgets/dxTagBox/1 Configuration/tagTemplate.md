@@ -105,16 +105,20 @@ This template replaces the default tag template. If you need to recreate the def
 
     import TagBox from 'devextreme-react/tag-box';
 
+    const renderTag = (tagData) => {
+        return (
+            <div class="dx-tag-content">
+                TAG CONTENT
+                <div class="dx-tag-remove-button"></div>
+            </div>
+        );
+    }
+
     class App extends React.Component {
         render() {
             return (
                 <TagBox ...
-                    tagRender={(tagData) =>
-                        <div class="dx-tag-content">
-                            TAG CONTENT
-                            <div class="dx-tag-remove-button"></div>
-                        </div>
-                    }
+                    tagRender={renderTag}
                 />
             );
         }

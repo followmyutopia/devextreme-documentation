@@ -268,15 +268,19 @@ If you need to define the **Button** content completely, implement a template fo
     import React from 'react';
     import { Button } from 'devextreme-react/button';
 
+    const renderButton = (buttonData) => {
+        return (
+            <i style={{ color: 'green' }}>{buttonData.text}</i>
+        );
+    }
+
     class App extends React.PureComponent {
         render() {
             return (
                 <Button
                     text="Refresh"
                     onClick={this.foo}
-                    render={(buttonData) =>
-                        <i style={{ color: 'green' }}>{buttonData.text}</i>
-                    }
+                    render={renderButton}
                 />
             );
         }

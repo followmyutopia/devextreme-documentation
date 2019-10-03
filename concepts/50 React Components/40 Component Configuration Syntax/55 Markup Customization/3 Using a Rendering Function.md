@@ -4,19 +4,21 @@ In the following code, rendering functions are used to specify the [List](/Demos
     import List from 'devextreme-react/list';
     import Button from 'devextreme-react/button';
 
+    const renderListItem = (itemData) => {
+        return <p>{itemData.itemProperty}</p>;
+    }
+    const renderButton = (button) => {
+        return <div style={{ padding: 20 }}><p>{button.text}</p></div>;
+    }
     class App extends React.Component {
         render() {
             return (
                 <React.Fragment>
                     <List
-                        itemRender={(itemData) => 
-                            <p>{itemData.itemProperty}</p>
-                        }
+                        itemRender={renderListItem}
                     />
                     <Button
-                        render={(button) => 
-                            <div style={{ padding: 20 }}><p>{button.text}</p></div>
-                        }
+                        render={renderButton}
                     />
                 </React.Fragment>
             );

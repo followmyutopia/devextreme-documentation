@@ -104,13 +104,17 @@ A template name or container.
 
     import { ButtonGroup } from 'devextreme-react';
 
+    const renderButton = (data) => {
+        return (
+            {/* your markup goes here */}
+        );
+    }
+
     class App extends React.Component {
         render() {
             return (
                 <ButtonGroup ...
-                    buttonRender={(data) =>
-                        {/* your markup goes here */}
-                    }
+                    buttonRender={renderButton}
                 />
             );
         }

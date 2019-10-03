@@ -78,6 +78,12 @@ If you use jQuery alone, set the widget's **...Template** option to a function t
 
     import List from 'devextreme-react/list';
 
+    const renderListItem = (itemData, itemIndex) => {
+        return (
+            <span>{ itemIndex } - { itemData.name }</span>
+        );
+    }
+
     class App extends React.Component {
         constructor(props) {
             super(props);
@@ -90,9 +96,7 @@ If you use jQuery alone, set the widget's **...Template** option to a function t
             return (
                 <List
                     dataSource={this.listData}
-                    itemRender={(itemData, itemIndex) => {
-                        return <span>{ itemIndex } - { itemData.name }</span>;
-                    }}
+                    itemRender={renderListItem}
                 />
             );
         }
