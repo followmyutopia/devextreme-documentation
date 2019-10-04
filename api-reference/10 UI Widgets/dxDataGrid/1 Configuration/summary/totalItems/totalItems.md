@@ -68,7 +68,6 @@ By default, a summary item is placed in the column that provides data for it. If
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/DataGrid/GridSummaries/jQuery/Light/"
 }
-<a href="https://www.youtube.com/watch?v=Ru43cnfrqGM&index=40&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 
 #####See Also#####
 - [Total Summary](/Documentation/Guide/Widgets/DataGrid/Summaries/Total_Summary/)

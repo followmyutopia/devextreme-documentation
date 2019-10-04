@@ -3,7 +3,6 @@ The **TagBox** widget is an editor that allows an end user to select multiple it
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/editors-tag_box-overview"
 }
-<a href="https://www.youtube.com/watch?v=PEz46QIZhxQ&index=35&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 
 The following code adds the **TagBox** to your page. The simplest configuration of the widget requires only a [dataSource](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#dataSource) to be specified. In addition, you can specify the [placeholder](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#placeholder) to be displayed when the **TagBox** is empty.
 

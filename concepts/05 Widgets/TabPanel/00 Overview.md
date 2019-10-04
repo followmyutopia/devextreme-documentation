@@ -3,7 +3,6 @@ The **TabPanel** is a widget consisting of the [Tabs](/Documentation/Guide/Widge
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/navigation-tab_panel-overview"
 }
-<a href="https://www.youtube.com/watch?v=SyGIlFZY_S0&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z&index=38" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 
 The following code adds a simple **TabPanel** to your page.
 

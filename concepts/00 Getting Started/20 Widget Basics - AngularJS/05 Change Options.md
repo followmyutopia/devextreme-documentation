@@ -46,7 +46,6 @@ The code above forces the widget to use the <a href="https://docs.angularjs.org/
 
 [note]We strongly do _not_ recommend binding a widget to the [DevExtreme DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) using the **bindingOptions** object. The **DataSource** contains internal circular links that get updated during its lifetime. Tracking changes in them by means of the AngularJS Framework may lead to unexpected results. Instead of using the **bindingOptions** object, simply assign the scope property with the **DataSource** to the **dataSource** option of the widget. If you nevertheless decided to use the **bindingOptions** object, set its **deep** field to **false** explicitly.
 
-<a href="http://www.youtube.com/watch?v=iIZj6hOFg0o&index=42&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 
 #####See Also#####
 - **API Reference**.**WidgetName**.**Configuration**, for example, **API Reference**.[Chart](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart).[Configuration](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/)

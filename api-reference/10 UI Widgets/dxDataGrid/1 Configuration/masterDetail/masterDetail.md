@@ -14,7 +14,6 @@ To enable the master-detail interface, assign **true** to the **masterDetail**.[
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Data_Grid/MasterDetailView/jQuery/Light/"
 }
-<a href="http://www.youtube.com/watch?v=1cDIpV470u0&index=43&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 
 #####See Also#####
 - [Master-Detail Interface](/Documentation/Guide/Widgets/DataGrid/Master-Detail_Interface/)

@@ -13,7 +13,6 @@ You can also reference TypeScript definitions for Knockout or AngularJS.
 
 Along with TypeScript definitions, you need to reference the libraries themselves. See [Installation](/Documentation/Guide/Getting_Started/Installation/) for detailed information.
 
-<a href="http://www.youtube.com/watch?v=-k05YGTLp4I&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z&index=46" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 
 #####See Also#####
 - [Configure a Widget Using TypeScript](/Documentation/Guide/Getting_Started/TypeScript_Support/Configure_a_Widget)

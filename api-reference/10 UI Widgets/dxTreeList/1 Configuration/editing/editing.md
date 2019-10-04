@@ -11,7 +11,6 @@ The widget allows a user to edit data in several modes, which are detailed in th
 
 [note] Editing does not work with [hierarchical data sources](/Documentation/Guide/Widgets/TreeList/Data_Binding/Use_Hierarchical_Data/) out of the box, but you can use the code sample from <a href="https://www.devexpress.com/Support/Center/Question/Details/T725094/treelist-how-to-perform-crud-operations-on-a-hierarchical-data-source" target="_blank">this KB</a> to implement it.
 
-<a href="https://www.youtube.com/watch?v=vOp0FoYf__Q&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 
 #####See Also#####
 - [Editing](/Documentation/Guide/Widgets/TreeList/Editing/)

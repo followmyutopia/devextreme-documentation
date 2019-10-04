@@ -3,7 +3,6 @@ The **Calendar** is a widget that displays a calendar and allows an end user to 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/editors-calendar-overview"
 }
-<a href="https://www.youtube.com/watch?v=qB6_tMJfEjQ&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z&index=15" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 
 The following code adds a simple **Calendar** to your page.
 

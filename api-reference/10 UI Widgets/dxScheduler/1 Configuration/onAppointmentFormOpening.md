@@ -128,7 +128,6 @@ The following code shows how to use the **onAppointmentFormOpening** function to
     url: "/Demos/WidgetsGallery/Demo/Scheduler/CustomTemplates/jQuery/Light/"
 }
 
-<a href="https://www.youtube.com/watch?v=aWiCUyPKL_k&index=8&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">Watch Video</a>
 
 #####See Also#####
 - [Form - Change Options at Runtime](/Documentation/Guide/Widgets/Form/Change_Options_at_Runtime/Widget_Options/)

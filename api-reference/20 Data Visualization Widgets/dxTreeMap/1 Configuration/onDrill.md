@@ -31,4 +31,3 @@ Although not provided out-of-the-box, the drill down capability is easy to imple
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Charts/DrillDown/jQuery/Light/"
 }
-<a href="https://www.youtube.com/watch?v=pCfBYtOcXxw&index=6&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">Watch Video</a>

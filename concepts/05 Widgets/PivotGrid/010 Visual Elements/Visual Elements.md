@@ -29,5 +29,3 @@ Below is a pivot grid element map. It may be helpful as you begin learning the c
     <area shape="rect" alt="Total Column" title="Total Column" coords="587,68,727,476" href="/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Totals/Total_Rows_or_Columns" />
     <area shape="rect" alt="Grand Total Column" title="Grand Total Column" coords="730,68,869,476" href="/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Totals/Grand_Total_Row_and_Column" />
 </map>
-
-<a href="https://www.youtube.com/watch?v=a3B0XLSIEBM&index=49&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" target="_blank">Watch Video</a>

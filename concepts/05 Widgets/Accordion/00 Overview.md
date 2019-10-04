@@ -3,7 +3,6 @@ The **Accordion** widget contains several panels displayed one under another. Th
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/navigation-accordion-overview"
 }
-<a href="https://www.youtube.com/watch?v=Dd0Nb6AU4B8&index=41&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 
 The following code adds a simple **Accordion** to your page. Note that each data source object contains the **title** field, whose value goes to the title of the panel. 
 

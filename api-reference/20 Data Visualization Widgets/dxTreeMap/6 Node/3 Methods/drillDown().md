@@ -28,5 +28,3 @@ To implement drilling up, bind another widget to **TreeMap**, e.g., [Button](/Do
     };
     
 When the user drills up or down, the [drill](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Events/#drill) event fires. To handle it, implement the [onDrill](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#onDrill) event handler.
-
-<a href="https://www.youtube.com/watch?v=pCfBYtOcXxw&index=6&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">Watch Video</a>

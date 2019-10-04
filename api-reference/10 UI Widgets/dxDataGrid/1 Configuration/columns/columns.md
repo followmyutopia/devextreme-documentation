@@ -20,7 +20,6 @@ To get or set an option or several options for a column at runtime, use the [col
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/datagridgridcolumnscolumncustomization/"
 }
-<a href="https://www.youtube.com/watch?v=FAZJ4fHjfss&index=3&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 
 #####See Also#####
 - [Column Types](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/)

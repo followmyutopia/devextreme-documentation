@@ -105,4 +105,3 @@ The following code shows how you can customize the toolbar using this function.
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Data_Grid/ToolbarCustomization/jQuery/Light/"
 } 
-<a href="https://www.youtube.com/watch?v=oWWL6iILMPM&index=1&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z&t=3s" class="button orange small fix-width-155" target="_blank">Watch Video</a>
