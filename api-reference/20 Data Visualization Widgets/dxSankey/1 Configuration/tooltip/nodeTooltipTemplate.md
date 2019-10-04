@@ -22,9 +22,6 @@ The total weight of the node's outgoing links.
 ##### param(element): dxElement
 #include common-ref-elementparam with { element: "tooltip" }
 
-##### param(element): dxElement
-<!-- Description goes here -->
-
 ##### return: String | Node | jQuery
 #include common-template-return-value
 
