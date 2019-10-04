@@ -5,10 +5,10 @@ default: null
 ---
 ---
 ##### shortDescription
-Binds the widget to the data source which contains resources.
+Binds the widget to the data source, which contains resources.
 
 ---
-
+---
 
 ##### jQuery
 
