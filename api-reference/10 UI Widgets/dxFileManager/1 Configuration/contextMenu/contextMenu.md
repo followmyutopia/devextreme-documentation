@@ -4,7 +4,12 @@ type: Object
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Configures the context menu settings.
 
 ---
-<!-- Description goes here -->
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/FileManager/UICustomization/jQuery/Light/"
+}
+
+![DevExtreme File Manager - Context Menu](/Content/images/doc/19_2/FileManager/context-menu.png)

@@ -5,7 +5,7 @@ default: {}
 ---
 ---
 ##### shortDescription
-Provides access to context menu settings.
+Configures the context menu's settings.
 
 ---
 

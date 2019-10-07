@@ -4,7 +4,23 @@ type: function()
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+A function that get items content.
 
 ---
-<!-- Description goes here -->
+
+---
+
+##### jQuery
+
+    <!--JavaScript-->
+	$(function () {
+        $("#file-manager").dxFileManager({ 
+            fileProvider: new DevExpress.fileProviders.Custom({ 
+                getItemsContent: function(pathInfo) { 
+                    // Your code goes here
+                }
+                //...
+            }) 
+        });     
+    });
+---

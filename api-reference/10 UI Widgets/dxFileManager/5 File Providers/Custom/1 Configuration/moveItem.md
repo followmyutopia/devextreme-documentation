@@ -4,7 +4,23 @@ type: function()
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+A function that moves files and folders.
 
 ---
-<!-- Description goes here -->
+
+---
+
+##### jQuery
+
+    <!--JavaScript-->
+	$(function () {
+        $("#file-manager").dxFileManager({ 
+            fileProvider: new DevExpress.fileProviders.Custom({ 
+                moveItem: function(item, destinationDir) { 
+                    // Your code goes here
+                }
+                //...
+            }) 
+        });     
+    });
+---

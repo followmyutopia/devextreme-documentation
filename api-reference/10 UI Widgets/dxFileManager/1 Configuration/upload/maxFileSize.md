@@ -5,7 +5,22 @@ default: 0
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+
+Specifies the maximum upload file size.
 
 ---
-<!-- Description goes here -->
+
+---
+
+##### jQuery
+
+    $(function () {
+        $("#file-manager").dxFileManager({
+            upload: {
+                maxFileSize: 1000000
+            },
+            // ...
+        });
+    });
+
+---

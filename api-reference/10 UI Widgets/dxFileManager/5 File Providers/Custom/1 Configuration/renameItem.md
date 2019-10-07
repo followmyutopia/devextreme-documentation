@@ -4,7 +4,23 @@ type: function()
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+A function that renames files and folders.
 
 ---
-<!-- Description goes here -->
+
+---
+
+##### jQuery
+
+    <!--JavaScript-->
+	$(function () {
+        $("#file-manager").dxFileManager({ 
+            fileProvider: new DevExpress.fileProviders.Custom({ 
+                renameItem: function(item, name) { 
+                    // Your code goes here
+                }
+                //...
+            }) 
+        });
+    });
+---

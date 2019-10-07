@@ -6,10 +6,49 @@ default: [ 'showNavPane', 'create', 'upload', 'refresh', { name: 'separator', lo
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Configures toolbar items' settings.
 
 ##### inheritsType
 dxFileManagerToolbarItem
 
 ---
-<!-- Description goes here -->
+
+The **FileManager** widget allows you to add default and create custom toolbar items.
+
+
+---
+
+##### jQuery
+
+    <!--JavaScript-->
+    $(function () {
+        $("#file-manager").dxFileManager({
+            toolbar: {
+                items: [
+                    {
+                        name: "showNavPane",
+                        visible: true
+                    },
+                    "separator", "create",
+                    {
+                        widget: "dxMenu",
+                        location: "before",
+                        options: {
+                            items: [
+                                {
+                                    text: "Create new file",
+                                    items: [
+                                        {
+                                            text: "Plain text document",
+                                            extension: ".txt",
+                                            onClick: onItemClick
+                                        },]
+                                }
+                            ]
+                        }
+                    }]
+            }
+        });
+    });
+
+---

@@ -6,10 +6,43 @@ default: [ 'create', 'upload', 'rename', 'move', 'copy', 'delete', 'refresh', 'd
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Configures context menu items' settings.
 
 ##### inheritsType
 dxFileManagerContextMenuItem
 
 ---
-<!-- Description goes here -->
+
+The **FileManager** widget allows you to add default and create custom context menu items.
+
+
+---
+
+##### jQuery
+
+    <!--JavaScript-->
+    $(function () {
+        $("#file-manager").dxFileManager({
+            contextMenu: {
+                items: [
+                    "create", // default item
+                    {
+                        text: "Create new file", // custom item with sub items
+                        items: [
+                            {
+                                text: "Plain text document",
+                                extension: ".txt",
+                                onClick: onItemClick
+                            },
+                            // ...
+                        ]
+                    },
+                    // ...
+                    "move", "copy", "delete", "refresh" // default items
+                ]
+            }
+            // ...
+        });
+    });
+
+---

@@ -4,7 +4,12 @@ type: Object
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Configures toolbar settings.
 
 ---
-<!-- Description goes here -->
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/FileManager/UICustomization/jQuery/Light/"
+}
+
+![DevExtreme File Manager - Toolbar](/Content/images/doc/19_2/FileManager/toolbar.png)

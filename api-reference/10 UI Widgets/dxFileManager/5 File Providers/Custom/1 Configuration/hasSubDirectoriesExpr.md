@@ -4,7 +4,21 @@ type: String | function()
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+A function or the name of a data source field that provides information on whether a file or folder contains sub directories.
 
 ---
-<!-- Description goes here -->
+
+---
+
+##### jQuery
+
+    <!--JavaScript-->
+	$(function () {
+        $("#file-manager").dxFileManager({ 
+            fileProvider: new DevExpress.fileProviders.Custom({ 
+                hasSubDirectoriesExpr: "hasDirectories"
+                //...
+            }) 
+        });     
+    });
+---

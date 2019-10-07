@@ -5,7 +5,28 @@ default: ['.txt', '.rtf', '.doc', '.docx', '.odt', '.xls', '.xlsx', '.ods', '.pp
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies the allowed upload file extensions.
 
 ---
-<!-- Description goes here -->
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/FileManager/BindingToFileSystem/jQuery/Light/"
+}
+
+The **FileManager** widget cannot upload a file and displays an error message when the file's extension is not allowed.
+
+![DevExtreme File Manager - Allowed File Extension](/Content/images/doc/19_2/FileManager/allowed-file-extension-error-message.png)
+
+---
+
+##### jQuery
+
+    <!--JavaScript-->
+    $(function () {
+        $("#file-manager").dxFileManager({
+            allowedFileExtensions: [".js", ".json", ".css"]
+            // ...
+        });
+    });
+
+---

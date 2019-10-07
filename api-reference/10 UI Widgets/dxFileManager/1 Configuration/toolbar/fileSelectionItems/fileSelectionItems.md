@@ -6,10 +6,39 @@ default: [ 'download', 'separator', 'move', 'copy', 'rename', 'separator', 'dele
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Configures settings of the toolbar items that are visible when users select files.
 
 ##### inheritsType
 dxFileManagerToolbarItem
 
 ---
-<!-- Description goes here -->
+
+![DevExtreme File Manager - Toolbar - File Selection Items](/Content/images/doc/19_2/FileManager/file-selection-items.png)
+
+---
+
+##### jQuery
+
+    <!--JavaScript-->
+    $(function () {
+        $("#file-manager").dxFileManager({
+            toolbar: {
+                fileSelectionItems: [
+                    "move", "copy", "rename",
+                    {
+                        widget: "dxButton",
+                        options: {
+                            text: "Share",
+                            icon: "arrowright"
+                        },
+                        location: "before",
+                        onClick: shareItem
+                    },
+                    // ...
+                    "separator", "delete", "refresh", "clear"
+                ]                
+            }
+        });
+    });
+
+---

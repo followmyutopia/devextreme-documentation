@@ -4,7 +4,24 @@ type: function()
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+A function that deletes a file or folder.
 
 ---
-<!-- Description goes here -->
+
+---
+
+##### jQuery
+
+    <!--JavaScript-->
+	$(function () {
+        $("#file-manager").dxFileManager({ 
+            fileProvider: new DevExpress.fileProviders.Custom({ 
+                deleteItem: function(item) { 
+                    // Your code goes here
+                }
+                //...
+            }) 
+        });     
+    });
+
+---

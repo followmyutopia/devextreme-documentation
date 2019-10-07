@@ -5,7 +5,6 @@ default: false
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies whether a user is allowed to download files and folders.
 
 ---
-<!-- Description goes here -->

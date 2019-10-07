@@ -4,7 +4,24 @@ type: function()
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+A function that gets file system items.
 
 ---
-<!-- Description goes here -->
+
+---
+
+##### jQuery
+
+    <!--JavaScript-->
+	$(function () {
+        $("#file-manager").dxFileManager({ 
+            fileProvider: new DevExpress.fileProviders.Custom({ 
+                getItems: function(pathInfo) { 
+                    // Your code goes here
+                }
+                //...
+            }) 
+        });     
+    });
+
+---

@@ -7,5 +7,5 @@ hidden:
 ---
 ---
 ##### shortDescription
-
+Contains base provider settings.
 ---

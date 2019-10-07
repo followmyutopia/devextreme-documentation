@@ -4,7 +4,24 @@ type: function()
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+A function that creates a folder. 
 
 ---
-<!-- Description goes here -->
+
+---
+
+##### jQuery
+
+    <!--JavaScript-->
+	$(function () {
+        $("#file-manager").dxFileManager({ 
+            fileProvider: new DevExpress.fileProviders.Custom({ 
+                createDirectory: function(parentDir, name) { 
+                    // Your code goes here
+                }
+                //...
+            }) 
+        });     
+    });
+
+---

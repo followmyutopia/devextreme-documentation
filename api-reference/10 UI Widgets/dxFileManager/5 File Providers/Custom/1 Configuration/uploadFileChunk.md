@@ -4,7 +4,24 @@ type: function()
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+A function that uploads a file in chunks.
 
 ---
-<!-- Description goes here -->
+
+---
+
+##### jQuery
+
+    <!--JavaScript-->
+	$(function () {
+        $("#file-manager").dxFileManager({ 
+            fileProvider: new DevExpress.fileProviders.Custom({ 
+                uploadFileChunk: function(fileData, chunksInfo, destinationDir) { 
+                    // Your code goes here
+                }
+                //...
+            }) 
+        });
+    });
+
+---

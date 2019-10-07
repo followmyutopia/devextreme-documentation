@@ -9,10 +9,5 @@ default: 'details'
 Specifies the file system representation mode.
 
 ---
-A user can use the view switcher on the toolbar to switch between the modes.
 
-<!-- IMAGE -->
-
-#include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FileManager/BindingToHierarchicalStructure/jQuery/Light/"
-}
+A user can use the view switcher on the toolbar to change the mode.

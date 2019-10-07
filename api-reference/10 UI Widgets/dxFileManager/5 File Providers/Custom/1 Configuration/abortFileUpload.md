@@ -4,7 +4,24 @@ type: function()
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+A function that cancels the file upload.
+---
+
 
 ---
-<!-- Description goes here -->
+
+##### jQuery
+
+    <!--JavaScript-->
+    $(function () {
+        $("#file-manager").dxFileManager({ 
+            fileProvider: new DevExpress.fileProviders.Custom({             
+                abortFileUpload: function(fileData, chunksInfo, destinationDir) { 
+                    // Your code goes here
+                },
+                //...
+            }) 
+        });     
+    });
+
+---

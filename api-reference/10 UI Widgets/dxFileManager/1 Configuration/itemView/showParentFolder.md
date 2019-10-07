@@ -8,4 +8,3 @@ default: true
 Specifies whether to display the parent folder in the view.
 
 ---
-<!-- IMAGE -->
