@@ -52,7 +52,7 @@ Opacity is specified the same way as in the **fade** animation type. The widget'
         .fade-out-active-visibility { opacity: 1; }
         .fade-out-active-text { font-size: 15pt; }
 
-When using [ASP.NET MVC Controls](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), you can specify this option with an object instead of the usual lambda expression.
+When using <a href="https://docs.devexpress.com/DevExtremeAspNetMvc/400943/devextreme-aspnet-mvc-controls" target="_blank">ASP.NET MVC 5 Controls</a> or <a href="https://docs.devexpress.com/AspNetCore/400263/aspnet-core-controls#devextreme-based-aspnet-core-controls" target="_blank">DevExtreme-Based ASP.NET Core Controls</a>, you can specify this option with an object instead of the usual lambda expression.
 
     <!--Razor C#-->
     @(Html.DevExtreme().WidgetName()

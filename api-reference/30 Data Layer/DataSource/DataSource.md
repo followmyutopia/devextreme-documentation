@@ -104,7 +104,7 @@ dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
 
 Refer to the [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/) and [DataSource Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples/) articles for more information on working with data in DevExtreme.
 
-When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), declare the **DataSource** options in the `DataSourceOptions()` method.
+When using a widget as an <a href="https://docs.devexpress.com/DevExtremeAspNetMvc/400943/devextreme-aspnet-mvc-controls" target="_blank">ASP.NET MVC 5 Control</a> or a <a href="https://docs.devexpress.com/AspNetCore/400263/aspnet-core-controls#devextreme-based-aspnet-core-controls" target="_blank">DevExtreme-Based ASP.NET Core Control</a>, declare the **DataSource** options in the `DataSourceOptions()` method.
 
     <!--Razor C#-->@(Html.DevExtreme().DataGrid()
         .ID("dataGrid")
@@ -133,4 +133,4 @@ When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC
 #include datalayer-store-note-immutable with { name: "DataSource" }
 
 #####See Also#####
-- [ASP.NET MVC Controls - Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/)
+- <a href="https://docs.devexpress.com/AspNetCore/400575/devextreme-based-controls/concepts/bind-controls-to-data" target="_blank">ASP.NET MVC Controls - Bind Controls to Data</a>

@@ -20,6 +20,6 @@ dx.web.js, dx.viz-web.js, dx.all.js
 }
 
 #####See Also#####
-- [ASP.NET MVC Controls - Client-Side Data Validation](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Overview/)
+- <a href="https://docs.devexpress.com/AspNetCore/400576/devextreme-based-controls/concepts/data-validation" target="_blank">ASP.NET MVC Controls - Data Validation</a>
 #include common-link-setupdevextreme
 #include common-link-configurewidget

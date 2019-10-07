@@ -13,7 +13,7 @@ The **at** option can take on an object containing the **x** and **y** fields, w
     <!--JavaScript-->
     position: { at: 'left bottom' };
 
-When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `HorizontalAlignment` and `VerticalAlignment` enums in the following manner.
+When using a widget as an <a href="https://docs.devexpress.com/DevExtremeAspNetMvc/400943/devextreme-aspnet-mvc-controls" target="_blank">ASP.NET MVC 5 Control</a> or a <a href="https://docs.devexpress.com/AspNetCore/400263/aspnet-core-controls#devextreme-based-aspnet-core-controls" target="_blank">DevExtreme-Based ASP.NET Core Control</a>, specify this option using the `HorizontalAlignment` and `VerticalAlignment` enums in the following manner.
 
     <!--Razor C#-->
     @(Html.DevExtreme().WidgetName()

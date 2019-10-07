@@ -1,1 +1,1 @@
-Follow the instructions from the [Add or Upgrade the Resources in an Existing Project](/Documentation/Guide/ASP.NET_MVC_Controls/Prerequisites_and_Installation/#Add_or_Upgrade_the_Resources_in_an_Existing_Project) article.
+Follow the instructions from the <a href="https://docs.devexpress.com/AspNetCore/401036/devextreme-based-controls/upgrade-to-a-new-version" target="_blank">Upgrade to a New Version</a> article.

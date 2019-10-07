@@ -106,7 +106,7 @@ If you need to render different templates depending on a specific condition, def
 ---
 
 #####See Also#####
-- [ASP.NET MVC Controls - Implementing Templates](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Implementing_Templates)
+- <a href="https://docs.devexpress.com/AspNetCore/401029/devextreme-based-controls/concepts/templates" target="_blank">ASP.NET MVC Controls - Templates</a>
 - [Popup - Customize the Title](/Documentation/Guide/Widgets/Popup/Customize_the_Appearance/Customize_the_Title/)
 - [Popup - Specify Toolbar Items](/Documentation/Guide/Widgets/Popup/Customize_the_Appearance/Specify_Toolbar_Items/)
 - [Popup Demos](/Demos/WidgetsGallery/Demo/Popup/Overview/jQuery/Light/)

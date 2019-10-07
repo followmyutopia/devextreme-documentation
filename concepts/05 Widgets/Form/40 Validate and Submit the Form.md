@@ -199,7 +199,7 @@ Usually, **Form** editors should be submitted to the server after being successf
 
 #####See Also#####
 - [Data Validation](/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/)
-- [ASP.NET MVC Controls - Validate and Submit the Form Control](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Validate_and_Submit_the_Form_Control/)
+- <a href="https://docs.devexpress.com/AspNetCore/400576/devextreme-based-controls/concepts/data-validation#validate-and-submit-the-form-control" target="_blank">ASP.NET MVC Controls - Validate and Submit the Form Control</a>
 - [Button - Validate and Submit an HTML Form](/Documentation/Guide/Widgets/Button/Validate_and_Submit_an_HTML_Form/)
 
 [tags]form, validation, validation rules, validate, validation summary, validation group, validationGroup, submit form, submit behavior

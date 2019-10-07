@@ -8,7 +8,8 @@ DevExtreme supports integration with client-side technologies and server-side fr
 - React
     - [DevExtreme React Components](/Documentation/Guide/React_Components/DevExtreme_React_Components/) - versions 16.2 and later
     - <a href="https://devexpress.github.io/devextreme-reactive/react" target="_blank">DevExtreme Reactive Components for React</a> - versions 16.8 and later
-- [ASP.NET](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/): ASP.NET MVC 5 / .NET Core 2.0 and later
+- <a href="https://docs.devexpress.com/DevExtremeAspNetMvc/400943/devextreme-aspnet-mvc-controls" target="_blank">ASP.NET MVC 5</a>
+- <a href="https://docs.devexpress.com/AspNetCore/400263/aspnet-core-controls#devextreme-based-aspnet-core-controls" target="_blank">ASP.NET Core</a> - .NET Core 2.0 and later
 
 You can integrate DevExtreme with other frameworks or use DevExtreme widgets without jQuery and frameworks:
 

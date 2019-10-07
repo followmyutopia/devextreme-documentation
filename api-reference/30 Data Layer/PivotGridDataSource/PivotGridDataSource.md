@@ -232,7 +232,7 @@ dx.web.js, dx.viz-web.js, dx.all.js
 
 [note] If you create a **PivotGridDataSource** instance outside the widget (as shown above), make sure to [dispose](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#dispose) of it when it is no longer used. If the instance is created inside the widget, it will be disposed of automatically.
 
-When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), configure the **PivotGridDataSource** using the syntax shown in the following example. This example configures the [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) widget.
+When using a widget as an <a href="https://docs.devexpress.com/DevExtremeAspNetMvc/400943/devextreme-aspnet-mvc-controls" target="_blank">ASP.NET MVC 5 Control</a> or a <a href="https://docs.devexpress.com/AspNetCore/400263/aspnet-core-controls#devextreme-based-aspnet-core-controls" target="_blank">DevExtreme-Based ASP.NET Core Control</a>, configure the **PivotGridDataSource** using the syntax shown in the following example. This example configures the [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) widget.
 
     <!--Razor C#-->@(Html.DevExtreme().PivotGrid()
         .ID("pivotGrid")
@@ -271,4 +271,4 @@ When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC
 #include datalayer-store-note-immutable with { name: "PivotGridDataSource" }
 
 #####See Also#####
-- [ASP.NET MVC Controls - Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/)
+- <a href="https://docs.devexpress.com/AspNetCore/400575/devextreme-based-controls/concepts/bind-controls-to-data" target="_blank">ASP.NET MVC Controls - Bind Controls to Data</a>

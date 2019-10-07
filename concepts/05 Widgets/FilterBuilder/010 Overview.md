@@ -79,7 +79,7 @@ The **FilterBuilder** displays the filter expression as a tree structure, where 
 ![DevExtreme HTML5 JavaScript Filter Builder Groups](/Content/images/doc/19_2/FilterBuilder/visual_elements/groups.png)
 
 #####See Also#####
-#include common-link-configurewidget | [ASP.NET MVC](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
+#include common-link-configurewidget
 - [Integrate with a Widget](/Documentation/Guide/Widgets/FilterBuilder/Integrate_with_a_Widget/)
 - [Predefine Filter Values](/Documentation/Guide/Widgets/FilterBuilder/Predefine_Filter_Values/)
 - [API Reference](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/)

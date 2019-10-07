@@ -1,4 +1,4 @@
-[note] Before starting the tutorial, make sure that you have installed DevExtreme in your application as described in the [Installation](/Documentation/Guide/Getting_Started/Installation/) section (for JavaScript libraries) or the [Prerequisites and Installation](/Documentation/Guide/ASP.NET_MVC_Controls/Prerequisites_and_Installation/) section (for ASP.NET MVC framework).
+#include tutorials-intro-installationnote
 
 The **ButtonGroup** is a set of toggle buttons that can be used as a mode switcher.
 

@@ -1,5 +1,3 @@
-[note]In MVC projects, you can configure the same features using [ASP.NET MVC Controls](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/). See [this topic](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Validate_and_Submit_an_HTML_Form/) for details.
-
 Commonly, editors nested into an HTML form are supposed to be validated on the client and then submitted to the server. The **Button** widget supports this scenario out of the box. Place the **Button** on the HTML form and set the [useSubmitBehavior](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#useSubmitBehavior) option to **true**.
 
 ---
@@ -151,7 +149,7 @@ DevExtreme editors may belong to different [validation groups](/Documentation/Ap
 [note]Although the **Button** may validate different validation groups, it always submits a definite HTML form - the one in which it is nested. To avoid mixing up validated and submitted values, we recommend that a single HTML form contain only a single validation group.
 
 #####See Also#####
-- [ASP.NET MVC Controls - Validate and Submit an HTML Form](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Validate_and_Submit_an_HTML_Form/)
+- <a href="https://docs.devexpress.com/AspNetCore/400576/devextreme-based-controls/concepts/data-validation#validate-and-submit-an-html-form" target="_blank">ASP.NET MVC Controls - Validate and Submit an HTML Form</a>
 - [Form - Validate and Submit](/Documentation/Guide/Widgets/Form/Validate_and_Submit_the_Form/)
 - [Button Demos](/Demos/WidgetsGallery/#demo/actions_and_lists-button-icons)
 - [Button API Reference](/Documentation/ApiReference/UI_Widgets/dxButton/)

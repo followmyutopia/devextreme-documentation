@@ -7,7 +7,7 @@ type: Object
 Specifies a configuration object for the [widget](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/toolbarItems/#widget) that presents a toolbar item.
 
 ---
-When using [ASP.NET MVC Controls](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), configure the widget with a lambda expression in the following manner.
+When using <a href="https://docs.devexpress.com/DevExtremeAspNetMvc/400943/devextreme-aspnet-mvc-controls" target="_blank">ASP.NET MVC 5 Controls</a> or <a href="https://docs.devexpress.com/AspNetCore/400263/aspnet-core-controls#devextreme-based-aspnet-core-controls" target="_blank">DevExtreme-Based ASP.NET Core Controls</a>, configure the widget with a lambda expression as follows:
 
     <!--Razor C#-->// Instead of Popup here you can use Popover
     @(Html.DevExtreme().Popup()

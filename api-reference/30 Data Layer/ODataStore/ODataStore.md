@@ -209,4 +209,4 @@ To access an entire OData service, use the [ODataStore](/Documentation/ApiRefere
 #####See Also#####
 - [DataSource API Reference](/Documentation/ApiReference/Data_Layer/DataSource/)
 - [DataSource Examples - OData](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData)
-- [ASP.NET MVC Controls - Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/)
+- <a href="https://docs.devexpress.com/AspNetCore/400575/devextreme-based-controls/concepts/bind-controls-to-data" target="_blank">ASP.NET MVC Controls - Bind Controls to Data</a>

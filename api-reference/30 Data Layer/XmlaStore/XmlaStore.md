@@ -197,4 +197,4 @@ The **XmlaStore** currently supports only the Microsoft Analysis Services OLAP t
 #include datalayer-store-note-immutable with { name: "XmlaStore" }
 
 #####See Also#####
-- [ASP.NET MVC Controls - Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/)
+- <a href="https://docs.devexpress.com/AspNetCore/400575/devextreme-based-controls/concepts/bind-controls-to-data" target="_blank">ASP.NET MVC Controls - Bind Controls to Data</a>

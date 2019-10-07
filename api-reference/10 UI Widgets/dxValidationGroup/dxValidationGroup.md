@@ -28,6 +28,6 @@ In addition, you can access a validation group's configuration using the [DevExp
 [note]Nested validation groups are not supported.
 
 #####See Also#####
-- [ASP.NET MVC Controls - Client-Side Data Validation](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Overview/)
+- <a href="https://docs.devexpress.com/AspNetCore/400576/devextreme-based-controls/concepts/data-validation" target="_blank">ASP.NET MVC Controls - Data Validation</a>
 #include common-link-setupdevextreme
 #include common-link-configurewidget

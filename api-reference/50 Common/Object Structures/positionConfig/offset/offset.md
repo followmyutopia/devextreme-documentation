@@ -12,7 +12,7 @@ This options accepts an object containing the **x** and **y** fields which speci
     <!--JavaScript-->
     position: { offset: '5 -10' };
 
-When you configure a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), this option accepts two values of the `double` type.
+When you configure a widget as an <a href="https://docs.devexpress.com/DevExtremeAspNetMvc/400943/devextreme-aspnet-mvc-controls" target="_blank">ASP.NET MVC 5 Control</a> or a <a href="https://docs.devexpress.com/AspNetCore/400263/aspnet-core-controls#devextreme-based-aspnet-core-controls" target="_blank">DevExtreme-Based ASP.NET Core Control</a>, this option accepts two values of the `double` type.
 
     <!--Razor C#-->
     @(Html.DevExtreme().WidgetName()

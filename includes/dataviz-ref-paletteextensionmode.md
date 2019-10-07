@@ -13,4 +13,4 @@ Repeat the full set of palette colors, changing their shade gradually from dark 
     url: "/Demos/WidgetsGallery/Demo/Charts/Palette/jQuery/Light/"
 }
 
-Use the `VizPaletteExtensionMode` enum to specify this option when the widget is used as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/). This enum accepts the following values: `Blend`, `Alternate`, and `Extrapolate`.
+Use the `VizPaletteExtensionMode` enum to specify this option when the widget is used as an <a href="https://docs.devexpress.com/DevExtremeAspNetMvc/400943/devextreme-aspnet-mvc-controls" target="_blank">ASP.NET MVC 5 Control</a> or a <a href="https://docs.devexpress.com/AspNetCore/400263/aspnet-core-controls#devextreme-based-aspnet-core-controls" target="_blank">DevExtreme-Based ASP.NET Core Control</a>. This enum accepts the following values: `Blend`, `Alternate`, and `Extrapolate`.

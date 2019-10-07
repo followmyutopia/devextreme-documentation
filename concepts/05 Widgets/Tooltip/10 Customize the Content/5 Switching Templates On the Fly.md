@@ -123,7 +123,7 @@ If you need to render different templates depending on a specific condition, def
 ---
 
 #####See Also#####
-- [ASP.NET MVC Controls - Implementing Templates](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Implementing_Templates)
+- <a href="https://docs.devexpress.com/AspNetCore/401029/devextreme-based-controls/concepts/templates" target="_blank">ASP.NET MVC Controls - Templates</a>
 - [Tooltip - Resize and Relocate](/Documentation//Guide/Widgets/Tooltip/Resize_and_Relocate/)
 - [Tooltip Demos](/Demos/WidgetsGallery/#demo/dialogs_and_notifications-tooltip-overview)
 - [Tooltip API Reference](/Documentation/ApiReference/UI_Widgets/dxTooltip/)

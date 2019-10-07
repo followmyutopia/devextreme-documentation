@@ -1,4 +1,4 @@
-[note] Before you start the tutorial, ensure DevExtreme is installed in your application as described in the [Installation](/Documentation/Guide/Getting_Started/Installation/) (for JavaScript libraries) or the [Prerequisites and Installation](/Documentation/Guide/ASP.NET_MVC_Controls/Prerequisites_and_Installation/) section (for ASP.NET MVC framework).
+#include tutorials-intro-installationnote
 
 The **Drawer** is a dismissible or permanently visible panel used for navigation in responsive web application layouts.
 
