@@ -10,8 +10,8 @@ Specifies a custom template for a [node](/Documentation/ApiReference/Data_Visual
 ##### param(info): Object
 Information about a sankey node being pressed or hovered over.
 
-##### field(info.title): String
-The node's [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/label/).
+##### field(info.label): String
+<!-- Description goes here -->
 
 ##### field(info.weightIn): Number
 The total weight of the node's incoming [links](Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/link/).
@@ -24,5 +24,8 @@ The total weight of the node's outgoing links.
 
 ##### return: String | Node | jQuery
 #include common-template-return-value
+
+##### field(info.title): String
+The node's [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/label/).
 
 ---

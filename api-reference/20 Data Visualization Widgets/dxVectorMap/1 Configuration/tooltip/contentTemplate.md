@@ -15,6 +15,7 @@ Information on the area or marker being pressed or hovered over. To distinguish 
 
 ##### return: String | Node | jQuery
 #include common-template-return-value
+
 ---
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/VectorMap/TooltipHTMLSupport/jQuery/Light/"

@@ -10,6 +10,12 @@ Customizes node tooltips' appearance.
 ##### param(info): Object
 Information about a sankey node being pressed or hovered over.
 
+##### field(info.label): String
+<!-- Description goes here -->
+
+##### field(info.title).deprecated
+Use 'label' instead.
+
 ##### field(info.title): String
 The node's title.
 

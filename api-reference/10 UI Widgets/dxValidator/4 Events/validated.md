@@ -12,6 +12,9 @@ Information about the event.
 ##### field(validatedInfo.brokenRule): RequiredRule | NumericRule | RangeRule | StringLengthRule | CustomRule | CompareRule | PatternRule | EmailRule | AsyncRule
 The object representing the first broken rule in the list of the specified validation rules.
 
+##### field(validatedInfo.brokenRules): Array<RequiredRule, NumericRule, RangeRule, StringLengthRule, CustomRule, CompareRule, PatternRule, EmailRule, AsyncRule>
+<!-- Description goes here -->
+
 ##### field(validatedInfo.isValid): Boolean
 Indicates whether all the [rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#validationRules) checked for the value are satisfied.
 
