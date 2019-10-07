@@ -49,7 +49,9 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
     import { DxTabsModule, DxTabsComponent } from "devextreme-angular";
     // ...
     export class AppComponent implements AfterViewInit {
-        @ViewChild(DxTabsComponent) tabs: DxTabsComponent
+        @ViewChild(DxTabsComponent, { static: false }) tabs: DxTabsComponent
+        // Prior to Angular 8
+        // @ViewChild(DxTabsComponent) tabs: DxTabsComponent
         ngAfterViewInit () {
             this.tabs.instance.registerKeyHandler("backspace", function (e) {
                 // The argument "e" contains information on the event

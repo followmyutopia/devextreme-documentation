@@ -65,7 +65,9 @@ Implement a custom sorting routine using the [calculateSortValue](/Documentation
     import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         customSortingFunction (rowData) {
             let column = this as any;
             if (rowData.Position == "CEO")

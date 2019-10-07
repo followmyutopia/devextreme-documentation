@@ -15,7 +15,9 @@ To export the **PieChart** using the API, call the [exportTo(fileName, format)](
     import { DxPieChartModule, DxPieChartComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxPieChartComponent) pieChart: DxPieChartComponent;
+        @ViewChild(DxPieChartComponent, { static: false }) pieChart: DxPieChartComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxPieChartComponent) pieChart: DxPieChartComponent;
         exportChart () {
             this.pieChart.instance.exportTo('Exported Chart', 'PDF');
         };
@@ -58,8 +60,11 @@ You can also export several widgets at once using their SVG markup. Gather the m
     import exportMethods from "devextreme/viz/export";
     // ...
     export class AppComponent {
-        @ViewChild('pieChartContainer1') pieChart1: DxPieChartComponent;
-        @ViewChild('pieChartContainer2') pieChart2: DxPieChartComponent;
+        @ViewChild('pieChartContainer1', { static: false }) pieChart1: DxPieChartComponent;
+        @ViewChild('pieChartContainer2', { static: false }) pieChart2: DxPieChartComponent;
+        // Prior to Angular 8
+        // @ViewChild('pieChartContainer1') pieChart1: DxPieChartComponent;
+        // @ViewChild('pieChartContainer2') pieChart2: DxPieChartComponent;
         exportSeveralCharts () {
             let chartMarkup = exportMethods.getMarkup([this.pieChart1.instance, this.pieChart2.instance]);
             exportMethods.exportFromMarkup(chartMarkup, {

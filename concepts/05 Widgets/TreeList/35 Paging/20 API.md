@@ -14,7 +14,9 @@ Call the [pageCount()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods
     import { DxTreeListModule, DxTreeListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        @ViewChild(DxTreeListComponent, { static: false }) treeList: DxTreeListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         getTotalPageCount () {
             this.treeList.instance.pageCount();
         }
@@ -52,7 +54,9 @@ The **TreeList** also provides the [pageIndex(newIndex)](/Documentation/ApiRefer
     import { DxTreeListModule, DxTreeListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        @ViewChild(DxTreeListComponent, { static: false }) treeList: DxTreeListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         changePageSize () {
             this.treeList.instance.pageSize(8);
         }

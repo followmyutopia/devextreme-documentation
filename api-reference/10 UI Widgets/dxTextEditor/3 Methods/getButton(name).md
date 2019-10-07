@@ -33,7 +33,9 @@ Use the returned button instance to call the [**Button** widget's methods](/Docu
         styleUrls: ['./app.component.css']
     })
     export class AppComponent {
-        @ViewChild('{widgetName}Ref') {widgetName}: Dx{WidgetName}Component;
+        @ViewChild('{widgetName}Ref', { static: false }) {widgetName}: Dx{WidgetName}Component;
+        // Prior to Angular 8
+        // @ViewChild('{widgetName}Ref') {widgetName}: Dx{WidgetName}Component;
 
         setFocus() {
             this.{widgetName}.instance.getButton('myCustomButton').focus();

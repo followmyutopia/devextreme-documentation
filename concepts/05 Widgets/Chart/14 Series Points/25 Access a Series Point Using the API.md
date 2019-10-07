@@ -18,7 +18,9 @@ Gets all points of the series.
         import { DxChartModule, DxChartComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
-            @ViewChild(DxChartComponent) chart: DxChartComponent;
+            @ViewChild(DxChartComponent, { static: false }) chart: DxChartComponent;
+            // Prior to Angular 8
+            // @ViewChild(DxChartComponent) chart: DxChartComponent;
             seriesPointCollection: any = [];
             getSeriesPoints() {
                 let series = this.chart.instance.getSeriesByName("Series 1");
@@ -50,7 +52,9 @@ Gets those points of the series that has a specific argument. Returns more than 
         import { DxChartModule, DxChartComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
-            @ViewChild(DxChartComponent) chart: DxChartComponent;
+            @ViewChild(DxChartComponent, { static: false }) chart: DxChartComponent;
+            // Prior to Angular 8
+            // @ViewChild(DxChartComponent) chart: DxChartComponent;
             chinaPoint: any = {};
             getChinaPoints() {
                 let series = this.chart.instance.getSeriesByName("Series 1");
@@ -82,7 +86,9 @@ Gets a point by its index in the series. The index is zero-based.
         import { DxChartModule, DxChartComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
-            @ViewChild(DxChartComponent) chart: DxChartComponent;
+            @ViewChild(DxChartComponent, { static: false }) chart: DxChartComponent;
+            // Prior to Angular 8
+            // @ViewChild(DxChartComponent) chart: DxChartComponent;
             firstPoint: any = {};
             getFirstPoint() {
                 let series = this.chart.instance.getSeriesByName("Series 1");
@@ -114,7 +120,9 @@ Gets those points of the series that fall into the axis's [visual range](/Docume
         import { DxChartModule, DxChartComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
-            @ViewChild(DxChartComponent) chart: DxChartComponent;
+            @ViewChild(DxChartComponent, { static: false }) chart: DxChartComponent;
+            // Prior to Angular 8
+            // @ViewChild(DxChartComponent) chart: DxChartComponent;
             visiblePoints: any = [];
             getVisiblePoints() {
                 let series = this.chart.instance.getSeriesByName("Series 1");

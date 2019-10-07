@@ -104,7 +104,9 @@ You can also implement handlers for other keys using the [registerKeyHandler(key
     import { DxTextAreaModule, DxTextAreaComponent } from "devextreme-angular";
     // ...
     export class AppComponent implements AfterViewInit {
-        @ViewChild(DxTextAreaComponent) textArea: DxTextAreaComponent
+        @ViewChild(DxTextAreaComponent, { static: false }) textArea: DxTextAreaComponent
+        // Prior to Angular 8
+        // @ViewChild(DxTextAreaComponent) textArea: DxTextAreaComponent
         ngAfterViewInit () {
             this.textArea.instance.registerKeyHandler("backspace", function (e) {
                 // The argument "e" contains information on the event

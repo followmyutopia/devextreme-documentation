@@ -53,7 +53,9 @@ The layout does not automatically adapt to changes made in the widget's containe
     import { DxChartModule, DxChartComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxChartComponent) chart: DxChartComponent;
+        @ViewChild(DxChartComponent, { static: false }) chart: DxChartComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxChartComponent) chart: DxChartComponent;
         renderChart () {
             this.chart.instance.render();
         };

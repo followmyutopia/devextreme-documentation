@@ -57,7 +57,9 @@ In the following code, the `bold` format is associated with the `<b>` tag instea
         styleUrls: ['./app.component.css']
     })
     export class AppComponent {
-        @ViewChild(DxHtmlEditorComponent) htmlEditor: DxHtmlEditorComponent;
+        @ViewChild(DxHtmlEditorComponent, { static: false }) htmlEditor: DxHtmlEditorComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxHtmlEditorComponent) htmlEditor: DxHtmlEditorComponent;
 
         ngAfterViewInit() {
             let htmlEditor = this.htmlEditor.instance;

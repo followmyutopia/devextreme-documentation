@@ -16,7 +16,9 @@ You can use the [expandAll()](/Documentation/ApiReference/UI_Widgets/dxTreeView/
         import { DxTreeViewModule, DxTreeViewComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
-            @ViewChild(DxTreeViewComponent) treeView: DxTreeViewComponent;
+            @ViewChild(DxTreeViewComponent, { static: false }) treeView: DxTreeViewComponent;
+            // Prior to Angular 8
+            // @ViewChild(DxTreeViewComponent) treeView: DxTreeViewComponent;
             expandAllNodes () {
                 this.treeView.instance.expandAll();
             }
@@ -50,7 +52,9 @@ Call the [expandItem(itemElement)](/Documentation/ApiReference/UI_Widgets/dxTree
         import { DxTreeViewModule, DxTreeViewComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
-            @ViewChild(DxTreeViewComponent) treeView: DxTreeViewComponent;
+            @ViewChild(DxTreeViewComponent, { static: false }) treeView: DxTreeViewComponent;
+            // Prior to Angular 8
+            // @ViewChild(DxTreeViewComponent) treeView: DxTreeViewComponent;
             expandNode (key) {
                 this.treeView.instance.expandItem(key);
             }

@@ -45,7 +45,9 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
     import { DxToolbarModule, DxToolbarComponent } from "devextreme-angular";
     // ...
     export class AppComponent implements AfterViewInit {
-        @ViewChild(DxToolbarComponent) toolbar: DxToolbarComponent
+        @ViewChild(DxToolbarComponent, { static: false }) toolbar: DxToolbarComponent
+        // Prior to Angular 8
+        // @ViewChild(DxToolbarComponent) toolbar: DxToolbarComponent
         ngAfterViewInit () {
             this.toolbar.instance.registerKeyHandler("backspace", function (e) {
                 // The argument "e" contains information on the event

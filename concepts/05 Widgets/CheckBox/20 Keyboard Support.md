@@ -41,7 +41,9 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
     import { DxCheckBoxModule, DxCheckBoxComponent } from "devextreme-angular";
     // ...
     export class AppComponent implements AfterViewInit {
-        @ViewChild(DxCheckBoxComponent) checkBox: DxCheckBoxComponent
+        @ViewChild(DxCheckBoxComponent, { static: false }) checkBox: DxCheckBoxComponent
+        // Prior to Angular 8
+        // @ViewChild(DxCheckBoxComponent) checkBox: DxCheckBoxComponent
         ngAfterViewInit () {
             this.checkBox.instance.registerKeyHandler("backspace", function (e) {
                 // The argument "e" contains information on the event

@@ -121,8 +121,11 @@ To filter data, update the data source's [filter](/Documentation/ApiReference/Da
     } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxListComponent) list: DxListComponent;
-        @ViewChild(DxFilterBuilderComponent) filterBuilder: DxFilterBuilderComponent;
+        @ViewChild(DxListComponent, { static: false }) list: DxListComponent;
+        @ViewChild(DxFilterBuilderComponent, { static: false }) filterBuilder: DxFilterBuilderComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxListComponent) list: DxListComponent;
+        // @ViewChild(DxFilterBuilderComponent) filterBuilder: DxFilterBuilderComponent;
         // ...
         buttonClick() {
             let listData = this.list.getDataSource();

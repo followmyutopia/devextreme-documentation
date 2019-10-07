@@ -69,7 +69,9 @@ You can also hide the tooltip regardless of the point to which it belongs. To do
     import { DxChartModule, DxChartComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxChartComponent) chart: DxChartComponent;
+        @ViewChild(DxChartComponent, { static: false }) chart: DxChartComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxChartComponent) chart: DxChartComponent;
         hideTooltip () {
             this.chart.instance.hideTooltip();
         };

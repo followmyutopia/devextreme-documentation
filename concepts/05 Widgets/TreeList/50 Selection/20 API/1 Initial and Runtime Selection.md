@@ -72,7 +72,9 @@ You can select rows at runtime using the [selectRows(keys, preserve)](/Documenta
     import { DxTreeListModule, DxTreeListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        @ViewChild(DxTreeListComponent, { static: false }) treeList: DxTreeListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         selectSingleRow (key, preserve) {
             if (!this.treeList.instance.isRowSelected(key)) {
                 this.treeList.instance.selectRows([key], preserve);
@@ -108,7 +110,9 @@ Call the [getSelectedRowKeys(mode)](/Documentation/ApiReference/UI_Widgets/dxTre
     import { DxTreeListModule, DxTreeListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        @ViewChild(DxTreeListComponent, { static: false }) treeList: DxTreeListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         getSelectedRowKeys () {
             return this.treeList.instance.getSelectedRowKeys("all"); // or "excludeRecursive" | "leavesOnly"
         }

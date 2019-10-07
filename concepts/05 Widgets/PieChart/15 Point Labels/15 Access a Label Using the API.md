@@ -16,7 +16,9 @@ To access a point label, call the [getLabel()](/Documentation/ApiReference/Data_
     import { DxPieChartModule, DxPieChartComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxPieChartComponent) pieChart: DxPieChartComponent;
+        @ViewChild(DxPieChartComponent, { static: false }) pieChart: DxPieChartComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxPieChartComponent) pieChart: DxPieChartComponent;
         label: any = {};
         getPointLabel () {
             let series = this.pieChart.instance.getAllSeries()[0];

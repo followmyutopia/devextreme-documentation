@@ -110,7 +110,9 @@ In a multi-series **PieChart**, you can clear the entire selection at once by ca
     import { DxPieChartModule, DxPieChartComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxPieChartComponent) pieChart: DxPieChartComponent;
+        @ViewChild(DxPieChartComponent, { static: false }) pieChart: DxPieChartComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxPieChartComponent) pieChart: DxPieChartComponent;
         clearSelection() {
             this.pieChart.instance.clearSelection();
         }

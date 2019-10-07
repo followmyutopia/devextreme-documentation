@@ -15,7 +15,9 @@ Pass *-1* to the [expandAll(groupIndex)](/Documentation/ApiReference/UI_Widgets/
     import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         expandAllMasterRows () {
             this.dataGrid.instance.expandAll(-1);
         }
@@ -56,7 +58,9 @@ The [expandRow(key)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#
     import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         toggleMasterRow (rowKey) {
             if (this.dataGrid.instance.isRowExpanded(rowKey)) {
                 this.dataGrid.instance.collapseRow(rowKey);

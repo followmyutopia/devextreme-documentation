@@ -11,7 +11,9 @@ Regardless of the data source you use, the **Lookup** always wraps it in a [Data
     import { DxLookupModule, DxLookupComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxLookupComponent) lookup: DxLookupComponent;
+        @ViewChild(DxLookupComponent, { static: false }) lookup: DxLookupComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxLookupComponent) lookup: DxLookupComponent;
         lookupDataSource = this.lookup.instance.getDataSource();
     }
     @NgModule({

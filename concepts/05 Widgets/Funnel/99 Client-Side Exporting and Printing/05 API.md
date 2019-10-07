@@ -15,7 +15,9 @@ To export the **Funnel** using the API, call the [exportTo(fileName, format)](/D
     import { DxFunnelModule, DxFunnelComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxFunnelComponent) funnel: DxFunnelComponent;
+        @ViewChild(DxFunnelComponent, { static: false }) funnel: DxFunnelComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxFunnelComponent) funnel: DxFunnelComponent;
         exportFunnel () {
             this.funnel.instance.exportTo('Exported Funnel', 'PDF');
         };
@@ -58,8 +60,11 @@ You can also export several widgets at once using their SVG markup. Gather the m
     import exportMethods from "devextreme/viz/export";
     // ...
     export class AppComponent {
-        @ViewChild('funnelContainer1') funnel1: DxFunnelComponent;
-        @ViewChild('funnelContainer2') funnel2: DxFunnelComponent;
+        @ViewChild('funnelContainer1', { static: false }) funnel1: DxFunnelComponent;
+        @ViewChild('funnelContainer2', { static: false }) funnel2: DxFunnelComponent;
+        // Prior to Angular 8
+        // @ViewChild('funnelContainer1') funnel1: DxFunnelComponent;
+        // @ViewChild('funnelContainer2') funnel2: DxFunnelComponent;
         exportSeveralFunnels () {
             let funnelMarkup = exportMethods.getMarkup([this.funnel1.instance, this.funnel2.instance]);
             exportMethods.exportFromMarkup(funnelMarkup, {

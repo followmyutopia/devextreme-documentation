@@ -12,7 +12,9 @@ Regardless of the data source you use, the **List** always wraps it in the [Data
     import { DxListModule, DxListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxListComponent) list: DxListComponent;
+        @ViewChild(DxListComponent, { static: false }) list: DxListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxListComponent) list: DxListComponent;
         listDataSource: any = {};
         getDataSource () {
             this.listDataSource = this.dataGrid.instance.getDataSource();

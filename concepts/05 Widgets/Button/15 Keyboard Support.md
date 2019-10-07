@@ -41,7 +41,9 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
     import { DxButtonModule, DxButtonComponent } from "devextreme-angular";
     // ...
     export class AppComponent implements AfterViewInit {
-        @ViewChild(DxButtonComponent) button: DxButtonComponent
+        @ViewChild(DxButtonComponent, { static: false }) button: DxButtonComponent
+        // Prior to Angular 8
+        // @ViewChild(DxButtonComponent) button: DxButtonComponent
         ngAfterViewInit () {
             this.button.instance.registerKeyHandler("backspace", function (e) {
                 // The argument "e" contains information on the event

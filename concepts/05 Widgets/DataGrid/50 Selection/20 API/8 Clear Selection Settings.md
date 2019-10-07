@@ -12,7 +12,9 @@ Call the [deselectRows(keys)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/
     import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         deselectRows (keys) {
             this.dataGrid.instance.deselectRows(keys);
         }
@@ -43,7 +45,9 @@ Call the [clearSelection()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Me
     import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         deselectVisibleRows () {
             this.dataGrid.instance.deselectAll();
         }

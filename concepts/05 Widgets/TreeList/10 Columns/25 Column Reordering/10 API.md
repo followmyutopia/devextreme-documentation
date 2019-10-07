@@ -53,7 +53,9 @@ The **visibleIndex** option can also be changed at runtime to reorder columns re
     import { DxTreeListModule, DxTreeListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        @ViewChild(DxTreeListComponent, { static: false }) treeList: DxTreeListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         swapColumns () {
             this.treeList.instance.columnOption(1, "visibleIndex", 0);
         }

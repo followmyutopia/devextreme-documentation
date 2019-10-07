@@ -25,7 +25,9 @@ Pass the index to the [reorderItem(itemIndex, toItemIndex)](/Documentation/ApiRe
         import { DxListModule, DxListComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
-            @ViewChild(DxListComponent) list: DxListComponent;
+            @ViewChild(DxListComponent, { static: false }) list: DxListComponent;
+            // Prior to Angular 8
+            // @ViewChild(DxListComponent) list: DxListComponent;
             reorderItems (index1, index2) {
                 // Places the item with index1 after the item with index2 
                 this.list.instance.reorderItem(index1, index2);
@@ -69,7 +71,9 @@ Pass the <a href="http://www.w3schools.com/js/js_htmldom_nodes.asp" target="_bla
         import { DxListModule, DxListComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
-            @ViewChild(DxListComponent) list: DxListComponent;
+            @ViewChild(DxListComponent, { static: false }) list: DxListComponent;
+            // Prior to Angular 8
+            // @ViewChild(DxListComponent) list: DxListComponent;
             makeFirstItemLast () {
                 // Finds all List items
                 let itemNodes = document.getElementsByClassName("dx-list-item");

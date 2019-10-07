@@ -13,7 +13,9 @@ Regardless of the data source you use, the **DataGrid** always wraps it in the [
     import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         ds: any = {};
         getDataSource () {
             this.ds = this.dataGrid.instance.getDataSource();

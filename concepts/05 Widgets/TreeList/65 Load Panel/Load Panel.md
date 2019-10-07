@@ -57,7 +57,9 @@ You can also control the load panel programmatically using the [beginCustomLoadi
     import { DxTreeListModule, DxTreeListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        @ViewChild(DxTreeListComponent, { static: false }) treeList: DxTreeListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         doSomeLongOperation () {
             this.treeList.instance.beginCustomLoading();
             // ...

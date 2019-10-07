@@ -45,7 +45,9 @@ Call the [deleteRow(rowIndex)](/Documentation/ApiReference/UI_Widgets/dxTreeList
     import { DxTreeListModule, DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        @ViewChild(DxTreeListComponent, { static: false }) treeList: DxTreeListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         deleteRow () {
             // Deletes the second row
             this.treeList.instance.deleteRow(1);
@@ -76,7 +78,9 @@ Note that in the [batch mode](/Documentation/Guide/Widgets/TreeList/Editing/#Use
     import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        @ViewChild(DxTreeListComponent, { static: false }) treeList: DxTreeListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         undeleteRow () {
             this.treeList.instance.undeleteRow(1);
         }

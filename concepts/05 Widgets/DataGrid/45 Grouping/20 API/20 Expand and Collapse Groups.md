@@ -37,7 +37,9 @@ The **DataGrid** provides the following API for expanding and collapsing groups:
         import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
-            @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+            @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+            // Prior to Angular 8
+            // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
             collapseAll () {
                 this.dataGrid.instance.collapseAll();
             }
@@ -97,7 +99,9 @@ The **DataGrid** provides the following API for expanding and collapsing groups:
         import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
-            @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+            @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+            // Prior to Angular 8
+            // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
             expandDataGroupedByLastName () {
                 this.dataGrid.instance.expandAll(1);
             }
@@ -136,7 +140,9 @@ The **DataGrid** provides the following API for expanding and collapsing groups:
         import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
-            @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+            @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+            // Prior to Angular 8
+            // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
             toggleGroup (groupKey) {
                 if (this.dataGrid.instance.isRowExpanded(groupKey)) {
                     this.dataGrid.instance.collapseRow(groupKey);

@@ -42,7 +42,9 @@ To get the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) inst
     import { DxFunnelModule, DxFunnelComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxFunnelComponent) funnel: DxFunnelComponent;
+        @ViewChild(DxFunnelComponent, { static: false }) funnel: DxFunnelComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxFunnelComponent) funnel: DxFunnelComponent;
         ds: any = {};
         getDataSource() {
             this.ds = this.funnel.instance.getDataSource();

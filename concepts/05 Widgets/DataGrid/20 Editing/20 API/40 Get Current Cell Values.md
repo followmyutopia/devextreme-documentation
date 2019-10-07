@@ -35,7 +35,9 @@ The **cellValue(rowIndex, dataField)** method requires a row index. Use the [get
         styleUrls: ['./app.component.css']
     })
     export class AppComponent {
-        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent
+        @ViewChild(DxDataGridComponent, { static: false }, { static: false }) dataGrid: DxDataGridComponent
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent
 
         currentRowIndex: number;
 

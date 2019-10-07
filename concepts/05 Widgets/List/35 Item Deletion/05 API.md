@@ -20,7 +20,9 @@ Pass the index to the [deleteItem(itemIndex)](/Documentation/ApiReference/UI_Wid
         import { DxListModule, DxListComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
-            @ViewChild(DxListComponent) list: DxListComponent;
+            @ViewChild(DxListComponent, { static: false }) list: DxListComponent;
+            // Prior to Angular 8
+            // @ViewChild(DxListComponent) list: DxListComponent;
             deleteItem (index) {
                 this.list.instance.deleteItem(index);
             }
@@ -59,7 +61,9 @@ Pass the <a href="http://www.w3schools.com/js/js_htmldom_nodes.asp" target="_bla
         import { DxListModule, DxListComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
-            @ViewChild(DxListComponent) list: DxListComponent;
+            @ViewChild(DxListComponent, { static: false }) list: DxListComponent;
+            // Prior to Angular 8
+            // @ViewChild(DxListComponent) list: DxListComponent;
             deleteLastItem () {
                 // Finds all List items
                 let itemNodes = document.getElementsByClassName("dx-list-item");

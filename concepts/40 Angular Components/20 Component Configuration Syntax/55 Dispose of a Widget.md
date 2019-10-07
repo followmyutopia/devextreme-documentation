@@ -10,7 +10,9 @@ Call **dispose()** to free up the allocated resources and remove the DOM node as
     import { DxDataGridModule, DxDataGridComponent } from 'devextreme-angular';
     // ...
     export class AppComponent {
-        @ViewChild('dataGridVar') dataGrid: DxDataGridComponent;
+        @ViewChild('dataGridVar', { static: false }) dataGrid: DxDataGridComponent;
+        // Prior to Angular 8
+        // @ViewChild('dataGridVar') dataGrid: DxDataGridComponent;
 
         removeDataGrid (e) {
             this.dataGrid.instance.dispose();

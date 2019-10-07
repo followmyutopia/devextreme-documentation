@@ -42,8 +42,11 @@ The theme name passed as a parameter should be the value of the **data-theme** a
     })
     
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent
-        @ViewChild(DxButtonComponent) button: DxButtonComponent
+        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent
+        @ViewChild(DxButtonComponent, { static: false }) button: DxButtonComponent
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent
+        // @ViewChild(DxButtonComponent) button: DxButtonComponent
 
         changeTheme() {
             themes.ready(function() {

@@ -5,8 +5,12 @@ To call widget methods, you need the widget instance. To access it, use the `@Vi
     import { DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent
-        // or using a template reference variable
+        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent
+        // ===== or using a template reference variable =====
+        @ViewChild("targetDataGrid", { static: false }) dataGrid: DxDataGridComponent
+
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent
         // @ViewChild("targetDataGrid") dataGrid: DxDataGridComponent
         refresh() {
             this.dataGrid.instance.refresh();

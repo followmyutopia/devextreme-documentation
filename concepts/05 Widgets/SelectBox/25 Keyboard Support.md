@@ -61,7 +61,9 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
     import { DxSelectBoxModule, DxSelectBoxComponent } from "devextreme-angular";
     // ...
     export class AppComponent implements AfterViewInit {
-        @ViewChild(DxSelectBoxComponent) selectBox: DxSelectBoxComponent
+        @ViewChild(DxSelectBoxComponent, { static: false }) selectBox: DxSelectBoxComponent
+        // Prior to Angular 8
+        // @ViewChild(DxSelectBoxComponent) selectBox: DxSelectBoxComponent
         ngAfterViewInit () {
             this.selectBox.instance.registerKeyHandler("backspace", function (e) {
                 // The argument "e" contains information on the event

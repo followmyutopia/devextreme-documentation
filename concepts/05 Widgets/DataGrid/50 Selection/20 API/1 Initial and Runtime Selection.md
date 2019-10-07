@@ -80,7 +80,9 @@ The **DataGrid** provides two methods that select rows at runtime: [selectRows(k
     import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         selectSingleRow (key, preserve) {
             if (!this.dataGrid.instance.isRowSelected(key)) {
                 this.dataGrid.instance.selectRows([key], preserve);
@@ -121,7 +123,9 @@ To select all rows at once, call the [selectAll()](/Documentation/ApiReference/U
     import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         selectAllRows () {
             this.dataGrid.instance.selectAll();
         }
@@ -156,7 +160,9 @@ Call the [getSelectedRowKeys()](/Documentation/ApiReference/UI_Widgets/dxDataGri
     import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         getSelectedRowKeys () {
             return this.dataGrid.instance.getSelectedRowKeys();
         }

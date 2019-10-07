@@ -125,7 +125,9 @@ The following tasks require using different API in deferred mode:
         import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
-            @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+            @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+            // Prior to Angular 8
+            // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
             constructor(private httpClient: HttpClient) { }
             sendSelectedRows() {
                 var selectionFilter = this.dataGrid.instance.option("selectionFilter");

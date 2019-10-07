@@ -42,7 +42,9 @@ To get the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) inst
     import { DxChartModule, DxChartComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxChartComponent) chart: DxChartComponent;
+        @ViewChild(DxChartComponent, { static: false }) chart: DxChartComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxChartComponent) chart: DxChartComponent;
         ds: any = {};
         getDataSource() {
             this.ds = this.chart.instance.getDataSource();

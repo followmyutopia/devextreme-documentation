@@ -14,7 +14,9 @@ Call the [pageCount()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods
     import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         getTotalPageCount () {
             this.dataGrid.instance.pageCount();
         }
@@ -52,7 +54,9 @@ The **DataGrid** also provides the [pageIndex(newIndex)](/Documentation/ApiRefer
     import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         changePageSize () {
             this.dataGrid.instance.pageSize(8);
         }

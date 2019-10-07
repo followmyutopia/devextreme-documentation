@@ -16,7 +16,9 @@ The **TreeList** caches data by default. This allows the widget to decrease the 
     import { DxTreeListModule, DxTreeListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        @ViewChild(DxTreeListComponent, { static: false }) treeList: DxTreeListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         refreshData () {
             this.treeList.instance.refresh();
             // ===== or =====

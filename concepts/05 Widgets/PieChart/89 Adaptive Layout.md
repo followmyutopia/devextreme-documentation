@@ -53,7 +53,9 @@ The layout does not automatically adapt to changes made in the widget's containe
     import { DxPieChartModule, DxPieChartComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxPieChartComponent) pieChart: DxPieChartComponent;
+        @ViewChild(DxPieChartComponent, { static: false }) pieChart: DxPieChartComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxPieChartComponent) pieChart: DxPieChartComponent;
         renderPieChart () {
             this.pieChart.instance.render();
         };

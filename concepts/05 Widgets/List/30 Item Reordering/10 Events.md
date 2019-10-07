@@ -27,7 +27,9 @@ To execute certain commands when an item changes its position, handle the [itemR
     import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxListComponent) list: DxListComponent;
+        @ViewChild(DxListComponent, { static: false }) list: DxListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxListComponent) list: DxListComponent;
         onItemReordered (e) {
             let itemData = e.itemData;
             let itemDomNode = e.itemElement;

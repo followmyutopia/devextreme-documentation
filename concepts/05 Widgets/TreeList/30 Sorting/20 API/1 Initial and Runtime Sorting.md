@@ -56,7 +56,9 @@ Change the **sortOrder** and **sortIndex** options using the [columnOption](/Doc
     import { DxTreeListModule, DxTreeListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        @ViewChild(DxTreeListComponent, { static: false }) treeList: DxTreeListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         sortBySurnames () {
             this.treeList.instance.columnOption("Surname", {
                 sortOrder: "desc",

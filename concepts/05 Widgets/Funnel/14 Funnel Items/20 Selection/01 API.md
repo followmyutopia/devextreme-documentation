@@ -51,7 +51,9 @@ In the previous code example, selection was cleared of a specific item. If you n
     import { DxFunnelModule, DxFunnelComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxFunnelComponent) funnel: DxFunnelComponent;
+        @ViewChild(DxFunnelComponent, { static: false }) funnel: DxFunnelComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxFunnelComponent) funnel: DxFunnelComponent;
         clearSelection() {
             this.funnel.instance.clearSelection();
         }

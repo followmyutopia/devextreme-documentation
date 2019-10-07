@@ -66,7 +66,9 @@ You should call the [updateDimensions()](/Documentation/ApiReference/UI_Widgets/
     import { DxDataGridModule, DxDataGridComponent, DxTabPanelModule } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent
+        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent
         onSelectionChanged () {
            this.dataGrid.instance.updateDimensions();
         }

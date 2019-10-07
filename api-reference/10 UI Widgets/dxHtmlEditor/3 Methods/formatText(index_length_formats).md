@@ -32,7 +32,9 @@ This object should have the following structure:
     import { DxHtmlEditorModule, DxHtmlEditorComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxHtmlEditorComponent) htmlEditor: DxHtmlEditorComponent;
+        @ViewChild(DxHtmlEditorComponent, { static: false }) htmlEditor: DxHtmlEditorComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxHtmlEditorComponent) htmlEditor: DxHtmlEditorComponent;
         applyLineFormats() {
             // Makes the first five characters bold and underlined
             this.htmlEditor.instance.formatText(0, 5, { "bold": "true", "underline": "true" });

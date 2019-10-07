@@ -15,7 +15,9 @@ Gets all series of the **Chart**.
         import { DxChartModule, DxChartComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
-            @ViewChild(DxChartComponent) chart: DxChartComponent;
+            @ViewChild(DxChartComponent, { static: false }) chart: DxChartComponent;
+            // Prior to Angular 8
+            // @ViewChild(DxChartComponent) chart: DxChartComponent;
             seriesCollection: any = [];
             getAllSeries() {
                 this.seriesCollection = this.chart.instance.getAllSeries();
@@ -46,7 +48,9 @@ Gets a series by its [name](/Documentation/ApiReference/Data_Visualization_Widge
         import { DxChartModule, DxChartComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
-            @ViewChild(DxChartComponent) chart: DxChartComponent;
+            @ViewChild(DxChartComponent, { static: false }) chart: DxChartComponent;
+            // Prior to Angular 8
+            // @ViewChild(DxChartComponent) chart: DxChartComponent;
             series: any = {};
             getSeries() {
                 this.series = this.chart.instance.getSeriesByName("Series 1");
@@ -77,7 +81,9 @@ Gets a series by its index in the [series](/Documentation/ApiReference/Data_Visu
         import { DxChartModule, DxChartComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
-            @ViewChild(DxChartComponent) chart: DxChartComponent;
+            @ViewChild(DxChartComponent, { static: false }) chart: DxChartComponent;
+            // Prior to Angular 8
+            // @ViewChild(DxChartComponent) chart: DxChartComponent;
             series: any = {};
             getSeries() {
                 this.series = this.chart.instance.getSeriesByPos(0);

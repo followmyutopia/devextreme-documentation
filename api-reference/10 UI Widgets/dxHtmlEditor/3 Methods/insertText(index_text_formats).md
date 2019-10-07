@@ -34,7 +34,9 @@ This object should have the following structure:
     import { DxHtmlEditorModule, DxHtmlEditorComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxHtmlEditorComponent) htmlEditor: DxHtmlEditorComponent;
+        @ViewChild(DxHtmlEditorComponent, { static: false }) htmlEditor: DxHtmlEditorComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxHtmlEditorComponent) htmlEditor: DxHtmlEditorComponent;
         insertTextAtTheBeginning() {
             // Inserts bold, green text at the beginning of the content
             this.htmlEditor.instance.insertText(0, "I will be the first", { 

@@ -22,7 +22,9 @@ The [cellValue (rowIndex, visibleColumnIndex, value)](/Documentation/ApiReferenc
     import { DxDataGridModule, DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         updateCell () {
             this.dataGrid.instance.cellValue(1, "Position", "CTO");
             this.dataGrid.instance.saveEditData();
@@ -131,7 +133,9 @@ Call the [hasEditData()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Metho
     import { DxDataGridModule, DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         saveEditData () {
             if (this.dataGrid.instance.hasEditData()) {
                 // Implement your logic here

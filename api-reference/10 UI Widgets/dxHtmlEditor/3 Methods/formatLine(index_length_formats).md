@@ -35,7 +35,9 @@ This object should have the following structure:
     import { DxHtmlEditorModule, DxHtmlEditorComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxHtmlEditorComponent) htmlEditor: DxHtmlEditorComponent;
+        @ViewChild(DxHtmlEditorComponent, { static: false }) htmlEditor: DxHtmlEditorComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxHtmlEditorComponent) htmlEditor: DxHtmlEditorComponent;
         applyLineFormats() {
             // Aligns the first line to the right and turns it into an ordered list's item.
             this.htmlEditor.instance.formatLine(0, 1, { "align": "right", "list": "ordered" });

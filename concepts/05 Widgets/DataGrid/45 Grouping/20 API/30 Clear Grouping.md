@@ -15,7 +15,9 @@ Set a column's [groupIndex](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Co
     import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         clearGroupingByCity() () {
             this.dataGrid.instance.columnOption("City", "groupIndex", undefined);
         }
@@ -47,7 +49,9 @@ You can ungroup data by all columns at once using the [clearGrouping()](/Documen
     import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         clearGrouping() () {
             this.dataGrid.instance.clearGrouping();
         }

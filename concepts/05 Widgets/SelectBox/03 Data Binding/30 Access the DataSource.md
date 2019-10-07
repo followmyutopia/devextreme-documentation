@@ -11,7 +11,9 @@ Regardless of the data source you use, the **SelectBox** always wraps it in a [D
     import { DxSelectBoxModule, DxSelectBoxComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxSelectBoxComponent) selectBox: DxSelectBoxComponent;
+        @ViewChild(DxSelectBoxComponent, { static: false }) selectBox: DxSelectBoxComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxSelectBoxComponent) selectBox: DxSelectBoxComponent;
         ds: any = {};
         getDataSource () {
             this.ds = this.selectBox.instance.getDataSource();

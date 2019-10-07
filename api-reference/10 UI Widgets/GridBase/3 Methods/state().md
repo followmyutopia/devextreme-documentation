@@ -47,7 +47,9 @@ The following example shows how to save the widget state in the local storage an
     } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(Dx{WidgetName}Component) {widgetName}: Dx{WidgetName}Component
+        @ViewChild(Dx{WidgetName}Component, { static: false }) {widgetName}: Dx{WidgetName}Component
+        // Prior to Angular 8
+        // @ViewChild(Dx{WidgetName}Component) {widgetName}: Dx{WidgetName}Component
         saveState() {
             let state = this.{widgetName}.instance.state();
             // Saves the state in the local storage

@@ -13,7 +13,9 @@ Regardless of the data source you use, the **TreeList** always wraps it in the [
     import { DxTreeListModule, DxTreeListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        @ViewChild(DxTreeListComponent, { static: false }) treeList: DxTreeListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         ds: any = {};
         getDataSource () {
             this.ds = this.treeList.instance.getDataSource();

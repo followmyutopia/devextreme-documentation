@@ -61,7 +61,9 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
     import { DxContextMenuModule, DxContextMenuComponent } from "devextreme-angular";
     // ...
     export class AppComponent implements AfterViewInit {
-        @ViewChild(DxContextMenuComponent) contextMenu: DxContextMenuComponent
+        @ViewChild(DxContextMenuComponent, { static: false }) contextMenu: DxContextMenuComponent
+        // Prior to Angular 8
+        // @ViewChild(DxContextMenuComponent) contextMenu: DxContextMenuComponent
         ngAfterViewInit () {
             this.contextMenu.instance.registerKeyHandler("backspace", function (e) {
                 // The argument "e" contains information on the event

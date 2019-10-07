@@ -57,7 +57,9 @@ You can also control the load panel programmatically using the [beginCustomLoadi
     import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         doSomeLongOperation () {
             this.dataGrid.instance.beginCustomLoading();
             // ...

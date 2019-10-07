@@ -95,7 +95,9 @@ Use the [toolbox](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration
         styleUrls: ['./app.component.css']
     })
     export class AppComponent {
-        @ViewChild(DxDiagramComponent, { static: false }) diagram: DxDiagramComponent;
+        @ViewChild(DxDiagramComponent, { static: false }, { static: false }) diagram: DxDiagramComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxDiagramComponent, { static: false }) diagram: DxDiagramComponent;
 
         constructor(http: HttpClient) {
             http.get('data/diagram-hardware.json').subscribe(data => {

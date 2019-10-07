@@ -53,7 +53,9 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
     import { DxRangeSliderModule, DxRangeSliderComponent } from "devextreme-angular";
     // ...
     export class AppComponent implements AfterViewInit {
-        @ViewChild(DxRangeSliderComponent) rangeSlider: DxRangeSliderComponent
+        @ViewChild(DxRangeSliderComponent, { static: false }) rangeSlider: DxRangeSliderComponent
+        // Prior to Angular 8
+        // @ViewChild(DxRangeSliderComponent) rangeSlider: DxRangeSliderComponent
         ngAfterViewInit () {
             this.rangeSlider.instance.registerKeyHandler("backspace", function (e) {
                 // The argument "e" contains information on the event

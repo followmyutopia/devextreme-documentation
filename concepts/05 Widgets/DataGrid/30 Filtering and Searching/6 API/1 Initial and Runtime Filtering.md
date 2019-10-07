@@ -16,7 +16,9 @@ The initial and runtime filtering API depends on the UI element and is described
     import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         filterByCost () {
             this.dataGrid.instance.filter([
                 [ "Cost", ">", 1000 ],
@@ -49,7 +51,9 @@ You can create a filter that combines all the applied filters by calling the [ge
     import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         getCombinedFilter () {
             return this.dataGrid.instance.getCombinedFilter(true);
         }

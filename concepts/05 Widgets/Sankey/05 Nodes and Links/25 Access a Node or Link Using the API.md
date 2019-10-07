@@ -15,7 +15,9 @@ Call the [getAllNodes()](/Documentation/ApiReference/Data_Visualization_Widgets/
     import { DxSankeyModule, DxSankeyComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxSankeyComponent) sankey: DxSankeyComponent;
+        @ViewChild(DxSankeyComponent, { static: false }) sankey: DxSankeyComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxSankeyComponent) sankey: DxSankeyComponent;
         sankeyNodes: Array<any>;
         sankeyLinks: Array<any>;
         getSankeyNodes() {

@@ -57,7 +57,9 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
     import { DxLookupModule, DxLookupComponent } from "devextreme-angular";
     // ...
     export class AppComponent implements AfterViewInit {
-        @ViewChild(DxLookupComponent) lookup: DxLookupComponent
+        @ViewChild(DxLookupComponent, { static: false }) lookup: DxLookupComponent
+        // Prior to Angular 8
+        // @ViewChild(DxLookupComponent) lookup: DxLookupComponent
         ngAfterViewInit () {
             this.lookup.instance.registerKeyHandler("backspace", function (e) {
                 // The argument "e" contains information on the event

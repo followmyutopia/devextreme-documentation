@@ -53,7 +53,9 @@ The **visibleIndex** option can also be changed at runtime to reorder columns re
     import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         swapColumns () {
             this.dataGrid.instance.columnOption(1, "visibleIndex", 0);
         }

@@ -14,7 +14,9 @@ You can clear sorting settings for all columns by calling the [clearSorting()](/
     import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         clearSortingByNames () {
             this.dataGrid.instance.columnOption("Name", "sortIndex", undefined);
         }

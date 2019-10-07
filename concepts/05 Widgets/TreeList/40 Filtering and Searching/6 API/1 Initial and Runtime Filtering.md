@@ -16,7 +16,9 @@ The initial and runtime filtering API depends on the UI element and is described
     import { DxTreeListModule, DxTreeListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        @ViewChild(DxTreeListComponent, { static: false }) treeList: DxTreeListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         filterByCost () {
             this.treeList.instance.filter([
                 [ "Cost", ">", 1000 ],
@@ -49,7 +51,9 @@ You can create a filter that combines all the applied filters by calling the [ge
     import { DxTreeListModule, DxTreeListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        @ViewChild(DxTreeListComponent, { static: false }) treeList: DxTreeListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         getCombinedFilter () {
             return this.treeList.instance.getCombinedFilter(true);
         }

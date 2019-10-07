@@ -53,7 +53,9 @@ The layout does not automatically adapt if the widget's container is resized at 
     import { DxSankeyModule, DxSankeyComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxSankeyComponent) sankey: DxSankeyComponent;
+        @ViewChild(DxSankeyComponent, { static: false }) sankey: DxSankeyComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxSankeyComponent) sankey: DxSankeyComponent;
         renderSankey() {
             this.sankey.instance.render();
         }

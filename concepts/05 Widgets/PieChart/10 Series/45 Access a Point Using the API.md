@@ -12,7 +12,9 @@ Before accessing a series point, gain access to its series by calling the [getAl
     import { DxPieChartModule, DxPieChartComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxPieChartComponent) pieChart: DxPieChartComponent;
+        @ViewChild(DxPieChartComponent, { static: false }) pieChart: DxPieChartComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxPieChartComponent) pieChart: DxPieChartComponent;
         series: any = [];
         getSeries() {
             this.series = this.pieChart.instance.getAllSeries()[0];
@@ -46,7 +48,9 @@ Gets all the series points.
         import { DxPieChartModule, DxPieChartComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
-            @ViewChild(DxPieChartComponent) pieChart: DxPieChartComponent;
+            @ViewChild(DxPieChartComponent, { static: false }) pieChart: DxPieChartComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxPieChartComponent) pieChart: DxPieChartComponent;
             seriesPoints: any = [];
             getSeriesPoints() {
                 let series = this.pieChart.instance.getAllSeries()[0];
@@ -78,7 +82,9 @@ Gets those series points that have a specific argument.
         import { DxPieChartModule, DxPieChartComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
-            @ViewChild(DxPieChartComponent) pieChart: DxPieChartComponent;
+            @ViewChild(DxPieChartComponent, { static: false }) pieChart: DxPieChartComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxPieChartComponent) pieChart: DxPieChartComponent;
             chinaPoints: any = {};
             getChinaPoints() {
                 let series = this.pieChart.instance.getAllSeries()[0];
@@ -110,7 +116,9 @@ Gets a point using its index. The index is zero-based.
         import { DxPieChartModule, DxPieChartComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
-            @ViewChild(DxPieChartComponent) pieChart: DxPieChartComponent;
+            @ViewChild(DxPieChartComponent, { static: false }) pieChart: DxPieChartComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxPieChartComponent) pieChart: DxPieChartComponent;
             firstPoint: any = {};
             getFirstPoint() {
                 let series = this.pieChart.instance.getAllSeries()[0];
@@ -142,7 +150,9 @@ Gets only [visible](/Documentation/ApiReference/Data_Visualization_Widgets/dxPie
         import { DxPieChartModule, DxPieChartComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
-            @ViewChild(DxPieChartComponent) pieChart: DxPieChartComponent;
+            @ViewChild(DxPieChartComponent, { static: false }) pieChart: DxPieChartComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxPieChartComponent) pieChart: DxPieChartComponent;
             visiblePoints: any = [];
             getVisiblePoints() {
                 let series = this.pieChart.instance.getAllSeries()[0];

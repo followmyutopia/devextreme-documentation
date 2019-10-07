@@ -13,7 +13,9 @@ To select or cancel the selection of a node programmatically, call the [selectIt
     import { DxTreeViewModule, DxTreeViewComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxTreeViewComponent) treeView: DxTreeViewComponent;
+        @ViewChild(DxTreeViewComponent, { static: false }) treeView: DxTreeViewComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxTreeViewComponent) treeView: DxTreeViewComponent;
         selectNode (key) {
             this.treeView.instance.selectItem(key);
         }
@@ -46,7 +48,9 @@ To select or cancel the selection of all nodes programmatically, call the [selec
     import { DxTreeViewModule, DxTreeViewComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxTreeViewComponent) treeView: DxTreeViewComponent;
+        @ViewChild(DxTreeViewComponent, { static: false }) treeView: DxTreeViewComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxTreeViewComponent) treeView: DxTreeViewComponent;
         selectAllNodes () {
             this.treeView.instance.selectAll();
         }

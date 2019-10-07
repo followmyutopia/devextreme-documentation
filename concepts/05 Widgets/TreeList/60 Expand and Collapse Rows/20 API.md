@@ -55,7 +55,9 @@ Call the [expandRow(key)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Meth
     import { DxTreeListModule, DxTreeListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        @ViewChild(DxTreeListComponent, { static: false }) treeList: DxTreeListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         toggleRow (key) {
             if (this.treeList.instance.isRowExpanded(key)) {
                 this.treeList.instance.collapseRow(key);

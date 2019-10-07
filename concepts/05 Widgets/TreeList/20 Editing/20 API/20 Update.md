@@ -22,7 +22,9 @@ The [cellValue (rowIndex, visibleColumnIndex, value)](/Documentation/ApiReferenc
     import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        @ViewChild(DxTreeListComponent, { static: false }) treeList: DxTreeListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         updateCell () {
             this.treeList.instance.cellValue(1, "Position", "CTO");
             this.treeList.instance.saveEditData();
@@ -130,7 +132,9 @@ Call the [hasEditData()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Metho
     import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        @ViewChild(DxTreeListComponent, { static: false }) treeList: DxTreeListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         saveEditData () {
             if (this.treeList.instance.hasEditData()) {
                 // Implement your logic here

@@ -283,7 +283,9 @@ This function allows you to change form item options dynamically. Within this fu
             styleUrls: ['./app.component.css']
         })
         export class AppComponent {            
-            @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;            
+            @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;            
+            // Prior to Angular 8
+            // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;            
             // ...            
             customizeItem = (item) => {
                 if(item && item.itemType === "group" && item.caption === "Home Address") {

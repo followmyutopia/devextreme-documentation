@@ -45,7 +45,9 @@ To get the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) inst
     import DataSource from "devextreme/data/data_source";
     // ...
     export class AppComponent {
-        @ViewChild(DxSankeyComponent) sankey: DxSankeyComponent;
+        @ViewChild(DxSankeyComponent, { static: false }) sankey: DxSankeyComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxSankeyComponent) sankey: DxSankeyComponent;
         sankeyDataSource: DataSource;
         getDataSource() {
             this.sankeyDataSource = this.sankey.instance.getDataSource();

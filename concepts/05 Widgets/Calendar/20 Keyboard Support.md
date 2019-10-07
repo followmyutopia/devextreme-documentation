@@ -53,7 +53,9 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
     import { DxCalendarModule, DxCalendarComponent } from "devextreme-angular";
     // ...
     export class AppComponent implements AfterViewInit {
-        @ViewChild(DxCalendarComponent) calendar: DxCalendarComponent
+        @ViewChild(DxCalendarComponent, { static: false }) calendar: DxCalendarComponent
+        // Prior to Angular 8
+        // @ViewChild(DxCalendarComponent) calendar: DxCalendarComponent
         ngAfterViewInit () {
             this.calendar.instance.registerKeyHandler("backspace", function (e) {
                 // The argument "e" contains information on the event

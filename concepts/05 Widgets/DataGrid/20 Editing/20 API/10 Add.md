@@ -13,7 +13,9 @@ Use the [addRow()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#ad
     import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         addRow () {
            this.dataGrid.instance.addRow();
         }

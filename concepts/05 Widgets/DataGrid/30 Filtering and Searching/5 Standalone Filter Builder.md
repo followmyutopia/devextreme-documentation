@@ -94,8 +94,11 @@ Then, add a button that updates a filter of the **DataGrid**'s data source accor
     } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
-        @ViewChild(DxFilterBuilderComponent) filterBuilder: DxFilterBuilderComponent;
+        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+        @ViewChild(DxFilterBuilderComponent, { static: false }) filterBuilder: DxFilterBuilderComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+        // @ViewChild(DxFilterBuilderComponent) filterBuilder: DxFilterBuilderComponent;
         // ...
         buttonClick() {
             this.dataGrid.instance.filter(this.filterBuilder.instance.getFilterExpression());

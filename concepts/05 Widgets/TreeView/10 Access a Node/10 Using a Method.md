@@ -12,7 +12,9 @@ Call the [getNodes()](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/
     import { DxTreeViewModule, DxTreeViewComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxTreeViewComponent) treeView: DxTreeViewComponent;
+        @ViewChild(DxTreeViewComponent, { static: false }) treeView: DxTreeViewComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxTreeViewComponent) treeView: DxTreeViewComponent;
         nodeCollection: Array<any> = [];
         getNodes () {
             this.nodeCollection = this.treeView.instance.getNodes();

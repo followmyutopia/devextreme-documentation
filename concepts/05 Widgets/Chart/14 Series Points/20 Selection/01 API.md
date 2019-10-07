@@ -110,7 +110,9 @@ If you need to clear selection of all series in the **Chart** along with their p
     import { DxChartModule, DxChartComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxChartComponent) chart: DxChartComponent;
+        @ViewChild(DxChartComponent, { static: false }) chart: DxChartComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxChartComponent) chart: DxChartComponent;
         clearSelection() {
             this.chart.instance.clearSelection();
         }

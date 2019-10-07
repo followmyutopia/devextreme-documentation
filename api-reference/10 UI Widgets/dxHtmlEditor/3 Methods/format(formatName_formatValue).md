@@ -35,7 +35,9 @@ If no content is selected, the format applies to the character typed next.
     import { DxHtmlEditorModule, DxHtmlEditorComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxHtmlEditorComponent) htmlEditor: DxHtmlEditorComponent;
+        @ViewChild(DxHtmlEditorComponent, { static: false }) htmlEditor: DxHtmlEditorComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxHtmlEditorComponent) htmlEditor: DxHtmlEditorComponent;
         makeTextBold() {
             this.htmlEditor.instance.format("bold", true);
         }

@@ -14,7 +14,9 @@ You can clear sorting settings for all columns by calling the [clearSorting()](/
     import { DxTreeListModule, DxTreeListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        @ViewChild(DxTreeListComponent, { static: false }) treeList: DxTreeListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         clearSortingByNames () {
             this.treeList.instance.columnOption("Name", "sortIndex", undefined);
         }

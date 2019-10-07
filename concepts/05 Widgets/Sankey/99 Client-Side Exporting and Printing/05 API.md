@@ -15,7 +15,9 @@ To export the widget using the API, call the [exportTo(fileName, format)](/Docum
     import { DxSankeyModule, DxSankeyComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxSankeyComponent) sankey: DxSankeyComponent;
+        @ViewChild(DxSankeyComponent, { static: false }) sankey: DxSankeyComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxSankeyComponent) sankey: DxSankeyComponent;
         exportSankey() {
             this.sankey.instance.exportTo("exported_sankey", "PDF");
         };
@@ -58,8 +60,11 @@ You can also export several widgets simultaneously using their SVG markup. Call 
     import exportMethods from "devextreme/viz/export";
     // ...
     export class AppComponent {
-        @ViewChild("sankeyContainer1") sankey1: DxSankeyComponent;
-        @ViewChild("sankeyContainer2") sankey2: DxSankeyComponent;
+        @ViewChild("sankeyContainer1", { static: false }) sankey1: DxSankeyComponent;
+        @ViewChild("sankeyContainer2", { static: false }) sankey2: DxSankeyComponent;
+        // Prior to Angular 8
+        // @ViewChild("sankeyContainer1") sankey1: DxSankeyComponent;
+        // @ViewChild("sankeyContainer2") sankey2: DxSankeyComponent;
         exportSeveralSankeys() {
             let sankeyMarkup = exportMethods.getMarkup([this.sankey1.instance, this.sankey2.instance]);
             exportMethods.exportFromMarkup(sankeyMarkup, {

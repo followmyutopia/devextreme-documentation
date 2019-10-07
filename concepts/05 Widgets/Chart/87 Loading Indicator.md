@@ -54,7 +54,9 @@ If you need to show or hide the loading indicator at runtime, call the [showLoad
     import { DxChartModule, DxChartComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxChartComponent) chart: DxChartComponent;
+        @ViewChild(DxChartComponent, { static: false }) chart: DxChartComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxChartComponent) chart: DxChartComponent;
         showLoadingIndicator () {
             this.chart.instance.showLoadingIndicator();
         };

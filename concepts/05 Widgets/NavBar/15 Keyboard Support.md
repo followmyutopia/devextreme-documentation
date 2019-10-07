@@ -45,7 +45,9 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
     import { DxNavBarModule, DxNavBarComponent } from "devextreme-angular";
     // ...
     export class AppComponent implements AfterViewInit {
-        @ViewChild(DxNavBarComponent) navBar: DxNavBarComponent
+        @ViewChild(DxNavBarComponent, { static: false }) navBar: DxNavBarComponent
+        // Prior to Angular 8
+        // @ViewChild(DxNavBarComponent) navBar: DxNavBarComponent
         ngAfterViewInit () {
             this.navBar.instance.registerKeyHandler("backspace", function (e) {
                 // The argument "e" contains information on the event

@@ -94,8 +94,11 @@ Then, add a button that updates a filter of the **TreeList**'s data source accor
     } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
-        @ViewChild(DxFilterBuilderComponent) filterBuilder: DxFilterBuilderComponent;
+        @ViewChild(DxTreeListComponent, { static: false }) treeList: DxTreeListComponent;
+        @ViewChild(DxFilterBuilderComponent, { static: false }) filterBuilder: DxFilterBuilderComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        // @ViewChild(DxFilterBuilderComponent) filterBuilder: DxFilterBuilderComponent;
         // ...
         buttonClick() {
             this.treeList.instance.filter(this.filterBuilder.instance.getFilterExpression());

@@ -13,7 +13,9 @@ Call the [getAllItems()](/Documentation/ApiReference/Data_Visualization_Widgets/
     import { DxFunnelModule, DxFunnelComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxFunnelComponent) funnel: DxFunnelComponent;
+        @ViewChild(DxFunnelComponent, { static: false }) funnel: DxFunnelComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxFunnelComponent) funnel: DxFunnelComponent;
         funnelItems: any = [];
         getFunnelItems() {
             this.funnelItems = this.funnel.instance.getAllItems();

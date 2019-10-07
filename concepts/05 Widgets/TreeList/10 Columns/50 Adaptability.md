@@ -61,7 +61,9 @@ The table layout does not automatically adapt to changes made in the widget's co
     import { DxTreeListModule, DxTreeListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        @ViewChild(DxTreeListComponent, { static: false }) treeList: DxTreeListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         renderTreeList () {
             this.treeList.instance.updateDimensions();
         };
@@ -104,7 +106,9 @@ You can expand or collapse adaptive detail rows programmatically by calling the 
     import { DxTreeListModule, DxTreeListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        @ViewChild(DxTreeListComponent, { static: false }) treeList: DxTreeListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         expandAdaptiveDetailRow (key) {
             if (!this.treeList.instance.isAdaptiveDetailRowExpanded(key)) {
                 this.treeList.instance.expandAdaptiveDetailRow(key);

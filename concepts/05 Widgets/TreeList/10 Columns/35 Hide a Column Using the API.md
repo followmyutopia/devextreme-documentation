@@ -12,7 +12,9 @@ A column is considered hidden when its [visible](/Documentation/ApiReference/UI_
     import { DxTreeListModule, DxTreeListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        @ViewChild(DxTreeListComponent, { static: false }) treeList: DxTreeListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         hideEmails() () {
             this.treeList.instance.columnOption("Email", "visible", false);
         }

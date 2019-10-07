@@ -32,7 +32,9 @@ Call [saveEditData()]({basewidgetpath}/Methods/#saveEditData) after this method 
     import { Dx{WidgetName}Module, Dx{WidgetName}Component } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(Dx{WidgetName}Component) {widgetName}: Dx{WidgetName}Component;
+        @ViewChild(Dx{WidgetName}Component, { static: false }) {widgetName}: Dx{WidgetName}Component;
+        // Prior to Angular 8
+        // @ViewChild(Dx{WidgetName}Component) {widgetName}: Dx{WidgetName}Component;
         updateCell(rowIndex, dataField, value) {
             this.{widgetName}.instance.cellValue(rowIndex, dataField, value);
             this.{widgetName}.instance.saveEditData();

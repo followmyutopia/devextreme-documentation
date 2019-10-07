@@ -61,7 +61,9 @@ The table layout does not automatically adapt to changes made in the widget's co
     import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) grid: DxDataGridComponent;
+        @ViewChild(DxDataGridComponent, { static: false }) grid: DxDataGridComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) grid: DxDataGridComponent;
         renderDataGrid () {
             this.grid.instance.updateDimensions();
         };
@@ -109,7 +111,9 @@ You can expand or collapse adaptive detail rows programmatically by calling the 
     import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         expandAdaptiveDetailRow (key) {
             if (!this.dataGrid.instance.isAdaptiveDetailRowExpanded(key)) {
                 this.dataGrid.instance.expandAdaptiveDetailRow(key);

@@ -110,7 +110,9 @@ In the previous code examples, selection was cleared of a specific series. If yo
     import { DxChartModule, DxChartComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxChartComponent) chart: DxChartComponent;
+        @ViewChild(DxChartComponent, { static: false }) chart: DxChartComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxChartComponent) chart: DxChartComponent;
         clearSelection() {
             this.chart.instance.clearSelection();
         }

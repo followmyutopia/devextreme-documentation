@@ -15,7 +15,9 @@ The [clearFilter(filterName)](/Documentation/ApiReference/UI_Widgets/dxTreeList/
     import { DxTreeListModule, DxTreeListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        @ViewChild(DxTreeListComponent, { static: false }) treeList: DxTreeListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         clearSearchPanel () {
             this.treeList.instance.clearFilter("search");
         }

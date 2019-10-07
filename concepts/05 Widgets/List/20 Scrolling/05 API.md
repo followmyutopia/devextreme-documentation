@@ -81,7 +81,9 @@ The following examples shows how to call these methods.
     import { DxListModule, DxListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxListComponent) list: DxListComponent;
+        @ViewChild(DxListComponent, { static: false }) list: DxListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxListComponent) list: DxListComponent;
         scrollToLastItem () {
             let listItems = this.list.instance.option("items");
             this.list.instance.scrollToItem(listItems.length-1);
@@ -109,7 +111,9 @@ The following examples shows how to call these methods.
     import { DxListModule, DxListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxListComponent) list: DxListComponent;
+        @ViewChild(DxListComponent, { static: false }) list: DxListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxListComponent) list: DxListComponent;
         scrollToLastItem () {
             // Finds the DOM nodes of all items and scrolls the List to the last node
             let listItemNodes = document.getElementsByClassName("dx-list-item");
@@ -136,7 +140,9 @@ The following examples shows how to call these methods.
     import { DxListModule, DxListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxListComponent) list: DxListComponent;
+        @ViewChild(DxListComponent, { static: false }) list: DxListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxListComponent) list: DxListComponent;
         getListHeight() {
             return this.list.instance.scrollHeight();
         }

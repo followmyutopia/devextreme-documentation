@@ -53,7 +53,9 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
     import { DxScrollViewModule, DxScrollViewComponent } from "devextreme-angular";
     // ...
     export class AppComponent implements AfterViewInit {
-        @ViewChild(DxScrollViewComponent) scrollView: DxScrollViewComponent
+        @ViewChild(DxScrollViewComponent, { static: false }) scrollView: DxScrollViewComponent
+        // Prior to Angular 8
+        // @ViewChild(DxScrollViewComponent) scrollView: DxScrollViewComponent
         ngAfterViewInit () {
             this.scrollView.instance.registerKeyHandler("backspace", function (e) {
                 // The argument "e" contains information on the event

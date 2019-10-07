@@ -65,7 +65,9 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
     import { DxTagBoxModule, DxTagBoxComponent } from "devextreme-angular";
     // ...
     export class AppComponent implements AfterViewInit {
-        @ViewChild(DxTagBoxComponent) tagBox: DxTagBoxComponent
+        @ViewChild(DxTagBoxComponent, { static: false }) tagBox: DxTagBoxComponent
+        // Prior to Angular 8
+        // @ViewChild(DxTagBoxComponent) tagBox: DxTagBoxComponent
         ngAfterViewInit () {
             this.tagBox.instance.registerKeyHandler("backspace", function (e) {
                 // The argument "e" contains information on the event

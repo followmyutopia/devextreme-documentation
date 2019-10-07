@@ -53,7 +53,9 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
     import { DxRadioGroupModule, DxRadioGroupComponent } from "devextreme-angular";
     // ...
     export class AppComponent implements AfterViewInit {
-        @ViewChild(DxRadioGroupComponent) radioGroup: DxRadioGroupComponent
+        @ViewChild(DxRadioGroupComponent, { static: false }) radioGroup: DxRadioGroupComponent
+        // Prior to Angular 8
+        // @ViewChild(DxRadioGroupComponent) radioGroup: DxRadioGroupComponent
         ngAfterViewInit () {
             this.radioGroup.instance.registerKeyHandler("backspace", function (e) {
                 // The argument "e" contains information on the event

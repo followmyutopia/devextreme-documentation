@@ -49,7 +49,9 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
     import { DxSwitchModule, DxSwitchComponent } from "devextreme-angular";
     // ...
     export class AppComponent implements AfterViewInit {
-        @ViewChild(DxSwitchComponent) switch: DxSwitchComponent
+        @ViewChild(DxSwitchComponent, { static: false }) switch: DxSwitchComponent
+        // Prior to Angular 8
+        // @ViewChild(DxSwitchComponent) switch: DxSwitchComponent
         ngAfterViewInit () {
             this.switch.instance.registerKeyHandler("backspace", function (e) {
                 // The argument "e" contains information on the event

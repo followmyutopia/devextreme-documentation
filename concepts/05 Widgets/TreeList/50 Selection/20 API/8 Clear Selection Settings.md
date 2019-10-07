@@ -12,7 +12,9 @@ Call the [deselectRows(keys)](/Documentation/ApiReference/UI_Widgets/dxTreeList/
     import { DxTreeListModule, DxTreeListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        @ViewChild(DxTreeListComponent, { static: false }) treeList: DxTreeListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         deselectRows (keys) {
             this.treeList.instance.deselectRows(keys);
         }
@@ -43,7 +45,9 @@ The [deselectAll()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#d
     import { DxTreeListModule, DxTreeListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        @ViewChild(DxTreeListComponent, { static: false }) treeList: DxTreeListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         deselectVisibleRows () {
             this.treeList.instance.deselectAll();
         }

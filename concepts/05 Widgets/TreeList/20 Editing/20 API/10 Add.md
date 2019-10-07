@@ -13,7 +13,9 @@ Use the [addRow()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#ad
     import { DxTreeListModule, DxTreeListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        @ViewChild(DxTreeListComponent, { static: false }) treeList: DxTreeListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         addRow () {
            this.treeList.instance.addRow();
         }

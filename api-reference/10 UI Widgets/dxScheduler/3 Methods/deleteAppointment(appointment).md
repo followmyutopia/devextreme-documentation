@@ -60,7 +60,9 @@ If you delete a recurring appointment from the data source, all its occurrences 
         styleUrls: ['./app.component.css']
     })
     export class AppComponent  {
-        @ViewChild(DxSchedulerComponent) scheduler: DxSchedulerComponent;
+        @ViewChild(DxSchedulerComponent, { static: false }) scheduler: DxSchedulerComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxSchedulerComponent) scheduler: DxSchedulerComponent;
         currentDate: Date = new Date(2018, 4, 25);
         appointments: Appointment[];
 

@@ -85,7 +85,9 @@ To collapse or expand a specific group programmatically, call the [collapseGroup
     import { DxListModule, DxListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxListComponent) list: DxListComponent;
+        @ViewChild(DxListComponent, { static: false }) list: DxListComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxListComponent) list: DxListComponent;
         collapseGroup (groupIndex) {
             this.list.instance.collapseGroup(groupIndex);
         }

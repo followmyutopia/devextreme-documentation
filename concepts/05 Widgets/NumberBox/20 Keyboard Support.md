@@ -45,7 +45,9 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
     import { DxNumberBoxModule, DxNumberBoxComponent } from "devextreme-angular";
     // ...
     export class AppComponent implements AfterViewInit {
-        @ViewChild(DxNumberBoxComponent) numberBox: DxNumberBoxComponent
+        @ViewChild(DxNumberBoxComponent, { static: false }) numberBox: DxNumberBoxComponent
+        // Prior to Angular 8
+        // @ViewChild(DxNumberBoxComponent) numberBox: DxNumberBoxComponent
         ngAfterViewInit () {
             this.numberBox.instance.registerKeyHandler("backspace", function (e) {
                 // The argument "e" contains information on the event

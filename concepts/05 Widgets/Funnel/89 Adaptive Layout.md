@@ -53,7 +53,9 @@ The layout does not automatically adapt to changes made in the widget's containe
     import { DxFunnelModule, DxFunnelComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxFunnelComponent) funnel: DxFunnelComponent;
+        @ViewChild(DxFunnelComponent, { static: false }) funnel: DxFunnelComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxFunnelComponent) funnel: DxFunnelComponent;
         renderFunnel () {
             this.funnel.instance.render();
         };

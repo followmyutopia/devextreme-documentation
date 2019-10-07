@@ -63,7 +63,9 @@ You can change a column's **groupIndex** at runtime using the [columnOption(id, 
     import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         groupByCity() () {
             this.dataGrid.instance.columnOption("City", "groupIndex", 0);
         }

@@ -25,7 +25,9 @@ Add or remove the key from the [selectedItemKeys](/Documentation/ApiReference/UI
         import { DxListModule, DxListComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
-            @ViewChild(DxListComponent) list: DxListComponent;
+            @ViewChild(DxListComponent, { static: false }) list: DxListComponent;
+            // Prior to Angular 8
+            // @ViewChild(DxListComponent) list: DxListComponent;
             selectItem (key) {
                 let selectedKeys = this.list.instance.option("selectedItemKeys");
                 if(selectedKeys.includes(key)) {
@@ -118,7 +120,9 @@ Add or remove the data object from the [selectedItems](/Documentation/ApiReferen
         import { DxListModule, DxListComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
-            @ViewChild(DxListComponent) list: DxListComponent;
+            @ViewChild(DxListComponent, { static: false }) list: DxListComponent;
+            // Prior to Angular 8
+            // @ViewChild(DxListComponent) list: DxListComponent;
             fruits = [
                 { fruit: "Apples", count: 10 },
                 { fruit: "Oranges", count: 12 },
@@ -219,7 +223,9 @@ Pass the index to the [selectItem(itemIndex)](/Documentation/ApiReference/UI_Wid
         import { DxListModule, DxListComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
-            @ViewChild(DxListComponent) list: DxListComponent;
+            @ViewChild(DxListComponent, { static: false }) list: DxListComponent;
+            // Prior to Angular 8
+            // @ViewChild(DxListComponent) list: DxListComponent;
             selectItem (index) {
                 // Checks that the item with the index is selected
                 if (this.list.isItemSelected(index)) {
@@ -275,7 +281,9 @@ Pass the <a href="http://www.w3schools.com/js/js_htmldom_nodes.asp" target="_bla
         import { DxListModule, DxListComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
-            @ViewChild(DxListComponent) list: DxListComponent;
+            @ViewChild(DxListComponent, { static: false }) list: DxListComponent;
+            // Prior to Angular 8
+            // @ViewChild(DxListComponent) list: DxListComponent;
             selectLastItem () {
                 var itemNodes = document.getElementsByClassName("dx-list-item");
                 // Selects the last item by its DOM node

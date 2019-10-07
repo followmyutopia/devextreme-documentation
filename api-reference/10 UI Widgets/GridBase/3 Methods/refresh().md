@@ -44,7 +44,9 @@ The following code shows how to call this method:
         styleUrls: ['./app.component.css']
     })
     export class AppComponent {
-        @ViewChild('{widgetName}Var') {widgetName}: Dx{WidgetName}Component;
+        @ViewChild('{widgetName}Var', { static: false }) {widgetName}: Dx{WidgetName}Component;
+        // Prior to Angular 8
+        // @ViewChild('{widgetName}Var') {widgetName}: Dx{WidgetName}Component;
 
         refresh{WidgetName}() {
             this.{widgetName}.instance.refresh()

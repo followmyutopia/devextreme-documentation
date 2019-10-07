@@ -45,7 +45,9 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
     import { DxGalleryModule, DxGalleryComponent } from "devextreme-angular";
     // ...
     export class AppComponent implements AfterViewInit {
-        @ViewChild(DxGalleryComponent) gallery: DxGalleryComponent
+        @ViewChild(DxGalleryComponent, { static: false }) gallery: DxGalleryComponent
+        // Prior to Angular 8
+        // @ViewChild(DxGalleryComponent) gallery: DxGalleryComponent
         ngAfterViewInit () {
             this.gallery.instance.registerKeyHandler("backspace", function (e) {
                 // The argument "e" contains information on the event

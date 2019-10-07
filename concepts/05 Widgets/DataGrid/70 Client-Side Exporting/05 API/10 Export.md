@@ -14,7 +14,9 @@ Call [exportToExcel(selectionOnly)](/Documentation/ApiReference/UI_Widgets/dxDat
     import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
+        @ViewChild(DxDataGridComponent, { static: false }) dataGrid: DxDataGridComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         exportSelectedData () {
             this.dataGrid.instance.exportToExcel(true);
         };

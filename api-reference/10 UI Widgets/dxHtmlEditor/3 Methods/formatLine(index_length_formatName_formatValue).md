@@ -35,7 +35,9 @@ A format value.
     import { DxHtmlEditorModule, DxHtmlEditorComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxHtmlEditorComponent) htmlEditor: DxHtmlEditorComponent;
+        @ViewChild(DxHtmlEditorComponent, { static: false }) htmlEditor: DxHtmlEditorComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxHtmlEditorComponent) htmlEditor: DxHtmlEditorComponent;
         alignFirstLineToRight() {
             this.htmlEditor.instance.formatLine(0, 1, "align", "right");
         }

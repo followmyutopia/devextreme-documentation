@@ -15,7 +15,9 @@ To export a widget using the API, call the [exportTo(fileName, format)](/Documen
     import { DxChartModule, DxChartComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxChartComponent) chart: DxChartComponent;
+        @ViewChild(DxChartComponent, { static: false }) chart: DxChartComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxChartComponent) chart: DxChartComponent;
         exportChart () {
             this.chart.instance.exportTo('Exported Chart', 'PDF');
         };
@@ -59,8 +61,11 @@ You can also export several widgets at once using their SVG markup. Gather the m
     import exportMethods from "devextreme/viz/export";
     // ...
     export class AppComponent {
-        @ViewChild('chartContainer1') chart1: DxChartComponent;
-        @ViewChild('chartContainer2') chart2: DxChartComponent;
+        @ViewChild('chartContainer1', { static: false }) chart1: DxChartComponent;
+        @ViewChild('chartContainer2', { static: false }) chart2: DxChartComponent;
+        // Prior to Angular 8
+        // @ViewChild('chartContainer1') chart1: DxChartComponent;
+        // @ViewChild('chartContainer2') chart2: DxChartComponent;
         exportSeveralCharts () {
             let chartMarkup = exportMethods.getMarkup([this.chart1.instance, this.chart2.instance]);
             exportMethods.exportFromMarkup(chartMarkup, {

@@ -57,7 +57,9 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
     import { DxTileViewModule, DxTileViewComponent } from "devextreme-angular";
     // ...
     export class AppComponent implements AfterViewInit {
-        @ViewChild(DxTileViewComponent) tileView: DxTileViewComponent
+        @ViewChild(DxTileViewComponent, { static: false }) tileView: DxTileViewComponent
+        // Prior to Angular 8
+        // @ViewChild(DxTileViewComponent) tileView: DxTileViewComponent
         ngAfterViewInit () {
             this.tileView.instance.registerKeyHandler("backspace", function (e) {
                 // The argument "e" contains information on the event

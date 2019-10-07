@@ -45,7 +45,9 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
     import { DxTabPanelModule, DxTabPanelComponent } from "devextreme-angular";
     // ...
     export class AppComponent implements AfterViewInit {
-        @ViewChild(DxTabPanelComponent) tabPanel: DxTabPanelComponent
+        @ViewChild(DxTabPanelComponent, { static: false }) tabPanel: DxTabPanelComponent
+        // Prior to Angular 8
+        // @ViewChild(DxTabPanelComponent) tabPanel: DxTabPanelComponent
         ngAfterViewInit () {
             this.tabPanel.instance.registerKeyHandler("backspace", function (e) {
                 // The argument "e" contains information on the event

@@ -61,7 +61,9 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
     import { DxColorBoxModule, DxColorBoxComponent } from "devextreme-angular";
     // ...
     export class AppComponent implements AfterViewInit {
-        @ViewChild(DxColorBoxComponent) colorBox: DxColorBoxComponent
+        @ViewChild(DxColorBoxComponent, { static: false }) colorBox: DxColorBoxComponent
+        // Prior to Angular 8
+        // @ViewChild(DxColorBoxComponent) colorBox: DxColorBoxComponent
         ngAfterViewInit () {
             this.colorBox.instance.registerKeyHandler("backspace", function (e) {
                 // The argument "e" contains information on the event

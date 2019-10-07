@@ -33,7 +33,9 @@ An embedded format's [value](/Documentation/Guide/Widgets/HtmlEditor/Formats/).
     import { DxHtmlEditorModule, DxHtmlEditorComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
-        @ViewChild(DxHtmlEditorComponent) htmlEditor: DxHtmlEditorComponent;
+        @ViewChild(DxHtmlEditorComponent, { static: false }) htmlEditor: DxHtmlEditorComponent;
+        // Prior to Angular 8
+        // @ViewChild(DxHtmlEditorComponent) htmlEditor: DxHtmlEditorComponent;
         insertImageAtTheBeginning() {
             this.htmlEditor.instance.insertEmbed(0, "extendedImage", {
                 src: "https://js.devexpress.com/Content/images/doc/19_2/PhoneJS/person1.png",
