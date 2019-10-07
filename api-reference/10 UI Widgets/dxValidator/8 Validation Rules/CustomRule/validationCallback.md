@@ -28,7 +28,7 @@ A Boolean value that indicates whether the validated value is valid against the 
 In the following code, only odd numbers are considered valid:
 
 ---
-#####jQuery
+##### jQuery
 
     <!--JavaScript-->
     $(function () {
@@ -37,24 +37,24 @@ In the following code, only odd numbers are considered valid:
         }).dxValidator({
             validationRules: [{
                 type: "custom",
-                validationCallback: validationCallback,
-                message: "This is an even number. Enter an odd one."
+                validationCallback: validateNumber,
+                message: "An odd number is expected"
             }]
         });
     });
-    function validationCallback (e) {
+    function validateNumber (e) {
         return e.value % 2 == 0;
     }
 
 
-#####Angular
+##### Angular
 
     <!--HTML-->
     <dx-number-box [value]="3">
         <dx-validator>
             <dxi-validation-rule type="custom" 
-                [validationCallback]="validationCallback" 
-                message="This is an even number. Enter an odd one.">
+                [validationCallback]="validateNumber" 
+                message="An odd number is expected">
             </dxi-validation-rule>
         </dx-validator>
     </dx-number-box>
@@ -63,7 +63,7 @@ In the following code, only odd numbers are considered valid:
     import { DxNumberBoxModule, DxValidatorModule } from "devextreme-angular";
     // ...
     export class AppComponent {
-        validationCallback (e) {
+        validateNumber(e) {
             return e.value % 2 == 0;
         }
     }
@@ -75,6 +75,76 @@ In the following code, only odd numbers are considered valid:
         ],
         // ...
     })
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-number-box :value="3">
+            <dx-validator>
+                <dx-custom-rule
+                    :validation-callback="validateNumber"
+                    message="An odd number is expected"
+                />
+            </dx-validator>
+        </dx-number-box>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DxNumberBox from 'devextreme-vue/number-box';
+    import DxValidator, {
+        DxCustomRule
+    } from 'devextreme-vue/validator';
+
+    export default {
+        components: {
+            DxNumberBox,
+            DxValidator,
+            DxCustomRule
+        },
+        methods: {
+            validateNumber(e) {
+                return e.value % 2 == 0;
+            }
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import NumberBox from 'devextreme-react/number-box';
+    import Validator, {
+        CustomRule
+    } from 'devextreme-react/validator';
+
+    class App extends React.Component {
+        validateNumber(e) {
+            return e.value % 2 == 0;
+        }
+
+        render() {
+            return (
+                <NumberBox defaultValue={3}>
+                    <Validator>
+                        <CustomRule
+                            validationCallback={this.validateNumber}
+                            message="An odd number is expected"
+                        />
+                    </Validator>
+                </NumberBox>
+            );
+        }
+    }
+    export default App;
 
 ---
 
