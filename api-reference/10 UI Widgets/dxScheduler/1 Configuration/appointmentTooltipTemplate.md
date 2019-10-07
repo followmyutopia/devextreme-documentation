@@ -26,13 +26,8 @@ A template name or container.
 ---
 For appointments in the appointment collector, this option can be ignored in favor of the [dropDownAppointmentTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#dropDownAppointmentTemplate).
 
-#include common-demobutton-named with {
-    name: "Custom Templates",
+#include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Scheduler/CustomTemplates/jQuery/Light/"
-}
-#include common-demobutton-named with {
-    name: "Appointment Collector",
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/LimitAppointmentCountPerCell/jQuery/Light/"
 }
 
 #####See Also#####

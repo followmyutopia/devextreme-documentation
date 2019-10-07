@@ -20,9 +20,6 @@ The current appointment's index.
 A template name or container.
 
 ---
-#include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/LimitAppointmentCountPerCell/jQuery/Light/"
-}
 
 #####See Also#####
 - [Appointment Collector](/Documentation/Guide/Widgets/Scheduler/Appointments/Appointment_Collector/)
