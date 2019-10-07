@@ -2,13 +2,11 @@
 id: dxTreeList.Options.columns
 type: Array<dxTreeListColumn, String>
 default: undefined
+inheritsType: dxTreeListColumn
 ---
 ---
 ##### shortDescription
 Configures columns.
-
-##### inheritsType
-dxTreeListColumn
 
 ---
 This option accepts an array of objects, where each object configures a single column. If a column does not need to be customized, this array may include the name of the field that provides data for this column.

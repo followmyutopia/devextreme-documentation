@@ -4,7 +4,7 @@ type: function()
 ---
 ---
 ##### shortDescription
-A function that creates a folder. 
+A function that creates a folder.
 
 ---
 

@@ -3,13 +3,11 @@ id: dxFileManager.Options.toolbar.items
 acceptValues: 'showNavPane' | 'create' | 'upload' | 'refresh' | 'viewSwitcher' | 'download' | 'move' | 'copy' | 'rename' | 'delete' | 'clear' | 'separator'
 type: Array<dxFileManagerToolbarItem, String>
 default: [ 'showNavPane', 'create', 'upload', 'refresh', { name: 'separator', location: 'after' }, 'viewSwitcher' ]
+inheritsType: dxFileManagerToolbarItem
 ---
 ---
 ##### shortDescription
 Configures toolbar items' settings.
-
-##### inheritsType
-dxFileManagerToolbarItem
 
 ---
 

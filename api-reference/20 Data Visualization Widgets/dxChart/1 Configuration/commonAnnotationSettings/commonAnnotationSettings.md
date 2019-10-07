@@ -1,13 +1,11 @@
 ---
 id: dxChart.Options.commonAnnotationSettings
 type: dxChartCommonAnnotationConfig
+inheritsType: dxChartCommonAnnotationConfig
 ---
 ---
 ##### shortDescription
 Specifies settings common for all annotations in the chart.
-
-##### inheritsType
-dxChartCommonAnnotationConfig
 
 ---
 Settings specified here can be ignored in favor of individual annotation settings specified in the [annotations[]](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/) array. Refer to the array's description for information on how to configure annotations.

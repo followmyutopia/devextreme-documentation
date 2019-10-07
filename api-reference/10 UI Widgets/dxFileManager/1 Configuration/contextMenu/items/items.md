@@ -3,13 +3,11 @@ id: dxFileManager.Options.contextMenu.items
 acceptValues: 'create' | 'upload' | 'refresh' | 'download' | 'move' | 'copy' | 'rename' | 'delete'
 type: Array<dxFileManagerContextMenuItem, String>
 default: [ 'create', 'upload', 'rename', 'move', 'copy', 'delete', 'refresh', 'download' ]
+inheritsType: dxFileManagerContextMenuItem
 ---
 ---
 ##### shortDescription
 Configures context menu items' settings.
-
-##### inheritsType
-dxFileManagerContextMenuItem
 
 ---
 

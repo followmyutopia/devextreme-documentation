@@ -3,15 +3,13 @@ id: dxVectorMap.Options.projection
 acceptValues: 'equirectangular' | 'lambert' | 'mercator' | 'miller'
 type: String | VectorMapProjectionConfig | Object
 default: 'mercator'
+inheritsType: VectorMapProjectionConfig
 ---
 ---
 ##### shortDescription
 Specifies the map projection.
 
 ##### notUsedInTheme
-
-##### inheritsType
-VectorMapProjectionConfig
 
 ---
 You can use one of the following out-of-the-box projections:

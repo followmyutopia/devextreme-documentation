@@ -5,6 +5,7 @@ type: function()
 ---
 ##### shortDescription
 A function that cancels the file upload.
+
 ---
 
 

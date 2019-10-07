@@ -2,13 +2,11 @@
 id: dxDataGrid.Options.columns
 type: Array<dxDataGridColumn, String>
 default: undefined
+inheritsType: dxDataGridColumn
 ---
 ---
 ##### shortDescription
 An array of grid columns.
-
-##### inheritsType
-dxDataGridColumn
 
 ---
 By default, a column is created for each field of a data source object, but in most cases, it is redundant. To specify a set of columns to be created in a grid, assign an array specifying these columns to the **columns** option. Each grid column is represented in this array by an object containing column settings or by a data source field that this column is bound to. Detailed information on specifying grid columns is given in the [Columns Overview](/Documentation/Guide/Widgets/DataGrid/Columns/Overview/) article.

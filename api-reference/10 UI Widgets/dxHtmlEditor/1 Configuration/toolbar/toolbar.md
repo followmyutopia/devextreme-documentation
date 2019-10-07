@@ -2,13 +2,11 @@
 id: dxHtmlEditor.Options.toolbar
 type: dxHtmlEditorToolbar
 default: null
+inheritsType: dxHtmlEditorToolbar
 ---
 ---
 ##### shortDescription
 Configures the widget's toolbar.
-
-##### inheritsType
-dxHtmlEditorToolbar
 
 ---
 ![DevExtreme HTML5 JavaScript HtmlEditor Toolbar](Content/images/doc/19_2/htmlEditor/visual_elements/toolbar.png)
