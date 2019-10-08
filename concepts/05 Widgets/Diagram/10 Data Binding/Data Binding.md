@@ -1,1 +1,3 @@
 The **Diagram** can load external treelike and graph structures. The supported data structures are listed below.
+
+The widget builds a diagram based on the auto-layout algorithm ("sugiyama" or "tree") specified by the [nodes.autoLayout](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/autoLayout/) option. If you store node coordinates in your data source, define the [nodes.leftExpr](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/#leftExpr) and [nodes.topExpr](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/#topExpr) options, and set the [nodes.autoLayout](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/autoLayout/) option to "off".

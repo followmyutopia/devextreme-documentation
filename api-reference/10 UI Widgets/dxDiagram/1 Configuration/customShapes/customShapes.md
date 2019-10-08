@@ -5,7 +5,7 @@ default: []
 ---
 ---
 ##### shortDescription
-An array of custom shapes.
+Provide access to an array of custom shapes.
 
 ---
 Use the **customShapes** option to extend a collection of built-in shapes with custom shapes.

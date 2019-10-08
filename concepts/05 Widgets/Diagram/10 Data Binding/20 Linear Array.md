@@ -1,4 +1,6 @@
-A tree constructed from a list where each record specifies its IDs and includes a parent node ID reference. Use the [dataSource](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/#dataSource) option to bind the widget to the list. You should specify the [keyExpr](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/#keyExpr) and [parentKeyExpr](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/#parentKeyExpr) options because of the data's plain structure. The **Diagram** uses information from the key fields to transform plain data into a tree.  
+Use the [dataSource](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/#dataSource) option to bind the widget to a list where each record specifies its IDs and includes a parent node ID reference.
+
+Specify the [keyExpr](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/#keyExpr) and [parentKeyExpr](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/#parentKeyExpr) options, because of the data's plain structure. The **Diagram** uses information from key fields to transform plain data into a tree.  
 
         <!-- tab: index.js -->
         $(function() {
@@ -9,12 +11,7 @@ A tree constructed from a list where each record specifies its IDs and includes 
                         data: employees,
                     }),
                     keyExpr: "ID",
-                    textExpr: function(item, value) {
-                        if(value !== undefined)
-                            item.Title = value;
-                        else
-                            return item && item.Title.replace(" ", "\n");
-                    },
+                    textExpr: "Title",
                     parentKeyExpr: "Head_ID"
                 },
                 layout: "tree"

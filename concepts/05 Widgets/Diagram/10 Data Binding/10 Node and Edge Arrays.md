@@ -1,5 +1,12 @@
-A graph constructed from two plain lists of nodes and edges. The **Diagram** binds its [nodes](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/) and [edges](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/edges/) collections to the appropriate lists.
+Bind the **Diagram**'s [nodes](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/) and [edges](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/edges/) collections to the appropriate plain lists of nodes and edges.
 
+You should specify the following required properties.
+
+- [nodes.keyExpr](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/#keyExpr)
+- [edges.keyExpr](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/edges/#keyExpr)
+- [edges.fromExpr](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/edges/#fromExpr)
+- [edges.toExpr](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/edges/#toExpr)
+ 
         <!-- tab: index.js -->
         $(function() {
             $("#diagram").dxDiagram({
@@ -9,7 +16,7 @@ A graph constructed from two plain lists of nodes and edges. The **Diagram** bin
                 edges: {
                     dataSource: orgLinks
                 },
-                layout: "tree"
+                layout: "layered"
             });
         });
         

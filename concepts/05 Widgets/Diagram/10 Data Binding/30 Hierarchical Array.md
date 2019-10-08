@@ -1,4 +1,6 @@
-A tree constructed from a hierarchical object. Use the [dataSource](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/#dataSource) option to bind the widget to the object. You should set the [itemsExpr](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/#itemsExpr) option to the name of the field that provides data for nested items because the data has a hierarchical structure.
+Use the [dataSource](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/#dataSource) option to bind the widget to a hierarchical object. 
+
+Set the [itemsExpr](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/#itemsExpr) option to the name of the field that provides data for nested items because the data has a hierarchical structure. The [keyExpr](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/#keyExpr) option should be specified as well.
 
         <!-- tab: index.js -->
         $(function() {
@@ -8,12 +10,7 @@ A tree constructed from a hierarchical object. Use the [dataSource](/Documentati
                         key: "this",
                         data: employees,
                     }),
-                    textExpr: function(item, value) {
-                        if(value !== undefined)
-                            item.Title = value;
-                        else
-                            return item && item.Title.replace(" ", "\n");
-                    },
+                    textExpr: "Title",
                     itemsExpr: "items"
                 },
                 layout: "tree"
