@@ -1,5 +1,5 @@
 ---
-id: GridBase.Options.rowDragging.onDragChange
+id: dxSortable.Options.onDragChange
 type: function(e)
 default: null	
 EventForAction: dxSortable.dragChange	
