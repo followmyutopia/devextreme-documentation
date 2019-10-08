@@ -5,7 +5,7 @@ default: 0
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Allows you to reorder action buttons in the speed dial menu.
 
 ---
-<!-- Description goes here -->
+The smaller the **index**, the closer the action button is to the FAB when the speed dial menu is open.

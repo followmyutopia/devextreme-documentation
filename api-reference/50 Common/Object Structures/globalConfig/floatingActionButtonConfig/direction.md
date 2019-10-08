@@ -6,7 +6,7 @@ default: 'auto'
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies the direction in which to open the speed dial menu.
 
 ---
-<!-- Description goes here -->
+When this option is set to *"auto"*, the direction depends on the FAB's [position](/Documentation/ApiReference/Common/Object_Structures/globalConfig/floatingActionButtonConfig/#position).

@@ -10,3 +10,7 @@ Positions the FAB on the screen.
 
 ---
 #include uiwidgets-ref-position
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/FloatingActionButton/Overview/jQuery/MaterialBlueLight/"
+}

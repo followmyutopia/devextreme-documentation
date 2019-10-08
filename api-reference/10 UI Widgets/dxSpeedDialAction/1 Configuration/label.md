@@ -5,7 +5,9 @@ default: ''
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies the text label displayed inside the FAB or near the speed dial action button. 
 
 ---
-<!-- Description goes here -->
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/FloatingActionButton/Overview/jQuery/MaterialBlueLight/"
+}

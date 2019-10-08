@@ -5,7 +5,9 @@ default: false
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+If **true**, the background should be shaded when the speed dial menu is open.
 
 ---
-<!-- Description goes here -->
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/FloatingActionButton/Overview/jQuery/MaterialBlueLight/"
+}
