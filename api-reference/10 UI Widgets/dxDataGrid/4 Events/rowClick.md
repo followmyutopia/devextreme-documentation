@@ -34,7 +34,7 @@ Indicates whether internal widget handlers have already handled the event.
 Indicates whether or not the group row is expanded. Available if **rowType** is *"group"*.
 
 ##### field(e.isNewRow): Boolean
-<!-- Description goes here -->
+Indicates that the row is added, but not yet saved. Available if **rowType** is *"data"*.
 
 ##### field(e.isSelected): Boolean
 Indicates whether the row is [selected](/Documentation/Guide/Widgets/DataGrid/Selection/).

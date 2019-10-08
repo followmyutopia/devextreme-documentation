@@ -18,7 +18,7 @@ All column [configurations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Co
 The widget's instance.
 
 ##### field(e.data): Object
-The row's raw data. Unavailable if **rowType** is *"header"*, *"filter"* or *"totalFooter"*.
+The row's raw data. Unavailable if **rowType** is *"header"*, *"filter"*, or *"totalFooter"*.
 
 ##### field(e.element): dxElement
 #include common-ref-elementparam with { element: "widget" }
@@ -27,10 +27,10 @@ The row's raw data. Unavailable if **rowType** is *"header"*, *"filter"* or *"to
 The row's [group index](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#groupIndex). Available if **rowType** is *"group"*.
 
 ##### field(e.isExpanded): Boolean
-Indicates whether the row is expanded or collapsed. Unavailable if **rowType** is *"header"*, *"filter"* or *"totalFooter"*.
+Indicates whether the row is expanded or collapsed. Unavailable if **rowType** is *"header"*, *"filter"*, or *"totalFooter"*.
 
 ##### field(e.isNewRow): Boolean
-<!-- Description goes here -->
+Indicates that the row is added, but not yet saved. Available if **rowType** is *"data"*.
 
 ##### field(e.isSelected): Boolean
 Indicates whether the prepared row is [selected](/Documentation/Guide/Widgets/DataGrid/Selection/). Available only if **rowType** is *"data"*.

@@ -22,7 +22,7 @@ The index of the column to which the cell belongs. For details on indexes, see t
 The widget's instance.
 
 ##### field(e.data): Object
-The data of the row to which the cell belongs. Unavailable if **rowType** is *"header"*, *"filter"* or *"totalFooter"*.
+The data of the row to which the cell belongs. Unavailable if **rowType** is *"header"*, *"filter"*, or *"totalFooter"*.
 
 ##### field(e.displayValue): any
 The cell's displayed value. Differs from the **value** field only when the column to which the prepared cell belongs uses [lookup](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/).
@@ -31,16 +31,16 @@ The cell's displayed value. Differs from the **value** field only when the colum
 #include common-ref-elementparam with { element: "widget" }
 
 ##### field(e.isExpanded): Boolean
-Indicates whether the row is expanded or collapsed. Unavailable if **rowType** is *"header"*, *"filter"* or *"totalFooter"*.
+Indicates whether the row is expanded or collapsed. Unavailable if **rowType** is *"header"*, *"filter"*, or *"totalFooter"*.
 
 ##### field(e.isNewRow): Boolean
-<!-- Description goes here -->
+Indicates that the row is added, but not yet saved. Available if **rowType** is *"data"*.
 
 ##### field(e.isSelected): Boolean
 Indicates whether the row is selected.
 
 ##### field(e.key): any
-The row's key. Unavailable if **rowType** is *"header"*, *"filter"* or *"totalFooter"*.        
+The row's key. Unavailable if **rowType** is *"header"*, *"filter"*, or *"totalFooter"*.        
 If a field providing keys is not specified in the [data source](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource), the whole data object is considered the key.
 
 ##### field(e.model): Object

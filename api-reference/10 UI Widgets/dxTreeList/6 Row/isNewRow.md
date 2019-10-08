@@ -4,7 +4,8 @@ type: Boolean
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Indicates that the row is added, but not yet saved. Available if [rowType](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/#rowType) is *"data"*.
 
 ---
-<!-- Description goes here -->
+#####See Also#####
+- [onInitNewRow](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onInitNewRow)

@@ -26,4 +26,4 @@ The contents of this object depend on the value of the [rowType](/Documentation/
             isContinuation: boolean, // "true" if the group starts on one of the previous pages; "false" otherwise
             aggregates: array // contains values calculated for the group summary
         }
-- **rowType** is *"header"*, *"filter"* or *"totalFooter"* &rArr; **data** is **undefined**
+- **rowType** is *"header"*, *"filter"*, or *"totalFooter"* &rArr; **data** is **undefined**

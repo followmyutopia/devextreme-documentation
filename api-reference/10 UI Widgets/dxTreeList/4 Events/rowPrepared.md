@@ -25,7 +25,7 @@ The row's data. Available if the **rowType** is *"data"*, *"detail"* or *"detail
 Indicates whether the row is expanded or collapsed. Available if **rowType** is *"data"* or *"detail"*.
 
 ##### field(e.isNewRow): Boolean
-<!-- Description goes here -->
+Indicates that the row is added, but not yet saved. Available if **rowType** is *"data"*.
 
 ##### field(e.isSelected): Boolean
 Indicates whether the row is selected. Available if **rowType** is *"data"* or *"detail"*.
