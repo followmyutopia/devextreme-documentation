@@ -6,10 +6,186 @@ id: dxDataGrid.getSelectedRowsData()
 Gets the selected rows' data objects.
 
 ##### return: Array<any> | Promise<any>
-Data objects of selected rows or a Promise that is resolved with an array of these objects. The data objects are stored in the order the user selects rows.
+The selected rows' data objects.        
+The objects are not processed by the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) and have the same order in which the rows were selected.     
+When selection is [deferred](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#deferred), the method returns a Promise (a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery) that is resolved with the selected rows' data objects.
 
 ---
-When selection is [deferred](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#deferred), the method returns a Promise (a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery). The selected rows' data is passed to the function that resolves this Promise. This is data before being processed in the **DataSource**.
+---
+##### jQuery
+
+    <!-- tab: index.js -->
+    var dataGrid = $("#dataGridContainer").dxDataGrid("instance");
+
+    var selectedRowsData = dataGrid.getSelectedRowsData();
+
+    // ===== or when deferred selection is used =====
+    dataGrid.getSelectedRowsData().then(function(selectedRowsData) {
+        // Your code goes here
+    });
+
+##### Angular
+
+    <!-- tab: app.component.ts -->
+    import { Component, ViewChild } from '@angular/core';
+    import { DxDataGridComponent } from 'devextreme-angular';
+
+    @Component({
+        selector: 'app-root',
+        templateUrl: './app.component.html',
+        styleUrls: ['./app.component.css']
+    })
+    export class AppComponent {
+        @ViewChild('dataGridRef', { static: false }) dataGrid: DxDataGridComponent;
+        // Prior to Angular 8
+        // @ViewChild('dataGridRef') dataGrid: DxDataGridComponent;
+
+        selectedRowsData = [];
+
+        getSelectedData() {
+            this.selectedRowsData = this.dataGrid.instance.getSelectedRowsData();
+
+            // ===== or when deferred selection is used =====
+            this.dataGrid.instance.getSelectedRowsData().then((selectedRowsData) => {
+                // Your code goes here
+            });
+        }
+    }
+
+    <!-- tab: app.component.html -->
+    <dx-data-grid ...
+        #dataGridRef
+    ></dx-data-grid>
+
+    <!-- tab: app.module.ts -->
+    import { BrowserModule } from '@angular/platform-browser';
+    import { NgModule } from '@angular/core';
+    import { AppComponent } from './app.component';
+
+    import { DxDataGridModule } from 'devextreme-angular';
+
+    @NgModule({
+        declarations: [
+            AppComponent
+        ],
+        imports: [
+            BrowserModule,
+            DxDataGridModule
+        ],
+        providers: [ ],
+        bootstrap: [AppComponent]
+    })
+    export class AppModule { }
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-data-grid ...
+            :ref="dataGridRef">
+        <dx-data-grid>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DxDataGrid from 'devextreme-vue/data-grid';
+
+    const dataGridRef = 'dataGrid';
+
+    export default {
+        components: {
+            DxDataGrid
+        },
+        data() {
+            return {
+                dataGridRef,
+                selectedRowsData: []
+            }
+        },
+        computed: {
+            dataGrid: function() {
+                return this.$refs[dataGridRef].instance;
+            }
+        },
+        methods: {
+            getSelectedData() {
+                this.selectedRowsData = this.dataGrid.getSelectedRowsData();
+
+                // ===== or when deferred selection is used =====
+                this.dataGrid.getSelectedRowsData().then((selectedRowsData) => {
+                    // Your code goes here
+                });
+            }
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DataGrid from 'devextreme-react/data-grid';
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+
+            this.dataGridRef = React.createRef();
+
+            this.selectedRowsData = [];
+
+            this.getSelectedData = () => {
+                this.selectedRowsData = this.dataGrid.getSelectedRowsData();
+
+                // ===== or when deferred selection is used =====
+                this.dataGrid.getSelectedRowsData().then((selectedRowsData) => {
+                    // Your code goes here
+                });
+            }
+        }
+
+        get dataGrid() {
+            return this.dataGridRef.current.instance;
+        }
+
+        render() {
+            return (
+                <DataGrid ...
+                    ref={this.dataGridRef}>
+                </DataGrid>
+            );
+        }
+    }
+    export default App;
+
+##### ASP.NET MVC Controls
+
+    <!-- tab: Razor C# -->
+    @(Html.DevExtreme().DataGrid()
+        .ID("dataGrid")
+        @* ... *@
+    )
+
+    <script type="text/javascript">
+        function getSelectedData() {
+            var dataGrid = $("#dataGrid").dxDataGrid("instance");
+            var selectedRowsData = dataGrid.getSelectedRowsData();
+            // ...
+
+            // ===== or when deferred selection is used =====
+            dataGrid.getSelectedRowsData().then(function(selectedRowsData) {
+                // Your code goes here
+            });
+        }
+    </script>
+
+---
 
 [note][Calculated values](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateCellValue) cannot be obtained because this method gets data objects from the data source.
 
