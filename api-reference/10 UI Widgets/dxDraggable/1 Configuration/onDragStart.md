@@ -6,34 +6,34 @@ EventForAction: dxDraggable.dragStart
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+A function that is called when the drag gesture is initialized.
 
 ##### param(e): Object
-<!-- Description goes here -->
+Information about the event that caused the function's execution.
 
 ##### field(e.cancel): Boolean
-<!-- Description goes here -->
+Allows you to cancel the gesture.
 
 ##### field(e.component): {WidgetName}
-<!-- Description goes here -->
+The widget that raised the event.
 
 ##### field(e.element): dxElement
-<!-- Description goes here -->
+#include common-ref-elementparam with { element: "widget" }
 
 ##### field(e.event): event
-<!-- Description goes here -->
+#include common-ref-eventparam
 
 ##### field(e.fromData): any
-<!-- Description goes here -->
+Custom [data]({basewidgetpath}/Configuration/#data) associated with the source widget.
 
 ##### field(e.itemData): any
-<!-- Description goes here -->
+The dragged item's data.
 
 ##### field(e.itemElement): dxElement
-<!-- Description goes here -->
+#include draganddrop-ref-itemelementparam
 
 ##### field(e.model): Object
-<!-- Description goes here -->
+Model data. Available only if you use Knockout.
 
 ---
 <!-- Description goes here -->

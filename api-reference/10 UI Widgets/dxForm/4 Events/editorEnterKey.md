@@ -19,7 +19,7 @@ The path to the [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configu
 #include common-ref-elementparam with { element: "widget" }
 
 ##### field(e.model): Object
-The model data. Available only if Knockout is used.
+Model data. Available only if Knockout is used.
 
 ---
 Main article: [onEditorEnterKey](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#onEditorEnterKey)

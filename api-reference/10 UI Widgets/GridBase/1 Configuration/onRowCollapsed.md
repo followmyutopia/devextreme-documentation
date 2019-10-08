@@ -21,6 +21,6 @@ The widget's instance.
 The key of the row.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ---

@@ -33,7 +33,7 @@ The widget's instance.
 **true** if the cell is highlighted; otherwise **false**, even if the cell's row is highlighted.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ##### field(e.newColumnIndex): Number
 The index of the column the cell that should be focused belongs to.

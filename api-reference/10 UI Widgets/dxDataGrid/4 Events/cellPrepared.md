@@ -44,7 +44,7 @@ The row's key. Unavailable if **rowType** is *"header"*, *"filter"* or *"totalFo
 If a field providing keys is not specified in the [data source](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource), the whole data object is considered the key.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ##### field(e.oldValue): any
 The cell's previous raw value.

@@ -39,7 +39,7 @@ The row's key. Available if the **rowType** is *"data"*, *"detail"* or *"detailA
 For plain data, the key value depends on the [keyExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#keyExpr) option. For hierarchical data, the key is generated automatically or set in the underlying **Store** of the [data source](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataSource).
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ##### field(e.row): dxTreeListRowObject
 The row [properties](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/). Available if the **rowType** is *"data"*, *"detail"* or *"detailAdaptive"*.

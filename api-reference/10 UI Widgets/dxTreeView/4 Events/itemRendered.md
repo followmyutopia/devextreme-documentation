@@ -22,7 +22,7 @@ The rendered item's data object.
 The rendered item's index.
 
 ##### field(e.model): Object
-The model data. Available only if Knockout is used.
+Model data. Available only if Knockout is used.
 
 ##### field(e.node): dxTreeViewNode
 The rendered item's node.

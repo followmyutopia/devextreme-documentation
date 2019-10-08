@@ -40,7 +40,7 @@ Indicates whether the row is selected. Available if **rowType** is *"data"* or *
 The row's [key](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#key) or a group row's [key](/Documentation/Guide/Widgets/DataGrid/Grouping/#API/Group_Index_and_Key). Available if the **rowType** is *"data"*, *"detail"*, *"detailAdaptive"*, or *"group"*.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ##### field(e.rowElement): dxElement
 #include common-ref-elementparam with { element: "row" }

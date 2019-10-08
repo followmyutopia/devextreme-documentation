@@ -31,7 +31,7 @@ The row's key.
 The key of an added but not yet saved row is **undefined**.
 
 ##### field(e.model): Object
-The model data. Available only if Knockout is used.
+Model data. Available only if Knockout is used.
 
 ---
 If the **editing**.[mode](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/editing/#mode) is *"batch"* or *"cell"*, this function is executed while the widget renders columns of `boolean` [dataType](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#dataType) and other columns whose [showEditorAlways](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#showEditorAlways) option is **true**.

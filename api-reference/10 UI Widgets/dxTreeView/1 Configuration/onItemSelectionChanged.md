@@ -21,7 +21,7 @@ The widget's instance.
 #include common-ref-elementparam with { element: "item" }
 
 ##### field(e.model): Object
-The model data. Available only if Knockout is used.
+Model data. Available only if Knockout is used.
 
 ##### field(e.node): dxTreeViewNode
 The item's node.

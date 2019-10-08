@@ -25,7 +25,7 @@ The current group's data.
 The group's index.
 
 ##### field(e.model): Object
-The model data. Available only if Knockout is used.
+Model data. Available only if Knockout is used.
 
 ---
 Main article: [onGroupRendered](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onGroupRendered)

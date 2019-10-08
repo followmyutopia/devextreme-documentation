@@ -27,7 +27,7 @@ Indicates whether the editor is disabled.
 #include common-ref-elementparam with { element: "widget" }
 
 ##### field(options.model): Object
-The model data. Only available when using Knockout.
+Model data. Only available when using Knockout.
 
 ##### field(options.parentType): String
 The editor's location. One of *"dataRow"*, *"filterRow"*, *"headerRow"* or *"searchPanel"*.      

@@ -5,7 +5,7 @@ default: '> *'
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies a CSS selector for draggable rows.
 
 ---
 <!-- Description goes here -->

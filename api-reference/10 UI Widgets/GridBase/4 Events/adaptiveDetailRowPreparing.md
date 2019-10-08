@@ -19,7 +19,7 @@ The widget's instance.
 The options of the [Form](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/) widget.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ---
 Main article: [onAdaptiveDetailRowPreparing]({basewidgetpath}/Configuration/#onAdaptiveDetailRowPreparing)

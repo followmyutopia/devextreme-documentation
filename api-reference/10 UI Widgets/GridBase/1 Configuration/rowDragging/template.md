@@ -5,10 +5,10 @@ default: undefined
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies a custom template to be shown instead of the draggable row while dragging.
 
 ##### return: String | Node | jQuery
-<!-- Description goes here -->
+#include common-template-return-value
 
 ---
 <!-- Description goes here -->

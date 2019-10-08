@@ -25,7 +25,7 @@ The standard <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Re
 The key of the row. If a field providing keys is not specified in the data source, the whole data object is considered the key.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ---
 Main article: [onRowInserted]({basewidgetpath}/Configuration/#onRowInserted)

@@ -4,40 +4,40 @@ type: function(e)
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+A function that is called when the draggable rows are reordered.
 
 ##### param(e): Object
-<!-- Description goes here -->
+Information about the event that caused the function's execution.
 
 ##### field(e.dropInsideItem): Boolean
-<!-- Description goes here -->
+Indicates if the dragged row is dropped inside another row. Available only for the **TreeList** widget.
 
 ##### field(e.event): event
-<!-- Description goes here -->
+#include common-ref-eventparam
 
 ##### field(e.fromComponent): dxSortable | dxDraggable
-<!-- Description goes here -->
+The instance of the row's source widget.
 
 ##### field(e.fromData): any
-<!-- Description goes here -->
+Custom [data]({basewidgetpath}/Configuration/rowDragging/#data) associated with the source widget.
 
 ##### field(e.fromIndex): Number
-<!-- Description goes here -->
+The row's original position. If the row is dragged from another widget, the value is **-1**.
 
 ##### field(e.itemData): any
-<!-- Description goes here -->
+The data object of the row being dragged.
 
 ##### field(e.itemElement): dxElement
-<!-- Description goes here -->
+#include draganddrop-ref-itemelementparam
 
 ##### field(e.toComponent): dxSortable | dxDraggable
-<!-- Description goes here -->
+The instance of the row's target widget.
 
 ##### field(e.toData): any
-<!-- Description goes here -->
+Custom [data]({basewidgetpath}/Configuration/rowDragging/#data) associated with the target widget.
 
 ##### field(e.toIndex): Number
-<!-- Description goes here -->
+The position in which a row is placed. If the row is dragged away from the widget, the value is **-1**.
 
 ---
 <!-- Description goes here -->

@@ -40,7 +40,7 @@ For plain data, the value of the key depends on the [keyExpr](/Documentation/Api
 The node's [hierarchical level](/Documentation/ApiReference/UI_Widgets/dxTreeList/Node/#level).
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ##### field(e.node): dxTreeListNode
 The row's node.

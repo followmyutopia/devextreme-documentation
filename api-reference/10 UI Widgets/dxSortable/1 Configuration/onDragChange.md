@@ -1,58 +1,52 @@
 ---
-id: dxSortable.Options.onDragChange
+id: GridBase.Options.rowDragging.onDragChange
 type: function(e)
-default: null
-EventForAction: dxSortable.dragChange
-hidden: 
+default: null	
+EventForAction: dxSortable.dragChange	
+hidden:
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+A function that is called when the dragged item's position in the list is changed.
 
 ##### param(e): Object
-<!-- Description goes here -->
+Information about the event that caused the function's execution.
 
 ##### field(e.cancel): Boolean
-<!-- Description goes here -->
-
-##### field(e.component): {WidgetName}
-<!-- Description goes here -->
+Allows you to cancel the gesture.
 
 ##### field(e.dropInsideItem): Boolean
-<!-- Description goes here -->
-
-##### field(e.element): dxElement
-<!-- Description goes here -->
+Indicates if the dragged item is dropped inside another item.
 
 ##### field(e.event): event
-<!-- Description goes here -->
+#include common-ref-eventparam
 
 ##### field(e.fromComponent): dxSortable | dxDraggable
-<!-- Description goes here -->
+The instance of the item's source widget.
 
 ##### field(e.fromData): any
-<!-- Description goes here -->
+Custom [data]({basewidgetpath}/Configuration/#data) associated with the source widget.
 
 ##### field(e.fromIndex): Number
-<!-- Description goes here -->
+The item's original position. If the item is dragged from another widget, the value is **-1**.
 
 ##### field(e.itemData): any
-<!-- Description goes here -->
+The dragged item's data.
 
 ##### field(e.itemElement): dxElement
-<!-- Description goes here -->
-
-##### field(e.model): Object
-<!-- Description goes here -->
+#include draganddrop-ref-itemelementparam
 
 ##### field(e.toComponent): dxSortable | dxDraggable
-<!-- Description goes here -->
+The instance of the item's target widget.
 
 ##### field(e.toData): any
-<!-- Description goes here -->
+Custom [data]({basewidgetpath}/Configuration/#data) associated with the target widget.
 
 ##### field(e.toIndex): Number
-<!-- Description goes here -->
+The position in which the item is placed. If the item is dragged away from the widget, the value is **-1**.
+
+##### field(e.model): Object	
+Model data. Available only if you use Knockout.
 
 ---
 <!-- Description goes here -->

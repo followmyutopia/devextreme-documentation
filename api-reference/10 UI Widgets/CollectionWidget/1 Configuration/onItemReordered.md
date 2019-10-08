@@ -31,7 +31,7 @@ The reordered item's data.
 The index of the item after reordering. This field holds the same value as **toIndex**.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ##### field(e.toIndex): Number
 The item's current index.

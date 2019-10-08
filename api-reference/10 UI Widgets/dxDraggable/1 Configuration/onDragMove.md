@@ -6,43 +6,43 @@ EventForAction: dxDraggable.dragMove
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+A function that is called every time a draggable item is moved.
 
 ##### param(e): Object
-<!-- Description goes here -->
+Information about the event that caused the function's execution.
 
 ##### field(e.cancel): Boolean
-<!-- Description goes here -->
+Allows you to cancel the gesture.
 
 ##### field(e.component): {WidgetName}
-<!-- Description goes here -->
+The widget that raised the event.
 
 ##### field(e.element): dxElement
-<!-- Description goes here -->
+#include common-ref-elementparam with { element: "widget" }
 
 ##### field(e.event): event
-<!-- Description goes here -->
+#include common-ref-eventparam
 
 ##### field(e.fromComponent): dxSortable | dxDraggable
-<!-- Description goes here -->
+The instance of the item's source widget.
 
 ##### field(e.fromData): any
-<!-- Description goes here -->
+Custom [data]({basewidgetpath}/Configuration/#data) associated with the source widget.
 
 ##### field(e.itemData): any
-<!-- Description goes here -->
+The dragged element's data.
 
 ##### field(e.itemElement): dxElement
-<!-- Description goes here -->
+#include draganddrop-ref-itemelementparam
 
 ##### field(e.model): Object
-<!-- Description goes here -->
+Model data. Available only if you use Knockout.
 
 ##### field(e.toComponent): dxSortable | dxDraggable
-<!-- Description goes here -->
+The instance of the item's target widget.
 
 ##### field(e.toData): any
-<!-- Description goes here -->
+Custom [data]({basewidgetpath}/Configuration/#data) associated with the target widget.
 
 ---
 <!-- Description goes here -->

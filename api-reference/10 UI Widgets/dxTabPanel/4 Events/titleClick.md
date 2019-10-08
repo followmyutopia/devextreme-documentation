@@ -25,7 +25,7 @@ The data of the item whose title is clicked.
 #include common-ref-elementparam with { element: "item" }
 
 ##### field(e.model): Object
-The model data. Available only if Knockout is used.
+Model data. Available only if Knockout is used.
 
 ---
 Main article: [onTitleClick](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#onTitleClick)

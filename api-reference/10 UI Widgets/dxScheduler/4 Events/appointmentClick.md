@@ -34,7 +34,7 @@ Use 'event' instead.
 The jQuery event that caused the handler execution. Deprecated in favor of the **event** field.
 
 ##### field(e.model): Object
-The model data. Available only if Knockout is used.
+Model data. Available only if Knockout is used.
 
 ##### field(e.targetedAppointmentData): Object
 The clicked appointment.

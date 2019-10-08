@@ -25,7 +25,7 @@ The widget's instance.
 Items to be displayed in the context menu. Their structure is described in the [Default Item Template](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Default_Item_Template/) section.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ##### field(e.row): dxDataGridRowObject
 The row [properties](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/).

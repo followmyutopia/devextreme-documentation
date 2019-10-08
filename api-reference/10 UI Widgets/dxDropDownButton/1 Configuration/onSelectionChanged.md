@@ -21,7 +21,7 @@ The widget's instance.
 The selected item's data.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ##### field(e.previousItem): Object
 The previously selected item's data.

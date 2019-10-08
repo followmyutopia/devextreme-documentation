@@ -5,7 +5,7 @@ default: undefined
 ---
 ---
 ##### shortDescription
-Specifies a custom container in which the draggable element should be rendered.
+Specifies a custom container in which the draggable item should be rendered.
 
 ---
 #include uiwidgets-ref-domelementacceptedvalues

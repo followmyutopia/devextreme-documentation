@@ -25,7 +25,7 @@ The current item's data.
 The current item's index.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ---
 Main article: [onItemRendered]({basewidgetpath}/Configuration/#onItemRendered)

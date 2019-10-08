@@ -31,7 +31,7 @@ Use 'event' instead.
 The jQuery event that caused the handler's execution. Deprecated in favor of the **event** field.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ##### field(e.targetedAppointmentData): Object
 The appointment on which the context menu is invoked.           

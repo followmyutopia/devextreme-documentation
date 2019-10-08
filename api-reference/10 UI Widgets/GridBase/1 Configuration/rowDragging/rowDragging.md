@@ -4,7 +4,9 @@ type: Object
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Configures row reordering using drag and drop gestures.
 
 ---
-<!-- Description goes here -->
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/LocalReordering/jQuery/Light/"
+}

@@ -44,7 +44,7 @@ Available for fields in the [field panel](/Documentation/Guide/Widgets/PivotGrid
 An array of items to be displayed by the context menu. The item objects must have the fields that are used by the **ContextMenu** [default item template](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Default_Item_Template).
 
 ##### field(e.model): Object
-The model data. Available only if Knockout is used.
+Model data. Available only if Knockout is used.
 
 ##### field(e.rowFields): Array<PivotGridDataSource_Options_fields>
 Fields in the "row" area.

@@ -30,6 +30,6 @@ The data of the item being held.
 The item's index.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ---

@@ -24,7 +24,7 @@ The widget's instance.
 The name of the file where grid data is about to be exported.
 
 ##### field(e.model): Object
-The model data. Available only if Knockout is used.
+Model data. Available only if Knockout is used.
 
 ---
 You can use this function with the [onExported](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExported) function to adjust columns before export. In the following code, these functions are used to export a hidden `ID` column:

@@ -25,6 +25,6 @@ The widget's instance.
 The form's instance; created only once - when the function is executed for the first time.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ---

@@ -1,11 +1,11 @@
 ---
 id: DraggableBase.Options.group
-type: String
+type: string
 default: undefined
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Allows you to group several widgets, so that users can drag and drop items between them.
 
 ---
-<!-- Description goes here -->
+Set this option to identical values for the widgets you want to collect in a single group.

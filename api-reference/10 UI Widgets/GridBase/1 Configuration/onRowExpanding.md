@@ -24,7 +24,7 @@ The widget's instance.
 The key of the group or master row.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ---
 To cancel row expansion, assign **true** to the **cancel** field of the function parameter.

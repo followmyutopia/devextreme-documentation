@@ -18,6 +18,6 @@ The widget's instance.
 #include common-ref-elementparam with { element: "widget" }
 
 ##### field(e.model): Object
-The model data. Available only when using Knockout.
+Model data. Available only when using Knockout.
 
 ---

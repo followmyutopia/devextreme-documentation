@@ -5,7 +5,7 @@ default: true
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Allows a user to reorder sortable items.
 
 ---
 <!-- Description goes here -->

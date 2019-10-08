@@ -21,7 +21,7 @@ The widget's instance.
 The options of the [Form](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/) widget.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ---
 Adaptive detail rows display information from columns that were hidden when the widget adapted to the screen or container size. Each adaptive detail row contains the [Form](/Documentation/Guide/Widgets/Form/Overview/) widget that you can customize within the **onAdaptiveDetailRowPreparing** function using the **formOptions** object. Refer to the [Form Configuration](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/) section for details on options of the **Form** widget.

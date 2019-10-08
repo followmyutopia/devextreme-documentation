@@ -6,7 +6,7 @@ default: 'both'
 ---
 ---
 ##### shortDescription
-Specifies the directions in which an element can be dragged.
+Specifies the directions in which an item can be dragged.
 
 ---
 <!-- Description goes here -->

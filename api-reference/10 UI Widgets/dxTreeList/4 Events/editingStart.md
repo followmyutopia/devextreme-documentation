@@ -29,7 +29,7 @@ The row's key.
 The key of an added but not yet saved row is **undefined**.
 
 ##### field(e.model): Object
-The model data. Available only if Knockout is used.
+Model data. Available only if Knockout is used.
 
 ---
 Main article: [onEditingStart](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onEditingStart)

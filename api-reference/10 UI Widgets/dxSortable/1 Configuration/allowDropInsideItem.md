@@ -5,7 +5,7 @@ default: false
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Allows a user to drop an item inside another item.
 
 ---
 <!-- Description goes here -->

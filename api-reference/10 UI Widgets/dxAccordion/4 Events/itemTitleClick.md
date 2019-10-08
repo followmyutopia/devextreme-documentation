@@ -28,7 +28,7 @@ The clicked item's data.
 The clicked item's index.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ---
 Main article: [onItemTitleClick](/Documentation/ApiReference/UI_Widgets/dxAccordion/Configuration/#onItemTitleClick)

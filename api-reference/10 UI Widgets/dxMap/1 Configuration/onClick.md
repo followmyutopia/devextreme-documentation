@@ -30,6 +30,6 @@ The jQuery event that caused the handler execution (if a static google provider 
 The clicked point's location on the map (if the "google" or "bing" provider is used).
 
 ##### field(e.model): Object
-The model data. Available only if Knockout is used.
+Model data. Available only if Knockout is used.
 
 ---

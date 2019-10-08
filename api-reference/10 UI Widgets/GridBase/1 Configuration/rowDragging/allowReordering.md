@@ -5,7 +5,7 @@ default: false
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Allows row reordering using drag and drop gestures.
 
 ---
 <!-- Description goes here -->

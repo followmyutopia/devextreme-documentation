@@ -5,7 +5,9 @@ default: true
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Enables automatic scrolling while dragging a row beyond the viewport.
 
 ---
-<!-- Description goes here -->
+#####See Also#####
+- [scrollSensivity]({basewidgetpath}/Configuration/rowDragging/#scrollSensitivity)
+- [scrollSpeed]({basewidgetpath}/Configuration/rowDragging/#scrollSpeed)

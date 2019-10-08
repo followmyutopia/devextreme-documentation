@@ -26,7 +26,7 @@ Use 'event' instead.
 The jQuery event that caused the handler execution. Deprecated in favor of the **event** field.
 
 ##### field(e.model): Object
-The model data. Available only if Knockout is used.
+Model data. Available only if Knockout is used.
 
 ---
 Assign a function to perform a custom action when a button representing an action sheet item is clicked.

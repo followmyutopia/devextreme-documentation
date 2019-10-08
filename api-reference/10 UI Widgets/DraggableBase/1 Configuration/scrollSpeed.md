@@ -5,7 +5,8 @@ default: 60
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies the scrolling speed when dragging an item beyond the viewport. Applies only if [autoScroll]({basewidgetpath}/Configuration/#autoScroll) is **true**.
 
 ---
-<!-- Description goes here -->
+#####See Also#####
+- [scrollSensivity]({basewidgetpath}/Configuration/#scrollSensitivity)

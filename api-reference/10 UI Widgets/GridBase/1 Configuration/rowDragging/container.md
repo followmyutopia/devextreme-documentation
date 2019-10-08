@@ -5,7 +5,7 @@ default: undefined
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies a custom container in which the draggable row should be rendered.
 
 ---
-<!-- Description goes here -->
+#include uiwidgets-ref-domelementacceptedvalues

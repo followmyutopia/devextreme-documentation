@@ -39,7 +39,7 @@ Gets and sets the editor configuration.
 The applied filter operation.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ##### field(e.readOnly): Boolean
 Indicates whether the editor is read-only.

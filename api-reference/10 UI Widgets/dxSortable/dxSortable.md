@@ -9,4 +9,6 @@ inherits: DraggableBase
 **Sortable** is a user interface utility that allows a widget's items to be reordered via drag and drop gestures.
 
 ---
-<!-- Description goes here -->
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Sortable/Kanban/jQuery/Light/"
+}

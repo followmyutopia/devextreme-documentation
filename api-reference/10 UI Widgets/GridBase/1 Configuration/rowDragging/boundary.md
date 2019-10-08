@@ -5,7 +5,7 @@ default: window
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies a DOM element that limits the dragging area.
 
 ---
-<!-- Description goes here -->
+#include uiwidgets-ref-domelementacceptedvalues

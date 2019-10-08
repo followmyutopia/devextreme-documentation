@@ -21,7 +21,7 @@ The widget's instance.
 The standard <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error" target="_blank">Error</a> object that defines the error.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ---
 Handles errors that might occur in the data source. To obtain a human-readable description of the error in the function, use the **error.message** field.

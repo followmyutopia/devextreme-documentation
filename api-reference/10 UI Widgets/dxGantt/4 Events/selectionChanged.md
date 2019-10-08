@@ -16,7 +16,7 @@ The widget's instance.
 The widget's container.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ##### field(e.selectedRowKey): any
 The key of the row whose selection state changed.

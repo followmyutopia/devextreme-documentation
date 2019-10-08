@@ -5,7 +5,8 @@ default: 60
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies the distance in pixels from the edge of viewport at which scrolling should start. Applies only if [autoScroll]({basewidgetpath}/Configuration/rowDragging/#autoScroll) is **true**.
 
 ---
-<!-- Description goes here -->
+#####See Also#####
+- [scrollSpeed]({basewidgetpath}/Configuration/rowDragging/#scrollSpeed)

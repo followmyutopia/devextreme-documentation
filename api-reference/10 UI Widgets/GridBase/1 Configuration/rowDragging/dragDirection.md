@@ -6,7 +6,7 @@ default: 'both'
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies the directions in which a row can be dragged.
 
 ---
 <!-- Description goes here -->

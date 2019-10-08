@@ -28,7 +28,7 @@ The clicked item's data.
 The item's index.
 
 ##### field(e.model): Object
-The model data. Available only if Knockout is used.
+Model data. Available only if Knockout is used.
 
 ---
 Main article: [onItemClick]({basewidgetpath}/Configuration/#onItemClick)

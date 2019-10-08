@@ -4,7 +4,7 @@ type: String | Object
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies the cursor offset from the dragged item.
 
 ---
 <!-- Description goes here -->

@@ -4,28 +4,28 @@ type: function(e)
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+A function that is called when the drag gesture is initialized.
 
 ##### param(e): Object
-<!-- Description goes here -->
+Information about the event that caused the function's execution.
 
 ##### field(e.cancel): Boolean
-<!-- Description goes here -->
+Allows you to cancel the gesture.
 
 ##### field(e.event): event
-<!-- Description goes here -->
+#include common-ref-eventparam
 
 ##### field(e.fromData): any
-<!-- Description goes here -->
+Custom [data]({basewidgetpath}/Configuration/rowDragging/#data) associated with the source widget.
 
 ##### field(e.fromIndex): Number
-<!-- Description goes here -->
+The row's original position. If the row is dragged from another widget, the value is **-1**.
 
 ##### field(e.itemData): any
-<!-- Description goes here -->
+The data object of the row being dragged.
 
 ##### field(e.itemElement): dxElement
-<!-- Description goes here -->
+#include draganddrop-ref-itemelementparam
 
 ---
 <!-- Description goes here -->

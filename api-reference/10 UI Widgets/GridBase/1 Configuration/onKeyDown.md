@@ -30,6 +30,6 @@ Use 'event' instead.
 The jQuery event that caused the function's execution. Deprecated in favor of the **event** field.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ---

@@ -19,7 +19,7 @@ The widget's instance.
 #include common-ref-eventparam
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ---
 Main article: [onFocuseIn](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/#onFocusIn)

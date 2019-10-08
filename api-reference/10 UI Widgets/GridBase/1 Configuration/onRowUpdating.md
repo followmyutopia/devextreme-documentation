@@ -25,7 +25,7 @@ The widget's instance.
 The row's key.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ##### field(e.newData): Object
 The row's updated data.

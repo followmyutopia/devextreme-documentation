@@ -51,7 +51,7 @@ The jQuery event that caused the function's execution. Deprecated in favor of th
 The row's key.
 
 ##### field(e.model): Object
-The model data. Available only if Knockout is used.
+Model data. Available only if Knockout is used.
 
 ##### field(e.rowElement): dxElement
 #include common-ref-elementparam with { element: "row" }

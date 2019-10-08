@@ -26,7 +26,7 @@ The removed item's data.
 The removed item's index. In a grouped list, the index represents an object defining the group and item indexes: { group: 0, item: 0 }.
 
 ##### field(e.model): Object
-The model data. Available only if Knockout is used.
+Model data. Available only if Knockout is used.
 
 ---
 Main article: [onItemDeleted](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onItemDeleted)

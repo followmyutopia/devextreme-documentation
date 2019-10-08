@@ -30,6 +30,6 @@ The clicked button's [data](/Documentation/ApiReference/UI_Widgets/dxButtonGroup
 The clicked button's index.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ---

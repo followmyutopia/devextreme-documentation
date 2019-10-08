@@ -37,7 +37,7 @@ Indicates whether the pointer entered or left the cell. Can be either *"mouseove
 The row's key. If a field providing keys is not specified in the [data source](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource), the whole data object is considered the key.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ##### field(e.row): dxDataGridRowObject
 The row [properties](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/).

@@ -22,7 +22,7 @@ The widget's instance.
 The name of the file to which grid data is about to be exported.
 
 ##### field(e.model): Object
-The model data. Available only if Knockout is used.
+Model data. Available only if Knockout is used.
 
 ---
 Main article: [onExporting](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExporting)

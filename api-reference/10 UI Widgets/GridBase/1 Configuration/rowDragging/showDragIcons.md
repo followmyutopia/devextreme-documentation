@@ -5,7 +5,7 @@ default: true
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Shows or hides row dragging icons.
 
 ---
 <!-- Description goes here -->

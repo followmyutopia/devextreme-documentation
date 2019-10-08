@@ -19,7 +19,7 @@ The widget's instance.
 #include common-ref-eventparam
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ##### field(e.selectedItem): Object
 The data of an item selected in the drop-down field or in the [selectedItemKey](/Documentation/ApiReference/UI_Widgets/dxDropDownButton/Configuration/#selectedItemKey) option.

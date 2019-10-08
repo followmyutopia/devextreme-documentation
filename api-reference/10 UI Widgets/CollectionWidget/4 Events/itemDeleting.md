@@ -29,7 +29,7 @@ The data of the item to be removed.
 The item's index.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ---
 Main article: [onItemDeleting]({basewidgetpath}/Configuration/#onItemDeleting)

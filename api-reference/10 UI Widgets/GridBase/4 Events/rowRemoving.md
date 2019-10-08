@@ -26,7 +26,7 @@ The data of the row that should be removed.
 The row's key.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ---
 Main article: [onRowRemoving]({basewidgetpath}/Configuration/#onRowRemoving)

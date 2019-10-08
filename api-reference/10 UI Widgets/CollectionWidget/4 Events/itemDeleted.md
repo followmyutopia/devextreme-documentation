@@ -26,7 +26,7 @@ The removed item's data.
 The removed item's index.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ---
 Main article: [onItemDeleted]({basewidgetpath}/Configuration/#onItemDeleted)

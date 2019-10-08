@@ -23,7 +23,7 @@ The data of the row that should be inserted.
 #include common-ref-elementparam with { element: "widget" }
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ---
 Main article: [onRowInserting]({basewidgetpath}/Configuration/#onRowInserting)

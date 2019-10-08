@@ -5,7 +5,7 @@ default: undefined
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+A container for any data that can be useful during drag and drop gestures.
 
 ---
 <!-- Description goes here -->

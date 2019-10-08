@@ -28,7 +28,7 @@ The data of the row that should be removed.
 The row's key.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ---
 [note] In batch [editing mode]({basewidgetpath}/Configuration/editing/#mode), this function is executed for each row individually if several rows should be removed.

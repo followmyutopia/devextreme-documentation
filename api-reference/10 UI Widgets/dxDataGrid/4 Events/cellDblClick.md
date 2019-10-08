@@ -38,7 +38,7 @@ Differs from the **value** field only when the cell belongs to a [lookup](/Docum
 The row's [key](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#key) or a group's [key](/Documentation/Guide/Widgets/DataGrid/Grouping/#API/Group_Index_and_Key). Available if the **rowType** is *"data"*, *"detail"*, *"detailAdaptive"*, or *"group"*.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ##### field(e.row): dxDataGridRowObject
 The row's properties. Available if the **rowType** is *"data"*, *"detail"*, *"detailAdaptive"*, or *"group"*.

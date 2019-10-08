@@ -5,7 +5,7 @@ default: false
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Allows dropping a row inside another row.
 
 ---
 <!-- Description goes here -->

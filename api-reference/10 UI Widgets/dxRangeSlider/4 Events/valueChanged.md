@@ -16,7 +16,7 @@ The widget's instance.
 The right edge of the currently selected range.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ##### field(e.start): Number
 The left edge of the currently selected range.

@@ -5,7 +5,7 @@ default: ''
 ---
 ---
 ##### shortDescription
-Specifies a CSS selector (ID or class) that should act as the drag handle(s) for the element(s).
+Specifies a CSS selector (ID or class) that should act as the drag handle(s) for the item(s).
 
 ---
 <!-- Description goes here -->

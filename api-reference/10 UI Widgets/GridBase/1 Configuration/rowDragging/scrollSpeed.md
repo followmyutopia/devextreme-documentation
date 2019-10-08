@@ -5,7 +5,8 @@ default: 60
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies the scrolling speed when dragging a row beyond the viewport. Applies only if [autoScroll]({basewidgetpath}/Configuration/rowDragging/#autoScroll) is **true**.
 
 ---
-<!-- Description goes here -->
+#####See Also#####
+- [scrollSensivity]({basewidgetpath}/Configuration/rowDragging/#scrollSensitivity)

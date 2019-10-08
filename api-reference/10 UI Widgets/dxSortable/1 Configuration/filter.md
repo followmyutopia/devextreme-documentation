@@ -6,7 +6,7 @@ hidden:
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies a CSS selector for the items that need to be dragged.
 
 ---
 <!-- Description goes here -->

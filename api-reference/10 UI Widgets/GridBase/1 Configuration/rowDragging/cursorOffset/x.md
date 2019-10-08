@@ -5,7 +5,7 @@ default: 0
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies the horizontal cursor offset from the dragged row in pixels.
 
 ---
 <!-- Description goes here -->

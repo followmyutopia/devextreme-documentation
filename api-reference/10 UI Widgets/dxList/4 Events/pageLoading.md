@@ -16,7 +16,7 @@ The widget's instance.
 #include common-ref-elementparam with { element: "widget" }
 
 ##### field(e.model): Object
-The model data. Available only if Knockout is used.
+Model data. Available only if Knockout is used.
 
 ---
 Main article: [onPageLoading](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onPageLoading)

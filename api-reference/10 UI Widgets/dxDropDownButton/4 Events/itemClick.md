@@ -25,7 +25,7 @@ The clicked item's data.
 #include common-ref-elementparam with { element: "item" }
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ---
 Main article: [onItemClick](/Documentation/ApiReference/UI_Widgets/dxDropDownButton/Configuration/#onItemClick)

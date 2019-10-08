@@ -39,7 +39,7 @@ Indicates whether the row is selected. Available if **rowType** is *"data"* or *
 The row's [key](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/#key). Available if the **rowType** is *"data"*, *"detail"* or *"detailAdaptive"*.
 
 ##### field(e.model): Object
-The model data. Available only if you use Knockout.
+Model data. Available only if you use Knockout.
 
 ##### field(e.rowElement): dxElement
 #include common-ref-elementparam with { element: "row" }

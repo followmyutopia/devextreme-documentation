@@ -5,10 +5,10 @@ default: undefined
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies custom markup to be shown instead of the draggable item while dragging.
 
 ##### return: String | Node | jQuery
-<!-- Description goes here -->
+#include common-template-return-value
 
 ---
 <!-- Description goes here -->
