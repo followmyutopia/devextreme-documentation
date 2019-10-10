@@ -13,4 +13,4 @@ The updated data item's key.
 Updated values.
 
 ---
-Main article: [onUpdated]({basewidgetpath}/Configuration/#onUpdated)
+Main article: [onUpdated](/api-reference/30%20Data%20Layer/Store/1%20Configuration/onUpdated.md '{basewidgetpath}/Configuration/#onUpdated')

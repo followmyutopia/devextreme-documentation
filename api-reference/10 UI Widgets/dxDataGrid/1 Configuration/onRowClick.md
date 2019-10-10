@@ -12,7 +12,7 @@ A function that is executed when a row is clicked or tapped.
 Information about the event that caused the function's execution.
 
 ##### field(e.columns): Array<Object>
-All column [configurations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/).
+All column [configurations](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/columns/columns.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/').
 
 ##### field(e.component): {WidgetName}
 The widget's instance.
@@ -27,7 +27,7 @@ The row's data.
 #include common-ref-eventparam
 
 ##### field(e.groupIndex): Number
-The row's [group index](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#groupIndex). Available if **rowType** is *"group"*.
+The row's [group index](/api-reference/_hidden/dxDataGridColumn/groupIndex.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#groupIndex'). Available if **rowType** is *"group"*.
 
 ##### field(e.handled): Boolean
 Indicates whether internal widget functions have already handled the event.
@@ -39,7 +39,7 @@ Indicates whether or not the group row is expanded. Available if **rowType** is 
 Indicates that the row is added, but not yet saved. Available if **rowType** is *"data"*.
 
 ##### field(e.isSelected): Boolean
-Indicates whether the row is [selected](/Documentation/Guide/Widgets/DataGrid/Selection/).
+Indicates whether the row is [selected](/concepts/05%20Widgets/DataGrid/50%20Selection/Selection.md '/Documentation/Guide/Widgets/DataGrid/Selection/').
 
 ##### field(e.jQueryEvent).deprecated
 Use 'event' instead.
@@ -57,18 +57,18 @@ Model data. Available only if Knockout is used.
 #include common-ref-elementparam with { element: "row" }
 
 ##### field(e.rowIndex): Number
-The row's index. Refer to [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) for more information.
+The row's index. Refer to [Column and Row Indexes](/concepts/05%20Widgets/DataGrid/15%20Columns/12%20Column%20and%20Row%20Indexes.md '/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/') for more information.
 
 ##### field(e.rowType): String
-The row's [type](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#rowType).
+The row's [type](/api-reference/10%20UI%20Widgets/dxDataGrid/6%20Row/rowType.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#rowType').
 
 ##### field(e.values): Array<any>
 Values displayed in the row cells.
 
 ---
-The widget executes the [onCellClick](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onCellClick) function and can also execute internal functions before this function. Use the **handled** field to check whether internal functions were executed.
+The widget executes the [onCellClick](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/onCellClick.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onCellClick') function and can also execute internal functions before this function. Use the **handled** field to check whether internal functions were executed.
 
-In the following code, the **onRowClick** function calls the [editRow](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#editRowrowIndex) method to switch the clicked row to the editing state. This functionality is best applied in [form](/Demos/WidgetsGallery/Demo/DataGrid/FormEditing/jQuery/Light/) or [popup](/Demos/WidgetsGallery/Demo/DataGrid/PopupEditing/jQuery/Light/) **editing**.[mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#mode):
+In the following code, the **onRowClick** function calls the [editRow](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#editRowrowIndex) method to switch the clicked row to the editing state. This functionality is best applied in [form](/Demos/WidgetsGallery/Demo/DataGrid/FormEditing/jQuery/Light/) or [popup](/Demos/WidgetsGallery/Demo/DataGrid/PopupEditing/jQuery/Light/) **editing**.[mode](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/editing/mode.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#mode'):
 
 ---
 ##### jQuery

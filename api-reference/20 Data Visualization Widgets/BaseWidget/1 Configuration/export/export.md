@@ -12,6 +12,6 @@ These features allow a user to export your widget into a document or print it. W
 [note]**Safari on Mac OS** does not implement an API for saving files. Therefore, exporting in these browsers requires setting up a server-side proxy. For details, refer to the [proxyUrl]({basewidgetpath}/Configuration/export#proxyUrl) option description.
 
 #####See Also#####
-- [exportTo(fileName, format)]({basewidgetpath}/Methods/#exportTofileName_format)
-- [print()]({basewidgetpath}/Methods/#print)
+- [exportTo(fileName, format)](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/3%20Methods/exportTo(fileName_format).md '{basewidgetpath}/Methods/#exportTofileName_format')
+- [print()](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/3%20Methods/print().md '{basewidgetpath}/Methods/#print')
 - [DevExpress.viz.exportWidgets(widgetInstances, options)](/Documentation/ApiReference/Common/utils/viz/#exportWidgetswidgetInstances_options)

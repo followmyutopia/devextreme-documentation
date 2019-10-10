@@ -1,4 +1,4 @@
-The **TextArea** raises four keyboard events: [keyDown](/Documentation/ApiReference/UI_Widgets/dxTextArea/Events/#keyDown), [keyPress](/Documentation/ApiReference/UI_Widgets/dxTextArea/Events/#keyPress), [keyUp](/Documentation/ApiReference/UI_Widgets/dxTextArea/Events/#keyUp) and [enterKey](/Documentation/ApiReference/UI_Widgets/dxTextArea/Events/#enterKey). Within the functions that handle them, you can access the original keyboard events. If you are _not_ going to change the functions during the lifetime of the widget, assign them to the respective widget options.
+The **TextArea** raises four keyboard events: [keyDown](/api-reference/10%20UI%20Widgets/dxTextEditor/4%20Events/keyDown.md '/Documentation/ApiReference/UI_Widgets/dxTextArea/Events/#keyDown'), [keyPress](/api-reference/10%20UI%20Widgets/dxTextEditor/4%20Events/keyPress.md '/Documentation/ApiReference/UI_Widgets/dxTextArea/Events/#keyPress'), [keyUp](/api-reference/10%20UI%20Widgets/dxTextEditor/4%20Events/keyUp.md '/Documentation/ApiReference/UI_Widgets/dxTextArea/Events/#keyUp') and [enterKey](/api-reference/10%20UI%20Widgets/dxTextEditor/4%20Events/enterKey.md '/Documentation/ApiReference/UI_Widgets/dxTextArea/Events/#enterKey'). Within the functions that handle them, you can access the original keyboard events. If you are _not_ going to change the functions during the lifetime of the widget, assign them to the respective widget options.
 
 ---
 #####jQuery
@@ -129,7 +129,7 @@ You can also implement handlers for other keys using the [registerKeyHandler(key
 #####See Also#####
 #include common-link-handleevents
 #include common-link-callmethods
-- [TextArea - Handle the Value Change Event](/Documentation/Guide/Widgets/TextArea/Handle_the_Value_Change_Event/)
+- [TextArea - Handle the Value Change Event](/concepts/05%20Widgets/TextArea/10%20Handle%20the%20Value%20Change%20Event.md '/Documentation/Guide/Widgets/TextArea/Handle_the_Value_Change_Event/')
 - [TextArea Demos](/Demos/WidgetsGallery/#demo/editors-text_area-overview)
 
 [tags]textArea, text area, editor, keyboard events, keyup, keydown, keypress, enterkey

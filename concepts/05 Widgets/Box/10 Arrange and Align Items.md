@@ -1,4 +1,4 @@
-Items can be arranged in a row or in a column depending on the value of the [direction](/Documentation/ApiReference/UI_Widgets/dxBox/Configuration/#direction) option.
+Items can be arranged in a row or in a column depending on the value of the [direction](/api-reference/10%20UI%20Widgets/dxBox/1%20Configuration/direction.md '/Documentation/ApiReference/UI_Widgets/dxBox/Configuration/#direction') option.
 
 ---
 ##### jQuery
@@ -52,7 +52,7 @@ Items can be arranged in a row or in a column depending on the value of the [dir
     </script>
 </div>
 
-If the **Box** items do not occupy the entire **Box**, you can align them along and crosswise the specified **direction**. For this purpose, use the [align](/Documentation/ApiReference/UI_Widgets/dxBox/Configuration/#align) and [crossAlign](/Documentation/ApiReference/UI_Widgets/dxBox/Configuration/#crossAlign) options, respectively.
+If the **Box** items do not occupy the entire **Box**, you can align them along and crosswise the specified **direction**. For this purpose, use the [align](/api-reference/10%20UI%20Widgets/dxBox/1%20Configuration/align.md '/Documentation/ApiReference/UI_Widgets/dxBox/Configuration/#align') and [crossAlign](/api-reference/10%20UI%20Widgets/dxBox/1%20Configuration/crossAlign.md '/Documentation/ApiReference/UI_Widgets/dxBox/Configuration/#crossAlign') options, respectively.
 
 ---
 ##### jQuery
@@ -94,8 +94,8 @@ If the **Box** items do not occupy the entire **Box**, you can align them along 
 ---
 
 #####See Also#####
-- [Box - Nest One Box into Another](/Documentation/Guide/Widgets/Box/Nest_One_Box_into_Another/)
+- [Box - Nest One Box into Another](/concepts/05%20Widgets/Box/15%20Nest%20One%20Box%20Into%20Another.md '/Documentation/Guide/Widgets/Box/Nest_One_Box_into_Another/')
 - [Box Demos](/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-box-overview)
-- [Box API Reference](/Documentation/ApiReference/UI_Widgets/dxBox/)
+- [Box API Reference](/api-reference/10%20UI%20Widgets/dxBox/dxBox.md '/Documentation/ApiReference/UI_Widgets/dxBox/')
 
 [tags]box, arrange items in a column, arrange items in a row, direction, items alignment, align items, crossAlign

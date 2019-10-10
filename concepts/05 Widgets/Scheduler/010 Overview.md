@@ -22,7 +22,7 @@ The **Scheduler** is a widget that represents scheduled data and allows a user t
     url: "/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/"
 }
 
-The following code adds the **Scheduler** widget to your page. The simplest configuration requires only a [dataSource](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#dataSource) to be specified. In addition, you can define a date that should be initially displayed in the date navigator using the [currentDate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#currentDate) option.
+The following code adds the **Scheduler** widget to your page. The simplest configuration requires only a [dataSource](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/dataSource.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#dataSource') to be specified. In addition, you can define a date that should be initially displayed in the date navigator using the [currentDate](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/currentDate.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#currentDate') option.
 
 ---
 
@@ -81,7 +81,7 @@ The following code adds the **Scheduler** widget to your page. The simplest conf
 
 ---
 
-Each data source object represents an appointment to be scheduled and has a special structure. This structure should be similar to the [Default Appointment Template](/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/). Note that the fields listed below should be present in every appointment.
+Each data source object represents an appointment to be scheduled and has a special structure. This structure should be similar to the [Default Appointment Template](/api-reference/10%20UI%20Widgets/dxScheduler/5%20Default%20Appointment%20Template/Default%20Appointment%20Template.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/'). Note that the fields listed below should be present in every appointment.
 
 - **text**  
     The subject of an appointment.
@@ -168,8 +168,8 @@ If your appointments have a different structure, specify:
 ---
 
 #####See Also#####
-- [Scheduler - Data Binding](/Documentation/Guide/Widgets/Scheduler/Data_Binding/)
-- [Scheduler - Views](/Documentation/Guide/Widgets/Scheduler/Views/)
-- [Scheduler - Keyboard Support](/Documentation/Guide/Widgets/Scheduler/Keyboard_Support/)
+- [Scheduler - Data Binding](/concepts/05%20Widgets/Scheduler/020%20Data%20Binding/10%20Simple%20Array/10%20Array%20Only.md '/Documentation/Guide/Widgets/Scheduler/Data_Binding/')
+- [Scheduler - Views](/concepts/05%20Widgets/Scheduler/060%20Views/010%20View%20Types/View%20Types.md '/Documentation/Guide/Widgets/Scheduler/Views/')
+- [Scheduler - Keyboard Support](/concepts/05%20Widgets/Scheduler/080%20Keyboard%20Support.md '/Documentation/Guide/Widgets/Scheduler/Keyboard_Support/')
 
 [tags]scheduler, overview, default template, textExpr, startDateExpr, endDateExpr

@@ -19,7 +19,7 @@ The widget's instance.
 Model data. Available only if Knockout is used.
 
 ---
-Main article: [onPullDown](/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#onPullDown)
+Main article: [onPullDown](/api-reference/10%20UI%20Widgets/dxScrollView/1%20Configuration/onPullDown.md '/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#onPullDown')
 
 #####See Also#####
 #include common-link-handleevents

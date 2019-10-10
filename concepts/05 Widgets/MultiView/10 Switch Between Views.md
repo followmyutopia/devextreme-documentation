@@ -1,4 +1,4 @@
-By default, an end user can switch between views by swiping. Assign **false** to the [swipeEnabled](/Documentation/ApiReference/UI_Widgets/dxMultiView/Configuration/#swipeEnabled) option to disable this feature.
+By default, an end user can switch between views by swiping. Assign **false** to the [swipeEnabled](/api-reference/10%20UI%20Widgets/dxMultiView/1%20Configuration/swipeEnabled.md '/Documentation/ApiReference/UI_Widgets/dxMultiView/Configuration/#swipeEnabled') option to disable this feature.
 
 ---
 ##### jQuery
@@ -35,7 +35,7 @@ By default, an end user can switch between views by swiping. Assign **false** to
 
 ---
 
-You can switch the views from code by changing the [selectedIndex](/Documentation/ApiReference/UI_Widgets/dxMultiView/Configuration/#selectedIndex) or [selectedItem](/Documentation/ApiReference/UI_Widgets/dxMultiView/Configuration/#selectedItem) option.
+You can switch the views from code by changing the [selectedIndex](/api-reference/10%20UI%20Widgets/dxMultiView/1%20Configuration/selectedIndex.md '/Documentation/ApiReference/UI_Widgets/dxMultiView/Configuration/#selectedIndex') or [selectedItem](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/selectedItem.md '/Documentation/ApiReference/UI_Widgets/dxMultiView/Configuration/#selectedItem') option.
 
 ---
 ##### jQuery
@@ -67,7 +67,7 @@ You can switch the views from code by changing the [selectedIndex](/Documentatio
 
 ---
 
-By default, the **MultiView** widget animates switching between views. You can disable animation by setting the [animationEnabled](/Documentation/ApiReference/UI_Widgets/dxMultiView/Configuration/#animationEnabled) option to **false**.
+By default, the **MultiView** widget animates switching between views. You can disable animation by setting the [animationEnabled](/api-reference/10%20UI%20Widgets/dxMultiView/1%20Configuration/animationEnabled.md '/Documentation/ApiReference/UI_Widgets/dxMultiView/Configuration/#animationEnabled') option to **false**.
 
 ---
 ##### jQuery
@@ -105,9 +105,9 @@ By default, the **MultiView** widget animates switching between views. You can d
 ---
 
 #####See Also#####
-- [MultiView - Customize Item Appearance](/Documentation/Guide/Widgets/MultiView/Customize_Item_Appearance)
-- [MultiView - Loop the Views](/Documentation/Guide/Widgets/MultiView/Loop_the_Views)
+- [MultiView - Customize Item Appearance](/concepts/05%20Widgets/MultiView/05%20Customize%20Item%20Appearance.md '/Documentation/Guide/Widgets/MultiView/Customize_Item_Appearance')
+- [MultiView - Loop the Views](/concepts/05%20Widgets/MultiView/15%20Loop%20the%20Views.md '/Documentation/Guide/Widgets/MultiView/Loop_the_Views')
 - [MultiView Demos](/Demos/WidgetsGallery/#demo/navigation-multi_view-overview)
-- [MultiView API Reference](/Documentation/ApiReference/UI_Widgets/dxMultiView/)
+- [MultiView API Reference](/api-reference/10%20UI%20Widgets/dxMultiView/dxMultiView.md '/Documentation/ApiReference/UI_Widgets/dxMultiView/')
 
 [tags]multi view, multiView, views, switch, swipe, animate

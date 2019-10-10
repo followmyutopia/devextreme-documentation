@@ -14,4 +14,4 @@ The row's key.
 ---
 #####See Also#####
 #include common-link-callmethods
-- [getKeyByRowIndex(rowIndex)]({basewidgetpath}/Methods/#getKeyByRowIndexrowIndex)
+- [getKeyByRowIndex(rowIndex)](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/getKeyByRowIndex(rowIndex).md '{basewidgetpath}/Methods/#getKeyByRowIndexrowIndex')

@@ -34,7 +34,7 @@ The row's properties.
 The index of the cell's row.
 
 ---
-Main article: [onFocusedCellChanged](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onFocusedCellChanged)
+Main article: [onFocusedCellChanged](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/onFocusedCellChanged.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onFocusedCellChanged')
 
 #####See Also#####
 #include common-link-handleevents

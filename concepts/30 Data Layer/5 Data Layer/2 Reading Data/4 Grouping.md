@@ -1,4 +1,4 @@
-﻿In some cases, you may need to group data by certain criteria. An item of a grouped array is an object containing two fields:
+In some cases, you may need to group data by certain criteria. An item of a grouped array is an object containing two fields:
 
 - **key** - a group key;
 - **items** - an array of items belonging to the group.
@@ -15,7 +15,7 @@
         }
     ];
 
-The DevExtreme data layer ([DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) and [Stores](/Documentation/Guide/Data_Layer/Data_Layer/#What_Are_Stores#What_Are_Stores)) supports grouping. The group expression syntax is identical to the [sort expression syntax](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Sorting).
+The DevExtreme data layer ([DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/') and [Stores](/Documentation/Guide/Data_Layer/Data_Layer/#What_Are_Stores#What_Are_Stores)) supports grouping. The group expression syntax is identical to the [sort expression syntax](/concepts/30%20Data%20Layer/5%20Data%20Layer/2%20Reading%20Data/1%20Sorting.md '/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Sorting').
 
 Consider grouping on the following examples. Begin with the creation of a sample DataSource.
 
@@ -29,7 +29,7 @@ Consider grouping on the following examples. Begin with the creation of a sample
     ];
     var dataSource = new DevExpress.data.DataSource(data);
 
-The group expression is stored in the [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option of the DataSource. You can get and modify the option value via the [group()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#group) and [group(groupExpr)](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#groupgroupExpr) methods respectively. To group the given array by 'birthYear', call the **group(groupExpr)** method and pass "birthYear" as an argument.
+The group expression is stored in the [group](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/group.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group') option of the DataSource. You can get and modify the option value via the [group()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#group) and [group(groupExpr)](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#groupgroupExpr) methods respectively. To group the given array by 'birthYear', call the **group(groupExpr)** method and pass "birthYear" as an argument.
 
     <!--JavaScript-->dataSource.group("birthYear");
     dataSource.load().done(function(result) {
@@ -87,7 +87,7 @@ In this case, the 'result' array includes the following items.
         }
     ]
 
-Multi-level grouping is also supported. Pass several [getters](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters) or an array of getters to the [group(groupExpr)](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#groupgroupExpr) method to load an array containing subgroups.
+Multi-level grouping is also supported. Pass several [getters](/concepts/30%20Data%20Layer/5%20Data%20Layer/9%20Getters%20And%20Setters/Getters%20And%20Setters.md '/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters') or an array of getters to the [group(groupExpr)](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#groupgroupExpr) method to load an array containing subgroups.
 
     <!--JavaScript-->dataSource.group("birthYear", "gender");
     dataSource.load().done(function(result) {
@@ -135,7 +135,7 @@ The loaded array looks like the following.
         }
     ]
 
-[Stores](/Documentation/Guide/Data_Layer/Data_Layer/#What_Are_Stores) support the same group expression syntax as the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/).
+[Stores](/Documentation/Guide/Data_Layer/Data_Layer/#What_Are_Stores) support the same group expression syntax as the [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/').
 
     <!--JavaScript-->var arrayStore = new DevExpress.data.ArrayStore(data);
     arrayStore

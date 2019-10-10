@@ -3,7 +3,7 @@ id: GridBase.undeleteRow(rowIndex)
 ---
 ---
 ##### shortDescription
-Recovers a row deleted in *batch* [editing mode]({basewidgetpath}/Configuration/editing/#mode).
+Recovers a row deleted in *batch* [editing mode](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/editing/mode.md '{basewidgetpath}/Configuration/editing/#mode').
 
 ##### param(rowIndex): Number
 The row's index. Refer to [Column and Row Indexes](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_and_Row_Indexes/) for more information.
@@ -11,5 +11,5 @@ The row's index. Refer to [Column and Row Indexes](/Documentation/Guide/Widgets/
 ---
 #####See Also#####
 #include common-link-callmethods
-- [closeEditCell()]({basewidgetpath}/Methods/#closeEditCell)
-- [cancelEditData()]({basewidgetpath}/Methods/#cancelEditData)
+- [closeEditCell()](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/closeEditCell().md '{basewidgetpath}/Methods/#closeEditCell')
+- [cancelEditData()](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/cancelEditData().md '{basewidgetpath}/Methods/#cancelEditData')

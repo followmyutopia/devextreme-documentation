@@ -1,4 +1,4 @@
-By default, the change of the image is animated. You can specify how long the animation is using the [animationDuration](/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/#animationDuration) option. The lower its value, the faster the animation. In case you need to disable animation completely, set the [animationEnabled](/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/#animationEnabled) option to **false**.
+By default, the change of the image is animated. You can specify how long the animation is using the [animationDuration](/api-reference/10%20UI%20Widgets/dxGallery/1%20Configuration/animationDuration.md '/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/#animationDuration') option. The lower its value, the faster the animation. In case you need to disable animation completely, set the [animationEnabled](/api-reference/10%20UI%20Widgets/dxGallery/1%20Configuration/animationEnabled.md '/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/#animationEnabled') option to **false**.
 
 ---
 #####jQuery
@@ -48,10 +48,10 @@ By default, the change of the image is animated. You can specify how long the an
 ---
 
 #####See Also#####
-- [Gallery - Enable the Slideshow](/Documentation/Guide/Widgets/Gallery/Enable_the_Slideshow/)
-- [Gallery - Switch Between Images](/Documentation/Guide/Widgets/Gallery/Switch_Between_Images/)
-- [Gallery - Transform and Combine Images](/Documentation/Guide/Widgets/Gallery/Transform_and_Combine_Images/)
+- [Gallery - Enable the Slideshow](/concepts/05%20Widgets/Gallery/15%20Enable%20the%20Slideshow.md '/Documentation/Guide/Widgets/Gallery/Enable_the_Slideshow/')
+- [Gallery - Switch Between Images](/concepts/05%20Widgets/Gallery/05%20Switch%20Between%20Images/Switch%20Between%20Images.md '/Documentation/Guide/Widgets/Gallery/Switch_Between_Images/')
+- [Gallery - Transform and Combine Images](/concepts/05%20Widgets/Gallery/25%20Transform%20and%20Combine%20Images.md '/Documentation/Guide/Widgets/Gallery/Transform_and_Combine_Images/')
 - [Gallery Demos](/Demos/WidgetsGallery/#demo/actions_and_lists-gallery-overview)
-- [Gallery API Reference](/Documentation/ApiReference/UI_Widgets/dxGallery/)
+- [Gallery API Reference](/api-reference/10%20UI%20Widgets/dxGallery/dxGallery.md '/Documentation/ApiReference/UI_Widgets/dxGallery/')
 
 [tags]gallery, animate, animation duration, disable animation

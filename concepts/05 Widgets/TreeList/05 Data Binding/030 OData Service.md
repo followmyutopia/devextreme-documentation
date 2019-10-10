@@ -1,4 +1,4 @@
-Use the [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/) to bind the **TreeList** to data an OData service supplies. It provides an interface for loading and editing data and allows you to handle data-related events.
+Use the [ODataStore](/api-reference/30%20Data%20Layer/ODataStore/ODataStore.md '/Documentation/ApiReference/Data_Layer/ODataStore/') to bind the **TreeList** to data an OData service supplies. It provides an interface for loading and editing data and allows you to handle data-related events.
 
 ---
 ##### jQuery
@@ -44,7 +44,7 @@ Use the [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/) to bind
 
 ---
 
-Data kept in the **ODataStore** can be processed in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/), for example, it can filter data.
+Data kept in the **ODataStore** can be processed in the [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/'), for example, it can filter data.
 
 ---
 ##### jQuery
@@ -93,10 +93,10 @@ Data kept in the **ODataStore** can be processed in the [DataSource](/Documentat
 
 ---
 
-[note] Setting the **ODataStore**'s **deserializeDates** option to **false** may cause filtering issues in the **TreeList**. See this option's [description](/Documentation/ApiReference/Data_Layer/ODataStore/Configuration/#deserializeDates) for details.
+[note] Setting the **ODataStore**'s **deserializeDates** option to **false** may cause filtering issues in the **TreeList**. See this option's [description](/api-reference/30%20Data%20Layer/ODataStore/1%20Configuration/deserializeDates.md '/Documentation/ApiReference/Data_Layer/ODataStore/Configuration/#deserializeDates') for details.
 
 #####See Also#####
-- [Data Layer - Data Source Examples | OData](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData)
+- [Data Layer - Data Source Examples | OData](/concepts/30%20Data%20Layer/51%20Data%20Source%20Examples/2%20OData/OData.md '/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData')
 - [TreeList Demos](/Demos/WidgetsGallery/Demo/TreeList/Overview/jQuery/Light/)
 
 [tags]treeList, data binding, provide data, odata, ODataStore, DataSource, process data

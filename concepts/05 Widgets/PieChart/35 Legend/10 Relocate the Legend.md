@@ -1,4 +1,4 @@
-The legend can be aligned in the horizontal or vertical direction using the [horizontalAlignment](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/legend/#horizontalAlignment) or [verticalAlignment](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/legend/#verticalAlignment) option.
+The legend can be aligned in the horizontal or vertical direction using the [horizontalAlignment](/api-reference/20%20Data%20Visualization%20Widgets/BaseLegend/horizontalAlignment.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/legend/#horizontalAlignment') or [verticalAlignment](/api-reference/20%20Data%20Visualization%20Widgets/BaseLegend/verticalAlignment.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/legend/#verticalAlignment') option.
 
 ---
 ##### jQuery
@@ -43,5 +43,5 @@ Below, you can try out these options in action.
 <div class="simulator-desktop-container" data-view="/Content/Applications/19_2/DataVisualization/Guides/PieChartLegend/relocateTheLegend.html, /Content/Applications/19_2/DataVisualization/Guides/PieChartLegend/relocateTheLegend.js, /Content/Applications/19_2/DataVisualization/Guides/PieChartLegend/relocateTheLegend.css"></div>
 
 #####See Also#####
-- [Rearrange Legend Items](/Documentation/Guide/Widgets/PieChart/Legend/Rearrange_Legend_Items/)
+- [Rearrange Legend Items](/concepts/05%20Widgets/PieChart/35%20Legend/20%20Rearrange%20Legend%20Items.md '/Documentation/Guide/Widgets/PieChart/Legend/Rearrange_Legend_Items/')
 - [PieChart Demos](/Demos/WidgetsGallery/Demo/Charts/PieWithMultipleSeries/jQuery/Light/)

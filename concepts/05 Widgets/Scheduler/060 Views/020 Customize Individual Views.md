@@ -1,4 +1,4 @@
-To customize individual views, assign an array of configuration objects to the **views** option. Each object contains the [type](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/#type) option that defines which view is customized. Refer to the [API Reference](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/) for a list of options.
+To customize individual views, assign an array of configuration objects to the **views** option. Each object contains the [type](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/views/type.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/#type') option that defines which view is customized. Refer to the [API Reference](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/views/views.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/') for a list of options.
 
 The following code defines three views: the first is not customized, the second has a specific cell duration and a custom template for the time scale, and the third is grouped by resources.
 
@@ -200,10 +200,10 @@ The following code defines three views: the first is not customized, the second 
 }
 
 #####See Also#####
-- [Scheduler - View Types](/Documentation/Guide/Widgets/Scheduler/Views/View_Types/)
-- [Scheduler - Customize Appointment](/Documentation/Guide/Widgets/Scheduler/Appointments/Customize_Appointment/)
-- [Scheduler - Customize Timetable](/Documentation/Guide/Widgets/Scheduler/Timetable/)
+- [Scheduler - View Types](/concepts/05%20Widgets/Scheduler/060%20Views/010%20View%20Types/View%20Types.md '/Documentation/Guide/Widgets/Scheduler/Views/View_Types/')
+- [Scheduler - Customize Appointment](/concepts/05%20Widgets/Scheduler/030%20Appointments/050%20Customize%20Appointment.md '/Documentation/Guide/Widgets/Scheduler/Appointments/Customize_Appointment/')
+- [Scheduler - Customize Timetable](/concepts/05%20Widgets/Scheduler/050%20Timetable.md '/Documentation/Guide/Widgets/Scheduler/Timetable/')
 - [Scheduler Demos](/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/)
-- [Scheduler API Reference](/Documentation/ApiReference/UI_Widgets/dxScheduler/)
+- [Scheduler API Reference](/api-reference/10%20UI%20Widgets/dxScheduler/dxScheduler.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/')
 
 [tags]scheduler, customize individual view

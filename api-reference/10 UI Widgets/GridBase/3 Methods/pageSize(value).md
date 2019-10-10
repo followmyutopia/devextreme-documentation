@@ -3,7 +3,7 @@ id: GridBase.pageSize(value)
 ---
 ---
 ##### shortDescription
-Sets the [page size]({basewidgetpath}/Configuration/paging/#pageSize).
+Sets the [page size](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/paging/pageSize.md '{basewidgetpath}/Configuration/paging/#pageSize').
 
 ##### param(value): Number
 The page size.

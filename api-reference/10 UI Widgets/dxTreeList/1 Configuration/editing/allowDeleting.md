@@ -20,10 +20,10 @@ The row's properties.
 **true** if the row can be deleted; otherwise **false**.
 
 ---
-See an example in the [allowAdding](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/editing/#allowAdding) option.
+See an example in the [allowAdding](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/editing/allowAdding.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/editing/#allowAdding') option.
 
 #####See Also#####
-- [onRowRemoved](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onRowRemoved)
-- [onRowRemoving](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onRowRemoving)
+- [onRowRemoved](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onRowRemoved.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onRowRemoved')
+- [onRowRemoving](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onRowRemoving.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onRowRemoving')
 - [deleteRow(rowIndex)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#deleteRowrowIndex)
 - [undeleteRow(rowIndex)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#undeleteRowrowIndex)

@@ -9,6 +9,6 @@ Specifies whether a user can add new rows.
 
 ---
 #####See Also#####
-- [onRowInserting](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onRowInserting)
-- [onRowInserted](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onRowInserted)
+- [onRowInserting](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onRowInserting.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onRowInserting')
+- [onRowInserted](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onRowInserted.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onRowInserted')
 - [addRow()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#addRow)

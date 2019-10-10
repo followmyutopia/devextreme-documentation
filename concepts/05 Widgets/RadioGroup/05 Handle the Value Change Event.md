@@ -1,4 +1,4 @@
-To process a new **RadioGroup** value, you need to handle the value change event. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onValueChanged](/Documentation/ApiReference/UI_Widgets/dxRadioGroup/Configuration/#onValueChanged) option when you configure the widget.
+To process a new **RadioGroup** value, you need to handle the value change event. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onValueChanged](/api-reference/10%20UI%20Widgets/Editor/1%20Configuration/onValueChanged.md '/Documentation/ApiReference/UI_Widgets/dxRadioGroup/Configuration/#onValueChanged') option when you configure the widget.
 
     <!--JavaScript-->
     $(function() {
@@ -32,8 +32,8 @@ If you are going to change event handlers at runtime, or if you need to attach s
 
 #####See Also#####
 #include common-link-handleevents
-- [RadioGroup - Customize Item Appearance](/Documentation/Guide/Widgets/RadioGroup/Customize_Item_Appearance)
+- [RadioGroup - Customize Item Appearance](/concepts/05%20Widgets/RadioGroup/10%20Customize%20Item%20Appearance.md '/Documentation/Guide/Widgets/RadioGroup/Customize_Item_Appearance')
 - [RadioGroup Demos](/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-radio_group-overview)
-- [RadioGroup API Reference](/Documentation/ApiReference/UI_Widgets/dxRadioGroup/)
+- [RadioGroup API Reference](/api-reference/10%20UI%20Widgets/dxRadioGroup/dxRadioGroup.md '/Documentation/ApiReference/UI_Widgets/dxRadioGroup/')
 
 [tags]radio group, radioGroup, editor, get value, set value

@@ -10,10 +10,10 @@ Configures the **DataSource**'s underlying store.
 This option accepts one of the following:
 
 * **Store instance**            
-An [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/), [ArrayStore](/Documentation/ApiReference/Data_Layer/ArrayStore/), [LocalStore](/Documentation/ApiReference/Data_Layer/LocalStore/), [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/), or [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/) instance.
+An [XmlaStore](/api-reference/30%20Data%20Layer/XmlaStore/XmlaStore.md '/Documentation/ApiReference/Data_Layer/XmlaStore/'), [ArrayStore](/api-reference/30%20Data%20Layer/ArrayStore/ArrayStore.md '/Documentation/ApiReference/Data_Layer/ArrayStore/'), [LocalStore](/api-reference/30%20Data%20Layer/LocalStore/LocalStore.md '/Documentation/ApiReference/Data_Layer/LocalStore/'), [ODataStore](/api-reference/30%20Data%20Layer/ODataStore/ODataStore.md '/Documentation/ApiReference/Data_Layer/ODataStore/'), or [CustomStore](/api-reference/30%20Data%20Layer/CustomStore/CustomStore.md '/Documentation/ApiReference/Data_Layer/CustomStore/') instance.
 
 * **Store configuration object**        
-An **XmlaStore**, **ArrayStore**, **LocalStore**, or **ODataStore** configuration object. Make sure to set the [type](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/store/#type) option.
+An **XmlaStore**, **ArrayStore**, **LocalStore**, or **ODataStore** configuration object. Make sure to set the [type](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/store/type.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/store/#type') option.
 
 * **Array**         
 Assigning an array to the **store** option automatically creates an **ArrayStore** in the **PivotGridDataSource**.
@@ -78,4 +78,4 @@ Assigning an array to the **store** option automatically creates an **ArrayStore
 
 ---
 
-See the [Use CustomStore](/Documentation/Guide/Widgets/PivotGrid/Use_CustomStore/) topic for information on how to implement custom data access logic.
+See the [Use CustomStore](/concepts/05%20Widgets/PivotGrid/035%20Use%20CustomStore/Use%20CustomStore.md '/Documentation/Guide/Widgets/PivotGrid/Use_CustomStore/') topic for information on how to implement custom data access logic.

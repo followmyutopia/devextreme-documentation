@@ -19,7 +19,7 @@ The widget's instance.
 The model data. Available only if you use Knockout.
 
 ---
-Main article: [onExported]({basewidgetpath}/Configuration/#onExported)
+Main article: [onExported](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/onExported.md '{basewidgetpath}/Configuration/#onExported')
 
 #####See Also#####
 #include common-link-handleevents

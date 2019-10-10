@@ -1,12 +1,12 @@
 The **TreeView** raises the following selection-related events: 
 
-- [itemSelectionChanged](/Documentation/ApiReference/UI_Widgets/dxTreeView/Events/#itemSelectionChanged)            
+- [itemSelectionChanged](/api-reference/10%20UI%20Widgets/dxTreeView/4%20Events/itemSelectionChanged.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Events/#itemSelectionChanged')            
 Raised after a node's selection state changes.
 
-- [selectAllValueChanged](/Documentation/ApiReference/UI_Widgets/dxTreeView/Events/#selectAllValueChanged)          
+- [selectAllValueChanged](/api-reference/10%20UI%20Widgets/dxTreeView/4%20Events/selectAllValueChanged.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Events/#selectAllValueChanged')          
 Raised after the "Select All" check box's state changes.
 
-You can handle these events with functions. Assign the handling functions to the [onItemSelectionChanged](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#onItemSelectionChanged) and [onSelectAllValueChanged](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#onSelectAllValueChanged) options when you configure the widget if they are going to remain unchanged at runtime.
+You can handle these events with functions. Assign the handling functions to the [onItemSelectionChanged](/api-reference/10%20UI%20Widgets/dxTreeView/1%20Configuration/onItemSelectionChanged.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#onItemSelectionChanged') and [onSelectAllValueChanged](/api-reference/10%20UI%20Widgets/dxTreeView/1%20Configuration/onSelectAllValueChanged.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#onSelectAllValueChanged') options when you configure the widget if they are going to remain unchanged at runtime.
 
 ---
 ##### jQuery
@@ -71,7 +71,7 @@ If you are going to change the event handler at runtime, or if you need to attac
 }
 
 #####See Also#####
-- [TreeView - Access a Node](/Documentation/Guide/Widgets/TreeView/Access_a_Node)
-- [TreeView - Search Nodes](/Documentation/Guide/Widgets/TreeView/Search_Nodes/)
-- [TreeView - Expand and Collapse Nodes](/Documentation/Guide/Widgets/TreeView/Select_Nodes)
-- [TreeView API Reference](/Documentation/ApiReference/UI_Widgets/dxTreeView/)
+- [TreeView - Access a Node](/concepts/05%20Widgets/TreeView/10%20Access%20a%20Node/Access%20a%20Node.md '/Documentation/Guide/Widgets/TreeView/Access_a_Node')
+- [TreeView - Search Nodes](/concepts/05%20Widgets/TreeView/15%20Search%20Nodes.md '/Documentation/Guide/Widgets/TreeView/Search_Nodes/')
+- [TreeView - Expand and Collapse Nodes](/concepts/05%20Widgets/TreeView/25%20Select%20Nodes/Select%20Nodes.md '/Documentation/Guide/Widgets/TreeView/Select_Nodes')
+- [TreeView API Reference](/api-reference/10%20UI%20Widgets/dxTreeView/dxTreeView.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/')

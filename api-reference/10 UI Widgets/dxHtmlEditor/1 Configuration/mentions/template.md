@@ -11,13 +11,13 @@ Specifies a custom template for mentions.
 The current mention's data.
 
 ##### field(mentionData.id): String | Number
-The mention's identifier provided by the [valueExpr](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/mentions/#valueExpr).
+The mention's identifier provided by the [valueExpr](/api-reference/10%20UI%20Widgets/dxHtmlEditor/1%20Configuration/mentions/valueExpr.md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/mentions/#valueExpr').
 
 ##### field(mentionData.marker): String
-The [marker](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/mentions/#marker) that precedes the mention.
+The [marker](/api-reference/10%20UI%20Widgets/dxHtmlEditor/1%20Configuration/mentions/marker.md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/mentions/#marker') that precedes the mention.
 
 ##### field(mentionData.value): any
-The displayed value provided by the [displayExpr](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/mentions/#displayExpr).
+The displayed value provided by the [displayExpr](/api-reference/10%20UI%20Widgets/dxHtmlEditor/1%20Configuration/mentions/displayExpr.md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/mentions/#displayExpr').
 
 ##### param(contentElement): dxElement
 #include common-ref-elementparam with { element: "mention" }
@@ -27,4 +27,4 @@ The name or container of a template.
 
 ---
 #####See Also#####
-- [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
+- [Custom Templates](/concepts/05%20Widgets/zz%20Common/30%20Templates/10%20Custom%20Templates.md '/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates')

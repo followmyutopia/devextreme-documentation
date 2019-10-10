@@ -1,4 +1,4 @@
-[DataSources](/Documentation/ApiReference/Data_Layer/DataSource/) and [Stores](/Documentation/Guide/Data_Layer/Data_Layer/#What_Are_Stores) use sort expressions to specify sorting conditions and direction.
+[DataSources](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/') and [Stores](/Documentation/Guide/Data_Layer/Data_Layer/#What_Are_Stores) use sort expressions to specify sorting conditions and direction.
 
 For an example, declare  a **Person** class.
 
@@ -22,11 +22,11 @@ After the **Person** class is created, declare a **data** array holding several 
         new Person("Xavier", "Lee", "New Mexico")
     ];
 
-Create a simple [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/).
+Create a simple [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/').
 
     <!--JavaScript-->var dataSource = new DevExpress.data.DataSource(data);
 
-The sorting condition can be specified using the [sort](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#sort) configuration option or the [sort(sortExpr)](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#sortsortExpr) method of the DataSource. The value assigned to the option or passed to the method is a sorting expression, which can have one of the following formats.
+The sorting condition can be specified using the [sort](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/sort.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#sort') configuration option or the [sort(sortExpr)](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#sortsortExpr) method of the DataSource. The value assigned to the option or passed to the method is a sorting expression, which can have one of the following formats.
 
 - **A single expression**
 
@@ -78,7 +78,7 @@ The sorting condition can be specified using the [sort](/Documentation/ApiRefere
             // and then by 'address.city' in the descending order
         });
 
-[Stores](/Documentation/Guide/Data_Layer/Data_Layer/#What_Are_Stores#What_Are_Stores) support the same sort expression syntax as the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/).
+[Stores](/Documentation/Guide/Data_Layer/Data_Layer/#What_Are_Stores#What_Are_Stores) support the same sort expression syntax as the [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/').
 
     <!--JavaScript-->var arrayStore = new DevExpress.data.ArrayStore(data);
     arrayStore

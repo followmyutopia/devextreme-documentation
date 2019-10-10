@@ -7,7 +7,7 @@ type: Object
 Specifies a size of pages.
 
 ---
-The [units](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/#units) option specifies the page's measurement units.
+The [units](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/units.md '/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/#units') option specifies the page's measurement units.
 
 ---
 ##### jQuery  

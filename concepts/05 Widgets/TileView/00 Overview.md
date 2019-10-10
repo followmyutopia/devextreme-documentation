@@ -50,9 +50,9 @@ The following code adds a primitive **TileView** to your page.
 
 ---
 
-Note that all data source items in the code above follow the [Default Item Template](/Documentation/ApiReference/UI_Widgets/dxTileView/Default_Item_Template/) pattern. This provides a default tile appearance, which can be customized later. 
+Note that all data source items in the code above follow the [Default Item Template](/api-reference/10%20UI%20Widgets/dxTileView/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxTileView/Default_Item_Template/') pattern. This provides a default tile appearance, which can be customized later. 
 
-By default, the widget is oriented horizontally, but you can orient it vertically using the [direction](/Documentation/ApiReference/UI_Widgets/dxTileView/Configuration/#direction) option. 
+By default, the widget is oriented horizontally, but you can orient it vertically using the [direction](/api-reference/10%20UI%20Widgets/dxTileView/1%20Configuration/direction.md '/Documentation/ApiReference/UI_Widgets/dxTileView/Configuration/#direction') option. 
 
 ---
 #####jQuery
@@ -93,8 +93,8 @@ By default, the widget is oriented horizontally, but you can orient it verticall
 
 #####See Also#####
 #include common-link-configurewidget
-- [TileView - Specify the Size of Tiles](/Documentation/Guide/Widgets/TileView/Specify_the_Size_of_Tiles)
-- [TileView - Customize Tile Appearance](/Documentation/Guide/Widgets/TileView/Customize_Tile_Appearance)
-- [TileView API Reference](/Documentation/ApiReference/UI_Widgets/dxTileView/)
+- [TileView - Specify the Size of Tiles](/concepts/05%20Widgets/TileView/03%20Specify%20the%20Size%20of%20Tiles.md '/Documentation/Guide/Widgets/TileView/Specify_the_Size_of_Tiles')
+- [TileView - Customize Tile Appearance](/concepts/05%20Widgets/TileView/05%20Customize%20Tile%20Appearance.md '/Documentation/Guide/Widgets/TileView/Customize_Tile_Appearance')
+- [TileView API Reference](/api-reference/10%20UI%20Widgets/dxTileView/dxTileView.md '/Documentation/ApiReference/UI_Widgets/dxTileView/')
 
 [tags]tile view, tileView, collection container, collection widget, navigation, overview

@@ -42,9 +42,9 @@ Objects that have a hierarchical structure are visualized by groups of tiles. Fo
     url: "/Demos/WidgetsGallery/Demo/Charts/HierarchicalDataStructure/jQuery/Light/"
 }
 
-For both structures, set the [valueField](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#valueField) and [labelField](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#labelField); for the hierarchical structure, also set the [childrenField](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#childrenField).
+For both structures, set the [valueField](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/1%20Configuration/valueField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#valueField') and [labelField](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/1%20Configuration/labelField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#labelField'); for the hierarchical structure, also set the [childrenField](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/1%20Configuration/childrenField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#childrenField').
 
-A plain data array can imply a hierarchical structure. An example of such array is given below. In this case, set the [idField](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#idField) and [parentField](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#parentField) in addition to the **valueField** and **labelField**.
+A plain data array can imply a hierarchical structure. An example of such array is given below. In this case, set the [idField](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/1%20Configuration/idField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#idField') and [parentField](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/1%20Configuration/parentField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#parentField') in addition to the **valueField** and **labelField**.
 
     let data = [
         { id: 1, name: "Fruits"},
@@ -75,7 +75,7 @@ Assign the array to the **dataSource** option.
 Set the **dataSource** option to the URL of a JSON file or service that returns JSON data.
 
 - **OData**         
-Implement an [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/).
+Implement an [ODataStore](/api-reference/30%20Data%20Layer/ODataStore/ODataStore.md '/Documentation/ApiReference/Data_Layer/ODataStore/').
 
 - **Web API, PHP, MongoDB**     
 Use one of the following extensions to enable the server to process data according to the protocol DevExtreme widgets use:
@@ -207,9 +207,9 @@ Use one of the following extensions to enable the server to process data accordi
     ---
 
 - **Any other data source**     
-Implement a [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/).
+Implement a [CustomStore](/api-reference/30%20Data%20Layer/CustomStore/CustomStore.md '/Documentation/ApiReference/Data_Layer/CustomStore/').
 
-Regardless of the data source on the input, the **TreeMap** always wraps it in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) object. This object allows you to sort, filter, group, and otherwise shape data. To get its instance, call the [getDataSource()](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Methods/#getDataSource) method.
+Regardless of the data source on the input, the **TreeMap** always wraps it in the [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/') object. This object allows you to sort, filter, group, and otherwise shape data. To get its instance, call the [getDataSource()](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Methods/#getDataSource) method.
 
 [note]
 
@@ -217,6 +217,6 @@ Please review the following notes about data binding:
 
 - Data field names should not contain the following characters: `.`, `,`, `:`, `[`, and `]`.
 
-- **DataSource** and stores provide methods to process and update data. However, the methods do not allow you to perform particular tasks (for example, replace the entire dataset, reconfigure data access at runtime). For such tasks, create a new array, store, or **DataSource** and assign it to the **dataSource** option as shown in the articles about changing options in [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Get_and_Set_Options/), [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/#Two-Way_Option_Binding), [React](/Documentation/Guide/React_Components/State_Management/#Controlled_Mode), and [Vue](/Documentation/Guide/Vue_Components/Component_Configuration_Syntax/#Two-Way_Option_Binding).
+- **DataSource** and stores provide methods to process and update data. However, the methods do not allow you to perform particular tasks (for example, replace the entire dataset, reconfigure data access at runtime). For such tasks, create a new array, store, or **DataSource** and assign it to the **dataSource** option as shown in the articles about changing options in [jQuery](/concepts/00%20Getting%20Started/10%20Widget%20Basics%20-%20jQuery/05%20Get%20and%20Set%20Options.md '/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Get_and_Set_Options/'), [Angular](/concepts/40%20Angular%20Components/20%20Component%20Configuration%20Syntax/33%20Two-Way%20Option%20Binding.md '/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/#Two-Way_Option_Binding'), [React](/concepts/50%20React%20Components/20%20State%20Management/3%20Controlled%20Mode.md '/Documentation/Guide/React_Components/State_Management/#Controlled_Mode'), and [Vue](/concepts/55%20Vue%20Components/20%20Component%20Configuration%20Syntax/33%20Two-Way%20Option%20Binding.md '/Documentation/Guide/Vue_Components/Component_Configuration_Syntax/#Two-Way_Option_Binding').
 
 [/note]

@@ -9,7 +9,7 @@ default: 'custom'
 A string value specifying the animation type.
 
 ---
-The value of the option affects the widget's initial and target states, which are specified using the [from](/Documentation/ApiReference/Common/Object_Structures/animationConfig/#from) and [to](/Documentation/ApiReference/Common/Object_Structures/animationConfig/#to) options. 
+The value of the option affects the widget's initial and target states, which are specified using the [from](/api-reference/50%20Common/Object%20Structures/animationConfig/from.md '/Documentation/ApiReference/Common/Object_Structures/animationConfig/#from') and [to](/api-reference/50%20Common/Object%20Structures/animationConfig/to.md '/Documentation/ApiReference/Common/Object_Structures/animationConfig/#to') options. 
 
 The type options can take on the following values.
 
@@ -35,7 +35,7 @@ The type options can take on the following values.
  Moves the element from the initial position to outside the screen.
 
 - "css"  
-    Applies the CSS style(s) specified by the [from](/Documentation/ApiReference/Common/Object_Structures/animationConfig/#from) option and then applies the style(s) specified by the [to](/Documentation/ApiReference/Common/Object_Structures/animationConfig/#from) option. The class that is applied at the animation end is appended to the class applied at the animation start. This allows not to duplicate the CSS properties that are common for the animation start and end.
+    Applies the CSS style(s) specified by the [from](/api-reference/50%20Common/Object%20Structures/animationConfig/from.md '/Documentation/ApiReference/Common/Object_Structures/animationConfig/#from') option and then applies the style(s) specified by the [to](/api-reference/50%20Common/Object%20Structures/animationConfig/from.md '/Documentation/ApiReference/Common/Object_Structures/animationConfig/#from') option. The class that is applied at the animation end is appended to the class applied at the animation start. This allows not to duplicate the CSS properties that are common for the animation start and end.
 
     Here is an example of css animation:
 

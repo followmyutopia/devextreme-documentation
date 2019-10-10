@@ -1,4 +1,4 @@
-A user can select existing values and add new values to the **TagBox**. To enable this feature, assign **true** to the [acceptCustomValue](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#acceptCustomValue) option. Note that you should implement the [onCustomItemCreating](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#onCustomItemCreating) handler to create a new data source entry.
+A user can select existing values and add new values to the **TagBox**. To enable this feature, assign **true** to the [acceptCustomValue](/api-reference/10%20UI%20Widgets/dxSelectBox/1%20Configuration/acceptCustomValue.md '/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#acceptCustomValue') option. Note that you should implement the [onCustomItemCreating](/api-reference/10%20UI%20Widgets/dxSelectBox/1%20Configuration/onCustomItemCreating.md '/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#onCustomItemCreating') handler to create a new data source entry.
 
 ---
 #####jQuery
@@ -78,10 +78,10 @@ A user can select existing values and add new values to the **TagBox**. To enabl
 ---
 
 #####See Also#####
-- [TagBox - Handle the Value Change Event](/Documentation/Guide/Widgets/TagBox/Handle_the_Value_Change_Event/)
-- [TagBox - Configure Search Parameters](/Documentation/Guide/Widgets/TagBox/Configure_Search_Parameters/)
-- [TagBox - Control the Behavior](/Documentation/Guide/Widgets/TagBox/Control_the_Behavior/)
-- [TagBox API Reference](/Documentation/ApiReference/UI_Widgets/dxTagBox/)
+- [TagBox - Handle the Value Change Event](/concepts/05%20Widgets/TagBox/04%20Handle%20the%20Value%20Change%20Event.md '/Documentation/Guide/Widgets/TagBox/Handle_the_Value_Change_Event/')
+- [TagBox - Configure Search Parameters](/concepts/05%20Widgets/TagBox/10%20Configure%20Search%20Parameters.md '/Documentation/Guide/Widgets/TagBox/Configure_Search_Parameters/')
+- [TagBox - Control the Behavior](/concepts/05%20Widgets/TagBox/03%20Control%20the%20Behavior.md '/Documentation/Guide/Widgets/TagBox/Control_the_Behavior/')
+- [TagBox API Reference](/api-reference/10%20UI%20Widgets/dxTagBox/dxTagBox.md '/Documentation/ApiReference/UI_Widgets/dxTagBox/')
 - [TagBox Demos](/Demos/WidgetsGallery/#demo/editors-tag_box-overview)
 
 [tags]tagBox, tag box, editor, user-defined entry, user-defined item, custom entry, custom item, user-defined value, custom value

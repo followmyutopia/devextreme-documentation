@@ -1,4 +1,4 @@
-To process new **TagBox** values, you need to handle the value change event. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onValueChanged](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#onValueChanged) option when you configure the widget.
+To process new **TagBox** values, you need to handle the value change event. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onValueChanged](/api-reference/10%20UI%20Widgets/dxSelectBox/1%20Configuration/onValueChanged.md '/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#onValueChanged') option when you configure the widget.
 
 ---
 #####jQuery
@@ -41,7 +41,7 @@ To process new **TagBox** values, you need to handle the value change event. If 
 
 ---
 
-[note]The `previousValue` and `newValue` fields are _arrays_ that contain values taken from the [valueExpr](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#valueExpr) data field.
+[note]The `previousValue` and `newValue` fields are _arrays_ that contain values taken from the [valueExpr](/api-reference/10%20UI%20Widgets/DataExpressionMixin/1%20Configuration/valueExpr.md '/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#valueExpr') data field.
 
 If you are going to change event handlers at runtime, or if you need to attach several handlers to the value change event, subscribe to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxTagBox/Methods/#oneventName_eventHandler) method. This approach is more typical of jQuery.
 
@@ -64,10 +64,10 @@ If you are going to change event handlers at runtime, or if you need to attach s
 
 #####See Also#####
 #include common-link-handleevents
-- [TagBox - Control the Behavior](/Documentation/Guide/Widgets/TagBox/Control_the_Behavior/)
-- [TagBox - Configure Search Parameters](/Documentation/Guide/Widgets/TagBox/Configure_Search_Parameters/)
-- [TagBox - Create a User-Defined Item](/Documentation/Guide/Widgets/TagBox/Create_a_User-Defined_Item/)
-- [TagBox API Reference](/Documentation/ApiReference/UI_Widgets/dxTagBox/)
+- [TagBox - Control the Behavior](/concepts/05%20Widgets/TagBox/03%20Control%20the%20Behavior.md '/Documentation/Guide/Widgets/TagBox/Control_the_Behavior/')
+- [TagBox - Configure Search Parameters](/concepts/05%20Widgets/TagBox/10%20Configure%20Search%20Parameters.md '/Documentation/Guide/Widgets/TagBox/Configure_Search_Parameters/')
+- [TagBox - Create a User-Defined Item](/concepts/05%20Widgets/TagBox/15%20Create%20a%20User-Defined%20Item.md '/Documentation/Guide/Widgets/TagBox/Create_a_User-Defined_Item/')
+- [TagBox API Reference](/api-reference/10%20UI%20Widgets/dxTagBox/dxTagBox.md '/Documentation/ApiReference/UI_Widgets/dxTagBox/')
 - [TagBox Demos](/Demos/WidgetsGallery/#demo/editors-tag_box-overview)
 
 [tags]tagBox, tag box, editor, get value, set value, change value, valueChanged

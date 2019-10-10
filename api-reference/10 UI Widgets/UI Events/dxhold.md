@@ -193,4 +193,4 @@ If you need to subscribe to **dxhold** for two elements that are in the parent-c
 ---
 
 #####See Also#####
-- [UI Events - Introduction](/Documentation/ApiReference/UI_Widgets/UI_Events/)
+- [UI Events - Introduction](/api-reference/10%20UI%20Widgets/UI%20Events/UI%20Events.md '/Documentation/ApiReference/UI_Widgets/UI_Events/')

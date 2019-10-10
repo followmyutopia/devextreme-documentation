@@ -1,4 +1,4 @@
-For minor customization of nodes, you can use the default item template. This template defines the appearance of a node depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxTreeView/Default_Item_Template/) are present or absent from the node's data object. For example, the following code adds an icon to each node.
+For minor customization of nodes, you can use the default item template. This template defines the appearance of a node depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxTreeView/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Default_Item_Template/') are present or absent from the node's data object. For example, the following code adds an icon to each node.
 
     <!--JavaScript-->var hierarchicalData = [{
         id: '1',
@@ -24,7 +24,7 @@ For minor customization of nodes, you can use the default item template. This te
         });
     });
 
-Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For Angular, AngularJS, and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code gives a simple example of how you can use **dxTemplate** to customize nodes.
+Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For Angular, AngularJS, and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/'). The following code gives a simple example of how you can use **dxTemplate** to customize nodes.
 
 ---
 ##### Angular
@@ -132,7 +132,7 @@ Using the default item template is the easiest way to customize an item, but it 
 
 ---
 
-If you use jQuery alone, combine the HTML markup manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply the markup to the **TreeView** nodes, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#itemTemplate) callback function.
+If you use jQuery alone, combine the HTML markup manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply the markup to the **TreeView** nodes, use the [itemTemplate](/api-reference/10%20UI%20Widgets/dxTreeView/1%20Configuration/itemTemplate.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#itemTemplate') callback function.
 
     <!--JavaScript-->$(function() {
         $("#treeViewContainer").dxTreeView({
@@ -143,7 +143,7 @@ If you use jQuery alone, combine the HTML markup manually with jQuery <a href="h
         });
     });
 
-You can also customize an individual node. For this purpose, declare a template for this node as a script and pass its `id` to the [template](/Documentation/ApiReference/UI_Widgets/dxTreeView/Default_Item_Template/#template) option.
+You can also customize an individual node. For this purpose, declare a template for this node as a script and pass its `id` to the [template](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/template.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Default_Item_Template/#template') option.
 
     <!--HTML-->
     <script id="individualTemplate" type="text/html">
@@ -161,11 +161,11 @@ You can also customize an individual node. For this purpose, declare a template 
     // ...
     ];
 
-In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines) article.
+In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/concepts/05%20Widgets/zz%20Common/30%20Templates/30%203rd-Party%20Template%20Engines.md '/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines') article.
 
 #####See Also#####
-- [Built-In Icon Library](/Documentation/Guide/Themes_and_Styles/Icons/#Built-In_Icon_Library)
+- [Built-In Icon Library](/concepts/60%20Themes%20and%20Styles/30%20Icons/10%20Built-In%20Icon%20Library.md '/Documentation/Guide/Themes_and_Styles/Icons/#Built-In_Icon_Library')
 - [TreeView Demos](/Demos/WidgetsGallery/Demo/Tree_View/ItemSelectionAndCustomization/jQuery/Light/)
-- [TreeView API Reference](/Documentation/ApiReference/UI_Widgets/dxTreeView/)
+- [TreeView API Reference](/api-reference/10%20UI%20Widgets/dxTreeView/dxTreeView.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/')
 
 [tags]treeview, tree view, item appearance, customize, templates, template, custom template, default item, default template

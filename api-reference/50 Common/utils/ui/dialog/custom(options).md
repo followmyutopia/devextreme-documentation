@@ -36,7 +36,7 @@ Specifies whether to show the title. Defaults to **true**.
 The dialog's title.
 
 ---
-The **custom(options)** method only creates a dialog. To display it, call the dialog instance's **show()** method. This method returns a Promise that is resolved with the dialog result. The result contains anything you return from the clicked button's [onClick](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#onClick) function. In the following code, it is the clicked button's text. If the message contains HTML tags, encode it as shown in the following example:
+The **custom(options)** method only creates a dialog. To display it, call the dialog instance's **show()** method. This method returns a Promise that is resolved with the dialog result. The result contains anything you return from the clicked button's [onClick](/api-reference/10%20UI%20Widgets/dxButton/1%20Configuration/onClick.md '/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#onClick') function. In the following code, it is the clicked button's text. If the message contains HTML tags, encode it as shown in the following example:
 
 ---
 #####jQuery

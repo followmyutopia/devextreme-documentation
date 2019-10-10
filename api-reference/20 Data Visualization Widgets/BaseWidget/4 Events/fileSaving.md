@@ -29,7 +29,7 @@ The format of the file to be saved.
 Possible Values: 'PNG' | 'PDF' | 'JPEG' | 'SVG' | 'GIF'
 
 ---
-Main article: [onFileSaving]({basewidgetpath}/Configuration/#onFileSaving)
+Main article: [onFileSaving](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/onFileSaving.md '{basewidgetpath}/Configuration/#onFileSaving')
 
 #####See Also#####
 #include common-link-handleevents

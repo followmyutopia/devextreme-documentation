@@ -1,4 +1,4 @@
-For a minor customization of **List** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxList/Default_Item_Template/) are present or absent from the item's data object. For example, the following code generates three items: each item has a badge, the second is disabled and the third is hidden.
+For a minor customization of **List** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxList/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxList/Default_Item_Template/') are present or absent from the item's data object. For example, the following code generates three items: each item has a badge, the second is disabled and the third is hidden.
 
 ---
 #####jQuery
@@ -42,7 +42,7 @@ For a minor customization of **List** items, you can use the default item templa
 
 ---
 
-Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template for widget items. For Angular, AngularJS, and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define a template for **List** items.
+Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template for widget items. For Angular, AngularJS, and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/'). The following code shows how you can use **dxTemplate** to define a template for **List** items.
 
 ---
 
@@ -136,7 +136,7 @@ Using the default item template is the easiest way to customize an item, but it 
 
 ---
 
-If you use jQuery alone, combine the HTML markup for items manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#itemTemplate) callback function as shown in the following code.
+If you use jQuery alone, combine the HTML markup for items manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [itemTemplate](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/itemTemplate.md '/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#itemTemplate') callback function as shown in the following code.
 
     <!--JavaScript-->
     var fruits = [
@@ -159,7 +159,7 @@ If you use jQuery alone, combine the HTML markup for items manually with jQuery 
         });
     });
 
-You can also customize an individual **List** item. For this purpose, declare a template for this item as a script and pass its `id` to the [template](/Documentation/ApiReference/UI_Widgets/dxList/Default_Item_Template/#template) field. 
+You can also customize an individual **List** item. For this purpose, declare a template for this item as a script and pass its `id` to the [template](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/template.md '/Documentation/ApiReference/UI_Widgets/dxList/Default_Item_Template/#template') field. 
 
     <!--HTML-->
     <script id="individualTemplate" type="text/html">
@@ -173,12 +173,12 @@ You can also customize an individual **List** item. For this purpose, declare a 
         // ...
     ];
 
-In addition, you can use a 3rd-party template engine to perform the needed customizations. For more information, see the [3rd-Party Template Engines](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines) article.
+In addition, you can use a 3rd-party template engine to perform the needed customizations. For more information, see the [3rd-Party Template Engines](/concepts/05%20Widgets/zz%20Common/30%20Templates/30%203rd-Party%20Template%20Engines.md '/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines') article.
 
 <a href="/Demos/WidgetsGallery/Demo/List/ItemTemplate/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 5px; width:240px" target="_blank">View Built-In Template Engine Demo</a>
 <a href="/Demos/WidgetsGallery/Demo/List/Item3RdPartyEngineTemplate/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px; width:240px" target="_blank">View 3rd-Party Template Engine Demo</a>
 
 #####See Also#####
-- [List API Reference](/Documentation/ApiReference/UI_Widgets/dxList/)
+- [List API Reference](/api-reference/10%20UI%20Widgets/dxList/dxList.md '/Documentation/ApiReference/UI_Widgets/dxList/')
 
 [tags]list, item appearance, customize, templates, template, default item, default template

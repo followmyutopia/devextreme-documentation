@@ -25,7 +25,7 @@ The form's instance; created only once - when the function is executed for the f
 Model data. Available only if you use Knockout.
 
 ---
-Main article: [onAppointmentFormOpening](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentFormOpening)
+Main article: [onAppointmentFormOpening](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/onAppointmentFormOpening.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentFormOpening')
 
 #####See Also#####
 #include common-link-handleevents

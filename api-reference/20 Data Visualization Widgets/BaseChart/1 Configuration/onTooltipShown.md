@@ -21,10 +21,10 @@ The widget's instance.
 The model data. Available only if you use Knockout.
 
 ##### field(e.target): basePointObject | dxChartAnnotationConfig | any
-The series point whose tooltip is shown; described in the [Point]({basewidgetpath}/Chart_Elements/Point/) section.
+The series point whose tooltip is shown; described in the [Point](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Point/Point.md '{basewidgetpath}/Chart_Elements/Point/') section.
 
 ##### notUsedInTheme
 
 ---
 #####See Also#####
-- **Point**.[showTooltip()]({basewidgetpath}/Chart_Elements/Point/Methods/#showTooltip)
+- **Point**.[showTooltip()](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Point/3%20Methods/showTooltip().md '{basewidgetpath}/Chart_Elements/Point/Methods/#showTooltip')

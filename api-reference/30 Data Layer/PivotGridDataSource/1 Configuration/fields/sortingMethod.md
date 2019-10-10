@@ -5,7 +5,7 @@ default: undefined
 ---
 ---
 ##### shortDescription
-Specifies a custom comparison function that sorts the field's values in the [headers](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Headers).
+Specifies a custom comparison function that sorts the field's values in the [headers](/concepts/05%20Widgets/PivotGrid/010%20Visual%20Elements/02%20Headers.md '/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Headers').
 
 ##### param(a): Object
 A field value to be compared.
@@ -38,7 +38,7 @@ This function accepts two field values and should return a number indicating the
 - *Greater than zero*   
 *a* goes after *b*.
 
-Inside this function, you can access the [field's configuration](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) using the **this** keyword:
+Inside this function, you can access the [field's configuration](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/fields.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/') using the **this** keyword:
 
 ---
 ##### jQuery
@@ -183,4 +183,4 @@ Inside this function, you can access the [field's configuration](/Documentation/
 }
 
 #####See Also#####
-- **fields[]**.[sortOrder](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#sortOrder)
+- **fields[]**.[sortOrder](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/sortOrder.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#sortOrder')

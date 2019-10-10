@@ -34,7 +34,7 @@ Indicates that the row is added, but not yet saved. Available if **rowType** is 
 Indicates whether the row is selected. Available if **rowType** is *"data"* or *"detail"*.
 
 ##### field(e.key): any
-The row's [key](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/#key). Available if the **rowType** is *"data"*, *"detail"* or *"detailAdaptive"*.
+The row's [key](/api-reference/10%20UI%20Widgets/dxTreeList/6%20Row/key.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/#key'). Available if the **rowType** is *"data"*, *"detail"* or *"detailAdaptive"*.
 
 ##### field(e.model): Object
 Model data. Available only if you use Knockout.
@@ -43,16 +43,16 @@ Model data. Available only if you use Knockout.
 #include common-ref-elementparam with { element: "row" }
 
 ##### field(e.rowIndex): Number
-The row's index. Refer to [Column and Row Indexes](/Documentation/Guide/Widgets/TreeList/Columns/Column_and_Row_Indexes/) for more information.
+The row's index. Refer to [Column and Row Indexes](/concepts/05%20Widgets/TreeList/10%20Columns/12%20Column%20and%20Row%20Indexes.md '/Documentation/Guide/Widgets/TreeList/Columns/Column_and_Row_Indexes/') for more information.
 
 ##### field(e.rowType): String
-The row's [type](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/#rowType).
+The row's [type](/api-reference/10%20UI%20Widgets/dxTreeList/6%20Row/rowType.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/#rowType').
 
 ##### field(e.values): Array<any>
 Raw values displayed in the row's cells.
 
 ---
-Main article: [onRowDblClick](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onRowDblClick)
+Main article: [onRowDblClick](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/onRowDblClick.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onRowDblClick')
 
 #####See Also#####
 #include common-link-handleevents

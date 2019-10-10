@@ -1,8 +1,8 @@
-The **DataGrid** generates column headers based on the names of [data fields](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#dataField) by default. For example, if a data field is *"fullName"*, the column header text is "Full Name". 
+The **DataGrid** generates column headers based on the names of [data fields](/api-reference/_hidden/GridBaseColumn/dataField.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#dataField') by default. For example, if a data field is *"fullName"*, the column header text is "Full Name". 
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid ColumnHeaders](/Content/images/doc/19_2/DataGrid/ColumnHeaders.png)
 
-Specify the **columns**.[caption](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#caption) option to change the column header text.
+Specify the **columns**.[caption](/api-reference/_hidden/GridBaseColumn/caption.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#caption') option to change the column header text.
 
 ---
 ##### jQuery
@@ -41,7 +41,7 @@ Specify the **columns**.[caption](/Documentation/ApiReference/UI_Widgets/dxDataG
     
 ---
 
-If you need a more specific customization, define a custom template in the **columns**.[headerCellTemplate](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#headerCellTemplate) option. This option accepts a function or template container. 
+If you need a more specific customization, define a custom template in the **columns**.[headerCellTemplate](/api-reference/_hidden/dxDataGridColumn/headerCellTemplate.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#headerCellTemplate') option. This option accepts a function or template container. 
 
 ---
 ##### jQuery
@@ -103,7 +103,7 @@ If you need a more specific customization, define a custom template in the **col
     
 ---
 
-To hide column headers, assign **false** to the [showColumnHeaders](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#showColumnHeaders) option.
+To hide column headers, assign **false** to the [showColumnHeaders](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/showColumnHeaders.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#showColumnHeaders') option.
 
 ---
 ##### jQuery

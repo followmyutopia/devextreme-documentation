@@ -6,7 +6,7 @@ EventForAction: dxChart.legendClick
 ---
 ---
 ##### shortDescription
-A function that is executed when a [legend item](/Documentation/Guide/Widgets/Chart/Legend/Overview/) is clicked or tapped.
+A function that is executed when a [legend item](/concepts/05%20Widgets/Chart/35%20Legend/00%20Overview.md '/Documentation/Guide/Widgets/Chart/Legend/Overview/') is clicked or tapped.
 
 ##### param(e): Object
 Information about the event.
@@ -30,14 +30,14 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 The model data. Available only if you use Knockout.
 
 ##### field(e.target): chartSeriesObject
-The series that corresponds to the clicked legend item; described in the [Series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/) section.
+The series that corresponds to the clicked legend item; described in the [Series](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/7%20Chart%20Elements/Series/Series.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/') section.
 
 ##### notUsedInTheme
 
 ---
 [note]
 
-The [onSeriesClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onSeriesClick) function is executed after this function. The following code shows how to prevent this: 
+The [onSeriesClick](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/onSeriesClick.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onSeriesClick') function is executed after this function. The following code shows how to prevent this: 
 
 ---
 ##### jQuery

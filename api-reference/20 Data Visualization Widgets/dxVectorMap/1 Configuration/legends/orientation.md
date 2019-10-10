@@ -2,7 +2,7 @@
 ##### merge
 
 ##### shortDescription
-Arranges legend items vertically (in a column) or horizontally (in a row). The default value is *"horizontal"* if the **legends[]**.[horizontalAlignment]({basewidgetpath}/Configuration/legends/#horizontalAlignment) is *"center"*. Otherwise, it is *"vertical"*.
+Arranges legend items vertically (in a column) or horizontally (in a row). The default value is *"horizontal"* if the **legends[]**.[horizontalAlignment](/api-reference/20%20Data%20Visualization%20Widgets/BaseLegend/horizontalAlignment.md '{basewidgetpath}/Configuration/legends/#horizontalAlignment') is *"center"*. Otherwise, it is *"vertical"*.
 
 ---
 #include common-ref-enum with {
@@ -11,5 +11,5 @@ Arranges legend items vertically (in a column) or horizontally (in a row). The d
 }
 
 #####See Also#####
-- **legends[]**.[verticalAlignment]({basewidgetpath}/Configuration/legends/#verticalAlignment)
-- **legends[]**.[horizontalAlignment]({basewidgetpath}/Configuration/legends/#horizontalAlignment)
+- **legends[]**.[verticalAlignment](/api-reference/20%20Data%20Visualization%20Widgets/BaseLegend/verticalAlignment.md '{basewidgetpath}/Configuration/legends/#verticalAlignment')
+- **legends[]**.[horizontalAlignment](/api-reference/20%20Data%20Visualization%20Widgets/BaseLegend/horizontalAlignment.md '{basewidgetpath}/Configuration/legends/#horizontalAlignment')

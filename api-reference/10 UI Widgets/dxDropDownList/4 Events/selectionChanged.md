@@ -22,7 +22,7 @@ Model data. Available only if Knockout is used.
 The selected item's data.
 
 ---
-Main article: [onSelectionChanged]({basewidgetpath}/Configuration/#onSelectionChanged)
+Main article: [onSelectionChanged](/api-reference/10%20UI%20Widgets/dxDropDownList/1%20Configuration/onSelectionChanged.md '{basewidgetpath}/Configuration/#onSelectionChanged')
 
 #####See Also#####
 #include common-link-handleevents

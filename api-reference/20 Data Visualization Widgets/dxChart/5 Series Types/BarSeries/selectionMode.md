@@ -9,7 +9,7 @@ default: 'onlyPoint'
 Specifies series elements to be highlighted when a user selects a bar.
 
 ---
-[note]Though not provided out of the box, the selection capability can be implemented using the widget API. Refer to the [onPointClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onPointClick) option description for details.
+[note]Though not provided out of the box, the selection capability can be implemented using the widget API. Refer to the [onPointClick](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/1%20Configuration/onPointClick.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onPointClick') option description for details.
 
 When a user selects a bar, its series may react in one of the following ways depending on the value of the **selectionMode** option.
 
@@ -49,6 +49,6 @@ When a user selects a bar, its series may react in one of the following ways dep
 } Note that although this enum accepts more values, only the listed ones can be applied to a bar series.
 
 #####See Also#####
-- [pointSelectionMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#pointSelectionMode) - specifies whether only one or several bars can stay selected.
-- **series**.[selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/BarSeries/selectionStyle/) - specifies the appearance of bars in the selected state.
-- [pointSelectionChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#pointSelectionChanged) - an event that fires after the selection state of a bar has been changed.
+- [pointSelectionMode](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/1%20Configuration/pointSelectionMode.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#pointSelectionMode') - specifies whether only one or several bars can stay selected.
+- **series**.[selectionStyle](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CommonSeries/selectionStyle/selectionStyle.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/BarSeries/selectionStyle/') - specifies the appearance of bars in the selected state.
+- [pointSelectionChanged](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/4%20Events/pointSelectionChanged.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#pointSelectionChanged') - an event that fires after the selection state of a bar has been changed.

@@ -24,7 +24,7 @@ The widget that raised the event.
 #include common-ref-eventparam
 
 ##### field(e.fromData): any
-Custom [data]({basewidgetpath}/Configuration/#data) associated with the source widget.
+Custom [data](/api-reference/10%20UI%20Widgets/DraggableBase/1%20Configuration/data.md '{basewidgetpath}/Configuration/#data') associated with the source widget.
 
 ##### field(e.itemData): any
 The dragged item's data.

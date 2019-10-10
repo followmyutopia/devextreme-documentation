@@ -9,10 +9,10 @@ Configures the appearance of strips.
 ---
 ![DevExtreme HTML5 Charts Strips](/Content/images/doc/19_2/ChartJS/visual_elements/strips.png)
 
-The **commonAxisSettings**.[stripStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/stripStyle/) object specifies common settings for all strips in the chart. To configure only those strips that belong to a particular axis, use the following objects.
+The **commonAxisSettings**.[stripStyle](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonAxisSettings/stripStyle/stripStyle.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/stripStyle/') object specifies common settings for all strips in the chart. To configure only those strips that belong to a particular axis, use the following objects.
 
-- **argumentAxis**.[stripStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/stripStyle/)     
-- **valueAxis**.[stripStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/stripStyle/)       
+- **argumentAxis**.[stripStyle](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonAxisSettings/stripStyle/stripStyle.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/stripStyle/')     
+- **valueAxis**.[stripStyle](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonAxisSettings/stripStyle/stripStyle.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/stripStyle/')       
 
 To configure individual strips, use the following arrays of objects.
 

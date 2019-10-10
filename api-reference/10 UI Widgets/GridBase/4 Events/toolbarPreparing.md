@@ -19,10 +19,10 @@ The widget's instance.
 Model data. Available only if you use Knockout.
 
 ##### field(e.toolbarOptions): dxToolbar_Options
-The [options of the toolbar](/Documentation/ApiReference/UI_Widgets/dxToolbar/Configuration/).
+The [options of the toolbar](/api-reference/10%20UI%20Widgets/dxToolbar/1%20Configuration/Configuration.md '/Documentation/ApiReference/UI_Widgets/dxToolbar/Configuration/').
 
 ---
-Main article: [onToolbarPreparing]({basewidgetpath}/Configuration/#onToolbarPreparing)
+Main article: [onToolbarPreparing](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onToolbarPreparing.md '{basewidgetpath}/Configuration/#onToolbarPreparing')
 
 #####See Also#####
 #include common-link-handleevents

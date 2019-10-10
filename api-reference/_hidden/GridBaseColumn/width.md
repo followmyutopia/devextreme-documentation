@@ -5,7 +5,7 @@ default: undefined
 ---
 ---
 ##### shortDescription
-Specifies the column's width in pixels or as a percentage. Ignored if it is less than [minWidth]({basewidgetpath}/Configuration/columns/#minWidth).
+Specifies the column's width in pixels or as a percentage. Ignored if it is less than [minWidth](/api-reference/_hidden/GridBaseColumn/minWidth.md '{basewidgetpath}/Configuration/columns/#minWidth').
 
 ---
 The option supports the following types of values:
@@ -18,5 +18,5 @@ The option supports the following types of values:
     [note] [Fixed columns](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Fixing/) ignore widths specified as a percentage.
 
 #####See Also#####
-- [columnAutoWidth]({basewidgetpath}/Configuration/#columnAutoWidth)
-- [width]({basewidgetpath}/Configuration/#width)
+- [columnAutoWidth](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/columnAutoWidth.md '{basewidgetpath}/Configuration/#columnAutoWidth')
+- [width](/api-reference/10%20UI%20Widgets/DOMComponent/1%20Configuration/width.md '{basewidgetpath}/Configuration/#width')

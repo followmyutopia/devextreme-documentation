@@ -8,4 +8,4 @@ type: String
 Specifies the base shape type for the custom shape.
 
 ---
-When the **baseType** option is specified, the [backgroundImageUrl](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/customShapes/#backgroundImageUrl) option is not in effect.
+When the **baseType** option is specified, the [backgroundImageUrl](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/customShapes/backgroundImageUrl.md '/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/customShapes/#backgroundImageUrl') option is not in effect.

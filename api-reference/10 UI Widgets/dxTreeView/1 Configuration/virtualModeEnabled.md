@@ -12,16 +12,16 @@ If this option is **true**, the widget initially loads only the root nodes. Chil
 
 The virtual mode has the following restrictions:
 
-- The [dataSource](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#dataSource) option should be set to a [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) instance able to filter items by [parent ID](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#parentIdExpr).
+- The [dataSource](/api-reference/10%20UI%20Widgets/dxTreeView/1%20Configuration/dataSource.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#dataSource') option should be set to a [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/') instance able to filter items by [parent ID](/api-reference/10%20UI%20Widgets/dxTreeView/1%20Configuration/parentIdExpr.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#parentIdExpr').
 
-- The [dataStructure](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#dataStructure) option should be set to *"plain"*.
+- The [dataStructure](/api-reference/10%20UI%20Widgets/dxTreeView/1%20Configuration/dataStructure.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#dataStructure') option should be set to *"plain"*.
 
-- Since the [search](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#searchEnabled) will be performed on loaded nodes only and thus produce incorrect results, it is not recommended that you enable this functionality.
+- Since the [search](/api-reference/10%20UI%20Widgets/dxTreeView/1%20Configuration/searchEnabled.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#searchEnabled') will be performed on loaded nodes only and thus produce incorrect results, it is not recommended that you enable this functionality.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/TreeView/VirtualMode/jQuery/Light/"
 }
 
 #####See Also#####
-- [Enhance Performance on Large Datasets](/Documentation/Guide/Widgets/TreeView/Enhance_Performance_on_Large_Datasets/)
-- [createChildren](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#createChildren)
+- [Enhance Performance on Large Datasets](/concepts/05%20Widgets/TreeView/32%20Enhance%20Performance%20on%20Large%20Datasets.md '/Documentation/Guide/Widgets/TreeView/Enhance_Performance_on_Large_Datasets/')
+- [createChildren](/api-reference/10%20UI%20Widgets/dxTreeView/1%20Configuration/createChildren.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#createChildren')

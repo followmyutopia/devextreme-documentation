@@ -52,7 +52,7 @@ Unlike normal columns, band columns do not hold data. Instead, they collect two 
     
 ---
 
-If you use the [customizeColumns]({basewidgetpath}/Configuration/#customizeColumns) option to configure columns, the hierarchical structure cannot be implemented. To band columns in this case, use the **isBand** and [ownerBand]({basewidgetpath}/Configuration/columns/#ownerBand) options.
+If you use the [customizeColumns](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/customizeColumns.md '{basewidgetpath}/Configuration/#customizeColumns') option to configure columns, the hierarchical structure cannot be implemented. To band columns in this case, use the **isBand** and [ownerBand](/api-reference/_hidden/GridBaseColumn/ownerBand.md '{basewidgetpath}/Configuration/columns/#ownerBand') options.
 
 ---
 ##### jQuery
@@ -111,20 +111,20 @@ If you use the [customizeColumns]({basewidgetpath}/Configuration/#customizeColum
 
 Band columns can have the following properties only:
 
-- [alignment]({basewidgetpath}/Configuration/columns/#alignment)
-- [allowHiding]({basewidgetpath}/Configuration/columns/#allowHiding)
-- [allowReordering]({basewidgetpath}/Configuration/columns/#allowReordering)
-- [caption]({basewidgetpath}/Configuration/columns/#caption)
-- [columns]({basewidgetpath}/Configuration/columns/columns/)
-- [cssClass]({basewidgetpath}/Configuration/columns/#cssClass)
-- [fixed]({basewidgetpath}/Configuration/columns/#fixed)
-- [fixedPosition]({basewidgetpath}/Configuration/columns/#fixedPosition)
-- [headerCellTemplate]({basewidgetpath}/Configuration/columns/#headerCellTemplate)
-- [name]({basewidgetpath}/Configuration/columns/#name)
-- [ownerBand]({basewidgetpath}/Configuration/columns/#ownerBand)
-- [showInColumnChooser]({basewidgetpath}/Configuration/columns/#showInColumnChooser)
-- [visible]({basewidgetpath}/Configuration/columns/#visible)
-- [visibleIndex]({basewidgetpath}/Configuration/columns/#visibleIndex)
+- [alignment](/api-reference/_hidden/GridBaseColumn/alignment.md '{basewidgetpath}/Configuration/columns/#alignment')
+- [allowHiding](/api-reference/_hidden/GridBaseColumn/allowHiding.md '{basewidgetpath}/Configuration/columns/#allowHiding')
+- [allowReordering](/api-reference/_hidden/GridBaseColumn/allowReordering.md '{basewidgetpath}/Configuration/columns/#allowReordering')
+- [caption](/api-reference/_hidden/GridBaseColumn/caption.md '{basewidgetpath}/Configuration/columns/#caption')
+- [columns](/api-reference/_hidden/GridBaseColumn/columns/columns.md '{basewidgetpath}/Configuration/columns/columns/')
+- [cssClass](/api-reference/_hidden/GridBaseColumn/cssClass.md '{basewidgetpath}/Configuration/columns/#cssClass')
+- [fixed](/api-reference/_hidden/GridBaseColumn/fixed.md '{basewidgetpath}/Configuration/columns/#fixed')
+- [fixedPosition](/api-reference/_hidden/GridBaseColumn/fixedPosition.md '{basewidgetpath}/Configuration/columns/#fixedPosition')
+- [headerCellTemplate](/api-reference/_hidden/dxDataGridColumn/headerCellTemplate.md '{basewidgetpath}/Configuration/columns/#headerCellTemplate')
+- [name](/api-reference/_hidden/GridBaseColumn/name.md '{basewidgetpath}/Configuration/columns/#name')
+- [ownerBand](/api-reference/_hidden/GridBaseColumn/ownerBand.md '{basewidgetpath}/Configuration/columns/#ownerBand')
+- [showInColumnChooser](/api-reference/_hidden/GridBaseColumn/showInColumnChooser.md '{basewidgetpath}/Configuration/columns/#showInColumnChooser')
+- [visible](/api-reference/_hidden/GridBaseColumn/visible.md '{basewidgetpath}/Configuration/columns/#visible')
+- [visibleIndex](/api-reference/_hidden/GridBaseColumn/visibleIndex.md '{basewidgetpath}/Configuration/columns/#visibleIndex')
 
 [note] Band columns cannot nest [command columns](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Types/Command_Columns/).
 

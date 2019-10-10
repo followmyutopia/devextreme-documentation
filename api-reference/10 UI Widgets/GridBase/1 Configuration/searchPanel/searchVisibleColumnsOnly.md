@@ -8,4 +8,4 @@ default: false
 Specifies whether the widget should search against all columns or only visible ones.
 
 ---
-By default, the widget searches against all columns configured in the [columns]({basewidgetpath}/Configuration/columns/) array. Some of them may be [invisible]({basewidgetpath}/Configuration/columns/#visible), and finding a result in them may confuse a user. To avoid this, set the **searchVisibleColumnsOnly** option to **true**.
+By default, the widget searches against all columns configured in the [columns](/api-reference/_hidden/GridBaseColumn/GridBaseColumn.md '{basewidgetpath}/Configuration/columns/') array. Some of them may be [invisible](/api-reference/_hidden/GridBaseColumn/visible.md '{basewidgetpath}/Configuration/columns/#visible'), and finding a result in them may confuse a user. To avoid this, set the **searchVisibleColumnsOnly** option to **true**.

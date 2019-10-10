@@ -4,7 +4,7 @@ type: eventType
 ---
 ---
 ##### shortDescription
-Raised when a tab has been held for a [specified period](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#itemHoldTimeout).
+Raised when a tab has been held for a [specified period](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/itemHoldTimeout.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#itemHoldTimeout').
 
 ##### param(e): Object
 Information about the event.
@@ -28,7 +28,7 @@ The data of the item whose title is held.
 Model data. Available only if Knockout is used.
 
 ---
-Main article: [onTitleHold](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#onTitleHold)
+Main article: [onTitleHold](/api-reference/10%20UI%20Widgets/dxTabPanel/1%20Configuration/onTitleHold.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#onTitleHold')
 
 #####See Also#####
 #include common-link-handleevents

@@ -74,6 +74,6 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 #####See Also#####
 #include common-link-callmethods
 - [Slider Demos](/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-slider-overview/ios7)
-- [Slider API Reference](/Documentation/ApiReference/UI_Widgets/dxSlider/)
+- [Slider API Reference](/api-reference/10%20UI%20Widgets/dxSlider/dxSlider.md '/Documentation/ApiReference/UI_Widgets/dxSlider/')
 
 [tags]slider, accessibility, keyboard shortcuts

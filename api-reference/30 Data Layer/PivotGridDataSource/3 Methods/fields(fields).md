@@ -3,7 +3,7 @@ id: PivotGridDataSource.fields(fields)
 ---
 ---
 ##### shortDescription
-Specifies a new [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) collection.
+Specifies a new [fields](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/fields.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/') collection.
 
 ##### param(fields): Array<PivotGridDataSource_Options_fields>
 New fields.

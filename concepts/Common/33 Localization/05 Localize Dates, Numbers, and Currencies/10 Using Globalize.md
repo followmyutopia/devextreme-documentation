@@ -10,7 +10,7 @@ All the components are available via CDN and npm.
 
 * **CDN or local files**      
 
-    Include the Globalize and CLDR libraries using `<script>` tags as shown below. In this example, German and Russian [dictionaries](/Documentation/Guide/Common/Localization/#Dictionaries) are also included. Note that the order you include the libraries is important. Then, set the locale using the `Globalize.locale()` method:
+    Include the Globalize and CLDR libraries using `<script>` tags as shown below. In this example, German and Russian [dictionaries](/concepts/Common/33%20Localization/01%20Dictionaries/Dictionaries.md '/Documentation/Guide/Common/Localization/#Dictionaries') are also included. Note that the order you include the libraries is important. Then, set the locale using the `Globalize.locale()` method:
 
     ---
     ##### CDN
@@ -55,7 +55,7 @@ All the components are available via CDN and npm.
 
         npm install --save-dev devextreme-cldr-data globalize
 
-    Register Globalize in your project as described in the [Angular](/Documentation/Guide/Angular_Components/Getting_Started/Add_DevExtreme_to_an_Angular_CLI_Application/#Register_3rd-Party_Dependencies_in_Angular_CLI_6+/Globalize_Registration), [Vue](/Documentation/Guide/Vue_Components/Add_DevExtreme_to_a_Vue_Application/#Register_3rd-Party_Dependencies/Globalize_Registration), or [React](/Documentation/Guide/React_Components/Add_DevExtreme_to_a_React_Application/#Additional_Configuration_for_Webpack) articles.
+    Register Globalize in your project as described in the [Angular](/concepts/40%20Angular%20Components/10%20Getting%20Started/03%20Add%20DevExtreme%20to%20an%20Angular%20CLI%20Application/08%20Register%203rd-Party%20Dependencies%20in%20Angular%20CLI%206+/02%20Globalize%20Registration.md '/Documentation/Guide/Angular_Components/Getting_Started/Add_DevExtreme_to_an_Angular_CLI_Application/#Register_3rd-Party_Dependencies_in_Angular_CLI_6+/Globalize_Registration'), [Vue](/concepts/55%20Vue%20Components/05%20Add%20DevExtreme%20to%20a%20Vue%20Application/63%20Register%203rd-Party%20Dependencies/2%20Globalize%20Registration.md '/Documentation/Guide/Vue_Components/Add_DevExtreme_to_a_Vue_Application/#Register_3rd-Party_Dependencies/Globalize_Registration'), or [React](/concepts/50%20React%20Components/05%20Add%20DevExtreme%20to%20a%20React%20Application/65%20Additional%20Configuration%20for%20Webpack.md '/Documentation/Guide/React_Components/Add_DevExtreme_to_a_React_Application/#Additional_Configuration_for_Webpack') articles.
     
     Then, include Globalize, CLDR, and language-specific CLDR data using the `import` or `require` statement&mdash;the statement depends on the syntax for working with modules. The code below shows ECMAScript 6 and CommonJS syntaxes. These examples include German and Russian dictionaries.
 
@@ -297,4 +297,4 @@ In addition, you can now format values using structures accepted by <a href="htt
 #####See Also#####
 - <a href="https://github.com/DevExpress/devextreme-examples/tree/19_2/angular-cli-globalize" target="_blank">DevExtreme sample project with Globalize created using Angular CLI</a>
 - <a href="https://github.com/DevExpress/devextreme-examples/tree/19_2/systemjs-angular-globalize" target="_blank">DevExtreme Angular sample project with SystemJS and Globalize</a>
-- [Value Formatting](/Documentation/Guide/Common/Value_Formatting)
+- [Value Formatting](/concepts/Common/34%20Value%20Formatting/Value%20Formatting.md '/Documentation/Guide/Common/Value_Formatting')

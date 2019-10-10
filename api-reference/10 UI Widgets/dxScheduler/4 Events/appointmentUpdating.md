@@ -29,7 +29,7 @@ The appointment with new data.
 The data of the appointment to be updated.
 
 ---
-Main article: [onAppointmentUpdating](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentUpdating)
+Main article: [onAppointmentUpdating](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/onAppointmentUpdating.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentUpdating')
 
 #####See Also#####
 #include common-link-handleevents

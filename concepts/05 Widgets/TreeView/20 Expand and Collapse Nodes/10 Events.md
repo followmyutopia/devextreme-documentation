@@ -1,4 +1,4 @@
-To execute certain commands when a node is expanded or collapsed, handle the [itemExpanded](/Documentation/ApiReference/UI_Widgets/dxTreeView/Events/#itemExpanded) or [itemCollapsed](/Documentation/ApiReference/UI_Widgets/dxTreeView/Events/#itemCollapsed) event. Assign event handling functions to the [onItemExpanded](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#onItemExpanded) or [onItemCollapsed](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#onItemCollapsed) option when you configure the widget if these functions are going to remain unchanged. 
+To execute certain commands when a node is expanded or collapsed, handle the [itemExpanded](/api-reference/10%20UI%20Widgets/dxTreeView/4%20Events/itemExpanded.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Events/#itemExpanded') or [itemCollapsed](/api-reference/10%20UI%20Widgets/dxTreeView/4%20Events/itemCollapsed.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Events/#itemCollapsed') event. Assign event handling functions to the [onItemExpanded](/api-reference/10%20UI%20Widgets/dxTreeView/1%20Configuration/onItemExpanded.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#onItemExpanded') or [onItemCollapsed](/api-reference/10%20UI%20Widgets/dxTreeView/1%20Configuration/onItemCollapsed.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#onItemCollapsed') option when you configure the widget if these functions are going to remain unchanged. 
 
 ---
 ##### jQuery
@@ -59,8 +59,8 @@ If you are going to change event handlers at runtime, or if you need to attach s
         .on("itemCollapsed", itemCollapsedEventHandler2);
 
 #####See Also#####
-- [TreeView - Access a Node](/Documentation/Guide/Widgets/TreeView/Access_a_Node)
-- [TreeView - Search Nodes](/Documentation/Guide/Widgets/TreeView/Search_Nodes/)
-- [TreeView - Select Nodes](/Documentation/Guide/Widgets/TreeView/Select_Nodes)
+- [TreeView - Access a Node](/concepts/05%20Widgets/TreeView/10%20Access%20a%20Node/Access%20a%20Node.md '/Documentation/Guide/Widgets/TreeView/Access_a_Node')
+- [TreeView - Search Nodes](/concepts/05%20Widgets/TreeView/15%20Search%20Nodes.md '/Documentation/Guide/Widgets/TreeView/Search_Nodes/')
+- [TreeView - Select Nodes](/concepts/05%20Widgets/TreeView/25%20Select%20Nodes/Select%20Nodes.md '/Documentation/Guide/Widgets/TreeView/Select_Nodes')
 - [TreeView Demos](/Demos/WidgetsGallery/#demo/navigation-tree_view-hierarchical_data_structure)
-- [TreeView API Reference](/Documentation/ApiReference/UI_Widgets/dxTreeView/)
+- [TreeView API Reference](/api-reference/10%20UI%20Widgets/dxTreeView/dxTreeView.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/')

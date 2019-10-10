@@ -11,5 +11,5 @@ The row's index. Refer to [Column and Row Indexes](/Documentation/Guide/Widgets/
 ---
 #####See Also#####
 #include common-link-callmethods
-- [addRow()]({basewidgetpath}/Methods/#addRow)
-- [deleteColumn(id)]({basewidgetpath}/Methods/#deleteColumnid)
+- [addRow()](/api-reference/10%20UI%20Widgets/dxDataGrid/3%20Methods/addRow().md '{basewidgetpath}/Methods/#addRow')
+- [deleteColumn(id)](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/deleteColumn(id).md '{basewidgetpath}/Methods/#deleteColumnid')

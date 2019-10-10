@@ -30,7 +30,7 @@ Before accessing a series point, gain access to its series by calling the [getAl
 
 ---
 
-Use the following methods to access series points. All of them return one or several objects whose fields and methods are described in the API reference's [Point](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Chart_Elements/Point/) section.
+Use the following methods to access series points. All of them return one or several objects whose fields and methods are described in the API reference's [Point](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart/7%20Chart%20Elements/Point/Point.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Chart_Elements/Point/') section.
 
 - [getAllPoints()](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Chart_Elements/Series/Methods/#getAllPoints)        
 Gets all the series points.
@@ -169,7 +169,7 @@ Gets only [visible](/Documentation/ApiReference/Data_Visualization_Widgets/dxPie
 
     ---
 
-Apart from the API methods, you can access a series point in the event handlers. For example, the [onPointClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/#onPointClick) event handler gets the clicked series point in the argument.
+Apart from the API methods, you can access a series point in the event handlers. For example, the [onPointClick](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart/1%20Configuration/onPointClick.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/#onPointClick') event handler gets the clicked series point in the argument.
 
 ---
 ##### jQuery
@@ -210,8 +210,8 @@ Apart from the API methods, you can access a series point in the event handlers.
 
 ---
 
-[note] Each [Point](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Chart_Elements/Point/) object contains a reference to its parent series in the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Chart_Elements/Point/Fields/#series) field.
+[note] Each [Point](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart/7%20Chart%20Elements/Point/Point.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Chart_Elements/Point/') object contains a reference to its parent series in the [series](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Point/2%20Fields/series.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Chart_Elements/Point/Fields/#series') field.
 
 #####See Also#####
-- [Access a Point Label Using the API](/Documentation/Guide/Widgets/PieChart/Point_Labels/Access_a_Label_Using_the_API/)
+- [Access a Point Label Using the API](/concepts/05%20Widgets/PieChart/15%20Point%20Labels/15%20Access%20a%20Label%20Using%20the%20API.md '/Documentation/Guide/Widgets/PieChart/Point_Labels/Access_a_Label_Using_the_API/')
 #include common-link-callmethods

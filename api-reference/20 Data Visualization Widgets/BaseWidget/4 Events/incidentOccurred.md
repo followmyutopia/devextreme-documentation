@@ -22,7 +22,7 @@ The model data. Available only if you use Knockout.
 Information on the occurred incident.
 
 ---
-Main article: [onIncidentOccurred]({basewidgetpath}/Configuration/#onIncidentOccurred)
+Main article: [onIncidentOccurred](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/onIncidentOccurred.md '{basewidgetpath}/Configuration/#onIncidentOccurred')
 
 #####See Also#####
 #include common-link-handleevents

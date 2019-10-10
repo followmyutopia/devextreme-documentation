@@ -8,9 +8,9 @@ type: String
 Specifies the predefined item that this object customizes or a format with multiple choices.
 
 ---
-To customize a [predefined item](/Documentation/Guide/Widgets/HtmlEditor/Toolbar/Predefined_Items/), assign its name to this option and specify the other item options.
+To customize a [predefined item](/concepts/05%20Widgets/HtmlEditor/20%20Toolbar/00%20Predefined%20Items/00%20Predefined%20Items.md '/Documentation/Guide/Widgets/HtmlEditor/Toolbar/Predefined_Items/'), assign its name to this option and specify the other item options.
 
-This option also accepts names of formats with multiple choices. In addition to the format name, specify [formatValues](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatValues). On the toolbar, such formats are represented by [SelectBox](/Documentation/Guide/Widgets/SelectBox/Overview/) widgets whose [options](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/) you can specify in the [options](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#options) object.
+This option also accepts names of formats with multiple choices. In addition to the format name, specify [formatValues](/api-reference/_hidden/dxHtmlEditorToolbarItem/formatValues.md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatValues'). On the toolbar, such formats are represented by [SelectBox](/concepts/05%20Widgets/SelectBox/00%20Overview.md '/Documentation/Guide/Widgets/SelectBox/Overview/') widgets whose [options](/api-reference/10%20UI%20Widgets/dxSelectBox/1%20Configuration/Configuration.md '/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/') you can specify in the [options](/api-reference/10%20UI%20Widgets/dxToolbar/5%20Default%20Item%20Template/options.md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#options') object.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/HtmlEditor/Overview/jQuery/Light/"
@@ -74,7 +74,7 @@ In the following code, the `header` and `size` formats are configured as describ
 
 ---
 
-Refer to the [Formats](/Documentation/Guide/Widgets/HtmlEditor/Formats/) article for a full list of available formats.
+Refer to the [Formats](/concepts/05%20Widgets/HtmlEditor/10%20Formats/10%20Formats.md '/Documentation/Guide/Widgets/HtmlEditor/Formats/') article for a full list of available formats.
 
 #####See Also#####
-- [widget](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#widget)
+- [widget](/api-reference/_hidden/dxHtmlEditorToolbarItem/widget.md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#widget')

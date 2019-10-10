@@ -1,5 +1,5 @@
-The **Map** widget fires the [routeAdded](/Documentation/ApiReference/UI_Widgets/dxMap/Events/#routeAdded) and [routeRemoved](/Documentation/ApiReference/UI_Widgets/dxMap/Events/#routeRemoved) events when a marker is added or removed.
-To handle them, assign functions to the [onRouteAdded](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onRouteAdded) and [onRouteRemoved](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onRouteRemoved) options, respectively.
+The **Map** widget fires the [routeAdded](/api-reference/10%20UI%20Widgets/dxMap/4%20Events/routeAdded.md '/Documentation/ApiReference/UI_Widgets/dxMap/Events/#routeAdded') and [routeRemoved](/api-reference/10%20UI%20Widgets/dxMap/4%20Events/routeRemoved.md '/Documentation/ApiReference/UI_Widgets/dxMap/Events/#routeRemoved') events when a marker is added or removed.
+To handle them, assign functions to the [onRouteAdded](/api-reference/10%20UI%20Widgets/dxMap/1%20Configuration/onRouteAdded.md '/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onRouteAdded') and [onRouteRemoved](/api-reference/10%20UI%20Widgets/dxMap/1%20Configuration/onRouteRemoved.md '/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onRouteRemoved') options, respectively.
 
 ---
 ##### jQuery
@@ -75,9 +75,9 @@ If you are going to change event handlers at runtime, or if you need to attach s
         .on("routeRemoved", routeRemovedHandler2);
 
 #####See Also#####
-- [Map - Customize Routes](/Documentation/Guide/Widgets/Map/Configure_Routes/Customize/)
-- [Map - Add and Remove Routes](/Documentation/Guide/Widgets/Map/Configure_Routes/Add_and_Remove/)
+- [Map - Customize Routes](/concepts/05%20Widgets/Map/25%20Configure%20Routes/10%20Customize.md '/Documentation/Guide/Widgets/Map/Configure_Routes/Customize/')
+- [Map - Add and Remove Routes](/concepts/05%20Widgets/Map/25%20Configure%20Routes/05%20Add%20and%20Remove.md '/Documentation/Guide/Widgets/Map/Configure_Routes/Add_and_Remove/')
 - [Map Demos](/Demos/WidgetsGallery/#demo/maps-map-routes)
-- [Map API Reference](/Documentation/ApiReference/UI_Widgets/dxMap/)
+- [Map API Reference](/api-reference/10%20UI%20Widgets/dxMap/dxMap.md '/Documentation/ApiReference/UI_Widgets/dxMap/')
 
 [tags]map, route added, Route removed, routeAdded event, routeRemoved event

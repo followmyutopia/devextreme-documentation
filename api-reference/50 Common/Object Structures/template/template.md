@@ -10,7 +10,7 @@ A template notation used to specify templates for widget elements.
 To use a template, pass a value with one of the following types to a widget's **...Template** option:
 
 - **String**         
-Specifies the name of the template to use if the template is defined within a widget using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component.
+Specifies the name of the template to use if the template is defined within a widget using the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component.
 
     ---
     #####Angular
@@ -80,7 +80,7 @@ Specifies the name of the template to use if the template is defined within a wi
     ---
 
 - **DOM Node or jQuery**        
-Specifies the page element containing the template. Useful for referring to external templates when [using a 3rd-party template engine](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines).
+Specifies the page element containing the template. Useful for referring to external templates when [using a 3rd-party template engine](/concepts/05%20Widgets/zz%20Common/30%20Templates/30%203rd-Party%20Template%20Engines.md '/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines').
 
         <!--JavaScript-->
         DevExpress.setTemplateEngine("underscore");
@@ -114,4 +114,4 @@ Combines the HTML markup using jQuery <a href="http://api.jquery.com/category/ma
         });
 
 #####See Also#####
-- [Templates](/Documentation/Guide/Widgets/Common/Templates/)
+- [Templates](/concepts/05%20Widgets/zz%20Common/30%20Templates/Templates.md '/Documentation/Guide/Widgets/Common/Templates/')

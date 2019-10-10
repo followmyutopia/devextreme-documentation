@@ -1,6 +1,6 @@
-Use the [dataSource](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/#dataSource) option to bind the widget to a list where each record specifies its IDs and includes a parent node ID reference.
+Use the [dataSource](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/nodes/dataSource.md '/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/#dataSource') option to bind the widget to a list where each record specifies its IDs and includes a parent node ID reference.
 
-Specify the [keyExpr](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/#keyExpr) and [parentKeyExpr](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/#parentKeyExpr) options, because of the data's plain structure. The **Diagram** uses information from key fields to transform plain data into a tree.  
+Specify the [keyExpr](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/nodes/keyExpr.md '/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/#keyExpr') and [parentKeyExpr](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/nodes/parentKeyExpr.md '/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/#parentKeyExpr') options, because of the data's plain structure. The **Diagram** uses information from key fields to transform plain data into a tree.  
 
         <!-- tab: index.js -->
         $(function() {

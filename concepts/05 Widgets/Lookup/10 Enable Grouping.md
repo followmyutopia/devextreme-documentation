@@ -53,7 +53,7 @@ The **Lookup** can organize items in groups. If you use a simple array as a data
 
 [note]Only one-level grouping is supported.
 
-If you use the [DevExtreme DataSource](/Documentation/ApiReference/Data_Layer/DataSource/), specify its [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option. In both cases, you need to make the **Lookup** know that its data source is grouped by assigning **true** to the [grouped](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#grouped) option.
+If you use the [DevExtreme DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/'), specify its [group](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/group.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group') option. In both cases, you need to make the **Lookup** know that its data source is grouped by assigning **true** to the [grouped](/api-reference/10%20UI%20Widgets/dxLookup/1%20Configuration/grouped.md '/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#grouped') option.
 
 ---
 #####jQuery
@@ -118,7 +118,7 @@ If you use the [DevExtreme DataSource](/Documentation/ApiReference/Data_Layer/Da
 
 ---
 
-You can define a custom template for the group headers. For Angular, AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define a template for the **Lookup** group headers.
+You can define a custom template for the group headers. For Angular, AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/'). The following code shows how you can use **dxTemplate** to define a template for the **Lookup** group headers.
 
 ---
 
@@ -215,7 +215,7 @@ You can define a custom template for the group headers. For Angular, AngularJS a
 
 ---
 
-If you use jQuery alone, combine the HTML markup for items manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#itemTemplate) callback function as shown in the following code.
+If you use jQuery alone, combine the HTML markup for items manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [itemTemplate](/api-reference/10%20UI%20Widgets/dxLookup/1%20Configuration/itemTemplate.md '/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#itemTemplate') callback function as shown in the following code.
 
     <!--JavaScript-->
     var lookupData = [{
@@ -238,8 +238,8 @@ If you use jQuery alone, combine the HTML markup for items manually with jQuery 
     });
 
 #####See Also#####
-- [Lookup - Customize the Appearance](/Documentation/Guide/Widgets/Lookup/Customize_the_Appearance/)
-- [Lookup - Enable Paging](/Documentation/Guide/Widgets/Lookup/Enable_Paging/)
+- [Lookup - Customize the Appearance](/concepts/05%20Widgets/Lookup/20%20Customize%20the%20Appearance/05%20Customize%20Item%20Appearance.md '/Documentation/Guide/Widgets/Lookup/Customize_the_Appearance/')
+- [Lookup - Enable Paging](/concepts/05%20Widgets/Lookup/15%20Enable%20Paging.md '/Documentation/Guide/Widgets/Lookup/Enable_Paging/')
 - [Lookup Demos](/Demos/WidgetsGallery/Demo/Lookup/Basics/)
 
 [tags]lookup, group, group template, customize

@@ -19,7 +19,7 @@ If your data source stores, for example, numbers as strings, specify the proper 
 }
 
 #####See Also#####
-- **argumentAxis**.[argumentType](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#argumentType) - casts arguments to a proper data type.
-- **valueAxis**.[type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#type) - specifies the axis type.
-- **dataPrepareSettings**.[checkTypeForAllData](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/dataPrepareSettings/#checkTypeForAllData) - validates the type of each value coming from the data source.
-- **dataPrepareSettings**.[convertToAxisDataType](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/dataPrepareSettings/#convertToAxisDataType) - allows you to disable the type cast in favour of the widget performance.
+- **argumentAxis**.[argumentType](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/argumentType.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#argumentType') - casts arguments to a proper data type.
+- **valueAxis**.[type](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis/type.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#type') - specifies the axis type.
+- **dataPrepareSettings**.[checkTypeForAllData](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/dataPrepareSettings/checkTypeForAllData.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/dataPrepareSettings/#checkTypeForAllData') - validates the type of each value coming from the data source.
+- **dataPrepareSettings**.[convertToAxisDataType](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/dataPrepareSettings/convertToAxisDataType.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/dataPrepareSettings/#convertToAxisDataType') - allows you to disable the type cast in favour of the widget performance.

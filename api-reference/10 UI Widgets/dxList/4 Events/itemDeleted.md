@@ -29,8 +29,8 @@ The removed item's index. In a grouped list, the index represents an object defi
 Model data. Available only if Knockout is used.
 
 ---
-Main article: [onItemDeleted](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onItemDeleted)
+Main article: [onItemDeleted](/api-reference/10%20UI%20Widgets/dxList/1%20Configuration/onItemDeleted.md '/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onItemDeleted')
 
 #####See Also#####
-- [List - Handle Deletion-Related Events](/Documentation/Guide/Widgets/List/Item_Deletion/#Events)
+- [List - Handle Deletion-Related Events](/concepts/05%20Widgets/List/35%20Item%20Deletion/10%20Events.md '/Documentation/Guide/Widgets/List/Item_Deletion/#Events')
 #include common-link-handleevents

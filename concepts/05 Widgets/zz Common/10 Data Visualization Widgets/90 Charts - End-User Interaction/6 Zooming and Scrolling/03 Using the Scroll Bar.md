@@ -2,9 +2,9 @@ In addition to scrolling by mouse and touch gestures, you can display a separate
 
 ![](/Content/images/doc/19_2/ChartJS/Chart_ScrollBar.png)
 
-The scroll bar is configured using the [scrollBar](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/scrollBar/) object. Set the [visible](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/scrollBar/#visible) field of this object to **true** to display the scroll bar.
+The scroll bar is configured using the [scrollBar](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/scrollBar/scrollBar.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/scrollBar/') object. Set the [visible](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/scrollBar/visible.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/scrollBar/#visible') field of this object to **true** to display the scroll bar.
 
-[note] Before displaying the scroll bar, make sure that [scrolling](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#scrollingMode) and [zooming](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#zoomingMode) features are enabled, otherwise the scroll bar will not be operational.
+[note] Before displaying the scroll bar, make sure that [scrolling](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/scrollingMode.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#scrollingMode') and [zooming](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/zoomingMode.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#zoomingMode') features are enabled, otherwise the scroll bar will not be operational.
 
 	<!--JavaScript-->var chartOptions = {
 		// ...
@@ -21,4 +21,4 @@ The scroll bar is configured using the [scrollBar](/Documentation/ApiReference/D
     url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeatures011_zoomingwithscroll/"
 }
 
-To learn more about the scroll bar as a visual element, refer to the **Chart Elements** | [Scroll Bar](/Documentation/Guide/Widgets/Chart/Zooming_and_Panning/#Using_the_Scroll_Bar) topic.
+To learn more about the scroll bar as a visual element, refer to the **Chart Elements** | [Scroll Bar](/concepts/05%20Widgets/Chart/95%20Zooming%20and%20Panning/03%20Using%20the%20Scroll%20Bar.md '/Documentation/Guide/Widgets/Chart/Zooming_and_Panning/#Using_the_Scroll_Bar') topic.

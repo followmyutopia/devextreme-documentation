@@ -2,7 +2,7 @@ To export or print a widget, a user clicks the *"Exporting/Printing"* button and
 
 <img src="/Content/images/doc/19_2/ChartJS/Client-Side-Export_exportMenu.png" alt="DevExtreme HTML5 DataVisualization Charts Export Print" style="vertical-align:middle"/>
 
-You can enable both exporting and printing by setting the [export](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/).**enabled** option to **true**. If you need only exporting to be available to the user, disable printing by assigning **false** to the **export**.[printingEnabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#printingEnabled) option.
+You can enable both exporting and printing by setting the [export](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/export/export.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/').**enabled** option to **true**. If you need only exporting to be available to the user, disable printing by assigning **false** to the **export**.[printingEnabled](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/export/printingEnabled.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#printingEnabled') option.
 
 ---
 ##### jQuery
@@ -42,7 +42,7 @@ You can enable both exporting and printing by setting the [export](/Documentatio
 
 ---
 
-If you want to restrict the set of formats available for exporting, change the **export**.[formats](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#formats) array. You can also specify the default name for the exported file using the [fileName](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#fileName) option.
+If you want to restrict the set of formats available for exporting, change the **export**.[formats](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/export/formats.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#formats') array. You can also specify the default name for the exported file using the [fileName](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/export/fileName.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#fileName') option.
 
 ---
 ##### jQuery
@@ -84,4 +84,4 @@ If you want to restrict the set of formats available for exporting, change the *
 
 ---
 
-To support exporting and printing in **Safari on MacOS**, you need to set up a proxy on your server. For details, see the [Set Up a Server-Side Proxy](/Documentation/Guide/Widgets/Chart/Client-Side_Exporting_and_Printing/#Set_Up_a_Server-Side_Proxy) topic.
+To support exporting and printing in **Safari on MacOS**, you need to set up a proxy on your server. For details, see the [Set Up a Server-Side Proxy](/concepts/05%20Widgets/Chart/99%20Client-Side%20Exporting%20and%20Printing/30%20Set%20Up%20a%20Server-Side%20Proxy/Set%20Up%20a%20Server-Side%20Proxy.md '/Documentation/Guide/Widgets/Chart/Client-Side_Exporting_and_Printing/#Set_Up_a_Server-Side_Proxy') topic.

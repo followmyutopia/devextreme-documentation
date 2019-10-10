@@ -2,7 +2,7 @@ The legend is a component that helps a user identify funnel items. The legend co
 
 ![Funnel Legend](/Content/images/doc/19_2/Funnel/visual_elements/legend.png)
 
-Options that configure the legend's appearance, location, and content are collected in the [legend](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/legend/) object. To make the legend visible, set the **legend**.**visible** option to **true**.
+Options that configure the legend's appearance, location, and content are collected in the [legend](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/1%20Configuration/legend/legend.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/legend/') object. To make the legend visible, set the **legend**.**visible** option to **true**.
 
 ---
 ##### jQuery
@@ -39,6 +39,6 @@ Options that configure the legend's appearance, location, and content are collec
 ---
 
 #####See Also#####
-- [Relocate the Legend](/Documentation/Guide/Widgets/Funnel/Legend/Relocate_the_Legend/)
-- [Rearrange Legend Items](/Documentation/Guide/Widgets/Funnel/Legend/Rearrange_Legend_Items/)
-- [User Interaction with the Legend](/Documentation/Guide/Widgets/Funnel/Legend/User_Interaction/)
+- [Relocate the Legend](/concepts/05%20Widgets/Funnel/35%20Legend/10%20Relocate%20the%20Legend.md '/Documentation/Guide/Widgets/Funnel/Legend/Relocate_the_Legend/')
+- [Rearrange Legend Items](/concepts/05%20Widgets/Funnel/35%20Legend/20%20Rearrange%20Legend%20Items.md '/Documentation/Guide/Widgets/Funnel/Legend/Rearrange_Legend_Items/')
+- [User Interaction with the Legend](/concepts/05%20Widgets/Funnel/35%20Legend/30%20User%20Interaction.md '/Documentation/Guide/Widgets/Funnel/Legend/User_Interaction/')

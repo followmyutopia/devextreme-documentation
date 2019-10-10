@@ -6,7 +6,7 @@ The other commands save a file in the selected format on the user's device.
 
 ![Sankey Export Menu](/Content/images/doc/19_2/Sankey/visual_elements/export-menu.png)
 
-Set [export](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/export/).**enabled** to **true** to enable exporting and printing. To allow a user to only export, assign **false** to **export**.[printingEnabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/export/#printingEnabled).
+Set [export](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/export/export.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/export/').**enabled** to **true** to enable exporting and printing. To allow a user to only export, assign **false** to **export**.[printingEnabled](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/export/printingEnabled.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/export/#printingEnabled').
 
 ---
 ##### jQuery
@@ -46,7 +46,7 @@ Set [export](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Con
 
 ---
 
-Change the **export**.[formats](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/export/#formats) array to limit the set of export formats. You can also set the [fileName](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/export/#fileName) option to specify the export file's name.
+Change the **export**.[formats](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/export/formats.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/export/#formats') array to limit the set of export formats. You can also set the [fileName](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/export/fileName.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/export/#fileName') option to specify the export file's name.
 
 ---
 ##### jQuery
@@ -88,4 +88,4 @@ Change the **export**.[formats](/Documentation/ApiReference/Data_Visualization_W
 
 ---
 
-You should [set up a server-side proxy](/Documentation/Guide/Widgets/Chart/Client-Side_Exporting_and_Printing/#Set_Up_a_Server-Side_Proxy) to enable exporting and printing in **Safari on MacOS**.
+You should [set up a server-side proxy](/concepts/05%20Widgets/Chart/99%20Client-Side%20Exporting%20and%20Printing/30%20Set%20Up%20a%20Server-Side%20Proxy/Set%20Up%20a%20Server-Side%20Proxy.md '/Documentation/Guide/Widgets/Chart/Client-Side_Exporting_and_Printing/#Set_Up_a_Server-Side_Proxy') to enable exporting and printing in **Safari on MacOS**.

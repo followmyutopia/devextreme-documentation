@@ -4,7 +4,7 @@ type: String
 ---
 ---
 ##### shortDescription
-Specifies the name of the OLAP cube to use from the [catalog](/Documentation/ApiReference/Data_Layer/XmlaStore/Configuration/#catalog).
+Specifies the name of the OLAP cube to use from the [catalog](/api-reference/30%20Data%20Layer/XmlaStore/1%20Configuration/catalog.md '/Documentation/ApiReference/Data_Layer/XmlaStore/Configuration/#catalog').
 
 ---
 #####See Also#####

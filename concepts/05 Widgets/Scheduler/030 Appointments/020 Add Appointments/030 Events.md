@@ -1,4 +1,4 @@
-To execute certain commands before or after an appointment was added, handle the [appointmentAdding](/Documentation/ApiReference/UI_Widgets/dxScheduler/Events/#appointmentAdding) or [appointmentAdded](/Documentation/ApiReference/UI_Widgets/dxScheduler/Events/#appointmentAdded) event. If the event handling function is not going to be changed during the lifetime of the widget, assign it to the corresponding **on*EventName*** option when you configure the widget.
+To execute certain commands before or after an appointment was added, handle the [appointmentAdding](/api-reference/10%20UI%20Widgets/dxScheduler/4%20Events/appointmentAdding.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Events/#appointmentAdding') or [appointmentAdded](/api-reference/10%20UI%20Widgets/dxScheduler/4%20Events/appointmentAdded.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Events/#appointmentAdded') event. If the event handling function is not going to be changed during the lifetime of the widget, assign it to the corresponding **on*EventName*** option when you configure the widget.
 
 ---
 
@@ -65,4 +65,4 @@ If you are going to change event handlers at runtime, or if you need to attach s
 #include common-link-handleevents
 #include common-link-callmethods
 - [Scheduler Demos](/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/)
-- [Scheduler API Reference](/Documentation/ApiReference/UI_Widgets/dxScheduler/)
+- [Scheduler API Reference](/api-reference/10%20UI%20Widgets/dxScheduler/dxScheduler.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/')

@@ -4,7 +4,7 @@ type: function(columns)
 ---
 ---
 ##### shortDescription
-Customizes columns in [details view](/Demos/WidgetsGallery/Demo/FileManager/BindingToHierarchicalStructure/jQuery/Light/). Applies only if **itemView**.[mode](/Documentation/ApiReference/UI_Widgets/dxFileManager/Configuration/itemView/#mode) is *"details"*.
+Customizes columns in [details view](/Demos/WidgetsGallery/Demo/FileManager/BindingToHierarchicalStructure/jQuery/Light/). Applies only if **itemView**.[mode](/api-reference/10%20UI%20Widgets/dxFileManager/1%20Configuration/itemView/mode.md '/Documentation/ApiReference/UI_Widgets/dxFileManager/Configuration/itemView/#mode') is *"details"*.
 
 ##### param(columns): Array<dxDataGridColumn>
 The columns before customization.

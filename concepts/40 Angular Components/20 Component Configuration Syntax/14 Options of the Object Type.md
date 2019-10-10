@@ -1,4 +1,4 @@
-Use components prefixed with `dxo-` ("o" stands for "object"). In the following example, we configure the [TreeMap](/Demos/WidgetsGallery/Demo/Charts/HierarchicalDataStructure/Angular/Light/) widget's [tooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/tooltip/) option:
+Use components prefixed with `dxo-` ("o" stands for "object"). In the following example, we configure the [TreeMap](/Demos/WidgetsGallery/Demo/Charts/HierarchicalDataStructure/Angular/Light/) widget's [tooltip](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/1%20Configuration/tooltip/tooltip.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/tooltip/') option:
 
     <!--HTML-->
     <dx-tree-map>
@@ -8,7 +8,7 @@ Use components prefixed with `dxo-` ("o" stands for "object"). In the following 
         </dxo-tooltip>
     </dx-tree-map>
 
-Particular options of the object type are not implemented as nested components. These options depend on the values of other options and therefore cannot be typed ([editorOptions](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#editorOptions) in the **DataGrid**, [editorOptions](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#editorOptions) in the **Form**, widget [options](/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/#options) in the **Toolbar**). Specify them with an object:
+Particular options of the object type are not implemented as nested components. These options depend on the values of other options and therefore cannot be typed ([editorOptions](/api-reference/_hidden/GridBaseColumn/editorOptions.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#editorOptions') in the **DataGrid**, [editorOptions](/api-reference/10%20UI%20Widgets/dxForm/5%20Item%20Types/SimpleItem/editorOptions.md '/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#editorOptions') in the **Form**, widget [options](/api-reference/10%20UI%20Widgets/dxToolbar/5%20Default%20Item%20Template/options.md '/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/#options') in the **Toolbar**). Specify them with an object:
 
     <!--HTML-->
     <dx-data-grid>

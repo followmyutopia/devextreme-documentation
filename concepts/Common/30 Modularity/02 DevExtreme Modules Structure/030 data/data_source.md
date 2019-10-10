@@ -2,7 +2,7 @@ Exposes the DataSource object.
 
 Exports:
 
-- *default* - The [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) object
+- *default* - The [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/') object
 
         require("data/data_source");
         // ===== or =====

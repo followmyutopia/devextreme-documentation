@@ -2,7 +2,7 @@ Exposes the **Chart** widget.
 
 Exports:
 
-- *default* - The [Chart](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/) widget
+- *default* - The [Chart](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/dxChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/') widget
 
         require("viz/chart");
         // ===== or =====

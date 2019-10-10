@@ -8,9 +8,9 @@ default: ''
 Formats a value before it is displayed in a column cell.
 
 ---
-See the [format](/Documentation/ApiReference/Common/Object_Structures/format/) section for details on accepted values.
+See the [format](/api-reference/50%20Common/Object%20Structures/format/format.md '/Documentation/ApiReference/Common/Object_Structures/format/') section for details on accepted values.
 
-In the following code, the *"fixedPoint"* [format type](/Documentation/ApiReference/Common/Object_Structures/format/#type) with a [precision](/Documentation/ApiReference/Common/Object_Structures/format/#precision) of **2** decimal places is applied to column values: 
+In the following code, the *"fixedPoint"* [format type](/api-reference/50%20Common/Object%20Structures/format/type.md '/Documentation/ApiReference/Common/Object_Structures/format/#type') with a [precision](/api-reference/50%20Common/Object%20Structures/format/precision.md '/Documentation/ApiReference/Common/Object_Structures/format/#precision') of **2** decimal places is applied to column values: 
 
 ---
 ##### jQuery
@@ -128,7 +128,7 @@ In the following code, the *"fixedPoint"* [format type](/Documentation/ApiRefere
 
 ---
 
-The **format** option also controls the user input in cells that use the [DateBox](/Documentation/Guide/Widgets/DateBox/Overview/) widget for editing. For cells that use other widgets, you can specify the [editorOptions]({basewidgetpath}/Configuration/columns/#editorOptions).**format** option, as shown in the following demo:
+The **format** option also controls the user input in cells that use the [DateBox](/concepts/05%20Widgets/DateBox/00%20Overview.md '/Documentation/Guide/Widgets/DateBox/Overview/') widget for editing. For cells that use other widgets, you can specify the [editorOptions](/api-reference/_hidden/GridBaseColumn/editorOptions.md '{basewidgetpath}/Configuration/columns/#editorOptions').**format** option, as shown in the following demo:
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/DataGrid/RecalculateWhileEditing/jQuery/Light/"

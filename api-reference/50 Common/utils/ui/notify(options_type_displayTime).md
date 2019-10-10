@@ -8,7 +8,7 @@ export: default
 Creates a toast message.
 
 ##### param(options): Object
-The **Toast** [configuration](/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/).
+The **Toast** [configuration](/api-reference/10%20UI%20Widgets/dxToast/1%20Configuration/Configuration.md '/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/').
 
 ##### param(type): String | undefined
 The message's type: *"info"*, *"warning"*, *"error"* or *"success"*.

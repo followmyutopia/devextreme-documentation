@@ -31,7 +31,7 @@ The clicked point's location on the map (if the "google" or "bing" provider is u
 Model data. Available only if Knockout is used.
 
 ---
-Main article: [onClick](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onClick)
+Main article: [onClick](/api-reference/10%20UI%20Widgets/dxMap/1%20Configuration/onClick.md '/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onClick')
 
 #####See Also#####
 #include common-link-handleevents

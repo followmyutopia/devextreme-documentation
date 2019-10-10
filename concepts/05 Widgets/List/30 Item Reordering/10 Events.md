@@ -1,4 +1,4 @@
-To execute certain commands when an item changes its position, handle the [itemReordered](/Documentation/ApiReference/UI_Widgets/dxList/Events/#itemReordered) event. If the event handling function is not going to be changed during the lifetime of the widget, assign it to the **onItemReordered** option when you configure the widget.
+To execute certain commands when an item changes its position, handle the [itemReordered](/api-reference/10%20UI%20Widgets/dxList/4%20Events/itemReordered.md '/Documentation/ApiReference/UI_Widgets/dxList/Events/#itemReordered') event. If the event handling function is not going to be changed during the lifetime of the widget, assign it to the **onItemReordered** option when you configure the widget.
 
 ---
 #####jQuery
@@ -66,4 +66,4 @@ If you are going to change the **itemReordered** event handler at runtime, or if
 #####See Also#####
 #include common-link-handleevents
 - [List Demos](/Demos/WidgetsGallery/Demo/List/ListSelection/jQuery/Light/)
-- [List API Reference](/Documentation/ApiReference/UI_Widgets/dxList/)
+- [List API Reference](/api-reference/10%20UI%20Widgets/dxList/dxList.md '/Documentation/ApiReference/UI_Widgets/dxList/')

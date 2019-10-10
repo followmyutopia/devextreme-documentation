@@ -18,4 +18,4 @@ The container for the content. It is an <a href="https://developer.mozilla.org/e
 }
 
 #####See Also#####
-- [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
+- [Custom Templates](/concepts/05%20Widgets/zz%20Common/30%20Templates/10%20Custom%20Templates.md '/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates')

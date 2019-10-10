@@ -2,4 +2,4 @@ DevExtreme comes in pre-assembled bundles. dx.viz.js includes Charts, Gauges, Fu
 
 Alternatively, you can use DevExtreme modules to import only the functionality you require. Unlike the bundles, modules are compact and can be loaded on demand. This optimizes memory consumption and speeds up your application.
 
-You can create a smaller bundle from modules [using Webpack](/Documentation/Guide/Common/Modularity/Link_Modules/#Use_Webpack) or load modules [using jspm](/Documentation/Guide/Common/Modularity/Link_Modules/#Use_jspm) or [RequireJS](/Documentation/Guide/Common/Modularity/Link_Modules/#Use_RequireJS).
+You can create a smaller bundle from modules [using Webpack](/concepts/Common/30%20Modularity/01%20Link%20Modules/10%20Use%20Webpack.md '/Documentation/Guide/Common/Modularity/Link_Modules/#Use_Webpack') or load modules [using jspm](/concepts/Common/30%20Modularity/01%20Link%20Modules/20%20Use%20jspm.md '/Documentation/Guide/Common/Modularity/Link_Modules/#Use_jspm') or [RequireJS](/concepts/Common/30%20Modularity/01%20Link%20Modules/30%20Use%20RequireJS.md '/Documentation/Guide/Common/Modularity/Link_Modules/#Use_RequireJS').

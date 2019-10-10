@@ -1,4 +1,4 @@
-For a minor customization of **Toolbar** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/) are present or absent from the item's data object. For example, the following code gererates four toolbar items: the first is a widget, the second is hidden, the third is disabled, the fourth is relocated.
+For a minor customization of **Toolbar** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxToolbar/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/') are present or absent from the item's data object. For example, the following code gererates four toolbar items: the first is a widget, the second is hidden, the third is disabled, the fourth is relocated.
 
 ---
 #####jQuery
@@ -73,7 +73,7 @@ For a minor customization of **Toolbar** items, you can use the default item tem
 
 ---
 
-Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For Angular, AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code gives a simple example of how you can use **dxTemplate** to customize items on the toolbar and commands on the overflow menu.
+Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For Angular, AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/'). The following code gives a simple example of how you can use **dxTemplate** to customize items on the toolbar and commands on the overflow menu.
 
 ---
 ##### Angular
@@ -192,7 +192,7 @@ Using the default item template is the easiest way to customize an item, but it 
 
 ---
 
-If you use jQuery alone, combine the HTML markup manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply the markup to items on the toolbar and commands on the overflow menu, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxToolbar/Configuration/#itemTemplate) and [menuItemTemplate](/Documentation/ApiReference/UI_Widgets/dxToolbar/Configuration/#menuItemTemplate) callback functions, respectively.
+If you use jQuery alone, combine the HTML markup manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply the markup to items on the toolbar and commands on the overflow menu, use the [itemTemplate](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/itemTemplate.md '/Documentation/ApiReference/UI_Widgets/dxToolbar/Configuration/#itemTemplate') and [menuItemTemplate](/api-reference/10%20UI%20Widgets/dxToolbar/1%20Configuration/menuItemTemplate.md '/Documentation/ApiReference/UI_Widgets/dxToolbar/Configuration/#menuItemTemplate') callback functions, respectively.
 
     <!--JavaScript-->
     $(function() {
@@ -207,7 +207,7 @@ If you use jQuery alone, combine the HTML markup manually with jQuery <a href="h
         });
     });
 
-You can also customize an individual toolbar item or menu command. For this purpose, declare a template for this item or command as a script and pass its `id` to the [template](/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/#template) or [menu item template](/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/#menuItemTemplate) option, respectively.
+You can also customize an individual toolbar item or menu command. For this purpose, declare a template for this item or command as a script and pass its `id` to the [template](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/template.md '/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/#template') or [menu item template](/api-reference/10%20UI%20Widgets/dxToolbar/5%20Default%20Item%20Template/menuItemTemplate.md '/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/#menuItemTemplate') option, respectively.
 
     <!--HTML-->
     <script id="individualItemTemplate" type="text/html">
@@ -231,12 +231,12 @@ You can also customize an individual toolbar item or menu command. For this purp
     // ...
     ];
 
-In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines) article.
+In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/concepts/05%20Widgets/zz%20Common/30%20Templates/30%203rd-Party%20Template%20Engines.md '/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines') article.
 
 #####See Also#####
-- [Toolbar - Specify Item Type](/Documentation/Guide/Widgets/Toolbar/Specify_Item_Type)
-- [Toolbar - Specify Item Location](/Documentation/Guide/Widgets/Toolbar/Specify_Item_Location)
+- [Toolbar - Specify Item Type](/concepts/05%20Widgets/Toolbar/05%20Specify%20Item%20Type.md '/Documentation/Guide/Widgets/Toolbar/Specify_Item_Type')
+- [Toolbar - Specify Item Location](/concepts/05%20Widgets/Toolbar/10%20Specify%20Item%20Location.md '/Documentation/Guide/Widgets/Toolbar/Specify_Item_Location')
 - [Toolbar Demos](/Demos/WidgetsGallery/#demo/navigation-toolbar-overview)
-- [Toolbar API Reference](/Documentation/ApiReference/UI_Widgets/dxToolbar/)
+- [Toolbar API Reference](/api-reference/10%20UI%20Widgets/dxToolbar/dxToolbar.md '/Documentation/ApiReference/UI_Widgets/dxToolbar/')
 
 [tags]toolbar, item appearance, customize, templates, template, custom template, default item, default template

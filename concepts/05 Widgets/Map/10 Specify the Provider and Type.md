@@ -1,4 +1,4 @@
-By default, the **Map** widget uses **Google Maps** as a map provider. It can use **Bing Maps** or **Google Static Maps** instead. To change the provider, assign one of the values listed below to the [provider](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#provider) option.
+By default, the **Map** widget uses **Google Maps** as a map provider. It can use **Bing Maps** or **Google Static Maps** instead. To change the provider, assign one of the values listed below to the [provider](/api-reference/10%20UI%20Widgets/dxMap/1%20Configuration/provider.md '/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#provider') option.
 
 ---
 ##### jQuery
@@ -37,7 +37,7 @@ By default, the **Map** widget uses **Google Maps** as a map provider. It can us
 
 ---
 
-When using maps, you should include an API key that authenticates your application. Specify this key using the [key](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/key/) option. Note that this option can also accept an object with keys for every available provider. For more information on API keys, refer to the documentation of the specific map provider.
+When using maps, you should include an API key that authenticates your application. Specify this key using the [key](/api-reference/10%20UI%20Widgets/dxMap/1%20Configuration/key/key.md '/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/key/') option. Note that this option can also accept an object with keys for every available provider. For more information on API keys, refer to the documentation of the specific map provider.
 
 ---
 ##### jQuery
@@ -87,7 +87,7 @@ When using maps, you should include an API key that authenticates your applicati
 
 ---
 
-The **Map** widget supports the following map types: *"hybrid"*, *"satellite"* and *"roadmap"*, which is used by default. To change the map type, use the [type](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#type) option. Note that **Bing Maps** call map types differ​ently​​, therefore Aerial and Road **Bing Maps** became *"hybrid"* and *"roadmap"*, respectively, in the **Map** widget.
+The **Map** widget supports the following map types: *"hybrid"*, *"satellite"* and *"roadmap"*, which is used by default. To change the map type, use the [type](/api-reference/10%20UI%20Widgets/dxMap/1%20Configuration/type.md '/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#type') option. Note that **Bing Maps** call map types differ​ently​​, therefore Aerial and Road **Bing Maps** became *"hybrid"* and *"roadmap"*, respectively, in the **Map** widget.
 
 ---
 ##### jQuery
@@ -130,9 +130,9 @@ The **Map** widget supports the following map types: *"hybrid"*, *"satellite"* a
 ---
 
 #####See Also#####
-- [Map - Zoom and Center the Map](/Documentation/Guide/Widgets/Map/Zoom_and_Center_the_Map/)
-- [Map - Specify the Size](/Documentation/Guide/Widgets/Map/Specify_the_Size/)
+- [Map - Zoom and Center the Map](/concepts/05%20Widgets/Map/05%20Zoom%20and%20Center%20the%20Map.md '/Documentation/Guide/Widgets/Map/Zoom_and_Center_the_Map/')
+- [Map - Specify the Size](/concepts/05%20Widgets/Map/15%20Specify%20the%20Size.md '/Documentation/Guide/Widgets/Map/Specify_the_Size/')
 - [Map Demos](/Demos/WidgetsGallery/#demo/maps-map-providers_and_types)
-- [Map API Reference](/Documentation/ApiReference/UI_Widgets/dxMap/)
+- [Map API Reference](/api-reference/10%20UI%20Widgets/dxMap/dxMap.md '/Documentation/ApiReference/UI_Widgets/dxMap/')
 
 [tags]map, provider, bing, google, api key, map type, hybrid, road map, satellite

@@ -29,7 +29,7 @@ Indicates whether the editor is disabled.
 
 ##### field(e.editorName): String
 Allows you to change the editor. Accepts names of DevExtreme widgets only, for example, *"dxTextBox"*.      
-Import a new editor's module when [DevExtreme modules](/Documentation/Guide/Common/Modularity/) are used.
+Import a new editor's module when [DevExtreme modules](/concepts/Common/30%20Modularity/01%20Link%20Modules/Link%20Modules.md '/Documentation/Guide/Common/Modularity/') are used.
 
 ##### field(e.editorOptions): Object
 Gets and sets the editor configuration.
@@ -62,9 +62,9 @@ The editor's value.
 The editor's width.
 
 ---
-The widget offers a user different editors for entering a value depending on the field's [dataType](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#dataType): [Calendar](/Documentation/Guide/Widgets/Calendar/Overview/), [TextBox](/Documentation/Guide/Widgets/TextBox/Overview/), [SelectBox](/Documentation/Guide/Widgets/SelectBox/Overview/), and so on. Use this function to customize those default editors or substitute them for other editors. 
+The widget offers a user different editors for entering a value depending on the field's [dataType](/api-reference/10%20UI%20Widgets/dxFilterBuilder/5%20Field/dataType.md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#dataType'): [Calendar](/concepts/05%20Widgets/Calendar/00%20Overview.md '/Documentation/Guide/Widgets/Calendar/Overview/'), [TextBox](/concepts/05%20Widgets/TextBox/00%20Overview.md '/Documentation/Guide/Widgets/TextBox/Overview/'), [SelectBox](/concepts/05%20Widgets/SelectBox/00%20Overview.md '/Documentation/Guide/Widgets/SelectBox/Overview/'), and so on. Use this function to customize those default editors or substitute them for other editors. 
 
-In the following code, a default editor is replaced with the DevExtreme [TextArea](/Documentation/Guide/Widgets/TextArea/Overview/) widget. Note that the widget's **onValueChanged** function is overridden, and its declaration ends with the **setValue(newValue, newText)** method's call. This method updates the value.
+In the following code, a default editor is replaced with the DevExtreme [TextArea](/concepts/05%20Widgets/TextArea/00%20Overview.md '/Documentation/Guide/Widgets/TextArea/Overview/') widget. Note that the widget's **onValueChanged** function is overridden, and its declaration ends with the **setValue(newValue, newText)** method's call. This method updates the value.
 
 ---
 ##### jQuery
@@ -175,4 +175,4 @@ The following code shows how to replace a default editor with a non-DevExtreme e
     
 ---
 
-[note]This function is not executed for fields that use the [editorTemplate](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#editorTemplate).
+[note]This function is not executed for fields that use the [editorTemplate](/api-reference/10%20UI%20Widgets/dxFilterBuilder/5%20Field/editorTemplate.md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#editorTemplate').

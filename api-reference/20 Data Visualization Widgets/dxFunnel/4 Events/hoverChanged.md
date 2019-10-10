@@ -4,7 +4,7 @@ type: eventType
 ---
 ---
 ##### shortDescription
-Raised after the pointer enters or leaves a [funnel item](/Documentation/Guide/Widgets/Funnel/Funnel_Items/Overview/).
+Raised after the pointer enters or leaves a [funnel item](/concepts/05%20Widgets/Funnel/14%20Funnel%20Items/00%20Overview.md '/Documentation/Guide/Widgets/Funnel/Funnel_Items/Overview/').
 
 ##### param(e): Object
 Information about the event.
@@ -16,7 +16,7 @@ The widget's instance.
 #include common-ref-elementparam with { element: "widget" }
 
 ##### field(e.item): dxFunnelItem
-The [Item](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/) object.
+The [Item](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/6%20Item/Item.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/') object.
 
 ##### field(e.model): Object
 The model data. Available only if you use Knockout.
@@ -24,7 +24,7 @@ The model data. Available only if you use Knockout.
 ##### notUsedInTheme
 
 ---
-Main article: [onHoverChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/#onHoverChanged)
+Main article: [onHoverChanged](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/1%20Configuration/onHoverChanged.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/#onHoverChanged')
 
 #####See Also#####
 #include common-link-handleevents

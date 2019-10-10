@@ -1,8 +1,8 @@
-An all-day appointment is a non-recurring appointment that covers the whole [timetable's period](/Documentation/Guide/Widgets/Scheduler/Timetable/).
+An all-day appointment is a non-recurring appointment that covers the whole [timetable's period](/concepts/05%20Widgets/Scheduler/050%20Timetable.md '/Documentation/Guide/Widgets/Scheduler/Timetable/').
 
 ![Scheduler All-Day Appointment](/Content/images/doc/19_2/UiWidgets/Scheduler_AllDayAppointment.png)
 
-An appointment can also be marked as all-day by assigning **true** to the defining object's [allDay](/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/#allDay) field. The [startDate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/#startDate) field should also be present in this object; the [endDate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/#endDate) is optional.
+An appointment can also be marked as all-day by assigning **true** to the defining object's [allDay](/api-reference/10%20UI%20Widgets/dxScheduler/5%20Default%20Appointment%20Template/allDay.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/#allDay') field. The [startDate](/api-reference/10%20UI%20Widgets/dxScheduler/5%20Default%20Appointment%20Template/startDate.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/#startDate') field should also be present in this object; the [endDate](/api-reference/10%20UI%20Widgets/dxScheduler/5%20Default%20Appointment%20Template/endDate.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/#endDate') is optional.
 
     <!--JavaScript-->
     var allDayAppointment = [{
@@ -11,7 +11,7 @@ An appointment can also be marked as all-day by assigning **true** to the defini
         allDay: true
     }];
 
-If appointments in your data source omit the **allDay** field but have another field instead, assign its name to the [allDayExpr](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#allDayExpr) option.
+If appointments in your data source omit the **allDay** field but have another field instead, assign its name to the [allDayExpr](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/allDayExpr.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#allDayExpr') option.
 
 ---
 ##### jQuery
@@ -60,8 +60,8 @@ If appointments in your data source omit the **allDay** field but have another f
 
 [note]The **Scheduler** ignores the **startDate**'s and **endDate**'s time component for all-day appointments.
 
-To mark an appointment as all-day in the UI, toggle the *"All day"* switcher on the appointment details form. This form appears when a user [adds](/Documentation/Guide/Widgets/Scheduler/Appointments/Add_Appointments/) or [updates](/Documentation/Guide/Widgets/Scheduler/Appointments/Update_Appointments/) an appointment. 
+To mark an appointment as all-day in the UI, toggle the *"All day"* switcher on the appointment details form. This form appears when a user [adds](/concepts/05%20Widgets/Scheduler/030%20Appointments/020%20Add%20Appointments/Add%20Appointments.md '/Documentation/Guide/Widgets/Scheduler/Appointments/Add_Appointments/') or [updates](/concepts/05%20Widgets/Scheduler/030%20Appointments/030%20Update%20Appointments/Update%20Appointments.md '/Documentation/Guide/Widgets/Scheduler/Appointments/Update_Appointments/') an appointment. 
 
 ![Scheduler All Day Appointment Details](/Content/images/doc/19_2/UiWidgets/Scheduler_AllDayAppointment_Details.png)
 
-All-day appointments are displayed in the all-day panel, which is visible by default. If you are not using such appointments, hide the all-day panel along with all-day appointments by assigning **false** to the [showAllDayPanel](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#showAllDayPanel) option.
+All-day appointments are displayed in the all-day panel, which is visible by default. If you are not using such appointments, hide the all-day panel along with all-day appointments by assigning **false** to the [showAllDayPanel](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/showAllDayPanel.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#showAllDayPanel') option.

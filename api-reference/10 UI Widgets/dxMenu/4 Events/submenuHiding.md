@@ -25,7 +25,7 @@ Model data. Available only if Knockout is used.
 #include common-ref-elementparam with { element: "root menu element" }
 
 ---
-Main article: [onSubmenuHiding](/Documentation/ApiReference/UI_Widgets/dxMenu/Configuration/#onSubmenuHiding)
+Main article: [onSubmenuHiding](/api-reference/10%20UI%20Widgets/dxMenu/1%20Configuration/onSubmenuHiding.md '/Documentation/ApiReference/UI_Widgets/dxMenu/Configuration/#onSubmenuHiding')
 
 #####See Also#####
 #include common-link-handleevents

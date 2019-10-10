@@ -22,4 +22,4 @@ The validation group's name or instance.
     let validationResult = validationEngine.validateGroup('myGroup');
 
 #####See Also#####
-- [Validation Rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#validationRules)
+- [Validation Rules](/api-reference/10%20UI%20Widgets/dxValidator/1%20Configuration/validationRules.md '/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#validationRules')

@@ -28,7 +28,7 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 Model data. Available only if Knockout is used.
 
 ---
-Main article: [onCopy]({basewidgetpath}/Configuration/#onCopy)
+Main article: [onCopy](/api-reference/10%20UI%20Widgets/dxTextEditor/1%20Configuration/onCopy.md '{basewidgetpath}/Configuration/#onCopy')
 
 #####See Also#####
 #include common-link-handleevents

@@ -18,7 +18,7 @@ The following code adds a simple **ProgressBar** to your page. The **value** opt
         });
     });
 
-When the **ProgressBar** reaches the [maximum](/Documentation/ApiReference/UI_Widgets/dxProgressBar/Configuration/#max) value, the [complete](/Documentation/ApiReference/UI_Widgets/dxProgressBar/Events/#complete) event is raised. You can handle it using the [onComplete](/Documentation/ApiReference/UI_Widgets/dxProgressBar/Configuration/#onComplete) function.
+When the **ProgressBar** reaches the [maximum](/api-reference/10%20UI%20Widgets/dxTrackBar/1%20Configuration/max.md '/Documentation/ApiReference/UI_Widgets/dxProgressBar/Configuration/#max') value, the [complete](/api-reference/10%20UI%20Widgets/dxProgressBar/4%20Events/complete.md '/Documentation/ApiReference/UI_Widgets/dxProgressBar/Events/#complete') event is raised. You can handle it using the [onComplete](/api-reference/10%20UI%20Widgets/dxProgressBar/1%20Configuration/onComplete.md '/Documentation/ApiReference/UI_Widgets/dxProgressBar/Configuration/#onComplete') function.
 
     <!--JavaScript-->
     $(function() {
@@ -34,8 +34,8 @@ When the **ProgressBar** reaches the [maximum](/Documentation/ApiReference/UI_Wi
 
 #####See Also#####
 #include common-link-configurewidget
-- [ProgressBar - Progress Status](/Documentation/Guide/Widgets/ProgressBar/Progress_Status)
-- [ProgressBar - Handle the Value Change Event](/Documentation/Guide/Widgets/ProgressBar/Handle_the_Value_Change_Event)
-- [ProgressBar API Reference](/Documentation/ApiReference/UI_Widgets/dxProgressBar/)
+- [ProgressBar - Progress Status](/concepts/05%20Widgets/ProgressBar/05%20Progress%20Status.md '/Documentation/Guide/Widgets/ProgressBar/Progress_Status')
+- [ProgressBar - Handle the Value Change Event](/concepts/05%20Widgets/ProgressBar/10%20Handle%20the%20Value%20Change%20Event.md '/Documentation/Guide/Widgets/ProgressBar/Handle_the_Value_Change_Event')
+- [ProgressBar API Reference](/api-reference/10%20UI%20Widgets/dxProgressBar/dxProgressBar.md '/Documentation/ApiReference/UI_Widgets/dxProgressBar/')
 
 [tags]progress bar, progressBar, editor, overview, range, min, max, complete

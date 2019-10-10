@@ -1,4 +1,4 @@
-Paging is used to load data in portions, which improves the widget's performance on large datasets. Paging is enabled by default. You can control it with the [paging](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/paging/) object. Use this object's [pageIndex](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/paging/#pageIndex) and [pageSize](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/paging/#pageSize) options of  to specify the initial page and the number of rows on a page.
+Paging is used to load data in portions, which improves the widget's performance on large datasets. Paging is enabled by default. You can control it with the [paging](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/paging/paging.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/paging/') object. Use this object's [pageIndex](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/paging/pageIndex.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/paging/#pageIndex') and [pageSize](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/paging/pageSize.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/paging/#pageSize') options of  to specify the initial page and the number of rows on a page.
 
 ---
 
@@ -42,7 +42,7 @@ Paging is used to load data in portions, which improves the widget's performance
 
 ---
 
-When working with small datasets, you can disable paging by setting the **paging**.[enabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/paging/#enabled) option to **false**.
+When working with small datasets, you can disable paging by setting the **paging**.[enabled](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/paging/enabled.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/paging/#enabled') option to **false**.
 
 ---
 

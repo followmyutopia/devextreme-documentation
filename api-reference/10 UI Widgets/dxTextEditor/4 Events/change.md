@@ -28,7 +28,7 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 Model data. Available only if Knockout is used.
 
 ---
-Main article: [onChange]({basewidgetpath}/Configuration/#onChange)
+Main article: [onChange](/api-reference/10%20UI%20Widgets/dxTextEditor/1%20Configuration/onChange.md '{basewidgetpath}/Configuration/#onChange')
 
 #####See Also#####
 #include common-link-handleevents

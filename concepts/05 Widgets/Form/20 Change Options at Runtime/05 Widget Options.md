@@ -1,4 +1,4 @@
-To change the [Form configuration](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/) at runtime, call the [option(optionName, optionValue)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#optionoptionName_optionValue) method. This approach is more typical of jQuery.
+To change the [Form configuration](/api-reference/10%20UI%20Widgets/dxForm/1%20Configuration/Configuration.md '/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/') at runtime, call the [option(optionName, optionValue)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#optionoptionName_optionValue) method. This approach is more typical of jQuery.
 
     <!--JavaScript-->
     $(function() {
@@ -53,9 +53,9 @@ With Angular, bind the option to change to a component or element property.
     })
 
 #####See Also#####
-- [Get and Set Options - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Get_and_Set_Options/)
-- **Change Options**: [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/#Two-Way_Option_Binding) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Change_Options/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Change_Options/)
+- [Get and Set Options - jQuery](/concepts/00%20Getting%20Started/10%20Widget%20Basics%20-%20jQuery/05%20Get%20and%20Set%20Options.md '/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Get_and_Set_Options/')
+- **Change Options**: [Angular](/concepts/40%20Angular%20Components/20%20Component%20Configuration%20Syntax/33%20Two-Way%20Option%20Binding.md '/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/#Two-Way_Option_Binding') | [AngularJS](/concepts/00%20Getting%20Started/20%20Widget%20Basics%20-%20AngularJS/05%20Change%20Options.md '/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Change_Options/') | [Knockout](/concepts/00%20Getting%20Started/25%20Widget%20Basics%20-%20Knockout/05%20Change%20Options.md '/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Change_Options/')
 - [Form Demos](/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-grouped_fields)
-- [Form API Reference](/Documentation/ApiReference/UI_Widgets/dxForm/)
+- [Form API Reference](/api-reference/10%20UI%20Widgets/dxForm/dxForm.md '/Documentation/ApiReference/UI_Widgets/dxForm/')
 
 [tags]form, widget options, change option

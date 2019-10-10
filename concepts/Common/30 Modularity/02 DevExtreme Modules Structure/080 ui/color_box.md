@@ -2,7 +2,7 @@ Exposes the **ColorBox** widget.
 
 Exports:
 
-- *default* - The [ColorBox](/Documentation/ApiReference/UI_Widgets/dxColorBox/) widget
+- *default* - The [ColorBox](/api-reference/10%20UI%20Widgets/dxColorBox/dxColorBox.md '/Documentation/ApiReference/UI_Widgets/dxColorBox/') widget
 
         require("ui/color_box");
         // ===== or =====

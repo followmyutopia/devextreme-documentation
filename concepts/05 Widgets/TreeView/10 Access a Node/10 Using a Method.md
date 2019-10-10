@@ -30,11 +30,11 @@ Call the [getNodes()](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/
     
 ---
 
-All node objects contain a similar set of fields, which are described in the [Node](/Documentation/ApiReference/UI_Widgets/dxTreeView/Node/) documentation section.
+All node objects contain a similar set of fields, which are described in the [Node](/api-reference/10%20UI%20Widgets/dxTreeView/4%20Node/Node.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Node/') documentation section.
 
 #####See Also#####
-- [TreeView - Search Nodes](/Documentation/Guide/Widgets/TreeView/Search_Nodes/)
-- [TreeView - Expand and Collapse Nodes](/Documentation/Guide/Widgets/TreeView/Expand_and_Collapse_Nodes)
-- [TreeView - Select Nodes](/Documentation/Guide/Widgets/TreeView/Select_Nodes)
+- [TreeView - Search Nodes](/concepts/05%20Widgets/TreeView/15%20Search%20Nodes.md '/Documentation/Guide/Widgets/TreeView/Search_Nodes/')
+- [TreeView - Expand and Collapse Nodes](/concepts/05%20Widgets/TreeView/20%20Expand%20and%20Collapse%20Nodes/Expand%20and%20Collapse%20Nodes.md '/Documentation/Guide/Widgets/TreeView/Expand_and_Collapse_Nodes')
+- [TreeView - Select Nodes](/concepts/05%20Widgets/TreeView/25%20Select%20Nodes/Select%20Nodes.md '/Documentation/Guide/Widgets/TreeView/Select_Nodes')
 - [TreeView Demos](/Demos/WidgetsGallery/#demo/navigation-tree_view-hierarchical_data_structure)
-- [TreeView API Reference](/Documentation/ApiReference/UI_Widgets/dxTreeView/)
+- [TreeView API Reference](/api-reference/10%20UI%20Widgets/dxTreeView/dxTreeView.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/')

@@ -6,7 +6,7 @@ EventForAction: dxDataGrid.focusedRowChanged
 ---
 ---
 ##### shortDescription
-A function that is executed after the focused row changes. Applies only when [focusedRowEnabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#focusedRowEnabled) is **true**.
+A function that is executed after the focused row changes. Applies only when [focusedRowEnabled](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/focusedRowEnabled.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#focusedRowEnabled') is **true**.
 
 ##### param(e): Object
 Information about the event that caused the function's execution.
@@ -35,5 +35,5 @@ The row's index.
 }
 
 #####See Also#####
-- [focusedRowIndex](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#focusedRowIndex) | [focusedRowKey](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#focusedRowKey)
-- [focusedColumnIndex](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#focusedColumnIndex)
+- [focusedRowIndex](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/focusedRowIndex.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#focusedRowIndex') | [focusedRowKey](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/focusedRowKey.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#focusedRowKey')
+- [focusedColumnIndex](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/focusedColumnIndex.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#focusedColumnIndex')

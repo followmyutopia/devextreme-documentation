@@ -1,9 +1,9 @@
 By default, the widget aligns all editors of all simple items in straight columns. To disable alignment, assign **false** to:
 
-- [alignItemLabels](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#alignItemLabels) - for all _root_ simple items;
-- [alignItemLabelsInAllGroups](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#alignItemLabelsInAllGroups) - for all simple items nested _in all groups_;
-- **Group Item**.[alignItemLabels](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/GroupItem/#alignItemLabels) - for simple items nested _in a specific group_;
-- **Tabbed Item**.**tabs[]**.[alignItemLabels](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/TabbedItem/tabs/#alignItemLabels) - for simple items nested _in a specific tab_.
+- [alignItemLabels](/api-reference/10%20UI%20Widgets/dxForm/1%20Configuration/alignItemLabels.md '/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#alignItemLabels') - for all _root_ simple items;
+- [alignItemLabelsInAllGroups](/api-reference/10%20UI%20Widgets/dxForm/1%20Configuration/alignItemLabelsInAllGroups.md '/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#alignItemLabelsInAllGroups') - for all simple items nested _in all groups_;
+- **Group Item**.[alignItemLabels](/api-reference/10%20UI%20Widgets/dxForm/5%20Item%20Types/GroupItem/alignItemLabels.md '/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/GroupItem/#alignItemLabels') - for simple items nested _in a specific group_;
+- **Tabbed Item**.**tabs[]**.[alignItemLabels](/api-reference/10%20UI%20Widgets/dxForm/5%20Item%20Types/TabbedItem/tabs/alignItemLabels.md '/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/TabbedItem/tabs/#alignItemLabels') - for simple items nested _in a specific tab_.
 
 <!---->
 
@@ -80,8 +80,8 @@ By default, the widget aligns all editors of all simple items in straight column
 ---
 
 #####See Also#####
-- [Form - Configure Item Labels | Additional Marks](/Documentation/Guide/Widgets/Form/Configure_Item_Labels/Additional_Marks/)
-- [Form - Change Item Options at Runtime](/Documentation/Guide/Widgets/Form/Change_Options_at_Runtime/Item_Options/)
-- [Form - Configure Simple Items](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/)
+- [Form - Configure Item Labels | Additional Marks](/concepts/05%20Widgets/Form/15%20Configure%20Item%20Labels/10%20Additional%20Marks.md '/Documentation/Guide/Widgets/Form/Configure_Item_Labels/Additional_Marks/')
+- [Form - Change Item Options at Runtime](/concepts/05%20Widgets/Form/20%20Change%20Options%20at%20Runtime/10%20Item%20Options.md '/Documentation/Guide/Widgets/Form/Change_Options_at_Runtime/Item_Options/')
+- [Form - Configure Simple Items](/concepts/05%20Widgets/Form/05%20Configure%20Simple%20Items/Configure%20Simple%20Items.md '/Documentation/Guide/Widgets/Form/Configure_Simple_Items/')
 - [Form Demos](/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-grouped_fields)
-- [Form API Reference](/Documentation/ApiReference/UI_Widgets/dxForm/)
+- [Form API Reference](/api-reference/10%20UI%20Widgets/dxForm/dxForm.md '/Documentation/ApiReference/UI_Widgets/dxForm/')

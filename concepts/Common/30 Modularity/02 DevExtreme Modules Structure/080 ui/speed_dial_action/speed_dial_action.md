@@ -2,7 +2,7 @@ Exposes the **SpeedDialAction** widget.
 
 Exports:
 
-- *default* - The [SpeedDialAction](/Documentation/ApiReference/UI_Widgets/dxSpeedDialAction/) widget
+- *default* - The [SpeedDialAction](/api-reference/10%20UI%20Widgets/dxSpeedDialAction/dxSpeedDialAction.md '/Documentation/ApiReference/UI_Widgets/dxSpeedDialAction/') widget
 
         require("ui/speed_dial_action");
         // ===== or =====

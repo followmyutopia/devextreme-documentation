@@ -1,4 +1,4 @@
-To customize views in the **MultiView**, define a custom template for them. For Angular, AngularJS, and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define a template for **MultiView** views.
+To customize views in the **MultiView**, define a custom template for them. For Angular, AngularJS, and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/'). The following code shows how you can use **dxTemplate** to define a template for **MultiView** views.
 
 ---
 ##### Angular
@@ -153,7 +153,7 @@ To customize views in the **MultiView**, define a custom template for them. For 
 
 ---
 
-If you use jQuery alone, combine the HTML markup for items manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxMultiView/Configuration/#itemTemplate) callback function as shown in the following code.
+If you use jQuery alone, combine the HTML markup for items manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [itemTemplate](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/itemTemplate.md '/Documentation/ApiReference/UI_Widgets/dxMultiView/Configuration/#itemTemplate') callback function as shown in the following code.
 
     <!--JavaScript-->
     var multiViewItems = [{
@@ -190,7 +190,7 @@ If you use jQuery alone, combine the HTML markup for items manually with jQuery 
         });
     });
 
-You can also customize an individual view. For this purpose, declare a template for this view as a script and pass its `id` to the [template](/Documentation/ApiReference/UI_Widgets/dxMultiView/Default_Item_Template/#template) field. 
+You can also customize an individual view. For this purpose, declare a template for this view as a script and pass its `id` to the [template](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/template.md '/Documentation/ApiReference/UI_Widgets/dxMultiView/Default_Item_Template/#template') field. 
 
     <!--HTML-->
     <script id="individualTemplate" type="text/html">
@@ -203,12 +203,12 @@ You can also customize an individual view. For this purpose, declare a template 
         { text: "Address" }
     ];
 
-In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines) article.
+In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/concepts/05%20Widgets/zz%20Common/30%20Templates/30%203rd-Party%20Template%20Engines.md '/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines') article.
 
 #####See Also#####
-- [MultiView - Switch Between Views](/Documentation/Guide/Widgets/MultiView/Switch_Between_Views/)
-- [MultiView - Loop the Views](/Documentation/Guide/Widgets/MultiView/Loop_the_Views/)
+- [MultiView - Switch Between Views](/concepts/05%20Widgets/MultiView/10%20Switch%20Between%20Views.md '/Documentation/Guide/Widgets/MultiView/Switch_Between_Views/')
+- [MultiView - Loop the Views](/concepts/05%20Widgets/MultiView/15%20Loop%20the%20Views.md '/Documentation/Guide/Widgets/MultiView/Loop_the_Views/')
 - [MultiView Demos](/Demos/WidgetsGallery/#demo/navigation-multi_view-overview)
-- [MultiView API Reference](/Documentation/ApiReference/UI_Widgets/dxMultiView/)
+- [MultiView API Reference](/api-reference/10%20UI%20Widgets/dxMultiView/dxMultiView.md '/Documentation/ApiReference/UI_Widgets/dxMultiView/')
 
 [tags]multi view, multiView, item appearance, customize, templates, template, custom template

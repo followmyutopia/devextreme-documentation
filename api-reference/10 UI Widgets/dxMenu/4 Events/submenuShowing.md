@@ -22,7 +22,7 @@ Model data. Available only if Knockout is used.
 #include common-ref-elementparam with { element: "root menu element" }
 
 ---
-Main article: [onSubmenuShowing](/Documentation/ApiReference/UI_Widgets/dxMenu/Configuration/#onSubmenuShowing)
+Main article: [onSubmenuShowing](/api-reference/10%20UI%20Widgets/dxMenu/1%20Configuration/onSubmenuShowing.md '/Documentation/ApiReference/UI_Widgets/dxMenu/Configuration/#onSubmenuShowing')
 
 #####See Also#####
 #include common-link-handleevents

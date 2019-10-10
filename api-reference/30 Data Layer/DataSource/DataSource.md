@@ -7,7 +7,7 @@ inherits: EventsMixin
 ---
 ---
 ##### shortDescription
-The **DataSource** is an object that provides an API for processing data from an underlying [store](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/store/).
+The **DataSource** is an object that provides an API for processing data from an underlying [store](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/store/store.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/store/').
 
 ##### lib
 dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
@@ -102,7 +102,7 @@ dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
 
 [note] If you create a **DataSource** instance outside a widget (as shown above), make sure to [dispose](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#dispose) of it when it is no longer required. If the instance is created inside a widget, it is disposed of automatically.
 
-Refer to the [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/) and [DataSource Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples/) articles for more information on working with data in DevExtreme.
+Refer to the [Data Layer](/concepts/30%20Data%20Layer/5%20Data%20Layer/Data%20Layer.md '/Documentation/Guide/Data_Layer/Data_Layer/') and [DataSource Examples](/concepts/30%20Data%20Layer/51%20Data%20Source%20Examples/Data%20Source%20Examples.md '/Documentation/Guide/Data_Layer/Data_Source_Examples/') articles for more information on working with data in DevExtreme.
 
 When using a widget as an <a href="https://docs.devexpress.com/DevExtremeAspNetMvc/400943/devextreme-aspnet-mvc-controls" target="_blank">ASP.NET MVC 5 Control</a> or a <a href="https://docs.devexpress.com/AspNetCore/400263/aspnet-core-controls#devextreme-based-aspnet-core-controls" target="_blank">DevExtreme-Based ASP.NET Core Control</a>, declare the **DataSource** options in the `DataSourceOptions()` method.
 

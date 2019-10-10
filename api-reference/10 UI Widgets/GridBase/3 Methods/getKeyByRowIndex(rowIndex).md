@@ -14,4 +14,4 @@ The row's visible index. Refer to [Column and Row Indexes](/Documentation/Guide/
 ---
 #####See Also#####
 #include common-link-callmethods
-- [getRowIndexByKey(key)]({basewidgetpath}/Methods/#getRowIndexByKeykey)
+- [getRowIndexByKey(key)](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/getRowIndexByKey(key).md '{basewidgetpath}/Methods/#getRowIndexByKeykey')

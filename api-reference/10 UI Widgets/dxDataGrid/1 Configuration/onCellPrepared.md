@@ -15,10 +15,10 @@ Information about the event that caused the function's execution.
 #include common-ref-elementparam with { element: "cell" }
 
 ##### field(e.column): dxDataGridColumn
-This column's [configuration](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/).
+This column's [configuration](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/columns/columns.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/').
 
 ##### field(e.columnIndex): Number
-The index of the column to which the cell belongs. For details on indexes, see the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
+The index of the column to which the cell belongs. For details on indexes, see the [Column and Row Indexes](/concepts/05%20Widgets/DataGrid/15%20Columns/12%20Column%20and%20Row%20Indexes.md '/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/') topic.
 
 ##### field(e.component): {WidgetName}
 The widget's instance.
@@ -27,7 +27,7 @@ The widget's instance.
 The data of the row to which the cell belongs. Unavailable if **rowType** is *"header"*, *"filter"*, or *"totalFooter"*.
 
 ##### field(e.displayValue): any
-The cell's displayed value. Differs from the **value** field only when the column to which the prepared cell belongs uses [lookup](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/).
+The cell's displayed value. Differs from the **value** field only when the column to which the prepared cell belongs uses [lookup](/api-reference/_hidden/dxDataGridColumn/lookup/lookup.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/').
 
 ##### field(e.element): dxElement
 #include common-ref-elementparam with { element: "widget" }
@@ -43,7 +43,7 @@ Indicates whether the row is selected.
 
 ##### field(e.key): any
 The row's key. Unavailable if **rowType** is *"header"*, *"filter"*, or *"totalFooter"*.        
-If a field providing keys is not specified in the [data source](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource), the whole data object is considered the key.
+If a field providing keys is not specified in the [data source](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/dataSource.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource'), the whole data object is considered the key.
 
 ##### field(e.model): Object
 Model data. Available only if you use Knockout.
@@ -52,22 +52,22 @@ Model data. Available only if you use Knockout.
 The cell's previous raw value.
 
 ##### field(e.row): dxDataGridRowObject
-The row [properties](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/).
+The row [properties](/api-reference/10%20UI%20Widgets/dxDataGrid/6%20Row/Row.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/').
 
 ##### field(e.rowIndex): Number
-The row's index. Refer to [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) for more information.
+The row's index. Refer to [Column and Row Indexes](/concepts/05%20Widgets/DataGrid/15%20Columns/12%20Column%20and%20Row%20Indexes.md '/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/') for more information.
 
 ##### field(e.rowType): String
-The row's [type](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#rowType).
+The row's [type](/api-reference/10%20UI%20Widgets/dxDataGrid/6%20Row/rowType.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#rowType').
 
 ##### field(e.text): String
-The cell's [formatted](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#format) value converted to a string.
+The cell's [formatted](/api-reference/_hidden/GridBaseColumn/format.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#format') value converted to a string.
 
 ##### field(e.value): any
 The cell's raw value.
 
 ##### field(e.watch): function()
-Allows tracking a variable and performing actions when it changes. Applies when [repaintChangesOnly](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#repaintChangesOnly) is **true**.       
+Allows tracking a variable and performing actions when it changes. Applies when [repaintChangesOnly](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/repaintChangesOnly.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#repaintChangesOnly') is **true**.       
 This function has the following parameters:     
 
 - **getter(data)**: Function        
@@ -233,4 +233,4 @@ In the following code, the **onCellPrepared** function is used to change a `Prod
 ---
 
 #####See Also#####
-- [Customize Cells](/Documentation/Guide/Widgets/DataGrid/Columns/Customize_Cells/#Customize_the_Appearance)
+- [Customize Cells](/concepts/05%20Widgets/DataGrid/15%20Columns/40%20Customize%20Cells/2%20Customize%20the%20Appearance.md '/Documentation/Guide/Widgets/DataGrid/Columns/Customize_Cells/#Customize_the_Appearance')

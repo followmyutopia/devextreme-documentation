@@ -5,9 +5,9 @@ default: {}
 ---
 ---
 ##### shortDescription
-Configures the drop-down field which holds the [content](/Documentation/ApiReference/UI_Widgets/dxDropDownBox/Configuration/#contentTemplate).
+Configures the drop-down field which holds the [content](/api-reference/10%20UI%20Widgets/dxDropDownBox/1%20Configuration/contentTemplate.md '/Documentation/ApiReference/UI_Widgets/dxDropDownBox/Configuration/#contentTemplate').
 
 ---
-See [Popup Configuration](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/) for options that you can specify in this object.
+See [Popup Configuration](/api-reference/10%20UI%20Widgets/dxPopup/1%20Configuration/Configuration.md '/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/') for options that you can specify in this object.
 
 #include widgets-config-object-option-note

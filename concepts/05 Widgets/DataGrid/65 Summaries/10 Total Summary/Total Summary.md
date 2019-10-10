@@ -2,7 +2,7 @@ A total summary aggregates all data by columns. You can associate each column wi
 
 ![DevExtreme HTML5/JavaScript DataGrid Widget Total Summary](/Content/images/doc/19_2/DataGrid/TotalSummary.png)
 
-Configure each summary item in the **summary**.[totalItems](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/) array. The basic item configuration requires specifying a [column that provides data](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#column) and the [aggregate function](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#summaryType). Note that each summary item is calculated only for those rows that meet filtering conditions (if a filter is applied).
+Configure each summary item in the **summary**.[totalItems](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/summary/totalItems/totalItems.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/') array. The basic item configuration requires specifying a [column that provides data](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/summary/totalItems/column.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#column') and the [aggregate function](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/summary/totalItems/summaryType.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#summaryType'). Note that each summary item is calculated only for those rows that meet filtering conditions (if a filter is applied).
 
 ---
 #####jQuery
@@ -64,6 +64,6 @@ Configure each summary item in the **summary**.[totalItems](/Documentation/ApiRe
 }
 
 #####See Also#####
-- [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/)
+- [remoteOperations](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/remoteOperations/remoteOperations.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/')
 
 [tags]dataGrid, data grid, total summary, aggregate function, summaryType, alignment, location, showInColumn

@@ -1,6 +1,6 @@
-[note]In this document, "size" is an item's width or height, depending on whether the [direction](/Documentation/ApiReference/UI_Widgets/dxBox/Configuration/#direction) option is set to *"row"* or *"col"*.
+[note]In this document, "size" is an item's width or height, depending on whether the [direction](/api-reference/10%20UI%20Widgets/dxBox/1%20Configuration/direction.md '/Documentation/ApiReference/UI_Widgets/dxBox/Configuration/#direction') option is set to *"row"* or *"col"*.
 
-The [baseSize](/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#baseSize), [ratio](/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#ratio), and [shrink](/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#shrink) settings specify an item's size. The **baseSize** defines the item's initial size in pixels. The item's size changes according to **ratio** and **shrink** if the **Box**'s size changes.
+The [baseSize](/api-reference/10%20UI%20Widgets/dxBox/5%20Default%20Item%20Template/baseSize.md '/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#baseSize'), [ratio](/api-reference/10%20UI%20Widgets/dxBox/5%20Default%20Item%20Template/ratio.md '/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#ratio'), and [shrink](/api-reference/10%20UI%20Widgets/dxBox/5%20Default%20Item%20Template/shrink.md '/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#shrink') settings specify an item's size. The **baseSize** defines the item's initial size in pixels. The item's size changes according to **ratio** and **shrink** if the **Box**'s size changes.
 
 An unoccupied area emerges when the **Box** provides more space than the items' **baseSize**s require.
 
@@ -206,8 +206,8 @@ The result is different if *Item 2*'s **shrink** value is more than the other it
 ---
 
 #####See Also#####
-- [Box - Arrange and Align Items](/Documentation/Guide/Widgets/Box/Arrange_and_Align_Items/)
+- [Box - Arrange and Align Items](/concepts/05%20Widgets/Box/10%20Arrange%20and%20Align%20Items.md '/Documentation/Guide/Widgets/Box/Arrange_and_Align_Items/')
 - [Box Demos](/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-box-overview)
-- [Box API Reference](/Documentation/ApiReference/UI_Widgets/dxBox/)
+- [Box API Reference](/api-reference/10%20UI%20Widgets/dxBox/dxBox.md '/Documentation/ApiReference/UI_Widgets/dxBox/')
 
 [tags]box, item size, item height, item width, baseSize, ratio

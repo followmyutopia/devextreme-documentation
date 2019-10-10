@@ -1,4 +1,4 @@
-Custom data access logic can be implemented using the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/) class. A developer should implement all data access operations in the CustomStore.
+Custom data access logic can be implemented using the [CustomStore](/api-reference/30%20Data%20Layer/CustomStore/CustomStore.md '/Documentation/ApiReference/Data_Layer/CustomStore/') class. A developer should implement all data access operations in the CustomStore.
 
     <!--JavaScript-->
     var myStore = new DevExpress.data.CustomStore({

@@ -1,6 +1,6 @@
-[note] In this article, the [Button](/Documentation/Guide/Widgets/Button/Overview/) widget is used to demonstrate how to show and hide the **LoadIndicator**. This choice is made for purely demonstrational purposes, and you can do the same operations using another widget following the same guidelines.
+[note] In this article, the [Button](/concepts/05%20Widgets/Button/00%20Overview.md '/Documentation/Guide/Widgets/Button/Overview/') widget is used to demonstrate how to show and hide the **LoadIndicator**. This choice is made for purely demonstrational purposes, and you can do the same operations using another widget following the same guidelines.
 
-To specify whether the **LoadIndicator** is shown, change the [visible](/Documentation/ApiReference/UI_Widgets/dxLoadIndicator/Configuration/#visible) option.
+To specify whether the **LoadIndicator** is shown, change the [visible](/api-reference/10%20UI%20Widgets/Widget/1%20Configuration/visible.md '/Documentation/ApiReference/UI_Widgets/dxLoadIndicator/Configuration/#visible') option.
 
 ---
 
@@ -67,7 +67,7 @@ To specify whether the **LoadIndicator** is shown, change the [visible](/Documen
 
 ---
 
-With Angular, AngularJS, or Knockout, bind the [visible](/Documentation/ApiReference/UI_Widgets/dxLoadIndicator/Configuration/#visible) property of the **LoadIndicator** widget to a component property (in Angular), a scope property (in AngularJS), or an observable variable (in Knockout). After that, change this property/variable, and the **LoadIndicator** will appear or disappear.
+With Angular, AngularJS, or Knockout, bind the [visible](/api-reference/10%20UI%20Widgets/Widget/1%20Configuration/visible.md '/Documentation/ApiReference/UI_Widgets/dxLoadIndicator/Configuration/#visible') property of the **LoadIndicator** widget to a component property (in Angular), a scope property (in AngularJS), or an observable variable (in Knockout). After that, change this property/variable, and the **LoadIndicator** will appear or disappear.
 
 ---
 ##### Angular
@@ -143,6 +143,6 @@ With Angular, AngularJS, or Knockout, bind the [visible](/Documentation/ApiRefer
 #####See Also#####
 #include common-link-handleevents
 - [LoadIndicator Demos](/Demos/WidgetsGallery/#demo/dialogs_and_notifications-load_indicator-overview)
-- [LoadIndicator API Reference](/Documentation/ApiReference/UI_Widgets/dxLoadIndicator/)
+- [LoadIndicator API Reference](/api-reference/10%20UI%20Widgets/dxLoadIndicator/dxLoadIndicator.md '/Documentation/ApiReference/UI_Widgets/dxLoadIndicator/')
 
 [tags]loadIndicator, load indicator, loading indicator, overlay, show, hide, open, close, showing, shown, hiding, hidden

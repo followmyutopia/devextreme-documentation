@@ -3,10 +3,10 @@
 
 The **Diagram** widget allows you to customize its UI elements with the following options.
 
-- The [toolbar](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/toolbar/) option controls toolbar visibility and specifies a set of available commands.
-- The [toolbox](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/toolbox/) option controls element visibility, and specifies the groups and shapes visible in the toolbox.
-- The [propertiesPanel](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/propertiesPanel/) option contains settings of the Properties panel.
-- The [contextMenu](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/contextMenu/) option controls the context menu availability and specifies the visible commands.
+- The [toolbar](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/toolbar/toolbar.md '/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/toolbar/') option controls toolbar visibility and specifies a set of available commands.
+- The [toolbox](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/toolbox/toolbox.md '/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/toolbox/') option controls element visibility, and specifies the groups and shapes visible in the toolbox.
+- The [propertiesPanel](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/propertiesPanel/propertiesPanel.md '/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/propertiesPanel/') option contains settings of the Properties panel.
+- The [contextMenu](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/contextMenu/contextMenu.md '/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/contextMenu/') option controls the context menu availability and specifies the visible commands.
 
 ![Diagram control data toolbox](Content/images/doc/19_2/diagram/ui-customization.png)
 

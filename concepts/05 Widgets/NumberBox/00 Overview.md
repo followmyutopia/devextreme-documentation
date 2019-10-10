@@ -4,7 +4,7 @@ The **NumberBox** is a widget that displays a numeric value and allows a user to
     url: "/Demos/WidgetsGallery/#demo/editors-number_box-overview"
 }
 
-The following code adds the **NumberBox** to your page. The simplest configuration of the widget requires only a [value](/Documentation/ApiReference/UI_Widgets/dxNumberBox/Configuration/#value) to be specified. In addition, you can specify the [placeholder](/Documentation/ApiReference/UI_Widgets/dxNumberBox/Configuration/#placeholder) to be displayed when the number box is empty.
+The following code adds the **NumberBox** to your page. The simplest configuration of the widget requires only a [value](/api-reference/10%20UI%20Widgets/dxNumberBox/1%20Configuration/value.md '/Documentation/ApiReference/UI_Widgets/dxNumberBox/Configuration/#value') to be specified. In addition, you can specify the [placeholder](/api-reference/10%20UI%20Widgets/dxTextEditor/1%20Configuration/placeholder.md '/Documentation/ApiReference/UI_Widgets/dxNumberBox/Configuration/#placeholder') to be displayed when the number box is empty.
 
 ---
 ##### jQuery
@@ -44,7 +44,7 @@ The following code adds the **NumberBox** to your page. The simplest configurati
 
 ---
 
-In most cases, it is useful to specify the range of possible values. For this purpose, set the [min](/Documentation/ApiReference/UI_Widgets/dxNumberBox/Configuration/#min) and [max](/Documentation/ApiReference/UI_Widgets/dxNumberBox/Configuration/#max) options.
+In most cases, it is useful to specify the range of possible values. For this purpose, set the [min](/api-reference/10%20UI%20Widgets/dxNumberBox/1%20Configuration/min.md '/Documentation/ApiReference/UI_Widgets/dxNumberBox/Configuration/#min') and [max](/api-reference/10%20UI%20Widgets/dxNumberBox/1%20Configuration/max.md '/Documentation/ApiReference/UI_Widgets/dxNumberBox/Configuration/#max') options.
 
 ---
 ##### jQuery
@@ -87,9 +87,9 @@ If the entered value falls out of the range, the widget sets the value to the lo
 
 #####See Also#####
 #include common-link-configurewidget
-- [NumberBox - Handle the Value Change Event](/Documentation/Guide/Widgets/NumberBox/Handle_the_Value_Change_Event)
-- [NumberBox - Control the Behavior](/Documentation/Guide/Widgets/NumberBox/Control_the_Behavior)
-- [NumberBox - Keyboard Support](/Documentation/Guide/Widgets/NumberBox/Keyboard_Support)
-- [NumberBox API Reference](/Documentation/ApiReference/UI_Widgets/dxNumberBox/)
+- [NumberBox - Handle the Value Change Event](/concepts/05%20Widgets/NumberBox/10%20Handle%20the%20Value%20Change%20Event.md '/Documentation/Guide/Widgets/NumberBox/Handle_the_Value_Change_Event')
+- [NumberBox - Control the Behavior](/concepts/05%20Widgets/NumberBox/15%20Control%20the%20Behavior.md '/Documentation/Guide/Widgets/NumberBox/Control_the_Behavior')
+- [NumberBox - Keyboard Support](/concepts/05%20Widgets/NumberBox/20%20Keyboard%20Support.md '/Documentation/Guide/Widgets/NumberBox/Keyboard_Support')
+- [NumberBox API Reference](/api-reference/10%20UI%20Widgets/dxNumberBox/dxNumberBox.md '/Documentation/ApiReference/UI_Widgets/dxNumberBox/')
 
 [tags]number box, numberBox, editor, overview

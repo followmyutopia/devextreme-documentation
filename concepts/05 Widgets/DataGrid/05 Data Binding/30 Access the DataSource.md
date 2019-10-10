@@ -1,4 +1,4 @@
-Regardless of the data source you use, the **DataGrid** always wraps it in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/). To get a **DataSource** instance, call the [getDataSource()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#getDataSource) method.
+Regardless of the data source you use, the **DataGrid** always wraps it in the [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/'). To get a **DataSource** instance, call the [getDataSource()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#getDataSource) method.
 
 ---
 ##### jQuery
@@ -31,13 +31,13 @@ Regardless of the data source you use, the **DataGrid** always wraps it in the [
     
 ---
 
-You can now call [any method](/Documentation/ApiReference/Data_Layer/DataSource/Methods/) exposed by the **DataSource**. For example, you can reload data using the [reload()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#reload) method.
+You can now call [any method](/api-reference/30%20Data%20Layer/DataSource/3%20Methods/Methods.md '/Documentation/ApiReference/Data_Layer/DataSource/Methods/') exposed by the **DataSource**. For example, you can reload data using the [reload()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#reload) method.
 
     <!--JavaScript-->
     ds.reload();
 
 #####See Also#####
-- [Data Layer - Overview](/Documentation/Guide/Data_Layer/Data_Layer/)
+- [Data Layer - Overview](/concepts/30%20Data%20Layer/5%20Data%20Layer/Data%20Layer.md '/Documentation/Guide/Data_Layer/Data_Layer/')
 - [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/LocalDataSource/jQuery/Light/)
 
 [tags]dataGrid, data grid, data binding, access data source, getDataSource, reload data

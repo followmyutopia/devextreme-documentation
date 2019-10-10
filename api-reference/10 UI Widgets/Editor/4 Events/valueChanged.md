@@ -4,7 +4,7 @@ type: eventType
 ---
 ---
 ##### shortDescription
-Raised after the widget's [value]({basewidgetpath}/Configuration/#value) is changed.
+Raised after the widget's [value](/api-reference/10%20UI%20Widgets/Editor/1%20Configuration/value.md '{basewidgetpath}/Configuration/#value') is changed.
 
 ##### param(e): Object
 Information about the event.
@@ -34,7 +34,7 @@ Returns the widget's previous value.
 Returns the widget's new value.
 
 ---
-Main article: [onValueChanged]({basewidgetpath}/Configuration/#onValueChanged)
+Main article: [onValueChanged](/api-reference/10%20UI%20Widgets/Editor/1%20Configuration/onValueChanged.md '{basewidgetpath}/Configuration/#onValueChanged')
 
 #####See Also#####
 #include common-link-handleevents

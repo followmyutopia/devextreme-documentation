@@ -1,7 +1,7 @@
 You can select an item or cancel its selection in the following ways.
 
 - **By key**    
-Add or remove the key from the [selectedItemKeys](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#selectedItemKeys) collection.
+Add or remove the key from the [selectedItemKeys](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/selectedItemKeys.md '/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#selectedItemKeys') collection.
 
     ---
     #####jQuery
@@ -88,10 +88,10 @@ Add or remove the key from the [selectedItemKeys](/Documentation/ApiReference/UI
 
     ---
 
-    [note]To specify the key field, use the [keyExpr](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#keyExpr) option of the **List** or the [key](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#key) option of the **Store**.
+    [note]To specify the key field, use the [keyExpr](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/keyExpr.md '/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#keyExpr') option of the **List** or the [key](/api-reference/30%20Data%20Layer/Store/1%20Configuration/key.md '/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#key') option of the **Store**.
 
 - **By data object**      
-Add or remove the data object from the [selectedItems](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#selectedItems) collection.
+Add or remove the data object from the [selectedItems](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/selectedItems.md '/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#selectedItems') collection.
 
     ---
     #####jQuery
@@ -194,7 +194,7 @@ Add or remove the data object from the [selectedItems](/Documentation/ApiReferen
     ---
 
 - **By index**        
-Pass the index to the [selectItem(itemIndex)](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#selectItemitemIndex) or [unselectItem(itemIndex)](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#unselectItemitemIndex) method. If the **List** is [grouped](/Documentation/Guide/Widgets/List/Grouping/In_the_Data_Source/), these methods should be given an object with the indexes of the group and the item.
+Pass the index to the [selectItem(itemIndex)](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#selectItemitemIndex) or [unselectItem(itemIndex)](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#unselectItemitemIndex) method. If the **List** is [grouped](/concepts/05%20Widgets/List/14%20Grouping/01%20In%20the%20Data%20Source.md '/Documentation/Guide/Widgets/List/Grouping/In_the_Data_Source/'), these methods should be given an object with the indexes of the group and the item.
 
     ---
     #####jQuery
@@ -310,4 +310,4 @@ Pass the <a href="http://www.w3schools.com/js/js_htmldom_nodes.asp" target="_bla
 #####See Also#####
 #include common-link-callmethods
 - [List Demos](/Demos/WidgetsGallery/Demo/List/ListSelection/jQuery/Light/)
-- [List API Reference](/Documentation/ApiReference/UI_Widgets/dxList/)
+- [List API Reference](/api-reference/10%20UI%20Widgets/dxList/dxList.md '/Documentation/ApiReference/UI_Widgets/dxList/')

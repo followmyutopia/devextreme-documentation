@@ -1,4 +1,4 @@
-[note] In this article, the [Button](/Documentation/Guide/Widgets/Button/Overview/) widget is used to demonstrate how to show and hide the **LoadPanel**. This choice is made for purely demonstrational purposes, and you can do the same operations using another widget following the same guidelines.
+[note] In this article, the [Button](/concepts/05%20Widgets/Button/00%20Overview.md '/Documentation/Guide/Widgets/Button/Overview/') widget is used to demonstrate how to show and hide the **LoadPanel**. This choice is made for purely demonstrational purposes, and you can do the same operations using another widget following the same guidelines.
 
 To show or hide the **LoadPanel** programmatically, call the [show()](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Methods/#show) or [hide()](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Methods/#hide) method. The same thing can be done using the [toggle(showing)](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Methods/#toggleshowing) method. Pass **true** or **false** to this method to show or hide the **LoadPanel**, respectively.
 
@@ -62,7 +62,7 @@ To show or hide the **LoadPanel** programmatically, call the [show()](/Documenta
 
 ---
 
-With Angular, AngularJS, or Knockout, use a different technique. Bind the [visible](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#visible) property of the **LoadPanel** widget to a component property (in Angular), a scope property (in AngularJS), or an observable variable (in Knockout). After that, change this property/variable, and the **LoadPanel** will appear or disappear.
+With Angular, AngularJS, or Knockout, use a different technique. Bind the [visible](/api-reference/10%20UI%20Widgets/dxOverlay/1%20Configuration/visible.md '/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#visible') property of the **LoadPanel** widget to a component property (in Angular), a scope property (in AngularJS), or an observable variable (in Knockout). After that, change this property/variable, and the **LoadPanel** will appear or disappear.
 
 ---
 ##### Angular
@@ -136,7 +136,7 @@ With Angular, AngularJS, or Knockout, use a different technique. Bind the [visib
 
 ---
 
-To execute certain commands before or after the **LoadPanel** is shown/hidden, handle the [showing](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Events/#showing), [shown](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Events/#shown), [hiding](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Events/#hiding) or [hidden](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Events/#hidden) event. If the event handling function is not going to be changed during the lifetime of the widget, assign it to the corresponding **on*EventName*** option. For example, in the following code, a handler of the **shown** event is assigned to the [onShown](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#onShown) option. This handler hides the **LoadPanel** three seconds after it was shown.
+To execute certain commands before or after the **LoadPanel** is shown/hidden, handle the [showing](/api-reference/10%20UI%20Widgets/dxOverlay/4%20Events/showing.md '/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Events/#showing'), [shown](/api-reference/10%20UI%20Widgets/dxOverlay/4%20Events/shown.md '/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Events/#shown'), [hiding](/api-reference/10%20UI%20Widgets/dxOverlay/4%20Events/hiding.md '/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Events/#hiding') or [hidden](/api-reference/10%20UI%20Widgets/dxOverlay/4%20Events/hidden.md '/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Events/#hidden') event. If the event handling function is not going to be changed during the lifetime of the widget, assign it to the corresponding **on*EventName*** option. For example, in the following code, a handler of the **shown** event is assigned to the [onShown](/api-reference/10%20UI%20Widgets/dxOverlay/1%20Configuration/onShown.md '/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#onShown') option. This handler hides the **LoadPanel** three seconds after it was shown.
 
 ---
 ##### jQuery
@@ -209,9 +209,9 @@ If you are going to change event handlers at runtime, or if you need to attach s
 
 #####See Also#####
 #include common-link-handleevents
-- [LoadPanel - Customize the Appearance](/Documentation/Guide/Widgets/LoadPanel/Customize_the_Appearance/)
-- [LoadPanel - Resize and Relocate](/Documentation/Guide/Widgets/LoadPanel/Resize_and_Relocate/)
+- [LoadPanel - Customize the Appearance](/concepts/05%20Widgets/LoadPanel/10%20Customize%20the%20Appearance/10%20Customize%20the%20Loading%20Indicator.md '/Documentation/Guide/Widgets/LoadPanel/Customize_the_Appearance/')
+- [LoadPanel - Resize and Relocate](/concepts/05%20Widgets/LoadPanel/15%20Resize%20and%20Relocate.md '/Documentation/Guide/Widgets/LoadPanel/Resize_and_Relocate/')
 - [LoadPanel Demos](/Demos/WidgetsGallery/#demo/dialogs_and_notifications-load_panel-overview)
-- [LoadPanel API Reference](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/)
+- [LoadPanel API Reference](/api-reference/10%20UI%20Widgets/dxLoadPanel/dxLoadPanel.md '/Documentation/ApiReference/UI_Widgets/dxLoadPanel/')
 
 [tags]loadPanel, load panel, overlay, show, hide, open, close, showing, shown, hiding, hidden

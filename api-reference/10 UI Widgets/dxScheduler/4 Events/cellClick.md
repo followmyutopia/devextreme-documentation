@@ -37,7 +37,7 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 Model data. Available only if Knockout is used.
 
 ---
-Main article: [onCellClick](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onCellClick)
+Main article: [onCellClick](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/onCellClick.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onCellClick')
 
 #####See Also#####
 #include common-link-handleevents

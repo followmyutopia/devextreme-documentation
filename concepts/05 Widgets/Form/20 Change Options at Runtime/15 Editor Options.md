@@ -23,7 +23,7 @@ To change the options of an editor, get its instance first using the [getEditor(
 
 [note]The **getEditor(dataField)** method is available for visible form items only.
 
-With Angular, bind the option to change in the [editorOptions](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#editorOptions) object to a component or element property.
+With Angular, bind the option to change in the [editorOptions](/api-reference/10%20UI%20Widgets/dxForm/5%20Item%20Types/SimpleItem/editorOptions.md '/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#editorOptions') object to a component or element property.
     
     <!--HTML-->
     <dx-form
@@ -60,9 +60,9 @@ With Angular, bind the option to change in the [editorOptions](/Documentation/Ap
 
 #####See Also#####
 #include common-link-callmethods
-- [Form - Change Item Options at Runtime](/Documentation/Guide/Widgets/Form/Change_Options_at_Runtime/Item_Options/)
-- [Form - Configure Simple Items](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/)
+- [Form - Change Item Options at Runtime](/concepts/05%20Widgets/Form/20%20Change%20Options%20at%20Runtime/10%20Item%20Options.md '/Documentation/Guide/Widgets/Form/Change_Options_at_Runtime/Item_Options/')
+- [Form - Configure Simple Items](/concepts/05%20Widgets/Form/05%20Configure%20Simple%20Items/Configure%20Simple%20Items.md '/Documentation/Guide/Widgets/Form/Configure_Simple_Items/')
 - [Form Demos](/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-grouped_fields)
-- [Form API Reference](/Documentation/ApiReference/UI_Widgets/dxForm/)
+- [Form API Reference](/api-reference/10%20UI%20Widgets/dxForm/dxForm.md '/Documentation/ApiReference/UI_Widgets/dxForm/')
 
 [tags]form, get editor, change editor options

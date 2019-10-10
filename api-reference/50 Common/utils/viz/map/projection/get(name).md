@@ -13,4 +13,4 @@ The projection.
 The projection's name.
 
 ---
-To apply the projection, assign the returning object to the [projection](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/#projection) option of the  widget.
+To apply the projection, assign the returning object to the [projection](/api-reference/20%20Data%20Visualization%20Widgets/dxVectorMap/1%20Configuration/projection/projection.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/#projection') option of the  widget.

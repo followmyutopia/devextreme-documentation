@@ -1,4 +1,4 @@
-The [route configuration](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/routes/) provides default route appearance and allows its customization. For example, you can change the color, opacity and thickness of the route line. In addition, you can specify whether a route is [for driving or for walking](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/routes/#mode).
+The [route configuration](/api-reference/10%20UI%20Widgets/dxMap/1%20Configuration/routes/routes.md '/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/routes/') provides default route appearance and allows its customization. For example, you can change the color, opacity and thickness of the route line. In addition, you can specify whether a route is [for driving or for walking](/api-reference/10%20UI%20Widgets/dxMap/1%20Configuration/routes/mode.md '/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/routes/#mode').
 
 ---
 ##### jQuery
@@ -66,9 +66,9 @@ The [route configuration](/Documentation/ApiReference/UI_Widgets/dxMap/Configura
 ---
 
 #####See Also#####
-- [Map - Handle Route Related Events](/Documentation/Guide/Widgets/Map/Configure_Routes/Handle_the_Related_Events/)
-- [Map - Add and Remove Routes](/Documentation/Guide/Widgets/Map/Configure_Routes/Add_and_Remove/)
+- [Map - Handle Route Related Events](/concepts/05%20Widgets/Map/25%20Configure%20Routes/15%20Handle%20the%20Related%20Events.md '/Documentation/Guide/Widgets/Map/Configure_Routes/Handle_the_Related_Events/')
+- [Map - Add and Remove Routes](/concepts/05%20Widgets/Map/25%20Configure%20Routes/05%20Add%20and%20Remove.md '/Documentation/Guide/Widgets/Map/Configure_Routes/Add_and_Remove/')
 - [Map Demos](/Demos/WidgetsGallery/#demo/maps-map-routes)
-- [Map API Reference](/Documentation/ApiReference/UI_Widgets/dxMap/)
+- [Map API Reference](/api-reference/10%20UI%20Widgets/dxMap/dxMap.md '/Documentation/ApiReference/UI_Widgets/dxMap/')
 
 [tags]map, route, opacity, thickness, weight, color, mode

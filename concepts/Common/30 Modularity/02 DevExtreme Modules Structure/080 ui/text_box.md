@@ -2,7 +2,7 @@ Exposes the **TextBox** widget.
 
 Exports:
 
-- *default* - The [TextBox](/Documentation/ApiReference/UI_Widgets/dxTextBox/) widget
+- *default* - The [TextBox](/api-reference/10%20UI%20Widgets/dxTextBox/dxTextBox.md '/Documentation/ApiReference/UI_Widgets/dxTextBox/') widget
 
         require("ui/text_box");
         // ===== or =====

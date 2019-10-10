@@ -6,7 +6,7 @@ default: 'top'
 ---
 ---
 ##### shortDescription
-Along with [horizontalAlignment]({basewidgetpath}/Configuration/legend/#horizontalAlignment), specifies the legend's position.
+Along with [horizontalAlignment](/api-reference/20%20Data%20Visualization%20Widgets/BaseLegend/horizontalAlignment.md '{basewidgetpath}/Configuration/legend/#horizontalAlignment'), specifies the legend's position.
 
 ---
 #include common-ref-enum with {
@@ -15,4 +15,4 @@ Along with [horizontalAlignment]({basewidgetpath}/Configuration/legend/#horizont
 }
 
 #####See Also#####
-- **legend**.[orientation]({basewidgetpath}/Configuration/legend/#orientation)
+- **legend**.[orientation](/api-reference/20%20Data%20Visualization%20Widgets/BaseLegend/orientation.md '{basewidgetpath}/Configuration/legend/#orientation')

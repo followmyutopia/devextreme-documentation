@@ -18,7 +18,7 @@ This option accepts a string - the name of the data field that provides displaye
 
 [note]
 
-Values in a lookup column are sorted by the **valueExpr** field. Implement the column's [calculateSortValue]({basewidgetpath}/Configuration/columns/#calculateSortValue) function if you want to sort by the **displayExpr** field instead:
+Values in a lookup column are sorted by the **valueExpr** field. Implement the column's [calculateSortValue](/api-reference/_hidden/GridBaseColumn/calculateSortValue.md '{basewidgetpath}/Configuration/columns/#calculateSortValue') function if you want to sort by the **displayExpr** field instead:
 
 ---
 

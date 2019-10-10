@@ -24,10 +24,10 @@ The widget's instance.
 The model data. Available only if you use Knockout.
 
 ##### field(e.target): dxSankeyNode
-The [Node](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Node/) object.
+The [Node](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/6%20Node/Node.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Node/') object.
 
 ##### notUsedInTheme
 
 ---
 #####See Also#####
-- [node](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/node/)
+- [node](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/node/node.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/node/')

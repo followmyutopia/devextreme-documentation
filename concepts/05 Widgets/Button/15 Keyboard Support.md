@@ -136,6 +136,6 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 #####See Also#####
 #include common-link-callmethods
 - [Button Demos](/Demos/WidgetsGallery/#demo/actions_and_lists-button-icons)
-- [Button API Reference](/Documentation/ApiReference/UI_Widgets/dxButton/)
+- [Button API Reference](/api-reference/10%20UI%20Widgets/dxButton/dxButton.md '/Documentation/ApiReference/UI_Widgets/dxButton/')
 
 [tags]button, accessibility, keyboard shortcuts

@@ -74,6 +74,6 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 #####See Also#####
 #include common-link-callmethods
 - [Tabs Demos](/Demos/WidgetsGallery/#demo/navigation-tabs-overview)
-- [Tabs API Reference](/Documentation/ApiReference/UI_Widgets/dxTabs/)
+- [Tabs API Reference](/api-reference/10%20UI%20Widgets/dxTabs/dxTabs.md '/Documentation/ApiReference/UI_Widgets/dxTabs/')
 
 [tags]tabs, navigation, accessibility, keyboard shortcuts

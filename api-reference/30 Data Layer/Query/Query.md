@@ -144,4 +144,4 @@ To create a **Query**, call the [query(array)](/Documentation/ApiReference/Data_
 ---
 
 #####See Also#####
-- [Query Concept](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept)
+- [Query Concept](/concepts/30%20Data%20Layer/5%20Data%20Layer/6%20Query%20Concept.md '/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept')

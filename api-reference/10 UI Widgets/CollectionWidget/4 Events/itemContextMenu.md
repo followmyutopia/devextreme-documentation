@@ -37,7 +37,7 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 Model data. Available only if you use Knockout.
 
 ---
-Main article: [onItemContextMenu]({basewidgetpath}/Configuration/#onItemContextMenu)
+Main article: [onItemContextMenu](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/onItemContextMenu.md '{basewidgetpath}/Configuration/#onItemContextMenu')
 
 #####See Also#####
 #include common-link-handleevents

@@ -17,6 +17,6 @@ Sets the palette to be used to colorize sankey nodes.
 }
 
 #####See Also#####
-- [Palettes](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Palettes)
-- [paletteExtensionMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#paletteExtensionMode)
+- [Palettes](/concepts/60%20Themes%20and%20Styles/20%20SVG-Based%20Widgets%20Customization/10%20Palettes/00%20Palettes.md '/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Palettes')
+- [paletteExtensionMode](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/paletteExtensionMode.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#paletteExtensionMode')
 - [DevExpress.viz.generateColors(palette, count, options)](/Documentation/ApiReference/Common/utils/viz/#generateColorspalette_count_options)

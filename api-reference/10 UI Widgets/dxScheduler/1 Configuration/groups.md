@@ -5,10 +5,10 @@ default: []
 ---
 ---
 ##### shortDescription
-Specifies the [resource kinds](/Documentation/Guide/Widgets/Scheduler/Resources/Assign_Appointments_to_Resources/) by which the scheduler's appointments are grouped in a timetable.
+Specifies the [resource kinds](/concepts/05%20Widgets/Scheduler/040%20Resources/020%20Assign%20Appointments%20to%20Resources/Assign%20Appointments%20to%20Resources.md '/Documentation/Guide/Widgets/Scheduler/Resources/Assign_Appointments_to_Resources/') by which the scheduler's appointments are grouped in a timetable.
 
 ---
-This array should contain one or more values that correspond to the [fieldExpr](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/#fieldExpr) values of resource kinds:
+This array should contain one or more values that correspond to the [fieldExpr](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/resources/fieldExpr.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/#fieldExpr') values of resource kinds:
 
 ---
 

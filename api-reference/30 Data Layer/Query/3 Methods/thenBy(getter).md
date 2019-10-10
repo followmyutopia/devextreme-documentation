@@ -3,7 +3,7 @@ id: Query.thenBy(getter)
 ---
 ---
 ##### shortDescription
-Sorts data items by one more [getter](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters) in ascending order.
+Sorts data items by one more [getter](/concepts/30%20Data%20Layer/5%20Data%20Layer/9%20Getters%20And%20Setters/Getters%20And%20Setters.md '/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters') in ascending order.
 
 ##### return: Query
 The **Query** with transformed data.
@@ -139,4 +139,4 @@ This method can only follow the [sortBy(getter)](/Documentation/ApiReference/Dat
 ---
 
 #####See Also#####
-- [Sorting](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Sorting)
+- [Sorting](/concepts/30%20Data%20Layer/5%20Data%20Layer/2%20Reading%20Data/1%20Sorting.md '/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Sorting')

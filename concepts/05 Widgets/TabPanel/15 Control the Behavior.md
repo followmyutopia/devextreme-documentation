@@ -1,4 +1,4 @@
-An end user can switch the views by swiping them or selecting tabs. Note that tab navigation is always enabled, while swiping is active only on touch devices by default. To enable it on all types of devices, assign **true** to the [swipeEnabled](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#swipeEnabled) option. Otherwise, assign **false**.
+An end user can switch the views by swiping them or selecting tabs. Note that tab navigation is always enabled, while swiping is active only on touch devices by default. To enable it on all types of devices, assign **true** to the [swipeEnabled](/api-reference/10%20UI%20Widgets/dxTabPanel/1%20Configuration/swipeEnabled.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#swipeEnabled') option. Otherwise, assign **false**.
 
     <!--JavaScript-->
     $(function() {
@@ -8,7 +8,7 @@ An end user can switch the views by swiping them or selecting tabs. Note that ta
         });
     });
 
-You can switch the views progrmmatically using the [selectedIndex](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#selectedIndex) or [selectedItem](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#selectedItem) option. 
+You can switch the views progrmmatically using the [selectedIndex](/api-reference/10%20UI%20Widgets/dxMultiView/1%20Configuration/selectedIndex.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#selectedIndex') or [selectedItem](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/selectedItem.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#selectedItem') option. 
 
     <!--JavaScript-->
     $(function() {
@@ -19,7 +19,7 @@ You can switch the views progrmmatically using the [selectedIndex](/Documentatio
     });
 
 
-The **TabPanel** can loop the views, which enables an end user to swipe through the last view to the first and vice versa. Views are looped by default. To disable looping, assign **false** to the [loop](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#loop) option.
+The **TabPanel** can loop the views, which enables an end user to swipe through the last view to the first and vice versa. Views are looped by default. To disable looping, assign **false** to the [loop](/api-reference/10%20UI%20Widgets/dxMultiView/1%20Configuration/loop.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#loop') option.
 
     <!--JavaScript-->
     $(function() {
@@ -29,7 +29,7 @@ The **TabPanel** can loop the views, which enables an end user to swipe through 
         });
     });
 
-To specify whether or not to animate switching between views, use the [animationEnabled](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#animationEnabled/) option.
+To specify whether or not to animate switching between views, use the [animationEnabled](/api-reference/10%20UI%20Widgets/dxTabPanel/1%20Configuration/animationEnabled.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#animationEnabled/') option.
 
     <!--JavaScript-->
     $(function() {
@@ -40,8 +40,8 @@ To specify whether or not to animate switching between views, use the [animation
     });
 
 #####See Also#####
-- [TabPanel - Customize Item Appearance](/Documentation/Guide/Widgets/TabPanel/Customize_Item_Appearance)
+- [TabPanel - Customize Item Appearance](/concepts/05%20Widgets/TabPanel/05%20Customize%20Item%20Appearance.md '/Documentation/Guide/Widgets/TabPanel/Customize_Item_Appearance')
 - [TabPanel Demos](/Demos/WidgetsGallery/#demo/navigation-tab_panel-overview)
-- [TabPanel API Reference](/Documentation/ApiReference/UI_Widgets/dxTabPanel/)
+- [TabPanel API Reference](/api-reference/10%20UI%20Widgets/dxTabPanel/dxTabPanel.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/')
 
 [tags]tab panel, tabPanel, switch views, animate switching, swipe

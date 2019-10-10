@@ -19,7 +19,7 @@ The widget's instance.
 Model data. Available only when using Knockout.
 
 ---
-Main article: [onContentReady]({basewidgetpath}/Configuration/#onContentReady).
+Main article: [onContentReady](/api-reference/10%20UI%20Widgets/Widget/1%20Configuration/onContentReady.md '{basewidgetpath}/Configuration/#onContentReady').
 
 #####See Also#####
 #include common-link-handleevents

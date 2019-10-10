@@ -21,7 +21,7 @@ The model data. Available only if you use Knockout.
 ##### notUsedInTheme
 
 ---
-Main article: [onTooltipShown]({basewidgetpath}/Configuration/#onTooltipShown)
+Main article: [onTooltipShown](/api-reference/20%20Data%20Visualization%20Widgets/BaseSparkline/1%20Configuration/onTooltipShown.md '{basewidgetpath}/Configuration/#onTooltipShown')
 
 #####See Also#####
 #include common-link-handleevents

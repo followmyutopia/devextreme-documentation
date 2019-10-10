@@ -6,7 +6,7 @@ default: 'month'
 ---
 ---
 ##### shortDescription
-Specifies the maximum [zoom level](/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#zoomLevel) of the calendar.
+Specifies the maximum [zoom level](/api-reference/10%20UI%20Widgets/dxCalendar/1%20Configuration/zoomLevel.md '/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#zoomLevel') of the calendar.
 
 ---
 #include common-ref-enum with {
@@ -15,4 +15,4 @@ Specifies the maximum [zoom level](/Documentation/ApiReference/UI_Widgets/dxCale
 }
 
 #####See Also#####
-- [Specify Zoom Level](/Documentation/Guide/Widgets/Calendar/Specify_Zoom_Level/)
+- [Specify Zoom Level](/concepts/05%20Widgets/Calendar/10%20Specify%20Zoom%20Level.md '/Documentation/Guide/Widgets/Calendar/Specify_Zoom_Level/')

@@ -1,4 +1,4 @@
-By default, the **ColorBox** applies value after an end user clicks the "Apply" button. To change this behavior, assign *'instantly'* to the [applyValueMode](/Documentation/ApiReference/UI_Widgets/dxColorBox/Configuration/#applyValueMode) option. In this case, the widget applies the value immediately after an end user chooses a color in the drop-down editor. 
+By default, the **ColorBox** applies value after an end user clicks the "Apply" button. To change this behavior, assign *'instantly'* to the [applyValueMode](/api-reference/10%20UI%20Widgets/dxColorBox/1%20Configuration/applyValueMode.md '/Documentation/ApiReference/UI_Widgets/dxColorBox/Configuration/#applyValueMode') option. In this case, the widget applies the value immediately after an end user chooses a color in the drop-down editor. 
 
 ---
 ##### jQuery
@@ -35,7 +35,7 @@ By default, the **ColorBox** applies value after an end user clicks the "Apply" 
 
 ---
 
-To process a new **ColorBox** value, you need to handle the value change event. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onValueChanged](/Documentation/ApiReference/UI_Widgets/dxColorBox/Configuration/#onValueChanged) option when you configure the widget.
+To process a new **ColorBox** value, you need to handle the value change event. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onValueChanged](/api-reference/10%20UI%20Widgets/Editor/1%20Configuration/onValueChanged.md '/Documentation/ApiReference/UI_Widgets/dxColorBox/Configuration/#onValueChanged') option when you configure the widget.
 
 ---
 ##### jQuery
@@ -99,8 +99,8 @@ If you are going to change event handlers at runtime, or if you need to attach s
 
 #####See Also#####
 #include common-link-handleevents
-- [ColorBox - Support Alpha Channel](/Documentation/Guide/Widgets/ColorBox/Support_Alpha_Channel)
+- [ColorBox - Support Alpha Channel](/concepts/05%20Widgets/ColorBox/15%20Support%20Alpha%20Channel.md '/Documentation/Guide/Widgets/ColorBox/Support_Alpha_Channel')
 - [ColorBox Demos](/Demos/WidgetsGallery/#demo/editors-color_box-overview)
-- [ColorBox API Reference](/Documentation/ApiReference/UI_Widgets/dxColorBox/)
+- [ColorBox API Reference](/api-reference/10%20UI%20Widgets/dxColorBox/dxColorBox.md '/Documentation/ApiReference/UI_Widgets/dxColorBox/')
 
 [tags]color box, colorBox, editor, handle, get value, set value

@@ -70,6 +70,6 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 #####See Also#####
 #include common-link-callmethods
 - [TabPanel Demos](/Demos/WidgetsGallery/#demo/navigation-tab_panel-overview)
-- [TabPanel API Reference](/Documentation/ApiReference/UI_Widgets/dxTabPanel/)
+- [TabPanel API Reference](/api-reference/10%20UI%20Widgets/dxTabPanel/dxTabPanel.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/')
 
 [tags]tab panel, tabPanel, navigation, accessibility, keyboard shortcuts

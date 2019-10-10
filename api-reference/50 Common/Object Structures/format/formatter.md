@@ -13,7 +13,7 @@ The value to be formatted.
 The value after formatting.
 
 ---
-If none of the [predefined formats](/Documentation/ApiReference/Common/Object_Structures/format/#type) meet your requirements, use this function to specify a custom format. If **formatter** is the only field that you need to specify in the **format** object, assign the function straight to the **format** option as shown below.
+If none of the [predefined formats](/api-reference/50%20Common/Object%20Structures/format/type.md '/Documentation/ApiReference/Common/Object_Structures/format/#type') meet your requirements, use this function to specify a custom format. If **formatter** is the only field that you need to specify in the **format** object, assign the function straight to the **format** option as shown below.
 
     <!--JavaScript-->format: function (value) {
         // ...
@@ -21,4 +21,4 @@ If none of the [predefined formats](/Documentation/ApiReference/Common/Object_St
     }
     
 #####See Also#####
-- **format**.[parser](/Documentation/ApiReference/Common/Object_Structures/format/#parser)
+- **format**.[parser](/api-reference/50%20Common/Object%20Structures/format/parser.md '/Documentation/ApiReference/Common/Object_Structures/format/#parser')

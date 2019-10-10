@@ -1,4 +1,4 @@
-For a minor customization of tabs, you can use the default item template. This template defines the appearance of a tab depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxTabs/Default_Item_Template/) are present or absent from the tab's data object. For example, the following code generates three tabs: the first has an icon, the second has a [badge](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Default_Item_Template/#badge), the third is disabled.
+For a minor customization of tabs, you can use the default item template. This template defines the appearance of a tab depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxTabs/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxTabs/Default_Item_Template/') are present or absent from the tab's data object. For example, the following code generates three tabs: the first has an icon, the second has a [badge](/api-reference/10%20UI%20Widgets/dxTabPanel/5%20Default%20Item%20Template/badge.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Default_Item_Template/#badge'), the third is disabled.
 
     <!--JavaScript-->
     $(function() {
@@ -11,7 +11,7 @@ For a minor customization of tabs, you can use the default item template. This t
         });
     });
 
-Using the default item template is the easiest way to customize a tab, but it lacks flexibility. Instead, you can define a custom template. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code gives a simple example of how you can use **dxTemplate** to customize tabs.
+Using the default item template is the easiest way to customize a tab, but it lacks flexibility. Instead, you can define a custom template. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/'). The following code gives a simple example of how you can use **dxTemplate** to customize tabs.
 
 ---
 #####**AngularJS**
@@ -67,7 +67,7 @@ Using the default item template is the easiest way to customize a tab, but it la
 
 ---
 
-If you use jQuery alone, combine the HTML markup for tabs manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxTabs/Configuration/#itemTemplate) callback function.
+If you use jQuery alone, combine the HTML markup for tabs manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [itemTemplate](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/itemTemplate.md '/Documentation/ApiReference/UI_Widgets/dxTabs/Configuration/#itemTemplate') callback function.
 
     <!--JavaScript-->
     $(function() {
@@ -83,7 +83,7 @@ If you use jQuery alone, combine the HTML markup for tabs manually with jQuery <
         });
     });
 
-You can also customize an individual tab. For this purpose, declare a template for this tab as a script and pass its `id` to the [template](/Documentation/ApiReference/UI_Widgets/dxTabs/Default_Item_Template/#template) option.
+You can also customize an individual tab. For this purpose, declare a template for this tab as a script and pass its `id` to the [template](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/template.md '/Documentation/ApiReference/UI_Widgets/dxTabs/Default_Item_Template/#template') option.
 
     <!--HTML-->
     <script id="individualTabTemplate" type="text/html">
@@ -99,10 +99,10 @@ You can also customize an individual tab. For this purpose, declare a template f
     // ...
     ];
 
-In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines) article.
+In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/concepts/05%20Widgets/zz%20Common/30%20Templates/30%203rd-Party%20Template%20Engines.md '/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines') article.
 
 #####See Also#####
 - [Tabs Demos](/Demos/WidgetsGallery/#demo/navigation-tabs-overview)
-- [Tabs API Reference](/Documentation/ApiReference/UI_Widgets/dxTabs/)
+- [Tabs API Reference](/api-reference/10%20UI%20Widgets/dxTabs/dxTabs.md '/Documentation/ApiReference/UI_Widgets/dxTabs/')
 
 [tags]tabs, item appearance, customize, templates, template, custom template, default item, default template

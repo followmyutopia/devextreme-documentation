@@ -1,6 +1,6 @@
-DevExtreme provides the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component for Angular, AngularJS, and Knockout apps.
+DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component for Angular, AngularJS, and Knockout apps.
 
-Implement a **dxTemplate** within the widget's container using the syntax of the used library (Angular, Knockout, etc.). You can access a template's context properties within the template and, in item templates, the item index as shown in the following code. Assign the template's **name** to a widget's **...Template** option. In the code below, it is the [List](/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/) widget's [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#itemTemplate) option. One widget can have multiple **dxTemplate**s.
+Implement a **dxTemplate** within the widget's container using the syntax of the used library (Angular, Knockout, etc.). You can access a template's context properties within the template and, in item templates, the item index as shown in the following code. Assign the template's **name** to a widget's **...Template** option. In the code below, it is the [List](/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/) widget's [itemTemplate](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/itemTemplate.md '/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#itemTemplate') option. One widget can have multiple **dxTemplate**s.
 
 If you use jQuery alone, set the widget's **...Template** option to a function that combines the HTML markup using jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>.
 
@@ -180,7 +180,7 @@ If you use jQuery alone, set the widget's **...Template** option to a function t
     url: "/Demos/WidgetsGallery/Demo/List/ItemTemplate/jQuery/Light/"
 }
 
-You can define custom templates for individual items in<a name="In_Collection_Widgets" style="position: relative; top: -120px;">&nbsp;</a>collection widgets. When using any library or framework except jQuery, declare the items using the [dxItem](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxItem/) component as shown in the following code. Do not set the widget's **dataSource** option. To do the same with jQuery, assign a function combining the HTML markup to a data source object's **template** option.
+You can define custom templates for individual items in<a name="In_Collection_Widgets" style="position: relative; top: -120px;">&nbsp;</a>collection widgets. When using any library or framework except jQuery, declare the items using the [dxItem](/api-reference/10%20UI%20Widgets/Markup%20Components/dxItem/dxItem.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxItem/') component as shown in the following code. Do not set the widget's **dataSource** option. To do the same with jQuery, assign a function combining the HTML markup to a data source object's **template** option.
 
 ---
 #####Angular
@@ -369,7 +369,7 @@ You can define custom templates for individual items in<a name="In_Collection_Wi
 
 ---
 
-Many widgets provide options that end with **...Template**, but particular widgets ([Button](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#template), [Drawer](/Documentation/ApiReference/UI_Widgets/dxDrawer/Configuration/#template), and others) have an option called **template**. These widgets allow you to declare the markup directly in the widget element to specify their content.
+Many widgets provide options that end with **...Template**, but particular widgets ([Button](/api-reference/10%20UI%20Widgets/dxButton/1%20Configuration/template.md '/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#template'), [Drawer](/api-reference/10%20UI%20Widgets/dxDrawer/1%20Configuration/template.md '/Documentation/ApiReference/UI_Widgets/dxDrawer/Configuration/#template'), and others) have an option called **template**. These widgets allow you to declare the markup directly in the widget element to specify their content.
 
 ---
 ##### Angular

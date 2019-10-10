@@ -19,7 +19,7 @@ The widget's container.
 #include common-ref-eventparam
 
 ##### field(e.itemData): Object
-The clicked button's [data](/Documentation/ApiReference/UI_Widgets/dxButtonGroup/Configuration/#items).
+The clicked button's [data](/api-reference/10%20UI%20Widgets/dxButtonGroup/1%20Configuration/items.md '/Documentation/ApiReference/UI_Widgets/dxButtonGroup/Configuration/#items').
 
 ##### field(e.itemElement): dxElement
 #include common-ref-elementparam with { element: "button" }

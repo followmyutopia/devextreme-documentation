@@ -2,7 +2,7 @@ Exposes the **FileUploader** widget.
 
 Exports:
 
-- *default* - The [FileUploader](/Documentation/ApiReference/UI_Widgets/dxFileUploader/) widget
+- *default* - The [FileUploader](/api-reference/10%20UI%20Widgets/dxFileUploader/dxFileUploader.md '/Documentation/ApiReference/UI_Widgets/dxFileUploader/') widget
 
         require("ui/file_uploader");
         // ===== or =====

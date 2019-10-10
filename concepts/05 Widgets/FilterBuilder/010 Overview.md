@@ -4,7 +4,7 @@ The **FilterBuilder** widget allows a user to build complex filter expressions w
     url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithDataGrid/Angular/Light/"
 }
 
-The following code adds a simple **FilterBuilder** to your page. Note that each item in the [fields](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#fields) array contains the [dataField](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#dataField). The filter expression is defined in the [value](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#value) option and should contain only those data fields that are present in the **fields** array.
+The following code adds a simple **FilterBuilder** to your page. Note that each item in the [fields](/api-reference/10%20UI%20Widgets/dxFilterBuilder/1%20Configuration/fields.md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#fields') array contains the [dataField](/api-reference/10%20UI%20Widgets/dxFilterBuilder/5%20Field/dataField.md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#dataField'). The filter expression is defined in the [value](/api-reference/10%20UI%20Widgets/dxFilterBuilder/1%20Configuration/value.md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#value') option and should contain only those data fields that are present in the **fields** array.
 
 ---
 #####jQuery
@@ -80,8 +80,8 @@ The **FilterBuilder** displays the filter expression as a tree structure, where 
 
 #####See Also#####
 #include common-link-configurewidget
-- [Integrate with a Widget](/Documentation/Guide/Widgets/FilterBuilder/Integrate_with_a_Widget/)
-- [Predefine Filter Values](/Documentation/Guide/Widgets/FilterBuilder/Predefine_Filter_Values/)
-- [API Reference](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/)
+- [Integrate with a Widget](/concepts/05%20Widgets/FilterBuilder/020%20Integrate%20with%20a%20Widget.md '/Documentation/Guide/Widgets/FilterBuilder/Integrate_with_a_Widget/')
+- [Predefine Filter Values](/concepts/05%20Widgets/FilterBuilder/040%20Predefine%20Filter%20Values.md '/Documentation/Guide/Widgets/FilterBuilder/Predefine_Filter_Values/')
+- [API Reference](/api-reference/10%20UI%20Widgets/dxFilterBuilder/dxFilterBuilder.md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/')
 
 [tags]filter builder, filterBuilder, filter expression, condition, overview

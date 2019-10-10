@@ -5,7 +5,7 @@ default: undefined
 ---
 ---
 ##### shortDescription
-Specifies a custom template for a [node](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/node/)'s tooltip.
+Specifies a custom template for a [node](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/node/node.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/node/')'s tooltip.
 
 ##### param(info): Object
 Information about a sankey node being pressed or hovered over.
@@ -26,6 +26,6 @@ The total weight of the node's outgoing links.
 #include common-template-return-value
 
 ##### field(info.title): String
-The node's [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/label/).
+The node's [label](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/label/label.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/label/').
 
 ---

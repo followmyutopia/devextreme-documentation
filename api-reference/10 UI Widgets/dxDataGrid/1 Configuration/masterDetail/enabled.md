@@ -19,4 +19,4 @@ Setting this option to **false** is recommended if you need a custom logic of ex
 }
 
 #####See Also#####
-- [Master-Detail Interface](/Documentation/Guide/Widgets/DataGrid/Master-Detail_Interface/)
+- [Master-Detail Interface](/concepts/05%20Widgets/DataGrid/60%20Master-Detail%20Interface/Master-Detail%20Interface.md '/Documentation/Guide/Widgets/DataGrid/Master-Detail_Interface/')

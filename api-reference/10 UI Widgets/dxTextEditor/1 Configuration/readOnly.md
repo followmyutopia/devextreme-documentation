@@ -6,7 +6,7 @@ When this option is set to **true**, the following applies:
 
 - The editor's value cannot be changed using the UI.
 - Built-in action buttons are invisible.
-- [Custom action buttons]({basewidgetpath}/Configuration/buttons/) are visible but disabled. If a button should not be disabled, set its **disabled** option to **false**:
+- [Custom action buttons](/api-reference/10%20UI%20Widgets/dxTextEditor/1%20Configuration/buttons/buttons.md '{basewidgetpath}/Configuration/buttons/') are visible but disabled. If a button should not be disabled, set its **disabled** option to **false**:
 
     ---
     ##### jQuery
@@ -150,7 +150,7 @@ When this option is set to **true**, the following applies:
 
     ---
 
-    You can also hide a custom action button when the widget becomes read-only. Set the button's **visible** option to **false** in the [onOptionChanged]({basewidgetpath}/Configuration/#onOptionChanged) function. To get the button, use the [getButton(name)]({basewidgetpath}/Methods/#getButtonname) method:
+    You can also hide a custom action button when the widget becomes read-only. Set the button's **visible** option to **false** in the [onOptionChanged](/api-reference/10%20UI%20Widgets/Component/1%20Configuration/onOptionChanged.md '{basewidgetpath}/Configuration/#onOptionChanged') function. To get the button, use the [getButton(name)](/api-reference/10%20UI%20Widgets/dxTextEditor/3%20Methods/getButton(name).md '{basewidgetpath}/Methods/#getButtonname') method:
 
     ---
     ##### jQuery

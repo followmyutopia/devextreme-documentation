@@ -11,5 +11,5 @@ Currently rendered rows.
 ---
 #####See Also#####
 #include common-link-callmethods
-- [Row Structure](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/)
-- [getVisibleColumns()]({basewidgetpath}/Methods/#getVisibleColumns)
+- [Row Structure](/api-reference/10%20UI%20Widgets/dxTreeList/6%20Row/Row.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/')
+- [getVisibleColumns()](/api-reference/10%20UI%20Widgets/dxTreeList/3%20Methods/getVisibleColumns().md '{basewidgetpath}/Methods/#getVisibleColumns')

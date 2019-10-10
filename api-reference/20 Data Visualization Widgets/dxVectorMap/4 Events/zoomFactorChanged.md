@@ -24,7 +24,7 @@ The updated zoom factor.
 ##### notUsedInTheme
 
 ---
-Main article: [onZoomFactorChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/#onZoomFactorChanged)
+Main article: [onZoomFactorChanged](/api-reference/20%20Data%20Visualization%20Widgets/dxVectorMap/1%20Configuration/onZoomFactorChanged.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/#onZoomFactorChanged')
 
 #####See Also#####
 #include common-link-handleevents

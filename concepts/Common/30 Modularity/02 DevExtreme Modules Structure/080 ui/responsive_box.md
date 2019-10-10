@@ -2,7 +2,7 @@ Exposes the **ResponsiveBox** widget.
 
 Exports:
 
-- *default* - The [ResponsiveBox](/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/) widget
+- *default* - The [ResponsiveBox](/api-reference/10%20UI%20Widgets/dxResponsiveBox/dxResponsiveBox.md '/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/') widget
 
         require("ui/responsive_box");
         // ===== or =====

@@ -6,7 +6,7 @@ The **agenda** view lists all available appointments grouped by date. This view 
     url: "/Demos/WidgetsGallery/Demo/Scheduler/Agenda/jQuery/Light/"
 }
 
-By default, the **agenda** view displays appointments for seven dates at a time from the [currentDate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#currentDate) onward. To change the number of dates, specify the [agendaDuration](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/#agendaDuration) option. For details on individual views customization, see [this topic](/Documentation/Guide/Widgets/Scheduler/Views/Customize_Individual_Views/).
+By default, the **agenda** view displays appointments for seven dates at a time from the [currentDate](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/currentDate.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#currentDate') onward. To change the number of dates, specify the [agendaDuration](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/views/agendaDuration.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/#agendaDuration') option. For details on individual views customization, see [this topic](/concepts/05%20Widgets/Scheduler/060%20Views/020%20Customize%20Individual%20Views.md '/Documentation/Guide/Widgets/Scheduler/Views/Customize_Individual_Views/').
 
 ---
 
@@ -50,14 +50,14 @@ By default, the **agenda** view displays appointments for seven dates at a time 
 
 ---
 
-If you [group appointmetns by resources](/Documentation/Guide/Widgets/Scheduler/Resources/Group_Appointments_by_Resources/), the resource headers are located at the left side of the date scale. 
+If you [group appointmetns by resources](/concepts/05%20Widgets/Scheduler/040%20Resources/030%20Group%20Appointments%20by%20Resources.md '/Documentation/Guide/Widgets/Scheduler/Resources/Group_Appointments_by_Resources/'), the resource headers are located at the left side of the date scale. 
 
 ![Resource Headers](/Content/images/doc/19_2/UiWidgets/Scheduler_Agenda_Resouce_Headers.png)
 
 [note]The **agenda** view does not allow a user to add appointments or modify them by dragging.
 
 #####See Also#####
-- [Scheduler - Customize Individual Views](/Documentation/Guide/Widgets/Scheduler/Views/Customize_Individual_Views/)
-- [Scheduler - Appointments](/Documentation/Guide/Widgets/Scheduler/Appointments/)
+- [Scheduler - Customize Individual Views](/concepts/05%20Widgets/Scheduler/060%20Views/020%20Customize%20Individual%20Views.md '/Documentation/Guide/Widgets/Scheduler/Views/Customize_Individual_Views/')
+- [Scheduler - Appointments](/concepts/05%20Widgets/Scheduler/030%20Appointments/015%20Appointment%20Types/Appointment%20Types.md '/Documentation/Guide/Widgets/Scheduler/Appointments/')
 - [Scheduler Demos](/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/)
-- [Scheduler API Reference](/Documentation/ApiReference/UI_Widgets/dxScheduler/)
+- [Scheduler API Reference](/api-reference/10%20UI%20Widgets/dxScheduler/dxScheduler.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/')

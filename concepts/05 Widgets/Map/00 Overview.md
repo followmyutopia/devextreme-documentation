@@ -4,7 +4,7 @@ The **Map** is an interactive widget that displays a geographic map with markers
     url: "/Demos/WidgetsGallery/#demo/maps-map-providers_and_types"
 }
 
-The code below adds the **Map** widget to your page. The **Map** is [centered](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/center/) and [zoomed](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#zoom) and supplied with [controls](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#controls) that allow a user to [zoom and navigate](/Documentation/Guide/Widgets/Map/Zoom_and_Center_the_Map/) the **Map** or [change its type](/Documentation/Guide/Widgets/Map/Specify_the_Provider_and_Type/).
+The code below adds the **Map** widget to your page. The **Map** is [centered](/api-reference/10%20UI%20Widgets/dxMap/1%20Configuration/center/center.md '/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/center/') and [zoomed](/api-reference/10%20UI%20Widgets/dxMap/1%20Configuration/zoom.md '/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#zoom') and supplied with [controls](/api-reference/10%20UI%20Widgets/dxMap/1%20Configuration/controls.md '/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#controls') that allow a user to [zoom and navigate](/concepts/05%20Widgets/Map/05%20Zoom%20and%20Center%20the%20Map.md '/Documentation/Guide/Widgets/Map/Zoom_and_Center_the_Map/') the **Map** or [change its type](/concepts/05%20Widgets/Map/10%20Specify%20the%20Provider%20and%20Type.md '/Documentation/Guide/Widgets/Map/Specify_the_Provider_and_Type/').
 
 ---
 ##### jQuery
@@ -48,11 +48,11 @@ The code below adds the **Map** widget to your page. The **Map** is [centered](/
 
 #####See Also#####
 #include common-link-configurewidget
-- [Map - Zoom and Center the Map](/Documentation/Guide/Widgets/Map/Zoom_and_Center_the_Map/)
-- [Map - Specify the Provider and Type](/Documentation/Guide/Widgets/Map/Specify_the_Provider_and_Type/)
-- [Map - Specify the Size](/Documentation/Guide/Widgets/Map/Specify_the_Size/)
-- [Map - Configure Markers](/Documentation/Guide/Widgets/Map/Configure_Markers/)
-- [Map - Configure Routes](/Documentation/Guide/Widgets/Map/Configure_Routes/)
-- [Map API Reference](/Documentation/ApiReference/UI_Widgets/dxMap/)
+- [Map - Zoom and Center the Map](/concepts/05%20Widgets/Map/05%20Zoom%20and%20Center%20the%20Map.md '/Documentation/Guide/Widgets/Map/Zoom_and_Center_the_Map/')
+- [Map - Specify the Provider and Type](/concepts/05%20Widgets/Map/10%20Specify%20the%20Provider%20and%20Type.md '/Documentation/Guide/Widgets/Map/Specify_the_Provider_and_Type/')
+- [Map - Specify the Size](/concepts/05%20Widgets/Map/15%20Specify%20the%20Size.md '/Documentation/Guide/Widgets/Map/Specify_the_Size/')
+- [Map - Configure Markers](/concepts/05%20Widgets/Map/20%20Configure%20Markers/05%20Add%20and%20Remove.md '/Documentation/Guide/Widgets/Map/Configure_Markers/')
+- [Map - Configure Routes](/concepts/05%20Widgets/Map/25%20Configure%20Routes/05%20Add%20and%20Remove.md '/Documentation/Guide/Widgets/Map/Configure_Routes/')
+- [Map API Reference](/api-reference/10%20UI%20Widgets/dxMap/dxMap.md '/Documentation/ApiReference/UI_Widgets/dxMap/')
 
 [tags]map, center, central position, zoom level, controls

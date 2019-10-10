@@ -2,7 +2,7 @@ Exposes the **Button** widget.
 
 Exports:
 
-- *default* - The [Button](/Documentation/ApiReference/UI_Widgets/dxButton/) widget
+- *default* - The [Button](/api-reference/10%20UI%20Widgets/dxButton/dxButton.md '/Documentation/ApiReference/UI_Widgets/dxButton/') widget
 
         require("ui/button");
         // ===== or =====

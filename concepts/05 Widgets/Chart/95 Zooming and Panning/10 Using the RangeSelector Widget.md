@@ -1,4 +1,4 @@
-The **Chart** can be zoomed and panned using the [RangeSelector](/Documentation/Guide/Widgets/RangeSelector/Visual_Elements/) widget. The following code shows how to bind these widgets. Note that the **Chart** and **RangeSelector** have a common data source and may have the same series configuration if the **RangeSelector** should display the **Chart** in the background.
+The **Chart** can be zoomed and panned using the [RangeSelector](/concepts/05%20Widgets/RangeSelector/10%20Visual%20Elements/Visual%20Elements.htm '/Documentation/Guide/Widgets/RangeSelector/Visual_Elements/') widget. The following code shows how to bind these widgets. Note that the **Chart** and **RangeSelector** have a common data source and may have the same series configuration if the **RangeSelector** should display the **Chart** in the background.
 
 ---
 ##### jQuery
@@ -72,7 +72,7 @@ The **Chart** can be zoomed and panned using the [RangeSelector](/Documentation/
     url: "/Demos/WidgetsGallery/Demo/Charts/ZoomingAndScrollingAPI/jQuery/Light/"
 }
 
-When your data source is updated in real time, the behavior of both the **Chart**'s [visual range](/Documentation/Guide/Widgets/Chart/Axes/Visual_and_Whole_Ranges/) and the **RangeSelector**'s selected range depends on the [selectedRangeUpdateMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#selectedRangeUpdateMode) option specified for the **RangeSelector**:
+When your data source is updated in real time, the behavior of both the **Chart**'s [visual range](/concepts/05%20Widgets/Chart/20%20Axes/03%20Visual%20and%20Whole%20Ranges.md '/Documentation/Guide/Widgets/Chart/Axes/Visual_and_Whole_Ranges/') and the **RangeSelector**'s selected range depends on the [selectedRangeUpdateMode](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/selectedRangeUpdateMode.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#selectedRangeUpdateMode') option specified for the **RangeSelector**:
 
 ---
 ##### jQuery
@@ -114,7 +114,7 @@ When your data source is updated in real time, the behavior of both the **Chart*
 ---
 
 
-If you need to fix the zoom window and allow users to only move it along the scale, set the [scale](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/) object's [minRange](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/minRange/) and [maxRange](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/maxRange/) options to a single value defining the zoom window's length. Make sure you specify the initial zoom factor using the [value](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#value) option.
+If you need to fix the zoom window and allow users to only move it along the scale, set the [scale](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/scale/scale.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/') object's [minRange](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/scale/minRange/minRange.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/minRange/') and [maxRange](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/scale/maxRange/maxRange.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/maxRange/') options to a single value defining the zoom window's length. Make sure you specify the initial zoom factor using the [value](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/value/value.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#value') option.
 
 ---
 ##### jQuery
@@ -160,4 +160,4 @@ If you need to fix the zoom window and allow users to only move it along the sca
 ---
 
 #####See Also#####
-- [RangeSelector - Scale](/Documentation/Guide/Widgets/RangeSelector/Visual_Elements/#Scale)
+- [RangeSelector - Scale](/concepts/05%20Widgets/RangeSelector/10%20Visual%20Elements/10%20Scale/10%20Scale.md '/Documentation/Guide/Widgets/RangeSelector/Visual_Elements/#Scale')

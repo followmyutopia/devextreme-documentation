@@ -94,7 +94,7 @@ The following code adds a simple **Button** to your page.
 
 ---
 
-In the previous code, the [click](/Documentation/ApiReference/UI_Widgets/dxButton/Events/#click) event is handled using the [onClick](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#onClick) option. Alternatively, you can attach one or several handlers to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxButton/Methods/#oneventName_eventHandler) method. This approach is more typical of jQuery.
+In the previous code, the [click](/api-reference/10%20UI%20Widgets/dxButton/4%20Events/click.md '/Documentation/ApiReference/UI_Widgets/dxButton/Events/#click') event is handled using the [onClick](/api-reference/10%20UI%20Widgets/dxButton/1%20Configuration/onClick.md '/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#onClick') option. Alternatively, you can attach one or several handlers to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxButton/Methods/#oneventName_eventHandler) method. This approach is more typical of jQuery.
 
     <!--JavaScript-->
     var clickHandler1 = function (e) {
@@ -109,12 +109,12 @@ In the previous code, the [click](/Documentation/ApiReference/UI_Widgets/dxButto
         .on("click", clickHandler1)
         .on("click", clickHandler2);
 
-The appearance of the **Button** is predefined by its [type](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#type). Find more on this and other properties that impact the widget appearance in the [Customize the Appearance](/Documentation/Guide/Widgets/Button/Customize_the_Appearance/) article.
+The appearance of the **Button** is predefined by its [type](/api-reference/10%20UI%20Widgets/dxButton/1%20Configuration/type.md '/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#type'). Find more on this and other properties that impact the widget appearance in the [Customize the Appearance](/concepts/05%20Widgets/Button/05%20Customize%20the%20Appearance.md '/Documentation/Guide/Widgets/Button/Customize_the_Appearance/') article.
 
 #####See Also#####
 #include common-link-configurewidget
-- [Button - Customize the Appearance](/Documentation/Guide/Widgets/Button/Customize_the_Appearance/)
-- [Button - Validate and Submit an HTML form](/Documentation/Guide/Widgets/Button/Validate_and_Submit_an_HTML_Form/)
-- [Button API Reference](/Documentation/ApiReference/UI_Widgets/dxButton/)
+- [Button - Customize the Appearance](/concepts/05%20Widgets/Button/05%20Customize%20the%20Appearance.md '/Documentation/Guide/Widgets/Button/Customize_the_Appearance/')
+- [Button - Validate and Submit an HTML form](/concepts/05%20Widgets/Button/10%20Validate%20and%20Submit%20an%20HTML%20Form.md '/Documentation/Guide/Widgets/Button/Validate_and_Submit_an_HTML_Form/')
+- [Button API Reference](/api-reference/10%20UI%20Widgets/dxButton/dxButton.md '/Documentation/ApiReference/UI_Widgets/dxButton/')
 
 [tags]button, overview, click

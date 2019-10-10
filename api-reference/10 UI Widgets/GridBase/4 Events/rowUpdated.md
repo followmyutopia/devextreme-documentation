@@ -28,7 +28,7 @@ The key of the row. If a field providing keys is not specified in the data sourc
 Model data. Available only if you use Knockout.
 
 ---
-Main article: [onRowUpdated]({basewidgetpath}/Configuration/#onRowUpdated)
+Main article: [onRowUpdated](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onRowUpdated.md '{basewidgetpath}/Configuration/#onRowUpdated')
 
 #####See Also#####
 #include common-link-handleevents

@@ -1,4 +1,4 @@
-Set the [selectionMode](/Documentation/ApiReference/UI_Widgets/dxButtonGroup/Configuration/#selectionMode) option to *"multiple"* to allow users to select multiple buttons. You can also change the **onSelectionChanged** handler from the previous step to log all the selected styles in the console:
+Set the [selectionMode](/api-reference/10%20UI%20Widgets/dxButtonGroup/1%20Configuration/selectionMode.md '/Documentation/ApiReference/UI_Widgets/dxButtonGroup/Configuration/#selectionMode') option to *"multiple"* to allow users to select multiple buttons. You can also change the **onSelectionChanged** handler from the previous step to log all the selected styles in the console:
 
 ---
 ##### jQuery
@@ -145,4 +145,4 @@ Now you should be able to select multiple buttons and see messages like the foll
 You have configured basic **ButtonGroup** features. To take a more detailed look at this widget, explore the following resources:
 
 - [Demos](/Demos/WidgetsGallery/Demo/ButtonGroup/Overview/jQuery/Light/) 
-- [API Reference](/Documentation/ApiReference/UI_Widgets/dxButtonGroup)
+- [API Reference](/api-reference/10%20UI%20Widgets/dxButtonGroup/dxButtonGroup.md '/Documentation/ApiReference/UI_Widgets/dxButtonGroup')

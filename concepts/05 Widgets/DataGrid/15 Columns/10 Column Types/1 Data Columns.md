@@ -1,8 +1,8 @@
-Data columns are the most common type of columns used in the **DataGrid** widget. They are generated for all [column](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) array members that do not configure [band columns](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/#Band_Columns). Data columns display values from a [data field](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#dataField) to which they are bound, but you can populate them with custom values (see [Customize Cells](/Documentation/Guide/Widgets/DataGrid/Columns/Customize_Cells/)).
+Data columns are the most common type of columns used in the **DataGrid** widget. They are generated for all [column](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/columns/columns.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/') array members that do not configure [band columns](/concepts/05%20Widgets/DataGrid/15%20Columns/10%20Column%20Types/2%20Band%20Columns.md '/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/#Band_Columns'). Data columns display values from a [data field](/api-reference/_hidden/GridBaseColumn/dataField.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#dataField') to which they are bound, but you can populate them with custom values (see [Customize Cells](/concepts/05%20Widgets/DataGrid/15%20Columns/40%20Customize%20Cells/Customize%20Cells.md '/Documentation/Guide/Widgets/DataGrid/Columns/Customize_Cells/')).
 
 ![DevExtreme HTML5 JavaScript DataGrid DataColumns](/Content/images/doc/19_2/DataGrid/visual_elements/column-types_data.png)
 
-A data column automatically detects the type of its values. However, if the values should be converted (for example, if dates are stored as strings), set the target type using the [dataType](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#dataType) option. The widget takes the data type into account when [filtering](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/), [sorting](/Documentation/Guide/Widgets/DataGrid/Sorting/), and performing other data operations.
+A data column automatically detects the type of its values. However, if the values should be converted (for example, if dates are stored as strings), set the target type using the [dataType](/api-reference/_hidden/GridBaseColumn/dataType.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#dataType') option. The widget takes the data type into account when [filtering](/concepts/05%20Widgets/DataGrid/30%20Filtering%20and%20Searching/Filtering%20and%20Searching.md '/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/'), [sorting](/concepts/05%20Widgets/DataGrid/25%20Sorting/Sorting.md '/Documentation/Guide/Widgets/DataGrid/Sorting/'), and performing other data operations.
 
 ---
 ##### jQuery
@@ -47,8 +47,8 @@ A data column automatically detects the type of its values. However, if the valu
 ---
 
 #####See Also#####
-- [Customize Cells](/Documentation/Guide/Widgets/DataGrid/Columns/Customize_Cells/)
-- [Lookup Columns](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/#Lookup_Columns)
+- [Customize Cells](/concepts/05%20Widgets/DataGrid/15%20Columns/40%20Customize%20Cells/Customize%20Cells.md '/Documentation/Guide/Widgets/DataGrid/Columns/Customize_Cells/')
+- [Lookup Columns](/concepts/05%20Widgets/DataGrid/15%20Columns/10%20Column%20Types/3%20Lookup%20Columns.md '/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/#Lookup_Columns')
 - [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/SimpleArray/jQuery/Light/)
 
 [tags] dataGrid, data grid, column types, data columns

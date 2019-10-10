@@ -1,4 +1,4 @@
-The [customizeExcelCell](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#customizeExcelCell) function allows you to change the Excel cell font, background color and fill pattern, as well as align, format, and modify the cell value.
+The [customizeExcelCell](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/export/customizeExcelCell.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#customizeExcelCell') function allows you to change the Excel cell font, background color and fill pattern, as well as align, format, and modify the cell value.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/DataGrid/ExcelCellCustomization/jQuery/Light/"
@@ -78,4 +78,4 @@ In the code below, Excel cells are customized. Values in the `Cost` column are f
 
 ---
 
-Hidden columns are ignored on export. If you still need to export them, use the [onExporting](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExporting) and **onExported** functions. Refer to the **onExporting** description for an example.
+Hidden columns are ignored on export. If you still need to export them, use the [onExporting](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/onExporting.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExporting') and **onExported** functions. Refer to the **onExporting** description for an example.

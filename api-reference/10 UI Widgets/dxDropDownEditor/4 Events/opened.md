@@ -19,7 +19,7 @@ The widget's instance.
 Model data. Available only if Knockout is used.
 
 ---
-Main article: [onOpened]({basewidgetpath}/Configuration/#onOpened)
+Main article: [onOpened](/api-reference/10%20UI%20Widgets/dxDropDownEditor/1%20Configuration/onOpened.md '{basewidgetpath}/Configuration/#onOpened')
 
 #####See Also#####
 #include common-link-handleevents

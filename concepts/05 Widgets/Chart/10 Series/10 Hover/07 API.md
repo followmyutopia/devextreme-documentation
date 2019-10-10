@@ -1,4 +1,4 @@
-You can switch a series into the hover state by calling its [hover()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#hover) method, and its [clearHover()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#clearHover) method to switch it back to the normal state. The same API is available [for series points](/Documentation/Guide/Widgets/Chart/Series_Points/Hover/#API). 
+You can switch a series into the hover state by calling its [hover()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#hover) method, and its [clearHover()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#clearHover) method to switch it back to the normal state. The same API is available [for series points](/concepts/05%20Widgets/Chart/14%20Series%20Points/10%20Hover/07%20API.md '/Documentation/Guide/Widgets/Chart/Series_Points/Hover/#API'). 
 
 ---
 ##### jQuery
@@ -29,5 +29,5 @@ You can switch a series into the hover state by calling its [hover()](/Documenta
 ---
 
 #####See Also#####
-- [Access a Series Using the API](/Documentation/Guide/Widgets/Chart/Series/Access_a_Series_Using_the_API/)
+- [Access a Series Using the API](/concepts/05%20Widgets/Chart/10%20Series/40%20Access%20a%20Series%20Using%20the%20API.md '/Documentation/Guide/Widgets/Chart/Series/Access_a_Series_Using_the_API/')
 #include common-link-callmethods

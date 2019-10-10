@@ -66,4 +66,4 @@ Specifies the URL of an OData service.
 ---
 
 #####See Also#####
-- [entities](/Documentation/ApiReference/Data_Layer/ODataContext/Configuration/#entities)
+- [entities](/api-reference/30%20Data%20Layer/ODataContext/1%20Configuration/entities.md '/Documentation/ApiReference/Data_Layer/ODataContext/Configuration/#entities')

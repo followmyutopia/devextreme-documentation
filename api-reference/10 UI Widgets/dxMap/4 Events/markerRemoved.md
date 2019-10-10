@@ -22,7 +22,7 @@ Model data. Available only if Knockout is used.
 The removed marker's data.
 
 ---
-Main article: [onMarkerRemoved](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onMarkerRemoved)
+Main article: [onMarkerRemoved](/api-reference/10%20UI%20Widgets/dxMap/1%20Configuration/onMarkerRemoved.md '/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onMarkerRemoved')
 
 #####See Also#####
 #include common-link-handleevents

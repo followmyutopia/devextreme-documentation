@@ -43,7 +43,7 @@ An XMLHttpRequest for the file.
 The size of the uploaded file segment.
 
 ---
-Main article: [onProgress](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#onProgress)
+Main article: [onProgress](/api-reference/10%20UI%20Widgets/dxFileUploader/1%20Configuration/onProgress.md '/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#onProgress')
 
 #####See Also#####
 #include common-link-handleevents

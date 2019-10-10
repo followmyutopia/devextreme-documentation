@@ -29,7 +29,7 @@ The removed item's index.
 Model data. Available only if you use Knockout.
 
 ---
-Main article: [onItemDeleted]({basewidgetpath}/Configuration/#onItemDeleted)
+Main article: [onItemDeleted](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/onItemDeleted.md '{basewidgetpath}/Configuration/#onItemDeleted')
 
 #####See Also#####
 #include common-link-handleevents

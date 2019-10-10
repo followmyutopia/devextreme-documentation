@@ -9,4 +9,4 @@ Specifies the delay between when a user stops typing and when the search is exec
 
 ---
 #####See Also#####
-- [minSearchLength](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/mentions/#minSearchLength)
+- [minSearchLength](/api-reference/10%20UI%20Widgets/dxHtmlEditor/1%20Configuration/mentions/minSearchLength.md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/mentions/#minSearchLength')

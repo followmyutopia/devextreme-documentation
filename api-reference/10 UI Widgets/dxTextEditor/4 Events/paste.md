@@ -28,7 +28,7 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 Model data. Available only if Knockout is used.
 
 ---
-Main article: [onPaste]({basewidgetpath}/Configuration/#onPaste)
+Main article: [onPaste](/api-reference/10%20UI%20Widgets/dxTextEditor/1%20Configuration/onPaste.md '{basewidgetpath}/Configuration/#onPaste')
 
 #####See Also#####
 #include common-link-handleevents

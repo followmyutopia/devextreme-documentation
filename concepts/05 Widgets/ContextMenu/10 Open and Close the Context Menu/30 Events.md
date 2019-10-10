@@ -1,4 +1,4 @@
-To execute certain commands before or after the **ContextMenu** was opened/closed, handle the [showing](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Events/#showing), [shown](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Events/#shown), [hiding](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Events/#hiding) or [hidden](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Events/#hidden) event. If the event handling function is not going to be changed during the lifetime of the widget, assign it to the corresponding **on*EventName*** option when you configure the widget.
+To execute certain commands before or after the **ContextMenu** was opened/closed, handle the [showing](/api-reference/10%20UI%20Widgets/dxContextMenu/4%20Events/showing.md '/Documentation/ApiReference/UI_Widgets/dxContextMenu/Events/#showing'), [shown](/api-reference/10%20UI%20Widgets/dxContextMenu/4%20Events/shown.md '/Documentation/ApiReference/UI_Widgets/dxContextMenu/Events/#shown'), [hiding](/api-reference/10%20UI%20Widgets/dxContextMenu/4%20Events/hiding.md '/Documentation/ApiReference/UI_Widgets/dxContextMenu/Events/#hiding') or [hidden](/api-reference/10%20UI%20Widgets/dxContextMenu/4%20Events/hidden.md '/Documentation/ApiReference/UI_Widgets/dxContextMenu/Events/#hidden') event. If the event handling function is not going to be changed during the lifetime of the widget, assign it to the corresponding **on*EventName*** option when you configure the widget.
 
 ---
 #####jQuery
@@ -76,6 +76,6 @@ If you are going to change event handlers at runtime, or if you need to attach s
 
 #####See Also#####
 #include common-link-handleevents
-- [ContextMenu - Access the Clicked Item](/Documentation/Guide/Widgets/ContextMenu/Access_the_Clicked_Item/)
+- [ContextMenu - Access the Clicked Item](/concepts/05%20Widgets/ContextMenu/03%20Access%20the%20Clicked%20Item.md '/Documentation/Guide/Widgets/ContextMenu/Access_the_Clicked_Item/')
 - [Toast Demos](/Demos/WidgetsGallery/#demo/dialogs_and_notifications-toast-overview)
-- [Toast API Reference](/Documentation/ApiReference/UI_Widgets/dxToast/)
+- [Toast API Reference](/api-reference/10%20UI%20Widgets/dxToast/dxToast.md '/Documentation/ApiReference/UI_Widgets/dxToast/')

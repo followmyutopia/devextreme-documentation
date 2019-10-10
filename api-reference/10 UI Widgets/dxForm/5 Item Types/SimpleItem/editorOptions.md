@@ -8,7 +8,7 @@ default: undefined
 Configures the form item's editor.
 
 ---
-This object should contain the options of the DevExtreme editor specified in the [editorType](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#editorType).
+This object should contain the options of the DevExtreme editor specified in the [editorType](/api-reference/10%20UI%20Widgets/dxForm/5%20Item%20Types/SimpleItem/editorType.md '/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#editorType').
 
 When using <a href="https://docs.devexpress.com/DevExtremeAspNetMvc/400943/devextreme-aspnet-mvc-controls" target="_blank">ASP.NET MVC 5 Controls</a> or <a href="https://docs.devexpress.com/AspNetCore/400263/aspnet-core-controls#devextreme-based-aspnet-core-controls" target="_blank">DevExtreme-Based ASP.NET Core Controls</a>, configure the editor as follows:
 
@@ -46,4 +46,4 @@ When using <a href="https://docs.devexpress.com/DevExtremeAspNetMvc/400943/devex
 #include widgets-config-object-option-note
 
 #####See Also#####
-- [Configure Simple Items](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/)
+- [Configure Simple Items](/concepts/05%20Widgets/Form/05%20Configure%20Simple%20Items/Configure%20Simple%20Items.md '/Documentation/Guide/Widgets/Form/Configure_Simple_Items/')

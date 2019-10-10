@@ -25,7 +25,7 @@ The added route's data.
 The original route that the current map provider uses (only for "google" and "bing" providers).
 
 ---
-Main article: [onRouteAdded](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onRouteAdded)
+Main article: [onRouteAdded](/api-reference/10%20UI%20Widgets/dxMap/1%20Configuration/onRouteAdded.md '/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onRouteAdded')
 
 #####See Also#####
 #include common-link-handleevents

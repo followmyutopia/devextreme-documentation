@@ -11,9 +11,9 @@ A header filter allows a user to filter values in an individual column by includ
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget {WidgetName} HeaderFilter](/Content/images/doc/19_2/{WidgetName}/visual_elements/header_filter.png)
 
-To make header filter icons visible, assign **true** to the **headerFilter**.[visible]({basewidgetpath}/Configuration/headerFilter/#visible) option.
+To make header filter icons visible, assign **true** to the **headerFilter**.[visible](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/headerFilter/visible.md '{basewidgetpath}/Configuration/headerFilter/#visible') option.
 
-A header filter's popup menu lists all column values. If they are numbers or dates, you can group them using the [groupInterval]({basewidgetpath}/Configuration/columns/headerFilter/#groupInterval) option in the column's [headerFilter]({basewidgetpath}/Configuration/columns/headerFilter/). You can also provide a custom data source for a header filter using the [dataSource]({basewidgetpath}/Configuration/columns/headerFilter/#dataSource) option.
+A header filter's popup menu lists all column values. If they are numbers or dates, you can group them using the [groupInterval](/api-reference/_hidden/GridBaseColumn/headerFilter/groupInterval.md '{basewidgetpath}/Configuration/columns/headerFilter/#groupInterval') option in the column's [headerFilter](/api-reference/_hidden/GridBaseColumn/headerFilter/headerFilter.md '{basewidgetpath}/Configuration/columns/headerFilter/'). You can also provide a custom data source for a header filter using the [dataSource](/api-reference/_hidden/GridBaseColumn/headerFilter/dataSource.md '{basewidgetpath}/Configuration/columns/headerFilter/#dataSource') option.
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/{WidgetName}/Filtering/jQuery/Light/"
 }
@@ -25,6 +25,6 @@ A header filter's popup menu lists all column values. If they are numbers or dat
 
 #####See Also#####
 - [Header Filter](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Header_Filter)
-- **columns[]**.[allowHeaderFiltering]({basewidgetpath}/Configuration/columns/#allowHeaderFiltering)
-- [filter(filterExpr)]({basewidgetpath}/Methods/#filterfilterExpr)
-- [clearFilter(filterName)]({basewidgetpath}/Methods/#clearFilterfilterName)
+- **columns[]**.[allowHeaderFiltering](/api-reference/_hidden/GridBaseColumn/allowHeaderFiltering.md '{basewidgetpath}/Configuration/columns/#allowHeaderFiltering')
+- [filter(filterExpr)](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/filter(filterExpr).md '{basewidgetpath}/Methods/#filterfilterExpr')
+- [clearFilter(filterName)](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/clearFilter(filterName).md '{basewidgetpath}/Methods/#clearFilterfilterName')

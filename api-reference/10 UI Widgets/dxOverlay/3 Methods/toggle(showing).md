@@ -14,7 +14,7 @@ Specifies whether to show or hide the widget.
 ---
 You can use the **toggle(showing)** method instead of the **show()** and **hide()** methods. In this case, pass true or false as the method parameter to show or hide the widget.
 
-The widget is automatically hidden after the time specified in the [displayTime]({basewidgetpath}/Configuration/#displayTime) option.
+The widget is automatically hidden after the time specified in the [displayTime](/api-reference/10%20UI%20Widgets/dxToast/1%20Configuration/displayTime.md '{basewidgetpath}/Configuration/#displayTime') option.
 
 #####See Also#####
 #include common-link-callmethods

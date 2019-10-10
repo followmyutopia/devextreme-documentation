@@ -28,7 +28,7 @@ The resulting file format. One of PNG, PDF, JPEG, SVG and GIF.
 The model data. Available only if you use Knockout.
 
 ---
-Main article: [onExporting]({basewidgetpath}/Configuration/#onExporting)
+Main article: [onExporting](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/onExporting.md '{basewidgetpath}/Configuration/#onExporting')
 
 #####See Also#####
 #include common-link-handleevents

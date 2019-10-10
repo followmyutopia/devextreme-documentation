@@ -22,7 +22,7 @@ Model data. Available only if Knockout is used.
 The removed route's data.
 
 ---
-Main article: [onRouteRemoved](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onRouteRemoved)
+Main article: [onRouteRemoved](/api-reference/10%20UI%20Widgets/dxMap/1%20Configuration/onRouteRemoved.md '/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onRouteRemoved')
 
 #####See Also#####
 #include common-link-handleevents

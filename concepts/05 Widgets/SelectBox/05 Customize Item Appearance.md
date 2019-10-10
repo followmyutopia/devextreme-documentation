@@ -1,4 +1,4 @@
-For a minor customization of **SelectBox** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Default_Item_Template/) are present or absent from the item's data object. For example, the following code generates three items: the first is not customized, the second is disabled and the third is hidden.
+For a minor customization of **SelectBox** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxDropDownList/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxSelectBox/Default_Item_Template/') are present or absent from the item's data object. For example, the following code generates three items: the first is not customized, the second is disabled and the third is hidden.
 
 ---
 #####jQuery
@@ -47,7 +47,7 @@ For a minor customization of **SelectBox** items, you can use the default item t
 
 ---
 
-Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template for widget items. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define a template for the **SelectBox** items.
+Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template for widget items. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/'). The following code shows how you can use **dxTemplate** to define a template for the **SelectBox** items.
 
 ---
 #####Angular
@@ -157,7 +157,7 @@ Using the default item template is the easiest way to customize an item, but it 
 
 ---
 
-If you use jQuery alone, combine the HTML markup for items manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#itemTemplate) callback function as shown in the following code.
+If you use jQuery alone, combine the HTML markup for items manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [itemTemplate](/api-reference/10%20UI%20Widgets/DataExpressionMixin/1%20Configuration/itemTemplate.md '/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#itemTemplate') callback function as shown in the following code.
 
     <!--JavaScript-->
     var selectBoxData = [{
@@ -187,7 +187,7 @@ If you use jQuery alone, combine the HTML markup for items manually with jQuery 
         });
     });
 
-You can also customize an individual **SelectBox** item. For this purpose, declare a template for this item as a script and pass its `id` to the [template](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Default_Item_Template/#template) field. 
+You can also customize an individual **SelectBox** item. For this purpose, declare a template for this item as a script and pass its `id` to the [template](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/template.md '/Documentation/ApiReference/UI_Widgets/dxSelectBox/Default_Item_Template/#template') field. 
 
     <!--HTML-->
     <script id="individualTemplate" type="text/html">
@@ -201,7 +201,7 @@ You can also customize an individual **SelectBox** item. For this purpose, decla
         // . . .
     ];
 
-Using similar techniques, you can customize the input field of the **SelectBox**. The template for it should be assigned to the [fieldTemplate](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#fieldTemplate) option. Note that the input field must contain the [TextBox](/Documentation/ApiReference/UI_Widgets/dxTextBox/) widget.
+Using similar techniques, you can customize the input field of the **SelectBox**. The template for it should be assigned to the [fieldTemplate](/api-reference/10%20UI%20Widgets/dxSelectBox/1%20Configuration/fieldTemplate.md '/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#fieldTemplate') option. Note that the input field must contain the [TextBox](/api-reference/10%20UI%20Widgets/dxTextBox/dxTextBox.md '/Documentation/ApiReference/UI_Widgets/dxTextBox/') widget.
 
 ---
 #####jQuery
@@ -295,10 +295,10 @@ Using similar techniques, you can customize the input field of the **SelectBox**
 
 ---
 
-In addition, you can use a 3rd-party template engine to perform the needed customizations. For more information, see the [3rd-Party Template Engines](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines) article.
+In addition, you can use a 3rd-party template engine to perform the needed customizations. For more information, see the [3rd-Party Template Engines](/concepts/05%20Widgets/zz%20Common/30%20Templates/30%203rd-Party%20Template%20Engines.md '/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines') article.
 
 #####See Also#####
-- [SelectBox API Reference](/Documentation/ApiReference/UI_Widgets/dxSelectBox/)
+- [SelectBox API Reference](/api-reference/10%20UI%20Widgets/dxSelectBox/dxSelectBox.md '/Documentation/ApiReference/UI_Widgets/dxSelectBox/')
 - [SelectBox Demos](/Demos/WidgetsGallery/#demo/editors-select_box-overview)
 
 [tags]selectBox, select box, editor, item appearance, customize, templates, template, default item, default template, field template

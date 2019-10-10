@@ -19,12 +19,12 @@ The widget's instance.
 The model data. Available only if you use Knockout.
 
 ##### field(e.target): basePointObject | dxChartAnnotationConfig | any
-The series point whose tooltip is hidden; described in the [Point]({basewidgetpath}/Chart_Elements/Point/) section.
+The series point whose tooltip is hidden; described in the [Point](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Point/Point.md '{basewidgetpath}/Chart_Elements/Point/') section.
 
 ##### notUsedInTheme
 
 ---
-Main article: [onTooltipHidden]({basewidgetpath}/Configuration/#onTooltipHidden)
+Main article: [onTooltipHidden](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/1%20Configuration/onTooltipHidden.md '{basewidgetpath}/Configuration/#onTooltipHidden')
 
 #####See Also#####
 #include common-link-handleevents

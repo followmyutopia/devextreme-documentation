@@ -2,7 +2,7 @@ Exposes the **ScrollView** widget.
 
 Exports:
 
-- *default* - The [ScrollView](/Documentation/ApiReference/UI_Widgets/dxScrollView/) widget
+- *default* - The [ScrollView](/api-reference/10%20UI%20Widgets/dxScrollView/dxScrollView.md '/Documentation/ApiReference/UI_Widgets/dxScrollView/') widget
 
         require("ui/scroll_view");
         // ===== or =====

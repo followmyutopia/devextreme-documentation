@@ -17,4 +17,4 @@ Each data visualization widget addresses its inner elements by their URLs. Those
         DevExpress.viz.refreshPaths();
     }
 
-The problem with broken URLs may also emerge if the page uses a path modifying HTML tag; for example, `<base>` or `<iframe>`. To resolve it, set the [pathModified](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#pathModified) option of the widget to **true**.
+The problem with broken URLs may also emerge if the page uses a path modifying HTML tag; for example, `<base>` or `<iframe>`. To resolve it, set the [pathModified](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/pathModified.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#pathModified') option of the widget to **true**.

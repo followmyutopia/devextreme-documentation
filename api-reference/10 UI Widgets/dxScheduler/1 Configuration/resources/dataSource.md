@@ -10,9 +10,9 @@ Specifies available resource instances.
 ---
 If you use DevExtreme ASP.NET MVC Controls, refer to the <a href="https://docs.devexpress.com/AspNetCore/400575/devextreme-based-controls/concepts/bind-controls-to-data" target="_blank">Bind Controls to Data</a> article.
 
-Each resource instance is an object with the  `id`, `color`, and `text` fields. If your resource instances have a different structure, specify the [valueExpr](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/#valueExpr), [colorExpr](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/#colorExpr) and [displayExpr](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/#displayExpr) options.
+Each resource instance is an object with the  `id`, `color`, and `text` fields. If your resource instances have a different structure, specify the [valueExpr](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/resources/valueExpr.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/#valueExpr'), [colorExpr](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/resources/colorExpr.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/#colorExpr') and [displayExpr](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/resources/displayExpr.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/#displayExpr') options.
 
-Depending on your data source, specify the **dataSource** option as follows. In each case, also specify the [fieldExpr](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/#fieldExpr) option to [bind appointments to resource instances](/Documentation/Guide/Widgets/Scheduler/Resources/Assign_Appointments_to_Resources/). 
+Depending on your data source, specify the **dataSource** option as follows. In each case, also specify the [fieldExpr](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/resources/fieldExpr.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/#fieldExpr') option to [bind appointments to resource instances](/concepts/05%20Widgets/Scheduler/040%20Resources/020%20Assign%20Appointments%20to%20Resources/Assign%20Appointments%20to%20Resources.md '/Documentation/Guide/Widgets/Scheduler/Resources/Assign_Appointments_to_Resources/'). 
 
 - **Data Array**        
 Assign the array to the **dataSource** option. 
@@ -21,7 +21,7 @@ Assign the array to the **dataSource** option.
 Set the **dataSource** option to the URL of a JSON file or service that returns JSON data.
 
 - **OData**         
-Implement an [ODataStore](/Documentation/Guide/Widgets/Scheduler/Data_Binding/OData_Service/).
+Implement an [ODataStore](/concepts/05%20Widgets/Scheduler/020%20Data%20Binding/20%20OData%20Service.md '/Documentation/Guide/Widgets/Scheduler/Data_Binding/OData_Service/').
 
 - **Web API, PHP, MongoDB**     
 Use one of the following extensions to enable the server to process data according to the protocol DevExtreme widgets use:
@@ -182,16 +182,16 @@ Use one of the following extensions to enable the server to process data accordi
     ---
 
 - **Any other data source**     
-Implement a [CustomStore](/Documentation/Guide/Widgets/Scheduler/Data_Binding/Custom_Sources/).
+Implement a [CustomStore](/concepts/05%20Widgets/Scheduler/020%20Data%20Binding/25%20Custom%20Sources.md '/Documentation/Guide/Widgets/Scheduler/Data_Binding/Custom_Sources/').
 
 [note]
 
 Please review the following notes about data binding:
 
-- If you wrap the store into the **DataSource** object explicitly, set the [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) option to **false** to prevent data from partitioning.
+- If you wrap the store into the **DataSource** object explicitly, set the [paginate](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/paginate.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate') option to **false** to prevent data from partitioning.
 
 - Data field names should not contain the following characters: `.`, `,`, `:`, `[`, and `]`.
 
-- The stores are immutable. You cannot change their configurations at runtime. Instead, create a new store or **DataSource** and assign it to the **dataSource** option as shown in the articles about changing options in [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Get_and_Set_Options/), [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/#Two-Way_Option_Binding), [React](/Documentation/Guide/React_Components/State_Management/#Controlled_Mode), and [Vue](/Documentation/Guide/Vue_Components/Component_Configuration_Syntax/#Two-Way_Option_Binding).
+- The stores are immutable. You cannot change their configurations at runtime. Instead, create a new store or **DataSource** and assign it to the **dataSource** option as shown in the articles about changing options in [jQuery](/concepts/00%20Getting%20Started/10%20Widget%20Basics%20-%20jQuery/05%20Get%20and%20Set%20Options.md '/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Get_and_Set_Options/'), [Angular](/concepts/40%20Angular%20Components/20%20Component%20Configuration%20Syntax/33%20Two-Way%20Option%20Binding.md '/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/#Two-Way_Option_Binding'), [React](/concepts/50%20React%20Components/20%20State%20Management/3%20Controlled%20Mode.md '/Documentation/Guide/React_Components/State_Management/#Controlled_Mode'), and [Vue](/concepts/55%20Vue%20Components/20%20Component%20Configuration%20Syntax/33%20Two-Way%20Option%20Binding.md '/Documentation/Guide/Vue_Components/Component_Configuration_Syntax/#Two-Way_Option_Binding').
 
 [/note]

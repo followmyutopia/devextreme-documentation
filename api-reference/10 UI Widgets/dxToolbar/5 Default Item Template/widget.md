@@ -8,7 +8,7 @@ type: String
 A widget that presents a toolbar item.
 
 ---
-[note]Import the specified widget's module when using [DevExtreme modules](/Documentation/Guide/Common/Modularity/). 
+[note]Import the specified widget's module when using [DevExtreme modules](/concepts/Common/30%20Modularity/01%20Link%20Modules/Link%20Modules.md '/Documentation/Guide/Common/Modularity/'). 
 
 When using <a href="https://docs.devexpress.com/DevExtremeAspNetMvc/400943/devextreme-aspnet-mvc-controls" target="_blank">ASP.NET MVC 5 Controls</a> or <a href="https://docs.devexpress.com/AspNetCore/400263/aspnet-core-controls#devextreme-based-aspnet-core-controls" target="_blank">DevExtreme-Based ASP.NET Core Controls</a>, configure this option with a lambda expression as follows:
 
@@ -32,5 +32,5 @@ When using <a href="https://docs.devexpress.com/DevExtremeAspNetMvc/400943/devex
     )
 
 #####See Also#####
-- [Default Item Template - options](/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/#options)
-- [Toolbar - Specify Item Type](/Documentation/Guide/Widgets/Toolbar/Specify_Item_Type/)
+- [Default Item Template - options](/api-reference/10%20UI%20Widgets/dxToolbar/5%20Default%20Item%20Template/options.md '/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/#options')
+- [Toolbar - Specify Item Type](/concepts/05%20Widgets/Toolbar/05%20Specify%20Item%20Type.md '/Documentation/Guide/Widgets/Toolbar/Specify_Item_Type/')

@@ -28,7 +28,7 @@ The data of the item whose title is clicked.
 Model data. Available only if Knockout is used.
 
 ---
-Main article: [onTitleClick](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#onTitleClick)
+Main article: [onTitleClick](/api-reference/10%20UI%20Widgets/dxTabPanel/1%20Configuration/onTitleClick.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#onTitleClick')
 
 #####See Also#####
 #include common-link-handleevents

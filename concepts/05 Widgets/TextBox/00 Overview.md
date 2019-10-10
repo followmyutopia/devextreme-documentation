@@ -4,7 +4,7 @@ The **TextBox** is a widget that enables a user to enter and edit a single line 
     url: "/Demos/WidgetsGallery/#demo/editors-text_box-overview"
 }
 
-The following code adds a simple **TextBox** with a [placeholder](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#placeholder) to your page.
+The following code adds a simple **TextBox** with a [placeholder](/api-reference/10%20UI%20Widgets/dxTextEditor/1%20Configuration/placeholder.md '/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#placeholder') to your page.
 
 ---
 #####jQuery
@@ -113,12 +113,12 @@ If an end user should _not_ be able to edit the value in the **TextBox**, assign
 
 #####See Also#####
 #include common-link-configurewidget
-- [TextBox - Task-Specific Modes](/Documentation/Guide/Widgets/TextBox/Task-Specific_Modes/)
-- [TextBox - Handle the Value Change Event](/Documentation/Guide/Widgets/TextBox/Handle_the_Value_Change_Event/)
-- [TextBox - Handle the Keyboard Events](/Documentation/Guide/Widgets/TextBox/Handle_the_Keyboard_Events/)
-- [TextBox - Limit the String Length](/Documentation/Guide/Widgets/TextBox/Limit_the_String_Length/)
-- [TextBox - Specify a Mask for the Input](/Documentation/Guide/Widgets/TextBox/Specify_a_Mask_for_the_Input/)
-- [TextBox API Reference](/Documentation/ApiReference/UI_Widgets/dxTextBox/)
-- [TextArea](/Documentation/Guide/Widgets/TextArea/Overview/)
+- [TextBox - Task-Specific Modes](/concepts/05%20Widgets/TextBox/05%20Task-Specific%20Modes.md '/Documentation/Guide/Widgets/TextBox/Task-Specific_Modes/')
+- [TextBox - Handle the Value Change Event](/concepts/05%20Widgets/TextBox/10%20Handle%20the%20Value%20Change%20Event.md '/Documentation/Guide/Widgets/TextBox/Handle_the_Value_Change_Event/')
+- [TextBox - Handle the Keyboard Events](/concepts/05%20Widgets/TextBox/13%20Handle%20the%20Keyboard%20Events.md '/Documentation/Guide/Widgets/TextBox/Handle_the_Keyboard_Events/')
+- [TextBox - Limit the String Length](/concepts/05%20Widgets/TextBox/15%20Limit%20the%20String%20Length.md '/Documentation/Guide/Widgets/TextBox/Limit_the_String_Length/')
+- [TextBox - Specify a Mask for the Input](/concepts/05%20Widgets/TextBox/20%20Specify%20a%20Mask%20for%20the%20Input.md '/Documentation/Guide/Widgets/TextBox/Specify_a_Mask_for_the_Input/')
+- [TextBox API Reference](/api-reference/10%20UI%20Widgets/dxTextBox/dxTextBox.md '/Documentation/ApiReference/UI_Widgets/dxTextBox/')
+- [TextArea](/concepts/05%20Widgets/TextArea/00%20Overview.md '/Documentation/Guide/Widgets/TextArea/Overview/')
 
 [tags]textBox, text box, editor, overview

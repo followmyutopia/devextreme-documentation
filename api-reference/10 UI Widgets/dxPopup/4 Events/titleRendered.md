@@ -4,7 +4,7 @@ type: eventType
 ---
 ---
 ##### shortDescription
-Raised when the widget's [title]({basewidgetpath}/Configuration/#title) is rendered.
+Raised when the widget's [title](/api-reference/10%20UI%20Widgets/dxPopup/1%20Configuration/title.md '{basewidgetpath}/Configuration/#title') is rendered.
 
 ##### param(e): Object
 Information about the event.
@@ -22,7 +22,7 @@ Model data. Available only if Knockout is used.
 #include common-ref-elementparam with { element: "title" }
 
 ---
-Main article: [onTitleRendered]({basewidgetpath}/Configuration/#onTitleRendered)
+Main article: [onTitleRendered](/api-reference/10%20UI%20Widgets/dxPopup/1%20Configuration/onTitleRendered.md '{basewidgetpath}/Configuration/#onTitleRendered')
 
 #####See Also#####
 #include common-link-handleevents

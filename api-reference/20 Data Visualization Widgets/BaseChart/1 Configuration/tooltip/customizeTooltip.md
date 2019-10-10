@@ -40,7 +40,7 @@ The function's parameter has the following fields:
 * **originalValue**    
 Specifies the value of the currently represented point as it is set in the data source.
 * **value**   
-Specifies the value of the currently represented point. Differs from the **originalValue** when the axis [value type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#valueType) is specified explicitly. In this instance, the **value** field contains a value in the specified type.
+Specifies the value of the currently represented point. Differs from the **originalValue** when the axis [value type](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis/valueType.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#valueType') is specified explicitly. In this instance, the **value** field contains a value in the specified type.
 * **valueText**   
 Specifies the value of the currently hovered point with applied formatting if the **format** property is specified.
 * **valueText** (for candle stick and stock series)    
@@ -52,7 +52,7 @@ The format of the string is the following: "*%rangeValue1Text%* - *%rangeValue2T
 * **originalArgument**    
 Specifies the argument value of the currently represented point as it is set in the data source.
 * **argument**    
-Specifies the argument value of the currently represented point. Differs from the **originalArgument** when the axis' [argument type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#argumentType) differs from the argument type in the data source. In this instance, **argument** has the type of the argument axis.
+Specifies the argument value of the currently represented point. Differs from the **originalArgument** when the axis' [argument type](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/argumentType.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#argumentType') differs from the argument type in the data source. In this instance, **argument** has the type of the argument axis.
 * **argumentText**   
 Specifies the argument value of the currently hovered point with applied formatting if the **argumentFormat** option is specified.
 * **size** (for bubble series only)   
@@ -60,11 +60,11 @@ Specifies the size of the bubble that is hovered over as it is set in the data s
 * **seriesName**   
 Specifies the series of the currently hovered point.
 * **point**    
-Provides access to the hovered point. To learn more about the field and methods of the point object, refer to the [Point](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/) topic in the "Chart Elements" reference section.
+Provides access to the hovered point. To learn more about the field and methods of the point object, refer to the [Point](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/7%20Chart%20Elements/Point/Point.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/') topic in the "Chart Elements" reference section.
 * **points** (for shared tooltip only)    
-Provides access to the array of points with the same argument as the currently hovered point. This field is accessible when the [shared](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/tooltip/#shared) option of the **tooltip** object is set to **true**. To learn more about the fields and methods of the point object, refer to the [Point](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/) topic in the "Chart Elements" reference section.
+Provides access to the array of points with the same argument as the currently hovered point. This field is accessible when the [shared](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/tooltip/shared.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/tooltip/#shared') option of the **tooltip** object is set to **true**. To learn more about the fields and methods of the point object, refer to the [Point](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/7%20Chart%20Elements/Point/Point.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/') topic in the "Chart Elements" reference section.
 
-The following fields come with the stacked-like series such as [full-stacked bar](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedBarSeries/) or [full-stacked area](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedAreaSeries/).
+The following fields come with the stacked-like series such as [full-stacked bar](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/FullStackedBarSeries/FullStackedBarSeries.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedBarSeries/') or [full-stacked area](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/FullStackedAreaSeries/FullStackedAreaSeries.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedAreaSeries/').
 
 * **percent**    
 Specifies the percent value of the currently hovered point.
@@ -75,22 +75,22 @@ Specifies the total value of all the points with the same argument as the curren
 * **totalText**        
 Specifies the total value of all the points with the same argument as the currently hovered point. This value is displayed with applied formatting if the **format** option is specified.
 
-The following fields come with the range-like series, such as [range area](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/RangeAreaSeries/) or [range bar](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/RangeBarSeries/).
+The following fields come with the range-like series, such as [range area](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/RangeAreaSeries/RangeAreaSeries.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/RangeAreaSeries/') or [range bar](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/RangeBarSeries/RangeBarSeries.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/RangeBarSeries/').
 
 * **originalMinValue**        
 Specifies the first range value of the currently hovered point as it is set in the data source.
 * **rangeValue1**        
-Specifies the first range value of the currently hovered point. Differs from the **originalMinValue** when the axis [value type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#valueType) is specified explicitly. In this instance, the **rangeValue1** field contains the first range value in the specified type.
+Specifies the first range value of the currently hovered point. Differs from the **originalMinValue** when the axis [value type](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis/valueType.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#valueType') is specified explicitly. In this instance, the **rangeValue1** field contains the first range value in the specified type.
 * **rangeValue1Text**   
 Specifies the first range value of the currently hovered point with applied formatting if the **format** property is specified.
 * **originalValue**        
 Specifies the second range value of the currently hovered point as it is set in the data source.
 * **rangeValue2**        
-Specifies the second range value of the currently hovered point. Differs from the **originalValue** when the axis [value type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#valueType) is specified explicitly. In this instance, the **rangeValue2** field contains the second range value in the specified type.
+Specifies the second range value of the currently hovered point. Differs from the **originalValue** when the axis [value type](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis/valueType.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#valueType') is specified explicitly. In this instance, the **rangeValue2** field contains the second range value in the specified type.
 * **rangeValue2Text**   
 Specifies the second range value of the currently hovered point with applied formatting if the **format** property is specified.
 
-The following fields come with financial chart series, such as [candle stick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/CandleStickSeries/) or [stock](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/StockSeries/).
+The following fields come with financial chart series, such as [candle stick](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CandleStickSeries/CandleStickSeries.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/CandleStickSeries/') or [stock](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/StockSeries/StockSeries.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/StockSeries/').
 
 * **originalOpenValue**    
 Specifies the open value of the currently hovered point as it is set in the data source.
@@ -133,4 +133,4 @@ Specifies the reduction value of the currently hovered point with applied format
 }
 
 #####See Also#####
-- [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/)
+- [Data Formatting](/concepts/05%20Widgets/zz%20Common/10%20Data%20Visualization%20Widgets/30%20Data%20Formatting/Data%20Formatting.md '/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/')

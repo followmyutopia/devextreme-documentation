@@ -1,4 +1,4 @@
-When adapting to a small container or screen, the **TreeList** can hide columns. To enable this feature, set the [columnHidingEnabled](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#columnHidingEnabled) to **true**. Columns have hiding priorities - zero-based indexes that determine the order in which they are hidden. These indexes ascend from right to left by default, which means that the rightmost column is always at risk of being hidden. Use the [hidingPriority](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#hidingPriority) option to specify a custom hiding priority and cancel the default priorities.
+When adapting to a small container or screen, the **TreeList** can hide columns. To enable this feature, set the [columnHidingEnabled](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/columnHidingEnabled.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#columnHidingEnabled') to **true**. Columns have hiding priorities - zero-based indexes that determine the order in which they are hidden. These indexes ascend from right to left by default, which means that the rightmost column is always at risk of being hidden. Use the [hidingPriority](/api-reference/_hidden/GridBaseColumn/hidingPriority.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#hidingPriority') option to specify a custom hiding priority and cancel the default priorities.
 
 ---
 ##### jQuery
@@ -125,7 +125,7 @@ You can expand or collapse adaptive detail rows programmatically by calling the 
     
 ---
 
-All adaptive detail rows contain the [DevExtreme Form widget](/Documentation/ApiReference/UI_Widgets/dxForm/), so you can customize a row by changing the [options of this widget](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/). To access them, implement the [onAdaptiveDetailRowPreparing](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onAdaptiveDetailRowPreparing) event handler. For example, the following code marks the form item whose data field is *"OrderID"* as required:
+All adaptive detail rows contain the [DevExtreme Form widget](/api-reference/10%20UI%20Widgets/dxForm/dxForm.md '/Documentation/ApiReference/UI_Widgets/dxForm/'), so you can customize a row by changing the [options of this widget](/api-reference/10%20UI%20Widgets/dxForm/1%20Configuration/Configuration.md '/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/'). To access them, implement the [onAdaptiveDetailRowPreparing](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onAdaptiveDetailRowPreparing.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onAdaptiveDetailRowPreparing') event handler. For example, the following code marks the form item whose data field is *"OrderID"* as required:
 
 ---
 ##### jQuery
@@ -173,5 +173,5 @@ All adaptive detail rows contain the [DevExtreme Form widget](/Documentation/Api
 ---
 
 #####See Also#####
-- [Column Fixing](/Documentation/Guide/Widgets/TreeList/Columns/Column_Fixing/)
-- [Column Chooser](/Documentation/Guide/Widgets/TreeList/Columns/Column_Chooser/)
+- [Column Fixing](/concepts/05%20Widgets/TreeList/10%20Columns/30%20Column%20Fixing.md '/Documentation/Guide/Widgets/TreeList/Columns/Column_Fixing/')
+- [Column Chooser](/concepts/05%20Widgets/TreeList/10%20Columns/60%20Column%20Chooser.md '/Documentation/Guide/Widgets/TreeList/Columns/Column_Chooser/')

@@ -1,11 +1,11 @@
-Bind the **Diagram**'s [nodes](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/) and [edges](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/edges/) collections to the appropriate plain lists of nodes and edges.
+Bind the **Diagram**'s [nodes](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/nodes/nodes.md '/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/') and [edges](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/edges/edges.md '/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/edges/') collections to the appropriate plain lists of nodes and edges.
 
 You should specify the following required properties.
 
-- [nodes.keyExpr](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/#keyExpr)
-- [edges.keyExpr](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/edges/#keyExpr)
-- [edges.fromExpr](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/edges/#fromExpr)
-- [edges.toExpr](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/edges/#toExpr)
+- [nodes.keyExpr](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/nodes/keyExpr.md '/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/#keyExpr')
+- [edges.keyExpr](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/edges/keyExpr.md '/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/edges/#keyExpr')
+- [edges.fromExpr](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/edges/fromExpr.md '/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/edges/#fromExpr')
+- [edges.toExpr](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/edges/toExpr.md '/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/edges/#toExpr')
  
         <!-- tab: index.js -->
         $(function() {

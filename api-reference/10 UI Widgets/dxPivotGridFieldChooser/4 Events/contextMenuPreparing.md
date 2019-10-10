@@ -10,7 +10,7 @@ Raised before the context menu is rendered.
 Information about the event.
 
 ##### field(e.area): String
-The clicked [area's](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area) type.
+The clicked [area's](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/area.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area') type.
 
 ##### field(e.component): {WidgetName}
 The widget's instance.
@@ -22,10 +22,10 @@ The widget's instance.
 #include common-ref-eventparam
 
 ##### field(e.field): PivotGridDataSource_Options_fields
-The [configuration](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) of the field on which the context menu is invoked.
+The [configuration](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/fields.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/') of the field on which the context menu is invoked.
 
 ##### field(e.items): Array<Object>
-Items to be displayed in the context menu. Their structure is described in the [Default Item Template](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Default_Item_Template/) section.
+Items to be displayed in the context menu. Their structure is described in the [Default Item Template](/api-reference/10%20UI%20Widgets/dxContextMenu/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxContextMenu/Default_Item_Template/') section.
 
 ##### field(e.jQueryEvent).deprecated
 Use 'event' instead.
@@ -37,7 +37,7 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 Model data. Available only if Knockout is used.
 
 ---
-Main article: [onContextMenuPreparing](/Documentation/ApiReference/UI_Widgets/dxPivotGridFieldChooser/Configuration/#onContextMenuPreparing)
+Main article: [onContextMenuPreparing](/api-reference/10%20UI%20Widgets/dxPivotGridFieldChooser/1%20Configuration/onContextMenuPreparing.md '/Documentation/ApiReference/UI_Widgets/dxPivotGridFieldChooser/Configuration/#onContextMenuPreparing')
 
 #####See Also#####
 #include common-link-handleevents

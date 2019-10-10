@@ -7,7 +7,7 @@ type: Object
 Configures scrolling.
 
 ---
-Scrolling allows a user to browse data left outside the current viewport. The widget provides several scrolling modes detailed in the [mode]({basewidgetpath}/Configuration/scrolling/#mode) option description.
+Scrolling allows a user to browse data left outside the current viewport. The widget provides several scrolling modes detailed in the [mode](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/scrolling/mode.md '{basewidgetpath}/Configuration/scrolling/#mode') option description.
 
 #####See Also#####
-- [Scrolling](/Documentation/Guide/Widgets/TreeList/Scrolling/)
+- [Scrolling](/concepts/05%20Widgets/TreeList/45%20Scrolling/Scrolling.md '/Documentation/Guide/Widgets/TreeList/Scrolling/')

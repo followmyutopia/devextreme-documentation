@@ -1,8 +1,8 @@
-Crosshair is a pointer represented by two mutually-crossing lines stretched over the entire chart plot. The crosshair helps a user identify values of the [series points](/Documentation/Guide/Widgets/Chart/Series_Points/Overview/) precisely. When enabled, the crosshair follows the cursor and snaps to the nearest series point.
+Crosshair is a pointer represented by two mutually-crossing lines stretched over the entire chart plot. The crosshair helps a user identify values of the [series points](/concepts/05%20Widgets/Chart/14%20Series%20Points/00%20Overview.md '/Documentation/Guide/Widgets/Chart/Series_Points/Overview/') precisely. When enabled, the crosshair follows the cursor and snaps to the nearest series point.
 
 ![DevExtreme HTML5 JavaScript Charts Crosshair](/Content/images/doc/19_2/ChartJS/visual_elements/crosshair.png)
 
-To enable the crosshair, set the **crosshair**.[enabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/#enabled) option to **true**. To show the crosshair labels, do the same with the **crosshair**.[label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/label/).**visible** option.
+To enable the crosshair, set the **crosshair**.[enabled](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/crosshair/enabled.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/#enabled') option to **true**. To show the crosshair labels, do the same with the **crosshair**.[label](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/crosshair/label/label.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/label/').**visible** option.
 
 ---
 ##### jQuery
@@ -43,7 +43,7 @@ To enable the crosshair, set the **crosshair**.[enabled](/Documentation/ApiRefer
 
 ---
 
-For information about all options of the crosshair and its labels, visit the [crosshair](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/) section of the API reference.
+For information about all options of the crosshair and its labels, visit the [crosshair](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/crosshair/crosshair.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/') section of the API reference.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Charts/Crosshair/jQuery/Light/"

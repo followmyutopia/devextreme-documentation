@@ -1,4 +1,4 @@
-[DevExtreme Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/) is a set of components for working with data. The following example shows how to use the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) component with the [List](/Demos/WidgetsGallery/Demo/List/WebApi/React/Light/) UI component:
+[DevExtreme Data Layer](/concepts/30%20Data%20Layer/5%20Data%20Layer/Data%20Layer.md '/Documentation/Guide/Data_Layer/Data_Layer/') is a set of components for working with data. The following example shows how to use the [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/') component with the [List](/Demos/WidgetsGallery/Demo/List/WebApi/React/Light/) UI component:
 
     <!-- tab: App.js -->
     import DataSource from 'devextreme/data/data_source';

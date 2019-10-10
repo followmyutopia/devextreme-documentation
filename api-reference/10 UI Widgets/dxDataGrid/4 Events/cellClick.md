@@ -13,10 +13,10 @@ Information about the event.
 #include common-ref-elementparam with { element: "cell" }
 
 ##### field(e.column): Object
-This column's [configuration](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/).
+This column's [configuration](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/columns/columns.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/').
 
 ##### field(e.columnIndex): Number
-The index of the column to which the cell belongs. For details on indexes, see the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
+The index of the column to which the cell belongs. For details on indexes, see the [Column and Row Indexes](/concepts/05%20Widgets/DataGrid/15%20Columns/12%20Column%20and%20Row%20Indexes.md '/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/') topic.
 
 ##### field(e.component): {WidgetName}
 The widget's instance.
@@ -25,7 +25,7 @@ The widget's instance.
 The data of the row to which the cell belongs.
 
 ##### field(e.displayValue): any
-The cell's displayed value. Differs from the **value** field only when the column to which the clicked cell belongs uses [lookup](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/).
+The cell's displayed value. Differs from the **value** field only when the column to which the clicked cell belongs uses [lookup](/api-reference/_hidden/dxDataGridColumn/lookup/lookup.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/').
 
 ##### field(e.element): dxElement
 #include common-ref-elementparam with { element: "widget" }
@@ -40,28 +40,28 @@ Use 'event' instead.
 The jQuery event that caused the handler execution. Deprecated in favor of the **event** field.
 
 ##### field(e.key): any
-The row's key. If a field providing keys is not specified in the [data source](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource), the whole data object is considered the key.
+The row's key. If a field providing keys is not specified in the [data source](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/dataSource.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource'), the whole data object is considered the key.
 
 ##### field(e.model): Object
 Model data. Available only if you use Knockout.
 
 ##### field(e.row): dxDataGridRowObject
-The row [properties](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/).
+The row [properties](/api-reference/10%20UI%20Widgets/dxDataGrid/6%20Row/Row.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/').
 
 ##### field(e.rowIndex): Number
-The index of the row to which the cell belongs. Refer to [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) for more information.
+The index of the row to which the cell belongs. Refer to [Column and Row Indexes](/concepts/05%20Widgets/DataGrid/15%20Columns/12%20Column%20and%20Row%20Indexes.md '/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/') for more information.
 
 ##### field(e.rowType): String
-The [type](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#rowType) of the row to which the clicked cell belongs.
+The [type](/api-reference/10%20UI%20Widgets/dxDataGrid/6%20Row/rowType.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#rowType') of the row to which the clicked cell belongs.
 
 ##### field(e.text): String
-The cell's [formatted](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#format) value converted to a string.
+The cell's [formatted](/api-reference/_hidden/GridBaseColumn/format.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#format') value converted to a string.
 
 ##### field(e.value): any
 The cell's raw value.
 
 ---
-Main article: [onCellClick](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onCellClick)
+Main article: [onCellClick](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/onCellClick.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onCellClick')
 
 #####See Also#####
 #include common-link-handleevents

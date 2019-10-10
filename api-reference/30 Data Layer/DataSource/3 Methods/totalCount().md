@@ -3,7 +3,7 @@ id: DataSource.totalCount()
 ---
 ---
 ##### shortDescription
-Gets the number of data items in the store after the last [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) operation without paging. Takes effect only if [requireTotalCount](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#requireTotalCount) is **true**
+Gets the number of data items in the store after the last [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) operation without paging. Takes effect only if [requireTotalCount](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/requireTotalCount.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#requireTotalCount') is **true**
 
 ##### return: Number
 The number of data items.

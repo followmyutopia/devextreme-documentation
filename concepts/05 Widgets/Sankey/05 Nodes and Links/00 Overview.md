@@ -2,9 +2,9 @@ In the **Sankey** widget, nodes represent objects in a system. Nodes have weight
 
 ![Sankey Nodes and Links](/Content/images/doc/19_2/sankey/visual_elements/nodes-and-links.png)
 
-Nodes get data from the [source](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#sourceField) and [target](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#targetField) data fields; links get data from the [weight](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#weightField) data field.
+Nodes get data from the [source](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/sourceField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#sourceField') and [target](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/targetField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#targetField') data fields; links get data from the [weight](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/weightField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#weightField') data field.
 
-To configure the elements' appearance, use the [node](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/node/) and [link](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/link/) objects. In the following code, nodes are made half-opaque, and the links' border is made visible:
+To configure the elements' appearance, use the [node](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/node/node.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/node/') and [link](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/link/link.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/link/') objects. In the following code, nodes are made half-opaque, and the links' border is made visible:
 
 ---
 ##### jQuery
@@ -54,5 +54,5 @@ To configure the elements' appearance, use the [node](/Documentation/ApiReferenc
 }
 
 #####See Also#####
-- [Colorize Nodes and Links](/Documentation/Guide/Widgets/Sankey/Nodes_and_Links/Colorize_Nodes_and_Links/)
-- [Rearrange Nodes](/Documentation/Guide/Widgets/Sankey/Nodes_and_Links/Rearrange_Nodes/)
+- [Colorize Nodes and Links](/concepts/05%20Widgets/Sankey/05%20Nodes%20and%20Links/05%20Colorize%20Nodes%20and%20Links.md '/Documentation/Guide/Widgets/Sankey/Nodes_and_Links/Colorize_Nodes_and_Links/')
+- [Rearrange Nodes](/concepts/05%20Widgets/Sankey/05%20Nodes%20and%20Links/08%20Rearrange%20Nodes.md '/Documentation/Guide/Widgets/Sankey/Nodes_and_Links/Rearrange_Nodes/')

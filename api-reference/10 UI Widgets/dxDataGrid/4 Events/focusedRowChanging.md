@@ -4,7 +4,7 @@ type: eventType
 ---
 ---
 ##### shortDescription
-Raised before the focused row changes. Applies only when [focusedRowEnabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#focusedRowEnabled) is **true**.
+Raised before the focused row changes. Applies only when [focusedRowEnabled](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/focusedRowEnabled.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#focusedRowEnabled') is **true**.
 
 ##### param(e): Object
 Information about the event.
@@ -37,7 +37,7 @@ The index of the previously focused row.
 The visible rows' properties.
 
 ---
-Main article: [onFocusedRowChanging](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onFocusedRowChanging)
+Main article: [onFocusedRowChanging](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/onFocusedRowChanging.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onFocusedRowChanging')
 
 #####See Also#####
 #include common-link-handleevents

@@ -22,4 +22,4 @@ File parameters.
 Model data. Available only if you use Knockout.
 
 ---
-Main article: [onSelectedFileOpened](/Documentation/ApiReference/UI_Widgets/dxFileManager/Configuration/#onSelectedFileOpened)
+Main article: [onSelectedFileOpened](/api-reference/10%20UI%20Widgets/dxFileManager/1%20Configuration/onSelectedFileOpened.md '/Documentation/ApiReference/UI_Widgets/dxFileManager/Configuration/#onSelectedFileOpened')

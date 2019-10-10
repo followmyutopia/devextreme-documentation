@@ -4,7 +4,7 @@ type: function(value)
 ---
 ---
 ##### shortDescription
-Parses string values into numeric or date-time values. Can be used with [formatter](/Documentation/ApiReference/Common/Object_Structures/format/#formatter) or one of the [predefined formats](/Documentation/ApiReference/Common/Object_Structures/format/#type).
+Parses string values into numeric or date-time values. Can be used with [formatter](/api-reference/50%20Common/Object%20Structures/format/formatter.md '/Documentation/ApiReference/Common/Object_Structures/format/#formatter') or one of the [predefined formats](/api-reference/50%20Common/Object%20Structures/format/type.md '/Documentation/ApiReference/Common/Object_Structures/format/#type').
 
 ##### param(value): String
 The string value to be parsed.

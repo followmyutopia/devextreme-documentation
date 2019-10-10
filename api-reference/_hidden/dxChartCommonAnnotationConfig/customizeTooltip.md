@@ -8,7 +8,7 @@ default: undefined
 Customizes the text and appearance of the annotation's tooltip.
 
 ##### param(annotationItem): dxChartAnnotationConfig | any
-The annotation's [configuration object](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/).
+The annotation's [configuration object](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/annotations/annotations.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/').
 
 ##### return: Object
 The tooltip's text or markup and appearance settings.
@@ -38,4 +38,4 @@ Colors the tooltip's border.
 #include dataviz-ref-functioncontext
 
 #####See Also#####
-- [tooltipEnabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#tooltipEnabled)
+- [tooltipEnabled](/api-reference/_hidden/dxChartCommonAnnotationConfig/tooltipEnabled.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#tooltipEnabled')

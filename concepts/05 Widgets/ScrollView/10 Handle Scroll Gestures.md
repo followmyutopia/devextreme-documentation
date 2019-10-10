@@ -1,4 +1,4 @@
-The **ScrollView** raises the [pullDown](/Documentation/ApiReference/UI_Widgets/dxScrollView/Events/#pullDown) event when a user performs the <a href="https://en.wikipedia.org/wiki/Pull-to-refresh" target="_blank">pull-to-refresh gesture</a>. [Handle this event](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events) to refresh the content of the **ScrollView**. Note that the handling function should end with a call of the [release()](/Documentation/ApiReference/UI_Widgets/dxScrollView/Methods/#releasepreventScrollBottom) method to release the **ScrollView**.
+The **ScrollView** raises the [pullDown](/api-reference/10%20UI%20Widgets/dxScrollView/4%20Events/pullDown.md '/Documentation/ApiReference/UI_Widgets/dxScrollView/Events/#pullDown') event when a user performs the <a href="https://en.wikipedia.org/wiki/Pull-to-refresh" target="_blank">pull-to-refresh gesture</a>. [Handle this event](/concepts/00%20Getting%20Started/10%20Widget%20Basics%20-%20jQuery/15%20Handle%20Events.md '/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events') to refresh the content of the **ScrollView**. Note that the handling function should end with a call of the [release()](/Documentation/ApiReference/UI_Widgets/dxScrollView/Methods/#releasepreventScrollBottom) method to release the **ScrollView**.
 
     <!--JavaScript-->
     $(function() {
@@ -12,9 +12,9 @@ The **ScrollView** raises the [pullDown](/Documentation/ApiReference/UI_Widgets/
         });
     });
 
-[note]To enable the pull-to-refresh gesture on desktops, set the [bounceEnabled](/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#bounceEnabled) option to **true**.
+[note]To enable the pull-to-refresh gesture on desktops, set the [bounceEnabled](/api-reference/10%20UI%20Widgets/dxScrollable/1%20Configuration/bounceEnabled.md '/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#bounceEnabled') option to **true**.
 
-If an end user scrolls the content down to the bottom, the **ScrollView** raises the [reachBottom](/Documentation/ApiReference/UI_Widgets/dxScrollView/Events/#reachBottom) event. You can handle it using the [onReachButtom](/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#onReachBottom) function. Note that this function should also contain a call of the [release()](/Documentation/ApiReference/UI_Widgets/dxScrollView/Methods/#releasepreventScrollBottom) method. 
+If an end user scrolls the content down to the bottom, the **ScrollView** raises the [reachBottom](/api-reference/10%20UI%20Widgets/dxScrollView/4%20Events/reachBottom.md '/Documentation/ApiReference/UI_Widgets/dxScrollView/Events/#reachBottom') event. You can handle it using the [onReachButtom](/api-reference/10%20UI%20Widgets/dxScrollView/1%20Configuration/onReachBottom.md '/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#onReachBottom') function. Note that this function should also contain a call of the [release()](/Documentation/ApiReference/UI_Widgets/dxScrollView/Methods/#releasepreventScrollBottom) method. 
 
     <!--JavaScript-->
     $(function() {
@@ -27,7 +27,7 @@ If an end user scrolls the content down to the bottom, the **ScrollView** raises
         });
     });
 
-If you want to process each scroll gesture performed by a user, handle the [scroll](/Documentation/ApiReference/UI_Widgets/dxScrollView/Events/#scroll) event. The object passed to the handling function contains the **reachedTop**, **reachedBottom**, **reachedLeft** or **reachedRight** properties. Use them to check if scrolling has reached any of the content boundaries. Note that availability of these properties depends on the allowed [scrolling direction](/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#direction).
+If you want to process each scroll gesture performed by a user, handle the [scroll](/api-reference/10%20UI%20Widgets/dxScrollable/4%20Events/scroll.md '/Documentation/ApiReference/UI_Widgets/dxScrollView/Events/#scroll') event. The object passed to the handling function contains the **reachedTop**, **reachedBottom**, **reachedLeft** or **reachedRight** properties. Use them to check if scrolling has reached any of the content boundaries. Note that availability of these properties depends on the allowed [scrolling direction](/api-reference/10%20UI%20Widgets/dxScrollable/1%20Configuration/direction.md '/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#direction').
 
     <!--JavaScript-->
     $(function() {
@@ -44,8 +44,8 @@ If you want to process each scroll gesture performed by a user, handle the [scro
 
 #####See Also#####
 #include common-link-handleevents
-- [ScrollView - Scroll the Content](/Documentation/Guide/Widgets/ScrollView/Scroll_the_Content/)
+- [ScrollView - Scroll the Content](/concepts/05%20Widgets/ScrollView/05%20Scroll%20the%20Content/Scroll%20the%20Content.md '/Documentation/Guide/Widgets/ScrollView/Scroll_the_Content/')
 - [ScrollView Demos](/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-scrollview-overview)
-- [ScrollView API Reference](/Documentation/ApiReference/UI_Widgets/dxScrollView/)
+- [ScrollView API Reference](/api-reference/10%20UI%20Widgets/dxScrollView/dxScrollView.md '/Documentation/ApiReference/UI_Widgets/dxScrollView/')
 
 [tags]scrollView, scroll view, pull down, pull-to-refresh, refresh, reach bottom, boundaries

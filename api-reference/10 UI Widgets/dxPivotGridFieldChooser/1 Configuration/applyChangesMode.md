@@ -15,7 +15,7 @@ The following modes are available:
 Applies changes immediately.
 
 - *"onDemand"*      
-Applies or cancels changes only when this is requested from the API - by calling the [applyChanges()](/Documentation/ApiReference/UI_Widgets/dxPivotGridFieldChooser/Methods/#applyChanges) or [cancelChanges()](/Documentation/ApiReference/UI_Widgets/dxPivotGridFieldChooser/Methods/#cancelChanges) method or by changing the [state](/Documentation/ApiReference/UI_Widgets/dxPivotGridFieldChooser/Configuration/#state) object.
+Applies or cancels changes only when this is requested from the API - by calling the [applyChanges()](/Documentation/ApiReference/UI_Widgets/dxPivotGridFieldChooser/Methods/#applyChanges) or [cancelChanges()](/Documentation/ApiReference/UI_Widgets/dxPivotGridFieldChooser/Methods/#cancelChanges) method or by changing the [state](/api-reference/10%20UI%20Widgets/dxPivotGridFieldChooser/1%20Configuration/state.md '/Documentation/ApiReference/UI_Widgets/dxPivotGridFieldChooser/Configuration/#state') object.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/PivotGrid/StandaloneFieldChooser/jQuery/Light/"

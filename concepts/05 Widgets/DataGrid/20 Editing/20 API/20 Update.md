@@ -48,7 +48,7 @@ The [cellValue (rowIndex, visibleColumnIndex, value)](/Documentation/ApiReferenc
     
 ---
 
-The **DataGrid** widget allows you to process an updated cell value in the **columns**.[setCellValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#setCellValue) function before this value is saved to the data source. 
+The **DataGrid** widget allows you to process an updated cell value in the **columns**.[setCellValue](/api-reference/_hidden/GridBaseColumn/setCellValue.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#setCellValue') function before this value is saved to the data source. 
 
 ---
 ##### jQuery

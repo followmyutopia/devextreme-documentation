@@ -11,7 +11,7 @@ Formats a value before it is displayed in an indicator. Accepts only numeric for
 circularRangeBar,linearRangeBar,circularTextCloud,linearTextCloud
 
 ---
-See the [format](/Documentation/ApiReference/Common/Object_Structures/format/) section for details on accepted values.
+See the [format](/api-reference/50%20Common/Object%20Structures/format/format.md '/Documentation/ApiReference/Common/Object_Structures/format/') section for details on accepted values.
 
 #####See Also#####
 - [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/#Data_Formatting)

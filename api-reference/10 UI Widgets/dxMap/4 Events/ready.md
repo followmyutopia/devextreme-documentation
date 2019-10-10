@@ -22,7 +22,7 @@ Model data. Available only if Knockout is used.
 The current provider's map data.
 
 ---
-Main article: [onReady](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onReady)
+Main article: [onReady](/api-reference/10%20UI%20Widgets/dxMap/1%20Configuration/onReady.md '/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onReady')
 
 #####See Also#####
 #include common-link-handleevents

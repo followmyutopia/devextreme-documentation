@@ -11,5 +11,5 @@ Checks whether the widget has unsaved changes.
 ---
 #####See Also#####
 #include common-link-callmethods
-- [saveEditData()]({basewidgetpath}/Methods/#saveEditData)
-- [cancelEditData()]({basewidgetpath}/Methods/#cancelEditData)
+- [saveEditData()](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/saveEditData().md '{basewidgetpath}/Methods/#saveEditData')
+- [cancelEditData()](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/cancelEditData().md '{basewidgetpath}/Methods/#cancelEditData')

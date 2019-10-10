@@ -1,4 +1,4 @@
-[note] In this article, the [Button](/Documentation/Guide/Widgets/Button/Overview/) widget is used to demonstrate how to show and hide the **Popup**. This choice is made for purely demonstrational purposes, and you can do the same operations using another widget following the same guidelines.
+[note] In this article, the [Button](/concepts/05%20Widgets/Button/00%20Overview.md '/Documentation/Guide/Widgets/Button/Overview/') widget is used to demonstrate how to show and hide the **Popup**. This choice is made for purely demonstrational purposes, and you can do the same operations using another widget following the same guidelines.
 
 To show or hide the **Popup** programmatically, call the [show()](/Documentation/ApiReference/UI_Widgets/dxPopup/Methods/#show) or [hide()](/Documentation/ApiReference/UI_Widgets/dxPopup/Methods/#hide) method. The same thing can be done using the [toggle(showing)](/Documentation/ApiReference/UI_Widgets/dxPopup/Methods/#toggleshowing) method. Pass **true** or **false** to this method to show or hide the **Popup**, respectively.
 
@@ -99,7 +99,7 @@ To show or hide the **Popup** programmatically, call the [show()](/Documentation
 
 ---
 
-With Angular, AngularJS or Knockout, use a different technique. Bind the [visible](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#visible) property of the **Popup** widget to a component property (in Angular), a scope property (in AngularJS), or an observable variable (in Knockout). After that, change them, and the **Popup** will appear or disappear.
+With Angular, AngularJS or Knockout, use a different technique. Bind the [visible](/api-reference/10%20UI%20Widgets/dxOverlay/1%20Configuration/visible.md '/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#visible') property of the **Popup** widget to a component property (in Angular), a scope property (in AngularJS), or an observable variable (in Knockout). After that, change them, and the **Popup** will appear or disappear.
 
 ---
 ##### Angular

@@ -12,4 +12,4 @@ Allows you to specify a filter.
 [note] This option may contain filter operations that the **DataSource** does not support. Use the [getFilterExpression](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Methods/#getFilterExpression) method to get the **DataSource**-compatible filter expression.
 
 #####See Also#####
-- [Data Layer - Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering)
+- [Data Layer - Filtering](/concepts/30%20Data%20Layer/5%20Data%20Layer/2%20Reading%20Data/15%20Filtering/Filtering.md '/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering')

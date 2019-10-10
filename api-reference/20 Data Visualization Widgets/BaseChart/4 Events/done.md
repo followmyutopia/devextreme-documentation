@@ -21,7 +21,7 @@ The model data. Available only if you use Knockout.
 ##### notUsedInTheme
 
 ---
-Main article: [onDone]({basewidgetpath}/Configuration/#onDone)
+Main article: [onDone](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/1%20Configuration/onDone.md '{basewidgetpath}/Configuration/#onDone')
 
 #####See Also#####
 #include common-link-handleevents

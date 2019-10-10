@@ -6,14 +6,14 @@ A header filter allows a user to filter values in an individual column by includ
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList HeaderFilter](/Content/images/doc/19_2/treelist/visual_elements/header_filter.png)
 
-To make header filter icons visible, assign **true** to the **headerFilter**.[visible]({basewidgetpath}/Configuration/headerFilter/#visible) option. Data in the popup menu can be customized using the [headerFilter]({basewidgetpath}/Configuration/columns/headerFilter/) option of a specific column.
+To make header filter icons visible, assign **true** to the **headerFilter**.[visible](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/headerFilter/visible.md '{basewidgetpath}/Configuration/headerFilter/#visible') option. Data in the popup menu can be customized using the [headerFilter](/api-reference/_hidden/GridBaseColumn/headerFilter/headerFilter.md '{basewidgetpath}/Configuration/columns/headerFilter/') option of a specific column.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/TreeList/UsingHeaderFilter/jQuery/Light/"
 }
 
 #####See Also#####
-- [Header Filter](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#Header_Filter)
-- **columns[]**.[allowHeaderFiltering]({basewidgetpath}/Configuration/columns/#allowHeaderFiltering)
-- [filter(filterExpr)]({basewidgetpath}/Methods/#filterfilterExpr)
-- [clearFilter(filterName)]({basewidgetpath}/Methods/#clearFilterfilterName)
+- [Header Filter](/concepts/05%20Widgets/TreeList/40%20Filtering%20and%20Searching/2%20Header%20Filter.md '/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#Header_Filter')
+- **columns[]**.[allowHeaderFiltering](/api-reference/_hidden/GridBaseColumn/allowHeaderFiltering.md '{basewidgetpath}/Configuration/columns/#allowHeaderFiltering')
+- [filter(filterExpr)](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/filter(filterExpr).md '{basewidgetpath}/Methods/#filterfilterExpr')
+- [clearFilter(filterName)](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/clearFilter(filterName).md '{basewidgetpath}/Methods/#clearFilterfilterName')

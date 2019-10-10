@@ -1,4 +1,4 @@
-To access the clicked item, handle the [itemClick](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Events/#itemClick) event. If the event handling function is not going to be changed during the lifetime of the widget, assign it to the [onItemClick](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Configuration/#onItemClick) option when you configure the widget.
+To access the clicked item, handle the [itemClick](/api-reference/10%20UI%20Widgets/CollectionWidget/4%20Events/itemClick.md '/Documentation/ApiReference/UI_Widgets/dxContextMenu/Events/#itemClick') event. If the event handling function is not going to be changed during the lifetime of the widget, assign it to the [onItemClick](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/onItemClick.md '/Documentation/ApiReference/UI_Widgets/dxContextMenu/Configuration/#onItemClick') option when you configure the widget.
 
 ---
 #####jQuery
@@ -61,9 +61,9 @@ If you are going to change event handlers at runtime, or if you need to attach s
 
 #####See Also#####
 #include common-link-handleevents
-- [ContextMenu - Customize Item Appearance](/Documentation/Guide/Widgets/ContextMenu/Customize_Item_Appearance)
-- [ContextMenu - Open and Close](/Documentation/Guide/Widgets/ContextMenu/Open_and_Close_the_Context_Menu/)
+- [ContextMenu - Customize Item Appearance](/concepts/05%20Widgets/ContextMenu/05%20Customize%20Item%20Appearance.md '/Documentation/Guide/Widgets/ContextMenu/Customize_Item_Appearance')
+- [ContextMenu - Open and Close](/concepts/05%20Widgets/ContextMenu/10%20Open%20and%20Close%20the%20Context%20Menu/Open%20and%20Close%20the%20Context%20Menu.md '/Documentation/Guide/Widgets/ContextMenu/Open_and_Close_the_Context_Menu/')
 - [ContextMenu Demos](/Demos/WidgetsGallery/#demo/actions_and_lists-context_menu-overview)
-- [ContextMenu API Reference](/Documentation/ApiReference/UI_Widgets/dxContextMenu/)
+- [ContextMenu API Reference](/api-reference/10%20UI%20Widgets/dxContextMenu/dxContextMenu.md '/Documentation/ApiReference/UI_Widgets/dxContextMenu/')
 
 [tags]context menu, contextMenu, access the clicked item, onItemClick, itemClick

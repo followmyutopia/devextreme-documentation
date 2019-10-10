@@ -1,6 +1,6 @@
 This option accepts one of the following:
 
-- **[Position configuration object](/Documentation/ApiReference/Common/Object_Structures/positionConfig/)**    
+- **[Position configuration object](/api-reference/50%20Common/Object%20Structures/positionConfig/positionConfig.md '/Documentation/ApiReference/Common/Object_Structures/positionConfig/')**    
 An object that specifies the widget's position.
 
 - **String**        

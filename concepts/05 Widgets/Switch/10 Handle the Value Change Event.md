@@ -1,4 +1,4 @@
-To process a new **Switch** value, you need to handle the value change event. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onValueChanged](/Documentation/ApiReference/UI_Widgets/dxSwitch/Configuration/#onValueChanged) option when you configure the widget.
+To process a new **Switch** value, you need to handle the value change event. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onValueChanged](/api-reference/10%20UI%20Widgets/Editor/1%20Configuration/onValueChanged.md '/Documentation/ApiReference/UI_Widgets/dxSwitch/Configuration/#onValueChanged') option when you configure the widget.
 
     <!--JavaScript-->
     $(function() {
@@ -33,6 +33,6 @@ If you are going to change event handlers at runtime, or if you need to attach s
 #####See Also#####
 #include common-link-handleevents
 - [Switch Demos](/Demos/WidgetsGallery/#demo/editors-switch-overview)
-- [Switch API Reference](/Documentation/ApiReference/UI_Widgets/dxSwitch/)
+- [Switch API Reference](/api-reference/10%20UI%20Widgets/dxSwitch/dxSwitch.md '/Documentation/ApiReference/UI_Widgets/dxSwitch/')
 
 [tags]switch, editor, get value, set value

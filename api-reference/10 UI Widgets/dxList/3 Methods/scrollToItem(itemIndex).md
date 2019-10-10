@@ -28,4 +28,4 @@ If the widget displays a grouped list, specify the target item index using an ob
 
 #####See Also#####
 #include common-link-callmethods
-- [List - Scrolling API](/Documentation/Guide/Widgets/List/Scrolling/#API)
+- [List - Scrolling API](/concepts/05%20Widgets/List/20%20Scrolling/05%20API.md '/Documentation/Guide/Widgets/List/Scrolling/#API')

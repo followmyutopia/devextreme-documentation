@@ -22,4 +22,4 @@ By default, this method call clears selection of previously selected rows. To ke
 #####See Also#####
 #include common-link-callmethods
 - [Initial and Runtime Selection](/Documentation/Guide/Widgets/{WidgetName}/Selection/#API/Initial_and_Runtime_Selection)
-- [selectRowsByIndexes(indexes)]({basewidgetpath}/Methods/#selectRowsByIndexesindexes)
+- [selectRowsByIndexes(indexes)](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/selectRowsByIndexes(indexes).md '{basewidgetpath}/Methods/#selectRowsByIndexesindexes')

@@ -31,7 +31,7 @@ The clicked item's index. If the widget items are grouped, the index represents 
 Model data. Available only if Knockout is used.
 
 ---
-Main article: [onItemClick]({basewidgetpath}/Configuration/#onItemClick)
+Main article: [onItemClick](/api-reference/10%20UI%20Widgets/dxDropDownList/1%20Configuration/onItemClick.md '{basewidgetpath}/Configuration/#onItemClick')
 
 #####See Also#####
 #include common-link-handleevents

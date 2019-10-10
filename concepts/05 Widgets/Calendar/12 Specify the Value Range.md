@@ -1,4 +1,4 @@
-Use the [min](/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#min) and [max](/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#max) options to specify the range of available dates.
+Use the [min](/api-reference/10%20UI%20Widgets/dxCalendar/1%20Configuration/min.md '/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#min') and [max](/api-reference/10%20UI%20Widgets/dxCalendar/1%20Configuration/max.md '/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#max') options to specify the range of available dates.
 
 ---
 ##### jQuery
@@ -39,7 +39,7 @@ Use the [min](/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#m
 
 ---
 
-If you need to disable specific dates, use the [disabledDates](/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#disabledDates) option. You can specify either an array of predefined dates or a function that determines whether a date is available. For example, the following code disables weekends: 
+If you need to disable specific dates, use the [disabledDates](/api-reference/10%20UI%20Widgets/dxCalendar/1%20Configuration/disabledDates.md '/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#disabledDates') option. You can specify either an array of predefined dates or a function that determines whether a date is available. For example, the following code disables weekends: 
 
 ---
 ##### jQuery
@@ -90,7 +90,7 @@ If you need to disable specific dates, use the [disabledDates](/Documentation/Ap
 }
 
 #####See Also#####
-- [Calendar - Handle the Value Change Event](/Documentation/Guide/Widgets/Calendar/Handle_the_Value_Change_Event)
-- [Calendar - Specify Zoom Level](/Documentation/Guide/Widgets/Calendar/Specify_Zoom_Level)
+- [Calendar - Handle the Value Change Event](/concepts/05%20Widgets/Calendar/05%20Handle%20the%20Value%20Change%20Event.md '/Documentation/Guide/Widgets/Calendar/Handle_the_Value_Change_Event')
+- [Calendar - Specify Zoom Level](/concepts/05%20Widgets/Calendar/10%20Specify%20Zoom%20Level.md '/Documentation/Guide/Widgets/Calendar/Specify_Zoom_Level')
 
 [tags]calendar, editor, date range, rande, disable dates, disabledDates

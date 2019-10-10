@@ -19,7 +19,7 @@ The widget's instance.
 Model data. Available only if Knockout is used.
 
 ---
-Main article: [onExported](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExported)
+Main article: [onExported](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/onExported.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExported')
 
 #####See Also#####
 #include common-link-handleevents

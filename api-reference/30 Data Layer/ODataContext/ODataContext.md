@@ -12,7 +12,7 @@ The **ODataContent** is an object that provides access to an entire OData servic
 dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
 
 ---
-This object creates several [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/) instances. Each instance accesses an individual entity collection.
+This object creates several [ODataStore](/api-reference/30%20Data%20Layer/ODataStore/ODataStore.md '/Documentation/ApiReference/Data_Layer/ODataStore/') instances. Each instance accesses an individual entity collection.
 
 ---
 ##### jQuery  
@@ -212,4 +212,4 @@ This object creates several [ODataStore](/Documentation/ApiReference/Data_Layer/
 #include datalayer-store-note-immutable with { name: "ODataContext" }
 
 #####See Also#####
-- [DataSource Examples - OData](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData)
+- [DataSource Examples - OData](/concepts/30%20Data%20Layer/51%20Data%20Source%20Examples/2%20OData/OData.md '/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData')

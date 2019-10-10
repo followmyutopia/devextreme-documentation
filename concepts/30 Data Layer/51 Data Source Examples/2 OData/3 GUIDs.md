@@ -1,4 +1,4 @@
-GUID (Globally Unique Identifier) is another common data type you may encounter while working with OData services. The DevExtreme data layer includes the [Guid](/Documentation/ApiReference/Data_Layer/Guid/) class, which enables you to generate new GUIDs and work with existing GUIDs.
+GUID (Globally Unique Identifier) is another common data type you may encounter while working with OData services. The DevExtreme data layer includes the [Guid](/api-reference/30%20Data%20Layer/Guid/Guid.md '/Documentation/ApiReference/Data_Layer/Guid/') class, which enables you to generate new GUIDs and work with existing GUIDs.
 
 To create a Guid instance, call the Guid constructor. If you pass a string value specifying a GUID to the [constructor](/Documentation/ApiReference/Data_Layer/Guid/Methods/#ctorvalue), the created Guid instance will hold the specified value.
 

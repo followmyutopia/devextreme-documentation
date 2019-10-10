@@ -25,7 +25,7 @@ Model data. Available only if you use Knockout.
 The data of the item selected previously.
 
 ---
-Main article: [onSelectionChanged](/Documentation/ApiReference/UI_Widgets/dxDropDownButton/Configuration/#onSelectionChanged)
+Main article: [onSelectionChanged](/api-reference/10%20UI%20Widgets/dxDropDownButton/1%20Configuration/onSelectionChanged.md '/Documentation/ApiReference/UI_Widgets/dxDropDownButton/Configuration/#onSelectionChanged')
 
 #####See Also#####
 #include common-link-handleevents

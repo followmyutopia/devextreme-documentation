@@ -3,7 +3,7 @@ id: DataSource.sort(sortExpr)
 ---
 ---
 ##### shortDescription
-Sets the [sort](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#sort) option's value.
+Sets the [sort](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/sort.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#sort') option's value.
 
 ##### param(sortExpr): any
 A sort expression.
@@ -80,4 +80,4 @@ Call the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#loa
 ---
 
 #####See Also#####
-- [Sorting](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Sorting)
+- [Sorting](/concepts/30%20Data%20Layer/5%20Data%20Layer/2%20Reading%20Data/1%20Sorting.md '/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Sorting')

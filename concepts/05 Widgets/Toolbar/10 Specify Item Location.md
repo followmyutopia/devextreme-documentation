@@ -1,4 +1,4 @@
-To set the location of items on a toolbar, use the [location](/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/#location) option. It accepts one of the following values.
+To set the location of items on a toolbar, use the [location](/api-reference/10%20UI%20Widgets/dxToolbar/5%20Default%20Item%20Template/location.md '/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/#location') option. It accepts one of the following values.
 
 - *"center"*  
  Places the item in the center of the toolbar.
@@ -56,7 +56,7 @@ Toolbar items with identical **location** preserve the order they have in the da
 
 ---
 
-When there is not enough width for all toolbar items, or if certain toolbar items are secondary, they can be rendered as commands on the overflow menu. This menu can be a [Popover](/Documentation/Guide/Widgets/Popover/), an [Action Sheet](/Documentation/Guide/Widgets/ActionSheet/) or a Drop-Down Menu, depending on which device the application is running on. To render a toolbar item as a command on the overflow menu, assign *"always"* or *"auto"* to the [locateInMenu](/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/#locateInMenu) option.
+When there is not enough width for all toolbar items, or if certain toolbar items are secondary, they can be rendered as commands on the overflow menu. This menu can be a [Popover](/concepts/05%20Widgets/Popover/00%20Overview.md '/Documentation/Guide/Widgets/Popover/'), an [Action Sheet](/concepts/05%20Widgets/ActionSheet/00%20Overview.md '/Documentation/Guide/Widgets/ActionSheet/') or a Drop-Down Menu, depending on which device the application is running on. To render a toolbar item as a command on the overflow menu, assign *"always"* or *"auto"* to the [locateInMenu](/api-reference/10%20UI%20Widgets/dxToolbar/5%20Default%20Item%20Template/locateInMenu.md '/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/#locateInMenu') option.
 
 ---
 #####jQuery 
@@ -98,9 +98,9 @@ When there is not enough width for all toolbar items, or if certain toolbar item
 ---
 
 #####See Also#####
-- [Toolbar - Specify Item Type](/Documentation/Guide/Widgets/Toolbar/#Specify_Item_Type)
-- [Toolbar - Customize Item Appearance](/Documentation/Guide/Widgets/Toolbar/#Customize_Item_Appearance)
+- [Toolbar - Specify Item Type](/concepts/05%20Widgets/Toolbar/05%20Specify%20Item%20Type.md '/Documentation/Guide/Widgets/Toolbar/#Specify_Item_Type')
+- [Toolbar - Customize Item Appearance](/concepts/05%20Widgets/Toolbar/15%20Customize%20Item%20Appearance.md '/Documentation/Guide/Widgets/Toolbar/#Customize_Item_Appearance')
 - [Toolbar Demos](/Demos/WidgetsGallery/#demo/navigation-toolbar-overview)
-- [Toolbar API Reference](/Documentation/ApiReference/UI_Widgets/dxToolbar/)
+- [Toolbar API Reference](/api-reference/10%20UI%20Widgets/dxToolbar/dxToolbar.md '/Documentation/ApiReference/UI_Widgets/dxToolbar/')
 
 [tags]toolbar, location, item location, locate in menu

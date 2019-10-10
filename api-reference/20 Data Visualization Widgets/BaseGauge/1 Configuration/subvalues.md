@@ -20,7 +20,7 @@ You can obtain and change the subvalues at runtime. In order to do this, use the
         subvalues: []    
     }
 
-Subvalues are designated by subvalue indicators. You can customize the appearance of these indicators using the [subvalueIndicator]({basewidgetpath}/Configuration/subvalueIndicator) configuration object.
+Subvalues are designated by subvalue indicators. You can customize the appearance of these indicators using the [subvalueIndicator](/api-reference/20%20Data%20Visualization%20Widgets/BaseGauge/5%20Indicator%20Types/CommonIndicator/CommonIndicator.md '{basewidgetpath}/Configuration/subvalueIndicator') configuration object.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Gauges/UpdateCircularGaugeDataAtRuntime/jQuery/Light/"

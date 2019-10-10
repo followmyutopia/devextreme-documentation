@@ -20,9 +20,9 @@ The row's properties.
 **true** if the row can be updated; otherwise **false**.
 
 ---
-See an example in the [allowDeleting](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#allowDeleting) option.
+See an example in the [allowDeleting](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/editing/allowDeleting.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#allowDeleting') option.
 
 #####See Also#####
-- [onRowUpdating](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onRowUpdating)
-- [onRowUpdated](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onRowUpdated)
+- [onRowUpdating](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onRowUpdating.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onRowUpdating')
+- [onRowUpdated](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onRowUpdated.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onRowUpdated')
 - [cellValue(rowIndex, visibleColumnIndex, value)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#cellValuerowIndex_visibleColumnIndex_value)

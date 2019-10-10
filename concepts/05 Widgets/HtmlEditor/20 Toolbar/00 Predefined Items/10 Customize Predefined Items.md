@@ -1,4 +1,4 @@
-To customize a button, assign its [name](/Documentation/Guide/Widgets/HtmlEditor/Toolbar/Predefined_Items/) to the [formatName](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName) option and specify [button options](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/) in the [options](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#options) object: 
+To customize a button, assign its [name](/concepts/05%20Widgets/HtmlEditor/20%20Toolbar/00%20Predefined%20Items/00%20Predefined%20Items.md '/Documentation/Guide/Widgets/HtmlEditor/Toolbar/Predefined_Items/') to the [formatName](/api-reference/_hidden/dxHtmlEditorToolbarItem/formatName.md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName') option and specify [button options](/api-reference/10%20UI%20Widgets/dxButton/1%20Configuration/Configuration.md '/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/') in the [options](/api-reference/10%20UI%20Widgets/dxToolbar/5%20Default%20Item%20Template/options.md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#options') object: 
 
 ---
 #####jQuery
@@ -58,7 +58,7 @@ To customize a button, assign its [name](/Documentation/Guide/Widgets/HtmlEditor
 
 ---
 
-To customize a select box, specify [select box options](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/) in the [options](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#options) object in addition to the [formatName](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName) and [formatValues](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatValues) options:
+To customize a select box, specify [select box options](/api-reference/10%20UI%20Widgets/dxSelectBox/1%20Configuration/Configuration.md '/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/') in the [options](/api-reference/10%20UI%20Widgets/dxToolbar/5%20Default%20Item%20Template/options.md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#options') object in addition to the [formatName](/api-reference/_hidden/dxHtmlEditorToolbarItem/formatName.md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName') and [formatValues](/api-reference/_hidden/dxHtmlEditorToolbarItem/formatValues.md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatValues') options:
 
 ---
 #####jQuery
@@ -125,4 +125,4 @@ To customize a select box, specify [select box options](/Documentation/ApiRefere
 ---
 
 #####See Also#####
-- [Add a Custom Item](/Documentation/Guide/Widgets/HtmlEditor/Toolbar/Add_a_Custom_Item/)
+- [Add a Custom Item](/concepts/05%20Widgets/HtmlEditor/20%20Toolbar/20%20Add%20a%20Custom%20Item.md '/Documentation/Guide/Widgets/HtmlEditor/Toolbar/Add_a_Custom_Item/')

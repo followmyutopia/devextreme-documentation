@@ -23,5 +23,5 @@ A template name or container.
 [note] There is no **dateCellTemplate** in such views as "day" and "timelineDay".
 
 #####See Also#####
-- [Customize Individual Views](/Documentation/Guide/Widgets/Scheduler/Views/Customize_Individual_Views/)
-- [Timetable](/Documentation/Guide/Widgets/Scheduler/Timetable/)
+- [Customize Individual Views](/concepts/05%20Widgets/Scheduler/060%20Views/020%20Customize%20Individual%20Views.md '/Documentation/Guide/Widgets/Scheduler/Views/Customize_Individual_Views/')
+- [Timetable](/concepts/05%20Widgets/Scheduler/050%20Timetable.md '/Documentation/Guide/Widgets/Scheduler/Timetable/')

@@ -51,6 +51,6 @@ To limit the string length, assign an integer number to the **maxLength** option
 
 #####See Also#####
 - [TextBox Demos](/Demos/WidgetsGallery/#demo/editors-text_box-overview)
-- [TextBox API Reference](/Documentation/ApiReference/UI_Widgets/dxTextBox/)
+- [TextBox API Reference](/api-reference/10%20UI%20Widgets/dxTextBox/dxTextBox.md '/Documentation/ApiReference/UI_Widgets/dxTextBox/')
 
 [tags]textBox, text box, editor, string length, text length, maxLength

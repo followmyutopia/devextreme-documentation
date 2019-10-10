@@ -19,7 +19,7 @@ The widget's instance.
 Model data. Available only if Knockout is used.
 
 ---
-Main article: [onRendered](/Documentation/ApiReference/UI_Widgets/dxDeferRendering/Configuration/#onRendered)
+Main article: [onRendered](/api-reference/10%20UI%20Widgets/dxDeferRendering/1%20Configuration/onRendered.md '/Documentation/ApiReference/UI_Widgets/dxDeferRendering/Configuration/#onRendered')
 
 #####See Also#####
 #include common-link-handleevents

@@ -19,7 +19,7 @@ The widget's instance.
 Model data. Available only if Knockout is used.
 
 ---
-Main article: [onMenuGroupRendered](/Documentation/ApiReference/UI_Widgets/dxSlideOut/Configuration/#onMenuGroupRendered)
+Main article: [onMenuGroupRendered](/api-reference/10%20UI%20Widgets/dxSlideOut/1%20Configuration/onMenuGroupRendered.md '/Documentation/ApiReference/UI_Widgets/dxSlideOut/Configuration/#onMenuGroupRendered')
 
 #####See Also#####
 #include common-link-handleevents

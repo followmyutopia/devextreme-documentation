@@ -8,4 +8,4 @@ Specifies descriptions for filter operations on the filter list.
 
 ---
 #####See Also#####
-- **columns[]**.[filterOperations]({basewidgetpath}/Configuration/columns/#filterOperations)
+- **columns[]**.[filterOperations](/api-reference/_hidden/GridBaseColumn/filterOperations.md '{basewidgetpath}/Configuration/columns/#filterOperations')

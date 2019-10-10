@@ -1,4 +1,4 @@
-If you want to extend the functionality of a JavaScript array, place it into the [ArrayStore](/Documentation/ApiReference/Data_Layer/ArrayStore/). It provides an interface for loading and editing data and allows you to handle data-related events.
+If you want to extend the functionality of a JavaScript array, place it into the [ArrayStore](/api-reference/30%20Data%20Layer/ArrayStore/ArrayStore.md '/Documentation/ApiReference/Data_Layer/ArrayStore/'). It provides an interface for loading and editing data and allows you to handle data-related events.
 
 ---
 ##### jQuery
@@ -44,7 +44,7 @@ If you want to extend the functionality of a JavaScript array, place it into the
 
 ---
 
-Data kept in the **ArrayStore** can be processed in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/). Its purpose is similar to that of the [Query](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept), but the **DataSource** provides wider capabilities. For example, the **DataSource** can map objects from the array that underlies the **ArrayStore** as shown in the following code.
+Data kept in the **ArrayStore** can be processed in the [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/'). Its purpose is similar to that of the [Query](/concepts/30%20Data%20Layer/5%20Data%20Layer/6%20Query%20Concept.md '/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept'), but the **DataSource** provides wider capabilities. For example, the **DataSource** can map objects from the array that underlies the **ArrayStore** as shown in the following code.
 
 ---
 ##### jQuery
@@ -120,8 +120,8 @@ Data kept in the **ArrayStore** can be processed in the [DataSource](/Documentat
 
 #####See Also#####
 - [Data Layer - What Are Stores](/Documentation/Guide/Data_Layer/Data_Layer/#Data_Layer_Data_Layer_Creating_DataSource_What_Are_Stores)
-- [Data Layer - DataSource Examples | In-memory Data](/Documentation/Guide/Data_Layer/Data_Source_Examples/#In-memory_Data)
+- [Data Layer - DataSource Examples | In-memory Data](/concepts/30%20Data%20Layer/51%20Data%20Source%20Examples/0%20In-memory%20Data.md '/Documentation/Guide/Data_Layer/Data_Source_Examples/#In-memory_Data')
 - [Scheduler Demos](/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/)
-- [Scheduler API Reference](/Documentation/ApiReference/UI_Widgets/dxScheduler/)
+- [Scheduler API Reference](/api-reference/10%20UI%20Widgets/dxScheduler/dxScheduler.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/')
 
 [tags]scheduler, data binding, provide data, ArrayStore, DataSource, process data

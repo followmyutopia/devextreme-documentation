@@ -98,6 +98,6 @@ An end user can use the following keys to interact with the widget.
 #####See Also#####
 #include common-link-callmethods
 - [Scheduler Demos](/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/)
-- [Scheduler API Reference](/Documentation/ApiReference/UI_Widgets/dxScheduler/)
+- [Scheduler API Reference](/api-reference/10%20UI%20Widgets/dxScheduler/dxScheduler.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/')
 
 [tags]scheduler, navigation, accessibility, keyboard shortcuts

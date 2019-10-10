@@ -11,7 +11,7 @@ The count of columns in the form layout.
 ---
 [note]
 
-For extra small screens, this option always equals *1* to make the widget adaptive. To override this logic, specify the [colCountByScreen](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/colCountByScreen/) option.
+For extra small screens, this option always equals *1* to make the widget adaptive. To override this logic, specify the [colCountByScreen](/api-reference/10%20UI%20Widgets/dxForm/1%20Configuration/colCountByScreen/colCountByScreen.md '/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/colCountByScreen/') option.
 
 ---
 ##### jQuery
@@ -57,4 +57,4 @@ For extra small screens, this option always equals *1* to make the widget adapti
 }
 
 #####See Also#####
-- [Organize Simple Items In Columns](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Columns/#Fixed_and_Floating_Number_of_Columns)
+- [Organize Simple Items In Columns](/concepts/05%20Widgets/Form/10%20Organize%20Simple%20Items/15%20In%20Columns/05%20Fixed%20and%20Floating%20Number%20of%20Columns.md '/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Columns/#Fixed_and_Floating_Number_of_Columns')

@@ -1,5 +1,5 @@
-The **FilterBuilder**'s [fields](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#fields) array should 
-contain data fields from a widget's data source. For example, the following code allows using the [List's](/Documentation/Guide/Widgets/List/Overview/) `Name` and `Price` fields in the **FilterBuilder**:
+The **FilterBuilder**'s [fields](/api-reference/10%20UI%20Widgets/dxFilterBuilder/1%20Configuration/fields.md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#fields') array should 
+contain data fields from a widget's data source. For example, the following code allows using the [List's](/concepts/05%20Widgets/List/00%20Overview.md '/Documentation/Guide/Widgets/List/Overview/') `Name` and `Price` fields in the **FilterBuilder**:
 
 ---
 #####jQuery
@@ -90,7 +90,7 @@ contain data fields from a widget's data source. For example, the following code
 
 ---
 
-To filter data, update the data source's [filter](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter) according to the built filter expression. The following code does this on a button click:
+To filter data, update the data source's [filter](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/filter.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter') according to the built filter expression. The following code does this on a button click:
 
 ---
 #####jQuery
@@ -162,4 +162,4 @@ To filter data, update the data source's [filter](/Documentation/ApiReference/Da
 }
 
 #####See Also#####
-- [Predefine Filter Values](/Documentation/Guide/Widgets/FilterBuilder/Predefine_Filter_Values/)
+- [Predefine Filter Values](/concepts/05%20Widgets/FilterBuilder/040%20Predefine%20Filter%20Values.md '/Documentation/Guide/Widgets/FilterBuilder/Predefine_Filter_Values/')

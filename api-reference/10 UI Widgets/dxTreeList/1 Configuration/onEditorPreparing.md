@@ -6,7 +6,7 @@ EventForAction: dxTreeList.editorPreparing
 ---
 ---
 ##### shortDescription
-A function used to customize or replace [default editors](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editorOptions). Not executed for cells with an [editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editCellTemplate).
+A function used to customize or replace [default editors](/api-reference/_hidden/GridBaseColumn/editorOptions.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editorOptions'). Not executed for cells with an [editCellTemplate](/api-reference/_hidden/dxTreeListColumn/editCellTemplate.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editCellTemplate').
 
 ##### param(e): Object
 Information about the event that caused the function's execution.
@@ -29,7 +29,7 @@ Indicates whether the editor is disabled.
 
 ##### field(e.editorName): String
 Allows you to change the editor. Accepts names of DevExtreme widgets only, for example, *"dxTextBox"*.       
-Import a new editor's module when [DevExtreme modules](/Documentation/Guide/Common/Modularity/) are used.
+Import a new editor's module when [DevExtreme modules](/concepts/Common/30%20Modularity/01%20Link%20Modules/Link%20Modules.md '/Documentation/Guide/Common/Modularity/') are used.
 
 ##### field(e.editorOptions): Object
 Gets and sets the editor configuration.
@@ -47,7 +47,7 @@ The editor's location. One of *"dataRow"*, *"filterRow"*, *"headerRow"* or *"sea
 Indicates whether the editor is read-only.
 
 ##### field(e.row): dxTreeListRowObject
-The [properties](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/) of the row the editor belongs to.
+The [properties](/api-reference/10%20UI%20Widgets/dxTreeList/6%20Row/Row.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/') of the row the editor belongs to.
 
 ##### field(e.rtlEnabled): Boolean
 Indicates whether the editor uses right-to-left representation.
@@ -67,7 +67,7 @@ The editor's width; equals **null** for all editors except for those whose **par
 ---
 Use this function to:
 
-- Override the default editor's **onValueChanged** handler. For other default editor customizations, use [editorOptions](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editorOptions).
+- Override the default editor's **onValueChanged** handler. For other default editor customizations, use [editorOptions](/api-reference/_hidden/GridBaseColumn/editorOptions.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editorOptions').
 
     ---
     ##### jQuery
@@ -232,7 +232,7 @@ Use this function to:
 
     ---
 
-- Replace the default editor. The old editor's configuration applies to the replacement editor. If you want to define the configuration from scratch, use an [editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editCellTemplate).
+- Replace the default editor. The old editor's configuration applies to the replacement editor. If you want to define the configuration from scratch, use an [editCellTemplate](/api-reference/_hidden/dxTreeListColumn/editCellTemplate.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editCellTemplate').
     
     In the following code, the replacement editor is the DevExtreme [TextArea](/Demos/WidgetsGallery/Demo/TextArea/Overview/jQuery/Light/) widget:
 
@@ -372,10 +372,10 @@ Use this function to:
 
     ---
 
-- Customize editors used in the [search panel](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/searchPanel/), [filter row](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/filterRow/), and [selection column](/Documentation/Guide/Widgets/TreeList/Columns/Column_Types/Command_Columns/).        
+- Customize editors used in the [search panel](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/searchPanel/searchPanel.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/searchPanel/'), [filter row](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/filterRow/filterRow.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/filterRow/'), and [selection column](/concepts/05%20Widgets/TreeList/10%20Columns/10%20Column%20Types/4%20Command%20Columns/00%20Command%20Columns.md '/Documentation/Guide/Widgets/TreeList/Columns/Column_Types/Command_Columns/').        
 Use the **parentType** function parameter to check if the editor being customized belongs to one of these UI elements.
 
-- [Dynamically change editor options in the editing state](/Documentation/Guide/Widgets/DataGrid/How_To/Dynamically_Change_Editor_Options_in_the_Editing_State/).
+- [Dynamically change editor options in the editing state](/concepts/05%20Widgets/DataGrid/99%20How%20To/Dynamically%20Change%20Editor%20Options%20in%20the%20Editing%20State.md '/Documentation/Guide/Widgets/DataGrid/How_To/Dynamically_Change_Editor_Options_in_the_Editing_State/').
 
 - Implement other customization cases.
 
@@ -384,4 +384,4 @@ Use the **parentType** function parameter to check if the editor being customize
 }
 
 #####See Also#####
-- **columns[]**.[showEditorAlways](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#showEditorAlways)
+- **columns[]**.[showEditorAlways](/api-reference/_hidden/GridBaseColumn/showEditorAlways.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#showEditorAlways')

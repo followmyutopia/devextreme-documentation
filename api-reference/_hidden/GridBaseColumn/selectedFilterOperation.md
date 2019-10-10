@@ -10,7 +10,7 @@ firedEvents: optionChanged
 Specifies the column's filter operation displayed in the [filter row](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Filter_Row).
 
 ---
-The following table lists default filter operations by [data type]({basewidgetpath}/Configuration/columns/#dataType):
+The following table lists default filter operations by [data type](/api-reference/_hidden/GridBaseColumn/dataType.md '{basewidgetpath}/Configuration/columns/#dataType'):
 
 <div class="simple-table">
 <table>

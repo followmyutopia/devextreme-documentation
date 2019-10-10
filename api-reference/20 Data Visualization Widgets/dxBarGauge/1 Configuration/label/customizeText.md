@@ -13,7 +13,7 @@ Information on the bar value.
 The raw value.
 
 ##### field(barValue.valueText): String
-The [formatted](/Documentation/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/label/#format) value converted to a string.
+The [formatted](/api-reference/20%20Data%20Visualization%20Widgets/dxBarGauge/1%20Configuration/label/format.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/label/#format') value converted to a string.
 
 ##### return: String
 The text for the label to display.
@@ -24,4 +24,4 @@ The text for the label to display.
 #include dataviz-ref-functioncontext
 
 #####See Also#####
-- [Customize Text](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/#Customize_Text)
+- [Customize Text](/concepts/05%20Widgets/zz%20Common/10%20Data%20Visualization%20Widgets/30%20Data%20Formatting/30%20Customize%20Text.md '/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/#Customize_Text')

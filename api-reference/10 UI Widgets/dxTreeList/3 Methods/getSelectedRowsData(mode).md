@@ -7,7 +7,7 @@ Gets the selected rows' data objects.
 
 ##### return: Array<any>
 The selected rows' data objects.        
-The objects are not processed by the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) and have the same order in which the rows were selected.     
+The objects are not processed by the [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/') and have the same order in which the rows were selected.     
 
 ##### param(mode): String
 *"all"*, *"excludeRecursive"*, or *"leavesOnly"*.
@@ -186,7 +186,7 @@ Returns only leaves' data objects.
 ---
 
 
-[note][Calculated values](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#calculateCellValue) cannot be obtained because this method gets data objects from the data source.
+[note][Calculated values](/api-reference/_hidden/GridBaseColumn/calculateCellValue.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#calculateCellValue') cannot be obtained because this method gets data objects from the data source.
 
 #####See Also#####
 #include common-link-callmethods

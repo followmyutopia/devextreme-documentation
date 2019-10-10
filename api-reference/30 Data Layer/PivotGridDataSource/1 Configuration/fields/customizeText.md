@@ -13,7 +13,7 @@ Information on the current cell.
 The cell's raw value.
 
 ##### field(cellInfo.valueText): String
-The [formatted](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#format) value converted to a string.
+The [formatted](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/format.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#format') value converted to a string.
 
 ##### return: String
 The text for the cell to display.

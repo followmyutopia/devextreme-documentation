@@ -1,4 +1,4 @@
-By default, the value of the **SelectBox** is changed when the <a href="https://developer.mozilla.org/en/docs/Web/Events/change" target="_blank">change</a> event is raised. If you need the value to be changed on another event, set the [valueChangeEvent](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#valueChangeEvent) option.
+By default, the value of the **SelectBox** is changed when the <a href="https://developer.mozilla.org/en/docs/Web/Events/change" target="_blank">change</a> event is raised. If you need the value to be changed on another event, set the [valueChangeEvent](/api-reference/10%20UI%20Widgets/dxSelectBox/1%20Configuration/valueChangeEvent.md '/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#valueChangeEvent') option.
 
 ---
 #####jQuery
@@ -49,7 +49,7 @@ By default, the value of the **SelectBox** is changed when the <a href="https://
 
 ---
 
-To process a new **SelectBox** value, you need to handle the value change event. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onValueChanged](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#onValueChanged) option when you configure the widget.
+To process a new **SelectBox** value, you need to handle the value change event. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onValueChanged](/api-reference/10%20UI%20Widgets/dxSelectBox/1%20Configuration/onValueChanged.md '/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#onValueChanged') option when you configure the widget.
 
 ---
 #####jQuery
@@ -113,9 +113,9 @@ If you are going to change event handlers at runtime, or if you need to attach s
 
 #####See Also#####
 #include common-link-handleevents
-- [SelectBox - Configure Search Parameters](/Documentation/Guide/Widgets/SelectBox/Configure_Search_Parameters/)
-- [SelectBox - Create a User-Defined Item](/Documentation/Guide/Widgets/SelectBox/Create_a_User-Defined_Item/)
-- [SelectBox API Reference](/Documentation/ApiReference/UI_Widgets/dxSelectBox/)
+- [SelectBox - Configure Search Parameters](/concepts/05%20Widgets/SelectBox/10%20Configure%20Search%20Parameters.md '/Documentation/Guide/Widgets/SelectBox/Configure_Search_Parameters/')
+- [SelectBox - Create a User-Defined Item](/concepts/05%20Widgets/SelectBox/15%20Create%20a%20User-Defined%20Item.md '/Documentation/Guide/Widgets/SelectBox/Create_a_User-Defined_Item/')
+- [SelectBox API Reference](/api-reference/10%20UI%20Widgets/dxSelectBox/dxSelectBox.md '/Documentation/ApiReference/UI_Widgets/dxSelectBox/')
 - [SelectBox Demos](/Demos/WidgetsGallery/#demo/editors-select_box-overview)
 
 [tags]selectBox, select box, editor, get value, set value, change value, valueChangeEvent, valueChanged

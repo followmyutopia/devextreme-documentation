@@ -1,4 +1,4 @@
-DevExtreme provides the [errorHandler](/Documentation/ApiReference/Data_Layer/Utils/#errorHandler) utility property to help you handle errors that occur within the entire data layer. Assign the error handling function to this property. This function takes on the JavaScript **Error** object as a parameter.
+DevExtreme provides the [errorHandler](/api-reference/30%20Data%20Layer/Utils/errorHandler.md '/Documentation/ApiReference/Data_Layer/Utils/#errorHandler') utility property to help you handle errors that occur within the entire data layer. Assign the error handling function to this property. This function takes on the JavaScript **Error** object as a parameter.
 
     <!--JavaScript-->
     DevExpress.data.errorHandler = function(error) {
@@ -17,7 +17,7 @@ A Store enables you to handle errors that occur only within itself. To handle St
 
 DevExtreme also provides an ability to handle errors that occur during operation execution. All DevExtreme data transfer operations are asynchronous and return a Promise (a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery) allowing you to specify both success and error callbacks.
 
-The following example illustrates how to handle errors that occurred during the execution of the [load](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) operation of a [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/).
+The following example illustrates how to handle errors that occurred during the execution of the [load](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) operation of a [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/').
 
     <!--JavaScript-->
     dataSource.load()

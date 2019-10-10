@@ -2,7 +2,7 @@ Exposes an object that provides acess to data for the **PivotGrid** data.
 
 Exports:
 
-- *default* - The [PivotGridDataSource](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/) object
+- *default* - The [PivotGridDataSource](/api-reference/30%20Data%20Layer/PivotGridDataSource/PivotGridDataSource.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/') object
 
         require("ui/pivot_grid/data_source");
         // ===== or =====

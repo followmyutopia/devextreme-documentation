@@ -44,7 +44,7 @@ If data has a plain structure, set the **dataStructure** option to *"plain"*. In
         { id: '2_2', text: 'Tomatoes', parentId: '2' }
     ];
 
-`id`, `text`, `items`, and `parentId` are conventional field names defined in the [Default Item Template](/Documentation/ApiReference/UI_Widgets/dxTreeView/Default_Item_Template/). To use other names, change the [keyExpr](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#keyExpr), [displayExpr](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#displayExpr), [itemsExpr](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#itemsExpr), and [parentIdExpr](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#parentIdExpr) options, respectively. You can also specify the [rootValue](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#rootValue) option to change the `parentId` value that root items should have.
+`id`, `text`, `items`, and `parentId` are conventional field names defined in the [Default Item Template](/api-reference/10%20UI%20Widgets/dxTreeView/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Default_Item_Template/'). To use other names, change the [keyExpr](/api-reference/10%20UI%20Widgets/HierarchicalCollectionWidget/1%20Configuration/keyExpr.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#keyExpr'), [displayExpr](/api-reference/10%20UI%20Widgets/dxTreeView/1%20Configuration/displayExpr.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#displayExpr'), [itemsExpr](/api-reference/10%20UI%20Widgets/dxTreeView/1%20Configuration/itemsExpr.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#itemsExpr'), and [parentIdExpr](/api-reference/10%20UI%20Widgets/dxTreeView/1%20Configuration/parentIdExpr.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#parentIdExpr') options, respectively. You can also specify the [rootValue](/api-reference/10%20UI%20Widgets/dxTreeView/1%20Configuration/rootValue.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#rootValue') option to change the `parentId` value that root items should have.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/TreeView/FlatDataStructure/jQuery/Light/"
@@ -56,5 +56,5 @@ If data has a plain structure, set the **dataStructure** option to *"plain"*. In
 }
 
 #####See Also#####
-- [TreeView - Use Hierarchical Data](/Documentation/Guide/Widgets/TreeView/Use_Hierarchical_Data/)
-- [TreeView - Use Plain Data](/Documentation/Guide/Widgets/TreeView/Use_Plain_Data/)
+- [TreeView - Use Hierarchical Data](/concepts/05%20Widgets/TreeView/05%20Use%20Hierarchical%20Data.md '/Documentation/Guide/Widgets/TreeView/Use_Hierarchical_Data/')
+- [TreeView - Use Plain Data](/concepts/05%20Widgets/TreeView/07%20Use%20Plain%20Data.md '/Documentation/Guide/Widgets/TreeView/Use_Plain_Data/')

@@ -25,7 +25,7 @@ The standard <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Re
 Model data. Available only if Knockout is used.
 
 ---
-Main article: [onAppointmentAdded](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentAdded)
+Main article: [onAppointmentAdded](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/onAppointmentAdded.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentAdded')
 
 #####See Also#####
 #include common-link-handleevents

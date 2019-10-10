@@ -2,7 +2,7 @@ Titles and subtitles are textual elements that provide an overview of what the *
 
 ![Funnel Title and Subtitle](/Content/images/doc/19_2/funnel/visual_elements/funnel-title.png)
 
-The [title](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/title/) object configures the title; the **title**.[subtitle](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/title/subtitle/) object configures the subtitle.
+The [title](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/title/title.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/title/') object configures the title; the **title**.[subtitle](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/title/subtitle/subtitle.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/title/subtitle/') object configures the subtitle.
 
 ---
 ##### jQuery
@@ -84,7 +84,7 @@ You can set the title's text more concisely by assigning it directly to the **ti
 
 ---
 
-Refer to the API reference's [title](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/title/) section for information about all the title and subtitle options.
+Refer to the API reference's [title](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/title/title.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/title/') section for information about all the title and subtitle options.
 
 #####See Also#####
-- [Adaptive Layout](/Documentation/Guide/Widgets/Funnel/Adaptive_Layout/)
+- [Adaptive Layout](/concepts/05%20Widgets/Funnel/89%20Adaptive%20Layout.md '/Documentation/Guide/Widgets/Funnel/Adaptive_Layout/')

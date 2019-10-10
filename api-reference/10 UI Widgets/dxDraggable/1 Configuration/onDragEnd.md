@@ -27,7 +27,7 @@ The widget that raised the event.
 The instance of the item's source widget.
 
 ##### field(e.fromData): any
-Custom [data]({basewidgetpath}/Configuration/#data) associated with the source widget.
+Custom [data](/api-reference/10%20UI%20Widgets/DraggableBase/1%20Configuration/data.md '{basewidgetpath}/Configuration/#data') associated with the source widget.
 
 ##### field(e.itemData): any
 The dragged item's data.
@@ -42,7 +42,7 @@ Model data. Available only if you use Knockout.
 The instance of the item's target widget.
 
 ##### field(e.toData): any
-Custom [data]({basewidgetpath}/Configuration/#data) associated with the target widget.
+Custom [data](/api-reference/10%20UI%20Widgets/DraggableBase/1%20Configuration/data.md '{basewidgetpath}/Configuration/#data') associated with the target widget.
 
 ---
 <!-- Description goes here -->

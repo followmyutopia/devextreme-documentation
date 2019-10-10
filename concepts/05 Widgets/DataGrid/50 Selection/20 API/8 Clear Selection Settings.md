@@ -29,7 +29,7 @@ Call the [deselectRows(keys)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/
     
 ---
 
-Call the [clearSelection()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#clearSelection) method to clear selection of all rows. If you apply a [filter](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/) and want to keep the selection of invisible rows that do not meet the filtering conditions, use the [deselectAll()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#deselectAll) method. Also call this method to clear selection depending on the [selectAllMode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#selectAllMode).
+Call the [clearSelection()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#clearSelection) method to clear selection of all rows. If you apply a [filter](/concepts/05%20Widgets/DataGrid/30%20Filtering%20and%20Searching/Filtering%20and%20Searching.md '/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/') and want to keep the selection of invisible rows that do not meet the filtering conditions, use the [deselectAll()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#deselectAll) method. Also call this method to clear selection depending on the [selectAllMode](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/selection/selectAllMode.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#selectAllMode').
 
 ---
 ##### jQuery
@@ -70,5 +70,5 @@ Call the [clearSelection()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Me
 } 
 
 #####See Also#####
-- [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/)
+- [remoteOperations](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/remoteOperations/remoteOperations.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/')
 #include common-link-callmethods

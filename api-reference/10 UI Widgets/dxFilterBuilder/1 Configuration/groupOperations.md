@@ -23,5 +23,5 @@ The group operations are:
 }
 
 #####See Also#####
-- [maxGroupLevel](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#maxGroupLevel)
-- [groupOperationDescriptions](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/groupOperationDescriptions/)
+- [maxGroupLevel](/api-reference/10%20UI%20Widgets/dxFilterBuilder/1%20Configuration/maxGroupLevel.md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#maxGroupLevel')
+- [groupOperationDescriptions](/api-reference/10%20UI%20Widgets/dxFilterBuilder/1%20Configuration/groupOperationDescriptions/groupOperationDescriptions.md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/groupOperationDescriptions/')

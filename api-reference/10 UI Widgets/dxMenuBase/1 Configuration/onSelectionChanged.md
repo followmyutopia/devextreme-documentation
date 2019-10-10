@@ -1,3 +1,3 @@
 #####See Also#####
-- [selectionMode]({basewidgetpath}/Configuration/#selectionMode)
-- [selectByClick]({basewidgetpath}/Configuration/#selectByClick)
+- [selectionMode](/api-reference/10%20UI%20Widgets/dxButtonGroup/1%20Configuration/selectionMode.md '{basewidgetpath}/Configuration/#selectionMode')
+- [selectByClick](/api-reference/10%20UI%20Widgets/dxMenuBase/1%20Configuration/selectByClick.md '{basewidgetpath}/Configuration/#selectByClick')

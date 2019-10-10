@@ -28,7 +28,7 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 Model data. Available only if Knockout is used.
 
 ---
-Main article: [onFocusOut]({basewidgetpath}/Configuration/#onFocusOut)
+Main article: [onFocusOut](/api-reference/10%20UI%20Widgets/Widget/1%20Configuration/onFocusOut.md '{basewidgetpath}/Configuration/#onFocusOut')
  
 #####See Also#####
 #include common-link-handleevents

@@ -58,6 +58,6 @@ This option accepts an array of objects, where each object configures a single c
 ---
 
 #####See Also#####
-- [Columns Overview](/Documentation/Guide/Widgets/TreeList/Columns/Overview/)
+- [Columns Overview](/concepts/05%20Widgets/TreeList/10%20Columns/00%20Overview.md '/Documentation/Guide/Widgets/TreeList/Columns/Overview/')
 - [columnOption(id, options)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#columnOptionid_options)
-- [customizeColumns](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#customizeColumns)
+- [customizeColumns](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/customizeColumns.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#customizeColumns')

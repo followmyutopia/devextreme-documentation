@@ -2,7 +2,7 @@ Exposes the **Funnel** widget.
 
 Exports:
 
-- *default* - The [Funnel](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/) widget
+- *default* - The [Funnel](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/dxFunnel.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/') widget
 
         require("viz/funnel");
         // ===== or =====

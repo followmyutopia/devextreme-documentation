@@ -2,7 +2,7 @@ Exposes the Custom file provider.
 
 Exports:
 
-- *default* - The [Custom file provider](/Documentation/ApiReference/UI_Widgets/dxFileManager/File_Providers/Custom/)
+- *default* - The [Custom file provider](/api-reference/10%20UI%20Widgets/dxFileManager/5%20File%20Providers/Custom/Custom.md '/Documentation/ApiReference/UI_Widgets/dxFileManager/File_Providers/Custom/')
 
         require("ui/file_manager/file_provider/custom");
         // ===== or =====

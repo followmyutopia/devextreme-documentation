@@ -70,6 +70,6 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 #####See Also#####
 #include common-link-callmethods
 - [NumberBox Demos](/Demos/WidgetsGallery/#demo/editors-number_box-overview)
-- [NumberBox API Reference](/Documentation/ApiReference/UI_Widgets/dxNumberBox/)
+- [NumberBox API Reference](/api-reference/10%20UI%20Widgets/dxNumberBox/dxNumberBox.md '/Documentation/ApiReference/UI_Widgets/dxNumberBox/')
 
 [tags]number box, numberBox, navigation, accessibility, keyboard shortcuts

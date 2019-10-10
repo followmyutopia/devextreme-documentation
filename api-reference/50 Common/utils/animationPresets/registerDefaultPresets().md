@@ -3,7 +3,7 @@ id: animationPresets.registerDefaultPresets()
 ---
 ---
 ##### shortDescription
-Registers [predefined animations](/Documentation/ApiReference/Common/Utils/animationPresets/) in the animation repository.
+Registers [predefined animations](/api-reference/50%20Common/utils/animationPresets/animationPresets.md '/Documentation/ApiReference/Common/Utils/animationPresets/') in the animation repository.
 
 ---
 By default, the animation repository includes predefined animations. You may need to call this method in case you deleted them by the [clear(name)](/Documentation/ApiReference/Common/utils/animationPresets/#clearname) method.

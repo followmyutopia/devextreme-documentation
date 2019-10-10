@@ -2,7 +2,7 @@ Exposes an object that serves as a namespace for the methods required to perform
 
 Exports:
 
-- *default* - The [validationEngine](/Documentation/ApiReference/Common/Utils/validationEngine/) object
+- *default* - The [validationEngine](/api-reference/50%20Common/utils/validationEngine/validationEngine.md '/Documentation/ApiReference/Common/Utils/validationEngine/') object
 
         require("ui/validation_engine");
         // ===== or =====

@@ -35,4 +35,4 @@ Topics in this section describe various elements of the **LinearGauge** widget. 
 </map>
 
 #####See Also#####
-- [LinearGauge API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge)
+- [LinearGauge API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxLinearGauge/dxLinearGauge.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge')

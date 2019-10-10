@@ -1,16 +1,16 @@
-A grid is a set of mutually-crossing vertical and horizontal lines that stretch throughout the entire chart. Visually, grid lines can be considered extensions of [major ticks](/Documentation/Guide/Widgets/Chart/Axes/Axis_Ticks/). The grid improves the readability of chart data.
+A grid is a set of mutually-crossing vertical and horizontal lines that stretch throughout the entire chart. Visually, grid lines can be considered extensions of [major ticks](/concepts/05%20Widgets/Chart/20%20Axes/07%20Axis%20Ticks.md '/Documentation/Guide/Widgets/Chart/Axes/Axis_Ticks/'). The grid improves the readability of chart data.
 
 ![DevExtreme HTML5 JavaScript Charts GridLines](/Content/images/doc/19_2/ChartJS/visual_elements/grid_lines.png)
 
 Grid lines can be configured using one of the following objects.
 
-- **argumentAxis**.[grid](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/grid/)     
+- **argumentAxis**.[grid](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonAxisSettings/grid/grid.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/grid/')     
 Settings for the grid lines that ascend from the argument axis.
 
-- **valueAxis**.[grid](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/grid/)         
+- **valueAxis**.[grid](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonAxisSettings/grid/grid.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/grid/')         
 Settings for the grid lines that ascend from the value axis.
 
-- **commonAxisSettings**.[grid](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/grid/)         
+- **commonAxisSettings**.[grid](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonAxisSettings/grid/grid.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/grid/')         
 Settings for all grid lines in the **Chart**.
 
 Note that axis-specific settings override common settings.

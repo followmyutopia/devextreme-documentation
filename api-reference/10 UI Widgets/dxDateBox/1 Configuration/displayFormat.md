@@ -5,10 +5,10 @@ default: null
 ---
 ---
 ##### shortDescription
-Specifies the date display format. Ignored if the [pickerType](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#pickerType) option is *"native"*
+Specifies the date display format. Ignored if the [pickerType](/api-reference/10%20UI%20Widgets/dxDateBox/1%20Configuration/pickerType.md '/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#pickerType') option is *"native"*
 
 ---
-Set [useMaskBehavior](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#useMaskBehavior) to **true** to control user input according to the display format.
+Set [useMaskBehavior](/api-reference/10%20UI%20Widgets/dxDateBox/1%20Configuration/useMaskBehavior.md '/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#useMaskBehavior') to **true** to control user input according to the display format.
 
 The default display format is selected automatically based on the current [locale](/Documentation/ApiReference/Common/utils/localization/#locale).
 
@@ -17,4 +17,4 @@ The default display format is selected automatically based on the current [local
 }
 
 #####See Also#####
-- [Format Widget Values](/Documentation/Guide/Common/Value_Formatting/#Format_Widget_Values)
+- [Format Widget Values](/concepts/Common/34%20Value%20Formatting/10%20Format%20Widget%20Values/Format%20Widget%20Values.md '/Documentation/Guide/Common/Value_Formatting/#Format_Widget_Values')

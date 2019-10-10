@@ -22,7 +22,7 @@ The widget's instance.
 Model data. Available only if you use Knockout.
 
 ---
-Main article: [onCancelClick](/Documentation/ApiReference/UI_Widgets/dxActionSheet/Configuration/#onCancelClick)
+Main article: [onCancelClick](/api-reference/10%20UI%20Widgets/dxActionSheet/1%20Configuration/onCancelClick.md '/Documentation/ApiReference/UI_Widgets/dxActionSheet/Configuration/#onCancelClick')
 
 #####See Also#####
 #include common-link-handleevents

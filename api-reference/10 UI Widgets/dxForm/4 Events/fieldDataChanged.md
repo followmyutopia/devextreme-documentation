@@ -4,7 +4,7 @@ type: eventType
 ---
 ---
 ##### shortDescription
-Raised when the value of a [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData) object field is changed.
+Raised when the value of a [formData](/api-reference/10%20UI%20Widgets/dxForm/1%20Configuration/formData.md '/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData') object field is changed.
 
 ##### param(e): Object
 Information about the event.
@@ -13,7 +13,7 @@ Information about the event.
 The widget's instance.
 
 ##### field(e.dataField): String
-The path to the [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData) object field whose value has been changed.
+The path to the [formData](/api-reference/10%20UI%20Widgets/dxForm/1%20Configuration/formData.md '/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData') object field whose value has been changed.
 
 ##### field(e.element): dxElement
 #include common-ref-elementparam with { element: "widget" }
@@ -25,7 +25,7 @@ Model data. Available only if Knockout is used.
 The field's new value.
 
 ---
-Main article: [onFieldDataChanged](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#onFieldDataChanged)
+Main article: [onFieldDataChanged](/api-reference/10%20UI%20Widgets/dxForm/1%20Configuration/onFieldDataChanged.md '/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#onFieldDataChanged')
 
 #####See Also#####
 #include common-link-handleevents

@@ -4,7 +4,7 @@ type: Object
 ---
 ---
 ##### shortDescription
-Custom parameters that should be passed to an OData service with the load query. Available only for the [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/).
+Custom parameters that should be passed to an OData service with the load query. Available only for the [ODataStore](/api-reference/30%20Data%20Layer/ODataStore/ODataStore.md '/Documentation/ApiReference/Data_Layer/ODataStore/').
 
 ---
 ---
@@ -86,4 +86,4 @@ Custom parameters that should be passed to an OData service with the load query.
 ---
 
 #####See Also#####
-- [OData - Invoking Service Operations](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData/Invoking_Service_Operations)
+- [OData - Invoking Service Operations](/concepts/30%20Data%20Layer/51%20Data%20Source%20Examples/2%20OData/5%20Invoking%20Service%20Operations.md '/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData/Invoking_Service_Operations')

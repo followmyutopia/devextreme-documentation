@@ -27,9 +27,9 @@ The form's instance; created only once - when the function is executed for the f
 Model data. Available only if you use Knockout.
 
 ---
-The appointment details form contains the [Form](/Documentation/Guide/Widgets/Form/Overview/) widget whose instance is passed to this function in the **form** field. Use the [widget's API](/Documentation/ApiReference/UI_Widgets/dxForm/) to customize the appointment details form.
+The appointment details form contains the [Form](/concepts/05%20Widgets/Form/00%20Overview.md '/Documentation/Guide/Widgets/Form/Overview/') widget whose instance is passed to this function in the **form** field. Use the [widget's API](/api-reference/10%20UI%20Widgets/dxForm/dxForm.md '/Documentation/ApiReference/UI_Widgets/dxForm/') to customize the appointment details form.
 
-The following code shows how to use the **onAppointmentFormOpening** function to customize a form item (`startDate`), make hidden items visible (`startDateTimeZone` and `endDateTimeZone`), and add a new form item (`location`). Note that in the last case, the array of [form items](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#items) should be checked to ensure that it does not already contain an item with the same data field.
+The following code shows how to use the **onAppointmentFormOpening** function to customize a form item (`startDate`), make hidden items visible (`startDateTimeZone` and `endDateTimeZone`), and add a new form item (`location`). Note that in the last case, the array of [form items](/api-reference/10%20UI%20Widgets/dxForm/1%20Configuration/items.md '/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#items') should be checked to ensure that it does not already contain an item with the same data field.
 
 ---
 #####jQuery
@@ -130,4 +130,4 @@ The following code shows how to use the **onAppointmentFormOpening** function to
 
 
 #####See Also#####
-- [Form - Change Options at Runtime](/Documentation/Guide/Widgets/Form/Change_Options_at_Runtime/Widget_Options/)
+- [Form - Change Options at Runtime](/concepts/05%20Widgets/Form/20%20Change%20Options%20at%20Runtime/05%20Widget%20Options.md '/Documentation/Guide/Widgets/Form/Change_Options_at_Runtime/Widget_Options/')

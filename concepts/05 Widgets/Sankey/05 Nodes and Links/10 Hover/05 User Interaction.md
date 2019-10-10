@@ -1,4 +1,4 @@
-When a sankey node or link is hovered over or pressed, it applies the appearance specified in the **node**.[hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/node/hoverStyle/) or **link**.[hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/link/hoverStyle/) object. In the following code, these objects are used to make nodes half-opaque and make the links' border visible:
+When a sankey node or link is hovered over or pressed, it applies the appearance specified in the **node**.[hoverStyle](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/node/hoverStyle/hoverStyle.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/node/hoverStyle/') or **link**.[hoverStyle](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/link/hoverStyle/hoverStyle.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/link/hoverStyle/') object. In the following code, these objects are used to make nodes half-opaque and make the links' border visible:
 
 ---
 ##### jQuery
@@ -54,7 +54,7 @@ When a sankey node or link is hovered over or pressed, it applies the appearance
 
 ---
 
-Set [hoverEnabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#hoverEnabled) to **false** if nodes and links should not react when they are hovered over or pressed:
+Set [hoverEnabled](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/hoverEnabled.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#hoverEnabled') to **false** if nodes and links should not react when they are hovered over or pressed:
 
 ---
 ##### jQuery

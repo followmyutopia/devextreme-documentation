@@ -11,10 +11,10 @@ You can also reference TypeScript definitions for Knockout or AngularJS.
     /// <reference path="TypeScript/knockout.d.ts" />
     /// <reference path="TypeScript/angular.d.ts" />
 
-Along with TypeScript definitions, you need to reference the libraries themselves. See [Installation](/Documentation/Guide/Getting_Started/Installation/) for detailed information.
+Along with TypeScript definitions, you need to reference the libraries themselves. See [Installation](/concepts/00%20Getting%20Started/01%20Installation/01%20npm%20Package/01%20npm%20Package.md '/Documentation/Guide/Getting_Started/Installation/') for detailed information.
 
 
 #####See Also#####
-- [Configure a Widget Using TypeScript](/Documentation/Guide/Getting_Started/TypeScript_Support/Configure_a_Widget)
+- [Configure a Widget Using TypeScript](/concepts/00%20Getting%20Started/40%20TypeScript%20Support/05%20Configure%20a%20Widget.md '/Documentation/Guide/Getting_Started/TypeScript_Support/Configure_a_Widget')
 
 [tags]typescript support, typescript definitions

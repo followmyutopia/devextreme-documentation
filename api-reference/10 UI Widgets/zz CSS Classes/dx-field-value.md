@@ -1,9 +1,9 @@
 ---
 ##### shortDescription
-A class used to display a field value containing a widget within the [dx-field](/Documentation/ApiReference/UI_Widgets/CSS_Classes/#dx-field) element.
+A class used to display a field value containing a widget within the [dx-field](/api-reference/10%20UI%20Widgets/zz%20CSS%20Classes/dx-field.md '/Documentation/ApiReference/UI_Widgets/CSS_Classes/#dx-field') element.
 
 ---
-- [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
+- [**jQuery**](/concepts/00%20Getting%20Started/10%20Widget%20Basics%20-%20jQuery/01%20Create%20and%20Configure%20a%20Widget.md '/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/')  
 
         <!--HTML-->
         <div class="dx-field">
@@ -16,7 +16,7 @@ A class used to display a field value containing a widget within the [dx-field](
             value: "John"
         });
 
-- [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
+- [**AngularJS**](/concepts/00%20Getting%20Started/20%20Widget%20Basics%20-%20AngularJS/01%20Create%20and%20Configure%20a%20Widget.md '/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/')  
 
         <!--HTML-->
         <div class="dx-field">
@@ -30,7 +30,7 @@ A class used to display a field value containing a widget within the [dx-field](
             $scope.name = "John";
         });
 
-- [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+- [**Knockout**](/concepts/00%20Getting%20Started/25%20Widget%20Basics%20-%20Knockout/01%20Create%20and%20Configure%20a%20Widget.md '/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/')  
 
         <!--HTML-->
         <div class="dx-field">
@@ -44,7 +44,7 @@ A class used to display a field value containing a widget within the [dx-field](
         }
         ko.applyBindings(myViewModel);
 
-To display plain text, knockout bindings or custom markup within a field value element, use the [dx-field-value-static](/Documentation/ApiReference/UI_Widgets/CSS_Classes/#dx-field-value-static) CSS class.
+To display plain text, knockout bindings or custom markup within a field value element, use the [dx-field-value-static](/api-reference/10%20UI%20Widgets/zz%20CSS%20Classes/dx-field-value-static.md '/Documentation/ApiReference/UI_Widgets/CSS_Classes/#dx-field-value-static') CSS class.
 
 DevExtreme UI widgets includes <a href="http://www.w3.org/WAI/intro/aria.php" target="_blank">WAI-ARIA</a> markup to support screen readers. If you use a widget within a field value element, associate the widget with the field label to allow a screen reader to properly read the field. For this purpose, specify a unique ID for the field label element and assign this ID to the **aria-labeledby** attribute of the associated widget as demonstrated below.
 

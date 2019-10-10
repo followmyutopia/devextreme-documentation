@@ -7,11 +7,11 @@ type: Object
 Configures the widget used to edit the field value.
 
 ---
-Depending on the [dataType](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#editorOptions), the **FilterBuilder** offers a user different widgets for editing: [TextBox](/Documentation/ApiReference/UI_Widgets/dxTextBox/), [DateBox](/Documentation/ApiReference/UI_Widgets/dxDateBox/), [Lookup](/Documentation/ApiReference/UI_Widgets/dxLookup/), etc. In the **editorOptions** object, you can specify options for the widget.
+Depending on the [dataType](/api-reference/10%20UI%20Widgets/dxFilterBuilder/5%20Field/editorOptions.md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#editorOptions'), the **FilterBuilder** offers a user different widgets for editing: [TextBox](/api-reference/10%20UI%20Widgets/dxTextBox/dxTextBox.md '/Documentation/ApiReference/UI_Widgets/dxTextBox/'), [DateBox](/api-reference/10%20UI%20Widgets/dxDateBox/dxDateBox.md '/Documentation/ApiReference/UI_Widgets/dxDateBox/'), [Lookup](/api-reference/10%20UI%20Widgets/dxLookup/dxLookup.md '/Documentation/ApiReference/UI_Widgets/dxLookup/'), etc. In the **editorOptions** object, you can specify options for the widget.
 
 [note]
 
-Do not specify the **onValueChanged** option in this object. If you need to add custom logic to the standard value change handler, override the handler in the [onEditorPreparing](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#onEditorPreparing) function in the following manner.
+Do not specify the **onValueChanged** option in this object. If you need to add custom logic to the standard value change handler, override the handler in the [onEditorPreparing](/api-reference/10%20UI%20Widgets/dxFilterBuilder/1%20Configuration/onEditorPreparing.md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#onEditorPreparing') function in the following manner.
 
 ---
 ##### jQuery

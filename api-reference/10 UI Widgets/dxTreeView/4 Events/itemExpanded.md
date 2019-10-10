@@ -40,7 +40,7 @@ Model data. Available only if Knockout is used.
 The item's node.
 
 ---
-Main article: [onItemExpanded](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#onItemExpanded)
+Main article: [onItemExpanded](/api-reference/10%20UI%20Widgets/dxTreeView/1%20Configuration/onItemExpanded.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#onItemExpanded')
 
 #####See Also#####
 #include common-link-handleevents

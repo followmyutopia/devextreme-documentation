@@ -126,5 +126,5 @@ Specifies the values by which the field is filtered.
 ---
 
 #####See Also#####
-- **fields[]**.[filterType](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#filterType)
-- **fields[]**.[allowFiltering](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#allowFiltering)
+- **fields[]**.[filterType](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/filterType.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#filterType')
+- **fields[]**.[allowFiltering](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/allowFiltering.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#allowFiltering')

@@ -9,5 +9,5 @@ Fixes the column.
 
 ---
 #####See Also#####
-- [columnFixing]({basewidgetpath}/Configuration/columnFixing/)
-- **columns[]**.[fixedPosition]({basewidgetpath}/Configuration/columns/#fixedPosition)
+- [columnFixing](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/columnFixing/columnFixing.md '{basewidgetpath}/Configuration/columnFixing/')
+- **columns[]**.[fixedPosition](/api-reference/_hidden/GridBaseColumn/fixedPosition.md '{basewidgetpath}/Configuration/columns/#fixedPosition')

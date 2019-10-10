@@ -26,7 +26,7 @@ Specifies the HTML markup displayed by a tooltip.
 [note]If you are going to use external resources (for example, images) in the markup, specify the size of the area they will occupy beforehand.
 
 - **color**        
-Specifies the [color](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/tooltip/#color) of a tooltip.
+Specifies the [color](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/tooltip/color.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/tooltip/#color') of a tooltip.
 
 - **fontColor**        
 Specifies the color of the text displayed by a tooltip.

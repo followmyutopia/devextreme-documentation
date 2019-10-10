@@ -2,7 +2,7 @@ Exposes the **PolarChart** widget.
 
 Exports:
 
-- *default* - The [PolarChart](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/) widget
+- *default* - The [PolarChart](/api-reference/20%20Data%20Visualization%20Widgets/dxPolarChart/dxPolarChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/') widget
 
         require("viz/polar_chart");
         // ===== or =====

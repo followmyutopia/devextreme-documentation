@@ -9,13 +9,13 @@ Sets a new value to a cell with a specific row index and a data field, column ca
 The index of the row to which the cell belongs. Refer to [Column and Row Indexes](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_and_Row_Indexes/) for more information.
 
 ##### param(dataField): String
-The [data field]({basewidgetpath}/Configuration/columns/#dataField), [caption]({basewidgetpath}/Configuration/columns/#caption), or [unique name]({basewidgetpath}/Configuration/columns/#name) of the column to which the cell belongs.
+The [data field](/api-reference/_hidden/GridBaseColumn/dataField.md '{basewidgetpath}/Configuration/columns/#dataField'), [caption](/api-reference/_hidden/GridBaseColumn/caption.md '{basewidgetpath}/Configuration/columns/#caption'), or [unique name](/api-reference/_hidden/GridBaseColumn/name.md '{basewidgetpath}/Configuration/columns/#name') of the column to which the cell belongs.
 
 ##### param(value): any
 The cell's new value.
 
 ---
-Call [saveEditData()]({basewidgetpath}/Methods/#saveEditData) after this method to save the changes:
+Call [saveEditData()](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/saveEditData().md '{basewidgetpath}/Methods/#saveEditData') after this method to save the changes:
 
 ---
 #####jQuery

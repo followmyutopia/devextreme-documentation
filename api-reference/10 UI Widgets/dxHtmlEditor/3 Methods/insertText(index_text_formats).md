@@ -3,7 +3,7 @@ id: dxHtmlEditor.insertText(index, text, formats)
 ---
 ---
 ##### shortDescription
-Inserts formatted text at the specified position. Used with all formats except [embedded](/Documentation/Guide/Widgets/HtmlEditor/Formats/).
+Inserts formatted text at the specified position. Used with all formats except [embedded](/concepts/05%20Widgets/HtmlEditor/10%20Formats/10%20Formats.md '/Documentation/Guide/Widgets/HtmlEditor/Formats/').
 
 ##### param(index): Number
 A zero-based index at which to insert text.

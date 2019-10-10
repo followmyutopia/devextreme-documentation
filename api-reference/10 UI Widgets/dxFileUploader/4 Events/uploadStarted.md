@@ -34,7 +34,7 @@ Model data. Available only if Knockout is used.
 Specifies an XMLHttpRequest for the file.
 
 ---
-Main article: [onUploadStarted](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#onUploadStarted)
+Main article: [onUploadStarted](/api-reference/10%20UI%20Widgets/dxFileUploader/1%20Configuration/onUploadStarted.md '/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#onUploadStarted')
 
 #####See Also#####
 #include common-link-handleevents

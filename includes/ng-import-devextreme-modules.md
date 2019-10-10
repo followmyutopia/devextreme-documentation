@@ -1,4 +1,4 @@
-Go to the `NgModule` in which you are going to use DevExtreme components and import the required DevExtreme modules. Note that if [tree shaking](/Documentation/Guide/Angular_Components/Common_Features/Tree_Shaking/) is configured in your application, you can import the modules from `devextreme-angular`. Otherwise, you should import them from specific files. 
+Go to the `NgModule` in which you are going to use DevExtreme components and import the required DevExtreme modules. Note that if [tree shaking](/concepts/40%20Angular%20Components/40%20Common%20Features/10%20Tree%20Shaking.md '/Documentation/Guide/Angular_Components/Common_Features/Tree_Shaking/') is configured in your application, you can import the modules from `devextreme-angular`. Otherwise, you should import them from specific files. 
 
     <!-- tab: app.module.ts -->
     // ...

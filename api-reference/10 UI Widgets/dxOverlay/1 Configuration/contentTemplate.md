@@ -16,4 +16,4 @@ A template name or container.
 ---
 #####See Also#####
 - [Customize the Content](/Documentation/Guide/Widgets/{WidgetName}/Customize_the_Appearance/Customize_the_Content/)
-- [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
+- [Custom Templates](/concepts/05%20Widgets/zz%20Common/30%20Templates/10%20Custom%20Templates.md '/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates')

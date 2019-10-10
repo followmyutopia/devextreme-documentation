@@ -2,7 +2,7 @@ A recurring appointment is an appointment that repeats after a specified period 
 
 ![Scheduler Recurring Appointment](/Content/images/doc/19_2/UiWidgets/Scheduler_RecurrentAppointment.png)
 
-An object defining a recurring appointment should contain the [recurrenceRule](/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/#recurrenceRule) field that follows the <a href="https://tools.ietf.org/html/rfc2445#section-4.3.10" target="_blank">iCalendar RFC 2445</a> specification.
+An object defining a recurring appointment should contain the [recurrenceRule](/api-reference/10%20UI%20Widgets/dxScheduler/5%20Default%20Appointment%20Template/recurrenceRule.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/#recurrenceRule') field that follows the <a href="https://tools.ietf.org/html/rfc2445#section-4.3.10" target="_blank">iCalendar RFC 2445</a> specification.
 
     <!--JavaScript-->
     var recurringAppointment = [{
@@ -12,7 +12,7 @@ An object defining a recurring appointment should contain the [recurrenceRule](/
         recurrenceRule: "FREQ=DAILY"
     }];
 
-If you want to exclude appointments from a recurrence, specify exceptions to the current recurring appointment using the [recurrenceException](/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/#recurrenceException) option.
+If you want to exclude appointments from a recurrence, specify exceptions to the current recurring appointment using the [recurrenceException](/api-reference/10%20UI%20Widgets/dxScheduler/5%20Default%20Appointment%20Template/recurrenceException.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/#recurrenceException') option.
 
     <!--JavaScript-->var recurringAppointment = [{
         text: "Meeting",
@@ -25,7 +25,7 @@ If you want to exclude appointments from a recurrence, specify exceptions to the
 
 [note]A time component of each item of the **recurrenceException** field must be the same as the time specified in the **startDate** field.
 
-If your appointments contain other data fields instead of **recurrenceRule** and **recurrenceException**, assign their names to the [recurrenceRuleExpr](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#recurrenceRuleExpr) and [recurrenceExceptionExpr](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#recurrenceExceptionExpr) options of the **Scheduler** instead. 
+If your appointments contain other data fields instead of **recurrenceRule** and **recurrenceException**, assign their names to the [recurrenceRuleExpr](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/recurrenceRuleExpr.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#recurrenceRuleExpr') and [recurrenceExceptionExpr](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/recurrenceExceptionExpr.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#recurrenceExceptionExpr') options of the **Scheduler** instead. 
 
 ---
 
@@ -85,9 +85,9 @@ These fields will be saved as the **recurrenceRule** field of an appointment obj
 }
 
 #####See Also#####
-- [Scheduler - Add Appointments](/Documentation/Guide/Widgets/Scheduler/Appointments/Add_Appointments/)
-- [Scheduler - Update Appointments](/Documentation/Guide/Widgets/Scheduler/Appointments/Update_Appointments/)
-- [Scheduler - Delete Appointments](/Documentation/Guide/Widgets/Scheduler/Appointments/Delete_Appointments/)
-- [Scheduler - Customize Appointment](/Documentation/Guide/Widgets/Scheduler/Appointments/Customize_Appointment/)
+- [Scheduler - Add Appointments](/concepts/05%20Widgets/Scheduler/030%20Appointments/020%20Add%20Appointments/Add%20Appointments.md '/Documentation/Guide/Widgets/Scheduler/Appointments/Add_Appointments/')
+- [Scheduler - Update Appointments](/concepts/05%20Widgets/Scheduler/030%20Appointments/030%20Update%20Appointments/Update%20Appointments.md '/Documentation/Guide/Widgets/Scheduler/Appointments/Update_Appointments/')
+- [Scheduler - Delete Appointments](/concepts/05%20Widgets/Scheduler/030%20Appointments/040%20Delete%20Appointments/Delete%20Appointments.md '/Documentation/Guide/Widgets/Scheduler/Appointments/Delete_Appointments/')
+- [Scheduler - Customize Appointment](/concepts/05%20Widgets/Scheduler/030%20Appointments/050%20Customize%20Appointment.md '/Documentation/Guide/Widgets/Scheduler/Appointments/Customize_Appointment/')
 - [Scheduler Demos](/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/)
-- [Scheduler API Reference](/Documentation/ApiReference/UI_Widgets/dxScheduler/)
+- [Scheduler API Reference](/api-reference/10%20UI%20Widgets/dxScheduler/dxScheduler.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/')

@@ -16,4 +16,4 @@ Configures tasks.
 
 
 #####See Also#####
-- [showResources](/Documentation/ApiReference/UI_Widgets/dxGantt/Configuration/#showResources)
+- [showResources](/api-reference/10%20UI%20Widgets/dxGantt/1%20Configuration/showResources.md '/Documentation/ApiReference/UI_Widgets/dxGantt/Configuration/#showResources')

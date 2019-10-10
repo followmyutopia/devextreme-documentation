@@ -8,9 +8,9 @@ type: String
 Specifies how to aggregate series points.
 
 ---
-Series points get aggregated by individual [aggregation intervals](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/aggregationInterval/). The following list describes available aggregation methods per series type:
+Series points get aggregated by individual [aggregation intervals](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/aggregationInterval/aggregationInterval.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/aggregationInterval/'). The following list describes available aggregation methods per series type:
 
-- **[Line](/Documentation/Guide/Widgets/Chart/Series_Types/Line_Series/), [bar](/Documentation/Guide/Widgets/Chart/Series_Types/Bar_Series/), [area](/Documentation/Guide/Widgets/Chart/Series_Types/Area_Series/), and [Scatter](/Documentation/Guide/Widgets/Chart/Series_Types/Scatter_Series/) series:**     
+- **[Line](/concepts/05%20Widgets/Chart/11%20Series%20Types/10%20Line%20Series.md '/Documentation/Guide/Widgets/Chart/Series_Types/Line_Series/'), [bar](/concepts/05%20Widgets/Chart/11%20Series%20Types/20%20Bar%20Series/Bar%20Series.md '/Documentation/Guide/Widgets/Chart/Series_Types/Bar_Series/'), [area](/concepts/05%20Widgets/Chart/11%20Series%20Types/30%20Area%20Series.md '/Documentation/Guide/Widgets/Chart/Series_Types/Area_Series/'), and [Scatter](/concepts/05%20Widgets/Chart/11%20Series%20Types/40%20Scatter%20Series.md '/Documentation/Guide/Widgets/Chart/Series_Types/Scatter_Series/') series:**     
 
     - *"avg"*       
     Calculates the average of all point values in an interval.
@@ -27,17 +27,17 @@ Series points get aggregated by individual [aggregation intervals](/Documentatio
     - *"sum"*       
     Calculates the sum of all point values in an interval.
 
-- **[Bubble](/Documentation/Guide/Widgets/Chart/Series_Types/Bubble_Series/) series:**
+- **[Bubble](/concepts/05%20Widgets/Chart/11%20Series%20Types/50%20Bubble%20Series.md '/Documentation/Guide/Widgets/Chart/Series_Types/Bubble_Series/') series:**
 
     - *"avg"*       
     Calculates the average of all point values in an interval.
 
-- **[Financial](/Documentation/Guide/Widgets/Chart/Series_Types/Financial_Series/) series**:
+- **[Financial](/concepts/05%20Widgets/Chart/11%20Series%20Types/60%20Financial%20Series.md '/Documentation/Guide/Widgets/Chart/Series_Types/Financial_Series/') series**:
 
     - *"ohlc"*      
     Calculates the first open, last close, minimum low, and maximum high value in an interval.
 
-- **[Range](/Documentation/Guide/Widgets/Chart/Series_Types/Range_Series/) series**:
+- **[Range](/concepts/05%20Widgets/Chart/11%20Series%20Types/70%20Range%20Series.md '/Documentation/Guide/Widgets/Chart/Series_Types/Range_Series/') series**:
 
     - *"range"*         
     Calculates the range of values in an interval.
@@ -45,7 +45,7 @@ Series points get aggregated by individual [aggregation intervals](/Documentatio
 - **All series types**:
 
     - *"custom"*        
-    Applies a custom aggregate function specified in the [calculate](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/aggregation/#calculate) option. 
+    Applies a custom aggregate function specified in the [calculate](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CommonSeries/aggregation/calculate.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/aggregation/#calculate') option. 
 
 #include common-ref-enum with {
     enum: "`ChartSeriesAggregationMethod`",
@@ -53,4 +53,4 @@ Series points get aggregated by individual [aggregation intervals](/Documentatio
 }
 
 #####See Also#####
-- [Data Aggregation](/Documentation/Guide/Widgets/Chart/Data_Aggregation/)
+- [Data Aggregation](/concepts/05%20Widgets/Chart/88%20Data%20Aggregation/Data%20Aggregation.md '/Documentation/Guide/Widgets/Chart/Data_Aggregation/')

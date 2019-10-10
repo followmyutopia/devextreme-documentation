@@ -8,7 +8,7 @@ default: undefined
 Specifies a custom template for an annotation's tooltip.
 
 ##### param(annotationItem): dxChartAnnotationConfig | any
-The annotation's [configuration object](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/).
+The annotation's [configuration object](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/annotations/annotations.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/').
 
 ##### param(element): dxElement
 #include common-ref-elementparam with { element: "tooltip" }

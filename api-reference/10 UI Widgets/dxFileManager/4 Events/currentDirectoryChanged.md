@@ -19,4 +19,4 @@ The widget's instance.
 The model data. Available only if you use Knockout.
 
 ---
-Main article: [onCurrentDirectoryChanged](/Documentation/ApiReference/UI_Widgets/dxFileManager/Configuration/#onCurrentDirectoryChanged)
+Main article: [onCurrentDirectoryChanged](/api-reference/10%20UI%20Widgets/dxFileManager/1%20Configuration/onCurrentDirectoryChanged.md '/Documentation/ApiReference/UI_Widgets/dxFileManager/Configuration/#onCurrentDirectoryChanged')

@@ -2,7 +2,7 @@ The search panel allows searching for values in several columns at once. Search 
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid SearchPanel](/Content/images/doc/19_2/DataGrid/visual_elements/search_panel.png)
 
-To make the search panel visible, assign **true** to the [searchPanel](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/searchPanel/).**visible** option. You can set a column's [allowSearch](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowSearch) option to **false** if it should be excluded from searching. Note that this option inherits the [allowFiltering](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowFiltering) option's value by default.
+To make the search panel visible, assign **true** to the [searchPanel](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/searchPanel/searchPanel.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/searchPanel/').**visible** option. You can set a column's [allowSearch](/api-reference/_hidden/GridBaseColumn/allowSearch.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowSearch') option to **false** if it should be excluded from searching. Note that this option inherits the [allowFiltering](/api-reference/_hidden/GridBaseColumn/allowFiltering.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowFiltering') option's value by default.
 
 ---
 ##### jQuery
@@ -42,7 +42,7 @@ To make the search panel visible, assign **true** to the [searchPanel](/Document
     
 ---
 
-Use the **searchPanel**.[text](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/searchPanel/#text) option to predefine the search value. You can also change it at runtime by calling the [searchByText(text)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#searchByTexttext) method:
+Use the **searchPanel**.[text](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/searchPanel/text.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/searchPanel/#text') option to predefine the search value. You can also change it at runtime by calling the [searchByText(text)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#searchByTexttext) method:
 
 ---
 ##### jQuery
@@ -92,9 +92,9 @@ Use the **searchPanel**.[text](/Documentation/ApiReference/UI_Widgets/dxDataGrid
 
 ---
 
-Searching is performed differently depending on a column's [data type](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#dataType). Numeric, Boolean, and date columns require that a user enters a full value into the search panel. Searching columns containing string values and specifying the search value using the API requires entering only a part of a value.
+Searching is performed differently depending on a column's [data type](/api-reference/_hidden/GridBaseColumn/dataType.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#dataType'). Numeric, Boolean, and date columns require that a user enters a full value into the search panel. Searching columns containing string values and specifying the search value using the API requires entering only a part of a value.
 
 #####See Also#####
-- [Filtering API - Initial and Runtime Filtering](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/#API/Initial_and_Runtime_Filtering)
-- [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/)
+- [Filtering API - Initial and Runtime Filtering](/concepts/05%20Widgets/DataGrid/30%20Filtering%20and%20Searching/6%20API/1%20Initial%20and%20Runtime%20Filtering.md '/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/#API/Initial_and_Runtime_Filtering')
+- [remoteOperations](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/remoteOperations/remoteOperations.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/')
 - [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/Filtering/jQuery/Light/)

@@ -54,4 +54,4 @@ Topics in this section describe various elements of the **CircularGauge** widget
 </div>
 
 #####See Also#####
-- [CircularGauge API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge)
+- [CircularGauge API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxCircularGauge/dxCircularGauge.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge')

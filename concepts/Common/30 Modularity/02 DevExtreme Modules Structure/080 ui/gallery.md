@@ -2,7 +2,7 @@ Exposes the **Gallery** widget.
 
 Exports:
 
-- *default* - The [Gallery](/Documentation/ApiReference/UI_Widgets/dxGallery/) widget
+- *default* - The [Gallery](/api-reference/10%20UI%20Widgets/dxGallery/dxGallery.md '/Documentation/ApiReference/UI_Widgets/dxGallery/') widget
 
         require("ui/gallery");
         // ===== or =====

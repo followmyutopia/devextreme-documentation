@@ -1,4 +1,4 @@
-For a minor customization of **Accordion** panels, you can use the default item template. This template defines the appearance of a panel depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxAccordion/Default_Item_Template/) are present or absent from the panel's data object. For example, the following code generates three panels, the first and third are not customized, the second is disabled.
+For a minor customization of **Accordion** panels, you can use the default item template. This template defines the appearance of a panel depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxAccordion/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxAccordion/Default_Item_Template/') are present or absent from the panel's data object. For example, the following code generates three panels, the first and third are not customized, the second is disabled.
 
 
     <!--JavaScript-->var accordionData = [{
@@ -19,7 +19,7 @@ For a minor customization of **Accordion** panels, you can use the default item 
         });
     });
 
-Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For Angular, AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define templates for items and item titles.
+Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For Angular, AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/'). The following code shows how you can use **dxTemplate** to define templates for items and item titles.
 
 ---
 ##### Angular
@@ -134,7 +134,7 @@ Using the default item template is the easiest way to customize an item, but it 
 
 ---
 
-If you use jQuery alone, combine the HTML markup for items and their titles manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxAccordion/Configuration/#itemTemplate) and [itemTitleTemplate](/Documentation/ApiReference/UI_Widgets/dxAccordion/Configuration/#itemTitleTemplate) callback functions as shown in the following code.
+If you use jQuery alone, combine the HTML markup for items and their titles manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [itemTemplate](/api-reference/10%20UI%20Widgets/dxAccordion/1%20Configuration/itemTemplate.md '/Documentation/ApiReference/UI_Widgets/dxAccordion/Configuration/#itemTemplate') and [itemTitleTemplate](/api-reference/10%20UI%20Widgets/dxAccordion/1%20Configuration/itemTitleTemplate.md '/Documentation/ApiReference/UI_Widgets/dxAccordion/Configuration/#itemTitleTemplate') callback functions as shown in the following code.
 
     <!--JavaScript-->var accordionData = [{
         firstName: "John", lastName: "Smith",
@@ -166,7 +166,7 @@ If you use jQuery alone, combine the HTML markup for items and their titles manu
     url: "/Demos/WidgetsGallery/Demo/Accordion/Overview/jQuery/Light/"
 }
 
-You can also customize an individual item. For this purpose, declare a template for this item as a script and pass its `id` to the [template](/Documentation/ApiReference/UI_Widgets/dxAccordion/Default_Item_Template/#template) field of the item's data object.
+You can also customize an individual item. For this purpose, declare a template for this item as a script and pass its `id` to the [template](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/template.md '/Documentation/ApiReference/UI_Widgets/dxAccordion/Default_Item_Template/#template') field of the item's data object.
 
     <!--HTML--><script id="individualTemplate" type="text/html">
         <!-- ... -->
@@ -181,9 +181,9 @@ You can also customize an individual item. For this purpose, declare a template 
         // ...
     }];
 
-In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines) article.
+In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/concepts/05%20Widgets/zz%20Common/30%20Templates/30%203rd-Party%20Template%20Engines.md '/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines') article.
 
 #####See Also#####
-- [Accordion API Reference](/Documentation/ApiReference/UI_Widgets/dxAccordion/)
+- [Accordion API Reference](/api-reference/10%20UI%20Widgets/dxAccordion/dxAccordion.md '/Documentation/ApiReference/UI_Widgets/dxAccordion/')
 
 [tags]accordion, item appearance, customize, templates

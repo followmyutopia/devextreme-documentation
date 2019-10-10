@@ -13,7 +13,7 @@ The **LocalStore** is a store that provides an interface for loading and editing
 dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
 
 ---
-When configuring the **LocalStore**, specify the [name](/Documentation/ApiReference/Data_Layer/LocalStore/Configuration/#name) under which data should be saved in the browser's **localStorage** object.
+When configuring the **LocalStore**, specify the [name](/api-reference/30%20Data%20Layer/LocalStore/1%20Configuration/name.md '/Documentation/ApiReference/Data_Layer/LocalStore/Configuration/#name') under which data should be saved in the browser's **localStorage** object.
 
 ---
 ##### jQuery  
@@ -230,5 +230,5 @@ When configuring the **LocalStore**, specify the [name](/Documentation/ApiRefere
 #include datalayer-store-note-immutable with { name: "LocalStore" }
 
 #####See Also#####
-- [DataSource API Reference](/Documentation/ApiReference/Data_Layer/DataSource/)
-- [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/)
+- [DataSource API Reference](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/')
+- [Data Layer](/concepts/30%20Data%20Layer/5%20Data%20Layer/Data%20Layer.md '/Documentation/Guide/Data_Layer/Data_Layer/')

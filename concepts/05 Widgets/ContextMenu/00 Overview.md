@@ -4,7 +4,7 @@ The **ContextMenu** widget displays a single- or multi-level context menu. An en
     url: "/Demos/WidgetsGallery/#demo/actions_and_lists-context_menu-overview"
 }
 
-The following code adds the **ContextMenu** widget to your page and binds it to an image using the [target](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Configuration/#target) option. Note that the data source of the widget declares several nesting levels. Items in the resulting context menu mirror this structure.
+The following code adds the **ContextMenu** widget to your page and binds it to an image using the [target](/api-reference/10%20UI%20Widgets/dxContextMenu/1%20Configuration/target.md '/Documentation/ApiReference/UI_Widgets/dxContextMenu/Configuration/#target') option. Note that the data source of the widget declares several nesting levels. Items in the resulting context menu mirror this structure.
 
 ---
 #####jQuery
@@ -88,9 +88,9 @@ The following code adds the **ContextMenu** widget to your page and binds it to 
 
 #####See Also#####
 #include common-link-configurewidget
-- [ContextMenu - Access the Clicked Item](/Documentation/Guide/Widgets/ContextMenu/Access_the_Clicked_Item/)
-- [ContextMenu - Customize Item Appearance](/Documentation/Guide/Widgets/ContextMenu/Customize_Item_Appearance)
-- [ContextMenu - Open and Close](/Documentation/Guide/Widgets/ContextMenu/Open_and_Close_the_Context_Menu/)
-- [ContextMenu API Reference](/Documentation/ApiReference/UI_Widgets/dxContextMenu/)
+- [ContextMenu - Access the Clicked Item](/concepts/05%20Widgets/ContextMenu/03%20Access%20the%20Clicked%20Item.md '/Documentation/Guide/Widgets/ContextMenu/Access_the_Clicked_Item/')
+- [ContextMenu - Customize Item Appearance](/concepts/05%20Widgets/ContextMenu/05%20Customize%20Item%20Appearance.md '/Documentation/Guide/Widgets/ContextMenu/Customize_Item_Appearance')
+- [ContextMenu - Open and Close](/concepts/05%20Widgets/ContextMenu/10%20Open%20and%20Close%20the%20Context%20Menu/Open%20and%20Close%20the%20Context%20Menu.md '/Documentation/Guide/Widgets/ContextMenu/Open_and_Close_the_Context_Menu/')
+- [ContextMenu API Reference](/api-reference/10%20UI%20Widgets/dxContextMenu/dxContextMenu.md '/Documentation/ApiReference/UI_Widgets/dxContextMenu/')
 
 [tags]context menu, contextMenu, navigation, collection container, collection widget, overview

@@ -1,4 +1,4 @@
-To execute certain commands when the **List** is scrolled, handle the [scroll](/Documentation/ApiReference/UI_Widgets/dxList/Events/#scroll) event. If the event handling function is not going to be changed during the lifetime of the widget, assign it to the **onScroll** option when you configure the widget.
+To execute certain commands when the **List** is scrolled, handle the [scroll](/api-reference/10%20UI%20Widgets/dxList/4%20Events/scroll.md '/Documentation/ApiReference/UI_Widgets/dxList/Events/#scroll') event. If the event handling function is not going to be changed during the lifetime of the widget, assign it to the **onScroll** option when you configure the widget.
 
 ---
 #####jQuery
@@ -61,4 +61,4 @@ If you are going to change the **scroll** event handler at runtime, or if you ne
 #####See Also#####
 #include common-link-handleevents
 - [List Demos](/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/)
-- [List API Reference](/Documentation/ApiReference/UI_Widgets/dxList/)
+- [List API Reference](/api-reference/10%20UI%20Widgets/dxList/dxList.md '/Documentation/ApiReference/UI_Widgets/dxList/')

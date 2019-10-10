@@ -5,11 +5,11 @@ default: false
 ---
 ---
 ##### shortDescription
-Specifies whether the widget should hide columns to adapt to the screen or container size. Ignored if [allowColumnResizing]({basewidgetpath}/Configuration/#allowColumnResizing) is **true** and [columnResizingMode]({basewidgetpath}/Configuration/#columnResizingMode) is *"widget"*.
+Specifies whether the widget should hide columns to adapt to the screen or container size. Ignored if [allowColumnResizing](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/allowColumnResizing.md '{basewidgetpath}/Configuration/#allowColumnResizing') is **true** and [columnResizingMode](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/columnResizingMode.md '{basewidgetpath}/Configuration/#columnResizingMode') is *"widget"*.
 
 ---
-This option set to **true** makes the widget hide certain columns automatically if all the columns do not fit the widget's width. Columns with low [hidingPriority]({basewidgetpath}/Configuration/columns/#hidingPriority) are hidden first. These are the rightmost (leftmost if [rtlEnabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#rtlEnabled) is **true**) columns by default. Information from hidden columns is available in an adaptive detail row.
+This option set to **true** makes the widget hide certain columns automatically if all the columns do not fit the widget's width. Columns with low [hidingPriority](/api-reference/_hidden/GridBaseColumn/hidingPriority.md '{basewidgetpath}/Configuration/columns/#hidingPriority') are hidden first. These are the rightmost (leftmost if [rtlEnabled](/api-reference/10%20UI%20Widgets/DOMComponent/1%20Configuration/rtlEnabled.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#rtlEnabled') is **true**) columns by default. Information from hidden columns is available in an adaptive detail row.
 
 #####See Also#####
-- [onAdaptiveDetailRowPreparing]({basewidgetpath}/Configuration/#onAdaptiveDetailRowPreparing)
+- [onAdaptiveDetailRowPreparing](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onAdaptiveDetailRowPreparing.md '{basewidgetpath}/Configuration/#onAdaptiveDetailRowPreparing')
 - [Adaptability](/Documentation/Guide/Widgets/{WidgetName}/Columns/Adaptability/)

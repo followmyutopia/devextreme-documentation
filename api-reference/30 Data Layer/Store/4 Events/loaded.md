@@ -10,4 +10,4 @@ Raised after data is loaded to the store.
 The loaded data.
 
 ---
-Main article: [onLoaded]({basewidgetpath}/Configuration/#onLoaded)
+Main article: [onLoaded](/api-reference/30%20Data%20Layer/Store/1%20Configuration/onLoaded.md '{basewidgetpath}/Configuration/#onLoaded')

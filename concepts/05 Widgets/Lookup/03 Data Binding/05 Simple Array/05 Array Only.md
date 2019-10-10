@@ -1,4 +1,4 @@
-Bind the **Lookup** to an array by passing it to the [dataSource](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#dataSource) option. The array may contain primitive values...
+Bind the **Lookup** to an array by passing it to the [dataSource](/api-reference/10%20UI%20Widgets/DataExpressionMixin/1%20Configuration/dataSource.md '/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#dataSource') option. The array may contain primitive values...
 
 ---
 #####jQuery
@@ -84,7 +84,7 @@ Bind the **Lookup** to an array by passing it to the [dataSource](/Documentation
 
 ---
 
-You can create a [Query](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept) if objects in an array need to be processed (sorted, filtered, grouped, etc.). For example, in the following code, a Query sorts objects in the `products` array by the `price` field in descending order:
+You can create a [Query](/concepts/30%20Data%20Layer/5%20Data%20Layer/6%20Query%20Concept.md '/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept') if objects in an array need to be processed (sorted, filtered, grouped, etc.). For example, in the following code, a Query sorts objects in the `products` array by the `price` field in descending order:
 
 ---
 #####jQuery
@@ -139,9 +139,9 @@ You can create a [Query](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Conce
 ---
 
 #####See Also#####
-- [Data Layer - Query Concept](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept)
-- [Bind to the ArrayStore](/Documentation/Guide/Widgets/Lookup/Data_Binding/Simple_Array/ArrayStore/)
-- [Access the DataSource](/Documentation/Guide/Widgets/Lookup/Data_Binding/Access_the_DataSource/)
+- [Data Layer - Query Concept](/concepts/30%20Data%20Layer/5%20Data%20Layer/6%20Query%20Concept.md '/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept')
+- [Bind to the ArrayStore](/concepts/05%20Widgets/Lookup/03%20Data%20Binding/05%20Simple%20Array/10%20ArrayStore.md '/Documentation/Guide/Widgets/Lookup/Data_Binding/Simple_Array/ArrayStore/')
+- [Access the DataSource](/concepts/05%20Widgets/Lookup/03%20Data%20Binding/30%20Access%20the%20DataSource.md '/Documentation/Guide/Widgets/Lookup/Data_Binding/Access_the_DataSource/')
 - [Lookup Demos](/Demos/WidgetsGallery/Demo/Lookup/Basics/jQuery/Light/)
 
 [tags]lookup, data binding, provide data, array, process data, query

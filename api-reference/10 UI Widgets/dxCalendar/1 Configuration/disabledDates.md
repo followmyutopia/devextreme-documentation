@@ -17,7 +17,7 @@ The widget's [instance](/Documentation/ApiReference/UI_Widgets/dxCalendar/Method
 The currently checked date.
 
 ##### field(data.view): String
-The current [view](/Documentation/ApiReference/UI_Widgets/dxCalendar/Default_Cell_Template/#view).
+The current [view](/api-reference/10%20UI%20Widgets/dxCalendar/5%20Default%20Cell%20Template/view.md '/Documentation/ApiReference/UI_Widgets/dxCalendar/Default_Cell_Template/#view').
 
 ##### return: Boolean
 **true** if the date should be disabled; otherwise **false**.
@@ -278,4 +278,4 @@ This option accepts an array of dates...
 }
 
 #####See Also#####
-- [Specify the Value Range](/Documentation/Guide/Widgets/Calendar/Specify_the_Value_Range/)
+- [Specify the Value Range](/concepts/05%20Widgets/Calendar/12%20Specify%20the%20Value%20Range.md '/Documentation/Guide/Widgets/Calendar/Specify_the_Value_Range/')

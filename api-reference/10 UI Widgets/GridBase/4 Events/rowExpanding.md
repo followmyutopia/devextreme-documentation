@@ -25,7 +25,7 @@ The key of the group or master row.
 Model data. Available only if you use Knockout.
 
 ---
-Main article: [onRowExpanding]({basewidgetpath}/Configuration/#onRowExpanding)
+Main article: [onRowExpanding](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onRowExpanding.md '{basewidgetpath}/Configuration/#onRowExpanding')
 
 #####See Also#####
 #include common-link-handleevents

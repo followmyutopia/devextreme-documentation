@@ -15,6 +15,6 @@ A zero-based index indicating the range's start.
 
 ##### param(length): Number
 The range's length.     
-[Embedded items](/Documentation/Guide/Widgets/HtmlEditor/Formats/) have a length of 1.
+[Embedded items](/concepts/05%20Widgets/HtmlEditor/10%20Formats/10%20Formats.md '/Documentation/Guide/Widgets/HtmlEditor/Formats/') have a length of 1.
 
 ---

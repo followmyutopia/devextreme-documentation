@@ -19,7 +19,7 @@ The widget's instance.
 Model data. Available only if you use Knockout.
 
 ---
-Main article: [onShown](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Configuration/#onShown)
+Main article: [onShown](/api-reference/10%20UI%20Widgets/dxContextMenu/1%20Configuration/onShown.md '/Documentation/ApiReference/UI_Widgets/dxContextMenu/Configuration/#onShown')
 
 #####See Also#####
 #include common-link-handleevents

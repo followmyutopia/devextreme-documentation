@@ -2,7 +2,7 @@ Exposes the **RadioGroup** widget.
 
 Exports:
 
-- *default* - The [RadioGroup](/Documentation/ApiReference/UI_Widgets/dxRadioGroup/) widget
+- *default* - The [RadioGroup](/api-reference/10%20UI%20Widgets/dxRadioGroup/dxRadioGroup.md '/Documentation/ApiReference/UI_Widgets/dxRadioGroup/') widget
 
         require("ui/radio_group");
         // ===== or =====

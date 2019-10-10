@@ -22,7 +22,7 @@ The widget's instance.
 Model data. Available only if Knockout is used.
 
 ---
-Main article: [onHiding]({basewidgetpath}/Configuration/#onHiding)
+Main article: [onHiding](/api-reference/10%20UI%20Widgets/dxOverlay/1%20Configuration/onHiding.md '{basewidgetpath}/Configuration/#onHiding')
 
 #####See Also#####
 #include common-link-handleevents

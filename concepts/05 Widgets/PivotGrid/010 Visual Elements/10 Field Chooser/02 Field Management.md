@@ -1,4 +1,4 @@
-By default, all fields from a data source object are visible in the *"All Fields"* section of the Field Chooser. To hide a specific field, assign **false** to its [visible](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#visible) property.
+By default, all fields from a data source object are visible in the *"All Fields"* section of the Field Chooser. To hide a specific field, assign **false** to its [visible](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/visible.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#visible') property.
 
     <!--JavaScript-->var pivotGridOptions = {
         // ...
@@ -13,7 +13,7 @@ By default, all fields from a data source object are visible in the *"All Fields
         }
     };
 
-Using the Field Chooser, the end-user moves fields between areas with no restrictions by default. Occasionally, you may need to specify the area to which a field must belong. For example, the field that provides data for summary should not be placed anywhere except the data area. For such a field, set the [isMeasure](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#isMeasure) option to **true**.
+Using the Field Chooser, the end-user moves fields between areas with no restrictions by default. Occasionally, you may need to specify the area to which a field must belong. For example, the field that provides data for summary should not be placed anywhere except the data area. For such a field, set the [isMeasure](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/isMeasure.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#isMeasure') option to **true**.
 
     <!--JavaScript-->var pivotGridOptions = {
         // ...

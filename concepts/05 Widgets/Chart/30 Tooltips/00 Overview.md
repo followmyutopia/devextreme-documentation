@@ -1,8 +1,8 @@
-A tooltip is a small pop-up rectangle displaying information about a [series point](/Documentation/Guide/Widgets/Chart/Series_Points/Overview/) that the user pauses on. By default, the information is the point value, but it is possible to display anything in a tooltip.
+A tooltip is a small pop-up rectangle displaying information about a [series point](/concepts/05%20Widgets/Chart/14%20Series%20Points/00%20Overview.md '/Documentation/Guide/Widgets/Chart/Series_Points/Overview/') that the user pauses on. By default, the information is the point value, but it is possible to display anything in a tooltip.
 
 ![DevExtreme HTML5 JavaScript Charts Tooltip](/Content/images/doc/19_2/ChartJS/visual_elements/tooltip.png)
 
-All options configuring tooltips are collected in the [tooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/tooltip/) object. For example, to enable the tooltips, assign **true** to the **enabled** option of this object.
+All options configuring tooltips are collected in the [tooltip](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/tooltip/tooltip.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/tooltip/') object. For example, to enable the tooltips, assign **true** to the **enabled** option of this object.
 
 ---
 ##### jQuery
@@ -40,7 +40,7 @@ All options configuring tooltips are collected in the [tooltip](/Documentation/A
 
 ---
 
-Options declared in the **tooltip** object apply to all tooltips in the **Chart**. If you want to customize a specific tooltip, assign a function to the [customizeTooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/tooltip/#customizeTooltip) option. This function must return an object with options for the tooltip that you want to customize.
+Options declared in the **tooltip** object apply to all tooltips in the **Chart**. If you want to customize a specific tooltip, assign a function to the [customizeTooltip](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/1%20Configuration/tooltip/customizeTooltip.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/tooltip/#customizeTooltip') option. This function must return an object with options for the tooltip that you want to customize.
 
 ---
 ##### jQuery
@@ -91,8 +91,8 @@ Options declared in the **tooltip** object apply to all tooltips in the **Chart*
 ---
 
 #####See Also#####
-- [Show and Hide a Tooltip](/Documentation/Guide/Widgets/Chart/Tooltips/Show_and_Hide_a_Tooltip/)
-- [Handle Tooltip Events](/Documentation/Guide/Widgets/Chart/Tooltips/Handle_Tooltip_Events/)
-- [Chart API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/)
+- [Show and Hide a Tooltip](/concepts/05%20Widgets/Chart/30%20Tooltips/10%20Show%20and%20Hide%20a%20Tooltip.md '/Documentation/Guide/Widgets/Chart/Tooltips/Show_and_Hide_a_Tooltip/')
+- [Handle Tooltip Events](/concepts/05%20Widgets/Chart/30%20Tooltips/20%20Handle%20Tooltip%20Events.md '/Documentation/Guide/Widgets/Chart/Tooltips/Handle_Tooltip_Events/')
+- [Chart API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/dxChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/')
 
 [tags]chart, tooltips, enable tooltips, customizeTooltip

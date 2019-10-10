@@ -2,7 +2,7 @@ A constant line is a straght line that extends over the entire **Chart** and ind
 
 ![DevExtreme HTML5 JavaScript Charts ConstantLines](/Content/images/doc/19_2/ChartJS/visual_elements/constant_lines.png)
 
-To configure the constant lines, declare the [constantLines](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/constantLines/) array in the [argumentAxis](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/) or [valueAxis](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/) object. This array should contain objects, and each one of them configures a single constant line. A constant line demands at least the [value](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/constantLines/#value) option to be set. 
+To configure the constant lines, declare the [constantLines](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/constantLines/constantLines.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/constantLines/') array in the [argumentAxis](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/argumentAxis.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/') or [valueAxis](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis/valueAxis.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/') object. This array should contain objects, and each one of them configures a single constant line. A constant line demands at least the [value](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/constantLines/value.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/constantLines/#value') option to be set. 
 
 ---
 ##### jQuery
@@ -56,13 +56,13 @@ To configure the constant lines, declare the [constantLines](/Documentation/ApiR
 
 If several constant lines should have a uniform style, you can specify it using one of the following objects.
 
-- **argumentAxis**.[constantLineStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/constantLineStyle/)         
+- **argumentAxis**.[constantLineStyle](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/constantLineStyle/constantLineStyle.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/constantLineStyle/')         
 Style for constant lines belonging to the argument axis.
 
-- **valueAxis**.[constantLineStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/constantLineStyle/)         
+- **valueAxis**.[constantLineStyle](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis/constantLineStyle/constantLineStyle.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/constantLineStyle/')         
 Style for constant lines belonging to the value axis.
 
-- **commonAxisSettings**.[constantLineStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/constantLineStyle/)         
+- **commonAxisSettings**.[constantLineStyle](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonAxisSettings/constantLineStyle/constantLineStyle.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/constantLineStyle/')         
 Style for all constant lines in the **Chart**.
 
 Note that individual settings override axis-specific settings which, in turn, override common settings.
@@ -139,14 +139,14 @@ Note that individual settings override axis-specific settings which, in turn, ov
     
 ---
 
-For information about all options of the constant lines, visit the [constantLines](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/constantLines/) section of the API reference.
+For information about all options of the constant lines, visit the [constantLines](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/constantLines/constantLines.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/constantLines/') section of the API reference.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Charts/ServerSideDataProcessing/Knockout/Light/"
 }
 
 #####See Also#####
-- [Grid](/Documentation/Guide/Widgets/Chart/Grid/)
-- [Strips](/Documentation/Guide/Widgets/Chart/Strips/)
+- [Grid](/concepts/05%20Widgets/Chart/55%20Grid/00%20Grid.md '/Documentation/Guide/Widgets/Chart/Grid/')
+- [Strips](/concepts/05%20Widgets/Chart/60%20Strips.md '/Documentation/Guide/Widgets/Chart/Strips/')
 
 [tags]chart, constant lines

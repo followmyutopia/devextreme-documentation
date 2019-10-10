@@ -1,4 +1,4 @@
-To add markers at design-time, pass an array of objects to the [markers](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/markers/) option. A marker requires only its [location](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/markers/location/) to be specified.
+To add markers at design-time, pass an array of objects to the [markers](/api-reference/10%20UI%20Widgets/dxMap/1%20Configuration/markers/markers.md '/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/markers/') option. A marker requires only its [location](/api-reference/10%20UI%20Widgets/dxMap/1%20Configuration/markers/location/location.md '/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/markers/location/') to be specified.
 
 ---
 ##### jQuery
@@ -73,7 +73,7 @@ To add or remove a marker at runtime, call the [addMarker(markerOptions)](/Docum
     // Removes the markers with indexes 0 and 4 in the "markers" array
     map.removeMarker([0, 4]);
 
-In the following code, a marker is added each time a user clicks someplace on the **Map**. The last marker from the **markers**  array is removed when the user clicks the [Button](/Documentation/Guide/Widgets/Button/Overview/) under the **Map**.
+In the following code, a marker is added each time a user clicks someplace on the **Map**. The last marker from the **markers**  array is removed when the user clicks the [Button](/concepts/05%20Widgets/Button/00%20Overview.md '/Documentation/Guide/Widgets/Button/Overview/') under the **Map**.
 
     <!--JavaScript-->
     $(function() {
@@ -205,9 +205,9 @@ With Angular, AngularJS, or Knockout, use a different technique. Bind the **mark
 ---
 
 #####See Also#####
-- [Map - Customize Markers](/Documentation/Guide/Widgets/Map/Configure_Markers/Customize/)
-- [Map - Handle Marker Related Events](/Documentation/Guide/Widgets/Map/Configure_Markers/Handle_the_Related_Events/)
+- [Map - Customize Markers](/concepts/05%20Widgets/Map/20%20Configure%20Markers/10%20Customize.md '/Documentation/Guide/Widgets/Map/Configure_Markers/Customize/')
+- [Map - Handle Marker Related Events](/concepts/05%20Widgets/Map/20%20Configure%20Markers/15%20Handle%20the%20Related%20Events.md '/Documentation/Guide/Widgets/Map/Configure_Markers/Handle_the_Related_Events/')
 - [Map Demos](/Demos/WidgetsGallery/#demo/maps-map-markers)
-- [Map API Reference](/Documentation/ApiReference/UI_Widgets/dxMap/)
+- [Map API Reference](/api-reference/10%20UI%20Widgets/dxMap/dxMap.md '/Documentation/ApiReference/UI_Widgets/dxMap/')
 
 [tags]map, markers, location, add marker, remove marker, add on click

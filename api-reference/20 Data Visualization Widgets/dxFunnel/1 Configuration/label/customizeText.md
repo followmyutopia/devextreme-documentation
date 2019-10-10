@@ -10,19 +10,19 @@ Customizes labels' text.
 Information on the funnel item.
 
 ##### field(itemInfo.item): dxFunnelItem
-The [Item](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/) object.
+The [Item](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/6%20Item/Item.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/') object.
 
 ##### field(itemInfo.percent): Number
 The item's percentage value.
 
 ##### field(itemInfo.percentText): String
-The item's [formatted](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/label/#format) percentage value converted to a string.
+The item's [formatted](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/1%20Configuration/label/format.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/label/#format') percentage value converted to a string.
 
 ##### field(itemInfo.value): Number
 The raw item value.
 
 ##### field(itemInfo.valueText): String
-The item's [formatted](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/label/#format) value converted to a string.
+The item's [formatted](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/1%20Configuration/label/format.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/label/#format') value converted to a string.
 
 ##### return: String
 The text for the label to display.

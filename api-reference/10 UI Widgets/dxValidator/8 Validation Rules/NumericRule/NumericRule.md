@@ -12,4 +12,4 @@ A validation rule that demands that the validated field has a numeric value.
 }
 
 #####See Also#####
-- [Data Validation](/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/)
+- [Data Validation](/concepts/05%20Widgets/zz%20Common/05%20UI%20Widgets/20%20Data%20Validation/Data%20Validation.md '/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/')

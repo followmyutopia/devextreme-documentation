@@ -1,4 +1,4 @@
-To bind the **TreeList** to an array, pass this array to the [dataSource](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataSource) option.
+To bind the **TreeList** to an array, pass this array to the [dataSource](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/dataSource.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataSource') option.
 
 ---
 ##### jQuery
@@ -48,7 +48,7 @@ To bind the **TreeList** to an array, pass this array to the [dataSource](/Docum
     url: "/Demos/WidgetsGallery/Demo/TreeList/SimpleArrayPlainStructure/jQuery/Light/"
 }
 
-If objects in the array need to be processed (sorted or filtered), you can create a [Query](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept). For example, in the following code, a Query sorts objects in the `employees` array in the descending order by the `fullName` field.
+If objects in the array need to be processed (sorted or filtered), you can create a [Query](/concepts/30%20Data%20Layer/5%20Data%20Layer/6%20Query%20Concept.md '/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept'). For example, in the following code, a Query sorts objects in the `employees` array in the descending order by the `fullName` field.
 
 ---
 ##### jQuery
@@ -97,7 +97,7 @@ If objects in the array need to be processed (sorted or filtered), you can creat
 ---
 
 #####See Also#####
-- [Data Layer - Query Concept](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept)
-- [TreeList | Data Binding - ArrayStore](/Documentation/Guide/Widgets/TreeList/Data_Binding/Simple_Array/ArrayStore/)
+- [Data Layer - Query Concept](/concepts/30%20Data%20Layer/5%20Data%20Layer/6%20Query%20Concept.md '/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept')
+- [TreeList | Data Binding - ArrayStore](/concepts/05%20Widgets/TreeList/05%20Data%20Binding/020%20Simple%20Array/15%20ArrayStore.md '/Documentation/Guide/Widgets/TreeList/Data_Binding/Simple_Array/ArrayStore/')
 
 [tags]treeList, data binding, provide data, array, process data, query

@@ -2,7 +2,7 @@ Exposes the **SelectBox** widget.
 
 Exports:
 
-- *default* - The [SelectBox](/Documentation/ApiReference/UI_Widgets/dxSelectBox/) widget
+- *default* - The [SelectBox](/api-reference/10%20UI%20Widgets/dxSelectBox/dxSelectBox.md '/Documentation/ApiReference/UI_Widgets/dxSelectBox/') widget
 
         require("ui/select_box");
         // ===== or =====

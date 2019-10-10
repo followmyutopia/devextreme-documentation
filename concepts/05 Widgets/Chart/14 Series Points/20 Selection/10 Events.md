@@ -1,4 +1,4 @@
-When a user selects a series point, the **Chart** fires the [pointSelectionChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#pointSelectionChanged) event that you can handle with a function. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onPointSelectionChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onPointSelectionChanged) option when you configure the widget. To check whether a point was selected or the selection was cleared, call the [isSelected()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/Methods/#isSelected) method of the point.
+When a user selects a series point, the **Chart** fires the [pointSelectionChanged](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/4%20Events/pointSelectionChanged.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#pointSelectionChanged') event that you can handle with a function. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onPointSelectionChanged](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/1%20Configuration/onPointSelectionChanged.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onPointSelectionChanged') option when you configure the widget. To check whether a point was selected or the selection was cleared, call the [isSelected()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/Methods/#isSelected) method of the point.
 
 ---
 ##### jQuery
@@ -66,5 +66,5 @@ If you are going to change the event handler at runtime, or if you need to attac
 
 #####See Also#####
 #include common-link-handleevents
-- [Series Selection Events](/Documentation/Guide/Widgets/Chart/Series/Selection/#Events)
-- [Chart API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/)
+- [Series Selection Events](/concepts/05%20Widgets/Chart/10%20Series/20%20Selection/10%20Events.md '/Documentation/Guide/Widgets/Chart/Series/Selection/#Events')
+- [Chart API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/dxChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/')

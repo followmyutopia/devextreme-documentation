@@ -5,7 +5,7 @@ default: false
 ---
 ---
 ##### shortDescription
-Specifies whether to take neighboring groups' summary values into account when calculating a [running total](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#runningTotal) and [absolute or percent variation](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#summaryDisplayMode).
+Specifies whether to take neighboring groups' summary values into account when calculating a [running total](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/runningTotal.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#runningTotal') and [absolute or percent variation](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/summaryDisplayMode.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#summaryDisplayMode').
 
 ---
 For example, a pivot grid row contains the following summary values split into three groups:

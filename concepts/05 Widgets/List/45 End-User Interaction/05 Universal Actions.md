@@ -1,4 +1,4 @@
-Universal actions are those actions that raise the same event despite being performed differently on desktop platforms and on touch-enabled devices. For example, both a click and a tap on an item raise the [itemClick](/Documentation/ApiReference/UI_Widgets/dxList/Events/#itemClick) event. To handle it, assign a function to the [onItemClick](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onItemClick) option, or subscribe to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#oneventName_eventHandler) method.
+Universal actions are those actions that raise the same event despite being performed differently on desktop platforms and on touch-enabled devices. For example, both a click and a tap on an item raise the [itemClick](/api-reference/10%20UI%20Widgets/dxList/4%20Events/itemClick.md '/Documentation/ApiReference/UI_Widgets/dxList/Events/#itemClick') event. To handle it, assign a function to the [onItemClick](/api-reference/10%20UI%20Widgets/dxList/1%20Configuration/onItemClick.md '/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onItemClick') option, or subscribe to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#oneventName_eventHandler) method.
 
 ---
 #####jQuery
@@ -55,23 +55,23 @@ Universal actions are those actions that raise the same event despite being perf
 
 The **List** supports other universal actions, which are provided as a part of basic **List** functionality. They are described in the following topics.
 
-- [Scrolling - Configure User Interaction](/Documentation/Guide/Widgets/List/Scrolling/#User_Interaction)
-- [Scrolling - Handle Related Events](/Documentation/Guide/Widgets/List/Scrolling/#Events)
+- [Scrolling - Configure User Interaction](/concepts/05%20Widgets/List/20%20Scrolling/01%20User%20Interaction.md '/Documentation/Guide/Widgets/List/Scrolling/#User_Interaction')
+- [Scrolling - Handle Related Events](/concepts/05%20Widgets/List/20%20Scrolling/10%20Events.md '/Documentation/Guide/Widgets/List/Scrolling/#Events')
 <!---->
 
-- [Selection - Configure User Interaction](/Documentation/Guide/Widgets/List/Selection/#User_Interaction)
-- [Selection - Handle Related Events](/Documentation/Guide/Widgets/List/Selection/#Events)
+- [Selection - Configure User Interaction](/concepts/05%20Widgets/List/25%20Selection/01%20User%20Interaction.md '/Documentation/Guide/Widgets/List/Selection/#User_Interaction')
+- [Selection - Handle Related Events](/concepts/05%20Widgets/List/25%20Selection/10%20Events.md '/Documentation/Guide/Widgets/List/Selection/#Events')
 <!---->
 
-- [Item Reordering - Configure User Interaction](/Documentation/Guide/Widgets/List/Item_Reordering/#User_Interaction)
-- [Item Reordering - Handle Related Events](/Documentation/Guide/Widgets/List/Item_Reordering/#Events)
+- [Item Reordering - Configure User Interaction](/concepts/05%20Widgets/List/30%20Item%20Reordering/01%20User%20Interaction.md '/Documentation/Guide/Widgets/List/Item_Reordering/#User_Interaction')
+- [Item Reordering - Handle Related Events](/concepts/05%20Widgets/List/30%20Item%20Reordering/10%20Events.md '/Documentation/Guide/Widgets/List/Item_Reordering/#Events')
 <!---->
 
-- [Item Deletion - Configure User Interaction](/Documentation/Guide/Widgets/List/Item_Deletion/#User_Interaction)
-- [Item Deletion - Handle Related Events](/Documentation/Guide/Widgets/List/Item_Deletion/#Events)
+- [Item Deletion - Configure User Interaction](/concepts/05%20Widgets/List/35%20Item%20Deletion/01%20User%20Interaction.md '/Documentation/Guide/Widgets/List/Item_Deletion/#User_Interaction')
+- [Item Deletion - Handle Related Events](/concepts/05%20Widgets/List/35%20Item%20Deletion/10%20Events.md '/Documentation/Guide/Widgets/List/Item_Deletion/#Events')
 
 #####See Also#####
 - [List Demos](/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/)
-- [List API Reference](/Documentation/ApiReference/UI_Widgets/dxList/)
+- [List API Reference](/api-reference/10%20UI%20Widgets/dxList/dxList.md '/Documentation/ApiReference/UI_Widgets/dxList/')
 
 [tags]list, item click, onItemClick

@@ -2,7 +2,7 @@ Exposes the **Toast** widget.
 
 Exports:
 
-- *default* - The [Toast](/Documentation/ApiReference/UI_Widgets/dxToast/) widget
+- *default* - The [Toast](/api-reference/10%20UI%20Widgets/dxToast/dxToast.md '/Documentation/ApiReference/UI_Widgets/dxToast/') widget
 
         require("ui/toast");
         // ===== or =====

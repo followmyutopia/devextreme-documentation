@@ -1,4 +1,4 @@
-To process a new **CheckBox** value, you need to handle the value change event. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onValueChanged](/Documentation/ApiReference/UI_Widgets/dxCheckBox/Configuration/#onValueChanged) option when you configure the widget.
+To process a new **CheckBox** value, you need to handle the value change event. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onValueChanged](/api-reference/10%20UI%20Widgets/Editor/1%20Configuration/onValueChanged.md '/Documentation/ApiReference/UI_Widgets/dxCheckBox/Configuration/#onValueChanged') option when you configure the widget.
 
 ---
 ##### jQuery
@@ -63,6 +63,6 @@ If you are going to change event handlers at runtime, or if you need to attach s
 #####See Also#####
 #include common-link-handleevents
 - [CheckBox Demos](/Demos/WidgetsGallery/#demo/editors-check_box-overview)
-- [CheckBox API Reference](/Documentation/ApiReference/UI_Widgets/dxCheckBox/)
+- [CheckBox API Reference](/api-reference/10%20UI%20Widgets/dxCheckBox/dxCheckBox.md '/Documentation/ApiReference/UI_Widgets/dxCheckBox/')
 
 [tags]check box, checkBox, editor, get value, set value

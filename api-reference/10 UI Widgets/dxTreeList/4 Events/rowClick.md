@@ -10,7 +10,7 @@ Raised when a row is clicked or tapped.
 Information about the event.
 
 ##### field(e.columns): Array<Object>
-All column [configurations](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/).
+All column [configurations](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/columns/columns.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/').
 
 ##### field(e.component): {WidgetName}
 The widget's instance.
@@ -44,10 +44,10 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 
 ##### field(e.key): any
 The row's key. Available if the **rowType** is *"data"*, *"detail"* or *"detailAdaptive"*.       
-For plain data, the key value depends on the [keyExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#keyExpr) option. For hierarchical data, the key is generated automatically or set in the underlying **Store** of the [data source](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataSource).
+For plain data, the key value depends on the [keyExpr](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/keyExpr.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#keyExpr') option. For hierarchical data, the key is generated automatically or set in the underlying **Store** of the [data source](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/dataSource.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataSource').
 
 ##### field(e.level): Number
-The node's [hierarchical level](/Documentation/ApiReference/UI_Widgets/dxTreeList/Node/#level).
+The node's [hierarchical level](/api-reference/10%20UI%20Widgets/dxTreeList/4%20Node/level.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Node/#level').
 
 ##### field(e.model): Object
 Model data. Available only if you use Knockout.
@@ -59,16 +59,16 @@ The row's node.
 #include common-ref-elementparam with { element: "row" }
 
 ##### field(e.rowIndex): Number
-The row's index. Refer to [Column and Row Indexes](/Documentation/Guide/Widgets/TreeList/Columns/Column_and_Row_Indexes/) for more information.
+The row's index. Refer to [Column and Row Indexes](/concepts/05%20Widgets/TreeList/10%20Columns/12%20Column%20and%20Row%20Indexes.md '/Documentation/Guide/Widgets/TreeList/Columns/Column_and_Row_Indexes/') for more information.
 
 ##### field(e.rowType): String
-The row's [type](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/#rowType).
+The row's [type](/api-reference/10%20UI%20Widgets/dxTreeList/6%20Row/rowType.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/#rowType').
 
 ##### field(e.values): Array<any>
 Values displayed in the row cells.
 
 ---
-Main article: [onRowClick](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onRowClick)
+Main article: [onRowClick](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/onRowClick.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onRowClick')
 
 #####See Also#####
 #include common-link-handleevents

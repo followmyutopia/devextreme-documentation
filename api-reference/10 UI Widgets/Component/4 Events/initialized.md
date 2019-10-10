@@ -16,7 +16,7 @@ The widget's instance.
 #include common-ref-elementparam with { element: "widget" }
 
 ---
-Main article: [onInitialized]({basewidgetpath}/Configuration/#onInitialized)
+Main article: [onInitialized](/api-reference/10%20UI%20Widgets/Component/1%20Configuration/onInitialized.md '{basewidgetpath}/Configuration/#onInitialized')
 
 #####See Also#####
 #include common-link-handleevents

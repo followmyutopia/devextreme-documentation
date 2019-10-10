@@ -5,7 +5,7 @@
 This option should be assigned a function returning a specific object. The following fields can be specified in this object.
 
 - **color**        
-Specifies the [color](/Documentation/ApiReference/Data_Visualization_Widgets/dxBullet/Configuration/tooltip/#color) of a tooltip.
+Specifies the [color](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/tooltip/color.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxBullet/Configuration/tooltip/#color') of a tooltip.
 
 - **text**        
 Specifies the text displayed by a tooltip.
@@ -35,4 +35,4 @@ Contains the target bullet value with applied formatting if the **format** optio
 #include dataviz-ref-functioncontext
 
 #####See Also#####
-- [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/)
+- [Data Formatting](/concepts/05%20Widgets/zz%20Common/10%20Data%20Visualization%20Widgets/30%20Data%20Formatting/Data%20Formatting.md '/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/')

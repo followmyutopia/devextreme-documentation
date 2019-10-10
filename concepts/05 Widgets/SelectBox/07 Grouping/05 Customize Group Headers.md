@@ -1,4 +1,4 @@
-By default, group headers display text of the **key** field in a bold font. You can define a custom template for the group headers if you need to. For Angular, AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define a template for group headers.
+By default, group headers display text of the **key** field in a bold font. You can define a custom template for the group headers if you need to. For Angular, AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/'). The following code shows how you can use **dxTemplate** to define a template for group headers.
 
 ---
 #####Angular
@@ -141,7 +141,7 @@ By default, group headers display text of the **key** field in a bold font. You 
 
 ---
 
-If you use jQuery alone, combine HTML markup for group headers manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [groupTemplate](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#groupTemplate) callback function as shown in the following code.
+If you use jQuery alone, combine HTML markup for group headers manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [groupTemplate](/api-reference/10%20UI%20Widgets/dxDropDownList/1%20Configuration/groupTemplate.md '/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#groupTemplate') callback function as shown in the following code.
 
     <!--JavaScript-->var fruitsVegetables = [{
         // ...
@@ -176,10 +176,10 @@ If you use jQuery alone, combine HTML markup for group headers manually with jQu
     url: "/Demos/WidgetsGallery/Demo/Select_Box/GroupedItems/jQuery/Light/"
 }
 
-In addition, you can use a 3rd-party template engine to perform the needed customizations. For more information, see the [3rd-Party Template Engines](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines) article.
+In addition, you can use a 3rd-party template engine to perform the needed customizations. For more information, see the [3rd-Party Template Engines](/concepts/05%20Widgets/zz%20Common/30%20Templates/30%203rd-Party%20Template%20Engines.md '/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines') article.
 
 #####See Also#####
-- [SelectBox - Customize Item Appearance](/Documentation/Guide/Widgets/SelectBox/Customize_Item_Appearance/)
-- [SelectBox API Reference](/Documentation/ApiReference/UI_Widgets/dxSelectBox/)
+- [SelectBox - Customize Item Appearance](/concepts/05%20Widgets/SelectBox/05%20Customize%20Item%20Appearance.md '/Documentation/Guide/Widgets/SelectBox/Customize_Item_Appearance/')
+- [SelectBox API Reference](/api-reference/10%20UI%20Widgets/dxSelectBox/dxSelectBox.md '/Documentation/ApiReference/UI_Widgets/dxSelectBox/')
 
 [tags]selectBox, group headers appearance, customize, templates, template

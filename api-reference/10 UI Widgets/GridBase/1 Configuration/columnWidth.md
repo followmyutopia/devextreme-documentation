@@ -5,8 +5,8 @@ default: undefined
 ---
 ---
 ##### shortDescription
-Specifies the width for all [data columns](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Types/Data_Columns/). Has a lower priority than the **column**.[width]({basewidgetpath}/Configuration/columns/#width) option.
+Specifies the width for all [data columns](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Types/Data_Columns/). Has a lower priority than the **column**.[width](/api-reference/_hidden/GridBaseColumn/width.md '{basewidgetpath}/Configuration/columns/#width') option.
 
 ---
 #####See Also#####
-- [columnMinWidth]({basewidgetpath}/Configuration/#columnMinWidth)
+- [columnMinWidth](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/columnMinWidth.md '{basewidgetpath}/Configuration/#columnMinWidth')

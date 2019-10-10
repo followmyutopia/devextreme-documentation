@@ -3,16 +3,16 @@ id: dxTextEditor.getButton(name)
 ---
 ---
 ##### shortDescription
-Gets an instance of a [custom action button]({basewidgetpath}/Configuration/buttons/).
+Gets an instance of a [custom action button](/api-reference/10%20UI%20Widgets/dxTextEditor/1%20Configuration/buttons/buttons.md '{basewidgetpath}/Configuration/buttons/').
 
 ##### return: dxButton | undefined
-The [Button](/Documentation/ApiReference/UI_Widgets/dxButton/) widget's instance.
+The [Button](/api-reference/10%20UI%20Widgets/dxButton/dxButton.md '/Documentation/ApiReference/UI_Widgets/dxButton/') widget's instance.
 
 ##### param(name): String
-The button's [name]({basewidgetpath}/Configuration/buttons/#name).
+The button's [name](/api-reference/10%20UI%20Widgets/dxTextEditor/1%20Configuration/buttons/name.md '{basewidgetpath}/Configuration/buttons/#name').
 
 ---
-Use the returned button instance to call the [**Button** widget's methods](/Documentation/ApiReference/UI_Widgets/dxButton/Methods/), for example, [focus()](/Documentation/ApiReference/UI_Widgets/dxButton/Methods/#focus):
+Use the returned button instance to call the [**Button** widget's methods](/api-reference/10%20UI%20Widgets/Widget/3%20Methods/Methods.md '/Documentation/ApiReference/UI_Widgets/dxButton/Methods/'), for example, [focus()](/Documentation/ApiReference/UI_Widgets/dxButton/Methods/#focus):
 
 ---
 ##### jQuery

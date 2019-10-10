@@ -9,4 +9,4 @@ Specifies whether the **LocalStore** saves changes in the local storage immediat
 
 ---
 #####See Also#####
-- [flushInterval](/Documentation/ApiReference/Data_Layer/LocalStore/Configuration/#flushInterval)
+- [flushInterval](/api-reference/30%20Data%20Layer/LocalStore/1%20Configuration/flushInterval.md '/Documentation/ApiReference/Data_Layer/LocalStore/Configuration/#flushInterval')

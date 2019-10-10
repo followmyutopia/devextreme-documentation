@@ -14,7 +14,7 @@ The cell whose summary value is being processed.
 The cell's new summary value.
 
 ---
-This and [other post-processing functions](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#summaryDisplayMode) allow you to perform additional calculations on each summary value and take into account neighboring cells' summary values.
+This and [other post-processing functions](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/summaryDisplayMode.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#summaryDisplayMode') allow you to perform additional calculations on each summary value and take into account neighboring cells' summary values.
 
 ---
 ##### jQuery

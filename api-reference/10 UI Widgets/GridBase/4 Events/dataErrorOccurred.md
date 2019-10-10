@@ -22,7 +22,7 @@ The standard <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Re
 Model data. Available only if you use Knockout.
 
 ---
-Main article: [onDataErrorOccurred]({basewidgetpath}/Configuration/#onDataErrorOccurred)
+Main article: [onDataErrorOccurred](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onDataErrorOccurred.md '{basewidgetpath}/Configuration/#onDataErrorOccurred')
 
 #####See Also#####
 #include common-link-handleevents

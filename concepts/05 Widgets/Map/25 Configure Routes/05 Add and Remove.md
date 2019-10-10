@@ -1,4 +1,4 @@
-To add routes at design-time, pass an array of objects to the [routes](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/routes/) option. A route requires only its [locations](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/routes/locations/) to be specified. The locations will be connected and make up the route.
+To add routes at design-time, pass an array of objects to the [routes](/api-reference/10%20UI%20Widgets/dxMap/1%20Configuration/routes/routes.md '/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/routes/') option. A route requires only its [locations](/api-reference/10%20UI%20Widgets/dxMap/1%20Configuration/routes/locations/locations.md '/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/routes/locations/') to be specified. The locations will be connected and make up the route.
 
 ---
 ##### jQuery
@@ -223,9 +223,9 @@ With Angular, AngularJS, or Knockout, use a different technique. Bind the **rout
 ---
 
 #####See Also#####
-- [Map - Customize Routes](/Documentation/Guide/Widgets/Map/Configure_Routes/Customize/)
-- [Map - Handle Route Related Events](/Documentation/Guide/Widgets/Map/Configure_Routes/Handle_the_Related_Events/)
+- [Map - Customize Routes](/concepts/05%20Widgets/Map/25%20Configure%20Routes/10%20Customize.md '/Documentation/Guide/Widgets/Map/Configure_Routes/Customize/')
+- [Map - Handle Route Related Events](/concepts/05%20Widgets/Map/25%20Configure%20Routes/15%20Handle%20the%20Related%20Events.md '/Documentation/Guide/Widgets/Map/Configure_Routes/Handle_the_Related_Events/')
 - [Map Demos](/Demos/WidgetsGallery/#demo/maps-map-routes)
-- [Map API Reference](/Documentation/ApiReference/UI_Widgets/dxMap/)
+- [Map API Reference](/api-reference/10%20UI%20Widgets/dxMap/dxMap.md '/Documentation/ApiReference/UI_Widgets/dxMap/')
 
 [tags]map, routes, location, add route, remove route

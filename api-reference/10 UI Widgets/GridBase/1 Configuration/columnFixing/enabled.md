@@ -9,4 +9,4 @@ Enables column fixing.
 
 ---
 #####See Also#####
-- **columns[]**.[fixedPosition]({basewidgetpath}/Configuration/columns/#fixedPosition)
+- **columns[]**.[fixedPosition](/api-reference/_hidden/GridBaseColumn/fixedPosition.md '{basewidgetpath}/Configuration/columns/#fixedPosition')

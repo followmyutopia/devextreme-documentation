@@ -116,4 +116,4 @@ where `path1` is *formats/[formatName]* for formats or *modules/[moduleName]* fo
 
 #####See Also#####
 - [get(componentPath)](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Methods/#getcomponentPath)
-- [customizeModules](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/#customizeModules)
+- [customizeModules](/api-reference/10%20UI%20Widgets/dxHtmlEditor/1%20Configuration/customizeModules.md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/#customizeModules')

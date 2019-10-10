@@ -3,7 +3,7 @@ id: Query.sortBy(getter, desc)
 ---
 ---
 ##### shortDescription
-Sorts data items by the specified [getter](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters) in the specified sorting order.
+Sorts data items by the specified [getter](/concepts/30%20Data%20Layer/5%20Data%20Layer/9%20Getters%20And%20Setters/Getters%20And%20Setters.md '/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters') in the specified sorting order.
 
 ##### return: Query
 The **Query** with transformed data.
@@ -138,4 +138,4 @@ Pass **true** to sort in descending order, **false** or nothing to sort in ascen
 Call the [thenBy(getter)](/Documentation/ApiReference/Data_Layer/Query/Methods/#thenBygetter) or [thenBy(getter, desc)](/Documentation/ApiReference/Data_Layer/Query/Methods/#thenBygetter_desc) method after **sortBy** to sort data items by one more getter. 
 
 #####See Also#####
-- [Sorting](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Sorting)
+- [Sorting](/concepts/30%20Data%20Layer/5%20Data%20Layer/2%20Reading%20Data/1%20Sorting.md '/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Sorting')

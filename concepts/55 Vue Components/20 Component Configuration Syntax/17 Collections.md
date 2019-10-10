@@ -1,4 +1,4 @@
-Use nested configuration components. The following example shows how to configure the [DataGrid](/Demos/WidgetsGallery/Demo/DataGrid/Overview/Vue/Light/) widget's [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) option:
+Use nested configuration components. The following example shows how to configure the [DataGrid](/Demos/WidgetsGallery/Demo/DataGrid/Overview/Vue/Light/) widget's [columns](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/columns/columns.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/') option:
 
     <!-- tab: App.vue -->
     <template>
@@ -27,7 +27,7 @@ Use nested configuration components. The following example shows how to configur
     }
     </script>
 
-DevExtreme collection widgets also support the `DxItem` component. It allows you to declare collection items in the widget markup. A `dx-item` element can contain custom markup and have attributes that control parts of item appearance, such as `badge` in the following code. The attributes are described in the [Default Item Template](/Documentation/ApiReference/UI_Widgets/dxList/Default_Item_Template/) section of each collection widget. Ensure to specify that an item's content is in the default [slot](https://vuejs.org/v2/guide/components-slots.html).
+DevExtreme collection widgets also support the `DxItem` component. It allows you to declare collection items in the widget markup. A `dx-item` element can contain custom markup and have attributes that control parts of item appearance, such as `badge` in the following code. The attributes are described in the [Default Item Template](/api-reference/10%20UI%20Widgets/dxList/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxList/Default_Item_Template/') section of each collection widget. Ensure to specify that an item's content is in the default [slot](https://vuejs.org/v2/guide/components-slots.html).
 
     <!-- tab: App.vue -->
     <template>

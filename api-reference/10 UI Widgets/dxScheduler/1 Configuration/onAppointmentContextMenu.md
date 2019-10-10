@@ -37,7 +37,7 @@ Model data. Available only if you use Knockout.
 
 ##### field(e.targetedAppointmentData): Object
 The appointment on which the context menu is invoked.       
-For details on the difference between this and the **appointmentData** fields, see the [onAppointmentClick](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentClick) option description.
+For details on the difference between this and the **appointmentData** fields, see the [onAppointmentClick](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/onAppointmentClick.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentClick') option description.
 
 ---
 #include common-demobutton with {

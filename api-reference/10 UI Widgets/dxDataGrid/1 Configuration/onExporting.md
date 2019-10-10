@@ -27,7 +27,7 @@ The name of the file where grid data is about to be exported.
 Model data. Available only if Knockout is used.
 
 ---
-You can use this function with the [onExported](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExported) function to adjust columns before export. In the following code, these functions are used to export a hidden `ID` column:
+You can use this function with the [onExported](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/onExported.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExported') function to adjust columns before export. In the following code, these functions are used to export a hidden `ID` column:
 
 ---
 ##### jQuery
@@ -85,7 +85,7 @@ You can use this function with the [onExported](/Documentation/ApiReference/UI_W
 ---
 
 #####See Also#####
-- [Client-Side Exporting](/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/)
-- [export](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/)
-- [customizeExportData](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#customizeExportData)
-- [onFileSaving](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onFileSaving)
+- [Client-Side Exporting](/concepts/05%20Widgets/DataGrid/70%20Client-Side%20Exporting/Client-Side%20Exporting.md '/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/')
+- [export](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/export/export.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/')
+- [customizeExportData](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/customizeExportData.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#customizeExportData')
+- [onFileSaving](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/onFileSaving.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onFileSaving')

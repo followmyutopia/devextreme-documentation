@@ -10,7 +10,7 @@ Specifies whether the user can group data by values of this column. Applies only
 ---
 When grouping is enabled in the widget, the user can group data by values of any column. To prohibit a particular column from being used for grouping, set the **allowGrouping** option of this column to **false**.
 
-[note]In a column with [calculated values](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateCellValue), this option is set to **false** by default.
+[note]In a column with [calculated values](/api-reference/_hidden/GridBaseColumn/calculateCellValue.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateCellValue'), this option is set to **false** by default.
 
 #####See Also#####
-- [Grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/)
+- [Grouping](/concepts/05%20Widgets/DataGrid/45%20Grouping/Grouping.md '/Documentation/Guide/Widgets/DataGrid/Grouping/')

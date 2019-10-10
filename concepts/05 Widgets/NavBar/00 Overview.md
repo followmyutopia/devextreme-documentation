@@ -4,7 +4,7 @@ The **NavBar** is a widget that navigates the application views.
     url: "/Demos/WidgetsGallery/#demo/navigation-navbar-overview/ios7"
 }
 
-The following code adds the **NavBar** to your page. All navigation items have icons and one of them has a [badge](/Documentation/ApiReference/UI_Widgets/dxNavBar/Default_Item_Template/#badge). 
+The following code adds the **NavBar** to your page. All navigation items have icons and one of them has a [badge](/api-reference/10%20UI%20Widgets/dxNavBar/5%20Default%20Item%20Template/badge.md '/Documentation/ApiReference/UI_Widgets/dxNavBar/Default_Item_Template/#badge'). 
 
 ---
 ##### jQuery
@@ -50,12 +50,12 @@ The following code adds the **NavBar** to your page. All navigation items have i
 
 ---
 
-Note that all data source items follow the [Default Item Template](/Documentation/ApiReference/UI_Widgets/dxNavBar/Default_Item_Template/) pattern. This provides a default item appearance, which can be customized later.
+Note that all data source items follow the [Default Item Template](/api-reference/10%20UI%20Widgets/dxNavBar/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxNavBar/Default_Item_Template/') pattern. This provides a default item appearance, which can be customized later.
 
 #####See Also#####
 #include common-link-configurewidget
-- [NavBar - Customize Item Appearance](/Documentation/Guide/Widgets/NavBar/Customize_Item_Appearance)
-- [NavBar - Items Selection](/Documentation/Guide/Widgets/NavBar/Items_Selection)
-- [NavBar API Reference](/Documentation/ApiReference/UI_Widgets/dxNavBar/)
+- [NavBar - Customize Item Appearance](/concepts/05%20Widgets/NavBar/05%20Customize%20Item%20Appearance.md '/Documentation/Guide/Widgets/NavBar/Customize_Item_Appearance')
+- [NavBar - Items Selection](/concepts/05%20Widgets/NavBar/10%20Items%20Selection.md '/Documentation/Guide/Widgets/NavBar/Items_Selection')
+- [NavBar API Reference](/api-reference/10%20UI%20Widgets/dxNavBar/dxNavBar.md '/Documentation/ApiReference/UI_Widgets/dxNavBar/')
 
 [tags]nav bar, navBar, navigation bar, collection container, collection widget, navigation, overview

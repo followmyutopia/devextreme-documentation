@@ -1,4 +1,4 @@
-For a minor customization of menu items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxSlideOut/Default_Item_Template/) are present or absent from the item's data object. For example, in the following code, *"Favorites"* is disabled and *"Help"* is hidden.
+For a minor customization of menu items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxSlideOut/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxSlideOut/Default_Item_Template/') are present or absent from the item's data object. For example, in the following code, *"Favorites"* is disabled and *"Help"* is hidden.
 
     <!--JavaScript-->var menuItems = [
         { text: "Home" },
@@ -26,7 +26,7 @@ For a minor customization of menu items, you can use the default item template. 
         width: 100%;
     }
 
-Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code gives a simple example of how you can use **dxTemplate** to customize the items of a slide-out menu.
+Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/'). The following code gives a simple example of how you can use **dxTemplate** to customize the items of a slide-out menu.
 
 ---
 
@@ -96,7 +96,7 @@ Using the default item template is the easiest way to customize an item, but it 
 
 ---
 
-If you use jQuery alone, combine the HTML markup for menu items manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [menuItemTemplate](/Documentation/ApiReference/UI_Widgets/dxSlideOut/Configuration/#menuItemTemplate) callback function as shown in the following code.
+If you use jQuery alone, combine the HTML markup for menu items manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [menuItemTemplate](/api-reference/10%20UI%20Widgets/dxSlideOut/1%20Configuration/menuItemTemplate.md '/Documentation/ApiReference/UI_Widgets/dxSlideOut/Configuration/#menuItemTemplate') callback function as shown in the following code.
 
     <!--JavaScript-->var menuItems = [
         { text: "Home", icon: "home" },
@@ -124,7 +124,7 @@ If you use jQuery alone, combine the HTML markup for menu items manually with jQ
         });
     });
 
-You can also customize an individual menu item. For this purpose, declare a template for this item as a script and pass its `id` to the [menuTemplate](/Documentation/ApiReference/UI_Widgets/dxSlideOut/Default_Item_Template/#menuTemplate) field of the item's data object.
+You can also customize an individual menu item. For this purpose, declare a template for this item as a script and pass its `id` to the [menuTemplate](/api-reference/10%20UI%20Widgets/dxSlideOut/5%20Default%20Item%20Template/menuTemplate.md '/Documentation/ApiReference/UI_Widgets/dxSlideOut/Default_Item_Template/#menuTemplate') field of the item's data object.
 
     <!--HTML--><script id="individualTemplate" type="text/html">
         <!-- ... -->
@@ -139,11 +139,11 @@ You can also customize an individual menu item. For this purpose, declare a temp
         }
     ];
 
-In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines) article.
+In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/concepts/05%20Widgets/zz%20Common/30%20Templates/30%203rd-Party%20Template%20Engines.md '/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines') article.
  
 #####See Also#####
-- [SlideOut - Group Menu Items](/Documentation/Guide/Widgets/SlideOut/Group_Menu_Items)
+- [SlideOut - Group Menu Items](/concepts/05%20Widgets/SlideOut/08%20Group%20Menu%20Items.md '/Documentation/Guide/Widgets/SlideOut/Group_Menu_Items')
 - [SlideOut Demos](/Demos/WidgetsGallery/#demo/navigation-slideout-overview/ios7)
-- [SlideOut API Reference](/Documentation/ApiReference/UI_Widgets/dxSlideOut/)
+- [SlideOut API Reference](/api-reference/10%20UI%20Widgets/dxSlideOut/dxSlideOut.md '/Documentation/ApiReference/UI_Widgets/dxSlideOut/')
 
 [tags]slide-out menu, slideOut, item appearance, customize, templates

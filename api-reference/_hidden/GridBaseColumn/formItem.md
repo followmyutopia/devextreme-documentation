@@ -4,7 +4,7 @@ type: dxFormSimpleItem
 ---
 ---
 ##### shortDescription
-Configures the form item that the column produces in the editing state. Applies only if **editing**.[mode]({basewidgetpath}/Configuration/editing/#mode) is *"form"* or *"popup"*.
+Configures the form item that the column produces in the editing state. Applies only if **editing**.[mode](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/editing/mode.md '{basewidgetpath}/Configuration/editing/#mode') is *"form"* or *"popup"*.
 
 ---
 In the following code, the `Full_Name` grid column in the editing state produces a form item that spans two form columns. The item's label is on top of the editor:
@@ -87,7 +87,7 @@ In the following code, the `Full_Name` grid column in the editing state produces
 
 
 
-[note] The **formItem** object does not allow you to specify a [template](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#template). Use the column's [editCellTemplate]({basewidgetpath}/Configuration/columns/#editCellTemplate) instead.
+[note] The **formItem** object does not allow you to specify a [template](/api-reference/10%20UI%20Widgets/dxForm/5%20Item%20Types/SimpleItem/template.md '/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#template'). Use the column's [editCellTemplate](/api-reference/_hidden/dxDataGridColumn/editCellTemplate.md '{basewidgetpath}/Configuration/columns/#editCellTemplate') instead.
 
 #####See Also#####
 - [Form Edit Mode](/Documentation/Guide/Widgets/{WidgetName}/Editing/#User_Interaction/Form_Mode)

@@ -8,7 +8,7 @@ default: false
 Specifies whether to allow searching.
 
 ---
-[note] Searching works with source data of plain structure only. Subsequently, data can be transformed to hierarchical structure using the **DataSource**'s [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option.
+[note] Searching works with source data of plain structure only. Subsequently, data can be transformed to hierarchical structure using the **DataSource**'s [group](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/group.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group') option.
 
 #####See Also#####
 - [Configure Search Parameters](/Documentation/Guide/Widgets/{WidgetName}/Configure_Search_Parameters/)

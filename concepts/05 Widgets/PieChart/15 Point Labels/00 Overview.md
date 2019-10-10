@@ -2,7 +2,7 @@ Each series point can be accompanied with a label that displays the point's valu
 
 ![DevExtreme HTML5 JavaScript PieChart SeriesPointLabels](/Content/images/doc/19_2/PieChart/visual_elements/point_labels.png)
 
-To configure point labels, use the [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/series/label/) object. You can declare it as follows.
+To configure point labels, use the [label](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart/5%20Series%20Types/CommonPieChartSeries/label/label.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/series/label/') object. You can declare it as follows.
 
 ---
 ##### jQuery
@@ -56,7 +56,7 @@ To configure point labels, use the [label](/Documentation/ApiReference/Data_Visu
 
 ---
 
-Point labels are not visible by default. To make them visible, assign **true** to the **label**.**visible** option. With this configuration, point labels are displayed detached from their respective series points. You can make the connection between labels and points more evident by making label connectors visible. For this purpose, assign **true** to the **label**.[connector](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/series/label/connector/).**visible** option.
+Point labels are not visible by default. To make them visible, assign **true** to the **label**.**visible** option. With this configuration, point labels are displayed detached from their respective series points. You can make the connection between labels and points more evident by making label connectors visible. For this purpose, assign **true** to the **label**.[connector](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart/5%20Series%20Types/CommonPieChartSeries/label/connector/connector.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/series/label/connector/').**visible** option.
 
 ---
 ##### jQuery
@@ -101,9 +101,9 @@ Point labels are not visible by default. To make them visible, assign **true** t
 
 ---
 
-For details on other options of point labels, refer to the [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/series/label/) section of the API reference and to other topics in this section.
+For details on other options of point labels, refer to the [label](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart/5%20Series%20Types/CommonPieChartSeries/label/label.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/series/label/') section of the API reference and to other topics in this section.
 
 #####See Also#####
-- [Customize Labels](/Documentation/Guide/Widgets/PieChart/Point_Labels/Customize_Labels/)
-- [Resolve Label Overlapping](/Documentation/Guide/Widgets/PieChart/Point_Labels/Resolve_Overlapping/)
+- [Customize Labels](/concepts/05%20Widgets/PieChart/15%20Point%20Labels/05%20Customize%20Labels.md '/Documentation/Guide/Widgets/PieChart/Point_Labels/Customize_Labels/')
+- [Resolve Label Overlapping](/concepts/05%20Widgets/PieChart/15%20Point%20Labels/10%20Resolve%20Overlapping.md '/Documentation/Guide/Widgets/PieChart/Point_Labels/Resolve_Overlapping/')
 - [PieChart Demos](/Demos/WidgetsGallery/Demo/Charts/Pie/jQuery/Light/)

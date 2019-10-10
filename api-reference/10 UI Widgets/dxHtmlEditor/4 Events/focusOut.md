@@ -22,7 +22,7 @@ The widget's instance.
 Model data. Available only if you use Knockout.
 
 ---
-Main article: [onFocuseOut](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/#onFocusOut)
+Main article: [onFocuseOut](/api-reference/10%20UI%20Widgets/dxHtmlEditor/1%20Configuration/onFocusOut.md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/#onFocusOut')
 
 #####See Also#####
 #include common-link-handleevents

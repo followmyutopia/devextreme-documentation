@@ -7,7 +7,7 @@ type: function(columns)
 Customizes columns after they are created.
 
 ##### param(columns): Array<dxDataGridColumn>
-All column [configurations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/).
+All column [configurations](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/columns/columns.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/').
 
 ---
 Use this function to make minor adjustments to automatically generated columns. You can access and modify column configurations using the function's parameter. 
@@ -52,6 +52,6 @@ Use this function to make minor adjustments to automatically generated columns. 
     
 ---
 
-For a more detailed column customization, declare the [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) array.
+For a more detailed column customization, declare the [columns](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/columns/columns.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/') array.
 
 [note] We do not recommend that you create new columns via **customizeColumns**, because this disables data operations (sorting, filtering, summary) for the created columns. Add them to the **columns** array instead.

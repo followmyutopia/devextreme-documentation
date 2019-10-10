@@ -25,7 +25,7 @@ Indicates if the dragged item is dropped inside another item.
 The instance of the item's source widget.
 
 ##### field(e.fromData): any
-Custom [data]({basewidgetpath}/Configuration/#data) associated with the source widget.
+Custom [data](/api-reference/10%20UI%20Widgets/DraggableBase/1%20Configuration/data.md '{basewidgetpath}/Configuration/#data') associated with the source widget.
 
 ##### field(e.fromIndex): Number
 The item's original position. If the item is dragged from another widget, the value is **-1**.
@@ -40,7 +40,7 @@ The dragged item's data.
 The instance of the item's target widget.
 
 ##### field(e.toData): any
-Custom [data]({basewidgetpath}/Configuration/#data) associated with the target widget.
+Custom [data](/api-reference/10%20UI%20Widgets/DraggableBase/1%20Configuration/data.md '{basewidgetpath}/Configuration/#data') associated with the target widget.
 
 ##### field(e.toIndex): Number
 The position in which the item is placed. If the item is dragged away from the widget, the value is **-1**.

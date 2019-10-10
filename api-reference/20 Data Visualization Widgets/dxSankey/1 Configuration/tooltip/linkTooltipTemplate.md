@@ -11,7 +11,7 @@ Specifies a custom template for a [link](Documentation/ApiReference/Data_Visuali
 Information about a sankey link being pressed or hovered over.
 
 ##### field(info.source): String
-The [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/label/) of the link's source [node](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/node/).
+The [label](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/label/label.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/label/') of the link's source [node](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/node/node.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/node/').
 
 ##### field(info.target): String
 The label of the link's target node.

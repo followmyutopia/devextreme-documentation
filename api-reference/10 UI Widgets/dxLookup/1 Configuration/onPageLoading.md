@@ -22,4 +22,4 @@ Model data. Available only if Knockout is used.
 
 ---
 #####See Also#####
-- [Enable Paging](/Documentation/Guide/Widgets/Lookup/Enable_Paging/)
+- [Enable Paging](/concepts/05%20Widgets/Lookup/15%20Enable%20Paging.md '/Documentation/Guide/Widgets/Lookup/Enable_Paging/')

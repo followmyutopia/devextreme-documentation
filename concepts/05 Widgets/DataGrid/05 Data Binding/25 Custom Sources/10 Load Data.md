@@ -1,19 +1,19 @@
-The **CustomStore** requires the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function. It sends data processing settings to the server and gets processed data back. These settings depend on which [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/) are enabled. The following data processing settings apply to the **DataGrid**:
+The **CustomStore** requires the [load](/api-reference/30%20Data%20Layer/CustomStore/1%20Configuration/load.md '/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load') function. It sends data processing settings to the server and gets processed data back. These settings depend on which [remoteOperations](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/remoteOperations/remoteOperations.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/') are enabled. The following data processing settings apply to the **DataGrid**:
 
-- **Paging settings**: [take](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#take), [skip](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#skip), [requireTotalCount](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#requireTotalCount)    
+- **Paging settings**: [take](/api-reference/30%20Data%20Layer/CustomStore/LoadOptions/take.md '/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#take'), [skip](/api-reference/30%20Data%20Layer/CustomStore/LoadOptions/skip.md '/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#skip'), [requireTotalCount](/api-reference/30%20Data%20Layer/CustomStore/LoadOptions/requireTotalCount.md '/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#requireTotalCount')    
 
-    [note] When [scrolling](/Documentation/Guide/Widgets/DataGrid/Scrolling/) is infinite, **requireTotalCount** is **false**. It should not be changed to ensure scrolling works properly.
+    [note] When [scrolling](/concepts/05%20Widgets/DataGrid/40%20Scrolling/Scrolling.md '/Documentation/Guide/Widgets/DataGrid/Scrolling/') is infinite, **requireTotalCount** is **false**. It should not be changed to ensure scrolling works properly.
 
-- **Sorting settings**: [sort](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#sort)         
+- **Sorting settings**: [sort](/api-reference/30%20Data%20Layer/CustomStore/LoadOptions/sort.md '/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#sort')         
 
-- **Filtering settings**: [filter](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#filter)    
+- **Filtering settings**: [filter](/api-reference/30%20Data%20Layer/CustomStore/LoadOptions/filter.md '/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#filter')    
 
-- **Grouping settings**: [group](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#group)      
- The **groupInterval** field of the **group** setting is present only when the widget requests the [header filter](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/#Header_Filter)'s data, and only if this data contains numbers or dates. Note that for numbers, the [groupInterval](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/headerFilter/#groupInterval) option should be specified explicitly.
+- **Grouping settings**: [group](/api-reference/30%20Data%20Layer/CustomStore/LoadOptions/group.md '/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#group')      
+ The **groupInterval** field of the **group** setting is present only when the widget requests the [header filter](/concepts/05%20Widgets/DataGrid/30%20Filtering%20and%20Searching/2%20Header%20Filter.md '/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/#Header_Filter')'s data, and only if this data contains numbers or dates. Note that for numbers, the [groupInterval](/api-reference/_hidden/GridBaseColumn/headerFilter/groupInterval.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/headerFilter/#groupInterval') option should be specified explicitly.
 
-- **Summary calculation settings**: [totalSummary](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#totalSummary), [groupSummary](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#groupSummary)      
+- **Summary calculation settings**: [totalSummary](/api-reference/30%20Data%20Layer/CustomStore/LoadOptions/totalSummary.md '/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#totalSummary'), [groupSummary](/api-reference/30%20Data%20Layer/CustomStore/LoadOptions/groupSummary.md '/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#groupSummary')      
 
-- **Group paging settings**: [requireGroupCount](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#requireGroupCount)     
+- **Group paging settings**: [requireGroupCount](/api-reference/30%20Data%20Layer/CustomStore/LoadOptions/requireGroupCount.md '/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#requireGroupCount')     
 
 After receiving these settings, the server should apply them to data and send back an object with the following structure:
 

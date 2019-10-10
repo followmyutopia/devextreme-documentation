@@ -42,5 +42,5 @@ Before rendering the column, the widget considers the screen's width. If the wid
 [note] When this option is undefined, the column is rendered on all screens.
 
 #####See Also#####
-- [ResponsiveBox - Create the Layout Grid](/Documentation/Guide/Widgets/ResponsiveBox/Create_the_Layout_Grid/)
-- [screenByWidth](/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/#screenByWidth)
+- [ResponsiveBox - Create the Layout Grid](/concepts/05%20Widgets/ResponsiveBox/10%20Create%20the%20Layout%20Grid.md '/Documentation/Guide/Widgets/ResponsiveBox/Create_the_Layout_Grid/')
+- [screenByWidth](/api-reference/10%20UI%20Widgets/dxResponsiveBox/1%20Configuration/screenByWidth.md '/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/#screenByWidth')

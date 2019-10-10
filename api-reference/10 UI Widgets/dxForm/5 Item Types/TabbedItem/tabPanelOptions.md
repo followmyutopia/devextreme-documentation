@@ -5,10 +5,10 @@ default: undefined
 ---
 ---
 ##### shortDescription
-Holds a [configuration object](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/) for the [TabPanel](/Documentation/ApiReference/UI_Widgets/dxTabPanel/) widget used to display the current form item.
+Holds a [configuration object](/api-reference/10%20UI%20Widgets/dxTabPanel/1%20Configuration/Configuration.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/') for the [TabPanel](/api-reference/10%20UI%20Widgets/dxTabPanel/dxTabPanel.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/') widget used to display the current form item.
 
 ---
 #include widgets-config-object-option-note
 
 #####See Also#####
-- [Configure the Tab Panel](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Tabs/#Configure_the_Tab_Panel)
+- [Configure the Tab Panel](/concepts/05%20Widgets/Form/10%20Organize%20Simple%20Items/10%20In%20Tabs/20%20Configure%20the%20Tab%20Panel.md '/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Tabs/#Configure_the_Tab_Panel')

@@ -16,7 +16,7 @@ Information about the event that caused the function's execution.
 The column's configuration.
 
 ##### field(e.columnIndex): Number
-The index of the column the cell belongs to. For details on indexes, see the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
+The index of the column the cell belongs to. For details on indexes, see the [Column and Row Indexes](/concepts/05%20Widgets/DataGrid/15%20Columns/12%20Column%20and%20Row%20Indexes.md '/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/') topic.
 
 ##### field(e.component): {WidgetName}
 The widget's instance.
@@ -26,7 +26,7 @@ The data of the row the cell belongs to. Available if the **rowType** is *"data"
 
 ##### field(e.displayValue): any
 The value displayed in the cell. Available if the **rowType** is *"data"* or *"group"*.      
-Differs from the **value** field only when the cell belongs to a [lookup](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/) column.
+Differs from the **value** field only when the cell belongs to a [lookup](/api-reference/_hidden/dxDataGridColumn/lookup/lookup.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/') column.
 
 ##### field(e.element): dxElement
 #include common-ref-elementparam with { element: "widget" }
@@ -35,7 +35,7 @@ Differs from the **value** field only when the cell belongs to a [lookup](/Docum
 #include common-ref-eventparam
 
 ##### field(e.key): any
-The row's [key](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#key) or a group's [key](/Documentation/Guide/Widgets/DataGrid/Grouping/#API/Group_Index_and_Key). Available if the **rowType** is *"data"*, *"detail"*, *"detailAdaptive"*, or *"group"*.
+The row's [key](/api-reference/10%20UI%20Widgets/dxDataGrid/6%20Row/key.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#key') or a group's [key](/concepts/05%20Widgets/DataGrid/45%20Grouping/20%20API/05%20Group%20Index%20and%20Key.md '/Documentation/Guide/Widgets/DataGrid/Grouping/#API/Group_Index_and_Key'). Available if the **rowType** is *"data"*, *"detail"*, *"detailAdaptive"*, or *"group"*.
 
 ##### field(e.model): Object
 Model data. Available only if you use Knockout.
@@ -47,16 +47,16 @@ The row's properties. Available if the **rowType** is *"data"*, *"detail"*, *"de
 The index of the row the cell belongs to.
 
 ##### field(e.rowType): String
-The row's [type](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#rowType).
+The row's [type](/api-reference/10%20UI%20Widgets/dxDataGrid/6%20Row/rowType.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#rowType').
 
 ##### field(e.text): String
-The cell's [formatted](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#format) value converted to a string. Available if the **rowType** is *"data"* or *"group"*.
+The cell's [formatted](/api-reference/_hidden/GridBaseColumn/format.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#format') value converted to a string. Available if the **rowType** is *"data"* or *"group"*.
 
 ##### field(e.value): any
 The cell's raw value. Available if the **rowType** is *"data"* or *"group"*.
 
 ---
-Main article: [onCellDblClick](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onCellDblClick)
+Main article: [onCellDblClick](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/onCellDblClick.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onCellDblClick')
 
 #####See Also#####
 #include common-link-handleevents

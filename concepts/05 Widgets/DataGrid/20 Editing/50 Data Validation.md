@@ -1,4 +1,4 @@
-User input is validated against a set of [validation rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/). You can configure them in a column's [validationRules](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#validationRules) array. Validation rules are attached to the editors and do not depend on the current edit mode.
+User input is validated against a set of [validation rules](/api-reference/10%20UI%20Widgets/dxValidator/8%20Validation%20Rules/Validation%20Rules.md '/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/'). You can configure them in a column's [validationRules](/api-reference/_hidden/GridBaseColumn/validationRules.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#validationRules') array. Validation rules are attached to the editors and do not depend on the current edit mode.
 
 ---
 ##### jQuery
@@ -55,7 +55,7 @@ User input is validated against a set of [validation rules](/Documentation/ApiRe
     
 ---
 
-The [onRowValidating](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onRowValidating) handler allows you to perform an action before a notification that a validation rule has been broken is displayed. For instance, you can perform additional checks in this handler and change the validation result by changing the handler parameter's **isValid** field. 
+The [onRowValidating](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onRowValidating.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onRowValidating') handler allows you to perform an action before a notification that a validation rule has been broken is displayed. For instance, you can perform additional checks in this handler and change the validation result by changing the handler parameter's **isValid** field. 
 
 ---
 ##### jQuery
@@ -106,7 +106,7 @@ The [onRowValidating](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configur
 }
 
 #####See Also#####
-- [Data Validation](/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/)
+- [Data Validation](/concepts/05%20Widgets/zz%20Common/05%20UI%20Widgets/20%20Data%20Validation/Data%20Validation.md '/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/')
 
 
 

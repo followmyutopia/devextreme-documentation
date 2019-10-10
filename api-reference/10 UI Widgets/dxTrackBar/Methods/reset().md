@@ -1,6 +1,6 @@
 ---
 ##### shortDescription
-Resets the [value]({basewidgetpath}/Configuration/#value) option to **null**.
+Resets the [value](/api-reference/10%20UI%20Widgets/Editor/1%20Configuration/value.md '{basewidgetpath}/Configuration/#value') option to **null**.
 
 ---
 #####See Also#####

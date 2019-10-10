@@ -114,7 +114,7 @@
     url: "/Demos/WidgetsGallery/Demo/Localization/UsingIntl/jQuery/Light/"
 }
 
-Strings, numbers, dates, and currencies are now automatically localized and formatted according to the specified locale. You can also specify a currency other than USD globally (using the [defaultCurrency](/Documentation/ApiReference/Common/Object_Structures/globalConfig/#defaultCurrency) setting) or in format definitions:
+Strings, numbers, dates, and currencies are now automatically localized and formatted according to the specified locale. You can also specify a currency other than USD globally (using the [defaultCurrency](/api-reference/50%20Common/Object%20Structures/globalConfig/defaultCurrency.md '/Documentation/ApiReference/Common/Object_Structures/globalConfig/#defaultCurrency') setting) or in format definitions:
 
 ---
 #####jQuery
@@ -262,4 +262,4 @@ Strings, numbers, dates, and currencies are now automatically localized and form
 
 ---
 
-You can use structures compatible with the Intl API for value formatting. Refer to the [Intl Formats](/Documentation/Guide/Common/Value_Formatting/#Format_Widget_Values/Intl_Formats) section in the [Value Formatting](/Documentation/Guide/Common/Value_Formatting/) article for more information.
+You can use structures compatible with the Intl API for value formatting. Refer to the [Intl Formats](/concepts/Common/34%20Value%20Formatting/10%20Format%20Widget%20Values/15%20Intl%20Formats.md '/Documentation/Guide/Common/Value_Formatting/#Format_Widget_Values/Intl_Formats') section in the [Value Formatting](/concepts/Common/34%20Value%20Formatting/Value%20Formatting.md '/Documentation/Guide/Common/Value_Formatting/') article for more information.

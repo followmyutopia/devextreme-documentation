@@ -16,5 +16,5 @@ This index depends on the column's location and can change dynamically (for exam
 The default index, *-1*, means that no column is focused.
 
 #####See Also#####
-- [onFocusedCellChanging]({basewidgetpath}/Configuration/#onFocusedCellChanging) | [onFocusedCellChanged]({basewidgetpath}/Configuration/#onFocusedCellChanged)
-- [focusedRowIndex]({basewidgetpath}/Configuration/#focusedRowIndex) | [focusedRowKey]({basewidgetpath}/Configuration/#focusedRowKey)
+- [onFocusedCellChanging](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/onFocusedCellChanging.md '{basewidgetpath}/Configuration/#onFocusedCellChanging') | [onFocusedCellChanged](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/onFocusedCellChanged.md '{basewidgetpath}/Configuration/#onFocusedCellChanged')
+- [focusedRowIndex](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/focusedRowIndex.md '{basewidgetpath}/Configuration/#focusedRowIndex') | [focusedRowKey](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/focusedRowKey.md '{basewidgetpath}/Configuration/#focusedRowKey')

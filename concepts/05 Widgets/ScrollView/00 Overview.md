@@ -4,7 +4,7 @@ The **ScrollView** is a widget that enables a user to scroll its content.
     url: "/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-scrollview-overview"
 }
 
-The following code adds a simple **ScrollView** to your page. The [width](/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#width) and [height](/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#height) options specify the widget size. By default, the **ScrollView** allows a user to scroll its content vertically. To change this behavior, use the [direction](/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#direction) option. Note that horizontal scrolling appears only if the content is wider than the **ScrollView**. Otherwise, the content adapts to the width of the **ScrollView**.
+The following code adds a simple **ScrollView** to your page. The [width](/api-reference/10%20UI%20Widgets/DOMComponent/1%20Configuration/width.md '/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#width') and [height](/api-reference/10%20UI%20Widgets/DOMComponent/1%20Configuration/height.md '/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#height') options specify the widget size. By default, the **ScrollView** allows a user to scroll its content vertically. To change this behavior, use the [direction](/api-reference/10%20UI%20Widgets/dxScrollable/1%20Configuration/direction.md '/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#direction') option. Note that horizontal scrolling appears only if the content is wider than the **ScrollView**. Otherwise, the content adapts to the width of the **ScrollView**.
 
     <!--HTML-->
     <div id="scrollViewContainer">
@@ -20,7 +20,7 @@ The following code adds a simple **ScrollView** to your page. The [width](/Docum
         });
     });
 
-The **ScrollView** employs native scrolling on most platforms, except desktops. To employ it on all platforms without exception, assign **true** to the [useNative](/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#useNative) option. Note that if you assign **false** to this option, the **ScrollView** will simulate scrolling on all platforms.
+The **ScrollView** employs native scrolling on most platforms, except desktops. To employ it on all platforms without exception, assign **true** to the [useNative](/api-reference/10%20UI%20Widgets/dxScrollable/1%20Configuration/useNative.md '/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#useNative') option. Note that if you assign **false** to this option, the **ScrollView** will simulate scrolling on all platforms.
 
     <!--JavaScript-->
     $(function() {
@@ -29,7 +29,7 @@ The **ScrollView** employs native scrolling on most platforms, except desktops. 
         });
     });
 
-If simulated scrolling is used, you can specify when to show the scrollbar. For this purpose, use the [showScrollbar](/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#showScrollbar) option.
+If simulated scrolling is used, you can specify when to show the scrollbar. For this purpose, use the [showScrollbar](/api-reference/10%20UI%20Widgets/dxScrollable/1%20Configuration/showScrollbar.md '/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#showScrollbar') option.
 
     <!--JavaScript-->
     $(function() {
@@ -41,8 +41,8 @@ If simulated scrolling is used, you can specify when to show the scrollbar. For 
 
 #####See Also#####
 #include common-link-configurewidget
-- [ScrollView - Handle Scroll Gestures](/Documentation/Guide/Widgets/ScrollView/Handle_Scroll_Gestures/)
-- [ScrollView - Scroll the Content](/Documentation/Guide/Widgets/ScrollView/Scroll_the_Content/)
-- [ScrollView API Reference](/Documentation/ApiReference/UI_Widgets/dxScrollView/)
+- [ScrollView - Handle Scroll Gestures](/concepts/05%20Widgets/ScrollView/10%20Handle%20Scroll%20Gestures.md '/Documentation/Guide/Widgets/ScrollView/Handle_Scroll_Gestures/')
+- [ScrollView - Scroll the Content](/concepts/05%20Widgets/ScrollView/05%20Scroll%20the%20Content/Scroll%20the%20Content.md '/Documentation/Guide/Widgets/ScrollView/Scroll_the_Content/')
+- [ScrollView API Reference](/api-reference/10%20UI%20Widgets/dxScrollView/dxScrollView.md '/Documentation/ApiReference/UI_Widgets/dxScrollView/')
 
 [tags]scrollView, scroll view, overview, scrolling direction, native scrolling, simulated scrolling, scrollbar

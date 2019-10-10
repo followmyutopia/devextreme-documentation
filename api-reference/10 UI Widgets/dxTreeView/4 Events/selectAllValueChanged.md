@@ -22,7 +22,7 @@ Model data. Available only if Knockout is used.
 The "Select All" check box's new state.
 
 ---
-Main article: [onSelectAllValueChanged](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#onSelectAllValueChanged)
+Main article: [onSelectAllValueChanged](/api-reference/10%20UI%20Widgets/dxTreeView/1%20Configuration/onSelectAllValueChanged.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#onSelectAllValueChanged')
 
 #####See Also#####
 #include common-link-handleevents

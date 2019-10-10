@@ -28,10 +28,10 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 Model data. Available only if you use Knockout.
 
 ##### field(e.position): positionConfig
-The [positioning options](/Documentation/ApiReference/Common/Object_Structures/positionConfig/).
+The [positioning options](/api-reference/50%20Common/Object%20Structures/positionConfig/positionConfig.md '/Documentation/ApiReference/Common/Object_Structures/positionConfig/').
 
 ---
-Main article: [onPositioning](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Configuration/#onPositioning)
+Main article: [onPositioning](/api-reference/10%20UI%20Widgets/dxContextMenu/1%20Configuration/onPositioning.md '/Documentation/ApiReference/UI_Widgets/dxContextMenu/Configuration/#onPositioning')
 
 #####See Also#####
 #include common-link-handleevents

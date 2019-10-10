@@ -30,14 +30,14 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 The model data. Available only if you use Knockout.
 
 ##### field(e.target): basePointObject
-The clicked series point; described in the [Point]({basewidgetpath}/Chart_Elements/Point/) section.
+The clicked series point; described in the [Point](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Point/Point.md '{basewidgetpath}/Chart_Elements/Point/') section.
 
 ##### notUsedInTheme
 
 ---
 [note]
 
-The [onSeriesClick]({basewidgetpath}/Configuration/#onSeriesClick) function is executed after this function. The following code shows how to prevent this: 
+The [onSeriesClick](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/onSeriesClick.md '{basewidgetpath}/Configuration/#onSeriesClick') function is executed after this function. The following code shows how to prevent this: 
 
 ---
 ##### jQuery

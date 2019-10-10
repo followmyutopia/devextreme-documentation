@@ -7,7 +7,7 @@ type: Boolean
 Specifies whether to convert string values to lowercase in filter and search requests. Applies to the following operations: *"startswith"*, *"endswith"*, *"contains"*, and *"notcontains"*.
 
 ---
-Defaults to the global [oDataFilterToLower](/Documentation/ApiReference/Common/Object_Structures/globalConfig/#oDataFilterToLower) setting.
+Defaults to the global [oDataFilterToLower](/api-reference/50%20Common/Object%20Structures/globalConfig/oDataFilterToLower.md '/Documentation/ApiReference/Common/Object_Structures/globalConfig/#oDataFilterToLower') setting.
 
 When this option is **true**, the filter expression sent to the server contains a `tolower()` function call and a lowercase filter value.
 

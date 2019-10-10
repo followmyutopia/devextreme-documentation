@@ -1,4 +1,4 @@
-Every widget that supports palettes has a [palette](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#palette) option. It accepts the name of a predefined or [registered custom palette](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Palettes/Implement_a_Custom_Palette) or an array of colors. In most widgets, this option should be set on the first level of the configuration object:
+Every widget that supports palettes has a [palette](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/1%20Configuration/palette.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#palette') option. It accepts the name of a predefined or [registered custom palette](/concepts/60%20Themes%20and%20Styles/20%20SVG-Based%20Widgets%20Customization/10%20Palettes/20%20Implement%20a%20Custom%20Palette.md '/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Palettes/Implement_a_Custom_Palette') or an array of colors. In most widgets, this option should be set on the first level of the configuration object:
 
 ---
 ##### jQuery  
@@ -81,7 +81,7 @@ Every widget that supports palettes has a [palette](/Documentation/ApiReference/
     url: "/Demos/WidgetsGallery/Demo/Charts/Palette/jQuery/Light/"
 }
 
-In the **CircularGauge** and **LinearGauge**, the palette can be specified in the [rangeContainer](/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Configuration/rangeContainer/) and [subvalueIndicator](/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Configuration/subvalueIndicator/) objects.
+In the **CircularGauge** and **LinearGauge**, the palette can be specified in the [rangeContainer](/api-reference/20%20Data%20Visualization%20Widgets/dxCircularGauge/1%20Configuration/rangeContainer/rangeContainer.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Configuration/rangeContainer/') and [subvalueIndicator](/api-reference/20%20Data%20Visualization%20Widgets/dxCircularGauge/1%20Configuration/subvalueIndicator/subvalueIndicator.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Configuration/subvalueIndicator/') objects.
 
 ---
 ##### jQuery  
@@ -205,7 +205,7 @@ In the **CircularGauge** and **LinearGauge**, the palette can be specified in th
     url: "/Demos/WidgetsGallery/Demo/Gauges/PaletteForRanges/jQuery/Light/"
 }
 
-In the **TreeMap**, the palette is part of the [colorizer](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/colorizer/). In the **VectorMap**, it should be set for a specific [layer](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/). In the **RangeSelector**, the palette is specified in the [chart](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/chart/) object.
+In the **TreeMap**, the palette is part of the [colorizer](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/1%20Configuration/colorizer/colorizer.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/colorizer/'). In the **VectorMap**, it should be set for a specific [layer](/api-reference/20%20Data%20Visualization%20Widgets/dxVectorMap/1%20Configuration/layers/layers.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/'). In the **RangeSelector**, the palette is specified in the [chart](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/chart/chart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/chart/') object.
 
 ---
 ##### jQuery  

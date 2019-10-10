@@ -1,4 +1,4 @@
-To zoom a standalone **Chart** initially, specify the axis' [visualRange](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/visualRange/).
+To zoom a standalone **Chart** initially, specify the axis' [visualRange](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/visualRange/visualRange.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/visualRange/').
 
 ---
 ##### jQuery
@@ -37,9 +37,9 @@ To zoom a standalone **Chart** initially, specify the axis' [visualRange](/Docum
 ---
 
 #####See Also#####
-- [Visual and Whole Ranges](/Documentation/Guide/Widgets/Chart/Axes/Visual_and_Whole_Ranges/)
+- [Visual and Whole Ranges](/concepts/05%20Widgets/Chart/20%20Axes/03%20Visual%20and%20Whole%20Ranges.md '/Documentation/Guide/Widgets/Chart/Axes/Visual_and_Whole_Ranges/')
 
-If the **Chart** is [bound to the RangeSelector](/Documentation/Guide/Widgets/Chart/Zooming_and_Panning/#Using_the_RangeSelector_Widget), specify the **Chart**'s initial zoom factor by setting the **RangeSelector**'s [value](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#value) option. 
+If the **Chart** is [bound to the RangeSelector](/concepts/05%20Widgets/Chart/95%20Zooming%20and%20Panning/10%20Using%20the%20RangeSelector%20Widget.md '/Documentation/Guide/Widgets/Chart/Zooming_and_Panning/#Using_the_RangeSelector_Widget'), specify the **Chart**'s initial zoom factor by setting the **RangeSelector**'s [value](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/value/value.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#value') option. 
 
 ---
 ##### jQuery

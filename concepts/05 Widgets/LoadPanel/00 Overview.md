@@ -4,7 +4,7 @@ The **LoadPanel** is an overlay widget notifying the viewer that loading is in p
     url: "/Demos/WidgetsGallery/#demo/dialogs_and_notifications-load_panel-overview"
 }
 
-The following code adds to your page a simple **LoadPanel** and a [Button](/Documentation/Guide/Widgets/Button/Overview/) that invokes it. The [closeOnOutsideClick](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#closeOnOutsideClick) option set to **true** instructs the **LoadPanel** to hide once a user clicks outside it.
+The following code adds to your page a simple **LoadPanel** and a [Button](/concepts/05%20Widgets/Button/00%20Overview.md '/Documentation/Guide/Widgets/Button/Overview/') that invokes it. The [closeOnOutsideClick](/api-reference/10%20UI%20Widgets/dxOverlay/1%20Configuration/closeOnOutsideClick.md '/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#closeOnOutsideClick') option set to **true** instructs the **LoadPanel** to hide once a user clicks outside it.
 
 ---
 ##### jQuery
@@ -56,9 +56,9 @@ The following code adds to your page a simple **LoadPanel** and a [Button](/Docu
 
 #####See Also#####
 #include common-link-configurewidget
-- [LoadPanel - Show and Hide Using the API](/Documentation/Guide/Widgets/LoadPanel/Show_and_Hide_Using_the_API/)
-- [LoadPanel - Customize the Appearance](/Documentation/Guide/Widgets/LoadPanel/Customize_the_Appearance/)
-- [LoadPanel - Resize and Relocate](/Documentation/Guide/Widgets/LoadPanel/Resize_and_Relocate/)
-- [LoadPanel API Reference](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/)
+- [LoadPanel - Show and Hide Using the API](/concepts/05%20Widgets/LoadPanel/05%20Show%20and%20Hide%20Using%20the%20API.md '/Documentation/Guide/Widgets/LoadPanel/Show_and_Hide_Using_the_API/')
+- [LoadPanel - Customize the Appearance](/concepts/05%20Widgets/LoadPanel/10%20Customize%20the%20Appearance/10%20Customize%20the%20Loading%20Indicator.md '/Documentation/Guide/Widgets/LoadPanel/Customize_the_Appearance/')
+- [LoadPanel - Resize and Relocate](/concepts/05%20Widgets/LoadPanel/15%20Resize%20and%20Relocate.md '/Documentation/Guide/Widgets/LoadPanel/Resize_and_Relocate/')
+- [LoadPanel API Reference](/api-reference/10%20UI%20Widgets/dxLoadPanel/dxLoadPanel.md '/Documentation/ApiReference/UI_Widgets/dxLoadPanel/')
 
 [tags]loadPanel, load panel, overview, overlay

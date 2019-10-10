@@ -5,7 +5,7 @@ type: String
 ---
 ---
 ##### shortDescription
-Specifies a predefined format. Does not apply if you have specified the [formatter](/Documentation/ApiReference/Common/Object_Structures/format/#formatter) function.
+Specifies a predefined format. Does not apply if you have specified the [formatter](/api-reference/50%20Common/Object%20Structures/format/formatter.md '/Documentation/ApiReference/Common/Object_Structures/format/#formatter') function.
 
 ---
 You can choose one of the predefined formats, depending on the values you need to format, from the following groups:
@@ -38,7 +38,7 @@ You can choose one of the predefined formats, depending on the values you need t
     &#42; - uses <i>"thousands", "millions", "billions", "trillions"*</i> format depending on the actual value
 </div>
 
-[note]Specify the [precision](/Documentation/ApiReference/Common/Object_Structures/format/#precision) to show fractional numbers.
+[note]Specify the [precision](/api-reference/50%20Common/Object%20Structures/format/precision.md '/Documentation/ApiReference/Common/Object_Structures/format/#precision') to show fractional numbers.
 
 **Date-Time Formats**  
 
@@ -94,5 +94,5 @@ When using a widget as an <a href="https://docs.devexpress.com/DevExtremeAspNetM
 }
 
 #####See Also#####
-- **format**.[currency](/Documentation/ApiReference/Common/Object_Structures/format/#currency)
-- **format**.[precision](/Documentation/ApiReference/Common/Object_Structures/format/#precision)
+- **format**.[currency](/api-reference/50%20Common/Object%20Structures/format/currency.md '/Documentation/ApiReference/Common/Object_Structures/format/#currency')
+- **format**.[precision](/api-reference/50%20Common/Object%20Structures/format/precision.md '/Documentation/ApiReference/Common/Object_Structures/format/#precision')

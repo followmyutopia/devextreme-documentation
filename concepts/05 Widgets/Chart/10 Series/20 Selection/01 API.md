@@ -1,4 +1,4 @@
-The selection capability is not provided out of the box, but it can be implemented using the [seriesClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#seriesClick) event. The following code gives an example for the scenario when a click on a series selects it, and a subsequent click on the same series clears the selection. To check whether the series is already selected, its [isSelected()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#isSelected) method is called.
+The selection capability is not provided out of the box, but it can be implemented using the [seriesClick](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/4%20Events/seriesClick.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#seriesClick') event. The following code gives an example for the scenario when a click on a series selects it, and a subsequent click on the same series clears the selection. To check whether the series is already selected, its [isSelected()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#isSelected) method is called.
 
 ---
 ##### jQuery
@@ -47,7 +47,7 @@ The selection capability is not provided out of the box, but it can be implement
 
 ---
 
-There are series that consist of points only, for example, [bar](/Documentation/Guide/Widgets/Chart/Series_Types/Bar_Series/) or [financial](/Documentation/Guide/Widgets/Chart/Series_Types/Financial_Series/) series. For these series, subscribe to the [pointClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#pointClick) event instead of **seriesClick**.
+There are series that consist of points only, for example, [bar](/concepts/05%20Widgets/Chart/11%20Series%20Types/20%20Bar%20Series/Bar%20Series.md '/Documentation/Guide/Widgets/Chart/Series_Types/Bar_Series/') or [financial](/concepts/05%20Widgets/Chart/11%20Series%20Types/60%20Financial%20Series.md '/Documentation/Guide/Widgets/Chart/Series_Types/Financial_Series/') series. For these series, subscribe to the [pointClick](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/4%20Events/pointClick.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#pointClick') event instead of **seriesClick**.
 
 ---
 ##### jQuery
@@ -128,7 +128,7 @@ In the previous code examples, selection was cleared of a specific series. If yo
 ---
 
 #####See Also#####
-- [Access a Series Using the API](/Documentation/Guide/Widgets/Chart/Series/Access_a_Series_Using_the_API/)
+- [Access a Series Using the API](/concepts/05%20Widgets/Chart/10%20Series/40%20Access%20a%20Series%20Using%20the%20API.md '/Documentation/Guide/Widgets/Chart/Series/Access_a_Series_Using_the_API/')
 #include common-link-handleevents
 #include common-link-callmethods
-- [Point Selection Using the API](/Documentation/Guide/Widgets/Chart/Series_Points/Selection/#API)
+- [Point Selection Using the API](/concepts/05%20Widgets/Chart/14%20Series%20Points/20%20Selection/01%20API.md '/Documentation/Guide/Widgets/Chart/Series_Points/Selection/#API')

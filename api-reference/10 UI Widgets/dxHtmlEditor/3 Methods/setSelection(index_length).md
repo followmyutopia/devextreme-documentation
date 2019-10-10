@@ -10,6 +10,6 @@ A zero-based index at which to begin selecting.
 
 ##### param(length): Number
 The length of the content to be selected.       
-[Embedded items](/Documentation/Guide/Widgets/HtmlEditor/Formats/) have a length of 1.
+[Embedded items](/concepts/05%20Widgets/HtmlEditor/10%20Formats/10%20Formats.md '/Documentation/Guide/Widgets/HtmlEditor/Formats/') have a length of 1.
 
 ---

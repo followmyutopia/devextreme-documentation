@@ -5,7 +5,7 @@
 This option should be assigned a function returning a specific object. The following fields can be specified in this object.
 
 - **color**        
-Specifies the [color](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/tooltip/#color) of a tooltip.
+Specifies the [color](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/tooltip/color.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/tooltip/#color') of a tooltip.
 
 - **text**        
 Specifies the text displayed by a tooltip.
@@ -36,11 +36,11 @@ Specifies the percent value of the currently hovered point.
 * **percentText**    
 Specifies the percent value of the currently hovered point with **percentPrecision** (optional) applied.
 * **point**    
-Provides access to the hovered point. To learn more about the field and methods of the point object, refer to the [Point](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Chart_Elements/) topic in the "Chart Elements" reference section.
+Provides access to the hovered point. To learn more about the field and methods of the point object, refer to the [Point](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Chart%20Elements.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Chart_Elements/') topic in the "Chart Elements" reference section.
 
 The function's parameter represents the same object as the **this** object. If appropriate, you can use the function's parameter to obtain the value that is currently represented by a tooltip.
 
-To get general information on data formatting, refer to the [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/) topic.
+To get general information on data formatting, refer to the [Data Formatting](/concepts/05%20Widgets/zz%20Common/10%20Data%20Visualization%20Widgets/30%20Data%20Formatting/Data%20Formatting.md '/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/') topic.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeaturestooltiphtmlsupport"

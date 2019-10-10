@@ -6,7 +6,7 @@ id: DataSource.loadOptions()
 Gets an object with current data processing settings.
 
 ##### return: Object
-[Data processing settings](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/).
+[Data processing settings](/api-reference/30%20Data%20Layer/CustomStore/LoadOptions/LoadOptions.md '/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/').
 
 ---
 ---

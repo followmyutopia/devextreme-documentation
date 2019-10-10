@@ -2,7 +2,7 @@ A tooltip is a small pop-up rectangle displaying information about a series poin
 
 ![DevExtreme HTML5 JavaScript PieChart Tooltip](/Content/images/doc/19_2/PieChart/visual_elements/tooltip.png)
 
-All options configuring tooltips are collected in the [tooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/tooltip/) object. For example, to enable the tooltips, assign **true** to the **enabled** option of this object.
+All options configuring tooltips are collected in the [tooltip](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/1%20Configuration/tooltip/tooltip.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/tooltip/') object. For example, to enable the tooltips, assign **true** to the **enabled** option of this object.
 
 ---
 ##### jQuery
@@ -40,7 +40,7 @@ All options configuring tooltips are collected in the [tooltip](/Documentation/A
 
 ---
 
-Options declared in the **tooltip** object apply to all tooltips in the **PieChart**. If you want to customize a specific tooltip, assign a function to the [customizeTooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/tooltip/#customizeTooltip) option. This function must return an object with options for the tooltip that you want to customize.
+Options declared in the **tooltip** object apply to all tooltips in the **PieChart**. If you want to customize a specific tooltip, assign a function to the [customizeTooltip](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart/1%20Configuration/tooltip/customizeTooltip.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/tooltip/#customizeTooltip') option. This function must return an object with options for the tooltip that you want to customize.
 
 ---
 ##### jQuery
@@ -95,5 +95,5 @@ Options declared in the **tooltip** object apply to all tooltips in the **PieCha
 }
 
 #####See Also#####
-- [Show and Hide a Tooltip](/Documentation/Guide/Widgets/PieChart/Tooltips/Show_and_Hide_a_Tooltip/)
-- [Handle Tooltip Events](/Documentation/Guide/Widgets/PieChart/Tooltips/Handle_Tooltip_Events/)
+- [Show and Hide a Tooltip](/concepts/05%20Widgets/PieChart/30%20Tooltips/10%20Show%20and%20Hide%20a%20Tooltip.md '/Documentation/Guide/Widgets/PieChart/Tooltips/Show_and_Hide_a_Tooltip/')
+- [Handle Tooltip Events](/concepts/05%20Widgets/PieChart/30%20Tooltips/20%20Handle%20Tooltip%20Events.md '/Documentation/Guide/Widgets/PieChart/Tooltips/Handle_Tooltip_Events/')

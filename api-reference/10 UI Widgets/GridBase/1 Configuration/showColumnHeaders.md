@@ -9,4 +9,4 @@ Specifies whether column headers are visible.
 
 ---
 #####See Also#####
-- **columns[]**.[caption]({basewidgetpath}/Configuration/columns/#caption)
+- **columns[]**.[caption](/api-reference/_hidden/GridBaseColumn/caption.md '{basewidgetpath}/Configuration/columns/#caption')

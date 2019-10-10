@@ -9,7 +9,7 @@ default: undefined
 Specifies the alignment of a summary item.
 
 ---
-The default alignment of a summary item depends on the [type of data](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#dataType) that is held by the column that displays this item. The following table illustrates the dependency between the default alignment and the column data type.
+The default alignment of a summary item depends on the [type of data](/api-reference/_hidden/GridBaseColumn/dataType.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#dataType') that is held by the column that displays this item. The following table illustrates the dependency between the default alignment and the column data type.
 
 <div class="simple-table">
 <table>
@@ -54,4 +54,4 @@ The default alignment of a summary item depends on the [type of data](/Documenta
 }
 
 #####See Also#####
-- [Total Summary - Alignment and Location](/Documentation/Guide/Widgets/DataGrid/Summaries/Total_Summary/#Alignment_and_Location)
+- [Total Summary - Alignment and Location](/concepts/05%20Widgets/DataGrid/65%20Summaries/10%20Total%20Summary/10%20Alignment%20and%20Location.md '/Documentation/Guide/Widgets/DataGrid/Summaries/Total_Summary/#Alignment_and_Location')

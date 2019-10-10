@@ -26,7 +26,7 @@ The data of the row that should be inserted.
 Model data. Available only if you use Knockout.
 
 ---
-Main article: [onRowInserting]({basewidgetpath}/Configuration/#onRowInserting)
+Main article: [onRowInserting](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onRowInserting.md '{basewidgetpath}/Configuration/#onRowInserting')
 
 #####See Also#####
 #include common-link-handleevents

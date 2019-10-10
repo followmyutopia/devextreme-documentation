@@ -4,7 +4,7 @@ type: eventType
 ---
 ---
 ##### shortDescription
-Raised when a [legend item](/Documentation/Guide/Widgets/Funnel/Legend/Overview/) is clicked or tapped.
+Raised when a [legend item](/concepts/05%20Widgets/Funnel/35%20Legend/00%20Overview.md '/Documentation/Guide/Widgets/Funnel/Legend/Overview/') is clicked or tapped.
 
 ##### param(e): Object
 Information about the event.
@@ -19,7 +19,7 @@ The widget's instance.
 #include common-ref-eventparam
 
 ##### field(e.item): dxFunnelItem
-The [Item](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/) object.
+The [Item](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/6%20Item/Item.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/') object.
 
 ##### field(e.jQueryEvent).deprecated
 Use 'event' instead.
@@ -33,8 +33,8 @@ The model data. Available only if you use Knockout.
 ##### notUsedInTheme
 
 ---
-Main article: [onLegendClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/#onLegendClick)
+Main article: [onLegendClick](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/1%20Configuration/onLegendClick.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/#onLegendClick')
 
 #####See Also#####
 #include common-link-handleevents
-- [legend](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/legend/)
+- [legend](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/1%20Configuration/legend/legend.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/legend/')

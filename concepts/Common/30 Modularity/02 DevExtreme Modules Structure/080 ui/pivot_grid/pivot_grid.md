@@ -2,7 +2,7 @@ Exposes the **PivotGrid** widget.
 
 Exports:
 
-- *default* - The [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) widget
+- *default* - The [PivotGrid](/api-reference/10%20UI%20Widgets/dxPivotGrid/dxPivotGrid.md '/Documentation/ApiReference/UI_Widgets/dxPivotGrid/') widget
 
         require("ui/pivot_grid");
         // ===== or =====

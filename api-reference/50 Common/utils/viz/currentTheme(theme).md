@@ -14,5 +14,5 @@ The new theme's name.
 Only the widgets created after calling this method use the new theme. Use the [DevExpress.viz.refreshTheme()](/Documentation/ApiReference/Common/utils/viz/#refreshTheme) method to refresh the styling settings in other widgets.
 
 #####See Also#####
-- [Themes](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Themes)
+- [Themes](/concepts/60%20Themes%20and%20Styles/20%20SVG-Based%20Widgets%20Customization/15%20Themes/00%20Themes.md '/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Themes')
 - [registerTheme(customTheme, baseTheme)](/Documentation/ApiReference/Common/utils/viz/#registerThemecustomTheme_baseTheme)

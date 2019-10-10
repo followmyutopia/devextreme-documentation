@@ -2,7 +2,7 @@ Exposes the **Resizable** widget.
 
 Exports:
 
-- *default* - The [Resizable](/Documentation/ApiReference/UI_Widgets/dxResizable/) widget
+- *default* - The [Resizable](/api-reference/10%20UI%20Widgets/dxResizable/dxResizable.md '/Documentation/ApiReference/UI_Widgets/dxResizable/') widget
 
         require("ui/resizable");
         // ===== or =====

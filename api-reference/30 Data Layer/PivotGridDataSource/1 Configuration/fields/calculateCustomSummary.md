@@ -4,7 +4,7 @@ type: function(options)
 ---
 ---
 ##### shortDescription
-Specifies a custom aggregate function. Applies only if the [summaryType](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#summaryType) is *"custom"* and the [remoteOperations](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/#remoteOperations) is **false**. Cannot be used with an [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/).
+Specifies a custom aggregate function. Applies only if the [summaryType](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/summaryType.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#summaryType') is *"custom"* and the [remoteOperations](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/remoteOperations.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/#remoteOperations') is **false**. Cannot be used with an [XmlaStore](/api-reference/30%20Data%20Layer/XmlaStore/XmlaStore.md '/Documentation/ApiReference/Data_Layer/XmlaStore/').
 
 ##### param(options): Object
 Information on the summary.

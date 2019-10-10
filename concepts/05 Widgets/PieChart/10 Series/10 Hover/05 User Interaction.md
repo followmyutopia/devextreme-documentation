@@ -1,4 +1,4 @@
-A series point's style changes when a user hovers the mouse pointer over it.  The **series**.[hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/series/hoverStyle/) object specifies this style.
+A series point's style changes when a user hovers the mouse pointer over it.  The **series**.[hoverStyle](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart/5%20Series%20Types/CommonPieChartSeries/hoverStyle/hoverStyle.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/series/hoverStyle/') object specifies this style.
 
 ---
 ##### jQuery
@@ -39,7 +39,7 @@ A series point's style changes when a user hovers the mouse pointer over it.  Th
 
 ---
 
-You can disable this feature by assigning *"none"* to the **series**.[hoverMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/series/#hoverMode) option.
+You can disable this feature by assigning *"none"* to the **series**.[hoverMode](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart/5%20Series%20Types/CommonPieChartSeries/hoverMode.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/series/#hoverMode') option.
 
 ---
 ##### jQuery

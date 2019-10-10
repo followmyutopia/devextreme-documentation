@@ -4,7 +4,7 @@ The **Toast** is a widget that provides pop-up notifications.
     url: "/Demos/WidgetsGallery/Demo/Toast/Overview/jQuery/Light/"
 }
 
-The **Toast** widget does not need to be created on the page before it can be shown. You can simply call the [notify(message, type, displayTime)](/Documentation/ApiReference/Common/utils/ui/#notifymessage_type_displayTime) method with values for the [message](/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#message), [type](/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#type) and [displayTime](/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#displayTime) options passed as the arguments.
+The **Toast** widget does not need to be created on the page before it can be shown. You can simply call the [notify(message, type, displayTime)](/Documentation/ApiReference/Common/utils/ui/#notifymessage_type_displayTime) method with values for the [message](/api-reference/10%20UI%20Widgets/dxToast/1%20Configuration/message.md '/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#message'), [type](/api-reference/10%20UI%20Widgets/dxToast/1%20Configuration/type.md '/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#type') and [displayTime](/api-reference/10%20UI%20Widgets/dxToast/1%20Configuration/displayTime.md '/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#displayTime') options passed as the arguments.
 
 ---
 #####jQuery
@@ -30,7 +30,7 @@ The **Toast** widget does not need to be created on the page before it can be sh
 
 ---
 
-If you need to specify other **Toast** options, call the same method, but this time [pass an object as the argument](/Documentation/ApiReference/Common/utils/ui/#notifyoptions). In this object, you can set [any Toast option](/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/).
+If you need to specify other **Toast** options, call the same method, but this time [pass an object as the argument](/Documentation/ApiReference/Common/utils/ui/#notifyoptions). In this object, you can set [any Toast option](/api-reference/10%20UI%20Widgets/dxToast/1%20Configuration/Configuration.md '/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/').
 
 ---
 #####jQuery
@@ -66,7 +66,7 @@ If you need to specify other **Toast** options, call the same method, but this t
 
 ---
 
-If you are going to reuse the **Toast**, then create it on the page using the following code. Note that in this code, the [Button](/Documentation/Guide/Widgets/Button/Overview/) widget invokes the **Toast**.
+If you are going to reuse the **Toast**, then create it on the page using the following code. Note that in this code, the [Button](/concepts/05%20Widgets/Button/00%20Overview.md '/Documentation/Guide/Widgets/Button/Overview/') widget invokes the **Toast**.
 
 ---
 #####jQuery
@@ -118,13 +118,13 @@ If you are going to reuse the **Toast**, then create it on the page using the fo
 
 ---
 
-The appearance of the **Toast** is predefined by its [type](/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#type). Depending on the mood of the message that the **Toast** displays, the **type** can be *"info"*, *"warning"*, *"error"* or *"success"*. There is also the *"custom"* **type** that allows you to define a custom appearance for the **Toast**. Find more information about this in the [Customize the Content](/Documentation/Guide/Widgets/Toast/Customize_the_Content/) article.
+The appearance of the **Toast** is predefined by its [type](/api-reference/10%20UI%20Widgets/dxToast/1%20Configuration/type.md '/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#type'). Depending on the mood of the message that the **Toast** displays, the **type** can be *"info"*, *"warning"*, *"error"* or *"success"*. There is also the *"custom"* **type** that allows you to define a custom appearance for the **Toast**. Find more information about this in the [Customize the Content](/concepts/05%20Widgets/Toast/10%20Customize%20the%20Content.md '/Documentation/Guide/Widgets/Toast/Customize_the_Content/') article.
 
 #####See Also#####
 #include common-link-configurewidget
-- [Toast - Show and Hide](/Documentation/Guide/Widgets/Toast/Show_and_Hide_the_Toast/)
-- [Toast - Customize the Content](/Documentation/Guide/Widgets/Toast/Customize_the_Content/)
-- [Toast - Resize and Relocate](/Documentation//Guide/Widgets/Toast/Resize_and_Relocate/)
-- [Toast API Reference](/Documentation/ApiReference/UI_Widgets/dxToast/)
+- [Toast - Show and Hide](/concepts/05%20Widgets/Toast/05%20Show%20and%20Hide%20the%20Toast/Show%20and%20Hide%20the%20Toast.md '/Documentation/Guide/Widgets/Toast/Show_and_Hide_the_Toast/')
+- [Toast - Customize the Content](/concepts/05%20Widgets/Toast/10%20Customize%20the%20Content.md '/Documentation/Guide/Widgets/Toast/Customize_the_Content/')
+- [Toast - Resize and Relocate](/concepts/05%20Widgets/Toast/15%20Resize%20and%20Relocate.md '/Documentation//Guide/Widgets/Toast/Resize_and_Relocate/')
+- [Toast API Reference](/api-reference/10%20UI%20Widgets/dxToast/dxToast.md '/Documentation/ApiReference/UI_Widgets/dxToast/')
 
 [tags]toast, overview, overlay

@@ -1,4 +1,4 @@
-The **List** widget fires the [selectionChanged](/Documentation/ApiReference/UI_Widgets/dxList/Events/#selectionChanged) event when an item is selected or when the selection is cancelled. The widget also fires the [selectAllValueChanged](/Documentation/ApiReference/UI_Widgets/dxList/Events/#selectAllValueChanged) event when the [*"Select All"*](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#selectAllMode) check box has changed its value. If the functions that handle these events are not going to be changed during the lifetime of the widget, assign them to the corresponding **on*EventName*** options when you configure the widget.
+The **List** widget fires the [selectionChanged](/api-reference/10%20UI%20Widgets/CollectionWidget/4%20Events/selectionChanged.md '/Documentation/ApiReference/UI_Widgets/dxList/Events/#selectionChanged') event when an item is selected or when the selection is cancelled. The widget also fires the [selectAllValueChanged](/api-reference/10%20UI%20Widgets/dxList/4%20Events/selectAllValueChanged.md '/Documentation/ApiReference/UI_Widgets/dxList/Events/#selectAllValueChanged') event when the [*"Select All"*](/api-reference/10%20UI%20Widgets/dxList/1%20Configuration/selectAllMode.md '/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#selectAllMode') check box has changed its value. If the functions that handle these events are not going to be changed during the lifetime of the widget, assign them to the corresponding **on*EventName*** options when you configure the widget.
 
 ---
 #####jQuery
@@ -71,4 +71,4 @@ If you are going to change the event handlers at runtime, or if you need to atta
 
 #####See Also#####
 #include common-link-handleevents
-- [List API Reference](/Documentation/ApiReference/UI_Widgets/dxList/)
+- [List API Reference](/api-reference/10%20UI%20Widgets/dxList/dxList.md '/Documentation/ApiReference/UI_Widgets/dxList/')

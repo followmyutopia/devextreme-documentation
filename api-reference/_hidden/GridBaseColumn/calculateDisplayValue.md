@@ -4,7 +4,7 @@ type: String | function(rowData)
 ---
 ---
 ##### shortDescription
-Calculates custom display values for column cells. Requires specifying the [dataField]({basewidgetpath}/Configuration/columns/#dataField) or [calculateCellValue]({basewidgetpath}/Configuration/columns/#calculateCellValue) option. Used in [lookup optimization](/Documentation/Guide/Widgets/DataGrid/Enhance_Performance_on_Large_Datasets/#Lookup_Optimization).
+Calculates custom display values for column cells. Requires specifying the [dataField](/api-reference/_hidden/GridBaseColumn/dataField.md '{basewidgetpath}/Configuration/columns/#dataField') or [calculateCellValue](/api-reference/_hidden/GridBaseColumn/calculateCellValue.md '{basewidgetpath}/Configuration/columns/#calculateCellValue') option. Used in [lookup optimization](/concepts/05%20Widgets/DataGrid/10%20Enhance%20Performance%20on%20Large%20Datasets/020%20Lookup%20Optimization.md '/Documentation/Guide/Widgets/DataGrid/Enhance_Performance_on_Large_Datasets/#Lookup_Optimization').
 
 ##### param(rowData): Object
 The data of the row to which the cell belongs.
@@ -13,7 +13,7 @@ The data of the row to which the cell belongs.
 The value for the cell to display.
 
 ---
-This option accepts the name of the [data source field]({basewidgetpath}/Configuration/#dataSource) that provides display values...
+This option accepts the name of the [data source field](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/dataSource.md '{basewidgetpath}/Configuration/#dataSource') that provides display values...
 
 ---
 ##### jQuery
@@ -128,7 +128,7 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
 
 ---
 
-... or a function that combines display values. Specify this function only if all data processing operations are [executed on the client]({basewidgetpath}/Configuration/remoteOperations/).
+... or a function that combines display values. Specify this function only if all data processing operations are [executed on the client](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/remoteOperations/remoteOperations.md '{basewidgetpath}/Configuration/remoteOperations/').
 
 ---
 ##### jQuery
@@ -268,10 +268,10 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
     
 ---
 
-The widget uses the specified display values in [sorting](/Documentation/Guide/Widgets/{WidgetName}/Sorting/), [searching](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Search_Panel), and [grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/) (in case of **DataGrid**).
+The widget uses the specified display values in [sorting](/Documentation/Guide/Widgets/{WidgetName}/Sorting/), [searching](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Search_Panel), and [grouping](/concepts/05%20Widgets/DataGrid/45%20Grouping/Grouping.md '/Documentation/Guide/Widgets/DataGrid/Grouping/') (in case of **DataGrid**).
 
 #include uiwidgets-ref-functioncontext with { 
     value: "column's configuration"
 }
 
-Do not use this option to format text in cells. Instead, use the [format]({basewidgetpath}/Configuration/columns/#format), [customizeText]({basewidgetpath}/Configuration/columns/#customizeText), or [cellTemplate]({basewidgetpath}/Configuration/columns/#cellTemplate) option.
+Do not use this option to format text in cells. Instead, use the [format](/api-reference/_hidden/GridBaseColumn/format.md '{basewidgetpath}/Configuration/columns/#format'), [customizeText](/api-reference/_hidden/GridBaseColumn/customizeText.md '{basewidgetpath}/Configuration/columns/#customizeText'), or [cellTemplate](/api-reference/_hidden/dxDataGridColumn/cellTemplate.md '{basewidgetpath}/Configuration/columns/#cellTemplate') option.

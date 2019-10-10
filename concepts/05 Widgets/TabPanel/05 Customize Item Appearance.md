@@ -1,4 +1,4 @@
-An item in the **TabPanel** widget includes a tab and a view. For a minor customization of **TabPanel** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Default_Item_Template/) are present or absent from the item's data object. For example, the following code generates three items: the first has a [badge](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Default_Item_Template/#badge), the second is disabled, the third has an icon.
+An item in the **TabPanel** widget includes a tab and a view. For a minor customization of **TabPanel** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxTabPanel/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Default_Item_Template/') are present or absent from the item's data object. For example, the following code generates three items: the first has a [badge](/api-reference/10%20UI%20Widgets/dxTabPanel/5%20Default%20Item%20Template/badge.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Default_Item_Template/#badge'), the second is disabled, the third has an icon.
 
     <!--JavaScript-->
     $(function() {
@@ -19,7 +19,7 @@ An item in the **TabPanel** widget includes a tab and a view. For a minor custom
         });
     });
 
-Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code gives a simple example of how you can use **dxTemplate** to customize tab panel items.
+Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/'). The following code gives a simple example of how you can use **dxTemplate** to customize tab panel items.
 
 ---
 #####**AngularJS**
@@ -133,7 +133,7 @@ Using the default item template is the easiest way to customize an item, but it 
     url: "/Demos/WidgetsGallery/Demo/TabPanel/Overview/jQuery/Light/"
 }
 
-If you use jQuery alone, combine the HTML markup for items manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#itemTemplate) and [itemTitleTemplate](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#itemTitleTemplate) callback functions for views and tabs, respectively.
+If you use jQuery alone, combine the HTML markup for items manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [itemTemplate](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/itemTemplate.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#itemTemplate') and [itemTitleTemplate](/api-reference/10%20UI%20Widgets/dxTabPanel/1%20Configuration/itemTitleTemplate.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#itemTitleTemplate') callback functions for views and tabs, respectively.
 
     <!--JavaScript-->
     var dataItems = [{
@@ -166,7 +166,7 @@ If you use jQuery alone, combine the HTML markup for items manually with jQuery 
         });
     });
 
-You can also customize an individual view or tab. For this purpose, declare a template for this view or tab as a script and pass an appropriate <a href="http://api.jquery.com/category/selectors/" target="_blank">selector</a> to the [template](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Default_Item_Template/#template) or [tabTemplate](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Default_Item_Template/#tabTemplate) option, respectively.
+You can also customize an individual view or tab. For this purpose, declare a template for this view or tab as a script and pass an appropriate <a href="http://api.jquery.com/category/selectors/" target="_blank">selector</a> to the [template](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/template.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Default_Item_Template/#template') or [tabTemplate](/api-reference/10%20UI%20Widgets/dxTabPanel/5%20Default%20Item%20Template/tabTemplate.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Default_Item_Template/#tabTemplate') option, respectively.
 
     <!--HTML-->
     <script id="individualViewTemplate" type="text/html">
@@ -187,11 +187,11 @@ You can also customize an individual view or tab. For this purpose, declare a te
     // ...
     ];
     
-In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines) article.
+In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/concepts/05%20Widgets/zz%20Common/30%20Templates/30%203rd-Party%20Template%20Engines.md '/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines') article.
 
 #####See Also#####
-- [TabPanel - Control the Behavior](/Documentation/Guide/Widgets/TabPanel/Control_the_Behavior)
+- [TabPanel - Control the Behavior](/concepts/05%20Widgets/TabPanel/15%20Control%20the%20Behavior.md '/Documentation/Guide/Widgets/TabPanel/Control_the_Behavior')
 - [TabPanel Demos](/Demos/WidgetsGallery/#demo/navigation-tab_panel-overview)
-- [TabPanel API Reference](/Documentation/ApiReference/UI_Widgets/dxTabPanel/)
+- [TabPanel API Reference](/api-reference/10%20UI%20Widgets/dxTabPanel/dxTabPanel.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/')
 
 [tags]tab panel, tabPanel, item appearance, customize, templates, template, custom template, default item, default template

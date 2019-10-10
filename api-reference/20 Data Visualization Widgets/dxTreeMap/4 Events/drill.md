@@ -19,12 +19,12 @@ The widget's instance.
 The model data. Available only if you use Knockout.
 
 ##### field(e.node): dxTreeMapNode
-The [Node](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/) object.
+The [Node](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/6%20Node/Node.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/') object.
 
 ##### notUsedInTheme
 
 ---
-Main article: [onDrill](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#onDrill)
+Main article: [onDrill](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/1%20Configuration/onDrill.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#onDrill')
 
 #####See Also#####
 #include common-link-handleevents

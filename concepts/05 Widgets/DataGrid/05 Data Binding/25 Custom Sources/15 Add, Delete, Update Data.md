@@ -1,4 +1,4 @@
-To allow a user to add, delete and update data in the **DataGrid**, assign **true** to the corresponding field of the [editing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/) object. 
+To allow a user to add, delete and update data in the **DataGrid**, assign **true** to the corresponding field of the [editing](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/editing/editing.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/') object. 
 
 ---
 
@@ -279,6 +279,6 @@ With these settings, the **DataGrid** expects that the server can also add, upda
 ---
 
 #####See Also#####
-- [Data Layer - DataSource Examples | Custom Sources](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources)
-- [Data Layer - Overview](/Documentation/Guide/Data_Layer/Data_Layer/)
+- [Data Layer - DataSource Examples | Custom Sources](/concepts/30%20Data%20Layer/51%20Data%20Source%20Examples/3%20Custom%20Sources/Custom%20Sources.md '/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources')
+- [Data Layer - Overview](/concepts/30%20Data%20Layer/5%20Data%20Layer/Data%20Layer.md '/Documentation/Guide/Data_Layer/Data_Layer/')
 - [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/CustomDataSource/jQuery/Light/)

@@ -10,7 +10,7 @@ Specifies the file provider.
 ---
 File providers are components that provide APIs used to access and modify virtual file systems.
 
-The following example illustrates how to configure an [Array](/Documentation/ApiReference/UI_Widgets/dxFileManager/File_Providers/Array/) file provider:
+The following example illustrates how to configure an [Array](/api-reference/10%20UI%20Widgets/dxFileManager/5%20File%20Providers/Array/Array.md '/Documentation/ApiReference/UI_Widgets/dxFileManager/File_Providers/Array/') file provider:
 
 ---
 
@@ -76,4 +76,4 @@ The following example illustrates how to configure an [Array](/Documentation/Api
 ---
 
 
-Refer to [File Providers](/Documentation/ApiReference/UI_Widgets/dxFileManager/File_Providers/) for information on supported file providers.
+Refer to [File Providers](/api-reference/10%20UI%20Widgets/dxFileManager/5%20File%20Providers/File%20Providers.md '/Documentation/ApiReference/UI_Widgets/dxFileManager/File_Providers/') for information on supported file providers.

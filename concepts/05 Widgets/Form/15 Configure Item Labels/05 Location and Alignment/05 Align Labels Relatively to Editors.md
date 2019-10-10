@@ -1,4 +1,4 @@
-The **Form** widget displays labels on the left side of their editors and aligns them to the left. Use the [labelLocation](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#labelLocation) option to relocate all labels or the **label**.[location](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/label/#location) option to relocate individual labels. To align labels horizontally, set the **label**.[alignment](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/label/#alignment) option.
+The **Form** widget displays labels on the left side of their editors and aligns them to the left. Use the [labelLocation](/api-reference/10%20UI%20Widgets/dxForm/1%20Configuration/labelLocation.md '/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#labelLocation') option to relocate all labels or the **label**.[location](/api-reference/10%20UI%20Widgets/dxForm/5%20Item%20Types/SimpleItem/label/location.md '/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/label/#location') option to relocate individual labels. To align labels horizontally, set the **label**.[alignment](/api-reference/10%20UI%20Widgets/dxForm/5%20Item%20Types/SimpleItem/label/alignment.md '/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/label/#alignment') option.
 
 ---
 ##### jQuery
@@ -58,7 +58,7 @@ The **Form** widget displays labels on the left side of their editors and aligns
 
 ---
 
-A label placed on the left or right side of the editor is centered vertically in most cases. The labels of the editors that occupy much screen space like the [Calendar](/Documentation/Guide/Widgets/Calendar/Overview/), [TextArea](/Documentation/Guide/Widgets/TextArea/Overview/), and [RadioGroup](/Documentation/Guide/Widgets/RadioGroup/Overview/) are aligned at the top, but you can center them using the following code:
+A label placed on the left or right side of the editor is centered vertically in most cases. The labels of the editors that occupy much screen space like the [Calendar](/concepts/05%20Widgets/Calendar/00%20Overview.md '/Documentation/Guide/Widgets/Calendar/Overview/'), [TextArea](/concepts/05%20Widgets/TextArea/00%20Overview.md '/Documentation/Guide/Widgets/TextArea/Overview/'), and [RadioGroup](/concepts/05%20Widgets/RadioGroup/00%20Overview.md '/Documentation/Guide/Widgets/RadioGroup/Overview/') are aligned at the top, but you can center them using the following code:
 
     <!--CSS-->
     .dx-label-h-align {

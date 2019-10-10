@@ -10,10 +10,10 @@ Raised after a pivot grid cell is created.
 Information about the event.
 
 ##### field(e.area): String
-The [area](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area) to which the prepared cell belongs.
+The [area](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/area.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area') to which the prepared cell belongs.
 
 ##### field(e.cell): dxPivotGridPivotGridCell
-The cell [properties](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Pivot_Grid_Cell/).
+The cell [properties](/api-reference/10%20UI%20Widgets/dxPivotGrid/6%20Pivot%20Grid%20Cell/Pivot%20Grid%20Cell.md '/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Pivot_Grid_Cell/').
 
 ##### field(e.cellElement): dxElement
 #include common-ref-elementparam with { element: "prepared cell" }
@@ -34,7 +34,7 @@ Model data. Available only if Knockout is used.
 The position of a cell's row.
 
 ---
-Main article: [onCellPrepared](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#onCellPrepared)
+Main article: [onCellPrepared](/api-reference/10%20UI%20Widgets/dxPivotGrid/1%20Configuration/onCellPrepared.md '/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#onCellPrepared')
 
 #####See Also#####
 #include common-link-handleevents

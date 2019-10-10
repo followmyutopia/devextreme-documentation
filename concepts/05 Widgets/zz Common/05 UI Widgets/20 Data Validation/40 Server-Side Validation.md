@@ -1,4 +1,4 @@
-Use the ["custom"](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/CustomRule/) validation rule that allows you to implement a [custom validation function](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/CustomRule/#validationCallback) for server-side validation. In this function, perform an HTTP request and, when it succeeds, update the validation state and error message.
+Use the ["custom"](/api-reference/10%20UI%20Widgets/dxValidator/8%20Validation%20Rules/CustomRule/CustomRule.md '/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/CustomRule/') validation rule that allows you to implement a [custom validation function](/api-reference/10%20UI%20Widgets/dxValidator/8%20Validation%20Rules/CustomRule/validationCallback.md '/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/CustomRule/#validationCallback') for server-side validation. In this function, perform an HTTP request and, when it succeeds, update the validation state and error message.
 
 ---
 ##### jQuery

@@ -20,12 +20,12 @@ The current table cell's index.
 A template name or container.
 
 ---
-[note]There is no **dataCellTemplate** in the [agenda](/Documentation/Guide/Widgets/Scheduler/Views/View_Types/#Agenda_View) view.
+[note]There is no **dataCellTemplate** in the [agenda](/concepts/05%20Widgets/Scheduler/060%20Views/010%20View%20Types/050%20Agenda%20View.md '/Documentation/Guide/Widgets/Scheduler/Views/View_Types/#Agenda_View') view.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-scheduler-cell_templates"
 }
 
 #####See Also#####
-- [Timetable](/Documentation/Guide/Widgets/Scheduler/Timetable/)
-- [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
+- [Timetable](/concepts/05%20Widgets/Scheduler/050%20Timetable.md '/Documentation/Guide/Widgets/Scheduler/Timetable/')
+- [Custom Templates](/concepts/05%20Widgets/zz%20Common/30%20Templates/10%20Custom%20Templates.md '/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates')

@@ -99,7 +99,7 @@ The main idea is to filter the data source by the `parentID` for different drill
 
 ---
 
-... or employ the DevExtreme [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) object that provides an [API for filtering](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter):
+... or employ the DevExtreme [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/') object that provides an [API for filtering](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/filter.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter'):
 
 ---
 ##### jQuery

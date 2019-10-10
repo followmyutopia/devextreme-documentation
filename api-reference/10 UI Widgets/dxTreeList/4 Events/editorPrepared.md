@@ -34,7 +34,7 @@ The editor's location. One of *"dataRow"*, *"filterRow"*, *"headerRow"* or *"sea
 Indicates whether the editor is read-only.
 
 ##### field(options.row): dxTreeListRowObject
-The [properties](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/) of the row the editor belongs to.
+The [properties](/api-reference/10%20UI%20Widgets/dxTreeList/6%20Row/Row.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/') of the row the editor belongs to.
 
 ##### field(options.rtlEnabled): Boolean
 Indicates whether the editor uses right-to-left representation.
@@ -52,7 +52,7 @@ The editor's value.
 The editor's width; equals **null** for all editors except for those whose **parentType** equals *"searchPanel"*.
 
 ---
-Main article: [onEditorPrepared](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onEditorPrepared)
+Main article: [onEditorPrepared](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/onEditorPrepared.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onEditorPrepared')
 
 #####See Also#####
 #include common-link-handleevents

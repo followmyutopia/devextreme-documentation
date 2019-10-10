@@ -40,7 +40,7 @@ Model data. Available only if Knockout is used.
 The clicked appointment.
 
 ---
-Main article: [onAppointmentDblClick](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentDblClick)
+Main article: [onAppointmentDblClick](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/onAppointmentDblClick.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentDblClick')
 
 #####See Also#####
 #include common-link-handleevents

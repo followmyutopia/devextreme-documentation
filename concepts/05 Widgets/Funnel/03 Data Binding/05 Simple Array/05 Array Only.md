@@ -1,4 +1,4 @@
-To bind the **Funnel** to an array, pass this array to the [dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/#dataSource) option. The array should contain objects.
+To bind the **Funnel** to an array, pass this array to the [dataSource](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/1%20Configuration/dataSource.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/#dataSource') option. The array should contain objects.
 
 ---
 ##### jQuery
@@ -50,7 +50,7 @@ To bind the **Funnel** to an array, pass this array to the [dataSource](/Documen
 
 ---
 
-If objects in the array need to be processed (sorted, filtered, etc.), you can create a [Query](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept). For example, in the following code, a Query applies a filter to the `fruits` array that excludes objects with `count` less than 10.
+If objects in the array need to be processed (sorted, filtered, etc.), you can create a [Query](/concepts/30%20Data%20Layer/5%20Data%20Layer/6%20Query%20Concept.md '/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept'). For example, in the following code, a Query applies a filter to the `fruits` array that excludes objects with `count` less than 10.
 
 ---
 ##### jQuery
@@ -106,4 +106,4 @@ If objects in the array need to be processed (sorted, filtered, etc.), you can c
 ---
 
 #####See Also#####
-- [Update Data in the Funnel](/Documentation/Guide/Widgets/Funnel/Data_Binding/Update_Data/)
+- [Update Data in the Funnel](/concepts/05%20Widgets/Funnel/03%20Data%20Binding/26%20Update%20Data/Update%20Data.md '/Documentation/Guide/Widgets/Funnel/Data_Binding/Update_Data/')

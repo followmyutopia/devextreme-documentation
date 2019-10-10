@@ -31,7 +31,7 @@ The currently selected items.
 Allows you to change the multi-tag's text.
 
 ---
-Main article: [onMultiTagPreparing](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#onMultiTagPreparing)
+Main article: [onMultiTagPreparing](/api-reference/10%20UI%20Widgets/dxTagBox/1%20Configuration/onMultiTagPreparing.md '/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#onMultiTagPreparing')
 
 #####See Also#####
 #include common-link-handleevents

@@ -1,10 +1,10 @@
-The **DateBox**'s value is formatted according to the application's [locale](/Documentation/ApiReference/Common/utils/localization/#locale). You can use the [displayFormat](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#displayFormat) option that accepts [predefined](/Documentation/Guide/Common/Value_Formatting/#Format_Widget_Values/Predefined_Formats) and [custom formats](/Documentation/Guide/Common/Value_Formatting/#Format_Widget_Values/Custom_Format_String) to change the format.
+The **DateBox**'s value is formatted according to the application's [locale](/Documentation/ApiReference/Common/utils/localization/#locale). You can use the [displayFormat](/api-reference/10%20UI%20Widgets/dxDateBox/1%20Configuration/displayFormat.md '/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#displayFormat') option that accepts [predefined](/concepts/Common/34%20Value%20Formatting/10%20Format%20Widget%20Values/10%20Predefined%20Formats.md '/Documentation/Guide/Common/Value_Formatting/#Format_Widget_Values/Predefined_Formats') and [custom formats](/concepts/Common/34%20Value%20Formatting/10%20Format%20Widget%20Values/20%20Custom%20Format%20String.md '/Documentation/Guide/Common/Value_Formatting/#Format_Widget_Values/Custom_Format_String') to change the format.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/DateBox/Formatting/jQuery/Light/"
 }
 
-In addition to value formatting, the **displayFormat** can be used as a mask to control user input if [useMaskBehavior](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#useMaskBehavior) is **true**:
+In addition to value formatting, the **displayFormat** can be used as a mask to control user input if [useMaskBehavior](/api-reference/10%20UI%20Widgets/dxDateBox/1%20Configuration/useMaskBehavior.md '/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#useMaskBehavior') is **true**:
 
 ---
 ##### jQuery

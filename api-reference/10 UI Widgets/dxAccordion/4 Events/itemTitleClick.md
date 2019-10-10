@@ -31,7 +31,7 @@ The clicked item's index.
 Model data. Available only if you use Knockout.
 
 ---
-Main article: [onItemTitleClick](/Documentation/ApiReference/UI_Widgets/dxAccordion/Configuration/#onItemTitleClick)
+Main article: [onItemTitleClick](/api-reference/10%20UI%20Widgets/dxAccordion/1%20Configuration/onItemTitleClick.md '/Documentation/ApiReference/UI_Widgets/dxAccordion/Configuration/#onItemTitleClick')
 
 #####See Also#####
 #include common-link-handleevents

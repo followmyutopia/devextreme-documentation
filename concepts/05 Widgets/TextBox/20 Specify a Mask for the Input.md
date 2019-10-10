@@ -1,4 +1,4 @@
-A mask defines a pattern for the **TextBox** value. You can specify the mask using the [mask](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#mask) option. A mask can contain the following elements.
+A mask defines a pattern for the **TextBox** value. You can specify the mask using the [mask](/api-reference/10%20UI%20Widgets/dxTextEditor/1%20Configuration/mask.md '/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#mask') option. A mask can contain the following elements.
 
 <div class="simple-table">
   <table>
@@ -45,7 +45,7 @@ A mask defines a pattern for the **TextBox** value. You can specify the mask usi
   </table>
 </div>
 
-You can also define custom masking elements using the [maskRules](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#maskRules) object. Each field of this object defines a single masking element.
+You can also define custom masking elements using the [maskRules](/api-reference/10%20UI%20Widgets/dxTextEditor/1%20Configuration/maskRules.md '/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#maskRules') object. Each field of this object defines a single masking element.
 
 ---
 #####jQuery
@@ -143,12 +143,12 @@ You can also define custom masking elements using the [maskRules](/Documentation
 
 ---
 
-The masked value goes to the read-only [text](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#text) option, while its unmasked equivalent goes to the [value](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#value) option. If you use jQuery, you can get the value of either of these options using the [option(optionName)](/Documentation/ApiReference/UI_Widgets/dxTextBox/Methods/#optionoptionName) method.
+The masked value goes to the read-only [text](/api-reference/10%20UI%20Widgets/dxTextEditor/1%20Configuration/text.md '/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#text') option, while its unmasked equivalent goes to the [value](/api-reference/10%20UI%20Widgets/dxTextBox/1%20Configuration/value.md '/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#value') option. If you use jQuery, you can get the value of either of these options using the [option(optionName)](/Documentation/ApiReference/UI_Widgets/dxTextBox/Methods/#optionoptionName) method.
 
     <!--JavaScript-->var maskedValue = $("#textBoxContainer").dxTextBox("option", "text");
     var unmaskedValue = $("#textBoxContainer").dxTextBox("option", "value");
     
-By default, the widget uses underscores to designate blanks in the masked value. You can specify another symbol using the [maskChar](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#maskChar) option.
+By default, the widget uses underscores to designate blanks in the masked value. You can specify another symbol using the [maskChar](/api-reference/10%20UI%20Widgets/dxTextEditor/1%20Configuration/maskChar.md '/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#maskChar') option.
 
 ---
 #####jQuery
@@ -202,7 +202,7 @@ By default, the widget uses underscores to designate blanks in the masked value.
 
 ---
 
-If the input value does not match the mask, the **TextBox** displays an error message specified by the [maskInvalidMessage](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#maskInvalidMessage) option.
+If the input value does not match the mask, the **TextBox** displays an error message specified by the [maskInvalidMessage](/api-reference/10%20UI%20Widgets/dxTextEditor/1%20Configuration/maskInvalidMessage.md '/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#maskInvalidMessage') option.
 
 ---
 #####jQuery
@@ -258,6 +258,6 @@ If the input value does not match the mask, the **TextBox** displays an error me
 
 #####See Also#####
 - [TextBox Demos](/Demos/WidgetsGallery/#demo/editors-text_box-overview)
-- [TextBox API Reference](/Documentation/ApiReference/UI_Widgets/dxTextBox/)
+- [TextBox API Reference](/api-reference/10%20UI%20Widgets/dxTextBox/dxTextBox.md '/Documentation/ApiReference/UI_Widgets/dxTextBox/')
 
 [tags]textBox, text box, editor, input pattern, input mask, custom masking elements, maskChar, useMaskedValue

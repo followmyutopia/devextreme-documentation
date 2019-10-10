@@ -1,4 +1,4 @@
-To bind the **Sankey** to data from an OData service, use the [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/). You should declare it inside the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) configuration object because the **Sankey** widget requires disabled [pagination](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) to prevent data from partitioning.
+To bind the **Sankey** to data from an OData service, use the [ODataStore](/api-reference/30%20Data%20Layer/ODataStore/ODataStore.md '/Documentation/ApiReference/Data_Layer/ODataStore/'). You should declare it inside the [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/') configuration object because the **Sankey** widget requires disabled [pagination](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/paginate.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate') to prevent data from partitioning.
 
 ---
 ##### jQuery
@@ -119,5 +119,5 @@ The **DataSource** can also be used for data processing. In the following exampl
 ---
 
 #####See Also#####
-- [DataSource Examples - OData](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData)
-- [Update Data in the Sankey](/Documentation/Guide/Widgets/Sankey/Data_Binding/Update_Data/)
+- [DataSource Examples - OData](/concepts/30%20Data%20Layer/51%20Data%20Source%20Examples/2%20OData/OData.md '/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData')
+- [Update Data in the Sankey](/concepts/05%20Widgets/Sankey/03%20Data%20Binding/26%20Update%20Data/Update%20Data.md '/Documentation/Guide/Widgets/Sankey/Data_Binding/Update_Data/')

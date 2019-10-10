@@ -2,7 +2,7 @@ A user can click the **Export** button to save an Excel file with the exported d
 
 ![DevExtreme HTML5 JavaScript DataGrid Export Button](/Content/images/doc/19_2/DataGrid/exported_data.png)
 
-To allow a user to export data, set the **export**.[enabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#enabled) option to **true**.
+To allow a user to export data, set the **export**.[enabled](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/export/enabled.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#enabled') option to **true**.
 
 ---
 
@@ -42,7 +42,7 @@ To allow a user to export data, set the **export**.[enabled](/Documentation/ApiR
 
 ---
 
-You can disable exporting a specific column by setting its [allowExporting](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowExporting) option to **false**:
+You can disable exporting a specific column by setting its [allowExporting](/api-reference/_hidden/dxDataGridColumn/allowExporting.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowExporting') option to **false**:
 
 ---
 
@@ -89,7 +89,7 @@ You can disable exporting a specific column by setting its [allowExporting](/Doc
 
 ---
 
-The resulting file is renamed according to the [fileName](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#fileName) option, and contains only the selected rows if you set the [allowExportSelectedData](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#allowExportSelectedData) option to **true**.
+The resulting file is renamed according to the [fileName](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/export/fileName.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#fileName') option, and contains only the selected rows if you set the [allowExportSelectedData](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/export/allowExportSelectedData.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#allowExportSelectedData') option to **true**.
 
 ---
 

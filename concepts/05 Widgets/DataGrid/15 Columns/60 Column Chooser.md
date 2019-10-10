@@ -1,4 +1,4 @@
-The column chooser allows a user to change the set of columns at runtime. It is configured using the [columnChooser](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnChooser/) object and may operate in two [modes](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnChooser/#mode): the default drag-and-drop mode and the select mode designed for touch devices.
+The column chooser allows a user to change the set of columns at runtime. It is configured using the [columnChooser](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/columnChooser/columnChooser.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnChooser/') object and may operate in two [modes](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/columnChooser/mode.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnChooser/#mode'): the default drag-and-drop mode and the select mode designed for touch devices.
 
 ---
 ##### jQuery
@@ -40,7 +40,7 @@ The column chooser allows a user to change the set of columns at runtime. It is 
 
 <img src="/Content/images/doc/19_2/DataGrid/visual_elements/column-chooser_draganddrop-mode.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid ColumnChooser" style="margin-right:60px" /> <img src="/Content/images/doc/19_2/DataGrid/visual_elements/column-chooser_select-mode.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid ColumnChooser" style="margin-right:90px" />
 
-Set a column's [allowHiding](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowHiding) option to **false** if it should never be hidden. For columns whose headers should never appear in the column chooser, set the [showInColumnChooser](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#showInColumnChooser) option to **false**.
+Set a column's [allowHiding](/api-reference/_hidden/GridBaseColumn/allowHiding.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowHiding') option to **false** if it should never be hidden. For columns whose headers should never appear in the column chooser, set the [showInColumnChooser](/api-reference/_hidden/GridBaseColumn/showInColumnChooser.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#showInColumnChooser') option to **false**.
 
 ---
 ##### jQuery
@@ -125,6 +125,6 @@ Call the [showColumnChooser()](/Documentation/ApiReference/UI_Widgets/dxDataGrid
 ---
 
 #####See Also#####
-- [Hide a Column Using the API](/Documentation/Guide/Widgets/DataGrid/Columns/Hide_a_Column_Using_the_API/)
-- [Adaptability](/Documentation/Guide/Widgets/DataGrid/Columns/Adaptability/)
-- [Column Fixing](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Fixing/)
+- [Hide a Column Using the API](/concepts/05%20Widgets/DataGrid/15%20Columns/35%20Hide%20a%20Column%20Using%20the%20API.md '/Documentation/Guide/Widgets/DataGrid/Columns/Hide_a_Column_Using_the_API/')
+- [Adaptability](/concepts/05%20Widgets/DataGrid/15%20Columns/50%20Adaptability.md '/Documentation/Guide/Widgets/DataGrid/Columns/Adaptability/')
+- [Column Fixing](/concepts/05%20Widgets/DataGrid/15%20Columns/30%20Column%20Fixing.md '/Documentation/Guide/Widgets/DataGrid/Columns/Column_Fixing/')

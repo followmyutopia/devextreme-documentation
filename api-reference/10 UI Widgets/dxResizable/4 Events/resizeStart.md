@@ -34,7 +34,7 @@ Model data. Available only if Knockout is used.
 The widget's current width.
 
 ---
-Main article: [onResizeStart](/Documentation/ApiReference/UI_Widgets/dxResizable/Configuration/#onResizeStart)
+Main article: [onResizeStart](/api-reference/10%20UI%20Widgets/dxResizable/1%20Configuration/onResizeStart.md '/Documentation/ApiReference/UI_Widgets/dxResizable/Configuration/#onResizeStart')
 
 #####See Also#####
 #include common-link-handleevents

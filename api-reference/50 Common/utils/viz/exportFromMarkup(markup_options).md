@@ -73,10 +73,10 @@ The parameter contains the following fields:
 </div>
 
 ##### field(options.proxyUrl): String
-The URL of a server-side proxy required for export in Safari on Mac OS. See [proxyUrl](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#proxyUrl) for details.
+The URL of a server-side proxy required for export in Safari on Mac OS. See [proxyUrl](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/export/proxyUrl.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#proxyUrl') for details.
 
 ##### field(options.svgToCanvas): function()
-A function that renders SVG markup on the HTML canvas. Refer to the [svgToCanvas](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#svgToCanvas) decription for details.
+A function that renders SVG markup on the HTML canvas. Refer to the [svgToCanvas](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/export/svgToCanvas.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#svgToCanvas') decription for details.
 
 ##### field(options.width): Number
 The SVG block's width in pixels.

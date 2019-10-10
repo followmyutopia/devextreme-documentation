@@ -1,4 +1,4 @@
-Add an object to the [buttons](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/buttons/) array and specify the button's options in it...
+Add an object to the [buttons](/api-reference/_hidden/dxDataGridColumn/buttons/buttons.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/buttons/') array and specify the button's options in it...
 
 ---
 ##### jQuery  
@@ -164,7 +164,7 @@ Add an object to the [buttons](/Documentation/ApiReference/UI_Widgets/dxDataGrid
     
 ---
 
-... or render the button with custom appearance using a [template](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/buttons/#template):
+... or render the button with custom appearance using a [template](/api-reference/_hidden/dxDataGridColumn/buttons/template.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/buttons/#template'):
 
 ---
 ##### jQuery  

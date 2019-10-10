@@ -5,6 +5,6 @@ default: undefined, { my: 'left top', at: 'left top', of: lookupContainer } (Mat
 ---
 ---
 ##### shortDescription
-An object defining widget [positioning options](/Documentation/ApiReference/Common/Object_Structures/positionConfig/).
+An object defining widget [positioning options](/api-reference/50%20Common/Object%20Structures/positionConfig/positionConfig.md '/Documentation/ApiReference/Common/Object_Structures/positionConfig/').
 
 ---

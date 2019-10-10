@@ -3,7 +3,7 @@ id: DataSource.filter()
 ---
 ---
 ##### shortDescription
-Gets the [filter](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter) option's value.
+Gets the [filter](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/filter.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter') option's value.
 
 ##### return: Object
 A filter expression.
@@ -78,4 +78,4 @@ A filter expression.
 ---
 
 #####See Also#####
-- [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering)
+- [Filtering](/concepts/30%20Data%20Layer/5%20Data%20Layer/2%20Reading%20Data/15%20Filtering/Filtering.md '/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering')

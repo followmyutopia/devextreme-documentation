@@ -25,7 +25,7 @@ The name of the file to which data is about to be exported.
 Model data. Available only if Knockout is used.
 
 ---
-Main article: [onExporting](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#onExporting)
+Main article: [onExporting](/api-reference/10%20UI%20Widgets/dxPivotGrid/1%20Configuration/onExporting.md '/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#onExporting')
 
 #####See Also#####
 #include common-link-handleevents

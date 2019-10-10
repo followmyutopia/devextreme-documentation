@@ -11,4 +11,4 @@ Indicates whether the sankey link is in the hover state.
 ---
 #####See Also#####
 - **Link**.[hover(state)](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Link/Methods/#hoverstate)
-- [onLinkHoverChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#onLinkHoverChanged)
+- [onLinkHoverChanged](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/onLinkHoverChanged.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#onLinkHoverChanged')

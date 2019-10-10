@@ -9,6 +9,6 @@ Positions the annotation relative to a specific argument.
 
 ---
 #####See Also#####
-- [value](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#value)
-- [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#series)
-- [x](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#x) | [y](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#y)
+- [value](/api-reference/_hidden/dxChartCommonAnnotationConfig/value.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#value')
+- [series](/api-reference/_hidden/dxChartCommonAnnotationConfig/series.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#series')
+- [x](/api-reference/_hidden/dxChartCommonAnnotationConfig/x.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#x') | [y](/api-reference/_hidden/dxChartCommonAnnotationConfig/y.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#y')

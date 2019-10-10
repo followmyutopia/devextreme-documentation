@@ -24,7 +24,7 @@ Information on the bar being pressed or hovered over with the mouse pointer. Con
 ##### notUsedInTheme
 
 ---
-Main article: [onTooltipShown](/Documentation/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/#onTooltipShown)
+Main article: [onTooltipShown](/api-reference/20%20Data%20Visualization%20Widgets/dxBarGauge/1%20Configuration/onTooltipShown.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/#onTooltipShown')
 
 #####See Also#####
 #include common-link-handleevents

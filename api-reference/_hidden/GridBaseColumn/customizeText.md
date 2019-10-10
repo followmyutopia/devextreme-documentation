@@ -11,7 +11,7 @@ Information on the current cell.
 
 ##### field(cellInfo.groupInterval): String | Number
 Indicates how header filter values were combined into groups. Available if **target** is *"headerFilter"*.  
-See the **headerFilter**.[groupInterval]({basewidgetpath}/Configuration/columns/headerFilter/#groupInterval) option's description for possible values.
+See the **headerFilter**.[groupInterval](/api-reference/_hidden/GridBaseColumn/headerFilter/groupInterval.md '{basewidgetpath}/Configuration/columns/headerFilter/#groupInterval') option's description for possible values.
 
 ##### field(cellInfo.target): String
 The UI element where the **customizeText** function was called: *"row"*, *"filterRow"*, *"headerFilter"*, *"search"*, *"filterPanel"*, or *"filterBuilder"*.
@@ -20,7 +20,7 @@ The UI element where the **customizeText** function was called: *"row"*, *"filte
 The cell's raw value.
 
 ##### field(cellInfo.valueText): String
-The [fomatted](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#format) value converted to a string.
+The [fomatted](/api-reference/_hidden/GridBaseColumn/format.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#format') value converted to a string.
 
 ##### return: String
 The text the cell should display.
@@ -36,4 +36,4 @@ The **customizeText** function can be called to highlight the matching text corr
 
 #####See Also#####
 - [Customize the Value and Text](/Documentation/Guide/Widgets/{WidgetName}/Columns/Customize_Cells/#Customize_the_Value_and_Text)
-- **columns[]**.[calculateCellValue]({basewidgetpath}/Configuration/columns/#calculateCellValue)
+- **columns[]**.[calculateCellValue](/api-reference/_hidden/GridBaseColumn/calculateCellValue.md '{basewidgetpath}/Configuration/columns/#calculateCellValue')

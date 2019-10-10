@@ -67,5 +67,5 @@ Configures the field's header filter.
 ---
 
 #####See Also#####
-- **fields[]**.[allowFiltering](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#allowFiltering)
-- **PivotGrid**.[headerFilter](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/headerFilter/)
+- **fields[]**.[allowFiltering](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/allowFiltering.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#allowFiltering')
+- **PivotGrid**.[headerFilter](/api-reference/10%20UI%20Widgets/dxPivotGrid/1%20Configuration/headerFilter/headerFilter.md '/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/headerFilter/')

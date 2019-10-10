@@ -1,4 +1,4 @@
-Exposes methods of the [DevExpress.viz.map.projection](/Documentation/ApiReference/Common/utils/viz/map/projection/) object.
+Exposes methods of the [DevExpress.viz.map.projection](/api-reference/50%20Common/utils/viz/map/projection/projection.md '/Documentation/ApiReference/Common/utils/viz/map/projection/') object.
 
 Exports:
 

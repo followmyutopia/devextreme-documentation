@@ -4,7 +4,7 @@ type: eventType
 ---
 ---
 ##### shortDescription
-Raised when a [legend item](/Documentation/Guide/Widgets/PieChart/Legend/Overview/) is clicked or tapped.
+Raised when a [legend item](/concepts/05%20Widgets/PieChart/35%20Legend/00%20Overview.md '/Documentation/Guide/Widgets/PieChart/Legend/Overview/') is clicked or tapped.
 
 ##### param(e): Object
 Information about the event.
@@ -28,7 +28,7 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 The model data. Available only if you use Knockout.
 
 ##### field(e.points): Array<piePointObject>
-The [Point](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Chart_Elements/Point/) object(s).
+The [Point](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart/7%20Chart%20Elements/Point/Point.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Chart_Elements/Point/') object(s).
 
 ##### field(e.target): String | Number
 The argument of the point(s) corresponding to the clicked legend item.
@@ -36,7 +36,7 @@ The argument of the point(s) corresponding to the clicked legend item.
 ##### notUsedInTheme
 
 ---
-Main article: [onLegendClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/#onLegendClick)
+Main article: [onLegendClick](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart/1%20Configuration/onLegendClick.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/#onLegendClick')
 
 #####See Also#####
 #include common-link-handleevents

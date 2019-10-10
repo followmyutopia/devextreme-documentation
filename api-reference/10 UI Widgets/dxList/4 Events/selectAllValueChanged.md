@@ -22,8 +22,8 @@ Model data. Available only if Knockout is used.
 The "Select All" check box's state.
 
 ---
-Main article: [onSelectAllValueChanged](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onSelectAllValueChanged)
+Main article: [onSelectAllValueChanged](/api-reference/10%20UI%20Widgets/dxList/1%20Configuration/onSelectAllValueChanged.md '/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onSelectAllValueChanged')
 
 #####See Also#####
-- [List - Handle Selection-Related Events](/Documentation/Guide/Widgets/List/Selection/#Events)
+- [List - Handle Selection-Related Events](/concepts/05%20Widgets/List/25%20Selection/10%20Events.md '/Documentation/Guide/Widgets/List/Selection/#Events')
 #include common-link-handleevents

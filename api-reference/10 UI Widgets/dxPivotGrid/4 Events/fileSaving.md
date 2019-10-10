@@ -28,7 +28,7 @@ The name of the file to be saved.
 The format of the file to be saved. Equals *"EXCEL"* for an Excel file.
 
 ---
-Main article: [onFileSaving](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#onFileSaving)
+Main article: [onFileSaving](/api-reference/10%20UI%20Widgets/dxPivotGrid/1%20Configuration/onFileSaving.md '/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#onFileSaving')
 
 #####See Also#####
 #include common-link-handleevents

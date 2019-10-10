@@ -8,6 +8,6 @@ default: {}
 Configures the search panel.
 
 ---
-See the [TextBox Configuration](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/) for options you can specify in this object.
+See the [TextBox Configuration](/api-reference/10%20UI%20Widgets/dxTextBox/1%20Configuration/Configuration.md '/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/') for options you can specify in this object.
 
 #include widgets-config-object-option-note

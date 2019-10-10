@@ -6,7 +6,7 @@ default: 'blend'
 ---
 ---
 ##### shortDescription
-Specifies what to do with colors in the [palette]({basewidgetpath}/Configuration/rangeContainer/#palette) when their number is less than the number of ranges in the range container.
+Specifies what to do with colors in the [palette](/api-reference/20%20Data%20Visualization%20Widgets/BaseGauge/1%20Configuration/rangeContainer/palette.md '{basewidgetpath}/Configuration/rangeContainer/#palette') when their number is less than the number of ranges in the range container.
 
 ---
 #include dataviz-ref-paletteextensionmode

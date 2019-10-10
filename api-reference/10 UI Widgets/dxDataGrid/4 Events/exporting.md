@@ -25,7 +25,7 @@ The name of the file to which grid data is about to be exported.
 Model data. Available only if Knockout is used.
 
 ---
-Main article: [onExporting](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExporting)
+Main article: [onExporting](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/onExporting.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExporting')
 
 #####See Also#####
 #include common-link-handleevents

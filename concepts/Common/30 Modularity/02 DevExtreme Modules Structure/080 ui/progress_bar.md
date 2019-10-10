@@ -2,7 +2,7 @@ Exposes the **ProgressBar** widget.
 
 Exports:
 
-- *default* - The [ProgressBar](/Documentation/ApiReference/UI_Widgets/dxProgressBar/) widget
+- *default* - The [ProgressBar](/api-reference/10%20UI%20Widgets/dxProgressBar/dxProgressBar.md '/Documentation/ApiReference/UI_Widgets/dxProgressBar/') widget
 
         require("ui/progress_bar");
         // ===== or =====

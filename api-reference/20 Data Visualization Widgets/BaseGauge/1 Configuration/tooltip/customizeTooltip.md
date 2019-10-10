@@ -14,7 +14,7 @@ Information on the scale value.
 The raw value.
 
 ##### field(scaleValue.valueText): String
-The [formatted]({basewidgetpath}/Configuration/tooltip/#format) value converted to a string.
+The [formatted](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/tooltip/format.md '{basewidgetpath}/Configuration/tooltip/#format') value converted to a string.
 
 ##### return: Object
 The tooltip's configuration.
@@ -42,4 +42,4 @@ Specifies the HTML markup displayed by a tooltip.
 #include dataviz-ref-functioncontext
 
 #####See Also#####
-- [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/)
+- [Data Formatting](/concepts/05%20Widgets/zz%20Common/10%20Data%20Visualization%20Widgets/30%20Data%20Formatting/Data%20Formatting.md '/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/')

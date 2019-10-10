@@ -28,7 +28,7 @@ Model data. Available only if Knockout is used.
 The current appointment's data.
 
 ---
-Main article: [onAppointmentRendered](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentRendered)
+Main article: [onAppointmentRendered](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/onAppointmentRendered.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentRendered')
 
 #####See Also#####
 #include common-link-handleevents

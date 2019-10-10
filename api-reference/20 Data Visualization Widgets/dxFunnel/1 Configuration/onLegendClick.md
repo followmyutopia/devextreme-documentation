@@ -6,7 +6,7 @@ EventForAction: dxFunnel.legendClick
 ---
 ---
 ##### shortDescription
-A function that is executed when a [legend item](/Documentation/Guide/Widgets/Funnel/Legend/Overview/) is clicked or tapped.
+A function that is executed when a [legend item](/concepts/05%20Widgets/Funnel/35%20Legend/00%20Overview.md '/Documentation/Guide/Widgets/Funnel/Legend/Overview/') is clicked or tapped.
 
 ##### param(e): Object
 Information about the event.
@@ -21,7 +21,7 @@ The widget's instance.
 #include common-ref-eventparam
 
 ##### field(e.item): dxFunnelItem
-The [Item](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/) object.
+The [Item](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/6%20Item/Item.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/') object.
 
 ##### field(e.jQueryEvent).deprecated
 Use 'event' instead.
@@ -36,4 +36,4 @@ The model data. Available only if you use Knockout.
 
 ---
 #####See Also#####
-- [legend](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/legend/)
+- [legend](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/1%20Configuration/legend/legend.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/legend/')

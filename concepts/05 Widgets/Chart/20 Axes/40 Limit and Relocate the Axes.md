@@ -1,4 +1,4 @@
-The visual range of arguments/values on an axis should include all arguments/values of all series. If you want to reduce the visual range, specify the axis's [visualRange](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/visualRange/) option.
+The visual range of arguments/values on an axis should include all arguments/values of all series. If you want to reduce the visual range, specify the axis's [visualRange](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/visualRange/visualRange.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/visualRange/') option.
 
 ---
 ##### jQuery
@@ -36,7 +36,7 @@ The visual range of arguments/values on an axis should include all arguments/val
 
 ---
 
-Axes can be relocated to their opposite side using the [position](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#position) option. Note that available positions for each axis depend on whether the chart is [rotated](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#rotated) or not.
+Axes can be relocated to their opposite side using the [position](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/position.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#position') option. Note that available positions for each axis depend on whether the chart is [rotated](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/rotated.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#rotated') or not.
 
 ---
 ##### jQuery
@@ -83,9 +83,9 @@ Axes can be relocated to their opposite side using the [position](/Documentation
 ![DevExtreme HTML5 JavaScript Charts ArgumentAxis ValueAxis](/Content/images/doc/19_2/ChartJS/visual_elements/axes_relocated.png)
 
 #####See Also#####
-- [Axis Titles](/Documentation/Guide/Widgets/Chart/Axes/Axis_Titles/)
-- [Axis Labels](/Documentation/Guide/Widgets/Chart/Axes/Axis_Labels/)
-- [Multi-Axis Chart](/Documentation/Guide/Widgets/Chart/Axes/Multi-Axis_Chart/)
-- [Chart API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/)
+- [Axis Titles](/concepts/05%20Widgets/Chart/20%20Axes/25%20Axis%20Titles.md '/Documentation/Guide/Widgets/Chart/Axes/Axis_Titles/')
+- [Axis Labels](/concepts/05%20Widgets/Chart/20%20Axes/15%20Axis%20Labels.md '/Documentation/Guide/Widgets/Chart/Axes/Axis_Labels/')
+- [Multi-Axis Chart](/concepts/05%20Widgets/Chart/20%20Axes/70%20Multi-Axis%20Chart.md '/Documentation/Guide/Widgets/Chart/Axes/Multi-Axis_Chart/')
+- [Chart API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/dxChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/')
 
 [tags]chart, min axis value, max axis value, axis margins, valueMarginsEnabled, minValueMargin, maxValueMargin, axis position, rotated chart

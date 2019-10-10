@@ -10,7 +10,7 @@ Specifies a callback function that returns a [series](/Documentation/ApiReferenc
 The name of the series to be customized.
 
 ##### return: ChartSeries
-The series' [configuration](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/).
+The series' [configuration](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/series/series.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/').
 
 ---
 Use this option to specify individual settings for a particular series.

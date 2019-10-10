@@ -1,4 +1,4 @@
-If the user should be able to collapse or expand a group in the **List**, set the [collapsibleGroups](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#collapsibleGroups) option to **true**. In this case, the user can collapse or expand a group with a click on the group header.
+If the user should be able to collapse or expand a group in the **List**, set the [collapsibleGroups](/api-reference/10%20UI%20Widgets/dxList/1%20Configuration/collapsibleGroups.md '/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#collapsibleGroups') option to **true**. In this case, the user can collapse or expand a group with a click on the group header.
 
 ---
 #####jQuery
@@ -107,7 +107,7 @@ To collapse or expand a specific group programmatically, call the [collapseGroup
 
 #####See Also#####
 #include common-link-callmethods
-- [List - Grouping in the Data Source](/Documentation/Guide/Widgets/List/Grouping/In_the_Data_Source/)
-- [List API Reference](/Documentation/ApiReference/UI_Widgets/dxList/)
+- [List - Grouping in the Data Source](/concepts/05%20Widgets/List/14%20Grouping/01%20In%20the%20Data%20Source.md '/Documentation/Guide/Widgets/List/Grouping/In_the_Data_Source/')
+- [List API Reference](/api-reference/10%20UI%20Widgets/dxList/dxList.md '/Documentation/ApiReference/UI_Widgets/dxList/')
 
 [tags]list, expand, collapse, collapsibleGroups, collapseGroup, expandGroup

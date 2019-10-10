@@ -4,4 +4,4 @@
 ---
 #####See Also#####
 #include common-link-callmethods
-- [clearSelection()]({basewidgetpath}/Methods/#clearSelection)
+- [clearSelection()](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/clearSelection().md '{basewidgetpath}/Methods/#clearSelection')

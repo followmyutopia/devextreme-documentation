@@ -6,7 +6,7 @@ id: dxPivotGridFieldChooser.getDataSource()
 Gets the **PivotGridDataSource** instance.
 
 ##### return: PivotGridDataSource
-The [PivotGridDataSource](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/) instance.
+The [PivotGridDataSource](/api-reference/30%20Data%20Layer/PivotGridDataSource/PivotGridDataSource.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/') instance.
 
 ---
 #####See Also#####

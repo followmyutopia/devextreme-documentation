@@ -2,7 +2,7 @@ Exposes an object that serves as a namespace for the methods that are used to an
 
 Exports:
 
-- *default* - The [fx](/Documentation/ApiReference/Common/Utils/fx/) object
+- *default* - The [fx](/api-reference/50%20Common/utils/fx/fx.md '/Documentation/ApiReference/Common/Utils/fx/') object
 
         require("animation/fx");
         // ===== or =====

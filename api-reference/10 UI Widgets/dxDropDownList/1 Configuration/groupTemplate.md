@@ -26,4 +26,4 @@ A template name or container.
 
 #####See Also#####
 - [Customize Group Headers](/Documentation/Guide/Widgets/{WidgetName}/Grouping/Customize_Group_Headers/)
-- [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
+- [Custom Templates](/concepts/05%20Widgets/zz%20Common/30%20Templates/10%20Custom%20Templates.md '/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates')

@@ -2,7 +2,7 @@ Exposes the **ContextMenu** widget.
 
 Exports:
 
-- *default* - The [ContextMenu](/Documentation/ApiReference/UI_Widgets/dxContextMenu/) widget
+- *default* - The [ContextMenu](/api-reference/10%20UI%20Widgets/dxContextMenu/dxContextMenu.md '/Documentation/ApiReference/UI_Widgets/dxContextMenu/') widget
 
         require("ui/context_menu");
         // ===== or =====

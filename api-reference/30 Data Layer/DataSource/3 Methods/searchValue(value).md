@@ -3,7 +3,7 @@ id: DataSource.searchValue(value)
 ---
 ---
 ##### shortDescription
-Sets the [searchValue](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchValue) option's value.
+Sets the [searchValue](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/searchValue.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchValue') option's value.
 
 ##### param(value): any
 A new value.
@@ -91,4 +91,4 @@ Call the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#loa
 ---
 
 #####See Also#####
-- [Data Layer - Search API](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Search_Api)
+- [Data Layer - Search API](/concepts/30%20Data%20Layer/5%20Data%20Layer/2%20Reading%20Data/2%20Search%20Api.md '/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Search_Api')

@@ -3,7 +3,7 @@ id: DataSource.filter(filterExpr)
 ---
 ---
 ##### shortDescription
-Sets the [filter](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter) option's value.
+Sets the [filter](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/filter.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter') option's value.
 
 ##### param(filterExpr): Object
 A filter expression.      
@@ -93,4 +93,4 @@ Call the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#loa
 ---
 
 #####See Also#####
-- [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering)
+- [Filtering](/concepts/30%20Data%20Layer/5%20Data%20Layer/2%20Reading%20Data/15%20Filtering/Filtering.md '/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering')

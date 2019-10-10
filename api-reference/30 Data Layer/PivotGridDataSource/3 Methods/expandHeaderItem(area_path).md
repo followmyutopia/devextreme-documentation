@@ -6,7 +6,7 @@ id: PivotGridDataSource.expandHeaderItem(area, path)
 Expands a specific header item.
 
 ##### param(area): String
-The [area](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area) that contains the header item to expand.
+The [area](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/area.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area') that contains the header item to expand.
 
 ##### param(path): Array<Object>
 A path to the header item.
@@ -84,4 +84,4 @@ A path to the header item.
 
 #####See Also#####
 - [collapseHeaderItem(area, path)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#collapseHeaderItemarea_path)
-- **fields[]**.[expanded](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#expanded)
+- **fields[]**.[expanded](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/expanded.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#expanded')

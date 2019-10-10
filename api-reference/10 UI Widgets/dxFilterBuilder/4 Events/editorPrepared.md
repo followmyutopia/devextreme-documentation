@@ -52,7 +52,7 @@ The editor's value.
 The editor's width.
 
 ---
-Main article: [onEditorPrepared](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#onEditorPrepared)
+Main article: [onEditorPrepared](/api-reference/10%20UI%20Widgets/dxFilterBuilder/1%20Configuration/onEditorPrepared.md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#onEditorPrepared')
 
 #####See Also#####
 #include common-link-handleevents

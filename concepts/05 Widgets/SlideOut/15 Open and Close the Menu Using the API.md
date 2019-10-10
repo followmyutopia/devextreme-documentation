@@ -19,7 +19,7 @@ To open or close the **SlideOut** menu programmatically, call the [showMenu()](/
         });
     });
 
-In this code, the slide-out menu is being closed from within the **SlideOut** widget. If another component should open or close the slide-out menu, call the methods in a different manner. The following example shows how a click on a [Button](/Documentation/ApiReference/UI_Widgets/dxButton/) can open the **SlideOut** menu. 
+In this code, the slide-out menu is being closed from within the **SlideOut** widget. If another component should open or close the slide-out menu, call the methods in a different manner. The following example shows how a click on a [Button](/api-reference/10%20UI%20Widgets/dxButton/dxButton.md '/Documentation/ApiReference/UI_Widgets/dxButton/') can open the **SlideOut** menu. 
 
     <!--JavaScript-->$(function () {
         $("#buttonContainer").dxButton({
@@ -32,7 +32,7 @@ In this code, the slide-out menu is being closed from within the **SlideOut** wi
         });
     });
 
-When using AngularJS or Knockout, you can still call these methods, but as an alternative, you can bind the [menuVisible](/Documentation/ApiReference/UI_Widgets/dxSlideOut/Configuration/#menuVisible) property of the **SlideOut** widget to a scope property (in AngularJS) or an observable variable (in Knockout). After that, change this scope property or observable variable, and the slide-out menu will be opened or closed.
+When using AngularJS or Knockout, you can still call these methods, but as an alternative, you can bind the [menuVisible](/api-reference/10%20UI%20Widgets/dxSlideOut/1%20Configuration/menuVisible.md '/Documentation/ApiReference/UI_Widgets/dxSlideOut/Configuration/#menuVisible') property of the **SlideOut** widget to a scope property (in AngularJS) or an observable variable (in Knockout). After that, change this scope property or observable variable, and the slide-out menu will be opened or closed.
 
 ---
 #####**AngularJS**
@@ -110,6 +110,6 @@ When using AngularJS or Knockout, you can still call these methods, but as an al
 
 #####See Also#####
 - [SlideOut Demos](/Demos/WidgetsGallery/#demo/navigation-slideout-overview/ios7)
-- [SlideOut API Reference](/Documentation/ApiReference/UI_Widgets/dxSlideOut/)
+- [SlideOut API Reference](/api-reference/10%20UI%20Widgets/dxSlideOut/dxSlideOut.md '/Documentation/ApiReference/UI_Widgets/dxSlideOut/')
 
 [tags]slide-out menu, slideOut, open, show, close, hide

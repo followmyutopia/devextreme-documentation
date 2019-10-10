@@ -9,9 +9,9 @@ firedEvents: optionChanged
 Specifies a filter expression.
 
 ---
-If [filterSyncEnabled]({basewidgetpath}/Configuration/#filterSyncEnabled) is **true**, the filter expression includes a combination of the [filter row](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Filter_Row), [header filter](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Header_Filter), and [filter builder]({basewidgetpath}/Configuration/#filterBuilder) filters. Otherwise, it contains only the filter builder filter.
+If [filterSyncEnabled](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/filterSyncEnabled.md '{basewidgetpath}/Configuration/#filterSyncEnabled') is **true**, the filter expression includes a combination of the [filter row](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Filter_Row), [header filter](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Header_Filter), and [filter builder](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/filterBuilder.md '{basewidgetpath}/Configuration/#filterBuilder') filters. Otherwise, it contains only the filter builder filter.
 
-The filter expression can contain the following operations: *"="*, *"<>"*, *"<"*, *">"*, *"<="*, *">="*, *"between"*, *"contains"*, *"notcontains"*, *"startswith"*, *"endswith"*, *"anyof"*, *"noneof"*, and the filter builder's [custom operations](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/customOperations/). Use *"anyof"* and *"noneof"* to select and clear the selection of items in the header filter's popup menu. In the following code, *"anyof"* is used to select items with IDs `500` and `700`:
+The filter expression can contain the following operations: *"="*, *"<>"*, *"<"*, *">"*, *"<="*, *">="*, *"between"*, *"contains"*, *"notcontains"*, *"startswith"*, *"endswith"*, *"anyof"*, *"noneof"*, and the filter builder's [custom operations](/api-reference/10%20UI%20Widgets/dxFilterBuilder/1%20Configuration/customOperations/customOperations.md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/customOperations/'). Use *"anyof"* and *"noneof"* to select and clear the selection of items in the header filter's popup menu. In the following code, *"anyof"* is used to select items with IDs `500` and `700`:
 
 ---
 ##### jQuery
@@ -125,7 +125,7 @@ The filter expression can contain the following operations: *"="*, *"<>"*, *"<"*
 
 ---
 
-If a column's [groupInterval]({basewidgetpath}/Configuration/columns/headerFilter/#groupInterval) option is set, the *"anyof"* and *"noneof"* operations for this column accept the beginning of intervals instead of exact values:
+If a column's [groupInterval](/api-reference/_hidden/GridBaseColumn/headerFilter/groupInterval.md '{basewidgetpath}/Configuration/columns/headerFilter/#groupInterval') option is set, the *"anyof"* and *"noneof"* operations for this column accept the beginning of intervals instead of exact values:
 
 ---
 ##### jQuery
@@ -275,7 +275,7 @@ If a column's [groupInterval]({basewidgetpath}/Configuration/columns/headerFilte
 ---
 
 
-[note] The **DataSource** does not support the *"anyof"*, *"noneof"*, and custom operations. Use the [getCombinedFilter(returnDataField)]({basewidgetpath}/Methods/#getCombinedFilterreturnDataField) method to get the **DataSource**-compatible filter expression.
+[note] The **DataSource** does not support the *"anyof"*, *"noneof"*, and custom operations. Use the [getCombinedFilter(returnDataField)](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/getCombinedFilter(returnDataField).md '{basewidgetpath}/Methods/#getCombinedFilterreturnDataField') method to get the **DataSource**-compatible filter expression.
 
 #####See Also#####
 - [Filter Panel with Filter Builder](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Filter_Panel_with_Filter_Builder)

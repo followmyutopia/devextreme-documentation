@@ -9,7 +9,7 @@ Reloads data and repaints the widget.
 A Promise that is resolved after data is loaded. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
 
 ---
-The widget cannot track changes a third party makes in the data source. To update data in the widget in this case, call the **refresh()** method. [Data sources]({basewidgetpath}/Configuration/columns/lookup/#dataSource) of lookup columns are updated with the main data source.
+The widget cannot track changes a third party makes in the data source. To update data in the widget in this case, call the **refresh()** method. [Data sources](/api-reference/_hidden/GridBaseColumn/lookup/dataSource.md '{basewidgetpath}/Configuration/columns/lookup/#dataSource') of lookup columns are updated with the main data source.
 
 The following code shows how to call this method:
 
@@ -156,7 +156,7 @@ The following code shows how to call this method:
 
 ---
 
-[note] Calling the **refresh()** method ends the editing process. In *batch* [editing mode]({basewidgetpath}/Configuration/editing/#mode), changes are saved in a buffer before they are saved to the data source. In other modes, all unsaved changes are discarded. 
+[note] Calling the **refresh()** method ends the editing process. In *batch* [editing mode](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/editing/mode.md '{basewidgetpath}/Configuration/editing/#mode'), changes are saved in a buffer before they are saved to the data source. In other modes, all unsaved changes are discarded. 
 
 #####See Also#####
 - [refresh(changesOnly)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#refreshchangesOnly)

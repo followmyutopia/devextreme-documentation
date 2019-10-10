@@ -14,11 +14,11 @@ The **visual range** specifies the axis range visible to the user. Use it to foc
     </figure>
 </div>
 
-Users can change the visual range if [zooming and panning](/Documentation/Guide/Widgets/Chart/Zooming_and_Panning/) are enabled. However, users cannot move the visual range outside the data range (to an area with no data). If they should be able to do this, specify the **whole range**. It sets new limits for the visual range.
+Users can change the visual range if [zooming and panning](/concepts/05%20Widgets/Chart/95%20Zooming%20and%20Panning/Zooming%20and%20Panning.md '/Documentation/Guide/Widgets/Chart/Zooming_and_Panning/') are enabled. However, users cannot move the visual range outside the data range (to an area with no data). If they should be able to do this, specify the **whole range**. It sets new limits for the visual range.
 
-Both ranges can be specified using the start and end values or length. Refer to the [visualRange](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/visualRange/) or [wholeRange](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/wholeRange/) option's description for more information.
+Both ranges can be specified using the start and end values or length. Refer to the [visualRange](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/visualRange/visualRange.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/visualRange/') or [wholeRange](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/wholeRange/wholeRange.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/wholeRange/') option's description for more information.
 
-To change the visual range programmatically, call the [Axis](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Axis/) object's [visualRange(visualRange)](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Axis/Methods/#visualRangevisualRange) method. Calling the same method [without arguments](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Axis/Methods/#visualRange) allows you to get the current visual range:
+To change the visual range programmatically, call the [Axis](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/7%20Chart%20Elements/Axis/Axis.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Axis/') object's [visualRange(visualRange)](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Axis/Methods/#visualRangevisualRange) method. Calling the same method [without arguments](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Axis/Methods/#visualRange) allows you to get the current visual range:
 
 ---
 ##### jQuery
@@ -70,11 +70,11 @@ If your framework supports two-way binding, bind the axis' **visualRange** to a 
 
 ---
 
-An axis' visual range can behave differently when chart data is updated. See the **visualRangeUpdateMode** option for the [argument axis](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#visualRangeUpdateMode) or [value axis](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#visualRangeUpdateMode) for more information.
+An axis' visual range can behave differently when chart data is updated. See the **visualRangeUpdateMode** option for the [argument axis](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/visualRangeUpdateMode.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#visualRangeUpdateMode') or [value axis](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis/visualRangeUpdateMode.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#visualRangeUpdateMode') for more information.
 
 #####See Also#####
-- [Scale Breaks](/Documentation/Guide/Widgets/Chart/Axes/Scale_Breaks/)
-- [Rotate and Invert the Chart](/Documentation/Guide/Widgets/Chart/Rotate_and_Invert_the_Chart/)
+- [Scale Breaks](/concepts/05%20Widgets/Chart/20%20Axes/33%20Scale%20Breaks.md '/Documentation/Guide/Widgets/Chart/Axes/Scale_Breaks/')
+- [Rotate and Invert the Chart](/concepts/05%20Widgets/Chart/90%20Rotate%20and%20Invert%20the%20Chart.md '/Documentation/Guide/Widgets/Chart/Rotate_and_Invert_the_Chart/')
 
 <style>
     #figures {

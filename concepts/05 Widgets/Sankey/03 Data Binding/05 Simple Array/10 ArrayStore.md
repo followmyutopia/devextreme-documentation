@@ -1,4 +1,4 @@
-You can place a JavaScript array in an [ArrayStore](/Documentation/ApiReference/Data_Layer/ArrayStore/) to extend its functionality. The **ArrayStore** provides an interface for loading and editing data, and allows you to handle data-related events. You should declare the **ArrayStore** inside the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) configuration object because the **Sankey** widget requires disabled [pagination](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) to prevent data from partitioning.
+You can place a JavaScript array in an [ArrayStore](/api-reference/30%20Data%20Layer/ArrayStore/ArrayStore.md '/Documentation/ApiReference/Data_Layer/ArrayStore/') to extend its functionality. The **ArrayStore** provides an interface for loading and editing data, and allows you to handle data-related events. You should declare the **ArrayStore** inside the [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/') configuration object because the **Sankey** widget requires disabled [pagination](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/paginate.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate') to prevent data from partitioning.
 
 ---
 ##### jQuery
@@ -144,5 +144,5 @@ The **DataSource** can also be used for data processing. In the following exampl
 ---
 
 #####See Also#####
-- [DataSource Examples - In-memory Data](/Documentation/Guide/Data_Layer/Data_Source_Examples/#In-memory_Data)
-- [Update Data in the Sankey](/Documentation/Guide/Widgets/Sankey/Data_Binding/Update_Data/)
+- [DataSource Examples - In-memory Data](/concepts/30%20Data%20Layer/51%20Data%20Source%20Examples/0%20In-memory%20Data.md '/Documentation/Guide/Data_Layer/Data_Source_Examples/#In-memory_Data')
+- [Update Data in the Sankey](/concepts/05%20Widgets/Sankey/03%20Data%20Binding/26%20Update%20Data/Update%20Data.md '/Documentation/Guide/Widgets/Sankey/Data_Binding/Update_Data/')

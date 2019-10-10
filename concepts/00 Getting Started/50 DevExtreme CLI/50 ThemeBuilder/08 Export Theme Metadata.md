@@ -1,4 +1,4 @@
-Theme metadata is a JSON object that describes the theme. It is used to export or import a theme in the [ThemeBuilder UI](/Documentation/Guide/Themes_and_Styles/ThemeBuilder/). Below is an example of theme metadata.
+Theme metadata is a JSON object that describes the theme. It is used to export or import a theme in the [ThemeBuilder UI](/concepts/60%20Themes%20and%20Styles/08%20ThemeBuilder/ThemeBuilder.md '/Documentation/Guide/Themes_and_Styles/ThemeBuilder/'). Below is an example of theme metadata.
 
     {
         "items": [
@@ -29,13 +29,13 @@ An array that describes customized theme variables.
     The theme variable's value.
 
 - `baseTheme`       
-A [predefined DevExtreme theme](/Documentation/Guide/Themes_and_Styles/Predefined_Themes/) which the custom theme is based on.
+A [predefined DevExtreme theme](/concepts/60%20Themes%20and%20Styles/05%20Predefined%20Themes/00%20Predefined%20Themes.md '/Documentation/Guide/Themes_and_Styles/Predefined_Themes/') which the custom theme is based on.
 
 - `outputColorScheme`       
 The custom theme's color scheme.
 
 - `makeSwatch`      
-A flag that indicates whether the theme is a [color swatch](/Documentation/Guide/Themes_and_Styles/Predefined_Themes/#Color_Swatches).
+A flag that indicates whether the theme is a [color swatch](/concepts/60%20Themes%20and%20Styles/05%20Predefined%20Themes/70%20Color%20Swatches.md '/Documentation/Guide/Themes_and_Styles/Predefined_Themes/#Color_Swatches').
 
 - `version`     
 The target DevExtreme version.

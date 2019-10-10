@@ -29,4 +29,4 @@ This also applies to columns if the **runningTotal** option is set to *"column"*
 }
 
 #####See Also#####
-- **fields[]**.[allowCrossGroupCalculation](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#allowCrossGroupCalculation)
+- **fields[]**.[allowCrossGroupCalculation](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/allowCrossGroupCalculation.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#allowCrossGroupCalculation')

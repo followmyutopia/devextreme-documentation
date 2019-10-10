@@ -1,6 +1,6 @@
-[note]Before accessing a series point, you must gain access to its series. You can learn the details in the [Access a Series Using the API](/Documentation/Guide/Widgets/Chart/Series/Access_a_Series_Using_the_API/) topic.
+[note]Before accessing a series point, you must gain access to its series. You can learn the details in the [Access a Series Using the API](/concepts/05%20Widgets/Chart/10%20Series/40%20Access%20a%20Series%20Using%20the%20API.md '/Documentation/Guide/Widgets/Chart/Series/Access_a_Series_Using_the_API/') topic.
 
-To access series points, use the following methods. All of them return one or several objects whose fields and methods are described in the [Point](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/) section of the API reference.
+To access series points, use the following methods. All of them return one or several objects whose fields and methods are described in the [Point](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/7%20Chart%20Elements/Point/Point.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/') section of the API reference.
 
 - [getAllPoints()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#getAllPoints)        
 Gets all points of the series.
@@ -38,7 +38,7 @@ Gets all points of the series.
     ---
 
 - [getPointsByArg(pointArg)](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#getPointsByArgpointArg)      
-Gets those points of the series that has a specific argument. Returns more than one point for [range](/Documentation/Guide/Widgets/Chart/Series_Types/Range_Series/) and [financial](/Documentation/Guide/Widgets/Chart/Series_Types/Financial_Series/) series.
+Gets those points of the series that has a specific argument. Returns more than one point for [range](/concepts/05%20Widgets/Chart/11%20Series%20Types/70%20Range%20Series.md '/Documentation/Guide/Widgets/Chart/Series_Types/Range_Series/') and [financial](/concepts/05%20Widgets/Chart/11%20Series%20Types/60%20Financial%20Series.md '/Documentation/Guide/Widgets/Chart/Series_Types/Financial_Series/') series.
 
     ---
     ##### jQuery
@@ -106,7 +106,7 @@ Gets a point by its index in the series. The index is zero-based.
     ---
 
 - [getVisiblePoints()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#getVisiblePoints)          
-Gets those points of the series that fall into the axis's [visual range](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/visualRange/).
+Gets those points of the series that fall into the axis's [visual range](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/visualRange/visualRange.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/visualRange/').
 
     ---
     ##### jQuery
@@ -139,7 +139,7 @@ Gets those points of the series that fall into the axis's [visual range](/Docume
 
     ---
 
-Apart from the API methods, you can access a series point in the event handlers. For example, the [onPointClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onPointClick) event handler gets the clicked series point in the argument.
+Apart from the API methods, you can access a series point in the event handlers. For example, the [onPointClick](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/1%20Configuration/onPointClick.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onPointClick') event handler gets the clicked series point in the argument.
 
 ---
 ##### jQuery
@@ -180,11 +180,11 @@ Apart from the API methods, you can access a series point in the event handlers.
 
 ---
 
-[note] Each [Point](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/) object contains a reference to its parent series in the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/Fields/#series) field.
+[note] Each [Point](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/7%20Chart%20Elements/Point/Point.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/') object contains a reference to its parent series in the [series](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Point/2%20Fields/series.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/Fields/#series') field.
 
 #####See Also#####
-- [Access a Series Using the API](/Documentation/Guide/Widgets/Chart/Series/Access_a_Series_Using_the_API/)
-- [Access a Point Label Using the API](/Documentation/Guide/Widgets/Chart/Point_Labels/Access_a_Point_Label_Using_the_API/)
+- [Access a Series Using the API](/concepts/05%20Widgets/Chart/10%20Series/40%20Access%20a%20Series%20Using%20the%20API.md '/Documentation/Guide/Widgets/Chart/Series/Access_a_Series_Using_the_API/')
+- [Access a Point Label Using the API](/concepts/05%20Widgets/Chart/15%20Point%20Labels/15%20Access%20a%20Point%20Label%20Using%20the%20API.md '/Documentation/Guide/Widgets/Chart/Point_Labels/Access_a_Point_Label_Using_the_API/')
 #include common-link-callmethods
 
 [tags]chart, series point, get points, getAllPoints, get point by argument, getPointsByArg, get point by index, getPointByPos, get visible points, getVisiblePoints

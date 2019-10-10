@@ -1,6 +1,6 @@
 The following instructions explain how to dynamically change a form item's options based on another form editor's value:
 
-1. **Implement the [onEditingStart](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onEditingStart) event handler**       
+1. **Implement the [onEditingStart](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/onEditingStart.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onEditingStart') event handler**       
 This handler is used to save the key of the row that enters the editing state, and we use this key to get this row's index in step 2.
 
     ---
@@ -233,7 +233,7 @@ This handler is used to save the key of the row that enters the editing state, a
         </script>
         
     ---
-1. **Specify the [form.customizeItem](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#customizeItem) callback function**       
+1. **Specify the [form.customizeItem](/api-reference/10%20UI%20Widgets/dxForm/1%20Configuration/customizeItem.md '/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#customizeItem') callback function**       
 This function allows you to change form item options dynamically. Within this function, [get the index of the row being edited](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#getRowIndexByKeykey) and use this index to [get the cell value](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#cellValuerowIndex_dataField) that should affect form item options.
 
     In the following code, the `"AddressRequired"` value affects the `"Home Address"` item's visibility:
@@ -397,7 +397,7 @@ This function allows you to change form item options dynamically. Within this fu
 
     ---
 
-1. **Specify the [setCellValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#setCellValue) callback function**  
+1. **Specify the [setCellValue](/api-reference/_hidden/GridBaseColumn/setCellValue.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#setCellValue') callback function**  
 Specify **setCellValue** for those columns whose editors affect other form items. In the function, call its default implementation as shown below. This call forces all form items to re-render themselves with the new options.
 
     In the following code, we declare the **setCellValue** function for the `"AddressRequired"` column:
@@ -512,4 +512,4 @@ Specify **setCellValue** for those columns whose editors affect other form items
 The full project is available on GitHub: [DataGrid - How to hide/disable Edit Form items based on another item's value](https://github.com/DevExpress-Examples/DataGrid-How-to-hide-disable-certain-Edit-Form-items-based-on-another-item-s-value)
 
 #####See Also#####
-- [Customize Editors](/Documentation/Guide/Widgets/DataGrid/Editing/#Customize_Editors)
+- [Customize Editors](/concepts/05%20Widgets/DataGrid/20%20Editing/40%20Customize%20Editors.md '/Documentation/Guide/Widgets/DataGrid/Editing/#Customize_Editors')

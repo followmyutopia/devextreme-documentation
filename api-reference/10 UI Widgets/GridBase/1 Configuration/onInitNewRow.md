@@ -27,7 +27,7 @@ Model data. Available only if you use Knockout.
 <!-- Description goes here -->
 
 ---
-Using this function, you can populate a newly added row with data by default. Add fields to the **data** object so that they correspond to fields of a [data source]({basewidgetpath}/Configuration/#dataSource) object. Note that the **data** object may omit some fields present in the data source object. Add only those fields that must initialize specific cells of a new row.
+Using this function, you can populate a newly added row with data by default. Add fields to the **data** object so that they correspond to fields of a [data source](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/dataSource.md '{basewidgetpath}/Configuration/#dataSource') object. Note that the **data** object may omit some fields present in the data source object. Add only those fields that must initialize specific cells of a new row.
 
 In the following code, the **onInitNewRow** function is used to provide default values for the `hireDate` and `position` cells of a new row:
 

@@ -20,9 +20,9 @@ The row's properties.
 **true** if the row can be updated; otherwise **false**.
 
 ---
-See an example in the [allowAdding](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/editing/#allowAdding) option.
+See an example in the [allowAdding](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/editing/allowAdding.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/editing/#allowAdding') option.
 
 #####See Also#####
-- [onRowUpdating](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onRowUpdating)
-- [onRowUpdated](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onRowUpdated)
+- [onRowUpdating](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onRowUpdating.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onRowUpdating')
+- [onRowUpdated](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onRowUpdated.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onRowUpdated')
 - [cellValue(rowIndex, visibleColumnIndex, value)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#cellValuerowIndex_visibleColumnIndex_value)

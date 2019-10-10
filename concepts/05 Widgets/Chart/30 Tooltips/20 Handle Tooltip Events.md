@@ -1,4 +1,4 @@
-When a tooltip becomes shown or hidden, the **Chart** fires the [tooltipShown](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#tooltipShown) or [tooltipHidden](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#tooltipHidden) event that you can handle with a function. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onTooltipShown](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onTooltipShown) or [onTooltipHidden](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onTooltipHidden) option respectively, when you configure the widget.
+When a tooltip becomes shown or hidden, the **Chart** fires the [tooltipShown](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/4%20Events/tooltipShown.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#tooltipShown') or [tooltipHidden](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/4%20Events/tooltipHidden.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#tooltipHidden') event that you can handle with a function. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onTooltipShown](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/1%20Configuration/onTooltipShown.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onTooltipShown') or [onTooltipHidden](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/1%20Configuration/onTooltipHidden.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onTooltipHidden') option respectively, when you configure the widget.
 
 ---
 ##### jQuery
@@ -66,6 +66,6 @@ If you are going to change the event handlers at runtime or if you need to attac
 
 #####See Also#####
 #include common-link-handleevents
-- [Chart API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/)
+- [Chart API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/dxChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/')
 
 [tags]chart, tooltip, handle events, tooltipShown, tooltipHidden

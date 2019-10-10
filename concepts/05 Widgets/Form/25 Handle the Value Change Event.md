@@ -1,4 +1,4 @@
-To process a new form item value, you need to handle the [fieldDataChanged](/Documentation/ApiReference/UI_Widgets/dxForm/Events/#fieldDataChanged) event. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onFieldDataChanged](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#onFieldDataChanged) option when you configure the widget.
+To process a new form item value, you need to handle the [fieldDataChanged](/api-reference/10%20UI%20Widgets/dxForm/4%20Events/fieldDataChanged.md '/Documentation/ApiReference/UI_Widgets/dxForm/Events/#fieldDataChanged') event. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onFieldDataChanged](/api-reference/10%20UI%20Widgets/dxForm/1%20Configuration/onFieldDataChanged.md '/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#onFieldDataChanged') option when you configure the widget.
 
 ---
 ##### jQuery
@@ -63,10 +63,10 @@ If you are going to change event handlers at runtime, or if you need to attach s
 
 #####See Also#####
 #include common-link-handleevents
-- [Form - Update Form Data Using the API](/Documentation/Guide/Widgets/Form/Update_Form_Data_Using_the_API/)
-- [Form - Generate a Data Object from Form Items](/Documentation/Guide/Widgets/Form/Generate_a_Data_Object_from_Form_Items/)
-- [Form - Validate and Submit the Form](/Documentation/Guide/Widgets/Form/Validate_and_Submit_the_Form/)
+- [Form - Update Form Data Using the API](/concepts/05%20Widgets/Form/30%20Update%20Form%20Data%20Using%20the%20API.md '/Documentation/Guide/Widgets/Form/Update_Form_Data_Using_the_API/')
+- [Form - Generate a Data Object from Form Items](/concepts/05%20Widgets/Form/35%20Generate%20a%20Data%20Object%20from%20Form%20Items.md '/Documentation/Guide/Widgets/Form/Generate_a_Data_Object_from_Form_Items/')
+- [Form - Validate and Submit the Form](/concepts/05%20Widgets/Form/40%20Validate%20and%20Submit%20the%20Form.md '/Documentation/Guide/Widgets/Form/Validate_and_Submit_the_Form/')
 - [Form Demos](/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-overview)
-- [Form API Reference](/Documentation/ApiReference/UI_Widgets/dxForm/)
+- [Form API Reference](/api-reference/10%20UI%20Widgets/dxForm/dxForm.md '/Documentation/ApiReference/UI_Widgets/dxForm/')
 
 [tags]form, value change, get value, field data changed, fieldDataChanged

@@ -1,5 +1,5 @@
-The **Map** widget fires the [markerAdded](/Documentation/ApiReference/UI_Widgets/dxMap/Events/#markerAdded) and [markerRemoved](/Documentation/ApiReference/UI_Widgets/dxMap/Events/#markerRemoved) events when a marker is added or removed.
-To handle them, assign functions to the [onMarkerAdded](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onMarkerAdded) and [onMarkerRemoved](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onMarkerRemoved) options, respectively.
+The **Map** widget fires the [markerAdded](/api-reference/10%20UI%20Widgets/dxMap/4%20Events/markerAdded.md '/Documentation/ApiReference/UI_Widgets/dxMap/Events/#markerAdded') and [markerRemoved](/api-reference/10%20UI%20Widgets/dxMap/4%20Events/markerRemoved.md '/Documentation/ApiReference/UI_Widgets/dxMap/Events/#markerRemoved') events when a marker is added or removed.
+To handle them, assign functions to the [onMarkerAdded](/api-reference/10%20UI%20Widgets/dxMap/1%20Configuration/onMarkerAdded.md '/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onMarkerAdded') and [onMarkerRemoved](/api-reference/10%20UI%20Widgets/dxMap/1%20Configuration/onMarkerRemoved.md '/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onMarkerRemoved') options, respectively.
 
 ---
 ##### jQuery
@@ -75,9 +75,9 @@ If you are going to change event handlers at runtime, or if you need to attach s
         .on("markerRemoved", markerRemovedHandler2);
 
 #####See Also#####
-- [Map - Customize Markers](/Documentation/Guide/Widgets/Map/Configure_Markers/Customize/)
-- [Map - Add and Remove Markers](/Documentation/Guide/Widgets/Map/Configure_Markers/Add_and_Remove/)
+- [Map - Customize Markers](/concepts/05%20Widgets/Map/20%20Configure%20Markers/10%20Customize.md '/Documentation/Guide/Widgets/Map/Configure_Markers/Customize/')
+- [Map - Add and Remove Markers](/concepts/05%20Widgets/Map/20%20Configure%20Markers/05%20Add%20and%20Remove.md '/Documentation/Guide/Widgets/Map/Configure_Markers/Add_and_Remove/')
 - [Map Demos](/Demos/WidgetsGallery/#demo/maps-map-markers)
-- [Map API Reference](/Documentation/ApiReference/UI_Widgets/dxMap/)
+- [Map API Reference](/api-reference/10%20UI%20Widgets/dxMap/dxMap.md '/Documentation/ApiReference/UI_Widgets/dxMap/')
 
 [tags]map, marker added, marker removed, markerAdded event, markerRemoved event

@@ -25,7 +25,7 @@ Model data. Available only if you use Knockout.
 The input field's text.
 
 ---
-Main article: [onCustomItemCreating]({basewidgetpath}/Configuration/#onCustomItemCreating)
+Main article: [onCustomItemCreating](/api-reference/10%20UI%20Widgets/dxSelectBox/1%20Configuration/onCustomItemCreating.md '{basewidgetpath}/Configuration/#onCustomItemCreating')
 
 #####See Also#####
 #include common-link-handleevents

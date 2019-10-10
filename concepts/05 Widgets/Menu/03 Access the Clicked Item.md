@@ -1,4 +1,4 @@
-To access the clicked item, handle the [itemClick](/Documentation/ApiReference/UI_Widgets/dxMenu/Events/#itemClick) event. If the event handling function is not going to be changed during the lifetime of the widget, assign it to the [onItemClick](/Documentation/ApiReference/UI_Widgets/dxMenu/Configuration/#onItemClick) option when you configure the widget.
+To access the clicked item, handle the [itemClick](/api-reference/10%20UI%20Widgets/CollectionWidget/4%20Events/itemClick.md '/Documentation/ApiReference/UI_Widgets/dxMenu/Events/#itemClick') event. If the event handling function is not going to be changed during the lifetime of the widget, assign it to the [onItemClick](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/onItemClick.md '/Documentation/ApiReference/UI_Widgets/dxMenu/Configuration/#onItemClick') option when you configure the widget.
 
 ---
 ##### jQuery
@@ -60,9 +60,9 @@ If you are going to change event handlers at runtime, or if you need to attach s
 
 #####See Also#####
 #include common-link-handleevents
-- [Menu - Customize Item Appearance](/Documentation/Guide/Widgets/Menu/Customize_Item_Appearance)
-- [Menu - Change the Orientation](/Documentation/Guide/Widgets/Menu/Change_the_Orientation)
+- [Menu - Customize Item Appearance](/concepts/05%20Widgets/Menu/05%20Customize%20Item%20Appearance.md '/Documentation/Guide/Widgets/Menu/Customize_Item_Appearance')
+- [Menu - Change the Orientation](/concepts/05%20Widgets/Menu/10%20Change%20the%20Orientation.md '/Documentation/Guide/Widgets/Menu/Change_the_Orientation')
 - [Menu Demos](/Demos/WidgetsGallery/#demo/navigation-menu-overview)
-- [Menu API Reference](/Documentation/ApiReference/UI_Widgets/dxMenu/)
+- [Menu API Reference](/api-reference/10%20UI%20Widgets/dxMenu/dxMenu.md '/Documentation/ApiReference/UI_Widgets/dxMenu/')
 
 [tags]menu, access the clicked item, onItemClick, itemClick

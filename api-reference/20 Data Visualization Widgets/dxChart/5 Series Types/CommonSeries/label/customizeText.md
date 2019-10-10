@@ -101,7 +101,7 @@ The following fields are inherent to stacked-like series only.
     </table>
 </div>
 
-The following fields are inherent to financial series ([candlestick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/CandleStickSeries/) and [stock](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/StockSeries/)) only.
+The following fields are inherent to financial series ([candlestick](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CandleStickSeries/CandleStickSeries.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/CandleStickSeries/') and [stock](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/StockSeries/StockSeries.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/StockSeries/')) only.
 
 <div class="simple-table">
     <table>

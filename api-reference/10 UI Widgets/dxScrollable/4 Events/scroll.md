@@ -43,7 +43,7 @@ Indicates whether the container's top boundary is reached.
 The current scroll offset in the following format: { top: topOffset, left: leftOffset }.
 
 ---
-Main article: [onScroll]({basewidgetpath}/Configuration/#onScroll)
+Main article: [onScroll](/api-reference/10%20UI%20Widgets/dxScrollable/1%20Configuration/onScroll.md '{basewidgetpath}/Configuration/#onScroll')
 
 #####See Also#####
 #include common-link-handleevents

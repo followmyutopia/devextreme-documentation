@@ -34,7 +34,7 @@ Previously selected files.
 Newly selected files.
 
 ---
-Main article: [onValueChanged](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#onValueChanged)
+Main article: [onValueChanged](/api-reference/10%20UI%20Widgets/dxFileUploader/1%20Configuration/onValueChanged.md '/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#onValueChanged')
 
 #####See Also#####
 #include common-link-handleevents

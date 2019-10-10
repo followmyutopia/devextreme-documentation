@@ -32,7 +32,7 @@ The row's updated data.
 The row's old data.
 
 ---
-Main article: [onRowUpdating]({basewidgetpath}/Configuration/#onRowUpdated)
+Main article: [onRowUpdating](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onRowUpdated.md '{basewidgetpath}/Configuration/#onRowUpdated')
 
 #####See Also#####
 #include common-link-handleevents

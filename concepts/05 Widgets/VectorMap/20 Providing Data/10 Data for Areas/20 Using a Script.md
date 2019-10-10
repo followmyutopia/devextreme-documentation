@@ -1,4 +1,4 @@
-﻿DevExtreme is shipped with a number of predefined data sources for the **VectorMap** widget. You can find these sources as *.js*-scripts in the **Lib/js/vectormap-data** folder of your DevExtreme package. Each data source contains an array describing a geographical territory. The following territories are available.
+DevExtreme is shipped with a number of predefined data sources for the **VectorMap** widget. You can find these sources as *.js*-scripts in the **Lib/js/vectormap-data** folder of your DevExtreme package. Each data source contains an array describing a geographical territory. The following territories are available.
 
 - World *(world.js)*
 - Africa *(africa.js)*
@@ -7,9 +7,9 @@
 - Europe *(europe.js)*
 - USA *(usa.js)*
 
-[note] Built-in maps were not created by DevExpress. They were taken from a <a href="http://www.naturalearthdata.com/" target="_blank">free map data provider</a> and converted to the **VectorMap** format with the **parse()** method. Refer to the [Using a Binary Source](/Documentation/Guide/Widgets/VectorMap/Providing_Data/#Data_for_Areas/Using_a_Binary_Source) section to learn how to display a custom map with the **VectorMap** widget.
+[note] Built-in maps were not created by DevExpress. They were taken from a <a href="http://www.naturalearthdata.com/" target="_blank">free map data provider</a> and converted to the **VectorMap** format with the **parse()** method. Refer to the [Using a Binary Source](/concepts/05%20Widgets/VectorMap/20%20Providing%20Data/10%20Data%20for%20Areas/40%20Using%20a%20Binary%20Source/10%20Using%20a%20Binary%20Source.md '/Documentation/Guide/Widgets/VectorMap/Providing_Data/#Data_for_Areas/Using_a_Binary_Source') section to learn how to display a custom map with the **VectorMap** widget.
 
-To use one of these sources on your map, reference the corresponding file in the head of your HTML document. Note that this file should be referenced after the ChartJS library file (see topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section).
+To use one of these sources on your map, reference the corresponding file in the head of your HTML document. Note that this file should be referenced after the ChartJS library file (see topics in the [Installation](/concepts/00%20Getting%20Started/01%20Installation/10%20Local%20Scripts.md '/Documentation/Guide/Getting_Started/Installation/Local_Scripts/') section).
 
 	<!--HTML--><!DOCTYPE html>
 	  <html>

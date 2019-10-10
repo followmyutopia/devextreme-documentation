@@ -1,4 +1,4 @@
-To process new **RangeSlider** values, you need to handle the value change event. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onValueChanged](/Documentation/ApiReference/UI_Widgets/dxRangeSlider/Configuration/#onValueChanged) option when you configure the widget.
+To process new **RangeSlider** values, you need to handle the value change event. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onValueChanged](/api-reference/10%20UI%20Widgets/dxRangeSlider/1%20Configuration/onValueChanged.md '/Documentation/ApiReference/UI_Widgets/dxRangeSlider/Configuration/#onValueChanged') option when you configure the widget.
 
     <!--JavaScript-->
     $(function() {
@@ -33,6 +33,6 @@ If you are going to change event handlers at runtime, or if you need to attach s
 #####See Also#####
 #include common-link-handleevents
 - [RangeSlider Demos](/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-range_slider-overview)
-- [RangeSlider API Reference](/Documentation/ApiReference/UI_Widgets/dxRangeSlider/)
+- [RangeSlider API Reference](/api-reference/10%20UI%20Widgets/dxRangeSlider/dxRangeSlider.md '/Documentation/ApiReference/UI_Widgets/dxRangeSlider/')
 
 [tags]range slider, rangeSlider, editor, get value, set value

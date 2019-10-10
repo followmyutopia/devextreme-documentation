@@ -16,9 +16,9 @@ The selected filter operation.
 A filter expression.
 
 ---
-[note] When configuring the [filter builder](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#filterBuilder) integrated in the **DataGrid** or **TreeList**, specify the [calculateFilterExpression](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateFilterExpression) in the column with the same [dataField](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#dataField) instead.
+[note] When configuring the [filter builder](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/filterBuilder.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#filterBuilder') integrated in the **DataGrid** or **TreeList**, specify the [calculateFilterExpression](/api-reference/_hidden/GridBaseColumn/calculateFilterExpression.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateFilterExpression') in the column with the same [dataField](/api-reference/10%20UI%20Widgets/dxFilterBuilder/5%20Field/dataField.md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#dataField') instead.
 
-This function must return a [filter expression](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering). The simplest filter expression has the following format:
+This function must return a [filter expression](/concepts/30%20Data%20Layer/5%20Data%20Layer/2%20Reading%20Data/15%20Filtering/Filtering.md '/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering'). The simplest filter expression has the following format:
 
     [selector, selectedFilterOperation, filterValue]
 

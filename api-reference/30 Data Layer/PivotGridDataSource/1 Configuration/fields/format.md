@@ -8,7 +8,7 @@ default: ''
 Formats field values before they are displayed.
 
 ---
-See the [format](/Documentation/ApiReference/Common/Object_Structures/format/) section for details on accepted values.
+See the [format](/api-reference/50%20Common/Object%20Structures/format/format.md '/Documentation/ApiReference/Common/Object_Structures/format/') section for details on accepted values.
 
 ---
 ##### jQuery
@@ -163,4 +163,4 @@ See the [format](/Documentation/ApiReference/Common/Object_Structures/format/) s
 ---
 
 #####See Also#####
-- **fields[]**.[customizeText](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#customizeText)
+- **fields[]**.[customizeText](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/customizeText.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#customizeText')

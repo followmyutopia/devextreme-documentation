@@ -5,9 +5,9 @@ default: true
 ---
 ---
 ##### shortDescription
-Specifies whether a user can fix the column at runtime. Applies only if **columnFixing**.[enabled]({basewidgetpath}/Configuration/columnFixing/#enabled) is **true**.
+Specifies whether a user can fix the column at runtime. Applies only if **columnFixing**.[enabled](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/columnFixing/enabled.md '{basewidgetpath}/Configuration/columnFixing/#enabled') is **true**.
 
 ---
 #####See Also#####
-- [columnFixing]({basewidgetpath}/Configuration/columnFixing/)
-- **columns[]**.[fixed]({basewidgetpath}/Configuration/columns/#fixed)
+- [columnFixing](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/columnFixing/columnFixing.md '{basewidgetpath}/Configuration/columnFixing/')
+- **columns[]**.[fixed](/api-reference/_hidden/GridBaseColumn/fixed.md '{basewidgetpath}/Configuration/columns/#fixed')

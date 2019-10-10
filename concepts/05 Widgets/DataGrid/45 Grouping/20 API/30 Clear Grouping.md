@@ -1,4 +1,4 @@
-Set a column's [groupIndex](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#groupIndex) to **undefined** using the [columnOption(id, optionName, optionValue)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#columnOptionid_optionName_optionValue) method to ungroup data by this column.
+Set a column's [groupIndex](/api-reference/_hidden/dxDataGridColumn/groupIndex.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#groupIndex') to **undefined** using the [columnOption(id, optionName, optionValue)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#columnOptionid_optionName_optionValue) method to ungroup data by this column.
 
 ---
 
@@ -68,5 +68,5 @@ You can ungroup data by all columns at once using the [clearGrouping()](/Documen
 
 #####See Also#####
 #include common-link-callmethods
-- [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/)
-- [User Interaction - Clear Grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/#User_Interaction/Clear_Grouping)
+- [remoteOperations](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/remoteOperations/remoteOperations.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/')
+- [User Interaction - Clear Grouping](/concepts/05%20Widgets/DataGrid/45%20Grouping/10%20User%20Interaction/30%20Clear%20Grouping.md '/Documentation/Guide/Widgets/DataGrid/Grouping/#User_Interaction/Clear_Grouping')

@@ -4,7 +4,7 @@ The **DropDownBox** is a widget that consists of a text field, which displays th
     url: "/Demos/WidgetsGallery/Demo/DropDownBox/SingleSelection/jQuery/Light/"
 }
 
-The simplest widget configuration requires specifying a [dataSource](/Documentation/ApiReference/UI_Widgets/dxDropDownBox/Configuration/#dataSource), [value](/Documentation/ApiReference/UI_Widgets/dxDropDownBox/Configuration/#value) and [contentTemplate](/Documentation/ApiReference/UI_Widgets/dxDropDownBox/Configuration/#contentTemplate). The following code adds the **DropDownBox** to your page: 
+The simplest widget configuration requires specifying a [dataSource](/api-reference/10%20UI%20Widgets/dxDropDownBox/1%20Configuration/dataSource.md '/Documentation/ApiReference/UI_Widgets/dxDropDownBox/Configuration/#dataSource'), [value](/api-reference/10%20UI%20Widgets/DataExpressionMixin/1%20Configuration/value.md '/Documentation/ApiReference/UI_Widgets/dxDropDownBox/Configuration/#value') and [contentTemplate](/api-reference/10%20UI%20Widgets/dxDropDownBox/1%20Configuration/contentTemplate.md '/Documentation/ApiReference/UI_Widgets/dxDropDownBox/Configuration/#contentTemplate'). The following code adds the **DropDownBox** to your page: 
 
 ---
 
@@ -138,9 +138,9 @@ The simplest widget configuration requires specifying a [dataSource](/Documentat
 
 If your data is an array of objects, specify: 
 
-- [valueExpr](/Documentation/ApiReference/UI_Widgets/dxDropDownBox/Configuration/#valueExpr)     
-    The data field whose value is written into the [value](/Documentation/ApiReference/UI_Widgets/dxDropDownBox/Configuration/#value) option.
-- [displayExpr](/Documentation/ApiReference/UI_Widgets/dxDropDownBox/Configuration/#displayExpr)     
+- [valueExpr](/api-reference/10%20UI%20Widgets/DataExpressionMixin/1%20Configuration/valueExpr.md '/Documentation/ApiReference/UI_Widgets/dxDropDownBox/Configuration/#valueExpr')     
+    The data field whose value is written into the [value](/api-reference/10%20UI%20Widgets/DataExpressionMixin/1%20Configuration/value.md '/Documentation/ApiReference/UI_Widgets/dxDropDownBox/Configuration/#value') option.
+- [displayExpr](/api-reference/10%20UI%20Widgets/DataExpressionMixin/1%20Configuration/displayExpr.md '/Documentation/ApiReference/UI_Widgets/dxDropDownBox/Configuration/#displayExpr')     
     The data field whose value is displayed in the input field of the widget.
 
 <!---->
@@ -333,4 +333,4 @@ If your data is an array of objects, specify:
 ---
 
 #####See Also#####
-- [DropDownBox - Customize the Appearance](/Documentation/Guide/Widgets/DropDownBox/Customize_the_Appearance/)
+- [DropDownBox - Customize the Appearance](/concepts/05%20Widgets/DropDownBox/20%20Customize%20the%20Appearance.md '/Documentation/Guide/Widgets/DropDownBox/Customize_the_Appearance/')

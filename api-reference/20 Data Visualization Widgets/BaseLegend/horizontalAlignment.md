@@ -6,7 +6,7 @@ default: 'right'
 ---
 ---
 ##### shortDescription
-Along with [verticalAlignment]({basewidgetpath}/Configuration/legend/#verticalAlignment), specifies the legend's position.
+Along with [verticalAlignment](/api-reference/20%20Data%20Visualization%20Widgets/BaseLegend/verticalAlignment.md '{basewidgetpath}/Configuration/legend/#verticalAlignment'), specifies the legend's position.
 
 ---
 #include common-ref-enum with {
@@ -15,4 +15,4 @@ Along with [verticalAlignment]({basewidgetpath}/Configuration/legend/#verticalAl
 }
 
 #####See Also#####
-- **legend**.[orientation]({basewidgetpath}/Configuration/legend/#orientation)
+- **legend**.[orientation](/api-reference/20%20Data%20Visualization%20Widgets/BaseLegend/orientation.md '{basewidgetpath}/Configuration/legend/#orientation')

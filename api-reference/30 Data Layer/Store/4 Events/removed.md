@@ -10,4 +10,4 @@ Raised after a data item is removed from the store.
 The removed data item's key.
 
 ---
-Main article: [onRemoved]({basewidgetpath}/Configuration/#onRemoved)
+Main article: [onRemoved](/api-reference/30%20Data%20Layer/Store/1%20Configuration/onRemoved.md '{basewidgetpath}/Configuration/#onRemoved')

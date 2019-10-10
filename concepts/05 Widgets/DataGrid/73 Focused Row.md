@@ -4,7 +4,7 @@ The focused row feature allows you to display master-detail relationships and im
     url: "/Demos/WidgetsGallery/Demo/DataGrid/FocusedRow/jQuery/Light/"
 }
 
-To allow users to focus rows, set the [focusedRowEnabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#focusedRowEnabled) option to **true**.
+To allow users to focus rows, set the [focusedRowEnabled](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/focusedRowEnabled.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#focusedRowEnabled') option to **true**.
 
 Users can control the focused row using the following mouse and keyboard commands:
 
@@ -31,7 +31,7 @@ Users can control the focused row using the following mouse and keyboard command
     </table>
 </div>
 
-You can specify the initially focused row using the [focusedRowKey](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#focusedRowKey) or [focusedRowIndex](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#focusedRowIndex) option. The grid is scrolled down to it. If you also set the [focusedColumnIndex](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#focusedColumnIndex) option, a specific cell in this row is focused.
+You can specify the initially focused row using the [focusedRowKey](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/focusedRowKey.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#focusedRowKey') or [focusedRowIndex](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/focusedRowIndex.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#focusedRowIndex') option. The grid is scrolled down to it. If you also set the [focusedColumnIndex](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/focusedColumnIndex.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#focusedColumnIndex') option, a specific cell in this row is focused.
 
 ---
 ##### jQuery
@@ -81,4 +81,4 @@ Change the same options using the [option(optionName, optionValue)](/Documentati
     // or
     dataGrid.navigateToRow(100);
 
-The **DataGrid** raises events before and after a row or cell is focused. Use the [onFocusedRowChanging](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onFocusedRowChanging)/[onFocusedRowChanged](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onFocusedRowChanged) and [onFocusedCellChanging](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onFocusedCellChanging)/[onFocusedCellChanged](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onFocusedCellChanged) functions to handle these events. You can perform custom actions in these functions, for instance, customize keyboard navigation, as shown in the [onFocusedCellChanging](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onFocusedRowChanging) example.
+The **DataGrid** raises events before and after a row or cell is focused. Use the [onFocusedRowChanging](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/onFocusedRowChanging.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onFocusedRowChanging')/[onFocusedRowChanged](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/onFocusedRowChanged.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onFocusedRowChanged') and [onFocusedCellChanging](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/onFocusedCellChanging.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onFocusedCellChanging')/[onFocusedCellChanged](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/onFocusedCellChanged.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onFocusedCellChanged') functions to handle these events. You can perform custom actions in these functions, for instance, customize keyboard navigation, as shown in the [onFocusedCellChanging](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/onFocusedRowChanging.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onFocusedRowChanging') example.

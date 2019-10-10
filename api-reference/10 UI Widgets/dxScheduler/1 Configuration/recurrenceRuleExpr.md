@@ -11,4 +11,4 @@ Specifies the name of the data source item field that defines a recurrence rule 
 If the option value is null, the widget does not support recurring appointments. It displays only initial appointments without generating appointment series.
 
 #####See Also#####
-- [Appointment Types](/Documentation/Guide/Widgets/Scheduler/Appointments/Appointment_Types/#Recurring_Appointments)
+- [Appointment Types](/concepts/05%20Widgets/Scheduler/030%20Appointments/015%20Appointment%20Types/030%20Recurring%20Appointments.md '/Documentation/Guide/Widgets/Scheduler/Appointments/Appointment_Types/#Recurring_Appointments')

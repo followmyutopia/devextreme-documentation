@@ -1,4 +1,4 @@
-Customize a summary item's text and value format using the [displayFormat](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#displayFormat) and [valueFormat](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#valueFormat) options. The following code changes the default text and shows an item with the applied currency format. The text includes the parent column's caption because this item is shown in another column.
+Customize a summary item's text and value format using the [displayFormat](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/summary/totalItems/displayFormat.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#displayFormat') and [valueFormat](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/summary/totalItems/valueFormat.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#valueFormat') options. The following code changes the default text and shows an item with the applied currency format. The text includes the parent column's caption because this item is shown in another column.
 
 ---
 #####jQuery
@@ -113,7 +113,7 @@ Specify the **customizeText** function for a more detailed customization.
 ---
 
 #####See Also#####
-- [Total Summary](/Documentation/Guide/Widgets/DataGrid/Summaries/Total_Summary/)
-- [Group Summary](/Documentation/Guide/Widgets/DataGrid/Summaries/Group_Summary/)
+- [Total Summary](/concepts/05%20Widgets/DataGrid/65%20Summaries/10%20Total%20Summary/Total%20Summary.md '/Documentation/Guide/Widgets/DataGrid/Summaries/Total_Summary/')
+- [Group Summary](/concepts/05%20Widgets/DataGrid/65%20Summaries/20%20Group%20Summary/Group%20Summary.md '/Documentation/Guide/Widgets/DataGrid/Summaries/Group_Summary/')
 
 [tags]dataGrid, data grid, change text, change format, displayFormat, valueFormat, customizeText

@@ -6,10 +6,10 @@ default: undefined
 ---
 ---
 ##### shortDescription
-Specifies a set of available filter operations. Applies only if [filterRow]({basewidgetpath}/Configuration/filterRow/).**visible** and [allowFiltering]({basewidgetpath}/Configuration/columns/#allowFiltering) are **true**.
+Specifies a set of available filter operations. Applies only if [filterRow](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/filterRow/filterRow.md '{basewidgetpath}/Configuration/filterRow/').**visible** and [allowFiltering](/api-reference/_hidden/GridBaseColumn/allowFiltering.md '{basewidgetpath}/Configuration/columns/#allowFiltering') are **true**.
 
 ---
-The following table lists available filters by [data types]({basewidgetpath}/Configuration/columns/#dataType). The same filters are assigned to columns of a specific data type by default.
+The following table lists available filters by [data types](/api-reference/_hidden/GridBaseColumn/dataType.md '{basewidgetpath}/Configuration/columns/#dataType'). The same filters are assigned to columns of a specific data type by default.
 
 <div class="simple-table">
 <table>
@@ -44,5 +44,5 @@ The **filterOperations** option can also accept an empty array. In this case, th
 }
 
 #####See Also#####
-- **columns[]**.[selectedFilterOperation]({basewidgetpath}/Configuration/columns/#selectedFilterOperation)
-- **columns[]**.[filterValue]({basewidgetpath}/Configuration/columns/#filterValue)
+- **columns[]**.[selectedFilterOperation](/api-reference/_hidden/GridBaseColumn/selectedFilterOperation.md '{basewidgetpath}/Configuration/columns/#selectedFilterOperation')
+- **columns[]**.[filterValue](/api-reference/_hidden/GridBaseColumn/filterValue.md '{basewidgetpath}/Configuration/columns/#filterValue')

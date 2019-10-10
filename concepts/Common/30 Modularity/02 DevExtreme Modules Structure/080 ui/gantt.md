@@ -2,7 +2,7 @@ Exposes the **Gantt** widget.
 
 Exports:
 
-- *default* - The [Gantt](/Documentation/ApiReference/UI_Widgets/dxGantt/) widget
+- *default* - The [Gantt](/api-reference/10%20UI%20Widgets/dxGantt/dxGantt.md '/Documentation/ApiReference/UI_Widgets/dxGantt/') widget
 
         require("ui/gantt") ; 
         // ===== or =====

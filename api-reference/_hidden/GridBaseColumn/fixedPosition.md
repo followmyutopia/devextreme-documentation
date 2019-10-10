@@ -6,7 +6,7 @@ default: undefined
 ---
 ---
 ##### shortDescription
-Specifies the widget's edge to which the column is fixed. Applies only if **columns[]**.[fixed]({basewidgetpath}/Configuration/columns/#fixed) is **true**.
+Specifies the widget's edge to which the column is fixed. Applies only if **columns[]**.[fixed](/api-reference/_hidden/GridBaseColumn/fixed.md '{basewidgetpath}/Configuration/columns/#fixed') is **true**.
 
 ---
 #include common-ref-enum with {
@@ -15,4 +15,4 @@ Specifies the widget's edge to which the column is fixed. Applies only if **colu
 }
 
 #####See Also#####
-- [columnFixing]({basewidgetpath}/Configuration/columnFixing/)
+- [columnFixing](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/columnFixing/columnFixing.md '{basewidgetpath}/Configuration/columnFixing/')

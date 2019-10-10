@@ -31,13 +31,13 @@ The keys of all selected rows.
 
 ##### field(e.selectedRowsData): Array<Object>
 The data of all selected rows.     
-Does not include [calculated values]({basewidgetpath}/Configuration/columns/#calculateCellValue).
+Does not include [calculated values](/api-reference/_hidden/GridBaseColumn/calculateCellValue.md '{basewidgetpath}/Configuration/columns/#calculateCellValue').
 
 ---
 This function has the following specifics:
 
 - If a field providing key values is not specified in the data source, the whole data object is considered the key. In this case, all arrays passed to the function contain data objects instead of keys.
-- When selection is [deferred]({basewidgetpath}/Configuration/selection/#deferred), this function does not provide access to keys and data. Use the [getSelectedRowsData()]({basewidgetpath}/Methods/#getSelectedRowsData) or [getSelectedRowKeys()]({basewidgetpath}/Methods/#getSelectedRowKeys) method instead.
+- When selection is [deferred](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/selection/deferred.md '{basewidgetpath}/Configuration/selection/#deferred'), this function does not provide access to keys and data. Use the [getSelectedRowsData()](/api-reference/10%20UI%20Widgets/dxDataGrid/3%20Methods/getSelectedRowsData().md '{basewidgetpath}/Methods/#getSelectedRowsData') or [getSelectedRowKeys()](/api-reference/10%20UI%20Widgets/dxDataGrid/3%20Methods/getSelectedRowKeys().md '{basewidgetpath}/Methods/#getSelectedRowKeys') method instead.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Data_Grid/RowSelection/jQuery/Light/"

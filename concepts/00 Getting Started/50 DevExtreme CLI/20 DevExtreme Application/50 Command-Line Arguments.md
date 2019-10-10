@@ -9,7 +9,7 @@ Specifies the DevExtreme layout to add. Available values:
 Specifies whether to skip sample views generation (default: `false`).
 
 * `--icon`      
-Specifies the view's icon (default: `folder`). You can choose an icon from the [DevExtreme icon library](/Documentation/Guide/Themes_and_Styles/Icons/#Built-In_Icon_Library).
+Specifies the view's icon (default: `folder`). You can choose an icon from the [DevExtreme icon library](/concepts/60%20Themes%20and%20Styles/30%20Icons/10%20Built-In%20Icon%20Library.md '/Documentation/Guide/Themes_and_Styles/Icons/#Built-In_Icon_Library').
 
 * `--resolve-conflicts` (Angular only)     
 Specifies whether to override the existing `app.component` or create a component with another name. Available values:
@@ -24,4 +24,4 @@ Specifies whether to override the existing `app.component` or create a component
         // ...
 
 #####See Also#####
-- **Create and Configure a Widget** in [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/), [React](/Documentation/Guide/React_Components/Component_Configuration_Syntax/), and [Vue](/Documentation/Guide/Vue_Components/Component_Configuration_Syntax/).
+- **Create and Configure a Widget** in [Angular](/concepts/40%20Angular%20Components/20%20Component%20Configuration%20Syntax/Component%20Configuration%20Syntax.md '/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/'), [React](/concepts/50%20React%20Components/40%20Component%20Configuration%20Syntax/00%20Component%20Configuration%20Syntax.md '/Documentation/Guide/React_Components/Component_Configuration_Syntax/'), and [Vue](/concepts/55%20Vue%20Components/20%20Component%20Configuration%20Syntax/Component%20Configuration%20Syntax.md '/Documentation/Guide/Vue_Components/Component_Configuration_Syntax/').

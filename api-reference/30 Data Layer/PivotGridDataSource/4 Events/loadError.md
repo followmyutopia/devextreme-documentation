@@ -10,4 +10,4 @@ Raised when data loading fails.
 The error.
 
 ---
-Main article: [onLoadError](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/#onLoadError)
+Main article: [onLoadError](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/onLoadError.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/#onLoadError')

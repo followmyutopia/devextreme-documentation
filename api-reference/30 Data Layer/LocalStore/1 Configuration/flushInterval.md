@@ -5,7 +5,7 @@ default: 10000
 ---
 ---
 ##### shortDescription
-Specifies a delay in milliseconds between when data changes and the moment these changes are saved in the local storage. Applies only if [immediate](/Documentation/ApiReference/Data_Layer/LocalStore/Configuration/#immediate) is **false**.
+Specifies a delay in milliseconds between when data changes and the moment these changes are saved in the local storage. Applies only if [immediate](/api-reference/30%20Data%20Layer/LocalStore/1%20Configuration/immediate.md '/Documentation/ApiReference/Data_Layer/LocalStore/Configuration/#immediate') is **false**.
 
 ---
 ---

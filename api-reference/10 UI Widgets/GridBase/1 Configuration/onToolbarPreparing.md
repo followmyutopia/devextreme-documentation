@@ -21,7 +21,7 @@ The widget's instance.
 Model data. Available only if you use Knockout.
 
 ##### field(e.toolbarOptions): dxToolbar_Options
-The [options of the toolbar](/Documentation/ApiReference/UI_Widgets/dxToolbar/Configuration/).
+The [options of the toolbar](/api-reference/10%20UI%20Widgets/dxToolbar/1%20Configuration/Configuration.md '/Documentation/ApiReference/UI_Widgets/dxToolbar/Configuration/').
 
 ---
 This function allows you to customize the toolbar. Depending on the configuration, the widget may add the following items to the toolbar:
@@ -32,8 +32,8 @@ This function allows you to customize the toolbar. Depending on the configuratio
 - <img src="/Content/images/doc/19_2/DataGrid/icons/toolbar_revert.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid Toolbar RevertButton" style="margin:1px; vertical-align:middle"/> - *"revertButton"*   
 - <img src="/Content/images/doc/19_2/DataGrid/icons/toolbar_export.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid Toolbar Exporting" style="margin:1px; vertical-align:middle"/> - *"exportButton"*     
 - <img src="/Content/images/doc/19_2/DataGrid/icons/toolbar_applyFilter.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid Toolbar ApplyFilterButton" style="margin:1px; vertical-align:middle"/> - *"applyFilterButton"*     
-- [*"groupPanel"*](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/groupPanel/) 
-- [*"searchPanel"*]({basewidgetpath}/Configuration/searchPanel/)
+- [*"groupPanel"*](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/groupPanel/groupPanel.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/groupPanel/') 
+- [*"searchPanel"*](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/searchPanel/searchPanel.md '{basewidgetpath}/Configuration/searchPanel/')
 
 The following code shows how you can customize the toolbar using this function.
 

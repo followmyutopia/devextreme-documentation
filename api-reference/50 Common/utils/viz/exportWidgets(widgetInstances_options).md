@@ -63,7 +63,7 @@ The parameter contains the following fields:
 - **cancel** - when assigned **true**, prevents the file from being saved.
 
 ##### field(options.proxyUrl): String
-The URL of a server-side proxy required for export in Safari on Mac OS. See [proxyUrl](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#proxyUrl) for more details.
+The URL of a server-side proxy required for export in Safari on Mac OS. See [proxyUrl](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/export/proxyUrl.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#proxyUrl') for more details.
 
 ##### field(options.svgToCanvas): function()
 <!-- Description goes here -->

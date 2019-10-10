@@ -33,4 +33,4 @@ The [clearFilter(filterName)](/Documentation/ApiReference/UI_Widgets/dxTreeList/
 ---
 
 #####See Also#####
-- [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/remoteOperations/)
+- [remoteOperations](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/remoteOperations/remoteOperations.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/remoteOperations/')

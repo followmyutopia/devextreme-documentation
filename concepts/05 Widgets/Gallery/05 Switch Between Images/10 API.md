@@ -1,4 +1,4 @@
-[note]In this article, the [Button](/Documentation/Guide/Widgets/Button/Overview/) widget is used to switch images. This choice is made for purely demonstrational purposes, and you can do the same operations using another widget following the same guidelines.
+[note]In this article, the [Button](/concepts/05%20Widgets/Button/00%20Overview.md '/Documentation/Guide/Widgets/Button/Overview/') widget is used to switch images. This choice is made for purely demonstrational purposes, and you can do the same operations using another widget following the same guidelines.
 
 To switch the **Gallery** to the next or previous image, call the [nextItem(animation)](/Documentation/ApiReference/UI_Widgets/dxGallery/Methods/#nextItemanimation) or [prevItem(animation)](/Documentation/ApiReference/UI_Widgets/dxGallery/Methods/#prevItemanimation) method, respectively.
 
@@ -80,7 +80,7 @@ To switch the **Gallery** to the next or previous image, call the [nextItem(anim
 
 ---
 
-To navigate to a specific image, call the [goToItem(itemIndex, animation)](/Documentation/ApiReference/UI_Widgets/dxGallery/Methods/#goToItemitemIndex_animation) method. The first argument should be the index of the required image in the [dataSource](/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/#dataSource).
+To navigate to a specific image, call the [goToItem(itemIndex, animation)](/Documentation/ApiReference/UI_Widgets/dxGallery/Methods/#goToItemitemIndex_animation) method. The first argument should be the index of the required image in the [dataSource](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/dataSource.md '/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/#dataSource').
 
 ---
 #####jQuery
@@ -115,4 +115,4 @@ To navigate to a specific image, call the [goToItem(itemIndex, animation)](/Docu
 
 #####See Also#####
 - [Gallery Demos](/Demos/WidgetsGallery/#demo/actions_and_lists-gallery-overview)
-- [Gallery API Reference](/Documentation/ApiReference/UI_Widgets/dxGallery/)
+- [Gallery API Reference](/api-reference/10%20UI%20Widgets/dxGallery/dxGallery.md '/Documentation/ApiReference/UI_Widgets/dxGallery/')

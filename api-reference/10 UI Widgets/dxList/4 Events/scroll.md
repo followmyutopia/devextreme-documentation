@@ -43,8 +43,8 @@ Indicates whether the container's top boundary is reached.
 The current scroll offset in the following format { top: topOffset, left: leftOffset }.
 
 ---
-Main article: [onScroll](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onScroll)
+Main article: [onScroll](/api-reference/10%20UI%20Widgets/dxList/1%20Configuration/onScroll.md '/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onScroll')
 
 #####See Also#####
-- [List - Handle Scrolling-Related Events](/Documentation/Guide/Widgets/List/Scrolling/#Events)
+- [List - Handle Scrolling-Related Events](/concepts/05%20Widgets/List/20%20Scrolling/10%20Events.md '/Documentation/Guide/Widgets/List/Scrolling/#Events')
 #include common-link-handleevents

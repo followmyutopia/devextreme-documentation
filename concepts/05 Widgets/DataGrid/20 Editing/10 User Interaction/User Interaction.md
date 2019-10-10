@@ -1,4 +1,4 @@
-The **DataGrid** widget allows a user to add, delete and update data. Assign **true** to the corresponding field of the [editing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/) object to enable an operation. You can set a column's [allowEditing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowEditing) option to **false** if its data should not be edited.
+The **DataGrid** widget allows a user to add, delete and update data. Assign **true** to the corresponding field of the [editing](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/editing/editing.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/') object to enable an operation. You can set a column's [allowEditing](/api-reference/_hidden/GridBaseColumn/allowEditing.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowEditing') option to **false** if its data should not be edited.
 
 ---
 ##### jQuery
@@ -47,7 +47,7 @@ The **DataGrid** widget allows a user to add, delete and update data. Assign **t
     
 ---
 
-With the **DataGrid** you can edit data in several modes. Use the **editing**.[mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#mode) option to specify it. 
+With the **DataGrid** you can edit data in several modes. Use the **editing**.[mode](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/editing/mode.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#mode') option to specify it. 
 
 ---
 ##### jQuery

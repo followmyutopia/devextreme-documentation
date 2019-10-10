@@ -1,15 +1,15 @@
 The **DataGrid** raises the following export-related events:
 
-- [exporting](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#exporting)  
+- [exporting](/api-reference/10%20UI%20Widgets/dxDataGrid/4%20Events/exporting.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#exporting')  
 Allows you to request export details or prevent export. Can also be used to adjust grid columns before exporting.
 
-- [exported](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#exported)  
+- [exported](/api-reference/10%20UI%20Widgets/dxDataGrid/4%20Events/exported.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#exported')  
 Allows you to notify an end user when exporting is completed.
 
-- [fileSaving](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#fileSaving)        
+- [fileSaving](/api-reference/10%20UI%20Widgets/dxDataGrid/4%20Events/fileSaving.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#fileSaving')        
 Allows you to access the exported data in the <a href="https://en.wikipedia.org/wiki/Binary_large_object" target="_blank">BLOB</a> format and/or prevent it from being saved on the user's local storage.
 
-You can handle these events with functions. Assign the handling functions to the [onExporting](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExporting), [onExported](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExported) and [onFileSaving](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onFileSaving) options when you configure the widget if they are going to remain unchanged at runtime.
+You can handle these events with functions. Assign the handling functions to the [onExporting](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/onExporting.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExporting'), [onExported](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/onExported.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExported') and [onFileSaving](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/onFileSaving.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onFileSaving') options when you configure the widget if they are going to remain unchanged at runtime.
 
 ---
 ##### jQuery

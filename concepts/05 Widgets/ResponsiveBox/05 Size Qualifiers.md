@@ -29,7 +29,7 @@ When choosing the layout for a specific screen, the widget considers the screen'
   </table>
 </div>
 
-If a size qualifier should be identified with other screen width values, use the [screenByWidth](/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/#screenByWidth) option to specify the relation.
+If a size qualifier should be identified with other screen width values, use the [screenByWidth](/api-reference/10%20UI%20Widgets/dxResponsiveBox/1%20Configuration/screenByWidth.md '/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/#screenByWidth') option to specify the relation.
 
 ---
 ##### jQuery
@@ -86,8 +86,8 @@ If a size qualifier should be identified with other screen width values, use the
 ---
 
 #####See Also#####
-- [ResponsiveBox - Create the Layout Grid](/Documentation/Guide/Widgets/ResponsiveBox/Create_the_Layout_Grid/)
+- [ResponsiveBox - Create the Layout Grid](/concepts/05%20Widgets/ResponsiveBox/10%20Create%20the%20Layout%20Grid.md '/Documentation/Guide/Widgets/ResponsiveBox/Create_the_Layout_Grid/')
 - [ResponsiveBox Demos](/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-responsive_box-overview/tablet-landscape)
-- [ResponsiveBox API Reference](/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/)
+- [ResponsiveBox API Reference](/api-reference/10%20UI%20Widgets/dxResponsiveBox/dxResponsiveBox.md '/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/')
 
 [tags]responsive box, responsiveBox, size qualifier, adaptive layout, extra small screen, small screen, medium screen, large screen 

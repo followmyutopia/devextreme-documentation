@@ -2,7 +2,7 @@ Exposes the **DataGrid** widget.
 
 Exports:
 
-- *default* - The [DataGrid](/Documentation/ApiReference/UI_Widgets/dxDataGrid/) widget
+- *default* - The [DataGrid](/api-reference/10%20UI%20Widgets/dxDataGrid/dxDataGrid.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/') widget
 
         require("ui/data_grid");
         // ===== or =====

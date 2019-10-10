@@ -31,7 +31,7 @@ The jQuery event that caused the function's execution. Deprecated in favor of th
 Model data. Available only if you use Knockout.
 
 ---
-Main article: [onKeyDown]({basewidgetpath}/Configuration/#onKeyDown)
+Main article: [onKeyDown](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onKeyDown.md '{basewidgetpath}/Configuration/#onKeyDown')
 
 #####See Also#####
 #include common-link-handleevents

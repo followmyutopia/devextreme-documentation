@@ -1,4 +1,4 @@
-To execute certain commands before or after an item is deleted from the **List**, handle the [itemDeleting](/Documentation/ApiReference/UI_Widgets/dxList/Events/#itemDeleting) or [itemDeleted](/Documentation/ApiReference/UI_Widgets/dxList/Events/#itemDeleted) event. If the functions that handle these events are not going to be changed during the lifetime of the widget, assign them to the **on*EventName*** option when you configure the widget.
+To execute certain commands before or after an item is deleted from the **List**, handle the [itemDeleting](/api-reference/10%20UI%20Widgets/dxList/4%20Events/itemDeleting.md '/Documentation/ApiReference/UI_Widgets/dxList/Events/#itemDeleting') or [itemDeleted](/api-reference/10%20UI%20Widgets/dxList/4%20Events/itemDeleted.md '/Documentation/ApiReference/UI_Widgets/dxList/Events/#itemDeleted') event. If the functions that handle these events are not going to be changed during the lifetime of the widget, assign them to the **on*EventName*** option when you configure the widget.
 
 ---
 #####jQuery
@@ -76,5 +76,5 @@ If you are going to change the event handlers at runtime, or if you need to atta
 #####See Also#####
 #include common-link-handleevents
 - [List Demos](/Demos/WidgetsGallery/Demo/List/ListSelection/jQuery/Light/)
-- [List API Reference](/Documentation/ApiReference/UI_Widgets/dxList/)
+- [List API Reference](/api-reference/10%20UI%20Widgets/dxList/dxList.md '/Documentation/ApiReference/UI_Widgets/dxList/')
 

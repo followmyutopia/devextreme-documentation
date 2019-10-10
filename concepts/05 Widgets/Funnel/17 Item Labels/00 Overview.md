@@ -2,7 +2,7 @@ A label that displays the item's value or custom data can accompany each funnel 
 
 ![Funnel Item Labels](/Content/images/doc/19_2/funnel/visual_elements/item-labels.png)
 
-Options that configure item labels are collected in the [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/label/) object. Refer to its description in the API reference or to other topics in this section for details on item label settings.
+Options that configure item labels are collected in the [label](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/1%20Configuration/label/label.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/label/') object. Refer to its description in the API reference or to other topics in this section for details on item label settings.
 
 ---
 ##### jQuery
@@ -41,6 +41,6 @@ Options that configure item labels are collected in the [label](/Documentation/A
 ---
 
 #####See Also#####
-- [Customize Labels](/Documentation/Guide/Widgets/Funnel/Item_Labels/Customize_Labels/)
-- [Relocate Labels](/Documentation/Guide/Widgets/Funnel/Item_Labels/Relocate_Labels/)
+- [Customize Labels](/concepts/05%20Widgets/Funnel/17%20Item%20Labels/05%20Customize%20Labels.md '/Documentation/Guide/Widgets/Funnel/Item_Labels/Customize_Labels/')
+- [Relocate Labels](/concepts/05%20Widgets/Funnel/17%20Item%20Labels/07%20Relocate%20Labels.md '/Documentation/Guide/Widgets/Funnel/Item_Labels/Relocate_Labels/')
 - [Funnel Demos](/Demos/WidgetsGallery/Demo/Charts/FunnelChart/jQuery/Light/)

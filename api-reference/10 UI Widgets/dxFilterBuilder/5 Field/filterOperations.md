@@ -9,7 +9,7 @@ default: undefined
 Specifies a set of available filter operations.
 
 ---
-The following table lists default operations by [data type](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#dataType):
+The following table lists default operations by [data type](/api-reference/10%20UI%20Widgets/dxFilterBuilder/5%20Field/dataType.md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#dataType'):
 
 <div class="simple-table">
 <table>
@@ -46,7 +46,7 @@ The following table lists default operations by [data type](/Documentation/ApiRe
 
 The *"isblank"* operation returns null values and empty strings; *"isnotblank"* returns other values.
 
-[note] [Lookup](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/lookup/)'s default operations are [ "=", "<>", "isblank", "isnotblank" ] regardless of the data type.
+[note] [Lookup](/api-reference/10%20UI%20Widgets/dxFilterBuilder/5%20Field/lookup/lookup.md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/lookup/')'s default operations are [ "=", "<>", "isblank", "isnotblank" ] regardless of the data type.
 
 #include common-ref-enum with {
     enum: "`FilterBuilderFieldFilterOperations`",

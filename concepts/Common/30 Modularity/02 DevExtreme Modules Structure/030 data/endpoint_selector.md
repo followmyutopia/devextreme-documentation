@@ -2,7 +2,7 @@ Exposes an object used to get URLs that vary in a locally running application an
 
 Exports:
 
-- *default* - The [EndpointSelector](/Documentation/ApiReference/Data_Layer/EndpointSelector/) object
+- *default* - The [EndpointSelector](/api-reference/30%20Data%20Layer/EndpointSelector/EndpointSelector.md '/Documentation/ApiReference/Data_Layer/EndpointSelector/') object
 
         require("data/endpoint_selector");
         // ===== or =====

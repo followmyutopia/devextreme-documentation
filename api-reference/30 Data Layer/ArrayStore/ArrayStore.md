@@ -272,5 +272,5 @@ dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
 #include datalayer-store-note-immutable with { name: "ArrayStore" }
 
 #####See Also#####
-- [DataSource API Reference](/Documentation/ApiReference/Data_Layer/DataSource/)
-- [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/)
+- [DataSource API Reference](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/')
+- [Data Layer](/concepts/30%20Data%20Layer/5%20Data%20Layer/Data%20Layer.md '/Documentation/Guide/Data_Layer/Data_Layer/')

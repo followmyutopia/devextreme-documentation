@@ -2,7 +2,7 @@ Exposes the **Sparkline** widget.
 
 Exports:
 
-- *default* - The [Sparkline](/Documentation/ApiReference/Data_Visualization_Widgets/dxSparkline/) widget
+- *default* - The [Sparkline](/api-reference/20%20Data%20Visualization%20Widgets/dxSparkline/dxSparkline.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSparkline/') widget
 
         require("viz/sparkline");
         // ===== or =====

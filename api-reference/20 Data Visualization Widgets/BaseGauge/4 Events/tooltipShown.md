@@ -24,7 +24,7 @@ Information on the (sub)value indicator being pressed or hovered over with the m
 ##### notUsedInTheme
 
 ---
-Main article: [onTooltipShown]({basewidgetpath}/Configuration/#onTooltipShown)
+Main article: [onTooltipShown](/api-reference/20%20Data%20Visualization%20Widgets/BaseGauge/1%20Configuration/onTooltipShown.md '{basewidgetpath}/Configuration/#onTooltipShown')
 
 #####See Also#####
 #include common-link-handleevents

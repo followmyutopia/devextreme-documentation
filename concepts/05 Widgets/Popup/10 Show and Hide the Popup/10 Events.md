@@ -1,4 +1,4 @@
-To execute certain commands before or after the **Popup** was shown/hidden, handle the [showing](/Documentation/ApiReference/UI_Widgets/dxPopup/Events/#showing), [shown](/Documentation/ApiReference/UI_Widgets/dxPopup/Events/#shown), [hiding](/Documentation/ApiReference/UI_Widgets/dxPopup/Events/#hiding) or [hidden](/Documentation/ApiReference/UI_Widgets/dxPopup/Events/#hidden) event. If the event handling function is not going to be changed during the lifetime of the widget, assign it to the corresponding **on*EventName*** option when you configure the widget.
+To execute certain commands before or after the **Popup** was shown/hidden, handle the [showing](/api-reference/10%20UI%20Widgets/dxOverlay/4%20Events/showing.md '/Documentation/ApiReference/UI_Widgets/dxPopup/Events/#showing'), [shown](/api-reference/10%20UI%20Widgets/dxOverlay/4%20Events/shown.md '/Documentation/ApiReference/UI_Widgets/dxPopup/Events/#shown'), [hiding](/api-reference/10%20UI%20Widgets/dxOverlay/4%20Events/hiding.md '/Documentation/ApiReference/UI_Widgets/dxPopup/Events/#hiding') or [hidden](/api-reference/10%20UI%20Widgets/dxOverlay/4%20Events/hidden.md '/Documentation/ApiReference/UI_Widgets/dxPopup/Events/#hidden') event. If the event handling function is not going to be changed during the lifetime of the widget, assign it to the corresponding **on*EventName*** option when you configure the widget.
 
 ---
 ##### jQuery
@@ -75,7 +75,7 @@ If you are going to change event handlers at runtime, or if you need to attach s
 
 #####See Also#####
 #include common-link-handleevents
-- [Popup - Customize the Content](/Documentation/Guide/Widgets/Popup/Customize_the_Appearance/Customize_the_Content/)
-- [Popup - Resize and Relocate](/Documentation/Guide/Widgets/Popup/Resize_and_Relocate/)
+- [Popup - Customize the Content](/concepts/05%20Widgets/Popup/05%20Customize%20the%20Appearance/05%20Customize%20the%20Content/Customize%20the%20Content.md '/Documentation/Guide/Widgets/Popup/Customize_the_Appearance/Customize_the_Content/')
+- [Popup - Resize and Relocate](/concepts/05%20Widgets/Popup/15%20Resize%20and%20Relocate.md '/Documentation/Guide/Widgets/Popup/Resize_and_Relocate/')
 - [Popup Demos](/Demos/WidgetsGallery/#demo/dialogs_and_notifications-popup-overview)
-- [Popup API Reference](/Documentation/ApiReference/UI_Widgets/dxPopup/)
+- [Popup API Reference](/api-reference/10%20UI%20Widgets/dxPopup/dxPopup.md '/Documentation/ApiReference/UI_Widgets/dxPopup/')

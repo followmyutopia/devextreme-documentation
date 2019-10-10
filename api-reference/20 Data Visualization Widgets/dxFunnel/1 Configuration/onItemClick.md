@@ -6,7 +6,7 @@ EventForAction: dxFunnel.itemClick
 ---
 ---
 ##### shortDescription
-A function that is executed when a [funnel item](/Documentation/Guide/Widgets/Funnel/Funnel_Items/Overview/) is clicked or tapped.
+A function that is executed when a [funnel item](/concepts/05%20Widgets/Funnel/14%20Funnel%20Items/00%20Overview.md '/Documentation/Guide/Widgets/Funnel/Funnel_Items/Overview/') is clicked or tapped.
 
 ##### param(e): Object
 Information about the event.
@@ -21,7 +21,7 @@ The widget's instance.
 #include common-ref-eventparam
 
 ##### field(e.item): dxFunnelItem
-The [Item](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/) object.
+The [Item](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/6%20Item/Item.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/') object.
 
 ##### field(e.jQueryEvent).deprecated
 Use 'event' instead.
@@ -76,5 +76,5 @@ This function is often used to implement item selection as shown in the followin
 ---
 
 #####See Also#####
-- [selectionMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/#selectionMode)
-- [onSelectionChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/#onSelectionChanged)
+- [selectionMode](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/1%20Configuration/selectionMode.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/#selectionMode')
+- [onSelectionChanged](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/1%20Configuration/onSelectionChanged.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/#onSelectionChanged')

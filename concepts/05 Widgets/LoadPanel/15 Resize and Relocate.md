@@ -49,7 +49,7 @@ Specify the **height** and **width** options to change the **LoadPanel**'s size:
 
 ---
 
-The [container](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#container) option specifies the **LoadPanel**'s container. The container is shaded when the **LoadPanel** is visible; the **LoadPanel** inherits styles from the container and is scrolled with. To position the widget relative to a specific element, use the [position](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#position) option:
+The [container](/api-reference/10%20UI%20Widgets/dxLoadPanel/1%20Configuration/container.md '/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#container') option specifies the **LoadPanel**'s container. The container is shaded when the **LoadPanel** is visible; the **LoadPanel** inherits styles from the container and is scrolled with. To position the widget relative to a specific element, use the [position](/api-reference/10%20UI%20Widgets/dxLoadPanel/1%20Configuration/position.md '/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#position') option:
 
 ---
 ##### jQuery
@@ -107,7 +107,7 @@ The [container](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration
 This configuration of the **position** option reads as follows: "place **my** _left_ side **at** the _left_ **of** the *"#targetElement"*.
 
 #####See Also#####
-- [Customize the Appearance](/Documentation/Guide/Widgets/LoadPanel/Customize_the_Appearance/)
+- [Customize the Appearance](/concepts/05%20Widgets/LoadPanel/10%20Customize%20the%20Appearance/10%20Customize%20the%20Loading%20Indicator.md '/Documentation/Guide/Widgets/LoadPanel/Customize_the_Appearance/')
 - [LoadPanel Demos](/Demos/WidgetsGallery/#demo/dialogs_and_notifications-load_panel-overview)
 
 [tags]loadPanel, load panel, overlay, size, height, width, position

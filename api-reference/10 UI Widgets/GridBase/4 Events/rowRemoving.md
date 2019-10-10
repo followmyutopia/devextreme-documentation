@@ -29,7 +29,7 @@ The row's key.
 Model data. Available only if you use Knockout.
 
 ---
-Main article: [onRowRemoving]({basewidgetpath}/Configuration/#onRowRemoving)
+Main article: [onRowRemoving](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onRowRemoving.md '{basewidgetpath}/Configuration/#onRowRemoving')
 
 #####See Also#####
 #include common-link-handleevents

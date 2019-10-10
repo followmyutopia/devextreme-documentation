@@ -19,4 +19,4 @@ The widget's instance.
 #include common-ref-eventparam
 
 ---
-Main article: [onClick](/Documentation/ApiReference/UI_Widgets/dxSpeedDialAction/Configuration/#onClick)
+Main article: [onClick](/api-reference/10%20UI%20Widgets/dxSpeedDialAction/1%20Configuration/onClick.md '/Documentation/ApiReference/UI_Widgets/dxSpeedDialAction/Configuration/#onClick')

@@ -22,7 +22,7 @@ The modified option if it belongs to the first level. Otherwise, the first-level
 The modified option's new value.
 
 ---
-Main article: [onOptionChanged]({basewidgetpath}/Configuration/#onOptionChanged)
+Main article: [onOptionChanged](/api-reference/10%20UI%20Widgets/Component/1%20Configuration/onOptionChanged.md '{basewidgetpath}/Configuration/#onOptionChanged')
 
 #####See Also#####
 #include common-link-handleevents

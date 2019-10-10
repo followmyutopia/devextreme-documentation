@@ -35,7 +35,7 @@ Options passed to the function depend on this value.
 Indicates whether the editor is read-only.
 
 ##### field(options.row): dxDataGridRowObject
-The [properties](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/) of the row the editor belongs to.
+The [properties](/api-reference/10%20UI%20Widgets/dxDataGrid/6%20Row/Row.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/') of the row the editor belongs to.
 
 ##### field(options.rtlEnabled): Boolean
 Indicates whether the editor uses right-to-left representation.
@@ -53,7 +53,7 @@ The editor's value.
 The editor's width; equals **null** for all editors except for those whose **parentType** equals *"searchPanel"*.
 
 ---
-Main article: [onEditorPrepared](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onEditorPrepared)
+Main article: [onEditorPrepared](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/onEditorPrepared.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onEditorPrepared')
 
 #####See Also#####
 #include common-link-handleevents

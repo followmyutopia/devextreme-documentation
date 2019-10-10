@@ -12,4 +12,4 @@ Configures grouping.
 }
 
 #####See Also#####
-- [Grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/)
+- [Grouping](/concepts/05%20Widgets/DataGrid/45%20Grouping/Grouping.md '/Documentation/Guide/Widgets/DataGrid/Grouping/')

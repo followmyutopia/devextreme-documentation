@@ -82,6 +82,6 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 #####See Also#####
 #include common-link-callmethods
 - [TileView Demos](/Demos/WidgetsGallery/#demo/navigation-tile_view-overview)
-- [TileView API Reference](/Documentation/ApiReference/UI_Widgets/dxTileView/)
+- [TileView API Reference](/api-reference/10%20UI%20Widgets/dxTileView/dxTileView.md '/Documentation/ApiReference/UI_Widgets/dxTileView/')
 
 [tags]tile view, tileView, accessibility, keyboard shortcuts

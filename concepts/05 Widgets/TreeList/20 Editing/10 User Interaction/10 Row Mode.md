@@ -1,4 +1,4 @@
-In this mode a user edits data row by row. When a user clicks an *"Edit"* button, the corresponding row enters the editing state, and the *"Save"* and *"Cancel"* buttons appear in the [editing column](/Documentation/Guide/Widgets/TreeList/Columns/Column_Types/Command_Columns/). The widget saves changes only if the *"Save"* button is clicked. If a user starts editing another row, sorts or filters data, it discards the changes.
+In this mode a user edits data row by row. When a user clicks an *"Edit"* button, the corresponding row enters the editing state, and the *"Save"* and *"Cancel"* buttons appear in the [editing column](/concepts/05%20Widgets/TreeList/10%20Columns/10%20Column%20Types/4%20Command%20Columns/00%20Command%20Columns.md '/Documentation/Guide/Widgets/TreeList/Columns/Column_Types/Command_Columns/'). The widget saves changes only if the *"Save"* button is clicked. If a user starts editing another row, sorts or filters data, it discards the changes.
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Editing Row Mode Editing State](/Content/images/doc/19_2/treelist/editing/row_mode_editing_state.png)
 
@@ -52,4 +52,4 @@ Clicking a *"Delete"* button invokes the confirmation dialog that allows a user 
 }
 
 #####See Also#####
-- [Data Validation](/Documentation/Guide/Widgets/TreeList/Editing/#Data_Validation)
+- [Data Validation](/concepts/05%20Widgets/TreeList/20%20Editing/50%20Data%20Validation.md '/Documentation/Guide/Widgets/TreeList/Editing/#Data_Validation')

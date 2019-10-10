@@ -18,4 +18,4 @@ The following styles are available:
     values: "`Outlined`, `Underlined`, and `Filled`"
 }
 
-You can also use the global [editorStylingMode](/Documentation/ApiReference/Common/Object_Structures/globalConfig/#editorStylingMode) setting to specify how the text fields of all editors in your application are styled.
+You can also use the global [editorStylingMode](/api-reference/50%20Common/Object%20Structures/globalConfig/editorStylingMode.md '/Documentation/ApiReference/Common/Object_Structures/globalConfig/#editorStylingMode') setting to specify how the text fields of all editors in your application are styled.

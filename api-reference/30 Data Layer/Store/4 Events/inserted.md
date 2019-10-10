@@ -13,4 +13,4 @@ The added data item.
 The item's key.
 
 ---
-Main article: [onInserted]({basewidgetpath}/Configuration/#onInserted)
+Main article: [onInserted](/api-reference/30%20Data%20Layer/Store/1%20Configuration/onInserted.md '{basewidgetpath}/Configuration/#onInserted')

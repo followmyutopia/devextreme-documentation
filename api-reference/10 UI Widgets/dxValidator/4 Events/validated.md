@@ -16,10 +16,10 @@ The object representing the first broken rule in the list of the specified valid
 <!-- Description goes here -->
 
 ##### field(validatedInfo.isValid): Boolean
-Indicates whether all the [rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#validationRules) checked for the value are satisfied.
+Indicates whether all the [rules](/api-reference/10%20UI%20Widgets/dxValidator/1%20Configuration/validationRules.md '/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#validationRules') checked for the value are satisfied.
 
 ##### field(validatedInfo.name): String
-The value of the [name](/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#name) option.
+The value of the [name](/api-reference/10%20UI%20Widgets/dxValidator/1%20Configuration/name.md '/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#name') option.
 
 ##### field(validatedInfo.status): 'valid' | 'invalid' | 'pending'
 <!-- Description goes here -->

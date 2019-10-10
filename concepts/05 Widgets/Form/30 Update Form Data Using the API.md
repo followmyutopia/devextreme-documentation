@@ -1,4 +1,4 @@
-If you need to update form data at runtime, redefine the [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData) object. In this case, form item values are updated automatically and the widget is rerendered from scratch. In the following example, the [SelectBox](/Documentation/Guide/Widgets/SelectBox/Overview/) widget changes the **formData** object.
+If you need to update form data at runtime, redefine the [formData](/api-reference/10%20UI%20Widgets/dxForm/1%20Configuration/formData.md '/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData') object. In this case, form item values are updated automatically and the widget is rerendered from scratch. In the following example, the [SelectBox](/concepts/05%20Widgets/SelectBox/00%20Overview.md '/Documentation/Guide/Widgets/SelectBox/Overview/') widget changes the **formData** object.
 
     <!--JavaScript-->
     var employees = [{
@@ -30,7 +30,7 @@ If you need to update form data at runtime, redefine the [formData](/Documentati
     url: "/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-overview/"
 }
 
-The **Form** widget provides methods that update specific **formData** fields and rerender the corresponding editors without rerendering the whole widget. The [updateData(dataField, value)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#updateDatadataField_value) method updates the value of a single field. The [updateData(data)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#updateDatadata) method updates values of several fields at once. In the following code, these methods are called on a [Button](/Documentation/Guide/Widgets/Button/Overview/) click.
+The **Form** widget provides methods that update specific **formData** fields and rerender the corresponding editors without rerendering the whole widget. The [updateData(dataField, value)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#updateDatadataField_value) method updates the value of a single field. The [updateData(data)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#updateDatadata) method updates values of several fields at once. In the following code, these methods are called on a [Button](/concepts/05%20Widgets/Button/00%20Overview.md '/Documentation/Guide/Widgets/Button/Overview/') click.
 
     <!--JavaScript-->
     $(function() {
@@ -60,7 +60,7 @@ The **Form** widget provides methods that update specific **formData** fields an
         });
     });
 
-With Angular, two-way binding to a component property is sufficient to update [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData) at runtime. Swapping the whole **formData** object rerenders the widget from scratch; updating specific **formData** fields rerenders only the corresponding editors.
+With Angular, two-way binding to a component property is sufficient to update [formData](/api-reference/10%20UI%20Widgets/dxForm/1%20Configuration/formData.md '/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData') at runtime. Swapping the whole **formData** object rerenders the widget from scratch; updating specific **formData** fields rerenders only the corresponding editors.
 
     <!--HTML-->
     <dx-form [(formData)]="employee"></dx-form>
@@ -89,10 +89,10 @@ With Angular, two-way binding to a component property is sufficient to update [f
     })
 
 #####See Also#####
-- [Form - Handle the Value Change Event](/Documentation/Guide/Widgets/Form/Handle_the_Value_Change_Event/)
-- [Form - Generate a Data Object from Form Items](/Documentation/Guide/Widgets/Form/Generate_a_Data_Object_from_Form_Items/)
-- [Form - Validate and Submit the Form](/Documentation/Guide/Widgets/Form/Validate_and_Submit_the_Form/)
+- [Form - Handle the Value Change Event](/concepts/05%20Widgets/Form/25%20Handle%20the%20Value%20Change%20Event.md '/Documentation/Guide/Widgets/Form/Handle_the_Value_Change_Event/')
+- [Form - Generate a Data Object from Form Items](/concepts/05%20Widgets/Form/35%20Generate%20a%20Data%20Object%20from%20Form%20Items.md '/Documentation/Guide/Widgets/Form/Generate_a_Data_Object_from_Form_Items/')
+- [Form - Validate and Submit the Form](/concepts/05%20Widgets/Form/40%20Validate%20and%20Submit%20the%20Form.md '/Documentation/Guide/Widgets/Form/Validate_and_Submit_the_Form/')
 - [Form Demos](/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-overview)
-- [Form API Reference](/Documentation/ApiReference/UI_Widgets/dxForm/)
+- [Form API Reference](/api-reference/10%20UI%20Widgets/dxForm/dxForm.md '/Documentation/ApiReference/UI_Widgets/dxForm/')
 
 [tags]form, form data, formData, change form data, update data, update form data

@@ -2,7 +2,7 @@ Exposes the **Scheduler** widget.
 
 Exports:
 
-- *default* - The [Scheduler](/Documentation/ApiReference/UI_Widgets/dxScheduler/) widget
+- *default* - The [Scheduler](/api-reference/10%20UI%20Widgets/dxScheduler/dxScheduler.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/') widget
 
         require("ui/scheduler");
         // ===== or =====

@@ -9,7 +9,7 @@ firedEvents: optionChanged
 Specifies values selected in the column's [header filter](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Header_Filter).
 
 ---
-If the **headerFilter**.[groupInterval]({basewidgetpath}/Configuration/columns/headerFilter/#groupInterval) option is set, each value in the **filterValues** array specifies the beginning of an interval instead of an exact value:
+If the **headerFilter**.[groupInterval](/api-reference/_hidden/GridBaseColumn/headerFilter/groupInterval.md '{basewidgetpath}/Configuration/columns/headerFilter/#groupInterval') option is set, each value in the **filterValues** array specifies the beginning of an interval instead of an exact value:
 
 ---
 #####jQuery

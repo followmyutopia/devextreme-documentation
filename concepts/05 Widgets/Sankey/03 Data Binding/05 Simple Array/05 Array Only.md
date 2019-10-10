@@ -1,4 +1,4 @@
-To bind the **Sankey** to an array, pass this array to the [dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#dataSource) option. The array should contain objects with the `source`, `target`, and `weight` fields (default names). You can use the [sourceField](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#sourceField), [targetField](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#targetField), and [weightField](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#weightField) options to specify other names:
+To bind the **Sankey** to an array, pass this array to the [dataSource](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/dataSource.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#dataSource') option. The array should contain objects with the `source`, `target`, and `weight` fields (default names). You can use the [sourceField](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/sourceField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#sourceField'), [targetField](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/targetField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#targetField'), and [weightField](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/weightField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#weightField') options to specify other names:
 
 ---
 ##### jQuery
@@ -54,7 +54,7 @@ To bind the **Sankey** to an array, pass this array to the [dataSource](/Documen
 
 ---
 
-You can create a [Query](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept) if objects in the array should be processed (sorted, filtered, and so on). For example, in the following code, a Query filters the `sankeyData` array to exclude objects whose `weight` is less than 3:
+You can create a [Query](/concepts/30%20Data%20Layer/5%20Data%20Layer/6%20Query%20Concept.md '/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept') if objects in the array should be processed (sorted, filtered, and so on). For example, in the following code, a Query filters the `sankeyData` array to exclude objects whose `weight` is less than 3:
 
 ---
 ##### jQuery
@@ -114,4 +114,4 @@ You can create a [Query](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Conce
 }
 
 #####See Also#####
-- [Update Data in the Sankey](/Documentation/Guide/Widgets/Sankey/Data_Binding/Update_Data/)
+- [Update Data in the Sankey](/concepts/05%20Widgets/Sankey/03%20Data%20Binding/26%20Update%20Data/Update%20Data.md '/Documentation/Guide/Widgets/Sankey/Data_Binding/Update_Data/')

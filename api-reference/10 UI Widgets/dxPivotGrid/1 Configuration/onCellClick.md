@@ -12,13 +12,13 @@ A function that is executed when a pivot grid cell is clicked or tapped.
 Information about the event.
 
 ##### field(e.area): String
-The [area](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area) to which the clicked cell belongs.
+The [area](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/area.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area') to which the clicked cell belongs.
 
 ##### field(e.cancel): Boolean
 Allows you to cancel field expansion.
 
 ##### field(e.cell): dxPivotGridPivotGridCell
-The cell [properties](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Pivot_Grid_Cell/).
+The cell [properties](/api-reference/10%20UI%20Widgets/dxPivotGrid/6%20Pivot%20Grid%20Cell/Pivot%20Grid%20Cell.md '/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Pivot_Grid_Cell/').
 
 ##### field(e.cellElement): dxElement
 #include common-ref-elementparam with { element: "cell" }

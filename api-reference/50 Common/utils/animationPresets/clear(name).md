@@ -9,4 +9,4 @@ Deletes an animation with a specific name.
 The animation's name.
 
 ---
-[note]If you need to have [predefined animations](/Documentation/ApiReference/Common/Utils/animationPresets/) in the repository and delete only custom animations, call the [resetToDefaults()](/Documentation/ApiReference/Common/utils/animationPresets/#resetToDefaults) method instead.
+[note]If you need to have [predefined animations](/api-reference/50%20Common/utils/animationPresets/animationPresets.md '/Documentation/ApiReference/Common/Utils/animationPresets/') in the repository and delete only custom animations, call the [resetToDefaults()](/Documentation/ApiReference/Common/utils/animationPresets/#resetToDefaults) method instead.

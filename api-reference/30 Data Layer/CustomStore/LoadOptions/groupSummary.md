@@ -4,7 +4,7 @@ type: Object
 ---
 ---
 ##### shortDescription
-A group summary expression. Used with the [group](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#group) setting.
+A group summary expression. Used with the [group](/api-reference/30%20Data%20Layer/CustomStore/LoadOptions/group.md '/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#group') setting.
 
 ---
 Contains group summary definitions with the following structure, where **summaryType** can be *"sum"*, *"avg"*, *"min"*, *"max"* or *"count"*:

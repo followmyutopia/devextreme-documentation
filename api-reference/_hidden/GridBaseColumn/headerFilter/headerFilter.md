@@ -9,4 +9,4 @@ Specifies data settings for the header filter.
 
 ---
 #####See Also#####
-- [headerFilter]({basewidgetpath}/Configuration/headerFilter/)
+- [headerFilter](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/headerFilter/headerFilter.md '{basewidgetpath}/Configuration/headerFilter/')

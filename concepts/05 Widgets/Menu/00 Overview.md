@@ -100,9 +100,9 @@ The following code adds the **Menu** widget to your page. Note that the data sou
 
 #####See Also#####
 #include common-link-configurewidget
-- [Menu - Access the Clicked Item](/Documentation/Guide/Widgets/Menu/Access_the_Clicked_Item/)
-- [Menu - Customize Item Appearance](/Documentation/Guide/Widgets/Menu/Customize_Item_Appearance)
-- [Menu - Change the Orientation](/Documentation/Guide/Widgets/Menu/Change_the_Orientation)
-- [Menu API Reference](/Documentation/ApiReference/UI_Widgets/dxMenu/)
+- [Menu - Access the Clicked Item](/concepts/05%20Widgets/Menu/03%20Access%20the%20Clicked%20Item.md '/Documentation/Guide/Widgets/Menu/Access_the_Clicked_Item/')
+- [Menu - Customize Item Appearance](/concepts/05%20Widgets/Menu/05%20Customize%20Item%20Appearance.md '/Documentation/Guide/Widgets/Menu/Customize_Item_Appearance')
+- [Menu - Change the Orientation](/concepts/05%20Widgets/Menu/10%20Change%20the%20Orientation.md '/Documentation/Guide/Widgets/Menu/Change_the_Orientation')
+- [Menu API Reference](/api-reference/10%20UI%20Widgets/dxMenu/dxMenu.md '/Documentation/ApiReference/UI_Widgets/dxMenu/')
 
 [tags]menu, navigation, collection container, collection widget, overview

@@ -8,7 +8,7 @@ type: String
 Specifies which editor widget is used to display and edit the form item value.
 
 ---
-[note]If you use [DevExtreme modules](/Documentation/Guide/Common/Modularity/), import the editor's module when specifying this option. You can omit modules for the "dxTextBox", "dxDateBox", "dxCheckBox" and "dxNumberBox" because the **Form** widget imports them automatically when creating form items. 
+[note]If you use [DevExtreme modules](/concepts/Common/30%20Modularity/01%20Link%20Modules/Link%20Modules.md '/Documentation/Guide/Common/Modularity/'), import the editor's module when specifying this option. You can omit modules for the "dxTextBox", "dxDateBox", "dxCheckBox" and "dxNumberBox" because the **Form** widget imports them automatically when creating form items. 
 
 When using an <a href="https://docs.devexpress.com/DevExtremeAspNetMvc/400943/devextreme-aspnet-mvc-controls" target="_blank">ASP.NET MVC 5 Controls</a> or <a href="https://docs.devexpress.com/AspNetCore/400263/aspnet-core-controls#devextreme-based-aspnet-core-controls" target="_blank">DevExtreme-Based ASP.NET Core Controls</a>, configure the editor as follows:
 
@@ -44,4 +44,4 @@ When using an <a href="https://docs.devexpress.com/DevExtremeAspNetMvc/400943/de
 }
 
 #####See Also#####
-- [Configure Simple Items](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/)
+- [Configure Simple Items](/concepts/05%20Widgets/Form/05%20Configure%20Simple%20Items/Configure%20Simple%20Items.md '/Documentation/Guide/Widgets/Form/Configure_Simple_Items/')

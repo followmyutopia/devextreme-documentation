@@ -3,7 +3,7 @@ id: PivotGridDataSource.filter()
 ---
 ---
 ##### shortDescription
-Gets the [filter](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/#filter) option's value. Does not affect an [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/).
+Gets the [filter](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/filter.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/#filter') option's value. Does not affect an [XmlaStore](/api-reference/30%20Data%20Layer/XmlaStore/XmlaStore.md '/Documentation/ApiReference/Data_Layer/XmlaStore/').
 
 ##### return: Object
 A filter expression.
@@ -80,4 +80,4 @@ A filter expression.
 ---
 
 #####See Also#####
-- [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering)
+- [Filtering](/concepts/30%20Data%20Layer/5%20Data%20Layer/2%20Reading%20Data/15%20Filtering/Filtering.md '/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering')

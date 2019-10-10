@@ -86,6 +86,6 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 #####See Also#####
 #include common-link-callmethods
 - [Accordion Demos](/Demos/WidgetsGallery/#demo/navigation-accordion-overview)
-- [Accordion API Reference](/Documentation/ApiReference/UI_Widgets/dxAccordion/)
+- [Accordion API Reference](/api-reference/10%20UI%20Widgets/dxAccordion/dxAccordion.md '/Documentation/ApiReference/UI_Widgets/dxAccordion/')
 
 [tags]accordion, accessibility, keyboard shortcuts

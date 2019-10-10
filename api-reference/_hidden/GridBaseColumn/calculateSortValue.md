@@ -13,7 +13,7 @@ The data of the row to which the cell belongs.
 The value to be used in sorting.
 
 ---
-This option accepts the name of the [data source field]({basewidgetpath}/Configuration/#dataSource) that provides values to be used in sorting...
+This option accepts the name of the [data source field](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/dataSource.md '{basewidgetpath}/Configuration/#dataSource') that provides values to be used in sorting...
 
 ---
 ##### jQuery
@@ -112,9 +112,9 @@ Please review the following notes about the **calculateSortValue** option.
 
 - The `this` keyword refers to the column's configuration.
 
-- When the **DataGrid** is [grouped](/Documentation/Guide/Widgets/DataGrid/Grouping/) by the column, this option is ignored. Use the [calculateGroupValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateGroupValue) option instead or additionally.
+- When the **DataGrid** is [grouped](/concepts/05%20Widgets/DataGrid/45%20Grouping/Grouping.md '/Documentation/Guide/Widgets/DataGrid/Grouping/') by the column, this option is ignored. Use the [calculateGroupValue](/api-reference/_hidden/dxDataGridColumn/calculateGroupValue.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateGroupValue') option instead or additionally.
 
 [/note]
 
 #####See Also#####
-- [sortingMethod]({basewidgetpath}/Configuration/columns/#sortingMethod)
+- [sortingMethod](/api-reference/_hidden/GridBaseColumn/sortingMethod.md '{basewidgetpath}/Configuration/columns/#sortingMethod')

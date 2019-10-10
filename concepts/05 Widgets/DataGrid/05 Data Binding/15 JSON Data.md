@@ -1,4 +1,4 @@
-To bind the **DataGrid** to data in the JSON format, assign the data's URL to the [dataSource](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource) option.  
+To bind the **DataGrid** to data in the JSON format, assign the data's URL to the [dataSource](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/dataSource.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource') option.  
 
 ---
 
@@ -72,7 +72,7 @@ Note that you can also use a JSONP callback parameter supported by <a href="http
 
 ---
 
-If you need to specify request headers or process response data, use the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/) - a flexible instrument that allows you to configure data access manually. Implement its [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the code below to add custom headers to the request. Note that you can specify **CustomStore** members directly in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) object instead of declaring them explicitly.
+If you need to specify request headers or process response data, use the [CustomStore](/api-reference/30%20Data%20Layer/CustomStore/CustomStore.md '/Documentation/ApiReference/Data_Layer/CustomStore/') - a flexible instrument that allows you to configure data access manually. Implement its [load](/api-reference/30%20Data%20Layer/CustomStore/1%20Configuration/load.md '/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load') function as shown in the code below to add custom headers to the request. Note that you can specify **CustomStore** members directly in the [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/') object instead of declaring them explicitly.
 
 ---
 #####jQuery
@@ -144,10 +144,10 @@ If you need to specify request headers or process response data, use the [Custom
 
 ---
 
-The **CustomStore** requires thorough configuration if data is processed on the server. See the [Custom Sources](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Custom_Sources/) topic for more details.
+The **CustomStore** requires thorough configuration if data is processed on the server. See the [Custom Sources](/concepts/05%20Widgets/DataGrid/05%20Data%20Binding/25%20Custom%20Sources/Custom%20Sources.md '/Documentation/Guide/Widgets/DataGrid/Data_Binding/Custom_Sources/') topic for more details.
 
 #####See Also#####
-- [Access the DataSource](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Access_the_DataSource/)
+- [Access the DataSource](/concepts/05%20Widgets/DataGrid/05%20Data%20Binding/30%20Access%20the%20DataSource.md '/Documentation/Guide/Widgets/DataGrid/Data_Binding/Access_the_DataSource/')
 - [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/AjaxRequest/Angular/Light/)
 
 [tags]dataGrid, data grid, data binding, json, jsonp, callback parameter

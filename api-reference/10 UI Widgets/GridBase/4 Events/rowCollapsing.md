@@ -25,7 +25,7 @@ The key of the row.
 Model data. Available only if you use Knockout.
 
 ---
-Main article: [onRowCollapsing]({basewidgetpath}/Configuration/#onRowCollapsing)
+Main article: [onRowCollapsing](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onRowCollapsing.md '{basewidgetpath}/Configuration/#onRowCollapsing')
 
 #####See Also#####
 #include common-link-handleevents

@@ -13,4 +13,4 @@ Specifies whether the data processing operations (filtering, grouping, summary c
 }
 
 #####See Also#####
-- [Configure the CustomStore for Local and Remote Operations](/Documentation/Guide/Widgets/PivotGrid/Use_CustomStore/)
+- [Configure the CustomStore for Local and Remote Operations](/concepts/05%20Widgets/PivotGrid/035%20Use%20CustomStore/Use%20CustomStore.md '/Documentation/Guide/Widgets/PivotGrid/Use_CustomStore/')

@@ -2,7 +2,7 @@ In the cell mode, a user edits data cell by cell. Changes are saved once a cell 
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid Editing Cell Mode](/Content/images/doc/19_2/DataGrid/editing/cell_mode.png)
 
-If you [validate data](/Documentation/Guide/Widgets/DataGrid/Editing/#Data_Validation), a cell is locked in the editing state until a user enters a valid value or clicks the *"Cancel Changes"* button.
+If you [validate data](/concepts/05%20Widgets/DataGrid/20%20Editing/50%20Data%20Validation.md '/Documentation/Guide/Widgets/DataGrid/Editing/#Data_Validation'), a cell is locked in the editing state until a user enters a valid value or clicks the *"Cancel Changes"* button.
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid Editing Cell Mode Validation](/Content/images/doc/19_2/DataGrid/editing/cell_mode_validation.png)
 
@@ -55,4 +55,4 @@ Clicking a *"Delete"* button invokes the confirmation dialog that allows a user 
 }
 
 #####See Also#####
-- [Data Validation](/Documentation/Guide/Widgets/DataGrid/Editing/#Data_Validation)
+- [Data Validation](/concepts/05%20Widgets/DataGrid/20%20Editing/50%20Data%20Validation.md '/Documentation/Guide/Widgets/DataGrid/Editing/#Data_Validation')

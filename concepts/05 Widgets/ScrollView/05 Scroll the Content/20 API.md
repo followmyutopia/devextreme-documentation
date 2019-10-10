@@ -21,7 +21,7 @@ To scroll the **ScrollView** content by a specified distance, call the [scrollBy
         });
     });
 
-To scroll the content both vertically and horizontally, call the [scrollBy(distanceObj)](/Documentation/ApiReference/UI_Widgets/dxScrollView/Methods/#scrollBydistanceObject) method with an object as an argument. The format of the object is the following: { left: *value1*, top: *value2* }. Note that in this case, the [direction](/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#direction) option must be set to *"both"*
+To scroll the content both vertically and horizontally, call the [scrollBy(distanceObj)](/Documentation/ApiReference/UI_Widgets/dxScrollView/Methods/#scrollBydistanceObject) method with an object as an argument. The format of the object is the following: { left: *value1*, top: *value2* }. Note that in this case, the [direction](/api-reference/10%20UI%20Widgets/dxScrollable/1%20Configuration/direction.md '/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#direction') option must be set to *"both"*
 
     <!--JavaScript-->
     $(function() {
@@ -39,7 +39,7 @@ To scroll the content both vertically and horizontally, call the [scrollBy(dista
         });
     });
 
-To scroll the content to a specific position, call the [scrollTo(targetLocation)](/Documentation/ApiReference/UI_Widgets/dxScrollView/Methods/#scrollTotargetLocation) method. Just like the **scrollBy()** method from the previous examples, the **scrollTo()** method accepts either a numeric value (when [directon](/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#direction) is *"left"* or *"right"*) or an object (when **direction** is *"both"*). The object should have the following format: { left: *value1*, top: *value2* }. Note that the top left corner of the **ScrollView** has the { left: 0, top: 0 } coordinates.
+To scroll the content to a specific position, call the [scrollTo(targetLocation)](/Documentation/ApiReference/UI_Widgets/dxScrollView/Methods/#scrollTotargetLocation) method. Just like the **scrollBy()** method from the previous examples, the **scrollTo()** method accepts either a numeric value (when [directon](/api-reference/10%20UI%20Widgets/dxScrollable/1%20Configuration/direction.md '/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#direction') is *"left"* or *"right"*) or an object (when **direction** is *"both"*). The object should have the following format: { left: *value1*, top: *value2* }. Note that the top left corner of the **ScrollView** has the { left: 0, top: 0 } coordinates.
 
     <!--JavaScript-->
     $(function() {
@@ -85,6 +85,6 @@ To scroll the content to a specific element, call the [scrollToElement(targetLoc
 To get the current scroll position against the top left corner, call the [scrollOffset()](/Documentation/ApiReference/UI_Widgets/dxScrollView/Methods/#scrollOffset) method. It returns an object of the following format: { top: *topScrollOffset*, left: *leftScrollOffset* }. If you need to get only the top or left scroll offset, use the [scrollTop()](/Documentation/ApiReference/UI_Widgets/dxScrollView/Methods/#scrollTop) and [scrollLeft()](/Documentation/ApiReference/UI_Widgets/dxScrollView/Methods/#scrollLeft) methods, respectively.
 
 #####See Also#####
-- [ScrollView - Handle Scroll Gestures](/Documentation/Guide/Widgets/ScrollView/Handle_Scroll_Gestures/)
+- [ScrollView - Handle Scroll Gestures](/concepts/05%20Widgets/ScrollView/10%20Handle%20Scroll%20Gestures.md '/Documentation/Guide/Widgets/ScrollView/Handle_Scroll_Gestures/')
 - [ScrollView Demos](/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-scrollview-overview)
-- [ScrollView API Reference](/Documentation/ApiReference/UI_Widgets/dxScrollView/)
+- [ScrollView API Reference](/api-reference/10%20UI%20Widgets/dxScrollView/dxScrollView.md '/Documentation/ApiReference/UI_Widgets/dxScrollView/')

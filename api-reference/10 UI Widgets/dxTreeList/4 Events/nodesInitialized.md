@@ -22,7 +22,7 @@ Model data. Available only if you use Knockout.
 The root node.
 
 ---
-Main article: [onNodesInitialized](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onNodesInitialized)
+Main article: [onNodesInitialized](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/onNodesInitialized.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onNodesInitialized')
 
 #####See Also#####
 #include common-link-handleevents

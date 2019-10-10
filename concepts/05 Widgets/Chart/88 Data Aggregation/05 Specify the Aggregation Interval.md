@@ -1,7 +1,7 @@
 Series points are grouped for aggregation using intervals: those points that fall within the same interval on the argument axis get aggregated together. You can specify the length of the intervals in axis units (numbers or dates) or in pixels:
 
-- **Axis units** (for continuous and logarithmic [axes](/Documentation/Guide/Widgets/Chart/Axes/Overview/) only)       
-Use the **argumentAxis**.[aggregationInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/aggregationInterval/) option. 
+- **Axis units** (for continuous and logarithmic [axes](/concepts/05%20Widgets/Chart/20%20Axes/00%20Overview.md '/Documentation/Guide/Widgets/Chart/Axes/Overview/') only)       
+Use the **argumentAxis**.[aggregationInterval](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/aggregationInterval/aggregationInterval.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/aggregationInterval/') option. 
 
     ---
     ##### jQuery
@@ -49,7 +49,7 @@ Use the **argumentAxis**.[aggregationInterval](/Documentation/ApiReference/Data_
     ---
 
 - **Pixels**            
-Use the **argumentAxis**.[aggregationGroupWidth](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#aggregationGroupWidth) option.
+Use the **argumentAxis**.[aggregationGroupWidth](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/aggregationGroupWidth.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#aggregationGroupWidth') option.
 
     ---
     ##### jQuery

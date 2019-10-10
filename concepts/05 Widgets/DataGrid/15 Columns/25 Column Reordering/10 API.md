@@ -1,4 +1,4 @@
-The [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) array determines columns' order. You can reorder columns by moving their objects within the array or by changing the column's [visibleIndex](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#visibleIndex) if you prefer to configure columns using the [customizeColumns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#customizeColumns) function.
+The [columns](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/columns/columns.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/') array determines columns' order. You can reorder columns by moving their objects within the array or by changing the column's [visibleIndex](/api-reference/_hidden/GridBaseColumn/visibleIndex.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#visibleIndex') if you prefer to configure columns using the [customizeColumns](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/customizeColumns.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#customizeColumns') function.
 
 ---
 ##### jQuery
@@ -72,5 +72,5 @@ The **visibleIndex** option can also be changed at runtime to reorder columns re
 
 #####See Also#####
 #include common-link-callmethods
-- [Data Columns](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Data_Columns/)
+- [Data Columns](/concepts/05%20Widgets/DataGrid/15%20Columns/10%20Column%20Types/1%20Data%20Columns.md '/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Data_Columns/')
 - [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/ColumnCustomization/jQuery/Light/)

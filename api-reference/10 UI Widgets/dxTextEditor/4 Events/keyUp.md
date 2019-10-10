@@ -28,7 +28,7 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 Model data. Available only if Knockout is used.
 
 ---
-Main article: [onKeyUp]({basewidgetpath}/Configuration/#onKeyUp)
+Main article: [onKeyUp](/api-reference/10%20UI%20Widgets/dxTextEditor/1%20Configuration/onKeyUp.md '{basewidgetpath}/Configuration/#onKeyUp')
 
 #####See Also#####
 #include common-link-handleevents

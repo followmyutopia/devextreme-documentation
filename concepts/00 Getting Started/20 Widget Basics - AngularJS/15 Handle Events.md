@@ -24,6 +24,6 @@ You can subscribe to an event using a configuration option. All event handling o
 }
 
 #####See Also#####
-- **API Reference**.**WidgetName**.**Events**, for example, **API Reference**.[Menu](/Documentation/ApiReference/UI_Widgets/dxMenu/).[Events](/Documentation/ApiReference/UI_Widgets/dxMenu/Events/)
+- **API Reference**.**WidgetName**.**Events**, for example, **API Reference**.[Menu](/api-reference/10%20UI%20Widgets/dxMenu/dxMenu.md '/Documentation/ApiReference/UI_Widgets/dxMenu/').[Events](/api-reference/10%20UI%20Widgets/dxMenu/4%20Events/Events.md '/Documentation/ApiReference/UI_Widgets/dxMenu/Events/')
 
 [tags]basics, angularjs, handle events, subscribe

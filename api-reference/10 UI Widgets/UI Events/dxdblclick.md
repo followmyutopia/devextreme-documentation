@@ -12,4 +12,4 @@ Raised when a user has performed a double click on the element.
 
 ---
 #####See Also#####
-- [UI Events - Introduction](/Documentation/ApiReference/UI_Widgets/UI_Events/)
+- [UI Events - Introduction](/api-reference/10%20UI%20Widgets/UI%20Events/UI%20Events.md '/Documentation/ApiReference/UI_Widgets/UI_Events/')

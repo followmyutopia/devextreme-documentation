@@ -17,4 +17,4 @@ The list of supported timezones is available in the <a href="https://en.wikipedi
 }
 
 #####See Also#####
-- [Time Zone Support](/Documentation/Guide/Widgets/Scheduler/Time_Zone_Support/)
+- [Time Zone Support](/concepts/05%20Widgets/Scheduler/077%20Time%20Zone%20Support.md '/Documentation/Guide/Widgets/Scheduler/Time_Zone_Support/')

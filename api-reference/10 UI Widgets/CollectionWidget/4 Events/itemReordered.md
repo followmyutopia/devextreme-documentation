@@ -35,7 +35,7 @@ Model data. Available only if you use Knockout.
 The item's current index.
 
 ---
-Main article: [onItemReordered]({basewidgetpath}/Configuration/#onItemReordered)
+Main article: [onItemReordered](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/onItemReordered.md '{basewidgetpath}/Configuration/#onItemReordered')
 
 #####See Also#####
 #include common-link-handleevents

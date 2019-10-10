@@ -31,7 +31,7 @@ Model data. Available only if you use Knockout.
 The validation group to which the button is related.
 
 ---
-Main article: [onClick](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#onClick)
+Main article: [onClick](/api-reference/10%20UI%20Widgets/dxButton/1%20Configuration/onClick.md '/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#onClick')
 
 #####See Also#####
 #include common-link-handleevents

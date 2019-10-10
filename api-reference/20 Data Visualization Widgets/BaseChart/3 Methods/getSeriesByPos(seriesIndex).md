@@ -6,7 +6,7 @@ id: BaseChart.getSeriesByPos(seriesIndex)
 Gets a series with a specific index.
 
 ##### return: chartSeriesObject
-The [Series]({basewidgetpath}/Chart_Elements/Series/) object.
+The [Series](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Series/Series.md '{basewidgetpath}/Chart_Elements/Series/') object.
 
 ##### param(seriesIndex): Number
 The series' index.

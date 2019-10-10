@@ -8,7 +8,7 @@ export: default
 Repaints the [Floating Action Button](/Demos/WidgetsGallery/Demo/FloatingActionButton/Overview/jQuery/Light/).
 
 ---
-Call this method to repaint the Floating Action Button after you change the **globalConfig**.[floatingActionButtonConfig](/Documentation/ApiReference/Common/Object_Structures/globalConfig/floatingActionButtonConfig/) at runtime:
+Call this method to repaint the Floating Action Button after you change the **globalConfig**.[floatingActionButtonConfig](/api-reference/50%20Common/Object%20Structures/globalConfig/floatingActionButtonConfig/floatingActionButtonConfig.md '/Documentation/ApiReference/Common/Object_Structures/globalConfig/floatingActionButtonConfig/') at runtime:
 
 ---
 ##### jQuery
@@ -94,4 +94,4 @@ Call this method to repaint the Floating Action Button after you change the **gl
 ---
 
 #####See Also#####
-- [SpeedDialAction](/Documentation/ApiReference/UI_Widgets/dxSpeedDialAction/)
+- [SpeedDialAction](/api-reference/10%20UI%20Widgets/dxSpeedDialAction/dxSpeedDialAction.md '/Documentation/ApiReference/UI_Widgets/dxSpeedDialAction/')

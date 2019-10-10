@@ -1,4 +1,4 @@
-The **Slider** can display labels for the [min](/Documentation/ApiReference/UI_Widgets/dxSlider/Configuration/#min) and [max](/Documentation/ApiReference/UI_Widgets/dxSlider/Configuration/#max) values. To configure the labels, use the [label](/Documentation/ApiReference/UI_Widgets/dxSlider/Configuration/label/) object.
+The **Slider** can display labels for the [min](/api-reference/10%20UI%20Widgets/dxTrackBar/1%20Configuration/min.md '/Documentation/ApiReference/UI_Widgets/dxSlider/Configuration/#min') and [max](/api-reference/10%20UI%20Widgets/dxTrackBar/1%20Configuration/max.md '/Documentation/ApiReference/UI_Widgets/dxSlider/Configuration/#max') values. To configure the labels, use the [label](/api-reference/10%20UI%20Widgets/dxSliderBase/1%20Configuration/label/label.md '/Documentation/ApiReference/UI_Widgets/dxSlider/Configuration/label/') object.
 
     <!--JavaScript-->
     $(function(){
@@ -14,7 +14,7 @@ The **Slider** can display labels for the [min](/Documentation/ApiReference/UI_W
         });
     });
 
-The **Slider** can also display a tooltip for the slider handle. To configure it, use the [tooltip](/Documentation/ApiReference/UI_Widgets/dxSlider/Configuration/tooltip/) object.
+The **Slider** can also display a tooltip for the slider handle. To configure it, use the [tooltip](/api-reference/10%20UI%20Widgets/dxSliderBase/1%20Configuration/tooltip/tooltip.md '/Documentation/ApiReference/UI_Widgets/dxSlider/Configuration/tooltip/') object.
 
     <!--JavaScript-->
     $(function(){
@@ -42,8 +42,8 @@ To specify whether or not the part of the scale from the beginning to the slider
     });
 
 #####See Also#####
-- [Slider - Handle the Value Change Event](/Documentation/Guide/Widgets/Slider/Handle_the_Value_Change_Event)
+- [Slider - Handle the Value Change Event](/concepts/05%20Widgets/Slider/10%20Handle%20the%20Value%20Change%20Event.md '/Documentation/Guide/Widgets/Slider/Handle_the_Value_Change_Event')
 - [Slider Demos](/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-slider-overview/ios7)
-- [Slider API Reference](/Documentation/ApiReference/UI_Widgets/dxSlider/)
+- [Slider API Reference](/api-reference/10%20UI%20Widgets/dxSlider/dxSlider.md '/Documentation/ApiReference/UI_Widgets/dxSlider/')
 
 [tags]slider, editor, label, tooltip, showRange

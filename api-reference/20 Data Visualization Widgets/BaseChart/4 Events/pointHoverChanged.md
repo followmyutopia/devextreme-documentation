@@ -16,12 +16,12 @@ The widget's instance.
 The widget's container.
 
 ##### field(e.target): basePointObject
-The series point whose hover state has been changed; described in the [Point]({basewidgetpath}/Chart_Elements/Point/) section.
+The series point whose hover state has been changed; described in the [Point](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Point/Point.md '{basewidgetpath}/Chart_Elements/Point/') section.
 
 ##### notUsedInTheme
 
 ---
-Main article: [onPointHoverChanged]({basewidgetpath}/Configuration/#onPointHoverChanged)
+Main article: [onPointHoverChanged](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/1%20Configuration/onPointHoverChanged.md '{basewidgetpath}/Configuration/#onPointHoverChanged')
 
 #####See Also#####
 #include common-link-handleevents

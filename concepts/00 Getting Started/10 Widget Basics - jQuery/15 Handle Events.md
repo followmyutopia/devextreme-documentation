@@ -33,7 +33,7 @@ You can subscribe to an event using a configuration option. All event handling o
         .on("itemClick", handler2);
 
 #####See Also#####
-- [Call Methods](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Call_Methods/)
+- [Call Methods](/concepts/00%20Getting%20Started/10%20Widget%20Basics%20-%20jQuery/10%20Call%20Methods.md '/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Call_Methods/')
 
 ###Unsubscribe from an Event###
 
@@ -58,6 +58,6 @@ If you subscribed to an event using an **on*EventName*** option, you can unsubsc
     menuInstance.option("onItemClick", undefined);
 
 #####See Also#####
-- **API Reference**.**WidgetName**.**Events**, for example, **API Reference**.[Menu](/Documentation/ApiReference/UI_Widgets/dxMenu/).[Events](/Documentation/ApiReference/UI_Widgets/dxMenu/Events/)
+- **API Reference**.**WidgetName**.**Events**, for example, **API Reference**.[Menu](/api-reference/10%20UI%20Widgets/dxMenu/dxMenu.md '/Documentation/ApiReference/UI_Widgets/dxMenu/').[Events](/api-reference/10%20UI%20Widgets/dxMenu/4%20Events/Events.md '/Documentation/ApiReference/UI_Widgets/dxMenu/Events/')
 
 [tags]basics, jquery, handle events, subscribe, unsubscribe, on, off

@@ -22,7 +22,7 @@ The key of the row.
 Model data. Available only if you use Knockout.
 
 ---
-Main article: [onRowExpanded]({basewidgetpath}/Configuration/#onRowExpanded)
+Main article: [onRowExpanded](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onRowExpanded.md '{basewidgetpath}/Configuration/#onRowExpanded')
 
 #####See Also#####
 #include common-link-handleevents

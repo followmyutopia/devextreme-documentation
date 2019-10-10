@@ -3,7 +3,7 @@ id: DevicesObject.current()
 ---
 ---
 ##### shortDescription
-Gets [information](/Documentation/ApiReference/Common/Object_Structures/device/) on the current device.
+Gets [information](/api-reference/50%20Common/Object%20Structures/device/device.md '/Documentation/ApiReference/Common/Object_Structures/device/') on the current device.
 
 ##### return: Device
 Information on the current device.

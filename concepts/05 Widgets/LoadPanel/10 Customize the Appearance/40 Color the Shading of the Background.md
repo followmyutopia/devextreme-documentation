@@ -1,4 +1,4 @@
-When the **LoadPanel** is shown, the area beneath it can be shaded. The shading color is specified by the [shadingColor](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#shadingColor) option.
+When the **LoadPanel** is shown, the area beneath it can be shaded. The shading color is specified by the [shadingColor](/api-reference/10%20UI%20Widgets/dxLoadPanel/1%20Configuration/shadingColor.md '/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#shadingColor') option.
 
 ---
 ##### jQuery
@@ -48,11 +48,11 @@ When the **LoadPanel** is shown, the area beneath it can be shaded. The shading 
 ---
 
 #####See Also#####
-- [LoadPanel - Customize the Loading Indicator](/Documentation/Guide/Widgets/LoadPanel/Customize_the_Appearance/Customize_the_Loading_Indicator/)
-- [LoadPanel - Change the Text](/Documentation/Guide/Widgets/LoadPanel/Customize_the_Appearance/Change_the_Text/)
-- [LoadPanel - Hide the Pane](/Documentation/Guide/Widgets/LoadPanel/Customize_the_Appearance/Hide_the_Pane/)
-- [LoadPanel - Resize and Relocate](/Documentation/Guide/Widgets/LoadPanel/Resize_and_Relocate/)
+- [LoadPanel - Customize the Loading Indicator](/concepts/05%20Widgets/LoadPanel/10%20Customize%20the%20Appearance/10%20Customize%20the%20Loading%20Indicator.md '/Documentation/Guide/Widgets/LoadPanel/Customize_the_Appearance/Customize_the_Loading_Indicator/')
+- [LoadPanel - Change the Text](/concepts/05%20Widgets/LoadPanel/10%20Customize%20the%20Appearance/20%20Change%20the%20Text.md '/Documentation/Guide/Widgets/LoadPanel/Customize_the_Appearance/Change_the_Text/')
+- [LoadPanel - Hide the Pane](/concepts/05%20Widgets/LoadPanel/10%20Customize%20the%20Appearance/30%20Hide%20the%20Pane.md '/Documentation/Guide/Widgets/LoadPanel/Customize_the_Appearance/Hide_the_Pane/')
+- [LoadPanel - Resize and Relocate](/concepts/05%20Widgets/LoadPanel/15%20Resize%20and%20Relocate.md '/Documentation/Guide/Widgets/LoadPanel/Resize_and_Relocate/')
 - [LoadPanel Demos](/Demos/WidgetsGallery/#demo/dialogs_and_notifications-load_panel-overview)
-- [LoadPanel API Reference](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/)
+- [LoadPanel API Reference](/api-reference/10%20UI%20Widgets/dxLoadPanel/dxLoadPanel.md '/Documentation/ApiReference/UI_Widgets/dxLoadPanel/')
 
 [tags]loadPanel, load panel, overlay, load panel shading, background, shading color

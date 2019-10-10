@@ -1,6 +1,6 @@
 If you are starting a project from scratch, use the <a href="https://github.com/DevExpress/devextreme-angular-template#devextreme-angular-template" target="_blank">DevExtreme Angular Template</a>. It is a simple application with a navigation menu and several sample views in a responsive layout.
 
-You can generate the application with the [DevExtreme CLI](/Documentation/Guide/Getting_Started/DevExtreme_CLI/):
+You can generate the application with the [DevExtreme CLI](/concepts/00%20Getting%20Started/50%20DevExtreme%20CLI/00%20DevExtreme%20CLI.md '/Documentation/Guide/Getting_Started/DevExtreme_CLI/'):
 
     npx -p devextreme-cli devextreme new angular-app app-name
     cd app-name
@@ -39,7 +39,7 @@ The application already contains the [DataGrid](/Demos/WidgetsGallery/Demo/DataG
         </dx-button>
         <!-- ... -->
 
-1. Declare callback functions, event handlers, and binding properties for DevExtreme components in the Angular component. In this example, we declare the [onClick](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#onClick) event handler in the `src/app/pages/home/home.component.ts` file:
+1. Declare callback functions, event handlers, and binding properties for DevExtreme components in the Angular component. In this example, we declare the [onClick](/api-reference/10%20UI%20Widgets/dxButton/1%20Configuration/onClick.md '/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#onClick') event handler in the `src/app/pages/home/home.component.ts` file:
 
         <!-- tab: home.component.ts -->
         // ...
@@ -53,6 +53,6 @@ If you go to the Home view in the browser, you should see the **Button**.
 
 The following resources provide more information about DevExtreme Angular components:
 
-- [Component Configuration Syntax](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/)
+- [Component Configuration Syntax](/concepts/40%20Angular%20Components/20%20Component%20Configuration%20Syntax/Component%20Configuration%20Syntax.md '/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/')
 - [Demos](/Demos/WidgetsGallery/Demo/DataGrid/Overview/Angular/Light/)
 - [API Reference](/Documentation/ApiReference/)

@@ -1,6 +1,6 @@
-All columns are configured in the [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) array. Assign a command column's name to the [type](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#type) option and specify the other column options.
+All columns are configured in the [columns](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/columns/columns.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/') array. Assign a command column's name to the [type](/api-reference/_hidden/dxDataGridColumn/type.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#type') option and specify the other column options.
 
-The following example shows how to specify the adaptive column's [width](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#width):
+The following example shows how to specify the adaptive column's [width](/api-reference/_hidden/GridBaseColumn/width.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#width'):
 
 ---
 ##### jQuery
@@ -103,7 +103,7 @@ The following example shows how to specify the adaptive column's [width](/Docume
     
 ---
 
-If a command column should have custom content, specify the column's [cellTemplate](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#cellTemplate) and [headerCellTemplate](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#headerCellTemplate):
+If a command column should have custom content, specify the column's [cellTemplate](/api-reference/_hidden/dxDataGridColumn/cellTemplate.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#cellTemplate') and [headerCellTemplate](/api-reference/_hidden/dxDataGridColumn/headerCellTemplate.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#headerCellTemplate'):
 
 ---
 ##### jQuery

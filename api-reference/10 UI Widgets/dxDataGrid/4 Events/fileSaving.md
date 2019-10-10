@@ -28,7 +28,7 @@ The name of the file to be saved.
 The format of this file. Equals *"EXCEL"* for an Excel file.
 
 ---
-Main article: [onFileSaving](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onFileSaving)
+Main article: [onFileSaving](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/onFileSaving.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onFileSaving')
 
 #####See Also#####
 #include common-link-handleevents

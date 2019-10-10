@@ -17,15 +17,15 @@ The UI element where the filter expression was set.
 Possible values: *"filterRow"*, *"headerFilter"*, *"filterBuilder", and *"search"*.
 
 ##### return: Filter expression
-A filter expression. If you are using [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/), it should not contain functions.
+A filter expression. If you are using [remoteOperations](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/remoteOperations/remoteOperations.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/'), it should not contain functions.
 
 ---
-This function must return a [filter expression](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering). The simplest filter expression has the following format:
+This function must return a [filter expression](/concepts/30%20Data%20Layer/5%20Data%20Layer/2%20Reading%20Data/15%20Filtering/Filtering.md '/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering'). The simplest filter expression has the following format:
 
     [selector, selectedFilterOperation, filterValue]
 
 - **selector**      
-A data source field or a function providing actual column values. Pass **this.calculateCellValue** if your column contains [calculated values]({basewidgetpath}/Configuration/columns/#calculateCellValue).
+A data source field or a function providing actual column values. Pass **this.calculateCellValue** if your column contains [calculated values](/api-reference/_hidden/GridBaseColumn/calculateCellValue.md '{basewidgetpath}/Configuration/columns/#calculateCellValue').
 - **selectedFilterOperation**       
 A comparison operator. One of the following: *"=", "<>", ">", ">=", "<", "<=", "between", "startswith", "endswith", "contains", "notcontains"*.    
 

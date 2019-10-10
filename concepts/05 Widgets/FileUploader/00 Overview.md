@@ -4,7 +4,7 @@ The **FileUploader** widget enables an end user to upload files to the server. A
     url: "/Demos/WidgetsGallery/#demo/actions_and_lists-file_uploader-file_selection"
 }
 
-The following code adds the **FileUploader** to your page. Use the [accept](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#accept) option to restrict the file types that can be uploaded to the server. This option is like the underlying `<input>` element's *"accept"* attribute and accepts the same values described <a href="http://www.w3schools.com/TAGs/att_input_accept.asp" target="_blank">here</a>.
+The following code adds the **FileUploader** to your page. Use the [accept](/api-reference/10%20UI%20Widgets/dxFileUploader/1%20Configuration/accept.md '/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#accept') option to restrict the file types that can be uploaded to the server. This option is like the underlying `<input>` element's *"accept"* attribute and accepts the same values described <a href="http://www.w3schools.com/TAGs/att_input_accept.asp" target="_blank">here</a>.
 
 ---
 #####jQuery
@@ -41,7 +41,7 @@ The following code adds the **FileUploader** to your page. Use the [accept](/Doc
 
 ---
 
-A user is allowed to upload only one file at a time by default. Set the [multiple](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#multiple) option to **true** to allow uploading several files at once.
+A user is allowed to upload only one file at a time by default. Set the [multiple](/api-reference/10%20UI%20Widgets/dxFileUploader/1%20Configuration/multiple.md '/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#multiple') option to **true** to allow uploading several files at once.
 
 ---
 #####jQuery
@@ -75,7 +75,7 @@ A user is allowed to upload only one file at a time by default. Set the [multipl
 
 ---
 
-If you need to access the selected files at runtime, get the value of the [value](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#value) option using the following command. It returns an array, whose members are each an instance implementing the <a href="https://developer.mozilla.org/en-US/docs/Web/API/File" target="_blank">File interface</a>.
+If you need to access the selected files at runtime, get the value of the [value](/api-reference/10%20UI%20Widgets/dxFileUploader/1%20Configuration/value.md '/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#value') option using the following command. It returns an array, whose members are each an instance implementing the <a href="https://developer.mozilla.org/en-US/docs/Web/API/File" target="_blank">File interface</a>.
 
     <!--JavaScript-->var files = $("#fileUploaderContainer").dxFileUploader("option", "value");
 
@@ -147,12 +147,12 @@ With Angular, AngularJS, or Knockout, use a different technique. Bind the **valu
 
 ---
 
-The **FileUploader** can operate in two different modes, each demanding a different client- and server-side configuration. See the [Client-Side Settings](/Documentation/Guide/Widgets/FileUploader/Upload_Files/Client-Side_Settings/) article for more details.
+The **FileUploader** can operate in two different modes, each demanding a different client- and server-side configuration. See the [Client-Side Settings](/concepts/05%20Widgets/FileUploader/20%20Upload%20Files/05%20Client-Side%20Settings/Client-Side%20Settings.md '/Documentation/Guide/Widgets/FileUploader/Upload_Files/Client-Side_Settings/') article for more details.
 
 #####See Also#####
 #include common-link-configurewidget
-- **Upload Files - Server Side**: [ASP.NET](/Documentation/Guide/Widgets/FileUploader/Upload_Files/Server-Side_Implementation_in_ASP.NET/) | [PHP](/Documentation/Guide/Widgets/FileUploader/Upload_Files/Server-Side_Implementation_in_PHP/)
-- [File Validation](/Documentation/Guide/Widgets/FileUploader/File_Validation/)
-- [FileUploader API Reference](/Documentation/ApiReference/UI_Widgets/dxFileUploader/)
+- **Upload Files - Server Side**: [ASP.NET](/concepts/05%20Widgets/FileUploader/20%20Upload%20Files/10%20Server-Side%20Implementation%20in%20ASP.NET/Server-Side%20Implementation%20in%20ASP.NET.md '/Documentation/Guide/Widgets/FileUploader/Upload_Files/Server-Side_Implementation_in_ASP.NET/') | [PHP](/concepts/05%20Widgets/FileUploader/20%20Upload%20Files/20%20Server-Side%20Implementation%20in%20PHP/Server-Side%20Implementation%20in%20PHP.md '/Documentation/Guide/Widgets/FileUploader/Upload_Files/Server-Side_Implementation_in_PHP/')
+- [File Validation](/concepts/05%20Widgets/FileUploader/40%20File%20Validation.md '/Documentation/Guide/Widgets/FileUploader/File_Validation/')
+- [FileUploader API Reference](/api-reference/10%20UI%20Widgets/dxFileUploader/dxFileUploader.md '/Documentation/ApiReference/UI_Widgets/dxFileUploader/')
 
 [tags]file uploader, fileUploader, overview, accepted file types, multiple files, access files in code

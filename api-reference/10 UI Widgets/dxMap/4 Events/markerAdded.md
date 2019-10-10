@@ -25,7 +25,7 @@ The added marker's data.
 The original marker that the current map provider uses (only for "google" and "bing" providers).
 
 ---
-Main article: [onMarkerAdded](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onMarkerAdded)
+Main article: [onMarkerAdded](/api-reference/10%20UI%20Widgets/dxMap/1%20Configuration/onMarkerAdded.md '/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onMarkerAdded')
 
 #####See Also#####
 #include common-link-handleevents

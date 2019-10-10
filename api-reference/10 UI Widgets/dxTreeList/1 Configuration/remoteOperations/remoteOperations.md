@@ -4,7 +4,7 @@ type: Object
 ---
 ---
 ##### shortDescription
-Notifies the **TreeList** of the server's data processing operations. Applies only if data has a [plain structure](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataStructure).
+Notifies the **TreeList** of the server's data processing operations. Applies only if data has a [plain structure](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/dataStructure.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataStructure').
 
 ---
 Server-side data processing improves the widget's performance on large datasets. When the server does not implement particular operations (and/or the corresponding **remoteOperations** fields are **false**) they are executed on the client. Note that the widget may send queries to the server while executing a client-side operation.
@@ -40,12 +40,12 @@ The following table lists the possible **remoteOperations** configurations and t
     <sup>*</sup> - If this functionality is used in the widget.<br />
 </div>
 
-[note] Filtering and sorting are performed on the server side for the [ODataStore](/Documentation/Guide/Widgets/TreeList/Data_Binding/OData_Service/), but you can change them to the client side by setting the corresponding **remoteOperations** fields to **false**. Other operations are always client-side.
+[note] Filtering and sorting are performed on the server side for the [ODataStore](/concepts/05%20Widgets/TreeList/05%20Data%20Binding/030%20OData%20Service.md '/Documentation/Guide/Widgets/TreeList/Data_Binding/OData_Service/'), but you can change them to the client side by setting the corresponding **remoteOperations** fields to **false**. Other operations are always client-side.
 
 When operations are performed on the server side, the **TreeList** does not support:
 
-- sorting, grouping, and filtering by columns with the [calculateCellValue](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#calculateCellValue) or [calculateDisplayValue](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#calculateDisplayValue) option defined;
-- custom sorting using functions (that is, [calculateSortValue](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#calculateSortValue) accepts strings only).
+- sorting, grouping, and filtering by columns with the [calculateCellValue](/api-reference/_hidden/GridBaseColumn/calculateCellValue.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#calculateCellValue') or [calculateDisplayValue](/api-reference/_hidden/GridBaseColumn/calculateDisplayValue.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#calculateDisplayValue') option defined;
+- custom sorting using functions (that is, [calculateSortValue](/api-reference/_hidden/GridBaseColumn/calculateSortValue.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#calculateSortValue') accepts strings only).
 
 #include common-demobutton-named with {
     name: "Web API Service",
@@ -53,4 +53,4 @@ When operations are performed on the server side, the **TreeList** does not supp
 }
 
 #####See Also#####
-- **Data Binding**: [Web API Service](/Documentation/Guide/Widgets/TreeList/Data_Binding/Web_API_Service/) | [PHP Service](/Documentation/Guide/Widgets/TreeList/Data_Binding/PHP_Service/) | [MongoDB Service](/Documentation/Guide/Widgets/TreeList/Data_Binding/MongoDB_Service/) | [Custom Sources](/Documentation/Guide/Widgets/TreeList/Data_Binding/Custom_Sources/)
+- **Data Binding**: [Web API Service](/concepts/05%20Widgets/TreeList/05%20Data%20Binding/026%20Web%20API%20Service.md '/Documentation/Guide/Widgets/TreeList/Data_Binding/Web_API_Service/') | [PHP Service](/concepts/05%20Widgets/TreeList/05%20Data%20Binding/027%20PHP%20Service.md '/Documentation/Guide/Widgets/TreeList/Data_Binding/PHP_Service/') | [MongoDB Service](/concepts/05%20Widgets/TreeList/05%20Data%20Binding/028%20MongoDB%20Service.md '/Documentation/Guide/Widgets/TreeList/Data_Binding/MongoDB_Service/') | [Custom Sources](/concepts/05%20Widgets/TreeList/05%20Data%20Binding/035%20Custom%20Sources/Custom%20Sources.md '/Documentation/Guide/Widgets/TreeList/Data_Binding/Custom_Sources/')

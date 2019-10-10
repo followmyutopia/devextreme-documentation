@@ -15,4 +15,4 @@ The row keys.
 #####See Also#####
 #include common-link-callmethods
 - [Initial and Runtime Selection](/Documentation/Guide/Widgets/{WidgetName}/Selection/#API/Initial_and_Runtime_Selection)
-- [deselectAll()]({basewidgetpath}/Methods/#deselectAll)
+- [deselectAll()](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/deselectAll().md '{basewidgetpath}/Methods/#deselectAll')

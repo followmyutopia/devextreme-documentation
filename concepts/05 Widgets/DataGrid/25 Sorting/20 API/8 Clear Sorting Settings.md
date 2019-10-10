@@ -1,4 +1,4 @@
-You can clear sorting settings for all columns by calling the [clearSorting()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#clearSorting) method, or for a specific column - by setting its [sortIndex](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#sortIndex) option to **undefined** using the [columnOption](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#columnOptionid_optionName_optionValue) method.
+You can clear sorting settings for all columns by calling the [clearSorting()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#clearSorting) method, or for a specific column - by setting its [sortIndex](/api-reference/_hidden/GridBaseColumn/sortIndex.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#sortIndex') option to **undefined** using the [columnOption](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#columnOptionid_optionName_optionValue) method.
 
 ---
 ##### jQuery
@@ -35,4 +35,4 @@ You can clear sorting settings for all columns by calling the [clearSorting()](/
 ---
 
 #####See Also#####
-- [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/)
+- [remoteOperations](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/remoteOperations/remoteOperations.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/')

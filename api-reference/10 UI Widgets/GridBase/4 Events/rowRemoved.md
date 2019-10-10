@@ -28,7 +28,7 @@ The key of the row. If a field providing keys is not specified in the data sourc
 Model data. Available only if you use Knockout.
 
 ---
-Main article: [onRowRemoved]({basewidgetpath}/Configuration/#onRowRemoved)
+Main article: [onRowRemoved](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onRowRemoved.md '{basewidgetpath}/Configuration/#onRowRemoved')
 
 #####See Also#####
 #include common-link-handleevents
