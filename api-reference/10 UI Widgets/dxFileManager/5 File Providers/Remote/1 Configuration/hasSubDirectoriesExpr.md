@@ -1,5 +1,5 @@
 ---
-id: WebApiFileProvider.Options.hasSubDirectoriesExpr
+id: RemoteFileProvider.Options.hasSubDirectoriesExpr
 type: String | function()
 ---
 ---

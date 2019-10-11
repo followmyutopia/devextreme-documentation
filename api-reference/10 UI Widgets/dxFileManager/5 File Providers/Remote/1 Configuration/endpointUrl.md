@@ -1,5 +1,5 @@
 ---
-id: WebApiFileProvider.Options.endpointUrl
+id: RemoteFileProvider.Options.endpointUrl
 type: String
 ---
 ---
