@@ -9,7 +9,13 @@ type: function(options)
 ##### param(options): Object
 <!-- Description goes here -->
 
+##### field(options.column): Object
+<!-- Description goes here -->
+
 ##### field(options.data): Object
+<!-- Description goes here -->
+
+##### field(options.formItem): Object
 <!-- Description goes here -->
 
 ##### field(options.rule): Object

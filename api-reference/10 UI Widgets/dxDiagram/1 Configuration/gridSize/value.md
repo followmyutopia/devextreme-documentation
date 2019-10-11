@@ -1,7 +1,6 @@
 ---
 id: dxDiagram.Options.gridSize.value
 type: Number
-default: undefined
 ---
 ---
 ##### shortDescription

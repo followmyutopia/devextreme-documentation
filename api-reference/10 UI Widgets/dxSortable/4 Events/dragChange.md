@@ -1,7 +1,6 @@
 ---
 id: dxSortable.dragChange
 type: eventType
-hidden: 
 ---
 ---
 ##### shortDescription
@@ -13,8 +12,14 @@ Information about the event that caused the function's execution.
 ##### field(e.cancel): Boolean
 Allows you to cancel the gesture.
 
+##### field(e.component): {WidgetName}
+<!-- Description goes here -->
+
 ##### field(e.dropInsideItem): Boolean
 Indicates if the dragged item is dropped inside another item.
+
+##### field(e.element): dxElement
+<!-- Description goes here -->
 
 ##### field(e.event): event
 #include common-ref-eventparam
@@ -33,6 +38,9 @@ The dragged item's data.
 
 ##### field(e.itemElement): dxElement
 #include draganddrop-ref-itemelementparam
+
+##### field(e.model): Object
+<!-- Description goes here -->
 
 ##### field(e.toComponent): dxSortable | dxDraggable
 The instance of the item's target widget.

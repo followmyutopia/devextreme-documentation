@@ -16,7 +16,7 @@ Allows you to cancel the gesture.
 #include common-ref-eventparam
 
 ##### field(e.fromData): any
-Custom [data]({basewidgetpath}/Configuration/rowDragging/#data) associated with the source widget.
+Custom [data](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/rowDragging/data.md '{basewidgetpath}/Configuration/rowDragging/#data') associated with the source widget.
 
 ##### field(e.fromIndex): Number
 The row's original position. If the row is dragged from another widget, the value is **-1**.

@@ -9,4 +9,3 @@ inherits: DraggableBase
 **Draggable** is a user interface utility that allows widget elements to be dragged and dropped.
 
 ---
-

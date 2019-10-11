@@ -1,7 +1,7 @@
 ---
 id: GridBase.Options.rowDragging.boundary
 type: String | Node | jQuery
-default: window
+default: undefined
 ---
 ---
 ##### shortDescription

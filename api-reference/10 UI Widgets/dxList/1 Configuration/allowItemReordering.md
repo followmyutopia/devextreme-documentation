@@ -2,6 +2,7 @@
 id: dxList.Options.allowItemReordering
 type: Boolean
 default: false
+dep: dxList.Options.itemDragging
 ---
 ---
 ##### shortDescription

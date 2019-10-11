@@ -2,7 +2,6 @@
 id: dxSortable.Options.filter
 type: String
 default: '> *'
-hidden: 
 ---
 ---
 ##### shortDescription

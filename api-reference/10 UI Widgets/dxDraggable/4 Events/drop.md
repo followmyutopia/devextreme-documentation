@@ -40,8 +40,5 @@ hidden:
 ##### field(e.toData): any
 <!-- Description goes here -->
 
-##### field(e.cancel): Boolean
-<!-- Description goes here -->
-
 ---
 <!-- Description goes here -->

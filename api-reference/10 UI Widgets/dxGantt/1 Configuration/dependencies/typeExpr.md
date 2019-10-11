@@ -7,6 +7,4 @@ default: 'type'
 ##### shortDescription
 Specifies the data field that provides dependency types.
 
-##### param(data): Object
-
 ---

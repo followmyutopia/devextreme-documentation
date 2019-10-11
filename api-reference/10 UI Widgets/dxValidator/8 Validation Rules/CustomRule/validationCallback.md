@@ -9,8 +9,14 @@ A function that validates the target value.
 ##### param(options): Object
 An object defining validation parameters.
 
+##### field(options.column): Object
+<!-- Description goes here -->
+
 ##### field(options.data): Object
 The current row data. Exists only when you validate a [DataGrid](/api-reference/10%20UI%20Widgets/dxDataGrid/dxDataGrid.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid') or [TreeList](/api-reference/10%20UI%20Widgets/dxTreeList/dxTreeList.md '/Documentation/ApiReference/UI_Widgets/dxTreeList') cell's value.
+
+##### field(options.formItem): Object
+<!-- Description goes here -->
 
 ##### field(options.rule): Object
 The current rule object that exposes user-defined options, the **isValid** and **message** fields, and the rule type-specific fields.

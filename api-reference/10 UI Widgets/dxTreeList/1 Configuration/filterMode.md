@@ -1,12 +1,12 @@
 ---
 id: dxTreeList.Options.filterMode
-acceptValues: 'fullBranch' | 'withAncestors'
+acceptValues: 'fullBranch' | 'withAncestors' | 'matchOnly'
 type: String
 default: 'withAncestors'
 ---
 ---
 ##### shortDescription
-Specifies whether to show filtered rows with ancestors and descendants (full branch) or with ancestors only.
+Specifies whether filter and search results should include matching rows only, matching rows with ancestors, or matching rows with ancestors and descendants (full branch).
 
 ---
 #include common-demobutton with {

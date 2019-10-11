@@ -1,9 +1,8 @@
 ---
 id: dxSortable.Options.onDragChange
 type: function(e)
-default: null	
-EventForAction: dxSortable.dragChange	
-hidden:
+default: null
+EventForAction: dxSortable.dragChange
 ---
 ---
 ##### shortDescription
@@ -15,8 +14,14 @@ Information about the event that caused the function's execution.
 ##### field(e.cancel): Boolean
 Allows you to cancel the gesture.
 
+##### field(e.component): {WidgetName}
+<!-- Description goes here -->
+
 ##### field(e.dropInsideItem): Boolean
 Indicates if the dragged item is dropped inside another item.
+
+##### field(e.element): dxElement
+<!-- Description goes here -->
 
 ##### field(e.event): event
 #include common-ref-eventparam
@@ -36,6 +41,9 @@ The dragged item's data.
 ##### field(e.itemElement): dxElement
 #include draganddrop-ref-itemelementparam
 
+##### field(e.model): Object
+Model data. Available only if you use Knockout.
+
 ##### field(e.toComponent): dxSortable | dxDraggable
 The instance of the item's target widget.
 
@@ -44,9 +52,6 @@ Custom [data](/api-reference/10%20UI%20Widgets/DraggableBase/1%20Configuration/d
 
 ##### field(e.toIndex): Number
 The position in which the item is placed. If the item is dragged away from the widget, the value is **-1**.
-
-##### field(e.model): Object	
-Model data. Available only if you use Knockout.
 
 ---
 <!-- Description goes here -->

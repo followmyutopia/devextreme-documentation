@@ -11,14 +11,8 @@ A function that is called when a draggable item is removed.
 ##### param(e): Object
 Information about the event that caused the function's execution.
 
-##### field(e.cancel): Boolean
-Allows you to cancel the gesture.
-
 ##### field(e.component): {WidgetName}
 The widget that raised the event.
-
-##### field(e.dropInsideItem): Boolean
-Indicates if the dragged item is dropped inside another item.
 
 ##### field(e.element): dxElement
 #include common-ref-elementparam with { element: "widget" }

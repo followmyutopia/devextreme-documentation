@@ -5,7 +5,7 @@ default: ''
 ---
 ---
 ##### shortDescription
-Specifies the text label displayed inside the FAB or near the speed dial action button. 
+Specifies the text label displayed inside the FAB or near the speed dial action button.
 
 ---
 #include common-demobutton with {

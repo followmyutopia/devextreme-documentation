@@ -7,14 +7,20 @@ default: 'item'
 ##### shortDescription
 Specifies a custom template for appointments.
 
-##### param(itemData): Object
-The current appointment's data.
+##### param(model): Object
+<!-- Description goes here -->
+
+##### field(model.appointmentData): Object
+<!-- Description goes here -->
+
+##### field(model.targetedAppointmentData): Object
+<!-- Description goes here -->
 
 ##### param(itemIndex): Number
 The current appointment's index.
 
-##### param(itemElement): dxElement
-#include common-ref-elementparam with { element: "appointment" }
+##### param(contentElement): dxElement
+<!-- Description goes here -->
 
 ##### return: String | Node | jQuery
 A template name or container.

@@ -7,18 +7,20 @@ default: 'appointmentTooltip'
 ##### shortDescription
 Specifies a custom template for appointment tooltips and appointments in the [appointment collector](/concepts/05%20Widgets/Scheduler/030%20Appointments/080%20Appointment%20Collector.md '/Documentation/Guide/Widgets/Scheduler/Appointments/Appointment_Collector/')'s drop-down list.
 
-##### param(appointmentData): Object
-The initial appointment's data.
+##### param(model): Object
+<!-- Description goes here -->
 
-##### param(contentElement): dxElement
-#include common-ref-elementparam with { element: "appointment" }
+##### field(model.appointmentData): Object
+<!-- Description goes here -->
 
-##### param(targetedAppointmentData): Object
-The data of the appointment whose tooltip is rendered.      
-Refer to the [onAppointmentClick](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/onAppointmentClick.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentClick') description for more information on the difference between the **appointmentData** and **targetedAppointmentData** parameters.
+##### field(model.targetedAppointmentData): Object
+<!-- Description goes here -->
 
 ##### param(itemIndex): Number
 The appointment's index.
+
+##### param(contentElement): dxElement
+#include common-ref-elementparam with { element: "appointment" }
 
 ##### return: String | Node | jQuery
 A template name or container.

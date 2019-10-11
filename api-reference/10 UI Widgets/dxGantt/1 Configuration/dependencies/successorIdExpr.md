@@ -7,6 +7,4 @@ default: 'successorId'
 ##### shortDescription
 Specifies the data field that provides successor IDs.
 
-##### param(data): Object
-
 ---
