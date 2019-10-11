@@ -8,7 +8,9 @@ type: String
 Specifies which editor widget is used to display and edit the form item value.
 
 ---
-[note]If you use [DevExtreme modules](/concepts/Common/30%20Modularity/01%20Link%20Modules/Link%20Modules.md '/Documentation/Guide/Common/Modularity/'), import the editor's module when specifying this option. You can omit modules for the "dxTextBox", "dxDateBox", "dxCheckBox" and "dxNumberBox" because the **Form** widget imports them automatically when creating form items. 
+[important]If you use [DevExtreme modules](/concepts/Common/30%20Modularity/01%20Link%20Modules/Link%20Modules.md '/Documentation/Guide/Common/Modularity/'), import the editor's module when specifying this option. You can omit modules for *"dxTextBox"*, *"dxDateBox"*, *"dxCheckBox"*, and *"dxNumberBox"* because the **Form** widget imports them automatically when creating form items. 
+
+[note] At this time, the [*"dxHtmlEditor"*](/api-reference/10%20UI%20Widgets/dxHtmlEditor/dxHtmlEditor.md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/') widget is available as a community technology preview (CTP) version. We do not recommend that you use it in production environments because of possible implementation issues and a high chance of breaking changes in subsequent versions.
 
 When using an <a href="https://docs.devexpress.com/DevExtremeAspNetMvc/400943/devextreme-aspnet-mvc-controls" target="_blank">ASP.NET MVC 5 Controls</a> or <a href="https://docs.devexpress.com/AspNetCore/400263/aspnet-core-controls#devextreme-based-aspnet-core-controls" target="_blank">DevExtreme-Based ASP.NET Core Controls</a>, configure the editor as follows:
 
