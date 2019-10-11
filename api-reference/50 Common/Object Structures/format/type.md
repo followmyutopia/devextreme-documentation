@@ -38,6 +38,14 @@ You can choose one of the predefined formats, depending on the values you need t
     &#42; - uses <i>"thousands", "millions", "billions", "trillions"*</i> format depending on the actual value
 </div>
 
+**Currency Formats**  
+
+- *"currency"* - *"$3.95"**
+
+<div style="font-size:12px;  margin-bottom: 15px">
+    &#42; - to define any other currency, use <a href="/Documentation/ApiReference/Common/Object_Structures/format/#currency">currency</a> 
+</div>
+
 [note]Specify the [precision](/api-reference/50%20Common/Object%20Structures/format/precision.md '/Documentation/ApiReference/Common/Object_Structures/format/#precision') to show fractional numbers.
 
 **Date-Time Formats**  
@@ -72,14 +80,6 @@ You can choose one of the predefined formats, depending on the values you need t
         </td>
     </tr>
 </table>
-
-**Currency Formats**  
-
-- *"currency"* - *"$3.95"**
-
-<div style="font-size:12px;  margin-bottom: 15px">
-    &#42; - to define any other currency, use <a href="/Documentation/ApiReference/Common/Object_Structures/format/#currency">currency</a> 
-</div>
 
 The *"fixedPoint", "decimal"* or *"currency"* format can be paired with the *"largeNumber", "thousands", "millions", "billions"* or *"trillions"* format using a space separator, e.g., *"fixedPoint thousands"*.
 
