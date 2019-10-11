@@ -39,8 +39,71 @@ To make the search panel visible, assign **true** to the [searchPanel](/api-refe
         ],
         // ...
     })
-    
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-data-grid ... >
+           <dx-search-panel :visible="true" />
+           <dx-column :allow-search="false" />
+        </dx-data-grid>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DxDataGrid, {
+        DxColumn,
+        DxSearchPanel
+    } from 'devextreme-vue/data-grid';
+
+    export default {
+        components: {
+            DxDataGrid,
+            DxColumn,
+            DxSearchPanel
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DataGrid, {
+        Column,
+        SearchPanel
+    } from 'devextreme-react/data-grid';
+
+    class App extends React.Component {
+        render() {
+            return (
+                <DataGrid ... >
+                  <SearchPanel visible={true} />
+                  <Column allowSearch={false} />
+                </DataGrid>
+            );
+        }
+    }
+
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().DataGrid()
+        @* ... *@
+        .SearchPanel(sp => sp.Visible(true))
+        .Columns(columns => {
+            columns.Add().AllowSearch(false);
+        })
+    )    
+
 ---
+
 
 Use the **searchPanel**.[text](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/searchPanel/text.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/searchPanel/#text') option to predefine the search value. You can also change it at runtime by calling the [searchByText(text)](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/searchByText(text).md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#searchByTexttext') method:
 
@@ -61,7 +124,7 @@ Use the **searchPanel**.[text](/api-reference/10%20UI%20Widgets/GridBase/1%20Con
 <!---->
 
     <!--JavaScript-->
-    $("#dataGridContainer").dxDataGrid("searchByText", "1/29/2016");
+    $("#dataGridContainer").dxDataGrid("instance").searchByText("1/29/2016");
 
 ##### Angular
 
@@ -89,6 +152,103 @@ Use the **searchPanel**.[text](/api-reference/10%20UI%20Widgets/GridBase/1%20Con
         ],
         // ...
     })
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-data-grid ... >
+            <dx-search-panel 
+                :visible="true"
+                :text.sync="searchText" 
+            />
+        </dx-data-grid>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DxDataGrid, {
+        DxSearchPanel
+    } from 'devextreme-vue/data-grid';
+
+    export default {
+        components: {
+            DxDataGrid,
+            DxSearchPanel
+        },
+        data() {
+           return {
+               searchText: "4/1/2015",
+           }
+        },
+        methods: {
+            setSearchValue (searchText) {
+                this.searchText = searchText;
+            }
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DataGrid, {
+        SearchPanel
+    } from 'devextreme-react/data-grid';
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            this.state = {
+                searchText: "4/1/2015"
+            }
+        }
+
+        render() {
+            let { searchText } = this.state;
+            return (
+                <DataGrid ... 
+                    onOptionChanged={this.onOptionChanged}>
+                    <SearchPanel 
+                        visible={true}
+                        text={searchText} 
+                    />
+                </DataGrid>
+            );
+        }
+        onOptionChanged = (e) => {
+            if(e.fullName === "searchPanel.text") {
+                this.setSearchValue(e.value);
+            }
+        }
+        setSearchValue = (searchText) => {
+            this.setState({
+                searchText: searchText
+            })
+        }
+    }
+
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().DataGrid()
+        @* ... *@
+        .ID("dataGridContainer")
+        .SearchPanel(sp => sp
+            .Visible(true)
+            .Text("4/1/2015")
+        )
+    )  
+
+    <script type="text/javascript">
+        $("#dataGridContainer").dxDataGrid("instance").searchByText("1/29/2016");
+    </script>
 
 ---
 

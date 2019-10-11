@@ -39,7 +39,68 @@ Assign **true** to the [headerFilter](/api-reference/10%20UI%20Widgets/GridBase/
         ],
         // ...
     })
-    
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-data-grid ... >
+           <dx-header-filter :visible="true />
+           <dx-column :allow-header-filtering="false" ... />
+        </dx-data-grid>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DxDataGrid, {
+        DxColumn,
+        DxHeaderFilter
+    } from 'devextreme-vue/data-grid';
+
+    export default {
+        components: {
+            DxDataGrid,
+            DxColumn,
+            DxHeaderFilter
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DataGrid, {
+        Column,
+        HeaderFilter
+    } from 'devextreme-react/data-grid';
+
+    class App extends React.Component {
+        render() {
+            return (
+                <DataGrid ... >
+                    <HeaderFilter visible={true} />
+                    <Column allowHeaderFiltering={false} ... />
+                </DataGrid>
+            );
+        }
+    }
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().DataGrid()
+        @* ... *@
+        .HeaderFilter(hf => hf.Visible(true))
+        .Columns(columns => {
+            columns.Add().AllowHeaderFiltering(false);
+        })
+    )
+
 ---
 
 A user can change the applied filter by including or excluding values. Use a column's [filterType](/api-reference/_hidden/GridBaseColumn/filterType.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#filterType') option to specify the required mode. You can specify the initial filter by combining this option and the [filterValues](/api-reference/_hidden/GridBaseColumn/filterValues.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#filterValues') option. To change it at runtime, call the [columnOption](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/columnOption(id_options).md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#columnOptionid_options') method:
@@ -62,7 +123,7 @@ A user can change the applied filter by including or excluding values. Use a col
 <!---->
 
     <!--JavaScript-->
-    $("#dataGridContainer").dxDataGrid("columnOption", "OrderDate", {
+    $("#dataGridContainer").dxDataGrid("instance").columnOption("OrderDate", {
         filterType: "include",
         filterValues: [2014, 2015]
     });
@@ -96,7 +157,123 @@ A user can change the applied filter by including or excluding values. Use a col
         ],
         // ...
     })
-    
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-data-grid ... >           
+            <dx-column 
+                :filter-type.sync="filterType"
+                :filter-values.sync="filterValues" 
+                data-field="OrderDate"
+            />
+        </dx-data-grid>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DxDataGrid, {
+        DxColumn
+    } from 'devextreme-vue/data-grid';
+
+    export default {
+        components: {
+            DxDataGrid,
+            DxColumn
+        },
+        data() {
+            return {
+               filterType: "exclude", // or "include" 
+               filterValues: [2014]
+            }
+        },
+        methods: {
+            applyFilter (filterType, values) {
+                this.filterType = filterType;
+                this.filterValues = values;
+            }
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DataGrid, {
+        Column
+    } from 'devextreme-react/data-grid';
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);            
+            this.state = {
+                filterType: 'exclude', // or 'include'
+                filterValues: [2014]
+            }
+        }
+
+        render() {
+            let { filterType, filterValues } = this.state;
+            return (
+                <DataGrid ... 
+                    onOptionChanged={this.onOptionChanged}>                
+                    <Column 
+                        dataField="OrderDate"
+                        filterType={filterType}                   
+                        filterValues={filterValues}
+                    />
+                </DataGrid>
+            );
+        }
+        onOptionChanged = (e) => {
+            if(e.fullName === "columns[0].filterValues") {
+                this.setState({ 
+                    filterValues: e.value
+                })
+            }
+            if(e.fullName === "columns[0].filterType") {
+                this.setState({ 
+                    filterType: e.value
+                })
+            }
+        }
+        applyFilter = (filterType, values) => {
+            this.setState({
+                filterType: filterType,
+                filterValues: values
+            })
+        }
+    }
+
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().DataGrid()
+        @* ... *@
+        .ID("dataGridContainer")
+        .Columns(columns => {
+            columns.Add()
+                .DataField("OrderDate")
+                .FilterType(FilterType.Exclude) // or FilterType.Include
+                .FilterValues(new int[] { 2014 });
+        })
+    )
+
+    <script type="text/javascript">        
+        $("#dataGridContainer").dxDataGrid("instance").columnOption("OrderDate", {
+            filterType: "include",
+            filterValues: [2014, 2015]
+        });
+    </script>
+
+
 ---
 
 #include datagrid-filtering-rowandheaderconflicts
@@ -106,7 +283,8 @@ You can use the **headerFilter.**[allowSearch](/api-reference/10%20UI%20Widgets/
 ---
 ##### jQuery
 
-    <!--JavaScript-->$(function() {
+    <!--JavaScript-->
+    $(function() {
         $("#dataGridContainer").dxDataGrid({
             // ...
             headerFilter: { 
@@ -145,7 +323,85 @@ You can use the **headerFilter.**[allowSearch](/api-reference/10%20UI%20Widgets/
         ],
         // ...
     })
-    
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-data-grid ... >
+            <dx-header-filter 
+                :allow-search="true" 
+                :visible="true" 
+            />
+            <dx-column>
+                <dx-column-header-filter :allow-search="false" />
+            </dx-column>
+        </dx-data-grid>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DxDataGrid, {
+        DxColumn,
+        DxHeaderFilter,
+        DxColumnHeaderFilter
+    } from 'devextreme-vue/data-grid';
+
+    export default {
+        components: {
+            DxDataGrid,
+            DxColumn,
+            DxHeaderFilter,
+            DxColumnHeaderFilter
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DataGrid, {
+        Column,
+        HeaderFilter,
+        ColumnHeaderFilter
+    } from 'devextreme-react/data-grid';
+
+    class App extends React.Component {
+        render() {
+            return (
+                <DataGrid ... >
+                    <HeaderFilter 
+                        allowSearch={true} 
+                        visible={true} 
+                    />
+                    <Column>
+                        <ColumnHeaderFilter allowSearch={false} />
+                    </Column>
+                </DataGrid>
+            );
+        }
+    }
+
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().DataGrid()
+        @* ... *@
+        .HeaderFilter(hf => hf
+            .Visible(true)
+            .AllowSearch(true)
+        )
+        .Columns(columns => {
+            columns.Add()
+                .HeaderFilter(hf => hf.AllowSearch(false));
+        })
+    )    
+
 ---
 
 A header filter's popup menu lists all column values by default. You can group them using the **headerFilter**.[groupInterval](/api-reference/_hidden/GridBaseColumn/headerFilter/groupInterval.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/headerFilter/#groupInterval') option if they are numbers or dates. You can also provide a custom data source for a header filter using the [dataSource](/api-reference/_hidden/GridBaseColumn/headerFilter/dataSource.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/headerFilter/#dataSource') option. Refer to the option's description for details.

@@ -39,7 +39,68 @@ To make the filter row visible, assign **true** to the [filterRow](/api-referenc
         ],
         // ...
     })
-    
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-data-grid ... >
+            <dx-filter-row :visible="true" />
+            <dx-column :allow-filtering="false" ... />
+        </dx-data-grid>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DxDataGrid, {
+        DxColumn,
+        DxFilterRow
+    } from 'devextreme-vue/data-grid';
+
+    export default {
+        components: {
+            DxDataGrid,
+            DxColumn,
+            DxFilterRow
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DataGrid, {
+        Column,
+        FilterRow
+    } from 'devextreme-react/data-grid';
+
+    class App extends React.Component {
+        render() {
+            return (
+                <DataGrid ... >
+                    <FilterRow visible={true} />
+                    <Column allowFiltering={false} ... />
+                </DataGrid>
+            );
+        }
+    }
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().DataGrid()
+        @* ... *@
+        .FilterRow(fr => fr.Visible(true))
+        .Columns(columns => {
+            columns.Add().AllowFiltering(false);
+        })
+    )
+
 ---
 
 A user-specified filter is automatically applied with a delay by default. Alternatively, it can be applied by a click on the *"Apply Filter"* button if you set the **filterRow**.[applyFilter](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/filterRow/applyFilter.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/filterRow/#applyFilter') option to *"onClick"*.
@@ -80,6 +141,69 @@ A user-specified filter is automatically applied with a delay by default. Altern
         ],
         // ...
     })
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-data-grid ...>
+            <dx-filter-row 
+                :visible="true" 
+                apply-filter="onClick"
+            />
+        </dx-data-grid>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DxDataGrid, {
+        DxFilterRow
+    } from 'devextreme-vue/data-grid';
+
+    export default {
+        components: {
+            DxDataGrid,
+            DxFilterRow
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DataGrid, {
+        FilterRow
+    } from 'devextreme-react/data-grid';
+
+    class App extends React.Component {
+        render() {
+            return (
+                <DataGrid ... >
+                    <FilterRow 
+                        visible={true} 
+                        applyFilter="onClick" 
+                    />
+                </DataGrid>
+            );
+        }
+    }
+
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().DataGrid()
+        @* ... *@
+        .FilterRow(fr => fr
+            .Visible(true)
+            .ApplyFilter(GridApplyFilterMode.OnClick)
+        )           
+    )
     
 ---
 
@@ -87,12 +211,14 @@ Each cell in the filter row contains a magnifying glass icon. Hovering the mouse
 
 ![DevExtreme HTML5 JavaScript jQuery Knockout Angular DataGrid Filtering FilterRow](/Content/images/doc/19_2/DataGrid/visual_elements/filter_row_operation_chooser.png)
 
+
 The set of available filter operations can be restricted using the [filterOperations](/api-reference/_hidden/GridBaseColumn/filterOperations.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#filterOperations') option. You can also preselect a filter operation and specify the initial filter value with the [selectedFilterOperation](/api-reference/_hidden/GridBaseColumn/selectedFilterOperation.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#selectedFilterOperation') and [filterValue](/api-reference/_hidden/GridBaseColumn/filterValue.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#filterValue') options. Call the [columnOption](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/columnOption(id_options).md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#columnOptionid_options') method at runtime to change these options:
 
 ---
 ##### jQuery
 
-    <!--JavaScript-->$(function() {
+    <!--JavaScript-->
+    $(function() {
         $("#dataGridContainer").dxDataGrid({
             // ...
             filterRow: { visible: true },
@@ -108,7 +234,7 @@ The set of available filter operations can be restricted using the [filterOperat
 <!---->
 
     <!--JavaScript-->
-    $("#dataGridContainer").dxDataGrid("columnOption", "Status", {
+    $("#dataGridContainer").dxDataGrid("instance").columnOption("Status", {
         selectedFilterOperation: "=",
         filterValue: "Finished"
     });
@@ -144,7 +270,131 @@ The set of available filter operations can be restricted using the [filterOperat
         ],
         // ...
     })
-    
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-data-grid ... >
+            <dx-filter-row :visible="true />
+            <dx-column 
+                :filter-operations="allowedOperations"
+                :selected-filter-operation.sync="selectedOperation"
+                :filter-value.sync="filterValue" 
+                data-field="Status"
+            />
+        </dx-data-grid>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DxDataGrid, {
+        DxColumn,
+        DxFilterRow
+    } from 'devextreme-vue/data-grid';
+
+    export default {
+        components: {
+            DxDataGrid,
+            DxColumn,
+            DxFilterRow
+        },
+        data() {
+            return {
+                allowedOperations: ['contains', '='],
+                selectedOperation: 'contains',
+                filterValue: 'Pending'
+            }
+        },
+        methods: {
+            applyFilter (operation, value) {
+                this.selectedOperation = operation;
+                this.filterValue = value;
+            }
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import DataGrid, {
+        Column,
+        FilterRow
+    } from 'devextreme-react/data-grid';
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            this.filterOperations = ['contains', '='];
+            this.state = {
+                selectedOperation: 'contains',
+                filterValue: 'Pending'
+            }
+        }
+
+        render() {
+            let { selectedOperation, filterValue } = this.state;
+            return (
+                <DataGrid (onOptionChanged)={this.optionChanged} ... >
+                    <FilterRow visible={true} />
+                    <Column 
+                        dataField="Status"
+                        filterOperations={this.filterOperations}
+                        selectedFilterOperation={selectedOperation}
+                        filterValue={filterValue}
+                    />
+                </DataGrid>
+            );
+        }
+        optionChanged = (e) => {
+            if(e.fullName === "columns[0].filterValue") {
+                this.setState({ 
+                    filterValue: e.value
+                })
+            }
+            if(e.fullName === "columns[0].selectedFilterOperation") {
+                this.setState({ 
+                    selectedOperation: e.value
+                })
+            }
+        }
+        applyFilter = (operation, value) => {
+            this.setState({
+                selectedOperation: operation,
+                filterValue: value
+            })
+        }
+    }
+
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().DataGrid()
+        @* ... *@
+        .ID("dataGridContainer")
+        .FilterRow(fr => fr.Visible(true))
+        .Columns(columns => {
+            columns.Add()
+                .DataField("Status")
+                .FilterOperations(new FilterOperations[] { FilterOperations.Contains, FilterOperations.Equal })
+                .SelectedFilterOperation(FilterOperations.Equal)
+                .FilterValue("Pending");
+        })
+    )
+
+    <script type="text/javascript">       
+        $("#dataGridContainer").dxDataGrid("instance").columnOption("Status", {
+            selectedFilterOperation: "=",
+            filterValue: "Finished"
+        });
+    </script>
+
 ---
 
 #####See Also#####
