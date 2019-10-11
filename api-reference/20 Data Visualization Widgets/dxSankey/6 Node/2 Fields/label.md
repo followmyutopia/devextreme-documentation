@@ -4,7 +4,6 @@ type: String
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+The node's label.
 
 ---
-<!-- Description goes here -->

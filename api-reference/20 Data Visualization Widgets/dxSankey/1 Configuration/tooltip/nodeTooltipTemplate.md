@@ -11,7 +11,7 @@ Specifies a custom template for a [node](/api-reference/20%20Data%20Visualizatio
 Information about a sankey node being pressed or hovered over.
 
 ##### field(info.label): String
-<!-- Description goes here -->
+The node's [label](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/6%20Node/2%20Fields/label.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Node/Fields/#label').
 
 ##### field(info.weightIn): Number
 The total weight of the node's incoming [links](Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/link/).
