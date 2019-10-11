@@ -1,4 +1,4 @@
-Use the [addRow()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#addRow) method to add an empty row.
+Use the [addRow()](/api-reference/10%20UI%20Widgets/dxDataGrid/3%20Methods/addRow().md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#addRow') method to add an empty row.
 
 ---
 ##### jQuery

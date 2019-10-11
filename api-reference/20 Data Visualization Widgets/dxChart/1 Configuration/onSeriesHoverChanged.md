@@ -26,4 +26,4 @@ The series whose hover state has been changed.
 ##### notUsedInTheme
 
 ---
-To identify whether the pointer has entered or left the series, call the series' [isHovered()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#isHovered) method.
+To identify whether the pointer has entered or left the series, call the series' [isHovered()](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Series/3%20Methods/isHovered().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#isHovered') method.

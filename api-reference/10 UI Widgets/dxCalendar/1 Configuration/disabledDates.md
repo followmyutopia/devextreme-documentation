@@ -11,7 +11,7 @@ Specifies dates to be disabled.
 Information about the checked date.
 
 ##### field(data.component): Object
-The widget's [instance](/Documentation/ApiReference/UI_Widgets/dxCalendar/Methods/#instance).
+The widget's [instance](/api-reference/10%20UI%20Widgets/Component/3%20Methods/instance().md '/Documentation/ApiReference/UI_Widgets/dxCalendar/Methods/#instance').
 
 ##### field(data.date): Date
 The currently checked date.

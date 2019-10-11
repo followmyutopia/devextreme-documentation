@@ -20,7 +20,7 @@ PNG is used if the browser does not support exporting to the specified format.
 }
 
 #####See Also#####
-- [DevExpress.viz.exportWidgets(widgetInstances, options)](/Documentation/ApiReference/Common/utils/viz/#exportWidgetswidgetInstances_options)
+- [DevExpress.viz.exportWidgets(widgetInstances, options)](/api-reference/50%20Common/utils/viz/exportWidgets(widgetInstances_options).md '/Documentation/ApiReference/Common/utils/viz/#exportWidgetswidgetInstances_options')
 - [export](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/export/export.md '{basewidgetpath}/Configuration/export')
 - [print()]({basewidgetpath}/Methods#print)
 #include common-link-callmethods

@@ -26,7 +26,7 @@ The model data. Available only if you use Knockout.
 ##### notUsedInTheme
 
 ---
-To identify whether the selection has been applied or canceled, call the funnel item's [isSelected()](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/Methods/#isSelected) method.
+To identify whether the selection has been applied or canceled, call the funnel item's [isSelected()](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/6%20Item/3%20Methods/isSelected().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/Methods/#isSelected') method.
 
 See [onItemClick](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/1%20Configuration/onItemClick.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/#onItemClick') to learn how to implement selection.
 

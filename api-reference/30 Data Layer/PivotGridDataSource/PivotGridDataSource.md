@@ -230,7 +230,7 @@ dx.web.js, dx.viz-web.js, dx.all.js
 
 ---
 
-[note] If you create a **PivotGridDataSource** instance outside the widget (as shown above), make sure to [dispose](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#dispose) of it when it is no longer used. If the instance is created inside the widget, it will be disposed of automatically.
+[note] If you create a **PivotGridDataSource** instance outside the widget (as shown above), make sure to [dispose](/api-reference/30%20Data%20Layer/PivotGridDataSource/3%20Methods/dispose().md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#dispose') of it when it is no longer used. If the instance is created inside the widget, it will be disposed of automatically.
 
 When using a widget as an <a href="https://docs.devexpress.com/DevExtremeAspNetMvc/400943/devextreme-aspnet-mvc-controls" target="_blank">ASP.NET MVC 5 Control</a> or a <a href="https://docs.devexpress.com/AspNetCore/400263/aspnet-core-controls#devextreme-based-aspnet-core-controls" target="_blank">DevExtreme-Based ASP.NET Core Control</a>, configure the **PivotGridDataSource** using the syntax shown in the following example. This example configures the [PivotGrid](/api-reference/10%20UI%20Widgets/dxPivotGrid/dxPivotGrid.md '/Documentation/ApiReference/UI_Widgets/dxPivotGrid/') widget.
 

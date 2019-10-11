@@ -75,4 +75,4 @@ The time interval in milliseconds for which the message is displayed.
 ---
 
 #####See Also#####
-- [notify(message, type, displayTime)](/Documentation/ApiReference/Common/utils/ui/#notifymessage_type_displayTime)
+- [notify(message, type, displayTime)](/api-reference/50%20Common/utils/ui/notify(message_type_displayTime).md '/Documentation/ApiReference/Common/utils/ui/#notifymessage_type_displayTime')

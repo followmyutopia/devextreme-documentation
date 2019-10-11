@@ -31,4 +31,4 @@ You can call the **customize(options)** method at any point of the application f
         }
     };
     
-[note]When a node is being drilled down/up, its visual representation is converted from tile to group and back. However, the customizations made in that node by the **customize(options)** method remain. If you need to revert the appearance of the node to the initial state, call the node's [resetCustomization()](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#resetCustomization) method.
+[note]When a node is being drilled down/up, its visual representation is converted from tile to group and back. However, the customizations made in that node by the **customize(options)** method remain. If you need to revert the appearance of the node to the initial state, call the node's [resetCustomization()](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/6%20Node/3%20Methods/resetCustomization().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#resetCustomization') method.

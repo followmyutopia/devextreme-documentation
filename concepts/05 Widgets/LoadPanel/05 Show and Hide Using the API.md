@@ -1,6 +1,6 @@
 [note] In this article, the [Button](/concepts/05%20Widgets/Button/00%20Overview.md '/Documentation/Guide/Widgets/Button/Overview/') widget is used to demonstrate how to show and hide the **LoadPanel**. This choice is made for purely demonstrational purposes, and you can do the same operations using another widget following the same guidelines.
 
-To show or hide the **LoadPanel** programmatically, call the [show()](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Methods/#show) or [hide()](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Methods/#hide) method. The same thing can be done using the [toggle(showing)](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Methods/#toggleshowing) method. Pass **true** or **false** to this method to show or hide the **LoadPanel**, respectively.
+To show or hide the **LoadPanel** programmatically, call the [show()](/api-reference/10%20UI%20Widgets/dxOverlay/3%20Methods/show().md '/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Methods/#show') or [hide()](/api-reference/10%20UI%20Widgets/dxOverlay/3%20Methods/hide().md '/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Methods/#hide') method. The same thing can be done using the [toggle(showing)](/api-reference/10%20UI%20Widgets/dxOverlay/3%20Methods/toggle(showing).md '/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Methods/#toggleshowing') method. Pass **true** or **false** to this method to show or hide the **LoadPanel**, respectively.
 
 ---
 #####**jQuery**
@@ -192,7 +192,7 @@ To execute certain commands before or after the **LoadPanel** is shown/hidden, h
 
 ---
 
-If you are going to change event handlers at runtime, or if you need to attach several handlers to a single event, subscribe to the events using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Methods/#oneventName_eventHandler) method. This approach is more typical of jQuery.
+If you are going to change event handlers at runtime, or if you need to attach several handlers to a single event, subscribe to the events using the [on(eventName, eventHandler)](/api-reference/10%20UI%20Widgets/EventsMixin/3%20Methods/on(eventName_eventHandler).md '/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Methods/#oneventName_eventHandler') method. This approach is more typical of jQuery.
 
     <!--JavaScript-->
     var shownEventHandler1 = function (e) {

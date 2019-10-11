@@ -1,4 +1,4 @@
-The selection capability is not provided out of the box, but it can be implemented using the [seriesClick](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/4%20Events/seriesClick.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#seriesClick') event. The following code gives an example for the scenario when a click on a series selects it, and a subsequent click on the same series clears the selection. To check whether the series is already selected, its [isSelected()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#isSelected) method is called.
+The selection capability is not provided out of the box, but it can be implemented using the [seriesClick](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/4%20Events/seriesClick.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#seriesClick') event. The following code gives an example for the scenario when a click on a series selects it, and a subsequent click on the same series clears the selection. To check whether the series is already selected, its [isSelected()](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Series/3%20Methods/isSelected().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#isSelected') method is called.
 
 ---
 ##### jQuery
@@ -96,7 +96,7 @@ There are series that consist of points only, for example, [bar](/concepts/05%20
 
 ---
 
-In the previous code examples, selection was cleared of a specific series. If you need to clear selection of all series, call the [clearSelection()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#clearSelection) method in the **Chart** instance.
+In the previous code examples, selection was cleared of a specific series. If you need to clear selection of all series, call the [clearSelection()](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/3%20Methods/clearSelection().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#clearSelection') method in the **Chart** instance.
 
 ---
 ##### jQuery

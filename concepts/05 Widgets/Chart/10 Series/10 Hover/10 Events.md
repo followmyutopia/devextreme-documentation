@@ -1,4 +1,4 @@
-When a user pauses on a series, the **Chart** fires the [seriesHoverChanged](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/4%20Events/seriesHoverChanged.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#seriesHoverChanged') event that you can handle with a function. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onSeriesHoverChanged](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/onSeriesHoverChanged.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onSeriesHoverChanged') option when you configure the widget. To check whether the pointer entered or left a series, call the [isHovered()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#isHovered) method in the series.
+When a user pauses on a series, the **Chart** fires the [seriesHoverChanged](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/4%20Events/seriesHoverChanged.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#seriesHoverChanged') event that you can handle with a function. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onSeriesHoverChanged](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/onSeriesHoverChanged.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onSeriesHoverChanged') option when you configure the widget. To check whether the pointer entered or left a series, call the [isHovered()](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Series/3%20Methods/isHovered().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#isHovered') method in the series.
 
 ---
 ##### jQuery
@@ -47,7 +47,7 @@ When a user pauses on a series, the **Chart** fires the [seriesHoverChanged](/ap
 
 ---
 
-If you are going to change the event handler at runtime or if you need to attach several handlers to the **seriesHoverChanged** event, subscribe to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#oneventName_eventHandler) method. This approach is more typical of jQuery.
+If you are going to change the event handler at runtime or if you need to attach several handlers to the **seriesHoverChanged** event, subscribe to this event using the [on(eventName, eventHandler)](/api-reference/10%20UI%20Widgets/EventsMixin/3%20Methods/on(eventName_eventHandler).md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#oneventName_eventHandler') method. This approach is more typical of jQuery.
 
     <!--JavaScript-->
     var seriesHoverChangedHandler1 = function (e) {

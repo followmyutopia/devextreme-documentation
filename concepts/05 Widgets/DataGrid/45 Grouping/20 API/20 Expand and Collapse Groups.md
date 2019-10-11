@@ -1,7 +1,7 @@
 The **DataGrid** provides the following API for expanding and collapsing groups:
 
 - **All groups**    
-    You can expand and collapse all groups at once by calling the [expandAll(groupIndex)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#expandAllgroupIndex) and [collapseAll(groupIndex)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#collapseAllgroupIndex) methods without arguments. Groups appear already expanded, a behavior you can change by setting the **grouping**.[autoExpandAll](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/grouping/autoExpandAll.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#autoExpandAll') option to **false**.
+    You can expand and collapse all groups at once by calling the [expandAll(groupIndex)](/api-reference/10%20UI%20Widgets/dxDataGrid/3%20Methods/expandAll(groupIndex).md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#expandAllgroupIndex') and [collapseAll(groupIndex)](/api-reference/10%20UI%20Widgets/dxDataGrid/3%20Methods/collapseAll(groupIndex).md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#collapseAllgroupIndex') methods without arguments. Groups appear already expanded, a behavior you can change by setting the **grouping**.[autoExpandAll](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/grouping/autoExpandAll.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#autoExpandAll') option to **false**.
     
     ---
 
@@ -117,7 +117,7 @@ The **DataGrid** provides the following API for expanding and collapsing groups:
     ---
 
 - **Individual groups**     
-    The [expandRow(key)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#expandRowkey) and [collapseRow(key)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#collapseRowkey) methods expand and collapse an individual group. You can check the group's current state using the [isRowExpanded(key)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#isRowExpandedkey)  method.
+    The [expandRow(key)](/api-reference/10%20UI%20Widgets/dxDataGrid/3%20Methods/expandRow(key).md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#expandRowkey') and [collapseRow(key)](/api-reference/10%20UI%20Widgets/dxDataGrid/3%20Methods/collapseRow(key).md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#collapseRowkey') methods expand and collapse an individual group. You can check the group's current state using the [isRowExpanded(key)](/api-reference/10%20UI%20Widgets/dxDataGrid/3%20Methods/isRowExpanded(key).md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#isRowExpandedkey')  method.
 
     ---
 

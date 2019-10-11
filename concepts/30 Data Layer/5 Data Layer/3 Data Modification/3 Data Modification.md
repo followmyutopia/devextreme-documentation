@@ -21,4 +21,4 @@ Note that it is necessary to specify the [key](/api-reference/30%20Data%20Layer/
 
 To load data from this Store either call **store.load(loadOptions)** or [wrap this Store with the DataSource](/concepts/30%20Data%20Layer/5%20Data%20Layer/1%20Creating%20DataSource/2%20From%20Store.md '/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/From_Store').
 
-If you already have an existing DataSource, you can obtain the underlying Store instance via the [store()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#store) method.
+If you already have an existing DataSource, you can obtain the underlying Store instance via the [store()](/api-reference/30%20Data%20Layer/DataSource/3%20Methods/store().md '/Documentation/ApiReference/Data_Layer/DataSource/Methods/#store') method.

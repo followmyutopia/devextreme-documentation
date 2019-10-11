@@ -97,7 +97,7 @@ Data kept in the **ArrayStore** can be processed in the [DataSource](/api-refere
 
 ---
 
-[note]Even if you have [passed a JavaScript array](/concepts/05%20Widgets/TreeList/05%20Data%20Binding/020%20Simple%20Array/10%20Array%20Only.md '/Documentation/Guide/Widgets/TreeList/Data_Binding/Simple_Array/Array_Only/') to the **dataSource** option, the **TreeList** automatically places it into an **ArrayStore** wrapped in the **DataSource** that you can get using the [getDataSource()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#getDataSource) method.
+[note]Even if you have [passed a JavaScript array](/concepts/05%20Widgets/TreeList/05%20Data%20Binding/020%20Simple%20Array/10%20Array%20Only.md '/Documentation/Guide/Widgets/TreeList/Data_Binding/Simple_Array/Array_Only/') to the **dataSource** option, the **TreeList** automatically places it into an **ArrayStore** wrapped in the **DataSource** that you can get using the [getDataSource()](/api-reference/10%20UI%20Widgets/DataHelperMixin/3%20Methods/getDataSource().md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#getDataSource') method.
 
 #####See Also#####
 - [Data Layer - What Are Stores](/Documentation/Guide/Data_Layer/Data_Layer/#Data_Layer_Data_Layer_Creating_DataSource_What_Are_Stores)

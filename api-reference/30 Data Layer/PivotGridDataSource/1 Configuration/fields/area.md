@@ -19,4 +19,4 @@ The field does not belong to any area if this option is **undefined**. However, 
 #####See Also#####
 - [Fields and Areas](/concepts/05%20Widgets/PivotGrid/020%20Fields%20and%20Areas/Fields%20and%20Areas.md '/Documentation/Guide/Widgets/PivotGrid/Fields_and_Areas/')
 - **fields[]**.[isMeasure](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/isMeasure.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#isMeasure')
-- [getAreaFields(area, collectGroups)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#getAreaFieldsarea_collectGroups)
+- [getAreaFields(area, collectGroups)](/api-reference/30%20Data%20Layer/PivotGridDataSource/3%20Methods/getAreaFields(area_collectGroups).md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#getAreaFieldsarea_collectGroups')

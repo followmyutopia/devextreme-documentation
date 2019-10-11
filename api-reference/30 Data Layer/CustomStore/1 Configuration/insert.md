@@ -4,7 +4,7 @@ type: function(values)
 ---
 ---
 ##### shortDescription
-Specifies a custom implementation of the [insert(values)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#insertvalues) method.
+Specifies a custom implementation of the [insert(values)](/api-reference/30%20Data%20Layer/Store/3%20Methods/insert(values).md '/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#insertvalues') method.
 
 ##### param(values): Object
 The data item to be inserted.

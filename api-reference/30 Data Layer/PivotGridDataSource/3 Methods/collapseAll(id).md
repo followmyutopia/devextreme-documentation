@@ -76,5 +76,5 @@ The field's [name](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Conf
 ---
 
 #####See Also#####
-- [expandAll(id)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#expandAllid)
+- [expandAll(id)](/api-reference/30%20Data%20Layer/PivotGridDataSource/3%20Methods/expandAll(id).md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#expandAllid')
 - **fields[]**.[expanded](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/expanded.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#expanded')

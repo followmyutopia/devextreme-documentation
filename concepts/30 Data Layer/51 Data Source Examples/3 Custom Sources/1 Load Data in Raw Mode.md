@@ -10,7 +10,7 @@ Loading data in raw mode allows you to configure the CustomStore more easily. Yo
 
 Note that you are not required to implement the [byKey](/api-reference/30%20Data%20Layer/CustomStore/1%20Configuration/byKey.md '/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#byKey') and [totalCount](/api-reference/30%20Data%20Layer/CustomStore/1%20Configuration/totalCount.md '/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#totalCount') functions in raw mode, since they will be evaluated based on the results of the **load** function. If, however, you do implement them, your implementation will take precedence over the default one.
 
-Once loaded, data is stored in the cache. If you need to clear the cache at some point, call the [clearRawDataCache()](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#clearRawDataCache) method.
+Once loaded, data is stored in the cache. If you need to clear the cache at some point, call the [clearRawDataCache()](/api-reference/30%20Data%20Layer/CustomStore/3%20Methods/clearRawDataCache().md '/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#clearRawDataCache') method.
 
     <!--JavaScript-->
     store.clearRawDataCache();

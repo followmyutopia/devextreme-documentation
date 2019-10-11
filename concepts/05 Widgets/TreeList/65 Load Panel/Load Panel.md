@@ -40,7 +40,7 @@ The load panel is shown only for remote data sources by default. To show it rega
     
 ---
 
-You can also control the load panel programmatically using the [beginCustomLoading(messageText)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#beginCustomLoadingmessageText) and [endCustomLoading()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#endCustomLoading) methods.
+You can also control the load panel programmatically using the [beginCustomLoading(messageText)](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/beginCustomLoading(messageText).md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#beginCustomLoadingmessageText') and [endCustomLoading()](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/endCustomLoading().md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#endCustomLoading') methods.
 
 ---
 ##### jQuery

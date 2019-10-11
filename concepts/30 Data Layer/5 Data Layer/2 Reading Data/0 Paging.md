@@ -6,7 +6,7 @@ By default, the DataSource loads items by pages. Page size is determined by the 
         . . .
     });
 
-The current page index can be accessed and modified via the [pageIndex()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#pageIndex) and [pageIndex(newIndex)](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#pageIndexnewIndex) methods respectively. 
+The current page index can be accessed and modified via the [pageIndex()](/api-reference/30%20Data%20Layer/DataSource/3%20Methods/pageIndex().md '/Documentation/ApiReference/Data_Layer/DataSource/Methods/#pageIndex') and [pageIndex(newIndex)](/api-reference/30%20Data%20Layer/DataSource/3%20Methods/pageIndex(newIndex).md '/Documentation/ApiReference/Data_Layer/DataSource/Methods/#pageIndexnewIndex') methods respectively. 
 
     <!--JavaScript-->
     dataSource.pageIndex(1); // Switch to the next page

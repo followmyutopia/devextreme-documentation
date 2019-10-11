@@ -93,4 +93,4 @@ A Promise that is resolved after data is loaded. It is a <a href="https://develo
 ---
 
 #####See Also#####
-- [reload()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#reload)
+- [reload()](/api-reference/30%20Data%20Layer/DataSource/3%20Methods/reload().md '/Documentation/ApiReference/Data_Layer/DataSource/Methods/#reload')

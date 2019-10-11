@@ -18,6 +18,6 @@ Without a value, the widget cannot detect its format. In this case, specify the 
 
 - `"yyyy-MM-ddTHH:mm:ssx"` - date and time with a timezone
 
-This option applies only if the **forceIsoDateParsing** field is set to **true** in the [global configuration object](/Documentation/ApiReference/Common/utils/#configconfig).
+This option applies only if the **forceIsoDateParsing** field is set to **true** in the [global configuration object](/api-reference/50%20Common/utils/config(config).md '/Documentation/ApiReference/Common/utils/#configconfig').
 
 [note] If you are going to change the **value** using the API, make sure that it has the same format that you specified in this option.

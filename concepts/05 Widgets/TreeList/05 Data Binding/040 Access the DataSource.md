@@ -1,4 +1,4 @@
-Regardless of the data source you use, the **TreeList** always wraps it in the [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/'). To get a **DataSource** instance, call the [getDataSource()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#getDataSource) method.
+Regardless of the data source you use, the **TreeList** always wraps it in the [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/'). To get a **DataSource** instance, call the [getDataSource()](/api-reference/10%20UI%20Widgets/DataHelperMixin/3%20Methods/getDataSource().md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#getDataSource') method.
 
 ---
 ##### jQuery
@@ -31,7 +31,7 @@ Regardless of the data source you use, the **TreeList** always wraps it in the [
     
 ---
 
-You can now call [any method](/api-reference/30%20Data%20Layer/DataSource/3%20Methods/Methods.md '/Documentation/ApiReference/Data_Layer/DataSource/Methods/') exposed by the **DataSource**. For example, you can reload data using the [reload()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#reload) method.
+You can now call [any method](/api-reference/30%20Data%20Layer/DataSource/3%20Methods/Methods.md '/Documentation/ApiReference/Data_Layer/DataSource/Methods/') exposed by the **DataSource**. For example, you can reload data using the [reload()](/api-reference/30%20Data%20Layer/DataSource/3%20Methods/reload().md '/Documentation/ApiReference/Data_Layer/DataSource/Methods/#reload') method.
 
     <!--JavaScript-->
     ds.reload();

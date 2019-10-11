@@ -25,12 +25,12 @@ Navigation properties are usually deferred and are not loaded automatically toge
         expand: [ "Category" ]
     });
     
-The **expand** option is also supported by the [byKey](/Documentation/ApiReference/Data_Layer/ODataStore/Methods/#byKeykey_extraOptions) method.
+The **expand** option is also supported by the [byKey](/api-reference/30%20Data%20Layer/ODataStore/3%20Methods/byKey(key_extraOptions).md '/Documentation/ApiReference/Data_Layer/ODataStore/Methods/#byKeykey_extraOptions') method.
 
     <!--JavaScript-->
     context.Products.byKey(1, { expand: [ "Category" ] });
 
-Another task is updating a navigation property or inserting a new entity with a navigation property, in other words creating links between entities. To accomplish this, use the [objectLink(entityAlias, key)](/Documentation/ApiReference/Data_Layer/ODataContext/Methods/#objectLinkentityAlias_key) method of the ODataContext.
+Another task is updating a navigation property or inserting a new entity with a navigation property, in other words creating links between entities. To accomplish this, use the [objectLink(entityAlias, key)](/api-reference/30%20Data%20Layer/ODataContext/3%20Methods/objectLink(entityAlias_key).md '/Documentation/ApiReference/Data_Layer/ODataContext/Methods/#objectLinkentityAlias_key') method of the ODataContext.
 
 In the following example, the Category property of the Product entity with the key **1** is changed to the Category with the key **2**.
 

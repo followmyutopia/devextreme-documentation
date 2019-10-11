@@ -57,7 +57,7 @@ To handle the series selection event, assign a function to the [onSeriesSelectio
 		}
 	};
 
-The **onSeriesSelectionChanged** function accepts an object that contains information on the selection event. Among fields of this object, you can find the series whose selection state has been changed. An object that represents this series is described in the [Series](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/7%20Chart%20Elements/Series/Series.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/') section. Use the [isSelected()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#isHovered) method of this object to check the selection state of a series.
+The **onSeriesSelectionChanged** function accepts an object that contains information on the selection event. Among fields of this object, you can find the series whose selection state has been changed. An object that represents this series is described in the [Series](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/7%20Chart%20Elements/Series/Series.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/') section. Use the [isSelected()](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Series/3%20Methods/isHovered().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#isHovered') method of this object to check the selection state of a series.
 
 To clear the series selection, call the **clearSelection()** method of the series or the same method of the chart instance.
 

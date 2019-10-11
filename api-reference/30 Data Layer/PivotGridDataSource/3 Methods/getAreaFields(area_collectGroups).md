@@ -83,5 +83,5 @@ The default value is **false**.
 ---
 
 #####See Also#####
-- [fields()](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fields)
-- [field(id)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fieldid)
+- [fields()](/api-reference/30%20Data%20Layer/PivotGridDataSource/3%20Methods/fields().md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fields')
+- [field(id)](/api-reference/30%20Data%20Layer/PivotGridDataSource/3%20Methods/field(id).md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fieldid')

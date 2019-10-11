@@ -159,5 +159,5 @@ If the [retrieveFields](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%2
 
 #####See Also#####
 - [Fields and Areas](/concepts/05%20Widgets/PivotGrid/020%20Fields%20and%20Areas/Fields%20and%20Areas.md '/Documentation/Guide/Widgets/PivotGrid/Fields_and_Areas/')
-- [field(id)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fieldid) | [field(id, options)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fieldid_options)
-- [fields()](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fields) | [fields(fields)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fieldsfields)
+- [field(id)](/api-reference/30%20Data%20Layer/PivotGridDataSource/3%20Methods/field(id).md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fieldid') | [field(id, options)](/api-reference/30%20Data%20Layer/PivotGridDataSource/3%20Methods/field(id_options).md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fieldid_options')
+- [fields()](/api-reference/30%20Data%20Layer/PivotGridDataSource/3%20Methods/fields().md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fields') | [fields(fields)](/api-reference/30%20Data%20Layer/PivotGridDataSource/3%20Methods/fields(fields).md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fieldsfields')

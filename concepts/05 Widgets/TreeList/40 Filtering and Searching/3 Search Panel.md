@@ -46,7 +46,7 @@ To make the search panel visible, assign **true** to the [searchPanel](/api-refe
     
 ---
 
-Use the **searchPanel**.[text](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/searchPanel/text.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/searchPanel/#text') option to predefine the search value. You can also change it at runtime by calling the [searchByText(text)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#searchByTexttext) method:
+Use the **searchPanel**.[text](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/searchPanel/text.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/searchPanel/#text') option to predefine the search value. You can also change it at runtime by calling the [searchByText(text)](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/searchByText(text).md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#searchByTexttext') method:
 
 ---
 ##### jQuery

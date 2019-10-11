@@ -18,7 +18,7 @@ If you need to sort fields by summary values, change the field's [sortBySummaryF
         }
     };
     
-In this case, to sort the *"Region"* field by summary values, call the [field(id, options)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fieldid_options) as shown in the code below.
+In this case, to sort the *"Region"* field by summary values, call the [field(id, options)](/api-reference/30%20Data%20Layer/PivotGridDataSource/3%20Methods/field(id_options).md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fieldid_options') as shown in the code below.
 
     <!--JavaScript-->var pivotGridDataSource = pivotGridInstance.getDataSource();
     pivotGridDataSource.field("Region", {
@@ -35,4 +35,4 @@ The code snippet above will sort the *"Region"* field by [Grand Totals](/concept
     });
     pivotGridDataSource.load();
     
-[note]After you have made changes in a PivotGridDataSource, call its [load()](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#load) method to refresh data in the bound **PivotGrid**.
+[note]After you have made changes in a PivotGridDataSource, call its [load()](/api-reference/30%20Data%20Layer/PivotGridDataSource/3%20Methods/load().md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#load') method to refresh data in the bound **PivotGrid**.

@@ -4,7 +4,7 @@ type: function(key, values)
 ---
 ---
 ##### shortDescription
-Specifies a custom implementation of the [update(key, values)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#updatekey_values) method.
+Specifies a custom implementation of the [update(key, values)](/api-reference/30%20Data%20Layer/Store/3%20Methods/update(key_values).md '/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#updatekey_values') method.
 
 ##### param(key): Object | String | Number
 The key of the data item to be updated.

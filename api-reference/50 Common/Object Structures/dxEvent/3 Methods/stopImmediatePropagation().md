@@ -7,4 +7,4 @@ Stops the event's propagation up the DOM tree, preventing the rest of the handle
 
 ---
 #####See Also#####
-- [isImmediatePropagationStopped()](/Documentation/ApiReference/Common/Object_Structures/dxEvent/Methods/#isImmediatePropagationStopped)
+- [isImmediatePropagationStopped()](/api-reference/50%20Common/Object%20Structures/dxEvent/3%20Methods/isImmediatePropagationStopped().md '/Documentation/ApiReference/Common/Object_Structures/dxEvent/Methods/#isImmediatePropagationStopped')

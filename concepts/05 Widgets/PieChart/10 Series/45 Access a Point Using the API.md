@@ -1,4 +1,4 @@
-Before accessing a series point, gain access to its series by calling the [getAllSeries()](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Methods/#getAllSeries) method. You can call the [getSeriesByName(seriesName)](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Methods/#getSeriesByNameseriesName)  or [getSeriesByPos(seriesIndex)](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Methods/#getSeriesByPosseriesIndex) method as an alternative for multi-series **PieCharts**.
+Before accessing a series point, gain access to its series by calling the [getAllSeries()](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/3%20Methods/getAllSeries().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Methods/#getAllSeries') method. You can call the [getSeriesByName(seriesName)](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/3%20Methods/getSeriesByName(seriesName).md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Methods/#getSeriesByNameseriesName')  or [getSeriesByPos(seriesIndex)](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/3%20Methods/getSeriesByPos(seriesIndex).md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Methods/#getSeriesByPosseriesIndex') method as an alternative for multi-series **PieCharts**.
 
 ---
 ##### jQuery
@@ -32,7 +32,7 @@ Before accessing a series point, gain access to its series by calling the [getAl
 
 Use the following methods to access series points. All of them return one or several objects whose fields and methods are described in the API reference's [Point](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart/7%20Chart%20Elements/Point/Point.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Chart_Elements/Point/') section.
 
-- [getAllPoints()](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Chart_Elements/Series/Methods/#getAllPoints)        
+- [getAllPoints()](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Series/3%20Methods/getAllPoints().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Chart_Elements/Series/Methods/#getAllPoints')        
 Gets all the series points.
 
     ---
@@ -67,7 +67,7 @@ Gets all the series points.
 
     ---
 
-- [getPointsByArg(pointArg)](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Chart_Elements/Series/Methods/#getPointsByArgpointArg)      
+- [getPointsByArg(pointArg)](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Series/3%20Methods/getPointsByArg(pointArg).md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Chart_Elements/Series/Methods/#getPointsByArgpointArg')      
 Gets those series points that have a specific argument.
 
     ---
@@ -101,7 +101,7 @@ Gets those series points that have a specific argument.
 
     ---
 
-- [getPointByPos(positionIndex)](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Chart_Elements/Series/Methods/#getPointByPospositionIndex)          
+- [getPointByPos(positionIndex)](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Series/3%20Methods/getPointByPos(positionIndex).md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Chart_Elements/Series/Methods/#getPointByPospositionIndex')          
 Gets a point using its index. The index is zero-based.
 
     ---
@@ -135,8 +135,8 @@ Gets a point using its index. The index is zero-based.
 
     ---
 
-- [getVisiblePoints()](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Chart_Elements/Series/Methods/#getVisiblePoints)          
-Gets only [visible](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Chart_Elements/Point/Methods/#isVisible) series points.
+- [getVisiblePoints()](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart/7%20Chart%20Elements/Series/3%20Methods/getVisiblePoints().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Chart_Elements/Series/Methods/#getVisiblePoints')          
+Gets only [visible](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart/7%20Chart%20Elements/Point/3%20Methods/isVisible().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Chart_Elements/Point/Methods/#isVisible') series points.
 
     ---
     ##### jQuery

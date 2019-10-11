@@ -1,4 +1,4 @@
-Use the [addRow()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#addRow) method to add an empty row.
+Use the [addRow()](/api-reference/10%20UI%20Widgets/dxTreeList/3%20Methods/addRow().md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#addRow') method to add an empty row.
 
 ---
 ##### jQuery

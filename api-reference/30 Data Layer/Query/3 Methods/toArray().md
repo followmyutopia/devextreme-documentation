@@ -3,7 +3,7 @@ id: Query.toArray()
 ---
 ---
 ##### shortDescription
-Gets data items associated with the **Query**. This is a synchronous alternative to the [enumerate()](/Documentation/ApiReference/Data_Layer/Query/Methods/#enumerate) method.
+Gets data items associated with the **Query**. This is a synchronous alternative to the [enumerate()](/api-reference/30%20Data%20Layer/Query/3%20Methods/enumerate().md '/Documentation/ApiReference/Data_Layer/Query/Methods/#enumerate') method.
 
 ##### return: Array<any>
 The data items.

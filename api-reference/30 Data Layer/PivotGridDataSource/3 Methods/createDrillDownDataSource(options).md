@@ -29,7 +29,7 @@ A path to the cell with the summary value by rows.
 ---
 [note]
 
-Data in the drill-down data source is paginated by default. Only the items on the first page are loaded when you call the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method. To get all the items, turn the pagination off:
+Data in the drill-down data source is paginated by default. Only the items on the first page are loaded when you call the [load()](/api-reference/30%20Data%20Layer/DataSource/3%20Methods/load().md '/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load') method. To get all the items, turn the pagination off:
 
 ---
 ##### jQuery
@@ -148,4 +148,4 @@ Data in the drill-down data source is paginated by default. Only the items on th
 }
 
 #####See Also#####
-- [getData()](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#getData)
+- [getData()](/api-reference/30%20Data%20Layer/PivotGridDataSource/3%20Methods/getData().md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#getData')

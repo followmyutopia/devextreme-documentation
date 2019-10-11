@@ -2,7 +2,7 @@ Exposes an [object](/api-reference/50%20Common/utils/ui/themes/themes.md '/Docum
 
 Exports:
 
-- *current* - The [current()](/Documentation/ApiReference/Common/utils/ui/themes/#current) and [current(themeName)](/Documentation/ApiReference/Common/utils/ui/themes/#currentthemeName) methods
+- *current* - The [current()](/api-reference/50%20Common/utils/ui/themes/current().md '/Documentation/ApiReference/Common/utils/ui/themes/#current') and [current(themeName)](/api-reference/50%20Common/utils/ui/themes/current(themeName).md '/Documentation/ApiReference/Common/utils/ui/themes/#currentthemeName') methods
 
         require("ui/themes").current;
         // ===== or =====

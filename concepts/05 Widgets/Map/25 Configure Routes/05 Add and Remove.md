@@ -53,7 +53,7 @@ To add routes at design-time, pass an array of objects to the [routes](/api-refe
     url: "/Demos/WidgetsGallery/Demo/Map/Routes/jQuery/Light/"
 }
 
-To add or remove a route at runtime, call the [addRoute(routeOptions)](/Documentation/ApiReference/UI_Widgets/dxMap/Methods/#addRouterouteOptions) or [removeRoute(route)](/Documentation/ApiReference/UI_Widgets/dxMap/Methods/#removeRouteroute) method.
+To add or remove a route at runtime, call the [addRoute(routeOptions)](/api-reference/10%20UI%20Widgets/dxMap/3%20Methods/addRoute(routeOptions).md '/Documentation/ApiReference/UI_Widgets/dxMap/Methods/#addRouterouteOptions') or [removeRoute(route)](/api-reference/10%20UI%20Widgets/dxMap/3%20Methods/removeRoute(route).md '/Documentation/ApiReference/UI_Widgets/dxMap/Methods/#removeRouteroute') method.
 
     <!--JavaScript-->
     var routesCollection = [{

@@ -7,7 +7,7 @@ You can use a 3rd-party template engine, but only with jQuery. DevExtreme suppor
 - <a href="http://handlebarsjs.com/" target="_blank">Handlebars</a>
 - <a href="http://olado.github.io/doT/index.html" target="_blank">doT</a>
 
-To use one of them, pass its name to the [DevExpress.setTemplateEngine(name)](/Documentation/ApiReference/Common/Utils/#setTemplateEnginename) method:
+To use one of them, pass its name to the [DevExpress.setTemplateEngine(name)](/api-reference/50%20Common/utils/setTemplateEngine(name).md '/Documentation/ApiReference/Common/Utils/#setTemplateEnginename') method:
 
     <!--JavaScript-->
     DevExpress.setTemplateEngine("underscore");
@@ -29,4 +29,4 @@ To use one of them, pass its name to the [DevExpress.setTemplateEngine(name)](/D
     url: "/Demos/WidgetsGallery/Demo/List/Item3RdPartyEngineTemplate/jQuery/Light/"
 }
 
-You can also use other template engines, but you need to implement functions that compile and render templates in this case. See [DevExpress.setTemplateEngine(options)](/Documentation/ApiReference/Common/Utils/#setTemplateEngineoptions) for details.
+You can also use other template engines, but you need to implement functions that compile and render templates in this case. See [DevExpress.setTemplateEngine(options)](/api-reference/50%20Common/utils/setTemplateEngine(options).md '/Documentation/ApiReference/Common/Utils/#setTemplateEngineoptions') for details.

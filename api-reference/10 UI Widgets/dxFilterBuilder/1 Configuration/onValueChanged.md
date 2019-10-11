@@ -12,7 +12,7 @@ A function that is executed after the widget's [value](/api-reference/10%20UI%20
 Information about the event.
 
 ##### field(e.component): {WidgetName}
-The widget's [instance](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Methods/#instance).
+The widget's [instance](/api-reference/10%20UI%20Widgets/Component/3%20Methods/instance().md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Methods/#instance').
 
 ##### field(e.element): dxElement
 #include common-ref-elementparam with { element: "widget" }

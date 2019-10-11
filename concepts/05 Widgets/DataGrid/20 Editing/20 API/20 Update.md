@@ -1,4 +1,4 @@
-The [cellValue (rowIndex, visibleColumnIndex, value)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#cellValuerowIndex_visibleColumnIndex_value) method updates a cell's value. This cell can be located using its row and column indexes. If the cell's data field is known, you can pass it instead of the column index. After a value is updated, save it to the data source by calling the [saveEditData()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#saveEditData) method.
+The [cellValue (rowIndex, visibleColumnIndex, value)](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/cellValue(rowIndex_visibleColumnIndex_value).md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#cellValuerowIndex_visibleColumnIndex_value') method updates a cell's value. This cell can be located using its row and column indexes. If the cell's data field is known, you can pass it instead of the column index. After a value is updated, save it to the data source by calling the [saveEditData()](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/saveEditData().md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#saveEditData') method.
 
 ---
 ##### jQuery
@@ -106,7 +106,7 @@ The **DataGrid** widget allows you to process an updated cell value in the **col
     
 ---
 
-Call the [hasEditData()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#hasEditData) to check if there are any unsaved changes. You can save or cancel them using the [saveEditData()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#saveEditData) or [cancelEditData()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#cancelEditData) method, respectively.
+Call the [hasEditData()](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/hasEditData().md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#hasEditData') to check if there are any unsaved changes. You can save or cancel them using the [saveEditData()](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/saveEditData().md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#saveEditData') or [cancelEditData()](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/cancelEditData().md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#cancelEditData') method, respectively.
 
 ---
 ##### jQuery

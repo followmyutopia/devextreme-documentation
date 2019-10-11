@@ -16,7 +16,7 @@ Allows you to cancel the creation of the editor.
 Set it to **true** and implement a custom editor.
 
 ##### field(e.component): {WidgetName}
-The widget's [instance](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Methods/#instance).
+The widget's [instance](/api-reference/10%20UI%20Widgets/Component/3%20Methods/instance().md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Methods/#instance').
 
 ##### field(e.dataField): String
 The data field's name.

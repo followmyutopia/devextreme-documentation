@@ -1,4 +1,4 @@
-First, call the [select(getter)](/Documentation/ApiReference/Data_Layer/Query/Methods/#selectgetter) method to select the object field that provides numeric values if the **Query** is associated with an array of objects, or use the [${{summary}}(getter)](/Documentation/ApiReference/Data_Layer/Query/Methods/#${{summary}}getter) method instead of **${{summary}}()**.
+First, call the [select(getter)](/api-reference/30%20Data%20Layer/Query/3%20Methods/select(getter).md '/Documentation/ApiReference/Data_Layer/Query/Methods/#selectgetter') method to select the object field that provides numeric values if the **Query** is associated with an array of objects, or use the [${{summary}}(getter)](/Documentation/ApiReference/Data_Layer/Query/Methods/#${{summary}}getter) method instead of **${{summary}}()**.
 
 ---
 ##### jQuery

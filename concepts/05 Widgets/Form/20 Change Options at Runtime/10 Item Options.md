@@ -1,4 +1,4 @@
-To change a single item option at runtime, call the [itemOption(id, option, value)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#itemOptionid_option_value) method.  This approach is more typical of jQuery. If the needed item is [in a group](/concepts/05%20Widgets/Form/10%20Organize%20Simple%20Items/05%20In%20Groups/In%20Groups.md '/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Groups/') or [in a tab](/concepts/05%20Widgets/Form/10%20Organize%20Simple%20Items/10%20In%20Tabs/In%20Tabs.md '/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Tabs/'), the *field* parameter should be given the group caption or tab title followed by the item's name. An example is shown below.
+To change a single item option at runtime, call the [itemOption(id, option, value)](/api-reference/10%20UI%20Widgets/dxForm/3%20Methods/itemOption(id_option_value).md '/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#itemOptionid_option_value') method.  This approach is more typical of jQuery. If the needed item is [in a group](/concepts/05%20Widgets/Form/10%20Organize%20Simple%20Items/05%20In%20Groups/In%20Groups.md '/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Groups/') or [in a tab](/concepts/05%20Widgets/Form/10%20Organize%20Simple%20Items/10%20In%20Tabs/In%20Tabs.md '/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Tabs/'), the *field* parameter should be given the group caption or tab title followed by the item's name. An example is shown below.
 
     <!--JavaScript-->
     $(function() {
@@ -25,7 +25,7 @@ To change a single item option at runtime, call the [itemOption(id, option, valu
         });
     });
 
-To change several options at a time, pass an object to the [itemOption(id, options)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#itemOptionid_options) method.
+To change several options at a time, pass an object to the [itemOption(id, options)](/api-reference/10%20UI%20Widgets/dxForm/3%20Methods/itemOption(id_options).md '/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#itemOptionid_options') method.
 Being called with the *field* parameter only, this method returns the current configuration of the specified form item.
 
     <!--JavaScript-->

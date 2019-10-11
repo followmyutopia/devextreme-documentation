@@ -1,4 +1,4 @@
-To change the [Form configuration](/api-reference/10%20UI%20Widgets/dxForm/1%20Configuration/Configuration.md '/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/') at runtime, call the [option(optionName, optionValue)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#optionoptionName_optionValue) method. This approach is more typical of jQuery.
+To change the [Form configuration](/api-reference/10%20UI%20Widgets/dxForm/1%20Configuration/Configuration.md '/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/') at runtime, call the [option(optionName, optionValue)](/api-reference/10%20UI%20Widgets/Component/3%20Methods/option(optionName_optionValue).md '/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#optionoptionName_optionValue') method. This approach is more typical of jQuery.
 
     <!--JavaScript-->
     $(function() {

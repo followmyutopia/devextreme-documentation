@@ -47,7 +47,7 @@ To add markers at design-time, pass an array of objects to the [markers](/api-re
     url: "/Demos/WidgetsGallery/Demo/Map/Markers/jQuery/Light/"
 }
 
-To add or remove a marker at runtime, call the [addMarker(markerOptions)](/Documentation/ApiReference/UI_Widgets/dxMap/Methods/#addMarkermarkerOptions) or [removeMarker(marker)](/Documentation/ApiReference/UI_Widgets/dxMap/Methods/#removeMarkermarker) method.
+To add or remove a marker at runtime, call the [addMarker(markerOptions)](/api-reference/10%20UI%20Widgets/dxMap/3%20Methods/addMarker(markerOptions).md '/Documentation/ApiReference/UI_Widgets/dxMap/Methods/#addMarkermarkerOptions') or [removeMarker(marker)](/api-reference/10%20UI%20Widgets/dxMap/3%20Methods/removeMarker(marker).md '/Documentation/ApiReference/UI_Widgets/dxMap/Methods/#removeMarkermarker') method.
 
     <!--JavaScript-->
     var markersCollection = [

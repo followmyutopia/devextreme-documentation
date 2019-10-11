@@ -24,7 +24,7 @@ The following parameters are passed to the **handler**:
 The event that caused the handler's execution.
 
 - **extraParameters**: <a href="https://www.w3schools.com/js/js_objects.asp" target="_blank">Object</a>  
-Data passed as **extraParameters** to the [trigger(element, event, extraParameters)](/Documentation/ApiReference/Common/utils/events/#triggerelement_event_extraParameters) method when it is called to trigger the event.
+Data passed as **extraParameters** to the [trigger(element, event, extraParameters)](/api-reference/50%20Common/utils/events/trigger(element_event_extraParameters).md '/Documentation/ApiReference/Common/utils/events/#triggerelement_event_extraParameters') method when it is called to trigger the event.
 
 <!----->
 

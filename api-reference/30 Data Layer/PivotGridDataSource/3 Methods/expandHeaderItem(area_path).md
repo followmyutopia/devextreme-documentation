@@ -83,5 +83,5 @@ A path to the header item.
 ---
 
 #####See Also#####
-- [collapseHeaderItem(area, path)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#collapseHeaderItemarea_path)
+- [collapseHeaderItem(area, path)](/api-reference/30%20Data%20Layer/PivotGridDataSource/3%20Methods/collapseHeaderItem(area_path).md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#collapseHeaderItemarea_path')
 - **fields[]**.[expanded](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/expanded.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#expanded')

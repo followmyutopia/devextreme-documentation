@@ -1,4 +1,4 @@
-Regardless of the data source you use, the **List** always wraps it in the [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/'). To get the instance of the **DataSource**, call the [getDataSource()](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#getDataSource) method.
+Regardless of the data source you use, the **List** always wraps it in the [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/'). To get the instance of the **DataSource**, call the [getDataSource()](/api-reference/10%20UI%20Widgets/DataHelperMixin/3%20Methods/getDataSource().md '/Documentation/ApiReference/UI_Widgets/dxList/Methods/#getDataSource') method.
 
 ---
 ##### jQuery
@@ -30,7 +30,7 @@ Regardless of the data source you use, the **List** always wraps it in the [Data
     
 ---
 
-Now, you can call [any method](/api-reference/30%20Data%20Layer/DataSource/3%20Methods/Methods.md '/Documentation/ApiReference/Data_Layer/DataSource/Methods/') exposed by the **DataSource**. For example, you can reload data using the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method.
+Now, you can call [any method](/api-reference/30%20Data%20Layer/DataSource/3%20Methods/Methods.md '/Documentation/ApiReference/Data_Layer/DataSource/Methods/') exposed by the **DataSource**. For example, you can reload data using the [load()](/api-reference/30%20Data%20Layer/DataSource/3%20Methods/load().md '/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load') method.
 
     <!--JavaScript-->listDataSource.load();
 

@@ -83,5 +83,5 @@ A path to the header item.
 ---
 
 #####See Also#####
-- [expandHeaderItem(area, path)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#expandHeaderItemarea_path)
+- [expandHeaderItem(area, path)](/api-reference/30%20Data%20Layer/PivotGridDataSource/3%20Methods/expandHeaderItem(area_path).md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#expandHeaderItemarea_path')
 - **fields[]**.[expanded](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/expanded.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#expanded')

@@ -21,7 +21,7 @@ Optional settings.
 
 ##### field(options.baseColorSet): 'simpleSet' | 'indicatingSet' | 'gradientSet'
 The color set that provides the colors. The default value is *"simpleSet"*.        
-See [getPalette(paletteName)](/Documentation/ApiReference/Common/utils/viz/#getPalettepaletteName) for more information.
+See [getPalette(paletteName)](/api-reference/50%20Common/utils/viz/getPalette(paletteName).md '/Documentation/ApiReference/Common/utils/viz/#getPalettepaletteName') for more information.
 
 ##### field(options.paletteExtensionMode): 'alternate' | 'blend' | 'extrapolate'
 The mode in which the palette should be extended when it contains less colors than specified in the **count** parameter. The default value is *"blend"*.    

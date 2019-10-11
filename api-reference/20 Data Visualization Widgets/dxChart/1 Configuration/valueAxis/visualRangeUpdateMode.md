@@ -23,4 +23,4 @@ When the visual range is specified, the applied mode changes depending on the ar
     - if *"keep"*, then *"keep"*.
 
 #####See Also#####
-- **Axis**.[visualRange()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Axis/Methods/#visualRange)
+- **Axis**.[visualRange()](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/7%20Chart%20Elements/Axis/3%20Methods/visualRange().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Axis/Methods/#visualRange')

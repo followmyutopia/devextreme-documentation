@@ -9,7 +9,7 @@ default: 'allPages'
 Specifies the mode in which all the records are selected. Applies only if **selection**.[allowSelectAll](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/selection/allowSelectAll.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#allowSelectAll') is **true**.
 
 ---
-**selectAllMode** specifies how records should be selected on clicking the ["Select All" check box](/concepts/05%20Widgets/DataGrid/50%20Selection/10%20User%20Interaction.md '/Documentation/Guide/Widgets/DataGrid/Selection/#User_Interaction') and by calling the [selectAll()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#selectAll)/[deselectAll()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#deselectAll) methods. The following modes are available.
+**selectAllMode** specifies how records should be selected on clicking the ["Select All" check box](/concepts/05%20Widgets/DataGrid/50%20Selection/10%20User%20Interaction.md '/Documentation/Guide/Widgets/DataGrid/Selection/#User_Interaction') and by calling the [selectAll()](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/selectAll().md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#selectAll')/[deselectAll()](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/deselectAll().md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#deselectAll') methods. The following modes are available.
 
 - *"page"*  
  Selects records on currently rendered pages.       

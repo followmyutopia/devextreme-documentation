@@ -26,4 +26,4 @@ The selected/deselected layer element; described in the [Layer Element](/api-ref
 ##### notUsedInTheme
 
 ---
-To identify whether the selection has been applied or canceled, call the layer element's [selected()](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element/Methods/#selected) method.
+To identify whether the selection has been applied or canceled, call the layer element's [selected()](/api-reference/20%20Data%20Visualization%20Widgets/dxVectorMap/7%20Map%20Elements/Layer%20Element/3%20Methods/selected().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element/Methods/#selected') method.

@@ -76,5 +76,5 @@ The field's [name](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Conf
 ---
 
 #####See Also#####
-- [collapseAll(id)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#collapseAllid)
+- [collapseAll(id)](/api-reference/30%20Data%20Layer/PivotGridDataSource/3%20Methods/collapseAll(id).md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#collapseAllid')
 - **fields[]**.[expanded](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/expanded.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#expanded')

@@ -15,7 +15,7 @@ A getter; in most cases, the name of the data field to sort by.
 Pass **true** to sort in descending order, **false** or nothing to sort in ascending order.
 
 ---
-This method can only follow the [sortBy(getter)](/Documentation/ApiReference/Data_Layer/Query/Methods/#sortBygetter), [sortBy(getter, desc)](/Documentation/ApiReference/Data_Layer/Query/Methods/#sortBygetter_desc), [thenBy(getter)](/Documentation/ApiReference/Data_Layer/Query/Methods/#thenBygetter), or another **thenBy(getter, desc)** method call.
+This method can only follow the [sortBy(getter)](/api-reference/30%20Data%20Layer/Query/3%20Methods/sortBy(getter).md '/Documentation/ApiReference/Data_Layer/Query/Methods/#sortBygetter'), [sortBy(getter, desc)](/api-reference/30%20Data%20Layer/Query/3%20Methods/sortBy(getter_desc).md '/Documentation/ApiReference/Data_Layer/Query/Methods/#sortBygetter_desc'), [thenBy(getter)](/api-reference/30%20Data%20Layer/Query/3%20Methods/thenBy(getter).md '/Documentation/ApiReference/Data_Layer/Query/Methods/#thenBygetter'), or another **thenBy(getter, desc)** method call.
 
 ---
 ##### jQuery

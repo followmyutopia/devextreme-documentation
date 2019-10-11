@@ -26,4 +26,4 @@ The series whose selection state has been changed.
 ##### notUsedInTheme
 
 ---
-To identify whether the selection has been applied or canceled, call the series' [isSelected()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#isSelected) method.
+To identify whether the selection has been applied or canceled, call the series' [isSelected()](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Series/3%20Methods/isSelected().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#isSelected') method.

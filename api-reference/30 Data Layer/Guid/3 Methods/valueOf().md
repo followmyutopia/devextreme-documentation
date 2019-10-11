@@ -3,7 +3,7 @@ id: Guid.valueOf()
 ---
 ---
 ##### shortDescription
-Gets the GUID. Works identically to the [toString()](/Documentation/ApiReference/Data_Layer/Guid/Methods/#toString) method.
+Gets the GUID. Works identically to the [toString()](/api-reference/30%20Data%20Layer/Guid/3%20Methods/toString().md '/Documentation/ApiReference/Data_Layer/Guid/Methods/#toString') method.
 
 ##### return: String
 The GUID.

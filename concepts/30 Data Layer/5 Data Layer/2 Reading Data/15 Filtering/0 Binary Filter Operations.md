@@ -4,7 +4,7 @@ To specify a binary filter operation, use an array containing the following item
 2. The comparison operator. The available operators are: **"="**, **"<>"**, **">"**, **">="**, **"<"**, **"<="**, **"startswith"**, **"endswith"**, **"contains"**, **"notcontains"**.
 3. The value to which the getter value is compared.
 
-To specify filtering conditions, call the [filter(filterExpr)](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#filterfilterExpr) method of the DataSource. If a filter expression consists of a single binary operation, you can either pass an array of the items described above, or you can pass those items as separate arguments.
+To specify filtering conditions, call the [filter(filterExpr)](/api-reference/30%20Data%20Layer/DataSource/3%20Methods/filter(filterExpr).md '/Documentation/ApiReference/Data_Layer/DataSource/Methods/#filterfilterExpr') method of the DataSource. If a filter expression consists of a single binary operation, you can either pass an array of the items described above, or you can pass those items as separate arguments.
 
     <!--JavaScript-->dataSource.filter("value", ">", 3);
     dataSource.load().done(function(result) {

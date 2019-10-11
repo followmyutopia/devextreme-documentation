@@ -1,4 +1,4 @@
-To select or cancel the selection of a node programmatically, call the [selectItem(itemElement)](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#selectItemitemElement) or [unselectItem(itemElement)](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#unselectItemitemElement) method passing the key of the node as a parameter.
+To select or cancel the selection of a node programmatically, call the [selectItem(itemElement)](/api-reference/10%20UI%20Widgets/dxTreeView/3%20Methods/selectItem(itemElement).md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#selectItemitemElement') or [unselectItem(itemElement)](/api-reference/10%20UI%20Widgets/dxTreeView/3%20Methods/unselectItem(itemElement).md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#unselectItemitemElement') method passing the key of the node as a parameter.
 
 ---
 ##### jQuery
@@ -33,7 +33,7 @@ To select or cancel the selection of a node programmatically, call the [selectIt
     
 ---
 
-To select or cancel the selection of all nodes programmatically, call the [selectAll()](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#selectAll) or [unselectAll()](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#unselectAll) method.
+To select or cancel the selection of all nodes programmatically, call the [selectAll()](/api-reference/10%20UI%20Widgets/dxTreeView/3%20Methods/selectAll().md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#selectAll') or [unselectAll()](/api-reference/10%20UI%20Widgets/dxTreeView/3%20Methods/unselectAll().md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#unselectAll') method.
 
 ---
 ##### jQuery

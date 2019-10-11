@@ -1,4 +1,4 @@
-You can validate any group by calling its [validate()](/Documentation/ApiReference/UI_Widgets/dxValidator/Methods/#validate) method in a [Button](/api-reference/10%20UI%20Widgets/dxButton/dxButton.md '/Documentation/ApiReference/UI_Widgets/dxButton/')'s [onClick](/api-reference/10%20UI%20Widgets/dxButton/1%20Configuration/onClick.md '/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#onClick') event handler. You can access the **Validation Group** via the handler's argument. The **Button** always validates the group to which it belongs. If the membership is not specified, the **Button** validates the **Default Validation Group**.
+You can validate any group by calling its [validate()](/api-reference/10%20UI%20Widgets/dxValidator/3%20Methods/validate().md '/Documentation/ApiReference/UI_Widgets/dxValidator/Methods/#validate') method in a [Button](/api-reference/10%20UI%20Widgets/dxButton/dxButton.md '/Documentation/ApiReference/UI_Widgets/dxButton/')'s [onClick](/api-reference/10%20UI%20Widgets/dxButton/1%20Configuration/onClick.md '/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#onClick') event handler. You can access the **Validation Group** via the handler's argument. The **Button** always validates the group to which it belongs. If the membership is not specified, the **Button** validates the **Default Validation Group**.
 
 ---
 
@@ -285,7 +285,7 @@ You can validate any group by calling its [validate()](/Documentation/ApiReferen
 
 ---
 
-Alternatively, you can validate a group using the [DevExpress.validationEngine.validateGroup](/Documentation/ApiReference/Common/utils/validationEngine/#validateGroup) method. Call it without arguments to validate the **Default Validation Group**:
+Alternatively, you can validate a group using the [DevExpress.validationEngine.validateGroup](/api-reference/50%20Common/utils/validationEngine/validateGroup().md '/Documentation/ApiReference/Common/utils/validationEngine/#validateGroup') method. Call it without arguments to validate the **Default Validation Group**:
 
     <!--JavaScript-->DevExpress.validationEngine.validateGroup();
 

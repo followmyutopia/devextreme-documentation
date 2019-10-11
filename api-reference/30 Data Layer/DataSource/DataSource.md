@@ -100,7 +100,7 @@ dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
 
 ---
 
-[note] If you create a **DataSource** instance outside a widget (as shown above), make sure to [dispose](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#dispose) of it when it is no longer required. If the instance is created inside a widget, it is disposed of automatically.
+[note] If you create a **DataSource** instance outside a widget (as shown above), make sure to [dispose](/api-reference/30%20Data%20Layer/DataSource/3%20Methods/dispose().md '/Documentation/ApiReference/Data_Layer/DataSource/Methods/#dispose') of it when it is no longer required. If the instance is created inside a widget, it is disposed of automatically.
 
 Refer to the [Data Layer](/concepts/30%20Data%20Layer/5%20Data%20Layer/Data%20Layer.md '/Documentation/Guide/Data_Layer/Data_Layer/') and [DataSource Examples](/concepts/30%20Data%20Layer/51%20Data%20Source%20Examples/Data%20Source%20Examples.md '/Documentation/Guide/Data_Layer/Data_Source_Examples/') articles for more information on working with data in DevExtreme.
 

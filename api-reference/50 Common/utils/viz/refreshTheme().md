@@ -9,5 +9,5 @@ Refreshes the current theme and palette in all data visualization widgets on the
 
 ---
 #####See Also#####
-- [DevExpress.viz.currentPalette(paletteName)](/Documentation/ApiReference/Common/utils/viz/#currentPalettepaletteName)
-- [DevExpress.viz.currentTheme(theme)](/Documentation/ApiReference/Common/utils/viz/#currentThemetheme)
+- [DevExpress.viz.currentPalette(paletteName)](/api-reference/50%20Common/utils/viz/currentPalette(paletteName).md '/Documentation/ApiReference/Common/utils/viz/#currentPalettepaletteName')
+- [DevExpress.viz.currentTheme(theme)](/api-reference/50%20Common/utils/viz/currentTheme(theme).md '/Documentation/ApiReference/Common/utils/viz/#currentThemetheme')

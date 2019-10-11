@@ -22,7 +22,7 @@ The cell [properties](/api-reference/10%20UI%20Widgets/dxPivotGrid/6%20Pivot%20G
 The position of a cell's column.
 
 ##### field(e.component): {WidgetName}
-The widget [instance](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Methods/#instance).
+The widget [instance](/api-reference/10%20UI%20Widgets/Component/3%20Methods/instance().md '/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Methods/#instance').
 
 ##### field(e.element): dxElement
 #include common-ref-elementparam with { element: "widget" }

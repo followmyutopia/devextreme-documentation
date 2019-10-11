@@ -4,7 +4,7 @@ type: function(loadOptions)
 ---
 ---
 ##### shortDescription
-Specifies a custom implementation of the [totalCount(options)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#totalCountoptions) method.
+Specifies a custom implementation of the [totalCount(options)](/api-reference/30%20Data%20Layer/Store/3%20Methods/totalCount(options).md '/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#totalCountoptions') method.
 
 ##### param(loadOptions): Object
 Filtering and grouping settings.

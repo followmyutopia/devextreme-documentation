@@ -1,4 +1,4 @@
-Set a column's [groupIndex](/api-reference/_hidden/dxDataGridColumn/groupIndex.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#groupIndex') to **undefined** using the [columnOption(id, optionName, optionValue)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#columnOptionid_optionName_optionValue) method to ungroup data by this column.
+Set a column's [groupIndex](/api-reference/_hidden/dxDataGridColumn/groupIndex.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#groupIndex') to **undefined** using the [columnOption(id, optionName, optionValue)](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/columnOption(id_optionName_optionValue).md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#columnOptionid_optionName_optionValue') method to ungroup data by this column.
 
 ---
 
@@ -32,7 +32,7 @@ Set a column's [groupIndex](/api-reference/_hidden/dxDataGridColumn/groupIndex.m
 
 ---
 
-You can ungroup data by all columns at once using the [clearGrouping()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#clearGrouping) method.
+You can ungroup data by all columns at once using the [clearGrouping()](/api-reference/10%20UI%20Widgets/dxDataGrid/3%20Methods/clearGrouping().md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#clearGrouping') method.
 
 ---
 

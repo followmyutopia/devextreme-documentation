@@ -1,6 +1,6 @@
 [note] In this article, the [Button](/concepts/05%20Widgets/Button/00%20Overview.md '/Documentation/Guide/Widgets/Button/Overview/') widget is used to demonstrate how to show and hide the **Popover**. This choice is made for purely demonstrational purposes, and you can do the same operations using another widget following the same guidelines.
 
-To show or hide the **Popover** programmatically, call the [show()](/Documentation/ApiReference/UI_Widgets/dxPopover/Methods/#show) or [hide()](/Documentation/ApiReference/UI_Widgets/dxPopover/Methods/#hide) method. The same thing can be done using the [toggle(showing)](/Documentation/ApiReference/UI_Widgets/dxPopover/Methods/#toggleshowing) method. Pass **true** or **false** to this method to show or hide the **Popover**, respectively. This approach is more typical of jQuery and ASP.NET MVC Controls.
+To show or hide the **Popover** programmatically, call the [show()](/api-reference/10%20UI%20Widgets/dxOverlay/3%20Methods/show().md '/Documentation/ApiReference/UI_Widgets/dxPopover/Methods/#show') or [hide()](/api-reference/10%20UI%20Widgets/dxOverlay/3%20Methods/hide().md '/Documentation/ApiReference/UI_Widgets/dxPopover/Methods/#hide') method. The same thing can be done using the [toggle(showing)](/api-reference/10%20UI%20Widgets/dxOverlay/3%20Methods/toggle(showing).md '/Documentation/ApiReference/UI_Widgets/dxPopover/Methods/#toggleshowing') method. Pass **true** or **false** to this method to show or hide the **Popover**, respectively. This approach is more typical of jQuery and ASP.NET MVC Controls.
 
 ---
 ##### jQuery 
@@ -76,7 +76,7 @@ To show or hide the **Popover** programmatically, call the [show()](/Documentati
 
 ---
 
-The **show()** method called without arguments shows the **Popover** for the [target specified beforehand](/api-reference/10%20UI%20Widgets/dxPopover/1%20Configuration/target.md '/Documentation/ApiReference/UI_Widgets/dxPopover/Configuration/#target'). If you need to change the target once, call the [show(target)](/Documentation/ApiReference/UI_Widgets/dxPopover/Methods/#showtarget) method.
+The **show()** method called without arguments shows the **Popover** for the [target specified beforehand](/api-reference/10%20UI%20Widgets/dxPopover/1%20Configuration/target.md '/Documentation/ApiReference/UI_Widgets/dxPopover/Configuration/#target'). If you need to change the target once, call the [show(target)](/api-reference/10%20UI%20Widgets/dxPopover/3%20Methods/show(target).md '/Documentation/ApiReference/UI_Widgets/dxPopover/Methods/#showtarget') method.
 
 ---
 ##### jQuery 

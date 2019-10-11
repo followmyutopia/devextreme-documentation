@@ -88,11 +88,11 @@ You can pass `grandTotalRowIndex` and `grandTotalColumnIndex` as row index and c
     
 [note]
 
-If you use the [XmlaStore](/api-reference/30%20Data%20Layer/XmlaStore/XmlaStore.md '/Documentation/ApiReference/Data_Layer/XmlaStore/') and your data area is empty, this method returns **the default measure values**. They are hidden from the UI until you place the default measure in the data area using the [field(id, options)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fieldid_options) method. The default measure is specified on the OLAP server.
+If you use the [XmlaStore](/api-reference/30%20Data%20Layer/XmlaStore/XmlaStore.md '/Documentation/ApiReference/Data_Layer/XmlaStore/') and your data area is empty, this method returns **the default measure values**. They are hidden from the UI until you place the default measure in the data area using the [field(id, options)](/api-reference/30%20Data%20Layer/PivotGridDataSource/3%20Methods/field(id_options).md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fieldid_options') method. The default measure is specified on the OLAP server.
 
     <!--JavaScript-->pivotGridDataSource.field(/* measure name */, { area: "data" });
 
 [/note]
 
 #####See Also#####
-- [createDrillDownDataSource(options)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#createDrillDownDataSourceoptions)
+- [createDrillDownDataSource(options)](/api-reference/30%20Data%20Layer/PivotGridDataSource/3%20Methods/createDrillDownDataSource(options).md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#createDrillDownDataSourceoptions')

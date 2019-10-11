@@ -11,5 +11,5 @@ The first axis from the [valueAxis](/api-reference/20%20Data%20Visualization%20W
 
 ---
 #####See Also#####
-- [getArgumentAxis()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#getArgumentAxis)
-- **Series**.[getValueAxis()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#getValueAxis)
+- [getArgumentAxis()](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/3%20Methods/getArgumentAxis().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#getArgumentAxis')
+- **Series**.[getValueAxis()](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/7%20Chart%20Elements/Series/3%20Methods/getValueAxis().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#getValueAxis')

@@ -24,4 +24,4 @@ To register the rules that are defined within the **dxValidator** objects, call 
 
     <!--JavaScript-->DevExpress.validationEngine.registerModelForValidation(viewModel);
 
-To validate the rules that are defined within the **dxValidator** objects, call the [DevExpress.validationEngine.validateModel(model)](/Documentation/ApiReference/Common/utils/validationEngine/#validateModelmodel) function passing the ViewModel object as a parameter.
+To validate the rules that are defined within the **dxValidator** objects, call the [DevExpress.validationEngine.validateModel(model)](/api-reference/50%20Common/utils/validationEngine/validateModel(model).md '/Documentation/ApiReference/Common/utils/validationEngine/#validateModelmodel') function passing the ViewModel object as a parameter.

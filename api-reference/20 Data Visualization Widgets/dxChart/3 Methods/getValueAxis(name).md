@@ -13,4 +13,4 @@ A value axis's name.
 
 ---
 #####See Also#####
-- [getArgumentAxis()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#getArgumentAxis)
+- [getArgumentAxis()](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/3%20Methods/getArgumentAxis().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#getArgumentAxis')

@@ -97,7 +97,7 @@ The **HtmlEditor** supports the following features:
 - Inline, block, and embedded [formats](/concepts/05%20Widgets/HtmlEditor/10%20Formats/10%20Formats.md '/Documentation/Guide/Widgets/HtmlEditor/Formats/') 
 - [Adaptive toolbar](/concepts/05%20Widgets/HtmlEditor/20%20Toolbar/00%20Predefined%20Items/00%20Predefined%20Items.md '/Documentation/Guide/Widgets/HtmlEditor/Toolbar/Predefined_Items/') 
 - [Built-in formats' and modules' extension](/concepts/05%20Widgets/HtmlEditor/10%20Formats/33%20Customize%20Built-In%20Formats%20and%20Modules/Customize%20Built-In%20Formats%20and%20Modules.md '/Documentation/Guide/Widgets/HtmlEditor/Formats/#Customize_Built-In_Formats_and_Modules')
-- [Custom formats and modules](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Methods/#getcomponentPath)
+- [Custom formats and modules](/api-reference/10%20UI%20Widgets/dxHtmlEditor/3%20Methods/get(componentPath).md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Methods/#getcomponentPath')
 - [Mail-merge placeholders](/api-reference/10%20UI%20Widgets/dxHtmlEditor/1%20Configuration/variables/variables.md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/variables/') (for example, %username%)
 - Drag-and-drop images
 - Copy-paste rich content (unsupported formats are removed)

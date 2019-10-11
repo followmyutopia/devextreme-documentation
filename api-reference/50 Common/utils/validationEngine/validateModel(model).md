@@ -23,7 +23,7 @@ To specify validation rules for ViewModel fields, extend the latter with the **d
         //...
     }
 
-To register the rules that are defined within the **dxValidator** objects, call the [DevExpress.validationEngine.registerModelForValidation(model)](/Documentation/ApiReference/Common/utils/validationEngine/#registerModelForValidationmodel) function passing the ViewModel object as a parameter.
+To register the rules that are defined within the **dxValidator** objects, call the [DevExpress.validationEngine.registerModelForValidation(model)](/api-reference/50%20Common/utils/validationEngine/registerModelForValidation(model).md '/Documentation/ApiReference/Common/utils/validationEngine/#registerModelForValidationmodel') function passing the ViewModel object as a parameter.
 
     <!--JavaScript-->DevExpress.validationEngine.registerModelForValidation(viewModel);
 

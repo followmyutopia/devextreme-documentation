@@ -99,7 +99,7 @@ The **TextBox** raises four keyboard events: [keyDown](/api-reference/10%20UI%20
 
 ---
 
-If you are going to change the handling functions at runtime, or if you need to attach several functions to a single event, use the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxTextBox/Methods/#oneventName_eventHandler) method. This approach is more typical of jQuery.
+If you are going to change the handling functions at runtime, or if you need to attach several functions to a single event, use the [on(eventName, eventHandler)](/api-reference/10%20UI%20Widgets/EventsMixin/3%20Methods/on(eventName_eventHandler).md '/Documentation/ApiReference/UI_Widgets/dxTextBox/Methods/#oneventName_eventHandler') method. This approach is more typical of jQuery.
 
     <!--JavaScript-->
     var keyDownHandler1 = function (e) {
@@ -116,7 +116,7 @@ If you are going to change the handling functions at runtime, or if you need to 
         .on("keyDown", keyDownHandler1)
         .on("keyDown", keyDownHandler2);
 
-You can also implement handlers for other keys using the [registerKeyHandler(key, handler)](/Documentation/ApiReference/UI_Widgets/dxTextBox/Methods/#registerKeyHandlerkey_handler) method.
+You can also implement handlers for other keys using the [registerKeyHandler(key, handler)](/api-reference/10%20UI%20Widgets/Widget/3%20Methods/registerKeyHandler(key_handler).md '/Documentation/ApiReference/UI_Widgets/dxTextBox/Methods/#registerKeyHandlerkey_handler') method.
 
 ---
 ##### jQuery

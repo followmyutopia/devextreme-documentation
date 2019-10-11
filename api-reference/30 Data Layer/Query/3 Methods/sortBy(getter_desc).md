@@ -135,7 +135,7 @@ Pass **true** to sort in descending order, **false** or nothing to sort in ascen
 
 ---
 
-Call the [thenBy(getter)](/Documentation/ApiReference/Data_Layer/Query/Methods/#thenBygetter) or [thenBy(getter, desc)](/Documentation/ApiReference/Data_Layer/Query/Methods/#thenBygetter_desc) method after **sortBy** to sort data items by one more getter. 
+Call the [thenBy(getter)](/api-reference/30%20Data%20Layer/Query/3%20Methods/thenBy(getter).md '/Documentation/ApiReference/Data_Layer/Query/Methods/#thenBygetter') or [thenBy(getter, desc)](/api-reference/30%20Data%20Layer/Query/3%20Methods/thenBy(getter_desc).md '/Documentation/ApiReference/Data_Layer/Query/Methods/#thenBygetter_desc') method after **sortBy** to sort data items by one more getter. 
 
 #####See Also#####
 - [Sorting](/concepts/30%20Data%20Layer/5%20Data%20Layer/2%20Reading%20Data/1%20Sorting.md '/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Sorting')

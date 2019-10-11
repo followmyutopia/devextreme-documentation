@@ -91,7 +91,7 @@ A Promise that is resolved after data is loaded. It is a <a href="https://develo
 
 ---
 
-The Promise returned from this method is extended with the **operationId** field which you can use to cancel the invoked operation. See [cancel(operationId)](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#canceloperationId) for details.
+The Promise returned from this method is extended with the **operationId** field which you can use to cancel the invoked operation. See [cancel(operationId)](/api-reference/30%20Data%20Layer/DataSource/3%20Methods/cancel(operationId).md '/Documentation/ApiReference/Data_Layer/DataSource/Methods/#canceloperationId') for details.
 
 #####See Also#####
-- [reload()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#reload)
+- [reload()](/api-reference/30%20Data%20Layer/DataSource/3%20Methods/reload().md '/Documentation/ApiReference/Data_Layer/DataSource/Methods/#reload')

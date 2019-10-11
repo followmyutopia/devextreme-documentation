@@ -60,4 +60,4 @@ If no content is selected, the format applies to the character typed next.
 ---
 
 #####See Also#####
-- [insertEmbed()](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Methods/#insertEmbedindex_type_config)
+- [insertEmbed()](/api-reference/10%20UI%20Widgets/dxHtmlEditor/3%20Methods/insertEmbed(index_type_config).md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Methods/#insertEmbedindex_type_config')

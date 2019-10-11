@@ -12,7 +12,7 @@ In other cases, we recommend implementing a custom palette as an object of the f
         gradientSet: ['#78b6d9', '#eeba69'] 
     };
 
-The custom palette should be registered using the [registerPalette(paletteName, palette)](/Documentation/ApiReference/Common/utils/viz/#registerPalettepaletteName_palette) method:
+The custom palette should be registered using the [registerPalette(paletteName, palette)](/api-reference/50%20Common/utils/viz/registerPalette(paletteName_palette).md '/Documentation/ApiReference/Common/utils/viz/#registerPalettepaletteName_palette') method:
 
     <!--JavaScript-->
     DevExpress.viz.registerPalette("myCustomPalette", myPalette);

@@ -21,7 +21,7 @@ For compound keys consisting of multiple properties, the following syntax is use
         } 
     });
 
-If you need to use a key type that is not supported by default, use the [odata.keyConverters](/Documentation/ApiReference/Data_Layer/Utils/#odatakeyConverters) utility object to register your own key type.
+If you need to use a key type that is not supported by default, use the [odata.keyConverters](/api-reference/30%20Data%20Layer/Utils/odata.keyConverters.md '/Documentation/ApiReference/Data_Layer/Utils/#odatakeyConverters') utility object to register your own key type.
 
     <!--JavaScript-->
     DevExpress.data.utils.odata.keyConverters["MyType"] = function(value) { 

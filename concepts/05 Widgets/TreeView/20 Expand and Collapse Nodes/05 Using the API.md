@@ -1,7 +1,7 @@
 The **TreeView** provides the following API to expand and collapse nodes: 
 
 - **All nodes**     
-You can use the [expandAll()](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#expandAll) and [collapseAll()](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#collapseAll) methods to expand and collapse nodes at once. Note that the **expandAll()** method expands only the loaded nodes if [data is loaded on demand](/concepts/05%20Widgets/TreeView/32%20Enhance%20Performance%20on%20Large%20Datasets.md '/Documentation/Guide/Widgets/TreeView/Enhance_Performance_on_Large_Datasets/').
+You can use the [expandAll()](/api-reference/10%20UI%20Widgets/dxTreeView/3%20Methods/expandAll().md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#expandAll') and [collapseAll()](/api-reference/10%20UI%20Widgets/dxTreeView/3%20Methods/collapseAll().md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#collapseAll') methods to expand and collapse nodes at once. Note that the **expandAll()** method expands only the loaded nodes if [data is loaded on demand](/concepts/05%20Widgets/TreeView/32%20Enhance%20Performance%20on%20Large%20Datasets.md '/Documentation/Guide/Widgets/TreeView/Enhance_Performance_on_Large_Datasets/').
 
     ---
     #####jQuery
@@ -37,7 +37,7 @@ You can use the [expandAll()](/Documentation/ApiReference/UI_Widgets/dxTreeView/
     ---
 
 - **Individual nodes**  
-Call the [expandItem(itemElement)](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#expandItemitemElement) or [collapseItem(itemElement)](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#collapseItemitemElement) method and pass a node key as an argument:
+Call the [expandItem(itemElement)](/api-reference/10%20UI%20Widgets/dxTreeView/3%20Methods/expandItem(itemElement).md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#expandItemitemElement') or [collapseItem(itemElement)](/api-reference/10%20UI%20Widgets/dxTreeView/3%20Methods/collapseItem(itemElement).md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#collapseItemitemElement') method and pass a node key as an argument:
 
     ---
     ##### jQuery

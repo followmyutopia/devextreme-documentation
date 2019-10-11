@@ -1,4 +1,4 @@
-Call the [deselectRows(keys)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#deselectRowskeys) method to clear the selection of specific rows.
+Call the [deselectRows(keys)](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/deselectRows(keys).md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#deselectRowskeys') method to clear the selection of specific rows.
 
 ---
 ##### jQuery
@@ -29,7 +29,7 @@ Call the [deselectRows(keys)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/
     
 ---
 
-Call the [clearSelection()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#clearSelection) method to clear selection of all rows. If you apply a [filter](/concepts/05%20Widgets/DataGrid/30%20Filtering%20and%20Searching/Filtering%20and%20Searching.md '/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/') and want to keep the selection of invisible rows that do not meet the filtering conditions, use the [deselectAll()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#deselectAll) method. Also call this method to clear selection depending on the [selectAllMode](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/selection/selectAllMode.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#selectAllMode').
+Call the [clearSelection()](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/clearSelection().md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#clearSelection') method to clear selection of all rows. If you apply a [filter](/concepts/05%20Widgets/DataGrid/30%20Filtering%20and%20Searching/Filtering%20and%20Searching.md '/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/') and want to keep the selection of invisible rows that do not meet the filtering conditions, use the [deselectAll()](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/deselectAll().md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#deselectAll') method. Also call this method to clear selection depending on the [selectAllMode](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/selection/selectAllMode.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#selectAllMode').
 
 ---
 ##### jQuery

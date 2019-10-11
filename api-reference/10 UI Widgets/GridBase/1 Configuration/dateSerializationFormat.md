@@ -17,7 +17,7 @@ Without a data source, the widget cannot detect the date-time values' format. In
 
 - `"yyyy-MM-ddTHH:mm:ssx"` - date and time with a timezone
 
-This option applies only if the **forceIsoDateParsing** field is set to **true** in the [global configuration object](/Documentation/ApiReference/Common/utils/#configconfig).
+This option applies only if the **forceIsoDateParsing** field is set to **true** in the [global configuration object](/api-reference/50%20Common/utils/config(config).md '/Documentation/ApiReference/Common/utils/#configconfig').
 
 #####See Also#####
 - [format](/api-reference/_hidden/GridBaseColumn/format.md '{basewidgetpath}/Configuration/columns/#format')

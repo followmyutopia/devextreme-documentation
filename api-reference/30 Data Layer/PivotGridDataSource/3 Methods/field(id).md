@@ -114,5 +114,5 @@ The field's [name](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Conf
 
 ---
 #####See Also#####
-- [getAreaFields(area, collectGroups)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#getAreaFieldsarea_collectGroups)
-- [fields()](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fields)
+- [getAreaFields(area, collectGroups)](/api-reference/30%20Data%20Layer/PivotGridDataSource/3%20Methods/getAreaFields(area_collectGroups).md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#getAreaFieldsarea_collectGroups')
+- [fields()](/api-reference/30%20Data%20Layer/PivotGridDataSource/3%20Methods/fields().md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fields')

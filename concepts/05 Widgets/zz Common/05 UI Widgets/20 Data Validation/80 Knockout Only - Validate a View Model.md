@@ -31,7 +31,7 @@ Validating the view model object rather than the editors allows you to separate 
         validationError: password.dxValidator.validationError
     }"></div>
 
-Finally, pass the to the [DevExpress.validationEngine.registerModelForValidation(model)](/Documentation/ApiReference/Common/utils/validationEngine/#registerModelForValidationmodel) method to register it in the validation engine. The registered view model can be validated at any point in your application by calling the [DevExpress.validationEngine.validateModel(model)](/Documentation/ApiReference/Common/utils/validationEngine/#validateModelmodel) method.
+Finally, pass the to the [DevExpress.validationEngine.registerModelForValidation(model)](/api-reference/50%20Common/utils/validationEngine/registerModelForValidation(model).md '/Documentation/ApiReference/Common/utils/validationEngine/#registerModelForValidationmodel') method to register it in the validation engine. The registered view model can be validated at any point in your application by calling the [DevExpress.validationEngine.validateModel(model)](/api-reference/50%20Common/utils/validationEngine/validateModel(model).md '/Documentation/ApiReference/Common/utils/validationEngine/#validateModelmodel') method.
 
     <!--JavaScript-->var viewModel = {
         //...

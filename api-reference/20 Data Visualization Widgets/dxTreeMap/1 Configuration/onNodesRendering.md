@@ -6,7 +6,7 @@ EventForAction: dxTreeMap.nodesRendering
 ---
 ---
 ##### shortDescription
-A function that is executed before the nodes are displayed and each time the collection of [active nodes](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#isActive) is changed.
+A function that is executed before the nodes are displayed and each time the collection of [active nodes](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/6%20Node/3%20Methods/isActive().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#isActive') is changed.
 
 ##### param(e): Object
 Information about the event.

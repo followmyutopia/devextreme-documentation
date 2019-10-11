@@ -42,7 +42,7 @@ Assign **true** to the [headerFilter](/api-reference/10%20UI%20Widgets/GridBase/
     
 ---
 
-A user can change the applied filter by including or excluding values. Use a column's [filterType](/api-reference/_hidden/GridBaseColumn/filterType.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#filterType') option to specify the required mode. You can specify the initial filter by combining this option and the [filterValues](/api-reference/_hidden/GridBaseColumn/filterValues.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#filterValues') option. To change it at runtime, call the [columnOption](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#columnOptionid_options) method:
+A user can change the applied filter by including or excluding values. Use a column's [filterType](/api-reference/_hidden/GridBaseColumn/filterType.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#filterType') option to specify the required mode. You can specify the initial filter by combining this option and the [filterValues](/api-reference/_hidden/GridBaseColumn/filterValues.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#filterValues') option. To change it at runtime, call the [columnOption](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/columnOption(id_options).md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#columnOptionid_options') method:
 
 ---
 ##### jQuery

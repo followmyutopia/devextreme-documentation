@@ -2,7 +2,7 @@
 
 To access series points, use the following methods. All of them return one or several objects whose fields and methods are described in the [Point](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/7%20Chart%20Elements/Point/Point.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/') section of the API reference.
 
-- [getAllPoints()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#getAllPoints)        
+- [getAllPoints()](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/7%20Chart%20Elements/Series/3%20Methods/getAllPoints().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#getAllPoints')        
 Gets all points of the series.
 
     ---
@@ -37,7 +37,7 @@ Gets all points of the series.
 
     ---
 
-- [getPointsByArg(pointArg)](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#getPointsByArgpointArg)      
+- [getPointsByArg(pointArg)](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Series/3%20Methods/getPointsByArg(pointArg).md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#getPointsByArgpointArg')      
 Gets those points of the series that has a specific argument. Returns more than one point for [range](/concepts/05%20Widgets/Chart/11%20Series%20Types/70%20Range%20Series.md '/Documentation/Guide/Widgets/Chart/Series_Types/Range_Series/') and [financial](/concepts/05%20Widgets/Chart/11%20Series%20Types/60%20Financial%20Series.md '/Documentation/Guide/Widgets/Chart/Series_Types/Financial_Series/') series.
 
     ---
@@ -71,7 +71,7 @@ Gets those points of the series that has a specific argument. Returns more than 
 
     ---
 
-- [getPointByPos(positionIndex)](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#getPointByPospositionIndex)          
+- [getPointByPos(positionIndex)](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Series/3%20Methods/getPointByPos(positionIndex).md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#getPointByPospositionIndex')          
 Gets a point by its index in the series. The index is zero-based.
 
     ---
@@ -105,7 +105,7 @@ Gets a point by its index in the series. The index is zero-based.
 
     ---
 
-- [getVisiblePoints()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#getVisiblePoints)          
+- [getVisiblePoints()](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/7%20Chart%20Elements/Series/3%20Methods/getVisiblePoints().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#getVisiblePoints')          
 Gets those points of the series that fall into the axis's [visual range](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/visualRange/visualRange.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/visualRange/').
 
     ---

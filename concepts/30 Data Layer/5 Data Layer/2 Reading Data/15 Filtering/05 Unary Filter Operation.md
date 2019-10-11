@@ -5,7 +5,7 @@ To specify an unary filter operation, use an array containing the following item
 1. The "!" operator. 
 2. The array with matching conditions.
 
-To specify filtering conditions, call the [filter(filterExpr)](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#filterfilterExpr) method of the DataSource. Note that filter expression should be included into square brackets.
+To specify filtering conditions, call the [filter(filterExpr)](/api-reference/30%20Data%20Layer/DataSource/3%20Methods/filter(filterExpr).md '/Documentation/ApiReference/Data_Layer/DataSource/Methods/#filterfilterExpr') method of the DataSource. Note that filter expression should be included into square brackets.
 
     <!--JavaScript-->dataSource.filter( ["!", ["value", "=", 3]] );
     dataSource.load().done(function(result) {

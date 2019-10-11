@@ -8,7 +8,7 @@ Exports:
         // ===== or =====
         import { EdmLiteral } from "devextreme/data/odata/utils";
 
-- *keyConverters* - The [odata.keyConverters](/Documentation/ApiReference/Data_Layer/Utils/#odatakeyConverters) object
+- *keyConverters* - The [odata.keyConverters](/api-reference/30%20Data%20Layer/Utils/odata.keyConverters.md '/Documentation/ApiReference/Data_Layer/Utils/#odatakeyConverters') object
 
         require("data/odata/utils").keyConverters;
         // ===== or =====

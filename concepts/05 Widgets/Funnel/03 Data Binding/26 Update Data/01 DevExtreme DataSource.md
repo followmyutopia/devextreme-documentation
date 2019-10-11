@@ -1,6 +1,6 @@
 [note] This technique requires the [key](/api-reference/30%20Data%20Layer/Store/1%20Configuration/key.md '/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#key') specified in the [store](/Documentation/Guide/Data_Layer/Data_Layer/#Data_Layer_Data_Layer_Creating_DataSource_What_Are_Stores).
 
-To get the [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/') instance, call the **Funnel**'s [getDataSource()](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Methods/#getDataSource) method:
+To get the [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/') instance, call the **Funnel**'s [getDataSource()](/api-reference/10%20UI%20Widgets/DataHelperMixin/3%20Methods/getDataSource().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Methods/#getDataSource') method:
 
 ---
 
@@ -60,7 +60,7 @@ To get the [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.m
     
 ---
 
-Then, access the underlying store with the [store()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#store) method, and call the store's [push(changes)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#pushchanges) method to modify data. The **Funnel** will be updated automatically.
+Then, access the underlying store with the [store()](/api-reference/30%20Data%20Layer/DataSource/3%20Methods/store().md '/Documentation/ApiReference/Data_Layer/DataSource/Methods/#store') method, and call the store's [push(changes)](/api-reference/30%20Data%20Layer/Store/3%20Methods/push(changes).md '/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#pushchanges') method to modify data. The **Funnel** will be updated automatically.
 
     <!--JavaScript-->
     ds.store().push([

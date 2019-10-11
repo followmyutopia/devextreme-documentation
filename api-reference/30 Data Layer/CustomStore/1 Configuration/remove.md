@@ -4,7 +4,7 @@ type: function(key)
 ---
 ---
 ##### shortDescription
-Specifies a custom implementation of the [remove(key)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#removekey) method.
+Specifies a custom implementation of the [remove(key)](/api-reference/30%20Data%20Layer/Store/3%20Methods/remove(key).md '/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#removekey') method.
 
 ##### param(key): Object | String | Number
 The key of the data item to be removed.

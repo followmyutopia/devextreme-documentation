@@ -11,7 +11,7 @@ Specifies dates to be disabled. Applies only if [pickerType](/api-reference/10%2
 Information about the checked date.
 
 ##### field(data.component): dxDateBox
-The widget's [instance](/Documentation/ApiReference/UI_Widgets/dxDateBox/Methods/#instance).
+The widget's [instance](/api-reference/10%20UI%20Widgets/Component/3%20Methods/instance().md '/Documentation/ApiReference/UI_Widgets/dxDateBox/Methods/#instance').
 
 ##### field(data.date): Date
 The currently checked date.

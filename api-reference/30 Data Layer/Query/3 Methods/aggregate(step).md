@@ -12,7 +12,7 @@ A Promise that is resolved after the operation is completed. It is a <a href="ht
 A function that is called for each item.
 
 ---
-This is a shortcut for the [aggregate(seed, step, finalize)](/Documentation/ApiReference/Data_Layer/Query/Methods/#aggregateseed_step_finalize) method. It omits the **seed** and **finalize** parameters: instead of the **seed** value, the accumulator value is initialized with the first item's value; the **finalize** parameter's omission means that the calculation result is the accumulator value after the last **step** function's execution.
+This is a shortcut for the [aggregate(seed, step, finalize)](/api-reference/30%20Data%20Layer/Query/3%20Methods/aggregate(seed_step_finalize).md '/Documentation/ApiReference/Data_Layer/Query/Methods/#aggregateseed_step_finalize') method. It omits the **seed** and **finalize** parameters: instead of the **seed** value, the accumulator value is initialized with the first item's value; the **finalize** parameter's omission means that the calculation result is the accumulator value after the last **step** function's execution.
 
 ---
 ##### jQuery

@@ -1,6 +1,6 @@
 [note]In this article, the [Button](/concepts/05%20Widgets/Button/00%20Overview.md '/Documentation/Guide/Widgets/Button/Overview/') widget is used to switch images. This choice is made for purely demonstrational purposes, and you can do the same operations using another widget following the same guidelines.
 
-To switch the **Gallery** to the next or previous image, call the [nextItem(animation)](/Documentation/ApiReference/UI_Widgets/dxGallery/Methods/#nextItemanimation) or [prevItem(animation)](/Documentation/ApiReference/UI_Widgets/dxGallery/Methods/#prevItemanimation) method, respectively.
+To switch the **Gallery** to the next or previous image, call the [nextItem(animation)](/api-reference/10%20UI%20Widgets/dxGallery/3%20Methods/nextItem(animation).md '/Documentation/ApiReference/UI_Widgets/dxGallery/Methods/#nextItemanimation') or [prevItem(animation)](/api-reference/10%20UI%20Widgets/dxGallery/3%20Methods/prevItem(animation).md '/Documentation/ApiReference/UI_Widgets/dxGallery/Methods/#prevItemanimation') method, respectively.
 
 ---
 #####jQuery
@@ -80,7 +80,7 @@ To switch the **Gallery** to the next or previous image, call the [nextItem(anim
 
 ---
 
-To navigate to a specific image, call the [goToItem(itemIndex, animation)](/Documentation/ApiReference/UI_Widgets/dxGallery/Methods/#goToItemitemIndex_animation) method. The first argument should be the index of the required image in the [dataSource](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/dataSource.md '/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/#dataSource').
+To navigate to a specific image, call the [goToItem(itemIndex, animation)](/api-reference/10%20UI%20Widgets/dxGallery/3%20Methods/goToItem(itemIndex_animation).md '/Documentation/ApiReference/UI_Widgets/dxGallery/Methods/#goToItemitemIndex_animation') method. The first argument should be the index of the required image in the [dataSource](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/dataSource.md '/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/#dataSource').
 
 ---
 #####jQuery

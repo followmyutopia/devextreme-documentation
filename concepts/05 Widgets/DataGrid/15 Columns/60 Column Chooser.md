@@ -87,7 +87,7 @@ Set a column's [allowHiding](/api-reference/_hidden/GridBaseColumn/allowHiding.m
     
 ---
 
-Call the [showColumnChooser()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#showColumnChooser) or [hideColumnChooser()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#hideColumnChooser) method to control the column chooser programmatically.
+Call the [showColumnChooser()](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/showColumnChooser().md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#showColumnChooser') or [hideColumnChooser()](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/hideColumnChooser().md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#hideColumnChooser') method to control the column chooser programmatically.
 
 ---
 ##### jQuery

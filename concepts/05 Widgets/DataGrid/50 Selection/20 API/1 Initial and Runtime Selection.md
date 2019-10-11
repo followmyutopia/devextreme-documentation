@@ -50,7 +50,7 @@ Use the [selectedRowKeys](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Config
     
 ---
 
-The **DataGrid** provides two methods that select rows at runtime: [selectRows(keys, preserve)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#selectRowskeys_preserve) and [selectRowsByIndexes(indexes)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#selectRowsByIndexesindexes). They both clear the previous selection by default, although with the **selectRows(keys, preserve)** method you can keep it if you pass **true** as the **preserve** parameter. Before selecting a row, you can call the [isRowSelected(key)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#isRowSelectedkey) method to check if this row is not already selected.
+The **DataGrid** provides two methods that select rows at runtime: [selectRows(keys, preserve)](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/selectRows(keys_preserve).md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#selectRowskeys_preserve') and [selectRowsByIndexes(indexes)](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/selectRowsByIndexes(indexes).md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#selectRowsByIndexesindexes'). They both clear the previous selection by default, although with the **selectRows(keys, preserve)** method you can keep it if you pass **true** as the **preserve** parameter. Before selecting a row, you can call the [isRowSelected(key)](/api-reference/10%20UI%20Widgets/dxDataGrid/3%20Methods/isRowSelected(key).md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#isRowSelectedkey') method to check if this row is not already selected.
 
 ---
 ##### jQuery
@@ -108,7 +108,7 @@ The **DataGrid** provides two methods that select rows at runtime: [selectRows(k
     
 ---
 
-To select all rows at once, call the [selectAll()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#selectAll) method.
+To select all rows at once, call the [selectAll()](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/selectAll().md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#selectAll') method.
 
 ---
 
@@ -144,7 +144,7 @@ To select all rows at once, call the [selectAll()](/Documentation/ApiReference/U
     url: "/Demos/WidgetsGallery/Demo/DataGrid/MultipleRecordSelectionAPI/jQuery/Light/"
 } 
 
-Call the [getSelectedRowKeys()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#getSelectedRowKeys) or [getSelectedRowsData()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#getSelectedRowsData) method to get the selected row's keys or data.
+Call the [getSelectedRowKeys()](/api-reference/10%20UI%20Widgets/dxDataGrid/3%20Methods/getSelectedRowKeys().md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#getSelectedRowKeys') or [getSelectedRowsData()](/api-reference/10%20UI%20Widgets/dxDataGrid/3%20Methods/getSelectedRowsData().md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#getSelectedRowsData') method to get the selected row's keys or data.
 
 ---
 ##### jQuery

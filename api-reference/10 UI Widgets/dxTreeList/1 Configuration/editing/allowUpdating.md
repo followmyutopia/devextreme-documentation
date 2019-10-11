@@ -25,4 +25,4 @@ See an example in the [allowAdding](/api-reference/10%20UI%20Widgets/dxTreeList/
 #####See Also#####
 - [onRowUpdating](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onRowUpdating.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onRowUpdating')
 - [onRowUpdated](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onRowUpdated.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onRowUpdated')
-- [cellValue(rowIndex, visibleColumnIndex, value)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#cellValuerowIndex_visibleColumnIndex_value)
+- [cellValue(rowIndex, visibleColumnIndex, value)](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/cellValue(rowIndex_visibleColumnIndex_value).md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#cellValuerowIndex_visibleColumnIndex_value')

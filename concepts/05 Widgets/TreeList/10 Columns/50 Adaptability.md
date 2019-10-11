@@ -47,7 +47,7 @@ When adapting to a small container or screen, the **TreeList** can hide columns.
 
 [note]
 
-The table layout does not automatically adapt to changes made in the widget's container at runtime. Therefore, if you enable a user to resize the container, call the [updateDimensions()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#updateDimensions) method after each resizing to render the **TreeList** in the new size.
+The table layout does not automatically adapt to changes made in the widget's container at runtime. Therefore, if you enable a user to resize the container, call the [updateDimensions()](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/updateDimensions().md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#updateDimensions') method after each resizing to render the **TreeList** in the new size.
 
 ---
 ##### jQuery
@@ -88,7 +88,7 @@ Data from hidden columns is still available in adaptive detail rows. A user can 
     url: "/Demos/WidgetsGallery/Demo/TreeList/Adaptability/jQuery/Light/"
 }
 
-You can expand or collapse adaptive detail rows programmatically by calling the [expandAdaptiveDetailRow(key)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#expandAdaptiveDetailRowkey) or [collapseAdaptiveDetailRow()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#collapseAdaptiveDetailRow) method. Note that adaptive detail rows cannot be expanded simultaneously, therefore, calling the **expandAdaptiveDetailRow(key)** method collapses the previously expanded row. To check whether a specific row is expanded, call the [isAdaptiveDetailRowExpanded(key)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#isAdaptiveDetailRowExpandedkey) method.
+You can expand or collapse adaptive detail rows programmatically by calling the [expandAdaptiveDetailRow(key)](/api-reference/10%20UI%20Widgets/dxTreeList/3%20Methods/expandAdaptiveDetailRow(key).md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#expandAdaptiveDetailRowkey') or [collapseAdaptiveDetailRow()](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/collapseAdaptiveDetailRow().md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#collapseAdaptiveDetailRow') method. Note that adaptive detail rows cannot be expanded simultaneously, therefore, calling the **expandAdaptiveDetailRow(key)** method collapses the previously expanded row. To check whether a specific row is expanded, call the [isAdaptiveDetailRowExpanded(key)](/api-reference/10%20UI%20Widgets/dxTreeList/3%20Methods/isAdaptiveDetailRowExpanded(key).md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#isAdaptiveDetailRowExpandedkey') method.
 
 ---
 ##### jQuery

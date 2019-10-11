@@ -37,7 +37,7 @@ An end user can use the following keys to interact with the widget.
   </table>
 </div>
 
-You can implement a custom handler for a key using the [registerKeyHandler(key, handler)](/Documentation/ApiReference/UI_Widgets/dxColorBox/Methods/#registerKeyHandlerkey_handler) method.
+You can implement a custom handler for a key using the [registerKeyHandler(key, handler)](/api-reference/10%20UI%20Widgets/Widget/3%20Methods/registerKeyHandler(key_handler).md '/Documentation/ApiReference/UI_Widgets/dxColorBox/Methods/#registerKeyHandlerkey_handler') method.
 
 ---
 ##### jQuery

@@ -14,7 +14,7 @@ Exports:
         // ===== or =====
         import { confirm } from "devextreme/ui/dialog";
 
-- *custom* - The [custom](/Documentation/ApiReference/Common/utils/ui/dialog/#customoptions) method
+- *custom* - The [custom](/api-reference/50%20Common/utils/ui/dialog/custom(options).md '/Documentation/ApiReference/Common/utils/ui/dialog/#customoptions') method
 
         require("ui/dialog").custom;
         // ===== or =====

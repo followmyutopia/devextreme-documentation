@@ -34,7 +34,7 @@ All rows are collapsed by default. Assign an array of keys to the [expandedRowKe
     
 ---
 
-Call the [expandRow(key)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#expandRowkey) or [collapseRow(key)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#collapseRowkey) method to respectively expand or collapse a row at runtime. You can check a row's current state by calling the [isRowExpanded(key)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#isRowExpandedkey) method.
+Call the [expandRow(key)](/api-reference/10%20UI%20Widgets/dxTreeList/3%20Methods/expandRow(key).md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#expandRowkey') or [collapseRow(key)](/api-reference/10%20UI%20Widgets/dxTreeList/3%20Methods/collapseRow(key).md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#collapseRowkey') method to respectively expand or collapse a row at runtime. You can check a row's current state by calling the [isRowExpanded(key)](/api-reference/10%20UI%20Widgets/dxTreeList/3%20Methods/isRowExpanded(key).md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#isRowExpandedkey') method.
 
 ---
 ##### jQuery

@@ -30,7 +30,7 @@ If you need to update form data at runtime, redefine the [formData](/api-referen
     url: "/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-overview/"
 }
 
-The **Form** widget provides methods that update specific **formData** fields and rerender the corresponding editors without rerendering the whole widget. The [updateData(dataField, value)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#updateDatadataField_value) method updates the value of a single field. The [updateData(data)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#updateDatadata) method updates values of several fields at once. In the following code, these methods are called on a [Button](/concepts/05%20Widgets/Button/00%20Overview.md '/Documentation/Guide/Widgets/Button/Overview/') click.
+The **Form** widget provides methods that update specific **formData** fields and rerender the corresponding editors without rerendering the whole widget. The [updateData(dataField, value)](/api-reference/10%20UI%20Widgets/dxForm/3%20Methods/updateData(dataField_value).md '/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#updateDatadataField_value') method updates the value of a single field. The [updateData(data)](/api-reference/10%20UI%20Widgets/dxForm/3%20Methods/updateData(data).md '/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#updateDatadata') method updates values of several fields at once. In the following code, these methods are called on a [Button](/concepts/05%20Widgets/Button/00%20Overview.md '/Documentation/Guide/Widgets/Button/Overview/') click.
 
     <!--JavaScript-->
     $(function() {

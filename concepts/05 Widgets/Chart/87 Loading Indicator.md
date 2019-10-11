@@ -38,7 +38,7 @@ To activate the loading indicator, assign **true** to the [loadingIndicator](/ap
 
 ---
 
-If you need to show or hide the loading indicator at runtime, call the [showLoadingIndicator()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#showLoadingIndicator) or [hideLoadingIndicator()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#hideLoadingIndicator) method.
+If you need to show or hide the loading indicator at runtime, call the [showLoadingIndicator()](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/3%20Methods/showLoadingIndicator().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#showLoadingIndicator') or [hideLoadingIndicator()](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/3%20Methods/hideLoadingIndicator().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#hideLoadingIndicator') method.
 
 ---
 ##### jQuery

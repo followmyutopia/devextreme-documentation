@@ -11,7 +11,7 @@ Data fields with their new values.
 ---
 [note]
 
-This method does not replace the **formData** object. To replace it, use the [option(optionName, optionValue)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#optionoptionName_optionValue) method as shown below:
+This method does not replace the **formData** object. To replace it, use the [option(optionName, optionValue)](/api-reference/10%20UI%20Widgets/Component/3%20Methods/option(optionName_optionValue).md '/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#optionoptionName_optionValue') method as shown below:
     
     <!--JavaScript-->
     formInstance.option("formData", newFormData);

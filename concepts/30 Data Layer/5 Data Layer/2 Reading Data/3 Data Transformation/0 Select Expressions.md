@@ -28,7 +28,7 @@ You can define the select option value via the [configuration object](/api-refer
         select: "lastName"
     });
 
-To modify the **select** option, pass the new option value to the [select(expr)](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#selectexpr) method of the DataSource.
+To modify the **select** option, pass the new option value to the [select(expr)](/api-reference/30%20Data%20Layer/DataSource/3%20Methods/select(expr).md '/Documentation/ApiReference/Data_Layer/DataSource/Methods/#selectexpr') method of the DataSource.
 
     <!--JavaScript-->
     dataSource.select("firstName", "city");

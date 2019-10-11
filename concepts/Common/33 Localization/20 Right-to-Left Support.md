@@ -97,7 +97,7 @@ RTL layout can be specified for an individual widget using its **rtlEnabled** op
 
 ---
 
-To apply RTL to your entire application, set the same option globally using the [config()](/Documentation/ApiReference/Common/utils/#configconfig) function:
+To apply RTL to your entire application, set the same option globally using the [config()](/api-reference/50%20Common/utils/config(config).md '/Documentation/ApiReference/Common/utils/#configconfig') function:
 
 ---
 #####jQuery

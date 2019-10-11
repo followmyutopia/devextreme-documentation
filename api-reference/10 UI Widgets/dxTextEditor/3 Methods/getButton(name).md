@@ -12,7 +12,7 @@ The [Button](/api-reference/10%20UI%20Widgets/dxButton/dxButton.md '/Documentati
 The button's [name](/api-reference/10%20UI%20Widgets/dxTextEditor/1%20Configuration/buttons/name.md '{basewidgetpath}/Configuration/buttons/#name').
 
 ---
-Use the returned button instance to call the [**Button** widget's methods](/api-reference/10%20UI%20Widgets/Widget/3%20Methods/Methods.md '/Documentation/ApiReference/UI_Widgets/dxButton/Methods/'), for example, [focus()](/Documentation/ApiReference/UI_Widgets/dxButton/Methods/#focus):
+Use the returned button instance to call the [**Button** widget's methods](/api-reference/10%20UI%20Widgets/Widget/3%20Methods/Methods.md '/Documentation/ApiReference/UI_Widgets/dxButton/Methods/'), for example, [focus()](/api-reference/10%20UI%20Widgets/Widget/3%20Methods/focus().md '/Documentation/ApiReference/UI_Widgets/dxButton/Methods/#focus'):
 
 ---
 ##### jQuery

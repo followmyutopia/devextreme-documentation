@@ -1,6 +1,6 @@
 The **Chart** exposes the following methods for accessing a series. All of them return one or several objects whose fields and methods are described in the [Series](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/7%20Chart%20Elements/Series/Series.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/') section of the API reference.
 
-- [getAllSeries()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#getAllSeries)        
+- [getAllSeries()](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/3%20Methods/getAllSeries().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#getAllSeries')        
 Gets all series of the **Chart**.
 
     ---
@@ -33,7 +33,7 @@ Gets all series of the **Chart**.
 
     ---
 
-- [getSeriesByName(seriesName)](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#getSeriesByNameseriesName)       
+- [getSeriesByName(seriesName)](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/3%20Methods/getSeriesByName(seriesName).md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#getSeriesByNameseriesName')       
 Gets a series by its [name](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/ChartSeries/name.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#name').
 
     ---
@@ -66,7 +66,7 @@ Gets a series by its [name](/api-reference/20%20Data%20Visualization%20Widgets/d
 
     ---
 
-- [getSeriesByPos(seriesIndex)](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#getSeriesByPosseriesIndex)       
+- [getSeriesByPos(seriesIndex)](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/3%20Methods/getSeriesByPos(seriesIndex).md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#getSeriesByPosseriesIndex')       
 Gets a series by its index in the [series](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/series/series.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/') array. The index is zero-based.
 
     ---
