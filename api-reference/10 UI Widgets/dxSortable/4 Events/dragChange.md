@@ -13,13 +13,13 @@ Information about the event that caused the function's execution.
 Allows you to cancel the gesture.
 
 ##### field(e.component): {WidgetName}
-<!-- Description goes here -->
+The widget that raised the event.
 
 ##### field(e.dropInsideItem): Boolean
 Indicates if the dragged item is dropped inside another item.
 
 ##### field(e.element): dxElement
-<!-- Description goes here -->
+#include common-ref-elementparam with { element: "widget" }
 
 ##### field(e.event): event
 #include common-ref-eventparam
@@ -40,7 +40,7 @@ The dragged item's data.
 #include draganddrop-ref-itemelementparam
 
 ##### field(e.model): Object
-<!-- Description goes here -->
+Model data. Available only if you use Knockout.
 
 ##### field(e.toComponent): dxSortable | dxDraggable
 The instance of the item's target widget.

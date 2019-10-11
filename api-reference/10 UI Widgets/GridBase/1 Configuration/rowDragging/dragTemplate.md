@@ -5,22 +5,22 @@ default: undefined
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies custom markup to be shown instead of the item being dragged.
 
 ##### param(dragInfo): Object
-<!-- Description goes here -->
+Information about the item being dragged.
 
 ##### field(dragInfo.itemData): any
-<!-- Description goes here -->
+The item's data.
 
 ##### field(dragInfo.itemElement): dxElement
-<!-- Description goes here -->
+#include draganddrop-ref-itemelementparam
 
 ##### param(containerElement): dxElement
-<!-- Description goes here -->
+A container in which the template should be rendered.
 
 ##### return: String | Node | jQuery
-<!-- Description goes here -->
+#include common-template-return-value
 
 ---
 <!-- Description goes here -->
