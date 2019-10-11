@@ -16,5 +16,3 @@ An X coordinate of the client area.
 An Y coordinate of the client area.
 
 ---
-#####See Also#####
-#include common-link-callmethods
