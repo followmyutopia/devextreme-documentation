@@ -8,10 +8,10 @@ default: 'id'
 Specifies which data field provides keys for **TreeView** items.
 
 ##### param(item): Object
-<!-- Description goes here -->
+The current item's data object.
 
 ##### return: String
-<!-- Description goes here -->
+The key value.
 
 ---
 [note]The key value should be unique within the data array.

@@ -8,10 +8,10 @@ default: undefined
 Specifies the data source field whose values should be replaced.
 
 ##### param(data): Object
-<!-- Description goes here -->
+The current item's data object.
 
 ##### return: String | Number | Boolean
-<!-- Description goes here -->
+A unique item identifier.
 
 ---
 This field's values are replaced with the **displayExpr** field's values.

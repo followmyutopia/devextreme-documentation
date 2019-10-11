@@ -11,7 +11,7 @@ Specifies which field from the [resource data objects](/api-reference/10%20UI%20
 The current resource's data object.
 
 ##### return: String
-<!-- Description goes here -->
+The displayed value.
 
 ---
 #include uiwidgets-ref-displayExpr

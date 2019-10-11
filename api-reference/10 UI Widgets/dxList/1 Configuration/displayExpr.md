@@ -11,7 +11,7 @@ Specifies the data field whose values should be displayed. Defaults to *"text"* 
 The current item's data object.
 
 ##### return: String
-<!-- Description goes here -->
+The displayed value.
 
 ---
 #include uiwidgets-ref-displayExpr
