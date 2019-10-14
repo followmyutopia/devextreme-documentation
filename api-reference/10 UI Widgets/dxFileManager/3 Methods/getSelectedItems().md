@@ -3,10 +3,9 @@ id: dxFileManager.getSelectedItems()
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Gets the selected items.
 
 ##### return: Array<Object>
-<!-- Description goes here -->
+The selected items.
 
 ---
-<!-- Description goes here -->
