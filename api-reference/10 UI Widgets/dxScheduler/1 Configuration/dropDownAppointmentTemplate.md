@@ -14,7 +14,7 @@ The current appointment's object.
 ##### param(itemIndex): Number
 The current appointment's index.
 
-##### param(itemElement): dxElement
+##### param(contentElement): dxElement
 #include common-ref-elementparam with { element: "appointment" }
 
 ##### return: String | Node | jQuery
