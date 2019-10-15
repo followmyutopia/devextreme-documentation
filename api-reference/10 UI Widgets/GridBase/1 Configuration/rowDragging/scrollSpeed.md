@@ -1,7 +1,7 @@
 ---
 id: GridBase.Options.rowDragging.scrollSpeed
 type: Number
-default: 60
+default: 30
 ---
 ---
 ##### shortDescription

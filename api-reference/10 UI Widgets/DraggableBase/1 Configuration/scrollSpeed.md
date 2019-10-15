@@ -1,7 +1,7 @@
 ---
 id: DraggableBase.Options.scrollSpeed
 type: Number
-default: 60
+default: 30
 ---
 ---
 ##### shortDescription
