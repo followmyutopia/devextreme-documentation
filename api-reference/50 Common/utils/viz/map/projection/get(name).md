@@ -7,7 +7,7 @@ hidden:
 Gets a predefined or custom projection from the projection storage.
 
 ##### return: Object
-The projection. 
+The projection.
 
 ##### param(name): String | 'equirectangular' | 'lambert' | 'mercator' | 'miller'
 The projection's name.
