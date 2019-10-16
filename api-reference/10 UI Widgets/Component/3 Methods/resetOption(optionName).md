@@ -3,10 +3,11 @@ id: Component.resetOption(optionName)
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Resets an option to its default value.
 
 ##### param(optionName): String
-<!-- Description goes here -->
+An option's name.
 
 ---
-<!-- Description goes here -->
+#####See Also#####
+#include common-link-callmethods
