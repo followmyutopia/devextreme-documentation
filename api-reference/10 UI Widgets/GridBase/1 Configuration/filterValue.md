@@ -31,7 +31,7 @@ The filter expression can contain the following operations: *"="*, *"<>"*, *"<"*
     <!--HTML-->
     <dx-{widget-name} ...
         [filterSyncEnabled]="true"
-        [(filterValue)]="['ID', 'anyof', [500, 700]]"> 
+        [filterValue]="['ID', 'anyof', [500, 700]]"> 
         <dxo-header-filter 
             [visible]="true">
         </dxo-header-filter>
