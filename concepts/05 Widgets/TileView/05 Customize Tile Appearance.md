@@ -207,7 +207,7 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 
 #####See Also#####
 - [TileView - Specify the Size of Tiles](/concepts/05%20Widgets/TileView/03%20Specify%20the%20Size%20of%20Tiles.md '/Documentation/Guide/Widgets/TileView/Specify_the_Size_of_Tiles')
-- [TileView Demos](/Demos/WidgetsGallery/#demo/navigation-tile_view-overview)
+- [TileView Demos](/Demos/WidgetsGallery/Demo/TileView/Overview/)
 - [TileView API Reference](/api-reference/10%20UI%20Widgets/dxTileView/dxTileView.md '/Documentation/ApiReference/UI_Widgets/dxTileView/')
 
 [tags]tile view, tileView, item appearance, tile appearance, customize, templates, template, custom template, default item, default template

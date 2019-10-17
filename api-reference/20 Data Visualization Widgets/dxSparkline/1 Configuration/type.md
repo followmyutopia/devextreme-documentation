@@ -195,7 +195,7 @@ $(function(){
 })
 </script>
 
-To see the sparklines of each type in operation, refer to our [Visualization Gallery](/Demos/WidgetsGallery/#demo/chartssparklinessparklinesline/).
+To see the sparklines of each type in operation, refer to our [Visualization Gallery](/Demos/WidgetsGallery/Demo/Charts/SimpleSparklines/).
 
 #include common-ref-enum with {
     enum: "`SparklineType`",

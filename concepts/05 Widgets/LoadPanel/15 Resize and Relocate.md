@@ -108,6 +108,6 @@ This configuration of the **position** option reads as follows: "place **my** _l
 
 #####See Also#####
 - [Customize the Appearance](/concepts/05%20Widgets/LoadPanel/10%20Customize%20the%20Appearance/10%20Customize%20the%20Loading%20Indicator.md '/Documentation/Guide/Widgets/LoadPanel/Customize_the_Appearance/')
-- [LoadPanel Demos](/Demos/WidgetsGallery/#demo/dialogs_and_notifications-load_panel-overview)
+- [LoadPanel Demos](/Demos/WidgetsGallery/Demo/LoadPanel/Overview/)
 
 [tags]loadPanel, load panel, overlay, size, height, width, position

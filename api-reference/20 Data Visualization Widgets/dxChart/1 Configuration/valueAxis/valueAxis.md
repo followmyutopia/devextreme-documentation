@@ -13,5 +13,5 @@ Configures the value axis.
 The **valueAxis** object, which is described here, configures the value axis individually. To specify common settings for all axes in a chart, use the [commonAxisSettings](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonAxisSettings/commonAxisSettings.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/') object. Axis-specific settings override common settings.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeaturesmultiaxes/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/MultipleAxes/"
 }

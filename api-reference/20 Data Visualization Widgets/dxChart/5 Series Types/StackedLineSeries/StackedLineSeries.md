@@ -15,7 +15,7 @@ Describes settings supported by a series of the *stacked line* type.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartschartslineandpointseriesline/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/Line/"
 }
 
 ![DevExtreme HTML5 Charts StackedLineSeriesType](/Content/images/doc/19_2/ChartJS/StackedLine.png)

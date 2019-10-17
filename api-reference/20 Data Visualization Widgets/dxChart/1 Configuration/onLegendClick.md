@@ -79,5 +79,5 @@ The [onSeriesClick](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1
 [/note]
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeaturesselection/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/Selection/"
 }

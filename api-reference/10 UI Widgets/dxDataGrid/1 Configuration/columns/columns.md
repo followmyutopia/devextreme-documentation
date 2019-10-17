@@ -16,7 +16,7 @@ Column options define the behavior and appearance of a grid column. One of the o
 To get or set an option or several options for a column at runtime, use the [columnOption](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/columnOption(id).md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#columnOptionid') method with the required arguments.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/datagridgridcolumnscolumncustomization/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/ColumnCustomization/"
 }
 
 #####See Also#####

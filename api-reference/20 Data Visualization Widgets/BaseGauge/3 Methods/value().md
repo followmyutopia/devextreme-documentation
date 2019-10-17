@@ -12,7 +12,7 @@ The main value.
 See the **value** option description for more information on the main gauge value.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/gaugescirculargaugescirculargaugeapiandbindingvalueindicatorsapi/"
+    url: "/Demos/WidgetsGallery/Demo/Gauges/ValueIndicatorsApi/"
 }
 
 #####See Also#####

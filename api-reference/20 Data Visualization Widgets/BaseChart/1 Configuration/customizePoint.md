@@ -113,5 +113,5 @@ In the financial series ([*candlestick*](/api-reference/20%20Data%20Visualizatio
 #include dataviz-ref-functioncontext
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeaturespointimage/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/PointImage/"
 }

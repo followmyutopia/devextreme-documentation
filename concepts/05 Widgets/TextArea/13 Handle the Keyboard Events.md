@@ -130,6 +130,6 @@ You can also implement handlers for other keys using the [registerKeyHandler(key
 #include common-link-handleevents
 #include common-link-callmethods
 - [TextArea - Handle the Value Change Event](/concepts/05%20Widgets/TextArea/10%20Handle%20the%20Value%20Change%20Event.md '/Documentation/Guide/Widgets/TextArea/Handle_the_Value_Change_Event/')
-- [TextArea Demos](/Demos/WidgetsGallery/#demo/editors-text_area-overview)
+- [TextArea Demos](/Demos/WidgetsGallery/Demo/TextArea/Overview/)
 
 [tags]textArea, text area, editor, keyboard events, keyup, keydown, keypress, enterkey

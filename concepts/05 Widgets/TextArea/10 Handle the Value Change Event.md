@@ -95,7 +95,7 @@ If you are going to change event handlers at runtime, or if you need to attach s
 #####See Also#####
 #include common-link-handleevents
 - [TextArea - Handle the Keyboard Events](/concepts/05%20Widgets/TextArea/13%20Handle%20the%20Keyboard%20Events.md '/Documentation/Guide/Widgets/TextArea/Handle_the_Keyboard_Events/')
-- [TextArea Demos](/Demos/WidgetsGallery/#demo/editors-text_area-overview)
+- [TextArea Demos](/Demos/WidgetsGallery/Demo/TextArea/Overview/)
 - [TextArea API Reference](/api-reference/10%20UI%20Widgets/dxTextArea/dxTextArea.md '/Documentation/ApiReference/UI_Widgets/dxTextArea/')
 
 [tags]textArea, text area, editor, get value, set value, change value, valueChangeEvent, valueChanged

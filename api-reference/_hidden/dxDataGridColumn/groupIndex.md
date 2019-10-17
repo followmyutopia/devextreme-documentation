@@ -57,7 +57,7 @@ To group these records first by the *"LastName"* field and then by the *"FirstNa
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/datagridgridgroupinglocaldatagrouping/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/RecordGrouping/"
 }
 
 #####See Also#####

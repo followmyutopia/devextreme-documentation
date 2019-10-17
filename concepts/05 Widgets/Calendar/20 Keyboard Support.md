@@ -77,7 +77,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
 #####See Also#####
 #include common-link-callmethods
-- [Calendar Demos](/Demos/WidgetsGallery/#demo/editors-calendar-overview)
+- [Calendar Demos](/Demos/WidgetsGallery/Demo/Calendar/Overview/)
 - [Calendar API Reference](/api-reference/10%20UI%20Widgets/dxCalendar/dxCalendar.md '/Documentation/ApiReference/UI_Widgets/dxCalendar/')
 
 [tags]calendar, accessibility, keyboard shortcuts

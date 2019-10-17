@@ -51,5 +51,5 @@ When a user points to a series, it may react in one of the following ways depend
 - **point**.[hoverMode](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CommonSeries/point/hoverMode.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/SplineSeries/point/#hoverMode') - specifies the hover mode of series points.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeatureshovermode/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/HoverMode/"
 }

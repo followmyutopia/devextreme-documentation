@@ -15,7 +15,7 @@ Describes settings supported by a series of the *spline* type.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartschartslineandpointseriesspline/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/Spline/"
 }
 
 ![DevExtreme HTML5 Charts SplineSeriesType](/Content/images/doc/19_2/ChartJS/Spline.png)

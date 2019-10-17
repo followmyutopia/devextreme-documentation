@@ -15,5 +15,6 @@ To provide a data source for the chart located in the background, set the **data
 
 The color specified for the range selector's background will also be visible in the chart's background by default. You can change it using the **color** property of the [background](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/background/color.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/background/#color') configuration object. To prohibit the display of the background color, set the background's **visible** property to **false**.
 
-<a href="/Demos/WidgetsGallery/#demo/formsandmulti-purposerangeselectorrangeselectorchartonbackground/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Chart on Background Demo</a>
+<a href="/Demos/WidgetsGallery/Demo/RangeSelector/ChartOnBackground/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Chart on Background Demo</a>
 <a href="/Demos/WidgetsGallery/Demo/Range_Selector/CustomizedChartOnBackground/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Customized Chart on Background Demo</a>
+

@@ -47,5 +47,5 @@ Another example: a semidiscrete scale built on numeric values. This time, the sc
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/formsandmulti-purposerangeselectorrangeselectorlogarithmicscale/"
+    url: "/Demos/WidgetsGallery/Demo/RangeSelector/LogarithmicScale/"
 }

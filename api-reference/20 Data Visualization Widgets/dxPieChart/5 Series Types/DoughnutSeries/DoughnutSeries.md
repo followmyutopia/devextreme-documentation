@@ -15,7 +15,7 @@ An object defining a series of the **doughnut** type.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartschartsdoughnutseriesdoughnut/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/Doughnut/"
 }
 
 ![DoughnutSeriesType DonutSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/Doughnut.png)

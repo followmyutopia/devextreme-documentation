@@ -14,5 +14,5 @@ This option is used if the [dataStructure](/api-reference/10%20UI%20Widgets/dxTr
 
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/navigationtreeviewtreeviewplaindatastructure/"
+    url: "/Demos/WidgetsGallery/Demo/TreeView/FlatDataStructure/"
 }

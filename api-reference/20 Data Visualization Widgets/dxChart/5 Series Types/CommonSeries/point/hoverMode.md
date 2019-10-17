@@ -29,7 +29,7 @@ The point does not react to pointing to it.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeatureshovermode/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/HoverMode/"
 }
 
 #####See Also#####

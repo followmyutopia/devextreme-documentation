@@ -1,7 +1,7 @@
 The **MultiView** is a widget that contains several views. An end user navigates through the views by swiping them in the horizontal direction. The widget is often used along with the [Tabs](/api-reference/10%20UI%20Widgets/dxTabs/dxTabs.md '/Documentation/ApiReference/UI_Widgets/dxTabs/') widget.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/navigation-multi_view-overview"
+    url: "/Demos/WidgetsGallery/Demo/MultiView/Overview/"
 }
 
 In the most simple case, the **MultiView** widget requires only the [dataSource](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/dataSource.md '/Documentation/ApiReference/UI_Widgets/dxMultiView/Configuration/#dataSource') option to be configured. Note that in such a case, data source items should have a structure similar to the [Default Item Template](/api-reference/10%20UI%20Widgets/dxMultiView/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxMultiView/Default_Item_Template/'). The following code adds the **MultiView** to your page.

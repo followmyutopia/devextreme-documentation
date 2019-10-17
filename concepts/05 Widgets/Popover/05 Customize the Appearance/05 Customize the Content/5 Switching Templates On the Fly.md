@@ -126,4 +126,4 @@ If you need to render different templates depending on a specific condition, def
 - <a href="https://docs.devexpress.com/AspNetCore/401029/devextreme-based-controls/concepts/templates" target="_blank">ASP.NET MVC Controls - Templates</a>
 - [Popover - Customize the Title](/concepts/05%20Widgets/Popover/05%20Customize%20the%20Appearance/10%20Customize%20the%20Title.md '/Documentation/Guide/Widgets/Popover/Customize_the_Appearance/Customize_the_Title/')
 - [Popover - Specify Toolbar Items](/concepts/05%20Widgets/Popover/05%20Customize%20the%20Appearance/20%20Specify%20Toolbar%20Items.md '/Documentation/Guide/Widgets/Popover/Customize_the_Appearance/Specify_Toolbar_Items/')
-- [Popover Demos](/Demos/WidgetsGallery/#demo/dialogs_and_notifications-popover-overview)
+- [Popover Demos](/Demos/WidgetsGallery/Demo/Popover/Overview/)

@@ -1,7 +1,7 @@
 The **Form** widget represents fields of a data object as a collection of label-editor pairs. These pairs can be arranged in several groups, tabs and columns.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-overview"
+    url: "/Demos/WidgetsGallery/Demo/Form/Overview/"
 }
 
 The following code adds the **Form** widget to your page. The simplest configuration of this widget includes only a data object. 

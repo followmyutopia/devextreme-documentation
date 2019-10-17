@@ -19,5 +19,5 @@ The value indicator is a pointer which designates the main value of the gauge. T
 - [TwoColorNeedle](/api-reference/20%20Data%20Visualization%20Widgets/dxCircularGauge/5%20Indicator%20Types/TwoColorNeedle/TwoColorNeedle.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Indicator_Types/TwoColorNeedle/')
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/gaugescirculargaugescirculargaugebasicelementsdifferentvalueindicatortypes/"
+    url: "/Demos/WidgetsGallery/Demo/Gauges/DifferentValueIndicatorTypes/"
 }

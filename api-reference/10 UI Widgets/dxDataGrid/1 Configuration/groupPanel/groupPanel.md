@@ -19,5 +19,5 @@ In case you need to show the group panel, but make it irresponsive, assign **fal
 - **columns[]**.[allowGrouping](/api-reference/_hidden/dxDataGridColumn/allowGrouping.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowGrouping') - disallows grouping for an individual column.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/datagridgridgroupinglocaldatagrouping/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/RecordGrouping/"
 }

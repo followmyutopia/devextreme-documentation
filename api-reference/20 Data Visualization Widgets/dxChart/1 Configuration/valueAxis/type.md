@@ -26,5 +26,5 @@ Normally, there is no need to specify this option, because the axis type is dete
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeatureslogarithmicaxis/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/LogarithmicAxis/"
 }

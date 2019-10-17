@@ -100,5 +100,5 @@ If you are going to change event handlers at runtime, or if you need to attach s
 #include common-link-handleevents
 - [Toast - Customize the Content](/concepts/05%20Widgets/Toast/10%20Customize%20the%20Content.md '/Documentation/Guide/Widgets/Toast/Customize_the_Content/')
 - [Toast - Resize and Relocate](/concepts/05%20Widgets/Toast/15%20Resize%20and%20Relocate.md '/Documentation//Guide/Widgets/Toast/Resize_and_Relocate/')
-- [Toast Demos](/Demos/WidgetsGallery/#demo/dialogs_and_notifications-toast-overview)
+- [Toast Demos](/Demos/WidgetsGallery/Demo/Toast/Overview/)
 - [Toast API Reference](/api-reference/10%20UI%20Widgets/dxToast/dxToast.md '/Documentation/ApiReference/UI_Widgets/dxToast/')

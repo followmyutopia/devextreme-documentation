@@ -8,7 +8,7 @@ Subvalue indicators are pointers that indicate extra values on the **CircularGau
 - [TwoColorNeedle](/api-reference/20%20Data%20Visualization%20Widgets/dxCircularGauge/5%20Indicator%20Types/TwoColorNeedle/TwoColorNeedle.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Indicator_Types/TwoColorNeedle/')
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/gaugescirculargaugescirculargaugebasicelementsdifferentsubvalueindicatortypes/"
+    url: "/Demos/WidgetsGallery/Demo/Gauges/DifferentSubvalueIndicatorTypes/"
 }
 
 In order to customize the appearance of the subvalue indicators, use the [subvalueIndicator](/api-reference/20%20Data%20Visualization%20Widgets/dxCircularGauge/1%20Configuration/subvalueIndicator/subvalueIndicator.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Configuration/subvalueIndicator/') configuration object. Set its **type** option and then the required type-specific options. The type-specific options are listed within the widget's [Indicator Types](/api-reference/20%20Data%20Visualization%20Widgets/dxCircularGauge/5%20Indicator%20Types/Indicator%20Types.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Indicator_Types/') reference section. 

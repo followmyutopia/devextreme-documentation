@@ -21,5 +21,5 @@ The spider web option is supported in the following series types.
 [note]A spider web demands that the [discreteAxisDivisionMode](/api-reference/20%20Data%20Visualization%20Widgets/dxPolarChart/1%20Configuration/commonAxisSettings/discreteAxisDivisionMode.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/commonAxisSettings/#discreteAxisDivisionMode') option is set to *'crossLabels'* and the [firstPointOnStartAngle](/api-reference/20%20Data%20Visualization%20Widgets/dxPolarChart/1%20Configuration/argumentAxis/firstPointOnStartAngle.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/argumentAxis/#firstPointOnStartAngle') option is set to **true**. Thus, do not change the values of these option so that the spider web saves its look.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartspolarandradarchartspolarandradarchartsspiderweb/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/SpiderWeb/"
 }

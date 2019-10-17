@@ -74,7 +74,7 @@ Alternatively, the widget's height can adapt to the widget's contents. In this c
 
 #####See Also#####
 - [TextArea - Limit the Text Length](/concepts/05%20Widgets/TextArea/15%20Limit%20the%20Text%20Length.md '/Documentation/Guide/Widgets/TextArea/Limit_the_Text_Length/')
-- [TextArea Demos](/Demos/WidgetsGallery/#demo/editors-text_area-overview)
+- [TextArea Demos](/Demos/WidgetsGallery/Demo/TextArea/Overview/)
 - [TextArea API Reference](/api-reference/10%20UI%20Widgets/dxTextArea/dxTextArea.md '/Documentation/ApiReference/UI_Widgets/dxTextArea/')
 
 [tags]textArea, text area, editor, size, height, width, adaptive, minimum height, maximum height, autoResizeEnabled

@@ -1,7 +1,7 @@
 The **TileView** widget contains a collection of tiles. Tiles can store much more information than ordinary buttons, that is why they are very popular in apps designed for touch devices.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/actions_and_lists-tileview-overview"
+    url: "/Demos/WidgetsGallery/Demo/TileView/Basics/"
 }
 
 The following code adds a primitive **TileView** to your page.

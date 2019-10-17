@@ -11,5 +11,5 @@ You can enable mouse support, touch support or both by assigning corresponding v
 	};
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeatures011_zoomingwithscroll/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/ZoomingAndScrolling/"
 }

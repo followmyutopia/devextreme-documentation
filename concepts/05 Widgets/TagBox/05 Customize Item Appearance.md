@@ -285,6 +285,6 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 
 #####See Also#####
 - [TagBox API Reference](/api-reference/10%20UI%20Widgets/dxTagBox/dxTagBox.md '/Documentation/ApiReference/UI_Widgets/dxTagBox/')
-- [TagBox Demos](/Demos/WidgetsGallery/#demo/editors-tag_box-overview)
+- [TagBox Demos](/Demos/WidgetsGallery/Demo/TagBox/Overview/)
 
 [tags]tagBox, tag box, editor, item appearance, customize, templates, template, default item, default template, tag template

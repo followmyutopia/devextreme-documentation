@@ -12,7 +12,7 @@ The subvalues.
 See the **subvalues** option description for more information on gauge subvalues.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/gaugescirculargaugescirculargaugeapiandbindingvalueindicatorsapi/"
+    url: "/Demos/WidgetsGallery/Demo/Gauges/ValueIndicatorsApi/"
 }
 
 #####See Also#####

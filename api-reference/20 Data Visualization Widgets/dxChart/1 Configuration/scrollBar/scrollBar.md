@@ -12,5 +12,5 @@ The scroll bar allows a user to pan the chart. To use it, you need to enable [zo
 By default, the scroll bar is hidden. To make it visible, set the [visible](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/scrollBar/visible.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/scrollBar/#visible') field of the **scrollBar** object to **true**. Using other fields of this object you can adjust the scroll bar appearance settings, including color, width and opacity.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeatures011_zoomingwithscroll/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/ZoomingAndScrolling/"
 }

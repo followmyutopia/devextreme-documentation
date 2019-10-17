@@ -10,7 +10,7 @@ This article describes configuration options of a tabbed form item.
 An item representing a tabbed container for other form items. 
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-grouped_fields"
+    url: "/Demos/WidgetsGallery/Demo/Form/GroupedFields/"
 }
 
 #####See Also#####

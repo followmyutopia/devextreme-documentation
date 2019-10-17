@@ -1,7 +1,7 @@
 The **NavBar** is a widget that navigates the application views. 
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/navigation-navbar-overview/ios7"
+    url: "/Demos/WidgetsGallery/Demo/Navbar/Overview/"
 }
 
 The following code adds the **NavBar** to your page. All navigation items have icons and one of them has a [badge](/api-reference/10%20UI%20Widgets/dxNavBar/5%20Default%20Item%20Template/badge.md '/Documentation/ApiReference/UI_Widgets/dxNavBar/Default_Item_Template/#badge'). 

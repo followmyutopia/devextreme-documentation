@@ -21,7 +21,7 @@ A template name or container.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-scheduler-cell_templates"
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/CellTemplates/"
 }
 
 #####See Also#####

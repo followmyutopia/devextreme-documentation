@@ -1,7 +1,7 @@
 The **Tooltip** widget displays a tooltip for a specified element on the page.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/dialogs_and_notifications-tooltip-overview"
+    url: "/Demos/WidgetsGallery/Demo/Tooltip/Overview/"
 }
 
 The following code creates a simple **Tooltip** on your page and attaches it to another element (in this example, to an image).

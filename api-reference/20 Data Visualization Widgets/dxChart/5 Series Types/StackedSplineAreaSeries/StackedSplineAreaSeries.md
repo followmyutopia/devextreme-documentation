@@ -15,7 +15,7 @@ Describes settings supported by a series of the *stacked spline area* type.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartschartsareaseriesspline/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/SplineArea/"
 }
 
 ![DevExtreme HTML5 Charts StackedSplineAreaSeriesType](/Content/images/doc/19_2/ChartJS/StackedSplineArea.png)

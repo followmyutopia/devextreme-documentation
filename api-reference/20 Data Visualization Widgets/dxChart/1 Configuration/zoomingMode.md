@@ -20,7 +20,7 @@ This option allows you to control the zooming capability in your chart. By defau
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeatures011_zoomingwithscroll/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/ZoomingAndScrolling/"
 }
 
 #####See Also#####

@@ -68,5 +68,5 @@ In the context of the **Form** widget, a group is called ["group item"](/api-ref
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-grouped_fields"
+    url: "/Demos/WidgetsGallery/Demo/Form/GroupedFields/"
 }

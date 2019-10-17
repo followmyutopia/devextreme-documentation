@@ -8,7 +8,7 @@ A value indicator is a pointer that designates the [main value](/api-reference/2
 - [TriangleMarker](/api-reference/20%20Data%20Visualization%20Widgets/dxLinearGauge/5%20Indicator%20Types/TriangleMarker/TriangleMarker.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Indicator_Types/TriangleMarker/')
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/gaugeslineargaugeslineargaugebasicelementsdifferentvalueindicatortypes/"
+    url: "/Demos/WidgetsGallery/Demo/Gauges/DifferentValueIndicatorTypesLinearGauge/"
 }
 
 In order to customize the appearance of a value indicator, use the [valueIndicator](/api-reference/20%20Data%20Visualization%20Widgets/dxLinearGauge/1%20Configuration/valueIndicator/valueIndicator.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/valueIndicator/') configuration object. Set its **type** option and then the required type-specific options. The type-specific options are listed within the widget's [Indicator Types](/api-reference/20%20Data%20Visualization%20Widgets/dxLinearGauge/5%20Indicator%20Types/Indicator%20Types.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Indicator_Types/') reference section. 

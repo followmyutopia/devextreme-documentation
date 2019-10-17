@@ -87,7 +87,7 @@ If you use jQuery alone, combine the HTML markup for cells manually with jQuery 
 In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/concepts/05%20Widgets/zz%20Common/30%20Templates/30%203rd-Party%20Template%20Engines.md '/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines') article.
 
 #####See Also#####
-- [Calendar Demos](/Demos/WidgetsGallery/#demo/editors-calendar-overview)
+- [Calendar Demos](/Demos/WidgetsGallery/Demo/Calendar/Overview/)
 - [Calendar API Reference](/api-reference/10%20UI%20Widgets/dxCalendar/dxCalendar.md '/Documentation/ApiReference/UI_Widgets/dxCalendar/')
 
 [tags]calendar, cell appearance, customize, templates

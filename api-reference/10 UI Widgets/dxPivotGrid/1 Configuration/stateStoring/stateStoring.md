@@ -14,5 +14,5 @@ At runtime, end-users may adjust pivot grid settings to their needs. By default,
 The PivotGridDataSource provides the [state](/api-reference/30%20Data%20Layer/PivotGridDataSource/3%20Methods/state().md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#state') method. Use it to get or change the pivot grid state at runtime. Call this method without arguments to obtain the pivot grid state. When you need to set the pivot grid state, call this method with the state object as its argument. You can also return the widget to its default state by calling the [state](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Methods/#state) method with the empty object or **null** argument.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/data_grid-pivot_grid-state_persistence"
+    url: "/Demos/WidgetsGallery/Demo/PivotGrid/StatePersistence/"
 }

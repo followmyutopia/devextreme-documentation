@@ -13,7 +13,7 @@ dx.web.js, dx.viz-web.js, dx.all.js
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/dialogsandnotificationspopoverpopoverpopover/"
+    url: "/Demos/WidgetsGallery/Demo/Popover/Overview/"
 }
 #include common-readguidesbutton with {
     url: "/Documentation/Guide/Widgets/Popover/Overview/"

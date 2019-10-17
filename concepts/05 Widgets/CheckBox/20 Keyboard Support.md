@@ -65,7 +65,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
 #####See Also#####
 #include common-link-callmethods
-- [CheckBox Demos](/Demos/WidgetsGallery/#demo/editors-check_box-overview)
+- [CheckBox Demos](/Demos/WidgetsGallery/Demo/CheckBox/Overview/)
 - [CheckBox API Reference](/api-reference/10%20UI%20Widgets/dxCheckBox/dxCheckBox.md '/Documentation/ApiReference/UI_Widgets/dxCheckBox/')
 
 [tags]check box, checkBox, navigation, accessibility, keyboard shortcuts

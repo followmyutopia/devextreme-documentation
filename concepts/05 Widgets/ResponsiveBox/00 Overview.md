@@ -3,7 +3,7 @@ The **ResponsiveBox** widget allows you to create an application or a website wi
 ![DevExtreme HTML5 JavaScript ResponsiveBox](/Content/images/doc/19_2/UiWidgets/responsive-box.png)
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-responsive_box-overview/tablet-landscape"
+    url: "/Demos/WidgetsGallery/Demo/ResponsiveBox/Overview/"
 }
 
 The following code creates a simple **ResponsiveBox**. The widget defines an ordinary page layout: a header, a footer, content area, left- and right-side bars. On small and extra small screens, the bars are hidden to give more space to the content. Note that the height of all elements that are ancestors to the **ResponsiveBox** (such as `<body>` and `<html>`) is explicitly set to *"100%"*. This makes the **ResponsiveBox** occupy full screen height.

@@ -15,7 +15,7 @@ Describes settings supported by a series of the *stacked bar* type.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartschartsbarseriesstacked/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/StackedBar/"
 }
 
 ![DevExtreme HTML5 Charts StackedBarSeriesType](/Content/images/doc/19_2/ChartJS/StackedBar.png)

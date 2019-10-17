@@ -49,7 +49,7 @@ Note that the default shading color is transparent.
 - [Popup - Customize the Content](/concepts/05%20Widgets/Popup/05%20Customize%20the%20Appearance/05%20Customize%20the%20Content/Customize%20the%20Content.md '/Documentation/Guide/Widgets/Popup/Customize_the_Appearance/Customize_the_Content/')
 - [Popup - Customize the Title](/concepts/05%20Widgets/Popup/05%20Customize%20the%20Appearance/10%20Customize%20the%20Title.md '/Documentation/Guide/Widgets/Popup/Customize_the_Appearance/Customize_the_Title/')
 - [Popup - Specify Toolbar Items](/concepts/05%20Widgets/Popup/05%20Customize%20the%20Appearance/20%20Specify%20Toolbar%20Items.md '/Documentation/Guide/Widgets/Popup/Customize_the_Appearance/Specify_Toolbar_Items/')
-- [Popup Demos](/Demos/WidgetsGallery/#demo/dialogs_and_notifications-popup-overview)
+- [Popup Demos](/Demos/WidgetsGallery/Demo/Popup/Overview/)
 - [Popup API Reference](/api-reference/10%20UI%20Widgets/dxPopup/dxPopup.md '/Documentation/ApiReference/UI_Widgets/dxPopup/')
 
 [tags]popup, overlay, shading, background, shading color

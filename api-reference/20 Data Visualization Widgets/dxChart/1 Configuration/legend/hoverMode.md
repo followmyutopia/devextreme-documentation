@@ -19,5 +19,5 @@ You can set a custom 'hover' style for a series and/or its points. To do this, u
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeatureshovermode/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/HoverMode/"
 }

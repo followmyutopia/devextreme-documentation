@@ -1,7 +1,7 @@
 The **Toolbar** is a widget containing items that usually manage screen content. Those items can be plain text or widgets.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/navigation-toolbar-overview"
+    url: "/Demos/WidgetsGallery/Demo/Toolbar/Overview/"
 }
 
 The following code adds a simple **Toolbar** to your page. Three items are plain text and one is a [Button](/concepts/05%20Widgets/Button/00%20Overview.md '/Documentation/Guide/Widgets/Button/') widget. 

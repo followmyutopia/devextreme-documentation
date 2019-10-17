@@ -18,7 +18,7 @@ dx.web.js, dx.viz-web.js, dx.all.js
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/actionsandlistslistlistlisteditingandapi/"
+    url: "/Demos/WidgetsGallery/Demo/List/ListEditingAndApi/"
 }
 #include common-readguidesbutton with {
     url: "/Documentation/Guide/Widgets/List/Overview/"

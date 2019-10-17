@@ -98,7 +98,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
 #####See Also#####
 #include common-link-callmethods
-- [DateBox Demos](/Demos/WidgetsGallery/#demo/editors-date_box-overview)
+- [DateBox Demos](/Demos/WidgetsGallery/Demo/DateBox/Overview/)
 - [DateBox API Reference](/api-reference/10%20UI%20Widgets/dxDateBox/dxDateBox.md '/Documentation/ApiReference/UI_Widgets/dxDateBox/')
 
 [tags]date box, dateBox, navigation, accessibility, keyboard shortcuts

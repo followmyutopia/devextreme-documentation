@@ -15,7 +15,7 @@ Describes settings supported by a series of the *bar* type.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartschartsbarseriessimplestsingle/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/StandardBar/"
 }
 
 ![DevExtreme HTML5 Charts BarSeriesType](/Content/images/doc/19_2/ChartJS/Bar.png)

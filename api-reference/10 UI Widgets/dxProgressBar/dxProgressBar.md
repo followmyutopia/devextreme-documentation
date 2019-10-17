@@ -15,7 +15,7 @@ dx.web.js, dx.viz-web.js, dx.all.js
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/dialogsandnotificationsprogressbarprogressbarprogressbar/"
+    url: "/Demos/WidgetsGallery/Demo/ProgressBar/Overview/"
 }
 #include common-readguidesbutton with {
     url: "/Documentation/Guide/Widgets/ProgressBar/Overview/"

@@ -15,7 +15,7 @@ You can also display group summary items in a group footer by setting the [showI
 [note] If this option is set to **true** for the first column of the grid, this setting is ignored (the summary item will be displayed in parentheses after the group row header). It happens because in the described case, the group header and the summary value occupy the same cell.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/datagridgriddatasummariesgroupsummarytotals"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/GroupSummaries/"
 }
 
 #####See Also#####

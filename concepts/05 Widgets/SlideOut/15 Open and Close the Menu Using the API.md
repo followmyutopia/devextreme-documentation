@@ -109,7 +109,7 @@ When using AngularJS or Knockout, you can still call these methods, but as an al
 ---
 
 #####See Also#####
-- [SlideOut Demos](/Demos/WidgetsGallery/#demo/navigation-slideout-overview/ios7)
+- [SlideOut Demos](/Demos/WidgetsGallery/Demo/Slideout/Overview/)
 - [SlideOut API Reference](/api-reference/10%20UI%20Widgets/dxSlideOut/dxSlideOut.md '/Documentation/ApiReference/UI_Widgets/dxSlideOut/')
 
 [tags]slide-out menu, slideOut, open, show, close, hide

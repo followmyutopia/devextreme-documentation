@@ -23,7 +23,7 @@ A template name or container.
 [note] There is no **dataCellTemplate** in the [agenda](/concepts/05%20Widgets/Scheduler/060%20Views/010%20View%20Types/050%20Agenda%20View.md '/Documentation/Guide/Widgets/Scheduler/Views/View_Types/#Agenda_View') view.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-scheduler-cell_templates"
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/CellTemplates/"
 }
 
 #####See Also#####

@@ -1,7 +1,7 @@
 The **Gallery** is a widget that displays a collection of images in a carousel. The widget is supplied with various navigation controls that allow a user to switch between images.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/actions_and_lists-gallery-overview"
+    url: "/Demos/WidgetsGallery/Demo/Gallery/Overview/"
 }
 
 The following code adds the **Gallery** widget to your page. The simplest configuration of the widget requires only a [dataSource](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/dataSource.md '/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/#dataSource') and [height](/api-reference/10%20UI%20Widgets/DOMComponent/1%20Configuration/height.md '/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/#height') to be specified.
@@ -61,7 +61,7 @@ The following code adds the **Gallery** widget to your page. The simplest config
 - [Gallery - Animate the Image Change](/concepts/05%20Widgets/Gallery/20%20Animate%20the%20Image%20Change.md '/Documentation/Guide/Widgets/Gallery/Animate_the_Image_Change/')
 - [Gallery - Transform and Combine Images](/concepts/05%20Widgets/Gallery/25%20Transform%20and%20Combine%20Images.md '/Documentation/Guide/Widgets/Gallery/Transform_and_Combine_Images/')
 - [Gallery - Customize Item Appearance](/concepts/05%20Widgets/Gallery/30%20Customize%20Item%20Appearance.md '/Documentation/Guide/Widgets/Gallery/Customize_Item_Appearance/')
-- [Gallery Demos](/Demos/WidgetsGallery/#demo/actions_and_lists-gallery-overview)
+- [Gallery Demos](/Demos/WidgetsGallery/Demo/Gallery/Overview/)
 - [Gallery API Reference](/api-reference/10%20UI%20Widgets/dxGallery/dxGallery.md '/Documentation/ApiReference/UI_Widgets/dxGallery/')
 
 [tags]gallery, overview

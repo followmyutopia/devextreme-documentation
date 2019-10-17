@@ -177,7 +177,7 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 
 #####See Also#####
 - [Autocomplete - Configure Search Parameters](/concepts/05%20Widgets/Autocomplete/10%20Configure%20Search%20Parameters.md '/Documentation/Guide/Widgets/Autocomplete/Configure_Search_Parameters')
-- [Autocomplete Demos](/Demos/WidgetsGallery/#demo/editors-autocomplete-overview)
+- [Autocomplete Demos](/Demos/WidgetsGallery/Demo/Autocomplete/Overview/)
 - [Autocomplete API Reference](/api-reference/10%20UI%20Widgets/dxAutocomplete/dxAutocomplete.md '/Documentation/ApiReference/UI_Widgets/dxAutocomplete/')
 
 [tags]autocomplete, item appearance, customize, templates, template, default item, default template

@@ -175,7 +175,7 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 #####See Also#####
 - [NavBar - Default Item Template](/api-reference/10%20UI%20Widgets/dxNavBar/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxNavBar/Default_Item_Template/') 
 - [NavBar - Items Selection](/concepts/05%20Widgets/NavBar/10%20Items%20Selection.md '/Documentation/Guide/Widgets/NavBar/Items_Selection/')
-- [NavBar Demos](/Demos/WidgetsGallery/#demo/navigation-navbar-overview/ios7)
+- [NavBar Demos](/Demos/WidgetsGallery/Demo/Navbar/Overview/)
 - [NavBar API Reference](/api-reference/10%20UI%20Widgets/dxNavBar/dxNavBar.md '/Documentation/ApiReference/UI_Widgets/dxNavBar/')
 
 [tags]nav bar, navBar, navigation bar, item appearance, customize, templates, template, custom template, default item, default template

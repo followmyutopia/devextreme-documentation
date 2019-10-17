@@ -15,7 +15,7 @@ dx.web.js, dx.viz-web.js, dx.all.js
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/mapsmapmapmap/"
+    url: "/Demos/WidgetsGallery/Demo/Map/ProvidersAndTypes/"
 }
 #include common-readguidesbutton with {
     url: "/Documentation/Guide/Widgets/Map/Overview/"

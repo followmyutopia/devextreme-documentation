@@ -19,5 +19,5 @@ To learn how to select a point, refer to the [Selection Handling](/concepts/05%2
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeaturesmultipleseriesselection/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/MultipleSeriesSelection/"
 }

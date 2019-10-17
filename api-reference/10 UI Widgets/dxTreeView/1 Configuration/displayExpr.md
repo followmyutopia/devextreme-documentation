@@ -5,7 +5,7 @@
 #include uiwidgets-ref-displayExpr
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/navigationtreeviewtreeviewplaindatastructure/"
+    url: "/Demos/WidgetsGallery/Demo/TreeView/FlatDataStructure/"
 }
 
 #####See Also#####

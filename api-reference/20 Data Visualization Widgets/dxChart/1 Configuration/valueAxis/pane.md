@@ -12,5 +12,5 @@ Binds the value axis to a [pane](/concepts/05%20Widgets/Chart/40%20Panes/00%20Ov
 - [panes](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/panes/panes.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/panes/') - declares an array of panes.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeaturesmultipanes/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/MultiplePanes/"
 }

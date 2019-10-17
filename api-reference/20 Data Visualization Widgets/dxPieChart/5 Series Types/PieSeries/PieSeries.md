@@ -15,7 +15,7 @@ An object defining a series of the **pie** type.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartschartspieseriespie/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/Pie/"
 }
 
 ![PieSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/Pie.png)

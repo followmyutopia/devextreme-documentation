@@ -207,7 +207,7 @@ The result is different if *Item 2*'s **shrink** value is more than the other it
 
 #####See Also#####
 - [Box - Arrange and Align Items](/concepts/05%20Widgets/Box/10%20Arrange%20and%20Align%20Items.md '/Documentation/Guide/Widgets/Box/Arrange_and_Align_Items/')
-- [Box Demos](/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-box-overview)
+- [Box Demos](/Demos/WidgetsGallery/Demo/Box/Overview/)
 - [Box API Reference](/api-reference/10%20UI%20Widgets/dxBox/dxBox.md '/Documentation/ApiReference/UI_Widgets/dxBox/')
 
 [tags]box, item size, item height, item width, baseSize, ratio

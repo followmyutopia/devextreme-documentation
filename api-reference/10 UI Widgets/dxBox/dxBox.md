@@ -13,7 +13,7 @@ dx.web.js, dx.viz-web.js, dx.all.js
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/formsandmulti-purposeboxboxbox/"
+    url: "/Demos/WidgetsGallery/Demo/Box/Overview/"
 }
 #include common-readguidesbutton with {
     url: "/Documentation/Guide/Widgets/Box/Overview/"

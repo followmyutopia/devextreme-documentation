@@ -119,7 +119,7 @@ You can also specify the time interval the widget should wait before providing s
 
 #####See Also#####
 - [Autocomplete - Customize Item Appearance](/concepts/05%20Widgets/Autocomplete/05%20Customize%20Item%20Appearance.md '/Documentation/Guide/Widgets/Autocomplete/Customize_Item_Appearance/')
-- [Autocomplete Demos](/Demos/WidgetsGallery/#demo/editors-autocomplete-overview)
+- [Autocomplete Demos](/Demos/WidgetsGallery/Demo/Autocomplete/Overview/)
 - [Autocomplete API Reference](/api-reference/10%20UI%20Widgets/dxAutocomplete/dxAutocomplete.md '/Documentation/ApiReference/UI_Widgets/dxAutocomplete/')
 
 [tags]autocomplete, search, search mode, time interval, min search length

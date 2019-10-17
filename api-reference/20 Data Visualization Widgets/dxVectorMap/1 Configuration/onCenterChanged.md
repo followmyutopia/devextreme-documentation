@@ -27,5 +27,5 @@ The model data. Available only if you use Knockout.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/mapsvectormapvectormapviewport/"
+    url: "/Demos/WidgetsGallery/Demo/VectorMap/DynamicViewport/"
 }

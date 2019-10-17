@@ -1,7 +1,7 @@
 The **LoadPanel** is an overlay widget notifying the viewer that loading is in progress.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/dialogs_and_notifications-load_panel-overview"
+    url: "/Demos/WidgetsGallery/Demo/LoadPanel/Overview/"
 }
 
 The following code adds to your page a simple **LoadPanel** and a [Button](/concepts/05%20Widgets/Button/00%20Overview.md '/Documentation/Guide/Widgets/Button/Overview/') that invokes it. The [closeOnOutsideClick](/api-reference/10%20UI%20Widgets/dxOverlay/1%20Configuration/closeOnOutsideClick.md '/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#closeOnOutsideClick') option set to **true** instructs the **LoadPanel** to hide once a user clicks outside it.

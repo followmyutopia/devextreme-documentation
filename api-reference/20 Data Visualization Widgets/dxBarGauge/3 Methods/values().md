@@ -10,7 +10,7 @@ The values.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/gaugesbargaugesbargaugeapiandbindingvariablenumberofbars/"
+    url: "/Demos/WidgetsGallery/Demo/Gauges/VariableNumberOfBars/"
 }
 
 #####See Also#####

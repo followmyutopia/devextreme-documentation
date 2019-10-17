@@ -1,7 +1,7 @@
 The **Accordion** widget contains several panels displayed one under another. These panels can be collapsed or expanded by an end user, which makes this widget very useful for presenting information in a limited amount of space.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/navigation-accordion-overview"
+    url: "/Demos/WidgetsGallery/Demo/Accordion/Overview/"
 }
 
 The following code adds a simple **Accordion** to your page. Note that each data source object contains the **title** field, whose value goes to the title of the panel. 

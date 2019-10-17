@@ -19,7 +19,7 @@ dx.web.js, dx.viz-web.js, dx.all.js
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/navigationtabstabstabs/"
+    url: "/Demos/WidgetsGallery/Demo/Tabs/Overview/"
 }
 #include common-readguidesbutton with {
     url: "/Documentation/Guide/Widgets/Tabs/Overview/"

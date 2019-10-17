@@ -15,7 +15,7 @@ Describes settings supported by a series of the *stock* type.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartschartsfinancialseriesstock/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/Stock/"
 }
 
 ![DevExtreme HTML5 Charts StockSeriesType](/Content/images/doc/19_2/ChartJS/Stock.png)

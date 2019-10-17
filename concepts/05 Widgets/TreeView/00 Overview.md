@@ -1,7 +1,7 @@
 The **TreeView** widget is a tree-like representation of textual data.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/navigation-tree_view-hierarchical_data_structure"
+    url: "/Demos/WidgetsGallery/Demo/TreeView/HierarchicalDataStructure/"
 }
 
 The following code adds a simple **TreeView** to your page:

@@ -1,7 +1,7 @@
 The **DateBox** is a widget that displays a date and time in a specified format, and enables a user to pick or type in the required date/time value.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/editors-date_box-overview"
+    url: "/Demos/WidgetsGallery/Demo/DateBox/Overview/"
 }
 
 The following code adds a simple **DateBox** to your page.

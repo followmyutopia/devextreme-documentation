@@ -15,5 +15,5 @@ Specifies a label position relative to the chart.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartschartspieseriespiewithcustomlabels/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/PieWithCustomLabels/"
 }

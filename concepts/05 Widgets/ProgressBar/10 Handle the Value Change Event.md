@@ -32,7 +32,7 @@ If you are going to change event handlers at runtime, or if you need to attach s
 
 #####See Also#####
 #include common-link-handleevents
-- [ProgressBar Demos](/Demos/WidgetsGallery/#demo/dialogs_and_notifications-progress_bar-overview)
+- [ProgressBar Demos](/Demos/WidgetsGallery/Demo/ProgressBar/Overview/)
 - [ProgressBar API Reference](/api-reference/10%20UI%20Widgets/dxProgressBar/dxProgressBar.md '/Documentation/ApiReference/UI_Widgets/dxProgressBar/')
 
 [tags]progress bar, progressBar, editor, get value, set value

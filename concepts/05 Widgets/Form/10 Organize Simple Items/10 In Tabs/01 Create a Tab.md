@@ -68,5 +68,5 @@ The **Form** widget allows you to organize items in tabs. In the context of the 
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-grouped_fields"
+    url: "/Demos/WidgetsGallery/Demo/Form/GroupedFields/"
 }

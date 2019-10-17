@@ -1,7 +1,7 @@
 The **Menu** widget is a panel with clickable items. A click on an item opens a drop-down menu, which can contain several submenus.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/navigation-menu-overview"
+    url: "/Demos/WidgetsGallery/Demo/Menu/Overview/"
 }
 
 The following code adds the **Menu** widget to your page. Note that the data source of the widget declares several nesting levels. First-level items produce items for the widget panel, or "root items". Other items go to drop-down menus.

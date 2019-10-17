@@ -59,7 +59,7 @@ If you need to add an empty space between neighboring items, use an [empty item]
 - [Form - Organize Simple Items in Groups](/concepts/05%20Widgets/Form/10%20Organize%20Simple%20Items/05%20In%20Groups/In%20Groups.md '/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Groups/')
 - [Form - Organize Simple Items in Tabs](/concepts/05%20Widgets/Form/10%20Organize%20Simple%20Items/10%20In%20Tabs/In%20Tabs.md '/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Tabs/')
 - [Form - Organize Simple Items in Columns](/concepts/05%20Widgets/Form/10%20Organize%20Simple%20Items/15%20In%20Columns/In%20Columns.md '/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Columns/')
-- [Form Demos](/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-grouped_fields)
+- [Form Demos](/Demos/WidgetsGallery/Demo/Form/GroupedFields/)
 - [Form API Reference](/api-reference/10%20UI%20Widgets/dxForm/dxForm.md '/Documentation/ApiReference/UI_Widgets/dxForm/')
 
 [tags]form, empty item, empty space, colSpan

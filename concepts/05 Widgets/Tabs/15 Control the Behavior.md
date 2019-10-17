@@ -61,7 +61,7 @@ When the total length of all tabs exceeds the **Tabs** container, the widget sho
 
 #####See Also#####
 - [Tabs - Customize Item Appearance](/concepts/05%20Widgets/Tabs/05%20Customize%20Item%20Appearance.md '/Documentation/Guide/Widgets/Tabs/Customize_Item_Appearance')
-- [Tabs Demos](/Demos/WidgetsGallery/#demo/navigation-tabs-overview)
+- [Tabs Demos](/Demos/WidgetsGallery/Demo/Tabs/Overview/)
 - [Tabs API Reference](/api-reference/10%20UI%20Widgets/dxTabs/dxTabs.md '/Documentation/ApiReference/UI_Widgets/dxTabs/')
 
 [tags]tabs, select item, selection mode, nav buttons, navigation buttons, index

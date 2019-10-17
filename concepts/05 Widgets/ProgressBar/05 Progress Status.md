@@ -23,7 +23,7 @@ The progress status displays a numeric value indicating the made progress. Wheth
 
 #####See Also#####
 - [ProgressBar - Handle the Value Change Event](/concepts/05%20Widgets/ProgressBar/10%20Handle%20the%20Value%20Change%20Event.md '/Documentation/Guide/Widgets/ProgressBar/Handle_the_Value_Change_Event')
-- [ProgressBar Demos](/Demos/WidgetsGallery/#demo/dialogs_and_notifications-progress_bar-overview)
+- [ProgressBar Demos](/Demos/WidgetsGallery/Demo/ProgressBar/Overview/)
 - [ProgressBar API Reference](/api-reference/10%20UI%20Widgets/dxProgressBar/dxProgressBar.md '/Documentation/ApiReference/UI_Widgets/dxProgressBar/')
 
 [tags]progress bar, progressBar, editor, progress status, showStatus, statusFormat

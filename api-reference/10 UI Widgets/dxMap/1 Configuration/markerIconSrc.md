@@ -12,5 +12,5 @@ To set a custom icon for an individual marker, specify the **iconSrc** field of 
 
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/mapsmapmapmarkers/"
+    url: "/Demos/WidgetsGallery/Demo/Map/Markers/"
 }

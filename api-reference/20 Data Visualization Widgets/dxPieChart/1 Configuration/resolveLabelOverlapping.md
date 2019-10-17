@@ -19,5 +19,5 @@ Series point labels display series point values. If the series in your pie chart
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartschartspieseriespiewithoverlappinglabels/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/PieWithResolvedLabelOverlapping/"
 }

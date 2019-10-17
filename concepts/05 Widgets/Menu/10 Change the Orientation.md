@@ -77,7 +77,7 @@ When the widget is positioned at the bottom or at the left side, you may want to
 ---
 
 #####See Also#####
-- [Menu Demos](/Demos/WidgetsGallery/#demo/navigation-menu-overview)
+- [Menu Demos](/Demos/WidgetsGallery/Demo/Menu/Overview/)
 - [Menu API Reference](/api-reference/10%20UI%20Widgets/dxMenu/dxMenu.md '/Documentation/ApiReference/UI_Widgets/dxMenu/')
 
 [tags]menu, orientation, direction, position, padding

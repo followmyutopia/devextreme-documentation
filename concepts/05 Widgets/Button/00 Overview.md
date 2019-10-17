@@ -1,7 +1,7 @@
 The **Button** widget is a simple button that performs specified commands when a user clicks it.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/actions_and_lists-button-predefined_types"
+    url: "/Demos/WidgetsGallery/Demo/Button/PredefinedTypes/"
 }
 
 The following code adds a simple **Button** to your page.

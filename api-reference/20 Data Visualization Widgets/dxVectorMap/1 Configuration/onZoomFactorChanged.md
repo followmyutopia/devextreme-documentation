@@ -27,5 +27,5 @@ The updated zoom factor.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/mapsvectormapvectormapviewport/"
+    url: "/Demos/WidgetsGallery/Demo/VectorMap/DynamicViewport/"
 }

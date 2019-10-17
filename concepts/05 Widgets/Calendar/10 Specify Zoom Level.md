@@ -75,6 +75,6 @@ To make certain calendar views inaccessible, specify the [maxZoomLevel](/api-ref
 - [Calendar - Specify Zoom Level](/concepts/05%20Widgets/Calendar/10%20Specify%20Zoom%20Level.md '/Documentation/Guide/Widgets/Calendar/Specify_Zoom_Level')
 - [Calendar - Customize Cell Appearance](/concepts/05%20Widgets/Calendar/15%20Customize%20Cell%20Appearance.md '/Documentation/Guide/Widgets/Calendar/Customize_Cell_Appearance')
 - [Calendar API Reference](/api-reference/10%20UI%20Widgets/dxCalendar/dxCalendar.md '/Documentation/ApiReference/UI_Widgets/dxCalendar/')
-- [Calendar Demos](/Demos/WidgetsGallery/#demo/editors-calendar-overview)
+- [Calendar Demos](/Demos/WidgetsGallery/Demo/Calendar/Overview/)
 
 [tags]calendar, editor, calendar view, zoomLevel, zoom level

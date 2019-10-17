@@ -109,7 +109,7 @@ As an alternative, you can specify the initial image using its data source objec
 - [Gallery - Switch Between Images](/concepts/05%20Widgets/Gallery/05%20Switch%20Between%20Images/Switch%20Between%20Images.md '/Documentation/Guide/Widgets/Gallery/Switch_Between_Images/')
 - [Gallery - Enable the Slideshow](/concepts/05%20Widgets/Gallery/15%20Enable%20the%20Slideshow.md '/Documentation/Guide/Widgets/Gallery/Enable_the_Slideshow/')
 - [Gallery - Animate the Image Change](/concepts/05%20Widgets/Gallery/20%20Animate%20the%20Image%20Change.md '/Documentation/Guide/Widgets/Gallery/Animate_the_Image_Change/')
-- [Gallery Demos](/Demos/WidgetsGallery/#demo/actions_and_lists-gallery-overview)
+- [Gallery Demos](/Demos/WidgetsGallery/Demo/Gallery/Overview/)
 - [Gallery API Reference](/api-reference/10%20UI%20Widgets/dxGallery/dxGallery.md '/Documentation/ApiReference/UI_Widgets/dxGallery/')
 
 [tags]gallery, initial image, selected image, selectedIndex, selectedItem

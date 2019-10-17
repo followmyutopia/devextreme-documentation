@@ -143,7 +143,7 @@ The collections of rows and columns may differ depending on the screen's [size q
 #####See Also#####
 - [ResponsiveBox - Arrange Layout Elements](/concepts/05%20Widgets/ResponsiveBox/15%20Arrange%20Layout%20Elements.md '/Documentation/Guide/Widgets/ResponsiveBox/Arrange_Layout_Elements/')
 - [ResponsiveBox - Size Qualifiers](/concepts/05%20Widgets/ResponsiveBox/05%20Size%20Qualifiers.md '/Documentation/Guide/Widgets/ResponsiveBox/Size_Qualifiers/')
-- [ResponsiveBox Demos](/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-responsive_box-overview/tablet-landscape)
+- [ResponsiveBox Demos](/Demos/WidgetsGallery/Demo/ResponsiveBox/Overview/)
 - [ResponsiveBox API Reference](/api-reference/10%20UI%20Widgets/dxResponsiveBox/dxResponsiveBox.md '/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/')
 
 [tags]responsive box, responsiveBox, adaptive layout, layout grid, fixed columns, fixed rows, adaptive columns, adaptive rows, baseSize, ratio

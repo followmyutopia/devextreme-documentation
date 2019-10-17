@@ -8,7 +8,7 @@ A value indicator is a pointer that designates the [main value](/api-reference/2
 - [TwoColorNeedle](/api-reference/20%20Data%20Visualization%20Widgets/dxCircularGauge/5%20Indicator%20Types/TwoColorNeedle/TwoColorNeedle.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Indicator_Types/TwoColorNeedle/')
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/gaugescirculargaugescirculargaugebasicelementsdifferentvalueindicatortypes/"
+    url: "/Demos/WidgetsGallery/Demo/Gauges/DifferentValueIndicatorTypes/"
 }
 
 In order to customize the appearance of a value indicator, use the [valueIndicator](/api-reference/20%20Data%20Visualization%20Widgets/dxCircularGauge/1%20Configuration/valueIndicator/valueIndicator.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Configuration/valueIndicator/') configuration object. Set its **type** option and then the required type-specific options. The type-specific options are listed within the widget's [Indicator Types](/api-reference/20%20Data%20Visualization%20Widgets/dxCircularGauge/5%20Indicator%20Types/Indicator%20Types.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Indicator_Types/') reference section. 

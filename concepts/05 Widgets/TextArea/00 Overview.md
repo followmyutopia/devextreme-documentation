@@ -1,7 +1,7 @@
 The **TextArea** is a widget that enables a user to enter and edit a multi-line text.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/editors-text_area-overview"
+    url: "/Demos/WidgetsGallery/Demo/TextArea/Overview/"
 }
 
 The following code adds a simple **TextArea** with a [placeholder](/api-reference/10%20UI%20Widgets/dxTextEditor/1%20Configuration/placeholder.md '/Documentation/ApiReference/UI_Widgets/dxTextArea/Configuration/#placeholder') to your page.

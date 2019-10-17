@@ -1,7 +1,7 @@
 The **Switch** is a widget that can be in two states: "On" (when [value](/api-reference/10%20UI%20Widgets/dxSwitch/1%20Configuration/value.md '/Documentation/ApiReference/UI_Widgets/dxSwitch/Configuration/#value') is **true**) and "Off" (when [value](/api-reference/10%20UI%20Widgets/dxSwitch/1%20Configuration/value.md '/Documentation/ApiReference/UI_Widgets/dxSwitch/Configuration/#value') is **false**).
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/editors-switch-overview"
+    url: "/Demos/WidgetsGallery/Demo/Switch/Overview/"
 }
 
 The following code adds the **Switch** to your page.

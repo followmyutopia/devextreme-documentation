@@ -27,7 +27,7 @@ If you need to update form data at runtime, redefine the [formData](/api-referen
     });
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-overview/"
+    url: "/Demos/WidgetsGallery/Demo/Form/Overview/"
 }
 
 The **Form** widget provides methods that update specific **formData** fields and rerender the corresponding editors without rerendering the whole widget. The [updateData(dataField, value)](/api-reference/10%20UI%20Widgets/dxForm/3%20Methods/updateData(dataField_value).md '/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#updateDatadataField_value') method updates the value of a single field. The [updateData(data)](/api-reference/10%20UI%20Widgets/dxForm/3%20Methods/updateData(data).md '/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#updateDatadata') method updates values of several fields at once. In the following code, these methods are called on a [Button](/concepts/05%20Widgets/Button/00%20Overview.md '/Documentation/Guide/Widgets/Button/Overview/') click.
@@ -92,7 +92,7 @@ With Angular, two-way binding to a component property is sufficient to update [f
 - [Form - Handle the Value Change Event](/concepts/05%20Widgets/Form/25%20Handle%20the%20Value%20Change%20Event.md '/Documentation/Guide/Widgets/Form/Handle_the_Value_Change_Event/')
 - [Form - Generate a Data Object from Form Items](/concepts/05%20Widgets/Form/35%20Generate%20a%20Data%20Object%20from%20Form%20Items.md '/Documentation/Guide/Widgets/Form/Generate_a_Data_Object_from_Form_Items/')
 - [Form - Validate and Submit the Form](/concepts/05%20Widgets/Form/40%20Validate%20and%20Submit%20the%20Form.md '/Documentation/Guide/Widgets/Form/Validate_and_Submit_the_Form/')
-- [Form Demos](/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-overview)
+- [Form Demos](/Demos/WidgetsGallery/Demo/Form/Overview/)
 - [Form API Reference](/api-reference/10%20UI%20Widgets/dxForm/dxForm.md '/Documentation/ApiReference/UI_Widgets/dxForm/')
 
 [tags]form, form data, formData, change form data, update data, update form data

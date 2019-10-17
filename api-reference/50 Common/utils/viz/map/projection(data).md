@@ -16,5 +16,5 @@ An object specifying the conversion functions.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/maps-vector_map-custom_projection/"
+    url: "/Demos/WidgetsGallery/Demo/VectorMap/CustomProjection/"
 }

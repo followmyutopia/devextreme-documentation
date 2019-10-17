@@ -43,7 +43,7 @@ To specify whether or not the part of the scale from the beginning to the slider
 
 #####See Also#####
 - [Slider - Handle the Value Change Event](/concepts/05%20Widgets/Slider/10%20Handle%20the%20Value%20Change%20Event.md '/Documentation/Guide/Widgets/Slider/Handle_the_Value_Change_Event')
-- [Slider Demos](/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-slider-overview/ios7)
+- [Slider Demos](/Demos/WidgetsGallery/Demo/Slider/Overview/)
 - [Slider API Reference](/api-reference/10%20UI%20Widgets/dxSlider/dxSlider.md '/Documentation/ApiReference/UI_Widgets/dxSlider/')
 
 [tags]slider, editor, label, tooltip, showRange

@@ -1,7 +1,7 @@
 The **CheckBox** is a small box, which when selected by the end user, shows that a particular feature has been enabled or a specific option has been chosen.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/editors-check_box-overview"
+    url: "/Demos/WidgetsGallery/Demo/CheckBox/Overview/"
 }
 
 The following code adds the **CheckBox** to your page.

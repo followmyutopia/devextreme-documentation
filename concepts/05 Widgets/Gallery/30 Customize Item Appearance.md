@@ -166,8 +166,8 @@ You can also customize an individual **Gallery** item. For this purpose, declare
 
 In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/concepts/05%20Widgets/zz%20Common/30%20Templates/30%203rd-Party%20Template%20Engines.md '/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines') article.
 
-<a href="/Demos/WidgetsGallery/#demo/actions_and_lists-gallery-item_template/knockout" class="button orange small fix-width-155" style="margin-right: 5px; width:240px" target="_blank">View Built-In Template Engine Demo</a>
-<a href="/Demos/WidgetsGallery/#demo/actions_and_lists-gallery-item_3rd_party_engine_template" class="button orange small fix-width-155" style="margin-right: 20px; width:240px" target="_blank">View 3rd-Party Template Engine Demo</a>
+<a href="/Demos/WidgetsGallery/Demo/Gallery/ItemTemplate/" class="button orange small fix-width-155" style="margin-right: 5px; width:240px" target="_blank">View Built-In Template Engine Demo</a>
+<a href="/Demos/WidgetsGallery/Demo/Gallery/Item3rdPartyEngineTemplate/" class="button orange small fix-width-155" style="margin-right: 20px; width:240px" target="_blank">View 3rd-Party Template Engine Demo</a>
 
 #####See Also#####
 - [Gallery - Transform and Combine Images](/concepts/05%20Widgets/Gallery/25%20Transform%20and%20Combine%20Images.md '/Documentation/Guide/Widgets/Gallery/Transform_and_Combine_Images/')

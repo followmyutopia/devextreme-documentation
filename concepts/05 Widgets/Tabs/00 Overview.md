@@ -1,7 +1,7 @@
 The **Tabs** is a tab strip used to switch between pages or views. This widget is included in the [TabPanel](/concepts/05%20Widgets/TabPanel/00%20Overview.md '/Documentation/Guide/Widgets/TabPanel/Overview/') widget, but you can use the **Tabs** separately as well.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/navigation-tabs-overview"
+    url: "/Demos/WidgetsGallery/Demo/Tabs/Overview/"
 }
 
 The following code adds the **Tabs** widget to your page. One of the tabs has an icon, another has a [badge](/api-reference/10%20UI%20Widgets/dxTabs/5%20Default%20Item%20Template/badge.md '/Documentation/ApiReference/UI_Widgets/dxTabs/Default_Item_Template/#badge').

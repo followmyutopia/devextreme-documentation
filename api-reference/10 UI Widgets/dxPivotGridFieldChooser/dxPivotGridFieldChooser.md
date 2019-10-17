@@ -15,7 +15,7 @@ dx.web.js, dx.viz-web.js, dx.all.js
 Both the **PivotGridFieldChooser** and the **PivotGrid** must be bound to one and the same instance of the [PivotGridDataSource](/api-reference/30%20Data%20Layer/PivotGridDataSource/PivotGridDataSource.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/'). Create the **PivotGridDataSource** individually and then assign it to both widgets as shown in the code above.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/datagridpivotgridpivotgridfieldchooser"
+    url: "/Demos/WidgetsGallery/Demo/PivotGrid/FieldChooser/"
 }
 
 #####See Also#####

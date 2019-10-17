@@ -22,7 +22,7 @@ dx.web.js, dx.viz-web.js, dx.all.js
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/actionsandlistsgallerygallerysimplegallery/"
+    url: "/Demos/WidgetsGallery/Demo/Gallery/Overview/"
 }
 #include common-readguidesbutton with {
     url: "/Documentation/Guide/Widgets/Gallery/Overview/"

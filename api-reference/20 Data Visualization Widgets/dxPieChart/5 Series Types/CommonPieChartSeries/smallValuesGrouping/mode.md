@@ -23,5 +23,5 @@ To switch the grouping off, assign *'none'* to the **mode** option.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartschartsdoughnutseriesdoughnutwithtopnseries/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/DoughnutWithTopNSeries/"
 }

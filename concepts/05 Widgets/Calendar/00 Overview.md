@@ -1,7 +1,7 @@
 The **Calendar** is a widget that displays a calendar and allows an end user to select the required date within a specified date range.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/editors-calendar-overview"
+    url: "/Demos/WidgetsGallery/Demo/Calendar/Overview/"
 }
 
 The following code adds a simple **Calendar** to your page.

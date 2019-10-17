@@ -104,7 +104,7 @@ If you are going to change event handlers at runtime, or if you need to attach s
 #include common-link-handleevents
 - [DateBox - Control the Behavior](/concepts/05%20Widgets/DateBox/05%20Control%20the%20Behavior.md '/Documentation/Guide/Widgets/DateBox/Control_the_Behavior')
 - [DateBox - Specify Value Range](/concepts/05%20Widgets/DateBox/15%20Specify%20Value%20Range.md '/Documentation/Guide/Widgets/DateBox/Specify_Value_Range')
-- [DateBox Demos](/Demos/WidgetsGallery/#demo/editors-date_box-overview)
+- [DateBox Demos](/Demos/WidgetsGallery/Demo/DateBox/Overview/)
 - [DateBox API Reference](/api-reference/10%20UI%20Widgets/dxDateBox/dxDateBox.md '/Documentation/ApiReference/UI_Widgets/dxDateBox/')
 
 [tags]date box, dateBox, editor, get value, set value, change value, valueChangeEvent, valueChanged

@@ -3,5 +3,5 @@
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartschartsdoughnutseriesdoughnutwithselection/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/DoughnutSelection/"
 }

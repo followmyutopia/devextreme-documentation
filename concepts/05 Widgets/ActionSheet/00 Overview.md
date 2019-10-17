@@ -1,7 +1,7 @@
 The **ActionSheet** widget is a sheet containing a set of buttons located one under the other. These buttons usually represent several choices relating to a single task.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/actions_and_lists-action_sheet-overview/ios7"
+    url: "/Demos/WidgetsGallery/Demo/ActionSheet/Basics/"
 }
 
 The following code adds a simple **ActionSheet** to your page. The widget is shown on a button click.  

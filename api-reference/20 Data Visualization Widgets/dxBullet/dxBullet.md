@@ -17,7 +17,7 @@ dx.viz.js, dx.viz-web.js, dx.all.js
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartsbulletbulletssimplebullets/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/SimpleBullets/"
 }
 #include common-readguidesbutton with {
     url: "/Documentation/Guide/Widgets/Bullet/Visual_Elements/"

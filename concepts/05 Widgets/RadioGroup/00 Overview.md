@@ -1,7 +1,7 @@
 The **RadioGroup** is a widget that contains a set of radio buttons and allows an end user to make a single selection from the set.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-radio_group-overview"
+    url: "/Demos/WidgetsGallery/Demo/RadioGroup/Overview/"
 }
 
 The following code adds a simple **RadioGroup** to your page. Here, the [value](/api-reference/10%20UI%20Widgets/dxRadioGroup/1%20Configuration/value.md '/Documentation/ApiReference/UI_Widgets/dxRadioGroup/Configuration/#value') option specifies the initially selected radio button.
