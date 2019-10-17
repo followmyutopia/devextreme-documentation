@@ -13,7 +13,7 @@ Set [useMaskBehavior](/api-reference/10%20UI%20Widgets/dxDateBox/1%20Configurati
 The default display format is selected automatically based on the current [locale](/api-reference/50%20Common/utils/localization/locale().md '/Documentation/ApiReference/Common/utils/localization/#locale').
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DateBox/Formatting/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DateBox/Formatting/"
 }
 
 #####See Also#####

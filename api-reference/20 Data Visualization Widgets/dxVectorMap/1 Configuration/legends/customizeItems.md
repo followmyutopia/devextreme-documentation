@@ -14,5 +14,5 @@ Legend items after customizations.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/VectorMap/BubbleMarkers/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/VectorMap/BubbleMarkers/"
 }

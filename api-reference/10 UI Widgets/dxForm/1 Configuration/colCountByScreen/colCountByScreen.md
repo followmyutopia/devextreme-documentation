@@ -10,5 +10,5 @@ Specifies dependency between the screen factor and the count of columns in the f
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Form/ColumnsAdaptability/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Form/ColumnsAdaptability/"
 }

@@ -19,7 +19,7 @@ DevExtreme provides the following button types.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Button/PredefinedTypes/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Button/PredefinedTypes/"
 }
 
 #####See Also#####

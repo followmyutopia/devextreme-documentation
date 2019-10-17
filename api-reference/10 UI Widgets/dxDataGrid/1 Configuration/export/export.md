@@ -12,5 +12,5 @@ When client-side exporting is [enabled](/api-reference/10%20UI%20Widgets/dxDataG
 [note]Client-side exporting requires the JSZip library. Learn where you can get it from topics in the [Installation](/concepts/00%20Getting%20Started/01%20Installation/10%20Local%20Scripts.md '/Documentation/Guide/Getting_Started/Installation/Local_Scripts/') section.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/ExportToExcel/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/ExportToExcel/"
 }

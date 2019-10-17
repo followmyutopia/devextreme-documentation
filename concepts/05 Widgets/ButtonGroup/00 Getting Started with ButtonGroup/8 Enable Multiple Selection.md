@@ -144,5 +144,5 @@ Now you should be able to select multiple buttons and see messages like the foll
 
 You have configured basic **ButtonGroup** features. To take a more detailed look at this widget, explore the following resources:
 
-- [Demos](/Demos/WidgetsGallery/Demo/ButtonGroup/Overview/jQuery/Light/) 
+- [Demos](/Demos/WidgetsGallery/Demo/ButtonGroup/Overview/) 
 - [API Reference](/api-reference/10%20UI%20Widgets/dxButtonGroup/dxButtonGroup.md '/Documentation/ApiReference/UI_Widgets/dxButtonGroup')

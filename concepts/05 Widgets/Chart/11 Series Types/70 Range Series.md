@@ -64,7 +64,7 @@ Note that the range series require two value fields: [rangeValue1Field](/api-ref
 
 See the [RangeAreaSeries](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/RangeAreaSeries/RangeAreaSeries.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/RangeAreaSeries/') and [RangeBarSeries](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/RangeBarSeries/RangeBarSeries.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/RangeBarSeries/') API Reference sections for a full list of options available to a range series.
 
-<a href="/Demos/WidgetsGallery/Demo/Charts/RangeBar/jQuery/Light/" class="button orange small fix-width-155" target="_blank">Range Series Demos</a>
+<a href="/Demos/WidgetsGallery/Demo/Charts/RangeBar/" class="button orange small fix-width-155" target="_blank">Range Series Demos</a>
 
 #####See Also#####
 - [Series](/concepts/05%20Widgets/Chart/10%20Series/00%20Overview.md '/Documentation/Guide/Widgets/Chart/Series/Overview/')

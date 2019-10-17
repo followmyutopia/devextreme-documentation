@@ -274,7 +274,7 @@ This option accepts an array of dates...
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Calendar/Overview/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Calendar/Overview/"
 }
 
 #####See Also#####

@@ -77,5 +77,5 @@ Change the **sortOrder** and **sortIndex** options using the [columnOption](/api
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TreeList/MultipleSorting/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/TreeList/MultipleSorting/"
 }

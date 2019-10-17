@@ -12,7 +12,7 @@ The pager is an element that allows users to navigate through pages and change t
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget {WidgetName} Pager](/Content/images/doc/19_2/{WidgetName}/visual_elements/pager.png)
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/{WidgetName}/RecordPaging/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/{WidgetName}/RecordPaging/"
 }
 
 #####See Also#####

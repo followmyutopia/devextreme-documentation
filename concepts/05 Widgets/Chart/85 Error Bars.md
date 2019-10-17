@@ -172,7 +172,7 @@ Note that settings for individual series override type-specific settings which, 
 For information about all options of the error bars, visit the [valueErrorBar](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CommonSeries/valueErrorBar/valueErrorBar.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/valueErrorBar/') section of the API reference.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/ErrorBars/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/ErrorBars/"
 }
 
 [tags]chart, error bar, valueErrorBar, highValueField, lowValueField

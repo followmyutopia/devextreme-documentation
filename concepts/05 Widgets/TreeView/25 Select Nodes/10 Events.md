@@ -67,7 +67,7 @@ If you are going to change the event handler at runtime, or if you need to attac
         .on("itemSelectionChanged", itemSelectionChangedHandler2);
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Tree_View/ItemSelectionAndCustomization/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Tree_View/ItemSelectionAndCustomization/"
 }
 
 #####See Also#####

@@ -24,5 +24,5 @@ The text for the slider marker to display.
 #include dataviz-ref-functioncontext
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Range_Selector/CustomFormatting/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Range_Selector/CustomFormatting/"
 }

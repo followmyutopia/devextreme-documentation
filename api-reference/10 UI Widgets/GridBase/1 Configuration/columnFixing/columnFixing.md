@@ -13,8 +13,8 @@ When the width of all columns exceeds the widget width, horizontal scrolling app
 
 When you enable column fixing, [command columns](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Types/Command_Columns/) become fixed automatically. 
 
-<a href="/Demos/WidgetsGallery/Demo/{WidgetName}/ColumnCustomization/jQuery/Light/" class="button orange small fix-width-155" style="width:80px;margin-right:5px" target="_blank">DataGrid Demo</a>
-<a href="/Demos/WidgetsGallery/Demo/TreeList/ColumnFixing/jQuery/Light/" class="button orange small fix-width-155" style="width:80px" target="_blank">TreeList Demo</a>
+<a href="/Demos/WidgetsGallery/Demo/{WidgetName}/ColumnCustomization/" class="button orange small fix-width-155" style="width:80px;margin-right:5px" target="_blank">DataGrid Demo</a>
+<a href="/Demos/WidgetsGallery/Demo/TreeList/ColumnFixing/" class="button orange small fix-width-155" style="width:80px" target="_blank">TreeList Demo</a>
 
 #####See Also#####
 - [Column Fixing](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Fixing/)

@@ -49,7 +49,7 @@ When operations are performed on the server side, the **TreeList** does not supp
 
 #include common-demobutton-named with {
     name: "Web API Service",
-    url: "/Demos/WidgetsGallery/Demo/TreeList/WebAPIService/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/TreeList/WebAPIService/"
 }
 
 #####See Also#####

@@ -13,7 +13,7 @@ The widget allows users to add, modify and delete tasks, resources and dependenc
 [note] Make sure that your data sources ([tasks]({basewidgetpath}/Configuration/#tasks), [resources]({basewidgetpath}/Configuration/#resources) and [dependencies]({basewidgetpath}/Configuration/#dependencies)) support edit actions.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Gantt/Overview/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Gantt/Overview/"
 }
 
 ---

@@ -71,7 +71,7 @@ You can add a button that performs a custom action using a [button item](/api-re
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Form/Validation/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Form/Validation/"
 }
 
 #####See Also#####

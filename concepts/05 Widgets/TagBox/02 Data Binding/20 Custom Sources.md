@@ -307,6 +307,6 @@ If the **TagBox** allows a user [to add custom items](/concepts/05%20Widgets/Tag
 - [Access the DataSource](/concepts/05%20Widgets/TagBox/02%20Data%20Binding/30%20Access%20the%20DataSource.md '/Documentation/Guide/Widgets/TagBox/Data_Binding/Access_the_DataSource/')
 - [Grouping](/concepts/05%20Widgets/TagBox/07%20Grouping/01%20In%20the%20Data%20Source.md '/Documentation/Guide/Widgets/TagBox/Grouping/In_the_Data_Source/')
 - [Configure Search Parameters](/concepts/05%20Widgets/TagBox/10%20Configure%20Search%20Parameters.md '/Documentation/Guide/Widgets/TagBox/Configure_Search_Parameters/')
-- [TagBox Demos](/Demos/WidgetsGallery/Demo/Tag_Box/Overview/jQuery/Light/)
+- [TagBox Demos](/Demos/WidgetsGallery/Demo/Tag_Box/Overview/)
 
 [tags]tagBox, data binding, provide data, custom data source, CustomStore, DataSource, load

@@ -11,7 +11,7 @@ State storing enables the widget to save applied settings and restore them the n
 
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/{WidgetName}/StatePersistence/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/{WidgetName}/StatePersistence/"
 }
 
 #####See Also#####

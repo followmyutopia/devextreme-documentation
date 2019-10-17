@@ -1,5 +1,5 @@
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FileUploader/ChunkUploading/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/FileUploader/ChunkUploading/"
 }
     
     <!--C#-->

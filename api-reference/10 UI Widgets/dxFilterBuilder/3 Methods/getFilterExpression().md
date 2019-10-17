@@ -10,7 +10,7 @@ A **DataSource**-compatible filter expression.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithList/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithList/"
 }
 
 #####See Also#####

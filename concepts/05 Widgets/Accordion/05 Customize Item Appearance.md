@@ -163,7 +163,7 @@ If you use jQuery alone, combine the HTML markup for items and their titles manu
     });
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Accordion/Overview/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Accordion/Overview/"
 }
 
 You can also customize an individual item. For this purpose, declare a template for this item as a script and pass its `id` to the [template](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/template.md '/Documentation/ApiReference/UI_Widgets/dxAccordion/Default_Item_Template/#template') field of the item's data object.

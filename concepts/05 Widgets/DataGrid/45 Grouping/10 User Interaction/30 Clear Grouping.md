@@ -10,5 +10,5 @@ When ungrouping data with the group panel, users drag-and-drop column headers fr
 #####See Also#####
 - [Clear Grouping Using the API](/concepts/05%20Widgets/DataGrid/45%20Grouping/20%20API/30%20Clear%20Grouping.md '/Documentation/Guide/Widgets/DataGrid/Grouping/#API/Clear_Grouping')
 - [remoteOperations](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/remoteOperations/remoteOperations.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/')
-- [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/RecordGrouping/jQuery/Light/)
+- [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/RecordGrouping/)
 

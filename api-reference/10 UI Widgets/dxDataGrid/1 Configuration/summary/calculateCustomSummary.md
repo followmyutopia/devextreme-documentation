@@ -124,7 +124,7 @@ A summary value calculation is conducted in three stages: *start* - the **totalV
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/CustomSummaries/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/CustomSummaries/"
 }
 
 #####See Also#####

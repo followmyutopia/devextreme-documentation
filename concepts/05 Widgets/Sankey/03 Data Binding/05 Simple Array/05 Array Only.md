@@ -110,7 +110,7 @@ You can create a [Query](/concepts/30%20Data%20Layer/5%20Data%20Layer/6%20Query%
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/SankeyChart/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/SankeyChart/"
 }
 
 #####See Also#####

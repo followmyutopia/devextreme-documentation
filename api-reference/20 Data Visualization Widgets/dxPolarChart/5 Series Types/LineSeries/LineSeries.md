@@ -15,7 +15,7 @@ An object defining a series of the **line** type.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/SpiderWeb/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/SpiderWeb/"
 }
 
 ![LineSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/PolarLine.png)

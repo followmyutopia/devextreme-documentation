@@ -3,7 +3,7 @@
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TileView/ItemTemplate/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/TileView/ItemTemplate/"
 }
 
 #####See Also#####

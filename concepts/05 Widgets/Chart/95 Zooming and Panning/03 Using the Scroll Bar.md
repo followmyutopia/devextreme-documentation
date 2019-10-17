@@ -49,7 +49,7 @@ You can configure the scrollbar using the [scrollBar](/api-reference/20%20Data%2
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/ZoomingAndScrolling/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/ZoomingAndScrolling/"
 }
 
 Users cannot zoom or scroll the chart out of the whole range. Refer to the [Visual and Whole Ranges](/concepts/05%20Widgets/Chart/20%20Axes/03%20Visual%20and%20Whole%20Ranges.md '/Documentation/Guide/Widgets/Chart/Axes/Visual_and_Whole_Ranges/') article for more information.

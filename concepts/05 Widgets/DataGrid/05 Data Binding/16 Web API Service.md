@@ -60,7 +60,7 @@ You should configure [remoteOperations](/api-reference/10%20UI%20Widgets/dxDataG
 ---
 
 #include common-demobutton with { 
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/WebAPIService/jQuery/Light/" 
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/WebAPIService/" 
 }
 
 #####See Also#####

@@ -14,7 +14,7 @@ The following styles are available:
 ![Button Styling Modes](Content/images/doc/19_2/UiWidgets/button_stylingMode.png)
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/ButtonGroup/Overview/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/ButtonGroup/Overview/"
 }
 
 #include common-ref-enum with {

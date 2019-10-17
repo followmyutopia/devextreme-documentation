@@ -18,5 +18,5 @@ Frequently, items in the row header have a hierarchical structure. By default, t
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Pivot_Grid/LayoutCustomization/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Pivot_Grid/LayoutCustomization/"
 }

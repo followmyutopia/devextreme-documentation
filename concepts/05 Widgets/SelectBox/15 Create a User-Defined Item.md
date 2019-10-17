@@ -78,7 +78,7 @@ A user can select existing values and add new values to the **SelectBox**. To en
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Select_Box/SearchAndEditing/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Select_Box/SearchAndEditing/"
 }
 
 #####See Also#####

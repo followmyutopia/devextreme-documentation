@@ -13,7 +13,7 @@ When this option is **true**, a point remains in the hover state until the mouse
 When this option is **false**, a point remains in the hover state until the mouse pointer moves away from the point.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/HoverMode/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/HoverMode/"
 }
 
 #####See Also#####

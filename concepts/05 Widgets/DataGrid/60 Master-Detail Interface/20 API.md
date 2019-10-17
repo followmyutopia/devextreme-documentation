@@ -80,5 +80,5 @@ The [expandRow(key)](/api-reference/10%20UI%20Widgets/dxDataGrid/3%20Methods/exp
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/MasterDetailAPI/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/MasterDetailAPI/"
 }

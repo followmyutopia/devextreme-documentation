@@ -10,7 +10,7 @@ Provides the **Form**'s data. Gets updated every time form fields change.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Common/FormsAndMultiPurposeOverview/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Common/FormsAndMultiPurposeOverview/"
 }
 
 #####See Also#####

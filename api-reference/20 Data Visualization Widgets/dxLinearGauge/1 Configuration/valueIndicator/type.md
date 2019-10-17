@@ -17,5 +17,5 @@ Different options of the **valueIndicator** configuration object can be set for 
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Gauges/DifferentValueIndicatorTypesLinearGauge/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Gauges/DifferentValueIndicatorTypesLinearGauge/"
 }

@@ -37,5 +37,5 @@ Model data. Available only if you use Knockout.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/ContextMenuIntegration/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/ContextMenuIntegration/"
 }

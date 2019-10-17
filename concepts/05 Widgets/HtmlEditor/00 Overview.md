@@ -5,7 +5,7 @@
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/HtmlEditor/Overview/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/HtmlEditor/Overview/"
 }
 
 Follow the steps below to add the **HtmlEditor** to a page.

@@ -9,7 +9,7 @@ Specifies whether selection is recursive.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TreeList/MultipleRowSelection/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/TreeList/MultipleRowSelection/"
 }
 
 #####See Also#####

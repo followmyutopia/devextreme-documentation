@@ -46,7 +46,7 @@ Specifies whether the cell text should be line-wrapped.
 
 ---
 #include common-demobutton with { 
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/ExcelCellCustomization/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/ExcelCellCustomization/"
 }
 
 The following table shows available fill patterns:

@@ -3,7 +3,7 @@ When implementing a custom aggregate function, use the [aggregationInfo](/api-re
 To apply the function, assign it to the series' **aggregation**.[calculate](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CommonSeries/aggregation/calculate.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/aggregation/#calculate') option and set the **aggregation**.[method](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CommonSeries/aggregation/method.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/aggregation/#method') option to *"custom"*.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/PointsAggregation/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/PointsAggregation/"
 }
 
 In the following code, a custom aggregation function implements the <a href="http://en.wikipedia.org/wiki/Median_filter" target="_blank">median filter</a> algorithm:

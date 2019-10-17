@@ -118,7 +118,7 @@ For better readability of visualized data, any axis is divided into parts using 
 #####See Also#####
 - [Rotate and Invert the Chart](/concepts/05%20Widgets/Chart/90%20Rotate%20and%20Invert%20the%20Chart.md '/Documentation/Guide/Widgets/Chart/Rotate_and_Invert_the_Chart/')
 - [Multi-Axis Chart](/concepts/05%20Widgets/Chart/20%20Axes/70%20Multi-Axis%20Chart.md '/Documentation/Guide/Widgets/Chart/Axes/Multi-Axis_Chart/')
-- [Chart Demos](/Demos/WidgetsGallery/Demo/Charts/LogarithmicAxis/jQuery/Light/)
+- [Chart Demos](/Demos/WidgetsGallery/Demo/Charts/LogarithmicAxis/)
 - [Chart API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/dxChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/')
 
 [tags]chart, axes, argument axis, value axis, axis type, continuous axis, discrete axis, logarithmic axis, logarithmBase, argumentType, valueType

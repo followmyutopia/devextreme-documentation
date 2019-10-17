@@ -18,5 +18,5 @@ The following styles are available:
     });
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Common/StylingMode/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Common/StylingMode/"
 }

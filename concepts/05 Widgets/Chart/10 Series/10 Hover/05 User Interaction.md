@@ -120,7 +120,7 @@ To choose which series elements should be highlighted when a user pauses on a se
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/HoverMode/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/HoverMode/"
 }
 
 #####See Also#####

@@ -9,7 +9,7 @@ Specifies whether or not an end user can delete list items.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/"
 }
 
 #####See Also#####

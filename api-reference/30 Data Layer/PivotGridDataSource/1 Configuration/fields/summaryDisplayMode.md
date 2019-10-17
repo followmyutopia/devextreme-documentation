@@ -44,5 +44,5 @@ To specify a custom post-processing function, use the [calculateSummaryValue](/a
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Pivot_Grid/SummaryDisplayModes/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Pivot_Grid/SummaryDisplayModes/"
 }

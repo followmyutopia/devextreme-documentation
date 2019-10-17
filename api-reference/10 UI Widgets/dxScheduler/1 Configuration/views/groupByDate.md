@@ -11,5 +11,5 @@ If **true**, appointments are grouped by date first and then by resource; opposi
 ![DevExtreme Scheduler Group By Date](/Content/images/doc/19_2/UiWidgets/Scheduler_groupByDate.png)
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/GroupByDate/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/GroupByDate/"
 }

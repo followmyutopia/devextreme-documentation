@@ -15,5 +15,5 @@ Specifies whether the menu has horizontal or vertical orientation.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Menu/Overview/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Menu/Overview/"
 }

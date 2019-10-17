@@ -10,7 +10,7 @@ Configures scrolling.
 Scrolling allows a user to browse data left outside the current viewport. The widget provides several scrolling modes detailed in the [mode](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/scrolling/mode.md '{basewidgetpath}/Configuration/scrolling/#mode') option description.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Data_Grid/VirtualScrolling/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Data_Grid/VirtualScrolling/"
 }
 
 #####See Also#####

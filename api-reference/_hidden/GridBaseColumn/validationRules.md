@@ -8,7 +8,7 @@ Specifies [validation rules](/api-reference/10%20UI%20Widgets/dxValidator/8%20Va
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/DataValidation/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/DataValidation/"
 }
 
 #####See Also#####

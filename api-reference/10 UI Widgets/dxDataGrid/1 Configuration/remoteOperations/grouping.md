@@ -9,5 +9,5 @@ Specifies whether or not [grouping](/concepts/05%20Widgets/DataGrid/45%20Groupin
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Data_Grid/RemoteGrouping/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Data_Grid/RemoteGrouping/"
 }

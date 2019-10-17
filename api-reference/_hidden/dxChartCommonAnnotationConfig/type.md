@@ -10,5 +10,5 @@ Specifies whether the annotation displays a [text](/api-reference/_hidden/dxChar
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/Annotation/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/Annotation/"
 }

@@ -125,7 +125,7 @@ If you use only jQuery, combine HTML markup for tooltips manually with jQuery <a
     });
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/CustomTemplates/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/CustomTemplates/"
 }
 
 In addition, you can use a 3rd-party template engine to customize the widget appearance. For more information, see the [3rd-Party Template Engines](/concepts/05%20Widgets/zz%20Common/30%20Templates/30%203rd-Party%20Template%20Engines.md '/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines') article.

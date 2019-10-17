@@ -27,5 +27,5 @@ Finally, add some interactivity.
 - [Adaptive Layout](/concepts/05%20Widgets/PieChart/89%20Adaptive%20Layout.md '/Documentation/Guide/Widgets/PieChart/Adaptive_Layout/')
 
 #####See Also#####
-- [PieChart Demos](/Demos/WidgetsGallery/Demo/Charts/Pie/jQuery/Light/)
+- [PieChart Demos](/Demos/WidgetsGallery/Demo/Charts/Pie/)
 - [PieChart API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart/dxPieChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/')

@@ -37,10 +37,10 @@ Specifies the color of the tooltip border.
 #include dataviz-ref-functioncontext
 
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/Vector_Map/ColorsCustomization/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/Vector_Map/ColorsCustomization/",
     name: "Colors Customization"
 }
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/VectorMap/TooltipHTMLSupport/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/VectorMap/TooltipHTMLSupport/",
     name: "Tooltip HTML Support"
 }

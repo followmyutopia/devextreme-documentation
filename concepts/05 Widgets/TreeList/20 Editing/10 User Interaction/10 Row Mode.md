@@ -48,7 +48,7 @@ Clicking a *"Delete"* button invokes the confirmation dialog that allows a user 
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Tree_List/RowEditing/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Tree_List/RowEditing/"
 }
 
 #####See Also#####

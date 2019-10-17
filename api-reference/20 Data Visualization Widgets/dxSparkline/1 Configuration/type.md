@@ -202,6 +202,6 @@ To see the sparklines of each type in operation, refer to our [Visualization Gal
     values: "`Line`, `Spline`, `StepLine`, `Area`, `SplineArea`, `StepArea`, `Bar`, and `WinLoss`"
 }
 
-<a href="/Demos/WidgetsGallery/Demo/Charts/AreaSparklines/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Area Sparkline Demo</a>
-<a href="/Demos/WidgetsGallery/Demo/Charts/BarSparklines/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Bar Sparkline Demo</a>
-<a href="/Demos/WidgetsGallery/Demo/Charts/WinlossSparklines/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Winloss Sparkline Demo</a>
+<a href="/Demos/WidgetsGallery/Demo/Charts/AreaSparklines/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Area Sparkline Demo</a>
+<a href="/Demos/WidgetsGallery/Demo/Charts/BarSparklines/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Bar Sparkline Demo</a>
+<a href="/Demos/WidgetsGallery/Demo/Charts/WinlossSparklines/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Winloss Sparkline Demo</a>

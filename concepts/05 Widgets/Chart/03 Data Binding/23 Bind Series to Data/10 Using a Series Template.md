@@ -127,7 +127,7 @@ If you need to change options of a particular series, return an [object with the
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/SeriesTemplates/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/SeriesTemplates/"
 } 
 
 #####See Also#####

@@ -154,11 +154,11 @@ To filter data, update the data source's [filter](/api-reference/30%20Data%20Lay
 
 #include common-demobutton-named with {
     name: "Filter Builder with Data Grid",
-    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithDataGrid/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithDataGrid/"
 }
 #include common-demobutton-named with {
     name: "Filter Builder with List",
-    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithList/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithList/"
 }
 
 #####See Also#####

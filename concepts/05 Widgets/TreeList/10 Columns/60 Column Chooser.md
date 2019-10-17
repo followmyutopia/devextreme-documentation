@@ -125,7 +125,7 @@ Call the [showColumnChooser()](/api-reference/10%20UI%20Widgets/GridBase/3%20Met
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TreeList/ColumnChooser/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/TreeList/ColumnChooser/"
 }
 
 #####See Also#####

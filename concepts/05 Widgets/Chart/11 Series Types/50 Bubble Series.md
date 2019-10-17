@@ -62,7 +62,7 @@ Note that **Bubble** series require an additional data field that provides size 
 Refer to the [BubbleSeries](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/BubbleSeries/BubbleSeries.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/BubbleSeries/') section of the API Reference for a full list of options available to a **Bubble** series.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/Bubble/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/Bubble/"
 }
 
 #####See Also#####

@@ -79,7 +79,7 @@ Additionally, you can apply shading to cover the timetable up to the current tim
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/CurrentTimeIndicator/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/CurrentTimeIndicator/"
 }
 
 #####See Also#####

@@ -182,7 +182,7 @@ If all panes in a multi-pane chart should have uniform settings, you can specify
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/MultiplePanes/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/MultiplePanes/"
 }
 
 #####See Also#####

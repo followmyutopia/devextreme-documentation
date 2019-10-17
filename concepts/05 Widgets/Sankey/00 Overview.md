@@ -35,7 +35,7 @@ Next, get familiar with the widget's elements using the following element map. H
 </map>
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/SankeyChart/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/SankeyChart/"
 }
 
 #####See Also#####

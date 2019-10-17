@@ -51,7 +51,7 @@ Options that configure tooltips are collected in the [tooltip](/api-reference/20
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/SankeyChart/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/SankeyChart/"
 }
 
 #####See Also#####

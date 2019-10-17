@@ -12,7 +12,7 @@ The widget can allow a user to add, update and delete data. To control which of 
 [note] Before allowing a user to add, update, and delete, make sure that your [data source](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/dataSource.md '{basewidgetpath}/Configuration/#dataSource') supports these actions.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Data_Grid/RowEditingAndEditingEvents/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Data_Grid/RowEditingAndEditingEvents/"
 }
 
 #####See Also#####

@@ -3,7 +3,7 @@
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Lookup/Templates/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Lookup/Templates/"
 }
 
 #####See Also#####

@@ -11,7 +11,7 @@ A Promise that is resolved after data is loaded. It is a <a href="https://develo
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FileManager/UICustomization/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/FileManager/UICustomization/"
 }
 
 The following example illustrates how to use this method:

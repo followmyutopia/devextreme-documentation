@@ -25,5 +25,5 @@ To specify the default view, use the [currentView](/api-reference/10%20UI%20Widg
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/CustomizeIndividualViews/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/CustomizeIndividualViews/"
 }

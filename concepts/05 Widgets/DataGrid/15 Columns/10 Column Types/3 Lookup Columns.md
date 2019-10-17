@@ -140,7 +140,7 @@ If your data source accepts **null** values, set the [allowClearing](/api-refere
 Each cell in the lookup column is based on the [SelectBox](/concepts/05%20Widgets/SelectBox/00%20Overview.md '/Documentation/Guide/Widgets/SelectBox/Overview/') widget. Use [editorOptions](/api-reference/_hidden/GridBaseColumn/editorOptions.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#editorOptions') to customize it. See the [Customize Editors](/concepts/05%20Widgets/DataGrid/20%20Editing/40%20Customize%20Editors.md '/Documentation/Guide/Widgets/DataGrid/Editing/#Customize_Editors') topic for more details.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/CascadingLookups/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/CascadingLookups/"
 }
 
 #####See Also#####

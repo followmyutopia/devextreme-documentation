@@ -73,7 +73,7 @@ Vertically aligns widgets in their rows.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/ExportSeveralCharts/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/ExportSeveralCharts/"
 }
 
 #####See Also#####

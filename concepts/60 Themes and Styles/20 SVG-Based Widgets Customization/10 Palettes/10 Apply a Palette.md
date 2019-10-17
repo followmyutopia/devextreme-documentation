@@ -78,7 +78,7 @@ Every widget that supports palettes has a [palette](/api-reference/20%20Data%20V
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/Palette/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/Palette/"
 }
 
 In the **CircularGauge** and **LinearGauge**, the palette can be specified in the [rangeContainer](/api-reference/20%20Data%20Visualization%20Widgets/dxCircularGauge/1%20Configuration/rangeContainer/rangeContainer.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Configuration/rangeContainer/') and [subvalueIndicator](/api-reference/20%20Data%20Visualization%20Widgets/dxCircularGauge/1%20Configuration/subvalueIndicator/subvalueIndicator.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Configuration/subvalueIndicator/') objects.
@@ -202,7 +202,7 @@ In the **CircularGauge** and **LinearGauge**, the palette can be specified in th
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Gauges/PaletteForRanges/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Gauges/PaletteForRanges/"
 }
 
 In the **TreeMap**, the palette is part of the [colorizer](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/1%20Configuration/colorizer/colorizer.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/colorizer/'). In the **VectorMap**, it should be set for a specific [layer](/api-reference/20%20Data%20Visualization%20Widgets/dxVectorMap/1%20Configuration/layers/layers.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/'). In the **RangeSelector**, the palette is specified in the [chart](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/chart/chart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/chart/') object.
@@ -468,10 +468,10 @@ In the **TreeMap**, the palette is part of the [colorizer](/api-reference/20%20D
 ---
 
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/Colorization/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/Charts/Colorization/",
     name: "TreeMap"
 }
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/VectorMap/Palette/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/VectorMap/Palette/",
     name: "VectorMap"
 }

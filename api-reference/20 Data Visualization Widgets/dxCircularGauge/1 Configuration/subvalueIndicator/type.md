@@ -17,5 +17,5 @@ Different options of the **subvalueIndicator** configuration object can be set f
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Gauges/DifferentSubvalueIndicatorTypes/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Gauges/DifferentSubvalueIndicatorTypes/"
 }

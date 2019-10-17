@@ -34,5 +34,5 @@ Note that in this data source, objects that have children have the *"id"* field 
     };
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/FlatDataStructure/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/FlatDataStructure/"
 }

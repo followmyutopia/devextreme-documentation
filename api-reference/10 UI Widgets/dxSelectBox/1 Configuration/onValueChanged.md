@@ -1,3 +1,3 @@
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/SelectBox/SearchAndEditing/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/SelectBox/SearchAndEditing/"
 }

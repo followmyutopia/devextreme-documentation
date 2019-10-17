@@ -127,5 +127,5 @@ To use another widget instead of a button, specify the [widget](/api-reference/_
 The toolbar provides a short syntax for implementing a custom drop-down menu with multiple choices. Refer to the [formatName](/api-reference/_hidden/dxHtmlEditorToolbarItem/formatName.md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName') description for more information.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/HtmlEditor/ToolbarCustomization/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/HtmlEditor/ToolbarCustomization/"
 }

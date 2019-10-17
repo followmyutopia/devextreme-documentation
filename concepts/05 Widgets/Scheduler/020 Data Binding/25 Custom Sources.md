@@ -272,7 +272,7 @@ If the **Scheduler** allows a user to add, delete or update appointments, the **
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/GoogleCalendarIntegration/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/GoogleCalendarIntegration/"
 }
 
 #####See Also#####

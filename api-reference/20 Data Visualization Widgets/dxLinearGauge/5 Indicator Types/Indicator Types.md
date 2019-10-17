@@ -4,5 +4,5 @@ This section lists objects that define options used to configure value and subva
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Gauges/DifferentValueIndicatorTypesLinearGauge/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Gauges/DifferentValueIndicatorTypesLinearGauge/"
 }

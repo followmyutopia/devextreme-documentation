@@ -15,7 +15,7 @@ An object defining a series of the **scatter** type.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/DiscreteData/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/DiscreteData/"
 }
 
 ![PolarScatterSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/PolarScatter_useSpiderWeb.png)

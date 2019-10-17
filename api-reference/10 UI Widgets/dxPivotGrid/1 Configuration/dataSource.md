@@ -15,10 +15,10 @@ The **PivotGrid** is bound to data via the [PivotGridDataSource](/api-reference/
 To bind the **PivotGrid** to data, assign a **PivotGridDataSource** to the widget's **dataSource** option. In the **PivotGridDataSource**, specify the [store](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/store/store.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/store/') option depending on your data source as shown in the following list. In each case, also specify the [fields[]](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) array to configure pivot grid fields.
 
 - **Data Array**        
-Assign the array to the **store** option. [View Demo](/Demos/WidgetsGallery/Demo/PivotGrid/SimpleArray/jQuery/Light/)
+Assign the array to the **store** option. [View Demo](/Demos/WidgetsGallery/Demo/PivotGrid/SimpleArray/)
 
 - **OLAP Data**         
-Implement an [XmlaStore](/api-reference/30%20Data%20Layer/XmlaStore/XmlaStore.md '/Documentation/ApiReference/Data_Layer/XmlaStore/'). [View Demo](/Demos/WidgetsGallery/Demo/PivotGrid/OLAPDataSource/jQuery/Light/)
+Implement an [XmlaStore](/api-reference/30%20Data%20Layer/XmlaStore/XmlaStore.md '/Documentation/ApiReference/Data_Layer/XmlaStore/'). [View Demo](/Demos/WidgetsGallery/Demo/PivotGrid/OLAPDataSource/)
 
 - **Web API, PHP, MongoDB**     
 Use one of the following extensions to enable the server to process data according to the protocol DevExtreme widgets use:

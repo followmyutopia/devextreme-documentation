@@ -26,7 +26,7 @@ A template name or container.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/Customization/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/Customization/"
 }
 
 #####See Also#####

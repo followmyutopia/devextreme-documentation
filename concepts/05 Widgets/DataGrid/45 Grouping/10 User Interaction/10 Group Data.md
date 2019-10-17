@@ -136,10 +136,10 @@ If a specific column should never take part in grouping, set its [allowGrouping]
 ---
 
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/RecordGrouping/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/RecordGrouping/",
     name: "Local Grouping"
 }
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/RecordGrouping/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/RecordGrouping/",
     name: "Remote Grouping"
 }

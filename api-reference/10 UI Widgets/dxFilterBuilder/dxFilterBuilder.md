@@ -36,7 +36,7 @@ dx.web.js, dx.viz-web.js, dx.all.js
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithDataGrid/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithDataGrid/"
 }
 #include common-readguidesbutton with {
     url: "/Documentation/Guide/Widgets/FilterBuilder/Overview/"

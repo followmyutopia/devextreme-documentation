@@ -20,7 +20,7 @@ Major ticks are visible by default. To display minor ticks, you need to set the 
 By default, scale ticks are generated automatically. If you are not satisfied with the automatically generated ticks, you can specify a custom interval for major and minor ticks. To do this, use the [tickInterval](/api-reference/20%20Data%20Visualization%20Widgets/BaseGauge/1%20Configuration/scale/tickInterval.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Configuration/scale/#tickInterval') and [minorTickInterval](/api-reference/20%20Data%20Visualization%20Widgets/BaseGauge/1%20Configuration/scale/minorTickInterval.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Configuration/scale/#minorTickInterval') options, respectively.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Gauges/ScaleMinorTicks/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Gauges/ScaleMinorTicks/"
 }
 
 If neither automatically generated ticks nor ticks with a custom interval fit your requirements, you can place major and minor ticks at specific scale values. Assign an array of required values to the [customTicks](/api-reference/20%20Data%20Visualization%20Widgets/BaseGauge/1%20Configuration/scale/customTicks.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Configuration/scale/#customTicks') or [customMinorTicks](/api-reference/20%20Data%20Visualization%20Widgets/BaseGauge/1%20Configuration/scale/customMinorTicks.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Configuration/scale/#customMinorTicks') option.

@@ -3,7 +3,7 @@ The **agenda** view lists all available appointments grouped by date. This view 
 ![Agenda View](/Content/images/doc/19_2/UiWidgets/Scheduler_Agenda_View.png)
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/Agenda/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/Agenda/"
 }
 
 By default, the **agenda** view displays appointments for seven dates at a time from the [currentDate](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/currentDate.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#currentDate') onward. To change the number of dates, specify the [agendaDuration](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/views/agendaDuration.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/#agendaDuration') option. For details on individual views customization, see [this topic](/concepts/05%20Widgets/Scheduler/060%20Views/020%20Customize%20Individual%20Views.md '/Documentation/Guide/Widgets/Scheduler/Views/Customize_Individual_Views/').
@@ -59,5 +59,5 @@ If you [group appointmetns by resources](/concepts/05%20Widgets/Scheduler/040%20
 #####See Also#####
 - [Scheduler - Customize Individual Views](/concepts/05%20Widgets/Scheduler/060%20Views/020%20Customize%20Individual%20Views.md '/Documentation/Guide/Widgets/Scheduler/Views/Customize_Individual_Views/')
 - [Scheduler - Appointments](/concepts/05%20Widgets/Scheduler/030%20Appointments/015%20Appointment%20Types/Appointment%20Types.md '/Documentation/Guide/Widgets/Scheduler/Appointments/')
-- [Scheduler Demos](/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/)
+- [Scheduler Demos](/Demos/WidgetsGallery/Demo/Scheduler/Overview/)
 - [Scheduler API Reference](/api-reference/10%20UI%20Widgets/dxScheduler/dxScheduler.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/')

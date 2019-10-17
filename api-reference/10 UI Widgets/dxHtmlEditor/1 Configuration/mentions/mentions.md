@@ -9,5 +9,5 @@ Configures mentions.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/HtmlEditor/Mentions/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/HtmlEditor/Mentions/"
 }

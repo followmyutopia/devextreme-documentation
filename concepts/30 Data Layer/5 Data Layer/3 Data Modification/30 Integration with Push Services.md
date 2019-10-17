@@ -74,15 +74,15 @@ Call this method in the event handlers for client functions that can be invoked 
 ---
 
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/SignalRService/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/SignalRService/",
     name: "DataGrid SignalR"
 }
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/SignalRService/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/SignalRService/",
     name: "Scheduler SignalR"
 }
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/SignalRService/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/Charts/SignalRService/",
     name: "Chart SignalR"
 }
 
@@ -125,5 +125,5 @@ After being notified, the **DataSource** can reapply sorting, filtering, groupin
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/RealTimeUpdates/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/RealTimeUpdates/"
 }

@@ -14,5 +14,5 @@ You can also create a simple item without binding it to a **formData** field. Fo
 For detailed information on configuring simple items, see the [Configure Simple Items](/concepts/05%20Widgets/Form/05%20Configure%20Simple%20Items/Configure%20Simple%20Items.md '/Documentation/Guide/Widgets/Form/Configure_Simple_Items/') topic.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Form/CustomizeItem/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Form/CustomizeItem/"
 }

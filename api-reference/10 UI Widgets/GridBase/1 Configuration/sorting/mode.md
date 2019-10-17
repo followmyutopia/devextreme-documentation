@@ -23,5 +23,5 @@ Rows can be sorted by values of several columns.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Data_Grid/MultipleSorting/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Data_Grid/MultipleSorting/"
 }

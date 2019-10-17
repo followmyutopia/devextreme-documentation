@@ -22,7 +22,7 @@ These operations are: "!", "=", "<>", ">", ">=", "<", "<=", "startswith", "endsw
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/Customization/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/Customization/"
 }
 
 #####See Also#####

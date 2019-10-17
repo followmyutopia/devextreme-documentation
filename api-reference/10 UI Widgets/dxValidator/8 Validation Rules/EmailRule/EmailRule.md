@@ -8,7 +8,7 @@ A validation rule that demands that the validated field match the Email pattern.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Validation/Overview/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Validation/Overview/"
 }
 
 #####See Also#####

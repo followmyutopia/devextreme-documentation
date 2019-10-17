@@ -43,5 +43,5 @@ Colors the tooltip's text.
 Colors the tooltip's border.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/SankeyChart/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/SankeyChart/"
 }

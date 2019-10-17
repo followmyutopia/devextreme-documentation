@@ -131,5 +131,5 @@ In the following code, the *"fixedPoint"* [format type](/api-reference/50%20Comm
 The **format** option also controls the user input in cells that use the [DateBox](/concepts/05%20Widgets/DateBox/00%20Overview.md '/Documentation/Guide/Widgets/DateBox/Overview/') widget for editing. For cells that use other widgets, you can specify the [editorOptions](/api-reference/_hidden/GridBaseColumn/editorOptions.md '{basewidgetpath}/Configuration/columns/#editorOptions').**format** option, as shown in the following demo:
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/RecalculateWhileEditing/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/RecalculateWhileEditing/"
 }

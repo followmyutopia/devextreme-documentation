@@ -54,7 +54,7 @@ To bind the **Scheduler** to an array, pass this array to the [dataSource](/api-
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/SimpleArray/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/SimpleArray/"
 }
 
 If objects in the array need to be processed (for example, filtered), you can create a [Query](/concepts/30%20Data%20Layer/5%20Data%20Layer/6%20Query%20Concept.md '/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept'). In the following code, a Query selects objects with `text` containing *'meet'*.

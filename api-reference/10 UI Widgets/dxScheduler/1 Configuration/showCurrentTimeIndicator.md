@@ -9,5 +9,5 @@ Specifies the current date-time indicator's visibility.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/CurrentTimeIndicator/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/CurrentTimeIndicator/"
 }

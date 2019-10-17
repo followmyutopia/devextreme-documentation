@@ -12,9 +12,9 @@ Binds the widget to data.
 #include common-dataSource-description with {
     widget_works_with: "The **{WidgetName}** works with collections of objects.",
 
-    array_view_demo: "[View Demo](/Demos/WidgetsGallery/Demo/Charts/SimpleArray/jQuery/Light/)",
+    array_view_demo: "[View Demo](/Demos/WidgetsGallery/Demo/Charts/SimpleArray/)",
 
-    json_view_demo: "[View Demo](/Demos/WidgetsGallery/Demo/Charts/AjaxRequest/jQuery/Light/)",
+    json_view_demo: "[View Demo](/Demos/WidgetsGallery/Demo/Charts/AjaxRequest/)",
 
     additional_data_binding_actions: "After providing data, [bind series to it](/concepts/05%20Widgets/Chart/03%20Data%20Binding/23%20Bind%20Series%20to%20Data/Bind%20Series%20to%20Data.md '/Documentation/Guide/Widgets/Chart/Data_Binding/Bind_Series_to_Data/').",
 

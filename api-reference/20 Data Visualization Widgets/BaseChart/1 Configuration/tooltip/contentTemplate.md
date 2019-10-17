@@ -18,5 +18,5 @@ Information on the series point being pressed or hovered over.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/TooltipHTMLSupport/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/TooltipHTMLSupport/"
 }

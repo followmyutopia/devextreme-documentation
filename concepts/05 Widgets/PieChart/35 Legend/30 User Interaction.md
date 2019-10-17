@@ -92,7 +92,7 @@ In addition, a user can click legend items. The widget does not react to this by
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/Pie/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/Pie/"
 }
 
 #####See Also#####

@@ -40,5 +40,5 @@ You can change the visibility, color, width and other settings of the tooltip bo
 Tooltips are displayed casting a small shadow. To specify its blurriness, opacity, color and other settings, use [shadow](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/tooltip/shadow/shadow.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/tooltip/shadow/') object fields.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Vector_Map/TooltipHTMLSupport/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Vector_Map/TooltipHTMLSupport/"
 }

@@ -9,5 +9,5 @@ Specifies whether to display [sort indexes](/api-reference/_hidden/GridBaseColum
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/MultipleSorting/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/MultipleSorting/"
 }

@@ -19,7 +19,7 @@ The group operations are:
  Returns a reverted result of an *"or"* operation: `["!", [[condition1], "or", [condition2]]]`.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/Customization/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/Customization/"
 }
 
 #####See Also#####

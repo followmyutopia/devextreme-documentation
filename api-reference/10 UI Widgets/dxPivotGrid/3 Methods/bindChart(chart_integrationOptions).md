@@ -54,7 +54,7 @@ Accepts one of the following values.
 Main article: [Integration with Chart](/concepts/05%20Widgets/PivotGrid/150%20Integration%20with%20Chart/10%20Integration%20with%20Chart.md '/Documentation/Guide/Widgets/PivotGrid/Integration_with_Chart/')
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/PivotGrid/ChartIntegration/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/PivotGrid/ChartIntegration/"
 }
 
 #####See Also#####

@@ -11,7 +11,7 @@ Enables auto-calculated scale breaks. Applies only if the axis' [type](/api-refe
 If this option is **true**, the widget detects large gaps between side-by-side points and cuts them out, putting scale breaks instead.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/ScaleBreaks/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/ScaleBreaks/"
 }
 
 #####See Also#####

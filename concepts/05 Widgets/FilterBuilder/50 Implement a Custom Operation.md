@@ -14,5 +14,5 @@ All custom operations are configured in the [customOperations](/api-reference/10
 
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/Customization/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/Customization/"
 }

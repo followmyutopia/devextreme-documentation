@@ -122,7 +122,7 @@ To choose which series elements should be highlighted when a user selects a seri
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/Selection/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/Selection/"
 }
 
 By default, only a single series can be in the selected state at a time. If you need to allow multiple series to be in this state, assign *"multiple"* to the [seriesSelectionMode](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/seriesSelectionMode.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#seriesSelectionMode') option.
@@ -161,7 +161,7 @@ By default, only a single series can be in the selected state at a time. If you 
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/MultipleSeriesSelection/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/MultipleSeriesSelection/"
 }
 
 #####See Also#####

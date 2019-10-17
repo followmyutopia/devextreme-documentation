@@ -105,7 +105,7 @@ dx-diagram.js, dx.all.js
     url: "/Documentation/Guide/Widgets/Diagram/Getting_Started_with_Diagram/" 
 }
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Diagram/Overview/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Diagram/Overview/"
 }
 
 #####See Also#####

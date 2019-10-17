@@ -119,5 +119,5 @@ Since the load panel is a DevExtreme [LoadPanel](/concepts/05%20Widgets/LoadPane
 ---
 
 #####See Also#####
-- [LoadPanel Demos](/Demos/WidgetsGallery/Demo/Load_Panel/Overview/jQuery/Light/)
-- [TreeList Demos](/Demos/WidgetsGallery/Demo/TreeList/Overview/jQuery/Light/)
+- [LoadPanel Demos](/Demos/WidgetsGallery/Demo/Load_Panel/Overview/)
+- [TreeList Demos](/Demos/WidgetsGallery/Demo/TreeList/Overview/)

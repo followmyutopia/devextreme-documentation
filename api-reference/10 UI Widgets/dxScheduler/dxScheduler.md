@@ -16,7 +16,7 @@ dx.web.js, dx.viz-web.js, dx.all.js
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/Overview/"
 }
 #include common-readguidesbutton with {
     url: "/Documentation/Guide/Widgets/ResponsiveBox/Overview/"

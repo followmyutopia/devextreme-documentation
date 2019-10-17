@@ -66,5 +66,5 @@ You should configure [remoteOperations](/api-reference/10%20UI%20Widgets/dxTreeL
 ---
 
 #include common-demobutton with { 
-    url: "/Demos/WidgetsGallery/Demo/TreeList/WebAPIService/jQuery/Light/" 
+    url: "/Demos/WidgetsGallery/Demo/TreeList/WebAPIService/" 
 }

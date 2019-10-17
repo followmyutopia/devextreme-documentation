@@ -62,7 +62,7 @@ A function called when this variable changes.
 [note] In [fixed columns](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/columnFixing/columnFixing.md '{basewidgetpath}/Configuration/columnFixing/'), a **cellTemplate** is initialized and rendered twice for each cell.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/CellCustomization/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/CellCustomization/"
 }
 
 #####See Also#####

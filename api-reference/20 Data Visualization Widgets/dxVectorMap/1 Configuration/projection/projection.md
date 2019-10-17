@@ -22,10 +22,10 @@ You can use one of the following out-of-the-box projections:
 To set a custom projection, implement two functions ([from](/api-reference/_hidden/VectorMapProjectionConfig/from.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/projection/#from') and [to](/api-reference/_hidden/VectorMapProjectionConfig/to.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/projection/#to')) that convert coordinates between geographical and widget coordinate systems. In addition, set the projection's [aspectRatio](/api-reference/_hidden/VectorMapProjectionConfig/aspectRatio.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/projection/#aspectRatio').
 
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/VectorMap/CustomProjection/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/VectorMap/CustomProjection/",
     name: "Custom Projection"
 }
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/VectorMap/FloorPlan/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/VectorMap/FloorPlan/",
     name: "Floor Plan"
 }

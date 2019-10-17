@@ -13,7 +13,7 @@ If this option is **false**, the tooltip displays information only about the poi
 If this option is set to **true**, the tooltip also displays information about all series points that have the same argument as the point being hovered over. 
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/MultipleAxes/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/MultipleAxes/"
 }
 
 #####See Also#####

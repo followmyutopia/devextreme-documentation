@@ -10,5 +10,5 @@ Specifies whether the Enter key switches the cell to the editing state or moves 
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/CustomizeKeyboardNavigation/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/CustomizeKeyboardNavigation/"
 }

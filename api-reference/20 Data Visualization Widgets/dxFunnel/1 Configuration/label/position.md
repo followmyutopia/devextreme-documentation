@@ -15,5 +15,5 @@ Specifies whether to display labels inside or outside funnel items or arrange th
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/FunnelChart/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/FunnelChart/"
 }

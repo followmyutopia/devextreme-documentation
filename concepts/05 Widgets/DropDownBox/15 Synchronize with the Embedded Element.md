@@ -288,11 +288,11 @@ This step's implementation depends on the embedded widget's API and the library/
     ---
 
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/DropDownBox/SingleSelection/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/DropDownBox/SingleSelection/",
     name: "Single Selection"
 }
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/DropDownBox/MultipleSelection/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/DropDownBox/MultipleSelection/",
     name: "Multiple Selection"
 }
 

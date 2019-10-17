@@ -162,7 +162,7 @@ Frequently, the **id** of an item is also its **text**. In this case, set both t
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Tree_View/FlatDataStructure/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Tree_View/FlatDataStructure/"
 }
 
 #####See Also#####

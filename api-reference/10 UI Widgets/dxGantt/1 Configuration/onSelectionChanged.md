@@ -25,7 +25,7 @@ The key of the row whose selection state was changed.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Gantt/Overview/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Gantt/Overview/"
 }
 
 ---

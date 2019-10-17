@@ -54,7 +54,7 @@ The **SelectBox** widget allows an end user to search through its items. This fe
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Select_Box/SearchAndEditing/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Select_Box/SearchAndEditing/"
 }
 
 When a user types a string in the input field, the **SelectBox** suggests all items that _contain_ this string. Assign *'startswith'* to the [searchMode](/api-reference/10%20UI%20Widgets/dxDropDownList/1%20Configuration/searchMode.md '/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#searchMode') option if you want the **SelectBox** to suggest only those items that _start_ with the input string.

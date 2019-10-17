@@ -79,6 +79,6 @@ The [onSeriesClick](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1
 [/note]
 
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/Selection/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/Charts/Selection/",
     name: "Bar Chart"
 }

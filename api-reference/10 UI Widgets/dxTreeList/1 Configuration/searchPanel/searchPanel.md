@@ -9,7 +9,7 @@ The search panel allows searching for values in several columns at once. The wid
 To make the search panel visible, set the **searchPanel**.[visible](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/searchPanel/visible.md '{basewidgetpath}/Configuration/searchPanel/#visible') option to **true**.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TreeList/UsingSearchPanel/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/TreeList/UsingSearchPanel/"
 }
 
 #####See Also#####

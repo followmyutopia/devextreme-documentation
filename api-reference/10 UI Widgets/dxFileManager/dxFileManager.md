@@ -78,5 +78,5 @@ itemView: {
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FileManager/BindingToHierarchicalStructure/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/FileManager/BindingToHierarchicalStructure/"
 }

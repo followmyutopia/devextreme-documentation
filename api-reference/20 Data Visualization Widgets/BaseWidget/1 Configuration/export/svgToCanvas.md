@@ -19,5 +19,5 @@ A Promise that is resolved after the HTML canvas content is rendered.
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/ExportCustomMarkup/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/ExportCustomMarkup/"
 }

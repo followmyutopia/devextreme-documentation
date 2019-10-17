@@ -74,4 +74,4 @@ If you are going to change event handlers at runtime, or if you need to attach s
 
 #####See Also#####
 #include common-link-handleevents
-- [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/LocalDataSource/jQuery/Light/)
+- [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/LocalDataSource/)

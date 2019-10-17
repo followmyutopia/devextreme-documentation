@@ -8,7 +8,7 @@ Configures grouping.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/RecordGrouping/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/RecordGrouping/"
 }
 
 #####See Also#####

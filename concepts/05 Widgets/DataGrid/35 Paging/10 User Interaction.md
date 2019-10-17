@@ -96,7 +96,7 @@ Assign **true** to the [showInfo](/api-reference/10%20UI%20Widgets/GridBase/1%20
 
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/RecordPaging/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/RecordPaging/"
 }
 
 #####See Also#####

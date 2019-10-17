@@ -59,5 +59,5 @@ To group appointments by resources of one kind, for instance to group appointmen
 
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/GroupOrientation/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/GroupOrientation/"
 }

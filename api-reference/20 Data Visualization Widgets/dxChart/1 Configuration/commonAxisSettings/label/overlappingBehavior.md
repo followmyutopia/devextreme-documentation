@@ -33,7 +33,7 @@ Arranges axis labels in two rows in a staggering manner. An empty space between 
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/AxisLabelsOverlapping/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/AxisLabelsOverlapping/"
 }
 
 #####See Also#####

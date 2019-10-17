@@ -19,5 +19,5 @@ The popup always contains a form whose items are used for editing. Use the [form
 #include widgets-config-object-option-note
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/{WidgetName}/PopupEditing/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/{WidgetName}/PopupEditing/"
 }

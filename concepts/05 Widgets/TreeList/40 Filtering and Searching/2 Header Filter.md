@@ -3,7 +3,7 @@ A header filter allows a user to filter values in an individual column by includ
 ![DevExtreme HTML5 JavaScript jQuery Knockout Angular TreeList Filtering HeaderFilter](/Content/images/doc/19_2/treelist/visual_elements/header_filter.png)
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Tree_List/UsingHeaderFilter/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Tree_List/UsingHeaderFilter/"
 }
 
 Assign **true** to the [headerFilter](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/headerFilter/headerFilter.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/headerFilter/').**visible** option to make header filter icons visible for all columns. Set a column's [allowHeaderFiltering](/api-reference/_hidden/GridBaseColumn/allowHeaderFiltering.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowHeaderFiltering') option to **false** if its header filter should not be available. Note that this option inherits the [allowFiltering](/api-reference/_hidden/GridBaseColumn/allowFiltering.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowFiltering') option's value by default.

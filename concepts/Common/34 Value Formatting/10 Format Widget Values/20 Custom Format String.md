@@ -183,4 +183,4 @@ The following code shows how to apply LDML patterns to format numbers and dates:
 ---
 
 #####See Also#####
-- [NumberBox Formatting Demo](/Demos/WidgetsGallery/Demo/NumberBox/Formatting/jQuery/Light/)
+- [NumberBox Formatting Demo](/Demos/WidgetsGallery/Demo/NumberBox/Formatting/)

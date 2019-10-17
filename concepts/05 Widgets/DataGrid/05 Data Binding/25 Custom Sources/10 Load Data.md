@@ -283,6 +283,6 @@ Below is a generalized **CustomStore** configuration for the **DataGrid** widget
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/CustomDataSource/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/CustomDataSource/"
 }
 

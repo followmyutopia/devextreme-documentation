@@ -7,7 +7,7 @@ You can click the filter expression to open the integrated filter builder.
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout TreeList Filter Panel](/Content/images/doc/19_2/TreeList/visual_elements/integrated_filter_builder.png)
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TreeList/FilterPanel/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/TreeList/FilterPanel/"
 }
 
 Set the **filterPanel**.[visible](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/filterPanel/visible.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/filterPanel/#visible') option to **true** to make the filter panel visible. 

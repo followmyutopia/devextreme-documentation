@@ -124,7 +124,7 @@ The following code shows the **commonAnnotationSettings** declaration syntax:
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/Annotation/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/Annotation/"
 }
 
 #####See Also#####

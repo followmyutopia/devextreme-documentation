@@ -17,7 +17,7 @@ A pane is a chart area containing series. If there are many series an a chart, t
 Each object in the **panes** array configures a single pane. If you have several panes, we recommend you to [name](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/panes/name.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/panes/#name') each pane in order to be able to refer to them afterwards.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/MultiplePanes/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/MultiplePanes/"
 }
 
 #####See Also#####

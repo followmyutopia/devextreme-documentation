@@ -42,7 +42,7 @@ To configure the appearance, location, and content of the legend, use options co
 - [Relocate the Legend](/concepts/05%20Widgets/Chart/35%20Legend/10%20Relocate%20the%20Legend.md '/Documentation/Guide/Widgets/Chart/Legend/Relocate_the_Legend/')
 - [Rearrange Legend Items](/concepts/05%20Widgets/Chart/35%20Legend/20%20Rearrange%20Legend%20Items.md '/Documentation/Guide/Widgets/Chart/Legend/Rearrange_Legend_Items/')
 - [User Interaction with the Legend](/concepts/05%20Widgets/Chart/35%20Legend/30%20User%20Interaction.md '/Documentation/Guide/Widgets/Chart/Legend/User_Interaction/')
-- [Chart Demos](/Demos/WidgetsGallery/Demo/Charts/StepLine/jQuery/Light/)
+- [Chart Demos](/Demos/WidgetsGallery/Demo/Charts/StepLine/)
 - [Chart API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/dxChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/')
 
 [tags]chart, legend, overview

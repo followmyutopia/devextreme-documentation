@@ -10,7 +10,7 @@ Specifies a data source for the layer.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Vector_Map/CustomMapData/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Vector_Map/CustomMapData/"
 }
 
 #####See Also#####

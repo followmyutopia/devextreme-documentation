@@ -41,5 +41,5 @@ If a specific column should not be moved, set its [allowReordering](/api-referen
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Tree_List/Reordering/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Tree_List/Reordering/"
 }

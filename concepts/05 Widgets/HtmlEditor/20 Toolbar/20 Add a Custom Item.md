@@ -3,5 +3,5 @@ The toolbar can contain different DevExtreme widgets other than [buttons and sel
 You can find an example in the [widget](/api-reference/_hidden/dxHtmlEditorToolbarItem/widget.md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#widget') description or the following demo:
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/HtmlEditor/ToolbarCustomization/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/HtmlEditor/ToolbarCustomization/"
 }

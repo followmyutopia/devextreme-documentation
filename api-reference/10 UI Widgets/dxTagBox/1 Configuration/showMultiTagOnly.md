@@ -9,7 +9,7 @@ Specifies whether the multi-tag is shown without ordinary tags.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TagBox/TagCountLimitation/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/TagBox/TagCountLimitation/"
 }
 
 #####See Also#####

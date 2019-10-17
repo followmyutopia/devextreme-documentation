@@ -85,7 +85,7 @@ To use the text displayed in cells in those data processing operations, specify 
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/ColumnCustomization/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/ColumnCustomization/"
 } 
 
 Some features are disabled in columns with calculated values. Refer to the [calculateCellValue](/api-reference/_hidden/GridBaseColumn/calculateCellValue.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateCellValue') description for a list of disabled features and the options that enable them.

@@ -18,5 +18,5 @@ Zoom level determines the size of a date range displayed on a single calendar pa
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Calendar/Overview/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Calendar/Overview/"
 }

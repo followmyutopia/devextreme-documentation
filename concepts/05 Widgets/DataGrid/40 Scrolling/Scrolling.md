@@ -12,15 +12,15 @@ The next page is loaded once the scrollbar reaches the end of its scale. Use thi
     [note]Set the **grouping**.[allowCollapsing](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/grouping/allowCollapsing.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#allowCollapsing') option to **false** when using infinite scrolling in conjunction with grouping.
 
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/Data_Grid/InfiniteScrolling/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/Data_Grid/InfiniteScrolling/",
     name: "Infinite Scrolling"
 }
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/VirtualScrolling/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/VirtualScrolling/",
     name: "Local Virtual Scrolling"
 }
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/RemoteVirtualScrolling/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/RemoteVirtualScrolling/",
     name: "Remote Virtual Scrolling"
 }
 
@@ -147,4 +147,4 @@ The current platform determines the native scrolling settings and you cannot adj
 If you need to access and customize other scrolling settings, get the instance of the widget's scrollable part by calling the [getScrollable()](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/getScrollable().md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#getScrollable') method.
 
 #####See Also#####
-- [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/LocalDataSource/jQuery/Light/)
+- [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/LocalDataSource/)

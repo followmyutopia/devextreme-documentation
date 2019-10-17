@@ -129,4 +129,4 @@ Add the following code to allow users to change an appointment's time zone:
 
 ---
 
-To allow a user to change the widget's time zone, implement a select box as shown in the [Time Zone Support](/Demos/WidgetsGallery/Demo/Scheduler/TimeZonesSupport/jQuery/Light/) demo.
+To allow a user to change the widget's time zone, implement a select box as shown in the [Time Zone Support](/Demos/WidgetsGallery/Demo/Scheduler/TimeZonesSupport/) demo.

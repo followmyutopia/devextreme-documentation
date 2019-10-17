@@ -103,7 +103,7 @@ You can also customize an individual label. For this purpose, assign a function 
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/CustomizePointsAndLabels/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/CustomizePointsAndLabels/"
 }
 
 #####See Also#####

@@ -7,7 +7,7 @@ When a user clicks a *"Delete"* button in a row, the widget only marks the row a
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Editing Batch Mode Deletion](/Content/images/doc/19_2/treelist/editing/batch_mode_deletion.png)
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Tree_List/BatchEditing/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Tree_List/BatchEditing/"
 }
 
 #####See Also#####

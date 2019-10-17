@@ -191,7 +191,7 @@ When a user long-presses an annotation or hovers the mouse pointer over it, the 
 Objects in the **annotations[]** array configure individual annotations. To specify options common for all annotations, use the [commonAnnotationSettings](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonAnnotationSettings/commonAnnotationSettings.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAnnotationSettings/') object. Individual settings take precedence over common settings.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/Annotation/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/Annotation/"
 }
 
 #####See Also#####

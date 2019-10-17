@@ -12,7 +12,7 @@ A user can select rows in a single or multiple [mode](/api-reference/10%20UI%20W
 By default, once a user selects a row, the data source is instantly notified about it. This may lower the widget performance if the data source is remote and the user is allowed to select all rows at once. In this case, we recommend making the selection [deferred](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/selection/deferred.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#deferred').
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Data_Grid/RowSelection/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Data_Grid/RowSelection/"
 }
 
 #####See Also#####

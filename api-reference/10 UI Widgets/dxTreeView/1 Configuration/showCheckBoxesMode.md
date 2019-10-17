@@ -26,7 +26,7 @@ The option accepts the following values.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Tree_View/ItemSelectionAndCustomization/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Tree_View/ItemSelectionAndCustomization/"
 }
 
 #####See Also#####

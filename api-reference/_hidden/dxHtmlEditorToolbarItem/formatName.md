@@ -13,7 +13,7 @@ To customize a [predefined item](/concepts/05%20Widgets/HtmlEditor/20%20Toolbar/
 This option also accepts names of formats with multiple choices. In addition to the format name, specify [formatValues](/api-reference/_hidden/dxHtmlEditorToolbarItem/formatValues.md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatValues'). On the toolbar, such formats are represented by [SelectBox](/concepts/05%20Widgets/SelectBox/00%20Overview.md '/Documentation/Guide/Widgets/SelectBox/Overview/') widgets whose [options](/api-reference/10%20UI%20Widgets/dxSelectBox/1%20Configuration/Configuration.md '/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/') you can specify in the [options](/api-reference/10%20UI%20Widgets/dxToolbar/5%20Default%20Item%20Template/options.md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#options') object.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/HtmlEditor/Overview/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/HtmlEditor/Overview/"
 }
 
 In the following code, the `header` and `size` formats are configured as described in the previous paragraph:

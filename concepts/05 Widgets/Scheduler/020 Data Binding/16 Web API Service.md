@@ -54,5 +54,5 @@ DevExtreme provides the <a href="https://github.com/DevExpress/DevExtreme.AspNet
 ---
 
 #include common-demobutton with { 
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/WebAPIService/jQuery/Light/" 
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/WebAPIService/" 
 }

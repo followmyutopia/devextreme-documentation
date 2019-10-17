@@ -23,5 +23,5 @@ Renders only those rows that get into the viewport. Use this mode if the [pageSi
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/RemoteVirtualScrolling/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/RemoteVirtualScrolling/"
 }

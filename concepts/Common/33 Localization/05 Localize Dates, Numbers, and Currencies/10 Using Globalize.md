@@ -46,7 +46,7 @@ All the components are available via CDN and npm.
     ---
 
     #include common-demobutton with {
-        url: "/Demos/WidgetsGallery/Demo/Localization/UsingGlobalize/jQuery/Light/"
+        url: "/Demos/WidgetsGallery/Demo/Localization/UsingGlobalize/"
     }
 
 * **npm**       

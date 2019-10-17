@@ -15,7 +15,7 @@ To make header filter icons visible, assign **true** to the **headerFilter**.[vi
 
 A header filter's popup menu lists all column values. If they are numbers or dates, you can group them using the [groupInterval](/api-reference/_hidden/GridBaseColumn/headerFilter/groupInterval.md '{basewidgetpath}/Configuration/columns/headerFilter/#groupInterval') option in the column's [headerFilter](/api-reference/_hidden/GridBaseColumn/headerFilter/headerFilter.md '{basewidgetpath}/Configuration/columns/headerFilter/'). You can also provide a custom data source for a header filter using the [dataSource](/api-reference/_hidden/GridBaseColumn/headerFilter/dataSource.md '{basewidgetpath}/Configuration/columns/headerFilter/#dataSource') option.
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/{WidgetName}/Filtering/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/{WidgetName}/Filtering/"
 }
 
 #include datagrid-filtering-selectallmodifiesfiltertype with {

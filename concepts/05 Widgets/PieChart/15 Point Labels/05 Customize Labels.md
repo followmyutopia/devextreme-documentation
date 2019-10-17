@@ -49,7 +49,7 @@ If you need to change the text displayed by point labels, declare the [customize
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/PieWithCustomLabels/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/PieWithCustomLabels/"
 }
 
 You can also customize an individual label. For this purpose, assign a function to the [customizeLabel](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/1%20Configuration/customizeLabel.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/#customizeLabel') option. This function must return an object with options for the label that you want to customize. Note that the **customizeLabel** option should be declared at the root level of the **PieChart** configuration.

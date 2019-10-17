@@ -138,5 +138,5 @@ You can use a column's [formItem](/api-reference/_hidden/GridBaseColumn/formItem
 If you need to validate form values, specify validation rules as described in the [Data Validation](/concepts/05%20Widgets/TreeList/20%20Editing/50%20Data%20Validation.md '/Documentation/Guide/Widgets/TreeList/Editing/#Data_Validation') article.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Tree_List/FormEditing/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Tree_List/FormEditing/"
 }

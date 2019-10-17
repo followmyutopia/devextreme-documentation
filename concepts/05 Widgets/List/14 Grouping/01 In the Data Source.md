@@ -75,7 +75,7 @@ Items in the **List** are grouped if they are grouped in the data source. The **
 [note]Only one-level grouping is supported.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/List/GroupedList/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/List/GroupedList/"
 }
 
 If objects in your data source miss the **key** and **items** fields, use the [map](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/map.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#map') function of the [DevExtreme DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/') to bring these objects to the **key** + **items** structure. You can find more information on the **map** function in the [Data Layer - Item Mapping](/concepts/30%20Data%20Layer/5%20Data%20Layer/2%20Reading%20Data/3%20Data%20Transformation/1%20Item%20Mapping.md '/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Data_Transformation/Item_Mapping') topic.

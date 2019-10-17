@@ -9,7 +9,7 @@ Specifies whether to reapply sorting, filtering, grouping, and other data proces
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/RealTimeUpdates/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/RealTimeUpdates/"
 }
 
 #####See Also#####

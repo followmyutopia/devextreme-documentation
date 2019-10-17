@@ -52,4 +52,4 @@ Each funnel item allows you to show its tooltip programmatically by calling the 
 ---
 
 #####See Also#####
-- [Funnel Demos](/Demos/WidgetsGallery/Demo/Charts/FunnelChart/jQuery/Light/)
+- [Funnel Demos](/Demos/WidgetsGallery/Demo/Charts/FunnelChart/)

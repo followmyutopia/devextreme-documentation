@@ -7,7 +7,7 @@ The pager is an element that allows users to navigate through pages and change t
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Pager](/Content/images/doc/19_2/treelist/visual_elements/pager.png)
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TreeList/Paging/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/TreeList/Paging/"
 }
 
 #####See Also#####

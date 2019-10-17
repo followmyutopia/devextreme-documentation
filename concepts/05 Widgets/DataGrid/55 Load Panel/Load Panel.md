@@ -119,5 +119,5 @@ Since the load panel is a DevExtreme [LoadPanel](/concepts/05%20Widgets/LoadPane
 ---
 
 #####See Also#####
-- [LoadPanel Demos](/Demos/WidgetsGallery/Demo/Load_Panel/Overview/jQuery/Light/)
-- [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/AjaxRequest/jQuery/Light/)
+- [LoadPanel Demos](/Demos/WidgetsGallery/Demo/Load_Panel/Overview/)
+- [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/AjaxRequest/)

@@ -34,7 +34,7 @@ Allows you to change the multi-tag's text.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TagBox/TagCountLimitation/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/TagBox/TagCountLimitation/"
 }
 
 #####See Also#####

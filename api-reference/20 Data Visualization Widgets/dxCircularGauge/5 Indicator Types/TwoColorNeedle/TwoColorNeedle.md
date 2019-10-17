@@ -72,5 +72,5 @@ An object that defines a gauge indicator of the **twoColorNeedle** type.
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Gauges/DifferentValueIndicatorTypes/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Gauges/DifferentValueIndicatorTypes/"
 }

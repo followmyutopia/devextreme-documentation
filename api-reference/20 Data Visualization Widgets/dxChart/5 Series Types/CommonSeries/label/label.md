@@ -148,7 +148,7 @@ Declared in [commonSeriesSettings](/api-reference/20%20Data%20Visualization%20Wi
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/AjaxRequest/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/AjaxRequest/"
 }
 
 #####See Also#####

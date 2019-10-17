@@ -141,7 +141,7 @@ All value axes in the **Chart** are synchronized by default, but you can explici
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/MultipleAxes/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/MultipleAxes/"
 }
 
 #####See Also#####

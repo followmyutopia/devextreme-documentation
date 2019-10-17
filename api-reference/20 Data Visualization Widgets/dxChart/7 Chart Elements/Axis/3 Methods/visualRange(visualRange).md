@@ -10,7 +10,7 @@ The axis' new displayed range.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/ZoomingAndScrollingAPI/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/ZoomingAndScrollingAPI/"
 }
 
 #####See Also#####

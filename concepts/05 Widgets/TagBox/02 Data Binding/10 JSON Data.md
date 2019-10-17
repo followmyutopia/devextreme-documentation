@@ -75,6 +75,6 @@ Implement the [CustomStore](/api-reference/30%20Data%20Layer/CustomStore/CustomS
 
 #####See Also#####
 - [Access the DataSource](/concepts/05%20Widgets/TagBox/02%20Data%20Binding/30%20Access%20the%20DataSource.md '/Documentation/Guide/Widgets/TagBox/Data_Binding/Access_the_DataSource/')
-- [TagBox Demos](/Demos/WidgetsGallery/Demo/Tag_Box/Overview/jQuery/Light/)
+- [TagBox Demos](/Demos/WidgetsGallery/Demo/Tag_Box/Overview/)
 
 [tags]tagBox, data binding, provide data, json, jsonp

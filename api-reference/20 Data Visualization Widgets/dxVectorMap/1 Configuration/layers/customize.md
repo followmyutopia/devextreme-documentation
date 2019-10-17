@@ -30,5 +30,5 @@ Only the following options can be changed in the **customize** function.
 #include dataviz-ref-functioncontext
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/VectorMap/ColorsCustomization/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/VectorMap/ColorsCustomization/"
 }

@@ -65,7 +65,7 @@ Specifies the minimum height of bars in a series; allows you to keep bars big en
 - [stack](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CommonSeries/stack.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#stack') (for stacked series)        
 Allows you to distribute bars of a single argument between several side-by-side stacks.
 
-<a href="/Demos/WidgetsGallery/Demo/Charts/StandardBar/jQuery/Light/" class="button orange small fix-width-155" target="_blank">Bar Series Demos</a>
+<a href="/Demos/WidgetsGallery/Demo/Charts/StandardBar/" class="button orange small fix-width-155" target="_blank">Bar Series Demos</a>
 
 #####See Also#####
 - [Series Points](/concepts/05%20Widgets/Chart/14%20Series%20Points/00%20Overview.md '/Documentation/Guide/Widgets/Chart/Series_Points/Overview/')

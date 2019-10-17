@@ -55,7 +55,7 @@ Follow the steps below to configure custom client-side data aggregation.
 1. Implement the [calculateCustomSummary](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/summary/calculateCustomSummary.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/#calculateCustomSummary') function as detailed in its description.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/CustomSummaries/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/CustomSummaries/"
 }
 
 #####See Also#####

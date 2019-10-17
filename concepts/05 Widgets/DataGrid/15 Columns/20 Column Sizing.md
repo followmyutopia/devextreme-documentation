@@ -125,7 +125,7 @@ The widget allows a user to resize columns in two different modes: by changing t
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/ColumnResizing/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/ColumnResizing/"
 }
 
 #####See Also#####

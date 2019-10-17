@@ -90,19 +90,19 @@ When data is grouped or paginated, the widget bound to the **DataSource** ignore
 [important] This method does not modify the remote data source. It is used to push changes from the remote data source to the store without reloading all data.
 
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/RealTimeUpdates/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/RealTimeUpdates/",
     name: "DataGrid Real-Time Updates"
 }
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/SignalRService/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/SignalRService/",
     name: "DataGrid SignalR"
 }
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/SignalRService/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/Charts/SignalRService/",
     name: "Chart SignalR"
 }
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/CollaborativeEditing/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/CollaborativeEditing/",
     name: "DataGrid Collaborative Editing"
 }
 

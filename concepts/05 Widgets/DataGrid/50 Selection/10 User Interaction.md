@@ -166,8 +166,8 @@ The [showCheckBoxesMode](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configu
     
 ---
 
-<a href="/Demos/WidgetsGallery/Demo/DataGrid/RowSelection/jQuery/Light/" class="button orange small fix-width-155" target="_blank">Single Selection Demo</a>
-<a href="/Demos/WidgetsGallery/Demo/DataGrid/MultipleRecordSelectionModes/jQuery/Light/" class="button orange small fix-width-155" target="_blank">Multiple Selection Demo</a>
+<a href="/Demos/WidgetsGallery/Demo/DataGrid/RowSelection/" class="button orange small fix-width-155" target="_blank">Single Selection Demo</a>
+<a href="/Demos/WidgetsGallery/Demo/DataGrid/MultipleRecordSelectionModes/" class="button orange small fix-width-155" target="_blank">Multiple Selection Demo</a>
 
 #####See Also#####
 - [remoteOperations](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/remoteOperations/remoteOperations.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/')

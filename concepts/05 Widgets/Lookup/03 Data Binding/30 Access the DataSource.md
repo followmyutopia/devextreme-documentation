@@ -32,6 +32,6 @@ Now, you can call [any method](/api-reference/30%20Data%20Layer/DataSource/3%20M
 
 #####See Also#####
 - [Data Layer - Overview](/concepts/30%20Data%20Layer/5%20Data%20Layer/Data%20Layer.md '/Documentation/Guide/Data_Layer/Data_Layer/')
-- [Lookup Demos](/Demos/WidgetsGallery/Demo/Lookup/Basics/jQuery/Light/)
+- [Lookup Demos](/Demos/WidgetsGallery/Demo/Lookup/Basics/)
 
 [tags]Lookup, data binding, access data source, getDataSource, reload data

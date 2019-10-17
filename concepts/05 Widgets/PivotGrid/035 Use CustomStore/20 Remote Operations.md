@@ -12,7 +12,7 @@ Now, the **PivotGrid** needs a special configuration of the **CustomStore** on t
 - <a href="https://github.com/DevExpress/DevExtreme-PHP-Data" target="_blank">DevExtreme PHP Data</a>
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/PivotGrid/WebAPIService/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/PivotGrid/WebAPIService/"
 }
 
 #####See Also#####

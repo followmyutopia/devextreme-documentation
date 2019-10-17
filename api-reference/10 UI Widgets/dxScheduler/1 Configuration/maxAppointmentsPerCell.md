@@ -21,5 +21,5 @@ The widget narrows the appointments down to a predefined size value that depends
 The number of appointments allowed in a single cell. Appointments are aggregated in an appointment collector when this number is exceeded.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/LimitAppointmentCountPerCell/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/LimitAppointmentCountPerCell/"
 }

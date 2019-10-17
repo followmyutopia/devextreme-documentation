@@ -20,5 +20,5 @@ The value of this option affects the set of keyboard buttons shown on the mobile
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TextBox/Overview/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/TextBox/Overview/"
 }

@@ -10,5 +10,5 @@ Specifies the direction in which to move focus when a user presses Enter. Applie
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/CustomizeKeyboardNavigation/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/CustomizeKeyboardNavigation/"
 }

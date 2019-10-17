@@ -24,7 +24,7 @@ The text for the label to display.
 #include dataviz-ref-functioncontext
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Gauges/ScaleLabelFormatting/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Gauges/ScaleLabelFormatting/"
 }
 
 #####See Also#####

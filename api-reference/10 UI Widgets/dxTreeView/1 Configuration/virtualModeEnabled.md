@@ -19,7 +19,7 @@ The virtual mode has the following restrictions:
 - Since the [search](/api-reference/10%20UI%20Widgets/dxTreeView/1%20Configuration/searchEnabled.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#searchEnabled') will be performed on loaded nodes only and thus produce incorrect results, it is not recommended that you enable this functionality.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TreeView/VirtualMode/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/TreeView/VirtualMode/"
 }
 
 #####See Also#####

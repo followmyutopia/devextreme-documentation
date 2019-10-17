@@ -130,7 +130,7 @@ Using the default item template is the easiest way to customize an item, but it 
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TabPanel/Overview/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/TabPanel/Overview/"
 }
 
 If you use jQuery alone, combine the HTML markup for items manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [itemTemplate](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/itemTemplate.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#itemTemplate') and [itemTitleTemplate](/api-reference/10%20UI%20Widgets/dxTabPanel/1%20Configuration/itemTitleTemplate.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#itemTitleTemplate') callback functions for views and tabs, respectively.

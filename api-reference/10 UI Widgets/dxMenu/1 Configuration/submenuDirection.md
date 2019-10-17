@@ -17,5 +17,5 @@ By default, the first submenu is displayed so that it is visible totally, based 
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Menu/Overview/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Menu/Overview/"
 }

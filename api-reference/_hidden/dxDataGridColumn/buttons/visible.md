@@ -75,5 +75,5 @@ Use the function to show or hide the button for specific rows. For example, the 
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/CommandColumnCustomization/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/CommandColumnCustomization/"
 }

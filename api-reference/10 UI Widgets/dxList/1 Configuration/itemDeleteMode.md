@@ -17,7 +17,7 @@ Specifies the way a user can delete items from the list.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/"
 }
 
 #####See Also#####

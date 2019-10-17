@@ -23,5 +23,5 @@ There are two different scrolling modes.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/PivotGrid/VirtualScrolling/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/PivotGrid/VirtualScrolling/"
 }

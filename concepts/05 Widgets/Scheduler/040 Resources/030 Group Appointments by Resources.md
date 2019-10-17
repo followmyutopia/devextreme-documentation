@@ -115,7 +115,7 @@ You can change resource headers' orientation in an individual view using the **v
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/GroupOrientation/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/GroupOrientation/"
 }
 
 #####See Also#####

@@ -46,5 +46,5 @@ The **PieChart** widget comprises of a pie and other elements which can affect t
 The widgets should have identical layouts, that is, the same container size, [title](/concepts/05%20Widgets/PieChart/58%20Title%20and%20Subtitle.md '/Documentation/Guide/Widgets/PieChart/Title_and_Subtitle/') and [legend](/concepts/05%20Widgets/PieChart/35%20Legend/00%20Overview.md '/Documentation/Guide/Widgets/PieChart/Legend/Overview/') position, etc. Note also that a single page can contain many size groups, but a widget can be a member of only one of them.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/PiesWithEqualSize/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/PiesWithEqualSize/"
 }

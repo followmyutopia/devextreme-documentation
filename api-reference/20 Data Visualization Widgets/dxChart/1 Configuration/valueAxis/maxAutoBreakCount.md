@@ -9,5 +9,5 @@ Sets a limit on [auto-calculated scale breaks](/api-reference/20%20Data%20Visual
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/ScaleBreaks/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/ScaleBreaks/"
 }

@@ -9,7 +9,7 @@ Specifies whether to display [task resources](/api-reference/10%20UI%20Widgets/d
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Gantt/Overview/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Gantt/Overview/"
 }
 
 ---

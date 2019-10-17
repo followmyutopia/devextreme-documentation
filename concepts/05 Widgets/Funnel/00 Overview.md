@@ -1,7 +1,7 @@
 The **Funnel** is a widget that visualizes a value at different stages in the form of a funnel. It helps assess value changes throughout these stages and identify potential issues.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/FunnelChart/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/FunnelChart/"
 }
 
 The **Funnel** can visualize data from any source. Refer to the following topics for details on how to bind the **Funnel** to your data source:
@@ -29,5 +29,5 @@ Finally, add some interactivity:
 - [Adaptive Layout](/concepts/05%20Widgets/Funnel/89%20Adaptive%20Layout.md '/Documentation/Guide/Widgets/Funnel/Adaptive_Layout/')
 
 #####See Also#####
-- [Funnel Demos](/Demos/WidgetsGallery/Demo/Charts/FunnelChart/jQuery/Light/)
+- [Funnel Demos](/Demos/WidgetsGallery/Demo/Charts/FunnelChart/)
 - [Funnel API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/dxFunnel.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/')

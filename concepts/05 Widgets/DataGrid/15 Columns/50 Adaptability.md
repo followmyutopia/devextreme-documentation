@@ -85,11 +85,11 @@ Data from hidden columns is still available in adaptive detail rows. A user can 
 ![DevExtreme HTML5 JavaScript jQuery Knockout Angular DataGrid Adaptability](/Content/images/doc/19_2/DataGrid/visual_elements/adaptive-column.png)
 
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/GridAdaptabilityOverview/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/GridAdaptabilityOverview/",
     name: "Adaptability"
 }
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/GridColumnsHidingPriority/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/GridColumnsHidingPriority/",
     name: "Hiding Priority"
 }
 

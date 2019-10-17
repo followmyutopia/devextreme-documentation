@@ -45,7 +45,7 @@ Specifies the color of the tooltip border.
 #include dataviz-ref-functioncontext
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Gauges/Tooltip/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Gauges/Tooltip/"
 }
 
 #####See Also#####

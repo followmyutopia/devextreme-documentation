@@ -9,7 +9,7 @@ The earliest date the widget allows to select.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Calendar/Overview/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Calendar/Overview/"
 }
 
 #####See Also#####

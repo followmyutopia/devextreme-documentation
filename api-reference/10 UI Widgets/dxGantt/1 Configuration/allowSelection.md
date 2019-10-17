@@ -9,7 +9,7 @@ Specifies whether users can select tasks in the **Gantt**.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Gantt/Overview/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Gantt/Overview/"
 }
 
 ---

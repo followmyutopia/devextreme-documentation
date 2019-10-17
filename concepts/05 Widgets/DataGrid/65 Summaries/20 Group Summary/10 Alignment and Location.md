@@ -71,5 +71,5 @@ All group items are displayed in parentheses after the group header by default. 
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/GroupSummaries/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/GroupSummaries/"
 }

@@ -58,7 +58,7 @@ On a [logarithmic axis](/api-reference/20%20Data%20Visualization%20Widgets/dxCha
 When using the widget as an <a href="https://docs.devexpress.com/DevExtremeAspNetMvc/400943/devextreme-aspnet-mvc-controls" target="_blank">ASP.NET MVC 5 Control</a> or a <a href="https://docs.devexpress.com/AspNetCore/400263/aspnet-core-controls#devextreme-based-aspnet-core-controls" target="_blank">DevExtreme-Based ASP.NET Core Control</a>, you can specify this option using the `VizTimeInterval` enum. This enum accepts the same values, but they start with an upper-case letter, for example, *"day"* becomes `Day`.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/PointsAggregation/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/PointsAggregation/"
 }
 
 #####See Also#####

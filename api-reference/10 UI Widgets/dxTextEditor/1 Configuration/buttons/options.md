@@ -5,9 +5,9 @@ default: undefined
 ---
 ---
 ##### shortDescription
-Configures the [Button](/Demos/WidgetsGallery/Demo/Button/PredefinedTypes/jQuery/Light/) widget used as the action button.
+Configures the [Button](/Demos/WidgetsGallery/Demo/Button/PredefinedTypes/) widget used as the action button.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Common/CustomTextEditorButtons/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Common/CustomTextEditorButtons/"
 }

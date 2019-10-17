@@ -34,7 +34,7 @@ To bind the **DataGrid** to data in the JSON format, assign the data's URL to th
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Data_Grid/AjaxRequest/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Data_Grid/AjaxRequest/"
 }
 
 Note that you can also use a JSONP callback parameter supported by <a href="http://api.jquery.com/jQuery.ajax/" target="_blank">jQuery.ajax()</a>.

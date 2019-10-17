@@ -9,7 +9,7 @@ Specifies the [command column](/concepts/05%20Widgets/DataGrid/15%20Columns/10%2
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/CommandColumnCustomization/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/CommandColumnCustomization/"
 }
 
 #####See Also#####

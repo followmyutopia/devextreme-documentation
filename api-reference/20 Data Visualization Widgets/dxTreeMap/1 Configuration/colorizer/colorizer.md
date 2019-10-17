@@ -19,5 +19,5 @@ To find out how else you can colorize tiles, see the [colorField](/api-reference
 
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/Colorization/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/Colorization/"
 }

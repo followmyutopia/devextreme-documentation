@@ -75,7 +75,7 @@ If you need to show or hide the loading indicator at runtime, call the [showLoad
 ---
 
 #####See Also#####
-- [Chart Demos](/Demos/WidgetsGallery/Demo/Charts/ClientSideDataProcessing/jQuery/Light/)
+- [Chart Demos](/Demos/WidgetsGallery/Demo/Charts/ClientSideDataProcessing/)
 - [Chart API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/dxChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/')
 
 [tags]chart, load indicator, loading indicator

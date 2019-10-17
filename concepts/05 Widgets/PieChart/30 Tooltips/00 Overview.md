@@ -91,7 +91,7 @@ Options declared in the **tooltip** object apply to all tooltips in the **PieCha
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/PieWithMultipleSeries/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/PieWithMultipleSeries/"
 }
 
 #####See Also#####

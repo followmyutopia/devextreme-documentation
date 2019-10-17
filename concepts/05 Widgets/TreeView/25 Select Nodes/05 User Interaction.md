@@ -67,5 +67,5 @@ To select several nodes simultaneously, set the [showCheckBoxesMode](/api-refere
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TreeView/ItemSelectionAndCustomization/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/TreeView/ItemSelectionAndCustomization/"
 }

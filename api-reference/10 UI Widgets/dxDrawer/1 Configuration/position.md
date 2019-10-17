@@ -33,11 +33,11 @@ Use *"before"* and *"after"* if the **Drawer** should be positioned differently 
 
 
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/Drawer/TopOrBottomPosition/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/Drawer/TopOrBottomPosition/",
     name: "Top or Bottom Position"
 }
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/Drawer/LeftOrRightPosition/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/Drawer/LeftOrRightPosition/",
     name: "Left or Right Position"
 }
 

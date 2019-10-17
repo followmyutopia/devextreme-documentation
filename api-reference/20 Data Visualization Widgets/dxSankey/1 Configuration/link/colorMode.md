@@ -29,5 +29,5 @@ A gradient color between the source node's and target node's color is used.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/SankeyChart/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/SankeyChart/"
 }

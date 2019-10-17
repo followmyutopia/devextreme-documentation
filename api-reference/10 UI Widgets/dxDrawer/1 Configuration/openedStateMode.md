@@ -21,7 +21,7 @@ The view's width decreases to accommodate the drawer.
 The drawer partially displaces the view.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Drawer/HorizontalOpening/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Drawer/HorizontalOpening/"
 }
 
 #include common-ref-enum with {

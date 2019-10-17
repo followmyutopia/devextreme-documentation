@@ -43,4 +43,4 @@ Options that configure item labels are collected in the [label](/api-reference/2
 #####See Also#####
 - [Customize Labels](/concepts/05%20Widgets/Funnel/17%20Item%20Labels/05%20Customize%20Labels.md '/Documentation/Guide/Widgets/Funnel/Item_Labels/Customize_Labels/')
 - [Relocate Labels](/concepts/05%20Widgets/Funnel/17%20Item%20Labels/07%20Relocate%20Labels.md '/Documentation/Guide/Widgets/Funnel/Item_Labels/Relocate_Labels/')
-- [Funnel Demos](/Demos/WidgetsGallery/Demo/Charts/FunnelChart/jQuery/Light/)
+- [Funnel Demos](/Demos/WidgetsGallery/Demo/Charts/FunnelChart/)

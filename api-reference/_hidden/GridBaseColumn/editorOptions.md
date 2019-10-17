@@ -43,7 +43,7 @@ The default editor widget depends on the column configuration. The following tab
 In the **editorOptions** object, you can specify the default widget's options (except **onValueChanged**, see below). Refer to the widget's API reference for a list of available options.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/Filtering/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/Filtering/"
 }
 
 Other options that allow editor customization include:

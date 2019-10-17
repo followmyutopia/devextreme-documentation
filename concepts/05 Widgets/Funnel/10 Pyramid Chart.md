@@ -36,7 +36,7 @@ You can use the **Funnel** widget to create a pyramid chart. Change the [algorit
 
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/PyramidChart/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/PyramidChart/"
 }
 
 #####See Also#####

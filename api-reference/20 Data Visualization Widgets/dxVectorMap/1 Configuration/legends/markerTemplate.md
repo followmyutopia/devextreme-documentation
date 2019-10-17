@@ -23,7 +23,7 @@ One of the following:
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/CustomLegendMarkers/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/CustomLegendMarkers/"
 }
 
 #include dataviz-ref-legend-markertemplate

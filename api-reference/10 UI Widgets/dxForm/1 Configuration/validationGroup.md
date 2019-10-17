@@ -26,5 +26,5 @@ In some cases, the **Form** editors should be validated by the [Button](/api-ref
     })
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Form/Validation/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Form/Validation/"
 }

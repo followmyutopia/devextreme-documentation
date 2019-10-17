@@ -88,7 +88,7 @@ By default, the widget is oriented horizontally, but you can orient it verticall
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Tile_View/Directions/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Tile_View/Directions/"
 }
 
 #####See Also#####

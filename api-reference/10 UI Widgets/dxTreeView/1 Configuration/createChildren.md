@@ -84,7 +84,7 @@ The following code shows how to use this function with a remote service:
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Tree_View/LoadDataOnDemand/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Tree_View/LoadDataOnDemand/"
 }
 
 #####See Also#####

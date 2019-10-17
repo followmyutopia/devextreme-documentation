@@ -10,7 +10,7 @@ Specifies whether a single or double click should switch a cell to the editing s
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/BatchEditing/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/BatchEditing/"
 }
 
 #####See Also#####

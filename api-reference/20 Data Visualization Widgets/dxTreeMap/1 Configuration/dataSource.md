@@ -39,7 +39,7 @@ Objects that have a hierarchical structure are visualized by groups of tiles. Fo
     }];
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/HierarchicalDataStructure/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/HierarchicalDataStructure/"
 }
 
 For both structures, set the [valueField](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/1%20Configuration/valueField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#valueField') and [labelField](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/1%20Configuration/labelField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#labelField'); for the hierarchical structure, also set the [childrenField](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/1%20Configuration/childrenField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#childrenField').
@@ -63,7 +63,7 @@ A plain data array can imply a hierarchical structure. An example of such array 
     };
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/FlatDataStructure/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/FlatDataStructure/"
 }
 
 Depending on your data source, bind the **TreeMap** to data as follows.

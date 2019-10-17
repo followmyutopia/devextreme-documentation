@@ -13,7 +13,7 @@ When a user zooms or pans the argument axis, the range of displayed [series](/co
 Set this option to **false** if the visual range should be constant and equal to the series values' maximum range.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/ZoomingAndScrolling/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/ZoomingAndScrolling/"
 }
 
 #####See Also#####

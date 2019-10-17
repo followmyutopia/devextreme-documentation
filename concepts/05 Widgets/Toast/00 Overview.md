@@ -1,7 +1,7 @@
 The **Toast** is a widget that provides pop-up notifications.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Toast/Overview/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Toast/Overview/"
 }
 
 The **Toast** widget does not need to be created on the page before it can be shown. You can simply call the [notify(message, type, displayTime)](/api-reference/50%20Common/utils/ui/notify(message_type_displayTime).md '/Documentation/ApiReference/Common/utils/ui/#notifymessage_type_displayTime') method with values for the [message](/api-reference/10%20UI%20Widgets/dxToast/1%20Configuration/message.md '/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#message'), [type](/api-reference/10%20UI%20Widgets/dxToast/1%20Configuration/type.md '/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#type') and [displayTime](/api-reference/10%20UI%20Widgets/dxToast/1%20Configuration/displayTime.md '/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#displayTime') options passed as the arguments.

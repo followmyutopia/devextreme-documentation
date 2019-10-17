@@ -15,5 +15,5 @@ This option accepts an array of objects, each configuring a filter condition's a
 See the [Field](/api-reference/10%20UI%20Widgets/dxFilterBuilder/5%20Field/Field.md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/') section for details on fields you can specify in each object.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithDataGrid/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithDataGrid/"
 }

@@ -5,7 +5,7 @@ The **Diagram** widget provides a collection of built-in shapes. Use the [custom
 [note] Shape images should be supplied as SVG files. 
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Diagram/CustomShapesWithIcons/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Diagram/CustomShapesWithIcons/"
 }
 
 Use the [toolbox](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/toolbox/toolbox.md '/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/toolbox/') option to add the custom shapes to the toolbox.

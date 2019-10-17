@@ -27,7 +27,7 @@ items: [
     url: "/Documentation/Guide/Widgets/DropDownButton/Getting_Started_with_DropDownButton/"
 }
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DropDownButton/Overview/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DropDownButton/Overview/"
 }
 
 #####See Also#####

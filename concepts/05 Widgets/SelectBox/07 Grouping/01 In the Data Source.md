@@ -225,7 +225,7 @@ If your data is not grouped, you can group it using the [group](/api-reference/3
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Select_Box/GroupedItems/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Select_Box/GroupedItems/"
 }
 
 #####See Also#####

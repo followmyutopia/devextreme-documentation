@@ -7,7 +7,7 @@ Opens the browser's print window.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/ExportAndPrintingAPI/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/ExportAndPrintingAPI/"
 }
 
 #####See Also#####

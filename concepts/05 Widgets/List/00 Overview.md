@@ -1,7 +1,7 @@
 The **List** is a widget that represents a collection of items in a scrollable list.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/"
 }
 
 The following code adds a simple **List** to your page. The simplest configuration of the widget requires only a [dataSource](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/dataSource.md '/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#dataSource') to be specified.

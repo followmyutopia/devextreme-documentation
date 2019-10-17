@@ -121,10 +121,10 @@ Selection is non-recursive by default, that is, only the clicked row is selected
 ---
 
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/Tree_List/SingleRowSelection/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/Tree_List/SingleRowSelection/",
     name: "Single Selection"
 }
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/Tree_List/MultipleRowSelection/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/Tree_List/MultipleRowSelection/",
     name: "Multiple Selection"
 }

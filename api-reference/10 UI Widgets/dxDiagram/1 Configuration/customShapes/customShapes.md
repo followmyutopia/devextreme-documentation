@@ -276,5 +276,5 @@ Use the [toolbox](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/t
 
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Diagram/CustomShapesWithIcons/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Diagram/CustomShapesWithIcons/"
 }

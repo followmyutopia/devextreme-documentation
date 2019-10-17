@@ -11,7 +11,7 @@ The **Diagram** widget allows you to customize its UI elements with the followin
 ![Diagram control data toolbox](Content/images/doc/19_2/diagram/ui-customization.png)
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Diagram/UICustomization/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Diagram/UICustomization/"
 }
 
 

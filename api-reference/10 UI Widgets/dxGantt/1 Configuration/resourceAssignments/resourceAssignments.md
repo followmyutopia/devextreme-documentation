@@ -9,7 +9,7 @@ Configures resource assignments.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Gantt/Overview/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Gantt/Overview/"
 }
 
 Resource assignments define relationship between tasks and resources.

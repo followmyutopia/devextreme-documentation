@@ -9,5 +9,5 @@ Makes the point labels visible.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/AjaxRequest/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/AjaxRequest/"
 }

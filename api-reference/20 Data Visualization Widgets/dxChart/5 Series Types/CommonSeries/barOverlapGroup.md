@@ -22,5 +22,5 @@ The following image shows a regular bar chart with two series...
 ![DevExtreme Chart: Bar chart with barOverlapGroup applied](/Content/images/doc/19_2/ChartJS/barOverlapGroup-applied.png)
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/Timeline/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/Timeline/"
 }

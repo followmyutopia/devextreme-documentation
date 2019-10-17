@@ -29,5 +29,5 @@ The [Node](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/6%20Node
 Although not provided out-of-the-box, the drill down capability is easy to implement using the API methods. Learn how to do this from the [drillDown()](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/6%20Node/3%20Methods/drillDown().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#drillDown') method description.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/DrillDown/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/DrillDown/"
 }

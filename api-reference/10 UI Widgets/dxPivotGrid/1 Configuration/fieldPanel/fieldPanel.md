@@ -16,5 +16,5 @@ The field panel partially covers the functionality provided by the [field choose
 In addition, if the [allowSorting](/api-reference/10%20UI%20Widgets/dxPivotGrid/1%20Configuration/allowSorting.md '/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#allowSorting') and [allowFiltering](/api-reference/10%20UI%20Widgets/dxPivotGrid/1%20Configuration/allowFiltering.md '/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#allowFiltering') options are **true**, the user can apply sorting and filtering to fields directly from the field panel.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Pivot_Grid/FieldPanel/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Pivot_Grid/FieldPanel/"
 }

@@ -9,7 +9,7 @@ Specifies the limit on displayed tags. On exceeding it, the widget replaces all 
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TagBox/TagCountLimitation/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/TagBox/TagCountLimitation/"
 }
 
 #####See Also#####

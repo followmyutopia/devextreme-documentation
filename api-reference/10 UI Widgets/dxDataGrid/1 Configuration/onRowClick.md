@@ -68,7 +68,7 @@ Values displayed in the row cells.
 ---
 The widget executes the [onCellClick](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/onCellClick.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onCellClick') function and can also execute internal functions before this function. Use the **handled** field to check whether internal functions were executed.
 
-In the following code, the **onRowClick** function calls the [editRow](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/editRow(rowIndex).md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#editRowrowIndex') method to switch the clicked row to the editing state. This functionality is best applied in [form](/Demos/WidgetsGallery/Demo/DataGrid/FormEditing/jQuery/Light/) or [popup](/Demos/WidgetsGallery/Demo/DataGrid/PopupEditing/jQuery/Light/) **editing**.[mode](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/editing/mode.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#mode'):
+In the following code, the **onRowClick** function calls the [editRow](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/editRow(rowIndex).md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#editRowrowIndex') method to switch the clicked row to the editing state. This functionality is best applied in [form](/Demos/WidgetsGallery/Demo/DataGrid/FormEditing/) or [popup](/Demos/WidgetsGallery/Demo/DataGrid/PopupEditing/) **editing**.[mode](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/editing/mode.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#mode'):
 
 ---
 ##### jQuery

@@ -8,5 +8,5 @@ Defines common settings for all [*step line* series](/api-reference/20%20Data%20
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/StepLine/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/StepLine/"
 }

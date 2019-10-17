@@ -6,5 +6,5 @@ Setting this option prevents generating an infinite number of small axis values.
     linearThreshold: -3 // [-0.001; 0.001]
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/NegativeNumbersOnLogAxis/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/NegativeNumbersOnLogAxis/"
 }

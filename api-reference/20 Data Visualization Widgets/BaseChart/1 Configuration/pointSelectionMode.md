@@ -19,10 +19,10 @@ To learn how to select a point, refer to the [Selection Handling](/concepts/05%2
 }
 
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/MultiplePointSelection/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/Charts/MultiplePointSelection/",
     name: "Multiple Point Selection"
 }
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/APISelectAPoint/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/Charts/APISelectAPoint/",
     name: "API - Select a Point"
 }

@@ -17,5 +17,5 @@ Use the "googleStatic" provider to connect route points directly rather than by 
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Map/ProvidersAndTypes/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Map/ProvidersAndTypes/"
 }

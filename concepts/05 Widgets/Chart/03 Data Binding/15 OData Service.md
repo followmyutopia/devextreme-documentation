@@ -132,7 +132,7 @@ As you may notice, in the previous code, the **ODataStore** is not declared expl
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/ServerSideDataProcessing/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/ServerSideDataProcessing/"
 }
 
 #####See Also#####

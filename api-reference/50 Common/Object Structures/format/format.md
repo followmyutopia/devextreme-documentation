@@ -51,5 +51,5 @@ This option accepts three types of values:
         format: { skeleton: 'GyMMMd' }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Localization/UsingIntl/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Localization/UsingIntl/"
 }

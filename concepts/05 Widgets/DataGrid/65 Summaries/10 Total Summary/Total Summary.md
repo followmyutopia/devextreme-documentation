@@ -60,7 +60,7 @@ Configure each summary item in the **summary**.[totalItems](/api-reference/10%20
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/GridSummaries/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/GridSummaries/"
 }
 
 #####See Also#####

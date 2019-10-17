@@ -47,7 +47,7 @@ The [title](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Co
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/FunnelChart/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/FunnelChart/"
 }
 
 You can set the title's text more concisely by assigning it directly to the **title** option. This is useful if you are satisfied with the title's default settings and do not need a subtitle. 

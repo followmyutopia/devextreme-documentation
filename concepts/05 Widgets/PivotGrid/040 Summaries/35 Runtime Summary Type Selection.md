@@ -72,5 +72,5 @@ Altering certain parts of this code, you can enable the user to perform a wide r
     };
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Pivot_Grid/SummaryDisplayModes/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Pivot_Grid/SummaryDisplayModes/"
 }

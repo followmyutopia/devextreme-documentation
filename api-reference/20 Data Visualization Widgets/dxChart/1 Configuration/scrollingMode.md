@@ -22,7 +22,7 @@ Scrolling may also be performed using the scroll bar. To make it visible assign 
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/ZoomingAndScrolling/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/ZoomingAndScrolling/"
 }
 
 #####See Also#####

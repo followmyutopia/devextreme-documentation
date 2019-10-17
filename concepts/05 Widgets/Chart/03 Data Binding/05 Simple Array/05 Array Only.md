@@ -54,7 +54,7 @@ To bind the **Chart** to an array, pass this array to the [dataSource](/api-refe
 After that, you need to bind one or several **Chart** series to data. Depending on the [series type](/concepts/05%20Widgets/Chart/11%20Series%20Types/10%20Line%20Series.md '/Documentation/Guide/Widgets/Chart/Series_Types/') you chose, use one of the techniques described in the [Bind Series to Data](/concepts/05%20Widgets/Chart/03%20Data%20Binding/23%20Bind%20Series%20to%20Data/Bind%20Series%20to%20Data.md '/Documentation/Guide/Widgets/Chart/Data_Binding/Bind_Series_to_Data/') topic.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/LocalDataSource/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/LocalDataSource/"
 }
 
 If objects in an array need to be processed (sorted, filtered, etc.), you can create a [Query](/concepts/30%20Data%20Layer/5%20Data%20Layer/6%20Query%20Concept.md '/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept'). For example, in the following code, a Query sorts objects in the `fruits` array by the `count` field in descending order.

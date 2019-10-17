@@ -75,7 +75,7 @@ Note that you can also use a JSONP callback parameter supported by <a href="http
 If you need to process data after obtaining it, implement the [CustomStore](/api-reference/30%20Data%20Layer/CustomStore/CustomStore.md '/Documentation/ApiReference/Data_Layer/CustomStore/'). For details, see the [Custom Sources](/concepts/05%20Widgets/Chart/03%20Data%20Binding/20%20Custom%20Sources.md '/Documentation/Guide/Widgets/Chart/Data_Binding/Custom_Sources/') topic.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/ClientSideDataProcessing/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/ClientSideDataProcessing/"
 }
 
 #####See Also#####

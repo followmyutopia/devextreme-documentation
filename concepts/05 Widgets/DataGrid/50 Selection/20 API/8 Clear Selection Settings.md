@@ -66,7 +66,7 @@ Call the [clearSelection()](/api-reference/10%20UI%20Widgets/GridBase/3%20Method
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/MultipleRecordSelectionAPI/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/MultipleRecordSelectionAPI/"
 } 
 
 #####See Also#####

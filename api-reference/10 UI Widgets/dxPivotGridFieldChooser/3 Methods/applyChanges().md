@@ -7,5 +7,5 @@ Applies changes made in the widget to the **PivotGrid**. Takes effect only if [a
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/PivotGrid/StandaloneFieldChooser/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/PivotGrid/StandaloneFieldChooser/"
 }

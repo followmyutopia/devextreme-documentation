@@ -2,5 +2,5 @@ You can use the [position](/api-reference/10%20UI%20Widgets/dxDrawer/1%20Configu
 
 You have configured basic **Drawer** features. For more information about this widget, explore the following resources:
 
-- [Demos](/Demos/WidgetsGallery/Demo/Drawer/LeftOrRightPosition/jQuery/Light/)
+- [Demos](/Demos/WidgetsGallery/Demo/Drawer/LeftOrRightPosition/)
 - [API Reference](/api-reference/10%20UI%20Widgets/dxDrawer/dxDrawer.md '/Documentation/ApiReference/UI_Widgets/dxDrawer/')

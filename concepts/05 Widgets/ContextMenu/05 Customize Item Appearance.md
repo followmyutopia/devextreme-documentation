@@ -158,7 +158,7 @@ If you use jQuery alone, combine the HTML markup for context menu items manually
     });
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Context_Menu/Templates/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Context_Menu/Templates/"
 }
 
 You can also customize an individual context menu item. For this purpose, declare a template for this item as a script and pass its `id` to the [template](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/template.md '/Documentation/ApiReference/UI_Widgets/dxContextMenu/Default_Item_Template/#template') field of the item's data object.

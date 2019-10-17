@@ -62,7 +62,7 @@ The **Form** widget enables you to specify different layouts for different scree
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Form/ColumnsAdaptability/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Form/ColumnsAdaptability/"
 }
 
 #####See Also#####

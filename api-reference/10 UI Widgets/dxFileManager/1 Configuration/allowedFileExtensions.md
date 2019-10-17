@@ -10,7 +10,7 @@ Specifies the allowed upload file extensions.
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FileManager/BindingToFileSystem/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/FileManager/BindingToFileSystem/"
 }
 
 The **FileManager** widget cannot upload a file and displays an error message when the file's extension is not allowed.

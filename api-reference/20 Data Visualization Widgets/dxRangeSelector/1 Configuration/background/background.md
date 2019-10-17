@@ -12,5 +12,5 @@ A background is an area that is painted in a specified color. You can change thi
 [note] You can use this option only when the range selector displays an [image](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/background/image/image.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/background/image/') or [chart](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/chart/chart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/chart/'). If not, use the [selectedRangeColor](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/selectedRangeColor.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#selectedRangeColor') and [tick](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/scale/tick/tick.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/tick/') to customize the appearance of your widget.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/RangeSelector/ImageOnBackground/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/RangeSelector/ImageOnBackground/"
 }

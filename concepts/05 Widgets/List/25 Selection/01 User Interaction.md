@@ -107,7 +107,7 @@ When data in the **List** is [paginated](/concepts/05%20Widgets/List/08%20Paging
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/List/ListSelection/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/List/ListSelection/"
 }
 
 #####See Also#####

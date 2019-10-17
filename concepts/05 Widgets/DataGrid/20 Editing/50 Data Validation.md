@@ -102,7 +102,7 @@ The [onRowValidating](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuratio
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/DataValidation/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/DataValidation/"
 }
 
 #####See Also#####

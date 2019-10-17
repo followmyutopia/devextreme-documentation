@@ -98,4 +98,4 @@ Refer to other topics in this section for details on the main funnel item featur
 #####See Also#####
 - [Funnel Item Hover](/concepts/05%20Widgets/Funnel/14%20Funnel%20Items/10%20Hover/Hover.md '/Documentation/Guide/Widgets/Funnel/Funnel_Items/Hover/')
 - [Funnel Item Selection](/concepts/05%20Widgets/Funnel/14%20Funnel%20Items/20%20Selection/Selection.md '/Documentation/Guide/Widgets/Funnel/Funnel_Items/Selection/')
-- [Funnel Demos](/Demos/WidgetsGallery/Demo/Charts/FunnelChart/jQuery/Light/)
+- [Funnel Demos](/Demos/WidgetsGallery/Demo/Charts/FunnelChart/)

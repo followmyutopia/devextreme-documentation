@@ -107,7 +107,7 @@ Using the following features with the **ODataStore** may decrease the performanc
 We recommend using a [Custom Source](/concepts/05%20Widgets/DataGrid/05%20Data%20Binding/25%20Custom%20Sources/Custom%20Sources.md '/Documentation/Guide/Widgets/DataGrid/Data_Binding/Custom_Sources/') instead if you have a large amount of data and need these features.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/ODataService/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/ODataService/"
 }
 
 #####See Also#####

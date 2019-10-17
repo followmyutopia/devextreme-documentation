@@ -9,7 +9,7 @@ A header filter allows a user to filter values in an individual column by includ
 To make header filter icons visible, assign **true** to the **headerFilter**.[visible](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/headerFilter/visible.md '{basewidgetpath}/Configuration/headerFilter/#visible') option. Data in the popup menu can be customized using the [headerFilter](/api-reference/_hidden/GridBaseColumn/headerFilter/headerFilter.md '{basewidgetpath}/Configuration/columns/headerFilter/') option of a specific column.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TreeList/UsingHeaderFilter/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/TreeList/UsingHeaderFilter/"
 }
 
 #####See Also#####

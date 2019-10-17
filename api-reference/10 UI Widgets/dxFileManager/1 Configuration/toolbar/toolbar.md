@@ -9,7 +9,7 @@ Configures toolbar settings.
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FileManager/UICustomization/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/FileManager/UICustomization/"
 }
 
 ![DevExtreme File Manager - Toolbar](/Content/images/doc/19_2/FileManager/toolbar.png)

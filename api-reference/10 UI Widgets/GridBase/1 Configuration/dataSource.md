@@ -13,17 +13,17 @@ Binds the widget to data.
 
     array_key_note: " and specify the [keyExpr](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/keyExpr.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#keyExpr')",
 
-    array_view_demo: "[View Demo](/Demos/WidgetsGallery/Demo/DataGrid/BatchEditing/jQuery/Light/)",
+    array_view_demo: "[View Demo](/Demos/WidgetsGallery/Demo/DataGrid/BatchEditing/)",
 
-    json_view_demo: "[View Demo](/Demos/WidgetsGallery/Demo/DataGrid/AjaxRequest/jQuery/Light/)",
+    json_view_demo: "[View Demo](/Demos/WidgetsGallery/Demo/DataGrid/AjaxRequest/)",
 
     odata_key_note: " Make sure to specify the [key](/api-reference/30%20Data%20Layer/Store/1%20Configuration/key.md '/Documentation/ApiReference/Data_Layer/ODataStore/Configuration/#key').",
 
-    odata_view_demo: "[View Demo](/Demos/WidgetsGallery/Demo/DataGrid/ODataService/jQuery/Light/)", 
+    odata_view_demo: "[View Demo](/Demos/WidgetsGallery/Demo/DataGrid/ODataService/)", 
 
-    create_store_view_demo: "[View Demo](/Demos/WidgetsGallery/Demo/DataGrid/WebAPIService/jQuery/Light/)",
+    create_store_view_demo: "[View Demo](/Demos/WidgetsGallery/Demo/DataGrid/WebAPIService/)",
 
-    custom_store_view_demo: "[View Demo](/Demos/WidgetsGallery/Demo/DataGrid/CustomDataSource/jQuery/Light/)",
+    custom_store_view_demo: "[View Demo](/Demos/WidgetsGallery/Demo/DataGrid/CustomDataSource/)",
 
     remote_operations_note: "- If the **DataGrid** widget gets data from a server, configure [remoteOperations](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/remoteOperations/remoteOperations.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/') to notify the widget about data operations the server performs.",
 

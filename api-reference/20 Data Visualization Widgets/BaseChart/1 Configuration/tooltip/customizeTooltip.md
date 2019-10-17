@@ -124,11 +124,11 @@ Specifies the reduction value of the currently hovered point with applied format
 #include dataviz-ref-functioncontext
 
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/APIDisplayATooltip/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/Charts/APIDisplayATooltip/",
     name: "Display a Tooltip"
 }
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/TooltipHTMLSupport/jQuery/Light/",
+    url: "/Demos/WidgetsGallery/Demo/Charts/TooltipHTMLSupport/",
     name: "Tooltip HTML Support"
 }
 

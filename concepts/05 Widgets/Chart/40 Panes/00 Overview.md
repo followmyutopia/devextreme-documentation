@@ -50,7 +50,7 @@ Panes are configured by the [panes](/api-reference/20%20Data%20Visualization%20W
 For a multi-pane chart, the **panes** option accepts an array. For further details, refer to the [Multi-Pane Chart](/concepts/05%20Widgets/Chart/40%20Panes/10%20Multi-Pane%20Chart.md '/Documentation/Guide/Widgets/Chart/Panes/Multi-Pane_Chart/') topic.
 
 #####See Also#####
-- [Multiple Panes Demo](/Demos/WidgetsGallery/Demo/Charts/MultiplePanes/jQuery/Light/)
+- [Multiple Panes Demo](/Demos/WidgetsGallery/Demo/Charts/MultiplePanes/)
 - [Chart API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/dxChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/')
 
 [tags]chart, panes, overview, single-pane chart

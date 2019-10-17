@@ -1,7 +1,7 @@
 Depending on the [uploadMode](/api-reference/10%20UI%20Widgets/dxFileUploader/1%20Configuration/uploadMode.md '/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#uploadMode'), the **FileUploader** widget uses an <a href="http://www.w3schools.com/html/html_forms.asp" target="_blank">HTML form</a> or a <a href="https://developer.mozilla.org/en/docs/Web/API/FormData" target="_blank">FormData</a> interface with a series of Ajax requests to upload files.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/File_Uploader/FileUploading/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/File_Uploader/FileUploading/"
 }
 
 The following examples show how to configure the **FileUploader** for each upload mode. Therein, the [name](/api-reference/10%20UI%20Widgets/dxFileUploader/1%20Configuration/name.md '/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#name') option is required to access uploaded files on the server.

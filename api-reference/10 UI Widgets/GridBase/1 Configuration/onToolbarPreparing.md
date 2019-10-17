@@ -103,5 +103,5 @@ The following code shows how you can customize the toolbar using this function.
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Data_Grid/ToolbarCustomization/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Data_Grid/ToolbarCustomization/"
 } 

@@ -122,7 +122,7 @@ Each lookup field has an individual [data source](/api-reference/10%20UI%20Widge
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithList/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithList/"
 }
 
 #####See Also#####

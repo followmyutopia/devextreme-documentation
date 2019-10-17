@@ -42,4 +42,4 @@ Once you access a label, you can, for example, hide or show it by calling the **
     // label.show();
 
 #####See Also#####
-- [PieChart Demos](/Demos/WidgetsGallery/Demo/Charts/Pie/jQuery/Light/)
+- [PieChart Demos](/Demos/WidgetsGallery/Demo/Charts/Pie/)

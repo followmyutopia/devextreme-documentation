@@ -32,7 +32,7 @@ This option accepts the following values.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/List/ListSelection/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/List/ListSelection/"
 }
 
 #####See Also#####

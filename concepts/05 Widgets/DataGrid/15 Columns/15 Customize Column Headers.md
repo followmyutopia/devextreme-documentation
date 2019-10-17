@@ -140,4 +140,4 @@ To hide column headers, assign **false** to the [showColumnHeaders](/api-referen
 ---
 
 #####See Also#####
-- [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/LocalDataSource/jQuery/Light/)
+- [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/LocalDataSource/)

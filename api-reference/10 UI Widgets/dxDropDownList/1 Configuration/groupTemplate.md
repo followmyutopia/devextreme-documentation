@@ -21,7 +21,7 @@ A template name or container.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/{WidgetName}/GroupedItems/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/{WidgetName}/GroupedItems/"
 }
 
 #####See Also#####

@@ -87,5 +87,5 @@ Implement the **screenByWidth** function to change the relation between a size q
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Form/ColumnsAdaptability/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Form/ColumnsAdaptability/"
 }

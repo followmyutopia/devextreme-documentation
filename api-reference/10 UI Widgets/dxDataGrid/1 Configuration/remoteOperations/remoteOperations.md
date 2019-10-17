@@ -81,11 +81,11 @@ The following restrictions apply to widget functionality when operations are rem
 
 #include common-demobutton-named with {
     name: "Web API Service",
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/WebAPIService/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/WebAPIService/"
 }
 #include common-demobutton-named with {
     name: "Custom Service",
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/CustomDataSource/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/CustomDataSource/"
 }
 
 #####See Also#####

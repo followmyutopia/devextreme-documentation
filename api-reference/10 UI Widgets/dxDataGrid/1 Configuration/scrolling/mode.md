@@ -27,8 +27,8 @@ This mode is an alternative to paging where each next page is loaded once the sc
     values: "`Standard`, `Virtual`, and `Infinite`"
 }
 
-<a href="/Demos/WidgetsGallery/Demo/Data_Grid/InfiniteScrolling/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">Infinite Scrolling Demo</a>
-<a href="/Demos/WidgetsGallery/Demo/Data_Grid/VirtualScrolling/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">Virtual Scrolling Demo</a>
+<a href="/Demos/WidgetsGallery/Demo/Data_Grid/InfiniteScrolling/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">Infinite Scrolling Demo</a>
+<a href="/Demos/WidgetsGallery/Demo/Data_Grid/VirtualScrolling/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">Virtual Scrolling Demo</a>
 
 #####See Also#####
 - [Scrolling](/concepts/05%20Widgets/DataGrid/40%20Scrolling/Scrolling.md '/Documentation/Guide/Widgets/DataGrid/Scrolling/')

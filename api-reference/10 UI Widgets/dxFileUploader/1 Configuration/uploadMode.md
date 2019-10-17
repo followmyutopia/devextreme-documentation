@@ -26,7 +26,7 @@ HTML form upload. Files are uploaded when the HTML form is submitted.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/File_Uploader/FileUploading/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/File_Uploader/FileUploading/"
 }
 
 #####See Also#####

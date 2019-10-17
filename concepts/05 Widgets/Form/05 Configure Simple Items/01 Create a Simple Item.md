@@ -115,5 +115,5 @@ The editor that will be used in a particular simple item depends on the type of 
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Form/CustomizeItem/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Form/CustomizeItem/"
 }

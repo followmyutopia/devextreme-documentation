@@ -49,6 +49,6 @@ A data column automatically detects the type of its values. However, if the valu
 #####See Also#####
 - [Customize Cells](/concepts/05%20Widgets/DataGrid/15%20Columns/40%20Customize%20Cells/Customize%20Cells.md '/Documentation/Guide/Widgets/DataGrid/Columns/Customize_Cells/')
 - [Lookup Columns](/concepts/05%20Widgets/DataGrid/15%20Columns/10%20Column%20Types/3%20Lookup%20Columns.md '/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/#Lookup_Columns')
-- [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/SimpleArray/jQuery/Light/)
+- [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/SimpleArray/)
 
 [tags] dataGrid, data grid, column types, data columns

@@ -9,5 +9,5 @@ Specifies whether the widget can expand several items or only a single item at o
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Accordion/Overview/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Accordion/Overview/"
 }

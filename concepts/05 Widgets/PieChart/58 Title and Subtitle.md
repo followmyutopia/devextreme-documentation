@@ -47,7 +47,7 @@ The title is configured by the [title](/api-reference/20%20Data%20Visualization%
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/PieWithMultipleSeries/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/PieWithMultipleSeries/"
 }
 
 You can set the title's text more concisely by assigning it directly to the **title** option. This is useful if you are satisfied with the default settings of the title and do not need a subtitle. 

@@ -37,5 +37,5 @@ The widget's new value.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Lookup/EventHandling/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Lookup/EventHandling/"
 }

@@ -194,7 +194,7 @@ Usually, **Form** editors should be submitted to the server after being successf
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Form/Validation/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Form/Validation/"
 }
 
 #####See Also#####

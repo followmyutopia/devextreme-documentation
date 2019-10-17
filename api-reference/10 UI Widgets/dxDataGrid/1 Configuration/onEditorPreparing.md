@@ -235,7 +235,7 @@ Use this function to:
 
 - Replace the default editor. The old editor's configuration applies to the replacement editor. To define the configuration from scratch, use an [editCellTemplate](/api-reference/_hidden/dxDataGridColumn/editCellTemplate.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#editCellTemplate').
     
-    In the following code, the DevExtreme [TextArea](/Demos/WidgetsGallery/Demo/TextArea/Overview/jQuery/Light/) widget is the replacement editor:
+    In the following code, the DevExtreme [TextArea](/Demos/WidgetsGallery/Demo/TextArea/Overview/) widget is the replacement editor:
 
     ---
     ##### jQuery
@@ -381,7 +381,7 @@ Use the **parentType** function parameter to check if the editor being customize
 - Implement other customization cases.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/CommandColumnCustomization/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/CommandColumnCustomization/"
 }
 
 #####See Also#####
