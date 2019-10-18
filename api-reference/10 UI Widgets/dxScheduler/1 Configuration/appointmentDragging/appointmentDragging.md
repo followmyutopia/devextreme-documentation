@@ -4,7 +4,7 @@ type: Object
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Configures appointment reordering using drag and drop gestures.
 
 ---
 <!-- Description goes here -->

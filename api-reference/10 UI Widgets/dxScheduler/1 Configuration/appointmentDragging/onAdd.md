@@ -4,37 +4,37 @@ type: function(e)
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+A function that is called when a new appointment is added.
 
 ##### param(e): Object
-<!-- Description goes here -->
+Information about the event that caused the function's execution.
 
 ##### field(e.event): event
-<!-- Description goes here -->
+#include common-ref-eventparam
 
 ##### field(e.fromComponent): dxSortable | dxDraggable
-<!-- Description goes here -->
+The instance of the appointment's source widget.
 
 ##### field(e.fromData): any
-<!-- Description goes here -->
+Custom [data](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/appointmentDragging/data.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/appointmentDragging/#data') associated with the source widget.
 
 ##### field(e.fromIndex): Number
-<!-- Description goes here -->
+The appointment's original position. If the appointment is dragged from another widget, the value is **-1**.
 
 ##### field(e.itemData): any
-<!-- Description goes here -->
+The data object of the appointment being dragged.
 
 ##### field(e.itemElement): dxElement
-<!-- Description goes here -->
+#include draganddrop-ref-itemelementparam
 
 ##### field(e.toComponent): dxSortable | dxDraggable
-<!-- Description goes here -->
+The instance of the appointment's target widget.
 
 ##### field(e.toData): any
-<!-- Description goes here -->
+Custom [data](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/appointmentDragging/data.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/appointmentDragging/#data') associated with the target widget.
 
 ##### field(e.toIndex): Number
-<!-- Description goes here -->
+The position in which the appointment is placed. If the appointment is dragged away from the widget, the value is **-1**.
 
 ---
 <!-- Description goes here -->

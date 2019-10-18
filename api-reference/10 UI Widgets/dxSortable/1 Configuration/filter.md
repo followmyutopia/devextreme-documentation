@@ -5,7 +5,7 @@ default: '> *'
 ---
 ---
 ##### shortDescription
-Specifies a CSS selector for the items that need to be dragged.
+Specifies a CSS selector for the items that can be dragged. 
 
 ---
 <!-- Description goes here -->
