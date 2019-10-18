@@ -5,7 +5,6 @@ type: String
 ---
 ---
 ##### shortDescription
-Specifies the type of the current rule.
+Specifies the rule type. Set it to *"required"* to use the **RequiredRule**. 
 
 ---
-Set this field to "required" to define a rule that will be broken if the validated value is not specified.

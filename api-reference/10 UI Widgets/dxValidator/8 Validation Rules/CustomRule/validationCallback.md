@@ -19,7 +19,7 @@ The current row data. Exists only when you validate a [DataGrid](/api-reference/
 <!-- Description goes here -->
 
 ##### field(options.rule): Object
-The current rule object that exposes user-defined options, the **isValid** and **message** fields, and the rule type-specific fields.
+The rule being checked.
 
 ##### field(options.validator): Object
 The [Validator](/api-reference/10%20UI%20Widgets/dxValidator/dxValidator.md '/Documentation/ApiReference/UI_Widgets/dxValidator') object that initiated the validation.

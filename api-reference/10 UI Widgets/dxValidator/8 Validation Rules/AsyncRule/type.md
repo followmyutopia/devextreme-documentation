@@ -5,7 +5,6 @@ type: String
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies the rule type. Set it to *"async"* to use the **AsyncRule**. 
 
 ---
-<!-- Description goes here -->

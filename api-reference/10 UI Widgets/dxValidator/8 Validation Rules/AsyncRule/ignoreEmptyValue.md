@@ -5,7 +5,7 @@ default: false
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+If set to **true**, empty values are valid.
 
 ---
 <!-- Description goes here -->

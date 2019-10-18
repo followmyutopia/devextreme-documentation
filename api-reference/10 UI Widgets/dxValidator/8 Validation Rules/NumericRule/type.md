@@ -5,7 +5,6 @@ type: String
 ---
 ---
 ##### shortDescription
-Specifies the type of the current rule.
+Specifies the rule type. Set it to *"numeric"* to use the **NumericRule**. 
 
 ---
-Set this field to "numeric" to define a rule that will be broken if the validated value is not numeric.

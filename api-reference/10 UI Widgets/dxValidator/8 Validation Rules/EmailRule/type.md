@@ -5,7 +5,6 @@ type: String
 ---
 ---
 ##### shortDescription
-Specifies the type of the current rule.
+Specifies the rule type. Set it to *"email"* to use the **EmailRule**. 
 
 ---
-Set this field to 'email' to define a rule that will be broken if the validated value does not match the Email pattern.
