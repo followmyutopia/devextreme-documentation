@@ -6,7 +6,19 @@ default: 'auto'
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies how the axis's [visual range](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/valueAxis/visualRange/) should behave when the **PolarChart** data is updated.
 
 ---
-<!-- Description goes here -->
+The following modes are available:
+
+- *"auto"*      
+The applied mode changes depending on the visual range's position on the axis:
+    - at the start or middle, then *"keep"*;
+    - at the end, then *"shift"*;
+    - if set to view the whole range, then *"reset"* (the visual range remains equal to the whole range).
+
+- *"keep"*      
+The visual range does not change.
+
+- *"reset"*     
+The visual range becomes equal to the [whole range](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/valueAxis/wholeRange/).
