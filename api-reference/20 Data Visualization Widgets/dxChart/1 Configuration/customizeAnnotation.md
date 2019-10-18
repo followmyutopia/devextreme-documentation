@@ -1,13 +1,13 @@
 ---
 id: dxChart.Options.customizeAnnotation
-type: function(annotationItem)
+type: function(annotation)
 default: undefined
 ---
 ---
 ##### shortDescription
 Customizes an individual [annotation](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/annotations/annotations.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/').
 
-##### param(annotationItem): dxChartAnnotationConfig | any
+##### param(annotation): dxChartAnnotationConfig | any
 The annotation before customizations.
 
 ##### return: dxChartAnnotationConfig

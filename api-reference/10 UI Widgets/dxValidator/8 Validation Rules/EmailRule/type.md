@@ -5,6 +5,6 @@ type: String
 ---
 ---
 ##### shortDescription
-Specifies the rule type. Set it to *"email"* to use the **EmailRule**. 
+Specifies the rule type. Set it to *"email"* to use the **EmailRule**.
 
 ---

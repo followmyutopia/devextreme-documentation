@@ -5,7 +5,6 @@ type: String
 ---
 ---
 ##### shortDescription
-Specifies the rule type. Set it to *"pattern"* to use the **PatternRule**. 
+Specifies the rule type. Set it to *"pattern"* to use the **PatternRule**.
 
 ---
-

@@ -5,6 +5,6 @@ type: String
 ---
 ---
 ##### shortDescription
-Specifies the rule type. Set it to *"required"* to use the **RequiredRule**. 
+Specifies the rule type. Set it to *"required"* to use the **RequiredRule**.
 
 ---

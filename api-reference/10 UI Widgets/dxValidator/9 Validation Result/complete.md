@@ -4,7 +4,7 @@ type: Promise<dxValidatorResult>
 ---
 ---
 ##### shortDescription
-A promise that is fulfilled when all async rules are validated. 
+A promise that is fulfilled when all async rules are validated.
 
 ---
 This promise exists only when the [status](/api-reference/10%20UI%20Widgets/dxValidator/9%20Validation%20Result/status.md '/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Result/#status') is *"pending"*. Check the status before you attach callback functions to that promise.

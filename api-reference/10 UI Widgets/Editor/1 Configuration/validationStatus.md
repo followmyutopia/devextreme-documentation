@@ -6,7 +6,7 @@ default: 'valid'
 ---
 ---
 ##### shortDescription
-Indicates or specifies the current validation status. 
+Indicates or specifies the current validation status.
 
 ---
 The following table illustrates the validation status indicators:

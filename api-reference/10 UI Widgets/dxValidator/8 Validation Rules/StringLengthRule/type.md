@@ -5,6 +5,6 @@ type: String
 ---
 ---
 ##### shortDescription
-Specifies the rule type. Set it to *"stringLength"* to use the **StringLengthRule**. 
+Specifies the rule type. Set it to *"stringLength"* to use the **StringLengthRule**.
 
 ---

@@ -5,6 +5,6 @@ type: String
 ---
 ---
 ##### shortDescription
-Specifies the rule type. Set it to *"compare"* to use the **CompareRule**. 
+Specifies the rule type. Set it to *"compare"* to use the **CompareRule**.
 
 ---

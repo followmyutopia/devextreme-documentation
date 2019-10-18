@@ -1,13 +1,13 @@
 ---
 id: dxChartCommonAnnotationConfig.customizeTooltip
-type: function(annotationItem)
+type: function(annotation)
 default: undefined
 ---
 ---
 ##### shortDescription
 Customizes the text and appearance of the annotation's tooltip.
 
-##### param(annotationItem): dxChartAnnotationConfig | any
+##### param(annotation): dxChartAnnotationConfig | any
 The annotation's [configuration object](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/annotations/annotations.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/').
 
 ##### return: Object
