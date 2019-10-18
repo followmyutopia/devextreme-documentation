@@ -1,6 +1,7 @@
 ---
 id: dxTagBox.Options.value
 type: Array<String, Number, Object>
+default: []
 ---
 ---
 ##### shortDescription
