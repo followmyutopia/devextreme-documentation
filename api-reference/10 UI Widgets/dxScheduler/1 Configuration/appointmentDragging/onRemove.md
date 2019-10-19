@@ -30,9 +30,6 @@ The data object of the appointment being dragged.
 ##### field(e.toComponent): dxSortable | dxDraggable
 The instance of the appointment's target widget.
 
-##### field(e.toData): any
-Custom [data](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/appointmentDragging/data.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/appointmentDragging/#data') associated with the target widget.
-
 ##### field(e.toIndex): Number
 The position in which a appointment is placed. If the appointment is dragged away from the widget, the value is **-1**.
 
