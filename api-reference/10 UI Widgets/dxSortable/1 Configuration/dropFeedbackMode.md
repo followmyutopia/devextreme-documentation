@@ -6,14 +6,14 @@ default: 'push'
 ---
 ---
 ##### shortDescription
-Specifies the appearance of list elements while dragging.
+Specifies how to highlight the item's drop position.
 
 ---
 This option accepts the following values:
 
 - *"push"*    
-  List elements animate, making the room for the draggable element to be placed.
+  Items move apart with animation, making free space for the dragged item to be placed.
 
 - *"indicate"*    
-  A blue square appears at the place where the dragged element is going to be placed.
+  Items do not animate, a blue square appears at the place where the dragged item is going to be placed.
  
