@@ -21,7 +21,7 @@ This allows DevExtreme widgets to support icons from external icon libraries, pr
             icon: "fas fa-home" // Font Awesome 5
             icon: "fa fa-home" // Font Awesome 4
             icon: "glyphicon glyphicon-home" // Glyphicons
-            icon: "ion ion-home" // Ionicons
+            icon: "icon ion-md-home" // Ionicons
         });
     });
     
@@ -32,7 +32,7 @@ This allows DevExtreme widgets to support icons from external icon libraries, pr
         icon="fas fa-home" <!-- Font Awesome 5 -->
         icon="fa fa-home" <!-- Font Awesome 4 -->
         icon="glyphicon glyphicon-home" <!-- Glyphicons -->
-        icon="ion ion-home"> <!-- Ionicons -->
+        icon="icon ion-md-home"> <!-- Ionicons -->
     </dx-button>
 
 ##### Vue
@@ -42,7 +42,7 @@ This allows DevExtreme widgets to support icons from external icon libraries, pr
             icon="fas fa-home" <!-- Font Awesome 5 -->
             icon="fa fa-home" <!-- Font Awesome 4 -->
             icon="glyphicon glyphicon-home" <!-- Glyphicons -->
-            icon="ion ion-home" /> <!-- Ionicons -->
+            icon="icon ion-md-home" /> <!-- Ionicons -->
     </template>
     <script>
     import DxButton from 'devextreme-vue/button';
@@ -66,7 +66,7 @@ This allows DevExtreme widgets to support icons from external icon libraries, pr
                     icon="fas fa-home" // Font Awesome 5
                     icon="fa fa-home" // Font Awesome 4
                     icon="glyphicon glyphicon-home" // Glyphicons
-                    icon="ion ion-home" // Ionicons
+                    icon="icon ion-md-home" // Ionicons
                 />
             );
         }
@@ -81,7 +81,7 @@ This allows DevExtreme widgets to support icons from external icon libraries, pr
         .Icon("fas fa-home") // Font Awesome 5
         .Icon("fa fa-home") // Font Awesome 4
         .Icon("glyphicon glyphicon-home") // Glyphicons
-        .Icon("ion ion-home") // Ionicons
+        .Icon("icon ion-md-home") // Ionicons
     )
 
 ---
