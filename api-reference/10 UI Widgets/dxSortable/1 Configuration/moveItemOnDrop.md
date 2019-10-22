@@ -5,7 +5,7 @@ default: false
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Moves an element in the HTML markup when it is dropped.
 
 ---
 <!-- Description goes here -->

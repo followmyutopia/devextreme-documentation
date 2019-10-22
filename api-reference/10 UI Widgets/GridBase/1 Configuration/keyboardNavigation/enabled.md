@@ -5,7 +5,7 @@ default: true
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Enables keyboard navigation.
 
 ---
 <!-- Description goes here -->

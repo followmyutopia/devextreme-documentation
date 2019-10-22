@@ -39,9 +39,9 @@ The data of the validated row after changes.
 The data of the validated row before changes.
 
 ##### field(e.promise): Promise<void>
-<!-- Description goes here -->
+Assign a Promise to this field to perform an asynchronous operation, such as a request to a server.
 
 ---
-Use this function to interfere before a message on the broken validation rules is displayed. For instance, you can perform additional checks in this function and change the validation result by changing the **isValid** field of the function parameter. Or, you can correct the error message using the **errorText** field of the same parameter.
+Use this function to perform operations before messages about failed validation are shown. For instance, you can run additional checks and change the **isValid** function parameter to change the validation result. You can also change the **errorText** parameter to correct the error message.
 
-[note] In batch [editing mode](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/editing/mode.md '{basewidgetpath}/Configuration/editing/#mode'), if changes in several rows are committed simultaneously, this function will be executed for each row.
+[note] In batch [editing mode](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/editing/mode.md '{basewidgetpath}/Configuration/editing/#mode'), if changes in several rows are committed simultaneously, this function is executed for each row.

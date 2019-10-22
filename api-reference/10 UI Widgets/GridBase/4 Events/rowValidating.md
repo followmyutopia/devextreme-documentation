@@ -37,7 +37,7 @@ The data of the validated row after changes.
 The data of the validated row before changes.
 
 ##### field(e.promise): Promise<void>
-<!-- Description goes here -->
+Assign a Promise to this field to perform an asynchronous operation, such as a request to a server.
 
 ---
 Main article: [onRowValidating](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onRowValidating.md '{basewidgetpath}/Configuration/#onRowValidating')
