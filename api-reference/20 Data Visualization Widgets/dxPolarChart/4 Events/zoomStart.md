@@ -1,6 +1,7 @@
 ---
 id: dxPolarChart.zoomStart
 type: eventType
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -32,8 +33,6 @@ type: eventType
 
 ##### field(e.range): VizRange
 <!-- Description goes here -->
-
-##### notUsedInTheme
 
 ---
 <!-- Description goes here -->

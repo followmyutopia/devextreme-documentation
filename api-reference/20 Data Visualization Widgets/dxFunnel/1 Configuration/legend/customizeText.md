@@ -1,6 +1,7 @@
 ---
 id: dxFunnel.Options.legend.customizeText
 type: function(itemInfo)
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -17,8 +18,6 @@ The legend item's original text.
 
 ##### return: String
 The text for the legend item to display.
-
-##### notUsedInTheme
 
 ---
 #include dataviz-ref-functioncontext

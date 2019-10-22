@@ -1,6 +1,7 @@
 ---
 id: dxFunnel.hoverChanged
 type: eventType
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -20,8 +21,6 @@ The [Item](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/6%20Item/
 
 ##### field(e.model): Object
 The model data. Available only if you use Knockout.
-
-##### notUsedInTheme
 
 ---
 Main article: [onHoverChanged](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/1%20Configuration/onHoverChanged.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/#onHoverChanged')

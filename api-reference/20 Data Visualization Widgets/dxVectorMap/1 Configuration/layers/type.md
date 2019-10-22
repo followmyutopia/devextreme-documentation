@@ -2,12 +2,11 @@
 id: dxVectorMap.Options.layers.type
 acceptValues: 'area' | 'line' | 'marker'
 type: String
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
 Specifies layer type.
-
-##### notUsedInTheme
 
 ---
 #include common-ref-enum with {

@@ -1,6 +1,7 @@
 ---
 id: dxPolarChart.zoomEnd
 type: eventType
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -36,25 +37,11 @@ type: eventType
 ##### field(e.range): VizRange
 <!-- Description goes here -->
 
-##### field(e.rangeEnd).deprecated
-Use 'range' instead.
-
-##### field(e.rangeEnd): Date | Number
-<!-- Description goes here -->
-
-##### field(e.rangeStart).deprecated
-Use 'range' instead.
-
-##### field(e.rangeStart): Date | Number
-<!-- Description goes here -->
-
 ##### field(e.shift): Number
 <!-- Description goes here -->
 
 ##### field(e.zoomFactor): Number
 <!-- Description goes here -->
-
-##### notUsedInTheme
 
 ---
 <!-- Description goes here -->

@@ -2,6 +2,7 @@
 id: BaseChart.Options.onPointHoverChanged
 type: function(e)
 EventForAction: BaseChart.pointHoverChanged
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -18,8 +19,6 @@ The widget's container.
 
 ##### field(e.target): basePointObject
 The series point whose hover state has been changed; described in the [Point](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Point/Point.md '{basewidgetpath}/Chart_Elements/Point/') section.
-
-##### notUsedInTheme
 
 ---
 To identify whether the pointer has entered or left the series point, call the point's [isHovered()](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Point/3%20Methods/isHovered().md '{basewidgetpath}/Chart_Elements/Point/Methods/#isHovered') method.

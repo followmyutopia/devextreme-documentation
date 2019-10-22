@@ -1,6 +1,7 @@
 ---
 id: dxChartSeriesTypes.AreaSeries.label.customizeText
 type: function(pointInfo)
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -11,8 +12,6 @@ Information on the series point.
 
 ##### return: String
 The text for the label to display.
-
-##### notUsedInTheme
 
 ---
 This option accepts a function whose parameter exposes the following fields.

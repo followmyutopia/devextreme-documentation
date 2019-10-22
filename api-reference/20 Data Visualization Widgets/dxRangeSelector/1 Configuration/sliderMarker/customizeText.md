@@ -1,6 +1,7 @@
 ---
 id: dxRangeSelector.Options.sliderMarker.customizeText
 type: function(scaleValue)
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -17,8 +18,6 @@ The [formatted](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSe
 
 ##### return: String
 The text for the slider marker to display.
-
-##### notUsedInTheme
 
 ---
 #include dataviz-ref-functioncontext

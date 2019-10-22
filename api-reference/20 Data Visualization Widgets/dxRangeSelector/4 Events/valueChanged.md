@@ -1,6 +1,7 @@
 ---
 id: dxRangeSelector.valueChanged
 type: eventType
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -26,8 +27,6 @@ Two values that represent old start and end values.
 
 ##### field(e.value): Array<Number, String, Date>
 Two values that represent new start and end values.
-
-##### notUsedInTheme
 
 ---
 Main article: [onValueChanged](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/onValueChanged.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#onValueChanged')

@@ -2,6 +2,7 @@
 id: dxChartSeriesTypes.CommonSeries.valueField
 type: String
 default: 'val'
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -9,8 +10,6 @@ Specifies which data source field provides values for series points.
 
 ##### propertyOf
 dxChartSeriesTypes.LineSeries,dxChartSeriesTypes.StackedLineSeries,dxChartSeriesTypes.FullStackedLineSeries,dxChartSeriesTypes.StackedSplineSeries,dxChartSeriesTypes.FullStackedSplineSeries,dxChartSeriesTypes.SplineSeries,dxChartSeriesTypes.StepLineSeries,dxChartSeriesTypes.AreaSeries,dxChartSeriesTypes.StackedAreaSeries,dxChartSeriesTypes.StackedSplineAreaSeries,dxChartSeriesTypes.FullStackedAreaSeries,dxChartSeriesTypes.FullStackedSplineAreaSeries,dxChartSeriesTypes.SplineAreaSeries,dxChartSeriesTypes.StepAreaSeries,dxChartSeriesTypes.ScatterSeries,dxChartSeriesTypes.BarSeries,dxChartSeriesTypes.StackedBarSeries,dxChartSeriesTypes.FullStackedBarSeries,dxChartSeriesTypes.BubbleSeries
-
-##### notUsedInTheme
 
 ---
 In the Cartesian coordinate system, each point is characterized by a pair of coordinates (X, Y). In a common case, X's are provided by the **argumentField**; Y's are provided by the **valueField**.

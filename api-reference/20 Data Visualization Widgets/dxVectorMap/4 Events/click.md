@@ -1,6 +1,7 @@
 ---
 id: dxVectorMap.click
 type: eventType
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -29,8 +30,6 @@ The model data. Available only if you use Knockout.
 
 ##### field(e.target): MapLayerElement
 The [Layer Element](/api-reference/20%20Data%20Visualization%20Widgets/dxVectorMap/7%20Map%20Elements/Layer%20Element/Layer%20Element.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element/') object (if available).
-
-##### notUsedInTheme
 
 ---
 Main article: [onClick](/api-reference/20%20Data%20Visualization%20Widgets/dxVectorMap/1%20Configuration/onClick.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/#onClick')

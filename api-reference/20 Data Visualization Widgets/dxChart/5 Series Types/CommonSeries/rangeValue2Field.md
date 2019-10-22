@@ -2,6 +2,7 @@
 id: dxChartSeriesTypes.CommonSeries.rangeValue2Field
 type: String
 default: 'val2'
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -9,8 +10,6 @@ Coupled with the **rangeValue1Field** option, specifies which data source field 
 
 ##### propertyOf
 dxChartSeriesTypes.RangeBarSeries,dxChartSeriesTypes.RangeAreaSeries
-
-##### notUsedInTheme
 
 ---
 Each point in a range-like series has one argument and two values. Arguments are provided by the **argumentField**; values are provided by the **rangeValue1Field**, **rangeValue2Field**.

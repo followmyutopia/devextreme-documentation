@@ -2,12 +2,11 @@
 id: dxChart.Options.seriesTemplate
 type: Object
 default: undefined
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
 Defines options for the series template.
-
-##### notUsedInTheme
 
 ---
 In most cases, you can organize the array that is assigned to the chart's [dataSource](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/1%20Configuration/dataSource.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#dataSource') option in the following way.

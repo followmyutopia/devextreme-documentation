@@ -1,12 +1,11 @@
 ---
 id: dxRangeSelector.Options.dataSource
 type: Array<any> | DataSource | DataSource_Options | String
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
 Specifies a data source for the scale values and for the [chart](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/chart/chart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/chart/') at the background.
-
-##### notUsedInTheme
 
 ---
 Use this property in the following cases:

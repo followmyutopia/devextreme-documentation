@@ -3,6 +3,7 @@ id: dxChart.Options.onZoomStart
 type: function(e)
 default: null
 EventForAction: dxChart.zoomStart
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -34,8 +35,6 @@ The model data. Available only if you use Knockout.
 
 ##### field(e.range): VizRange
 The [visual range](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/visualRange/visualRange.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/visualRange/') when zooming or panning starts.
-
-##### notUsedInTheme
 
 ---
 #####See Also#####

@@ -3,6 +3,7 @@ id: dxChart.Options.onZoomEnd
 type: function(e)
 default: null
 EventForAction: dxChart.zoomEnd
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -56,8 +57,6 @@ Positive values indicate a shift towards greater axis values; negative values in
 
 ##### field(e.zoomFactor): Number
 The zoom factor.
-
-##### notUsedInTheme
 
 ---
 #####See Also#####

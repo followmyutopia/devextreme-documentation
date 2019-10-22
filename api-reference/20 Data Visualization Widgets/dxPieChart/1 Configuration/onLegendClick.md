@@ -3,6 +3,7 @@ id: dxPieChart.Options.onLegendClick
 type: function(e) | String
 default: null
 EventForAction: dxPieChart.legendClick
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -34,8 +35,6 @@ The [Point](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart/7%20Ch
 
 ##### field(e.target): String | Number
 The argument of the point(s) corresponding to the clicked legend item.
-
-##### notUsedInTheme
 
 ---
 #####See Also#####

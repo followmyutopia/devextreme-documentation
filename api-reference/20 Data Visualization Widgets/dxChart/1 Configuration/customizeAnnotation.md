@@ -2,6 +2,7 @@
 id: dxChart.Options.customizeAnnotation
 type: function(annotation)
 default: undefined
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -12,8 +13,6 @@ The annotation before customizations.
 
 ##### return: dxChartAnnotationConfig
 The annotation after customizations.
-
-##### notUsedInTheme
 
 ---
 The following code shows how to use the **customizeAnnotation** function to apply different settings to text and image annotations:

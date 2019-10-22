@@ -1,6 +1,7 @@
 ---
 id: dxFunnel.Options.label.customizeText
 type: function(itemInfo)
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -26,8 +27,6 @@ The item's [formatted](/api-reference/20%20Data%20Visualization%20Widgets/dxFunn
 
 ##### return: String
 The text for the label to display.
-
-##### notUsedInTheme
 
 ---
 #include dataviz-ref-functioncontext

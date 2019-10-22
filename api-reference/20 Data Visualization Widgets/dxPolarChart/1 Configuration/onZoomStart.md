@@ -3,6 +3,7 @@ id: dxPolarChart.Options.onZoomStart
 type: function(e)
 default: null
 EventForAction: dxPolarChart.zoomStart
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -34,8 +35,6 @@ EventForAction: dxPolarChart.zoomStart
 
 ##### field(e.range): VizRange
 <!-- Description goes here -->
-
-##### notUsedInTheme
 
 ---
 <!-- Description goes here -->

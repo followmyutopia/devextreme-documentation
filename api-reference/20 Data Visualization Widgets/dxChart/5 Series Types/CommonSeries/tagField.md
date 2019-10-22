@@ -2,12 +2,11 @@
 id: dxChartSeriesTypes.CommonSeries.tagField
 type: String
 default: 'tag'
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
 Specifies which data source field provides auxiliary data for series points.
-
-##### notUsedInTheme
 
 ---
 This option allows you to associate virtually any required data with a series point. This data will be stored in the [tag](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Point/2%20Fields/tag.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/Fields/#tag') field of the [Point](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/7%20Chart%20Elements/Point/Point.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/') object.

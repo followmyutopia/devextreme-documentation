@@ -2,6 +2,7 @@
 id: BaseChart.Options.tooltip.customizeTooltip
 type: function(pointInfo)
 default: undefined
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -12,8 +13,6 @@ Information on the series point being pressed or hovered over with the mouse poi
 
 ##### return: Object
 The tooltip's text or markup and appearance settings.
-
-##### notUsedInTheme
 
 ---
 This option should be assigned a function returning a specific object. The following fields can be specified in this object.

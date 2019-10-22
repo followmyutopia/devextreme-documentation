@@ -1,6 +1,7 @@
 ---
 id: dxPieChartSeriesTypes.CommonPieChartSeries.label.customizeText
 type: function(pointInfo)
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -11,8 +12,6 @@ Information on the series point.
 
 ##### return: String
 The text for the label to display.
-
-##### notUsedInTheme
 
 ---
 When implementing a callback function for this property, use the point value to be displayed in a label. In addition, you can use the argument of the currently displayed value. These values can be accessed using the following properties of the **this** object.

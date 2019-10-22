@@ -2,12 +2,11 @@
 id: dxChart.Options.valueAxis.constantLines
 type: Array<Object>
 inherits: dxChart.Options.commonAxisSettings.constantLineStyle
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
 Declares a collection of constant lines belonging to the value axis.
-
-##### notUsedInTheme
 
 ---
 ![DevExtreme HTML5 Charts ConstantLines](/Content/images/doc/19_2/ChartJS/visual_elements/constant_lines.png)

@@ -3,6 +3,7 @@ id: dxRangeSelector.Options.onValueChanged
 type: function(e)
 default: null
 EventForAction: dxRangeSelector.valueChanged
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -28,8 +29,6 @@ Two values that represent old start and end values.
 
 ##### field(e.value): Array<Number, String, Date>
 Two values that represent new start and end values.
-
-##### notUsedInTheme
 
 ---
 The **onValueChanged** function can be called when a user moves a slider or after he/she has stopped moving it. To specify the required mode, use the **behavior**.[callValueChanged](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/behavior/callValueChanged.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/behavior/#callValueChanged') option.

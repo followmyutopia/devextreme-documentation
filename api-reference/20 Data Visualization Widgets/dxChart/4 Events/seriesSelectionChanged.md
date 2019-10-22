@@ -1,6 +1,7 @@
 ---
 id: dxChart.seriesSelectionChanged
 type: eventType
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -20,8 +21,6 @@ The model data. Available only if you use Knockout.
 
 ##### field(e.target): chartSeriesObject
 The series whose selection state has been changed.
-
-##### notUsedInTheme
 
 ---
 Main article: [onSeriesSelectionChanged](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/onSeriesSelectionChanged.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onSeriesSelectionChanged')

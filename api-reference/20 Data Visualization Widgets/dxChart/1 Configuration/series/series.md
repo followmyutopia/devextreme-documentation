@@ -4,13 +4,12 @@ type: Object | Array<ChartSeries>
 inherits: ChartSeries
 default: undefined
 hideDefaults: true
+notUsedInTheme: 
 inheritAll: 
 ---
 ---
 ##### shortDescription
 Specifies options for **Chart** widget series.
-
-##### notUsedInTheme
 
 ---
 A series represents a grouping of related data points. The most important characteristic of a series is its type, which determines a particular visual representation of data. You can find more details on each series type in the corresponding topics in the [Series](/concepts/05%20Widgets/Chart/10%20Series/00%20Overview.md '/Documentation/Guide/Widgets/Chart/Series/Overview/') help section.

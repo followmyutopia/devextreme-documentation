@@ -1,6 +1,7 @@
 ---
 id: dxChart.Options.crosshair.verticalLine.label.customizeText
 type: function(info)
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -20,8 +21,6 @@ The [formatted](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20C
 
 ##### return: String
 The text to be displayed in the label that belongs to the vertical crosshair line.
-
-##### notUsedInTheme
 
 ---
 #include dataviz-ref-functioncontext

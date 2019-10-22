@@ -1,6 +1,7 @@
 ---
 id: dxSankey.nodeClick
 type: eventType
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -23,8 +24,6 @@ The model data. Available only if you use Knockout.
 
 ##### field(e.target): dxSankeyNode
 The [Node](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/6%20Node/Node.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Node/') object.
-
-##### notUsedInTheme
 
 ---
 Main article: [onNodeClick](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/onNodeClick.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#onNodeClick')

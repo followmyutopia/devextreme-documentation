@@ -3,6 +3,7 @@ id: dxSankey.Options.onLinkClick
 type: function(e) | String
 default: null
 EventForAction: dxSankey.linkClick
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -25,8 +26,6 @@ The model data. Available only if you use Knockout.
 
 ##### field(e.target): dxSankeyLink
 The [Link](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/7%20Link/Link.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Link/') object.
-
-##### notUsedInTheme
 
 ---
 #####See Also#####

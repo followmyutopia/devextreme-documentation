@@ -3,12 +3,11 @@ id: BaseGauge.Options.subvalues
 type: Array<Number>
 default: undefined
 firedEvents: optionChanged
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
 Specifies a set of subvalues to be designated by the subvalue indicators.
-
-##### notUsedInTheme
 
 ---
 In addition to one main value, you can indicate several extra values on a gauge. These are called *subvalues*. To specify the subvalues, assign an array with them to the **subvalues** field.

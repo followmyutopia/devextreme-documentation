@@ -1,6 +1,7 @@
 ---
 id: BaseSparkline.tooltipShown
 type: eventType
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -17,8 +18,6 @@ The widget's instance.
 
 ##### field(e.model): Object
 The model data. Available only if you use Knockout.
-
-##### notUsedInTheme
 
 ---
 Main article: [onTooltipShown](/api-reference/20%20Data%20Visualization%20Widgets/BaseSparkline/1%20Configuration/onTooltipShown.md '{basewidgetpath}/Configuration/#onTooltipShown')

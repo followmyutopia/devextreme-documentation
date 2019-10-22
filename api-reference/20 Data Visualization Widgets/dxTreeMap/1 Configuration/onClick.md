@@ -3,6 +3,7 @@ id: dxTreeMap.Options.onClick
 type: function(e) | String
 default: null
 EventForAction: dxTreeMap.click
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -31,8 +32,6 @@ The model data. Available only if you use Knockout.
 
 ##### field(e.node): dxTreeMapNode
 The clicked node; described in the [Node](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/6%20Node/Node.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/') section.
-
-##### notUsedInTheme
 
 ---
 This function is often used to implement item selection as shown in the following code:

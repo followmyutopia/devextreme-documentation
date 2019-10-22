@@ -1,6 +1,7 @@
 ---
 id: BaseChart.done
 type: eventType
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -17,8 +18,6 @@ The widget's instance.
 
 ##### field(e.model): Object
 The model data. Available only if you use Knockout.
-
-##### notUsedInTheme
 
 ---
 Main article: [onDone](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/1%20Configuration/onDone.md '{basewidgetpath}/Configuration/#onDone')

@@ -1,6 +1,7 @@
 ---
 id: dxPolarChart.seriesHoverChanged
 type: eventType
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -20,8 +21,6 @@ The model data. Available only if you use Knockout.
 
 ##### field(e.target): polarChartSeriesObject
 The series whose hover state has been changed; described in the [Series](/api-reference/20%20Data%20Visualization%20Widgets/dxPolarChart/7%20Chart%20Elements/Series/Series.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Chart_Elements/Series/') section.
-
-##### notUsedInTheme
 
 ---
 Main article: [onSeriesHoverChanged](/api-reference/20%20Data%20Visualization%20Widgets/dxPolarChart/1%20Configuration/onSeriesHoverChanged.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/#onSeriesHoverChanged')

@@ -2,6 +2,7 @@
 id: CommonIndicator.text.customizeText
 type: function(indicatedValue)
 default: undefined
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -21,8 +22,6 @@ The formatted value converted to a string.
 
 ##### return: String
 The text for the indicator to display.
-
-##### notUsedInTheme
 
 ---
 #include dataviz-ref-functioncontext

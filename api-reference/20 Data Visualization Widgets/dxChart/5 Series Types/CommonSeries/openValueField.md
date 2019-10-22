@@ -2,6 +2,7 @@
 id: dxChartSeriesTypes.CommonSeries.openValueField
 type: String
 default: 'open'
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -9,8 +10,6 @@ Specifies which data source field provides open values for points of a financial
 
 ##### propertyOf
 dxChartSeriesTypes.StockSeries,dxChartSeriesTypes.CandleStickSeries
-
-##### notUsedInTheme
 
 ---
 Each point in a financial series has one argument and four values. Arguments are provided by the **argumentField**; values are provided by the **openValueField**, **closeValueField**, **highValueField** and **lowValueField**.

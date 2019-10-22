@@ -3,6 +3,7 @@ id: dxFunnel.Options.onHoverChanged
 type: function(e)
 default: null
 EventForAction: dxFunnel.hoverChanged
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -22,8 +23,6 @@ The [Item](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/6%20Item/
 
 ##### field(e.model): Object
 The model data. Available only if you use Knockout.
-
-##### notUsedInTheme
 
 ---
 To identify whether the pointer has entered or left the funnel item, call the item's [isHovered()](Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/Methods/#isHovered) method.

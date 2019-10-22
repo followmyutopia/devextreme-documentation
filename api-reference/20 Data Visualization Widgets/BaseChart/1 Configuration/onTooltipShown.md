@@ -3,6 +3,7 @@ id: BaseChart.Options.onTooltipShown
 type: function(e)
 default: null
 EventForAction: BaseChart.tooltipShown
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -22,8 +23,6 @@ The model data. Available only if you use Knockout.
 
 ##### field(e.target): basePointObject | dxChartAnnotationConfig | any
 The series point whose tooltip is shown; described in the [Point](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Point/Point.md '{basewidgetpath}/Chart_Elements/Point/') section.
-
-##### notUsedInTheme
 
 ---
 #####See Also#####

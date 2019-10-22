@@ -1,6 +1,7 @@
 ---
 id: dxChart.seriesHoverChanged
 type: eventType
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -20,8 +21,6 @@ The model data. Available only if you use Knockout.
 
 ##### field(e.target): chartSeriesObject
 The series whose hover state has been changed.
-
-##### notUsedInTheme
 
 ---
 Main article: [onSeriesHoverChanged](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/onSeriesHoverChanged.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onSeriesHoverChanged')

@@ -1,6 +1,7 @@
 ---
 id: dxFunnel.legendClick
 type: eventType
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -29,8 +30,6 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 
 ##### field(e.model): Object
 The model data. Available only if you use Knockout.
-
-##### notUsedInTheme
 
 ---
 Main article: [onLegendClick](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/1%20Configuration/onLegendClick.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/#onLegendClick')

@@ -1,6 +1,7 @@
 ---
 id: BaseGauge.tooltipShown
 type: eventType
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -20,8 +21,6 @@ The model data. Available only if you use Knockout.
 
 ##### field(e.target): Object
 Information on the (sub)value indicator being pressed or hovered over with the mouse pointer. Contains the **type** (*"value-indicator"* or *"subvalue-indicator"*) and **index** (**undefined** for value indicators) fields.
-
-##### notUsedInTheme
 
 ---
 Main article: [onTooltipShown](/api-reference/20%20Data%20Visualization%20Widgets/BaseGauge/1%20Configuration/onTooltipShown.md '{basewidgetpath}/Configuration/#onTooltipShown')

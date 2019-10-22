@@ -2,12 +2,11 @@
 id: dxPolarChartSeriesTypes.CommonPolarChartSeries.tagField
 type: String
 default: 'tag'
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
 Specifies the name of the data source field that provides data about a point.
-
-##### notUsedInTheme
 
 ---
 When setting a common data source via the **dataSource** property, you can pass information about a point. For this purpose, add a separate field to the data source in addition to the argument and value fields. To set the specified data to the point instance, set the series' **tagField** property to the name of the field with the information. In this instance, when clicking a point in the chart, you can access the data associated with this point using the point's instance.

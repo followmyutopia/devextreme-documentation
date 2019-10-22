@@ -1,6 +1,7 @@
 ---
 id: dxPolarChart.argumentAxisClick
 type: eventType
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -29,8 +30,6 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 
 ##### field(e.model): Object
 The model data. Available only if you use Knockout.
-
-##### notUsedInTheme
 
 ---
 Main article: [onArgumentAxisClick](/api-reference/20%20Data%20Visualization%20Widgets/dxPolarChart/1%20Configuration/onArgumentAxisClick.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/#onArgumentAxisClick')

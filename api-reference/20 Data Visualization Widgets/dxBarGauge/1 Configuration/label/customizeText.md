@@ -1,6 +1,7 @@
 ---
 id: dxBarGauge.Options.label.customizeText
 type: function(barValue)
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -17,8 +18,6 @@ The [formatted](/api-reference/20%20Data%20Visualization%20Widgets/dxBarGauge/1%
 
 ##### return: String
 The text for the label to display.
-
-##### notUsedInTheme
 
 ---
 #include dataviz-ref-functioncontext

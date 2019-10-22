@@ -2,12 +2,11 @@
 id: dxChart.Options.argumentAxis.strips
 type: Array<Object>
 inherits: dxChart.Options.commonAxisSettings.stripStyle
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
 Declares a collection of strips belonging to the argument axis.
-
-##### notUsedInTheme
 
 ---
 A strip is a colored piece of the chart's background that highlights a range of values. Strips allow a viewer to see whether a certain series point falls in or out of a range.

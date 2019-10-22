@@ -1,6 +1,7 @@
 ---
 id: BaseChart.pointSelectionChanged
 type: eventType
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -17,8 +18,6 @@ The widget's container.
 
 ##### field(e.target): basePointObject
 The series point whose selection state has been changed; described in the [Point](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Point/Point.md '{basewidgetpath}/Chart_Elements/Point/') section.
-
-##### notUsedInTheme
 
 ---
 Main article: [onPointSelectionChanged](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/1%20Configuration/onPointSelectionChanged.md '{basewidgetpath}/Configuration/#onPointSelectionChanged')

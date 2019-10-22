@@ -3,6 +3,7 @@ id: BaseGauge.Options.onTooltipHidden
 type: function(e)
 default: null
 EventForAction: BaseGauge.tooltipHidden
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -22,7 +23,5 @@ The model data. Available only if you use Knockout.
 
 ##### field(e.target): Object
 Information on the (sub)value indicator being pressed or hovered over with the mouse pointer. Contains the **type** (*"value-indicator"* or *"subvalue-indicator"*) and **index** (**undefined** for value indicators) fields.
-
-##### notUsedInTheme
 
 ---

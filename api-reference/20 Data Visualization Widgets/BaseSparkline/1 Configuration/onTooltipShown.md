@@ -3,6 +3,7 @@ id: BaseSparkline.Options.onTooltipShown
 type: function(e)
 default: null
 EventForAction: BaseSparkline.tooltipShown
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -19,7 +20,5 @@ The widget's instance.
 
 ##### field(e.model): Object
 The model data. Available only if you use Knockout.
-
-##### notUsedInTheme
 
 ---

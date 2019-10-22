@@ -3,12 +3,11 @@ id: dxRangeSelector.Options.value
 type: Array<Number, String, Date> | Object
 inherits: VizRange
 firedEvents: valueChanged
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
 The selected range (initial or current). Equals the entire [scale](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/scale/scale.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/') when not set.
-
-##### notUsedInTheme
 
 ---
 #include dataviz-ref-vizrangevariants with {

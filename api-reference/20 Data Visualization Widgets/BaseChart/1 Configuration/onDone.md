@@ -3,6 +3,7 @@ id: BaseChart.Options.onDone
 type: function(e)
 default: null
 EventForAction: BaseChart.done
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -19,8 +20,6 @@ The widget's instance.
 
 ##### field(e.model): Object
 The model data. Available only if you use Knockout.
-
-##### notUsedInTheme
 
 ---
 #####See Also#####

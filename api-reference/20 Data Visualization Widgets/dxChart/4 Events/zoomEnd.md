@@ -1,6 +1,7 @@
 ---
 id: dxChart.zoomEnd
 type: eventType
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -54,8 +55,6 @@ Positive values indicate a shift towards greater axis values; negative values in
 
 ##### field(e.zoomFactor): Number
 The zoom factor.
-
-##### notUsedInTheme
 
 ---
 Main article: [onZoomEnd](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/onZoomEnd.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onZoomEnd')

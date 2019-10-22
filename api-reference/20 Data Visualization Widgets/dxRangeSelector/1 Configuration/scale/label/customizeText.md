@@ -1,6 +1,7 @@
 ---
 id: dxRangeSelector.Options.scale.label.customizeText
 type: function(scaleValue)
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -17,8 +18,6 @@ The [formatted](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelect
 
 ##### return: String
 The text for the label to display.
-
-##### notUsedInTheme
 
 ---
 #include dataviz-ref-functioncontext

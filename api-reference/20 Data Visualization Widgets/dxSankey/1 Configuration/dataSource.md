@@ -1,12 +1,11 @@
 ---
 id: dxSankey.Options.dataSource
 type: Array<any> | DataSource | DataSource_Options | String
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
 Binds the widget to data.
-
-##### notUsedInTheme
 
 ---
 #include common-dataSource-description with {

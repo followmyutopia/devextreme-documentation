@@ -1,6 +1,7 @@
 ---
 id: dxPolarChartSeriesTypes.CommonPolarChartSeries.label.customizeText
 type: function(pointInfo)
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -11,8 +12,6 @@ Information on the series point.
 
 ##### return: String
 The text for the label to display.
-
-##### notUsedInTheme
 
 ---
 The function's parameter has the following fields:

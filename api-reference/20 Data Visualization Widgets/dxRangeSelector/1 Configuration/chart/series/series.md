@@ -3,12 +3,11 @@ id: dxRangeSelector.Options.chart.series
 type: Object | Array<ChartSeries>
 inherits: ChartSeries
 default: undefined
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
 An object defining the chart’s series.
-
-##### notUsedInTheme
 
 ---
 If you are going to display several series in the range selector's chart, assign an array of objects defining these series to this property. If a single series must be displayed in the chart, assign an object defining this series to this property. The properties of the **series** configuration object represent the options that can be set to define the series. To get information on all the properties of the **series** configuration object, refer to its description in the **chartOptions** reference section: [series](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/series/series.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/'). Note that the **RangeSelector** widget may have its own default values for the **series** options.

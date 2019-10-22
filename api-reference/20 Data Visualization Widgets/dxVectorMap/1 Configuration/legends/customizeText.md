@@ -1,6 +1,7 @@
 ---
 id: dxVectorMap.Options.legends.customizeText
 type: function(itemInfo)
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -26,8 +27,6 @@ The start value of the group indicated by the legend item.
 
 ##### return: String
 The text for the legend item to display.
-
-##### notUsedInTheme
 
 ---
 This option accepts a function that returns the text for a legend item. When implementing this function, you can access useful data on the legend item using the function's argument.

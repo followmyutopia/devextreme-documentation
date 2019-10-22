@@ -1,6 +1,7 @@
 ---
 id: dxChart.Options.valueAxis.label.customizeText
 type: function(axisValue)
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -17,8 +18,6 @@ The [formatted](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20C
 
 ##### return: String
 The text for the label to display.
-
-##### notUsedInTheme
 
 ---
 #include dataviz-ref-functioncontext

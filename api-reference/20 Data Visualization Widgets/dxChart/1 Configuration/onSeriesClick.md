@@ -3,6 +3,7 @@ id: dxChart.Options.onSeriesClick
 type: function(e) | String
 default: null
 EventForAction: dxChart.seriesClick
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -31,8 +32,6 @@ The model data. Available only if you use Knockout.
 
 ##### field(e.target): chartSeriesObject
 The clicked series.
-
-##### notUsedInTheme
 
 ---
 [note] This function is also executed when a [series point](/concepts/05%20Widgets/Chart/14%20Series%20Points/00%20Overview.md '/Documentation/Guide/Widgets/Chart/Series_Points/Overview/') or [legend item](/concepts/05%20Widgets/Chart/35%20Legend/00%20Overview.md '/Documentation/Guide/Widgets/Chart/Legend/Overview/') is clicked or tapped. You can cancel the execution in the [onPointClick](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/1%20Configuration/onPointClick.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onPointClick') and [onLegendClick](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/onLegendClick.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onLegendClick') functions.

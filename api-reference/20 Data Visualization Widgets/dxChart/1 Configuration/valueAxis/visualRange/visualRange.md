@@ -3,12 +3,11 @@ id: dxChart.Options.valueAxis.visualRange
 type: Object | Array<Number, String, Date>
 inherits: VizRange
 firedEvents: optionChanged
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
 Defines the axis' displayed range. Cannot be wider than the [wholeRange](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis/wholeRange/wholeRange.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/wholeRange/').
-
-##### notUsedInTheme
 
 ---
 #include dataviz-ref-vizrangevariants with {

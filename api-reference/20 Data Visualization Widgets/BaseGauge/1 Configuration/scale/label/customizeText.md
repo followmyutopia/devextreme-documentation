@@ -1,6 +1,7 @@
 ---
 id: BaseGauge.Options.scale.label.customizeText
 type: function(scaleValue)
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -17,8 +18,6 @@ The [formatted](/api-reference/10%20UI%20Widgets/dxSliderBase/1%20Configuration/
 
 ##### return: String
 The text for the label to display.
-
-##### notUsedInTheme
 
 ---
 #include dataviz-ref-functioncontext

@@ -3,6 +3,7 @@ id: dxFunnel.Options.onItemClick
 type: function(e) | String
 default: null
 EventForAction: dxFunnel.itemClick
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -31,8 +32,6 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 
 ##### field(e.model): Object
 The model data. Available only if you use Knockout.
-
-##### notUsedInTheme
 
 ---
 This function is often used to implement item selection as shown in the following code:

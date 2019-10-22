@@ -1,6 +1,7 @@
 ---
 id: dxChart.Options.crosshair.label.customizeText
 type: function(info)
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -20,8 +21,6 @@ The [formatted](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20C
 
 ##### return: String
 The text for the crosshair label to display.
-
-##### notUsedInTheme
 
 ---
 This option accepts a function that will be called twice on each point - once for the horizontal line, and then for the vertical. To specify an individual function, which will be called for the horizontal or vertical line separately, use the **customizeText** option within [horizontalLine](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/crosshair/horizontalLine/horizontalLine.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/horizontalLine/').**label** or [verticalLine](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/crosshair/verticalLine/verticalLine.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/verticalLine/').**label** object. 

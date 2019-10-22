@@ -3,6 +3,7 @@ id: BaseChart.Options.onPointClick
 type: function(e) | String
 default: null
 EventForAction: BaseChart.pointClick
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -31,8 +32,6 @@ The model data. Available only if you use Knockout.
 
 ##### field(e.target): basePointObject
 The clicked series point; described in the [Point](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Point/Point.md '{basewidgetpath}/Chart_Elements/Point/') section.
-
-##### notUsedInTheme
 
 ---
 [note]

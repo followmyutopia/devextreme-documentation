@@ -2,6 +2,7 @@
 id: BaseChart.Options.onPointSelectionChanged
 type: function(e)
 EventForAction: BaseChart.pointSelectionChanged
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -18,8 +19,6 @@ The widget's container.
 
 ##### field(e.target): basePointObject
 The series point whose selection state has been changed; described in the [Point](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Point/Point.md '{basewidgetpath}/Chart_Elements/Point/') section.
-
-##### notUsedInTheme
 
 ---
 To identify whether the selection has been applied or canceled, call the point's [isSelected()](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Point/3%20Methods/isSelected().md '{basewidgetpath}/Chart_Elements/Point/Methods/#isSelected') method.

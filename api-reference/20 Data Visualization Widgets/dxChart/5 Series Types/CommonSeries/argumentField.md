@@ -2,12 +2,11 @@
 id: dxChartSeriesTypes.CommonSeries.argumentField
 type: String
 default: 'arg'
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
 Specifies which data source field provides arguments for series points.
-
-##### notUsedInTheme
 
 ---
 In the Cartesian coordinate system, each point is characterized by a pair of coordinates (X, Y). In the **Chart** widget, X's are provided by the **argumentField**; Y's are provided by the **valueField**.

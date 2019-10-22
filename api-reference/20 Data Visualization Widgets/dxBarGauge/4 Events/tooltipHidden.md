@@ -1,6 +1,7 @@
 ---
 id: dxBarGauge.tooltipHidden
 type: eventType
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -20,8 +21,6 @@ The model data. Available only if you use Knockout.
 
 ##### field(e.target): Object
 Information on the bar being pressed or hovered over with the mouse pointer. Contains the **index** field.
-
-##### notUsedInTheme
 
 ---
 Main article: [onTooltipHidden](/api-reference/20%20Data%20Visualization%20Widgets/dxBarGauge/1%20Configuration/onTooltipHidden.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/#onTooltipHidden')

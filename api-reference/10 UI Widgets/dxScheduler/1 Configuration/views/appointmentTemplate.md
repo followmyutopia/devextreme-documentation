@@ -15,7 +15,7 @@ The appointment's data object.
 
 ##### field(model.targetedAppointmentData): Object
 The appointment's data object.      
-The difference between this and **appointmentData** fields is explained in the [onAppointmentClick](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentClick) description. 
+The difference between this and **appointmentData** fields is explained in the [onAppointmentClick](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentClick) description.
 
 ##### param(itemIndex): Number
 The appointment's index.

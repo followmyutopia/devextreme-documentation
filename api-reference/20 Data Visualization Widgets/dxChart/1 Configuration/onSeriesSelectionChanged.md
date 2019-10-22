@@ -3,6 +3,7 @@ id: dxChart.Options.onSeriesSelectionChanged
 type: function(e)
 default: null
 EventForAction: dxChart.seriesSelectionChanged
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -22,8 +23,6 @@ The model data. Available only if you use Knockout.
 
 ##### field(e.target): chartSeriesObject
 The series whose selection state has been changed.
-
-##### notUsedInTheme
 
 ---
 To identify whether the selection has been applied or canceled, call the series' [isSelected()](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Series/3%20Methods/isSelected().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#isSelected') method.

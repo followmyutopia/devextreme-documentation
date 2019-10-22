@@ -1,12 +1,11 @@
 ---
 id: dxVectorMap.Options.layers.dataSource
 type: Object | DataSource | DataSource_Options | String
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
 Specifies a data source for the layer.
-
-##### notUsedInTheme
 
 ---
 #include common-demobutton with {

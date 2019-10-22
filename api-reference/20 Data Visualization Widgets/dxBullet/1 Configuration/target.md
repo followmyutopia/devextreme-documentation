@@ -2,12 +2,11 @@
 id: dxBullet.Options.target
 type: Number
 default: 0
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
 Specifies the value indicated by the target line.
-
-##### notUsedInTheme
 
 ---
 #####See Also#####

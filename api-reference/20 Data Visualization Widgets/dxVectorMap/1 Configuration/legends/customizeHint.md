@@ -1,6 +1,7 @@
 ---
 id: dxVectorMap.Options.legends.customizeHint
 type: function(itemInfo)
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -26,8 +27,6 @@ The start value of the group indicated by the legend item.
 
 ##### return: String
 The text for the hint to display.
-
-##### notUsedInTheme
 
 ---
 This option accepts a function that must return the required text. When implementing this function, use its parameter to access information on the legend item.

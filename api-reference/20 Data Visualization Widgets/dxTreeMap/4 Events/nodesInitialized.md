@@ -1,6 +1,7 @@
 ---
 id: dxTreeMap.nodesInitialized
 type: eventType
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -20,8 +21,6 @@ The model data. Available only if you use Knockout.
 
 ##### field(e.root): dxTreeMapNode
 The root node; described in the [Node](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/6%20Node/Node.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/') section.
-
-##### notUsedInTheme
 
 ---
 Main article: [onNodesInitialized](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/1%20Configuration/onNodesInitialized.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#onNodesInitialized')

@@ -2,12 +2,11 @@
 id: dxBullet.Options.value
 type: Number
 default: 0
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
 Specifies the primary value indicated by the bullet bar.
-
-##### notUsedInTheme
 
 ---
 #####See Also#####

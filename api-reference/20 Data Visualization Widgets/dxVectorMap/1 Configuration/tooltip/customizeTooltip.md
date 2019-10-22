@@ -2,6 +2,7 @@
 id: dxVectorMap.Options.tooltip.customizeTooltip
 type: function(info)
 default: undefined
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -12,8 +13,6 @@ Information on the area or marker being pressed or hovered over with the mouse p
 
 ##### return: Object
 The tooltip's text or markup and color.
-
-##### notUsedInTheme
 
 ---
 This option should be assigned a function that returns a specific object. The following fields can be specified in this object.

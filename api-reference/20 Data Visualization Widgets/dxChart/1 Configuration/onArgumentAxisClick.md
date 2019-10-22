@@ -3,6 +3,7 @@ id: dxChart.Options.onArgumentAxisClick
 type: function(e) | String
 default: null
 EventForAction: dxChart.argumentAxisClick
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -31,7 +32,5 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 
 ##### field(e.model): Object
 The model data. Available only if you use Knockout.
-
-##### notUsedInTheme
 
 ---

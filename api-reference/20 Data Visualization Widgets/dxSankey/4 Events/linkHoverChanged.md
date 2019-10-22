@@ -1,6 +1,7 @@
 ---
 id: dxSankey.linkHoverChanged
 type: eventType
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -20,8 +21,6 @@ The model data. Available only if you use Knockout.
 
 ##### field(e.target): dxSankeyLink
 The [Link](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/7%20Link/Link.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Link/') object.
-
-##### notUsedInTheme
 
 ---
 Main article: [onLinkHoverChanged](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/onLinkHoverChanged.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#onLinkHoverChanged')

@@ -3,6 +3,7 @@ id: dxTreeMap.Options.onNodesRendering
 type: function(e)
 default: null
 EventForAction: dxTreeMap.nodesRendering
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -23,7 +24,5 @@ The model data. Available only if you use Knockout.
 ##### field(e.node): dxTreeMapNode
 In most cases, the root node. When drilling down, the node of the highest displayed level.      
 Described in the [Node](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/6%20Node/Node.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/') section.
-
-##### notUsedInTheme
 
 ---

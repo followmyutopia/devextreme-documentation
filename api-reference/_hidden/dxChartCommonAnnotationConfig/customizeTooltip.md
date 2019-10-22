@@ -2,6 +2,7 @@
 id: dxChartCommonAnnotationConfig.customizeTooltip
 type: function(annotation)
 default: undefined
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -12,8 +13,6 @@ The annotation's [configuration object](/api-reference/20%20Data%20Visualization
 
 ##### return: Object
 The tooltip's text or markup and appearance settings.
-
-##### notUsedInTheme
 
 ---
 Set this option to a function that returns an object with the following fields:

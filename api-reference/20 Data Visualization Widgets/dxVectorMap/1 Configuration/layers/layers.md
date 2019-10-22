@@ -2,12 +2,11 @@
 id: dxVectorMap.Options.layers
 type: Array<Object> | Object
 default: undefined
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
 Specifies options for **VectorMap** widget layers.
-
-##### notUsedInTheme
 
 ---
 The vector map may contain several different layers. Each layer can be of *"area"*, *"line"* or *"marker"* [type](/api-reference/20%20Data%20Visualization%20Widgets/dxVectorMap/1%20Configuration/layers/type.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#type').

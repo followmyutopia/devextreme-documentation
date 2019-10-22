@@ -1,6 +1,7 @@
 ---
 id: dxVectorMap.Options.layers.customize
 type: function(elements)
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -8,8 +9,6 @@ Specifies the function that customizes each layer element individually.
 
 ##### param(elements): Array<MapLayerElement>
 The array of [layer elements](/api-reference/20%20Data%20Visualization%20Widgets/dxVectorMap/7%20Map%20Elements/Layer%20Element/Layer%20Element.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element').
-
-##### notUsedInTheme
 
 ---
 Only the following options can be changed in the **customize** function.

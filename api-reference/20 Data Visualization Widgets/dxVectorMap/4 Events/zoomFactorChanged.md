@@ -1,6 +1,7 @@
 ---
 id: dxVectorMap.zoomFactorChanged
 type: eventType
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -20,8 +21,6 @@ The model data. Available only if you use Knockout.
 
 ##### field(e.zoomFactor): Number
 The updated zoom factor.
-
-##### notUsedInTheme
 
 ---
 Main article: [onZoomFactorChanged](/api-reference/20%20Data%20Visualization%20Widgets/dxVectorMap/1%20Configuration/onZoomFactorChanged.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/#onZoomFactorChanged')

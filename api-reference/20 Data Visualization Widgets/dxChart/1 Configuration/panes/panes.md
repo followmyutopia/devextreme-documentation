@@ -2,12 +2,11 @@
 id: dxChart.Options.panes
 type: Object | Array<Object>
 inherits: dxChart.Options.commonPaneSettings
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
 Declares a collection of panes.
-
-##### notUsedInTheme
 
 ---
 A pane is a chart area containing series. If there are many series an a chart, they can be distributed between multiple panes.

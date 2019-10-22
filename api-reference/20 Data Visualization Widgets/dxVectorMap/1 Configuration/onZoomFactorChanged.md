@@ -3,6 +3,7 @@ id: dxVectorMap.Options.onZoomFactorChanged
 type: function(e)
 default: null
 EventForAction: dxVectorMap.zoomFactorChanged
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -22,8 +23,6 @@ The model data. Available only if you use Knockout.
 
 ##### field(e.zoomFactor): Number
 The updated zoom factor.
-
-##### notUsedInTheme
 
 ---
 #include common-demobutton with {

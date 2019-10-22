@@ -3,12 +3,11 @@ id: BaseGauge.Options.value
 type: Number
 default: undefined
 firedEvents: optionChanged
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
 Specifies the main value on a gauge.
-
-##### notUsedInTheme
 
 ---
 The main value is designated by the value indicator. To customize the appearance of the value indicator, use the **valueIndicator** configuration object.

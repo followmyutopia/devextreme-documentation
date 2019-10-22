@@ -2,12 +2,11 @@
 id: dxChart.Options.argumentAxis.minVisualRangeLength
 inherits: VizTimeInterval
 default: undefined
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
 Specifies the minimum length of the [visual range](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/visualRange/visualRange.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/visualRange/').
-
-##### notUsedInTheme
 
 ---
 If the visual range is set on a numeric axis, assign a number to this option. If the axis displays date-time values, assign one of the accepted string values or an object to this option. The object should contain one or several fields described in this section, for example:

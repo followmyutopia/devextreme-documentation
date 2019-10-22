@@ -1,6 +1,7 @@
 ---
 id: dxPolarChart.Options.legend.customizeText
 type: function(seriesInfo)
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -20,8 +21,6 @@ The series' name.
 
 ##### return: String
 The text for the legend item to display.
-
-##### notUsedInTheme
 
 ---
 #include dataviz-ref-functioncontext

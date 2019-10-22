@@ -1,6 +1,7 @@
 ---
 id: dxBarGauge.Options.legend.customizeText
 type: function(arg)
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -17,8 +18,6 @@ The legend item's text.
 
 ##### return: String
 The text to be displayed in the hint.
-
-##### notUsedInTheme
 
 ---
 #include dataviz-ref-functioncontext

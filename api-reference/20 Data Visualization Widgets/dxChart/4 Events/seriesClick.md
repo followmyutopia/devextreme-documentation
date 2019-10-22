@@ -1,6 +1,7 @@
 ---
 id: dxChart.seriesClick
 type: eventType
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
@@ -29,8 +30,6 @@ The model data. Available only if you use Knockout.
 
 ##### field(e.target): chartSeriesObject
 The clicked series.
-
-##### notUsedInTheme
 
 ---
 Main article: [onSeriesClick](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/onSeriesClick.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onSeriesClick')

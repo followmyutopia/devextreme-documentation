@@ -1,12 +1,11 @@
 ---
 id: dxVectorMap.Options.legends.source.grouping
 type: String
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription
 Specifies the type of the legend grouping.
-
-##### notUsedInTheme
 
 ---
 The **VectorMap**'s legend supports three grouping types.
