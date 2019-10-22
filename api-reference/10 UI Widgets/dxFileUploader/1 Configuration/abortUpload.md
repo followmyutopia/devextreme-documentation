@@ -4,31 +4,46 @@ type: function(file, uploadInfo)
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+A function that cancels the file upload.
 
 ##### param(file): File
-<!-- Description goes here -->
+The file that is uploaded.
 
 ##### param(uploadInfo): Object
-<!-- Description goes here -->
+Information about the file upload session.
 
 ##### field(uploadInfo.bytesUploaded): Number
-<!-- Description goes here -->
+The count of bytes that is already uploaded to the server.
 
 ##### field(uploadInfo.chunkBlob): Blob
-<!-- Description goes here -->
+The binary content of the chunk that is uploaded.
 
 ##### field(uploadInfo.chunkCount): Number
-<!-- Description goes here -->
+The number of all chunks.
 
 ##### field(uploadInfo.chunkIndex): Number
-<!-- Description goes here -->
+The index of the chunk that is uploaded.
 
 ##### field(uploadInfo.customData): Object
-<!-- Description goes here -->
+Any custom information that is saved during upload.
 
 ##### return: Promise<any> | any
-<!-- Description goes here -->
+A Promise that is resolved after the upload in aborted. It is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery.
 
 ---
-<!-- Description goes here -->
+
+---
+##### jQuery
+
+    <!-- tab: index.js -->
+    $(function() {
+        $("#file-uploader").dxFileUploader({
+            multiple: true,
+            chunkSize: 200000,
+            abortUpload: function(file, uploadInfo) {
+                // your code
+            }
+        });      
+    });
+
+---

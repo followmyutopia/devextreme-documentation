@@ -18,7 +18,7 @@ The widget's instance.
 #include common-ref-elementparam with { element: "widget" }
 
 ##### field(e.error): any
-<!-- Description goes here -->
+The error that occurred.
 
 ##### field(e.event): event
 #include common-ref-eventparam

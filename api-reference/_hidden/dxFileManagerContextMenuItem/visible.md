@@ -4,7 +4,6 @@ default: undefined
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies the context menu item's visibility.
 
 ---
-<!-- Description goes here -->
