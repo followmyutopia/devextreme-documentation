@@ -44,6 +44,7 @@ Contains the **grouping**.[groupContinuedMessage](/Documentation/ApiReference/UI
 Contains the **grouping**.[groupContinuesMessage](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#groupContinuesMessage) if the current group continues on the next page. Otherwise, this field is **undefined**.
 
 ##### field(cellInfo.row): dxDataGridRowObject
+The cell's row.
 
 ##### field(cellInfo.rowIndex): Number
 The index of the row the cell belongs to. Begins with 0 on each page. Group rows are included.      

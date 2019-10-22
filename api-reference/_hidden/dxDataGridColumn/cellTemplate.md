@@ -32,6 +32,7 @@ The cell's display value. Differs from the **value** field only when the column 
 The cell's previous raw value.
 
 ##### field(cellInfo.row): dxDataGridRowObject
+The cell's row.
 
 ##### field(cellInfo.rowIndex): Number
 The index of the cell's row. Begins with 0 on each page. Group rows are included.       

@@ -29,6 +29,7 @@ The data of the cell's row.
 The displayed cell value. Differs from the **value** field only when the column uses [lookup](/api-reference/_hidden/GridBaseColumn/lookup/lookup.md '{basewidgetpath}/Configuration/columns/lookup/') or [calculateDisplayValue](/api-reference/_hidden/GridBaseColumn/calculateDisplayValue.md '{basewidgetpath}/Configuration/columns/#calculateDisplayValue').
 
 ##### field(cellInfo.row): dxDataGridRowObject
+The cell's row.
 
 ##### field(cellInfo.rowIndex): Number
 The index of the row the cell belongs to. Begins with 0 on each page. Group rows are included.      

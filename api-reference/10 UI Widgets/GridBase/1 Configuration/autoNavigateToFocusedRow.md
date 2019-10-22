@@ -5,7 +5,7 @@ default: true
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Scrolls to the focused row automatically when the [focusedRowKey](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#focusedRowKey) is changed.
 
 ---
 <!-- Description goes here -->
