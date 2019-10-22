@@ -4,7 +4,7 @@ type: dxSortable_Options
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Configures item reordering using drag and drop gestures.
 
 ---
-<!-- Description goes here -->
+See the [Sortable configuration](/Documentation/ApiReference/UI_Widgets/dxSortable/Configuration/) for options that you can specify in this object.
