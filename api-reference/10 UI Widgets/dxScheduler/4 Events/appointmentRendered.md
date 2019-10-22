@@ -25,7 +25,7 @@ The widget's instance.
 Model data. Available only if Knockout is used.
 
 ##### field(e.targetedAppointmentData): Object
-The current appointment's data.
+The appointment's data.
 
 ---
 Main article: [onAppointmentRendered](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/onAppointmentRendered.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentRendered')

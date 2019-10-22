@@ -1,4 +1,4 @@
-When a user clicks an appointment, the **Scheduler** shows a tooltip that can be customized. For Angular, AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/'). The following code shows how you can use **dxTemplate** to define templates for tooltips.
+When a user clicks an appointment, the **Scheduler** shows a tooltip that can be customized. For Angular, AngularJS and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code shows how to use **dxTemplate** to define templates for tooltips.
 
 ---
 
@@ -9,9 +9,9 @@ When a user clicks an appointment, the **Scheduler** shows a tooltip that can be
         [dataSource]="schedulerData"
         appointmentTooltipTemplate="tooltipTemplate"
         [currentDate]="currentDate">
-        <div *dxTemplate="let item of 'tooltipTemplate'">
-            <i>{{item.text}} ({{item.year}})</i>
-            <p><img src="{{item.img}}" style="height: 80px"></p>
+        <div *dxTemplate="let model of 'tooltipTemplate'">
+            <i>{{model.appointmentData.text}} ({{model.appointmentData.year}})</i>
+            <p><img src="{{model.appointmentData.img}}" style="height: 80px"></p>
         </div>
     </dx-scheduler>
 
@@ -45,11 +45,11 @@ When a user clicks an appointment, the **Scheduler** shows a tooltip that can be
             dataSource: schedulerData,
             appointmentTooltipTemplate: 'tooltip',
             currentDate: currentDate,
-        }" dx-item-alias="item">
+        }" dx-item-alias="model">
             <div data-options="dxTemplate: { name: 'tooltip' }">
                 <div style="height: 100px">
-                    <i>{{item.text}} ({{item.year}})</i>
-                    <p><img src="{{item.img}}" style="height: 80px"></p>
+                    <i>{{model.appointmentData.text}} ({{model.appointmentData.year}})</i>
+                    <p><img src="{{model.appointmentData.img}}" style="height: 80px"></p>
                 </div>
             </div>
         </div>
@@ -79,8 +79,8 @@ When a user clicks an appointment, the **Scheduler** shows a tooltip that can be
         currentDate: currentDate
     }">
         <div style="height: 100px" data-options="dxTemplate: { name: 'tooltip' }">
-            <i> <span data-bind="text: text"></span>(<span data-bind="text: year"></span>)</i>
-            <p><img style="height: 80px" data-bind="attr: { src: img }" /></p>
+            <i> <span data-bind="text: appointmentData.text"></span>(<span data-bind="text: appointmentData.year"></span>)</i>
+            <p><img style="height: 80px" data-bind="attr: { src: appointmentData.img }" /></p>
         </div>
     </div>
     
@@ -117,9 +117,9 @@ If you use only jQuery, combine HTML markup for tooltips manually with jQuery <a
         $("#schedulerContainer").dxScheduler({
             dataSource: schedulerData,
             currentDate: new Date(2016, 4, 24),
-            appointmentTooltipTemplate: function (data, element) {
-                element.append("<i>" + data.text + "(" + data.year + ")</i>");
-                element.append("<p><img style='height: 80px' src='" + data.img + "' /></p>");
+            appointmentTooltipTemplate: function (model, index, element) {
+                element.append("<i>" + model.appointmentData.text + "(" + model.appointmentData.year + ")</i>");
+                element.append("<p><img style='height: 80px' src='" + model.appointmentData.img + "' /></p>");
             }
         });
     });

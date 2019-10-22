@@ -75,7 +75,7 @@ You can also adjust cells' size in the table and around it using the DevExtreme 
         height: 200px;
     }
 
-For a more detailed customization, define custom templates for cells, time scales, and date scales. DevExtreme provides a markup component called [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') for Angular, AngularJS and Knockout apps. The following code shows how you can use **dxTemplate** to define templates for timetable parts:
+For a more detailed customization, define custom templates for cells, time scales, and date scales. DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component for Angular, AngularJS and Knockout apps. The following code shows how to use **dxTemplate** to define templates for timetable parts:
 
 ---
 
@@ -211,7 +211,7 @@ For a more detailed customization, define custom templates for cells, time scale
 
 ---
 
-If you use jQuery alone, combine the HTML markup for cells, time scales and date scales manually with jQuery <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a>. To apply this markup, use the [timeCellTemplate](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/timeCellTemplate.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#timeCellTemplate'), [dateCellTemplate](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/dateCellTemplate.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#dateCellTemplate') and [dataCellTemplate](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/dataCellTemplate.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#dataCellTemplate') callback functions as shown in the following code:
+If you use jQuery alone, use <a href="http://api.jquery.com/category/manipulation/" target="_blank">DOM manipulation methods</a> to combine the HTML markup for time scales and date scales. To apply this markup, use the [timeCellTemplate](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/timeCellTemplate.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#timeCellTemplate'), [dateCellTemplate](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/dateCellTemplate.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#dateCellTemplate') and [dataCellTemplate](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/dataCellTemplate.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#dataCellTemplate') callback functions as shown in the following code:
 
     <!--JavaScript-->var schedulerData = [{
         text: "His Girl Friday",

@@ -8,13 +8,14 @@ default: 'appointmentTooltip'
 Specifies a custom template for appointment tooltips and appointments in the [appointment collector](/concepts/05%20Widgets/Scheduler/030%20Appointments/080%20Appointment%20Collector.md '/Documentation/Guide/Widgets/Scheduler/Appointments/Appointment_Collector/')'s drop-down list.
 
 ##### param(model): Object
-<!-- Description goes here -->
+The data of the appointment for which the tooltip is displayed.
 
 ##### field(model.appointmentData): Object
-<!-- Description goes here -->
+The appointment's data object.
 
 ##### field(model.targetedAppointmentData): Object
-<!-- Description goes here -->
+The appointment's data object.      
+The difference between this and **appointmentData** fields is explained in the [onAppointmentClick](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentClick) description. 
 
 ##### param(itemIndex): Number
 The appointment's index.

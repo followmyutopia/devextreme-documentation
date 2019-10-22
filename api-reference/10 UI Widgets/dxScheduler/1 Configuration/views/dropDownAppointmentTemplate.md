@@ -9,10 +9,10 @@ dep: dxScheduler.Options.views.appointmentTooltipTemplate
 Specifies a custom template for appointments in the appointment collector's drop-down list.
 
 ##### param(itemData): Object
-The current appointment's object.
+The appointment's object.
 
 ##### param(itemIndex): Number
-The current appointment's index.
+The appointment's index.
 
 ##### param(contentElement): dxElement
 #include common-ref-elementparam with { element: "appointment" }

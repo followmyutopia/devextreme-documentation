@@ -8,16 +8,17 @@ default: 'item'
 Specifies a custom template for appointments.
 
 ##### param(model): Object
-<!-- Description goes here -->
+The data of the appointment being customized.
 
 ##### field(model.appointmentData): Object
-<!-- Description goes here -->
+The appointment's data object.
 
 ##### field(model.targetedAppointmentData): Object
-<!-- Description goes here -->
+The appointment's data object.      
+The difference between this and **appointmentData** fields is explained in the [onAppointmentClick](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentClick) description. 
 
 ##### param(itemIndex): Number
-The current appointment's index.
+The appointment's index.
 
 ##### param(contentElement): dxElement
 <!-- Description goes here -->

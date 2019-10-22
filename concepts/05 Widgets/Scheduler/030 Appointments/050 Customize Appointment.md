@@ -60,7 +60,7 @@ For a minor customization of **Scheduler** appointments, you can use the default
 
 ---
 
-Using the default appointment template is the easiest way to customize an appointment, but it lacks flexibility. Instead, you can define a custom template. For Angular, AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/'). The following code shows how you can use **dxTemplate** to define templates for appointments.
+If you need a more flexible solution, define a custom template. For Angular, AngularJS and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code shows how to use **dxTemplate** to define templates for appointments.
 
 ---
 
@@ -71,9 +71,9 @@ Using the default appointment template is the easiest way to customize an appoin
         [dataSource]="schedulerData"
         appointmentTemplate="appointmentTemplate"
         [currentDate]="currentDate">
-        <div *dxTemplate="let appointment of 'appointmentTemplate'">
-            <i>{{appointment.movie}}</i>
-            <p>Price: ${{appointment.price}}</p>
+        <div *dxTemplate="let model of 'appointmentTemplate'">
+            <i>{{model.appointmentData.movie}}</i>
+            <p>Price: ${{model.appointmentData.price}}</p>
         </div>
     </dx-scheduler>
 
@@ -111,10 +111,10 @@ Using the default appointment template is the easiest way to customize an appoin
             dataSource: schedulerData,
             appointmentTemplate: 'appointment',
             currentDate: currentDate,
-        }" dx-item-alias="item">
+        }" dx-item-alias="model">
             <div data-options="dxTemplate: { name: 'appointment' }">
-                <i>{{item.movie}}</i>
-                <p>Price: ${{item.price}}</p>
+                <i>{{model.appointmentData.movie}}</i>
+                <p>Price: ${{model.appointmentData.price}}</p>
             </div>
         </div>
     </div>
@@ -147,8 +147,8 @@ Using the default appointment template is the easiest way to customize an appoin
         currentDate: currentDate
     }">
         <div data-options="dxTemplate: { name: 'appointment' }">
-            <i data-bind="text: movie"></i>
-            <p>Price: $<span data-bind="text: price"></span></p>
+            <i data-bind="text: appointmentData.movie"></i>
+            <p>Price: $<span data-bind="text: appointmentData.price"></span></p>
         </div>
     </div>
 
@@ -194,9 +194,9 @@ If you use only jQuery, combine HTML markup for appointments manually with jQuer
     $(function () {
         $("#schedulerContainer").dxScheduler({
             dataSource: schedulerData,
-            appointmentTemplate: function (data, index, element) {
-                element.append("<i>" + data.movie + "</i>");
-                element.append("<p>Price: $" + data.price + "</p>");
+            appointmentTemplate: function (model, index, element) {
+                element.append("<i>" + model.appointmentData.movie + "</i>");
+                element.append("<p>Price: $" + model.appointmentData.price + "</p>");
             }
         });
     });

@@ -27,7 +27,7 @@ The widget's instance.
 Model data. Available only if Knockout is used.
 
 ##### field(e.targetedAppointmentData): Object
-The current appointment's data.
+The appointment's data.
 
 ---
 In case of recurring appointments or appointments with multiple resources, you may want to obtain information about the appointment to be rendered, not the initial appointment. For this purpose, use the **targetedAppointmentData** field of the function parameter. Otherwise, use the **appointmentData** field.
