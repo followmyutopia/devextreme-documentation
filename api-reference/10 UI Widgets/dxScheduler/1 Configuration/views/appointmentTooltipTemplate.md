@@ -21,7 +21,7 @@ The difference between this and **appointmentData** fields is explained in the [
 The appointment's index.
 
 ##### param(contentElement): dxElement
-#include common-ref-elementparam with { element: "appointment" }
+#include common-ref-elementparam with { element: "appointment tooltip" }
 
 ##### return: String | Node | jQuery
 A template name or container.
