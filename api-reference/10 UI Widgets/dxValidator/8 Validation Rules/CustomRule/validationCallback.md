@@ -10,13 +10,13 @@ A function that validates the target value.
 An object defining validation parameters.
 
 ##### field(options.column): Object
-<!-- Description goes here -->
+The column to which the cell being validated belongs. Exists only when you validate a built-in editor in the [DataGrid](/api-reference/10%20UI%20Widgets/dxDataGrid/dxDataGrid.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid') or [TreeList](/api-reference/10%20UI%20Widgets/dxTreeList/dxTreeList.md '/Documentation/ApiReference/UI_Widgets/dxTreeList').
 
 ##### field(options.data): Object
-The current row data. Exists only when you validate a [DataGrid](/api-reference/10%20UI%20Widgets/dxDataGrid/dxDataGrid.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid') or [TreeList](/api-reference/10%20UI%20Widgets/dxTreeList/dxTreeList.md '/Documentation/ApiReference/UI_Widgets/dxTreeList') cell's value.
+The current row's data. Exists only when you validate a **DataGrid** or **TreeList** cell's value.
 
 ##### field(options.formItem): Object
-<!-- Description goes here -->
+The form item being validated. Exists only when you validate a built-in editor in the [Form](/Documentation/ApiReference/UI_Widgets/dxForm/) widget.
 
 ##### field(options.rule): Object
 The rule being checked.
@@ -28,7 +28,7 @@ The [Validator](/api-reference/10%20UI%20Widgets/dxValidator/dxValidator.md '/Do
 The validated value.
 
 ##### return: Boolean
-A Boolean value that indicates whether the validated value is valid against the checked rule.
+A Boolean value that indicates whether the value is valid.
 
 ---
 In the following code, only odd numbers are considered valid:

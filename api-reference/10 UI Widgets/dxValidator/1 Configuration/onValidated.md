@@ -17,7 +17,7 @@ The object that represents the first broken rule on the list of specified valida
 An array of [validationRules](/DocumentationApiReference/UI_Widgets/dxValidator/Validation_Rules/) that failed to pass the check.
 
 ##### field(validatedInfo.isValid): Boolean
-Indicates whether all the [rules](/api-reference/10%20UI%20Widgets/dxValidator/1%20Configuration/validationRules.md '/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#validationRules') passed the check.
+Indicates whether the value satisfies all rules.
 
 ##### field(validatedInfo.name): String
 The value of the [name](/api-reference/10%20UI%20Widgets/dxValidator/1%20Configuration/name.md '/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#name') option.

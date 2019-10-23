@@ -10,19 +10,19 @@ Raised after a value is validated.
 Information about the event.
 
 ##### field(validatedInfo.brokenRule): RequiredRule | NumericRule | RangeRule | StringLengthRule | CustomRule | CompareRule | PatternRule | EmailRule | AsyncRule
-The object representing the first broken rule in the list of the specified validation rules.
+An object that represents the first broken rule.
 
 ##### field(validatedInfo.brokenRules): Array<RequiredRule, NumericRule, RangeRule, StringLengthRule, CustomRule, CompareRule, PatternRule, EmailRule, AsyncRule>
-<!-- Description goes here -->
+An array of [validationRules](/DocumentationApiReference/UI_Widgets/dxValidator/Validation_Rules/) that failed.
 
 ##### field(validatedInfo.isValid): Boolean
-Indicates whether all the [rules](/api-reference/10%20UI%20Widgets/dxValidator/1%20Configuration/validationRules.md '/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#validationRules') checked for the value are satisfied.
+Indicates whether the value satisfies all rules.
 
 ##### field(validatedInfo.name): String
 The value of the [name](/api-reference/10%20UI%20Widgets/dxValidator/1%20Configuration/name.md '/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#name') option.
 
 ##### field(validatedInfo.status): 'valid' | 'invalid' | 'pending'
-<!-- Description goes here -->
+Indicates the validation [status](/api-reference/10%20UI%20Widgets/dxValidator/9%20Validation%20Result/status.md '/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Result/#status')
 
 ##### field(validatedInfo.validationRules): Array<RequiredRule, NumericRule, RangeRule, StringLengthRule, CustomRule, CompareRule, PatternRule, EmailRule, AsyncRule>
 An array of the validation rules specified for the current **dxValidator** object.
