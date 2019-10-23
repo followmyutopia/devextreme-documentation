@@ -16,10 +16,10 @@ The input value.
 A read-only parameter providing access to the current row data.
 
 ##### return: void | Promise<void>
-<!-- Description goes here -->
+Return a promise for an asynchronous operation or return nothing.
 
 ---
-Using this function, you can process user input before it is saved to the data source. This function accepts the **newData**, **value** and **currentRowData** parameters. **value** is the user input that you should assign to one of the fields of the **newData**. Initially, **newData** is an empty object. Fill it with fields whose values should be saved in the data object of the current row. **currentRowData** is a read-only parameter used to access the current row data.
+This function allows you to process user input before it is saved to the data source. It accepts the **newData**, **value**, and **currentRowData** parameters. **value** is the user input that you should assign to one of the **newData** fields. Fill the empty **newData** object with fields whose values should be saved in the current row's data object. The read-only **currentRowData** parameter can be used to access the current row's data.
 
 ---
 ##### jQuery
