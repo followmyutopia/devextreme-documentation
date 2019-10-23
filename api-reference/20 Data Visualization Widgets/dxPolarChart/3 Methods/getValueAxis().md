@@ -3,10 +3,9 @@ id: dxPolarChart.getValueAxis()
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Gets a [value axis](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/valueAxis/).
 
 ##### return: chartAxisObject
-<!-- Description goes here -->
+A value axis.
 
 ---
-<!-- Description goes here -->

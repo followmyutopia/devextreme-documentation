@@ -7,34 +7,35 @@ notUsedInTheme:
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+A function that is executed when zooming or panning begins.
 
 ##### param(e): Object
-<!-- Description goes here -->
+Information about the event.
 
 ##### field(e.actionType): 'zoom' | 'pan'
-<!-- Description goes here -->
+Indicates whether the user is zooming or panning the chart.
 
 ##### field(e.axis): chartAxisObject
-<!-- Description goes here -->
+The zoomed/panned axis.
 
 ##### field(e.cancel): Boolean
-<!-- Description goes here -->
+Allows you to cancel zooming or panning.
 
 ##### field(e.component): {WidgetName}
-<!-- Description goes here -->
+The widget's instance.
 
 ##### field(e.element): dxElement
-<!-- Description goes here -->
+#include common-ref-elementparam with { element: "widget" }
 
 ##### field(e.event): event
-<!-- Description goes here -->
+#include common-ref-eventparam
 
 ##### field(e.model): Object
-<!-- Description goes here -->
+The model data. Available only if you use Knockout.
 
 ##### field(e.range): VizRange
-<!-- Description goes here -->
+The [visual range](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/argumentAxis/visualRange/) when zooming or panning starts.
 
 ---
-<!-- Description goes here -->
+#####See Also#####
+- [onZoomEnd](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/#onZoomEnd')
