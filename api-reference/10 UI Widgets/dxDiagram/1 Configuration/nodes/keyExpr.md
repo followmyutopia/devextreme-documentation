@@ -8,5 +8,5 @@ default: 'id'
 Specifies the name of a data source field or an expression that provides node keys.
 
 ##### param(data): Object
-
+The current node's data object.
 ---

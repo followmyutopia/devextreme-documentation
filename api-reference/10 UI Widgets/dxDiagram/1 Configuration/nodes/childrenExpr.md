@@ -8,7 +8,7 @@ default: 'children'
 Specifies the name of a data source field or an expression that provides a container's nested items.
 
 ##### param(data): Object
-<!-- Description goes here -->
+The current node's data object.
 
 ---
 This option is in effect for nodes of the `"verticalContainer"` or `"horizontalContainer"` type.

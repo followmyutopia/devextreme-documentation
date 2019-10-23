@@ -5,7 +5,6 @@ default: true
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
 Specifies whether the Properties panel is available.
 
 ---
