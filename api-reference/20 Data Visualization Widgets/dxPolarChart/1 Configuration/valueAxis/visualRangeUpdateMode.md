@@ -14,7 +14,6 @@ The following modes are available:
 - *"auto"*      
 The applied mode changes depending on the visual range's position on the axis:
     - at the start or middle, then *"keep"*;
-    - at the end, then *"shift"*;
     - if set to view the whole range, then *"reset"* (the visual range remains equal to the whole range).
 
 - *"keep"*      
