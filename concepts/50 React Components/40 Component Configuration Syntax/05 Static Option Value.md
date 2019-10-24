@@ -7,9 +7,7 @@
                 <Button
                     disabled={false}
                     width={50}
-                    text={'Click me'}
-                    // or
-                    // text="Click me"
+                    text="Click me"
                 />
             );
         }

@@ -122,7 +122,7 @@ You can specify most of the [Calendar options](/api-reference/10%20UI%20Widgets/
         render() {
             return (
                 <DateBox
-                    type={'date'}
+                    type="date"
                     pickerType="calendar"
                     calendarOptions={{
                         // The Calendar widget's options go here

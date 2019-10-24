@@ -246,8 +246,8 @@ If a column's [groupInterval](/api-reference/_hidden/GridBaseColumn/headerFilter
                     defaultFilterValue={filterValue}>
                     <HeaderFilter visible={true} />
                     <Column
-                        dataField={'ID'}
-                        dataType={'number'}>
+                        dataField="ID"
+                        dataType="number">
                         <ColumnHeaderFilter groupInterval={100} />
                     </Column>
                 </{WidgetName}>

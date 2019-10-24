@@ -202,19 +202,19 @@ Use the [toolbox](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/t
 
         render() {
             return (
-                <Diagram id={'diagram'} ref={this.diagramRef}>
+                <Diagram id="diagram" ref={this.diagramRef}>
                     <CustomShape
-                    category={'hardware'}
-                    type={'internet'}
-                    title={'Internet'}
-                    backgroundImageUrl={'images/shapes/internet.svg'}
+                    category="hardware"
+                    type="internet"
+                    title="Internet"
+                    backgroundImageUrl="images/shapes/internet.svg"
                     backgroundImageLeft={0.15}
                     backgroundImageTop={0}
                     backgroundImageWidth={0.7}
                     backgroundImageHeight={0.7}
                     defaultWidth={0.75}
                     defaultHeight={0.75}
-                    defaultText={'Internet'}
+                    defaultText="Internet"
                     allowEditText={true}
                     textLeft={0}
                     textTop={0.7}
@@ -227,7 +227,7 @@ Use the [toolbox](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/t
                     </CustomShape>
                     ...
                     <Toolbox>
-                        <Group category={'hardware'} title={'Hardware'} />
+                        <Group category="hardware" title="Hardware" />
                     </Toolbox>
                 </Diagram>
             );
