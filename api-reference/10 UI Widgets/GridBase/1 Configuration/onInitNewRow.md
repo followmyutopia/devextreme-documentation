@@ -29,10 +29,10 @@ Assign a Promise to this field to perform an asynchronous operation, such as a r
 ---
 You can use this function to populate a new row with data. Add fields to the **data** object that correspond to the [data source](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/dataSource.md '{basewidgetpath}/Configuration/#dataSource') object's fields. Note that the **data** object can omit some fields from the data source object. Add only those fields that should initialize specific cells of a new row.
 
-In the following code, the **onInitNewRow** function is used to provide default values for the new row's `hireDate` and `position` cells:
+In the following code, the **onInitNewRow** function is used to provide default values for the new row's `ID`, `hireDate`, and `position` cells. The **promise** parameter is used to obtain values for the `ID` and `position` cell values asynchronously:
 
 ---
-#####jQuery
+##### jQuery
 
     <!-- tab: index.js -->
     $(function() {
@@ -49,12 +49,23 @@ In the following code, the **onInitNewRow** function is used to provide default 
             }, "position" ],
             onInitNewRow: function(e) {
                 e.data.hireDate = new Date();
-                e.data.position = "Programmer";
+                e.promise = getDefaultData().done(function(data) {
+                    e.data.ID = data.ID;
+                    e.data.position = data.Position;
+                });
             }
         });
+        function getDefaultData() {
+            var promise = $.ajax({
+                // The URL returns { ID: 100, Position: "Programmer" }
+                url: "https://www.mywebsite.com/api/getDefaultData", 
+                dataType: "json"
+            });
+            return promise;
+        } 
     })
 
-#####Angular
+##### Angular
 
     <!-- tab: app.component.html -->
     <dx-{widget-name} ...
@@ -82,7 +93,19 @@ In the following code, the **onInitNewRow** function is used to provide default 
         ];
         onInitNewRow(e) {
             e.data.hireDate = new Date();
-            e.data.position = "Programmer";
+            e.promise = this.getDefaultData().then((data: any) => {
+                e.data.ID = data.ID;
+                e.data.position = data.Position;
+            });
+        }
+        getDefaultData() {
+            return this.httpClient.get("https://www.mywebsite.com/api/getDefaultData")
+                .toPromise()
+                .then(data => {
+                    // "data" is { ID: 100, Position: "Programmer" }
+                    return data;
+                }) 
+                .catch(error => { throw 'Data Loading Error' });
         }
     }
 
@@ -106,7 +129,7 @@ In the following code, the **onInitNewRow** function is used to provide default 
     })
     export class AppModule { }
 
-#####Vue
+##### Vue
 
     <!-- tab: App.vue -->
     <template>
@@ -142,13 +165,25 @@ In the following code, the **onInitNewRow** function is used to provide default 
         methods: {
             initNewRow(e) {
                 e.data.hireDate = new Date();
-                e.data.position = "Programmer";
+                e.promise = this.getDefaultData().then(data => {
+                    e.data.ID = data.ID;
+                    e.data.position = data.Position;
+                });
+            }
+            getDefaultData() {
+                return fetch("https://www.mywebsite.com/api/getDefaultData")
+                    .then(response => response.json())
+                    .then((data) => {
+                        // "data" is { ID: 100, Position: "Programmer" }
+                        return data;
+                    })
+                    .catch(() => { throw 'Data Loading Error' });
             }
         }
     };
     </script>
 
-#####React
+##### React
 
     <!-- tab: App.js -->
     import React from 'react';
@@ -169,11 +204,25 @@ In the following code, the **onInitNewRow** function is used to provide default 
         constructor(props) {
             super(props);
             this.onInitNewRow = this.onInitNewRow.bind(this);
+            this.getDefaultData = this.getDefaultData.bind(this);
         }
 
         onInitNewRow(e) {
+            e.promise = this.getDefaultData().then(data => {
+                e.data.ID = data.ID;
+                e.data.position = data.Position;
+            });
             e.data.hireDate = new Date();
-            e.data.position = "Programmer";
+        }
+
+        getDefaultData() {
+            return fetch("https://www.mywebsite.com/api/getDefaultData")
+                .then(response => response.json())
+                .then((data) => {
+                    // "data" is { ID: 100, Position: "Programmer" }
+                    return data;
+                }) 
+                .catch(() => { throw 'Data Loading Error' });
         }
 
         render() {
@@ -190,7 +239,7 @@ In the following code, the **onInitNewRow** function is used to provide default 
     }
     export default App;
 
-#####ASP.NET MVC Controls
+##### ASP.NET MVC Controls
 
     <!--Razor C#-->
     @(Html.DevExtreme().{WidgetName}()
@@ -212,7 +261,18 @@ In the following code, the **onInitNewRow** function is used to provide default 
         ];
         function onInitNewRow(e) {
             e.data.hireDate = new Date();
-            e.data.position = "Programmer";
+            e.promise = getDefaultData().done(data => {
+                e.data.ID = data.ID;
+                e.data.position = data.Position;
+            });
+        }
+        function getDefaultData() {
+            let promise = $.ajax({
+                // The URL returns { ID: 100, Position: "Programmer" }
+                url: "https://www.mywebsite.com/api/getDefaultData",
+                dataType: "json",
+            });
+            return promise;
         }
     </script>
 
