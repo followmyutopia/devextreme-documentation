@@ -5,7 +5,7 @@ type: String
 ---
 ---
 ##### shortDescription
-The marker's state. 
+The marker's state.
 
 ---
 
