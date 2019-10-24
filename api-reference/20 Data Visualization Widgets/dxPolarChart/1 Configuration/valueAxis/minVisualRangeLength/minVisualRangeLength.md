@@ -126,4 +126,4 @@ When you use the widget as an <a href="https://docs.devexpress.com/DevExtremeAsp
 
 #####See Also#####
 - [wholeRange](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/valueAxis/wholeRange/)
-- [visualRangeUpdateMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/valueAxis/wholeRange/#visualRangeUpdateMode)
+- [visualRangeUpdateMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/valueAxis/#visualRangeUpdateMode)
