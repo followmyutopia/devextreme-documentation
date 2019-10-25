@@ -31,17 +31,17 @@ nodes: {
     dataSource: [{  
         "id":"101",
         "text":"Development",
-        "type":"ellipsis"
+        "type":"ellipse"
     },
     {  
         "id":"102",
         "text":"Javascript\nTeam",
-        "type": "ellipsis"
+        "type": "ellipse"
     },
     {  
         "id":"103",
         "text":"ASP.NET\nTeam",
-        "type": "ellipsis"
+        "type": "ellipse"
     },
     {  
         "id":"104",
