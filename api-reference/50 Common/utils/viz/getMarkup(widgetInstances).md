@@ -14,9 +14,6 @@ The widgets' SVG markup. Pass it to the [exportFromMarkup(markup, options)](/api
 The widget instances.
 
 ---
-#include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/ExportSeveralCharts/"
-}
 
 #####See Also#####
 - [svg()](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/3%20Methods/svg().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#svg')
