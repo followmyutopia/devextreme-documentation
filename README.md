@@ -24,7 +24,3 @@ If you spot an error in the docs, you can [create an issue](https://github.com/D
 If you spot an error, and you would like to solve it, fork the repo and submit a pull request. You can find the details in the [Fork a repo](https://help.github.com/articles/fork-a-repo/) and [About pull requests](https://help.github.com/articles/about-pull-requests/) guides.
 
 > Create only one issue or pull request per error or fix. Entries that do not meet this requirement are usually closed.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
