@@ -36,6 +36,6 @@
             }
         },
         palette: "Soft Pastel",
-        title: "Personal income in the US by sex in 2004"
+        title: "Personal income in the US by gender in 2004"
     });
 });
