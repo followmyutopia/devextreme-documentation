@@ -2,6 +2,7 @@
 id: dxHtmlEditor.Options.mediaResizing
 type: dxHtmlEditorMediaResizing
 default: null
+inheritsType: dxHtmlEditorMediaResizing
 ---
 ---
 ##### shortDescription

@@ -28,7 +28,7 @@ In AngularJS and Knockout, use the [dxTemplate](/api-reference/10%20UI%20Widgets
 
     <!--JavaScript-->
     $(function() {
-        $("dataGridContainer").dxDataGrid({
+        $("#dataGridContainer").dxDataGrid({
             // ...
             rowTemplate: function(container, item) {
                 var data = item.data,

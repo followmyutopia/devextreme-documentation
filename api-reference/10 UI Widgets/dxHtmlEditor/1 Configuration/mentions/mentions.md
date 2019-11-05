@@ -2,6 +2,7 @@
 id: dxHtmlEditor.Options.mentions
 type: Array<dxHtmlEditorMention>
 default: null
+inheritsType: dxHtmlEditorMention
 ---
 ---
 ##### shortDescription

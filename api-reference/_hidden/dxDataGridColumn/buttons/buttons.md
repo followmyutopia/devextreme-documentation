@@ -2,6 +2,7 @@
 id: dxDataGridColumn.buttons
 acceptValues: 'cancel' | 'delete' | 'edit' | 'save' | 'undelete'
 type: Array<String, dxDataGridColumnButton>
+inheritsType: dxDataGridColumnButton
 ---
 ---
 ##### shortDescription

@@ -17,7 +17,7 @@ Quill modules and the API you can use to customize them are described in the <a 
 
     <!-- tab: index.js -->
     $(function() {
-        $("htmlEditorContainer").dxHtmlEditor({
+        $("#htmlEditorContainer").dxHtmlEditor({
             // ...
             customizeModules: function(config) {
                 config.history = {

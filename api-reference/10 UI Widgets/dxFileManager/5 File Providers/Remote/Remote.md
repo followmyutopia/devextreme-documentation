@@ -32,7 +32,7 @@ The following code shows how to bind the **FileManager** to the **Remote** file 
 
     <!-- tab: index.js -->
     $(function() {
-        $("fileManagerContainer").dxFileManager({
+        $("#fileManagerContainer").dxFileManager({
             fileProvider: new DevExpress.FileProviders.Remote({
                 endpointUrl: "https://mydomain.com/api/files",
                 thumbnailExpr: "icon",

@@ -25,7 +25,7 @@ In the following code, the **fieldTemplate** is used to stylize the text field w
 
     <!--JavaScript-->
     $(function () {
-        $("dropDownBoxContainer").dxDropDownBox({
+        $("#dropDownBoxContainer").dxDropDownBox({
             // ...
             fieldTemplate: function (value, fieldElement) {
                 var result = $("<div class='custom-item'>");

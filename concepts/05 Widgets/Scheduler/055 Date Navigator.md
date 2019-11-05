@@ -9,7 +9,7 @@ You can specify the range of available dates in the [min](/api-reference/10%20UI
 
     <!-- tab: index.js -->
     $(function() {
-        $("schedulerContainer").dxScheduler({
+        $("#schedulerContainer").dxScheduler({
             // ...
             min: new Date(2018, 2, 3),
             max: new Date(2018, 4, 3)

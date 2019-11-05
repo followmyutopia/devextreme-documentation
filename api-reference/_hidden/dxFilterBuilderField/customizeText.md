@@ -13,7 +13,7 @@ The field's data.
 The unformatted value (as specified using the editor or in the lookup's data source).
 
 ##### field(fieldInfo.valueText): String
-The value with the [format](/api-reference/10%20UI%20Widgets/dxFilterBuilder/5%20Field/format.md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#format') applied.
+The value with the [format](/api-reference/10%20UI%20Widgets/dxFilterBuilder/5%20Field/format.md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/fields/#format') applied.
 
 ##### return: String
 The input value's text.

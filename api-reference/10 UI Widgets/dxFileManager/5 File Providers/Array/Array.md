@@ -19,7 +19,7 @@ The following code shows how to bind the **FileManager** to the **Array** file p
 
     <!-- tab: index.js -->
     $(function() {
-        $("fileManagerContainer").dxFileManager({
+        $("#fileManagerContainer").dxFileManager({
             fileProvider: new DevExpress.FileProviders.Array({
                 data: [ 
                     // ...

@@ -2,6 +2,7 @@
 id: dxFilterBuilder.Options.customOperations
 type: Array<dxFilterBuilderCustomOperation>
 default: []
+inheritsType: dxFilterBuilderCustomOperation
 ---
 ---
 ##### shortDescription

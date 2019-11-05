@@ -2,6 +2,7 @@
 id: dxTreeListColumn.buttons
 acceptValues: 'add' | 'cancel' | 'delete' | 'edit' | 'save' | 'undelete'
 type: Array<String, dxTreeListColumnButton>
+inheritsType: dxTreeListColumnButton
 ---
 ---
 ##### shortDescription

@@ -1,6 +1,7 @@
 ---
 id: dxSankeyLink.connection
 type: dxSankeyConnectionInfoObject
+inheritsType: dxSankeyConnectionInfoObject
 ---
 ---
 ##### shortDescription

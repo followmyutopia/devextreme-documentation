@@ -13,7 +13,7 @@ A key used to authenticate the application within the required map provider.
 
     <!-- tab: index.js -->
     $(function() {
-        $("mapContainer").dxMap({
+        $("#mapContainer").dxMap({
             // ...
             key: {
                 bing: "MY_BING_MAPS_KEY",

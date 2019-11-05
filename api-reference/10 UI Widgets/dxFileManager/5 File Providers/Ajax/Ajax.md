@@ -19,7 +19,7 @@ The following code shows how to bind the **FileManager** to the **Ajax** file pr
 
     <!-- tab: index.js -->
     $(function() {
-        $("fileManagerContainer").dxFileManager({
+        $("#fileManagerContainer").dxFileManager({
             fileProvider: new DevExpress.FileProviders.Ajax({
                 url: "https://mydomain.com/data.json",
                 thumbnailExpr: "icon",

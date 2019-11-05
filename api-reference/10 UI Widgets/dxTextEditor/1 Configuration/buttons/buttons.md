@@ -3,6 +3,7 @@ id: dxTextEditor.Options.buttons
 acceptValues: 'clear'
 type: Array<String, dxTextEditorButton>
 default: undefined
+inheritsType: dxTextEditorButton
 ---
 ---
 ##### shortDescription

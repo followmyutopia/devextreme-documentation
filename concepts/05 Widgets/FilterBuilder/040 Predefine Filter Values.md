@@ -2,7 +2,7 @@ You can limit the available filter values by predefining them in the lookup fiel
 
 ![DevExtreme HTML5 JavaScript Filter Builder Lookup Field](/Content/images/doc/19_2/FilterBuilder/visual_elements/lookup_field.png)
 
-Each lookup field has an individual [data source](/api-reference/10%20UI%20Widgets/dxFilterBuilder/5%20Field/lookup/dataSource.md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/lookup/#dataSource'). It can be a simple array of filter values...
+Each lookup field has an individual [data source](/api-reference/10%20UI%20Widgets/dxFilterBuilder/5%20Field/lookup/dataSource.md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/fields/lookup/#dataSource'). It can be a simple array of filter values...
 
 ---
 ##### jQuery
@@ -126,6 +126,6 @@ Each lookup field has an individual [data source](/api-reference/10%20UI%20Widge
 }
 
 #####See Also#####
-- [lookup](/api-reference/10%20UI%20Widgets/dxFilterBuilder/5%20Field/lookup/lookup.md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/lookup/')
+- [lookup](/api-reference/10%20UI%20Widgets/dxFilterBuilder/5%20Field/lookup/lookup.md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/fields/lookup/')
 
 [tags] filterBuilder, filter builder, lookup field
