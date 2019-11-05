@@ -9,6 +9,9 @@ Raised when the FAB or speed dial action button is clicked or tapped.
 ##### param(e): Object
 Information about the event.
 
+##### field(e.actionElement): dxElement
+<!-- Description goes here -->
+
 ##### field(e.component): {WidgetName}
 The widget's instance.
 

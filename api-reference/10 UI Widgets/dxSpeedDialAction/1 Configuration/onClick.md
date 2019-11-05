@@ -10,6 +10,9 @@ A function that is executed when the FAB or speed dial action button is clicked 
 ##### param(e): Object
 Information about the event that caused the function execution.
 
+##### field(e.actionElement): dxElement
+<!-- Description goes here -->
+
 ##### field(e.component): {WidgetName}
 The widget's instance.
 
