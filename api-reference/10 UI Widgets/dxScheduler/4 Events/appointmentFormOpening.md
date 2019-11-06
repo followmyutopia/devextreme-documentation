@@ -12,6 +12,9 @@ Information about the event.
 ##### field(e.appointmentData): Object
 The data of the appointment for which a form is opened.
 
+##### field(e.cancel): Boolean
+<!-- Description goes here -->
+
 ##### field(e.component): {WidgetName}
 The widget's instance.
 
