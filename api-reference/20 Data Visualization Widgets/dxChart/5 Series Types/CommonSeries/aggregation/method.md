@@ -8,7 +8,9 @@ type: String
 Specifies how to aggregate series points.
 
 ---
-Series points get aggregated by individual [aggregation intervals](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/aggregationInterval/aggregationInterval.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/aggregationInterval/'). The following list describes available aggregation methods per series type:
+Series points are aggregated by individual [aggregation intervals](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/aggregationInterval/aggregationInterval.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/aggregationInterval/') (on [continuous and logarithmic axes](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#type)) or by categories (on discrete axes if [aggregateByCategory](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#aggregateByCategory) is **true**). 
+
+The following list describes available aggregation methods per series type:
 
 - **[Line](/concepts/05%20Widgets/Chart/11%20Series%20Types/10%20Line%20Series.md '/Documentation/Guide/Widgets/Chart/Series_Types/Line_Series/'), [bar](/concepts/05%20Widgets/Chart/11%20Series%20Types/20%20Bar%20Series/Bar%20Series.md '/Documentation/Guide/Widgets/Chart/Series_Types/Bar_Series/'), [area](/concepts/05%20Widgets/Chart/11%20Series%20Types/30%20Area%20Series.md '/Documentation/Guide/Widgets/Chart/Series_Types/Area_Series/'), and [Scatter](/concepts/05%20Widgets/Chart/11%20Series%20Types/40%20Scatter%20Series.md '/Documentation/Guide/Widgets/Chart/Series_Types/Scatter_Series/') series:**     
 

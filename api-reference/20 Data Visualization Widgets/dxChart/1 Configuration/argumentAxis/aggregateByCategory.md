@@ -8,7 +8,11 @@ default: false
 Aggregates series points that fall into the same category.
 
 ---
-[Aggregation](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CommonSeries/aggregation/aggregation.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/aggregation/') by categories can be applied only when the axis displays [categories](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/categories.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#categories'), and each category contains two or more series points. The following code shows an example of a data source that can be aggregated by categories and the **Chart** configuration for this use-case:
+[Aggregation](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CommonSeries/aggregation/aggregation.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/aggregation/') by categories can be applied only when the axis displays [categories](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/categories.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#categories'), and each category contains two or more series points. 
+
+When **aggregateByCategory** is **true**, data is aggregated using the specified [aggregation method](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/aggregation/#method).
+
+The following code shows an example of a data source that can be aggregated by categories and the **Chart** configuration for this use-case:
 
 ---
 ##### jQuery
@@ -226,3 +230,5 @@ Aggregates series points that fall into the same category.
 This code produces the following result:
 
 ![DevExtreme Chart: Aggregate by Category](/Content/images/doc/19_2/ChartJS/chart-aggregateByCategory.png)
+
+If **aggregateByCategory** is **false**, the aggregation methods are not applied. The first series point in each category is displayed instead.

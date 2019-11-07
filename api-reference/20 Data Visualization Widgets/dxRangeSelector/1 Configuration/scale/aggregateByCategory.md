@@ -9,7 +9,11 @@ Aggregates series points that fall into the same category.
 
 ---
 
-[Aggregation](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CommonSeries/aggregation/aggregation.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/chart/series/aggregation/') by categories can be applied only when the scale displays [categories](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/scale/categories.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/#categories'), and each category contains two or more series points. The following code shows an example of a data source that can be aggregated by categories and the **RangeSelector** configuration for this use-case:
+[Aggregation](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CommonSeries/aggregation/aggregation.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/chart/series/aggregation/') by categories can be applied only when the scale displays [categories](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/scale/categories.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/#categories'), and each category contains two or more series points. 
+
+When **aggregateByCategory** is **true**, data is aggregated using the specified [aggregation method](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/chart/series/aggregation/#method).
+
+The following code shows an example of a data source that can be aggregated by categories and the **RangeSelector** configuration for this use-case:
 
 ---
 ##### jQuery
@@ -238,3 +242,5 @@ Aggregates series points that fall into the same category.
 This code produces the following result:
 
 ![DevExtreme RangeSelector: Aggregate by Category](/Content/images/doc/19_2/ChartJS/range-selector-aggregateByCategory.png)
+
+If **aggregateByCategory** is **false**, the aggregation methods are not applied. The first series point in each category is displayed instead.
