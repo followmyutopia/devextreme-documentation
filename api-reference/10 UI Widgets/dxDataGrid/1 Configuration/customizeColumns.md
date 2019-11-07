@@ -51,7 +51,4 @@ Use this function to make minor adjustments to automatically generated columns. 
     </dx-data-grid>
     
 ---
-
-For a more detailed column customization, declare the [columns](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/columns/columns.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/') array.
-
-[note] We do not recommend that you create new columns via **customizeColumns**, because this disables data operations (sorting, filtering, summary) for the created columns. Add them to the **columns** array instead.
+[note] Data operations (sorting, filtering, summary) are unavailable for the columns created via **customizeColumns**. To create a fully functioning column, add it to the [columns](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/columns/columns.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/') array.
