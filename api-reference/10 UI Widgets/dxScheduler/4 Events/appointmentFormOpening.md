@@ -13,7 +13,7 @@ Information about the event.
 The data of the appointment for which a form is opened.
 
 ##### field(e.cancel): Boolean
-<!-- Description goes here -->
+Set this field to **true** to prevent the appointment details form from opening.
 
 ##### field(e.component): {WidgetName}
 The widget's instance.
