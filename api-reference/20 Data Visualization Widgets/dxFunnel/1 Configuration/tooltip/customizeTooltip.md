@@ -29,23 +29,4 @@ The item's [formatted](/api-reference/20%20Data%20Visualization%20Widgets/dxFunn
 The tooltip's text or markup and appearance settings.
 
 ---
-Set this option to a function that returns an object with the following fields:
-
-- **color**        
-Colors the tooltip.
-
-- **text**        
-Specifies the tooltip's text.
-
-- **html**        
-Specifies the HTML markup the tooltip displays.
-
-    [note]If you are going to use external resources (for example, images) in the markup, specify the size of the area they occupy beforehand.
-
-- **fontColor**        
-Colors the tooltip's text.
-
-- **borderColor**        
-Colors the tooltip's border.
-
-#include dataviz-ref-functioncontext
+#include dataviz-customize-tooltip-return

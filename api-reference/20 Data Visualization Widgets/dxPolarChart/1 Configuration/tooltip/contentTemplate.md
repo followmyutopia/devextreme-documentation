@@ -1,10 +1,4 @@
----
-##### merge
-
----
-#include dataviz-customize-tooltip-return
-
-This function's parameter has the following fields:
+You can access the following **pointInfo** object fields:
 
 <div class="simple-table normal-font-style">
     <table class="tooltip-table" style="width:100%">
@@ -42,7 +36,7 @@ This function's parameter has the following fields:
         </tr>
         <tr>
           <td><code>point</code></td>
-          <td>Information on the point being hovered over. To learn more about the field and methods of the point object, refer to the <a href="/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Chart_Elements/Point/">Point</a> topic.</td>
+          <td>Information on the point being hovered over. For more information about the field and the point object's methods, refer to the <a href="/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Chart_Elements/Point/">Point</a> topic.</td>
         </tr>
         <tr>
           <td><code>points</code></td>
@@ -50,8 +44,3 @@ This function's parameter has the following fields:
         </tr>
     </table>
 </div>
-
-#include dataviz-ref-functioncontext
-
-#####See Also#####
-- [Data Formatting](/concepts/05%20Widgets/zz%20Common/10%20Data%20Visualization%20Widgets/30%20Data%20Formatting/Data%20Formatting.md '/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/')

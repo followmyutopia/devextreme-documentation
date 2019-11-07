@@ -23,23 +23,4 @@ The [formatted](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%
 The tooltip's text or markup and color.
 
 ---
-This option should be assigned a function returning a specific object. The following fields can be specified in this object.
-
-- **color**        
-Specifies the color of a tooltip.
-
-- **text**        
-Specifies the text displayed by a tooltip.
-
-- **html**        
-Specifies the HTML markup displayed by a tooltip.
-
-    [note]If you are going to use external resources (for example, images) in the markup, specify the size of the area they will occupy beforehand.
-
-- **fontColor**        
-Specifies the color of the text displayed by a tooltip.
-
-- **borderColor**        
-Specifies the color of the tooltip border.
-
-#include dataviz-ref-functioncontext
+#include dataviz-customize-tooltip-return

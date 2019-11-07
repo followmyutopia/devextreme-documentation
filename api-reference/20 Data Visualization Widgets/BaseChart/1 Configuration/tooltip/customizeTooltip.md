@@ -15,110 +15,200 @@ Information on the series point being pressed or hovered over with the mouse poi
 The tooltip's text or markup and appearance settings.
 
 ---
-This option should be assigned a function returning a specific object. The following fields can be specified in this object.
+#include dataviz-customize-tooltip-return
 
-- **color**        
-Specifies the color of a tooltip.
+The **pointInfo** object has different fields for the different [series types](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/). The following fields are available for all the series types:
 
-- **text**        
-Specifies the text displayed by a tooltip.
+<div class="simple-table normal-font-style">
+    <table class="tooltip-table" style="width:100%">
+        <tr>
+          <th>Field name</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td><code>originalValue</code></td>
+          <td>The value of the represented point as it is set in the data source.</td>
+        </tr>
+        <tr>
+          <td><code>value</code></td>
+          <td>The value of the represented point. Differs from the <b>originalValue</b> when the axis <a href="/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#valueType">value type</a> is specified explicitly. In this instance, the <b>value</b> field contains a value of the specified type.</td>
+        </tr>
+        <tr>
+          <td><code>valueText</code></td>
+          <td>The value of the point being hovered over with applied formatting if the <b>format</b> property is specified</td>
+        </tr>
+        <tr>
+          <td><code>originalArgument</code></td>
+          <td>The argument value of the represented point as it is set in the data source.</td>
+        </tr>
+        <tr>
+          <td><code>argument</code></td>
+          <td>The argument value of the represented point. Differs from the <b>originalArgument</b> when the axis <a href="/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#argumentType">argument type</a> differs from the argument type in the data source. In this instance, <b>argument</b> has the similar type as the argument axis.</td>
+        </tr>
+        <tr>
+          <td><code>argumentText</code></td>
+          <td>The argument value of the represented point with applied formatting if the <b>argumentFormat</b> option is specified.</td>
+        </tr>
+        <tr>
+          <td><code>seriesName</code></td>
+          <td>The series name of the point being hovered over.</td>
+        </tr>
+        <tr>
+          <td><code>point</code></td>
+          <td>Information on the point being hovered over. To learn more about the field and methods of the point object, refer to the <a href="/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/">Point</a> topic.</td>
+        </tr>
+        <tr>
+          <td><code>points</code></td>
+          <td>An array of points with the same argument as the point being hovered over. This field is accessible when the <a href="/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/tooltip/#shared">shared</a> option of the <b>tooltip</b> is set to <b>true</b>.
+        </tr>
+        <tr>
+          <td><code>size</code> (for bubble series only)</td>
+          <td>The size of the bubble being hovered over as it is set in the data source.</td>
+        </tr>
+    </table>
+</div>
 
-- **html**        
-Specifies the HTML markup displayed by a tooltip.
+The followng **pointInfo** fields are available for the stacked-like series such as [full-stacked bar](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedBarSeries/) or [full-stacked area](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedAreaSeries/):
 
-    [note]If you are going to use external resources (for example, images) in the markup, specify the size of the area they will occupy beforehand.
+<div class="simple-table normal-font-style">
+    <table class="tooltip-table" style="width:100%">
+        <tr>
+            <th>Field name</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td><code>percent</code></td>    
+            <td>The percent value of the point being hovered over.</td>
+        </tr>
+        <tr>
+            <td><code>percentText</code></td>     
+            <td>The percent value of the point being hovered over.
+        </tr>
+            <td><code>total</code></td>          
+            <td>The total value of all the points with the same argument as the point being hovered over.
+        <tr>
+            <td><code>totalText</code></td>          
+            <td>The total value of all the points with the same argument as the point being hovered over. This value is displayed with applied formatting if the <b>format</b> option is specified.</td> 
+        </tr>
+    </table>
+</div>
 
-- **fontColor**        
-Specifies the color of the text displayed by a tooltip.
+The followng **pointInfo** fields are available for the range-like series, such as [range area](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/RangeAreaSeries/) or [range bar](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/RangeBarSeries/):
 
-- **borderColor**        
-Specifies the color of the tooltip border.
+<div class="simple-table normal-font-style">
+    <table class="tooltip-table" style="width:100%">
+        <tr>
+            <th>Field name</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td><code>originalMinValue</code></td>        
+            <td>The value of the first range the point being hovered over as it is set in the data source.</td>
+        </tr>
+        <tr>
+            <td><code>rangeValue1</code></td>        
+            <td>The first range value of the point being hovered over. Differs from the <b>originalMinValue</b> when the axis <a href="/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#valueType">value type</a> is specified explicitly. In this instance, the <b>rangeValue1</b> field contains the first range value of the specified type.</td>
+        </tr>
+        <tr>
+            <td><code>rangeValue1Text</code></td>   
+            <td>The first range value of the point being hovered over with applied formatting if the <b>format</b> property is specified.</td>
+        </tr>
+        <tr>
+            <td><code>originalValue</code></td>        
+            <td>The value of the second range the point being hovered over as it is set in the data source.</td>
+        </tr>
+        <tr>
+            <td><code>rangeValue2</code></td>        
+            <td>The second range value of the point being hovered over. Differs from the <b>originalValue</b> when the axis <a href="/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#valueType">value type</a> is specified explicitly. In this instance, the <b>rangeValue2</b> field contains the second range value in the specified type.</td>
+        </tr>
+        <tr>
+            <td><code>rangeValue2Text</code></td>   
+            <td>The second range value of the point being hovered over with applied formatting if the <b>format</b> property is specified.</td>
+        </tr>
+        <tr>
+            <td><code>valueText</code></td>
+            <td>A string that contains the following values of the represented point: <b>rangeValue1Text</b> and <b>rangeValue2Text</b>.    
+                The format of the string is the following: "*%rangeValue1Text%* - *%rangeValue2Text%*".</td>
+        </tr>
+    </table>
+</div>
 
-The function's parameter has the following fields:
+The followng **pointInfo** fields are available for the financial chart series, such as [candle stick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/CandleStickSeries/) or [stock](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/StockSeries/):
 
-* **originalValue**    
-Specifies the value of the currently represented point as it is set in the data source.
-* **value**   
-Specifies the value of the currently represented point. Differs from the **originalValue** when the axis [value type](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis/valueType.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#valueType') is specified explicitly. In this instance, the **value** field contains a value in the specified type.
-* **valueText**   
-Specifies the value of the currently hovered point with applied formatting if the **format** property is specified.
-* **valueText** (for candle stick and stock series)    
-Specifies a string of the values of the currently represented point. This string contains the **highValueText**, **openValueText**, **closeValueText** and **lowValueText** values.    
-The format of the string is the following: "h: *%highValueText%* o: *%openValueText%* c: *%closeValueText%* l: *%lowValueText%*".
-* **valueText** (for range area and range bar series)    
-Specifies a string of the values of the currently represented point. This string contains the **rangeValue1Text** and **rangeValue2Text** values.    
-The format of the string is the following: "*%rangeValue1Text%* - *%rangeValue2Text%*".
-* **originalArgument**    
-Specifies the argument value of the currently represented point as it is set in the data source.
-* **argument**    
-Specifies the argument value of the currently represented point. Differs from the **originalArgument** when the axis' [argument type](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/argumentType.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#argumentType') differs from the argument type in the data source. In this instance, **argument** has the type of the argument axis.
-* **argumentText**   
-Specifies the argument value of the currently hovered point with applied formatting if the **argumentFormat** option is specified.
-* **size** (for bubble series only)   
-Specifies the size of the bubble that is hovered over as it is set in the data source.
-* **seriesName**   
-Specifies the series of the currently hovered point.
-* **point**    
-Provides access to the hovered point. To learn more about the field and methods of the point object, refer to the [Point](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/7%20Chart%20Elements/Point/Point.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/') topic in the "Chart Elements" reference section.
-* **points** (for shared tooltip only)    
-Provides access to the array of points with the same argument as the currently hovered point. This field is accessible when the [shared](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/tooltip/shared.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/tooltip/#shared') option of the **tooltip** object is set to **true**. To learn more about the fields and methods of the point object, refer to the [Point](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/7%20Chart%20Elements/Point/Point.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/') topic in the "Chart Elements" reference section.
-
-The following fields come with the stacked-like series such as [full-stacked bar](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/FullStackedBarSeries/FullStackedBarSeries.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedBarSeries/') or [full-stacked area](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/FullStackedAreaSeries/FullStackedAreaSeries.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedAreaSeries/').
-
-* **percent**    
-Specifies the percent value of the currently hovered point.
-* **percentText**   
-Specifies the percent value of the currently hovered point with **percentPrecision** (optional) applied.
-* **total**        
-Specifies the total value of all the points with the same argument as the currently hovered point.
-* **totalText**        
-Specifies the total value of all the points with the same argument as the currently hovered point. This value is displayed with applied formatting if the **format** option is specified.
-
-The following fields come with the range-like series, such as [range area](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/RangeAreaSeries/RangeAreaSeries.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/RangeAreaSeries/') or [range bar](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/RangeBarSeries/RangeBarSeries.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/RangeBarSeries/').
-
-* **originalMinValue**        
-Specifies the first range value of the currently hovered point as it is set in the data source.
-* **rangeValue1**        
-Specifies the first range value of the currently hovered point. Differs from the **originalMinValue** when the axis [value type](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis/valueType.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#valueType') is specified explicitly. In this instance, the **rangeValue1** field contains the first range value in the specified type.
-* **rangeValue1Text**   
-Specifies the first range value of the currently hovered point with applied formatting if the **format** property is specified.
-* **originalValue**        
-Specifies the second range value of the currently hovered point as it is set in the data source.
-* **rangeValue2**        
-Specifies the second range value of the currently hovered point. Differs from the **originalValue** when the axis [value type](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis/valueType.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#valueType') is specified explicitly. In this instance, the **rangeValue2** field contains the second range value in the specified type.
-* **rangeValue2Text**   
-Specifies the second range value of the currently hovered point with applied formatting if the **format** property is specified.
-
-The following fields come with financial chart series, such as [candle stick](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CandleStickSeries/CandleStickSeries.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/CandleStickSeries/') or [stock](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/StockSeries/StockSeries.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/StockSeries/').
-
-* **originalOpenValue**    
-Specifies the open value of the currently hovered point as it is set in the data source.
-* **openValue**    
-Specifies the open value of the currently hovered point. Differs from the **originalOpenValue** when the value in the data source is not in a numeric format.
-* **openValueText**    
-Specifies the open value of the currently hovered point with applied formatting if the **format** option is specified.
-* **originalCloseValue**    
-Specifies the close value of the currently hovered point as it is set in the data source.
-* **closeValue**    
-Specifies the close value of the currently hovered point. Differs from the **originalCloseValue** when the value in the data source is not in a numeric format.
-* **closeValueText**    
-Specifies the close value of the currently hovered point with applied formatting if the **format** option is specified.
-* **originalHighValue**    
-Specifies the high value of the currently hovered point as it is set in the data source.
-* **highValue**    
-Specifies the high value of the currently hovered point. Differs from the **originalHighValue** when the value in the data source is not in a numeric format.
-* **highValueText**    
-Specifies the high value of the currently hovered point with applied formatting if the **format** option is specified.
-* **originalLowValue**    
-Specifies the low value of the currently hovered point as it is set in the data source.
-* **lowValue**    
-Specifies the low value of the currently hovered point. Differs from the **originalLowValue** when the value in the data source is not in a numeric format.
-* **lowValueText**    
-Specifies the low value of the currently hovered point with applied formatting if the **format** option is specified.
-* **reductionValue**    
-Specifies the reduction value of the currently hovered point.
-* **reductionValueText**    
-Specifies the reduction value of the currently hovered point with applied formatting if the **format** option is specified.
+<div class="simple-table normal-font-style">
+    <table class="tooltip-table" style="width:100%">
+        <tr>
+            <th>Field name</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td><code>originalOpenValue</code></td>   
+            <td>The open value of the point being hovered over as it is set in the data source.</td>
+        </tr>
+        <tr>
+          <td><code>valueText</code></td>
+          <td>A string that contains the following values of the represented point: <b>highValueText</b>, <b>openValueText</b>, <b>closeValueText</b> and <b>lowValueText</b>.
+The format of the string is the following: "h: %highValueText% o: %openValueText% c: %closeValueText% l: %lowValueText%".</td>
+        </tr>
+        <tr>
+            <td><code>openValue</code></td>
+            <td>The open value of the point being hovered over. Differs from the <b>originalOpenValue</b> when the value in the data source is not in a numeric format.</td>
+        </tr>
+        <tr>
+            <td><code>openValueText</code></td>    
+            <td>The open value of the point being hovered over with applied formatting if the <b>format</b> option is specified.</td>
+        </tr>
+        <tr>
+            <td><code>originalCloseValue</code></td>    
+            <td>The close value of the point being hovered over as it is set in the data source.</td>
+        </tr>
+        <tr>
+            <td><code>closeValue</code></td>    
+            <td>The close value of the point being hovered over. Differs from the <b>originalCloseValue</b> when the value in the data source is not in a numeric format.</td>
+        </tr>
+        <tr>
+            <td><code>closeValueText</code></td>    
+            <td>The close value of the point being hovered over with applied formatting if the <b>format</b> option is specified.</td>
+        </tr>
+        <tr>
+            <td><code>originalHighValue</code></td>    
+            <td>The high value of the point being hovered over as it is set in the data source.</td>
+        </tr>
+        <tr>
+            <td><code>highValue</code></td>    
+            <td>The high value of the point being hovered over. Differs from the <b>originalHighValue</b> when the value in the data source is not in a numeric format.</td>
+        </tr>
+        <tr>
+            <td><code>highValueText</code></td>    
+            <td>The high value of the point being hovered over with applied formatting if the <b>format</b> option is specified.</td>
+        </tr>
+        <tr>
+            <td><code>originalLowValue</code></td>    
+            <td>The low value of the point being hovered over as it is set in the data source.</td>
+        </tr>
+        <tr>
+            <td><code>lowValue</code></td>    
+            <td>The low value of the point being hovered over. Differs from the <b>originalLowValue</b> when the value in the data source is not in a numeric format.</td>
+        </tr>
+        <tr>
+            <td><code>lowValueText</code></td>    
+            <td>The low value of the point being hovered over with applied formatting if the <b>format</b> option is specified.</td>
+        </tr>
+        <tr>
+            <td><code>reductionValue</code></td>    
+            <td>The reduction value of the point being hovered over.</td>
+        </tr>
+        <tr>
+            <td><code>reductionValueText</code></td>    
+            <td>The reduction value of the point being hovered over with applied formatting if the <b>format</b> option is specified.</td>
+        </tr>
+    </table>
+</div>
+<style>
+    .tooltip-table tr td:first-child {
+        width: 25%;
+    }
+</style>
 
 #include dataviz-ref-functioncontext
 

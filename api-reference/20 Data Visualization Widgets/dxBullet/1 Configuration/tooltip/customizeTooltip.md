@@ -2,35 +2,34 @@
 ##### merge
 
 ---
-This option should be assigned a function returning a specific object. The following fields can be specified in this object.
-
-- **color**        
-Specifies the [color](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/tooltip/color.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxBullet/Configuration/tooltip/#color') of a tooltip.
-
-- **text**        
-Specifies the text displayed by a tooltip.
-
-- **html**        
-Specifies the HTML markup displayed by a tooltip.
-
-    [note]If you are going to use external resources (for example, images) in the markup, specify the size of the area they will occupy beforehand.
-
-- **fontColor**        
-Specifies the color of the text displayed by a tooltip.
-
-- **borderColor**        
-Specifies the color of the tooltip border.
+#include dataviz-customize-tooltip-return
 
 The function's parameter has the following fields:
 
-- **originalValue**    
-Contains the primary bullet value as it is assigned to the **value** option.
-- **value**   
-Contains the primary bullet value with applied formatting if the **format** option is specified.
-- **originalTarget**    
-Contains the target bullet value as it is assigned to the **target** option.
-- **target**   
-Contains the target bullet value with applied formatting if the **format** option is specified.
+<div class="simple-table normal-font-style">
+    <table class="tooltip-table" style="width:100%">
+        <tr>
+            <th>Field name</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td><code>originalValue</code></td>
+            <td>The primary bullet value as it is assigned to the <a href="/Documentation/ApiReference/Data_Visualization_Widgets/dxBullet/Configuration/#value">value</a> option.</td>
+        </tr>
+        <tr>
+            <td><code>value</code></td>
+            <td>The primary bullet value with applied formatting if the <a href="/Documentation/ApiReference/Data_Visualization_Widgets/dxBullet/Configuration/tooltip/#format">format</a> option is specified.</td>
+        </tr>
+        <tr>
+            <td><code>originalTarget</code></td>
+            <td>The target bullet value as it is assigned to the <a href="/Documentation/ApiReference/Data_Visualization_Widgets/dxBullet/Configuration/#target">target</a> option.</td>
+        </tr>
+        <tr>
+            <td><code>target</code></td>
+            <td>The target bullet value with applied formatting if the <b>format</b> option is specified.</td>
+        </tr>
+    </table>
+</div>
 
 #include dataviz-ref-functioncontext
 

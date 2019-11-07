@@ -23,24 +23,7 @@ The link's weight.
 The current tooltip's text or markup and appearance settings.
 
 ---
-This function should return an object with the following fields:
-
-- **color**        
-Colors the current tooltip.
-
-- **text**        
-Specifies the tooltip's text.
-
-- **html**        
-Specifies the HTML markup the tooltip displays.
-
-    [note] If you are going to use external resources in the markup (for example, images), specify the size of the area they occupy beforehand.
-
-- **fontColor**        
-Colors the tooltip's text.
-
-- **borderColor**        
-Colors the tooltip's border.
+#include dataviz-customize-tooltip-return
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Charts/SankeyChart/"

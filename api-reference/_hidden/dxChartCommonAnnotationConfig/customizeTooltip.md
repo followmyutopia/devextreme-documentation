@@ -15,24 +15,7 @@ The annotation's [configuration object](/api-reference/20%20Data%20Visualization
 The tooltip's text or markup and appearance settings.
 
 ---
-Set this option to a function that returns an object with the following fields:
-
-- **color**        
-Specifies the color that fills the tooltip.
-
-- **text**        
-Specifies the tooltip's text.
-
-- **html**        
-Specifies the HTML markup the tooltip displays.
-
-    [note]If you are going to use external resources (for example, images) in the markup, specify the size of the area they occupy.
-
-- **fontColor**        
-Colors the tooltip's text.
-
-- **borderColor**        
-Colors the tooltip's border.
+#include dataviz-customize-tooltip-return
 
 #include dataviz-ref-functioncontext
 

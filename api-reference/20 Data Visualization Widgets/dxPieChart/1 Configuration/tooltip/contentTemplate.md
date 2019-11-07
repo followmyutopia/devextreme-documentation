@@ -1,10 +1,4 @@
----
-##### merge
-
----
-#include dataviz-customize-tooltip-return
-
-This function's parameter has the following fields:
+You can access the following **pointInfo** object fields:
 
 <div class="simple-table normal-font-style">
     <table class="tooltip-table" style="width:100%">
@@ -42,12 +36,6 @@ This function's parameter has the following fields:
         </tr>
     </table>
 </div>
-
-#include dataviz-ref-functioncontext
-
-#include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/TooltipHtmlSupport/"
-}
 
 #####See Also#####
 - [Data Formatting](/concepts/05%20Widgets/zz%20Common/10%20Data%20Visualization%20Widgets/30%20Data%20Formatting/Data%20Formatting.md '/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/')
