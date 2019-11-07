@@ -14,8 +14,8 @@ The **Scheduler** is a widget that represents scheduled data and allows a user t
     <area target="" alt="Current Time Indicator" title="Current Time Indicator" href="/Documentation/Guide/Widgets/Scheduler/Current_Time_Indication/" coords="226,442,237,443,237,474,249,478,770,478,770,493,240,490,238,499,237,516,227,517,226,477" shape="poly">
     <area target="" alt="Timetable" title="Timetable" href="/Documentation/Guide/Widgets/Scheduler/Timetable/" coords="132,166,231,162,232,313,481,315,483,241,504,242,503,290,761,294,771,365,746,362,747,306,502,302,499,390,628,393,629,475,240,470,240,442,481,439,483,338,233,335,222,427,223,514,133,514" shape="poly">
     <area target="" alt="Timetable" title="Timetable" href="/Documentation/Guide/Widgets/Scheduler/Timetable/" coords="244,495,243,514,769,518,767,498,713,501" shape="poly">
-    <area target="" alt="Drop-Down List" title="Drop-Down List" href="/Documentation/Guide/Widgets/Scheduler/Appointments/Appointment_Collector/" coords="635,464,849,402" shape="rect">
-    <area target="" alt="Appointment Collector" title="Appointment Collector" href="/Documentation/Guide/Widgets/Scheduler/Appointments/Appointment_Collector/" coords="745,385,769,366" shape="rect">
+    <area target="" alt="Drop-Down List" title="Drop-Down List" href="/Documentation/Guide/Widgets/Scheduler/Appointments/Cell_Overflow_Indicator/" coords="635,464,849,402" shape="rect">
+    <area target="" alt="Cell Overflow Indicator" title="Cell Overflow Indicator" href="/Documentation/Guide/Widgets/Scheduler/Appointments/Cell_Overflow_Indicator/" coords="745,385,769,366" shape="rect">
 </map>
 
 #include common-demobutton with {

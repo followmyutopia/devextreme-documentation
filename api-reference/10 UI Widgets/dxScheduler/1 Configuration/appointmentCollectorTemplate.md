@@ -5,29 +5,130 @@ default: 'appointmentCollector'
 ---
 ---
 ##### shortDescription
-Specifies an appointment collector's custom template.
+Specifies a custom template for [cell overflow indicators](/Documentation/Guide/Widgets/Scheduler/Appointments/Cell_Overflow_Indicator/).
 
 ##### param(data): Object
-Information about the appointment collector.
+Information about a cell overflow indicator.
 
 ##### field(data.appointmentCount): Number
-The count of appointments aggregated in the appointment collector.
+The count of hidden appointments.
 
 ##### field(data.isCompact): Boolean
-Indicates whether the appointment collector is compact. See an image below.
+Indicates whether the overflow indicator is [compact](/Documentation/Guide/Widgets/Scheduler/Appointments/Cell_Overflow_Indicator/).
 
 ##### param(collectorElement): dxElement
-#include common-ref-elementparam with { element: "appointment collector" }
+#include common-ref-elementparam with { element: "overflow indicator" }
 
 ##### return: String | Node | jQuery
 A template name or container.
 
 ---
-![Scheduler Appointment Collector](/Content/images/doc/19_2/UiWidgets/Scheduler_Appointment_Collector.png)
-![Scheduler Compact Appointment Collector](/Content/images/doc/19_2/UiWidgets/Scheduler_Appointment_Collector_Compact.png)
+---
+##### jQuery
 
-You can also set a [similar option](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/views/appointmentCollectorTemplate.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/#appointmentCollectorTemplate') for an individual view.
+    <!-- tab: index.js -->
+    $(function() {
+        $("#schedulerContainer").dxScheduler({
+            // ...
+            appointmentCollectorTemplate: function(data, $indicatorElement) {
+                $indicatorElement.append(
+                    // Custom jQuery elements go here
+                )
+                // ===== or =====
+                return /* your markup goes here */
+            }
+        });
+    });
+
+##### Angular
+
+    <!-- tab: app.component.html -->
+    <dx-scheduler ... 
+        appointmentCollectorTemplate="myTemplate">
+        <div *dxTemplate="let data of 'myTemplate'">
+            <!-- your markup goes here -->
+        </div>
+    </dx-scheduler>
+
+    <!-- tab: app.module.ts -->
+    import { BrowserModule } from '@angular/platform-browser';
+    import { NgModule } from '@angular/core';
+    import { AppComponent } from './app.component';
+
+    import { DxSchedulerModule } from 'devextreme-angular';
+
+    @NgModule({
+        declarations: [
+            AppComponent
+        ],
+        imports: [
+            BrowserModule,
+            DxSchedulerModule
+        ],
+        providers: [],
+        bootstrap: [AppComponent]
+    })
+    export class AppModule { }
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-scheduler ...
+            appointment-collector-template="myTemplate">
+            <template #myTemplate="{ data }">
+                <!-- your markup goes here -->
+            </template>
+      </dx-scheduler>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import { DxScheduler } from 'devextreme-vue/scheduler';
+
+    export default {
+        components: {
+            DxScheduler
+        },
+        data() {
+            return {
+                // ...
+            }
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import { Scheduler } from 'devextreme-react/scheduler';
+
+    const renderCellOverflowIndicator = (data) => {
+        return (
+            {/* your markup goes here */}
+        );
+    }
+
+    class App extends React.Component {
+        render() {
+            return (
+                <Scheduler ...
+                    appointmentCollectorRender={renderCellOverflowIndicator}
+                />
+            );
+        }
+    }
+
+    export default App;
+
+---
 
 #####See Also#####
-- [Appointment Collector](/concepts/05%20Widgets/Scheduler/030%20Appointments/080%20Appointment%20Collector.md '/Documentation/Guide/Widgets/Scheduler/Appointments/Appointment_Collector/')
-- [dropDownAppointmentTemplate](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/dropDownAppointmentTemplate.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#dropDownAppointmentTemplate')
+- **views[]**.[appointmentCollectorTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/#appointmentCollectorTemplate)

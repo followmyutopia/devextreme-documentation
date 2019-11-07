@@ -2,14 +2,14 @@ The **day** view displays appointments for a specified date. The **Scheduler** w
 
 ![Day View](/Content/images/doc/19_2/UiWidgets/Scheduler_Day_View.png)
 
-All-day appointments are displayed on the all-day panel. You can set an appointment limit on this panel using the [maxApointmentsPerCell](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/maxAppointmentsPerCell.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#maxAppointmentsPerCell') option. Appointments are sent to an appointment collector when this limit is exceeded. If appointments in the collector are associated with the same resource, the collector is colored like this resource. Otherwise, the collector has a default color.
+All-day appointments are displayed on the All-day panel. You can set an appointment limit on this panel using the [maxAppointmentsPerCell](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#maxAppointmentsPerCell) option. Appointments that exceed this limit are hidden, and a [cell overflow indicator](/Documentation/Guide/Widgets/Scheduler/Appointments/Cell_Overflow_Indicator/) is displayed instead. If hidden appointments are associated with the same resource, the indicator will have the same color as this resource. Otherwise, the indicator has a default color.
 
-![Appointment Collector](/Content/images/doc/19_2/UiWidgets/Scheduler_Day_Appointment_Collector.png)
+![Scheduler: Cell overflow indicator on a day view](/Content/images/doc/19_2/UiWidgets/scheduler-day-view-cell-overflow-indicator.png)
 
-A user can click the appointment collector to view the removed appointments. 
+A user can click the cell overflow indicator to view the hidden appointments. 
 
 ![Drop-down List of Appointments](/Content/images/doc/19_2/UiWidgets/Scheduler_Day_DropDown_List.png)
 
-Resource headers are displayed above the all-day panel when you [group appointments by resources](/concepts/05%20Widgets/Scheduler/040%20Resources/030%20Group%20Appointments%20by%20Resources.md '/Documentation/Guide/Widgets/Scheduler/Resources/Group_Appointments_by_Resources/').
+Resource headers are displayed above the All-day panel when you [group appointments by resources](/concepts/05%20Widgets/Scheduler/040%20Resources/030%20Group%20Appointments%20by%20Resources.md '/Documentation/Guide/Widgets/Scheduler/Resources/Group_Appointments_by_Resources/').
 
 ![Resource headers](/Content/images/doc/19_2/UiWidgets/Scheduler_Day_Resource_Headers.png)

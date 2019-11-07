@@ -38,7 +38,7 @@ A template name or container.
 
     <!-- tab: app.component.html -->
     <dx-button-group ... 
-        itemTemplate="myTemplate">
+        buttonTemplate="myTemplate">
         <div *dxTemplate="let buttonData of 'myTemplate'">
             <!-- your markup goes here -->
         </div>
@@ -69,7 +69,7 @@ A template name or container.
     <!-- tab: App.vue -->
     <template>
         <dx-button-group ...
-            item-template="myTemplate">
+            button-template="myTemplate">
             <template #myTemplate="{ data }">
                 <!-- your markup goes here -->
             </template>

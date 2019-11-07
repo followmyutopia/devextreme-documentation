@@ -64,4 +64,4 @@ To mark an appointment as all-day in the UI, toggle the *"All day"* switcher on 
 
 ![Scheduler All Day Appointment Details](/Content/images/doc/19_2/UiWidgets/Scheduler_AllDayAppointment_Details.png)
 
-All-day appointments are displayed in the all-day panel, which is visible by default. If you are not using such appointments, hide the all-day panel along with all-day appointments by assigning **false** to the [showAllDayPanel](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/showAllDayPanel.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#showAllDayPanel') option.
+All-day appointments are displayed in the All-day panel, which is visible by default. If you are not using such appointments, hide the All-day panel along with all-day appointments by assigning **false** to the [showAllDayPanel](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/showAllDayPanel.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#showAllDayPanel') option.
