@@ -80,7 +80,7 @@ Axes can be relocated to their opposite side using the [position](/api-reference
 
 ---
 
-![DevExtreme HTML5 JavaScript Charts ArgumentAxis ValueAxis](/Content/images/doc/19_2/ChartJS/visual_elements/axes_relocated.png)
+![DevExtreme HTML5 JavaScript Charts ArgumentAxis ValueAxis](/images/ChartJS/visual_elements/axes_relocated.png)
 
 #####See Also#####
 - [Axis Titles](/concepts/05%20Widgets/Chart/20%20Axes/25%20Axis%20Titles.md '/Documentation/Guide/Widgets/Chart/Axes/Axis_Titles/')

@@ -8,4 +8,4 @@ default: 5
 Specifies the spacing between an axis and its labels in pixels.
 
 ---
-![IdentFromAxis ChartJS](/Content/images/doc/19_2/ChartJS/PolarIndentFromAxis.png)
+![IdentFromAxis ChartJS](/images/ChartJS/PolarIndentFromAxis.png)

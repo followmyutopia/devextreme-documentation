@@ -7,7 +7,7 @@ type: Object
 Specifies the appearance of those constant lines that belong to the value axis.
 
 ---
-![DevExtreme HTML5 Charts ConstantLines](/Content/images/doc/19_2/ChartJS/visual_elements/constant_lines.png)
+![DevExtreme HTML5 Charts ConstantLines](/images/ChartJS/visual_elements/constant_lines.png)
 
 #####See Also#####
 - **valueAxis**.[constantLines[]](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/constantLines/) - configures individual constant lines. Overrides the options of the **valueAxis**.**constantLineStyle** object, which is described here.

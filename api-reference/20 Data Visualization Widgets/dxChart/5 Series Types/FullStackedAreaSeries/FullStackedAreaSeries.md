@@ -18,4 +18,4 @@ Describes settings supported by a series of the *full-stacked area* type.
     url: "/Demos/WidgetsGallery/Demo/Charts/Area/"
 }
 
-![DevExtreme HTML5 Charts FullStackedAreaSeriesType](/Content/images/doc/19_2/ChartJS/FullStackedArea.png)
+![DevExtreme HTML5 Charts FullStackedAreaSeriesType](/images/ChartJS/FullStackedArea.png)

@@ -7,7 +7,7 @@ type: Object
 Generates space around the widget.
 
 ---
-![WidgetMargin DevExtreme ChartJS](/Content/images/doc/19_2/ChartJS/WidgetMargin.png)
+![WidgetMargin DevExtreme ChartJS](/images/ChartJS/WidgetMargin.png)
 
 ---
 ##### jQuery

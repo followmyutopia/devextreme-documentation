@@ -1,6 +1,6 @@
 A tooltip is a small pop-up rectangle that displays information about a sankey node or link when it is hovered over or pressed.
 
-![Sankey Tooltip](/Content/images/doc/19_2/Sankey/visual_elements/tooltip.png)
+![Sankey Tooltip](/images/Sankey/visual_elements/tooltip.png)
 
 Options that configure tooltips are collected in the [tooltip](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/tooltip/tooltip.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/tooltip/') object. If you want to customize a specific tooltip, assign a function to the [customizeNodeTooltip](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/tooltip/customizeNodeTooltip.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/tooltip/#customizeNodeTooltip') or [customizeLinkTooltip](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/tooltip/customizeLinkTooltip.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/tooltip/#customizeLinkTooltip') option, depending on whether the tooltip belongs to a sankey node or link. This function should return a configuration object for the tooltip you want to customize.
 

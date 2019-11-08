@@ -1,6 +1,6 @@
 Title and subtitle are textual elements that give an idea of what the **PieChart** visualizes.
 
-![DevExtreme HTML5 JavaScript PieChart Title Subtitle](/Content/images/doc/19_2/PieChart/visual_elements/chart_title.png)
+![DevExtreme HTML5 JavaScript PieChart Title Subtitle](/images/PieChart/visual_elements/chart_title.png)
 
 The title is configured by the [title](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/title/title.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/title/') object. The subtitle is configured by the [subtitle](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/title/subtitle/subtitle.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/title/subtitle/') object nested in the **title** object.
 

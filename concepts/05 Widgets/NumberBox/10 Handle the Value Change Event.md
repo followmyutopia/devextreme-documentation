@@ -100,7 +100,7 @@ If you are going to change event handlers at runtime, or if you need to attach s
 #####See Also#####
 #include common-link-handleevents
 - [NumberBox - Control the Behavior](/concepts/05%20Widgets/NumberBox/15%20Control%20the%20Behavior.md '/Documentation/Guide/Widgets/NumberBox/Control_the_Behavior')
-- [NumberBox Demos](/Demos/WidgetsGallery/Demo/NumberBox/Overview/)
+- [NumberBox Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/NumberBox/Overview/)
 - [NumberBox API Reference](/api-reference/10%20UI%20Widgets/dxNumberBox/dxNumberBox.md '/Documentation/ApiReference/UI_Widgets/dxNumberBox/')
 
 [tags]number box, numberBox, editor, get value, set value, change value, valueChangeEvent, valueChanged

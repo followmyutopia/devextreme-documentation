@@ -135,7 +135,7 @@ If you are going to change event handlers at runtime, or if you need to attach s
 #####See Also#####
 #include common-link-handleevents
 - [TextBox - Handle the Keyboard Events](/concepts/05%20Widgets/TextBox/13%20Handle%20the%20Keyboard%20Events.md '/Documentation/Guide/Widgets/TextBox/Handle_the_Keyboard_Events/')
-- [TextBox Demos](/Demos/WidgetsGallery/Demo/TextBox/Overview/)
+- [TextBox Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/TextBox/Overview/)
 - [TextBox API Reference](/api-reference/10%20UI%20Widgets/dxTextBox/dxTextBox.md '/Documentation/ApiReference/UI_Widgets/dxTextBox/')
 
 [tags]textBox, text box, editor, get value, set value, change value, valueChangeEvent, valueChanged

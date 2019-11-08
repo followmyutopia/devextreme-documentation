@@ -4,7 +4,7 @@ The **Print** command opens the browser's **Print** window. This window allows a
 
 The other commands save a file in the selected format on the user's device.
 
-![Sankey Export Menu](/Content/images/doc/19_2/Sankey/visual_elements/export-menu.png)
+![Sankey Export Menu](/images/Sankey/visual_elements/export-menu.png)
 
 Set [export](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/export/export.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/export/').**enabled** to **true** to enable exporting and printing. To allow a user to only export, assign **false** to **export**.[printingEnabled](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/export/printingEnabled.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/export/#printingEnabled').
 

@@ -1,6 +1,6 @@
 The legend is a component that helps a user identify series points. It contains several colored items, one per point (or per several points with the same argument in a multi-series **PieChart**). 
 
-![DevExtreme HTML5 JavaScript PieChart Legend](/Content/images/doc/19_2/PieChart/visual_elements/legend.png)
+![DevExtreme HTML5 JavaScript PieChart Legend](/images/PieChart/visual_elements/legend.png)
 
 To configure the appearance, location, and content of the legend, use options collected in the [legend](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart/1%20Configuration/legend/legend.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/legend/') object. 
 

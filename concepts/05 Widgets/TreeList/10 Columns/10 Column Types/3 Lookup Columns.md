@@ -1,6 +1,6 @@
 A lookup column is a special case of [data columns](/concepts/05%20Widgets/TreeList/10%20Columns/10%20Column%20Types/1%20Data%20Columns.md '/Documentation/Guide/Widgets/TreeList/Columns/Column_Types/#Data_Columns'). A lookup column contains a restricted set of values. It is useful for filtering and, often, editing.
 
-![DevExtreme HTML5 JavaScript TreeList LookupColumns](/Content/images/doc/19_2/treelist/visual_elements/column-types_lookup.png)
+![DevExtreme HTML5 JavaScript TreeList LookupColumns](/images/treelist/visual_elements/column-types_lookup.png)
 
 Each lookup column has an individual [data source](/api-reference/_hidden/GridBaseColumn/lookup/dataSource.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/lookup/#dataSource') - a collection of objects that map the column's actual values to display values...
 
@@ -125,6 +125,6 @@ Each cell in the lookup column is based on the [SelectBox](/concepts/05%20Widget
 #####See Also#####
 - [Bind a Lookup Column to a Custom Data Source](/concepts/05%20Widgets/TreeList/99%20How%20To/Bind%20a%20Lookup%20Column%20to%20a%20Custom%20Data%20Source.md '/Documentation/Guide/Widgets/TreeList/How_To/Bind_a_Lookup_Column_to_a_Custom_Data_Source/')
 - [lookup](/api-reference/_hidden/GridBaseColumn/lookup/lookup.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/lookup/')
-- [TreeList Demos](/Demos/WidgetsGallery/Demo/Tree_List/UsingFilterRow/)
+- [TreeList Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/UsingFilterRow/)
 
 [tags] treelist, tree list, column types, lookup columns

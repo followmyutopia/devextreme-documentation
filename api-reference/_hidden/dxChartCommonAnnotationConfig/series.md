@@ -27,7 +27,7 @@ For example, the following chart displays two series and an annotation. The anno
         argument: "B"
     }]
 
-![DevExtreme Chart: Positioning an annotation relative to an argument](/Content/images/doc/19_2/ChartJS/visual_elements/annotation-positioned-against-argument.png)
+![DevExtreme Chart: Positioning an annotation relative to an argument](/images/ChartJS/visual_elements/annotation-positioned-against-argument.png)
 
 To anchor the annotation to one of these series points, specify the annotation's **series**. For instance, the following code anchors the annotation to the point of `Series 1`:
 
@@ -38,7 +38,7 @@ To anchor the annotation to one of these series points, specify the annotation's
         series: "Series 1"
     }]
 
-![DevExtreme Chart: An annotation anchored to a series point](/Content/images/doc/19_2/ChartJS/visual_elements/annotation-positioned-against-series1.png)
+![DevExtreme Chart: An annotation anchored to a series point](/images/ChartJS/visual_elements/annotation-positioned-against-series1.png)
 
 #####See Also#####
 - [x](/api-reference/_hidden/dxChartCommonAnnotationConfig/x.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#x') | [y](/api-reference/_hidden/dxChartCommonAnnotationConfig/y.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#y')

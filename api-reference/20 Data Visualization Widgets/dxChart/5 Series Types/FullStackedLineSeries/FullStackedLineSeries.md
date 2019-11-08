@@ -18,4 +18,4 @@ Describes settings supported by a series of the *full-stacked line* type.
     url: "/Demos/WidgetsGallery/Demo/Charts/Line/"
 }
 
-![DevExtreme HTML5 Charts FullStackedLineSeriesType](/Content/images/doc/19_2/ChartJS/FullStackedLine.png)
+![DevExtreme HTML5 Charts FullStackedLineSeriesType](/images/ChartJS/FullStackedLine.png)

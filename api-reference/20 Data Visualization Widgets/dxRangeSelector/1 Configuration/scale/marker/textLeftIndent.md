@@ -8,4 +8,4 @@ default: 7
 Specifies the space between the marker label and the marker separator.
 
 ---
-![RangeSelectorScaleMarkerTextLeftIndent ChartJS](/Content/images/doc/19_2/ChartJS/RangeSelectorScaleMarkerTextLeftIndent.png)
+![RangeSelectorScaleMarkerTextLeftIndent ChartJS](/images/ChartJS/RangeSelectorScaleMarkerTextLeftIndent.png)

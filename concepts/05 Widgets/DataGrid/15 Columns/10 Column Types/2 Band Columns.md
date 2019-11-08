@@ -1,6 +1,6 @@
 Unlike [data columns](/concepts/05%20Widgets/DataGrid/15%20Columns/10%20Column%20Types/1%20Data%20Columns.md '/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/#Data_Columns'), band columns do not hold any data. Instead, they collect two or more data columns under one column header. 
 
-![DevExtreme HTML5 JavaScript DataGrid BandColumns MultiRowHeaders BandedLayout](/Content/images/doc/19_2/DataGrid/BandColumns.png)
+![DevExtreme HTML5 JavaScript DataGrid BandColumns MultiRowHeaders BandedLayout](/images/DataGrid/BandColumns.png)
 
 To set up this layout, describe the hierarchy of columns directly in an object of the [columns](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/columns/columns.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/') array. For example, the following code bands three columns under the *"Contacts"* header.
 

@@ -32,7 +32,7 @@ If you are going to change event handlers at runtime, or if you need to attach s
 
 #####See Also#####
 #include common-link-handleevents
-- [Slider Demos](/Demos/WidgetsGallery/Demo/Slider/Overview/)
+- [Slider Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Slider/Overview/)
 - [Slider API Reference](/api-reference/10%20UI%20Widgets/dxSlider/dxSlider.md '/Documentation/ApiReference/UI_Widgets/dxSlider/')
 
 [tags]slider, editor, get value, set value

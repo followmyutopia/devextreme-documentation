@@ -1,6 +1,6 @@
 Each [major scale tick](/concepts/05%20Widgets/RangeSelector/10%20Visual%20Elements/10%20Scale/20%20Major%20Scale%20Ticks.md '/Documentation/Guide/Widgets/RangeSelector/Visual_Elements/#Scale/Major_Scale_Ticks') is accompanied with a scale label. This label displays the value of the tick.
 
-![ChartJS RangeSelector](/Content/images/doc/19_2/ChartJS/RangeSelectorScaleLabels.png)
+![ChartJS RangeSelector](/images/ChartJS/RangeSelectorScaleLabels.png)
 
 To customize scale labels, use the options of the [label](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/scale/label/label.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/label/') configuration object.
 

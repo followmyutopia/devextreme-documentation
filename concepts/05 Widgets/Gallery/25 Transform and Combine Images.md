@@ -159,7 +159,7 @@ The **Gallery** widget allows you to display not only the current image, but als
 
 #####See Also#####
 - [Gallery - Customize Item Appearance](/concepts/05%20Widgets/Gallery/30%20Customize%20Item%20Appearance.md '/Documentation/Guide/Widgets/Gallery/Customize_Item_Appearance/')
-- [Gallery Demos](/Demos/WidgetsGallery/Demo/Gallery/Overview/)
+- [Gallery Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Gallery/Overview/)
 - [Gallery API Reference](/api-reference/10%20UI%20Widgets/dxGallery/dxGallery.md '/Documentation/ApiReference/UI_Widgets/dxGallery/')
 
 [tags]gallery, item width, show several images, stretch image

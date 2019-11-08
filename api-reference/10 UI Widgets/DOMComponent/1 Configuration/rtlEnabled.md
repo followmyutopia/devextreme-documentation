@@ -15,4 +15,4 @@ When this option is set to **true**, the widget text flows from right to left, a
     });
 
 #####See Also#####
-- **Right-to-Left Support Demo**: [DataGrid](/Demos/WidgetsGallery/Demo/DataGrid/RightToLeftSupport/) | [Navigation Widgets](/Demos/WidgetsGallery/Demo/Common/NavigationRightToLeftSupport/) | [Editors](/Demos/WidgetsGallery/Demo/Common/EditorsRightToLeftSupport/)
+- **Right-to-Left Support Demo**: [DataGrid](http://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/RightToLeftSupport/) | [Navigation Widgets](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Common/NavigationRightToLeftSupport/) | [Editors](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Common/EditorsRightToLeftSupport/)

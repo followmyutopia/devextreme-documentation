@@ -18,4 +18,4 @@ Describes settings supported by a series of the *scatter* type.
     url: "/Demos/WidgetsGallery/Demo/Charts/Scatter/"
 }
 
-![DevExtreme HTML5 Charts ScatterSeriesType](/Content/images/doc/19_2/ChartJS/Scatter.png)
+![DevExtreme HTML5 Charts ScatterSeriesType](/images/ChartJS/Scatter.png)

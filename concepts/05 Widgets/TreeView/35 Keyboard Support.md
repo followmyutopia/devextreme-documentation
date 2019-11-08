@@ -105,7 +105,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
 #####See Also#####
 #include common-link-callmethods
-- [TreeView Demos](/Demos/WidgetsGallery/Demo/TreeView/HierarchicalDataStructure/)
+- [TreeView Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/TreeView/HierarchicalDataStructure/)
 - [TreeView API Reference](/api-reference/10%20UI%20Widgets/dxTreeView/dxTreeView.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/')
 
 [tags]treeview, tree view, navigation, accessibility, keyboard shortcuts

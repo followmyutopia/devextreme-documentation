@@ -1,6 +1,6 @@
 A *step line* series type sparkline presents data as a line that connects a set of invisible points by using horizontal and vertical lines. This resulting sparkline resembles a series of steps.
 
-![DevExtreme ChartJS Sparkline](/Content/images/doc/19_2/ChartJS/SparklineStepLine.png)
+![DevExtreme ChartJS Sparkline](/images/ChartJS/SparklineStepLine.png)
 
 To specify the *step line* series type, assign *'stepline'* to the [type](/api-reference/20%20Data%20Visualization%20Widgets/dxSparkline/1%20Configuration/type.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSparkline/Configuration/#type') option of the main configuration object.
 

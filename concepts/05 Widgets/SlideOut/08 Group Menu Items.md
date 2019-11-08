@@ -47,7 +47,7 @@ In some cases, you may need to define a custom template for group headers, for e
 
 #####See Also#####
 - [SlideOut - Customize Menu Items](/concepts/05%20Widgets/SlideOut/05%20Customize%20Menu%20Items.md '/Documentation/Guide/Widgets/SlideOut/Customize_Menu_Items')
-- [SlideOut Demos](/Demos/WidgetsGallery/Demo/Slideout/Overview/)
+- [SlideOut Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Slideout/Overview/)
 - [SlideOut API Reference](/api-reference/10%20UI%20Widgets/dxSlideOut/dxSlideOut.md '/Documentation/ApiReference/UI_Widgets/dxSlideOut/')
 
 [tags]slide-out menu, slideOut, group appearance, customize, templates

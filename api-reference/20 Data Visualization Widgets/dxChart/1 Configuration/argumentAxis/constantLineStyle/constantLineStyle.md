@@ -7,7 +7,7 @@ type: Object
 Specifies the appearance of those constant lines that belong to the argument axis.
 
 ---
-![DevExtreme HTML5 Charts ConstantLines](/Content/images/doc/19_2/ChartJS/visual_elements/constant_lines.png)
+![DevExtreme HTML5 Charts ConstantLines](/images/ChartJS/visual_elements/constant_lines.png)
 
 #####See Also#####
 - **argumentAxis**.[constantLines[]](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/constantLines/) - configures individual constant lines. Overrides the options of the **argumentAxis**.**constantLineStyle** object, which is described here.

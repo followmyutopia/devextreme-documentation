@@ -15,7 +15,7 @@ Specifies the allowed upload file extensions.
 
 The **FileManager** widget cannot upload a file and displays an error message when the file's extension is not allowed.
 
-![DevExtreme File Manager - Allowed File Extension](/Content/images/doc/19_2/FileManager/allowed-file-extension-error-message.png)
+![DevExtreme File Manager - Allowed File Extension](/images/FileManager/allowed-file-extension-error-message.png)
 
 ---
 

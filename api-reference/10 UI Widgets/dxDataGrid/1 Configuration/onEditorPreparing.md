@@ -235,7 +235,7 @@ Use this function to:
 
 - Replace the default editor. The old editor's configuration applies to the replacement editor. To define the configuration from scratch, use an [editCellTemplate](/api-reference/_hidden/dxDataGridColumn/editCellTemplate.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#editCellTemplate').
     
-    In the following code, the DevExtreme [TextArea](/Demos/WidgetsGallery/Demo/TextArea/Overview/) widget is the replacement editor:
+    In the following code, the DevExtreme [TextArea](http://js.devexpress.com/Demos/WidgetsGallery/Demo/TextArea/Overview/) widget is the replacement editor:
 
     ---
     ##### jQuery

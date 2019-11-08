@@ -4,7 +4,7 @@ Although regular series points cannot be indicated on a sparkline, certain serie
 
 [note]In *bar* and *win-loss* series, extreme points are represented by bars.
 
-![DevExtreme ChartJS Sparkline](/Content/images/doc/19_2/ChartJS/SparklineExtremePoints.png)
+![DevExtreme ChartJS Sparkline](/images/ChartJS/SparklineExtremePoints.png)
 
 To make the maximum and minimum series points indicated on a sparkline, set the [showMinMax](/api-reference/20%20Data%20Visualization%20Widgets/dxSparkline/1%20Configuration/showMinMax.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSparkline/Configuration/#showMinMax') option to **true**.
 

@@ -18,4 +18,4 @@ An object defining a series of the **scatter** type.
     url: "/Demos/WidgetsGallery/Demo/Charts/DiscreteData/"
 }
 
-![PolarScatterSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/PolarScatter_useSpiderWeb.png)
+![PolarScatterSeriesType ChartJS](/images/ChartJS/PolarScatter_useSpiderWeb.png)

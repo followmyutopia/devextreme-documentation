@@ -9,7 +9,7 @@ Configures the minor grid.
 ---
 In addition to the [major grid](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonAxisSettings/grid/grid.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/grid/') built on major ticks, the **Chart** widget provides the minor grid built on minor ticks.
 
-![DevExtreme HTML5 Charts MinorGridLines](/Content/images/doc/19_2/ChartJS/visual_elements/minor_grid_lines.png)
+![DevExtreme HTML5 Charts MinorGridLines](/images/ChartJS/visual_elements/minor_grid_lines.png)
 
 [note]Neither minor ticks, nor the minor grid can be displayed if the axis is of the *"discrete"* type.
 

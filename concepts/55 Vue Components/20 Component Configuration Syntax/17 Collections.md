@@ -1,4 +1,4 @@
-Use nested configuration components. The following example shows how to configure the [DataGrid](/Demos/WidgetsGallery/Demo/DataGrid/Overview/Vue/Light/) widget's [columns](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/columns/columns.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/') option:
+Use nested configuration components. The following example shows how to configure the [DataGrid](http://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/Overview/Vue/Light/) widget's [columns](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/columns/columns.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/') option:
 
     <!-- tab: App.vue -->
     <template>

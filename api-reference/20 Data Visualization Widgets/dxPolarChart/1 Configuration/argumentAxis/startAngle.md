@@ -8,4 +8,4 @@ default: 0
 Specifies the angle in arc degrees to which the argument axis should be rotated. The positive values rotate the axis clockwise.
 
 ---
-![Start Angle ChartJS](/Content/images/doc/19_2/ChartJS/PolarChartStartAngle.png)
+![Start Angle ChartJS](/images/ChartJS/PolarChartStartAngle.png)

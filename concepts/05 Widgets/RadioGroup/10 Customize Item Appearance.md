@@ -107,7 +107,7 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 
 #####See Also#####
 - [RadioGroup - Handle the Value Change Event](/concepts/05%20Widgets/RadioGroup/05%20Handle%20the%20Value%20Change%20Event.md '/Documentation/Guide/Widgets/RadioGroup/Handle_the_Value_Change_Event')
-- [RadioGroup Demos](/Demos/WidgetsGallery/Demo/RadioGroup/Overview/)
+- [RadioGroup Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/RadioGroup/Overview/)
 - [RadioGroup API Reference](/api-reference/10%20UI%20Widgets/dxRadioGroup/dxRadioGroup.md '/Documentation/ApiReference/UI_Widgets/dxRadioGroup/')
 
 [tags]radio group, radioGroup, button appearance, item appearance, customize, templates, template, custom template, default item, default template

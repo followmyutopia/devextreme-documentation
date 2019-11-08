@@ -234,7 +234,7 @@ Use this function to:
 
 - Replace the default editor. The old editor's configuration applies to the replacement editor. If you want to define the configuration from scratch, use an [editCellTemplate](/api-reference/_hidden/dxTreeListColumn/editCellTemplate.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editCellTemplate').
     
-    In the following code, the replacement editor is the DevExtreme [TextArea](/Demos/WidgetsGallery/Demo/TextArea/Overview/) widget:
+    In the following code, the replacement editor is the DevExtreme [TextArea](http://js.devexpress.com/Demos/WidgetsGallery/Demo/TextArea/Overview/) widget:
 
     ---
     ##### jQuery

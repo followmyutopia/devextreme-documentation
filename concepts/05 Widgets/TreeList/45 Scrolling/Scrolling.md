@@ -127,4 +127,4 @@ The current platform determines the native scrolling settings and you cannot adj
 ---
 
 #####See Also#####
-- [TreeList Demos](/Demos/WidgetsGallery/Demo/TreeList/Overview/)
+- [TreeList Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/TreeList/Overview/)

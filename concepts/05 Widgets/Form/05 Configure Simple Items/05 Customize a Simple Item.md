@@ -199,5 +199,5 @@ You can modify automatically generated items using the [customizeItem](/api-refe
 - [Form - Organize Simple Items in Columns](/concepts/05%20Widgets/Form/10%20Organize%20Simple%20Items/15%20In%20Columns/In%20Columns.md '/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Columns/')
 - [Form - Add an Empty Space Between Simple Items](/concepts/05%20Widgets/Form/10%20Organize%20Simple%20Items/20%20Add%20an%20Empty%20Space.md '/Documentation/Guide/Widgets/Form/Organize_Simple_Items/Add_an_Empty_Space/')
 - [Form - Configure Item Labels](/concepts/05%20Widgets/Form/15%20Configure%20Item%20Labels/05%20Location%20and%20Alignment/Location%20and%20Alignment.md '/Documentation/Guide/Widgets/Form/Configure_Item_Labels/Location_and_Alignment/')
-- [Form Demos](/Demos/WidgetsGallery/Demo/Form/CustomizeItem/)
+- [Form Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Form/CustomizeItem/)
 - [Form API Reference](/api-reference/10%20UI%20Widgets/dxForm/dxForm.md '/Documentation/ApiReference/UI_Widgets/dxForm/')

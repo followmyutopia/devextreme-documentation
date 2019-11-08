@@ -8,4 +8,4 @@ default: 10
 Specified the indent between the marker and the scale labels.
 
 ---
-![RangeSelectorScaleMarkerTopIndent ChartJS](/Content/images/doc/19_2/ChartJS/RangeSelectorScaleMarkerTopIndent.png)
+![RangeSelectorScaleMarkerTopIndent ChartJS](/images/ChartJS/RangeSelectorScaleMarkerTopIndent.png)

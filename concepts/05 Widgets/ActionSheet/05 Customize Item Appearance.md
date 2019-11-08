@@ -177,7 +177,7 @@ You can also customize an individual **ActionSheet** button. For this purpose, d
 In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/concepts/05%20Widgets/zz%20Common/30%20Templates/30%203rd-Party%20Template%20Engines.md '/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines') article.
 
 #####See Also#####
-- [ActionSheet Demos](/Demos/WidgetsGallery/Demo/ActionSheet/Basics/)
+- [ActionSheet Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/ActionSheet/Basics/)
 - [ActionSheet API Reference](/api-reference/10%20UI%20Widgets/dxActionSheet/dxActionSheet.md '/Documentation/ApiReference/UI_Widgets/dxActionSheet/')
 
 [tags]action sheet, actionSheet, item appearance, customize, templates, template, default item, default template

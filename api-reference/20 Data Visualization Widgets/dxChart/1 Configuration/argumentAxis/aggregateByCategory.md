@@ -229,6 +229,6 @@ The following code shows an example of a data source that can be aggregated by c
 
 This code produces the following result:
 
-![DevExtreme Chart: Aggregate by Category](/Content/images/doc/19_2/ChartJS/chart-aggregateByCategory.png)
+![DevExtreme Chart: Aggregate by Category](/images/ChartJS/chart-aggregateByCategory.png)
 
 If **aggregateByCategory** is **false**, the aggregation methods are not applied. The first series point in each category is displayed instead.

@@ -2,8 +2,8 @@ When the [limit of full-sized appointments per cell](/Documentation/ApiReference
 
 Depending on the [view type](/Documentation/Guide/Widgets/Scheduler/Views/View_Types/), overflow indicators can be compact or full-size. Full-size indicators are used in [Month](/Documentation/Guide/Widgets/Scheduler/Views/View_Types/#Month_View) and all [Timeline](/Documentation/Guide/Widgets/Scheduler/Views/View_Types/#Timeline_Views) view types. Compact indicators are used in [Day](/Documentation/Guide/Widgets/Scheduler/Views/View_Types/#Day_View), [Week, and WorkWeek](/Documentation/Guide/Widgets/Scheduler/Views/View_Types/#Week_and_WorkWeek_Views) view types.
 
-![DevExtreme Scheduler: Cell Overflow Indicator](/Content/images/doc/19_2/UiWidgets/scheduler-cell-overflow-indicator.png)
-![DevExtreme Scheduler: Compact Cell Overflow Indicator](/Content/images/doc/19_2/UiWidgets/scheduler-cell-overflow-indicator-compact.png)
+![DevExtreme Scheduler: Cell Overflow Indicator](/images/UiWidgets/scheduler-cell-overflow-indicator.png)
+![DevExtreme Scheduler: Compact Cell Overflow Indicator](/images/UiWidgets/scheduler-cell-overflow-indicator-compact.png)
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Scheduler/LimitAppointmentCountPerCell/jQuery/Light/"

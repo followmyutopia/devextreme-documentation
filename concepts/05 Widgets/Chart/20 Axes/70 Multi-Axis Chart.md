@@ -1,6 +1,6 @@
 A multi-axis chart adds extra meanings to visualized data in comparison to a single-axis chart. For example, in a single-axis chart, you have to choose which values to indicate - absolute or percentage. With a multi-axis chart, you are free to indicate both absolute and percentage values on two separate axis.
 
-![DevExtreme HTML5 JavaScript Charts MultipleValueAxes](/Content/images/doc/19_2/ChartJS/visual_elements/value_axis_multiple.png)
+![DevExtreme HTML5 JavaScript Charts MultipleValueAxes](/images/ChartJS/visual_elements/value_axis_multiple.png)
 
 To configure a multi-axis chart, follow the steps below.
 

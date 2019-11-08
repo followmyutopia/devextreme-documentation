@@ -12,4 +12,4 @@ Configures toolbar settings.
     url: "/Demos/WidgetsGallery/Demo/FileManager/UICustomization/"
 }
 
-![DevExtreme File Manager - Toolbar](/Content/images/doc/19_2/FileManager/toolbar.png)
+![DevExtreme File Manager - Toolbar](/images/FileManager/toolbar.png)

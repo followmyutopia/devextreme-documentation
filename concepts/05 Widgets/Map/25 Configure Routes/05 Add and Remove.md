@@ -225,7 +225,7 @@ With Angular, AngularJS, or Knockout, use a different technique. Bind the **rout
 #####See Also#####
 - [Map - Customize Routes](/concepts/05%20Widgets/Map/25%20Configure%20Routes/10%20Customize.md '/Documentation/Guide/Widgets/Map/Configure_Routes/Customize/')
 - [Map - Handle Route Related Events](/concepts/05%20Widgets/Map/25%20Configure%20Routes/15%20Handle%20the%20Related%20Events.md '/Documentation/Guide/Widgets/Map/Configure_Routes/Handle_the_Related_Events/')
-- [Map Demos](/Demos/WidgetsGallery/Demo/Map/Routes/)
+- [Map Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Map/Routes/)
 - [Map API Reference](/api-reference/10%20UI%20Widgets/dxMap/dxMap.md '/Documentation/ApiReference/UI_Widgets/dxMap/')
 
 [tags]map, routes, location, add route, remove route

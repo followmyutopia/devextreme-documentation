@@ -15,4 +15,4 @@ Configures dependencies.
 
 Dependencies specify the relationships between tasks. The following image illustrates how the Gantt displays dependencies in the chart:
 
-![DevExtreme Gantt Chart - Dependencies](/Content/images/doc/19_2/Gantt/Dependency.png)
+![DevExtreme Gantt Chart - Dependencies](/images/Gantt/Dependency.png)

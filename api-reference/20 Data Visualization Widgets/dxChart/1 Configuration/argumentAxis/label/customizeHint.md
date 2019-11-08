@@ -19,6 +19,6 @@ The [formatted](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20C
 The text for the hint to display.
 
 ---
-![DevExtreme HTML5 Charts AxisLabelHint](/Content/images/doc/19_2/ChartJS/visual_elements/axis_label_hint.png)
+![DevExtreme HTML5 Charts AxisLabelHint](/images/ChartJS/visual_elements/axis_label_hint.png)
 
 #include dataviz-ref-functioncontext

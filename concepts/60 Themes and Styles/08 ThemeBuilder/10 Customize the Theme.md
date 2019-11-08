@@ -1,6 +1,6 @@
 After you create or import a theme, the ThemeBuilder navigates you to the main view where you can customize the theme.
 
-![DevExtreme ThemeBuilder UI: Main View](/Content/images/doc/19_2/Common/ThemeBuilder/themebuilder-mainview.png)
+![DevExtreme ThemeBuilder UI: Main View](/images/Common/ThemeBuilder/themebuilder-mainview.png)
 
 The main view consists of the following elements:
 

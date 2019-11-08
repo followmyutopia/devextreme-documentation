@@ -24,5 +24,5 @@ A template name or container.
 
 ---
 #####See Also#####
-- [SelectBox - Customize Drop-Down Button Demo](/Demos/WidgetsGallery/Demo/Select_Box/CustomizeDropDownButton/)
+- [SelectBox - Customize Drop-Down Button Demo](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Select_Box/CustomizeDropDownButton/)
 - [Custom Templates](/concepts/05%20Widgets/zz%20Common/30%20Templates/10%20Custom%20Templates.md '/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates')

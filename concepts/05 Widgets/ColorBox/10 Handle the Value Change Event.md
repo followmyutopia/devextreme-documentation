@@ -100,7 +100,7 @@ If you are going to change event handlers at runtime, or if you need to attach s
 #####See Also#####
 #include common-link-handleevents
 - [ColorBox - Support Alpha Channel](/concepts/05%20Widgets/ColorBox/15%20Support%20Alpha%20Channel.md '/Documentation/Guide/Widgets/ColorBox/Support_Alpha_Channel')
-- [ColorBox Demos](/Demos/WidgetsGallery/Demo/ColorBox/Overview/)
+- [ColorBox Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/ColorBox/Overview/)
 - [ColorBox API Reference](/api-reference/10%20UI%20Widgets/dxColorBox/dxColorBox.md '/Documentation/ApiReference/UI_Widgets/dxColorBox/')
 
 [tags]color box, colorBox, editor, handle, get value, set value

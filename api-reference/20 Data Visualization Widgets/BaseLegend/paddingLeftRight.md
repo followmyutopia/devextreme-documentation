@@ -8,4 +8,4 @@ default: 10
 Generates an empty space, measured in pixels, between the legend's left/right border and its items.
 
 ---
-![DevExtreme Legend Left-Right Padding](/Content/images/doc/19_2/ChartJS/LegendPaddingLeftRight.png)
+![DevExtreme Legend Left-Right Padding](/images/ChartJS/LegendPaddingLeftRight.png)

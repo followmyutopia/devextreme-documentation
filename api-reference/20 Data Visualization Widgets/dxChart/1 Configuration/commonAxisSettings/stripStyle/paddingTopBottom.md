@@ -14,7 +14,7 @@ This option depends on the **label**.**verticalAlignment** in the following way.
 - **verticalAlignment** is *"bottom"* &rarr; padding applies to the bottom border of a strip;      
 - **verticalAlignment** is *"center"* &rarr; padding is calculated automatically.
 
-![DevExtreme HTML5 Charts StripPadding](/Content/images/doc/19_2/ChartJS/StripPaddingTopBottom.png)
+![DevExtreme HTML5 Charts StripPadding](/images/ChartJS/StripPaddingTopBottom.png)
 
 #####See Also#####
 - **commonAxisSettings**.**stripStyle**.**label**.[verticalAlignment](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonAxisSettings/stripStyle/label/verticalAlignment.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/stripStyle/label/#verticalAlignment') - aligns strip labels in the vertical direction. Applies to all strips.

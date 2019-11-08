@@ -18,4 +18,4 @@ Describes settings supported by a series of the *stacked bar* type.
     url: "/Demos/WidgetsGallery/Demo/Charts/StackedBar/"
 }
 
-![DevExtreme HTML5 Charts StackedBarSeriesType](/Content/images/doc/19_2/ChartJS/StackedBar.png)
+![DevExtreme HTML5 Charts StackedBarSeriesType](/images/ChartJS/StackedBar.png)

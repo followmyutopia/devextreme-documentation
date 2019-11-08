@@ -1,6 +1,6 @@
 In the **Sankey** widget, nodes represent objects in a system. Nodes have weights and are connected using links that illustrate the weight flow between nodes. The links' width is proportional to the flow magnitude.
 
-![Sankey Nodes and Links](/Content/images/doc/19_2/sankey/visual_elements/nodes-and-links.png)
+![Sankey Nodes and Links](/images/sankey/visual_elements/nodes-and-links.png)
 
 Nodes get data from the [source](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/sourceField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#sourceField') and [target](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/targetField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#targetField') data fields; links get data from the [weight](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/weightField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#weightField') data field.
 

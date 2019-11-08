@@ -61,23 +61,23 @@ The **baseSize**, **ratio**, and **shrink** settings control a row or column's s
 
 The **ResponsiveBox** can provide more space than rows' and columns' **baseSize**s require:
 
-![DevExtreme ResponsiveBox: Available width and height](/Content/images/doc/19_2/UiWidgets/ResponsiveBox/responsivebox-basesize.png)
+![DevExtreme ResponsiveBox: Available width and height](/images/UiWidgets/ResponsiveBox/responsivebox-basesize.png)
 
 In this case, the columns' width and rows' height can be increased according to **ratio**s. If all rows or columns have the same **ratio**, the width or height is increased evenly. The following is an example of when **ratio**s are different:
 
-![DevExtreme ResponsiveBox: Distribution of available width and height](/Content/images/doc/19_2/UiWidgets/ResponsiveBox/responsivebox-basesize-withratio.png)
+![DevExtreme ResponsiveBox: Distribution of available width and height](/images/UiWidgets/ResponsiveBox/responsivebox-basesize-withratio.png)
 
 If **ratio** applies when there is an available space, **shrink** applies when space is limited. After all rows' or columns' **baseSize**s are added up, they may be too large to fit into the container.
 
-![DevExtreme ResponsiveBox: Items overflow the container](/Content/images/doc/19_2/UiWidgets/ResponsiveBox/responsivebox-overflow.png)
+![DevExtreme ResponsiveBox: Items overflow the container](/images/UiWidgets/ResponsiveBox/responsivebox-overflow.png)
 
 **shrink** determines how much the elements should shrink to fit in this case. The higher the **shrink** value, the more a row or column shrinks relative to the rest of the rows or columns. The following example illustrates a situation when all elements have the same **shrink** value:
 
-![DevExtreme ResponsiveBox: Items shrink evenly to fit into the container](/Content/images/doc/19_2/UiWidgets/ResponsiveBox/responsivebox-shrink-evenly.png)
+![DevExtreme ResponsiveBox: Items shrink evenly to fit into the container](/images/UiWidgets/ResponsiveBox/responsivebox-shrink-evenly.png)
 
 In the following image, the middle column's **shrink** value is more than the other columns', and the bottom row's **shrink** value is more than that of the top row.
 
-![DevExtreme ResponsiveBox: The middle column and the bottom row shrink more than the other columns and rows](/Content/images/doc/19_2/UiWidgets/ResponsiveBox/responsivebox-shrink-unevenly.png)
+![DevExtreme ResponsiveBox: The middle column and the bottom row shrink more than the other columns and rows](/images/UiWidgets/ResponsiveBox/responsivebox-shrink-unevenly.png)
 
 The collections of rows and columns may differ depending on the screen's [size qualifier](/concepts/05%20Widgets/ResponsiveBox/05%20Size%20Qualifiers.md '/Documentation/Guide/Widgets/ResponsiveBox/Size_Qualifiers/'). You can use the **screen** option to specify on which screen types an individual row or column should appear.
 
@@ -143,7 +143,7 @@ The collections of rows and columns may differ depending on the screen's [size q
 #####See Also#####
 - [ResponsiveBox - Arrange Layout Elements](/concepts/05%20Widgets/ResponsiveBox/15%20Arrange%20Layout%20Elements.md '/Documentation/Guide/Widgets/ResponsiveBox/Arrange_Layout_Elements/')
 - [ResponsiveBox - Size Qualifiers](/concepts/05%20Widgets/ResponsiveBox/05%20Size%20Qualifiers.md '/Documentation/Guide/Widgets/ResponsiveBox/Size_Qualifiers/')
-- [ResponsiveBox Demos](/Demos/WidgetsGallery/Demo/ResponsiveBox/Overview/)
+- [ResponsiveBox Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/ResponsiveBox/Overview/)
 - [ResponsiveBox API Reference](/api-reference/10%20UI%20Widgets/dxResponsiveBox/dxResponsiveBox.md '/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/')
 
 [tags]responsive box, responsiveBox, adaptive layout, layout grid, fixed columns, fixed rows, adaptive columns, adaptive rows, baseSize, ratio

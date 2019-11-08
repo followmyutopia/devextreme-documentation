@@ -100,7 +100,7 @@ When there is not enough width for all toolbar items, or if certain toolbar item
 #####See Also#####
 - [Toolbar - Specify Item Type](/concepts/05%20Widgets/Toolbar/05%20Specify%20Item%20Type.md '/Documentation/Guide/Widgets/Toolbar/#Specify_Item_Type')
 - [Toolbar - Customize Item Appearance](/concepts/05%20Widgets/Toolbar/15%20Customize%20Item%20Appearance.md '/Documentation/Guide/Widgets/Toolbar/#Customize_Item_Appearance')
-- [Toolbar Demos](/Demos/WidgetsGallery/Demo/Toolbar/Overview/)
+- [Toolbar Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Toolbar/Overview/)
 - [Toolbar API Reference](/api-reference/10%20UI%20Widgets/dxToolbar/dxToolbar.md '/Documentation/ApiReference/UI_Widgets/dxToolbar/')
 
 [tags]toolbar, location, item location, locate in menu

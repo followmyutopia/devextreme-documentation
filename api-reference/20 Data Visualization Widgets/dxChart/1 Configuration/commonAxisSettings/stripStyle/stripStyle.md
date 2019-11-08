@@ -7,7 +7,7 @@ type: Object
 Configures the appearance of strips.
 
 ---
-![DevExtreme HTML5 Charts Strips](/Content/images/doc/19_2/ChartJS/visual_elements/strips.png)
+![DevExtreme HTML5 Charts Strips](/images/ChartJS/visual_elements/strips.png)
 
 The **commonAxisSettings**.[stripStyle](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonAxisSettings/stripStyle/stripStyle.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/stripStyle/') object specifies common settings for all strips in the chart. To configure only those strips that belong to a particular axis, use the following objects.
 

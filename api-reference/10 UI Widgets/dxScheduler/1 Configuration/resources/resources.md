@@ -19,5 +19,5 @@ The name of the appointment object field that specifies a resource of this kind 
 There are more fields that can be specified within a resource kind object. They are listed below. For details on how to define a resource and assign it to scheduler appointments, refer to the [Resources](/concepts/05%20Widgets/Scheduler/040%20Resources/020%20Assign%20Appointments%20to%20Resources/Assign%20Appointments%20to%20Resources.md '/Documentation/Guide/Widgets/Scheduler/Resources/Assign_Appointments_to_Resources/') article.
 
 #####See Also#####
-- **Demos**: [Resources](/Demos/WidgetsGallery/Demo/Scheduler/Resources/) | [Grouping by Resources](/Demos/WidgetsGallery/Demo/Scheduler/GroupedAppointments/)
+- **Demos**: [Resources](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/Resources/) | [Grouping by Resources](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/GroupedAppointments/)
 - [Resources](/concepts/05%20Widgets/Scheduler/040%20Resources/020%20Assign%20Appointments%20to%20Resources/Assign%20Appointments%20to%20Resources.md '/Documentation/Guide/Widgets/Scheduler/Resources/Assign_Appointments_to_Resources/')

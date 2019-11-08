@@ -73,4 +73,4 @@ The layout does not automatically adapt to changes made in the widget's containe
 [/note]
 
 #####See Also#####
-- [Funnel Demos](/Demos/WidgetsGallery/Demo/Charts/FunnelChart/)
+- [Funnel Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/FunnelChart/)

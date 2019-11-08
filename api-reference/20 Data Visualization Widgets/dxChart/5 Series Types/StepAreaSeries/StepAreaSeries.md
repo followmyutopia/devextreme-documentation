@@ -18,4 +18,4 @@ Describes settings supported by a series of the *step rea* type.
     url: "/Demos/WidgetsGallery/Demo/Charts/StepArea/"
 }
 
-![DevExtreme HTML5 Charts StepAreaSeriesType](/Content/images/doc/19_1/ChartJS/StepArea.png)
+![DevExtreme HTML5 Charts StepAreaSeriesType](/images/ChartJS/StepArea.png)

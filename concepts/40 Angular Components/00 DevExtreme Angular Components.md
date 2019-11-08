@@ -35,6 +35,6 @@ All DevExtreme component suites, including Angular, share architecture and core 
 
 - [Customization using templates](/concepts/05%20Widgets/zz%20Common/30%20Templates/Templates.md '/Documentation/Guide/Widgets/Common/Templates/')
 
-We also provide [over 250 technical demos](/Demos/WidgetsGallery/) you can edit and copy code from.
+We also provide [over 250 technical demos](http://js.devexpress.com/Demos/WidgetsGallery/) you can edit and copy code from.
 
 For information on how to integrate DevExtreme Angular components into your application, refer to one of the [Getting Started articles](/concepts/40%20Angular%20Components/10%20Getting%20Started/02%20Create%20a%20DevExtreme%20Application.md '/Documentation/Guide/Angular_Components/Getting_Started/').

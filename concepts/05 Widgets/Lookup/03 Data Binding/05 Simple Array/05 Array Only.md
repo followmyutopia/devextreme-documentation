@@ -142,6 +142,6 @@ You can create a [Query](/concepts/30%20Data%20Layer/5%20Data%20Layer/6%20Query%
 - [Data Layer - Query Concept](/concepts/30%20Data%20Layer/5%20Data%20Layer/6%20Query%20Concept.md '/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept')
 - [Bind to the ArrayStore](/concepts/05%20Widgets/Lookup/03%20Data%20Binding/05%20Simple%20Array/10%20ArrayStore.md '/Documentation/Guide/Widgets/Lookup/Data_Binding/Simple_Array/ArrayStore/')
 - [Access the DataSource](/concepts/05%20Widgets/Lookup/03%20Data%20Binding/30%20Access%20the%20DataSource.md '/Documentation/Guide/Widgets/Lookup/Data_Binding/Access_the_DataSource/')
-- [Lookup Demos](/Demos/WidgetsGallery/Demo/Lookup/Basics/)
+- [Lookup Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Basics/)
 
 [tags]lookup, data binding, provide data, array, process data, query

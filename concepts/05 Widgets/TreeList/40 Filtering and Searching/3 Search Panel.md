@@ -1,6 +1,6 @@
 The search panel allows searching for values in several columns at once. Search is case-insensitive.
 
-![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList SearchPanel](/Content/images/doc/19_2/treelist/visual_elements/search_panel.png)
+![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList SearchPanel](/images/treelist/visual_elements/search_panel.png)
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Tree_List/UsingSearchPanel/"

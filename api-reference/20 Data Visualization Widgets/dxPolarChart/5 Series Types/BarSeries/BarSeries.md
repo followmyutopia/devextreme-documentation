@@ -14,4 +14,4 @@ An object defining a series of the **bar** type.
     seriesType: "bar"
 }
 
-![PolarBarSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/PolarBar.png)
+![PolarBarSeriesType ChartJS](/images/ChartJS/PolarBar.png)

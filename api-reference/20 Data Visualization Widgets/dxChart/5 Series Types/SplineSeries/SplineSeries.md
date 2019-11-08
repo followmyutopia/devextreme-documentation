@@ -18,4 +18,4 @@ Describes settings supported by a series of the *spline* type.
     url: "/Demos/WidgetsGallery/Demo/Charts/Spline/"
 }
 
-![DevExtreme HTML5 Charts SplineSeriesType](/Content/images/doc/19_2/ChartJS/Spline.png)
+![DevExtreme HTML5 Charts SplineSeriesType](/images/ChartJS/Spline.png)

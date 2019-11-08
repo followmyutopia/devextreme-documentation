@@ -84,4 +84,4 @@ As an alternative to **tickInterval**, you can use the [axisDivisionFactor](/api
 
 #####See Also#####
 - [Axis Ticks](/concepts/05%20Widgets/Chart/20%20Axes/07%20Axis%20Ticks.md '/Documentation/Guide/Widgets/Chart/Axes/Axis_Ticks/')
-- [Logarithmic Axis Demo](/Demos/WidgetsGallery/Demo/Charts/LogarithmicAxis/)
+- [Logarithmic Axis Demo](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/LogarithmicAxis/)

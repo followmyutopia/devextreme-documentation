@@ -13,7 +13,7 @@ Specifies the width of the task list in pixels.
     url: "/Demos/WidgetsGallery/Demo/Gantt/Overview/"
 }
 
-![DevExtreme Gantt Chart - Task List](/Content/images/doc/19_2/Gantt/task-list.png)
+![DevExtreme Gantt Chart - Task List](/images/Gantt/task-list.png)
 
 ---
 

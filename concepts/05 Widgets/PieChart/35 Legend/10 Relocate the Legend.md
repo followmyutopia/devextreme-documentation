@@ -44,4 +44,4 @@ Below, you can try out these options in action.
 
 #####See Also#####
 - [Rearrange Legend Items](/concepts/05%20Widgets/PieChart/35%20Legend/20%20Rearrange%20Legend%20Items.md '/Documentation/Guide/Widgets/PieChart/Legend/Rearrange_Legend_Items/')
-- [PieChart Demos](/Demos/WidgetsGallery/Demo/Charts/PieWithMultipleSeries/)
+- [PieChart Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/PieWithMultipleSeries/)

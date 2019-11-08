@@ -10,7 +10,7 @@ Shifts ticks from the reference position.
 ---
 In the reference position, the axis runs through the center of each tick:
 
-![DevExtreme Chart - Reference position for tick shift](/Content/images/doc/19_2/ChartJS/shift-argumentaxis-reference-position.png)
+![DevExtreme Chart - Reference position for tick shift](/images/ChartJS/shift-argumentaxis-reference-position.png)
 
 Positive values shift ticks toward axis labels; negative values shift ticks in the opposite direction.
 

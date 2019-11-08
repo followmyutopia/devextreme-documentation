@@ -49,7 +49,7 @@ The **Gallery** widget supports the display of images in a slideshow. To specify
 - [Gallery - Switch Between Images](/concepts/05%20Widgets/Gallery/05%20Switch%20Between%20Images/Switch%20Between%20Images.md '/Documentation/Guide/Widgets/Gallery/Switch_Between_Images/')
 - [Gallery - Animate the Image Change](/concepts/05%20Widgets/Gallery/20%20Animate%20the%20Image%20Change.md '/Documentation/Guide/Widgets/Gallery/Animate_the_Image_Change/')
 - [Gallery - Transform and Combine Images](/concepts/05%20Widgets/Gallery/25%20Transform%20and%20Combine%20Images.md '/Documentation/Guide/Widgets/Gallery/Transform_and_Combine_Images/')
-- [Gallery Demos](/Demos/WidgetsGallery/Demo/Gallery/Overview/)
+- [Gallery Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Gallery/Overview/)
 - [Gallery API Reference](/api-reference/10%20UI%20Widgets/dxGallery/dxGallery.md '/Documentation/ApiReference/UI_Widgets/dxGallery/')
 
 [tags]gallery, loop, slideshow, slideshowDelay

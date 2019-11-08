@@ -78,4 +78,4 @@ Call the [expandRow(key)](/api-reference/10%20UI%20Widgets/dxTreeList/3%20Method
 
 #####See Also#####
 #include common-link-callmethods
-- [TreeList Demos](/Demos/WidgetsGallery/Demo/TreeList/Overview/)
+- [TreeList Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/TreeList/Overview/)

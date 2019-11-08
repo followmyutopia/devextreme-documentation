@@ -1,6 +1,6 @@
 The load panel is displayed while the widget loads data. It consists of a loading indicator and text, both placed on a pane.
 
-![DevExtreme HTML5/JavaScript DataGrid Widget - Load Panel](/Content/images/doc/19_2/DataGrid/visual_elements/load_panel.png)
+![DevExtreme HTML5/JavaScript DataGrid Widget - Load Panel](/images/DataGrid/visual_elements/load_panel.png)
 
 The load panel is shown only for remote data sources by default. To show it regardless of the data source type, assign **true** to the **loadPanel**.[enabled](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/loadPanel/enabled.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/loadPanel/#enabled') option. Setting the same option to **false** disables the load panel completely.
 
@@ -119,5 +119,5 @@ Since the load panel is a DevExtreme [LoadPanel](/concepts/05%20Widgets/LoadPane
 ---
 
 #####See Also#####
-- [LoadPanel Demos](/Demos/WidgetsGallery/Demo/Load_Panel/Overview/)
-- [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/AjaxRequest/)
+- [LoadPanel Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Load_Panel/Overview/)
+- [DataGrid Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/AjaxRequest/)

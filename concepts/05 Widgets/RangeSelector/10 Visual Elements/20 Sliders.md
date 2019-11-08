@@ -1,6 +1,6 @@
 In the **RangeSelector** widget, sliders perform as the elements of control. By dragging them, you can select a range.
 
-![ChartJS RangeSelector](/Content/images/doc/19_2/ChartJS/RangeSelectorSliders.png)
+![ChartJS RangeSelector](/images/ChartJS/RangeSelectorSliders.png)
 
 There are two sliders on a range selector: left and right. Each slider consists of a handle and a marker, whose appearance can be specified using the [sliderHandle](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/sliderHandle/sliderHandle.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/sliderHandle/') and [sliderMarker](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/sliderMarker/sliderMarker.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/sliderMarker/') configuration objects, respectively. The **sliderHandle** object does not have many options. You can change the color, opacity and width of slider handles using the corresponding fields of this object. In contrast, the **sliderMarker** object has more options. A brief overview of them is given below.
 

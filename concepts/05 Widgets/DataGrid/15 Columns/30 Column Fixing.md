@@ -1,6 +1,6 @@
 In some cases, the widget contains so many columns that they cause horizontal scrolling. If specific columns should be on screen constantly regardless of how far the widget is scrolled, a user can fix them.
 
-![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid ColumnFixing](/Content/images/doc/19_2/DataGrid/visual_elements/column_fixing.png)
+![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid ColumnFixing](/images/DataGrid/visual_elements/column_fixing.png)
 
 To allow this, set the **columnFixing**.[enabled](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/columnFixing/enabled.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnFixing/#enabled') option to **true**. If a user should never fix (or unfix) a specific column, set its [allowFixing](/api-reference/_hidden/GridBaseColumn/allowFixing.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowFixing') option to **false**.
 
@@ -87,4 +87,4 @@ Since column fixing is effective only with horizontal scrolling, using it makes 
 
 #####See Also#####
 - [Adaptability](/concepts/05%20Widgets/DataGrid/15%20Columns/50%20Adaptability.md '/Documentation/Guide/Widgets/DataGrid/Columns/Adaptability/')
-- [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/LocalDataSource/)
+- [DataGrid Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/LocalDataSource/)

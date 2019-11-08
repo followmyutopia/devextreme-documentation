@@ -1,6 +1,6 @@
 The **Gantt** widget displays the task flow and dependencies between tasks.
 
-![DevExtreme Gantt Chart - Overview](/Content/images/doc/19_2/Gantt/overview.png)
+![DevExtreme Gantt Chart - Overview](/images/Gantt/overview.png)
 
 #include common-ctp-note with {
     component: "Gantt"

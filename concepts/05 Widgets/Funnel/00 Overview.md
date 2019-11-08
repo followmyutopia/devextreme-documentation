@@ -29,5 +29,5 @@ Finally, add some interactivity:
 - [Adaptive Layout](/concepts/05%20Widgets/Funnel/89%20Adaptive%20Layout.md '/Documentation/Guide/Widgets/Funnel/Adaptive_Layout/')
 
 #####See Also#####
-- [Funnel Demos](/Demos/WidgetsGallery/Demo/Charts/FunnelChart/)
+- [Funnel Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/FunnelChart/)
 - [Funnel API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/dxFunnel.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/')

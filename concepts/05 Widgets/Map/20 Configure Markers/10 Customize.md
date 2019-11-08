@@ -111,7 +111,7 @@ Apart from the icon, you can specify a [tooltip](/api-reference/10%20UI%20Widget
 #####See Also#####
 - [Map - Handle Marker Related Events](/concepts/05%20Widgets/Map/20%20Configure%20Markers/15%20Handle%20the%20Related%20Events.md '/Documentation/Guide/Widgets/Map/Configure_Markers/Handle_the_Related_Events/')
 - [Map - Add and Remove Markers](/concepts/05%20Widgets/Map/20%20Configure%20Markers/05%20Add%20and%20Remove.md '/Documentation/Guide/Widgets/Map/Configure_Markers/Add_and_Remove/')
-- [Map Demos](/Demos/WidgetsGallery/Demo/Map/Markers/)
+- [Map Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Map/Markers/)
 - [Map API Reference](/api-reference/10%20UI%20Widgets/dxMap/dxMap.md '/Documentation/ApiReference/UI_Widgets/dxMap/')
 
 [tags]map, marker icon, customize marker, tooltip, marker click

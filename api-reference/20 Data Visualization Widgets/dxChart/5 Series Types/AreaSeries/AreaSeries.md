@@ -18,4 +18,4 @@ Describes settings supported by a series of the *area* type.
     url: "/Demos/WidgetsGallery/Demo/Charts/Area/"
 }
 
-![DevExtreme HTML5 Charts AreaSeriesType](/Content/images/doc/19_2/ChartJS/Area.png)
+![DevExtreme HTML5 Charts AreaSeriesType](/images/ChartJS/Area.png)

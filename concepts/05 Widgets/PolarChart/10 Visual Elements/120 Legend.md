@@ -1,6 +1,6 @@
 The **PolarChart** widget can include a legend - an explanatory component that helps a user distinguish and identify series. Each series is represented by an item on the legend. An item marker identifies the series color. An item label displays the series title.
 
-![Legend](/Content/images/doc/19_2/ChartJS/Polar_Legend.png)
+![Legend](/images/ChartJS/Polar_Legend.png)
 
 To change the default legend appearance, use the properties of the [legend](/api-reference/20%20Data%20Visualization%20Widgets/dxPolarChart/1%20Configuration/legend/legend.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/legend/') configuration object. The following code demonstrates how to access it.
 

@@ -73,4 +73,4 @@ The layout does not automatically adapt to changes made in the widget's containe
 [/note]
 
 #####See Also#####
-- [PieChart Demos](/Demos/WidgetsGallery/Demo/Charts/Pie/)
+- [PieChart Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Pie/)

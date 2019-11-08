@@ -55,7 +55,7 @@ For example, the following code makes the *"Massachusetts"* tile twice bigger th
 
 #####See Also#####
 - [TileView - Customize Tile Appearance](/concepts/05%20Widgets/TileView/05%20Customize%20Tile%20Appearance.md '/Documentation/Guide/Widgets/TileView/Customize_Tile_Appearance')
-- [TileView Demos](/Demos/WidgetsGallery/Demo/TileView/Overview/)
+- [TileView Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/TileView/Overview/)
 - [TileView API Reference](/api-reference/10%20UI%20Widgets/dxTileView/dxTileView.md '/Documentation/ApiReference/UI_Widgets/dxTileView/')
 
 [tags]tile view, tileView, tile size, customize

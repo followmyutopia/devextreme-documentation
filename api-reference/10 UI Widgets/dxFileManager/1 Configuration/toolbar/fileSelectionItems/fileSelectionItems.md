@@ -11,7 +11,7 @@ Configures settings of the toolbar items that are visible when users select file
 
 ---
 
-![DevExtreme File Manager - Toolbar - File Selection Items](/Content/images/doc/19_2/FileManager/file-selection-items.png)
+![DevExtreme File Manager - Toolbar - File Selection Items](/images/FileManager/file-selection-items.png)
 
 ---
 

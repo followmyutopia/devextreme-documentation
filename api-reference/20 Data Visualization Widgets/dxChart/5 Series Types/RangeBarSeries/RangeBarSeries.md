@@ -18,4 +18,4 @@ Describes settings supported by a series of the *range bar* type.
     url: "/Demos/WidgetsGallery/Demo/Charts/RangeBar/"
 }
 
-![DevExtreme HTML5 Charts RangeBarSeriesType](/Content/images/doc/19_2/ChartJS/RangeBar.png)
+![DevExtreme HTML5 Charts RangeBarSeriesType](/images/ChartJS/RangeBar.png)

@@ -18,4 +18,4 @@ Describes settings supported by a series of the *range area* type.
     url: "/Demos/WidgetsGallery/Demo/Charts/RangeArea/"
 }
 
-![DevExtreme HTML5 Charts RangeAreaSeriesType](/Content/images/doc/19_2/ChartJS/RangeArea.png)
+![DevExtreme HTML5 Charts RangeAreaSeriesType](/images/ChartJS/RangeArea.png)

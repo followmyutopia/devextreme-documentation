@@ -111,5 +111,5 @@ In the following example, the `order` item contains the [DataGrid](/concepts/05%
 - [Form - Organize Simple Items in Tabs](/concepts/05%20Widgets/Form/10%20Organize%20Simple%20Items/10%20In%20Tabs/In%20Tabs.md '/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Tabs/')
 - [Form - Organize Simple Items in Columns](/concepts/05%20Widgets/Form/10%20Organize%20Simple%20Items/15%20In%20Columns/In%20Columns.md '/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Columns/')
 - [Form - Add an Empty Space Between Simple Items](/concepts/05%20Widgets/Form/10%20Organize%20Simple%20Items/20%20Add%20an%20Empty%20Space.md '/Documentation/Guide/Widgets/Form/Organize_Simple_Items/Add_an_Empty_Space/')
-- [Form Demos](/Demos/WidgetsGallery/Demo/Form/CustomizeItem/)
+- [Form Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Form/CustomizeItem/)
 - [Form API Reference](/api-reference/10%20UI%20Widgets/dxForm/dxForm.md '/Documentation/ApiReference/UI_Widgets/dxForm/')

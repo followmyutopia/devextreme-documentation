@@ -31,4 +31,4 @@ The widget has the rich UI that provides the following end-user capabilities:
 - [Master-Detail Interface](/concepts/05%20Widgets/DataGrid/60%20Master-Detail%20Interface/Master-Detail%20Interface.md '/Documentation/Guide/Widgets/DataGrid/Master-Detail_Interface/')
 
 #####See Also#####
-- [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/SimpleArray/)
+- [DataGrid Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/SimpleArray/)

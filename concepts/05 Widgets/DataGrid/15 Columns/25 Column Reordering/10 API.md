@@ -73,4 +73,4 @@ The **visibleIndex** option can also be changed at runtime to reorder columns re
 #####See Also#####
 #include common-link-callmethods
 - [Data Columns](/concepts/05%20Widgets/DataGrid/15%20Columns/10%20Column%20Types/1%20Data%20Columns.md '/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Data_Columns/')
-- [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/ColumnCustomization/)
+- [DataGrid Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/ColumnCustomization/)

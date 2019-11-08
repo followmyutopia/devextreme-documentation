@@ -9,7 +9,7 @@ Configures the appearance of major axis ticks.
 ---
 Ticks divide an axis into sections that measure off values on this axis.
 
-![DevExtreme HTML5 Charts MajorTicks](/Content/images/doc/19_2/ChartJS/visual_elements/major_ticks.png)
+![DevExtreme HTML5 Charts MajorTicks](/images/ChartJS/visual_elements/major_ticks.png)
 
 The **commonAxisSettings**.**tick** object specifies common settings for all major ticks in the chart. To configure only those major ticks that belong to a particular axis, use the following objects.
 

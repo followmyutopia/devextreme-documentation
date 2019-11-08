@@ -76,7 +76,7 @@ The following code adds a simple **FilterBuilder** to your page. Note that each 
 
 The **FilterBuilder** displays the filter expression as a tree structure, where nodes represent simple filter conditions. Each condition consists of a data field, operation and value. A logical operation combines conditions into groups. For example, the following image shows how the above filter expression looks in the UI:
 
-![DevExtreme HTML5 JavaScript Filter Builder Groups](/Content/images/doc/19_2/FilterBuilder/visual_elements/groups.png)
+![DevExtreme HTML5 JavaScript Filter Builder Groups](/images/FilterBuilder/visual_elements/groups.png)
 
 #####See Also#####
 #include common-link-configurewidget

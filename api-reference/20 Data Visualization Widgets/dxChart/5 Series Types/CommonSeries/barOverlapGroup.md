@@ -15,11 +15,11 @@ Set this option to identical values for the series you want to collect in a sing
 
 The following image shows a regular bar chart with two series...
 
-![DevExtreme Chart: Regular bar chart](/Content/images/doc/19_2/ChartJS/barOverlapGroup-notapplied.png)
+![DevExtreme Chart: Regular bar chart](/images/ChartJS/barOverlapGroup-notapplied.png)
 
 ...and here the same series are collected in a **barOverlapGroup**:
 
-![DevExtreme Chart: Bar chart with barOverlapGroup applied](/Content/images/doc/19_2/ChartJS/barOverlapGroup-applied.png)
+![DevExtreme Chart: Bar chart with barOverlapGroup applied](/images/ChartJS/barOverlapGroup-applied.png)
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Charts/Timeline/"

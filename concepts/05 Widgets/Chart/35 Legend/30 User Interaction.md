@@ -135,7 +135,7 @@ In addition, a user can click legend items. By default, the widget does not reac
 #include common-link-handleevents
 - [Relocate the Legend](/concepts/05%20Widgets/Chart/35%20Legend/10%20Relocate%20the%20Legend.md '/Documentation/Guide/Widgets/Chart/Legend/Relocate_the_Legend/')
 - [Rearrange Legend Items](/concepts/05%20Widgets/Chart/35%20Legend/20%20Rearrange%20Legend%20Items.md '/Documentation/Guide/Widgets/Chart/Legend/Rearrange_Legend_Items/')
-- [Chart Demos](/Demos/WidgetsGallery/Demo/Charts/HoverMode/)
+- [Chart Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/HoverMode/)
 - [Chart API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/dxChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/')
 
 [tags]chart, legend, hover, hoverMode, legend click, onLegendClick

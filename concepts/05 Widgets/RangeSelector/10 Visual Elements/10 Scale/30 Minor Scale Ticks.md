@@ -1,6 +1,6 @@
 Minor scale ticks are being placed between major ticks. They designate subsidiary tick values on a scale.
 
-![ChartJS RangeSelector](/Content/images/doc/19_2/ChartJS/RangeSelectorMinorTicks.png)
+![ChartJS RangeSelector](/images/ChartJS/RangeSelectorMinorTicks.png)
 
 Unlike major ticks, minor ticks are not accompanied with scale labels. However, their appearance can be customized using the options of the [tick](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/scale/tick/tick.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/tick/') object, like the appearance of major ticks.
 

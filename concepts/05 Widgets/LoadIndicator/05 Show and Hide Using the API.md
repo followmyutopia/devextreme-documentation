@@ -142,7 +142,7 @@ With Angular, AngularJS, or Knockout, bind the [visible](/api-reference/10%20UI%
 
 #####See Also#####
 #include common-link-handleevents
-- [LoadIndicator Demos](/Demos/WidgetsGallery/Demo/LoadIndicator/Overview/)
+- [LoadIndicator Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/LoadIndicator/Overview/)
 - [LoadIndicator API Reference](/api-reference/10%20UI%20Widgets/dxLoadIndicator/dxLoadIndicator.md '/Documentation/ApiReference/UI_Widgets/dxLoadIndicator/')
 
 [tags]loadIndicator, load indicator, loading indicator, overlay, show, hide, open, close, showing, shown, hiding, hidden

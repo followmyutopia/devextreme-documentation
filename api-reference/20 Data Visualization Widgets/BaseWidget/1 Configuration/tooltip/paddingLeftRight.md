@@ -8,4 +8,4 @@ default: 18
 Generates an empty space, measured in pixels, between a tooltip's left/right border and its text.
 
 ---
-![DevExtreme HTML5 JavaScript Funnel Tooltips Left-Right Padding](/Content/images/doc/19_2/ChartJS/TooltipPaddingLeftRight.png)
+![DevExtreme HTML5 JavaScript Funnel Tooltips Left-Right Padding](/images/ChartJS/TooltipPaddingLeftRight.png)

@@ -18,4 +18,4 @@ An object defining a series of the **stackedBar** type.
     url: "/Demos/WidgetsGallery/Demo/Charts/WindRose/"
 }
 
-![PolarStackedBarSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/PolarStackedBar.png)
+![PolarStackedBarSeriesType ChartJS](/images/ChartJS/PolarStackedBar.png)

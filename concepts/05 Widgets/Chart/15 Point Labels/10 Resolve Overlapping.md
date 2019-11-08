@@ -76,7 +76,7 @@ Another way to deal with overlapping labels is to hide all labels of a specific 
 #####See Also#####
 - [Customize Point Labels](/concepts/05%20Widgets/Chart/15%20Point%20Labels/05%20Customize%20Point%20Labels.md '/Documentation/Guide/Widgets/Chart/Point_Labels/Customize_Point_Labels/')
 - [Series Points](/concepts/05%20Widgets/Chart/14%20Series%20Points/00%20Overview.md '/Documentation/Guide/Widgets/Chart/Series_Points/Overview/')
-- [Chart Demos](/Demos/WidgetsGallery/Demo/Charts/CustomizePointsAndLabels/)
+- [Chart Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/CustomizePointsAndLabels/)
 - [Chart API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/dxChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/')
 
 [tags]chart, point labels, label overlapping, resolveLabelOverlapping, maxLabelCount

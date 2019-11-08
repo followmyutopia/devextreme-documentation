@@ -9,7 +9,7 @@ notUsedInTheme:
 Declares a collection of constant lines belonging to the value axis.
 
 ---
-![DevExtreme HTML5 Charts ConstantLines](/Content/images/doc/19_2/ChartJS/visual_elements/constant_lines.png)
+![DevExtreme HTML5 Charts ConstantLines](/images/ChartJS/visual_elements/constant_lines.png)
 
 Each object in the **constantLines** array configures a single constant line. Setting the **value** option is necessary for a constant line to be displayed.
 

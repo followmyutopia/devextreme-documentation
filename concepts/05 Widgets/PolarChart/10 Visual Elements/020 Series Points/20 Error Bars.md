@@ -1,6 +1,6 @@
 Error bars are used to indicate an error or an uncertainty in a reported measurement. They give a general idea of how precise a measurement is.
 
-![Error Bars](/Content/images/doc/19_2/ChartJS/Polar_ErrorBars.png)
+![Error Bars](/images/ChartJS/Polar_ErrorBars.png)
 
 To generate an error bar, two values, **high** and **low**, are needed. If the data source of your chart provides concrete high and low values, assign the required data source fields to the [series](/api-reference/20%20Data%20Visualization%20Widgets/dxPolarChart/1%20Configuration/series/series.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/series/')' [highValueField](/api-reference/20%20Data%20Visualization%20Widgets/dxPolarChart/5%20Series%20Types/CommonPolarChartSeries/valueErrorBar/highValueField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/commonSeriesSettings/valueErrorBar/#highValueField') and [lowValueField](/api-reference/20%20Data%20Visualization%20Widgets/dxPolarChart/5%20Series%20Types/CommonPolarChartSeries/valueErrorBar/lowValueField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/commonSeriesSettings/valueErrorBar/#lowValueField') options.
 

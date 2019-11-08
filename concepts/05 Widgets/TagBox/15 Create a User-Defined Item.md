@@ -82,6 +82,6 @@ A user can select existing values and add new values to the **TagBox**. To enabl
 - [TagBox - Configure Search Parameters](/concepts/05%20Widgets/TagBox/10%20Configure%20Search%20Parameters.md '/Documentation/Guide/Widgets/TagBox/Configure_Search_Parameters/')
 - [TagBox - Control the Behavior](/concepts/05%20Widgets/TagBox/03%20Control%20the%20Behavior.md '/Documentation/Guide/Widgets/TagBox/Control_the_Behavior/')
 - [TagBox API Reference](/api-reference/10%20UI%20Widgets/dxTagBox/dxTagBox.md '/Documentation/ApiReference/UI_Widgets/dxTagBox/')
-- [TagBox Demos](/Demos/WidgetsGallery/Demo/TagBox/Overview/)
+- [TagBox Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/TagBox/Overview/)
 
 [tags]tagBox, tag box, editor, user-defined entry, user-defined item, custom entry, custom item, user-defined value, custom value

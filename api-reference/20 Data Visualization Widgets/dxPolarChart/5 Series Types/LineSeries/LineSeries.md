@@ -18,4 +18,4 @@ An object defining a series of the **line** type.
     url: "/Demos/WidgetsGallery/Demo/Charts/SpiderWeb/"
 }
 
-![LineSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/PolarLine.png)
+![LineSeriesType ChartJS](/images/ChartJS/PolarLine.png)

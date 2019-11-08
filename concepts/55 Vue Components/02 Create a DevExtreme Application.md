@@ -15,10 +15,10 @@ npx is available with npm v5.2 and later. If you have an earlier version, <a hre
 
 [/note]
 
-The application already contains the [DataGrid](/Demos/WidgetsGallery/Demo/DataGrid/Overview/Vue/Light/) and [Form](/Demos/WidgetsGallery/Demo/Form/Overview/Vue/Light/) components. You can find their configurations in the `src/views/display-data.vue` and `src/views/profile.vue` files correspondingly.
+The application already contains the [DataGrid](http://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/Overview/Vue/Light/) and [Form](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Form/Overview/Vue/Light/) components. You can find their configurations in the `src/views/display-data.vue` and `src/views/profile.vue` files correspondingly.
 
 The following resources provide more information about DevExtreme Vue components:
 
 - [Component Configuration Syntax](/concepts/55%20Vue%20Components/20%20Component%20Configuration%20Syntax/Component%20Configuration%20Syntax.md '/Documentation/Guide/Vue_Components/Component_Configuration_Syntax/')
-- [Demos](/Demos/WidgetsGallery/Demo/DataGrid/Overview/Vue/Light/)
+- [Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/Overview/Vue/Light/)
 - [API Reference](/Documentation/ApiReference/)

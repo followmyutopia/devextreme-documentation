@@ -18,4 +18,4 @@ Describes settings supported by a series of the *candlestick* type.
     url: "/Demos/WidgetsGallery/Demo/Charts/Candlestick/"
 }
 
-![DevExtreme HTML5 Charts CandleStickSeriesType](/Content/images/doc/19_2/ChartJS/CandleStick.png)
+![DevExtreme HTML5 Charts CandleStickSeriesType](/images/ChartJS/CandleStick.png)

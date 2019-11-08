@@ -18,4 +18,4 @@ Describes settings supported by a series of the *spline area* type.
     url: "/Demos/WidgetsGallery/Demo/Charts/SplineArea/"
 }
 
-![DevExtreme HTML5 Charts SplineAreaSeriesType](/Content/images/doc/19_2/ChartJS/SplineArea.png)
+![DevExtreme HTML5 Charts SplineAreaSeriesType](/images/ChartJS/SplineArea.png)

@@ -9,7 +9,7 @@ Configures the appearance of minor axis ticks.
 ---
 Along with [major ticks](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonAxisSettings/tick/tick.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/tick/'), the **Chart** widget supports minor ticks. They divide an axis segment limited by two neighboring major ticks.
 
-![DevExtreme HTML5 Charts MinorTicks](/Content/images/doc/19_2/ChartJS/visual_elements/minor_ticks.png)
+![DevExtreme HTML5 Charts MinorTicks](/images/ChartJS/visual_elements/minor_ticks.png)
 
 The **commonAxisSettings**.[minorTick](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonAxisSettings/minorTick/minorTick.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/minorTick/') object specifies common settings for all minor ticks in the chart. To configure only those minor ticks that belong to a particular axis, use the following objects.
 

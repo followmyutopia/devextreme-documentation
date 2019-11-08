@@ -38,7 +38,7 @@ You can now call [any method](/api-reference/30%20Data%20Layer/DataSource/3%20Me
 
 #####See Also#####
 - [Data Layer - Overview](/concepts/30%20Data%20Layer/5%20Data%20Layer/Data%20Layer.md '/Documentation/Guide/Data_Layer/Data_Layer/')
-- [TreeList Demos](/Demos/WidgetsGallery/Demo/TreeList/Overview/)
+- [TreeList Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/TreeList/Overview/)
 - [TreeList API Reference](/api-reference/10%20UI%20Widgets/dxTreeList/dxTreeList.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/')
 
 [tags]treeList, data binding, access data source, getDataSource, reload data

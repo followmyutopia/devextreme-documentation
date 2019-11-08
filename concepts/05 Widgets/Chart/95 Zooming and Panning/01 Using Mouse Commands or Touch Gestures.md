@@ -1,6 +1,6 @@
 Users can zoom the chart by rotating the mouse wheel and pan it using the drag gesture. On touch-enabled devices, users can zoom the chart using the spread and pinch gestures and pan the chart using the drag gesture, too.
 
-![DevExtreme HTML5 JavaScript Charts Zooming Panning](/Content/images/doc/19_2/ChartJS/devextreme-chart-NewZoomScroll.gif)
+![DevExtreme HTML5 JavaScript Charts Zooming Panning](/images/ChartJS/devextreme-chart-NewZoomScroll.gif)
 
 Zooming and panning are configured in the [zoomAndPan](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/zoomAndPan/zoomAndPan.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/zoomAndPan/') object. You can enable them separately for the argument and value axes by specifying the [argumentAxis](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/zoomAndPan/argumentAxis.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/zoomAndPan/#argumentAxis') and [valueAxis](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/zoomAndPan/valueAxis.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/zoomAndPan/#valueAxis') options:
 

@@ -73,7 +73,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
 #####See Also#####
 #include common-link-callmethods
-- [Slider Demos](/Demos/WidgetsGallery/Demo/Slider/Overview/)
+- [Slider Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Slider/Overview/)
 - [Slider API Reference](/api-reference/10%20UI%20Widgets/dxSlider/dxSlider.md '/Documentation/ApiReference/UI_Widgets/dxSlider/')
 
 [tags]slider, accessibility, keyboard shortcuts

@@ -35,6 +35,6 @@ Now, you can call [any method](/api-reference/30%20Data%20Layer/DataSource/3%20M
 
 #####See Also#####
 - [Data Layer - Overview](/concepts/30%20Data%20Layer/5%20Data%20Layer/Data%20Layer.md '/Documentation/Guide/Data_Layer/Data_Layer/')
-- [SelectBox Demos](/Demos/WidgetsGallery/Demo/Select_Box/Overview/)
+- [SelectBox Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Select_Box/Overview/)
 
 [tags]selectBox, data binding, access data source, getDataSource, reload data

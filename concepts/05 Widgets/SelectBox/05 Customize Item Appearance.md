@@ -299,6 +299,6 @@ In addition, you can use a 3rd-party template engine to perform the needed custo
 
 #####See Also#####
 - [SelectBox API Reference](/api-reference/10%20UI%20Widgets/dxSelectBox/dxSelectBox.md '/Documentation/ApiReference/UI_Widgets/dxSelectBox/')
-- [SelectBox Demos](/Demos/WidgetsGallery/Demo/SelectBox/Overview/)
+- [SelectBox Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/SelectBox/Overview/)
 
 [tags]selectBox, select box, editor, item appearance, customize, templates, template, default item, default template, field template

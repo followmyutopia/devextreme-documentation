@@ -38,4 +38,4 @@ Labels are arranged in a column by default. Change the **label**.[position](/api
 ---
 
 #####See Also#####
-- [Funnel Demos](/Demos/WidgetsGallery/Demo/Charts/FunnelChart/)
+- [Funnel Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/FunnelChart/)

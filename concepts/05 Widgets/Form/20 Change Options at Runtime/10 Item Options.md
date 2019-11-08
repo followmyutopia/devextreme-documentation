@@ -83,7 +83,7 @@ With Angular, bind the option to change to a component or element property.
 #include common-link-callmethods
 - [Form - Change Editor Options at Runtime](/concepts/05%20Widgets/Form/20%20Change%20Options%20at%20Runtime/15%20Editor%20Options.md '/Documentation/Guide/Widgets/Form/Change_Options_at_Runtime/Editor_Options/')
 - [Form - Configure Simple Items](/concepts/05%20Widgets/Form/05%20Configure%20Simple%20Items/Configure%20Simple%20Items.md '/Documentation/Guide/Widgets/Form/Configure_Simple_Items/')
-- [Form Demos](/Demos/WidgetsGallery/Demo/Form/GroupedFields/)
+- [Form Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Form/GroupedFields/)
 - [Form API Reference](/api-reference/10%20UI%20Widgets/dxForm/dxForm.md '/Documentation/ApiReference/UI_Widgets/dxForm/')
 
 [tags]form, modify item, item option, change option

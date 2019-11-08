@@ -150,7 +150,7 @@ As you may notice, in the previous code, the **ArrayStore** is not declared expl
 - [Bind Series to Data](/concepts/05%20Widgets/Chart/03%20Data%20Binding/23%20Bind%20Series%20to%20Data/Bind%20Series%20to%20Data.md '/Documentation/Guide/Widgets/Chart/Data_Binding/Bind_Series_to_Data/')
 - [Update Data in the Chart](/concepts/05%20Widgets/Chart/03%20Data%20Binding/26%20Update%20Data/Update%20Data.md '/Documentation/Guide/Widgets/Chart/Data_Binding/Update_Data/')
 - [Data Aggregation](/concepts/05%20Widgets/Chart/88%20Data%20Aggregation/Data%20Aggregation.md '/Documentation/Guide/Widgets/Chart/Data_Aggregation/')
-- [Chart Demos](/Demos/WidgetsGallery/Demo/Charts/ClientSideDataProcessing/)
+- [Chart Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/ClientSideDataProcessing/)
 - [Chart API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/dxChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/')
 
 [tags]chart, data binding, provide data, ArrayStore, DataSource, pagination

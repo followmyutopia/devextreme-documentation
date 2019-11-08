@@ -1,6 +1,6 @@
 A lookup column is a special type of [data columns](/concepts/05%20Widgets/DataGrid/15%20Columns/10%20Column%20Types/1%20Data%20Columns.md '/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/#Data_Columns'). It contains a restricted set of values that is useful when filtering and editing.
 
-![DevExtreme HTML5 JavaScript DataGrid LookupColumns](/Content/images/doc/19_2/DataGrid/visual_elements/column-types_lookup.png)
+![DevExtreme HTML5 JavaScript DataGrid LookupColumns](/images/DataGrid/visual_elements/column-types_lookup.png)
 
 Each lookup column has an individual [data source](/api-reference/_hidden/GridBaseColumn/lookup/dataSource.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/#dataSource') - a collection of objects that map the column's actual values to display values...
 

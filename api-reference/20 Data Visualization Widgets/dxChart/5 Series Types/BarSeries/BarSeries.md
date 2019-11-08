@@ -18,4 +18,4 @@ Describes settings supported by a series of the *bar* type.
     url: "/Demos/WidgetsGallery/Demo/Charts/StandardBar/"
 }
 
-![DevExtreme HTML5 Charts BarSeriesType](/Content/images/doc/19_2/ChartJS/Bar.png)
+![DevExtreme HTML5 Charts BarSeriesType](/images/ChartJS/Bar.png)

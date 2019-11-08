@@ -85,7 +85,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
 #####See Also#####
 #include common-link-callmethods
-- [ColorBox Demos](/Demos/WidgetsGallery/Demo/ColorBox/Overview/)
+- [ColorBox Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/ColorBox/Overview/)
 - [ColorBox API Reference](/api-reference/10%20UI%20Widgets/dxColorBox/dxColorBox.md '/Documentation/ApiReference/UI_Widgets/dxColorBox/')
 
 [tags]color box, colorBox, navigation, accessibility, keyboard shortcuts

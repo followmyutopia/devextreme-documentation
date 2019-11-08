@@ -18,4 +18,4 @@ Describes settings supported by a series of the *full-stacked bar* type.
     url: "/Demos/WidgetsGallery/Demo/Charts/FullStackedBar/"
 }
 
-![DevExtreme HTML5 Charts FullStackedBarSeriesType](/Content/images/doc/19_2/ChartJS/FullStackedBar.png)
+![DevExtreme HTML5 Charts FullStackedBarSeriesType](/images/ChartJS/FullStackedBar.png)

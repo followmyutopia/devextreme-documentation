@@ -1,6 +1,6 @@
 The scrollbar is a chart element used for panning.
 
-![DevExtreme HTML5 JavaScript Charts ScrollBar](/Content/images/doc/19_2/ChartJS/visual_elements/scroll_bar.png)
+![DevExtreme HTML5 JavaScript Charts ScrollBar](/images/ChartJS/visual_elements/scroll_bar.png)
 
 You can configure the scrollbar using the [scrollBar](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/scrollBar/scrollBar.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/scrollBar/') object. To display the scrollbar, set this object's [visible](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/scrollBar/visible.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/scrollBar/#visible') option to **true** after [enabling zooming and panning](/concepts/05%20Widgets/Chart/95%20Zooming%20and%20Panning/01%20Using%20Mouse%20Commands%20or%20Touch%20Gestures.md '/Documentation/Guide/Widgets/Chart/Zooming_and_Panning/#Using_Mouse_Commands_or_Touch_Gestures').
 

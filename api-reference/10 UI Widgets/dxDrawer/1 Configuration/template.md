@@ -11,7 +11,7 @@ Specifies the drawer's content.
 The container for the content. It is an <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement" target="_blank">HTML Element</a> or a <a href="http://api.jquery.com/Types/#jQuery" target="_blank">jQuery Element</a> when you use jQuery.
 
 ---
-![DevExtreme HTML5 JavaScript Drawer](/Content/images/doc/19_2/UIWidgets/drawer.png)
+![DevExtreme HTML5 JavaScript Drawer](/images/UIWidgets/drawer.png)
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Drawer/LeftOrRightPosition/React/Light/"

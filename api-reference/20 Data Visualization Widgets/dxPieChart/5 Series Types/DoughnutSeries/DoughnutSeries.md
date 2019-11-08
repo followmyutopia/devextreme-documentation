@@ -18,4 +18,4 @@ An object defining a series of the **doughnut** type.
     url: "/Demos/WidgetsGallery/Demo/Charts/Doughnut/"
 }
 
-![DoughnutSeriesType DonutSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/Doughnut.png)
+![DoughnutSeriesType DonutSeriesType ChartJS](/images/ChartJS/Doughnut.png)

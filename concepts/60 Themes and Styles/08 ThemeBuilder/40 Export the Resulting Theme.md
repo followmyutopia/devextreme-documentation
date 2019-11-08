@@ -2,7 +2,7 @@ Click **Export** to open the **Theme Export** popup dialog. In this dialog, ente
 
 Click **Save to File** to save a file named `dx.[base-theme-name].[color-scheme-name].css` (for example, `dx.material.brown.css`) on your computer. Alternatively, you can copy the CSS from the text area at the bottom:
 
-![DevExtreme ThemeBuilder UI: Theme Export popup dialog](/Content/images/doc/19_2/Common/ThemeBuilder/themebuilder-themeexport-css.png)
+![DevExtreme ThemeBuilder UI: Theme Export popup dialog](/images/Common/ThemeBuilder/themebuilder-themeexport-css.png)
 
 Your custom theme uses [icons](/concepts/60%20Themes%20and%20Styles/30%20Icons/00%20Icons.md '/Documentation/Guide/Themes_and_Styles/Icons/'), which should be located next to the theme. When using npm, you can find the `icons` folder in `node_modules/devextreme/dist/css`. In other cases, the folder is in the directory with predefined themes. Copy the `icons` folder to the directory that contains your theme.
 

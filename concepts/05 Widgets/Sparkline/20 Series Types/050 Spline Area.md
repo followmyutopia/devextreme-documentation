@@ -1,6 +1,6 @@
 Similarly to [area](/concepts/05%20Widgets/Sparkline/20%20Series%20Types/040%20Area.md '/Documentation/Guide/Widgets/Sparkline/Series_Types/#Area'), the *spline area* series type presents data in the form of a line and a shaded area under it. But unlike in the *area* series, in a *spline area* series, this line is much smoother.
 
-![DevExtreme ChartJS Sparkline](/Content/images/doc/19_2/ChartJS/SparklineSplineArea.png)
+![DevExtreme ChartJS Sparkline](/images/ChartJS/SparklineSplineArea.png)
 
 To specify the *spline area* series type, assign *'splinearea'* to the [type](/api-reference/20%20Data%20Visualization%20Widgets/dxSparkline/1%20Configuration/type.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSparkline/Configuration/#type') option of the main configuration object.
 

@@ -60,7 +60,7 @@ This article describes how to create an ASP.NET Core Angular application and add
           }
         }
 
-1. **Only .NET Core SDK 2.2 and later**: Register the <a href="https://stuk.github.io/jszip/" target="_blank">JSZip library</a> in the `ClientApp/tsconfig.json` file. The **DataGrid** widget component, which we are going to utilize at a later step, uses this library for [client-side export to Excel](/Demos/WidgetsGallery/Demo/DataGrid/ExportToExcel/Angular/Light/).
+1. **Only .NET Core SDK 2.2 and later**: Register the <a href="https://stuk.github.io/jszip/" target="_blank">JSZip library</a> in the `ClientApp/tsconfig.json` file. The **DataGrid** widget component, which we are going to utilize at a later step, uses this library for [client-side export to Excel](http://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/ExportToExcel/Angular/Light/).
 
         <!-- tab: tsconfig.json -->
         {

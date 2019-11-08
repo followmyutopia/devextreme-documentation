@@ -124,5 +124,5 @@ Run the code, open the drop-down menu, and select an item. You should see that t
 
 You have configured basic **DropDownButton** features. For more information about this widget, explore the following resources:
 
-- [Demos](/Demos/WidgetsGallery/Demo/DropDownButton/Overview/)
+- [Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/DropDownButton/Overview/)
 - [API Reference](/api-reference/10%20UI%20Widgets/dxDropDownButton/dxDropDownButton.md '/Documentation/ApiReference/UI_Widgets/dxDropDownButton/')

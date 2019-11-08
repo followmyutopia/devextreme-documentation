@@ -69,7 +69,7 @@ To group appointments by resources, assign an array to the [groups](/api-referen
 
 ---
 
-![Scheduler Grouping by Resources](/Content/images/doc/19_2/UiWidgets/Scheduler_ResourceGroups.png)
+![Scheduler Grouping by Resources](/images/UiWidgets/Scheduler_ResourceGroups.png)
 
 You can change resource headers' orientation in an individual view using the **views**.[groupOrientation](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/views/groupOrientation.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/#groupOrientation') option. In the following code, the orientation in the **day** view is *"vertical"*, so that resource headers are arranged in a column:
 

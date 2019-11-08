@@ -203,7 +203,7 @@ The following code defines three views: the first is not customized, the second 
 - [Scheduler - View Types](/concepts/05%20Widgets/Scheduler/060%20Views/010%20View%20Types/View%20Types.md '/Documentation/Guide/Widgets/Scheduler/Views/View_Types/')
 - [Scheduler - Customize Appointment](/concepts/05%20Widgets/Scheduler/030%20Appointments/050%20Customize%20Appointment.md '/Documentation/Guide/Widgets/Scheduler/Appointments/Customize_Appointment/')
 - [Scheduler - Customize Timetable](/concepts/05%20Widgets/Scheduler/050%20Timetable.md '/Documentation/Guide/Widgets/Scheduler/Timetable/')
-- [Scheduler Demos](/Demos/WidgetsGallery/Demo/Scheduler/Overview/)
+- [Scheduler Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/Overview/)
 - [Scheduler API Reference](/api-reference/10%20UI%20Widgets/dxScheduler/dxScheduler.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/')
 
 [tags]scheduler, customize individual view

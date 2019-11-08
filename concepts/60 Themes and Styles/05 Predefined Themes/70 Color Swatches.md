@@ -31,7 +31,7 @@ You can generate color swatches with the DevExtreme CLI or ThemeBuilder UI:
 
     Click **Export** on the toolbar to open the **Theme Export** popup dialog. Enter the color swatch's name ("brown" in the following image), check the **Save as a color swatch** checkbox, and click **Save to File**:
 
-    ![DevExtreme ThemeBuilder UI: Export a color swatch](/Content/images/doc/19_2/Common/ThemeBuilder/themebuilder-themeexport-css.png)
+    ![DevExtreme ThemeBuilder UI: Export a color swatch](/images/Common/ThemeBuilder/themebuilder-themeexport-css.png)
 
     Move the resulting CSS file to the application folder, [register it](/concepts/60%20Themes%20and%20Styles/05%20Predefined%20Themes/50%20Apply%20a%20Theme.md '/Documentation/Guide/Themes_and_Styles/Predefined_Themes/#Apply_a_Theme'), and add the swatch class to a page element.
 

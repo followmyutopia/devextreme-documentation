@@ -18,4 +18,4 @@ Describes settings supported by a series of the *step line* type.
     url: "/Demos/WidgetsGallery/Demo/Charts/StepLine/"
 }
 
-![DevExtreme HTML5 Charts StepLineSeriesType](/Content/images/doc/19_2/ChartJS/StepLine.png)
+![DevExtreme HTML5 Charts StepLineSeriesType](/images/ChartJS/StepLine.png)

@@ -1,6 +1,6 @@
 A recurring appointment is an appointment that repeats after a specified period of time. 
 
-![Scheduler Recurring Appointment](/Content/images/doc/19_2/UiWidgets/Scheduler_RecurrentAppointment.png)
+![Scheduler Recurring Appointment](/images/UiWidgets/Scheduler_RecurrentAppointment.png)
 
 An object defining a recurring appointment should contain the [recurrenceRule](/api-reference/10%20UI%20Widgets/dxScheduler/5%20Default%20Appointment%20Template/recurrenceRule.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/#recurrenceRule') field that follows the <a href="https://tools.ietf.org/html/rfc2445#section-4.3.10" target="_blank">iCalendar RFC 2445</a> specification.
 
@@ -76,7 +76,7 @@ If your appointments contain other data fields instead of **recurrenceRule** and
 
 In the UI, to mark an appointment as recurring, toggle the *"Repeat"* switcher on the appointment details form. Then, a set of new fields will appear. 
 
-![Scheduler Recurring Appointment Details](/Content/images/doc/19_2/UiWidgets/Scheduler_RecurrentAppointment_Details.png)
+![Scheduler Recurring Appointment Details](/images/UiWidgets/Scheduler_RecurrentAppointment_Details.png)
 
 These fields will be saved as the **recurrenceRule** field of an appointment object. Note that although a recurring appointment is displayed as several appointments on the timetable, only a single appointment object is saved in the data source.
 
@@ -89,5 +89,5 @@ These fields will be saved as the **recurrenceRule** field of an appointment obj
 - [Scheduler - Update Appointments](/concepts/05%20Widgets/Scheduler/030%20Appointments/030%20Update%20Appointments/Update%20Appointments.md '/Documentation/Guide/Widgets/Scheduler/Appointments/Update_Appointments/')
 - [Scheduler - Delete Appointments](/concepts/05%20Widgets/Scheduler/030%20Appointments/040%20Delete%20Appointments/Delete%20Appointments.md '/Documentation/Guide/Widgets/Scheduler/Appointments/Delete_Appointments/')
 - [Scheduler - Customize Appointment](/concepts/05%20Widgets/Scheduler/030%20Appointments/050%20Customize%20Appointment.md '/Documentation/Guide/Widgets/Scheduler/Appointments/Customize_Appointment/')
-- [Scheduler Demos](/Demos/WidgetsGallery/Demo/Scheduler/Overview/)
+- [Scheduler Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/Overview/)
 - [Scheduler API Reference](/api-reference/10%20UI%20Widgets/dxScheduler/dxScheduler.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/')

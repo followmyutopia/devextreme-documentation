@@ -145,6 +145,6 @@ You can create a [Query](/concepts/30%20Data%20Layer/5%20Data%20Layer/6%20Query%
 - [Data Layer - Query Concept](/concepts/30%20Data%20Layer/5%20Data%20Layer/6%20Query%20Concept.md '/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept')
 - [Bind to the ArrayStore](/concepts/05%20Widgets/SelectBox/03%20Data%20Binding/05%20Simple%20Array/10%20ArrayStore.md '/Documentation/Guide/Widgets/SelectBox/Data_Binding/Simple_Array/ArrayStore/')
 - [Access the DataSource](/concepts/05%20Widgets/SelectBox/03%20Data%20Binding/30%20Access%20the%20DataSource.md '/Documentation/Guide/Widgets/SelectBox/Data_Binding/Access_the_DataSource/')
-- [SelectBox Demos](/Demos/WidgetsGallery/Demo/Select_Box/Overview/)
+- [SelectBox Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Select_Box/Overview/)
 
 [tags]selectBox, data binding, provide data, array, process data, query

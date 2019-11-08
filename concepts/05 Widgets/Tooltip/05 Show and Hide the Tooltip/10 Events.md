@@ -103,5 +103,5 @@ If you are going to change event handlers at runtime, or if you need to attach s
 #include common-link-handleevents
 - [Tooltip - Customize the Content](/concepts/05%20Widgets/Tooltip/10%20Customize%20the%20Content/Customize%20the%20Content.md '/Documentation/Guide/Widgets/Tooltip/Customize_the_Content/')
 - [Tooltip - Resize and Relocate](/concepts/05%20Widgets/Tooltip/15%20Resize%20and%20Relocate.md '/Documentation//Guide/Widgets/Tooltip/Resize_and_Relocate/')
-- [Tooltip Demos](/Demos/WidgetsGallery/Demo/Tooltip/Overview/)
+- [Tooltip Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Tooltip/Overview/)
 - [Tooltip API Reference](/api-reference/10%20UI%20Widgets/dxTooltip/dxTooltip.md '/Documentation/ApiReference/UI_Widgets/dxTooltip/')

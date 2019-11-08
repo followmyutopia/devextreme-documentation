@@ -1,6 +1,6 @@
 A user can click the **Export** button to save an Excel file with the exported data. Data types, sorting, filtering, and grouping settings are maintained.
 
-![DevExtreme HTML5 JavaScript DataGrid Export Button](/Content/images/doc/19_2/DataGrid/exported_data.png)
+![DevExtreme HTML5 JavaScript DataGrid Export Button](/images/DataGrid/exported_data.png)
 
 To allow a user to export data, set the **export**.[enabled](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/export/enabled.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#enabled') option to **true**.
 

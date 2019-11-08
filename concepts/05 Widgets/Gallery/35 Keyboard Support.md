@@ -69,7 +69,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
 #####See Also#####
 #include common-link-callmethods
-- [Gallery Demos](/Demos/WidgetsGallery/Demo/Gallery/Overview/)
+- [Gallery Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Gallery/Overview/)
 - [Gallery API Reference](/api-reference/10%20UI%20Widgets/dxGallery/dxGallery.md '/Documentation/ApiReference/UI_Widgets/dxGallery/')
 
 [tags]gallery, accessibility, keyboard shortcuts

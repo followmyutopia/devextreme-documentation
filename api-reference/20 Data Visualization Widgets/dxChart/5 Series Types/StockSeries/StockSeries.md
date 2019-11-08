@@ -18,4 +18,4 @@ Describes settings supported by a series of the *stock* type.
     url: "/Demos/WidgetsGallery/Demo/Charts/Stock/"
 }
 
-![DevExtreme HTML5 Charts StockSeriesType](/Content/images/doc/19_2/ChartJS/Stock.png)
+![DevExtreme HTML5 Charts StockSeriesType](/images/ChartJS/Stock.png)

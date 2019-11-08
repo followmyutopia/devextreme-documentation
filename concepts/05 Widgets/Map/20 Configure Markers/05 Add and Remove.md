@@ -207,7 +207,7 @@ With Angular, AngularJS, or Knockout, use a different technique. Bind the **mark
 #####See Also#####
 - [Map - Customize Markers](/concepts/05%20Widgets/Map/20%20Configure%20Markers/10%20Customize.md '/Documentation/Guide/Widgets/Map/Configure_Markers/Customize/')
 - [Map - Handle Marker Related Events](/concepts/05%20Widgets/Map/20%20Configure%20Markers/15%20Handle%20the%20Related%20Events.md '/Documentation/Guide/Widgets/Map/Configure_Markers/Handle_the_Related_Events/')
-- [Map Demos](/Demos/WidgetsGallery/Demo/Map/Markers/)
+- [Map Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Map/Markers/)
 - [Map API Reference](/api-reference/10%20UI%20Widgets/dxMap/dxMap.md '/Documentation/ApiReference/UI_Widgets/dxMap/')
 
 [tags]map, markers, location, add marker, remove marker, add on click

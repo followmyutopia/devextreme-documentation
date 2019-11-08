@@ -1,4 +1,4 @@
-You can use SVG icons instead of font icons. The following code demonstrates how to use them in the [Button](/Demos/WidgetsGallery/Demo/Button/Icons/) widget. The same technique can be used for widgets with the [icon](/api-reference/10%20UI%20Widgets/dxButton/5%20Default%20Template/icon.md '/Documentation/ApiReference/UI_Widgets/dxButton/Default_Template/#icon') option. 
+You can use SVG icons instead of font icons. The following code demonstrates how to use them in the [Button](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Button/Icons/) widget. The same technique can be used for widgets with the [icon](/api-reference/10%20UI%20Widgets/dxButton/5%20Default%20Template/icon.md '/Documentation/ApiReference/UI_Widgets/dxButton/Default_Template/#icon') option. 
 
 An SVG icon can be specified as follows:
 

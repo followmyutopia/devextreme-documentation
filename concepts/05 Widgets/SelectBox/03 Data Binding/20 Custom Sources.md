@@ -309,6 +309,6 @@ If you specify the **SelectBox**'s [value](/api-reference/10%20UI%20Widgets/dxDr
 - [Access the DataSource](/concepts/05%20Widgets/SelectBox/03%20Data%20Binding/30%20Access%20the%20DataSource.md '/Documentation/Guide/Widgets/SelectBox/Data_Binding/Access_the_DataSource/')
 - [Grouping](/concepts/05%20Widgets/SelectBox/07%20Grouping/01%20In%20the%20Data%20Source.md '/Documentation/Guide/Widgets/SelectBox/Grouping/In_the_Data_Source/')
 - [Configure Search Parameters](/concepts/05%20Widgets/SelectBox/10%20Configure%20Search%20Parameters.md '/Documentation/Guide/Widgets/SelectBox/Configure_Search_Parameters/')
-- [SelectBox Demos](/Demos/WidgetsGallery/Demo/Select_Box/Overview/)
+- [SelectBox Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Select_Box/Overview/)
 
 [tags]selectBox, data binding, provide data, custom data source, CustomStore, DataSource, load

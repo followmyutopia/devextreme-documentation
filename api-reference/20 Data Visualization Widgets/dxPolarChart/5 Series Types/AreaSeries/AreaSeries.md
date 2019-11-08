@@ -18,4 +18,4 @@ An object defining a series of the **area** type.
     url: "/Demos/WidgetsGallery/Demo/Charts/InvertedChart/"
 }
 
-![AreaSeriesType ChartJS](/Content/images/doc/19_2/ChartJS/PolarArea.png)
+![AreaSeriesType ChartJS](/images/ChartJS/PolarArea.png)

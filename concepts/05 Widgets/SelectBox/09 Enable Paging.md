@@ -64,6 +64,6 @@ Paging options are set in the [DataSource](/api-reference/30%20Data%20Layer/Data
 
 #####See Also#####
 - **Data Binding**: [Web API Service](/concepts/05%20Widgets/SelectBox/03%20Data%20Binding/16%20Web%20API%20Service.md '/Documentation/Guide/Widgets/SelectBox/Data_Binding/Web_API_Service/') | [PHP Service](/concepts/05%20Widgets/SelectBox/03%20Data%20Binding/17%20PHP%20Service.md '/Documentation/Guide/Widgets/SelectBox/Data_Binding/PHP_Service/') | [MongoDB Service](/concepts/05%20Widgets/SelectBox/03%20Data%20Binding/18%20MongoDB%20Service.md '/Documentation/Guide/Widgets/SelectBox/Data_Binding/MongoDB_Service/') | [OData Service](/concepts/05%20Widgets/SelectBox/03%20Data%20Binding/15%20OData%20Service.md '/Documentation/Guide/Widgets/SelectBox/Data_Binding/OData_Service/') | [Custom Sources](/concepts/05%20Widgets/SelectBox/03%20Data%20Binding/20%20Custom%20Sources.md '/Documentation/Guide/Widgets/SelectBox/Data_Binding/Custom_Sources/') | [JavaScript Array](/concepts/05%20Widgets/SelectBox/03%20Data%20Binding/05%20Simple%20Array/05%20Array%20Only.md '/Documentation/Guide/Widgets/SelectBox/Data_Binding/Simple_Array/Array_Only/')
-- [SelectBox Demos](/Demos/WidgetsGallery/Demo/SelectBox/Overview/)
+- [SelectBox Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/SelectBox/Overview/)
 
 [tags]selectbox, select box, paginate, page size, pageSize

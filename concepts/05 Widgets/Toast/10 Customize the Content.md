@@ -159,7 +159,7 @@ If you need to render different templates depending on a specific condition, def
 
 #####See Also#####
 - [Toast - Resize and Relocate](/concepts/05%20Widgets/Toast/15%20Resize%20and%20Relocate.md '/Documentation//Guide/Widgets/Toast/Resize_and_Relocate/')
-- [Toast Demos](/Demos/WidgetsGallery/Demo/Toast/Overview/)
+- [Toast Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Toast/Overview/)
 - [Toast API Reference](/api-reference/10%20UI%20Widgets/dxToast/dxToast.md '/Documentation/ApiReference/UI_Widgets/dxToast/')
 
 [tags]toast, overlay, template, customize the content, content template

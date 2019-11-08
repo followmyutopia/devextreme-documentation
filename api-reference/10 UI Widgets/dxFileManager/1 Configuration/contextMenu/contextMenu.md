@@ -12,4 +12,4 @@ Configures the context menu settings.
     url: "/Demos/WidgetsGallery/Demo/FileManager/UICustomization/"
 }
 
-![DevExtreme File Manager - Context Menu](/Content/images/doc/19_2/FileManager/context-menu.png)
+![DevExtreme File Manager - Context Menu](/images/FileManager/context-menu.png)

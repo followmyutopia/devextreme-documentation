@@ -77,7 +77,7 @@ If you are going to change event handlers at runtime, or if you need to attach s
 #####See Also#####
 - [Map - Customize Routes](/concepts/05%20Widgets/Map/25%20Configure%20Routes/10%20Customize.md '/Documentation/Guide/Widgets/Map/Configure_Routes/Customize/')
 - [Map - Add and Remove Routes](/concepts/05%20Widgets/Map/25%20Configure%20Routes/05%20Add%20and%20Remove.md '/Documentation/Guide/Widgets/Map/Configure_Routes/Add_and_Remove/')
-- [Map Demos](/Demos/WidgetsGallery/Demo/Map/Routes/)
+- [Map Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Map/Routes/)
 - [Map API Reference](/api-reference/10%20UI%20Widgets/dxMap/dxMap.md '/Documentation/ApiReference/UI_Widgets/dxMap/')
 
 [tags]map, route added, Route removed, routeAdded event, routeRemoved event

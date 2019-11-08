@@ -2,7 +2,7 @@
 
 The **FileManager** widget allows users to manage files and folders.
 
-![DevExtreme File Manager - Getting Started](/Content/images/doc/19_2/FileManager/getting-started-overview.png)
+![DevExtreme File Manager - Getting Started](/images/FileManager/getting-started-overview.png)
 
 #include common-ctp-note with {
     component: "FileManager"

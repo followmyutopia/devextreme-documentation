@@ -18,4 +18,4 @@ Describes settings supported by a series of the *bubble* type.
     url: "/Demos/WidgetsGallery/Demo/Charts/Bubble/"
 }
 
-![DevExtreme HTML5 Charts BubbleSeriesType](/Content/images/doc/19_2/ChartJS/Bubble.png)
+![DevExtreme HTML5 Charts BubbleSeriesType](/images/ChartJS/Bubble.png)

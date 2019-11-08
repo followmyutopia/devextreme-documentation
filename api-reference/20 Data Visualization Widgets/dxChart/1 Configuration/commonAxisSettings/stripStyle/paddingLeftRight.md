@@ -14,7 +14,7 @@ This option depends on the **label**.**horizontalAlignment** in the following wa
 - **horizontalAlignment** is *"right"* &rarr; padding applies to the right border of a strip;      
 - **horizontalAlignment** is *"center"* &rarr; padding is calculated automatically.
 
-![DevExtreme HTML5 Charts StripPadding](/Content/images/doc/19_2/ChartJS/StripPaddingLeftRight.png)
+![DevExtreme HTML5 Charts StripPadding](/images/ChartJS/StripPaddingLeftRight.png)
 
 #####See Also#####
 - **commonAxisSettings**.**stripStyle**.**label**.[horizontalAlignment](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonAxisSettings/stripStyle/label/horizontalAlignment.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/stripStyle/label/#horizontalAlignment') - aligns strip labels in the horizontal direction. Applies to all strips.

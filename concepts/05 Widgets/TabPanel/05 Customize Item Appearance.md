@@ -191,7 +191,7 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 
 #####See Also#####
 - [TabPanel - Control the Behavior](/concepts/05%20Widgets/TabPanel/15%20Control%20the%20Behavior.md '/Documentation/Guide/Widgets/TabPanel/Control_the_Behavior')
-- [TabPanel Demos](/Demos/WidgetsGallery/Demo/TabPanel/Overview/)
+- [TabPanel Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/TabPanel/Overview/)
 - [TabPanel API Reference](/api-reference/10%20UI%20Widgets/dxTabPanel/dxTabPanel.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/')
 
 [tags]tab panel, tabPanel, item appearance, customize, templates, template, custom template, default item, default template

@@ -1,6 +1,6 @@
 A bullet bar is a horizontal bar that indicates a bullet chart's primary value.
 
-![DevExtreme ChartJS BulletChart BulletGraph](/Content/images/doc/19_2/ChartJS/BulletBar.png)
+![DevExtreme ChartJS BulletChart BulletGraph](/images/ChartJS/BulletBar.png)
 
 To specify the value indicated by the bullet bar, assign it to the [value](/api-reference/20%20Data%20Visualization%20Widgets/dxBullet/1%20Configuration/value.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxBullet/Configuration/#value') option.
 

@@ -1,6 +1,6 @@
 Ticks divide an axis into sections by a step that is determined automatically, or by the [tickInterval](/api-reference/20%20Data%20Visualization%20Widgets/dxPolarChart/1%20Configuration/argumentAxis/tickInterval/tickInterval.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/argumentAxis/tickInterval/') and [axisDivisionFactor](/api-reference/20%20Data%20Visualization%20Widgets/dxPolarChart/1%20Configuration/argumentAxis/axisDivisionFactor.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/argumentAxis/#axisDivisionFactor') options of an axis. Ticks improve the comprehension of chart data. 
 
-![Axis Ticks](/Content/images/doc/19_2/ChartJS/Polar_Ticks.png)
+![Axis Ticks](/images/ChartJS/Polar_Ticks.png)
 
 Ticks are child elements of the argument and value axes. To change their settings, define the [tick](/api-reference/20%20Data%20Visualization%20Widgets/dxPolarChart/1%20Configuration/commonAxisSettings/tick/tick.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/commonAxisSettings/tick/') object within the **argumentAxis**, **valueAxis** or **commonAxisSettings** configuration object.
 

@@ -8,4 +8,4 @@ A legend item marker.
 
 ---
 
-![DevExtreme legend item marker](/Content/images/doc/19_2/ChartJS/dataviz-legend-markers.png)
+![DevExtreme legend item marker](/images/ChartJS/dataviz-legend-markers.png)

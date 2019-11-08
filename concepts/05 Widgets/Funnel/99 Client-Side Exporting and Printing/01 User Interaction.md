@@ -1,6 +1,6 @@
 To export or print the **Funnel**, a user clicks the *"Exporting/Printing"* button and selects a command from the drop-down menu. The **Print** command opens the browser's **Print** window that lets the user select preferred printing settings and send the print job to the printer. The other commands save a file of the selected format in the user's local storage.
 
-![Funnel Export Menu](/Content/images/doc/19_2/Funnel/visual_elements/export-menu.png)
+![Funnel Export Menu](/images/Funnel/visual_elements/export-menu.png)
 
 You can enable both exporting and printing by setting the [export](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/export/export.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/export/').**enabled** option to **true**. If you need only exporting to be available to the user, disable printing by assigning **false** to the **export**.[printingEnabled](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/export/printingEnabled.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/export/#printingEnabled') option.
 

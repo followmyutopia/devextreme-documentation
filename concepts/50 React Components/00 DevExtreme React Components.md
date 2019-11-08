@@ -31,6 +31,6 @@ All DevExtreme component suites, including React, share architecture and core fe
 
 - [Customization using templates](/concepts/05%20Widgets/zz%20Common/30%20Templates/Templates.md '/Documentation/Guide/Widgets/Common/Templates/')
 
-We also provide [over 250 technical demos](/Demos/WidgetsGallery/) you can edit and copy code from.
+We also provide [over 250 technical demos](http://js.devexpress.com/Demos/WidgetsGallery/) you can edit and copy code from.
 
 For information on how to integrate DevExtreme React components into your application, refer to one of the [Add DevExtreme to a React Application](/concepts/50%20React%20Components/05%20Add%20DevExtreme%20to%20a%20React%20Application/00%20Add%20DevExtreme%20to%20a%20React%20Application.md '/Documentation/Guide/React_Components/Add_DevExtreme_to_a_React_Application/') article.

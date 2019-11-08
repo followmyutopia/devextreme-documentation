@@ -12,4 +12,4 @@ Provides access to toolbar settings.
     url: "/Demos/WidgetsGallery/Demo/Diagram/UICustomization/"
 }
 
-![Diagram toolbox](/Content/images/doc/19_2/diagram/toolbar.png)
+![Diagram toolbox](/images/diagram/toolbar.png)

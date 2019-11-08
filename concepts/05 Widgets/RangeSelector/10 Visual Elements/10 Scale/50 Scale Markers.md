@@ -1,6 +1,6 @@
 When you use the scale of the *date-time* [type](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/scale/valueType.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/#valueType'), scale markers can be displayed. A scale marker consists of a separator and a text representing additional information on a scale tick. For example, when scale labels display tick values specified in months, a scale marker is placed at the first month of a year and displays the value of this year.
 
-![ChartJS RangeSelector](/Content/images/doc/19_2/ChartJS/RangeSelectorScaleMarkers.png)
+![ChartJS RangeSelector](/images/ChartJS/RangeSelectorScaleMarkers.png)
 
 To customize scale markers, use the options of the [marker](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/scale/marker/marker.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/marker/') configuration object.
 

@@ -1,6 +1,6 @@
 The Field Panel is a component that displays the fields involved in calculation of grid summaries. It consists of four field areas: column, row, data and filter. Each area holds fields of the corresponding type.
 
-![DevExtreme PivotGrid FieldPanel](/Content/images/doc/19_2/DataGrid/PivotGrid_fieldPanel_areas.png)
+![DevExtreme PivotGrid FieldPanel](/images/DataGrid/PivotGrid_fieldPanel_areas.png)
 
 By default, the whole Field Panel is hidden. To make it visible, assign **true** to the **visible** property of the [fieldPanel](/api-reference/10%20UI%20Widgets/dxPivotGrid/1%20Configuration/fieldPanel/fieldPanel.md '/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/fieldPanel/') object.
 

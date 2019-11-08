@@ -39,4 +39,4 @@ You can try both these options on the **PieChart** below.
 <div class="simulator-desktop-container" data-view="/Content/Applications/19_2/DataVisualization/Guides/PieChartRotate/rotatePie.html, /Content/Applications/19_2/DataVisualization/Guides/PieChartRotate/rotatePie.js, /Content/Applications/19_2/DataVisualization/Guides/PieChartRotate/rotatePie.css"></div>
 
 #####See Also#####
-- [PieChart Demos](/Demos/WidgetsGallery/Demo/Charts/Pie/)
+- [PieChart Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Pie/)

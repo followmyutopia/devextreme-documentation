@@ -13,5 +13,5 @@ Binds the widget to data.
 
     object_structure_notes: "In each case, also specify the [argumentField](/api-reference/20%20Data%20Visualization%20Widgets/dxSparkline/1%20Configuration/argumentField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSparkline/Configuration/#argumentField') and [valueField](/api-reference/20%20Data%20Visualization%20Widgets/dxSparkline/1%20Configuration/valueField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSparkline/Configuration/#valueField') options.",
 
-    array_view_demo: "[View Demo](/Demos/WidgetsGallery/Demo/Charts/SimpleSparklines/)"
+    array_view_demo: "[View Demo](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/SimpleSparklines/)"
 }

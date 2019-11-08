@@ -18,4 +18,4 @@ Describes settings supported by a series of the *stacked spline area* type.
     url: "/Demos/WidgetsGallery/Demo/Charts/SplineArea/"
 }
 
-![DevExtreme HTML5 Charts StackedSplineAreaSeriesType](/Content/images/doc/19_2/ChartJS/StackedSplineArea.png)
+![DevExtreme HTML5 Charts StackedSplineAreaSeriesType](/images/ChartJS/StackedSplineArea.png)

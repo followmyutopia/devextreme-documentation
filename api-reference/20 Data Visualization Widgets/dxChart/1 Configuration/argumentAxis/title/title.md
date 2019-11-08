@@ -9,7 +9,7 @@ Configures the axis title.
 ---
 The axis title is a short text displayed alongside the axis. Usually, the axis title shows units of measurement for arguments displayed by the axis. You can put any text in the axis title though.
 
-![DevExtreme HTML5 Charts AxisTitles](/Content/images/doc/19_2/ChartJS/visual_elements/axis_titles.png)
+![DevExtreme HTML5 Charts AxisTitles](/images/ChartJS/visual_elements/axis_titles.png)
 
 If you assign an object to the **title** option, specifying the **text** field of this object is necessary for the axis title to be displayed. Besides the object, the **title** option accepts a string, thus providing a shortcut for setting the axis title. Therefore, this:
 

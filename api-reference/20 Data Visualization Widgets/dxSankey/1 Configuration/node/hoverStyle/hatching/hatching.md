@@ -9,4 +9,4 @@ Applies hatching to a node when it is hovered over or pressed.
 ---
 Hatching fills a node with parallel diagonal lines.
 
-![DevExtreme HTML5 JavaScript Sankey Line Hatching](/Content/images/doc/19_2/Sankey/hatching.png)
+![DevExtreme HTML5 JavaScript Sankey Line Hatching](/images/Sankey/hatching.png)

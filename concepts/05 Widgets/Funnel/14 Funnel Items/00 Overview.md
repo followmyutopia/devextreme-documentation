@@ -1,6 +1,6 @@
 A funnel item is a visual representation of a data object.
 
-![Funnel Items](/Content/images/doc/19_2/funnel/visual_elements/funnel-items.png)
+![Funnel Items](/images/funnel/visual_elements/funnel-items.png)
 
 Funnel items get their colors from the [palette](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/1%20Configuration/palette.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/#palette') by default. If you want to use colors from the data source, specify the [colorField](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/1%20Configuration/colorField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/#colorField') option.
 
@@ -98,4 +98,4 @@ Refer to other topics in this section for details on the main funnel item featur
 #####See Also#####
 - [Funnel Item Hover](/concepts/05%20Widgets/Funnel/14%20Funnel%20Items/10%20Hover/Hover.md '/Documentation/Guide/Widgets/Funnel/Funnel_Items/Hover/')
 - [Funnel Item Selection](/concepts/05%20Widgets/Funnel/14%20Funnel%20Items/20%20Selection/Selection.md '/Documentation/Guide/Widgets/Funnel/Funnel_Items/Selection/')
-- [Funnel Demos](/Demos/WidgetsGallery/Demo/Charts/FunnelChart/)
+- [Funnel Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/FunnelChart/)

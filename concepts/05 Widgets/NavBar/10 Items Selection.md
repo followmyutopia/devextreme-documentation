@@ -141,7 +141,7 @@ As an alternative, you can use the [selectedItem](/api-reference/10%20UI%20Widge
 
 #####See Also#####
 - [NavBar - Customize Item Appearance](/concepts/05%20Widgets/NavBar/05%20Customize%20Item%20Appearance.md '/Documentation/Guide/Widgets/NavBar/Customize_Item_Appearance')
-- [NavBar Demos](/Demos/WidgetsGallery/Demo/Navbar/Overview/)
+- [NavBar Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Navbar/Overview/)
 - [NavBar API Reference](/api-reference/10%20UI%20Widgets/dxNavBar/dxNavBar.md '/Documentation/ApiReference/UI_Widgets/dxNavBar/')
 
 [tags]nav bar, navBar, navigation bar, select, selection, item, items, index

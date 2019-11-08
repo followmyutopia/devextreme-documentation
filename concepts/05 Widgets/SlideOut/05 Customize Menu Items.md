@@ -143,7 +143,7 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
  
 #####See Also#####
 - [SlideOut - Group Menu Items](/concepts/05%20Widgets/SlideOut/08%20Group%20Menu%20Items.md '/Documentation/Guide/Widgets/SlideOut/Group_Menu_Items')
-- [SlideOut Demos](/Demos/WidgetsGallery/Demo/Slideout/Overview/)
+- [SlideOut Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Slideout/Overview/)
 - [SlideOut API Reference](/api-reference/10%20UI%20Widgets/dxSlideOut/dxSlideOut.md '/Documentation/ApiReference/UI_Widgets/dxSlideOut/')
 
 [tags]slide-out menu, slideOut, item appearance, customize, templates

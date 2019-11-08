@@ -309,5 +309,5 @@ Pass the <a href="http://www.w3schools.com/js/js_htmldom_nodes.asp" target="_bla
 
 #####See Also#####
 #include common-link-callmethods
-- [List Demos](/Demos/WidgetsGallery/Demo/List/ListSelection/)
+- [List Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListSelection/)
 - [List API Reference](/api-reference/10%20UI%20Widgets/dxList/dxList.md '/Documentation/ApiReference/UI_Widgets/dxList/')

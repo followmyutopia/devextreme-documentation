@@ -23,7 +23,7 @@ The text displayed in the date navigator.
 The text that should be displayed.
 
 ---
-![Scheduler Date Navigator](/Content/images/doc/19_2/UiWidgets/Scheduler_Date_Navigator.png)
+![Scheduler Date Navigator](/images/UiWidgets/Scheduler_Date_Navigator.png)
 
 In the following code, the **customizeDateNavigatorText** function is used to show dates in the `mm/dd/yyyy` format (`mm/yyyy` for the *"month"* view):
 

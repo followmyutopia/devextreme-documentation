@@ -9,7 +9,7 @@ Configures the constant line label.
 ---
 The constant line label displays the value of the constant line.
 
-![DevExtreme HTML5 Charts ConstantLine ConstantLineLabel](/Content/images/doc/19_2/ChartJS/visual_elements/constant_line_labels.png)
+![DevExtreme HTML5 Charts ConstantLine ConstantLineLabel](/images/ChartJS/visual_elements/constant_line_labels.png)
 
 The **label** object specifies the following characteristics of the constant line label.
 

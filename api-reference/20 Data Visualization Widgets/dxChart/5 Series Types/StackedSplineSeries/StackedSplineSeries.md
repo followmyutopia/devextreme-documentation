@@ -18,4 +18,4 @@ Describes settings supported by a series of the *stacked spline* type.
     url: "/Demos/WidgetsGallery/Demo/Charts/Spline/"
 }
 
-![DevExtreme HTML5 Charts StackedSplineSeriesType](/Content/images/doc/19_2/ChartJS/StackedSpline.png)
+![DevExtreme HTML5 Charts StackedSplineSeriesType](/images/ChartJS/StackedSpline.png)

@@ -8,4 +8,4 @@ default: 11
 Specifies the space between the marker's label and the top edge of the marker's separator.
 
 ---
-![RangeSelectorScaleMarkerTextTopIndent ChartJS](/Content/images/doc/19_2/ChartJS/RangeSelectorScaleMarkerTextTopIndent.png)
+![RangeSelectorScaleMarkerTextTopIndent ChartJS](/images/ChartJS/RangeSelectorScaleMarkerTextTopIndent.png)

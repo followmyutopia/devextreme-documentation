@@ -12,7 +12,7 @@ Configures tasks.
     url: "/Demos/WidgetsGallery/Demo/Gantt/Overview/"
 }
 
-![DevExtreme Gantt Chart - Tasks](/Content/images/doc/19_2/Gantt/task.png)
+![DevExtreme Gantt Chart - Tasks](/images/Gantt/task.png)
 
 
 #####See Also#####

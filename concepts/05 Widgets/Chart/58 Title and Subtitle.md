@@ -1,6 +1,6 @@
 Title and subtitle are textual elements that give an idea of what the **Chart** visualizes.
 
-![DevExtreme HTML5 JavaScript Charts Title Subtitle](/Content/images/doc/19_2/ChartJS/visual_elements/chart_title.png)
+![DevExtreme HTML5 JavaScript Charts Title Subtitle](/images/ChartJS/visual_elements/chart_title.png)
 
 The title is configured by the [title](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/title/title.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/title/') object. The subtitle is configured by the [subtitle](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/title/subtitle/subtitle.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/title/subtitle/') object nested in the **title** object.
 
@@ -83,6 +83,6 @@ You can set the title's text more concisely by assigning it directly to the **ti
 For information about all options of the title and subtitle, visit the [title](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/title/title.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/title/') section of the API reference.
 
 #####See Also#####
-- [Chart Demos](/Demos/WidgetsGallery/Demo/Charts/LocalDataSource/)
+- [Chart Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/LocalDataSource/)
 
 [tags]chart, title, subtitle, text

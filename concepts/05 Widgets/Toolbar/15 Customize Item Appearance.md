@@ -236,7 +236,7 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 #####See Also#####
 - [Toolbar - Specify Item Type](/concepts/05%20Widgets/Toolbar/05%20Specify%20Item%20Type.md '/Documentation/Guide/Widgets/Toolbar/Specify_Item_Type')
 - [Toolbar - Specify Item Location](/concepts/05%20Widgets/Toolbar/10%20Specify%20Item%20Location.md '/Documentation/Guide/Widgets/Toolbar/Specify_Item_Location')
-- [Toolbar Demos](/Demos/WidgetsGallery/Demo/Toolbar/Overview/)
+- [Toolbar Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Toolbar/Overview/)
 - [Toolbar API Reference](/api-reference/10%20UI%20Widgets/dxToolbar/dxToolbar.md '/Documentation/ApiReference/UI_Widgets/dxToolbar/')
 
 [tags]toolbar, item appearance, customize, templates, template, custom template, default item, default template

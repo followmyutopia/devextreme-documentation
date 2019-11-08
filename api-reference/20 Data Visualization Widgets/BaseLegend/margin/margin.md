@@ -10,4 +10,4 @@ Generates an empty space, measured in pixels, around the legend.
 ---
 When set to a number, this option applies to all the legend's sides. The object allows you to control each side individually.
 
-![DevExtreme Legend Margins](/Content/images/doc/19_2/ChartJS/LegendMargin.png)
+![DevExtreme Legend Margins](/images/ChartJS/LegendMargin.png)

@@ -296,6 +296,6 @@ If the **List** allows the user to [delete items](/concepts/05%20Widgets/List/35
 - [Data Layer - Overview](/concepts/30%20Data%20Layer/5%20Data%20Layer/Data%20Layer.md '/Documentation/Guide/Data_Layer/Data_Layer/')
 - [List - Access the DataSource](/concepts/05%20Widgets/List/03%20Data%20Binding/30%20Access%20the%20DataSource.md '/Documentation/Guide/Widgets/List/Data_Binding/Access_the_DataSource/')
 - [List - Paging](/concepts/05%20Widgets/List/08%20Paging.md '/Documentation/Guide/Widgets/List/Paging/')
-- [List Demos](/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/)
+- [List Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/)
 
 [tags]list, data binding, provide data, custom data source, CustomStore, DataSource, load

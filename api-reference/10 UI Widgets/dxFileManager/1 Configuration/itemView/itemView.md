@@ -13,7 +13,7 @@ Configures the file and folder view.
     url: "/Demos/WidgetsGallery/Demo/FileManager/CustomThumbnails/"
 }
 
-![DevExtreme File Manager - Item View](/Content/images/doc/19_2/FileManager/item-view.png)
+![DevExtreme File Manager - Item View](/images/FileManager/item-view.png)
 
 ---
 

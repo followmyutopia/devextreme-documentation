@@ -20,6 +20,6 @@ For example, consider that `minDataValue` is 1960 and `maxDataValue` is 2010. If
     startAxisValue = 1960 - (2010 - 1960) * 0.1 = 1960 - 50 * 0.1 = 1960 - 5 = 1955
     endAxisValue = 2010 + (2010 - 1960) * 0.1 = 2010 + 50 * 0.1 = 2010 + 5 = 2015
 
-![MinValueMargin ChartJS](/Content/images/doc/19_2/ChartJS/PolarValueMargins.png)
+![MinValueMargin ChartJS](/images/ChartJS/PolarValueMargins.png)
 
 [note]Margins can be added to axes of the continuous or logarithmic type only.

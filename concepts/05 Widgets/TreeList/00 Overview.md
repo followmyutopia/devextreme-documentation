@@ -26,4 +26,4 @@ Finally, configure the most useful end-user capabilities.
 - [Selection](/concepts/05%20Widgets/TreeList/50%20Selection/Selection.md '/Documentation/Guide/Widgets/TreeList/Selection/')
 
 #####See Also#####
-- [TreeList Demos](/Demos/WidgetsGallery/Demo/TreeList/Overview/)
+- [TreeList Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/TreeList/Overview/)

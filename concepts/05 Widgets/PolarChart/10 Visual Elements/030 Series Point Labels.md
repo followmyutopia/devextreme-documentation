@@ -1,6 +1,6 @@
 Each [series point](/concepts/05%20Widgets/PolarChart/10%20Visual%20Elements/020%20Series%20Points/10%20Series%20Points.md '/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Series_Points') can be accompanied by a text label representing data related to the point. These are series point labels. For series of different types, points represent different kinds of data, thus the corresponding point labels can carry a point's value, argument or both. If required, you can also make a label display custom information.
 
-![Point Labels](/Content/images/doc/19_2/ChartJS/Polar_SeriesLabels.png)
+![Point Labels](/images/ChartJS/Polar_SeriesLabels.png)
 
 To change the default label appearance, use options of the [label](/api-reference/20%20Data%20Visualization%20Widgets/dxPolarChart/5%20Series%20Types/CommonPolarChartSeries/label/label.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/series/label/') object. This object should be defined within the [series](/concepts/05%20Widgets/PolarChart/10%20Visual%20Elements/010%20Series.md '/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Series') whose labels must be customized. If you need to provide the same options for point labels in all series in the chart, define the [label](/api-reference/20%20Data%20Visualization%20Widgets/dxPolarChart/5%20Series%20Types/CommonPolarChartSeries/label/label.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/commonSeriesSettings/label/') object within the **commonSeriesSettings** configuration object.
 
