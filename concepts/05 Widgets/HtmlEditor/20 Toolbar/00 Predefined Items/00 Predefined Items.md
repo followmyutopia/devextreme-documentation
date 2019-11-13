@@ -7,7 +7,7 @@ Predefined toolbar items include:
 * Select boxes that apply multiple-choice formats. 
 * Separators that are not user-interactive and only divide other elements.
 
-![DevExtreme HTML5 JavaScript HtmlEditor Toolbar](Content/images/doc/19_2/htmlEditor/visual_elements/toolbar.png)
+![DevExtreme HTML5 JavaScript HtmlEditor Toolbar](Content/images/doc/20_1/htmlEditor/visual_elements/toolbar.png)
 
 The following table lists toolbar items and the formats they apply (if applicable):
 

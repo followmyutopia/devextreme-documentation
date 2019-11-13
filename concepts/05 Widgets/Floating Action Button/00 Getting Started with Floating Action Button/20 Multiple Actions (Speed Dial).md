@@ -1,6 +1,6 @@
 The FAB can open a menu with several related actions (speed dial).
 
-<div class="simulator-desktop-container" style="height:362px" data-view="/Content/Applications/19_2/GettingStartedWith/FloatingActionButton/MultipleActions/index.html, /Content/Applications/19_2/GettingStartedWith/FloatingActionButton/MultipleActions/index.js, /Content/Applications/19_2/GettingStartedWith/FloatingActionButton/MultipleActions/index.css"></div>
+<div class="simulator-desktop-container" style="height:362px" data-view="/Content/Applications/20_1/GettingStartedWith/FloatingActionButton/MultipleActions/index.html, /Content/Applications/20_1/GettingStartedWith/FloatingActionButton/MultipleActions/index.js, /Content/Applications/20_1/GettingStartedWith/FloatingActionButton/MultipleActions/index.css"></div>
 
 To create a FAB that opens a speed dial, add up to five [SpeedDialAction](/Documentation/ApiReference/UI_Widgets/dxSpeedDialAction/) components to a page, each with an individual [icon](/Documentation/ApiReference/UI_Widgets/dxSpeedDialAction/Configuration/#icon) and [onClick](/Documentation/ApiReference/UI_Widgets/dxSpeedDialAction/Configuration/#onClick) event handler. The actions are sorted according to their [indexes](/Documentation/ApiReference/UI_Widgets/dxSpeedDialAction/Configuration/#index).
 
@@ -73,9 +73,9 @@ The following code configures the example above and shows how to set the describ
             <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.1.0.min.js"></script>
 
             <!-- DevExtreme resources -->
-            <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/minor_19_2/css/dx.common.css">
-            <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/minor_19_2/css/dx.material.blue.light.css">
-            <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_19_2/js/dx.all.js"></script>
+            <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/minor_20_1/css/dx.common.css">
+            <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/minor_20_1/css/dx.material.blue.light.css">
+            <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_20_1/js/dx.all.js"></script>
 
             <!-- Custom icons by Ionicons -->
             <link rel="stylesheet" href="https://unpkg.com/ionicons@4.6.3/dist/css/ionicons.min.css">

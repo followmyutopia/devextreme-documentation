@@ -8,7 +8,7 @@ The **Diagram** widget allows you to customize its UI elements with the followin
 - The [propertiesPanel](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/propertiesPanel/propertiesPanel.md '/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/propertiesPanel/') option contains settings of the Properties panel.
 - The [contextMenu](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/contextMenu/contextMenu.md '/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/contextMenu/') option controls the context menu availability and specifies the visible commands.
 
-![Diagram control data toolbox](Content/images/doc/19_2/diagram/ui-customization.png)
+![Diagram control data toolbox](Content/images/doc/20_1/diagram/ui-customization.png)
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Diagram/UICustomization/"

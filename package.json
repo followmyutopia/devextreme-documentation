@@ -2,7 +2,7 @@
   "name": "devextreme-documentation",
   "description": "DevExtreme documentation",
   "author": "Developer Express Inc.",
-  "version": "19.2.0",
+  "version": "20.1.0",
   "devDependencies": {
     "pre-commit": "^1.2.2",
     "devextreme-internal-tools": "~19.2.10"

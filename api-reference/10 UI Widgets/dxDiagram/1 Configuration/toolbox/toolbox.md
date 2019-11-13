@@ -14,4 +14,4 @@ Provides access to toolbox settings.
 
 The toolbox contains groups of shapes. Use this option to access the toolbox settings.
 
-![Diagram toolbox](Content/images/doc/19_2/diagram/toolbox.png)
+![Diagram toolbox](Content/images/doc/20_1/diagram/toolbox.png)

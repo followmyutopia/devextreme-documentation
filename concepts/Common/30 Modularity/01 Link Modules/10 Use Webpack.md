@@ -39,7 +39,7 @@
 
         webpack
 
-See examples of using Webpack with <a href="https://github.com/DevExpress/devextreme-examples/tree/19_2/webpack-jquery" target="_blank">jQuery</a>, <a href="https://github.com/DevExpress/devextreme-examples/tree/19_2/webpack-angularjs" target="_blank">AngularJS</a>, and <a href="https://github.com/DevExpress/devextreme-examples/tree/19_2/webpack-knockout" target="_blank">Knockout</a> on GitHub. The **webpack.config.js**, **index.js**, and **index.html** files contain the main code. 
+See examples of using Webpack with <a href="https://github.com/DevExpress/devextreme-examples/tree/20_1/webpack-jquery" target="_blank">jQuery</a>, <a href="https://github.com/DevExpress/devextreme-examples/tree/20_1/webpack-angularjs" target="_blank">AngularJS</a>, and <a href="https://github.com/DevExpress/devextreme-examples/tree/20_1/webpack-knockout" target="_blank">Knockout</a> on GitHub. The **webpack.config.js**, **index.js**, and **index.html** files contain the main code. 
 
 [note] Check the libraries' and frameworks' [supported versions](/concepts/Common/05%20Introduction%20to%20DevExtreme/01%20Integration%20with%203rd-Party%20Libraries%20and%20Frameworks.md '/Documentation/Guide/Common/Introduction_to_DevExtreme/#Integration_with_3rd-Party_Libraries_and_Frameworks').
 

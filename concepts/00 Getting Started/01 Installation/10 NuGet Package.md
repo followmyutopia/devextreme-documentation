@@ -1,6 +1,6 @@
 When using Visual Studio, you can add the DevExtreme libraries to your application using the <a href="https://www.nuget.org/packages/DevExtreme.Web/" target="_blank">DevExtreme Web</a> NuGet package. Run the following command in the <a href="https://docs.nuget.org/consume/package-manager-console" target="_blank">Package Manager Console</a> to install this package:
 
-    Install-Package DevExtreme.Web -Version minor_19_2
+    Install-Package DevExtreme.Web -Version minor_20_1
 
 You can also use the <a href="https://docs.nuget.org/consume/Package-Manager-Dialog" target="_blank">Manage NuGet Packages</a> dialog to install or update the package.
 

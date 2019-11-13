@@ -1,10 +1,10 @@
 Run the following command to install the <a href="https://www.npmjs.com/package/devextreme" target="_blank">main DevExtreme package</a>'s major release version:
 
-    npm install devextreme@19.2 --save --save-exact
+    npm install devextreme@20.1 --save --save-exact
 
 DevExtreme also provides <a href="https://github.com/DevExpress/DevExtreme/releases" target="_blank">packages</a> that contain hotfixes and new features for early testing. Run the following command to install the latest published version (a stable or a pre-release version):
 
-    npm install devextreme@19.2-next --save --save-exact
+    npm install devextreme@20.1-next --save --save-exact
 
 [note] We recommend saving an exact version of DevExtreme to avoid unexpected updates because DevExtreme does not use Semantic Versioning. In our versioning system, the first and middle numbers indicate a major release which may contain behavior changes.
 
