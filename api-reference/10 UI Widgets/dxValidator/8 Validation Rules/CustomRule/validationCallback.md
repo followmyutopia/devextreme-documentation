@@ -153,5 +153,3 @@ In the following code, only odd numbers are considered valid:
     export default App;
 
 ---
-
-See [this](/concepts/05%20Widgets/zz%20Common/05%20UI%20Widgets/20%20Data%20Validation/40%20Server-Side%20Validation.md '/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/#Server-Side_Validation') topic for a server-side validation example.
