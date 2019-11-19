@@ -1,6 +1,7 @@
 ---
 id: dxFileManager.Options.toolbar
-type: Object
+type: dxFileManagerToolbar
+inheritsType: dxFileManagerToolbar
 ---
 ---
 ##### shortDescription

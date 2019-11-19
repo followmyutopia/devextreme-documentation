@@ -10,7 +10,7 @@ Specifies a callback function that returns the text to be displayed in scale lab
 ##### param(scaleValue): Object
 Information on the scale value.
 
-##### field(scaleValue.value): Date | Number
+##### field(scaleValue.value): Date | Number | String
 The raw value.
 
 ##### field(scaleValue.valueText): String

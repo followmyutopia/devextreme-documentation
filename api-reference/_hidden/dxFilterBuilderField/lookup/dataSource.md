@@ -1,6 +1,6 @@
 ---
 id: dxFilterBuilderField.lookup.dataSource
-type: Array<any> | DataSource_Options
+type: Array<any> | DataSource_Options | Store
 default: undefined
 ---
 ---

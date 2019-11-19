@@ -1,6 +1,7 @@
 ---
 id: dxFileManager.Options.contextMenu
-type: Object
+type: dxFileManagerContextMenu
+inheritsType: dxFileManagerContextMenu
 ---
 ---
 ##### shortDescription
