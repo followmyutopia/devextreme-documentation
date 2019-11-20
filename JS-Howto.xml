@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE articles [<!ELEMENT articles ANY><!ELEMENT article ANY><!ATTLIST article id ID #REQUIRED>]>
-<articles folder="c:\content" type="HowTo" version="20_1" docsdir="concepts">
+<articles folder="c:\content" type="Howto" version="20_1" docsdir="concepts">
   <article name="Getting Started" sort="00 Getting Started" id="Getting Started">
     <article name="Installation" sort="01 Installation" id="Getting Started/Installation">
       <article name="npm Package" sort="01 npm Package" id="Getting Started/Installation/npm Package" file="c:\content\00 Getting Started\01 Installation\01 npm Package\01 npm Package.md" root="true">
@@ -1005,6 +1005,7 @@
           <article name="Customize the Value Axes and Panes" sort="30 Customize the Value Axes and Panes" id="Widgets/PivotGrid/Integration with Chart/Customize the Chart/Customize the Value Axes and Panes" file="c:\content\05 Widgets\PivotGrid\150 Integration with Chart\30 Customize the Chart\30 Customize the Value Axes and Panes.md" />
         </article>
       </article>
+      <article name="Keyboard Support" sort="160 Keyboard Support" id="Widgets/PivotGrid/Keyboard Support" file="c:\content\05 Widgets\PivotGrid\160 Keyboard Support.md" tags="pivotGrid,pivot grid,keyboard shortcuts" root="true" />
     </article>
     <article name="PolarChart" sort="PolarChart" id="Widgets/PolarChart">
       <article name="Visual Elements" sort="10 Visual Elements" id="Widgets/PolarChart/Visual Elements" file="c:\content\05 Widgets\PolarChart\10 Visual Elements\Visual Elements.md" root="true">
