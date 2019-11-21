@@ -12,7 +12,21 @@ The content is mainly Markdown files with images and occasional JavaScript, HTML
 - `images` - Images used in the docs.
 - `includes` - Reusable pieces of text.
 
-We recommend using [our site](https://js.devexpress.com/Documentation/) for perusing and searching the docs.
+We recommend that you use [our site](https://js.devexpress.com/Documentation/) to peruse and search the docs.
+
+## GitHub-Friendly Links
+
+Each link in the documentation is stored in two formats: a URL for navigation within the website and a link for navigation between .md files on GitHub. Use URL links when you edit articles. Pre-commit npm scripts generate GitHub-friendly links.
+
+Install npm packages to activate the scripts:
+
+    npm install
+
+After the installation, you can run the following scripts:
+
+- `npm run update-links` - Adds or updates GitHub-friendly links in the staged articles.
+- `npm run update-all-links` - Adds or updates GitHub-friendly links in all articles in the repo.
+- `npm run update-links-fail-on-change` - Adds or updates GitHub-friendly links in the staged articles and fails if the articles are changed. **This script is run automatically before the commit.**
 
 ## Contribution
 
