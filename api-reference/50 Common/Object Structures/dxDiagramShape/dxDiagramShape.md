@@ -5,7 +5,6 @@ inherits: dxDiagramItem
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+An object that provides information about a shape in the [Diagram](/Documentation/ApiReference/UI_Widgets/dxDiagram/) widget.
 
 ---
-<!-- Description goes here -->

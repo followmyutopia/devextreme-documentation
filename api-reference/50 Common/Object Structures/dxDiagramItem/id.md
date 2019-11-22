@@ -4,7 +4,6 @@ type: String
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies the item's internal identifier.
 
 ---
-<!-- Description goes here -->

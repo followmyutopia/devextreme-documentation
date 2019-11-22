@@ -4,7 +4,6 @@ type: Object
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies the connector's end node key.
 
 ---
-<!-- Description goes here -->

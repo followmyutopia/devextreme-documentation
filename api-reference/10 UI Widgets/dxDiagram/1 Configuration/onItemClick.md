@@ -6,22 +6,21 @@ EventForAction: dxDiagram.itemClick
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+A function that is executed after a shape or connector is clicked.
 
 ##### param(e): Object
-<!-- Description goes here -->
+Information about the event.
 
 ##### field(e.component): {WidgetName}
-<!-- Description goes here -->
+The widget instance's name.
 
 ##### field(e.element): dxElement
-<!-- Description goes here -->
+#include common-ref-elementparam with { element: "widget" }
 
 ##### field(e.item): dxDiagramItem
-<!-- Description goes here -->
+The item (shape or connector) related to the event.
 
 ##### field(e.model): Object
-<!-- Description goes here -->
+Model data. Available only if you use Knockout.
 
 ---
-<!-- Description goes here -->

@@ -10,7 +10,7 @@ Specifies the color of a diagram page.
 ---
 The following color formats are available:
 
-- Longhand and shorthand hexadecimal notations. For example, `"#3b3"`, `"#31bb32%"`.
+- Longhand and shorthand hexadecimal notations. For example, `"#3b3"`, `"#31bb32"`.
 
 - RGB and RGBA formats. For example, `"rgb(51,187,51)"`, `"rgba(0,204,0,1)"`.
 

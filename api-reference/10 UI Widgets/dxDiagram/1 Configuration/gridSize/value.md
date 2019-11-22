@@ -4,7 +4,6 @@ type: Number
 ---
 ---
 ##### shortDescription
-Specifies the grid pitch.
+Specifies the grid's pitch.
 
 ---
-<!-- Description goes here -->

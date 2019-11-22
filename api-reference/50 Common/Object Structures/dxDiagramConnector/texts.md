@@ -4,7 +4,6 @@ type: Array<String>
 ---
 ---
 ##### shortDescription
-<!-- Description goes here -->
+Specifies the connector's text.
 
 ---
-<!-- Description goes here -->
