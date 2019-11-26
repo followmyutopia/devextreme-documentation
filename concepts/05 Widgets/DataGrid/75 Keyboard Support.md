@@ -46,6 +46,10 @@ A user can interact with the widget using the following keys:
           <td>Selects the focused row and clears the selection of previously selected rows.<sup>3</sup></td>        
         </tr>
         <tr>
+          <td>Ctrl + &larr; &rarr; &uarr; &darr;</td>
+          <td>Navigates between the headers, filter panel, filter row, data area, and pager.</td>
+        </tr>
+        <tr>
           <td>Ctrl + Space or Ctrl + Click</td>
           <td>Selects or clears the selection of the focused row.<br />
               Previously selected rows remain selected.<sup>7</sup>
