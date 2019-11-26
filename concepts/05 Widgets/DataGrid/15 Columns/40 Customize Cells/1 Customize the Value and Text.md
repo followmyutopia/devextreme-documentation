@@ -1,4 +1,4 @@
-Use the [customizeText](/api-reference/_hidden/GridBaseColumn/customizeText.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#customizeText') function to customize the text displayed in cells. Note that this text is not used is not used to sort, filter, and group data or calculate summaries. 
+Use the [customizeText](/api-reference/_hidden/GridBaseColumn/customizeText.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#customizeText') function to customize the text displayed in cells. Note that this text is not used to sort, filter, and group data or calculate summaries. 
 
 ---
 ##### jQuery
