@@ -349,7 +349,7 @@ Then, add a button that updates a filter of the **DataGrid**'s data source accor
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithDataGrid/Angular/Light/"
+    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithDataGrid/"
 }
 
 #####See Also#####

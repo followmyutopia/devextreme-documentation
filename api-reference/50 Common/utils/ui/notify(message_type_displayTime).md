@@ -75,5 +75,5 @@ The time interval in milliseconds for which the message is displayed.
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Button/PredefinedTypes/Angular/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Button/PredefinedTypes/"
 }

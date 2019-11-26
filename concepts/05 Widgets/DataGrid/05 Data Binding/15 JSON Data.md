@@ -148,6 +148,6 @@ The **CustomStore** requires thorough configuration if data is processed on the 
 
 #####See Also#####
 - [Access the DataSource](/concepts/05%20Widgets/DataGrid/05%20Data%20Binding/30%20Access%20the%20DataSource.md '/Documentation/Guide/Widgets/DataGrid/Data_Binding/Access_the_DataSource/')
-- [DataGrid Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/AjaxRequest/Angular/Light/)
+- [DataGrid Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/AjaxRequest/)
 
 [tags]dataGrid, data grid, data binding, json, jsonp, callback parameter

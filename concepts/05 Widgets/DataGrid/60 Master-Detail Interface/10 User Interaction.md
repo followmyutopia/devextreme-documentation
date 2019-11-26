@@ -58,5 +58,5 @@ The master-detail interface becomes available after you specify the detail secti
 Once loaded, a detail section's content remains cached until a user switches to another page in the **DataGrid** or reloads the web page.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/MasterDetailView/Angular/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/MasterDetailView/"
 }
