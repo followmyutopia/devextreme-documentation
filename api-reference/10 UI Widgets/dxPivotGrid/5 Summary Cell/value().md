@@ -3,9 +3,9 @@ id: dxPivotGridSummaryCell.value()
 ---
 ---
 ##### shortDescription
-Gets the value of the current cell.
+Gets the summary cell value.
 
 ##### return: any
-The cell value.
+The summary cell value.
 
 ---
