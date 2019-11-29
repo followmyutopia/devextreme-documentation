@@ -19,4 +19,4 @@ The validation result.
     let validationResult = validationEngine.validateGroup();
 
 #####See Also####
-- [Validation Rules](/api-reference/10%20UI%20Widgets/dxValidator/1%20Configuration/validationRules.md '/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#validationRules')
+- [Validate the Group](/concepts/05%20Widgets/zz%20Common/05%20UI%20Widgets/20%20Data%20Validation/20%20Validate%20Several%20Editor%20Values/2%20Validate%20the%20Group.md '/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/#Validate_Several_Editor_Values/Validate_the_Group')

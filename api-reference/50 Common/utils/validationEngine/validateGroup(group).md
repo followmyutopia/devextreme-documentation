@@ -12,14 +12,6 @@ The validation result.
 The validation group's name or instance.
 
 ---
-<!--->
-
-    <!--JavaScript-->
-    let validationResult = DevExpress.validationEngine.validateGroup('myGroup');
-    // ===== or when using modules =====
-    import validationEngine from 'devextreme/ui/validation_engine';
-
-    let validationResult = validationEngine.validateGroup('myGroup');
 
 #####See Also#####
-- [Validation Rules](/api-reference/10%20UI%20Widgets/dxValidator/1%20Configuration/validationRules.md '/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#validationRules')
+- [Validate the Group](/concepts/05%20Widgets/zz%20Common/05%20UI%20Widgets/20%20Data%20Validation/20%20Validate%20Several%20Editor%20Values/2%20Validate%20the%20Group.md '/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/#Validate_Several_Editor_Values/Validate_the_Group')
