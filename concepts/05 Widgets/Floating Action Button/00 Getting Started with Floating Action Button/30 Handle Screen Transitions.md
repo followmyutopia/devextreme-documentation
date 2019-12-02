@@ -39,7 +39,7 @@ The following code shows the **TabPanel** configuration and an empty `switchSDA`
     <html>
         <head>
             <!-- ... -->
-            <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.1.0.min.js"></script>
+            <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.4.1.min.js"></script>
 
             <!-- DevExtreme resources -->
             <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/minor_20_1/css/dx.common.css">
