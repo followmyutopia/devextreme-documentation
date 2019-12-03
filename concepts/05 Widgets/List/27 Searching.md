@@ -57,7 +57,7 @@ Searching is disabled in the **List** widget by default. Assign **true** to the 
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/List/ListWithSearchBar/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListWithSearchBar/"
 }
 
 When a user types a string in the input field, the **List** suggests all items that _contain_ this string. Assign *'startswith'* to the [searchMode](/api-reference/10%20UI%20Widgets/SearchBoxMixin/1%20Configuration/searchMode.md '/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#searchMode') option if you want the **List** to suggest only those items that _start_ with the input string.
@@ -171,6 +171,6 @@ You can customize the search panel by specifying the [searchEditorOptions](/api-
 ---
 
 #####See Also#####
-- [Grouping](/concepts/05%20Widgets/List/14%20Grouping/01%20In%20the%20Data%20Source.md '/Documentation/Guide/Widgets/List/Grouping/')
+- [Grouping](/concepts/05%20Widgets/List/14%20Grouping '/Documentation/Guide/Widgets/List/Grouping/')
 
 [tags]list, collection widget, search, search mode, search expression

@@ -51,7 +51,7 @@ The **screen** option accepts one or several size qualifiers separated by a spac
     </div>
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/ResponsiveBox/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/ResponsiveBox/Overview/"
 }
 
 #####See Also#####

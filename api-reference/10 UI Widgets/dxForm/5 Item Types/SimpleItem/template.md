@@ -32,7 +32,7 @@ A template name or container.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Common/FormsAndMultiPurposeOverview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Common/FormsAndMultiPurposeOverview/"
 }
 
 #####See Also#####

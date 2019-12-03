@@ -7,7 +7,7 @@ When a user clicks a row's *"Delete"* button, the widget only marks the row as d
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid Editing Batch Mode Deletion](/images/DataGrid/editing/batch_mode_deletion.png)
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/BatchEditing/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/BatchEditing/"
 }
 
 #####See Also#####

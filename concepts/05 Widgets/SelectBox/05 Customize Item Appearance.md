@@ -1,4 +1,4 @@
-For a minor customization of **SelectBox** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxDropDownList/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxSelectBox/Default_Item_Template/') are present or absent from the item's data object. For example, the following code generates three items: the first is not customized, the second is disabled and the third is hidden.
+For a minor customization of **SelectBox** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxDropDownList/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxSelectBox/Default_Item_Template/') are present or absent from the item's data object. For example, the following code generates three items: the first is not customized, the second is disabled and the third is hidden.
 
 ---
 #####jQuery
@@ -47,7 +47,7 @@ For a minor customization of **SelectBox** items, you can use the default item t
 
 ---
 
-If you need a more flexible solution, define a custom template for widget items. For AngularJS and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code shows how to use **dxTemplate** to define a template for the **SelectBox** items.
+If you need a more flexible solution, define a custom template for widget items. For AngularJS and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code shows how to use **dxTemplate** to define a template for the **SelectBox** items.
 
 ---
 #####Angular
@@ -201,7 +201,7 @@ You can also customize an individual **SelectBox** item. For this purpose, decla
         // . . .
     ];
 
-Using similar techniques, you can customize the input field of the **SelectBox**. The template for it should be assigned to the [fieldTemplate](/api-reference/10%20UI%20Widgets/dxSelectBox/1%20Configuration/fieldTemplate.md '/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#fieldTemplate') option. Note that the input field must contain the [TextBox](/api-reference/10%20UI%20Widgets/dxTextBox/dxTextBox.md '/Documentation/ApiReference/UI_Widgets/dxTextBox/') widget.
+Using similar techniques, you can customize the input field of the **SelectBox**. The template for it should be assigned to the [fieldTemplate](/api-reference/10%20UI%20Widgets/dxSelectBox/1%20Configuration/fieldTemplate.md '/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#fieldTemplate') option. Note that the input field must contain the [TextBox](/api-reference/10%20UI%20Widgets/dxTextBox '/Documentation/ApiReference/UI_Widgets/dxTextBox/') widget.
 
 ---
 #####jQuery
@@ -298,7 +298,7 @@ Using similar techniques, you can customize the input field of the **SelectBox**
 In addition, you can use a 3rd-party template engine to perform the needed customizations. For more information, see the [3rd-Party Template Engines](/concepts/05%20Widgets/zz%20Common/30%20Templates/30%203rd-Party%20Template%20Engines.md '/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines') article.
 
 #####See Also#####
-- [SelectBox API Reference](/api-reference/10%20UI%20Widgets/dxSelectBox/dxSelectBox.md '/Documentation/ApiReference/UI_Widgets/dxSelectBox/')
-- [SelectBox Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/SelectBox/Overview/)
+- [SelectBox API Reference](/api-reference/10%20UI%20Widgets/dxSelectBox '/Documentation/ApiReference/UI_Widgets/dxSelectBox/')
+- [SelectBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/SelectBox/Overview)
 
 [tags]selectBox, select box, editor, item appearance, customize, templates, template, default item, default template, field template

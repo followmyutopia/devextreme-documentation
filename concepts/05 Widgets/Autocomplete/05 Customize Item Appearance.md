@@ -1,4 +1,4 @@
-For a minor customization of **Autocomplete** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxDropDownList/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxAutocomplete/Default_Item_Template/') are present or absent from the item's data object. For example, the following code generates three items: the first is not customized, the second is disabled and the third is hidden.
+For a minor customization of **Autocomplete** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxDropDownList/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxAutocomplete/Default_Item_Template/') are present or absent from the item's data object. For example, the following code generates three items: the first is not customized, the second is disabled and the third is hidden.
 
 ---
 ##### jQuery
@@ -45,7 +45,7 @@ For a minor customization of **Autocomplete** items, you can use the default ite
 
 ---
 
-If you need a more flexible solution, define a custom template for items of the widget. For Angular, AngularJS, and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code shows how to use **dxTemplate** to define a template for the **Autocomplete** items.
+If you need a more flexible solution, define a custom template for items of the widget. For Angular, AngularJS, and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code shows how to use **dxTemplate** to define a template for the **Autocomplete** items.
 
 ---
 ##### Angular
@@ -177,7 +177,7 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 
 #####See Also#####
 - [Autocomplete - Configure Search Parameters](/concepts/05%20Widgets/Autocomplete/10%20Configure%20Search%20Parameters.md '/Documentation/Guide/Widgets/Autocomplete/Configure_Search_Parameters')
-- [Autocomplete Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Autocomplete/Overview/)
-- [Autocomplete API Reference](/api-reference/10%20UI%20Widgets/dxAutocomplete/dxAutocomplete.md '/Documentation/ApiReference/UI_Widgets/dxAutocomplete/')
+- [Autocomplete Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Autocomplete/Overview)
+- [Autocomplete API Reference](/api-reference/10%20UI%20Widgets/dxAutocomplete '/Documentation/ApiReference/UI_Widgets/dxAutocomplete/')
 
 [tags]autocomplete, item appearance, customize, templates, template, default item, default template

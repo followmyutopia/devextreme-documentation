@@ -17,7 +17,7 @@ The widget's instance.
 #include common-ref-elementparam with { element: "widget" }
 
 ##### field(e.item): dxFunnelItem
-The [Item](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/6%20Item/Item.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/') object.
+The [Item](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/6%20Item '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/') object.
 
 ##### field(e.model): Object
 The model data. Available only if you use Knockout.

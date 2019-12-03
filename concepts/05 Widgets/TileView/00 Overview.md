@@ -1,7 +1,7 @@
 The **TileView** widget contains a collection of tiles. Tiles can store much more information than ordinary buttons, that is why they are very popular in apps designed for touch devices.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TileView/Basics/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/TileView/Basics/"
 }
 
 The following code adds a primitive **TileView** to your page.
@@ -50,7 +50,7 @@ The following code adds a primitive **TileView** to your page.
 
 ---
 
-Note that all data source items in the code above follow the [Default Item Template](/api-reference/10%20UI%20Widgets/dxTileView/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxTileView/Default_Item_Template/') pattern. This provides a default tile appearance, which can be customized later. 
+Note that all data source items in the code above follow the [Default Item Template](/api-reference/10%20UI%20Widgets/dxTileView/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxTileView/Default_Item_Template/') pattern. This provides a default tile appearance, which can be customized later. 
 
 By default, the widget is oriented horizontally, but you can orient it vertically using the [direction](/api-reference/10%20UI%20Widgets/dxTileView/1%20Configuration/direction.md '/Documentation/ApiReference/UI_Widgets/dxTileView/Configuration/#direction') option. 
 
@@ -88,13 +88,13 @@ By default, the widget is oriented horizontally, but you can orient it verticall
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Tile_View/Directions/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tile_View/Directions/"
 }
 
 #####See Also#####
 #include common-link-configurewidget
 - [TileView - Specify the Size of Tiles](/concepts/05%20Widgets/TileView/03%20Specify%20the%20Size%20of%20Tiles.md '/Documentation/Guide/Widgets/TileView/Specify_the_Size_of_Tiles')
 - [TileView - Customize Tile Appearance](/concepts/05%20Widgets/TileView/05%20Customize%20Tile%20Appearance.md '/Documentation/Guide/Widgets/TileView/Customize_Tile_Appearance')
-- [TileView API Reference](/api-reference/10%20UI%20Widgets/dxTileView/dxTileView.md '/Documentation/ApiReference/UI_Widgets/dxTileView/')
+- [TileView API Reference](/api-reference/10%20UI%20Widgets/dxTileView '/Documentation/ApiReference/UI_Widgets/dxTileView/')
 
 [tags]tile view, tileView, collection container, collection widget, navigation, overview

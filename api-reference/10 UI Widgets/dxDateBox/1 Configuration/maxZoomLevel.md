@@ -7,7 +7,7 @@ dep: dxDateBox.Options.calendarOptions
 ---
 ---
 ##### shortDescription
-Specifies the [maximum zoom level](/api-reference/10%20UI%20Widgets/dxCalendar/1%20Configuration/maxZoomLevel.md '/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#maxZoomLevel') of a [calendar](/api-reference/10%20UI%20Widgets/dxCalendar/dxCalendar.md '/Documentation/ApiReference/UI_Widgets/dxCalendar/'), which is used to pick the date.
+Specifies the [maximum zoom level](/api-reference/10%20UI%20Widgets/dxCalendar/1%20Configuration/maxZoomLevel.md '/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#maxZoomLevel') of a [calendar](/api-reference/10%20UI%20Widgets/dxCalendar '/Documentation/ApiReference/UI_Widgets/dxCalendar/'), which is used to pick the date.
 
 ---
 The zoom level ascends from "month" to "century" ("month"->"year"->"decade"->"century").

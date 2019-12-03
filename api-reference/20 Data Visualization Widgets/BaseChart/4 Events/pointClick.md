@@ -29,7 +29,7 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 The model data. Available only if you use Knockout.
 
 ##### field(e.target): basePointObject
-The clicked series point; described in the [Point](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Point/Point.md '{basewidgetpath}/Chart_Elements/Point/') section.
+The clicked series point; described in the [Point](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Point '{basewidgetpath}/Chart_Elements/Point/') section.
 
 ---
 Main article: [onPointClick](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/1%20Configuration/onPointClick.md '{basewidgetpath}/Configuration/#onPointClick')

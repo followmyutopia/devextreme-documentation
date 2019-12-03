@@ -1,4 +1,4 @@
-For a minor customization of **TagBox** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxDropDownList/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxTagBox/Default_Item_Template/') are present or absent from the item's data object. For example, the following code generates three items: the first is not customized, the second is disabled and the third is hidden.
+For a minor customization of **TagBox** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxDropDownList/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxTagBox/Default_Item_Template/') are present or absent from the item's data object. For example, the following code generates three items: the first is not customized, the second is disabled and the third is hidden.
 
 ---
 #####jQuery
@@ -48,7 +48,7 @@ For a minor customization of **TagBox** items, you can use the default item temp
 
 ---
 
-If you need a more flexible solution, define a custom template for widget items. For AngularJS and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code shows how to use **dxTemplate** to define a template for the **TagBox** items.
+If you need a more flexible solution, define a custom template for widget items. For AngularJS and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code shows how to use **dxTemplate** to define a template for the **TagBox** items.
 
 ---
 #####Angular
@@ -284,7 +284,7 @@ Using similar techniques, you can also customize tags of the selected items. The
 In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/concepts/05%20Widgets/zz%20Common/30%20Templates/30%203rd-Party%20Template%20Engines.md '/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines') article.
 
 #####See Also#####
-- [TagBox API Reference](/api-reference/10%20UI%20Widgets/dxTagBox/dxTagBox.md '/Documentation/ApiReference/UI_Widgets/dxTagBox/')
-- [TagBox Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/TagBox/Overview/)
+- [TagBox API Reference](/api-reference/10%20UI%20Widgets/dxTagBox '/Documentation/ApiReference/UI_Widgets/dxTagBox/')
+- [TagBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/TagBox/Overview)
 
 [tags]tagBox, tag box, editor, item appearance, customize, templates, template, default item, default template, tag template

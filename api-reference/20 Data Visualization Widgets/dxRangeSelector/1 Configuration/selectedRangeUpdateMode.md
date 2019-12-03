@@ -27,4 +27,4 @@ The applied mode changes depending on the selected range's position on the scale
     - if set to view the data range, then *"reset"* (the selected range remains equal to the data range).
 
 #####See Also#####
-- [value](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/value/value.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#value')
+- [value](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/value '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#value')

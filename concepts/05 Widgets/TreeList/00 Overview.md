@@ -7,7 +7,7 @@ The **TreeList** can visualize [plain](/concepts/05%20Widgets/TreeList/05%20Data
 - [Simple Array](/concepts/05%20Widgets/TreeList/05%20Data%20Binding/020%20Simple%20Array/10%20Array%20Only.md '/Documentation/Guide/Widgets/TreeList/Data_Binding/Simple_Array/Array_Only/')
 - [JSON Data](/concepts/05%20Widgets/TreeList/05%20Data%20Binding/025%20JSON%20Data.md '/Documentation/Guide/Widgets/TreeList/Data_Binding/JSON_Data/')
 - [OData Service](/concepts/05%20Widgets/TreeList/05%20Data%20Binding/030%20OData%20Service.md '/Documentation/Guide/Widgets/TreeList/Data_Binding/OData_Service/')
-- [Custom Sources](/concepts/05%20Widgets/TreeList/05%20Data%20Binding/035%20Custom%20Sources/Custom%20Sources.md '/Documentation/Guide/Widgets/TreeList/Data_Binding/Custom_Sources/')
+- [Custom Sources](/concepts/05%20Widgets/TreeList/05%20Data%20Binding/035%20Custom%20Sources '/Documentation/Guide/Widgets/TreeList/Data_Binding/Custom_Sources/')
 
 The next step is to define and configure the collection of columns.
 
@@ -16,14 +16,14 @@ The next step is to define and configure the collection of columns.
 
 Finally, configure the most useful end-user capabilities.
 
-- [Editing](/concepts/05%20Widgets/TreeList/20%20Editing/Editing.md '/Documentation/Guide/Widgets/TreeList/Editing/')
-- [Sorting](/concepts/05%20Widgets/TreeList/30%20Sorting/Sorting.md '/Documentation/Guide/Widgets/TreeList/Sorting/')
-- [Column Reordering](/concepts/05%20Widgets/TreeList/10%20Columns/25%20Column%20Reordering/Column%20Reordering.md '/Documentation/Guide/Widgets/TreeList/Columns/Column_Reordering/')
+- [Editing](/concepts/05%20Widgets/TreeList/20%20Editing '/Documentation/Guide/Widgets/TreeList/Editing/')
+- [Sorting](/concepts/05%20Widgets/TreeList/30%20Sorting '/Documentation/Guide/Widgets/TreeList/Sorting/')
+- [Column Reordering](/concepts/05%20Widgets/TreeList/10%20Columns/25%20Column%20Reordering '/Documentation/Guide/Widgets/TreeList/Columns/Column_Reordering/')
 - [Column Fixing](/concepts/05%20Widgets/TreeList/10%20Columns/30%20Column%20Fixing.md '/Documentation/Guide/Widgets/TreeList/Columns/Column_Fixing/')
-- [Filtering and Searching](/concepts/05%20Widgets/TreeList/40%20Filtering%20and%20Searching/Filtering%20and%20Searching.md '/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/')
-- [Scrolling](/concepts/05%20Widgets/TreeList/45%20Scrolling/Scrolling.md '/Documentation/Guide/Widgets/TreeList/Scrolling/')
+- [Filtering and Searching](/concepts/05%20Widgets/TreeList/40%20Filtering%20and%20Searching '/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/')
+- [Scrolling](/concepts/05%20Widgets/TreeList/45%20Scrolling '/Documentation/Guide/Widgets/TreeList/Scrolling/')
 - [Focused Row](/concepts/05%20Widgets/TreeList/69%20Focused%20Row.md '/Documentation/Guide/Widgets/TreeList/Focused_Row/')
-- [Selection](/concepts/05%20Widgets/TreeList/50%20Selection/Selection.md '/Documentation/Guide/Widgets/TreeList/Selection/')
+- [Selection](/concepts/05%20Widgets/TreeList/50%20Selection '/Documentation/Guide/Widgets/TreeList/Selection/')
 
 #####See Also#####
-- [TreeList Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/TreeList/Overview/)
+- [TreeList Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/TreeList/Overview)

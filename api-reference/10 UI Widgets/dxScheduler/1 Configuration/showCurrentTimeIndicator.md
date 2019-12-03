@@ -9,5 +9,5 @@ Specifies the current date-time indicator's visibility.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/CurrentTimeIndicator/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/CurrentTimeIndicator/"
 }

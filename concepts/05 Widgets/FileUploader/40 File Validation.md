@@ -40,5 +40,5 @@ The **FileUploader** allows you to restrict the extension ([allowedFileExtension
 Files are validated on the client. However, you should also implement server-side validation. Refer to the demo below to see an example for an ASP.NET server.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FileUploader/Validation/Mvc/Light/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/FileUploader/Validation/Mvc/Light/"
 }

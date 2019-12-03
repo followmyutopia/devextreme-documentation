@@ -19,5 +19,5 @@ When a discrete axis is divided, its ticks/grid lines are located between labels
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/WindRose/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/WindRose/"
 }

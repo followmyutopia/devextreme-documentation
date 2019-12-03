@@ -9,7 +9,7 @@ The **FileManager** widget allows users to manage files and folders.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FileManager/jQuery/Light/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/FileManager/jQuery/Light/"
 }
 
 The following code adds the **FileManager** widget to your page.

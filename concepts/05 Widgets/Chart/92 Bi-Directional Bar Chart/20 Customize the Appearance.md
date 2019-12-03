@@ -61,10 +61,10 @@ UI elements like [tooltips](/concepts/05%20Widgets/Chart/30%20Tooltips/00%20Over
 
 ---
 
-You can also adjust the bar's width. See [Specify the Bar Width](/concepts/05%20Widgets/Chart/11%20Series%20Types/20%20Bar%20Series/05%20Specify%20the%20Bar%20Width/Specify%20the%20Bar%20Width.md '/Documentation/Guide/Widgets/Chart/Series_Types/Bar_Series/#Specify_the_Bar_Width') for details.
+You can also adjust the bar's width. See [Specify the Bar Width](/concepts/05%20Widgets/Chart/11%20Series%20Types/20%20Bar%20Series/05%20Specify%20the%20Bar%20Width '/Documentation/Guide/Widgets/Chart/Series_Types/Bar_Series/#Specify_the_Bar_Width') for details.
 
 This article outlined the steps to implement a bi-directional bar chart and provided code examples for each step. Refer to the **Bi-Directional Bar Chart** demo for the full code.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/BiDirectionalBarChart/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/BiDirectionalBarChart/"
 }

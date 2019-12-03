@@ -1,7 +1,7 @@
 The **DateBox** is a widget that displays a date and time in a specified format, and enables a user to pick or type in the required date/time value.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DateBox/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DateBox/Overview/"
 }
 
 The following code adds a simple **DateBox** to your page.
@@ -56,6 +56,6 @@ Depending on the platform, the **DateBox** provides different controls for picki
 - [DateBox - Specify Value Range](/concepts/05%20Widgets/DateBox/15%20Specify%20Value%20Range.md '/Documentation/Guide/Widgets/DateBox/Specify_Value_Range')
 - [DateBox - Handle the Value Change Event](/concepts/05%20Widgets/DateBox/10%20Handle%20the%20Value%20Change%20Event.md '/Documentation/Guide/Widgets/DateBox/Handle_the_Value_Change_Event')
 - [DateBox - Keyboard Support](/concepts/05%20Widgets/DateBox/20%20Keyboard%20Support.md '/Documentation/Guide/Widgets/DateBox/Keyboard_Support')
-- [DateBox API Reference](/api-reference/10%20UI%20Widgets/dxDateBox/dxDateBox.md '/Documentation/ApiReference/UI_Widgets/dxDateBox/')
+- [DateBox API Reference](/api-reference/10%20UI%20Widgets/dxDateBox '/Documentation/ApiReference/UI_Widgets/dxDateBox/')
 
 [tags]date box, dateBox, editor, scheduling, overview, date and time type

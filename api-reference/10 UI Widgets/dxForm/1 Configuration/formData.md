@@ -10,8 +10,8 @@ Provides the **Form**'s data. Gets updated every time form fields change.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Common/FormsAndMultiPurposeOverview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Common/FormsAndMultiPurposeOverview/"
 }
 
 #####See Also#####
-- [Configure Simple Items](/concepts/05%20Widgets/Form/05%20Configure%20Simple%20Items/Configure%20Simple%20Items.md '/Documentation/Guide/Widgets/Form/Configure_Simple_Items/')
+- [Configure Simple Items](/concepts/05%20Widgets/Form/05%20Configure%20Simple%20Items '/Documentation/Guide/Widgets/Form/Configure_Simple_Items/')

@@ -9,5 +9,5 @@ Specifies the text label displayed inside the FAB or near the speed dial action 
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FloatingActionButton/Overview/jQuery/MaterialBlueLight/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/FloatingActionButton/Overview/jQuery/MaterialBlueLight/"
 }

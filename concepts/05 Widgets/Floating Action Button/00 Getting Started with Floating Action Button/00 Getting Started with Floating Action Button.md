@@ -4,13 +4,13 @@ The Floating Action Button (FAB) is the primary action button on a screen that i
 
 There should be **only one** FAB on a screen, but its action(s) can be different for different screens. To find more details on the FAB concept and best practices, refer to the [Material Design Guidelines](https://material.io/design/components/buttons-floating-action-button.html).
 
-In DevExtreme, the FAB is implemented as a container that collects and stores [SpeedDialAction](/Documentation/ApiReference/UI_Widgets/dxSpeedDialAction/) components.
+In DevExtreme, the FAB is implemented as a container that collects and stores [SpeedDialAction](/api-reference/10%20UI%20Widgets/dxSpeedDialAction '/Documentation/ApiReference/UI_Widgets/dxSpeedDialAction/') components.
 
 From this tutorial, you will learn how to create a single- or multi-action FAB and alter action sets during screen transitions.
 
 [note]
 
-Code examples in this tutorial use icons from the [Ionicons](https://ionicons.com/) library. If you are going to replicate the examples in your Angular, Vue, or React application, install the `ionicons` npm package:
+Code examples in this tutorial use icons from the [Ionicons](https://ionicons.com) library. If you are going to replicate the examples in your Angular, Vue, or React application, install the `ionicons` npm package:
 
     npm install ionicons --save
 

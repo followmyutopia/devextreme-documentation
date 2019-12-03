@@ -90,7 +90,7 @@ If the **type** is the only field you need to specify in the **format** object, 
 When using a widget as an <a href="https://docs.devexpress.com/DevExtremeAspNetMvc/400943/devextreme-aspnet-mvc-controls" target="_blank">ASP.NET MVC 5 Control</a> or a <a href="https://docs.devexpress.com/AspNetCore/400263/aspnet-core-controls#devextreme-based-aspnet-core-controls" target="_blank">DevExtreme-Based ASP.NET Core Control</a>, you can specify this option using the `Format` enum. This enum accepts the same values, but they start with an upper-case letter, for example, *"fixedPoint"* becomes `FixedPoint`.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Localization/UsingIntl/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Localization/UsingIntl/"
 }
 
 #####See Also#####

@@ -200,6 +200,6 @@ You can also implement handlers for other keys using the [registerKeyHandler(key
 #include common-link-handleevents
 #include common-link-callmethods
 - [TextBox - Handle the Value Change Event](/concepts/05%20Widgets/TextBox/10%20Handle%20the%20Value%20Change%20Event.md '/Documentation/Guide/Widgets/TextBox/Handle_the_Value_Change_Event/')
-- [TextBox Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/TextBox/Overview/)
+- [TextBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/TextBox/Overview)
 
 [tags]textBox, text box, editor, keyboard events, keyup, keydown, keypress, enterkey

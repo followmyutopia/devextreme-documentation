@@ -141,7 +141,7 @@ To select all rows at once, call the [selectAll()](/api-reference/10%20UI%20Widg
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/MultipleRecordSelectionAPI/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/MultipleRecordSelectionAPI/"
 } 
 
 Call the [getSelectedRowKeys()](/api-reference/10%20UI%20Widgets/dxDataGrid/3%20Methods/getSelectedRowKeys().md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#getSelectedRowKeys') or [getSelectedRowsData()](/api-reference/10%20UI%20Widgets/dxDataGrid/3%20Methods/getSelectedRowsData().md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#getSelectedRowsData') method to get the selected row's keys or data.

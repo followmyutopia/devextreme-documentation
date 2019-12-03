@@ -102,7 +102,7 @@ In case you do not need any loading indicator to be shown at all, assign **false
 - [LoadPanel - Hide the Pane](/concepts/05%20Widgets/LoadPanel/10%20Customize%20the%20Appearance/30%20Hide%20the%20Pane.md '/Documentation/Guide/Widgets/LoadPanel/Customize_the_Appearance/Hide_the_Pane/')
 - [LoadPanel - Color the Shading of the Background](/concepts/05%20Widgets/LoadPanel/10%20Customize%20the%20Appearance/40%20Color%20the%20Shading%20of%20the%20Background.md '/Documentation/Guide/Widgets/LoadPanel/Customize_the_Appearance/Color_the_Shading_of_the_Background/')
 - [LoadPanel - Resize and Relocate](/concepts/05%20Widgets/LoadPanel/15%20Resize%20and%20Relocate.md '/Documentation/Guide/Widgets/LoadPanel/Resize_and_Relocate/')
-- [LoadPanel Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/LoadPanel/Overview/)
-- [LoadPanel API Reference](/api-reference/10%20UI%20Widgets/dxLoadPanel/dxLoadPanel.md '/Documentation/ApiReference/UI_Widgets/dxLoadPanel/')
+- [LoadPanel Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/LoadPanel/Overview)
+- [LoadPanel API Reference](/api-reference/10%20UI%20Widgets/dxLoadPanel '/Documentation/ApiReference/UI_Widgets/dxLoadPanel/')
 
 [tags]loadPanel, load panel, overlay, loading indicator, customize indicator, hide indicator

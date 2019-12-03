@@ -2,7 +2,7 @@ A tooltip is a small pop-up rectangle that displays information on a hovered val
 
 <img src="/Content/images/doc/20_1/ChartJS/LinearGaugeTooltip.png" alt="DevExtreme HTML5 JavaScript Gauges LinearGaugeTooltip" style="display:block; margin:0 auto" />
 
-Tooltips are not enabled by default. To enable them, set the **enabled** option of the [tooltip](/api-reference/20%20Data%20Visualization%20Widgets/BaseGauge/1%20Configuration/tooltip/tooltip.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/tooltip/') object to **true**.
+Tooltips are not enabled by default. To enable them, set the **enabled** option of the [tooltip](/api-reference/20%20Data%20Visualization%20Widgets/BaseGauge/1%20Configuration/tooltip '/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/tooltip/') object to **true**.
 
 	<!--JavaScript-->var gaugeOptions = {
 		tooltip: {
@@ -13,11 +13,11 @@ Tooltips are not enabled by default. To enable them, set the **enabled** option 
 You can change default tooltip settings by defining the options within the **tooltip** configuration object. Some of these options are categorized and listed below.
 
 * **Text Customization and Formatting**    
-By default, a tooltip displays the value of a hovered widget element without formatting. Set the [format](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/tooltip/format.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/tooltip/#format') option to format this value. When text customization is required, assign a function specifying the text to be shown to the [customizeTooltip](/api-reference/20%20Data%20Visualization%20Widgets/BaseGauge/1%20Configuration/tooltip/customizeTooltip.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/tooltip/#customizeTooltip') option. Learn more in the [Data Formatting](/concepts/05%20Widgets/zz%20Common/10%20Data%20Visualization%20Widgets/30%20Data%20Formatting/Data%20Formatting.md '/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/') topic.
+By default, a tooltip displays the value of a hovered widget element without formatting. Set the [format](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/tooltip/format.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/tooltip/#format') option to format this value. When text customization is required, assign a function specifying the text to be shown to the [customizeTooltip](/api-reference/20%20Data%20Visualization%20Widgets/BaseGauge/1%20Configuration/tooltip/customizeTooltip.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/tooltip/#customizeTooltip') option. Learn more in the [Data Formatting](/concepts/05%20Widgets/zz%20Common/10%20Data%20Visualization%20Widgets/30%20Data%20Formatting '/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/') topic.
 
 * **Font Settings**    
-To customize the appearance of the tooltip text, define the font options within the [font](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/tooltip/font/font.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/tooltip/font/') configuration object.
+To customize the appearance of the tooltip text, define the font options within the [font](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/tooltip/font '/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/tooltip/font/') configuration object.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Gauges/Tooltip/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Gauges/Tooltip/"
 }

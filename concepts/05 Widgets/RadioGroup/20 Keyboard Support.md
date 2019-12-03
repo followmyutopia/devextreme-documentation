@@ -77,7 +77,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
 #####See Also#####
 #include common-link-callmethods
-- [RadioGroup Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/RadioGroup/Overview/)
-- [RadioGroup API Reference](/api-reference/10%20UI%20Widgets/dxRadioGroup/dxRadioGroup.md '/Documentation/ApiReference/UI_Widgets/dxRadioGroup/')
+- [RadioGroup Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/RadioGroup/Overview)
+- [RadioGroup API Reference](/api-reference/10%20UI%20Widgets/dxRadioGroup '/Documentation/ApiReference/UI_Widgets/dxRadioGroup/')
 
 [tags]radio group, radioGroup, accessibility, keyboard shortcuts

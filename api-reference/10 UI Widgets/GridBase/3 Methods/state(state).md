@@ -15,4 +15,4 @@ Refer to the [state()](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/sta
 
 #####See Also#####
 #include common-link-callmethods
-- [stateStoring](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/stateStoring/stateStoring.md '{basewidgetpath}/Configuration/stateStoring/')
+- [stateStoring](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/stateStoring '{basewidgetpath}/Configuration/stateStoring/')

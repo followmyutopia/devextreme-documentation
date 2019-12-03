@@ -13,7 +13,7 @@ The **Drawer** is a dismissible or permanently visible panel used for navigation
     url: "/Documentation/Guide/Widgets/Drawer/Getting_Started_with_Navigation_Drawer/" 
 }
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Drawer/HorizontalOpening/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Drawer/HorizontalOpening/"
 }
 
 #####See Also#####

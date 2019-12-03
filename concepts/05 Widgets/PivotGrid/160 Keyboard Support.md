@@ -31,7 +31,7 @@ An end user can use the following keys to interact with the widget.
 
 #####See Also#####
 #include common-link-callmethods
-- [PivotGrid Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/PivotGrid/Overview/)
-- [PivotGrid API Reference](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/)
+- [PivotGrid Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/PivotGrid/Overview)
+- [PivotGrid API Reference](/api-reference/10%20UI%20Widgets/dxPivotGrid '/Documentation/ApiReference/UI_Widgets/dxPivotGrid/')
 
 [tags]pivotGrid, pivot grid, keyboard shortcuts

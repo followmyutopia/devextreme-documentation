@@ -1,8 +1,8 @@
-A control bar is a map element that supplies a user with the capability of navigating a map. This element resides on the left side of the map. The control bar consists of a pan control and a zoom bar, which provide the [panning](/concepts/05%20Widgets/VectorMap/40%20End-User%20Interaction/10%20Panning/10%20Panning.md '/Documentation/Guide/Widgets/VectorMap/End-User_Interaction/#Panning') and [zooming](/concepts/05%20Widgets/VectorMap/40%20End-User%20Interaction/20%20Zooming/10%20Zooming.md '/Documentation/Guide/Widgets/VectorMap/End-User_Interaction/#Zooming') capabilities to the user.
+A control bar is a map element that supplies a user with the capability of navigating a map. This element resides on the left side of the map. The control bar consists of a pan control and a zoom bar, which provide the [panning](/concepts/05%20Widgets/VectorMap/40%20End-User%20Interaction/10%20Panning '/Documentation/Guide/Widgets/VectorMap/End-User_Interaction/#Panning') and [zooming](/concepts/05%20Widgets/VectorMap/40%20End-User%20Interaction/20%20Zooming/10%20Zooming.md '/Documentation/Guide/Widgets/VectorMap/End-User_Interaction/#Zooming') capabilities to the user.
 
 ![DevExtreme ChartJS VectorMap](/images/ChartJS/ControlBar.png)
 
-Control bar settings are specified using fields of the [controlBar](/api-reference/20%20Data%20Visualization%20Widgets/dxVectorMap/1%20Configuration/controlBar/controlBar.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/controlBar/') object.
+Control bar settings are specified using fields of the [controlBar](/api-reference/20%20Data%20Visualization%20Widgets/dxVectorMap/1%20Configuration/controlBar '/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/controlBar/') object.
 
 	<!--JavaScript-->var vectorMapOptions = {
 		// ...

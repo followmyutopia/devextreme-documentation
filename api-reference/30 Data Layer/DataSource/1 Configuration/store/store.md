@@ -10,7 +10,7 @@ Configures the store underlying the **DataSource**.
 This option accepts one of the following:
 
 * **Store instance**            
-An [ArrayStore](/api-reference/30%20Data%20Layer/ArrayStore/ArrayStore.md '/Documentation/ApiReference/Data_Layer/ArrayStore/'), [LocalStore](/api-reference/30%20Data%20Layer/LocalStore/LocalStore.md '/Documentation/ApiReference/Data_Layer/LocalStore/'), [ODataStore](/api-reference/30%20Data%20Layer/ODataStore/ODataStore.md '/Documentation/ApiReference/Data_Layer/ODataStore/'), or [CustomStore](/api-reference/30%20Data%20Layer/CustomStore/CustomStore.md '/Documentation/ApiReference/Data_Layer/CustomStore/') instance.
+An [ArrayStore](/api-reference/30%20Data%20Layer/ArrayStore '/Documentation/ApiReference/Data_Layer/ArrayStore/'), [LocalStore](/api-reference/30%20Data%20Layer/LocalStore '/Documentation/ApiReference/Data_Layer/LocalStore/'), [ODataStore](/api-reference/30%20Data%20Layer/ODataStore '/Documentation/ApiReference/Data_Layer/ODataStore/'), or [CustomStore](/api-reference/30%20Data%20Layer/CustomStore '/Documentation/ApiReference/Data_Layer/CustomStore/') instance.
 
 * **Store configuration object**        
 An **ArrayStore**, **LocalStore**, or **ODataStore** configuration object. Make sure to set the [type](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/store/type.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/store/#type') option.

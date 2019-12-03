@@ -85,11 +85,11 @@ Data from hidden columns is still available in adaptive detail rows. A user can 
 ![DevExtreme HTML5 JavaScript jQuery Knockout Angular DataGrid Adaptability](/images/DataGrid/visual_elements/adaptive-column.png)
 
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/GridAdaptabilityOverview/",
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/GridAdaptabilityOverview/",
     name: "Adaptability"
 }
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/GridColumnsHidingPriority/",
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/GridColumnsHidingPriority/",
     name: "Hiding Priority"
 }
 
@@ -130,7 +130,7 @@ You can expand or collapse adaptive detail rows programmatically by calling the 
     
 ---
 
-All adaptive detail rows contain the [DevExtreme Form widget](/api-reference/10%20UI%20Widgets/dxForm/dxForm.md '/Documentation/ApiReference/UI_Widgets/dxForm/'), so you can customize a row by changing the [options of this widget](/api-reference/10%20UI%20Widgets/dxForm/1%20Configuration/Configuration.md '/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/'). To access them, implement the [onAdaptiveDetailRowPreparing](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onAdaptiveDetailRowPreparing.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onAdaptiveDetailRowPreparing') event handler. For example, the following code marks the form item whose data field is *"OrderID"* as required:
+All adaptive detail rows contain the [DevExtreme Form widget](/api-reference/10%20UI%20Widgets/dxForm '/Documentation/ApiReference/UI_Widgets/dxForm/'), so you can customize a row by changing the [options of this widget](/api-reference/10%20UI%20Widgets/dxForm/1%20Configuration '/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/'). To access them, implement the [onAdaptiveDetailRowPreparing](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onAdaptiveDetailRowPreparing.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onAdaptiveDetailRowPreparing') event handler. For example, the following code marks the form item whose data field is *"OrderID"* as required:
 
 ---
 ##### jQuery

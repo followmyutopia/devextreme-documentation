@@ -6,7 +6,7 @@ default: 'count'
 ---
 ---
 ##### shortDescription
-Specifies how to aggregate the field's data. Cannot be used with an [XmlaStore](/api-reference/30%20Data%20Layer/XmlaStore/XmlaStore.md '/Documentation/ApiReference/Data_Layer/XmlaStore/').
+Specifies how to aggregate the field's data. Cannot be used with an [XmlaStore](/api-reference/30%20Data%20Layer/XmlaStore '/Documentation/ApiReference/Data_Layer/XmlaStore/').
 
 ---
 The summary type defines how to calculate the summary values that are displayed in the pivot grid's cells. The calculation is performed on a subset of [facts](/concepts/05%20Widgets/PivotGrid/010%20Visual%20Elements/04%20Summary%20Values.md '/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Summary_Values') that correspond to each field value in three areas (column, row, and filter).

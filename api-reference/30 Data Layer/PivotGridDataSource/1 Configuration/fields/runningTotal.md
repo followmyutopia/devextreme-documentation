@@ -25,7 +25,7 @@ This also applies to columns if the **runningTotal** option is set to *"column"*
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Pivot_Grid/RunningTotals/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Pivot_Grid/RunningTotals/"
 }
 
 #####See Also#####

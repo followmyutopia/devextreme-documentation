@@ -1,7 +1,7 @@
 After you have bound data to your widget, you need to specify which fields of a data source object must be used to provide arguments and values for chart points. To specify the argument field name, assign it to the **argumentField** option. This option can be specified differently depending on the widget you use.
 
 * **Chart**		
-Usually, **Chart** contains several series that have the same argument field. You can specify the argument field for all these series at once within the [commonSeriesSettings](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonSeriesSettings/commonSeriesSettings.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/') object.
+Usually, **Chart** contains several series that have the same argument field. You can specify the argument field for all these series at once within the [commonSeriesSettings](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonSeriesSettings '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/') object.
 
 		<!--JavaScript-->var chartOptions = {
 			//...
@@ -10,7 +10,7 @@ Usually, **Chart** contains several series that have the same argument field. Yo
 			}
 		};
 
-	Similarly, you can specify the **argumentField** option within the [series](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/series/series.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/') object in case you have only one series in your chart.
+	Similarly, you can specify the **argumentField** option within the [series](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/series '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/') object in case you have only one series in your chart.
 
 		<!--JavaScript-->var chartOptions = {
 			//...

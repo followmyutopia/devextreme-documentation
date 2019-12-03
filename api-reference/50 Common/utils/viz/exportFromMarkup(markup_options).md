@@ -87,7 +87,7 @@ This field is <font color="red">required</font>.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/ExportCustomMarkup/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/ExportCustomMarkup/"
 }
 
 #####See Also#####

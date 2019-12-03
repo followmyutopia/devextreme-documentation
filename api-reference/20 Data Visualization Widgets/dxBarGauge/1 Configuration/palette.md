@@ -17,7 +17,7 @@ Sets the palette to be used for colorizing bars in the gauge.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Gauges/Palette/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Gauges/Palette/"
 }
 
 #####See Also#####

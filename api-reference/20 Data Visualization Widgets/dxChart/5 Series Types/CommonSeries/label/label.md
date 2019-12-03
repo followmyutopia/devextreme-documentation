@@ -7,7 +7,7 @@ type: Object
 Configures point labels.
 
 ---
-Declared in [commonSeriesSettings](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonSeriesSettings/commonSeriesSettings.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/'), the **label** settings apply to all point labels in the chart. Declared in a [series](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/series/series.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/') configuration object, the **label** settings apply only to the point labels that belong to this particular series. The series-specific **label** settings override the common ones.
+Declared in [commonSeriesSettings](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonSeriesSettings '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/'), the **label** settings apply to all point labels in the chart. Declared in a [series](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/series '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/') configuration object, the **label** settings apply only to the point labels that belong to this particular series. The series-specific **label** settings override the common ones.
 
 ---
 ##### jQuery
@@ -148,7 +148,7 @@ Declared in [commonSeriesSettings](/api-reference/20%20Data%20Visualization%20Wi
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/AjaxRequest/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/AjaxRequest/"
 }
 
 #####See Also#####

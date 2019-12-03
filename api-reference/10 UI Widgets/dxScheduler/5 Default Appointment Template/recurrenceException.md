@@ -14,5 +14,5 @@ To define an exception for a recurring appointment, specify the **recurrenceExce
 For details on recurring appointments, refer to the [Appointment Types](/concepts/05%20Widgets/Scheduler/030%20Appointments/015%20Appointment%20Types/030%20Recurring%20Appointments.md '/Documentation/Guide/Widgets/Scheduler/Appointments/Appointment_Types/#Recurring_Appointments') article.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/RecurringAppointments/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/RecurringAppointments/"
 }

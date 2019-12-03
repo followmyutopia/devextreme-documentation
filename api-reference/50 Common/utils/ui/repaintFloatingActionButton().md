@@ -5,10 +5,10 @@ export: default
 ---
 ---
 ##### shortDescription
-Repaints the [Floating Action Button](http://js.devexpress.com/Demos/WidgetsGallery/Demo/FloatingActionButton/Overview/).
+Repaints the [Floating Action Button](https://js.devexpress.com/Demos/WidgetsGallery/Demo/FloatingActionButton/Overview).
 
 ---
-Call this method to repaint the Floating Action Button after you change the **globalConfig**.[floatingActionButtonConfig](/api-reference/50%20Common/Object%20Structures/globalConfig/floatingActionButtonConfig/floatingActionButtonConfig.md '/Documentation/ApiReference/Common/Object_Structures/globalConfig/floatingActionButtonConfig/') at runtime:
+Call this method to repaint the Floating Action Button after you change the **globalConfig**.[floatingActionButtonConfig](/api-reference/50%20Common/Object%20Structures/globalConfig/floatingActionButtonConfig '/Documentation/ApiReference/Common/Object_Structures/globalConfig/floatingActionButtonConfig/') at runtime:
 
 ---
 ##### jQuery
@@ -94,4 +94,4 @@ Call this method to repaint the Floating Action Button after you change the **gl
 ---
 
 #####See Also#####
-- [SpeedDialAction](/api-reference/10%20UI%20Widgets/dxSpeedDialAction/dxSpeedDialAction.md '/Documentation/ApiReference/UI_Widgets/dxSpeedDialAction/')
+- [SpeedDialAction](/api-reference/10%20UI%20Widgets/dxSpeedDialAction '/Documentation/ApiReference/UI_Widgets/dxSpeedDialAction/')

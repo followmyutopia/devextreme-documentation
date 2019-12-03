@@ -12,7 +12,7 @@ The viewport coordinates.
 This method returns the viewport coordinates as an array of four values in the [*minLongitude*, *maxLatitude*, *maxLongitude*, *minLatitude*] form.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/VectorMap/DynamicViewport/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/VectorMap/DynamicViewport/"
 }
 
 #####See Also#####

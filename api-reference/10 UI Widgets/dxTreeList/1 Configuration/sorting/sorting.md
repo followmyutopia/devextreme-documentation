@@ -13,8 +13,8 @@ To apply sorting to a column, a user clicks its header or selects a command from
 Note that rows are sorted within their hierarchical level.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TreeList/MultipleSorting/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/TreeList/MultipleSorting/"
 }
 
 #####See Also#####
-- [Sorting](/concepts/05%20Widgets/TreeList/30%20Sorting/Sorting.md '/Documentation/Guide/Widgets/TreeList/Sorting/')
+- [Sorting](/concepts/05%20Widgets/TreeList/30%20Sorting '/Documentation/Guide/Widgets/TreeList/Sorting/')

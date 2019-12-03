@@ -49,9 +49,9 @@ By default, the change of the image is animated. You can specify how long the an
 
 #####See Also#####
 - [Gallery - Enable the Slideshow](/concepts/05%20Widgets/Gallery/15%20Enable%20the%20Slideshow.md '/Documentation/Guide/Widgets/Gallery/Enable_the_Slideshow/')
-- [Gallery - Switch Between Images](/concepts/05%20Widgets/Gallery/05%20Switch%20Between%20Images/Switch%20Between%20Images.md '/Documentation/Guide/Widgets/Gallery/Switch_Between_Images/')
+- [Gallery - Switch Between Images](/concepts/05%20Widgets/Gallery/05%20Switch%20Between%20Images '/Documentation/Guide/Widgets/Gallery/Switch_Between_Images/')
 - [Gallery - Transform and Combine Images](/concepts/05%20Widgets/Gallery/25%20Transform%20and%20Combine%20Images.md '/Documentation/Guide/Widgets/Gallery/Transform_and_Combine_Images/')
-- [Gallery Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Gallery/Overview/)
-- [Gallery API Reference](/api-reference/10%20UI%20Widgets/dxGallery/dxGallery.md '/Documentation/ApiReference/UI_Widgets/dxGallery/')
+- [Gallery Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Gallery/Overview)
+- [Gallery API Reference](/api-reference/10%20UI%20Widgets/dxGallery '/Documentation/ApiReference/UI_Widgets/dxGallery/')
 
 [tags]gallery, animate, animation duration, disable animation

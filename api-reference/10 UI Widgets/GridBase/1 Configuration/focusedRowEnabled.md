@@ -10,15 +10,15 @@ Specifies whether the focused row feature is enabled.
 ---
 When this option is set to **true**, the following applies:
 
-- Rows are initially sorted by keys if any field of [remoteOperations](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/remoteOperations/remoteOperations.md '{basewidgetpath}/Configuration/remoteOperations/') is **true**.
+- Rows are initially sorted by keys if any field of [remoteOperations](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/remoteOperations '{basewidgetpath}/Configuration/remoteOperations/') is **true**.
 - The row with [focusedRowIndex](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/focusedRowIndex.md '{basewidgetpath}/Configuration/#focusedRowIndex') or [focusedRowKey](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/focusedRowKey.md '{basewidgetpath}/Configuration/#focusedRowKey') is highlighted.
 - When the data row area is focused, this row is focused and the area is scrolled down to it.
 - The [onFocusedRowChanging](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/onFocusedRowChanging.md '{basewidgetpath}/Configuration/#onFocusedRowChanging') and [onFocusedRowChanged](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/onFocusedRowChanged.md '{basewidgetpath}/Configuration/#onFocusedRowChanged') functions become active.
 
-[note] Specify the widget's [keyExpr](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/keyExpr.md '{basewidgetpath}/Configuration/#keyExpr') or the [Store's](/concepts/30%20Data%20Layer/5%20Data%20Layer/1%20Creating%20DataSource/3%20What%20Are%20Stores.md '/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores') **key** option to ensure that the focused row feature works properly.
+[note] Specify the widget's [keyExpr](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/keyExpr.md '{basewidgetpath}/Configuration/#keyExpr') or the [Store's](/concepts/30%20Data%20Layer/5%20Data%20Layer/1%20Creating%20DataSource/3%20What%20Are%20Stores.md '/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores') **key** option to ensure that the focused row feature works properly.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/FocusedRow/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/FocusedRow/"
 }
 
 #####See Also#####

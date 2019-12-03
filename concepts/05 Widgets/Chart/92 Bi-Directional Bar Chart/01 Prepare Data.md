@@ -1,4 +1,4 @@
-To prepare data for the bi-directional bar chart, convert one of the two sets of bars' values from positive to negative. You can change the sign in each value manually or use the DevExtreme [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/')'s [map](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/map.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#map') function: 
+To prepare data for the bi-directional bar chart, convert one of the two sets of bars' values from positive to negative. You can change the sign in each value manually or use the DevExtreme [DataSource](/api-reference/30%20Data%20Layer/DataSource '/Documentation/ApiReference/Data_Layer/DataSource/')'s [map](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/map.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#map') function: 
 
 ---
 ##### jQuery

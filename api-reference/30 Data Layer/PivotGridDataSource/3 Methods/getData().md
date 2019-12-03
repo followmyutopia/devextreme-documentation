@@ -84,11 +84,11 @@ The `values` array contains summary values. Each of them has three indexes. To g
 
     <!--JavaScript-->var value = values[/* row index */][/* column index */][/* measure index */];
 
-You can pass `grandTotalRowIndex` and `grandTotalColumnIndex` as row index and column index to get [grand total values](/concepts/05%20Widgets/PivotGrid/010%20Visual%20Elements/05%20Totals/Totals.md '/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Totals').
+You can pass `grandTotalRowIndex` and `grandTotalColumnIndex` as row index and column index to get [grand total values](/concepts/05%20Widgets/PivotGrid/010%20Visual%20Elements/05%20Totals '/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Totals').
     
 [note]
 
-If you use the [XmlaStore](/api-reference/30%20Data%20Layer/XmlaStore/XmlaStore.md '/Documentation/ApiReference/Data_Layer/XmlaStore/') and your data area is empty, this method returns **the default measure values**. They are hidden from the UI until you place the default measure in the data area using the [field(id, options)](/api-reference/30%20Data%20Layer/PivotGridDataSource/3%20Methods/field(id_options).md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fieldid_options') method. The default measure is specified on the OLAP server.
+If you use the [XmlaStore](/api-reference/30%20Data%20Layer/XmlaStore '/Documentation/ApiReference/Data_Layer/XmlaStore/') and your data area is empty, this method returns **the default measure values**. They are hidden from the UI until you place the default measure in the data area using the [field(id, options)](/api-reference/30%20Data%20Layer/PivotGridDataSource/3%20Methods/field(id_options).md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fieldid_options') method. The default measure is specified on the OLAP server.
 
     <!--JavaScript-->pivotGridDataSource.field(/* measure name */, { area: "data" });
 

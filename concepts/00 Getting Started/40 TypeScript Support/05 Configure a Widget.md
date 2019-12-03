@@ -16,13 +16,13 @@ Any configuration object should have a specific type. In this example, the `opti
 
 The part that preceeds the type is its namespace. DevExtreme widgets are declared in the following namespaces.
 
-- `DevExpress.viz.charts` - [dxChart](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/dxChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/'), [dxPieChart](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart/dxPieChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/') and [dxPolarChart](/api-reference/20%20Data%20Visualization%20Widgets/dxPolarChart/dxPolarChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/')
-- `DevExpress.viz.treeMap` - [dxTreeMap](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/dxTreeMap.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/')
-- `DevExpress.viz.gauges` - [dxCircularGauge](/api-reference/20%20Data%20Visualization%20Widgets/dxCircularGauge/dxCircularGauge.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/'), [dxLinearGauge](/api-reference/20%20Data%20Visualization%20Widgets/dxLinearGauge/dxLinearGauge.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/') and [dxBarGauge](/api-reference/20%20Data%20Visualization%20Widgets/dxBarGauge/dxBarGauge.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxBarGauge/')
-- `DevExpress.viz.rangeSelector` - [dxRangeSelector](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/dxRangeSelector.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/')
-- `DevExpress.viz.sparklines` - [dxSparkline](/api-reference/20%20Data%20Visualization%20Widgets/dxSparkline/dxSparkline.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSparkline/') and [dxBullet](/api-reference/20%20Data%20Visualization%20Widgets/dxBullet/dxBullet.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxBullet/')
-- `DevExpress.viz.map` - [dxVectorMap](/api-reference/20%20Data%20Visualization%20Widgets/dxVectorMap/dxVectorMap.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/')
-- `DevExpress.ui` - [all other widgets](/api-reference/10%20UI%20Widgets/dxAccordion/dxAccordion.md '/Documentation/ApiReference/UI_Widgets/')
+- `DevExpress.viz.charts` - [dxChart](/api-reference/20%20Data%20Visualization%20Widgets/dxChart '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/'), [dxPieChart](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/') and [dxPolarChart](/api-reference/20%20Data%20Visualization%20Widgets/dxPolarChart '/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/')
+- `DevExpress.viz.treeMap` - [dxTreeMap](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/')
+- `DevExpress.viz.gauges` - [dxCircularGauge](/api-reference/20%20Data%20Visualization%20Widgets/dxCircularGauge '/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/'), [dxLinearGauge](/api-reference/20%20Data%20Visualization%20Widgets/dxLinearGauge '/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/') and [dxBarGauge](/api-reference/20%20Data%20Visualization%20Widgets/dxBarGauge '/Documentation/ApiReference/Data_Visualization_Widgets/dxBarGauge/')
+- `DevExpress.viz.rangeSelector` - [dxRangeSelector](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/')
+- `DevExpress.viz.sparklines` - [dxSparkline](/api-reference/20%20Data%20Visualization%20Widgets/dxSparkline '/Documentation/ApiReference/Data_Visualization_Widgets/dxSparkline/') and [dxBullet](/api-reference/20%20Data%20Visualization%20Widgets/dxBullet '/Documentation/ApiReference/Data_Visualization_Widgets/dxBullet/')
+- `DevExpress.viz.map` - [dxVectorMap](/api-reference/20%20Data%20Visualization%20Widgets/dxVectorMap '/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/')
+- `DevExpress.ui` - [all other widgets](/api-reference/10%20UI%20Widgets/dxAccordion '/Documentation/ApiReference/UI_Widgets/')
 
 After you have declared a configuration object, pass it to the [jQuery plugin](/concepts/00%20Getting%20Started/10%20Widget%20Basics%20-%20jQuery/01%20Create%20and%20Configure%20a%20Widget.md '/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget') ...
 
@@ -56,6 +56,6 @@ After you have declared a configuration object, pass it to the [jQuery plugin](/
 
 
 #####See Also#####
-- **API Reference**.**WidgetName**.**Configuration**, for example, **API Reference**.[Chart](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/dxChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart').[Configuration](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/Configuration.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/')
+- **API Reference**.**WidgetName**.**Configuration**, for example, **API Reference**.[Chart](/api-reference/20%20Data%20Visualization%20Widgets/dxChart '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart').[Configuration](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/')
 
 [tags]typescript support, configure, initialize, type definitions, namespaces

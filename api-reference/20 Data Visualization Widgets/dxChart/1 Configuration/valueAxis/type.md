@@ -12,7 +12,7 @@ Specifies the type of the value axis.
 The value axis can have one of the following types.
 
 - **Continuous**        
-Displays numeric and date-time values. To divide this axis into intervals, use the [tickInterval](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis/tickInterval/tickInterval.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/tickInterval/') option.
+Displays numeric and date-time values. To divide this axis into intervals, use the [tickInterval](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis/tickInterval '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/tickInterval/') option.
 - **Discrete**       
 Displays string values called "categories". To sort them, use the [categories](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis/categories.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#categories') array.
 - **Logarithmic**       
@@ -26,5 +26,5 @@ Normally, there is no need to specify this option, because the axis type is dete
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/LogarithmicAxis/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/LogarithmicAxis/"
 }

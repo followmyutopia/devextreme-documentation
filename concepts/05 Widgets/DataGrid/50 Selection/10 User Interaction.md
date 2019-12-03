@@ -170,5 +170,5 @@ The [showCheckBoxesMode](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configu
 <a href="/Demos/WidgetsGallery/Demo/DataGrid/MultipleRecordSelectionModes/" class="button orange small fix-width-155" target="_blank">Multiple Selection Demo</a>
 
 #####See Also#####
-- [remoteOperations](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/remoteOperations/remoteOperations.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/')
+- [remoteOperations](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/remoteOperations '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/')
 - [Deferred Selection](/concepts/05%20Widgets/DataGrid/10%20Enhance%20Performance%20on%20Large%20Datasets/015%20Deferred%20Selection.md '/Documentation/Guide/Widgets/DataGrid/Enhance_Performance_on_Large_Datasets/#Deferred_Selection')

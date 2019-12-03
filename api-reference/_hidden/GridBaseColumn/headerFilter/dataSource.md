@@ -77,8 +77,8 @@ A simple JavaScript array containing a collection of plain objects.
 
     ---
 
-- [**DataSource Configuration Object**](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/Configuration.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/')         
-A [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/') configuration object. Learn more about the **DataSource** and the DevExtreme Data Layer concept from the [Data Layer](/concepts/30%20Data%20Layer/5%20Data%20Layer/Data%20Layer.md '/Documentation/Guide/Data_Layer/Data_Layer/') topic.
+- [**DataSource Configuration Object**](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/')         
+A [DataSource](/api-reference/30%20Data%20Layer/DataSource '/Documentation/ApiReference/Data_Layer/DataSource/') configuration object. Learn more about the **DataSource** and the DevExtreme Data Layer concept from the [Data Layer](/concepts/30%20Data%20Layer/5%20Data%20Layer '/Documentation/Guide/Data_Layer/Data_Layer/') topic.
 
     ---
     ##### jQuery

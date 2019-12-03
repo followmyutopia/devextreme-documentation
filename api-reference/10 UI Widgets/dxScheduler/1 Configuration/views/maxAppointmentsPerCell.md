@@ -10,5 +10,5 @@ Specifies the limit of full-sized appointments displayed per cell. Applies to al
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/LimitAppointmentCountPerCell/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/LimitAppointmentCountPerCell/"
 }

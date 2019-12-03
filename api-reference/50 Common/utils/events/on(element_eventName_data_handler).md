@@ -23,7 +23,7 @@ Return **false** to stop the event's propagation.
 ---
 The following parameters are passed to the **handler**:
 
-- **event**: [dxEvent](/api-reference/50%20Common/Object%20Structures/dxEvent/dxEvent.md '/Documentation/ApiReference/Common/Object_Structures/dxEvent/')    
+- **event**: [dxEvent](/api-reference/50%20Common/Object%20Structures/dxEvent '/Documentation/ApiReference/Common/Object_Structures/dxEvent/')    
 The event that caused the handler's execution.
 
 - **extraParameters**: <a href="https://www.w3schools.com/js/js_objects.asp" target="_blank">Object</a>  

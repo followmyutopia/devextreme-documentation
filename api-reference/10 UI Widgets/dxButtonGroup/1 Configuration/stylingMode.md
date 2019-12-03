@@ -11,10 +11,10 @@ Specifies how buttons in the group are styled.
 ---
 The following styles are available: 
 
-![Button Styling Modes](Content/images/doc/20_1/UiWidgets/button_stylingMode.png)
+![Button Styling Modes](/images/UiWidgets/button_stylingMode.png)
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/ButtonGroup/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/ButtonGroup/Overview/"
 }
 
 #include common-ref-enum with {

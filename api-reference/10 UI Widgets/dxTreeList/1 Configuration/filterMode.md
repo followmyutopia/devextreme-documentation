@@ -10,7 +10,7 @@ Specifies whether filter and search results should include matching rows only, m
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TreeList/FilterModes/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/TreeList/FilterModes/"
 }
 
 #include common-ref-enum with {

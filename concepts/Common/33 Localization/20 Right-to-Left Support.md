@@ -166,4 +166,4 @@ To apply RTL to your entire application, set the same option globally using the 
 ---
 
 #####See Also#####
-- **RTL Support Demo**: [DataGrid](http://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/RightToLeftSupport/) | [Navigation Widgets](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Common/NavigationRightToLeftSupport/) | [Editors](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Common/EditorsRightToLeftSupport/)
+- **RTL Support Demo**: [DataGrid](https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/RightToLeftSupport) | [Navigation Widgets](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Common/NavigationRightToLeftSupport) | [Editors](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Common/EditorsRightToLeftSupport)

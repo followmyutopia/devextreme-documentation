@@ -37,7 +37,7 @@ To allow the user to delete items from the **List**, set the [allowItemDeleting]
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/"
 }
 
 [note]If **List** items are [supplied with the context menu](/concepts/05%20Widgets/List/40%20Item%20Context%20Menu.md '/Documentation/Guide/Widgets/List/Item_Context_Menu/'), the **itemDeleteMode** option is ignored in favor of the [menuMode](/api-reference/10%20UI%20Widgets/dxList/1%20Configuration/menuMode.md '/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#menuMode') option.

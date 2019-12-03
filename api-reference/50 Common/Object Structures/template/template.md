@@ -10,7 +10,7 @@ A template notation used to specify templates for widget elements.
 To use a template, pass a value with one of the following types to a widget's **...Template** option:
 
 - **String**         
-Specifies the name of the template to use if the template is defined within a widget using the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component.
+Specifies the name of the template to use if the template is defined within a widget using the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component.
 
     ---
     #####Angular
@@ -114,4 +114,4 @@ Combines the HTML markup using jQuery <a href="http://api.jquery.com/category/ma
         });
 
 #####See Also#####
-- [Templates](/concepts/05%20Widgets/zz%20Common/30%20Templates/Templates.md '/Documentation/Guide/Widgets/Common/Templates/')
+- [Templates](/concepts/05%20Widgets/zz%20Common/30%20Templates '/Documentation/Guide/Widgets/Common/Templates/')

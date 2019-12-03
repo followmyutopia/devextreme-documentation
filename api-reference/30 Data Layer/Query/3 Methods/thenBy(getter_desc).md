@@ -3,7 +3,7 @@ id: Query.thenBy(getter, desc)
 ---
 ---
 ##### shortDescription
-Sorts data items by one more [getter](/concepts/30%20Data%20Layer/5%20Data%20Layer/9%20Getters%20And%20Setters/Getters%20And%20Setters.md '/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters') in the specified sorting order.
+Sorts data items by one more [getter](/concepts/30%20Data%20Layer/5%20Data%20Layer/9%20Getters%20And%20Setters '/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters') in the specified sorting order.
 
 ##### return: Query
 The **Query** with transformed data.

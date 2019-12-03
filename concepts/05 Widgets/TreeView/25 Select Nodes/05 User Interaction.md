@@ -67,5 +67,5 @@ To select several nodes simultaneously, set the [showCheckBoxesMode](/api-refere
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TreeView/ItemSelectionAndCustomization/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/TreeView/ItemSelectionAndCustomization/"
 }

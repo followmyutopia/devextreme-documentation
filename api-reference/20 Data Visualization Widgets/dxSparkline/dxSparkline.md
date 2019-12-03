@@ -40,7 +40,7 @@ dx.viz.js, dx.viz-web.js, dx.all.js
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/SimpleSparklines/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/SimpleSparklines/"
 }
 #include common-readguidesbutton with {
     url: "/Documentation/Guide/Widgets/Sparkline/Visual_Elements/"

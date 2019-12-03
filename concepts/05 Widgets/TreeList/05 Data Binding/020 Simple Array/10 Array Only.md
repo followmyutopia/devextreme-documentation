@@ -45,7 +45,7 @@ To bind the **TreeList** to an array, pass this array to the [dataSource](/api-r
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TreeList/SimpleArrayPlainStructure/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/TreeList/SimpleArrayPlainStructure/"
 }
 
 If objects in the array need to be processed (sorted or filtered), you can create a [Query](/concepts/30%20Data%20Layer/5%20Data%20Layer/6%20Query%20Concept.md '/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept'). For example, in the following code, a Query sorts objects in the `employees` array in the descending order by the `fullName` field.

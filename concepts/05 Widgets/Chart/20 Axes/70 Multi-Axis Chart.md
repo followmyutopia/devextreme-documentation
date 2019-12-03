@@ -5,7 +5,7 @@ A multi-axis chart adds extra meanings to visualized data in comparison to a sin
 To configure a multi-axis chart, follow the steps below.
 
 1. **Create and name the value axes**         
-Declare several objects in the [valueAxis](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis/valueAxis.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/') array. Each object configures a single value axis. Then, give each value axis a unique [name](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis/name.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#name').
+Declare several objects in the [valueAxis](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/') array. Each object configures a single value axis. Then, give each value axis a unique [name](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis/name.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#name').
 
     ---
     ##### jQuery
@@ -141,12 +141,12 @@ All value axes in the **Chart** are synchronized by default, but you can explici
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/MultipleAxes/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/MultipleAxes/"
 }
 
 #####See Also#####
 - [Multi-Pane Chart](/concepts/05%20Widgets/Chart/40%20Panes/10%20Multi-Pane%20Chart.md '/Documentation/Guide/Widgets/Chart/Panes/Multi-Pane_Chart/')
 - [Limit and Relocate the Axes](/concepts/05%20Widgets/Chart/20%20Axes/40%20Limit%20and%20Relocate%20the%20Axes.md '/Documentation/Guide/Widgets/Chart/Axes/Limit_and_Relocate_the_Axes/')
-- [Chart API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/dxChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/')
+- [Chart API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxChart '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/')
 
 [tags]chart, multiple value axes, synchronize axes, synchronizedValue, multipleAxesSpacing

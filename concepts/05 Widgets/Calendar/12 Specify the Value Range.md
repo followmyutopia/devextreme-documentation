@@ -86,7 +86,7 @@ If you need to disable specific dates, use the [disabledDates](/api-reference/10
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Calendar/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Calendar/Overview/"
 }
 
 #####See Also#####

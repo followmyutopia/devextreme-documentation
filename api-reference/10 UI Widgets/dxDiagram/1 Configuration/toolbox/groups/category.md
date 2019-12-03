@@ -9,5 +9,5 @@ Specifies the category of shapes that are displayed in the group.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Diagram/CustomShapesWithIcons/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Diagram/CustomShapesWithIcons/"
 }

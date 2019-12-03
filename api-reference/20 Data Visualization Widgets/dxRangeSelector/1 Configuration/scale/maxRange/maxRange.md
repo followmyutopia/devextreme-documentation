@@ -13,4 +13,4 @@ In case of the numeric scale, assign a numeric value to this property. If the sc
 
 [note]Setting a maximum range is unavailable for a discrete scale.
 
-You can also set a minimum range that can be selected, using the [minRange](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/scale/minRange/minRange.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/minRange/') property.
+You can also set a minimum range that can be selected, using the [minRange](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/scale/minRange '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/minRange/') property.

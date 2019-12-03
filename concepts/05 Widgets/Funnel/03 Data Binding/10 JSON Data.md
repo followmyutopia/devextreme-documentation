@@ -74,7 +74,7 @@ Note that you can also use a JSONP callback parameter supported by <a href="http
 
 ---
 
-If you need to process data after obtaining it, implement the [CustomStore](/api-reference/30%20Data%20Layer/CustomStore/CustomStore.md '/Documentation/ApiReference/Data_Layer/CustomStore/'). For details, see the [Custom Sources](/concepts/05%20Widgets/Funnel/03%20Data%20Binding/20%20Custom%20Sources.md '/Documentation/Guide/Widgets/Funnel/Data_Binding/Custom_Sources/') topic.
+If you need to process data after obtaining it, implement the [CustomStore](/api-reference/30%20Data%20Layer/CustomStore '/Documentation/ApiReference/Data_Layer/CustomStore/'). For details, see the [Custom Sources](/concepts/05%20Widgets/Funnel/03%20Data%20Binding/20%20Custom%20Sources.md '/Documentation/Guide/Widgets/Funnel/Data_Binding/Custom_Sources/') topic.
 
 #####See Also#####
-- [Update Data in the Funnel](/concepts/05%20Widgets/Funnel/03%20Data%20Binding/26%20Update%20Data/Update%20Data.md '/Documentation/Guide/Widgets/Funnel/Data_Binding/Update_Data/')
+- [Update Data in the Funnel](/concepts/05%20Widgets/Funnel/03%20Data%20Binding/26%20Update%20Data '/Documentation/Guide/Widgets/Funnel/Data_Binding/Update_Data/')

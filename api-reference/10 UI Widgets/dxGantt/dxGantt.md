@@ -73,7 +73,7 @@ dx-gantt.js, dx.all.js
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Gantt/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Gantt/Overview/"
 }
 
 #####See Also#####

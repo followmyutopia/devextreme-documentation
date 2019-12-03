@@ -61,8 +61,8 @@ With Angular, bind the option to change in the [editorOptions](/api-reference/10
 #####See Also#####
 #include common-link-callmethods
 - [Form - Change Item Options at Runtime](/concepts/05%20Widgets/Form/20%20Change%20Options%20at%20Runtime/10%20Item%20Options.md '/Documentation/Guide/Widgets/Form/Change_Options_at_Runtime/Item_Options/')
-- [Form - Configure Simple Items](/concepts/05%20Widgets/Form/05%20Configure%20Simple%20Items/Configure%20Simple%20Items.md '/Documentation/Guide/Widgets/Form/Configure_Simple_Items/')
-- [Form Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Form/GroupedFields/)
-- [Form API Reference](/api-reference/10%20UI%20Widgets/dxForm/dxForm.md '/Documentation/ApiReference/UI_Widgets/dxForm/')
+- [Form - Configure Simple Items](/concepts/05%20Widgets/Form/05%20Configure%20Simple%20Items '/Documentation/Guide/Widgets/Form/Configure_Simple_Items/')
+- [Form Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Form/GroupedFields)
+- [Form API Reference](/api-reference/10%20UI%20Widgets/dxForm '/Documentation/ApiReference/UI_Widgets/dxForm/')
 
 [tags]form, get editor, change editor options

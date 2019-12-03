@@ -4,7 +4,7 @@ type: Filter expression
 ---
 ---
 ##### shortDescription
-Specifies data filtering conditions. Cannot be used with an [XmlaStore](/api-reference/30%20Data%20Layer/XmlaStore/XmlaStore.md '/Documentation/ApiReference/Data_Layer/XmlaStore/').
+Specifies data filtering conditions. Cannot be used with an [XmlaStore](/api-reference/30%20Data%20Layer/XmlaStore '/Documentation/ApiReference/Data_Layer/XmlaStore/').
 
 ---
 Possible variants:
@@ -131,4 +131,4 @@ Possible variants:
 ---
 
 #####See Also#####
-- [Filtering](/concepts/30%20Data%20Layer/5%20Data%20Layer/2%20Reading%20Data/15%20Filtering/Filtering.md '/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering')
+- [Filtering](/concepts/30%20Data%20Layer/5%20Data%20Layer/2%20Reading%20Data/15%20Filtering '/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering')

@@ -81,7 +81,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
 #####See Also#####
 #include common-link-callmethods
-- [Lookup Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Basics/)
-- [Lookup API Reference](/api-reference/10%20UI%20Widgets/dxLookup/dxLookup.md '/Documentation/ApiReference/UI_Widgets/dxLookup/')
+- [Lookup Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Basics)
+- [Lookup API Reference](/api-reference/10%20UI%20Widgets/dxLookup '/Documentation/ApiReference/UI_Widgets/dxLookup/')
 
 [tags]lookup, accessibility, keyboard shortcuts

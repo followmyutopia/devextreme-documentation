@@ -154,7 +154,7 @@ If you have not specified anything to be displayed in the title, hide it by assi
 
 #####See Also#####
 - [Custom Templates](/concepts/05%20Widgets/zz%20Common/30%20Templates/10%20Custom%20Templates.md '/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates')
-- [Lookup Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Templates/)
+- [Lookup Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Templates)
 
 
 [tags]lookup, drop-down menu, size, width, height, popover, popup, position, title, custom title template, title template

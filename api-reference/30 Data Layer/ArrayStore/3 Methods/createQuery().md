@@ -6,7 +6,7 @@ id: ArrayStore.createQuery()
 Creates a **Query** for the underlying array.
 
 ##### return: Object
-The [Query](/api-reference/30%20Data%20Layer/Query/Query.md '/Documentation/ApiReference/Data_Layer/Query/') object.
+The [Query](/api-reference/30%20Data%20Layer/Query '/Documentation/ApiReference/Data_Layer/Query/') object.
 
 ---
 ---

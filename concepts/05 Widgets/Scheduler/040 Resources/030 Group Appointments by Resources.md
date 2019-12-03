@@ -1,4 +1,4 @@
-To group appointments by resources, assign an array to the [groups](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/groups.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#groups') option. Each element of this array is **fieldExpr** of a resource kind. Note that the resource headers' order depends on the resources' order in the [resources](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/resources/resources.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/') array. 
+To group appointments by resources, assign an array to the [groups](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/groups.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#groups') option. Each element of this array is **fieldExpr** of a resource kind. Note that the resource headers' order depends on the resources' order in the [resources](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/resources '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/') array. 
 
 ---
 
@@ -115,13 +115,13 @@ You can change resource headers' orientation in an individual view using the **v
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/GroupOrientation/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/GroupOrientation/"
 }
 
 #####See Also#####
-- [Assign Appointments to Resources](/concepts/05%20Widgets/Scheduler/040%20Resources/020%20Assign%20Appointments%20to%20Resources/Assign%20Appointments%20to%20Resources.md '/Documentation/Guide/Widgets/Scheduler/Resources/Assign_Appointments_to_Resources/')
+- [Assign Appointments to Resources](/concepts/05%20Widgets/Scheduler/040%20Resources/020%20Assign%20Appointments%20to%20Resources '/Documentation/Guide/Widgets/Scheduler/Resources/Assign_Appointments_to_Resources/')
 - [Customize Individual Views](/concepts/05%20Widgets/Scheduler/060%20Views/020%20Customize%20Individual%20Views.md '/Documentation/Guide/Widgets/Scheduler/Views/Customize_Individual_Views/')
 - [Customize Resource Headers](/concepts/05%20Widgets/Scheduler/040%20Resources/040%20Customize%20Resource%20Headers.md '/Documentation/Guide/Widgets/Scheduler/Resources/Customize_Resource_Headers/')
-- [Scheduler API Reference](/api-reference/10%20UI%20Widgets/dxScheduler/dxScheduler.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/')
+- [Scheduler API Reference](/api-reference/10%20UI%20Widgets/dxScheduler '/Documentation/ApiReference/UI_Widgets/dxScheduler/')
 
 [tags]scheduler, resources, group by resources

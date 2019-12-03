@@ -32,10 +32,10 @@ The widget's instance.
 The model data. Available only if you use Knockout.
 
 ##### field(e.range): VizRange
-The [visual range](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/valueAxis/visualRange/) when zooming or panning starts.
+The [visual range](/api-reference/20%20Data%20Visualization%20Widgets/dxPolarChart/1%20Configuration/valueAxis/visualRange '/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/valueAxis/visualRange/') when zooming or panning starts.
 
 ---
-Main article: [onZoomStart](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/#onZoomStart)
+Main article: [onZoomStart](/api-reference/20%20Data%20Visualization%20Widgets/dxPolarChart/1%20Configuration/onZoomStart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/#onZoomStart')
 
 #####See Also#####
 #include common-link-handleevents

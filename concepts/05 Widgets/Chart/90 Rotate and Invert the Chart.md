@@ -43,7 +43,7 @@ Besides being swapped around, chart axes can be inverted, or "mirrored".
 <img src="/Content/images/doc/20_1/ChartJS/visual_elements/axis_inverted_argument.png" alt="DevExtreme HTML5 JavaScript Charts InvertedArgumentAxis" style="display:inline-block" />
 <img src="/Content/images/doc/20_1/ChartJS/visual_elements/axis_inverted_value.png" alt="DevExtreme HTML5 JavaScript Charts InvertedValueAxis" style="display:inline-block;margin-left:5px" />
 
-To invert both argument and value axes, assign **true** to the [inverted](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonAxisSettings/inverted.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/#inverted') option of the [commonAxisSettings](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonAxisSettings/commonAxisSettings.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/') object. The same option declared in the [argumentAxis](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/argumentAxis.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/') or [valueAxis](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis/valueAxis.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/') object inverts a specific axis.
+To invert both argument and value axes, assign **true** to the [inverted](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonAxisSettings/inverted.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/#inverted') option of the [commonAxisSettings](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonAxisSettings '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/') object. The same option declared in the [argumentAxis](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/') or [valueAxis](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/') object inverts a specific axis.
 
 ---
 ##### jQuery
@@ -90,7 +90,7 @@ To invert both argument and value axes, assign **true** to the [inverted](/api-r
 ---
 
 #####See Also#####
-- [Chart Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/AjaxRequest/)
-- [Chart API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/dxChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/')
+- [Chart Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/AjaxRequest)
+- [Chart API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxChart '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/')
 
 [tags]chart, rotate, invert, mirror

@@ -7,7 +7,7 @@ firedEvents: optionChanged
 ---
 ---
 ##### shortDescription
-Specifies the column's filter operation displayed in the [filter row](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Filter_Row).
+Specifies the column's filter operation displayed in the [filter row](/concepts/05%20Widgets/DataGrid/30%20Filtering%20and%20Searching/1%20Filter%20Row.md '/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Filter_Row').
 
 ---
 The following table lists default filter operations by [data type](/api-reference/_hidden/GridBaseColumn/dataType.md '{basewidgetpath}/Configuration/columns/#dataType'):
@@ -39,4 +39,4 @@ The following table lists default filter operations by [data type](/api-referenc
 }
 
 #####See Also#####
-- [Filtering API](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#API)
+- [Filtering API](/concepts/05%20Widgets/DataGrid/30%20Filtering%20and%20Searching/6%20API '/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#API')

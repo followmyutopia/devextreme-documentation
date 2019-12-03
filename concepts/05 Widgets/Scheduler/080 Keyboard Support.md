@@ -97,7 +97,7 @@ An end user can use the following keys to interact with the widget.
 
 #####See Also#####
 #include common-link-callmethods
-- [Scheduler Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/Overview/)
-- [Scheduler API Reference](/api-reference/10%20UI%20Widgets/dxScheduler/dxScheduler.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/')
+- [Scheduler Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/Overview)
+- [Scheduler API Reference](/api-reference/10%20UI%20Widgets/dxScheduler '/Documentation/ApiReference/UI_Widgets/dxScheduler/')
 
 [tags]scheduler, navigation, accessibility, keyboard shortcuts

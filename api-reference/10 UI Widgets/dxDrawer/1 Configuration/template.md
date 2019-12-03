@@ -14,7 +14,7 @@ The container for the content. It is an <a href="https://developer.mozilla.org/e
 ![DevExtreme HTML5 JavaScript Drawer](/images/UIWidgets/drawer.png)
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Drawer/LeftOrRightPosition/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Drawer/LeftOrRightPosition/"
 }
 
 #####See Also#####

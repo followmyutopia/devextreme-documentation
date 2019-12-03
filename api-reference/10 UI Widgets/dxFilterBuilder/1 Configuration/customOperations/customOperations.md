@@ -10,7 +10,7 @@ Configures custom filter operations.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/Customization/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/FilterBuilder/Customization/"
 }
 
 #####See Also#####

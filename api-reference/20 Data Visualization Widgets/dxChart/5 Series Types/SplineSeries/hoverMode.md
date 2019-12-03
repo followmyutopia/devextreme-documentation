@@ -47,9 +47,9 @@ When a user points to a series, it may react in one of the following ways depend
 } Note that although this enum accepts more values, only the listed ones can be applied to a spline series.
 
 #####See Also#####
-- [hoverStyle](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CommonSeries/hoverStyle/hoverStyle.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/SplineSeries/hoverStyle/') - specifies the appearance of series in the hover state.
+- [hoverStyle](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CommonSeries/hoverStyle '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/SplineSeries/hoverStyle/') - specifies the appearance of series in the hover state.
 - **point**.[hoverMode](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CommonSeries/point/hoverMode.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/SplineSeries/point/#hoverMode') - specifies the hover mode of series points.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/HoverMode/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/HoverMode/"
 }

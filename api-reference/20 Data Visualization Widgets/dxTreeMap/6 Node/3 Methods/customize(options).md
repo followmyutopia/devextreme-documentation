@@ -6,10 +6,10 @@ id: dxTreeMapNode.customize(options)
 Customizes the node.
 
 ##### param(options): Object
-A [tile](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/1%20Configuration/tile/tile.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#tile') or a [group](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/1%20Configuration/group/group.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#group').
+A [tile](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/1%20Configuration/tile '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#tile') or a [group](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/1%20Configuration/group '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#group').
 
 ---
-Use this method to customize a specific node. Depending on whether the node is a tile or a group, this method accepts either a [tile](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/1%20Configuration/tile/tile.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/tile/') object or a [group](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/1%20Configuration/group/group.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/group/') object.
+Use this method to customize a specific node. Depending on whether the node is a tile or a group, this method accepts either a [tile](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/1%20Configuration/tile '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/tile/') object or a [group](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/1%20Configuration/group '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/group/') object.
 
 [note]You can specify any fields of the **tile** or **group** objects, except the [headerHeight](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/1%20Configuration/group/headerHeight.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/group/#headerHeight') field. This restriction exists because the layout of tiles and groups is calculated long before any customization can be applied.
 

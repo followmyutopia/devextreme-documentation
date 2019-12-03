@@ -15,5 +15,5 @@ Two coordinates that represent the same point in the [dataSource](/api-reference
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/VectorMap/CustomProjection/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/VectorMap/CustomProjection/"
 }

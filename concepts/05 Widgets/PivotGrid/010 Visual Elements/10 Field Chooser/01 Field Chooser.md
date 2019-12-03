@@ -2,15 +2,15 @@ The Field Chooser is a complementary widget integrated in the pivot grid that al
 
 ![DevExtreme PivotGrid FieldChooser](/images/DataGrid/PivotGridFieldChooser.png)
 
-To configure the Field Chooser, use the [fieldChooser](/api-reference/10%20UI%20Widgets/dxPivotGrid/1%20Configuration/fieldChooser/fieldChooser.md '/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/fieldChooser/') object. It has a number of options, which can be specified:
+To configure the Field Chooser, use the [fieldChooser](/api-reference/10%20UI%20Widgets/dxPivotGrid/1%20Configuration/fieldChooser '/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/fieldChooser/') object. It has a number of options, which can be specified:
 
 - [enabled](/api-reference/10%20UI%20Widgets/dxPivotGrid/1%20Configuration/fieldChooser/enabled.md '/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/fieldChooser/#enabled') &#8212; enables or disables the Field Chooser;
 - [layout](/api-reference/10%20UI%20Widgets/dxPivotGrid/1%20Configuration/fieldChooser/layout.md '/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/fieldChooser/#layout') &#8212; specifies the field chooser layout;
 - [width](/api-reference/10%20UI%20Widgets/dxPivotGrid/1%20Configuration/fieldChooser/width.md '/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/fieldChooser/#width'), [height](/api-reference/10%20UI%20Widgets/dxPivotGrid/1%20Configuration/fieldChooser/height.md '/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/fieldChooser/#height') &#8212; specifies the field chooser size;
 - [title](/api-reference/10%20UI%20Widgets/dxPivotGrid/1%20Configuration/fieldChooser/title.md '/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/fieldChooser/#title') &#8212; specifies the text to display as a title of the Field Chooser popup window.
 
-Although the Field Chooser is already integrated in **PivotGrid** and can be invoked using the context menu, you can add it as a [separate widget](/api-reference/10%20UI%20Widgets/dxPivotGridFieldChooser/dxPivotGridFieldChooser.md '/Documentation/ApiReference/UI_Widgets/dxPivotGridFieldChooser/') on your page. In this case, the Field Chooser will be displayed continuously and will not overlay the pivot grid.
+Although the Field Chooser is already integrated in **PivotGrid** and can be invoked using the context menu, you can add it as a [separate widget](/api-reference/10%20UI%20Widgets/dxPivotGridFieldChooser '/Documentation/ApiReference/UI_Widgets/dxPivotGridFieldChooser/') on your page. In this case, the Field Chooser will be displayed continuously and will not overlay the pivot grid.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/PivotGrid/FieldChooser/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/PivotGrid/FieldChooser/"
 }

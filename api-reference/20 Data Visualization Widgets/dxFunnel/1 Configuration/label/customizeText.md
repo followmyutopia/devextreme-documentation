@@ -11,7 +11,7 @@ Customizes labels' text.
 Information on the funnel item.
 
 ##### field(itemInfo.item): dxFunnelItem
-The [Item](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/6%20Item/Item.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/') object.
+The [Item](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/6%20Item '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/') object.
 
 ##### field(itemInfo.percent): Number
 The item's percentage value.
@@ -32,5 +32,5 @@ The text for the label to display.
 #include dataviz-ref-functioncontext
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/FunnelChart/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/FunnelChart/"
 }

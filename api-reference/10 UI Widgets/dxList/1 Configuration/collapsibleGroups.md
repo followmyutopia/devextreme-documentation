@@ -16,5 +16,5 @@ If the **collapsibleGroups** option is set to **true**, the down arrow is displa
 - [List - Expand and Collapse a Group](/concepts/05%20Widgets/List/14%20Grouping/10%20Expand%20and%20Collapse%20a%20Group.md '/Documentation/Guide/Widgets/List/Grouping/Expand_and_Collapse_a_Group/')
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/List/GroupedList/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/GroupedList/"
 }

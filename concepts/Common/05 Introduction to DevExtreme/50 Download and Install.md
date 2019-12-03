@@ -1,6 +1,6 @@
 To include DevExtreme to your project, use the appropriate distribution package. 
 
-- [npm](/concepts/00%20Getting%20Started/01%20Installation/01%20npm%20Package/01%20npm%20Package.md '/Documentation/Guide/Getting_Started/Installation/npm_Package/')
+- [npm](/concepts/00%20Getting%20Started/01%20Installation/01%20npm%20Package '/Documentation/Guide/Getting_Started/Installation/npm_Package/')
 
         npm install devextreme@20.1 --save --save-exact 
 

@@ -30,7 +30,7 @@ The form's instance; created only once - when the function is executed for the f
 Model data. Available only if you use Knockout.
 
 ---
-The appointment details form contains the [Form](/concepts/05%20Widgets/Form/00%20Overview.md '/Documentation/Guide/Widgets/Form/Overview/') widget whose instance is passed to this function in the **form** field. Use the [widget's API](/api-reference/10%20UI%20Widgets/dxForm/dxForm.md '/Documentation/ApiReference/UI_Widgets/dxForm/') to customize the appointment details form.
+The appointment details form contains the [Form](/concepts/05%20Widgets/Form/00%20Overview.md '/Documentation/Guide/Widgets/Form/Overview/') widget whose instance is passed to this function in the **form** field. Use the [widget's API](/api-reference/10%20UI%20Widgets/dxForm '/Documentation/ApiReference/UI_Widgets/dxForm/') to customize the appointment details form.
 
 The following code shows how to use the **onAppointmentFormOpening** function to customize a form item (`startDate`), make hidden items visible (`startDateTimeZone` and `endDateTimeZone`), and add a new form item (`location`). Note that in the last case, the array of [form items](/api-reference/10%20UI%20Widgets/dxForm/1%20Configuration/items.md '/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#items') should be checked to ensure that it does not already contain an item with the same data field.
 
@@ -128,7 +128,7 @@ The following code shows how to use the **onAppointmentFormOpening** function to
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/CustomTemplates/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/CustomTemplates/"
 }
 
 

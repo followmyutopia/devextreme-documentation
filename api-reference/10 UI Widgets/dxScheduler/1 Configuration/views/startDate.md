@@ -11,5 +11,5 @@ Specifies the date from which to start counting the [view interval](/api-referen
 If this option is not defined, the count starts from the [currentDate](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/currentView.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#currentView'). 
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/IncreaseViewDuration/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/IncreaseViewDuration/"
 }

@@ -15,7 +15,7 @@ Information about the event.
 The [area](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/area.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area') to which the prepared cell belongs.
 
 ##### field(e.cell): dxPivotGridPivotGridCell
-The cell [properties](/api-reference/10%20UI%20Widgets/dxPivotGrid/6%20Pivot%20Grid%20Cell/Pivot%20Grid%20Cell.md '/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Pivot_Grid_Cell/').
+The cell [properties](/api-reference/10%20UI%20Widgets/dxPivotGrid/6%20Pivot%20Grid%20Cell '/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Pivot_Grid_Cell/').
 
 ##### field(e.cellElement): dxElement
 #include common-ref-elementparam with { element: "prepared cell" }

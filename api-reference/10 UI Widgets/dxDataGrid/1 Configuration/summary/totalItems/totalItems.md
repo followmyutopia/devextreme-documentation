@@ -66,8 +66,8 @@ To specify the items of the total summary, declare an array of objects, each of 
 By default, a summary item is placed in the column that provides data for it. If you need to place it in another column, assign the identifier of this column to the [showInColumn](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/summary/totalItems/showInColumn.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#showInColumn') option.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/GridSummaries/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/GridSummaries/"
 }
 
 #####See Also#####
-- [Total Summary](/concepts/05%20Widgets/DataGrid/65%20Summaries/10%20Total%20Summary/Total%20Summary.md '/Documentation/Guide/Widgets/DataGrid/Summaries/Total_Summary/')
+- [Total Summary](/concepts/05%20Widgets/DataGrid/65%20Summaries/10%20Total%20Summary '/Documentation/Guide/Widgets/DataGrid/Summaries/Total_Summary/')

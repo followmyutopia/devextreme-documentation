@@ -20,7 +20,7 @@ The widget's instance.
 #include common-ref-eventparam
 
 ##### field(e.item): dxFunnelItem
-The [Item](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/6%20Item/Item.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/') object.
+The [Item](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/6%20Item '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/') object.
 
 ##### field(e.jQueryEvent).deprecated
 Use 'event' instead.
@@ -36,4 +36,4 @@ Main article: [onLegendClick](/api-reference/20%20Data%20Visualization%20Widgets
 
 #####See Also#####
 #include common-link-handleevents
-- [legend](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/1%20Configuration/legend/legend.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/legend/')
+- [legend](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/1%20Configuration/legend '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/legend/')

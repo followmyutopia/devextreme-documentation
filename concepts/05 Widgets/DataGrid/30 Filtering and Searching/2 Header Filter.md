@@ -2,7 +2,7 @@ A header filter allows a user to filter values in an individual column by includ
 
 ![DevExtreme HTML5 JavaScript jQuery Knockout Angular DataGrid Filtering HeaderFilter](/images/DataGrid/visual_elements/header_filter.png)
 
-Assign **true** to the [headerFilter](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/headerFilter/headerFilter.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/headerFilter/').**visible** option to make header filter icons visible for all columns. Set a column's [allowHeaderFiltering](/api-reference/_hidden/GridBaseColumn/allowHeaderFiltering.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowHeaderFiltering') option to **false** if its header filter should not be available. Note that this option inherits the [allowFiltering](/api-reference/_hidden/GridBaseColumn/allowFiltering.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowFiltering') option's value by default.
+Assign **true** to the [headerFilter](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/headerFilter '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/headerFilter/').**visible** option to make header filter icons visible for all columns. Set a column's [allowHeaderFiltering](/api-reference/_hidden/GridBaseColumn/allowHeaderFiltering.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowHeaderFiltering') option to **false** if its header filter should not be available. Note that this option inherits the [allowFiltering](/api-reference/_hidden/GridBaseColumn/allowFiltering.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowFiltering') option's value by default.
 
 ---
 ##### jQuery
@@ -408,5 +408,5 @@ A header filter's popup menu lists all column values by default. You can group t
 
 #####See Also#####
 - [Filtering API - Initial and Runtime Filtering](/concepts/05%20Widgets/DataGrid/30%20Filtering%20and%20Searching/6%20API/1%20Initial%20and%20Runtime%20Filtering.md '/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/#API/Initial_and_Runtime_Filtering')
-- [remoteOperations](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/remoteOperations/remoteOperations.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/')
-- [DataGrid Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/Filtering/)
+- [remoteOperations](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/remoteOperations '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/')
+- [DataGrid Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/Filtering)

@@ -15,7 +15,7 @@ Information about the event that caused the function's execution.
 #include common-ref-elementparam with { element: "cell" }
 
 ##### field(e.column): dxDataGridColumn
-This column's [configuration](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/columns/columns.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/').
+This column's [configuration](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/columns '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/').
 
 ##### field(e.columnIndex): Number
 The index of the column to which the cell belongs. For details on indexes, see the [Column and Row Indexes](/concepts/05%20Widgets/DataGrid/15%20Columns/12%20Column%20and%20Row%20Indexes.md '/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/') topic.
@@ -27,7 +27,7 @@ The widget's instance.
 The data of the row to which the cell belongs. Unavailable if **rowType** is *"header"*, *"filter"*, or *"totalFooter"*.
 
 ##### field(e.displayValue): any
-The cell's displayed value. Differs from the **value** field only when the column to which the prepared cell belongs uses [lookup](/api-reference/_hidden/dxDataGridColumn/lookup/lookup.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/').
+The cell's displayed value. Differs from the **value** field only when the column to which the prepared cell belongs uses [lookup](/api-reference/_hidden/dxDataGridColumn/lookup '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/').
 
 ##### field(e.element): dxElement
 #include common-ref-elementparam with { element: "widget" }
@@ -52,7 +52,7 @@ Model data. Available only if you use Knockout.
 The cell's previous raw value.
 
 ##### field(e.row): dxDataGridRowObject
-The row [properties](/api-reference/10%20UI%20Widgets/dxDataGrid/6%20Row/Row.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/').
+The row [properties](/api-reference/10%20UI%20Widgets/dxDataGrid/6%20Row '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/').
 
 ##### field(e.rowIndex): Number
 The row's index. Refer to [Column and Row Indexes](/concepts/05%20Widgets/DataGrid/15%20Columns/12%20Column%20and%20Row%20Indexes.md '/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/') for more information.
@@ -78,10 +78,10 @@ A function called when this variable changes.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/CellCustomization/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/CellCustomization/"
 }
 
-In the following code, the **onCellPrepared** function is used to change a `ProductName`'s color depending on the `Amount` of sold products. You can paste this code in the [Real-Time Updates](http://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/RealTimeUpdates/) demo and see how it works.
+In the following code, the **onCellPrepared** function is used to change a `ProductName`'s color depending on the `Amount` of sold products. You can paste this code in the [Real-Time Updates](https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/RealTimeUpdates) demo and see how it works.
 
 ---
 #####jQuery

@@ -11,4 +11,4 @@ Specifies whether a user can hide the column using the column chooser at runtime
 [note] [Fixed](/api-reference/_hidden/GridBaseColumn/fixed.md '{basewidgetpath}/Configuration/columns/#fixed') columns ignore the [hidingPriority](/api-reference/_hidden/GridBaseColumn/hidingPriority.md '{basewidgetpath}/Configuration/columns/#hidingPriority') and **allowHiding** options.
 
 #####See Also#####
-- [columnChooser](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/columnChooser/columnChooser.md '{basewidgetpath}/Configuration/columnChooser/')
+- [columnChooser](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/columnChooser '{basewidgetpath}/Configuration/columnChooser/')

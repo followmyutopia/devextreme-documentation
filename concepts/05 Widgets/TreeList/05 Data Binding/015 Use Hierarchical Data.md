@@ -146,6 +146,6 @@ When you load data from a remote source, and your data objects have a field that
 
 #####See Also#####
 - [TreeList - Use Plain Data](/concepts/05%20Widgets/TreeList/05%20Data%20Binding/010%20Use%20Plain%20Data.md '/Documentation/Guide/Widgets/TreeList/Data_Binding/Use_Plain_Data/')
-- [TreeList API Reference](/api-reference/10%20UI%20Widgets/dxTreeList/dxTreeList.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/')
+- [TreeList API Reference](/api-reference/10%20UI%20Widgets/dxTreeList '/Documentation/ApiReference/UI_Widgets/dxTreeList/')
 
 [tags]treeList, hierarchical data, tree-like data, tree data structure, dataStructure, children, itemsExpr

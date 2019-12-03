@@ -60,7 +60,7 @@ If appointments in your data source omit the **allDay** field but have another f
 
 [note]The **Scheduler** ignores the **startDate**'s and **endDate**'s time component for all-day appointments.
 
-To mark an appointment as all-day in the UI, toggle the *"All day"* switcher on the appointment details form. This form appears when a user [adds](/concepts/05%20Widgets/Scheduler/030%20Appointments/020%20Add%20Appointments/Add%20Appointments.md '/Documentation/Guide/Widgets/Scheduler/Appointments/Add_Appointments/') or [updates](/concepts/05%20Widgets/Scheduler/030%20Appointments/030%20Update%20Appointments/Update%20Appointments.md '/Documentation/Guide/Widgets/Scheduler/Appointments/Update_Appointments/') an appointment. 
+To mark an appointment as all-day in the UI, toggle the *"All day"* switcher on the appointment details form. This form appears when a user [adds](/concepts/05%20Widgets/Scheduler/030%20Appointments/020%20Add%20Appointments '/Documentation/Guide/Widgets/Scheduler/Appointments/Add_Appointments/') or [updates](/concepts/05%20Widgets/Scheduler/030%20Appointments/030%20Update%20Appointments '/Documentation/Guide/Widgets/Scheduler/Appointments/Update_Appointments/') an appointment. 
 
 ![Scheduler All Day Appointment Details](/images/UiWidgets/Scheduler_AllDayAppointment_Details.png)
 

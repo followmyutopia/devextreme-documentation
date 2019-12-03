@@ -60,7 +60,7 @@ To enable the Virtual Mode, set the [virtualModeEnabled](/api-reference/10%20UI%
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Tree_View/VirtualMode/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_View/VirtualMode/"
 }
 
 If the Virtual Mode does not meet your requirements, you can get full control over nodes and how to load them in the [createChildren](/api-reference/10%20UI%20Widgets/dxTreeView/1%20Configuration/createChildren.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#createChildren') function. This function will be called at the beginning of the widget's lifetime and each time a user expands a node whose child nodes have not been loaded yet.
@@ -120,11 +120,11 @@ If the Virtual Mode does not meet your requirements, you can get full control ov
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Tree_View/LoadDataOnDemand/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_View/LoadDataOnDemand/"
 }
 
 #####See Also#####
-- [TreeView - Expand and Collapse Nodes](/concepts/05%20Widgets/TreeView/20%20Expand%20and%20Collapse%20Nodes/Expand%20and%20Collapse%20Nodes.md '/Documentation/Guide/Widgets/TreeView/Expand_and_Collapse_Nodes')
-- [TreeView API Reference](/api-reference/10%20UI%20Widgets/dxTreeView/dxTreeView.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/')
+- [TreeView - Expand and Collapse Nodes](/concepts/05%20Widgets/TreeView/20%20Expand%20and%20Collapse%20Nodes '/Documentation/Guide/Widgets/TreeView/Expand_and_Collapse_Nodes')
+- [TreeView API Reference](/api-reference/10%20UI%20Widgets/dxTreeView '/Documentation/ApiReference/UI_Widgets/dxTreeView/')
 
 [tags]treeview, tree view, enhance performance, big data, large data, virtual mode, virtualModeEnabled, createChildren

@@ -1,7 +1,7 @@
 The **Lookup** is a widget that allows an end user to search for an item in a collection shown in a drop-down menu.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Lookup/Basics/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Basics/"
 }
 
 The following code adds the **Lookup** widget to your page. The simplest configuration requires only a [dataSource](/api-reference/10%20UI%20Widgets/DataExpressionMixin/1%20Configuration/dataSource.md '/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#dataSource') to be specified. In addition, you can define the [placeholder](/api-reference/10%20UI%20Widgets/dxLookup/1%20Configuration/placeholder.md '/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#placeholder') to be displayed when the **Lookup** input field is empty.
@@ -110,8 +110,8 @@ If your data is an array of objects, specify:
 - [Lookup - Configure Search Parameters](/concepts/05%20Widgets/Lookup/05%20Configure%20Search%20Parameters.md '/Documentation/Guide/Widgets/Lookup/Configure_Search_Parameters/')
 - [Lookup - Enable Grouping](/concepts/05%20Widgets/Lookup/10%20Enable%20Grouping.md '/Documentation/Guide/Widgets/Lookup/Enable_Grouping/')
 - [Lookup - Enable Paging](/concepts/05%20Widgets/Lookup/15%20Enable%20Paging.md '/Documentation/Guide/Widgets/Lookup/Enable_Paging/')
-- [Lookup - Customize the Appearance](/concepts/05%20Widgets/Lookup/20%20Customize%20the%20Appearance/05%20Customize%20Item%20Appearance.md '/Documentation/Guide/Widgets/Lookup/Customize_the_Appearance/')
+- [Lookup - Customize the Appearance](/concepts/05%20Widgets/Lookup/20%20Customize%20the%20Appearance '/Documentation/Guide/Widgets/Lookup/Customize_the_Appearance/')
 - [Lookup - Handle the Value Change Event](/concepts/05%20Widgets/Lookup/25%20Handle%20the%20Value%20Change%20Event.md '/Documentation/Guide/Widgets/Lookup/Handle_the_Value_Change_Event/')
-- [Lookup API Reference](/api-reference/10%20UI%20Widgets/dxLookup/dxLookup.md '/Documentation/ApiReference/UI_Widgets/dxLookup/')
+- [Lookup API Reference](/api-reference/10%20UI%20Widgets/dxLookup '/Documentation/ApiReference/UI_Widgets/dxLookup/')
 
 [tags]lookup, overview, data source, value, display expression, displayExpr, valueExpr

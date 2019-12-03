@@ -6,7 +6,7 @@ This function allows you to customize the toolbar. Depending on the configuratio
 - <img src="/Content/images/doc/20_1/DataGrid/icons/toolbar_revert.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Toolbar RevertButton" style="margin:1px; vertical-align:middle"/> - *"revertButton"*   
 - <img src="/Content/images/doc/20_1/DataGrid/icons/toolbar_export.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Toolbar Exporting" style="margin:1px; vertical-align:middle"/> - *"exportButton"*     
 - <img src="/Content/images/doc/20_1/DataGrid/icons/toolbar_applyFilter.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Toolbar ApplyFilterButton" style="margin:1px; vertical-align:middle"/> - *"applyFilterButton"*     
-- [*"searchPanel"*](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/searchPanel/searchPanel.md '{basewidgetpath}/Configuration/searchPanel/')
+- [*"searchPanel"*](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/searchPanel '{basewidgetpath}/Configuration/searchPanel/')
 
 The following code shows how you can customize the toolbar using this function.
 

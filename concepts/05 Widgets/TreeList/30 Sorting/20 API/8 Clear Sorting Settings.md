@@ -35,4 +35,4 @@ You can clear sorting settings for all columns by calling the [clearSorting()](/
 ---
 
 #####See Also#####
-- [remoteOperations](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/remoteOperations/remoteOperations.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/remoteOperations/')
+- [remoteOperations](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/remoteOperations '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/remoteOperations/')

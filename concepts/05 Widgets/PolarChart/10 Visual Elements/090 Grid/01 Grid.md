@@ -2,7 +2,7 @@ A grid is a set of lines that improves the readability of chart data. Grid lines
 
 ![Grid](/images/ChartJS/Polar_Grids.png)
 
-Grid lines are child elements of the argument and value axes. To change their settings, define the [grid](/api-reference/20%20Data%20Visualization%20Widgets/dxPolarChart/1%20Configuration/commonAxisSettings/grid/grid.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/commonAxisSettings/grid/') object within the **argumentAxis**, **valueAxis** or **commonAxisSettings** configuration object.
+Grid lines are child elements of the argument and value axes. To change their settings, define the [grid](/api-reference/20%20Data%20Visualization%20Widgets/dxPolarChart/1%20Configuration/commonAxisSettings/grid '/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/commonAxisSettings/grid/') object within the **argumentAxis**, **valueAxis** or **commonAxisSettings** configuration object.
 
 	<!--JavaScript-->var polarChartOptions = {
 		commonAxisSettings: {

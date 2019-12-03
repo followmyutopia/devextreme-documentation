@@ -10,5 +10,5 @@ Configures mentions.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/HtmlEditor/Mentions/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/HtmlEditor/Mentions/"
 }

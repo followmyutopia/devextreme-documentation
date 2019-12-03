@@ -107,7 +107,7 @@ By default, the **MultiView** widget animates switching between views. You can d
 #####See Also#####
 - [MultiView - Customize Item Appearance](/concepts/05%20Widgets/MultiView/05%20Customize%20Item%20Appearance.md '/Documentation/Guide/Widgets/MultiView/Customize_Item_Appearance')
 - [MultiView - Loop the Views](/concepts/05%20Widgets/MultiView/15%20Loop%20the%20Views.md '/Documentation/Guide/Widgets/MultiView/Loop_the_Views')
-- [MultiView Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/MultiView/Overview/)
-- [MultiView API Reference](/api-reference/10%20UI%20Widgets/dxMultiView/dxMultiView.md '/Documentation/ApiReference/UI_Widgets/dxMultiView/')
+- [MultiView Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/MultiView/Overview)
+- [MultiView API Reference](/api-reference/10%20UI%20Widgets/dxMultiView '/Documentation/ApiReference/UI_Widgets/dxMultiView/')
 
 [tags]multi view, multiView, views, switch, swipe, animate

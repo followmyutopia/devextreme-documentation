@@ -74,7 +74,7 @@ Another way to deal with overlapping labels is to hide all labels of a specific 
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/PieWithResolvedLabelOverlapping/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/PieWithResolvedLabelOverlapping/"
 }
 
 #####See Also#####

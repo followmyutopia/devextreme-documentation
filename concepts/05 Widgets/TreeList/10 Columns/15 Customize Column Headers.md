@@ -140,4 +140,4 @@ To hide column headers, assign **false** to the [showColumnHeaders](/api-referen
 ---
 
 #####See Also#####
-- [TreeList Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/TreeList/Overview/)
+- [TreeList Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/TreeList/Overview)

@@ -9,5 +9,5 @@ Specifies the time interval between when the [date-time indicator](/api-referenc
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/CurrentTimeIndicator/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/CurrentTimeIndicator/"
 }

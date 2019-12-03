@@ -69,5 +69,5 @@ The **Chart** provides the [customizePoint](/api-reference/20%20Data%20Visualiza
 This article outlined the steps to implement a drill-down chart and provided code examples for each step. For the full code, refer to the **Drill-Down Chart** demo.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/ChartsDrillDown/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/ChartsDrillDown/"
 }

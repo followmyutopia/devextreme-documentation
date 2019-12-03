@@ -127,6 +127,6 @@ When using AngularJS or Knockout, you can still call the methods mentioned befor
 ---
 
 #####See Also#####
-- [SlideOutView API Reference](/api-reference/10%20UI%20Widgets/dxSlideOutView/dxSlideOutView.md '/Documentation/ApiReference/UI_Widgets/dxSlideOutView/')
+- [SlideOutView API Reference](/api-reference/10%20UI%20Widgets/dxSlideOutView '/Documentation/ApiReference/UI_Widgets/dxSlideOutView/')
 
 [tags]slideOutView, slide-out menu, open, show, close, hide

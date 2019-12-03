@@ -2,7 +2,7 @@ A tooltip is a small pop-up rectangle displaying information about a [series poi
 
 ![DevExtreme HTML5 JavaScript Charts Tooltip](/images/ChartJS/visual_elements/tooltip.png)
 
-All options configuring tooltips are collected in the [tooltip](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/tooltip/tooltip.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/tooltip/') object. For example, to enable the tooltips, assign **true** to the **enabled** option of this object.
+All options configuring tooltips are collected in the [tooltip](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/tooltip '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/tooltip/') object. For example, to enable the tooltips, assign **true** to the **enabled** option of this object.
 
 ---
 ##### jQuery
@@ -93,6 +93,6 @@ Options declared in the **tooltip** object apply to all tooltips in the **Chart*
 #####See Also#####
 - [Show and Hide a Tooltip](/concepts/05%20Widgets/Chart/30%20Tooltips/10%20Show%20and%20Hide%20a%20Tooltip.md '/Documentation/Guide/Widgets/Chart/Tooltips/Show_and_Hide_a_Tooltip/')
 - [Handle Tooltip Events](/concepts/05%20Widgets/Chart/30%20Tooltips/20%20Handle%20Tooltip%20Events.md '/Documentation/Guide/Widgets/Chart/Tooltips/Handle_Tooltip_Events/')
-- [Chart API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/dxChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/')
+- [Chart API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxChart '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/')
 
 [tags]chart, tooltips, enable tooltips, customizeTooltip

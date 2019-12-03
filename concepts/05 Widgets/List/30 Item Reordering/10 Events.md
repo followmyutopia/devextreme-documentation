@@ -65,5 +65,5 @@ If you are going to change the **itemReordered** event handler at runtime, or if
 
 #####See Also#####
 #include common-link-handleevents
-- [List Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListSelection/)
-- [List API Reference](/api-reference/10%20UI%20Widgets/dxList/dxList.md '/Documentation/ApiReference/UI_Widgets/dxList/')
+- [List Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListSelection)
+- [List API Reference](/api-reference/10%20UI%20Widgets/dxList '/Documentation/ApiReference/UI_Widgets/dxList/')

@@ -131,4 +131,4 @@ Below, you can try out all the mentioned options in action.
 
 #####See Also#####
 - [Relocate the Legend](/concepts/05%20Widgets/PieChart/35%20Legend/10%20Relocate%20the%20Legend.md '/Documentation/Guide/Widgets/PieChart/Legend/Relocate_the_Legend/')
-- [PieChart Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/PieWithMultipleSeries/)
+- [PieChart Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/PieWithMultipleSeries)

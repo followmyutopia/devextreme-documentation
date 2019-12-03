@@ -131,7 +131,7 @@ Below, you can try out all the mentioned options in action.
 
 #####See Also#####
 - [Relocate the Legend](/concepts/05%20Widgets/Chart/35%20Legend/10%20Relocate%20the%20Legend.md '/Documentation/Guide/Widgets/Chart/Legend/Relocate_the_Legend/')
-- [Chart Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/StepLine/)
-- [Chart API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/dxChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/')
+- [Chart Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/StepLine)
+- [Chart API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxChart '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/')
 
 [tags]chart, legend, legend items, legend orientation, colum count, columnCount, row count, rowCount, empty space between legend items, columnItemSpacing, rowItemSpacing

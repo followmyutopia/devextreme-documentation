@@ -1,4 +1,4 @@
-To customize views in the **MultiView**, define a custom template for them. For Angular, AngularJS, and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code shows how to use **dxTemplate** to define a template for **MultiView** views.
+To customize views in the **MultiView**, define a custom template for them. For Angular, AngularJS, and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code shows how to use **dxTemplate** to define a template for **MultiView** views.
 
 ---
 ##### Angular
@@ -208,7 +208,7 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 #####See Also#####
 - [MultiView - Switch Between Views](/concepts/05%20Widgets/MultiView/10%20Switch%20Between%20Views.md '/Documentation/Guide/Widgets/MultiView/Switch_Between_Views/')
 - [MultiView - Loop the Views](/concepts/05%20Widgets/MultiView/15%20Loop%20the%20Views.md '/Documentation/Guide/Widgets/MultiView/Loop_the_Views/')
-- [MultiView Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/MultiView/Overview/)
-- [MultiView API Reference](/api-reference/10%20UI%20Widgets/dxMultiView/dxMultiView.md '/Documentation/ApiReference/UI_Widgets/dxMultiView/')
+- [MultiView Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/MultiView/Overview)
+- [MultiView API Reference](/api-reference/10%20UI%20Widgets/dxMultiView '/Documentation/ApiReference/UI_Widgets/dxMultiView/')
 
 [tags]multi view, multiView, item appearance, customize, templates, template, custom template

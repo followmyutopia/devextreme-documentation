@@ -9,4 +9,4 @@ Specifies which data source field provides data for the pivot grid field.
 
 ---
 #####See Also#####
-- [store](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/store/store.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/store/')
+- [store](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/store '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/store/')

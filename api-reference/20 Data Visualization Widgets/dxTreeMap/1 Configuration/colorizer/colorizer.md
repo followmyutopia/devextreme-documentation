@@ -19,5 +19,5 @@ To find out how else you can colorize tiles, see the [colorField](/api-reference
 
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/Colorization/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Colorization/"
 }

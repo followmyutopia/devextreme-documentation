@@ -13,7 +13,7 @@ The data of the row to which the cell belongs.
 The value for the cell to display.
 
 ---
-This option accepts the name of the [data source field](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/dataSource.md '{basewidgetpath}/Configuration/#dataSource') that provides display values...
+This option accepts the name of the [data source field](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/dataSource.md '{basewidgetpath}/Configuration/#dataSource') that provides display values...
 
 ---
 ##### jQuery
@@ -128,7 +128,7 @@ This option accepts the name of the [data source field](/api-reference/10%20UI%2
 
 ---
 
-... or a function that combines display values. Specify this function only if all data processing operations are [executed on the client](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/remoteOperations/remoteOperations.md '{basewidgetpath}/Configuration/remoteOperations/').
+... or a function that combines display values. Specify this function only if all data processing operations are [executed on the client](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/remoteOperations '{basewidgetpath}/Configuration/remoteOperations/').
 
 ---
 ##### jQuery
@@ -268,7 +268,7 @@ This option accepts the name of the [data source field](/api-reference/10%20UI%2
     
 ---
 
-The widget uses the specified display values in [sorting](/Documentation/Guide/Widgets/{WidgetName}/Sorting/), [searching](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Search_Panel), and [grouping](/concepts/05%20Widgets/DataGrid/45%20Grouping/Grouping.md '/Documentation/Guide/Widgets/DataGrid/Grouping/') (in case of **DataGrid**).
+The widget uses the specified display values in [sorting](/concepts/05%20Widgets/DataGrid/25%20Sorting '/Documentation/Guide/Widgets/{WidgetName}/Sorting/'), [searching](/concepts/05%20Widgets/DataGrid/30%20Filtering%20and%20Searching/3%20Search%20Panel.md '/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Search_Panel'), and [grouping](/concepts/05%20Widgets/DataGrid/45%20Grouping '/Documentation/Guide/Widgets/DataGrid/Grouping/') (in case of **DataGrid**).
 
 #include uiwidgets-ref-functioncontext with { 
     value: "column's configuration"

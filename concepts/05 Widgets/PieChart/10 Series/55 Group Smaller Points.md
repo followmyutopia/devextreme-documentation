@@ -123,5 +123,5 @@ The group for small points is called *"others"* by default. You can change this 
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/PieWithSmallValuesGrouped/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/PieWithSmallValuesGrouped/"
 }

@@ -22,4 +22,4 @@ An array of selected items (shapes or connectors).
 Model data. Available only if you use Knockout.
 
 ---
-Main article: [onItemClick](/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/#onSelectionChanged)
+Main article: [onItemClick](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/onSelectionChanged.md '/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/#onSelectionChanged')

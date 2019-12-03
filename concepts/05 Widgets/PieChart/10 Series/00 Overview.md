@@ -37,7 +37,7 @@ The **Pie** series type is used by default, but you can change it to **Doughnut*
 
 ---
 
-Use the [series](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart/1%20Configuration/series/series.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/series/') option to configure a series. Pass an object to this option if you have only one series, or an array of objects when you have multiple series. In the latter case, you can also specify settings common for all series in the [commonSeriesSettings](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart/1%20Configuration/commonSeriesSettings/commonSeriesSettings.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/commonSeriesSettings/') object, for example: 
+Use the [series](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart/1%20Configuration/series '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/series/') option to configure a series. Pass an object to this option if you have only one series, or an array of objects when you have multiple series. In the latter case, you can also specify settings common for all series in the [commonSeriesSettings](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart/1%20Configuration/commonSeriesSettings '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/commonSeriesSettings/') object, for example: 
 
 ---
 ##### jQuery
@@ -133,7 +133,7 @@ Settings specified for a series apply to all its points. If you need to customiz
 Refer to other topics in this section for details on main series features.
 
 #####See Also#####
-- [Series Hover](/concepts/05%20Widgets/PieChart/10%20Series/10%20Hover/Hover.md '/Documentation/Guide/Widgets/PieChart/Series/Hover/')
-- [Series Selection](/concepts/05%20Widgets/PieChart/10%20Series/20%20Selection/Selection.md '/Documentation/Guide/Widgets/PieChart/Series/Selection/')
+- [Series Hover](/concepts/05%20Widgets/PieChart/10%20Series/10%20Hover '/Documentation/Guide/Widgets/PieChart/Series/Hover/')
+- [Series Selection](/concepts/05%20Widgets/PieChart/10%20Series/20%20Selection '/Documentation/Guide/Widgets/PieChart/Series/Selection/')
 - [Access a Point Using the API](/concepts/05%20Widgets/PieChart/10%20Series/45%20Access%20a%20Point%20Using%20the%20API.md '/Documentation/Guide/Widgets/PieChart/Series/Access_a_Point_Using_the_API/')
-- [Bind Series to Data](/concepts/05%20Widgets/PieChart/03%20Data%20Binding/23%20Bind%20Series%20to%20Data/Bind%20Series%20to%20Data.md '/Documentation/Guide/Widgets/PieChart/Data_Binding/Bind_Series_to_Data/')
+- [Bind Series to Data](/concepts/05%20Widgets/PieChart/03%20Data%20Binding/23%20Bind%20Series%20to%20Data '/Documentation/Guide/Widgets/PieChart/Data_Binding/Bind_Series_to_Data/')

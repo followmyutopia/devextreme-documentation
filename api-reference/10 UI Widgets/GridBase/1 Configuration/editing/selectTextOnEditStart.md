@@ -9,7 +9,7 @@ Specifies whether to select text in a cell when a user starts editing.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/BatchEditing/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/BatchEditing/"
 }
 
 #####See Also#####

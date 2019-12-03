@@ -1,12 +1,12 @@
 When a user selects a series, the series changes its style to the one specified by the following objects.
 
-- **series**.[selectionStyle](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CommonSeries/selectionStyle/selectionStyle.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/selectionStyle/')        
+- **series**.[selectionStyle](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CommonSeries/selectionStyle '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/selectionStyle/')        
 The selection style for an individual series.
 
 - **commonSeriesSettings**.**%seriesType%**.**selectionStyle**                
 The selection style for all series of a specific type ([line](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonSeriesSettings/line.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/#line'), [bar](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonSeriesSettings/bar.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/#bar'), etc.).
 
-- **commonSeriesSettings**.[selectionStyle](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CommonSeries/selectionStyle/selectionStyle.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/selectionStyle/')         
+- **commonSeriesSettings**.[selectionStyle](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CommonSeries/selectionStyle '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/selectionStyle/')         
 The selection style for all series in the **Chart**.
 
 Note that individual settings override type-specific settings which, in turn, override common settings.
@@ -72,7 +72,7 @@ Note that individual settings override type-specific settings which, in turn, ov
 
 ---
 
-To choose which series elements should be highlighted when a user selects a series, specify the **selectionMode** option. Just like **selectionStyle**, this option can be specified for all series in the **Chart**, for all series of a specific type, or for an individual series. Note also that depending on the series type, the **selectionMode** option accepts different values. For information about them, visit the [Series Types](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/Series%20Types.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/') section of the API reference, choose the employed series type, and refer to its **selectionMode** option description.
+To choose which series elements should be highlighted when a user selects a series, specify the **selectionMode** option. Just like **selectionStyle**, this option can be specified for all series in the **Chart**, for all series of a specific type, or for an individual series. Note also that depending on the series type, the **selectionMode** option accepts different values. For information about them, visit the [Series Types](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/') section of the API reference, choose the employed series type, and refer to its **selectionMode** option description.
 
 ---
 ##### jQuery
@@ -122,7 +122,7 @@ To choose which series elements should be highlighted when a user selects a seri
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/Selection/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Selection/"
 }
 
 By default, only a single series can be in the selected state at a time. If you need to allow multiple series to be in this state, assign *"multiple"* to the [seriesSelectionMode](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/seriesSelectionMode.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#seriesSelectionMode') option.
@@ -161,7 +161,7 @@ By default, only a single series can be in the selected state at a time. If you 
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/MultipleSeriesSelection/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/MultipleSeriesSelection/"
 }
 
 #####See Also#####

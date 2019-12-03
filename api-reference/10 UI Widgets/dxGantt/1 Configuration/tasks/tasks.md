@@ -9,7 +9,7 @@ Configures tasks.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Gantt/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Gantt/Overview/"
 }
 
 ![DevExtreme Gantt Chart - Tasks](/images/Gantt/task.png)

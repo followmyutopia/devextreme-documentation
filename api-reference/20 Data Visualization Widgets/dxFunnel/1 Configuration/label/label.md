@@ -8,7 +8,7 @@ Configures funnel item labels.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/FunnelChart/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/FunnelChart/"
 }
 
 #####See Also#####

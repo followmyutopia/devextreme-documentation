@@ -38,7 +38,7 @@ Objects that have a hierarchical structure are visualized by groups of tiles. Fo
     }];
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/HierarchicalDataStructure/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/HierarchicalDataStructure/"
 }
 
 For both structures, set the [valueField](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/1%20Configuration/valueField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#valueField') and [labelField](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/1%20Configuration/labelField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#labelField'); for the hierarchical structure, also set the [childrenField](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/1%20Configuration/childrenField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#childrenField').
@@ -62,7 +62,7 @@ A plain data array can imply a hierarchical structure. An example of such array 
     };
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/FlatDataStructure/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/FlatDataStructure/"
 }
 
 Depending on your data source, bind the **TreeMap** to data as follows.
@@ -74,7 +74,7 @@ Assign the array to the **dataSource** option.
 Set the **dataSource** option to the URL of a JSON file or service that returns JSON data.
 
 - **OData**         
-Implement an [ODataStore](/api-reference/30%20Data%20Layer/ODataStore/ODataStore.md '/Documentation/ApiReference/Data_Layer/ODataStore/').
+Implement an [ODataStore](/api-reference/30%20Data%20Layer/ODataStore '/Documentation/ApiReference/Data_Layer/ODataStore/').
 
 - **Web API, PHP, MongoDB**     
 Use one of the following extensions to enable the server to process data according to the protocol DevExtreme widgets use:
@@ -206,9 +206,9 @@ Use one of the following extensions to enable the server to process data accordi
     ---
 
 - **Any other data source**     
-Implement a [CustomStore](/api-reference/30%20Data%20Layer/CustomStore/CustomStore.md '/Documentation/ApiReference/Data_Layer/CustomStore/').
+Implement a [CustomStore](/api-reference/30%20Data%20Layer/CustomStore '/Documentation/ApiReference/Data_Layer/CustomStore/').
 
-Regardless of the data source on the input, the **TreeMap** always wraps it in the [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/') object. This object allows you to sort, filter, group, and otherwise shape data. To get its instance, call the [getDataSource()](/api-reference/10%20UI%20Widgets/DataHelperMixin/3%20Methods/getDataSource().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Methods/#getDataSource') method.
+Regardless of the data source on the input, the **TreeMap** always wraps it in the [DataSource](/api-reference/30%20Data%20Layer/DataSource '/Documentation/ApiReference/Data_Layer/DataSource/') object. This object allows you to sort, filter, group, and otherwise shape data. To get its instance, call the [getDataSource()](/api-reference/10%20UI%20Widgets/DataHelperMixin/3%20Methods/getDataSource().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Methods/#getDataSource') method.
 
 [note]
 

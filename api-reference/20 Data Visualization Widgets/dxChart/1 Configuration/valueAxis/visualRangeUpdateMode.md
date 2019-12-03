@@ -6,13 +6,13 @@ default: 'auto'
 ---
 ---
 ##### shortDescription
-Specifies how the axis's [visual range](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis/visualRange/visualRange.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/visualRange/') should behave when chart data is updated.
+Specifies how the axis's [visual range](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis/visualRange '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/visualRange/') should behave when chart data is updated.
 
 ---
 The following modes are available:
 
 - *"reset"*     
-The visual range becomes equal to the data range or the [whole range](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis/wholeRange/wholeRange.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/wholeRange/') if it is a subrange of the data range.
+The visual range becomes equal to the data range or the [whole range](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis/wholeRange '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/wholeRange/') if it is a subrange of the data range.
 
 - *"keep"*      
 The visual range does not change.

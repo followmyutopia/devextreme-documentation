@@ -47,7 +47,7 @@ State storing enables the widget to save applied settings and restore them the n
 </table>    
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/{WidgetName}/StatePersistence/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/{WidgetName}/StatePersistence/"
 }
 
 #####See Also#####

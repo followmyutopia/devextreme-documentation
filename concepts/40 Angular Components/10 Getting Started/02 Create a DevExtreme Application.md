@@ -15,7 +15,7 @@ npx is available with npm v5.2 and later. If you have an earlier version, <a hre
 
 [/note]
 
-The application already contains the [DataGrid](http://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/Overview/Angular/Light/) and [Form](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Form/Overview/Angular/Light/) components. The following instructions show how to employ any other DevExtreme component using the [Button](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Button/PredefinedTypes/Angular/Light/) component as an example:
+The application already contains the [DataGrid](https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/Overview/Angular/Light) and [Form](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Form/Overview/Angular/Light) components. The following instructions show how to employ any other DevExtreme component using the [Button](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Button/PredefinedTypes/Angular/Light) component as an example:
 
 1. Import the DevExtreme component's module in the `NgModule` where you are going to use it. Open the `src/app/app-routing.module.ts` file and add the following code:
 
@@ -53,6 +53,6 @@ If you go to the Home view in the browser, you should see the **Button**.
 
 The following resources provide more information about DevExtreme Angular components:
 
-- [Component Configuration Syntax](/concepts/40%20Angular%20Components/20%20Component%20Configuration%20Syntax/Component%20Configuration%20Syntax.md '/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/')
-- [Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/Overview/Angular/Light/)
+- [Component Configuration Syntax](/concepts/40%20Angular%20Components/20%20Component%20Configuration%20Syntax '/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/')
+- [Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/Overview/Angular/Light)
 - [API Reference](/Documentation/ApiReference/)

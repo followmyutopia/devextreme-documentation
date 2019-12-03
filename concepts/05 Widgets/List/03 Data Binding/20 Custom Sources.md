@@ -1,4 +1,4 @@
-Access to a custom data source is configured using the [CustomStore](/api-reference/30%20Data%20Layer/CustomStore/CustomStore.md '/Documentation/ApiReference/Data_Layer/CustomStore/') component. DevExtreme provides [ASP.NET](/concepts/05%20Widgets/List/03%20Data%20Binding/16%20Web%20API%20Service.md '/Documentation/Guide/Widgets/List/Data_Binding/Web_API_Service/') and [PHP](/concepts/05%20Widgets/List/03%20Data%20Binding/17%20PHP%20Service.md '/Documentation/Guide/Widgets/List/Data_Binding/PHP_Service/') extensions to configure the **CustomStore** and implement server-side data processing. You can also use the third-party extension for [MongoDB](/concepts/05%20Widgets/List/03%20Data%20Binding/18%20MongoDB%20Service.md '/Documentation/Guide/Widgets/List/Data_Binding/MongoDB_Service/'). 
+Access to a custom data source is configured using the [CustomStore](/api-reference/30%20Data%20Layer/CustomStore '/Documentation/ApiReference/Data_Layer/CustomStore/') component. DevExtreme provides [ASP.NET](/concepts/05%20Widgets/List/03%20Data%20Binding/16%20Web%20API%20Service.md '/Documentation/Guide/Widgets/List/Data_Binding/Web_API_Service/') and [PHP](/concepts/05%20Widgets/List/03%20Data%20Binding/17%20PHP%20Service.md '/Documentation/Guide/Widgets/List/Data_Binding/PHP_Service/') extensions to configure the **CustomStore** and implement server-side data processing. You can also use the third-party extension for [MongoDB](/concepts/05%20Widgets/List/03%20Data%20Binding/18%20MongoDB%20Service.md '/Documentation/Guide/Widgets/List/Data_Binding/MongoDB_Service/'). 
 
 You need to configure the **CustomStore** in detail for accessing a server built on another technology. Data in this situation can be processed on the client or server. In the former case, switch the **CustomStore** to the raw mode and load all data from the server in the [load](/api-reference/30%20Data%20Layer/CustomStore/1%20Configuration/load.md '/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load') function as shown in the following example: 
 
@@ -42,7 +42,7 @@ If the server has not received the **group** parameter, the resulting object sho
         totalCount: 100
     }
 
-If the **List** allows the user to [delete items](/concepts/05%20Widgets/List/35%20Item%20Deletion/Item%20Deletion.md '/Documentation/Guide/Widgets/List/Item_Deletion/'), the **CustomStore** must implement the [remove](/api-reference/30%20Data%20Layer/CustomStore/1%20Configuration/remove.md '/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#remove') operation as well. Below is a generalized configuration of the **CustomStore** for the **List** widget.
+If the **List** allows the user to [delete items](/concepts/05%20Widgets/List/35%20Item%20Deletion '/Documentation/Guide/Widgets/List/Item_Deletion/'), the **CustomStore** must implement the [remove](/api-reference/30%20Data%20Layer/CustomStore/1%20Configuration/remove.md '/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#remove') operation as well. Below is a generalized configuration of the **CustomStore** for the **List** widget.
 
 ---
 #####jQuery
@@ -291,11 +291,11 @@ If the **List** allows the user to [delete items](/concepts/05%20Widgets/List/35
 ---
 
 #####See Also#####
-- [Data Layer - DataSource Examples | Custom Sources](/concepts/30%20Data%20Layer/51%20Data%20Source%20Examples/3%20Custom%20Sources/Custom%20Sources.md '/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources')
+- [Data Layer - DataSource Examples | Custom Sources](/concepts/30%20Data%20Layer/51%20Data%20Source%20Examples/3%20Custom%20Sources '/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources')
 - [Data Layer - DataSource Examples | Connect to a RESTful Service](/concepts/30%20Data%20Layer/51%20Data%20Source%20Examples/3%20Custom%20Sources/0%20Connect%20to%20RESTful%20Service.md '/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources/Connect_to_RESTful_Service')
-- [Data Layer - Overview](/concepts/30%20Data%20Layer/5%20Data%20Layer/Data%20Layer.md '/Documentation/Guide/Data_Layer/Data_Layer/')
+- [Data Layer - Overview](/concepts/30%20Data%20Layer/5%20Data%20Layer '/Documentation/Guide/Data_Layer/Data_Layer/')
 - [List - Access the DataSource](/concepts/05%20Widgets/List/03%20Data%20Binding/30%20Access%20the%20DataSource.md '/Documentation/Guide/Widgets/List/Data_Binding/Access_the_DataSource/')
 - [List - Paging](/concepts/05%20Widgets/List/08%20Paging.md '/Documentation/Guide/Widgets/List/Paging/')
-- [List Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/)
+- [List Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI)
 
 [tags]list, data binding, provide data, custom data source, CustomStore, DataSource, load

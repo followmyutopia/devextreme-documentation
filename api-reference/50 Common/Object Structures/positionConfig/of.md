@@ -25,9 +25,9 @@ The option accepts one of the following values.
 
         position: { of: window };
 
-- A <a href="http://api.jquery.com/category/events/event-object/" target="_blank">jQueryEvent</a> or [dxEvent](/api-reference/50%20Common/Object%20Structures/dxEvent/dxEvent.md '/Documentation/ApiReference/Common/Object_Structures/dxEvent/') object.
+- A <a href="http://api.jquery.com/category/events/event-object/" target="_blank">jQueryEvent</a> or [dxEvent](/api-reference/50%20Common/Object%20Structures/dxEvent '/Documentation/ApiReference/Common/Object_Structures/dxEvent/') object.
 
- The widget is positioned against the **event.pageX** and **event.pageY** coordinates. In the following example, the [Popover](/api-reference/10%20UI%20Widgets/dxPopover/dxPopover.md '/Documentation/ApiReference/UI_Widgets/dxPopover/') widget is positioned against a clicked point on the "targetElement".
+ The widget is positioned against the **event.pageX** and **event.pageY** coordinates. In the following example, the [Popover](/api-reference/10%20UI%20Widgets/dxPopover '/Documentation/ApiReference/UI_Widgets/dxPopover/') widget is positioned against a clicked point on the "targetElement".
 
         $("#targetElement").click(function (event) {
             $("#popover").dxPopover("option", "position.of", event);

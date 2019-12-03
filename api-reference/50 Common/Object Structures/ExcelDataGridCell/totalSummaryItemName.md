@@ -8,4 +8,4 @@ The [identifier](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/s
 
 ---
 #####See Also#####
-- **summary**.[totalItems](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/summary/totalItems/totalItems.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/')
+- **summary**.[totalItems](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/summary/totalItems '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/')

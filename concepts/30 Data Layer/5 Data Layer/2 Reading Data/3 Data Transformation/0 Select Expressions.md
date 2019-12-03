@@ -1,4 +1,4 @@
-The [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/') supports the [select](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/select.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#select') option intended to specify the structure of an item of the array being loaded. The DataSource passes the value of this option to the underlying Store when loading data. Therefore, this data transformation can be performed on the server side if the Store supports it. 
+The [DataSource](/api-reference/30%20Data%20Layer/DataSource '/Documentation/ApiReference/Data_Layer/DataSource/') supports the [select](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/select.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#select') option intended to specify the structure of an item of the array being loaded. The DataSource passes the value of this option to the underlying Store when loading data. Therefore, this data transformation can be performed on the server side if the Store supports it. 
 
 To consider a select expression syntax, begin by creating an array of sample data.
 
@@ -20,7 +20,7 @@ To consider a select expression syntax, begin by creating an array of sample dat
         }
     ];
 
-You can define the select option value via the [configuration object](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/Configuration.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/') passed to the DataSource constructor.
+You can define the select option value via the [configuration object](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/') passed to the DataSource constructor.
 
     <!--JavaScript-->
     var dataSource = new DevExpress.data.DataSource({
@@ -34,7 +34,7 @@ To modify the **select** option, pass the new option value to the [select(expr)]
     dataSource.select("firstName", "city");
     dataSource.load();
 
-A selection expression can be a [getter](/concepts/30%20Data%20Layer/5%20Data%20Layer/9%20Getters%20And%20Setters/Getters%20And%20Setters.md '/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters'), several getters, or a function.
+A selection expression can be a [getter](/concepts/30%20Data%20Layer/5%20Data%20Layer/9%20Getters%20And%20Setters '/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters'), several getters, or a function.
 
 - **A single getter**
 
@@ -66,7 +66,7 @@ A selection expression can be a [getter](/concepts/30%20Data%20Layer/5%20Data%20
             { firstName: "Maria", lastName: "Gomez" },
         ]
 
- You can pass an array of [getters](/concepts/30%20Data%20Layer/5%20Data%20Layer/9%20Getters%20And%20Setters/Getters%20And%20Setters.md '/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters') instead of using several arguments.
+ You can pass an array of [getters](/concepts/30%20Data%20Layer/5%20Data%20Layer/9%20Getters%20And%20Setters '/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters') instead of using several arguments.
 
         <!--JavaScript-->dataSource.select(["firstName", "lastName"]);
 
@@ -92,7 +92,7 @@ A selection expression can be a [getter](/concepts/30%20Data%20Layer/5%20Data%20
             { fullName: "Maria Gomez", address: "Denver" }
         ]
 
-[Stores](/Documentation/Guide/Data_Layer/Data_Layer/#What_Are_Stores) support the same select expression syntax as the [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/').
+[Stores](/Documentation/Guide/Data_Layer/Data_Layer/#What_Are_Stores) support the same select expression syntax as the [DataSource](/api-reference/30%20Data%20Layer/DataSource '/Documentation/ApiReference/Data_Layer/DataSource/').
 
     <!--JavaScript-->var arrayStore = new DevExpress.data.ArrayStore(data);
     arrayStore
@@ -103,4 +103,4 @@ A selection expression can be a [getter](/concepts/30%20Data%20Layer/5%20Data%20
             //'result' contains the resulting array
         });
 
-Additional data transformation can be performed with the [map](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/map.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#map') and [postProcess](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/postProcess.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#postProcess') configuration options of the [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/').
+Additional data transformation can be performed with the [map](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/map.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#map') and [postProcess](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/postProcess.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#postProcess') configuration options of the [DataSource](/api-reference/30%20Data%20Layer/DataSource '/Documentation/ApiReference/Data_Layer/DataSource/').

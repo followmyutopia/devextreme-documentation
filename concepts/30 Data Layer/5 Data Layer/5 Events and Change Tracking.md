@@ -1,4 +1,4 @@
-DataSource and Stores support events. The DataSource events are used to track the data loading state. They are used internally by the [DevExtreme widgets](/api-reference/10%20UI%20Widgets/dxAccordion/dxAccordion.md '/Documentation/ApiReference/UI_Widgets/'). You can also use them for your purposes. Stores also raise events before and after each operation (loading, update, insertion, etc.).
+DataSource and Stores support events. The DataSource events are used to track the data loading state. They are used internally by the [DevExtreme widgets](/api-reference/10%20UI%20Widgets/dxAccordion '/Documentation/ApiReference/UI_Widgets/'). You can also use them for your purposes. Stores also raise events before and after each operation (loading, update, insertion, etc.).
 
 Use one of the following approaches to handle events.
 
@@ -38,7 +38,7 @@ To attach several event handlers to a DataSource or Data Store, use the **on** m
 				"loadError": handler2
 			})
 
-You can find a full list of events in the **Events** section: [DataSource events](/api-reference/30%20Data%20Layer/DataSource/4%20Events/Events.md '/Documentation/ApiReference/Data_Layer/DataSource/Events/') and Store events (for example, [ArrayStore events](/api-reference/30%20Data%20Layer/Store/4%20Events/Events.md '/Documentation/ApiReference/Data_Layer/ArrayStore/Events/')).
+You can find a full list of events in the **Events** section: [DataSource events](/api-reference/30%20Data%20Layer/DataSource/4%20Events '/Documentation/ApiReference/Data_Layer/DataSource/Events/') and Store events (for example, [ArrayStore events](/api-reference/30%20Data%20Layer/Store/4%20Events '/Documentation/ApiReference/Data_Layer/ArrayStore/Events/')).
 
 To unsubscribe from the events that you handled using the **on()** method, use the **off()** method. This method has two overloads.
 

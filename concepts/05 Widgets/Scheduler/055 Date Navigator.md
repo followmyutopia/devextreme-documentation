@@ -58,4 +58,4 @@ You can specify the range of available dates in the [min](/api-reference/10%20UI
 
 ---
 
-Use the [customizeDateNavigatorText](Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#customizeDateNavigatorText) function to customize the navigator's text. Refer to the function's description for an example.
+Use the [customizeDateNavigatorText](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/customizeDateNavigatorText.md 'Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#customizeDateNavigatorText') function to customize the navigator's text. Refer to the function's description for an example.

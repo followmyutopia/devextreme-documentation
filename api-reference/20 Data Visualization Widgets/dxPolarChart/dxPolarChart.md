@@ -42,7 +42,7 @@ The **PolarChart** widget visualizes data in a polar coordinate system. In this 
 <img src="/Content/images/doc/20_1/ChartJS/PolarChart_polar.png" alt="DevExtreme HTML5 Charts PolarChart RadarChart DataVisualization" style="display:inline-block; vertical-align:bottom" />
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/ContinuousData/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/ContinuousData/"
 }
 #include common-readguidesbutton with {
     url: "/Documentation/Guide/Widgets/PolarChart/Visual_Elements/"

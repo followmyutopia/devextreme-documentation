@@ -2,7 +2,7 @@ When you use the scale of the *date-time* [type](/api-reference/20%20Data%20Visu
 
 ![ChartJS RangeSelector](/images/ChartJS/RangeSelectorScaleMarkers.png)
 
-To customize scale markers, use the options of the [marker](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/scale/marker/marker.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/marker/') configuration object.
+To customize scale markers, use the options of the [marker](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/scale/marker '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/marker/') configuration object.
 
 	<!--JavaScript-->
 	var rangeSelectorOptions = {

@@ -1,7 +1,7 @@
 The focused row feature allows you to display master-detail relationships and improve navigation through records.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/FocusedRow/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/FocusedRow/"
 }
 
 To allow users to focus rows, set the [focusedRowEnabled](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/focusedRowEnabled.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#focusedRowEnabled') option to **true**.

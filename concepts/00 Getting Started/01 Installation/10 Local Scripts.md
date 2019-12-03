@@ -1,4 +1,4 @@
-You can find all the required files in the [DevExtreme zip archive](/Download/#Alternative-Downloads) or DevExtreme folder (%ProgramFiles(x86)%\DevExpress 20.1\DevExtreme\Sources). Copy the Lib folder into the folder with your application. Then, link the required files in the `<head>` tag on your index page in the following order:
+You can find all the required files in the [DevExtreme zip archive](https://js.devexpress.com/Download/#Alternative-Downloads) or DevExtreme folder (%ProgramFiles(x86)%\DevExpress 20.1\DevExtreme\Sources). Copy the Lib folder into the folder with your application. Then, link the required files in the `<head>` tag on your index page in the following order:
 
     <!--HTML-->
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
@@ -19,7 +19,7 @@ You can find all the required files in the [DevExtreme zip archive](/Download/#A
 
 The stylesheets in the code above apply the Generic Light theme. See [Predefined Themes](/concepts/60%20Themes%20and%20Styles/05%20Predefined%20Themes/00%20Predefined%20Themes.md '/Documentation/Guide/Themes_and_Styles/Predefined_Themes/') for information about the other available themes.
 
-Specific functionality requires additional libraries. For instance, [client-side exporting](/concepts/05%20Widgets/DataGrid/70%20Client-Side%20Exporting/Client-Side%20Exporting.md '/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/') in the **DataGrid** and **PivotGrid** widgets requires the <a href="https://stuk.github.io/jszip/" target="_blank">JSZip</a> library. Similarly, the [HtmlEditor](/concepts/05%20Widgets/HtmlEditor/00%20Overview.md '/Documentation/Guide/Widgets/HtmlEditor/Overview/') widget requires <a href="https://quilljs.com/" target="_blank">Quill</a>. Refer to the dedicated topics for details.
+Specific functionality requires additional libraries. For instance, [client-side exporting](/concepts/05%20Widgets/DataGrid/70%20Client-Side%20Exporting '/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/') in the **DataGrid** and **PivotGrid** widgets requires the <a href="https://stuk.github.io/jszip/" target="_blank">JSZip</a> library. Similarly, the [HtmlEditor](/concepts/05%20Widgets/HtmlEditor/00%20Overview.md '/Documentation/Guide/Widgets/HtmlEditor/Overview/') widget requires <a href="https://quilljs.com/" target="_blank">Quill</a>. Refer to the dedicated topics for details.
 
 #####See Also#####
 #include common-link-configurewidget

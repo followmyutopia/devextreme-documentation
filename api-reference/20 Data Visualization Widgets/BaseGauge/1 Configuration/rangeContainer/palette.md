@@ -17,7 +17,7 @@ Specifies the palette to be used for colorizing ranges in the range container.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Gauges/PaletteForRanges/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Gauges/PaletteForRanges/"
 }
 
 #####See Also#####

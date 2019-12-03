@@ -21,5 +21,5 @@ This object contains the edited instance's data. The [onAppointmentAdding](/api-
 If a user deletes the instance, the **Scheduler** adds it to exceptions by updating the field that **recurrenceExceptionExpr** specifies. Because this is an update, the **onAppointmentUpdating** and **onAppointmentUpdated** event handlers are executed instead of [onAppointmentDeleting](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/onAppointmentDeleting.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentDeleting') and [onAppointmentDeleted](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/onAppointmentDeleted.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentDeleted').
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/Editing/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/Editing/"
 }

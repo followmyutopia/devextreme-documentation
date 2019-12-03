@@ -11,7 +11,7 @@ This command does the following:
 - References the `dx.common.css` and `dx.light.css` [DevExtreme stylesheets](/concepts/60%20Themes%20and%20Styles/05%20Predefined%20Themes/00%20Predefined%20Themes.md '/Documentation/Guide/Themes_and_Styles/Predefined_Themes/') in `angular.json`.
 - Registers the <a href="https://stuk.github.io/jszip/" target="_blank">JSZip library</a> in `tsconfig.json`.
 
-These steps are explained in the [Add DevExtreme to an Angular CLI Application](/concepts/40%20Angular%20Components/10%20Getting%20Started/03%20Add%20DevExtreme%20to%20an%20Angular%20CLI%20Application/Add%20DevExtreme%20to%20an%20Angular%20CLI%20Application.md '/Documentation/Guide/Angular_Components/Getting_Started/Add_DevExtreme_to_an_Angular_CLI_Application/') article.
+These steps are explained in the [Add DevExtreme to an Angular CLI Application](/concepts/40%20Angular%20Components/10%20Getting%20Started/03%20Add%20DevExtreme%20to%20an%20Angular%20CLI%20Application '/Documentation/Guide/Angular_Components/Getting_Started/Add_DevExtreme_to_an_Angular_CLI_Application/') article.
 
 Once the command is executed, [import DevExtreme modules](/concepts/40%20Angular%20Components/10%20Getting%20Started/03%20Add%20DevExtreme%20to%20an%20Angular%20CLI%20Application/40%20Import%20DevExtreme%20Modules.md '/Documentation/Guide/Angular_Components/Getting_Started/Add_DevExtreme_to_an_Angular_CLI_Application/#Import_DevExtreme_Modules').
 

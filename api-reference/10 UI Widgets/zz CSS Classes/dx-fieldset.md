@@ -51,5 +51,5 @@ DevExtreme UI widgets include <a href="http://www.w3.org/WAI/intro/aria.php" tar
     </div>
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FieldSet/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/FieldSet/Overview/"
 }

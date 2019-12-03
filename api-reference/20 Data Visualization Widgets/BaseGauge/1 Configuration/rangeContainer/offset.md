@@ -9,5 +9,5 @@ Specifies the offset of the range container from an invisible scale line in pixe
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Gauges/CustomLayout/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Gauges/CustomLayout/"
 }

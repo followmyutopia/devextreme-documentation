@@ -34,10 +34,10 @@ Allows you to change the multi-tag's text.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TagBox/TagCountLimitation/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/TagBox/TagCountLimitation/"
 }
 
 #####See Also#####
-- [Limit the Tag Count](/concepts/05%20Widgets/TagBox/12%20Limit%20the%20Tag%20Count/Limit%20the%20Tag%20Count.md '/Documentation/Guide/Widgets/TagBox/Limit_the_Tag_Count/')
+- [Limit the Tag Count](/concepts/05%20Widgets/TagBox/12%20Limit%20the%20Tag%20Count '/Documentation/Guide/Widgets/TagBox/Limit_the_Tag_Count/')
 - [maxDisplayedTags](/api-reference/10%20UI%20Widgets/dxTagBox/1%20Configuration/maxDisplayedTags.md '/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#maxDisplayedTags')
 - [showMultiTagOnly](/api-reference/10%20UI%20Widgets/dxTagBox/1%20Configuration/showMultiTagOnly.md '/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#showMultiTagOnly')

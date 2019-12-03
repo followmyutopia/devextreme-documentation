@@ -9,24 +9,24 @@ The DevExtreme Vue Component Suite provides the following platform-specific feat
 
 - [Application template for a quick start](/concepts/55%20Vue%20Components/02%20Create%20a%20DevExtreme%20Application.md '/Documentation/Guide/Vue_Components/Create_a_DevExtreme_Application/')
 
-- [Declarative configuration syntax](/concepts/55%20Vue%20Components/20%20Component%20Configuration%20Syntax/Component%20Configuration%20Syntax.md '/Documentation/Guide/Vue_Components/Component_Configuration_Syntax/')
+- [Declarative configuration syntax](/concepts/55%20Vue%20Components/20%20Component%20Configuration%20Syntax '/Documentation/Guide/Vue_Components/Component_Configuration_Syntax/')
 
 - [TypeScript support](/concepts/55%20Vue%20Components/70%20TypeScript%20Support.md '/Documentation/Guide/Vue_Components/TypeScript_Support/')
 
 All DevExtreme component suites, including Vue, share architecture and core features. The following core features are common to all suites:
 
-- [Data layer](/concepts/30%20Data%20Layer/5%20Data%20Layer/Data%20Layer.md '/Documentation/Guide/Data_Layer/Data_Layer/')
+- [Data layer](/concepts/30%20Data%20Layer/5%20Data%20Layer '/Documentation/Guide/Data_Layer/Data_Layer/')
 
-- [Client-side data validation](/concepts/05%20Widgets/zz%20Common/05%20UI%20Widgets/20%20Data%20Validation/Data%20Validation.md '/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/')
+- [Client-side data validation](/concepts/05%20Widgets/zz%20Common/05%20UI%20Widgets/20%20Data%20Validation '/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/')
 
 - [Themes and styles](/concepts/60%20Themes%20and%20Styles/05%20Predefined%20Themes/00%20Predefined%20Themes.md '/Documentation/Guide/Themes_and_Styles/Predefined_Themes/')
 
-- [Localization](/concepts/Common/33%20Localization/Localization.md '/Documentation/Guide/Common/Localization/')
+- [Localization](/concepts/Common/33%20Localization '/Documentation/Guide/Common/Localization/')
 
-- [Modularity](/concepts/Common/30%20Modularity/01%20Link%20Modules/Link%20Modules.md '/Documentation/Guide/Common/Modularity/Link_Modules/')
+- [Modularity](/concepts/Common/30%20Modularity/01%20Link%20Modules '/Documentation/Guide/Common/Modularity/Link_Modules/')
 
-- [Customization using templates](/concepts/05%20Widgets/zz%20Common/30%20Templates/Templates.md '/Documentation/Guide/Widgets/Common/Templates/')
+- [Customization using templates](/concepts/05%20Widgets/zz%20Common/30%20Templates '/Documentation/Guide/Widgets/Common/Templates/')
 
-We also provide [over 250 technical demos](http://js.devexpress.com/Demos/WidgetsGallery/) you can edit and copy code from.
+We also provide [over 250 technical demos](https://js.devexpress.com/Demos/WidgetsGallery) you can edit and copy code from.
 
 For information on how to integrate DevExtreme Vue components into your application, refer to one of the [Add DevExtreme to a Vue Application](/concepts/55%20Vue%20Components/05%20Add%20DevExtreme%20to%20a%20Vue%20Application/00%20Add%20DevExtreme%20to%20a%20Vue%20Application.md '/Documentation/Guide/Vue_Components/Add_DevExtreme_to_a_Vue_Application/') article.

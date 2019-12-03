@@ -21,5 +21,5 @@ The color of a particular bar in a *win-loss* series depends on the value it rep
 In addition, you can indicate extreme points on a *win-loss* sparkline. To learn how to do this, refer to the [Series Points](/concepts/05%20Widgets/Sparkline/10%20Visual%20Elements/20%20Series%20Points.md '/Documentation/Guide/Widgets/Sparkline/Visual_Elements/#Series_Points') topic.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/WinlossSparklines/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/WinlossSparklines/"
 }

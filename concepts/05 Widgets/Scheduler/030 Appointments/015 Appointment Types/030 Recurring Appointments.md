@@ -81,13 +81,13 @@ In the UI, to mark an appointment as recurring, toggle the *"Repeat"* switcher o
 These fields will be saved as the **recurrenceRule** field of an appointment object. Note that although a recurring appointment is displayed as several appointments on the timetable, only a single appointment object is saved in the data source.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/RecurringAppointments/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/RecurringAppointments/"
 }
 
 #####See Also#####
-- [Scheduler - Add Appointments](/concepts/05%20Widgets/Scheduler/030%20Appointments/020%20Add%20Appointments/Add%20Appointments.md '/Documentation/Guide/Widgets/Scheduler/Appointments/Add_Appointments/')
-- [Scheduler - Update Appointments](/concepts/05%20Widgets/Scheduler/030%20Appointments/030%20Update%20Appointments/Update%20Appointments.md '/Documentation/Guide/Widgets/Scheduler/Appointments/Update_Appointments/')
-- [Scheduler - Delete Appointments](/concepts/05%20Widgets/Scheduler/030%20Appointments/040%20Delete%20Appointments/Delete%20Appointments.md '/Documentation/Guide/Widgets/Scheduler/Appointments/Delete_Appointments/')
+- [Scheduler - Add Appointments](/concepts/05%20Widgets/Scheduler/030%20Appointments/020%20Add%20Appointments '/Documentation/Guide/Widgets/Scheduler/Appointments/Add_Appointments/')
+- [Scheduler - Update Appointments](/concepts/05%20Widgets/Scheduler/030%20Appointments/030%20Update%20Appointments '/Documentation/Guide/Widgets/Scheduler/Appointments/Update_Appointments/')
+- [Scheduler - Delete Appointments](/concepts/05%20Widgets/Scheduler/030%20Appointments/040%20Delete%20Appointments '/Documentation/Guide/Widgets/Scheduler/Appointments/Delete_Appointments/')
 - [Scheduler - Customize Appointment](/concepts/05%20Widgets/Scheduler/030%20Appointments/050%20Customize%20Appointment.md '/Documentation/Guide/Widgets/Scheduler/Appointments/Customize_Appointment/')
-- [Scheduler Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/Overview/)
-- [Scheduler API Reference](/api-reference/10%20UI%20Widgets/dxScheduler/dxScheduler.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/')
+- [Scheduler Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/Overview)
+- [Scheduler API Reference](/api-reference/10%20UI%20Widgets/dxScheduler '/Documentation/ApiReference/UI_Widgets/dxScheduler/')

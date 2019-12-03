@@ -9,5 +9,5 @@ Specifies whether the widget adapts to small screens.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/Adaptability/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/Adaptability/"
 }

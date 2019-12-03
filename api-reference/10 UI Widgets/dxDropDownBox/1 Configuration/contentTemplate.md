@@ -24,7 +24,7 @@ A template name or container.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DropDownBox/SingleSelection/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DropDownBox/SingleSelection/"
 }
 
 #####See Also#####

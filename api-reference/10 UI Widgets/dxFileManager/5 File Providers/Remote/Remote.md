@@ -46,5 +46,5 @@ The following code shows how to bind the **FileManager** to the **Remote** file 
 On the server-side, you need to process file management requests. DevExtreme provides helpers for ASP.NET MVC and ASP.NET Core that do this. To view the server-side code, navigate to the `FileManagerApiController.cs` tab in the following demo:
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FileManager/BindingToFileSystem/NetCore/Light/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/FileManager/BindingToFileSystem/NetCore/Light/"
 }

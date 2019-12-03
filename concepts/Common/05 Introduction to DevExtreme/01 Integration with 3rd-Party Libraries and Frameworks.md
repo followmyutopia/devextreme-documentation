@@ -13,7 +13,7 @@ DevExtreme supports integration with client-side technologies and server-side fr
 
 You can integrate DevExtreme with other frameworks or use DevExtreme widgets without jQuery and frameworks:
 
-- [3rd-Party Frameworks Integration API](/concepts/05%20Widgets/zz%20Common/15%20Advanced/40%203rd-Party%20Frameworks%20Integration%20API/3rd-Party%20Frameworks%20Integration%20API.md '/Documentation/Guide/Widgets/Common/Advanced/3rd-Party_Frameworks_Integration_API/')
+- [3rd-Party Frameworks Integration API](/concepts/05%20Widgets/zz%20Common/15%20Advanced/40%203rd-Party%20Frameworks%20Integration%20API '/Documentation/Guide/Widgets/Common/Advanced/3rd-Party_Frameworks_Integration_API/')
 
 DevExtreme also supplies TypeScript definitions if you want to use TypeScript syntax. 
 

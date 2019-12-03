@@ -47,7 +47,7 @@ The selection capability is not provided out of the box, but it can be implement
 
 ---
 
-There are series that consist of points only, for example, [bar](/concepts/05%20Widgets/Chart/11%20Series%20Types/20%20Bar%20Series/Bar%20Series.md '/Documentation/Guide/Widgets/Chart/Series_Types/Bar_Series/') or [financial](/concepts/05%20Widgets/Chart/11%20Series%20Types/60%20Financial%20Series.md '/Documentation/Guide/Widgets/Chart/Series_Types/Financial_Series/') series. For these series, subscribe to the [pointClick](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/4%20Events/pointClick.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#pointClick') event instead of **seriesClick**.
+There are series that consist of points only, for example, [bar](/concepts/05%20Widgets/Chart/11%20Series%20Types/20%20Bar%20Series '/Documentation/Guide/Widgets/Chart/Series_Types/Bar_Series/') or [financial](/concepts/05%20Widgets/Chart/11%20Series%20Types/60%20Financial%20Series.md '/Documentation/Guide/Widgets/Chart/Series_Types/Financial_Series/') series. For these series, subscribe to the [pointClick](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/4%20Events/pointClick.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#pointClick') event instead of **seriesClick**.
 
 ---
 ##### jQuery

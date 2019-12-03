@@ -10,7 +10,7 @@ Allows you to customize buttons in the editing column or create a custom [comman
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/CommandColumnCustomization/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/CommandColumnCustomization/"
 }
 
 #####See Also#####

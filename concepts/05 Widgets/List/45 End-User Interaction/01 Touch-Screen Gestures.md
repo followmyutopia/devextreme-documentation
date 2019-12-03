@@ -135,7 +135,7 @@ This gesture refreshes data in the **List**. To enable it, assign **true** to th
 #####See Also#####
 - [List - End-User Interaction | Universal Actions](/concepts/05%20Widgets/List/45%20End-User%20Interaction/05%20Universal%20Actions.md '/Documentation/Guide/Widgets/List/End-User_Interaction/Universal_Actions/')
 - [List - Localization](/concepts/05%20Widgets/List/50%20Localization.md '/Documentation/Guide/Widgets/List/Localization/')
-- [List Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/)
-- [List API Reference](/api-reference/10%20UI%20Widgets/dxList/dxList.md '/Documentation/ApiReference/UI_Widgets/dxList/')
+- [List Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI)
+- [List API Reference](/api-reference/10%20UI%20Widgets/dxList '/Documentation/ApiReference/UI_Widgets/dxList/')
 
 [tags]list, touch-screen gestures, swipe, slide, onItemSwipe, long tap, long press, tap hold, onItemHold, itemHoldTimeout, pull down to refresh, pull to refresh, pullRefreshEnabled, onPullRefresh 

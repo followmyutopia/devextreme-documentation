@@ -96,8 +96,8 @@ Assign **true** to the [showInfo](/api-reference/10%20UI%20Widgets/GridBase/1%20
 
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/RecordPaging/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/RecordPaging/"
 }
 
 #####See Also#####
-- [remoteOperations](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/remoteOperations/remoteOperations.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/')
+- [remoteOperations](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/remoteOperations '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/')

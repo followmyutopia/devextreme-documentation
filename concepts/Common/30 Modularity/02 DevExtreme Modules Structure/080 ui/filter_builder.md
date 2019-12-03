@@ -2,7 +2,7 @@ Exposes the **FilterBuilder** widget.
 
 Exports:
 
-- *default* - The [FilterBuilder](/api-reference/10%20UI%20Widgets/dxFilterBuilder/dxFilterBuilder.md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/') widget
+- *default* - The [FilterBuilder](/api-reference/10%20UI%20Widgets/dxFilterBuilder '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/') widget
 
         require("ui/filter_builder");
         // ===== or =====

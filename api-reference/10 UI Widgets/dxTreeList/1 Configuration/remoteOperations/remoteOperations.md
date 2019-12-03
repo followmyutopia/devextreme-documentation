@@ -49,8 +49,8 @@ When operations are performed on the server side, the **TreeList** does not supp
 
 #include common-demobutton-named with {
     name: "Web API Service",
-    url: "/Demos/WidgetsGallery/Demo/TreeList/WebAPIService/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/TreeList/WebAPIService/"
 }
 
 #####See Also#####
-- **Data Binding**: [Web API Service](/concepts/05%20Widgets/TreeList/05%20Data%20Binding/026%20Web%20API%20Service.md '/Documentation/Guide/Widgets/TreeList/Data_Binding/Web_API_Service/') | [PHP Service](/concepts/05%20Widgets/TreeList/05%20Data%20Binding/027%20PHP%20Service.md '/Documentation/Guide/Widgets/TreeList/Data_Binding/PHP_Service/') | [MongoDB Service](/concepts/05%20Widgets/TreeList/05%20Data%20Binding/028%20MongoDB%20Service.md '/Documentation/Guide/Widgets/TreeList/Data_Binding/MongoDB_Service/') | [Custom Sources](/concepts/05%20Widgets/TreeList/05%20Data%20Binding/035%20Custom%20Sources/Custom%20Sources.md '/Documentation/Guide/Widgets/TreeList/Data_Binding/Custom_Sources/')
+- **Data Binding**: [Web API Service](/concepts/05%20Widgets/TreeList/05%20Data%20Binding/026%20Web%20API%20Service.md '/Documentation/Guide/Widgets/TreeList/Data_Binding/Web_API_Service/') | [PHP Service](/concepts/05%20Widgets/TreeList/05%20Data%20Binding/027%20PHP%20Service.md '/Documentation/Guide/Widgets/TreeList/Data_Binding/PHP_Service/') | [MongoDB Service](/concepts/05%20Widgets/TreeList/05%20Data%20Binding/028%20MongoDB%20Service.md '/Documentation/Guide/Widgets/TreeList/Data_Binding/MongoDB_Service/') | [Custom Sources](/concepts/05%20Widgets/TreeList/05%20Data%20Binding/035%20Custom%20Sources '/Documentation/Guide/Widgets/TreeList/Data_Binding/Custom_Sources/')

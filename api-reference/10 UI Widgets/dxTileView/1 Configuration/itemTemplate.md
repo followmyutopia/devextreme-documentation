@@ -3,7 +3,7 @@
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TileView/ItemTemplate/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/TileView/ItemTemplate/"
 }
 
 #####See Also#####

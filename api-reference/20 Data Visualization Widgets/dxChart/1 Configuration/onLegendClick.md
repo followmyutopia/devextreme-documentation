@@ -31,7 +31,7 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 The model data. Available only if you use Knockout.
 
 ##### field(e.target): chartSeriesObject
-The series that corresponds to the clicked legend item; described in the [Series](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/7%20Chart%20Elements/Series/Series.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/') section.
+The series that corresponds to the clicked legend item; described in the [Series](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/7%20Chart%20Elements/Series '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/') section.
 
 ---
 [note]
@@ -78,5 +78,5 @@ The [onSeriesClick](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1
 [/note]
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/Selection/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Selection/"
 }

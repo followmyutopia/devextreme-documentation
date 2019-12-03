@@ -19,10 +19,10 @@ When the scale is built on values from a [data source](/api-reference/20%20Data%
 }
 
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/RangeSelector/NumericScaleLightweight/",
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/RangeSelector/NumericScaleLightweight/",
     name: "Numeric Scale"
 }
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/RangeSelector/DateTimeScaleLightweight/",
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/RangeSelector/DateTimeScaleLightweight/",
     name: "Date-Time Scale"
 }

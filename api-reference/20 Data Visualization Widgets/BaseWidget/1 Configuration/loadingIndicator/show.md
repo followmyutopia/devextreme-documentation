@@ -10,5 +10,5 @@ Allows you to change the loading indicator's visibility.
 
 ---
 #####See Also#####
-- [showLoadingIndicator()](/Methods/#showLoadingIndicator)
-- [hideLoadingIndicator()](/Methods/#hideLoadingIndicator)
+- [showLoadingIndicator()](Methods/#showLoadingIndicator)
+- [hideLoadingIndicator()](Methods/#hideLoadingIndicator)

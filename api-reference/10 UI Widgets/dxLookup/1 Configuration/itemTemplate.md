@@ -3,7 +3,7 @@
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Lookup/Templates/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Templates/"
 }
 
 #####See Also#####

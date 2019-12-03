@@ -17,5 +17,5 @@ A scale break allows breaking off a part of the axis to improve the readability 
 Each object in the **breaks** array configures a single scale break. Note that a scale break is visible only if its range exceeds the tick interval.
 
 #####See Also#####
-- [breakStyle](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonAxisSettings/breakStyle/breakStyle.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/breakStyle/')
+- [breakStyle](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonAxisSettings/breakStyle '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/breakStyle/')
 - [autoBreaksEnabled](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis/autoBreaksEnabled.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#autoBreaksEnabled')

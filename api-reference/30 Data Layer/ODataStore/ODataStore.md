@@ -202,11 +202,11 @@ dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
 
 ---
 
-To access an entire OData service, use the [ODataStore](/api-reference/30%20Data%20Layer/ODataStore/ODataStore.md '/Documentation/ApiReference/Data_Layer/ODataStore/') instead.
+To access an entire OData service, use the [ODataStore](/api-reference/30%20Data%20Layer/ODataStore '/Documentation/ApiReference/Data_Layer/ODataStore/') instead.
 
 #include datalayer-store-note-immutable with { name: "ODataStore" }
 
 #####See Also#####
-- [DataSource API Reference](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/')
-- [DataSource Examples - OData](/concepts/30%20Data%20Layer/51%20Data%20Source%20Examples/2%20OData/OData.md '/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData')
+- [DataSource API Reference](/api-reference/30%20Data%20Layer/DataSource '/Documentation/ApiReference/Data_Layer/DataSource/')
+- [DataSource Examples - OData](/concepts/30%20Data%20Layer/51%20Data%20Source%20Examples/2%20OData '/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData')
 - <a href="https://docs.devexpress.com/AspNetCore/400575/devextreme-based-controls/concepts/bind-controls-to-data" target="_blank">ASP.NET MVC Controls - Bind Controls to Data</a>

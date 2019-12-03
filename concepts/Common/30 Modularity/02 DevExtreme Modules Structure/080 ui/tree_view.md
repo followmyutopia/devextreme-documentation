@@ -2,7 +2,7 @@ Exposes the **TreeView** widget.
 
 Exports:
 
-- *default* - The [TreeView](/api-reference/10%20UI%20Widgets/dxTreeView/dxTreeView.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/') widget
+- *default* - The [TreeView](/api-reference/10%20UI%20Widgets/dxTreeView '/Documentation/ApiReference/UI_Widgets/dxTreeView/') widget
 
         require("ui/tree_view");
         // ===== or =====

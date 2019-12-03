@@ -115,7 +115,7 @@ Band columns can have the following properties only:
 - [allowHiding](/api-reference/_hidden/GridBaseColumn/allowHiding.md '{basewidgetpath}/Configuration/columns/#allowHiding')
 - [allowReordering](/api-reference/_hidden/GridBaseColumn/allowReordering.md '{basewidgetpath}/Configuration/columns/#allowReordering')
 - [caption](/api-reference/_hidden/GridBaseColumn/caption.md '{basewidgetpath}/Configuration/columns/#caption')
-- [columns](/api-reference/_hidden/GridBaseColumn/columns/columns.md '{basewidgetpath}/Configuration/columns/columns/')
+- [columns](/api-reference/_hidden/GridBaseColumn/columns '{basewidgetpath}/Configuration/columns/columns/')
 - [cssClass](/api-reference/_hidden/GridBaseColumn/cssClass.md '{basewidgetpath}/Configuration/columns/#cssClass')
 - [fixed](/api-reference/_hidden/GridBaseColumn/fixed.md '{basewidgetpath}/Configuration/columns/#fixed')
 - [fixedPosition](/api-reference/_hidden/GridBaseColumn/fixedPosition.md '{basewidgetpath}/Configuration/columns/#fixedPosition')
@@ -126,9 +126,9 @@ Band columns can have the following properties only:
 - [visible](/api-reference/_hidden/GridBaseColumn/visible.md '{basewidgetpath}/Configuration/columns/#visible')
 - [visibleIndex](/api-reference/_hidden/GridBaseColumn/visibleIndex.md '{basewidgetpath}/Configuration/columns/#visibleIndex')
 
-[note] Band columns cannot nest [command columns](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Types/Command_Columns/).
+[note] Band columns cannot nest [command columns](/concepts/05%20Widgets/DataGrid/15%20Columns/10%20Column%20Types/4%20Command%20Columns/00%20Command%20Columns.md '/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Types/Command_Columns/').
 
 #####See Also#####
 
-- [Band Columns](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Types/Band_Columns/)
+- [Band Columns](/concepts/05%20Widgets/DataGrid/15%20Columns/10%20Column%20Types/2%20Band%20Columns.md '/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Types/Band_Columns/')
 <!--/fullDescription-->

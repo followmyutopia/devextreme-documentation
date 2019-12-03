@@ -15,9 +15,9 @@ An array with data or a Promise that is resolved after data is loaded. It is a <
 ---
 This function's implementation has certain specifics depending on the widget in which you use the **CustomStore**. Refer to the **Custom Sources** topic of a specific widget for details:
 
-- [DataGrid](/concepts/05%20Widgets/DataGrid/05%20Data%20Binding/25%20Custom%20Sources/Custom%20Sources.md '/Documentation/Guide/Widgets/DataGrid/Data_Binding/Custom_Sources/')
-- [PivotGrid](/concepts/05%20Widgets/PivotGrid/035%20Use%20CustomStore/Use%20CustomStore.md '/Documentation/Guide/Widgets/PivotGrid/Use_CustomStore/')
-- [TreeList](/concepts/05%20Widgets/TreeList/05%20Data%20Binding/035%20Custom%20Sources/Custom%20Sources.md '/Documentation/Guide/Widgets/TreeList/Data_Binding/Custom_Sources/')
+- [DataGrid](/concepts/05%20Widgets/DataGrid/05%20Data%20Binding/25%20Custom%20Sources '/Documentation/Guide/Widgets/DataGrid/Data_Binding/Custom_Sources/')
+- [PivotGrid](/concepts/05%20Widgets/PivotGrid/035%20Use%20CustomStore '/Documentation/Guide/Widgets/PivotGrid/Use_CustomStore/')
+- [TreeList](/concepts/05%20Widgets/TreeList/05%20Data%20Binding/035%20Custom%20Sources '/Documentation/Guide/Widgets/TreeList/Data_Binding/Custom_Sources/')
 - [List](/concepts/05%20Widgets/List/03%20Data%20Binding/20%20Custom%20Sources.md '/Documentation/Guide/Widgets/List/Data_Binding/Custom_Sources/')
 - [Lookup](/concepts/05%20Widgets/Lookup/03%20Data%20Binding/20%20Custom%20Sources.md '/Documentation/Guide/Widgets/Lookup/Data_Binding/Custom_Sources/')
 - [SelectBox](/concepts/05%20Widgets/SelectBox/03%20Data%20Binding/20%20Custom%20Sources.md '/Documentation/Guide/Widgets/SelectBox/Data_Binding/Custom_Sources/')

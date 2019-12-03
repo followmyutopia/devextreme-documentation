@@ -1,7 +1,7 @@
 The **Box** widget allows you to arrange various elements within it. This widget is separate and adaptive and acts as the layout's building block.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Box/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Box/Overview/"
 }
 
 The following code adds a simple **Box** containing three items to your page. These items are plain texts placed in differently-colored rectangles arranged in a row. Equal **ratio** option values ensure they have equal widths.
@@ -69,7 +69,7 @@ The following code adds a simple **Box** containing three items to your page. Th
 
 ---
 
-Note that the **Box** items in the code above are declared using the [dxItem](/api-reference/10%20UI%20Widgets/Markup%20Components/dxItem/dxItem.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/#dxItem') markup component. An object passed to this component can have the following fields:
+Note that the **Box** items in the code above are declared using the [dxItem](/api-reference/10%20UI%20Widgets/Markup%20Components/dxItem '/Documentation/ApiReference/UI_Widgets/Markup_Components/#dxItem') markup component. An object passed to this component can have the following fields:
 
 - [baseSize](/api-reference/10%20UI%20Widgets/dxBox/5%20Default%20Item%20Template/baseSize.md '/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#baseSize')
 - [ratio](/api-reference/10%20UI%20Widgets/dxBox/5%20Default%20Item%20Template/ratio.md '/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#ratio')
@@ -82,6 +82,6 @@ Note that the **Box** items in the code above are declared using the [dxItem](/a
 - [Box - Specify an Item Size](/concepts/05%20Widgets/Box/05%20Specify%20an%20Item%20Size.md '/Documentation/Guide/Widgets/Box/Specify_an_Item_Size/')
 - [Box - Arrange and Align Items](/concepts/05%20Widgets/Box/10%20Arrange%20and%20Align%20Items.md '/Documentation/Guide/Widgets/Box/Arrange_and_Align_Items/')
 - [Box - Nest One Box into Another](/concepts/05%20Widgets/Box/15%20Nest%20One%20Box%20Into%20Another.md '/Documentation/Guide/Widgets/Box/Nest_One_Box_into_Another/')
-- [Box API Reference](/api-reference/10%20UI%20Widgets/dxBox/dxBox.md '/Documentation/ApiReference/UI_Widgets/dxBox/')
+- [Box API Reference](/api-reference/10%20UI%20Widgets/dxBox '/Documentation/ApiReference/UI_Widgets/dxBox/')
 
 [tags]box, layout widget, overview, dxItem

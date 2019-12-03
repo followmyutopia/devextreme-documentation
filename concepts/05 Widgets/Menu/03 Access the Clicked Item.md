@@ -62,7 +62,7 @@ If you are going to change event handlers at runtime, or if you need to attach s
 #include common-link-handleevents
 - [Menu - Customize Item Appearance](/concepts/05%20Widgets/Menu/05%20Customize%20Item%20Appearance.md '/Documentation/Guide/Widgets/Menu/Customize_Item_Appearance')
 - [Menu - Change the Orientation](/concepts/05%20Widgets/Menu/10%20Change%20the%20Orientation.md '/Documentation/Guide/Widgets/Menu/Change_the_Orientation')
-- [Menu Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Menu/Overview/)
-- [Menu API Reference](/api-reference/10%20UI%20Widgets/dxMenu/dxMenu.md '/Documentation/ApiReference/UI_Widgets/dxMenu/')
+- [Menu Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Menu/Overview)
+- [Menu API Reference](/api-reference/10%20UI%20Widgets/dxMenu '/Documentation/ApiReference/UI_Widgets/dxMenu/')
 
 [tags]menu, access the clicked item, onItemClick, itemClick

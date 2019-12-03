@@ -1,4 +1,4 @@
-When a user selects a series point, its style changes to the one specified by the **series**.[selectionStyle](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart/5%20Series%20Types/CommonPieChartSeries/selectionStyle/selectionStyle.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/series/selectionStyle/') object.
+When a user selects a series point, its style changes to the one specified by the **series**.[selectionStyle](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart/5%20Series%20Types/CommonPieChartSeries/selectionStyle '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/series/selectionStyle/') object.
 
 ---
 ##### jQuery
@@ -114,5 +114,5 @@ Only a single point can be in the selected state at a time by default. If you ne
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/DoughnutSelection/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/DoughnutSelection/"
 }

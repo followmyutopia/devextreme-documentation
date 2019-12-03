@@ -15,5 +15,5 @@ Each coordinate should be in the range from -1 to 1.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/VectorMap/CustomProjection/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/VectorMap/CustomProjection/"
 }

@@ -14,5 +14,5 @@ You can group segments in two different modes. Use a *'topN'* mode to group all 
 By default, the resulting segment is called *"others"*. To change this name, specify the **groupName** option.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/PieWithSmallValuesGrouped/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/PieWithSmallValuesGrouped/"
 }

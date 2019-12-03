@@ -1,4 +1,4 @@
-By default, group headers display text of the **key** field in a bold font. You can define a custom template for the group headers if you need to. For AngularJS and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code shows how to use **dxTemplate** to define a template for group headers.
+By default, group headers display text of the **key** field in a bold font. You can define a custom template for the group headers if you need to. For AngularJS and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code shows how to use **dxTemplate** to define a template for group headers.
 
 ---
 #####Angular
@@ -173,13 +173,13 @@ If you use jQuery alone, use <a href="http://api.jquery.com/category/manipulatio
     });
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Tag_Box/GroupedItems/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tag_Box/GroupedItems/"
 }
 
 In addition, you can use a 3rd-party template engine to perform the needed customizations. For more information, see the [3rd-Party Template Engines](/concepts/05%20Widgets/zz%20Common/30%20Templates/30%203rd-Party%20Template%20Engines.md '/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines') article.
 
 #####See Also#####
 - [TagBox - Customize Item Appearance](/concepts/05%20Widgets/TagBox/05%20Customize%20Item%20Appearance.md '/Documentation/Guide/Widgets/TagBox/Customize_Item_Appearance/')
-- [TagBox API Reference](/api-reference/10%20UI%20Widgets/dxTagBox/dxTagBox.md '/Documentation/ApiReference/UI_Widgets/dxTagBox/')
+- [TagBox API Reference](/api-reference/10%20UI%20Widgets/dxTagBox '/Documentation/ApiReference/UI_Widgets/dxTagBox/')
 
 [tags]tagBox, group headers appearance, customize, templates, template

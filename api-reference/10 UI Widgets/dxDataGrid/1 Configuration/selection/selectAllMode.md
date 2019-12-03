@@ -25,7 +25,7 @@ Specifies the mode in which all the records are selected. Applies only if **sele
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/MultipleRecordSelectionModes/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/MultipleRecordSelectionModes/"
 } 
 
 

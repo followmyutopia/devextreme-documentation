@@ -3,7 +3,7 @@ id: Component.option()
 ---
 ---
 ##### shortDescription
-Gets all [widget options](/api-reference/10%20UI%20Widgets/Component/1%20Configuration/Configuration.md '{basewidgetpath}/Configuration/').
+Gets all [widget options](/api-reference/10%20UI%20Widgets/Component/1%20Configuration '{basewidgetpath}/Configuration/').
 
 ##### return: Object
 The widget's options.

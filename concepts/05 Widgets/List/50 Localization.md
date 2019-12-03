@@ -54,7 +54,7 @@ Static messages for any DevExtreme widget are defined in a locale-specific dicti
 
 ---
 
-[note] DevExtreme ships several predefined dictionaries for most locales. See the [Localization](/concepts/Common/33%20Localization/Localization.md '/Documentation/Guide/Common/Localization/') topic for more information. 
+[note] DevExtreme ships several predefined dictionaries for most locales. See the [Localization](/concepts/Common/33%20Localization '/Documentation/Guide/Common/Localization/') topic for more information. 
 
 Some messages can be defined by **List** options as well as keys. The following table illustrates the options and keys that define the same messages. Note that the options always take precedence over keys.
 
@@ -103,7 +103,7 @@ Some messages can be defined by **List** options as well as keys. The following 
 </div>
 
 #####See Also#####
-- [List Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/)
-- [List API Reference](/api-reference/10%20UI%20Widgets/dxList/dxList.md '/Documentation/ApiReference/UI_Widgets/dxList/')
+- [List Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI)
+- [List API Reference](/api-reference/10%20UI%20Widgets/dxList '/Documentation/ApiReference/UI_Widgets/dxList/')
 
 [tags]list, localization, translation, localization keys, localize messages, localize texts

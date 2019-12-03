@@ -10,5 +10,5 @@ Configures the context menu's settings.
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Diagram/UICustomization/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Diagram/UICustomization/"
 }

@@ -6,7 +6,7 @@ EventForAction: dxSelectBox.customItemCreating
 ---
 ---
 ##### shortDescription
-A function that is executed when a user adds a custom item. Requires [acceptCustomValue](/api-reference/10%20UI%20Widgets/dxDropDownEditor/1%20Configuration/acceptCustomValue.md '{basewidgetpath}/Configuration/#acceptCustomValue') to be set to **true**.
+A function that is executed when a user adds a custom item. Requires [acceptCustomValue](/api-reference/10%20UI%20Widgets/dxSelectBox/1%20Configuration/acceptCustomValue.md '{basewidgetpath}/Configuration/#acceptCustomValue') to be set to **true**.
 
 ##### param(e): Object
 Information about the event.

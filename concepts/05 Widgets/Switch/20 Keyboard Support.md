@@ -73,7 +73,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
 #####See Also#####
 #include common-link-callmethods
-- [Switch Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Switch/Overview/)
-- [Switch API Reference](/api-reference/10%20UI%20Widgets/dxSwitch/dxSwitch.md '/Documentation/ApiReference/UI_Widgets/dxSwitch/')
+- [Switch Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Switch/Overview)
+- [Switch API Reference](/api-reference/10%20UI%20Widgets/dxSwitch '/Documentation/ApiReference/UI_Widgets/dxSwitch/')
 
 [tags]switch, navigation, accessibility, keyboard shortcuts

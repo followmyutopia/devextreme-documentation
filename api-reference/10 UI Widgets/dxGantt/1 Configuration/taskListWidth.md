@@ -10,7 +10,7 @@ Specifies the width of the task list in pixels.
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Gantt/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Gantt/Overview/"
 }
 
 ![DevExtreme Gantt Chart - Task List](/images/Gantt/task-list.png)

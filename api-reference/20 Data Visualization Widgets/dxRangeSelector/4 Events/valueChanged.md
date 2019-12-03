@@ -5,7 +5,7 @@ notUsedInTheme:
 ---
 ---
 ##### shortDescription
-Raised after the widget's [value](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/value/value.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#value') is changed.
+Raised after the widget's [value](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/value '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#value') is changed.
 
 ##### param(e): Object
 Information about the event.

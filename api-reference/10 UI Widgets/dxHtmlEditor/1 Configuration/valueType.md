@@ -22,7 +22,7 @@ If you use JavaScript modules, import the Markdown converter:
     // require("ui/html_editor/converters/markdown");
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/HtmlEditor/OutputFormats/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/HtmlEditor/OutputFormats/"
 }
 
 #include common-ref-enum with {

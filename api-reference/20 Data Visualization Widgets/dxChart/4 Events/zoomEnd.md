@@ -35,7 +35,7 @@ The model data. Available only if you use Knockout.
 The visual range when zooming or panning starts.
 
 ##### field(e.range): VizRange
-The [visual range](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/visualRange/visualRange.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/visualRange/') when zooming or panning ends.
+The [visual range](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/visualRange '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/visualRange/') when zooming or panning ends.
 
 ##### field(e.rangeEnd).deprecated
 Use 'range' instead.

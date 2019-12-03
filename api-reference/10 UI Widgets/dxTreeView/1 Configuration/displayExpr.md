@@ -5,7 +5,7 @@
 #include uiwidgets-ref-displayExpr
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TreeView/FlatDataStructure/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/TreeView/FlatDataStructure/"
 }
 
 #####See Also#####

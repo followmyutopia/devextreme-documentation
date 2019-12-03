@@ -1,7 +1,7 @@
 The [customizeExcelCell](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/export/customizeExcelCell.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#customizeExcelCell') function allows you to change the Excel cell font, background color and fill pattern, as well as align, format, and modify the cell value.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/ExcelCellCustomization/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/ExcelCellCustomization/"
 }
 
 In the code below, Excel cells are customized. Values in the `Cost` column are formatted according to values in the `Currency` column. Cells in the  `Product` column have a different appearance if the product costs more than 3000. 

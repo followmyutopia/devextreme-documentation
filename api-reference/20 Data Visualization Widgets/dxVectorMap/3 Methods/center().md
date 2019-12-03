@@ -12,7 +12,7 @@ The current map center coordinates.
 This method returns the center coordinates as an array of two values in the [*longitude*, *latitude*] format.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/VectorMap/ZoomingAndCentering/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/VectorMap/ZoomingAndCentering/"
 }
 
 #####See Also#####

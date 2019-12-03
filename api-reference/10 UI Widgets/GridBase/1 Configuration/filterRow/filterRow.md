@@ -18,10 +18,10 @@ Each cell in the filter row contains a magnifying glass icon, pausing on which o
 To make the filter row visible, assign **true** to the **filterRow**.[visible](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/filterRow/visible.md '{basewidgetpath}/Configuration/filterRow/#visible') option.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/{WidgetName}/Filtering/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/{WidgetName}/Filtering/"
 }
 
 #####See Also#####
-- [Filter Row](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Filter_Row)
+- [Filter Row](/concepts/05%20Widgets/DataGrid/30%20Filtering%20and%20Searching/1%20Filter%20Row.md '/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Filter_Row')
 - [filter(filterExpr)](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/filter(filterExpr).md '{basewidgetpath}/Methods/#filterfilterExpr')
 - [clearFilter(filterName)](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/clearFilter(filterName).md '{basewidgetpath}/Methods/#clearFilterfilterName')

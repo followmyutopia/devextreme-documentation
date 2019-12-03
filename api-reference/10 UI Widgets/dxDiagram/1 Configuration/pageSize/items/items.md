@@ -28,4 +28,4 @@ An array that specifies the page size items in the _Paze Size_ combobox on _Prop
 
 ---
 
-![Diagram control data toolbox](Content/images/doc/20_1/diagram/pageSize.png)
+![Diagram control data toolbox](/images/diagram/pageSize.png)

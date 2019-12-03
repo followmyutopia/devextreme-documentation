@@ -2,7 +2,7 @@ A tooltip is a small pop-up rectangle displaying information about a series poin
 
 ![DevExtreme HTML5 JavaScript PieChart Tooltip](/images/PieChart/visual_elements/tooltip.png)
 
-All options configuring tooltips are collected in the [tooltip](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/1%20Configuration/tooltip/tooltip.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/tooltip/') object. For example, to enable the tooltips, assign **true** to the **enabled** option of this object.
+All options configuring tooltips are collected in the [tooltip](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/1%20Configuration/tooltip '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/tooltip/') object. For example, to enable the tooltips, assign **true** to the **enabled** option of this object.
 
 ---
 ##### jQuery
@@ -91,7 +91,7 @@ Options declared in the **tooltip** object apply to all tooltips in the **PieCha
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/PieWithMultipleSeries/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/PieWithMultipleSeries/"
 }
 
 #####See Also#####

@@ -250,6 +250,6 @@ Assign **false** to the [searchEnabled](/api-reference/10%20UI%20Widgets/dxLooku
 #####See Also#####
 - [Lookup - Enable Grouping](/concepts/05%20Widgets/Lookup/10%20Enable%20Grouping.md '/Documentation/Guide/Widgets/Lookup/Enable_Grouping/')
 - [Lookup - Enable Paging](/concepts/05%20Widgets/Lookup/15%20Enable%20Paging.md '/Documentation/Guide/Widgets/Lookup/Enable_Paging/')
-- [Lookup Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Basics/)
+- [Lookup Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Basics)
 
 [tags]lookup, search, search mode, time interval, min search length, disable searching, placeholder, clean search parameters, searchExpr

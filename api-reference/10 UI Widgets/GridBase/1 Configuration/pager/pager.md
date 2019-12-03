@@ -12,8 +12,8 @@ The pager is an element that allows users to navigate through pages and change t
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget {WidgetName} Pager](/images/{WidgetName}/visual_elements/pager.png)
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/{WidgetName}/RecordPaging/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/{WidgetName}/RecordPaging/"
 }
 
 #####See Also#####
-- [Paging - User Interaction](/Documentation/Guide/Widgets/{WidgetName}/Paging/#User_Interaction)
+- [Paging - User Interaction](/concepts/05%20Widgets/DataGrid/35%20Paging/10%20User%20Interaction.md '/Documentation/Guide/Widgets/{WidgetName}/Paging/#User_Interaction')

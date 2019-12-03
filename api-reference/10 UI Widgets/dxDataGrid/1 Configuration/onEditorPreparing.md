@@ -29,7 +29,7 @@ Indicates whether the editor is disabled.
 
 ##### field(e.editorName): String
 Allows you to change the editor. Accepts names of DevExtreme widgets only, for example, *"dxTextBox"*.      
-Import a new editor's module when [DevExtreme modules](/concepts/Common/30%20Modularity/01%20Link%20Modules/Link%20Modules.md '/Documentation/Guide/Common/Modularity/') are used.
+Import a new editor's module when [DevExtreme modules](/concepts/Common/30%20Modularity '/Documentation/Guide/Common/Modularity/') are used.
 
 ##### field(e.editorOptions): Object
 Gets and sets the editor configuration.
@@ -48,7 +48,7 @@ Options passed to the function depend on this value.
 Indicates whether the editor is read-only.
 
 ##### field(e.row): dxDataGridRowObject
-The [properties](/api-reference/10%20UI%20Widgets/dxDataGrid/6%20Row/Row.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/') of the row's editor.
+The [properties](/api-reference/10%20UI%20Widgets/dxDataGrid/6%20Row '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/') of the row's editor.
 
 ##### field(e.rtlEnabled): Boolean
 Indicates whether the editor uses right-to-left representation.
@@ -235,7 +235,7 @@ Use this function to:
 
 - Replace the default editor. The old editor's configuration applies to the replacement editor. To define the configuration from scratch, use an [editCellTemplate](/api-reference/_hidden/dxDataGridColumn/editCellTemplate.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#editCellTemplate').
     
-    In the following code, the DevExtreme [TextArea](http://js.devexpress.com/Demos/WidgetsGallery/Demo/TextArea/Overview/) widget is the replacement editor:
+    In the following code, the DevExtreme [TextArea](https://js.devexpress.com/Demos/WidgetsGallery/Demo/TextArea/Overview) widget is the replacement editor:
 
     ---
     ##### jQuery
@@ -373,7 +373,7 @@ Use this function to:
 
     ---
 
-- Customize editors used in the [search panel](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/searchPanel/searchPanel.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/searchPanel/'), [filter row](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/filterRow/filterRow.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/filterRow/'), and [selection column](/concepts/05%20Widgets/DataGrid/15%20Columns/10%20Column%20Types/4%20Command%20Columns/00%20Command%20Columns.md '/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Command_Columns/').        
+- Customize editors used in the [search panel](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/searchPanel '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/searchPanel/'), [filter row](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/filterRow '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/filterRow/'), and [selection column](/concepts/05%20Widgets/DataGrid/15%20Columns/10%20Column%20Types/4%20Command%20Columns/00%20Command%20Columns.md '/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Command_Columns/').        
 Use the **parentType** function parameter to check if the editor being customized belongs to one of these UI elements.
 
 - [Dynamically change editor options in the editing state](/concepts/05%20Widgets/DataGrid/99%20How%20To/Dynamically%20Change%20Editor%20Options%20in%20the%20Editing%20State.md '/Documentation/Guide/Widgets/DataGrid/How_To/Dynamically_Change_Editor_Options_in_the_Editing_State/').
@@ -381,7 +381,7 @@ Use the **parentType** function parameter to check if the editor being customize
 - Implement other customization cases.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/CommandColumnCustomization/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/CommandColumnCustomization/"
 }
 
 #####See Also#####

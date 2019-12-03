@@ -20,5 +20,5 @@ The available option values are based on map types supported by the Google map p
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Map/ProvidersAndTypes/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Map/ProvidersAndTypes/"
 }

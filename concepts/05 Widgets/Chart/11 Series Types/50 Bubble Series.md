@@ -4,8 +4,8 @@ The **Bubble** series type visualizes data as individual points of different siz
 
 Assign *"bubble"* to the **series[]**.[type](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/ChartSeries/type.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#type') option to specify the **Bubble** series type. You can configure:
 
-- Each series individually using the [series](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/series/series.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/') array;
-- All series in the **Chart** using the [commonSeriesSettings](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonSeriesSettings/commonSeriesSettings.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/') object;
+- Each series individually using the [series](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/series '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/') array;
+- All series in the **Chart** using the [commonSeriesSettings](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonSeriesSettings '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/') object;
 - All **Bubble** series using the **commonSeriesSettings**.**bubble** object.
 
 Note that **Bubble** series require an additional data field that provides size values. Assign its name to the **series[]**.[sizeField](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CommonSeries/sizeField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#sizeField') option. Based on the size values, the widget calculates the actual bubble sizes in pixels, ranging between [minBubbleSize](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/minBubbleSize.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#minBubbleSize') and [maxBubbleSize](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/maxBubbleSize.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#maxBubbleSize').
@@ -59,12 +59,12 @@ Note that **Bubble** series require an additional data field that provides size 
 
 ---
 
-Refer to the [BubbleSeries](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/BubbleSeries/BubbleSeries.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/BubbleSeries/') section of the API Reference for a full list of options available to a **Bubble** series.
+Refer to the [BubbleSeries](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/BubbleSeries '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/BubbleSeries/') section of the API Reference for a full list of options available to a **Bubble** series.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/Bubble/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Bubble/"
 }
 
 #####See Also#####
 - [Series Points](/concepts/05%20Widgets/Chart/14%20Series%20Points/00%20Overview.md '/Documentation/Guide/Widgets/Chart/Series_Points/Overview/')
-- [Bind Series to Data](/concepts/05%20Widgets/Chart/03%20Data%20Binding/23%20Bind%20Series%20to%20Data/Bind%20Series%20to%20Data.md '/Documentation/Guide/Widgets/Chart/Data_Binding/Bind_Series_to_Data/')
+- [Bind Series to Data](/concepts/05%20Widgets/Chart/03%20Data%20Binding/23%20Bind%20Series%20to%20Data '/Documentation/Guide/Widgets/Chart/Data_Binding/Bind_Series_to_Data/')

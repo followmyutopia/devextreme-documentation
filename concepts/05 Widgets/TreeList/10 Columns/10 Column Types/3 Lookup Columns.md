@@ -124,7 +124,7 @@ Each cell in the lookup column is based on the [SelectBox](/concepts/05%20Widget
 
 #####See Also#####
 - [Bind a Lookup Column to a Custom Data Source](/concepts/05%20Widgets/TreeList/99%20How%20To/Bind%20a%20Lookup%20Column%20to%20a%20Custom%20Data%20Source.md '/Documentation/Guide/Widgets/TreeList/How_To/Bind_a_Lookup_Column_to_a_Custom_Data_Source/')
-- [lookup](/api-reference/_hidden/GridBaseColumn/lookup/lookup.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/lookup/')
-- [TreeList Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/UsingFilterRow/)
+- [lookup](/api-reference/_hidden/GridBaseColumn/lookup '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/lookup/')
+- [TreeList Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/UsingFilterRow)
 
 [tags] treelist, tree list, column types, lookup columns

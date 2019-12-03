@@ -78,13 +78,13 @@ A user can select existing values and add new values to the **SelectBox**. To en
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Select_Box/SearchAndEditing/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Select_Box/SearchAndEditing/"
 }
 
 #####See Also#####
 - [SelectBox - Configure Search Parameters](/concepts/05%20Widgets/SelectBox/10%20Configure%20Search%20Parameters.md '/Documentation/Guide/Widgets/SelectBox/Configure_Search_Parameters/')
 - [SelectBox - Handle the Value Change Event](/concepts/05%20Widgets/SelectBox/04%20Handle%20the%20Value%20Change%20Event.md '/Documentation/Guide/Widgets/SelectBox/Handle_the_Value_Change_Event/')
-- [SelectBox API Reference](/api-reference/10%20UI%20Widgets/dxSelectBox/dxSelectBox.md '/Documentation/ApiReference/UI_Widgets/dxSelectBox/')
-- [SelectBox Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/SelectBox/Overview/)
+- [SelectBox API Reference](/api-reference/10%20UI%20Widgets/dxSelectBox '/Documentation/ApiReference/UI_Widgets/dxSelectBox/')
+- [SelectBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/SelectBox/Overview)
 
 [tags]selectBox, select box, editor, user-defined entry, user-defined item, custom entry, custom item, user-defined value, custom value

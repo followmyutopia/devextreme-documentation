@@ -37,7 +37,7 @@ By default, the **Map** widget uses **Google Maps** as a map provider. It can us
 
 ---
 
-When using maps, you should include an API key that authenticates your application. Specify this key using the [key](/api-reference/10%20UI%20Widgets/dxMap/1%20Configuration/key/key.md '/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/key/') option. Note that this option can also accept an object with keys for every available provider. For more information on API keys, refer to the documentation of the specific map provider.
+When using maps, you should include an API key that authenticates your application. Specify this key using the [key](/api-reference/10%20UI%20Widgets/dxMap/1%20Configuration/key '/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/key/') option. Note that this option can also accept an object with keys for every available provider. For more information on API keys, refer to the documentation of the specific map provider.
 
 ---
 ##### jQuery
@@ -132,7 +132,7 @@ The **Map** widget supports the following map types: *"hybrid"*, *"satellite"* a
 #####See Also#####
 - [Map - Zoom and Center the Map](/concepts/05%20Widgets/Map/05%20Zoom%20and%20Center%20the%20Map.md '/Documentation/Guide/Widgets/Map/Zoom_and_Center_the_Map/')
 - [Map - Specify the Size](/concepts/05%20Widgets/Map/15%20Specify%20the%20Size.md '/Documentation/Guide/Widgets/Map/Specify_the_Size/')
-- [Map Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Map/ProvidersAndTypes/)
-- [Map API Reference](/api-reference/10%20UI%20Widgets/dxMap/dxMap.md '/Documentation/ApiReference/UI_Widgets/dxMap/')
+- [Map Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Map/ProvidersAndTypes)
+- [Map API Reference](/api-reference/10%20UI%20Widgets/dxMap '/Documentation/ApiReference/UI_Widgets/dxMap/')
 
 [tags]map, provider, bing, google, api key, map type, hybrid, road map, satellite

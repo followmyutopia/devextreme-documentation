@@ -26,7 +26,7 @@ The widget's instance.
 The data of the cell's row.
 
 ##### field(cellInfo.displayValue): any
-The displayed cell value. Differs from the **value** field only when the column uses [lookup](/api-reference/_hidden/GridBaseColumn/lookup/lookup.md '{basewidgetpath}/Configuration/columns/lookup/') or [calculateDisplayValue](/api-reference/_hidden/GridBaseColumn/calculateDisplayValue.md '{basewidgetpath}/Configuration/columns/#calculateDisplayValue').
+The displayed cell value. Differs from the **value** field only when the column uses [lookup](/api-reference/_hidden/GridBaseColumn/lookup '{basewidgetpath}/Configuration/columns/lookup/') or [calculateDisplayValue](/api-reference/_hidden/GridBaseColumn/calculateDisplayValue.md '{basewidgetpath}/Configuration/columns/#calculateDisplayValue').
 
 ##### field(cellInfo.row): dxTreeListRowObject
 The cell's row.
@@ -36,11 +36,11 @@ The index of the row the cell belongs to. Begins with 0 on each page. Group rows
 Refer to the [Column and Row Indexes](/concepts/05%20Widgets/TreeList/10%20Columns/12%20Column%20and%20Row%20Indexes.md '/Documentation/Guide/Widgets/TreeList/Columns/Column_and_Row_Indexes/') topic for more information on row indexes.
 
 ##### field(cellInfo.rowType): String
-The row's [type](/api-reference/10%20UI%20Widgets/dxDataGrid/6%20Row/rowType.md '{basewidgetpath}/Row/#rowType').
+The row's [type](/api-reference/10%20UI%20Widgets/dxTreeList/6%20Row/rowType.md '{basewidgetpath}/Row/#rowType').
 
 ##### field(cellInfo.setValue(newValue, newText)): any
 A method you should call to change the cell value and, optionally, the displayed value after the editor's value is changed.        
-See an example in the [Custom Editors](http://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/CustomEditors/) demo.
+See an example in the [Custom Editors](https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/CustomEditors) demo.
 
 [note] In batch [editing mode](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/editing/mode.md '{basewidgetpath}/Configuration/editing/#mode'), check that the value is actually changed before calling this method to ensure correct cell highlighting.
 
@@ -64,7 +64,7 @@ A function called when this variable changes.
 Use the **editCellTemplate** to replace the default editor. In the template, specify the replacement editor's appearance and behavior.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/CustomEditors/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/CustomEditors/"
 }
 
 Other options that allow editor customization include:

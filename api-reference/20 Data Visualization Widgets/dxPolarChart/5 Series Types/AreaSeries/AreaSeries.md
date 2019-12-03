@@ -15,7 +15,7 @@ An object defining a series of the **area** type.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/InvertedChart/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/InvertedChart/"
 }
 
 ![AreaSeriesType ChartJS](/images/ChartJS/PolarArea.png)

@@ -10,10 +10,10 @@ Customizes the appearance of an individual series point.
 Information on the series point.
 
 ##### return: dxChartSeriesTypes_CommonSeries_point
-The point's [configuration](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CommonSeries/point/point.md '{basewidgetpath}/Configuration/series/point/').
+The point's [configuration](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CommonSeries/point '{basewidgetpath}/Configuration/series/point/').
 
 ---
-By default, all series points in a chart are identical, but you can specify a unique appearance for individual points using the **customizePoint** function. This function should return an object with options that will be changed for a certain point. See the [point](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CommonSeries/point/point.md '{basewidgetpath}/Configuration/series/point') object for information about all options available for changing.
+By default, all series points in a chart are identical, but you can specify a unique appearance for individual points using the **customizePoint** function. This function should return an object with options that will be changed for a certain point. See the [point](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CommonSeries/point '{basewidgetpath}/Configuration/series/point') object for information about all options available for changing.
 
 [note]The **hoverMode** and **selectionMode** options cannot be changed using the **customizePoint** function, because they do not have anything to do with the appearance of series points.
 
@@ -52,7 +52,7 @@ The **customizePoint** function accepts an object providing information about th
     </table>
 </div>
 
-In the [*range bar*](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/RangeBarSeries/RangeBarSeries.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/RangeBarSeries/') and [*range area*](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/RangeAreaSeries/RangeAreaSeries.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/RangeAreaSeries/') series, the **value** field is replaced by the following fields.
+In the [*range bar*](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/RangeBarSeries '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/RangeBarSeries/') and [*range area*](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/RangeAreaSeries '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/RangeAreaSeries/') series, the **value** field is replaced by the following fields.
 
 <div class="simple-table">
     <table>
@@ -75,7 +75,7 @@ In the [*range bar*](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/
     </table>
 </div>
 
-In the financial series ([*candlestick*](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CandleStickSeries/CandleStickSeries.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/CandleStickSeries/') and [*stock*](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/StockSeries/StockSeries.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/StockSeries/')), the **value** field is replaced by the following fields.
+In the financial series ([*candlestick*](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CandleStickSeries '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/CandleStickSeries/') and [*stock*](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/StockSeries '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/StockSeries/')), the **value** field is replaced by the following fields.
 
 <div class="simple-table">
     <table>
@@ -113,5 +113,5 @@ In the financial series ([*candlestick*](/api-reference/20%20Data%20Visualizatio
 #include dataviz-ref-functioncontext
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/PointImage/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/PointImage/"
 }

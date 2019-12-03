@@ -11,12 +11,12 @@ Specifies how editors' text fields are styled in your application.
 ---
 The following styles are available: 
 
-![Text Editor Styling Modes](Content/images/doc/20_1/UiWidgets/textEditors_stylingMode.png)
+![Text Editor Styling Modes](/images/UiWidgets/textEditors_stylingMode.png)
 
     <!--JavaScript-->DevExpress.config({ 
         editorStylingMode: 'filled' // or 'outlined' | 'underlined'
     });
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Common/StylingMode/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Common/StylingMode/"
 }

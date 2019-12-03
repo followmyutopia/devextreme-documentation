@@ -14,5 +14,5 @@ This option accepts a number that identifies the ratio between the pie's diamete
 
 #####See Also#####
 - [minDiameter](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart/1%20Configuration/minDiameter.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/#minDiameter')
-- [size](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/size/size.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/size/')
+- [size](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/size '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/size/')
 - [sizeGroup](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart/1%20Configuration/sizeGroup.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/#sizeGroup')

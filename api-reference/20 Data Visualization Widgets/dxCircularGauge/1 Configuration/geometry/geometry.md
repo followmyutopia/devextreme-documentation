@@ -12,5 +12,5 @@ Specify the **startAngle** and **endAngle** options of the **geometry** configur
 ![GaugeGeometry ChartJS](/images/ChartJS/CircularGaugeGeometry.png)
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Gauges/AnglesCustomization/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Gauges/AnglesCustomization/"
 }

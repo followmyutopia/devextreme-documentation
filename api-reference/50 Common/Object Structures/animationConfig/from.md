@@ -28,7 +28,7 @@ Opacity is specified the same way as in the **fade** animation type. A scale of 
 
 - **slide**  
  **from** accepts an object with the **opacity** field and fields that configure the widget's position.         
-Opacity is specified the same way as in the **fade** animation type. The widget's position can be set using the **position** field that accepts the [position configuration object](/api-reference/50%20Common/Object%20Structures/positionConfig/positionConfig.md '/Documentation/ApiReference/Common/Object_Structures/positionConfig/'). This approach covers all cases. You can also use the **top** and **left** fields, which are shortcuts for positioning the widget relative to its parent element or shifting the widget from its default position.
+Opacity is specified the same way as in the **fade** animation type. The widget's position can be set using the **position** field that accepts the [position configuration object](/api-reference/50%20Common/Object%20Structures/positionConfig '/Documentation/ApiReference/Common/Object_Structures/positionConfig/'). This approach covers all cases. You can also use the **top** and **left** fields, which are shortcuts for positioning the widget relative to its parent element or shifting the widget from its default position.
 
         <!--JavaScript-->
         from: { 

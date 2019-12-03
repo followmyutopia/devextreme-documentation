@@ -157,4 +157,4 @@ If a data field provides values of one data type, but the widget should cast the
 }
 
 #####See Also#####
-- [Data Columns](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Types/Data_Columns/)
+- [Data Columns](/concepts/05%20Widgets/DataGrid/15%20Columns/10%20Column%20Types/1%20Data%20Columns.md '/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Types/Data_Columns/')

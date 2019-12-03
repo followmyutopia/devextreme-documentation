@@ -9,9 +9,9 @@ The DevExtreme Angular Component Suite provides the following platform-specific 
 
 - [Application template for a quick start](/concepts/40%20Angular%20Components/10%20Getting%20Started/02%20Create%20a%20DevExtreme%20Application.md '/Documentation/Guide/Angular_Components/Getting_Started/Create_a_DevExtreme_Application/')
 
-- Integration with [Angular CLI](/concepts/40%20Angular%20Components/10%20Getting%20Started/03%20Add%20DevExtreme%20to%20an%20Angular%20CLI%20Application/Add%20DevExtreme%20to%20an%20Angular%20CLI%20Application.md '/Documentation/Guide/Angular_Components/Getting_Started/Add_DevExtreme_to_an_Angular_CLI_Application/'), [Webpack](/concepts/40%20Angular%20Components/10%20Getting%20Started/30%20Other%20Approaches/04%20Using%20Webpack/Using%20Webpack.md '/Documentation/Guide/Angular_Components/Getting_Started/Other_Approaches/Using_Webpack/'), [Ionic](/concepts/40%20Angular%20Components/10%20Getting%20Started/30%20Other%20Approaches/05%20Using%20Ionic/Using%20Ionic.md '/Documentation/Guide/Angular_Components/Getting_Started/Other_Approaches/Using_Ionic/'), [Rollup](/concepts/40%20Angular%20Components/10%20Getting%20Started/30%20Other%20Approaches/06%20Using%20Rollup/Using%20Rollup.md '/Documentation/Guide/Angular_Components/Getting_Started/Other_Approaches/Using_Rollup/'), [SystemJS](/concepts/40%20Angular%20Components/10%20Getting%20Started/30%20Other%20Approaches/07%20Using%20SystemJS/Using%20SystemJS.md '/Documentation/Guide/Angular_Components/Getting_Started/Other_Approaches/Using_SystemJS/')
+- Integration with [Angular CLI](/concepts/40%20Angular%20Components/10%20Getting%20Started/03%20Add%20DevExtreme%20to%20an%20Angular%20CLI%20Application '/Documentation/Guide/Angular_Components/Getting_Started/Add_DevExtreme_to_an_Angular_CLI_Application/'), [Webpack](/concepts/40%20Angular%20Components/10%20Getting%20Started/30%20Other%20Approaches/04%20Using%20Webpack '/Documentation/Guide/Angular_Components/Getting_Started/Other_Approaches/Using_Webpack/'), [Ionic](/concepts/40%20Angular%20Components/10%20Getting%20Started/30%20Other%20Approaches/05%20Using%20Ionic '/Documentation/Guide/Angular_Components/Getting_Started/Other_Approaches/Using_Ionic/'), [Rollup](/concepts/40%20Angular%20Components/10%20Getting%20Started/30%20Other%20Approaches/06%20Using%20Rollup '/Documentation/Guide/Angular_Components/Getting_Started/Other_Approaches/Using_Rollup/'), [SystemJS](/concepts/40%20Angular%20Components/10%20Getting%20Started/30%20Other%20Approaches/07%20Using%20SystemJS '/Documentation/Guide/Angular_Components/Getting_Started/Other_Approaches/Using_SystemJS/')
 
-- [Declarative configuration syntax](/concepts/40%20Angular%20Components/20%20Component%20Configuration%20Syntax/Component%20Configuration%20Syntax.md '/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/')
+- [Declarative configuration syntax](/concepts/40%20Angular%20Components/20%20Component%20Configuration%20Syntax '/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/')
 
 - TypeScript support
 
@@ -19,22 +19,22 @@ The DevExtreme Angular Component Suite provides the following platform-specific 
 
 - [Angular Forms support](/concepts/40%20Angular%20Components/20%20Component%20Configuration%20Syntax/75%20Angular%20Forms%20Support.md '/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/#Angular_Forms_Support')
 
-- [Visual Studio integration](/concepts/40%20Angular%20Components/70%20Visual%20Studio%20Integration/20%20Add%20DevExtreme%20to%20an%20ASP.NET%20Core%20Angular%20Application/20%20Add%20DevExtreme%20to%20an%20ASP.NET%20Core%20Angular%20Application.md '/Documentation/Guide/Angular_Components/Visual_Studio_Integration/')
+- [Visual Studio integration](/concepts/40%20Angular%20Components/70%20Visual%20Studio%20Integration '/Documentation/Guide/Angular_Components/Visual_Studio_Integration/')
 
 All DevExtreme component suites, including Angular, share architecture and core features. The following core features are common to all suites:
 
-- [Data layer](/concepts/30%20Data%20Layer/5%20Data%20Layer/Data%20Layer.md '/Documentation/Guide/Data_Layer/Data_Layer/')
+- [Data layer](/concepts/30%20Data%20Layer/5%20Data%20Layer '/Documentation/Guide/Data_Layer/Data_Layer/')
 
-- [Client-side data validation](/concepts/05%20Widgets/zz%20Common/05%20UI%20Widgets/20%20Data%20Validation/Data%20Validation.md '/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/')
+- [Client-side data validation](/concepts/05%20Widgets/zz%20Common/05%20UI%20Widgets/20%20Data%20Validation '/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/')
 
 - [Themes and styles](/concepts/60%20Themes%20and%20Styles/05%20Predefined%20Themes/00%20Predefined%20Themes.md '/Documentation/Guide/Themes_and_Styles/Predefined_Themes/')
 
-- [Localization](/concepts/Common/33%20Localization/Localization.md '/Documentation/Guide/Common/Localization/')
+- [Localization](/concepts/Common/33%20Localization '/Documentation/Guide/Common/Localization/')
 
-- [Modularity](/concepts/Common/30%20Modularity/01%20Link%20Modules/Link%20Modules.md '/Documentation/Guide/Common/Modularity/Link_Modules/')
+- [Modularity](/concepts/Common/30%20Modularity/01%20Link%20Modules '/Documentation/Guide/Common/Modularity/Link_Modules/')
 
-- [Customization using templates](/concepts/05%20Widgets/zz%20Common/30%20Templates/Templates.md '/Documentation/Guide/Widgets/Common/Templates/')
+- [Customization using templates](/concepts/05%20Widgets/zz%20Common/30%20Templates '/Documentation/Guide/Widgets/Common/Templates/')
 
-We also provide [over 250 technical demos](http://js.devexpress.com/Demos/WidgetsGallery/) you can edit and copy code from.
+We also provide [over 250 technical demos](https://js.devexpress.com/Demos/WidgetsGallery) you can edit and copy code from.
 
-For information on how to integrate DevExtreme Angular components into your application, refer to one of the [Getting Started articles](/concepts/40%20Angular%20Components/10%20Getting%20Started/02%20Create%20a%20DevExtreme%20Application.md '/Documentation/Guide/Angular_Components/Getting_Started/').
+For information on how to integrate DevExtreme Angular components into your application, refer to one of the [Getting Started articles](/concepts/40%20Angular%20Components/10%20Getting%20Started '/Documentation/Guide/Angular_Components/Getting_Started/').

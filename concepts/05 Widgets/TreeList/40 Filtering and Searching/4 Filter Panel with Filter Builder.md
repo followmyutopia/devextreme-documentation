@@ -7,7 +7,7 @@ You can click the filter expression to open the integrated filter builder.
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout TreeList Filter Panel](/images/TreeList/visual_elements/integrated_filter_builder.png)
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TreeList/FilterPanel/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/TreeList/FilterPanel/"
 }
 
 Set the **filterPanel**.[visible](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/filterPanel/visible.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/filterPanel/#visible') option to **true** to make the filter panel visible. 
@@ -106,7 +106,7 @@ The **filterValue** is updated when a user changes the filter expression from th
 
 ---
 
-The **TreeList** provides the [filterBuilder](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/filterBuilder.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#filterBuilder') and [filterBuilderPopup](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/filterBuilderPopup.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#filterBuilderPopup') objects that configure the integrated filter builder and the popup in which it appears. These objects can contain the [FilterBuilder](/api-reference/10%20UI%20Widgets/dxFilterBuilder/dxFilterBuilder.md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/')'s and [Popup](/api-reference/10%20UI%20Widgets/dxPopup/dxPopup.md '/Documentation/ApiReference/UI_Widgets/dxPopup/')'s options. In the following code, the filter builder has an additional filter operation `Is Zero`; the filter builder's popup is customized and displayed on a button click:
+The **TreeList** provides the [filterBuilder](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/filterBuilder.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#filterBuilder') and [filterBuilderPopup](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/filterBuilderPopup.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#filterBuilderPopup') objects that configure the integrated filter builder and the popup in which it appears. These objects can contain the [FilterBuilder](/api-reference/10%20UI%20Widgets/dxFilterBuilder '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/')'s and [Popup](/api-reference/10%20UI%20Widgets/dxPopup '/Documentation/ApiReference/UI_Widgets/dxPopup/')'s options. In the following code, the filter builder has an additional filter operation `Is Zero`; the filter builder's popup is customized and displayed on a button click:
 
 ---
 #####jQuery
@@ -191,4 +191,4 @@ The **TreeList** provides the [filterBuilder](/api-reference/10%20UI%20Widgets/G
 
 #####See Also#####
 - [FilterBuilder - Overview](/concepts/05%20Widgets/FilterBuilder/010%20Overview.md '/Documentation/Guide/Widgets/FilterBuilder/Overview/')
-- [remoteOperations](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/remoteOperations/remoteOperations.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/remoteOperations/')
+- [remoteOperations](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/remoteOperations '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/remoteOperations/')

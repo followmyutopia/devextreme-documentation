@@ -49,7 +49,7 @@ dx.viz.js, dx.viz-web.js, dx.all.js
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/Pie/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Pie/"
 }
 #include common-readguidesbutton with {
     url: "/Documentation/Guide/Widgets/PieChart/Overview/"

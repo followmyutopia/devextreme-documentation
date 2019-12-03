@@ -1,4 +1,4 @@
-For a minor customization of **RadioGroup** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxRadioGroup/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxRadioGroup/Default_Item_Template/') are present or absent from the item's data object. For example, the following code generates three radio buttons: the first is disabled, the second is not customized, the third is hidden.
+For a minor customization of **RadioGroup** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxRadioGroup/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxRadioGroup/Default_Item_Template/') are present or absent from the item's data object. For example, the following code generates three radio buttons: the first is disabled, the second is not customized, the third is hidden.
 
     <!--JavaScript-->
     $(function() {
@@ -11,7 +11,7 @@ For a minor customization of **RadioGroup** items, you can use the default item 
         });
     });
 
-If you need a more flexible solution, define a custom template. For AngularJS and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code gives a simple example of how you can use **dxTemplate** to customize radio buttons.
+If you need a more flexible solution, define a custom template. For AngularJS and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code gives a simple example of how you can use **dxTemplate** to customize radio buttons.
 
 ---
 
@@ -107,7 +107,7 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 
 #####See Also#####
 - [RadioGroup - Handle the Value Change Event](/concepts/05%20Widgets/RadioGroup/05%20Handle%20the%20Value%20Change%20Event.md '/Documentation/Guide/Widgets/RadioGroup/Handle_the_Value_Change_Event')
-- [RadioGroup Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/RadioGroup/Overview/)
-- [RadioGroup API Reference](/api-reference/10%20UI%20Widgets/dxRadioGroup/dxRadioGroup.md '/Documentation/ApiReference/UI_Widgets/dxRadioGroup/')
+- [RadioGroup Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/RadioGroup/Overview)
+- [RadioGroup API Reference](/api-reference/10%20UI%20Widgets/dxRadioGroup '/Documentation/ApiReference/UI_Widgets/dxRadioGroup/')
 
 [tags]radio group, radioGroup, button appearance, item appearance, customize, templates, template, custom template, default item, default template

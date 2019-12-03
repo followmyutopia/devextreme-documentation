@@ -45,7 +45,7 @@ By default, the **Form** generates a simple item for each field of the [formData
 
 ---
 
-A simple form item is a label-editor pair. The label is the field name that undergoes a slight conversion, for example, the field name *"firstName"* becomes the *"First Name"* label. For more information on configuring labels, visit the [Configure Item Labels](/concepts/05%20Widgets/Form/15%20Configure%20Item%20Labels/05%20Location%20and%20Alignment/Location%20and%20Alignment.md '/Documentation/Guide/Widgets/Form/Configure_Item_Labels/Location_and_Alignment/') section.
+A simple form item is a label-editor pair. The label is the field name that undergoes a slight conversion, for example, the field name *"firstName"* becomes the *"First Name"* label. For more information on configuring labels, visit the [Configure Item Labels](/concepts/05%20Widgets/Form/15%20Configure%20Item%20Labels/05%20Location%20and%20Alignment '/Documentation/Guide/Widgets/Form/Configure_Item_Labels/Location_and_Alignment/') section.
 
 The editor that will be used in a particular simple item depends on the type of data that its field contains. However, you can force an item to use an editor of your choice. For this purpose, specify the item's [editorType](/api-reference/10%20UI%20Widgets/dxForm/5%20Item%20Types/SimpleItem/editorType.md '/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#editorType') option. To configure the editor, use the [editorOptions](/api-reference/10%20UI%20Widgets/dxForm/5%20Item%20Types/SimpleItem/editorOptions.md '/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#editorOptions') object. Note that you also need to specify the [dataField](/api-reference/10%20UI%20Widgets/dxForm/5%20Item%20Types/SimpleItem/dataField.md '/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#dataField') option to bind the item to a **formData** field.
 
@@ -115,5 +115,5 @@ The editor that will be used in a particular simple item depends on the type of 
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Form/CustomizeItem/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Form/CustomizeItem/"
 }

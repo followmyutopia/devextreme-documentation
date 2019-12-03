@@ -1,4 +1,4 @@
-The **Chart** exposes the following methods for accessing a series. All of them return one or several objects whose fields and methods are described in the [Series](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/7%20Chart%20Elements/Series/Series.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/') section of the API reference.
+The **Chart** exposes the following methods for accessing a series. All of them return one or several objects whose fields and methods are described in the [Series](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/7%20Chart%20Elements/Series '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/') section of the API reference.
 
 - [getAllSeries()](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/3%20Methods/getAllSeries().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#getAllSeries')        
 Gets all series of the **Chart**.
@@ -67,7 +67,7 @@ Gets a series by its [name](/api-reference/20%20Data%20Visualization%20Widgets/d
     ---
 
 - [getSeriesByPos(seriesIndex)](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/3%20Methods/getSeriesByPos(seriesIndex).md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#getSeriesByPosseriesIndex')       
-Gets a series by its index in the [series](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/series/series.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/') array. The index is zero-based.
+Gets a series by its index in the [series](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/series '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/') array. The index is zero-based.
 
     ---
     ##### jQuery

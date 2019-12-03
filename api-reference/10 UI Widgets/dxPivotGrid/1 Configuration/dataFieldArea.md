@@ -18,5 +18,5 @@ Data field headers appear only when more than one [data field](/api-reference/30
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Pivot_Grid/LayoutCustomization/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Pivot_Grid/LayoutCustomization/"
 }

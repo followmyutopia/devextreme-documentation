@@ -7,7 +7,7 @@ type: Array<RequiredRule, NumericRule, RangeRule, StringLengthRule, CustomRule, 
 An array of the [validation rules](/DocumentationApiReference/UI_Widgets/dxValidator/Validation_Rules/) that failed.
 
 ---
-This array contains broken rules from all [Validators](/api-reference/10%20UI%20Widgets/dxValidator/dxValidator.md '/Documentation/ApiReference/UI_Widgets/dxValidator/') in the validation group.
+This array contains broken rules from all [Validators](/api-reference/10%20UI%20Widgets/dxValidator '/Documentation/ApiReference/UI_Widgets/dxValidator/') in the validation group.
 
 The validation rules are checked in the following order:
 

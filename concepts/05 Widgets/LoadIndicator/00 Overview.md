@@ -1,7 +1,7 @@
 The **LoadIndicator** is a UI element notifying the viewer that a process is in progress.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/LoadIndicator/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/LoadIndicator/Overview/"
 }
 
 The following code adds a simple **LoadIndicator** to your page. You can change the widget size, using the [height](/api-reference/10%20UI%20Widgets/DOMComponent/1%20Configuration/height.md '/Documentation/ApiReference/UI_Widgets/dxLoadIndicator/Configuration/#height') and [width](/api-reference/10%20UI%20Widgets/DOMComponent/1%20Configuration/height.md '/Documentation/ApiReference/UI_Widgets/dxLoadIndicator/Configuration/#height') options.
@@ -87,7 +87,7 @@ If you need to use a custom image in the **LoadIndicator**, assign its URL to th
 #####See Also#####
 #include common-link-configurewidget
 - [LoadIndicator - Show and Hide Using the API](/concepts/05%20Widgets/LoadIndicator/05%20Show%20and%20Hide%20Using%20the%20API.md '/Documentation/Guide/Widgets/LoadIndicator/Show_and_Hide_Using_the_API/')
-- [LoadIndicator API Reference](/api-reference/10%20UI%20Widgets/dxLoadIndicator/dxLoadIndicator.md '/Documentation/ApiReference/UI_Widgets/dxLoadIndicator/')
+- [LoadIndicator API Reference](/api-reference/10%20UI%20Widgets/dxLoadIndicator '/Documentation/ApiReference/UI_Widgets/dxLoadIndicator/')
 - [LoadPanel - Overview](/concepts/05%20Widgets/LoadPanel/00%20Overview.md '/Documentation/Guide/Widgets/LoadPanel/Overview/')
 
 [tags]loadIndicator, load indicator, loading indicator, overview, overlay

@@ -13,4 +13,4 @@ The widget allows a user to edit data in several modes, which are detailed in th
 
 
 #####See Also#####
-- [Editing](/concepts/05%20Widgets/TreeList/20%20Editing/Editing.md '/Documentation/Guide/Widgets/TreeList/Editing/')
+- [Editing](/concepts/05%20Widgets/TreeList/20%20Editing '/Documentation/Guide/Widgets/TreeList/Editing/')

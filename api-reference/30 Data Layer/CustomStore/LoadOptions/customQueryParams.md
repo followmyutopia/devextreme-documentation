@@ -4,7 +4,7 @@ type: Object
 ---
 ---
 ##### shortDescription
-An object for storing additional settings that should be sent to the server. Relevant to the [ODataStore](/api-reference/30%20Data%20Layer/ODataStore/ODataStore.md '/Documentation/ApiReference/Data_Layer/ODataStore/') only.
+An object for storing additional settings that should be sent to the server. Relevant to the [ODataStore](/api-reference/30%20Data%20Layer/ODataStore '/Documentation/ApiReference/Data_Layer/ODataStore/') only.
 
 ---
 #####See Also#####

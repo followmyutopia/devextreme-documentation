@@ -6,7 +6,7 @@ type: Object
 ---
 ---
 ##### shortDescription
-Contains built-in OData type converters (for String, Int32, Int64, Boolean, Single, Decimal, and [Guid](/api-reference/30%20Data%20Layer/Guid/Guid.md '/Documentation/ApiReference/Data_Layer/Guid/')) and allows you to register a custom type converter.
+Contains built-in OData type converters (for String, Int32, Int64, Boolean, Single, Decimal, and [Guid](/api-reference/30%20Data%20Layer/Guid '/Documentation/ApiReference/Data_Layer/Guid/')) and allows you to register a custom type converter.
 
 ---
 The following code shows how to register a custom type converter:

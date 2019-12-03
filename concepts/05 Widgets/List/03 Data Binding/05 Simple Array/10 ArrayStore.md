@@ -1,4 +1,4 @@
-If you want to extend the functionality of a JavaScript array, place it into an [ArrayStore](/api-reference/30%20Data%20Layer/ArrayStore/ArrayStore.md '/Documentation/ApiReference/Data_Layer/ArrayStore/'). It provides an interface for loading and editing data, and allows you to handle data-related events.
+If you want to extend the functionality of a JavaScript array, place it into an [ArrayStore](/api-reference/30%20Data%20Layer/ArrayStore '/Documentation/ApiReference/Data_Layer/ArrayStore/'). It provides an interface for loading and editing data, and allows you to handle data-related events.
 
 ---
 #####jQuery
@@ -53,7 +53,7 @@ If you want to extend the functionality of a JavaScript array, place it into an 
 
 ---
 
-Data kept in an **ArrayStore** can be processed in the [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/'). Its purpose is similar to that of the [Query](/concepts/30%20Data%20Layer/5%20Data%20Layer/6%20Query%20Concept.md '/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept'), but **DataSource** provides wider capabilities. For example, the **DataSource** can map objects from the array that underlies the **ArrayStore**, as shown in the following code where the resulting objects match the [default item template](/api-reference/10%20UI%20Widgets/dxList/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxList/Default_Item_Template/').
+Data kept in an **ArrayStore** can be processed in the [DataSource](/api-reference/30%20Data%20Layer/DataSource '/Documentation/ApiReference/Data_Layer/DataSource/'). Its purpose is similar to that of the [Query](/concepts/30%20Data%20Layer/5%20Data%20Layer/6%20Query%20Concept.md '/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept'), but **DataSource** provides wider capabilities. For example, the **DataSource** can map objects from the array that underlies the **ArrayStore**, as shown in the following code where the resulting objects match the [default item template](/api-reference/10%20UI%20Widgets/dxList/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxList/Default_Item_Template/').
 
 ---
 #####jQuery
@@ -119,7 +119,7 @@ Data kept in an **ArrayStore** can be processed in the [DataSource](/api-referen
 - [Data Layer - What Are Stores](/concepts/30%20Data%20Layer/5%20Data%20Layer/1%20Creating%20DataSource/3%20What%20Are%20Stores.md '/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores')
 - [Data Layer - DataSource Examples | In-memory Data](/concepts/30%20Data%20Layer/51%20Data%20Source%20Examples/0%20In-memory%20Data.md '/Documentation/Guide/Data_Layer/Data_Source_Examples/#In-memory_Data')
 - [List - Access the DataSource](/concepts/05%20Widgets/List/03%20Data%20Binding/30%20Access%20the%20DataSource.md '/Documentation/Guide/Widgets/List/Data_Binding/Access_the_DataSource/')
-- [List Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/)
-- [List API Reference](/api-reference/10%20UI%20Widgets/dxList/dxList.md '/Documentation/ApiReference/UI_Widgets/dxList/')
+- [List Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI)
+- [List API Reference](/api-reference/10%20UI%20Widgets/dxList '/Documentation/ApiReference/UI_Widgets/dxList/')
 
 [tags]list, data binding, provide data, ArrayStore, DataSource, process data

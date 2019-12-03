@@ -4,7 +4,7 @@ type: Object
 ---
 ---
 ##### shortDescription
-Configures the default widget used for [editing](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/editing/editing.md '{basewidgetpath}/Configuration/editing/') and filtering in the [filter row](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/filterRow/filterRow.md '{basewidgetpath}/Configuration/filterRow/').
+Configures the default widget used for [editing](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/editing '{basewidgetpath}/Configuration/editing/') and filtering in the [filter row](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/filterRow '{basewidgetpath}/Configuration/filterRow/').
 
 ---
 The default editor widget depends on the column configuration. The following table illustrates the dependency:
@@ -43,7 +43,7 @@ The default editor widget depends on the column configuration. The following tab
 In the **editorOptions** object, you can specify the default widget's options (except **onValueChanged**, see below). Refer to the widget's API reference for a list of available options.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/Filtering/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/Filtering/"
 }
 
 Other options that allow editor customization include:

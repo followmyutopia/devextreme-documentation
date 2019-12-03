@@ -7,4 +7,4 @@ type: Array<Object>
 An array of the shape's connection points.
 
 ---
-![Diagram connection points](Content/images/doc/20_1/diagram/connection-points.png)
+![Diagram connection points](/images/diagram/connection-points.png)

@@ -16,5 +16,5 @@ The height of the specified image must be less than or equal to the following va
 If the image size is smaller than the background size, a default background color will be displayed in the remaining area. You can set a custom color (e.g. an empty color) for the background using the **color** property of the **background** configuration object.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/RangeSelector/ImageOnBackground/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/RangeSelector/ImageOnBackground/"
 }

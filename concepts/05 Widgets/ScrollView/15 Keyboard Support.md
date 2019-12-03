@@ -77,7 +77,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
 #####See Also#####
 #include common-link-callmethods
-- [ScrollView Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/ScrollView/Overview/)
-- [ScrollView API Reference](/api-reference/10%20UI%20Widgets/dxScrollView/dxScrollView.md '/Documentation/ApiReference/UI_Widgets/dxScrollView/')
+- [ScrollView Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/ScrollView/Overview)
+- [ScrollView API Reference](/api-reference/10%20UI%20Widgets/dxScrollView '/Documentation/ApiReference/UI_Widgets/dxScrollView/')
 
 [tags]scrollView, scroll view, navigation, accessibility, keyboard shortcuts

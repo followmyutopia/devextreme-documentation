@@ -9,10 +9,10 @@ Specifies adaptive layout options.
 ---
 The adaptive layout enables the widget to hide optional elements if they do not fit in the container. Elements are hidden in the following sequence:
 
-1. [Title](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/title/title.md '{basewidgetpath}/Configuration/title/')
-2. [Export menu icon](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/export/export.md '{basewidgetpath}/Configuration/export/')
-3. [Legend](/api-reference/20%20Data%20Visualization%20Widgets/BaseLegend/BaseLegend.md '{basewidgetpath}/Configuration/legend/')
-4. [Item labels](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/1%20Configuration/label/label.md '{basewidgetpath}/Configuration/label/') (can be saved by setting the **adaptiveLayout**.[keepLabels](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/1%20Configuration/adaptiveLayout/keepLabels.md '{basewidgetpath}/Configuration/adaptiveLayout/#keepLabels') option to **true**)
+1. [Title](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/title '{basewidgetpath}/Configuration/title/')
+2. [Export menu icon](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/export '{basewidgetpath}/Configuration/export/')
+3. [Legend](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/1%20Configuration/legend '{basewidgetpath}/Configuration/legend/')
+4. [Item labels](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/1%20Configuration/label '{basewidgetpath}/Configuration/label/') (can be saved by setting the **adaptiveLayout**.[keepLabels](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/1%20Configuration/adaptiveLayout/keepLabels.md '{basewidgetpath}/Configuration/adaptiveLayout/#keepLabels') option to **true**)
 
 Use the **height** and **width** options in the **adaptiveLayout** object to specify the minimum container size at which the layout begins to adapt.
 

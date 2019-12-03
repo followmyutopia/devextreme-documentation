@@ -15,4 +15,4 @@ Specifies the title's alignment in a vertical direction.
 }
 
 #####See Also#####
-- **title**.[horizontalAlignment]({basewidgetpath}/Configuration/title#horizontalAlignment)
+- **title**.[horizontalAlignment](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/title/horizontalAlignment.md '{basewidgetpath}/Configuration/title#horizontalAlignment')

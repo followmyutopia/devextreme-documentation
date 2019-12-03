@@ -20,7 +20,7 @@ Set this option to a positive value to enable chunk upload. The widget should be
     }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FileUploader/ChunkUploading/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/FileUploader/ChunkUploading/"
 }
 
 #####See Also#####

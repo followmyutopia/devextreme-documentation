@@ -2,7 +2,7 @@ The search panel allows searching for values in several columns at once. Search 
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid SearchPanel](/images/DataGrid/visual_elements/search_panel.png)
 
-To make the search panel visible, assign **true** to the [searchPanel](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/searchPanel/searchPanel.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/searchPanel/').**visible** option. You can set a column's [allowSearch](/api-reference/_hidden/GridBaseColumn/allowSearch.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowSearch') option to **false** if it should be excluded from searching. Note that this option inherits the [allowFiltering](/api-reference/_hidden/GridBaseColumn/allowFiltering.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowFiltering') option's value by default.
+To make the search panel visible, assign **true** to the [searchPanel](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/searchPanel '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/searchPanel/').**visible** option. You can set a column's [allowSearch](/api-reference/_hidden/GridBaseColumn/allowSearch.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowSearch') option to **false** if it should be excluded from searching. Note that this option inherits the [allowFiltering](/api-reference/_hidden/GridBaseColumn/allowFiltering.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowFiltering') option's value by default.
 
 ---
 ##### jQuery
@@ -256,5 +256,5 @@ Searching is performed differently depending on a column's [data type](/api-refe
 
 #####See Also#####
 - [Filtering API - Initial and Runtime Filtering](/concepts/05%20Widgets/DataGrid/30%20Filtering%20and%20Searching/6%20API/1%20Initial%20and%20Runtime%20Filtering.md '/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/#API/Initial_and_Runtime_Filtering')
-- [remoteOperations](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/remoteOperations/remoteOperations.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/')
-- [DataGrid Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/Filtering/)
+- [remoteOperations](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/remoteOperations '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/')
+- [DataGrid Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/Filtering)

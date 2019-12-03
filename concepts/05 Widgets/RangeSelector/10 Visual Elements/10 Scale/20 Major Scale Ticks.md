@@ -2,7 +2,7 @@ The range selector's scale is divided using two types of ticks: major and minor.
 
 ![ChartJS RangeSelector](/images/ChartJS/RangeSelectorMajorTicks.png)
 
-The appearance of the major ticks can be customized using the options of the [tick](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/scale/tick/tick.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/tick/') object.
+The appearance of the major ticks can be customized using the options of the [tick](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/scale/tick '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/tick/') object.
 
 	<!--JavaScript-->
 	var rangeSelectorOptions = {
@@ -16,7 +16,7 @@ The appearance of the major ticks can be customized using the options of the [ti
 		}
 	};
 
-Major ticks can be arranged on the scale in several different ways. By default, major ticks arrange automatically. If you are not satisfied with major ticks arranged like that, you can specify a custom interval for the ticks using the [tickInterval](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/scale/tickInterval/tickInterval.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/tickInterval/') option.
+Major ticks can be arranged on the scale in several different ways. By default, major ticks arrange automatically. If you are not satisfied with major ticks arranged like that, you can specify a custom interval for the ticks using the [tickInterval](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/scale/tickInterval '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/tickInterval/') option.
 
 When you use a [date-time](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/scale/valueType.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/#valueType') scale, and its start value does not match the beginning of any date-time unit (hour, day, month, etc.), major ticks arrange differently depending on the value of the [setTicksAtUnitBeginning](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/#setTicksAtUnitBeginning) option. The following table illustrates how this option impacts tick arrangement.
 

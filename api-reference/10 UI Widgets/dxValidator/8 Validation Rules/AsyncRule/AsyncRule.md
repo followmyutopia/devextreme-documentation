@@ -14,8 +14,8 @@ You can also set a custom [message](/api-reference/10%20UI%20Widgets/dxValidator
 Validation rules are checked in the following order: All the synchronous rules are checked in the same order as in the [validationRules](/api-reference/10%20UI%20Widgets/dxValidator/1%20Configuration/validationRules.md '/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#validationRules') array. Then, all the async rules are checked simultaneously.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Validation/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Validation/Overview/"
 }
 
 #####See Also#####
-- [Data Validation](/concepts/05%20Widgets/zz%20Common/05%20UI%20Widgets/20%20Data%20Validation/Data%20Validation.md '/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/')
+- [Data Validation](/concepts/05%20Widgets/zz%20Common/05%20UI%20Widgets/20%20Data%20Validation '/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/')

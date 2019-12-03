@@ -1,10 +1,10 @@
-Different screens use different FABs because a FAB should perform or contain only actions that can be performed on a particular screen. The DevExtreme [TabPanel](/Demos/WidgetsGallery/Demo/TabPanel/Overview/jQuery/MaterialBlueLight/) is used to emulate switching between screens.
+Different screens use different FABs because a FAB should perform or contain only actions that can be performed on a particular screen. The DevExtreme [TabPanel](https://js.devexpress.com/Demos/WidgetsGallery/Demo/TabPanel/Overview/jQuery/MaterialBlueLight) is used to emulate switching between screens.
 
 <div class="simulator-desktop-container" style="height:362px" data-view="/Content/Applications/20_1/GettingStartedWith/FloatingActionButton/HandleScreenTransitions/index.html, /Content/Applications/20_1/GettingStartedWith/FloatingActionButton/HandleScreenTransitions/index.js, /Content/Applications/20_1/GettingStartedWith/FloatingActionButton/HandleScreenTransitions/index.css"></div>
 
 To implement this behavior in Angular, Vue, and React, you can place the actions in separate components if the components have different URLs. No further configuration is required in this case.
 
-The approach is different if the components have the same URL, or actions are in the same component, or when you configure this behavior in jQuery. Change the [visible](/Documentation/ApiReference/UI_Widgets/dxSpeedDialAction/Configuration/#visible) option of each **SpeedDialAction** when the screen is switched. Set this option to **true** if an action can be performed on the current screen. Otherwise, set it to **false**.
+The approach is different if the components have the same URL, or actions are in the same component, or when you configure this behavior in jQuery. Change the [visible](/api-reference/10%20UI%20Widgets/dxSpeedDialAction/1%20Configuration/visible.md '/Documentation/ApiReference/UI_Widgets/dxSpeedDialAction/Configuration/#visible') option of each **SpeedDialAction** when the screen is switched. Set this option to **true** if an action can be performed on the current screen. Otherwise, set it to **false**.
 
 The following code shows the **TabPanel** configuration and an empty `switchSDA` function. This function controls the actions' visibility when it is implemented later.
 
@@ -646,6 +646,6 @@ The following code adds four **SpeedDialAction**s to the page, but only the "Edi
 
 For more information on the Floating Action Button's functionality, explore the following resources:
 
-- [Demos](/Demos/WidgetsGallery/Demo/FloatingActionButton/Overview/) 
-- [SpeedDialAction API Reference](/Documentation/ApiReference/UI_Widgets/dxSpeedDialAction/)
-- [floatingActionButtonConfig API Reference](/Documentation/ApiReference/Common/Object_Structures/globalConfig/floatingActionButtonConfig/)
+- [Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/FloatingActionButton/Overview) 
+- [SpeedDialAction API Reference](/api-reference/10%20UI%20Widgets/dxSpeedDialAction '/Documentation/ApiReference/UI_Widgets/dxSpeedDialAction/')
+- [floatingActionButtonConfig API Reference](/api-reference/50%20Common/Object%20Structures/globalConfig/floatingActionButtonConfig '/Documentation/ApiReference/Common/Object_Structures/globalConfig/floatingActionButtonConfig/')

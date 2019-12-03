@@ -1,4 +1,4 @@
-Default templates are based on data source fields. You can control appearance by adding or removing particular fields from data source objects. For example, the **List** widget has a [default template for items](/api-reference/10%20UI%20Widgets/dxList/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxList/Default_Item_Template/') that contains the **text**, **visible**, and **disabled** fields. If you assign the following array to the widget's **dataSource** option, the first item will be disabled, the second hidden, both of them will have text, and the third item will render a custom markup:
+Default templates are based on data source fields. You can control appearance by adding or removing particular fields from data source objects. For example, the **List** widget has a [default template for items](/api-reference/10%20UI%20Widgets/dxList/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxList/Default_Item_Template/') that contains the **text**, **visible**, and **disabled** fields. If you assign the following array to the widget's **dataSource** option, the first item will be disabled, the second hidden, both of them will have text, and the third item will render a custom markup:
 
     <!--JavaScript-->
     function customMarkup() {
@@ -12,7 +12,7 @@ Default templates are based on data source fields. You can control appearance by
         { template: customMarkup }
     ];
 
-You can achieve the same in the markup using the [dxItem](/api-reference/10%20UI%20Widgets/Markup%20Components/dxItem/dxItem.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxItem/') component that supports default and [custom templates](/Documentation/Guide/Widgets/Common/Templates/#In_Collection_Widgets). Do not set the widget's **dataSource** option in this case. 
+You can achieve the same in the markup using the [dxItem](/api-reference/10%20UI%20Widgets/Markup%20Components/dxItem '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxItem/') component that supports default and [custom templates](/Documentation/Guide/Widgets/Common/Templates/#In_Collection_Widgets). Do not set the widget's **dataSource** option in this case. 
 
 ---
 #####jQuery  

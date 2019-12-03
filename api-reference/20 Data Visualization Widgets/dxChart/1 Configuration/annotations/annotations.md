@@ -12,7 +12,7 @@ Annotations are images and text blocks that provide additional information on th
 
 ![DevExtreme Chart: Annotations](/images/ChartJS/visual_elements/annotations.png)
 
-To configure annotations, assign an array of objects to the **annotations[]** option. Each object should have the [type](/api-reference/_hidden/dxChartCommonAnnotationConfig/type.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#type') field set to *"text"* or *"image"*. Depending on the **type**, specify the annotation's [text](/api-reference/_hidden/dxChartCommonAnnotationConfig/text.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#text') or [image](/api-reference/_hidden/dxChartCommonAnnotationConfig/image/image.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/image/') option:
+To configure annotations, assign an array of objects to the **annotations[]** option. Each object should have the [type](/api-reference/_hidden/dxChartCommonAnnotationConfig/type.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#type') field set to *"text"* or *"image"*. Depending on the **type**, specify the annotation's [text](/api-reference/_hidden/dxChartCommonAnnotationConfig/text.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#text') or [image](/api-reference/_hidden/dxChartCommonAnnotationConfig/image '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/image/') option:
 
 ---
 ##### jQuery
@@ -188,10 +188,10 @@ Annotations can be unattached or anchored to a chart element. The following list
 
 When a user long-presses an annotation or hovers the mouse pointer over it, the **Chart** displays a [tooltip](/api-reference/_hidden/dxChartCommonAnnotationConfig/tooltipEnabled.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/annotations/#tooltipEnabled').
 
-Objects in the **annotations[]** array configure individual annotations. To specify options common for all annotations, use the [commonAnnotationSettings](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonAnnotationSettings/commonAnnotationSettings.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAnnotationSettings/') object. Individual settings take precedence over common settings.
+Objects in the **annotations[]** array configure individual annotations. To specify options common for all annotations, use the [commonAnnotationSettings](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonAnnotationSettings '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAnnotationSettings/') object. Individual settings take precedence over common settings.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/Annotation/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Annotation/"
 }
 
 #####See Also#####

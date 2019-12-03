@@ -31,7 +31,7 @@ selectionMode: "multiple"
     url: "/Documentation/Guide/Widgets/ButtonGroup/Getting_Started_with_ButtonGroup/" 
 }
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/ButtonGroup/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/ButtonGroup/Overview/"
 }
 
 #####See Also#####

@@ -9,7 +9,7 @@ inheritsType: dxHtmlEditorToolbarItem
 Configures toolbar items. These items allow users to format text and execute commands.
 
 ---
-The toolbar provides [predefined items](/concepts/05%20Widgets/HtmlEditor/20%20Toolbar/00%20Predefined%20Items/00%20Predefined%20Items.md '/Documentation/Guide/Widgets/HtmlEditor/Toolbar/Predefined_Items/') and supports custom items. To add a predefined item to the toolbar, include it in the **items** array:
+The toolbar provides [predefined items](/concepts/05%20Widgets/HtmlEditor/20%20Toolbar/00%20Predefined%20Items '/Documentation/Guide/Widgets/HtmlEditor/Toolbar/Predefined_Items/') and supports custom items. To add a predefined item to the toolbar, include it in the **items** array:
 
 ---
 #####jQuery
@@ -62,7 +62,7 @@ The toolbar provides [predefined items](/concepts/05%20Widgets/HtmlEditor/20%20T
 ---
 
 
-Most of the predefined items are buttons. To customize a button, assign its name to the [formatName](/api-reference/_hidden/dxHtmlEditorToolbarItem/formatName.md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName') option and specify the [button options](/api-reference/10%20UI%20Widgets/dxButton/1%20Configuration/Configuration.md '/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/') in the [options](/api-reference/10%20UI%20Widgets/dxToolbar/5%20Default%20Item%20Template/options.md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#options') object: 
+Most of the predefined items are buttons. To customize a button, assign its name to the [formatName](/api-reference/_hidden/dxHtmlEditorToolbarItem/formatName.md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName') option and specify the [button options](/api-reference/10%20UI%20Widgets/dxButton/1%20Configuration '/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/') in the [options](/api-reference/10%20UI%20Widgets/dxToolbar/5%20Default%20Item%20Template/options.md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#options') object: 
 
 ---
 #####jQuery
@@ -127,5 +127,5 @@ To use another widget instead of a button, specify the [widget](/api-reference/_
 The toolbar provides a short syntax for implementing a custom drop-down menu with multiple choices. Refer to the [formatName](/api-reference/_hidden/dxHtmlEditorToolbarItem/formatName.md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName') description for more information.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/HtmlEditor/ToolbarCustomization/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/HtmlEditor/ToolbarCustomization/"
 }

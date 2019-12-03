@@ -36,7 +36,7 @@ The **DataGrid** caches data by default. This allows the widget to decrease the 
     
 ---
 
-[note]When data processing operations are [delegated to the server](/concepts/05%20Widgets/DataGrid/05%20Data%20Binding/25%20Custom%20Sources/Custom%20Sources.md '/Documentation/Guide/Widgets/DataGrid/Data_Binding/Custom_Sources/'), data is loaded every time these operations are performed even if caching is enabled. 
+[note]When data processing operations are [delegated to the server](/concepts/05%20Widgets/DataGrid/05%20Data%20Binding/25%20Custom%20Sources '/Documentation/Guide/Widgets/DataGrid/Data_Binding/Custom_Sources/'), data is loaded every time these operations are performed even if caching is enabled. 
 
 If your data source changes frequently, disable caching by assigning **false** to the **cacheEnabled** option. 
 
@@ -77,6 +77,6 @@ If your data source changes frequently, disable caching by assigning **false** t
 #####See Also#####
 #include common-link-callmethods
 - [DataGrid - Access the DataSource](/concepts/05%20Widgets/DataGrid/05%20Data%20Binding/30%20Access%20the%20DataSource.md '/Documentation/Guide/Widgets/DataGrid/Data_Binding/Access_the_DataSource/')
-- [DataGrid Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/LocalDataSource/)
+- [DataGrid Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/LocalDataSource)
 
 [tags] dataGrid, data grid, caching, cache, enable caching, cacheEnabled

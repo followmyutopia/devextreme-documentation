@@ -1,7 +1,7 @@
 The **TextBox** is a widget that enables a user to enter and edit a single line of text.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TextBox/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/TextBox/Overview/"
 }
 
 The following code adds a simple **TextBox** with a [placeholder](/api-reference/10%20UI%20Widgets/dxTextEditor/1%20Configuration/placeholder.md '/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#placeholder') to your page.
@@ -118,7 +118,7 @@ If an end user should _not_ be able to edit the value in the **TextBox**, assign
 - [TextBox - Handle the Keyboard Events](/concepts/05%20Widgets/TextBox/13%20Handle%20the%20Keyboard%20Events.md '/Documentation/Guide/Widgets/TextBox/Handle_the_Keyboard_Events/')
 - [TextBox - Limit the String Length](/concepts/05%20Widgets/TextBox/15%20Limit%20the%20String%20Length.md '/Documentation/Guide/Widgets/TextBox/Limit_the_String_Length/')
 - [TextBox - Specify a Mask for the Input](/concepts/05%20Widgets/TextBox/20%20Specify%20a%20Mask%20for%20the%20Input.md '/Documentation/Guide/Widgets/TextBox/Specify_a_Mask_for_the_Input/')
-- [TextBox API Reference](/api-reference/10%20UI%20Widgets/dxTextBox/dxTextBox.md '/Documentation/ApiReference/UI_Widgets/dxTextBox/')
+- [TextBox API Reference](/api-reference/10%20UI%20Widgets/dxTextBox '/Documentation/ApiReference/UI_Widgets/dxTextBox/')
 - [TextArea](/concepts/05%20Widgets/TextArea/00%20Overview.md '/Documentation/Guide/Widgets/TextArea/Overview/')
 
 [tags]textBox, text box, editor, overview

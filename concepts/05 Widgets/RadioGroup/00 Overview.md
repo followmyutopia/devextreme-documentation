@@ -1,7 +1,7 @@
 The **RadioGroup** is a widget that contains a set of radio buttons and allows an end user to make a single selection from the set.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/RadioGroup/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/RadioGroup/Overview/"
 }
 
 The following code adds a simple **RadioGroup** to your page. Here, the [value](/api-reference/10%20UI%20Widgets/dxRadioGroup/1%20Configuration/value.md '/Documentation/ApiReference/UI_Widgets/dxRadioGroup/Configuration/#value') option specifies the initially selected radio button.
@@ -51,6 +51,6 @@ The **RadioGroup** widget supports horizontal (default for tablets) and vertical
 - [RadioGroup - Handle the Value Change Event](/concepts/05%20Widgets/RadioGroup/05%20Handle%20the%20Value%20Change%20Event.md '/Documentation/Guide/Widgets/RadioGroup/Handle_the_Value_Change_Event')
 - [RadioGroup - Customize Item Appearance](/concepts/05%20Widgets/RadioGroup/10%20Customize%20Item%20Appearance.md '/Documentation/Guide/Widgets/RadioGroup/Customize_Item_Appearance')
 - [RadioGroup - Keyboard Support](/concepts/05%20Widgets/RadioGroup/20%20Keyboard%20Support.md '/Documentation/Guide/Widgets/RadioGroup/Keyboard_Support')
-- [RadioGroup API Reference](/api-reference/10%20UI%20Widgets/dxRadioGroup/dxRadioGroup.md '/Documentation/ApiReference/UI_Widgets/dxRadioGroup/')
+- [RadioGroup API Reference](/api-reference/10%20UI%20Widgets/dxRadioGroup '/Documentation/ApiReference/UI_Widgets/dxRadioGroup/')
 
 [tags]radio group, radioGroup, layout, editor, overview

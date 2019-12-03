@@ -13,8 +13,8 @@ Set [useMaskBehavior](/api-reference/10%20UI%20Widgets/dxDateBox/1%20Configurati
 The default display format is selected automatically based on the current [locale](/api-reference/50%20Common/utils/localization/locale().md '/Documentation/ApiReference/Common/utils/localization/#locale').
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DateBox/Formatting/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DateBox/Formatting/"
 }
 
 #####See Also#####
-- [Format Widget Values](/concepts/Common/34%20Value%20Formatting/10%20Format%20Widget%20Values/Format%20Widget%20Values.md '/Documentation/Guide/Common/Value_Formatting/#Format_Widget_Values')
+- [Format Widget Values](/concepts/Common/34%20Value%20Formatting/10%20Format%20Widget%20Values '/Documentation/Guide/Common/Value_Formatting/#Format_Widget_Values')

@@ -17,7 +17,7 @@ The **DropDownBox**'s and embedded widget's data sources can be the same or diff
         ];
 
 1. **Specify which data field provides the DropDownBox's values and the embedded widget's keys**       
-Assign the field's name to the **DropDownBox**'s [valueExpr](/api-reference/10%20UI%20Widgets/DataExpressionMixin/1%20Configuration/valueExpr.md '/Documentation/ApiReference/UI_Widgets/dxDropDownBox/Configuration/#valueExpr') option and to the [key](/api-reference/30%20Data%20Layer/Store/1%20Configuration/key.md '/Documentation/ApiReference/Data_Layer/ArrayStore/Configuration/#key') option of the embedded widget's store. The following example shows an [ArrayStore](/api-reference/30%20Data%20Layer/ArrayStore/ArrayStore.md '/Documentation/ApiReference/Data_Layer/ArrayStore/'):
+Assign the field's name to the **DropDownBox**'s [valueExpr](/api-reference/10%20UI%20Widgets/DataExpressionMixin/1%20Configuration/valueExpr.md '/Documentation/ApiReference/UI_Widgets/dxDropDownBox/Configuration/#valueExpr') option and to the [key](/api-reference/30%20Data%20Layer/Store/1%20Configuration/key.md '/Documentation/ApiReference/Data_Layer/ArrayStore/Configuration/#key') option of the embedded widget's store. The following example shows an [ArrayStore](/api-reference/30%20Data%20Layer/ArrayStore '/Documentation/ApiReference/Data_Layer/ArrayStore/'):
 
     ---
     #####jQuery
@@ -288,11 +288,11 @@ This step's implementation depends on the embedded widget's API and the library/
     ---
 
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/DropDownBox/SingleSelection/",
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DropDownBox/SingleSelection/",
     name: "Single Selection"
 }
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/DropDownBox/MultipleSelection/",
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DropDownBox/MultipleSelection/",
     name: "Multiple Selection"
 }
 

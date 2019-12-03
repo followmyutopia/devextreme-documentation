@@ -7,7 +7,7 @@ A filter expression can also be a function that takes on an item object and retu
         //'result' contains the "First item" item
     });
 
-[Stores](/Documentation/Guide/Data_Layer/Data_Layer/#What_Are_Stores) support the same filter expression syntax as the [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/').
+[Stores](/Documentation/Guide/Data_Layer/Data_Layer/#What_Are_Stores) support the same filter expression syntax as the [DataSource](/api-reference/30%20Data%20Layer/DataSource '/Documentation/ApiReference/Data_Layer/DataSource/').
 
     <!--JavaScript-->var arrayStore = new DevExpress.data.ArrayStore(data);
     arrayStore

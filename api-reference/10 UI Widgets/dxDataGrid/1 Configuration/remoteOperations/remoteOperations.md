@@ -81,13 +81,13 @@ The following restrictions apply to widget functionality when operations are rem
 
 #include common-demobutton-named with {
     name: "Web API Service",
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/WebAPIService/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/WebAPIService/"
 }
 #include common-demobutton-named with {
     name: "Custom Service",
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/CustomDataSource/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/CustomDataSource/"
 }
 
 #####See Also#####
-- **Data Binding**: [Web API Service](/concepts/05%20Widgets/DataGrid/05%20Data%20Binding/16%20Web%20API%20Service.md '/Documentation/Guide/Widgets/DataGrid/Data_Binding/Web_API_Service/') | [PHP Service](/concepts/05%20Widgets/DataGrid/05%20Data%20Binding/17%20PHP%20Service.md '/Documentation/Guide/Widgets/DataGrid/Data_Binding/PHP_Service/') | [MongoDB Service](/concepts/05%20Widgets/DataGrid/05%20Data%20Binding/18%20MongoDB%20Service.md '/Documentation/Guide/Widgets/DataGrid/Data_Binding/MongoDB_Service/') | [Custom Sources](/concepts/05%20Widgets/DataGrid/05%20Data%20Binding/25%20Custom%20Sources/Custom%20Sources.md '/Documentation/Guide/Widgets/DataGrid/Data_Binding/Custom_Sources/')
+- **Data Binding**: [Web API Service](/concepts/05%20Widgets/DataGrid/05%20Data%20Binding/16%20Web%20API%20Service.md '/Documentation/Guide/Widgets/DataGrid/Data_Binding/Web_API_Service/') | [PHP Service](/concepts/05%20Widgets/DataGrid/05%20Data%20Binding/17%20PHP%20Service.md '/Documentation/Guide/Widgets/DataGrid/Data_Binding/PHP_Service/') | [MongoDB Service](/concepts/05%20Widgets/DataGrid/05%20Data%20Binding/18%20MongoDB%20Service.md '/Documentation/Guide/Widgets/DataGrid/Data_Binding/MongoDB_Service/') | [Custom Sources](/concepts/05%20Widgets/DataGrid/05%20Data%20Binding/25%20Custom%20Sources '/Documentation/Guide/Widgets/DataGrid/Data_Binding/Custom_Sources/')
 

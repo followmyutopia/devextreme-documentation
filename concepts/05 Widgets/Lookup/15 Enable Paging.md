@@ -1,4 +1,4 @@
-Paging options are set in the [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/'): [paginate](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/paginate.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate') enables paging; [pageSize](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/pageSize.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#pageSize') specifies how many data items a page should contain.
+Paging options are set in the [DataSource](/api-reference/30%20Data%20Layer/DataSource '/Documentation/ApiReference/Data_Layer/DataSource/'): [paginate](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/paginate.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate') enables paging; [pageSize](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/pageSize.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#pageSize') specifies how many data items a page should contain.
 
 ---
 #####jQuery
@@ -89,6 +89,6 @@ Paging options are set in the [DataSource](/api-reference/30%20Data%20Layer/Data
 #####See Also#####
 - **Data Binding**: [Web API Service](/concepts/05%20Widgets/Lookup/03%20Data%20Binding/16%20Web%20API%20Service.md '/Documentation/Guide/Widgets/Lookup/Data_Binding/Web_API_Service/') | [PHP Service](/concepts/05%20Widgets/Lookup/03%20Data%20Binding/17%20PHP%20Service.md '/Documentation/Guide/Widgets/Lookup/Data_Binding/PHP_Service/') | [MongoDB Service](/concepts/05%20Widgets/Lookup/03%20Data%20Binding/18%20MongoDB%20Service.md '/Documentation/Guide/Widgets/Lookup/Data_Binding/MongoDB_Service/') | [OData Service](/concepts/05%20Widgets/Lookup/03%20Data%20Binding/15%20OData%20Service.md '/Documentation/Guide/Widgets/Lookup/Data_Binding/OData_Service/') | [Custom Sources](/concepts/05%20Widgets/Lookup/03%20Data%20Binding/20%20Custom%20Sources.md '/Documentation/Guide/Widgets/Lookup/Data_Binding/Custom_Sources/') | [JavaScript Array](/concepts/05%20Widgets/Lookup/03%20Data%20Binding/05%20Simple%20Array/05%20Array%20Only.md '/Documentation/Guide/Widgets/Lookup/Data_Binding/Simple_Array/Array_Only/')
 - [Lookup - Enable Grouping](/concepts/05%20Widgets/Lookup/10%20Enable%20Grouping.md '/Documentation/Guide/Widgets/Lookup/Enable_Grouping/')
-- [Lookup Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Basics/)
+- [Lookup Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Basics)
 
 [tags]lookup, paginate, page size, pageSize, loading mode

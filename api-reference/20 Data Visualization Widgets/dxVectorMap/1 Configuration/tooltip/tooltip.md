@@ -18,5 +18,5 @@ Specify the [customizeTooltip](/api-reference/20%20Data%20Visualization%20Widget
 You can also change the appearance of tooltips using fields of the **tooltip** configuration object.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/VectorMap/TooltipHTMLSupport/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/VectorMap/TooltipHTMLSupport/"
 }

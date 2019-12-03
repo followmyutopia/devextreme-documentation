@@ -1,4 +1,4 @@
-Access to a custom data source is configured using the [CustomStore](/api-reference/30%20Data%20Layer/CustomStore/CustomStore.md '/Documentation/ApiReference/Data_Layer/CustomStore/') component. DevExtreme provides [ASP.NET](/concepts/05%20Widgets/List/03%20Data%20Binding/16%20Web%20API%20Service.md '/Documentation/Guide/Widgets/List/Data_Binding/Web_API_Service/') and [PHP](/concepts/05%20Widgets/List/03%20Data%20Binding/17%20PHP%20Service.md '/Documentation/Guide/Widgets/List/Data_Binding/PHP_Service/') extensions to configure the **CustomStore** and implement server-side data processing. You can also use the third-party extension for [MongoDB](/concepts/05%20Widgets/List/03%20Data%20Binding/18%20MongoDB%20Service.md '/Documentation/Guide/Widgets/List/Data_Binding/MongoDB_Service/'). 
+Access to a custom data source is configured using the [CustomStore](/api-reference/30%20Data%20Layer/CustomStore '/Documentation/ApiReference/Data_Layer/CustomStore/') component. DevExtreme provides [ASP.NET](/concepts/05%20Widgets/List/03%20Data%20Binding/16%20Web%20API%20Service.md '/Documentation/Guide/Widgets/List/Data_Binding/Web_API_Service/') and [PHP](/concepts/05%20Widgets/List/03%20Data%20Binding/17%20PHP%20Service.md '/Documentation/Guide/Widgets/List/Data_Binding/PHP_Service/') extensions to configure the **CustomStore** and implement server-side data processing. You can also use the third-party extension for [MongoDB](/concepts/05%20Widgets/List/03%20Data%20Binding/18%20MongoDB%20Service.md '/Documentation/Guide/Widgets/List/Data_Binding/MongoDB_Service/'). 
 
 You need to configure the **CustomStore** in detail for accessing a server built on another technology. Data in this situation can be processed on the client or server. In the former case, switch the **CustomStore** to the raw mode and load all data from the server in the [load](/api-reference/30%20Data%20Layer/CustomStore/1%20Configuration/load.md '/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load') function as shown in the next example. 
 
@@ -272,13 +272,13 @@ If the **Scheduler** allows a user to add, delete or update appointments, the **
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/GoogleCalendarIntegration/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/GoogleCalendarIntegration/"
 }
 
 #####See Also#####
-- [Data Layer - DataSource Examples | Custom Sources](/concepts/30%20Data%20Layer/51%20Data%20Source%20Examples/3%20Custom%20Sources/Custom%20Sources.md '/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources')
+- [Data Layer - DataSource Examples | Custom Sources](/concepts/30%20Data%20Layer/51%20Data%20Source%20Examples/3%20Custom%20Sources '/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources')
 - [Data Layer - DataSource Examples | Connect to a RESTful Service](/concepts/30%20Data%20Layer/51%20Data%20Source%20Examples/3%20Custom%20Sources/0%20Connect%20to%20RESTful%20Service.md '/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources/Connect_to_RESTful_Service')
-- [Data Layer - Overview](/concepts/30%20Data%20Layer/5%20Data%20Layer/Data%20Layer.md '/Documentation/Guide/Data_Layer/Data_Layer/')
-- [Scheduler API Reference](/api-reference/10%20UI%20Widgets/dxScheduler/dxScheduler.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/')
+- [Data Layer - Overview](/concepts/30%20Data%20Layer/5%20Data%20Layer '/Documentation/Guide/Data_Layer/Data_Layer/')
+- [Scheduler API Reference](/api-reference/10%20UI%20Widgets/dxScheduler '/Documentation/ApiReference/UI_Widgets/dxScheduler/')
 
 [tags]scheduler, data binding, provide data, custom data source, CustomStore, DataSource, load, delete, add, update, remote filtering

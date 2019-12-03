@@ -1,4 +1,4 @@
-[important] React projects created with [Create React App](https://facebook.github.io/create-react-app/) <a href="https://github.com/facebook/create-react-app/issues/4508" target="_blank">do not support Globalize</a>. [Use Intl](/concepts/Common/33%20Localization/05%20Localize%20Dates,%20Numbers,%20and%20Currencies/05%20Using%20Intl.md '/Documentation/Guide/Common/Localization/#Localize_Dates_Numbers_and_Currencies/Using_Intl') instead.
+[important] React projects created with [Create React App](https://facebook.github.io/create-react-app) <a href="https://github.com/facebook/create-react-app/issues/4508" target="_blank">do not support Globalize</a>. [Use Intl](/concepts/Common/33%20Localization/05%20Localize%20Dates,%20Numbers,%20and%20Currencies/05%20Using%20Intl.md '/Documentation/Guide/Common/Localization/#Localize_Dates_Numbers_and_Currencies/Using_Intl') instead.
 
 Activating Globalize in your project requires the following files:
 
@@ -10,7 +10,7 @@ All the components are available via CDN and npm.
 
 * **CDN or local files**      
 
-    Include the Globalize and CLDR libraries using `<script>` tags as shown below. In this example, German and Russian [dictionaries](/concepts/Common/33%20Localization/01%20Dictionaries/Dictionaries.md '/Documentation/Guide/Common/Localization/#Dictionaries') are also included. Note that the order you include the libraries is important. Then, set the locale using the `Globalize.locale()` method:
+    Include the Globalize and CLDR libraries using `<script>` tags as shown below. In this example, German and Russian [dictionaries](/concepts/Common/33%20Localization/01%20Dictionaries '/Documentation/Guide/Common/Localization/#Dictionaries') are also included. Note that the order you include the libraries is important. Then, set the locale using the `Globalize.locale()` method:
 
     ---
     ##### CDN
@@ -46,7 +46,7 @@ All the components are available via CDN and npm.
     ---
 
     #include common-demobutton with {
-        url: "/Demos/WidgetsGallery/Demo/Localization/UsingGlobalize/"
+        url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Localization/UsingGlobalize/"
     }
 
 * **npm**       
@@ -151,7 +151,7 @@ All the components are available via CDN and npm.
     ---
 
     #include common-demobutton with {
-        url: "/Demos/WidgetsGallery/Demo/Localization/UsingGlobalize/Angular/Light/"
+        url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Localization/UsingGlobalize/Angular/Light/"
     }
 
 Strings, numbers, dates, and currencies are now automatically localized and formatted according to the specified locale. You can also use a currency other than USD (see the last example in the [Using Intl](/concepts/Common/33%20Localization/05%20Localize%20Dates,%20Numbers,%20and%20Currencies/05%20Using%20Intl.md '/Documentation/Guide/Common/Localization/#Localize_Dates_Numbers_and_Currencies/Using_Intl') topic).
@@ -297,4 +297,4 @@ In addition, you can now format values using structures accepted by <a href="htt
 #####See Also#####
 - <a href="https://github.com/DevExpress/devextreme-examples/tree/20_1/angular-cli-globalize" target="_blank">DevExtreme sample project with Globalize created using Angular CLI</a>
 - <a href="https://github.com/DevExpress/devextreme-examples/tree/20_1/systemjs-angular-globalize" target="_blank">DevExtreme Angular sample project with SystemJS and Globalize</a>
-- [Value Formatting](/concepts/Common/34%20Value%20Formatting/Value%20Formatting.md '/Documentation/Guide/Common/Value_Formatting')
+- [Value Formatting](/concepts/Common/34%20Value%20Formatting '/Documentation/Guide/Common/Value_Formatting')

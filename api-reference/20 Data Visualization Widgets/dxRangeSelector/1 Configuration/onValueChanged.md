@@ -7,7 +7,7 @@ notUsedInTheme:
 ---
 ---
 ##### shortDescription
-A function that is executed after the widget's [value](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/value/value.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#value') is changed.
+A function that is executed after the widget's [value](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/value '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#value') is changed.
 
 ##### param(e): Object
 Information about the event.
@@ -34,7 +34,7 @@ Two values that represent new start and end values.
 The **onValueChanged** function can be called when a user moves a slider or after he/she has stopped moving it. To specify the required mode, use the **behavior**.[callValueChanged](/api-reference/20%20Data%20Visualization%20Widgets/dxRangeSelector/1%20Configuration/behavior/callValueChanged.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/behavior/#callValueChanged') option.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/RangeSelector/UseRangeSelectionForFiltering/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/RangeSelector/UseRangeSelectionForFiltering/"
 }
 
 #####See Also#####

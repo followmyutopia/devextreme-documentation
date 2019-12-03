@@ -35,4 +35,4 @@ You need two **Stacked Bar** series for the bi-directional bar chart. The follow
 ---
 
 #####See Also#####
-- [Bind Series to Data](/concepts/05%20Widgets/Chart/03%20Data%20Binding/23%20Bind%20Series%20to%20Data/Bind%20Series%20to%20Data.md '/Documentation/Guide/Widgets/Chart/Data_Binding/Bind_Series_to_Data/')
+- [Bind Series to Data](/concepts/05%20Widgets/Chart/03%20Data%20Binding/23%20Bind%20Series%20to%20Data '/Documentation/Guide/Widgets/Chart/Data_Binding/Bind_Series_to_Data/')

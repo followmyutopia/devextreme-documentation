@@ -20,7 +20,7 @@ The widget's instance.
 The model data. Available only if you use Knockout.
 
 ##### field(e.node): dxTreeMapNode
-The node whose hover state has been changed; described in the [Node](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/6%20Node/Node.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/') section.
+The node whose hover state has been changed; described in the [Node](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/6%20Node '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/') section.
 
 ---
 Main article: [onHoverChanged](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/1%20Configuration/onHoverChanged.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#onHoverChanged')

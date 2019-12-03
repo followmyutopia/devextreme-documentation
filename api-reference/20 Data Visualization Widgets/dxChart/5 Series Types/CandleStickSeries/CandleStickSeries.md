@@ -15,7 +15,7 @@ Describes settings supported by a series of the *candlestick* type.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/Candlestick/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Candlestick/"
 }
 
 ![DevExtreme HTML5 Charts CandleStickSeriesType](/images/ChartJS/CandleStick.png)

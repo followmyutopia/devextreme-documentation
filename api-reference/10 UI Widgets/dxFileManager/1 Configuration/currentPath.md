@@ -9,7 +9,7 @@ Specifies the path that is used when the **FileManager** is initialized.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FileManager/BindingToHierarchicalStructure/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/FileManager/BindingToHierarchicalStructure/"
 }
 
 ---

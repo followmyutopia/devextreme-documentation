@@ -15,7 +15,7 @@ Describes settings supported by a series of the *range bar* type.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/RangeBar/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/RangeBar/"
 }
 
 ![DevExtreme HTML5 Charts RangeBarSeriesType](/images/ChartJS/RangeBar.png)

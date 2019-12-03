@@ -1,4 +1,4 @@
-For minor customization of nodes, you can use the default item template. This template defines the appearance of a node depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxTreeView/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Default_Item_Template/') are present or absent from the node's data object. For example, the following code adds an icon to each node.
+For minor customization of nodes, you can use the default item template. This template defines the appearance of a node depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxTreeView/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxTreeView/Default_Item_Template/') are present or absent from the node's data object. For example, the following code adds an icon to each node.
 
     <!--JavaScript-->var hierarchicalData = [{
         id: '1',
@@ -24,7 +24,7 @@ For minor customization of nodes, you can use the default item template. This te
         });
     });
 
-If you need a more flexible solution, define a custom template. For Angular, AngularJS, and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code gives a simple example of how you can use **dxTemplate** to customize nodes.
+If you need a more flexible solution, define a custom template. For Angular, AngularJS, and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code gives a simple example of how you can use **dxTemplate** to customize nodes.
 
 ---
 ##### Angular
@@ -165,7 +165,7 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 
 #####See Also#####
 - [Built-In Icon Library](/concepts/60%20Themes%20and%20Styles/30%20Icons/10%20Built-In%20Icon%20Library.md '/Documentation/Guide/Themes_and_Styles/Icons/#Built-In_Icon_Library')
-- [TreeView Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_View/ItemSelectionAndCustomization/)
-- [TreeView API Reference](/api-reference/10%20UI%20Widgets/dxTreeView/dxTreeView.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/')
+- [TreeView Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_View/ItemSelectionAndCustomization)
+- [TreeView API Reference](/api-reference/10%20UI%20Widgets/dxTreeView '/Documentation/ApiReference/UI_Widgets/dxTreeView/')
 
 [tags]treeview, tree view, item appearance, customize, templates, template, custom template, default item, default template

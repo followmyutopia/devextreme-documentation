@@ -8,5 +8,5 @@ The **FilterBuilder**'s field structure.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithDataGrid/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/FilterBuilder/WithDataGrid/"
 }

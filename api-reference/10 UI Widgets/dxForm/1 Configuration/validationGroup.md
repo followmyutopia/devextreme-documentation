@@ -8,7 +8,7 @@ default: undefined
 Gives a name to the internal validation group.
 
 ---
-In some cases, the **Form** editors should be validated by the [Button](/api-reference/10%20UI%20Widgets/dxButton/dxButton.md '/Documentation/ApiReference/UI_Widgets/dxButton/') widget. By default, these editors are collected in an unnamed validation group, what makes it impossible for the **Button** to validate them. In this case, give this validation group a name using the **validationGroup** option of the **Form** widget. Also, pass the same name to the [validationGroup](/api-reference/10%20UI%20Widgets/dxButton/1%20Configuration/validationGroup.md '/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#validationGroup') option of the **Button** widget.
+In some cases, the **Form** editors should be validated by the [Button](/api-reference/10%20UI%20Widgets/dxButton '/Documentation/ApiReference/UI_Widgets/dxButton/') widget. By default, these editors are collected in an unnamed validation group, what makes it impossible for the **Button** to validate them. In this case, give this validation group a name using the **validationGroup** option of the **Form** widget. Also, pass the same name to the [validationGroup](/api-reference/10%20UI%20Widgets/dxButton/1%20Configuration/validationGroup.md '/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#validationGroup') option of the **Button** widget.
 
     $(function () {
         $("#formContainer").dxForm({
@@ -26,5 +26,5 @@ In some cases, the **Form** editors should be validated by the [Button](/api-ref
     })
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Form/Validation/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Form/Validation/"
 }

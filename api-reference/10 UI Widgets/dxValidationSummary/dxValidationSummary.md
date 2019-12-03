@@ -6,14 +6,14 @@ inherits: CollectionWidget
 ---
 ---
 ##### shortDescription
-A widget for displaying the result of checking [validation rules](/api-reference/10%20UI%20Widgets/dxValidator/8%20Validation%20Rules/Validation%20Rules.md '/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/') for editors.
+A widget for displaying the result of checking [validation rules](/api-reference/10%20UI%20Widgets/dxValidator/8%20Validation%20Rules '/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/') for editors.
 
 ##### lib
 dx.web.js, dx.viz-web.js, dx.all.js
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Validation/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Validation/Overview/"
 }
 #include common-readguidesbutton with {
     url: "/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/"

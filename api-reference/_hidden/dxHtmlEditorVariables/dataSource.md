@@ -19,7 +19,7 @@ Assign the array to the **dataSource** option.
 Set the **dataSource** option to the URL of a JSON file or service that returns JSON data.
 
 - **OData**         
-Implement an [ODataStore](/api-reference/30%20Data%20Layer/ODataStore/ODataStore.md '/Documentation/ApiReference/Data_Layer/ODataStore/').
+Implement an [ODataStore](/api-reference/30%20Data%20Layer/ODataStore '/Documentation/ApiReference/Data_Layer/ODataStore/').
 
 - **Web API, PHP, MongoDB**     
 Use one of the following extensions to enable the server to process data according to the protocol DevExtreme widgets use:
@@ -161,7 +161,7 @@ Use one of the following extensions to enable the server to process data accordi
     ---
 
 - **Any other data source**     
-Implement a [CustomStore](/api-reference/30%20Data%20Layer/CustomStore/CustomStore.md '/Documentation/ApiReference/Data_Layer/CustomStore/').
+Implement a [CustomStore](/api-reference/30%20Data%20Layer/CustomStore '/Documentation/ApiReference/Data_Layer/CustomStore/').
 
 [note]
 

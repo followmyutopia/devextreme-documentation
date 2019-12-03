@@ -20,7 +20,7 @@ The **selectAllMode** specifies how records should be selected on clicking the "
 [note]The **selectAllMode** applies only if the [selectionMode](/api-reference/10%20UI%20Widgets/dxList/1%20Configuration/selectionMode.md '/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#selectionMode') is set to *all* and [the selection controls are shown](/api-reference/10%20UI%20Widgets/dxList/1%20Configuration/showSelectionControls.md '/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#showSelectionControls').
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/List/ListSelection/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListSelection/"
 }
 
 #####See Also#####

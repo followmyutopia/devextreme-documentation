@@ -72,5 +72,5 @@ An object defining a gauge indicator of the **rhombus** type.
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Gauges/DifferentValueIndicatorTypesLinearGauge/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Gauges/DifferentValueIndicatorTypesLinearGauge/"
 }

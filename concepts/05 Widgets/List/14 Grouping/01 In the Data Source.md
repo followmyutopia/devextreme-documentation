@@ -75,10 +75,10 @@ Items in the **List** are grouped if they are grouped in the data source. The **
 [note]Only one-level grouping is supported.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/List/GroupedList/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/GroupedList/"
 }
 
-If objects in your data source miss the **key** and **items** fields, use the [map](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/map.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#map') function of the [DevExtreme DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/') to bring these objects to the **key** + **items** structure. You can find more information on the **map** function in the [Data Layer - Item Mapping](/concepts/30%20Data%20Layer/5%20Data%20Layer/2%20Reading%20Data/3%20Data%20Transformation/1%20Item%20Mapping.md '/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Data_Transformation/Item_Mapping') topic.
+If objects in your data source miss the **key** and **items** fields, use the [map](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/map.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#map') function of the [DevExtreme DataSource](/api-reference/30%20Data%20Layer/DataSource '/Documentation/ApiReference/Data_Layer/DataSource/') to bring these objects to the **key** + **items** structure. You can find more information on the **map** function in the [Data Layer - Item Mapping](/concepts/30%20Data%20Layer/5%20Data%20Layer/2%20Reading%20Data/3%20Data%20Transformation/1%20Item%20Mapping.md '/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Data_Transformation/Item_Mapping') topic.
 
 ---
 #####jQuery
@@ -242,6 +242,6 @@ If your data is not grouped at all, you can group it using the [group](/api-refe
 - [List - Grouping | Customize Group Headers](/concepts/05%20Widgets/List/14%20Grouping/05%20Customize%20Group%20Headers.md '/Documentation/Guide/Widgets/List/Grouping/Customize_Group_Headers/')
 - [List - Data Binding | ArrayStore](/concepts/05%20Widgets/List/03%20Data%20Binding/05%20Simple%20Array/10%20ArrayStore.md '/Documentation/Guide/Widgets/List/Data_Binding/Simple_Array/ArrayStore/')
 - [List - Data Binding | Custom Sources](/concepts/05%20Widgets/List/03%20Data%20Binding/20%20Custom%20Sources.md '/Documentation/Guide/Widgets/List/Data_Binding/Custom_Sources/')
-- [List API Reference](/api-reference/10%20UI%20Widgets/dxList/dxList.md '/Documentation/ApiReference/UI_Widgets/dxList/')
+- [List API Reference](/api-reference/10%20UI%20Widgets/dxList '/Documentation/ApiReference/UI_Widgets/dxList/')
 
 [tags]list, grouped, key, items, group items, map items

@@ -9,7 +9,7 @@ Specifies whether the multi-tag is shown without ordinary tags.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TagBox/TagCountLimitation/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/TagBox/TagCountLimitation/"
 }
 
 #####See Also#####

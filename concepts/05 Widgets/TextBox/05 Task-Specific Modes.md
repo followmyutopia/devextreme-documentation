@@ -51,7 +51,7 @@ Depending on the value the **TextBox** should hold, specify the widget [mode](/a
 
 #####See Also#####
 - [TextBox - Specify a Mask for the Input](/concepts/05%20Widgets/TextBox/20%20Specify%20a%20Mask%20for%20the%20Input.md '/Documentation/Guide/Widgets/TextBox/Specify_a_Mask_for_the_Input/')
-- [TextBox Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/TextBox/Overview/)
-- [TextBox API Reference](/api-reference/10%20UI%20Widgets/dxTextBox/dxTextBox.md '/Documentation/ApiReference/UI_Widgets/dxTextBox/')
+- [TextBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/TextBox/Overview)
+- [TextBox API Reference](/api-reference/10%20UI%20Widgets/dxTextBox '/Documentation/ApiReference/UI_Widgets/dxTextBox/')
 
 [tags]textBox, text box, editor, mode, password, search, email, phone, url

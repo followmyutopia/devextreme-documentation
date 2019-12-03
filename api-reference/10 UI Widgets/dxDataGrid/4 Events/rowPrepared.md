@@ -10,7 +10,7 @@ Raised after a row is created.
 Information about the event.
 
 ##### field(e.columns): Array<dxDataGridColumn>
-All column [configurations](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/columns/columns.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/').
+All column [configurations](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/columns '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/').
 
 ##### field(e.component): {WidgetName}
 The widget's instance.
@@ -31,7 +31,7 @@ Indicates whether the row is expanded or collapsed. Unavailable if **rowType** i
 Indicates that the row is added, but not yet saved. Available if **rowType** is *"data"*.
 
 ##### field(e.isSelected): Boolean
-Indicates whether the prepared row is [selected](/concepts/05%20Widgets/DataGrid/50%20Selection/Selection.md '/Documentation/Guide/Widgets/DataGrid/Selection/'). Available only if **rowType** is *"data"*.
+Indicates whether the prepared row is [selected](/concepts/05%20Widgets/DataGrid/50%20Selection '/Documentation/Guide/Widgets/DataGrid/Selection/'). Available only if **rowType** is *"data"*.
 
 ##### field(e.key): any
 The row's key.     

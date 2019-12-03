@@ -41,5 +41,5 @@ For details on the difference between this and the **appointmentData** fields, s
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/ContextMenuIntegration/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/ContextMenuIntegration/"
 }

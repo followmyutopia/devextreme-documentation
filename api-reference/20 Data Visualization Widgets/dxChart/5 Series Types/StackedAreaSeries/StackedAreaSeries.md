@@ -15,7 +15,7 @@ Describes settings supported by a series of the *stacked area* type.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/Area/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Area/"
 }
 
 ![DevExtreme HTML5 Charts StackedAreaSeriesType](/images/ChartJS/StackedArea.png)

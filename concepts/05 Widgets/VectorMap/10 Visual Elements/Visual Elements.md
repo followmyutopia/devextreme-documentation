@@ -1,4 +1,4 @@
-This guide provides a detailed overview of [VectorMap](/api-reference/20%20Data%20Visualization%20Widgets/dxVectorMap/dxVectorMap.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/') elements. Each topic in this guide contains a brief description of an element and its main features, which can be configured.
+This guide provides a detailed overview of [VectorMap](/api-reference/20%20Data%20Visualization%20Widgets/dxVectorMap '/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/') elements. Each topic in this guide contains a brief description of an element and its main features, which can be configured.
 
 Below is the element map of the **VectorMap** widget. It may be helpful as you begin learning the capabilities of this widget. **Hover** over an element on the map to discover the name of this element. A **click** on an element navigates you to a topic devoted to this element.
 

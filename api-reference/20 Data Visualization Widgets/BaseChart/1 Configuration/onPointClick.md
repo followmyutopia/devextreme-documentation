@@ -31,7 +31,7 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 The model data. Available only if you use Knockout.
 
 ##### field(e.target): basePointObject
-The clicked series point; described in the [Point](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Point/Point.md '{basewidgetpath}/Chart_Elements/Point/') section.
+The clicked series point; described in the [Point](/api-reference/20%20Data%20Visualization%20Widgets/BaseChart/7%20Chart%20Elements/Point '{basewidgetpath}/Chart_Elements/Point/') section.
 
 ---
 [note]
@@ -78,6 +78,6 @@ The [onSeriesClick](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1
 [/note]
 
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/Selection/",
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Selection/",
     name: "Bar Chart"
 }

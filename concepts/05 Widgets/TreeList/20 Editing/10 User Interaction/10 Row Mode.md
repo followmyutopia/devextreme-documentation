@@ -48,7 +48,7 @@ Clicking a *"Delete"* button invokes the confirmation dialog that allows a user 
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Tree_List/RowEditing/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/RowEditing/"
 }
 
 #####See Also#####

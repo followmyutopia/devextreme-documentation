@@ -17,5 +17,5 @@ The [export](/api-reference/10%20UI%20Widgets/dxDiagram/3%20Methods/export().md 
 Use the **import** method to load this data on demand.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Diagram/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Diagram/Overview/"
 }

@@ -10,7 +10,7 @@ Raised when a row is clicked or tapped.
 Information about the event.
 
 ##### field(e.columns): Array<Object>
-All column [configurations](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/columns/columns.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/').
+All column [configurations](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/columns '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/').
 
 ##### field(e.component): {WidgetName}
 The widget's instance.
@@ -37,7 +37,7 @@ Indicates whether or not the group row is expanded. Available if **rowType** is 
 Indicates that the row is added, but not yet saved. Available if **rowType** is *"data"*.
 
 ##### field(e.isSelected): Boolean
-Indicates whether the row is [selected](/concepts/05%20Widgets/DataGrid/50%20Selection/Selection.md '/Documentation/Guide/Widgets/DataGrid/Selection/').
+Indicates whether the row is [selected](/concepts/05%20Widgets/DataGrid/50%20Selection '/Documentation/Guide/Widgets/DataGrid/Selection/').
 
 ##### field(e.jQueryEvent).deprecated
 Use 'event' instead.

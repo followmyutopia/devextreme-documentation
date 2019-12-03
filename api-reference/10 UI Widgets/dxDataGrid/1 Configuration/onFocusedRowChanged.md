@@ -31,7 +31,7 @@ The row's index.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/FocusedRow/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/FocusedRow/"
 }
 
 #####See Also#####

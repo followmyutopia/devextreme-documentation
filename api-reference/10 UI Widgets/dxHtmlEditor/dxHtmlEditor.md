@@ -32,7 +32,7 @@ variables: {
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/HtmlEditor/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/HtmlEditor/Overview/"
 }
 #include common-readguidesbutton with {
     url: "/Documentation/Guide/Widgets/HtmlEditor/Overview/"

@@ -1,7 +1,7 @@
 The **TagBox** widget is an editor that allows an end user to select multiple items from a drop-down list.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TagBox/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/TagBox/Overview/"
 }
 
 The following code adds the **TagBox** to your page. The simplest configuration of the widget requires only a [dataSource](/api-reference/10%20UI%20Widgets/DataExpressionMixin/1%20Configuration/dataSource.md '/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#dataSource') to be specified. In addition, you can specify the [placeholder](/api-reference/10%20UI%20Widgets/dxSelectBox/1%20Configuration/placeholder.md '/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#placeholder') to be displayed when the **TagBox** is empty.
@@ -118,6 +118,6 @@ If your data is an array of objects, specify:
 - [TagBox - Configure Search Parameters](/concepts/05%20Widgets/TagBox/10%20Configure%20Search%20Parameters.md '/Documentation/Guide/Widgets/TagBox/Configure_Search_Parameters/')
 - [TagBox - Create a User-Defined Item](/concepts/05%20Widgets/TagBox/15%20Create%20a%20User-Defined%20Item.md '/Documentation/Guide/Widgets/TagBox/Create_a_User-Defined_Item/')
 - [TagBox - Keyboard Support](/concepts/05%20Widgets/TagBox/25%20Keyboard%20Support.md '/Documentation/Guide/Widgets/TagBox/Keyboard_Support/')
-- [TagBox API Reference](/api-reference/10%20UI%20Widgets/dxTagBox/dxTagBox.md '/Documentation/ApiReference/UI_Widgets/dxTagBox/')
+- [TagBox API Reference](/api-reference/10%20UI%20Widgets/dxTagBox '/Documentation/ApiReference/UI_Widgets/dxTagBox/')
 
 [tags]tagBox, tag box, editor, overview, data source, value, display expression

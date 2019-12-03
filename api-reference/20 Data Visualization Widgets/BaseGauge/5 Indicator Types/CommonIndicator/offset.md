@@ -8,10 +8,10 @@ Specifies the distance between the indicator and the invisible scale line.
 
 ---
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/Gauges/CustomLayout/",
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Gauges/CustomLayout/",
     name: "CircularGauge"
 }
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Gauges/CustomLayoutLinearGauge/",
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Gauges/CustomLayoutLinearGauge/",
     name: "LinearGauge"
 }

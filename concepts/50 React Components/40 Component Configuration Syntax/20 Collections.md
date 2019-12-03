@@ -1,4 +1,4 @@
-Use nested configuration components. The following example shows how to configure the [DataGrid](http://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/) widget's [columns](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/columns/columns.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/') option:
+Use nested configuration components. The following example shows how to configure the [DataGrid](https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light) widget's [columns](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/columns '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/') option:
 
     <!-- tab: App.js -->
     import DataGrid, {
@@ -23,7 +23,7 @@ Use nested configuration components. The following example shows how to configur
         }
     }
 
-DevExtreme collection widgets also support the `Item` component. It allows you to declare collection items in the widget markup. An `Item` element can contain custom markup and have attributes that control parts of item appearance, such as `badge` in the following code. The attributes are described in the [Default Item Template](/api-reference/10%20UI%20Widgets/dxList/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxList/Default_Item_Template/') section of each collection widget.
+DevExtreme collection widgets also support the `Item` component. It allows you to declare collection items in the widget markup. An `Item` element can contain custom markup and have attributes that control parts of item appearance, such as `badge` in the following code. The attributes are described in the [Default Item Template](/api-reference/10%20UI%20Widgets/dxList/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxList/Default_Item_Template/') section of each collection widget.
 
     <!-- tab: App.js -->
     import List, {

@@ -39,7 +39,7 @@ The following request will return the iOS-specific animation configuration when 
 
     <!--JavaScript-->DevExpress.animationPresets.getPreset('my-animation');
 
-You can register several animation presets common for all devices and then use them to register device specific presets under another name. Here is an example where the [default presets](/api-reference/50%20Common/utils/animationPresets/animationPresets.md '/Documentation/ApiReference/Common/Utils/animationPresets/') are used to register another preset with a specific animation configurations used in iOS and on desktop.
+You can register several animation presets common for all devices and then use them to register device specific presets under another name. Here is an example where the [default presets](/api-reference/50%20Common/utils/animationPresets '/Documentation/ApiReference/Common/Utils/animationPresets/') are used to register another preset with a specific animation configurations used in iOS and on desktop.
 
     <!--JavaScript-->DevExpress.animationPresets.registerPreset( 'view-content-change', { animation: 'slide' } );
     DevExpress.animationPresets.registerPreset('view-content-change', { animation: 'ios7-slide', device: { platform: 'ios' } } );

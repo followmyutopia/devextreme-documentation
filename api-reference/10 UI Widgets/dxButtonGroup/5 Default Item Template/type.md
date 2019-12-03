@@ -19,5 +19,5 @@ DevExtreme provides the following button types.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Button/PredefinedTypes/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Button/PredefinedTypes/"
 }

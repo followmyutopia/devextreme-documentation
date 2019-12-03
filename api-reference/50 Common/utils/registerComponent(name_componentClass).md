@@ -5,7 +5,7 @@ hidden:
 ---
 ---
 ##### shortDescription
-Registers a new component in the [DevExpress.ui](/api-reference/50%20Common/utils/ui/ui.md '/Documentation/ApiReference/Common/Utils/#ui') namespace.
+Registers a new component in the [DevExpress.ui](/api-reference/50%20Common/utils/ui '/Documentation/ApiReference/Common/Utils/#ui') namespace.
 
 ##### param(name): String
 The component's name.

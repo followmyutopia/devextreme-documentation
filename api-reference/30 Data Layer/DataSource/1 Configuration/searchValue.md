@@ -12,4 +12,4 @@ You can use this option along with [searchExpr](/api-reference/30%20Data%20Layer
 
 #####See Also#####
 - [Data Layer - Search Api](/concepts/30%20Data%20Layer/5%20Data%20Layer/2%20Reading%20Data/2%20Search%20Api.md '/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Search_Api')
-- [Data Layer - Getters and Setters](/concepts/30%20Data%20Layer/5%20Data%20Layer/9%20Getters%20And%20Setters/Getters%20And%20Setters.md '/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters')
+- [Data Layer - Getters and Setters](/concepts/30%20Data%20Layer/5%20Data%20Layer/9%20Getters%20And%20Setters '/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters')

@@ -9,5 +9,5 @@ Specifies whether the search panel is visible.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/{WidgetName}/{WidgetName}WithSearchBar/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/{WidgetName}/{WidgetName}WithSearchBar/"
 }

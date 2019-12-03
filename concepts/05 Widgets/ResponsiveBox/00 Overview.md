@@ -3,7 +3,7 @@ The **ResponsiveBox** widget allows you to create an application or a website wi
 ![DevExtreme HTML5 JavaScript ResponsiveBox](/images/UiWidgets/responsive-box.png)
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/ResponsiveBox/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/ResponsiveBox/Overview/"
 }
 
 The following code creates a simple **ResponsiveBox**. The widget defines an ordinary page layout: a header, a footer, content area, left- and right-side bars. On small and extra small screens, the bars are hidden to give more space to the content. Note that the height of all elements that are ancestors to the **ResponsiveBox** (such as `<body>` and `<html>`) is explicitly set to *"100%"*. This makes the **ResponsiveBox** occupy full screen height.
@@ -146,19 +146,19 @@ The following code creates a simple **ResponsiveBox**. The widget defines an ord
 
 ---
     
-The **ResponsiveBox** elements in the code above are declared using the [dxItem](/api-reference/10%20UI%20Widgets/Markup%20Components/dxItem/dxItem.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/#dxItem') markup component. An object passed to this component can have the following fields.
+The **ResponsiveBox** elements in the code above are declared using the [dxItem](/api-reference/10%20UI%20Widgets/Markup%20Components/dxItem '/Documentation/ApiReference/UI_Widgets/Markup_Components/#dxItem') markup component. An object passed to this component can have the following fields.
 
-- [location](/api-reference/10%20UI%20Widgets/dxResponsiveBox/5%20Default%20Item%20Template/location/location.md '/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Default_Item_Template/location/')
+- [location](/api-reference/10%20UI%20Widgets/dxResponsiveBox/5%20Default%20Item%20Template/location '/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Default_Item_Template/location/')
 - [template](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/template.md '/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#template')
 - [visible](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/visible.md '/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Default_Item_Template/#visible')
 
-All **ResponsiveBox** elements are arranged against a layout grid defined by the [rows](/api-reference/10%20UI%20Widgets/dxResponsiveBox/1%20Configuration/rows/rows.md '/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/rows/') and [cols](/api-reference/10%20UI%20Widgets/dxResponsiveBox/1%20Configuration/cols/cols.md '/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/cols/') arrays. For further information, see the [Create the Layout Grid](/concepts/05%20Widgets/ResponsiveBox/10%20Create%20the%20Layout%20Grid.md '/Documentation/Guide/Widgets/ResponsiveBox/Create_the_Layout_Grid/') topic.
+All **ResponsiveBox** elements are arranged against a layout grid defined by the [rows](/api-reference/10%20UI%20Widgets/dxResponsiveBox/1%20Configuration/rows '/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/rows/') and [cols](/api-reference/10%20UI%20Widgets/dxResponsiveBox/1%20Configuration/cols '/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/cols/') arrays. For further information, see the [Create the Layout Grid](/concepts/05%20Widgets/ResponsiveBox/10%20Create%20the%20Layout%20Grid.md '/Documentation/Guide/Widgets/ResponsiveBox/Create_the_Layout_Grid/') topic.
 
 #####See Also#####
 #include common-link-configurewidget
 - [ResponsiveBox - Size Qualifiers](/concepts/05%20Widgets/ResponsiveBox/05%20Size%20Qualifiers.md '/Documentation/Guide/Widgets/ResponsiveBox/Size_Qualifiers/')
 - [ResponsiveBox - Create the Layout Grid](/concepts/05%20Widgets/ResponsiveBox/10%20Create%20the%20Layout%20Grid.md '/Documentation/Guide/Widgets/ResponsiveBox/Create_the_Layout_Grid/')
 - [ResponsiveBox - Arrange Layout Elements](/concepts/05%20Widgets/ResponsiveBox/15%20Arrange%20Layout%20Elements.md '/Documentation/Guide/Widgets/ResponsiveBox/Arrange_Layout_Elements/')
-- [ResponsiveBox API Reference](/api-reference/10%20UI%20Widgets/dxResponsiveBox/dxResponsiveBox.md '/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/')
+- [ResponsiveBox API Reference](/api-reference/10%20UI%20Widgets/dxResponsiveBox '/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/')
 
 [tags]responsive box, responsiveBox, layout widget, overview, dxItem, full screen widget

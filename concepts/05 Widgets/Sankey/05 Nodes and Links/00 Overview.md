@@ -4,7 +4,7 @@ In the **Sankey** widget, nodes represent objects in a system. Nodes have weight
 
 Nodes get data from the [source](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/sourceField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#sourceField') and [target](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/targetField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#targetField') data fields; links get data from the [weight](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/weightField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#weightField') data field.
 
-To configure the elements' appearance, use the [node](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/node/node.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/node/') and [link](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/link/link.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/link/') objects. In the following code, nodes are made half-opaque, and the links' border is made visible:
+To configure the elements' appearance, use the [node](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/node '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/node/') and [link](/api-reference/20%20Data%20Visualization%20Widgets/dxSankey/1%20Configuration/link '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/link/') objects. In the following code, nodes are made half-opaque, and the links' border is made visible:
 
 ---
 ##### jQuery
@@ -50,7 +50,7 @@ To configure the elements' appearance, use the [node](/api-reference/20%20Data%2
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/SankeyChart/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/SankeyChart/"
 }
 
 #####See Also#####

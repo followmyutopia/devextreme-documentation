@@ -15,7 +15,7 @@ Describes settings supported by a series of the *step rea* type.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/StepArea/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/StepArea/"
 }
 
 ![DevExtreme HTML5 Charts StepAreaSeriesType](/images/ChartJS/StepArea.png)

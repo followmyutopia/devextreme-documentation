@@ -63,7 +63,7 @@ The following tasks require using different API in deferred mode:
 
 - **Setting initial selection**  
 
-   You should use the [selectionFilter](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/selectionFilter.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#selectionFilter') instead of the [selectedRowKeys](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/selectedRowKeys.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#selectedRowKeys') option to set the initially selected rows in deferred mode. Pass a [filter expression](/concepts/30%20Data%20Layer/5%20Data%20Layer/2%20Reading%20Data/15%20Filtering/Filtering.md '/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering') to define records that should be selected.
+   You should use the [selectionFilter](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/selectionFilter.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#selectionFilter') instead of the [selectedRowKeys](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/selectedRowKeys.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#selectedRowKeys') option to set the initially selected rows in deferred mode. Pass a [filter expression](/concepts/30%20Data%20Layer/5%20Data%20Layer/2%20Reading%20Data/15%20Filtering '/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering') to define records that should be selected.
 
     ---
 
@@ -158,7 +158,7 @@ The following tasks require using different API in deferred mode:
     In deferred mode, the [getSelectedRowsData()](/api-reference/10%20UI%20Widgets/dxDataGrid/3%20Methods/getSelectedRowsData().md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#getSelectedRowsData') and [getSelectedRowKeys()](/api-reference/10%20UI%20Widgets/dxDataGrid/3%20Methods/getSelectedRowKeys().md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#getSelectedRowKeys') methods return a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">native Promise</a> or a <a href="http://api.jquery.com/Types/#Promise" target="_blank">jQuery.Promise</a> when you use jQuery. Get the data within the callback function that resolves the Promise. This is data before being processed in the **DataSource**.
     
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Data_Grid/DeferredSelection/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/DeferredSelection/"
 }
 
 #####See Also#####

@@ -27,7 +27,7 @@ Indicates whether the editor is disabled.
 
 ##### field(e.editorName): String
 Allows you to change the editor. Accepts names of DevExtreme widgets only, for example, *"dxTextBox"*.      
-Import a new editor's module when [DevExtreme modules](/concepts/Common/30%20Modularity/01%20Link%20Modules/Link%20Modules.md '/Documentation/Guide/Common/Modularity/') are used.
+Import a new editor's module when [DevExtreme modules](/concepts/Common/30%20Modularity '/Documentation/Guide/Common/Modularity/') are used.
 
 ##### field(e.editorOptions): Object
 Gets and sets the editor configuration.

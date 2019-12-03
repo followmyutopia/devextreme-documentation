@@ -3,7 +3,7 @@ id: DataHelperMixin.getDataSource()
 ---
 ---
 ##### shortDescription
-Gets the [DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/') instance.
+Gets the [DataSource](/api-reference/30%20Data%20Layer/DataSource '/Documentation/ApiReference/Data_Layer/DataSource/') instance.
 
 ##### return: DataSource
 The **DataSource** instance.
@@ -13,5 +13,5 @@ The **DataSource** instance.
 
 #####See Also#####
 #include common-link-callmethods
-- [Data Layer - Overview](/concepts/30%20Data%20Layer/5%20Data%20Layer/Data%20Layer.md '/Documentation/Guide/Data_Layer/Data_Layer/')
-- [Data Layer - DataSource Examples](/concepts/30%20Data%20Layer/51%20Data%20Source%20Examples/Data%20Source%20Examples.md '/Documentation/Guide/Data_Layer/Data_Source_Examples/')
+- [Data Layer - Overview](/concepts/30%20Data%20Layer/5%20Data%20Layer '/Documentation/Guide/Data_Layer/Data_Layer/')
+- [Data Layer - DataSource Examples](/concepts/30%20Data%20Layer/51%20Data%20Source%20Examples '/Documentation/Guide/Data_Layer/Data_Source_Examples/')

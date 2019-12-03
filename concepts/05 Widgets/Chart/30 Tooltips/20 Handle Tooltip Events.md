@@ -66,6 +66,6 @@ If you are going to change the event handlers at runtime or if you need to attac
 
 #####See Also#####
 #include common-link-handleevents
-- [Chart API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/dxChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/')
+- [Chart API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxChart '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/')
 
 [tags]chart, tooltip, handle events, tooltipShown, tooltipHidden

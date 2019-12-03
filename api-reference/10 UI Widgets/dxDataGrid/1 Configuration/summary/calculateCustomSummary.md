@@ -124,8 +124,8 @@ A summary value calculation is conducted in three stages: *start* - the **totalV
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/CustomSummaries/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/CustomSummaries/"
 }
 
 #####See Also#####
-- [Custom Aggregate Function](/concepts/05%20Widgets/DataGrid/65%20Summaries/07%20Custom%20Aggregate%20Function/Custom%20Aggregate%20Function.md '/Documentation/Guide/Widgets/DataGrid/Summaries/Custom_Aggregate_Function/')
+- [Custom Aggregate Function](/concepts/05%20Widgets/DataGrid/65%20Summaries/07%20Custom%20Aggregate%20Function '/Documentation/Guide/Widgets/DataGrid/Summaries/Custom_Aggregate_Function/')

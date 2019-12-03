@@ -11,7 +11,7 @@ Specifies a custom template for a tooltip.
 Information on the funnel item being pressed or hovered over.
 
 ##### field(info.item): dxFunnelItem
-The [Item](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/6%20Item/Item.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/') object.
+The [Item](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/6%20Item '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/') object.
 
 ##### field(info.percent): Number
 The item's percentage value.

@@ -33,7 +33,7 @@ To specify which sides of the **Resizable** - top, bottom, left, right or all at
         });
     });
 
-If the **Resizable** widget contains other widgets, make sure that it is instantiated _before_ the widgets. For example, the following code creates a resizable [Chart](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/dxChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/'). Note that the **Resizable** goes _before_ the **Chart** in the JavaScript code, and that makes the **Resizable** instantiated before the **Chart**.
+If the **Resizable** widget contains other widgets, make sure that it is instantiated _before_ the widgets. For example, the following code creates a resizable [Chart](/api-reference/20%20Data%20Visualization%20Widgets/dxChart '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/'). Note that the **Resizable** goes _before_ the **Chart** in the JavaScript code, and that makes the **Resizable** instantiated before the **Chart**.
 
     <!--HTML--><div id="resizable">
         <div id="chart"></div>
@@ -73,6 +73,6 @@ In addition to the **resizeEnd** event, the **Resizable** widget fires the [resi
 
 #####See Also#####
 #include common-link-configurewidget
-- [Resizable API Reference](/api-reference/10%20UI%20Widgets/dxResizable/dxResizable.md '/Documentation/ApiReference/UI_Widgets/dxResizable/')
+- [Resizable API Reference](/api-reference/10%20UI%20Widgets/dxResizable '/Documentation/ApiReference/UI_Widgets/dxResizable/')
 
 [tags]resizable, overview, resize a widget, resize

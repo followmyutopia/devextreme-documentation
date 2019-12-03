@@ -13,7 +13,7 @@ dx.all.js
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Slideout/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Slideout/Overview/"
 }
 #include common-readguidesbutton with {
     url: "/Documentation/Guide/Widgets/SlideOut/Overview/"

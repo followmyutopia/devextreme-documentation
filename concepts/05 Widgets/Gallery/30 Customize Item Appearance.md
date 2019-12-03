@@ -1,4 +1,4 @@
-**Gallery** items are not sctrictly images. They can contain text or other elements of your choice. For a minor customization of **Gallery** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxGallery/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxGallery/Default_Item_Template/') are present or absent from the item's data object. For example, the following code generates two items: one is disabled and the other has a specified <a href="http://www.w3schools.com/tags/att_img_alt.asp" target="_blank">alt attribute</a>.
+**Gallery** items are not sctrictly images. They can contain text or other elements of your choice. For a minor customization of **Gallery** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxGallery/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxGallery/Default_Item_Template/') are present or absent from the item's data object. For example, the following code generates two items: one is disabled and the other has a specified <a href="http://www.w3schools.com/tags/att_img_alt.asp" target="_blank">alt attribute</a>.
 
 ---
 #####jQuery
@@ -47,7 +47,7 @@
 
 ---
 
-If you need a more flexible solution, define a custom template. For Angular, AngularJS and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code gives a simple example of how you can use **dxTemplate** to customize gallery items.
+If you need a more flexible solution, define a custom template. For Angular, AngularJS and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code gives a simple example of how you can use **dxTemplate** to customize gallery items.
 
 ---
 
@@ -171,6 +171,6 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 
 #####See Also#####
 - [Gallery - Transform and Combine Images](/concepts/05%20Widgets/Gallery/25%20Transform%20and%20Combine%20Images.md '/Documentation/Guide/Widgets/Gallery/Transform_and_Combine_Images/')
-- [Gallery API Reference](/api-reference/10%20UI%20Widgets/dxGallery/dxGallery.md '/Documentation/ApiReference/UI_Widgets/dxGallery/')
+- [Gallery API Reference](/api-reference/10%20UI%20Widgets/dxGallery '/Documentation/ApiReference/UI_Widgets/dxGallery/')
 
 [tags]gallery, item appearance, default item, default template, customize, templates

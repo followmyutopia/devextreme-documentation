@@ -1,4 +1,4 @@
-For a minor customization of **Toolbar** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxToolbar/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/') are present or absent from the item's data object. For example, the following code gererates four toolbar items: the first is a widget, the second is hidden, the third is disabled, the fourth is relocated.
+For a minor customization of **Toolbar** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxToolbar/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/') are present or absent from the item's data object. For example, the following code gererates four toolbar items: the first is a widget, the second is hidden, the third is disabled, the fourth is relocated.
 
 ---
 #####jQuery
@@ -73,7 +73,7 @@ For a minor customization of **Toolbar** items, you can use the default item tem
 
 ---
 
-If you need a more flexible solution, define a custom template. For Angular, AngularJS and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code gives a simple example of how you can use **dxTemplate** to customize items on the toolbar and commands on the overflow menu.
+If you need a more flexible solution, define a custom template. For Angular, AngularJS and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code gives a simple example of how you can use **dxTemplate** to customize items on the toolbar and commands on the overflow menu.
 
 ---
 ##### Angular
@@ -236,7 +236,7 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 #####See Also#####
 - [Toolbar - Specify Item Type](/concepts/05%20Widgets/Toolbar/05%20Specify%20Item%20Type.md '/Documentation/Guide/Widgets/Toolbar/Specify_Item_Type')
 - [Toolbar - Specify Item Location](/concepts/05%20Widgets/Toolbar/10%20Specify%20Item%20Location.md '/Documentation/Guide/Widgets/Toolbar/Specify_Item_Location')
-- [Toolbar Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Toolbar/Overview/)
-- [Toolbar API Reference](/api-reference/10%20UI%20Widgets/dxToolbar/dxToolbar.md '/Documentation/ApiReference/UI_Widgets/dxToolbar/')
+- [Toolbar Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Toolbar/Overview)
+- [Toolbar API Reference](/api-reference/10%20UI%20Widgets/dxToolbar '/Documentation/ApiReference/UI_Widgets/dxToolbar/')
 
 [tags]toolbar, item appearance, customize, templates, template, custom template, default item, default template

@@ -18,5 +18,5 @@ Applies changes immediately.
 Applies changes when a user clicks **OK** or cancels them when a user clicks **Cancel**. 
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/PivotGrid/IntegratedFieldChooser/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/PivotGrid/IntegratedFieldChooser/"
 }

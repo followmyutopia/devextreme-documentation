@@ -79,8 +79,8 @@ Additionally, you can apply shading to cover the timetable up to the current tim
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/CurrentTimeIndicator/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/CurrentTimeIndicator/"
 }
 
 #####See Also#####
-- [Scheduler API Reference](/api-reference/10%20UI%20Widgets/dxScheduler/dxScheduler.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/')
+- [Scheduler API Reference](/api-reference/10%20UI%20Widgets/dxScheduler '/Documentation/ApiReference/UI_Widgets/dxScheduler/')

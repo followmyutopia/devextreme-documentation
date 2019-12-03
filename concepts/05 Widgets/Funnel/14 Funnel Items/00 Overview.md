@@ -51,7 +51,7 @@ Funnel items get their colors from the [palette](/api-reference/20%20Data%20Visu
 
 ---
 
-To configure other aspects of the funnel items' appearance, use the [item](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/1%20Configuration/item/item.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/item/') object.
+To configure other aspects of the funnel items' appearance, use the [item](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/1%20Configuration/item '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/item/') object.
 
 ---
 ##### jQuery
@@ -96,6 +96,6 @@ To configure other aspects of the funnel items' appearance, use the [item](/api-
 Refer to other topics in this section for details on the main funnel item features.
 
 #####See Also#####
-- [Funnel Item Hover](/concepts/05%20Widgets/Funnel/14%20Funnel%20Items/10%20Hover/Hover.md '/Documentation/Guide/Widgets/Funnel/Funnel_Items/Hover/')
-- [Funnel Item Selection](/concepts/05%20Widgets/Funnel/14%20Funnel%20Items/20%20Selection/Selection.md '/Documentation/Guide/Widgets/Funnel/Funnel_Items/Selection/')
-- [Funnel Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/FunnelChart/)
+- [Funnel Item Hover](/concepts/05%20Widgets/Funnel/14%20Funnel%20Items/10%20Hover '/Documentation/Guide/Widgets/Funnel/Funnel_Items/Hover/')
+- [Funnel Item Selection](/concepts/05%20Widgets/Funnel/14%20Funnel%20Items/20%20Selection '/Documentation/Guide/Widgets/Funnel/Funnel_Items/Selection/')
+- [Funnel Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/FunnelChart)

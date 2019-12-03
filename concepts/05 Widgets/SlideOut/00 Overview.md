@@ -1,7 +1,7 @@
 The **SlideOut** widget is a classic slide-out menu paired with a view. An end user opens the menu by swiping away the view.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Slideout/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Slideout/Overview/"
 }
 
 The following code adds a primitive **SlideOut** to your page.
@@ -57,6 +57,6 @@ Note that the [dataSource](/api-reference/10%20UI%20Widgets/CollectionWidget/1%2
 - [SlideOut - Group Menu Items](/concepts/05%20Widgets/SlideOut/08%20Group%20Menu%20Items.md '/Documentation/Guide/Widgets/SlideOut/Group_Menu_Items')
 - [SlideOut - Customize the View](/concepts/05%20Widgets/SlideOut/10%20Customize%20the%20View.md '/Documentation/Guide/Widgets/SlideOut/Customize_the_View')
 - [SlideOut - Open and Close the Menu Using the API](/concepts/05%20Widgets/SlideOut/15%20Open%20and%20Close%20the%20Menu%20Using%20the%20API.md '/Documentation/Guide/Widgets/SlideOut/Open_and_Close_the_Menu_Using_the_API')
-- [SlideOut API Reference](/api-reference/10%20UI%20Widgets/dxSlideOut/dxSlideOut.md '/Documentation/ApiReference/UI_Widgets/dxSlideOut/')
+- [SlideOut API Reference](/api-reference/10%20UI%20Widgets/dxSlideOut '/Documentation/ApiReference/UI_Widgets/dxSlideOut/')
 
 [tags]slide-out menu, slideOut, navigation, collection container, collection widget, overview

@@ -1,6 +1,6 @@
 We recommend configuring one of the following features for a user to navigate a large dataset:
 
-- [**Pager**](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/pager/pager.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/pager/')        
+- [**Pager**](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/pager '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/pager/')        
 The pager allows a user to switch between pages in the dataset. This is the default navigation method.
 
 - **Virtual scrolling**        

@@ -6,7 +6,7 @@ default: undefined
 ---
 ---
 ##### shortDescription
-Specifies a set of available filter operations. Applies only if [filterRow](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/filterRow/filterRow.md '{basewidgetpath}/Configuration/filterRow/').**visible** and [allowFiltering](/api-reference/_hidden/GridBaseColumn/allowFiltering.md '{basewidgetpath}/Configuration/columns/#allowFiltering') are **true**.
+Specifies a set of available filter operations. Applies only if [filterRow](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/filterRow '{basewidgetpath}/Configuration/filterRow/').**visible** and [allowFiltering](/api-reference/_hidden/GridBaseColumn/allowFiltering.md '{basewidgetpath}/Configuration/columns/#allowFiltering') are **true**.
 
 ---
 The following table lists available filters by [data types](/api-reference/_hidden/GridBaseColumn/dataType.md '{basewidgetpath}/Configuration/columns/#dataType'). The same filters are assigned to columns of a specific data type by default.

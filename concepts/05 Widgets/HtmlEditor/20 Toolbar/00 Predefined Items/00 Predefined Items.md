@@ -7,7 +7,7 @@ Predefined toolbar items include:
 * Select boxes that apply multiple-choice formats. 
 * Separators that are not user-interactive and only divide other elements.
 
-![DevExtreme HTML5 JavaScript HtmlEditor Toolbar](Content/images/doc/20_1/htmlEditor/visual_elements/toolbar.png)
+![DevExtreme HTML5 JavaScript HtmlEditor Toolbar](/images/htmlEditor/visual_elements/toolbar.png)
 
 The following table lists toolbar items and the formats they apply (if applicable):
 
@@ -151,7 +151,7 @@ The following table lists toolbar items and the formats they apply (if applicabl
 </table>
 </div>
  
-To add a button to the toolbar, add its [name](/concepts/05%20Widgets/HtmlEditor/20%20Toolbar/00%20Predefined%20Items/00%20Predefined%20Items.md '/Documentation/Guide/Widgets/HtmlEditor/Toolbar/Predefined_Items/') to the [items](/api-reference/_hidden/dxHtmlEditorToolbar/items/items.md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/') array:
+To add a button to the toolbar, add its [name](/concepts/05%20Widgets/HtmlEditor/20%20Toolbar/00%20Predefined%20Items '/Documentation/Guide/Widgets/HtmlEditor/Toolbar/Predefined_Items/') to the [items](/api-reference/_hidden/dxHtmlEditorToolbar/items '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/') array:
  
 ---
 #####jQuery

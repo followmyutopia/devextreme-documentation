@@ -77,7 +77,7 @@ In the following code, the **FilterBuilder** allows filtering by three fields, t
 ![DevExtreme HTML5 JavaScript Filter Builder Hierarchical Fields](/images/FilterBuilder/visual_elements/hierarchical_fields.png)
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/FilterBuilder/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/FilterBuilder/"
 }
 
 #####See Also#####

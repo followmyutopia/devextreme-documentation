@@ -6,7 +6,7 @@ default: ['day', 'week']
 ---
 ---
 ##### shortDescription
-Specifies and configures the [views](/concepts/05%20Widgets/Scheduler/060%20Views/010%20View%20Types/View%20Types.md '/Documentation/Guide/Widgets/Scheduler/Views/View_Types/') to be available in the [view switcher](/concepts/05%20Widgets/Scheduler/070%20View%20Switcher.md '/Documentation/Guide/Widgets/Scheduler/View_Switcher/').
+Specifies and configures the [views](/concepts/05%20Widgets/Scheduler/060%20Views/010%20View%20Types '/Documentation/Guide/Widgets/Scheduler/Views/View_Types/') to be available in the [view switcher](/concepts/05%20Widgets/Scheduler/070%20View%20Switcher.md '/Documentation/Guide/Widgets/Scheduler/View_Switcher/').
 
 ---
 This option accepts an array of strings and objects:
@@ -25,5 +25,5 @@ To specify the default view, use the [currentView](/api-reference/10%20UI%20Widg
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/CustomizeIndividualViews/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/CustomizeIndividualViews/"
 }

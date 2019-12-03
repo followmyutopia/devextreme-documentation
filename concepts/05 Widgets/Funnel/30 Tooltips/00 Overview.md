@@ -2,7 +2,7 @@ A tooltip is a small pop-up rectangle that displays information about a funnel i
 
 ![Funnel Tooltip](/images/Funnel/visual_elements/tooltip.png)
 
-All options configuring tooltips are collected in the [tooltip](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/1%20Configuration/tooltip/tooltip.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/tooltip/') object. For example, to enable tooltips, assign **true** to this object's **enabled** option.
+All options configuring tooltips are collected in the [tooltip](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/1%20Configuration/tooltip '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/tooltip/') object. For example, to enable tooltips, assign **true** to this object's **enabled** option.
 
 ---
 ##### jQuery
@@ -92,4 +92,4 @@ Options declared in the **tooltip** object apply to all tooltips in the **Funnel
 
 #####See Also#####
 - [Show and Hide a Tooltip](/concepts/05%20Widgets/Funnel/30%20Tooltips/10%20Show%20and%20Hide%20a%20Tooltip.md '/Documentation/Guide/Widgets/Funnel/Tooltips/Show_and_Hide_a_Tooltip/')
-- [Funnel Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/FunnelChart/)
+- [Funnel Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/FunnelChart)

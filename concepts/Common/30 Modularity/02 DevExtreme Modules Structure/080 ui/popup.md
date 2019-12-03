@@ -2,7 +2,7 @@ Exposes the **Popup** widget.
 
 Exports:
 
-- *default* - The [Popup](/api-reference/10%20UI%20Widgets/dxPopup/dxPopup.md '/Documentation/ApiReference/UI_Widgets/dxPopup/') widget
+- *default* - The [Popup](/api-reference/10%20UI%20Widgets/dxPopup '/Documentation/ApiReference/UI_Widgets/dxPopup/') widget
 
         require("ui/popup");
         // ===== or =====

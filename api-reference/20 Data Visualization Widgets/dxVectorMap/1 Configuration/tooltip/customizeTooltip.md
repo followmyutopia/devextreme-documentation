@@ -22,10 +22,10 @@ The tooltip's text or markup and color.
 #include dataviz-ref-functioncontext
 
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/Vector_Map/ColorsCustomization/",
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Vector_Map/ColorsCustomization/",
     name: "Colors Customization"
 }
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/VectorMap/TooltipHTMLSupport/",
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/VectorMap/TooltipHTMLSupport/",
     name: "Tooltip HTML Support"
 }

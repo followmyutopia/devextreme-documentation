@@ -106,4 +106,4 @@ If objects in the array need to be processed (sorted, filtered, etc.), you can c
 ---
 
 #####See Also#####
-- [Update Data in the Funnel](/concepts/05%20Widgets/Funnel/03%20Data%20Binding/26%20Update%20Data/Update%20Data.md '/Documentation/Guide/Widgets/Funnel/Data_Binding/Update_Data/')
+- [Update Data in the Funnel](/concepts/05%20Widgets/Funnel/03%20Data%20Binding/26%20Update%20Data '/Documentation/Guide/Widgets/Funnel/Data_Binding/Update_Data/')

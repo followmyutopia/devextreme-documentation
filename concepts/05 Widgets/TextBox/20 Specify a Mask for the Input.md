@@ -257,7 +257,7 @@ If the input value does not match the mask, the **TextBox** displays an error me
 ---
 
 #####See Also#####
-- [TextBox Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/TextBox/Overview/)
-- [TextBox API Reference](/api-reference/10%20UI%20Widgets/dxTextBox/dxTextBox.md '/Documentation/ApiReference/UI_Widgets/dxTextBox/')
+- [TextBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/TextBox/Overview)
+- [TextBox API Reference](/api-reference/10%20UI%20Widgets/dxTextBox '/Documentation/ApiReference/UI_Widgets/dxTextBox/')
 
 [tags]textBox, text box, editor, input pattern, input mask, custom masking elements, maskChar, useMaskedValue

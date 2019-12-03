@@ -11,10 +11,10 @@ Specifies how the button is styled.
 ---
 The following styles are available: 
 
-![Button Styling Modes](Content/images/doc/20_1/UiWidgets/button_stylingMode.png)
+![Button Styling Modes](/images/UiWidgets/button_stylingMode.png)
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Button/PredefinedTypes/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Button/PredefinedTypes/"
 }
 
 #include common-ref-enum with {

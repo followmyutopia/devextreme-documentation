@@ -1,6 +1,6 @@
 Make sure you linked all the required resources before creating a widget:
 
-- **Link Resources**: [Local Scripts](/concepts/00%20Getting%20Started/01%20Installation/10%20Local%20Scripts.md '/Documentation/Guide/Getting_Started/Installation/Local_Scripts/') | [CDN Services](/concepts/00%20Getting%20Started/01%20Installation/05%20CDN%20Services/05%20CDN%20Services.md '/Documentation/Guide/Getting_Started/Installation/CDN_Services/') | [NuGet Package](/concepts/00%20Getting%20Started/01%20Installation/10%20NuGet%20Package.md '/Documentation/Guide/Getting_Started/Installation/NuGet_Package/') | [npm Package](/concepts/00%20Getting%20Started/01%20Installation/01%20npm%20Package/01%20npm%20Package.md '/Documentation/Guide/Getting_Started/Installation/npm_Package/')
+- **Link Resources**: [Local Scripts](/concepts/00%20Getting%20Started/01%20Installation/10%20Local%20Scripts.md '/Documentation/Guide/Getting_Started/Installation/Local_Scripts/') | [CDN Services](/concepts/00%20Getting%20Started/01%20Installation/05%20CDN%20Services '/Documentation/Guide/Getting_Started/Installation/CDN_Services/') | [NuGet Package](/concepts/00%20Getting%20Started/01%20Installation/10%20NuGet%20Package.md '/Documentation/Guide/Getting_Started/Installation/NuGet_Package/') | [npm Package](/concepts/00%20Getting%20Started/01%20Installation/01%20npm%20Package '/Documentation/Guide/Getting_Started/Installation/npm_Package/')
 
 All DevExtreme widgets can be created on a page in the same manner - using a widget-specific Knockout binding. To create, for example, the dxChart widget, add a `<div>` element to the `<body>` tag of your page and use the `dxChart` binding as the following code shows.
 
@@ -56,7 +56,7 @@ As an alternative, you can declare the whole object of widget options in the vie
     <!--HTML--><div data-bind="dxChart: chartOptions"></div>
 
 #####See Also#####
-- **API Reference**.**WidgetName**.**Configuration**, for example, **API Reference**.[Chart](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/dxChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart').[Configuration](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/Configuration.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/')
+- **API Reference**.**WidgetName**.**Configuration**, for example, **API Reference**.[Chart](/api-reference/20%20Data%20Visualization%20Widgets/dxChart '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart').[Configuration](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/')
 - [Change Options](/concepts/00%20Getting%20Started/25%20Widget%20Basics%20-%20Knockout/05%20Change%20Options.md '/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Change_Options')
 
 [tags]basics, knockout, create, configure, initialize, design time, view model

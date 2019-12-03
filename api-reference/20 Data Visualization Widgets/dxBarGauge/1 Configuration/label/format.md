@@ -8,10 +8,10 @@ default: undefined
 Formats a value before it is displayed in a label. Accepts only numeric formats.
 
 ---
-See the [format](/api-reference/50%20Common/Object%20Structures/format/format.md '/Documentation/ApiReference/Common/Object_Structures/format/') section for details on accepted values.
+See the [format](/api-reference/50%20Common/Object%20Structures/format '/Documentation/ApiReference/Common/Object_Structures/format/') section for details on accepted values.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Gauges/LabelsCustomization/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Gauges/LabelsCustomization/"
 }
 
 #####See Also#####

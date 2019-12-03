@@ -26,7 +26,7 @@ The data of the row the cell belongs to. Available if the **rowType** is *"data"
 
 ##### field(e.displayValue): any
 The value displayed in the cell. Available if the **rowType** is *"data"*.      
-Differs from the **value** field only when the cell belongs to a [lookup](/api-reference/_hidden/GridBaseColumn/lookup/lookup.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/lookup/') column.
+Differs from the **value** field only when the cell belongs to a [lookup](/api-reference/_hidden/GridBaseColumn/lookup '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/lookup/') column.
 
 ##### field(e.element): dxElement
 #include common-ref-elementparam with { element: "widget" }

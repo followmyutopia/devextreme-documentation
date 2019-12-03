@@ -3,7 +3,7 @@ id: GridBase.hideColumnChooser()
 ---
 ---
 ##### shortDescription
-Hides the [column chooser](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/columnChooser/columnChooser.md '{basewidgetpath}/Configuration/columnChooser/').
+Hides the [column chooser](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/columnChooser '{basewidgetpath}/Configuration/columnChooser/').
 
 ---
 #####See Also#####

@@ -31,5 +31,5 @@ Model data. Available only if Knockout is used.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/ProgressBar/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/ProgressBar/Overview/"
 }

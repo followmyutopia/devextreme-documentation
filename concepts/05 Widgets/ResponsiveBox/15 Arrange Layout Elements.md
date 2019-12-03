@@ -50,7 +50,7 @@ All layout elements are arranged against a [layout grid](/concepts/05%20Widgets/
 
 ---
 
-Every layout element has the [location](/api-reference/10%20UI%20Widgets/dxResponsiveBox/5%20Default%20Item%20Template/location/location.md '/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Default_Item_Template/location/') option that allows you to relocate the element within the layout grid or hide it on [screens of a specific size](/concepts/05%20Widgets/ResponsiveBox/05%20Size%20Qualifiers.md '/Documentation/Guide/Widgets/ResponsiveBox/Size_Qualifiers/'). For example, in the following code, the *"Left-Side Bar"* and *"Right-Side Bar"* elements are present only on medium and large screens. All the other elements have individual settings for screens of each size.
+Every layout element has the [location](/api-reference/10%20UI%20Widgets/dxResponsiveBox/5%20Default%20Item%20Template/location '/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Default_Item_Template/location/') option that allows you to relocate the element within the layout grid or hide it on [screens of a specific size](/concepts/05%20Widgets/ResponsiveBox/05%20Size%20Qualifiers.md '/Documentation/Guide/Widgets/ResponsiveBox/Size_Qualifiers/'). For example, in the following code, the *"Left-Side Bar"* and *"Right-Side Bar"* elements are present only on medium and large screens. All the other elements have individual settings for screens of each size.
 
 ---
 ##### jQuery
@@ -220,7 +220,7 @@ If on some screens, all elements should be arranged in a single column, assign t
 #####See Also#####
 - [ResponsiveBox - Create the Layout Grid](/concepts/05%20Widgets/ResponsiveBox/10%20Create%20the%20Layout%20Grid.md '/Documentation/Guide/Widgets/ResponsiveBox/Create_the_Layout_Grid/')
 - [ResponsiveBox - Size Qualifiers](/concepts/05%20Widgets/ResponsiveBox/05%20Size%20Qualifiers.md '/Documentation/Guide/Widgets/ResponsiveBox/Size_Qualifiers/')
-- [ResponsiveBox Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/ResponsiveBox/Overview/)
-- [ResponsiveBox API Reference](/api-reference/10%20UI%20Widgets/dxResponsiveBox/dxResponsiveBox.md '/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/')
+- [ResponsiveBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/ResponsiveBox/Overview)
+- [ResponsiveBox API Reference](/api-reference/10%20UI%20Widgets/dxResponsiveBox '/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/')
 
 [tags]responsive box, responsiveBox, adaptive layout, location, arrange in one column, singleColumnScreen

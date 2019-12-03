@@ -1,7 +1,7 @@
-To allow a user to add, delete and update data in the **TreeList**, assign **true** to the corresponding field of the [editing](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/editing/editing.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/editing/') object. 
+To allow a user to add, delete and update data in the **TreeList**, assign **true** to the corresponding field of the [editing](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/editing '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/editing/') object. 
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/CRUDOperations/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/CRUDOperations/"
 }
 
 ---
@@ -282,6 +282,6 @@ With these settings, the **TreeList** expects that the server can also add, upda
 ---
 
 #####See Also#####
-- [Data Layer - DataSource Examples | Custom Sources](/concepts/30%20Data%20Layer/51%20Data%20Source%20Examples/3%20Custom%20Sources/Custom%20Sources.md '/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources')
-- [Data Layer - Overview](/concepts/30%20Data%20Layer/5%20Data%20Layer/Data%20Layer.md '/Documentation/Guide/Data_Layer/Data_Layer/')
-- [TreeList Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/TreeList/Overview/)
+- [Data Layer - DataSource Examples | Custom Sources](/concepts/30%20Data%20Layer/51%20Data%20Source%20Examples/3%20Custom%20Sources '/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources')
+- [Data Layer - Overview](/concepts/30%20Data%20Layer/5%20Data%20Layer '/Documentation/Guide/Data_Layer/Data_Layer/')
+- [TreeList Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/TreeList/Overview)

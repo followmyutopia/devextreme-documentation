@@ -32,7 +32,7 @@ This option accepts the following values.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/List/ListSelection/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListSelection/"
 }
 
 #####See Also#####

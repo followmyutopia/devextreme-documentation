@@ -17,5 +17,5 @@ Can be used if you have grouped map markers or areas in several differently-colo
 Available for markers of a bubble [type](/api-reference/20%20Data%20Visualization%20Widgets/dxVectorMap/1%20Configuration/layers/type.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#type') only. Can be used if you have grouped bubble markers in several groups and specified a size for bubbles in each group. For more information, refer to the [sizeGroupingField](/api-reference/20%20Data%20Visualization%20Widgets/dxVectorMap/1%20Configuration/layers/sizeGroupingField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#sizeGroupingField') and [sizeGroups](/api-reference/20%20Data%20Visualization%20Widgets/dxVectorMap/1%20Configuration/layers/sizeGroups.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#sizeGroups') option descriptions.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/VectorMap/AreaWithLabelsAndTwoLegends/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/VectorMap/AreaWithLabelsAndTwoLegends/"
 }

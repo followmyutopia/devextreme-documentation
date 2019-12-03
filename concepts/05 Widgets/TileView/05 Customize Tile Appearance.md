@@ -1,4 +1,4 @@
-For a minor customization of tiles, you can use the default item template. This template defines the appearance of a tile depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxTileView/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxTileView/Default_Item_Template/') are present or absent from the tile's data object. For example, the following code generates three tiles: the first is disabled, the second is not customized, the third is hidden.
+For a minor customization of tiles, you can use the default item template. This template defines the appearance of a tile depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxTileView/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxTileView/Default_Item_Template/') are present or absent from the tile's data object. For example, the following code generates three tiles: the first is disabled, the second is not customized, the third is hidden.
 
 ---
 #####jQuery
@@ -40,7 +40,7 @@ For a minor customization of tiles, you can use the default item template. This 
 
 ---
 
-If you need a more flexible solution, define a custom template. For Angular, AngularJS and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code gives a simple example of how you can use **dxTemplate** to customize tiles.
+If you need a more flexible solution, define a custom template. For Angular, AngularJS and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code gives a simple example of how you can use **dxTemplate** to customize tiles.
 
 ---
 ##### Angular
@@ -207,7 +207,7 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 
 #####See Also#####
 - [TileView - Specify the Size of Tiles](/concepts/05%20Widgets/TileView/03%20Specify%20the%20Size%20of%20Tiles.md '/Documentation/Guide/Widgets/TileView/Specify_the_Size_of_Tiles')
-- [TileView Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/TileView/Overview/)
-- [TileView API Reference](/api-reference/10%20UI%20Widgets/dxTileView/dxTileView.md '/Documentation/ApiReference/UI_Widgets/dxTileView/')
+- [TileView Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/TileView/Overview)
+- [TileView API Reference](/api-reference/10%20UI%20Widgets/dxTileView '/Documentation/ApiReference/UI_Widgets/dxTileView/')
 
 [tags]tile view, tileView, item appearance, tile appearance, customize, templates, template, custom template, default item, default template

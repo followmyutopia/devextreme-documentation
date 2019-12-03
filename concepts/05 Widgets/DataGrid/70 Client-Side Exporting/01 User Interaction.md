@@ -136,6 +136,6 @@ The resulting file is renamed according to the [fileName](/api-reference/10%20UI
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/ExportToExcel/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/ExportToExcel/"
 }
 

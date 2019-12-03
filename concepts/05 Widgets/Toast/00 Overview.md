@@ -1,7 +1,7 @@
 The **Toast** is a widget that provides pop-up notifications.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Toast/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Toast/Overview/"
 }
 
 The **Toast** widget does not need to be created on the page before it can be shown. You can simply call the [notify(message, type, displayTime)](/api-reference/50%20Common/utils/ui/notify(message_type_displayTime).md '/Documentation/ApiReference/Common/utils/ui/#notifymessage_type_displayTime') method with values for the [message](/api-reference/10%20UI%20Widgets/dxToast/1%20Configuration/message.md '/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#message'), [type](/api-reference/10%20UI%20Widgets/dxToast/1%20Configuration/type.md '/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#type') and [displayTime](/api-reference/10%20UI%20Widgets/dxToast/1%20Configuration/displayTime.md '/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#displayTime') options passed as the arguments.
@@ -30,7 +30,7 @@ The **Toast** widget does not need to be created on the page before it can be sh
 
 ---
 
-If you need to specify other **Toast** options, call the same method, but this time [pass an object as the argument](/Documentation/ApiReference/Common/utils/ui/#notifyoptions). In this object, you can set [any Toast option](/api-reference/10%20UI%20Widgets/dxToast/1%20Configuration/Configuration.md '/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/').
+If you need to specify other **Toast** options, call the same method, but this time [pass an object as the argument](/Documentation/ApiReference/Common/utils/ui/#notifyoptions). In this object, you can set [any Toast option](/api-reference/10%20UI%20Widgets/dxToast/1%20Configuration '/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/').
 
 ---
 #####jQuery
@@ -122,9 +122,9 @@ The appearance of the **Toast** is predefined by its [type](/api-reference/10%20
 
 #####See Also#####
 #include common-link-configurewidget
-- [Toast - Show and Hide](/concepts/05%20Widgets/Toast/05%20Show%20and%20Hide%20the%20Toast/Show%20and%20Hide%20the%20Toast.md '/Documentation/Guide/Widgets/Toast/Show_and_Hide_the_Toast/')
+- [Toast - Show and Hide](/concepts/05%20Widgets/Toast/05%20Show%20and%20Hide%20the%20Toast '/Documentation/Guide/Widgets/Toast/Show_and_Hide_the_Toast/')
 - [Toast - Customize the Content](/concepts/05%20Widgets/Toast/10%20Customize%20the%20Content.md '/Documentation/Guide/Widgets/Toast/Customize_the_Content/')
 - [Toast - Resize and Relocate](/concepts/05%20Widgets/Toast/15%20Resize%20and%20Relocate.md '/Documentation//Guide/Widgets/Toast/Resize_and_Relocate/')
-- [Toast API Reference](/api-reference/10%20UI%20Widgets/dxToast/dxToast.md '/Documentation/ApiReference/UI_Widgets/dxToast/')
+- [Toast API Reference](/api-reference/10%20UI%20Widgets/dxToast '/Documentation/ApiReference/UI_Widgets/dxToast/')
 
 [tags]toast, overview, overlay

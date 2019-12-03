@@ -11,7 +11,7 @@ Allows you to change tooltip appearance.
 Information on the node being pressed or hovered over with the mouse pointer.
 
 ##### field(info.node): dxTreeMapNode
-The [Node](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/6%20Node/Node.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/') object.
+The [Node](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/6%20Node '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/') object.
 
 ##### field(info.value): Number
 The raw node value.

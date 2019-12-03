@@ -76,7 +76,7 @@ To specify the step by which the value is changed, use the [step](/api-reference
 
 #####See Also#####
 #include common-link-handleevents
-- [NumberBox Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/NumberBox/Overview/)
-- [NumberBox API Reference](/api-reference/10%20UI%20Widgets/dxNumberBox/dxNumberBox.md '/Documentation/ApiReference/UI_Widgets/dxNumberBox/')
+- [NumberBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/NumberBox/Overview)
+- [NumberBox API Reference](/api-reference/10%20UI%20Widgets/dxNumberBox '/Documentation/ApiReference/UI_Widgets/dxNumberBox/')
 
 [tags]number box, numberBox, editor, spin buttons, showSpinButtons, step

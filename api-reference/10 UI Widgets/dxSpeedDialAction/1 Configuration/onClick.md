@@ -24,5 +24,5 @@ A DOM element in which the widget is initialized. It is an <a href="https://deve
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FloatingActionButton/Overview/jQuery/MaterialBlueLight/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/FloatingActionButton/Overview/jQuery/MaterialBlueLight/"
 }

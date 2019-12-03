@@ -115,7 +115,7 @@ If you are going to change event handlers at runtime, or if you need to attach s
 #include common-link-handleevents
 - [SelectBox - Configure Search Parameters](/concepts/05%20Widgets/SelectBox/10%20Configure%20Search%20Parameters.md '/Documentation/Guide/Widgets/SelectBox/Configure_Search_Parameters/')
 - [SelectBox - Create a User-Defined Item](/concepts/05%20Widgets/SelectBox/15%20Create%20a%20User-Defined%20Item.md '/Documentation/Guide/Widgets/SelectBox/Create_a_User-Defined_Item/')
-- [SelectBox API Reference](/api-reference/10%20UI%20Widgets/dxSelectBox/dxSelectBox.md '/Documentation/ApiReference/UI_Widgets/dxSelectBox/')
-- [SelectBox Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/SelectBox/Overview/)
+- [SelectBox API Reference](/api-reference/10%20UI%20Widgets/dxSelectBox '/Documentation/ApiReference/UI_Widgets/dxSelectBox/')
+- [SelectBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/SelectBox/Overview)
 
 [tags]selectBox, select box, editor, get value, set value, change value, valueChangeEvent, valueChanged

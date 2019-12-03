@@ -10,5 +10,5 @@ inherits: DraggableBase
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Sortable/Kanban/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Sortable/Kanban/"
 }

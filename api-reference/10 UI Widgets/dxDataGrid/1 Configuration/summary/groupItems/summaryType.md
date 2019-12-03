@@ -33,4 +33,4 @@ Applies a custom server-side aggregate function. Refer to [Server-Side Data Aggr
 } To apply a custom server-side aggregate function, use a string overload instead. 
 
 #####See Also#####
-- [Group Summary](/concepts/05%20Widgets/DataGrid/65%20Summaries/20%20Group%20Summary/Group%20Summary.md '/Documentation/Guide/Widgets/DataGrid/Summaries/Group_Summary/')
+- [Group Summary](/concepts/05%20Widgets/DataGrid/65%20Summaries/20%20Group%20Summary '/Documentation/Guide/Widgets/DataGrid/Summaries/Group_Summary/')

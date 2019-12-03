@@ -1,4 +1,4 @@
-For a minor customization of **NavBar** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxNavBar/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxNavBar/Default_Item_Template/') are present or absent from the item's data object. For example, the following code generates three items. Each of them has an [icon](/concepts/60%20Themes%20and%20Styles/30%20Icons/10%20Built-In%20Icon%20Library.md '/Documentation/Guide/Themes_and_Styles/Icons/#Built-In_Icon_Library'). In addition, the second item is disabled, and the third item has a badge.
+For a minor customization of **NavBar** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxNavBar/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxNavBar/Default_Item_Template/') are present or absent from the item's data object. For example, the following code generates three items. Each of them has an [icon](/concepts/60%20Themes%20and%20Styles/30%20Icons/10%20Built-In%20Icon%20Library.md '/Documentation/Guide/Themes_and_Styles/Icons/#Built-In_Icon_Library'). In addition, the second item is disabled, and the third item has a badge.
 
 ---
 ##### jQuery
@@ -39,7 +39,7 @@ For a minor customization of **NavBar** items, you can use the default item temp
 
 ---
 
-If you need a more flexible solution, define a custom template. For Angular, AngularJS, and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code gives a simple example of how you can use **dxTemplate** to customize items in the **NavBar**.
+If you need a more flexible solution, define a custom template. For Angular, AngularJS, and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code gives a simple example of how you can use **dxTemplate** to customize items in the **NavBar**.
 
 ---
 ##### Angular
@@ -173,9 +173,9 @@ You can also customize an individual navigation item. For this purpose, declare 
 In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/concepts/05%20Widgets/zz%20Common/30%20Templates/30%203rd-Party%20Template%20Engines.md '/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines') article.
 
 #####See Also#####
-- [NavBar - Default Item Template](/api-reference/10%20UI%20Widgets/dxNavBar/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxNavBar/Default_Item_Template/') 
+- [NavBar - Default Item Template](/api-reference/10%20UI%20Widgets/dxNavBar/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxNavBar/Default_Item_Template/') 
 - [NavBar - Items Selection](/concepts/05%20Widgets/NavBar/10%20Items%20Selection.md '/Documentation/Guide/Widgets/NavBar/Items_Selection/')
-- [NavBar Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Navbar/Overview/)
-- [NavBar API Reference](/api-reference/10%20UI%20Widgets/dxNavBar/dxNavBar.md '/Documentation/ApiReference/UI_Widgets/dxNavBar/')
+- [NavBar Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Navbar/Overview)
+- [NavBar API Reference](/api-reference/10%20UI%20Widgets/dxNavBar '/Documentation/ApiReference/UI_Widgets/dxNavBar/')
 
 [tags]nav bar, navBar, navigation bar, item appearance, customize, templates, template, custom template, default item, default template

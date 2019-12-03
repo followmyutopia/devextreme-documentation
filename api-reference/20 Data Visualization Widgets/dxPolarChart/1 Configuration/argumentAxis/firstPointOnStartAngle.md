@@ -11,5 +11,5 @@ Specifies whether or not to display the first point at the angle specified by th
 This option is specific to a discrete argument axis. 
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/WindRose/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/WindRose/"
 }

@@ -155,4 +155,4 @@ There are no restrictions for rearranging fields in the [areas](/api-reference/3
 ---
 
 #####See Also#####
-- [Fields and Areas](/concepts/05%20Widgets/PivotGrid/020%20Fields%20and%20Areas/Fields%20and%20Areas.md '/Documentation/Guide/Widgets/PivotGrid/Fields_and_Areas/')
+- [Fields and Areas](/concepts/05%20Widgets/PivotGrid/020%20Fields%20and%20Areas '/Documentation/Guide/Widgets/PivotGrid/Fields_and_Areas/')

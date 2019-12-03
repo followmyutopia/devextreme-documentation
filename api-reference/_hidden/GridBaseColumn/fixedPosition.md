@@ -15,4 +15,4 @@ Specifies the widget's edge to which the column is fixed. Applies only if **colu
 }
 
 #####See Also#####
-- [columnFixing](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/columnFixing/columnFixing.md '{basewidgetpath}/Configuration/columnFixing/')
+- [columnFixing](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/columnFixing '{basewidgetpath}/Configuration/columnFixing/')

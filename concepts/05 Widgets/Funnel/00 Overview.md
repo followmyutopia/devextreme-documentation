@@ -1,7 +1,7 @@
 The **Funnel** is a widget that visualizes a value at different stages in the form of a funnel. It helps assess value changes throughout these stages and identify potential issues.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/FunnelChart/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/FunnelChart/"
 }
 
 The **Funnel** can visualize data from any source. Refer to the following topics for details on how to bind the **Funnel** to your data source:
@@ -25,9 +25,9 @@ After that, give the widget a distinctive look and make it more informative with
 Finally, add some interactivity:
 
 - [Tooltips](/concepts/05%20Widgets/Funnel/30%20Tooltips/00%20Overview.md '/Documentation/Guide/Widgets/Funnel/Tooltips/Overview/')
-- [Client-Side Exporting and Printing](/concepts/05%20Widgets/Funnel/99%20Client-Side%20Exporting%20and%20Printing/Client-Side%20Exporting%20and%20Printing.md '/Documentation/Guide/Widgets/Funnel/Client-Side_Exporting_and_Printing/')
+- [Client-Side Exporting and Printing](/concepts/05%20Widgets/Funnel/99%20Client-Side%20Exporting%20and%20Printing '/Documentation/Guide/Widgets/Funnel/Client-Side_Exporting_and_Printing/')
 - [Adaptive Layout](/concepts/05%20Widgets/Funnel/89%20Adaptive%20Layout.md '/Documentation/Guide/Widgets/Funnel/Adaptive_Layout/')
 
 #####See Also#####
-- [Funnel Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/FunnelChart/)
-- [Funnel API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/dxFunnel.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/')
+- [Funnel Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/FunnelChart)
+- [Funnel API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/')

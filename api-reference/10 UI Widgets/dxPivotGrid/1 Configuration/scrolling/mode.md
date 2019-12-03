@@ -23,5 +23,5 @@ There are two different scrolling modes.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/PivotGrid/VirtualScrolling/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/PivotGrid/VirtualScrolling/"
 }

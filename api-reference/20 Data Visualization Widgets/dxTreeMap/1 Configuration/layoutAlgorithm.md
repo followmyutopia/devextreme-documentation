@@ -66,5 +66,5 @@ In addition, you can change the layout direction. For this purpose, use the [lay
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/TilingAlgorithms/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/TilingAlgorithms/"
 }

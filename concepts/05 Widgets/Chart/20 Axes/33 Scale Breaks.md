@@ -2,7 +2,7 @@ A scale break allows breaking off a part of the axis to improve the readability 
 
 ![DevExtreme HTML5 JavaScript Charts Scale Breaks](/images/ChartJS/visual_elements/scale-breaks_val-axis.png)
 
-Use an axis' [breaks](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis/breaks/breaks.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/breaks/') array to declare a scale break collection. Each object in this array must have the **startValue** and **endValue** fields that limit a single scale break. Note that a scale break is visible only if the range between the start and end values exceeds the tick interval.
+Use an axis' [breaks](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis/breaks '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/breaks/') array to declare a scale break collection. Each object in this array must have the **startValue** and **endValue** fields that limit a single scale break. Note that a scale break is visible only if the range between the start and end values exceeds the tick interval.
 
 ---
 ##### jQuery

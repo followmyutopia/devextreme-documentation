@@ -2,7 +2,7 @@ Titles and subtitles are textual elements that provide an overview of what the w
 
 ![Sankey Title and Subtitle](/images/sankey/visual_elements/title.png)
 
-The [title](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/title/title.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/title/') object configures the title; the **title**.[subtitle](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/title/subtitle/subtitle.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/title/subtitle/') object configures the subtitle.
+The [title](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/title '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/title/') object configures the title; the **title**.[subtitle](/api-reference/20%20Data%20Visualization%20Widgets/BaseWidget/1%20Configuration/title/subtitle '/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/title/subtitle/') object configures the subtitle.
 
 ---
 ##### jQuery
@@ -81,7 +81,7 @@ You can set the title's text more concisely if you assign it directly to the **t
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/SankeyChart/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/SankeyChart/"
 }
 
 #####See Also#####

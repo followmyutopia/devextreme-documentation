@@ -1,7 +1,7 @@
 The **Menu** widget is a panel with clickable items. A click on an item opens a drop-down menu, which can contain several submenus.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Menu/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Menu/Overview/"
 }
 
 The following code adds the **Menu** widget to your page. Note that the data source of the widget declares several nesting levels. First-level items produce items for the widget panel, or "root items". Other items go to drop-down menus.
@@ -103,6 +103,6 @@ The following code adds the **Menu** widget to your page. Note that the data sou
 - [Menu - Access the Clicked Item](/concepts/05%20Widgets/Menu/03%20Access%20the%20Clicked%20Item.md '/Documentation/Guide/Widgets/Menu/Access_the_Clicked_Item/')
 - [Menu - Customize Item Appearance](/concepts/05%20Widgets/Menu/05%20Customize%20Item%20Appearance.md '/Documentation/Guide/Widgets/Menu/Customize_Item_Appearance')
 - [Menu - Change the Orientation](/concepts/05%20Widgets/Menu/10%20Change%20the%20Orientation.md '/Documentation/Guide/Widgets/Menu/Change_the_Orientation')
-- [Menu API Reference](/api-reference/10%20UI%20Widgets/dxMenu/dxMenu.md '/Documentation/ApiReference/UI_Widgets/dxMenu/')
+- [Menu API Reference](/api-reference/10%20UI%20Widgets/dxMenu '/Documentation/ApiReference/UI_Widgets/dxMenu/')
 
 [tags]menu, navigation, collection container, collection widget, overview

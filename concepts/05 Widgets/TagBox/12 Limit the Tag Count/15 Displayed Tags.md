@@ -116,5 +116,5 @@ You can also customize the multi-tag within the [onMultiTagPreparing](/api-refer
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TagBox/TagCountLimitation/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/TagBox/TagCountLimitation/"
 }

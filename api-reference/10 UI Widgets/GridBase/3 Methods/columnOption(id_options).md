@@ -13,5 +13,5 @@ The options with their new values.
 
 ---
 #####See Also#####
-- [columns](/api-reference/_hidden/GridBaseColumn/GridBaseColumn.md '{basewidgetpath}/Configuration/columns/')
+- [columns](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/columns '{basewidgetpath}/Configuration/columns/')
 #include common-link-callmethods

@@ -2,7 +2,7 @@ The **Chart** widget visualizes data on the rectangular coordinate system. In th
 
 ![DevExtreme HTML5 JavaScript Charts Axis Axes](/images/ChartJS/visual_elements/axes.png)
 
-To configure the argument or value axis individually, use the [argumentAxis](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis/argumentAxis.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/') or [valueAxis](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis/valueAxis.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/') object respectively. If the axes share certain settings between each other, specify them in the [commonAxisSettings](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonAxisSettings/commonAxisSettings.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/') object, but note that axis-specific settings override common settings.
+To configure the argument or value axis individually, use the [argumentAxis](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/argumentAxis '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/') or [valueAxis](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/valueAxis '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/') object respectively. If the axes share certain settings between each other, specify them in the [commonAxisSettings](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonAxisSettings '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/') object, but note that axis-specific settings override common settings.
 
 ---
 ##### jQuery
@@ -113,12 +113,12 @@ Usually, the **Chart** chooses the axis type automatically according to the type
     
 ---
 
-For better readability of visualized data, any axis is divided into parts using ticks. Different axis types demand ticks to be arranged differently. See the [Arrange Axis Ticks](/concepts/05%20Widgets/Chart/20%20Axes/10%20Arrange%20Axis%20Ticks/Arrange%20Axis%20Ticks.md '/Documentation/Guide/Widgets/Chart/Axes/Arrange_Axis_Ticks/') topic for further details.
+For better readability of visualized data, any axis is divided into parts using ticks. Different axis types demand ticks to be arranged differently. See the [Arrange Axis Ticks](/concepts/05%20Widgets/Chart/20%20Axes/10%20Arrange%20Axis%20Ticks '/Documentation/Guide/Widgets/Chart/Axes/Arrange_Axis_Ticks/') topic for further details.
 
 #####See Also#####
 - [Rotate and Invert the Chart](/concepts/05%20Widgets/Chart/90%20Rotate%20and%20Invert%20the%20Chart.md '/Documentation/Guide/Widgets/Chart/Rotate_and_Invert_the_Chart/')
 - [Multi-Axis Chart](/concepts/05%20Widgets/Chart/20%20Axes/70%20Multi-Axis%20Chart.md '/Documentation/Guide/Widgets/Chart/Axes/Multi-Axis_Chart/')
-- [Chart Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/LogarithmicAxis/)
-- [Chart API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/dxChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/')
+- [Chart Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/LogarithmicAxis)
+- [Chart API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxChart '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/')
 
 [tags]chart, axes, argument axis, value axis, axis type, continuous axis, discrete axis, logarithmic axis, logarithmBase, argumentType, valueType

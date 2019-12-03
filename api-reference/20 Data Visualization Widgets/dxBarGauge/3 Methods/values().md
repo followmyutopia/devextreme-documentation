@@ -10,7 +10,7 @@ The values.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Gauges/VariableNumberOfBars/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Gauges/VariableNumberOfBars/"
 }
 
 #####See Also#####

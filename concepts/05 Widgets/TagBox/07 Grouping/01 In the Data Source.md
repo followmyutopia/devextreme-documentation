@@ -70,7 +70,7 @@ Items in the **TagBox** can be grouped if they are grouped in the data source. T
 
 [note]Only one-level grouping is supported.
 
-If objects in your data source miss the **key** and **items** fields, use the [map](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/map.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#map') function of the [DevExtreme DataSource](/api-reference/30%20Data%20Layer/DataSource/DataSource.md '/Documentation/ApiReference/Data_Layer/DataSource/') to create **key** + **items** field mappings. You can find more information on the **map** function in the [Data Layer - Item Mapping](/concepts/30%20Data%20Layer/5%20Data%20Layer/2%20Reading%20Data/3%20Data%20Transformation/1%20Item%20Mapping.md '/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Data_Transformation/Item_Mapping') topic.
+If objects in your data source miss the **key** and **items** fields, use the [map](/api-reference/30%20Data%20Layer/DataSource/1%20Configuration/map.md '/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#map') function of the [DevExtreme DataSource](/api-reference/30%20Data%20Layer/DataSource '/Documentation/ApiReference/Data_Layer/DataSource/') to create **key** + **items** field mappings. You can find more information on the **map** function in the [Data Layer - Item Mapping](/concepts/30%20Data%20Layer/5%20Data%20Layer/2%20Reading%20Data/3%20Data%20Transformation/1%20Item%20Mapping.md '/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Data_Transformation/Item_Mapping') topic.
 
 ---
 #####jQuery
@@ -226,11 +226,11 @@ If your data is not grouped at all, you can group it using the [group](/api-refe
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Tag_Box/GroupedItems/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tag_Box/GroupedItems/"
 }
 
 #####See Also#####
 - [TagBox - Grouping | Customize Group Headers](/concepts/05%20Widgets/TagBox/07%20Grouping/05%20Customize%20Group%20Headers.md '/Documentation/Guide/Widgets/TagBox/Grouping/Customize_Group_Headers/')
-- [TagBox API Reference](/api-reference/10%20UI%20Widgets/dxTagBox/dxTagBox.md '/Documentation/ApiReference/UI_Widgets/dxTagBox/')
+- [TagBox API Reference](/api-reference/10%20UI%20Widgets/dxTagBox '/Documentation/ApiReference/UI_Widgets/dxTagBox/')
 
 [tags]tagBox, grouped, key, items, group items, map items

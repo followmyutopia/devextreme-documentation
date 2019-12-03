@@ -1,4 +1,4 @@
-User input is validated against a set of [validation rules](/api-reference/10%20UI%20Widgets/dxValidator/8%20Validation%20Rules/Validation%20Rules.md '/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/'). You can configure them in a column's [validationRules](/api-reference/_hidden/GridBaseColumn/validationRules.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#validationRules') array. Validation rules are attached to the editors and do not depend on the current edit mode.
+User input is validated against a set of [validation rules](/api-reference/10%20UI%20Widgets/dxValidator/8%20Validation%20Rules '/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/'). You can configure them in a column's [validationRules](/api-reference/_hidden/GridBaseColumn/validationRules.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#validationRules') array. Validation rules are attached to the editors and do not depend on the current edit mode.
 
 ---
 ##### jQuery
@@ -102,7 +102,7 @@ The [onRowValidating](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuratio
 ---
 
 #####See Also#####
-- [Data Validation](/concepts/05%20Widgets/zz%20Common/05%20UI%20Widgets/20%20Data%20Validation/Data%20Validation.md '/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/')
+- [Data Validation](/concepts/05%20Widgets/zz%20Common/05%20UI%20Widgets/20%20Data%20Validation '/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/')
 
 
 

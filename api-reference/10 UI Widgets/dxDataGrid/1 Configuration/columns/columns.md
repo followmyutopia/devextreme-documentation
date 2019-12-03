@@ -16,14 +16,14 @@ Column options define the behavior and appearance of a grid column. One of the o
 To get or set an option or several options for a column at runtime, use the [columnOption](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/columnOption(id).md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#columnOptionid') method with the required arguments.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/ColumnCustomization/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/ColumnCustomization/"
 }
 
 #####See Also#####
-- [Column Types](/concepts/05%20Widgets/DataGrid/15%20Columns/10%20Column%20Types/1%20Data%20Columns.md '/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/')
+- [Column Types](/concepts/05%20Widgets/DataGrid/15%20Columns/10%20Column%20Types '/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/')
 - [Customize Column Headers](/concepts/05%20Widgets/DataGrid/15%20Columns/15%20Customize%20Column%20Headers.md '/Documentation/Guide/Widgets/DataGrid/Columns/Customize_Column_Headers/')
 - [Column Sizing](/concepts/05%20Widgets/DataGrid/15%20Columns/20%20Column%20Sizing.md '/Documentation/Guide/Widgets/DataGrid/Columns/Column_Sizing/')
-- [Column Reordering](/concepts/05%20Widgets/DataGrid/15%20Columns/25%20Column%20Reordering/Column%20Reordering.md '/Documentation/Guide/Widgets/DataGrid/Columns/Column_Reordering/')
+- [Column Reordering](/concepts/05%20Widgets/DataGrid/15%20Columns/25%20Column%20Reordering '/Documentation/Guide/Widgets/DataGrid/Columns/Column_Reordering/')
 - [Column Fixing](/concepts/05%20Widgets/DataGrid/15%20Columns/30%20Column%20Fixing.md '/Documentation/Guide/Widgets/DataGrid/Columns/Column_Fixing/')
 - [Hide a Column Using the API](/concepts/05%20Widgets/DataGrid/15%20Columns/35%20Hide%20a%20Column%20Using%20the%20API.md '/Documentation/Guide/Widgets/DataGrid/Columns/Hide_a_Column_Using_the_API/')
 - [Adaptability](/concepts/05%20Widgets/DataGrid/15%20Columns/50%20Adaptability.md '/Documentation/Guide/Widgets/DataGrid/Columns/Adaptability/')

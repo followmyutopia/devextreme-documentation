@@ -11,7 +11,7 @@ Customizes the text displayed by the label that belongs to the horizontal crossh
 Information about the point a user paused on.
 
 ##### field(info.point): chartPointObject
-The [Point](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/7%20Chart%20Elements/Point/Point.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/') object.
+The [Point](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/7%20Chart%20Elements/Point '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/') object.
 
 ##### field(info.value): Date | Number | String
 The raw point value.

@@ -5,7 +5,7 @@ A multi-pane chart distributes a collection of series between several panes, thu
 To configure a multi-pane chart, follow the steps below.
 
 1. **Create and name the panes**         
-Declare several objects in the [panes](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/panes/panes.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/panes/') array. Each object configures a single pane. Then, give each pane a unique [name](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/panes/name.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/panes/#name').
+Declare several objects in the [panes](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/panes '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/panes/') array. Each object configures a single pane. Then, give each pane a unique [name](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/panes/name.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/panes/#name').
 
     ---
     ##### jQuery
@@ -135,7 +135,7 @@ Bind each series to a pane using the [pane](/api-reference/20%20Data%20Visualiza
 
     ---
 
-If all panes in a multi-pane chart should have uniform settings, you can specify them in the [commonPaneSettings](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonPaneSettings/commonPaneSettings.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonPaneSettings/') object.
+If all panes in a multi-pane chart should have uniform settings, you can specify them in the [commonPaneSettings](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonPaneSettings '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonPaneSettings/') object.
 
 ---
 ##### jQuery
@@ -182,10 +182,10 @@ If all panes in a multi-pane chart should have uniform settings, you can specify
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/MultiplePanes/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/MultiplePanes/"
 }
 
 #####See Also#####
-- [Chart API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/dxChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/')
+- [Chart API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxChart '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/')
 
 [tags]chart, panes, multi-pane chart, commonPaneSettings

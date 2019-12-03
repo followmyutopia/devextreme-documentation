@@ -10,7 +10,7 @@ Configures the file and folder view.
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FileManager/CustomThumbnails/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/FileManager/CustomThumbnails/"
 }
 
 ![DevExtreme File Manager - Item View](/images/FileManager/item-view.png)

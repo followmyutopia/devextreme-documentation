@@ -10,7 +10,7 @@ Configures toolbar settings.
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FileManager/UICustomization/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/FileManager/UICustomization/"
 }
 
 ![DevExtreme File Manager - Toolbar](/images/FileManager/toolbar.png)

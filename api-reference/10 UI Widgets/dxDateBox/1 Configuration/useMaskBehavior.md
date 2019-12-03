@@ -9,7 +9,7 @@ Specifies whether to control user input using a mask created based on the [displ
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DateBox/Formatting/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DateBox/Formatting/"
 }
 
 #####See Also#####

@@ -119,7 +119,7 @@ A simple item can be accompanied by a line of text that gives a hint, for exampl
 
 ---
 
-You can modify automatically generated items using the [customizeItem](/api-reference/10%20UI%20Widgets/dxForm/1%20Configuration/customizeItem.md '/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#customizeItem') function. This function is called for each item before it is rendered. To access the item, use the function's parameter. Its structure mirrors the [Simple Item](/api-reference/10%20UI%20Widgets/dxForm/5%20Item%20Types/SimpleItem/SimpleItem.md '/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/') structure, therefore, you can modify any option available for a simple item.
+You can modify automatically generated items using the [customizeItem](/api-reference/10%20UI%20Widgets/dxForm/1%20Configuration/customizeItem.md '/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#customizeItem') function. This function is called for each item before it is rendered. To access the item, use the function's parameter. Its structure mirrors the [Simple Item](/api-reference/10%20UI%20Widgets/dxForm/5%20Item%20Types/SimpleItem '/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/') structure, therefore, you can modify any option available for a simple item.
 
 ---
 ##### jQuery
@@ -191,13 +191,13 @@ You can modify automatically generated items using the [customizeItem](/api-refe
 
 ---
 
-[note]The **customizeItem** function is called for each item including [group](/api-reference/10%20UI%20Widgets/dxForm/5%20Item%20Types/GroupItem/GroupItem.md '/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/GroupItem/'), [tabbed](/api-reference/10%20UI%20Widgets/dxForm/5%20Item%20Types/TabbedItem/TabbedItem.md '/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/TabbedItem/') and [empty](/api-reference/10%20UI%20Widgets/dxForm/5%20Item%20Types/EmptyItem/EmptyItem.md '/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/EmptyItem/') items, although such items can be declared only in the [items](/api-reference/10%20UI%20Widgets/dxForm/1%20Configuration/items.md '/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#items') array, and there is no need to customize them afterwards. Therefore, we recommend you to check the [itemType](/api-reference/10%20UI%20Widgets/dxForm/5%20Item%20Types/SimpleItem/itemType.md '/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#itemType') option to ensure that the item you are going to customize is indeed a simple item.
+[note]The **customizeItem** function is called for each item including [group](/api-reference/10%20UI%20Widgets/dxForm/5%20Item%20Types/GroupItem '/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/GroupItem/'), [tabbed](/api-reference/10%20UI%20Widgets/dxForm/5%20Item%20Types/TabbedItem '/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/TabbedItem/') and [empty](/api-reference/10%20UI%20Widgets/dxForm/5%20Item%20Types/EmptyItem '/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/EmptyItem/') items, although such items can be declared only in the [items](/api-reference/10%20UI%20Widgets/dxForm/1%20Configuration/items.md '/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#items') array, and there is no need to customize them afterwards. Therefore, we recommend you to check the [itemType](/api-reference/10%20UI%20Widgets/dxForm/5%20Item%20Types/SimpleItem/itemType.md '/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#itemType') option to ensure that the item you are going to customize is indeed a simple item.
 
 #####See Also#####
-- [Form - Organize Simple Items in Groups](/concepts/05%20Widgets/Form/10%20Organize%20Simple%20Items/05%20In%20Groups/In%20Groups.md '/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Groups/')
-- [Form - Organize Simple Items in Tabs](/concepts/05%20Widgets/Form/10%20Organize%20Simple%20Items/10%20In%20Tabs/In%20Tabs.md '/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Tabs/')
-- [Form - Organize Simple Items in Columns](/concepts/05%20Widgets/Form/10%20Organize%20Simple%20Items/15%20In%20Columns/In%20Columns.md '/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Columns/')
+- [Form - Organize Simple Items in Groups](/concepts/05%20Widgets/Form/10%20Organize%20Simple%20Items/05%20In%20Groups '/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Groups/')
+- [Form - Organize Simple Items in Tabs](/concepts/05%20Widgets/Form/10%20Organize%20Simple%20Items/10%20In%20Tabs '/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Tabs/')
+- [Form - Organize Simple Items in Columns](/concepts/05%20Widgets/Form/10%20Organize%20Simple%20Items/15%20In%20Columns '/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Columns/')
 - [Form - Add an Empty Space Between Simple Items](/concepts/05%20Widgets/Form/10%20Organize%20Simple%20Items/20%20Add%20an%20Empty%20Space.md '/Documentation/Guide/Widgets/Form/Organize_Simple_Items/Add_an_Empty_Space/')
-- [Form - Configure Item Labels](/concepts/05%20Widgets/Form/15%20Configure%20Item%20Labels/05%20Location%20and%20Alignment/Location%20and%20Alignment.md '/Documentation/Guide/Widgets/Form/Configure_Item_Labels/Location_and_Alignment/')
-- [Form Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Form/CustomizeItem/)
-- [Form API Reference](/api-reference/10%20UI%20Widgets/dxForm/dxForm.md '/Documentation/ApiReference/UI_Widgets/dxForm/')
+- [Form - Configure Item Labels](/concepts/05%20Widgets/Form/15%20Configure%20Item%20Labels/05%20Location%20and%20Alignment '/Documentation/Guide/Widgets/Form/Configure_Item_Labels/Location_and_Alignment/')
+- [Form Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Form/CustomizeItem)
+- [Form API Reference](/api-reference/10%20UI%20Widgets/dxForm '/Documentation/ApiReference/UI_Widgets/dxForm/')

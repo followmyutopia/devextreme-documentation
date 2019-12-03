@@ -9,5 +9,5 @@ Specifies whether a user can fix the column at runtime. Applies only if **column
 
 ---
 #####See Also#####
-- [columnFixing](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/columnFixing/columnFixing.md '{basewidgetpath}/Configuration/columnFixing/')
+- [columnFixing](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/columnFixing '{basewidgetpath}/Configuration/columnFixing/')
 - **columns[]**.[fixed](/api-reference/_hidden/GridBaseColumn/fixed.md '{basewidgetpath}/Configuration/columns/#fixed')

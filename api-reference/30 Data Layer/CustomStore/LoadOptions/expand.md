@@ -4,7 +4,7 @@ type: Object
 ---
 ---
 ##### shortDescription
-An array of strings that represent the names of navigation properties to be loaded simultaneously with the [ODataStore](/api-reference/30%20Data%20Layer/ODataStore/ODataStore.md '/Documentation/ApiReference/Data_Layer/ODataStore/').
+An array of strings that represent the names of navigation properties to be loaded simultaneously with the [ODataStore](/api-reference/30%20Data%20Layer/ODataStore '/Documentation/ApiReference/Data_Layer/ODataStore/').
 
 ---
 #####See Also#####

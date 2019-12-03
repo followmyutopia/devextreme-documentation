@@ -7,7 +7,7 @@ type: Object
 Configures the group labels.
 
 ---
-Each tile or the header of a group contains a text label identifying what this tile or group represents. You can change the font of group labels or their visibility using the fields of the **group**.**label** object. The same properties of tile labels can be changed using the **tile**.[label](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/1%20Configuration/tile/label/label.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/tile/label/') object.
+Each tile or the header of a group contains a text label identifying what this tile or group represents. You can change the font of group labels or their visibility using the fields of the **group**.**label** object. The same properties of tile labels can be changed using the **tile**.[label](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/1%20Configuration/tile/label '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/tile/label/') object.
 
 To customize a specific label, use the [customize(options)](/api-reference/20%20Data%20Visualization%20Widgets/dxTreeMap/6%20Node/3%20Methods/customize(options).md '/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#customizeoptions') method of the node to which the label belongs.
 

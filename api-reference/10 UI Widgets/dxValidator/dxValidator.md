@@ -13,7 +13,7 @@ dx.web.js, dx.viz-web.js, dx.all.js
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Validation/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Validation/Overview/"
 }
 #include common-readguidesbutton with {
     url: "/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/"

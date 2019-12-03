@@ -37,11 +37,11 @@ Fields in the "data" area.
 #include common-ref-elementparam with { element: "widget" }
 
 ##### field(e.field): PivotGridDataSource_Options_fields
-This field's [configuration](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/fields.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/').    
+This field's [configuration](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/').    
 Available for fields in the [field panel](/concepts/05%20Widgets/PivotGrid/010%20Visual%20Elements/15%20Field%20Panel.md '/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Field_Panel') only.
 
 ##### field(e.items): Array<Object>
-An array of items to be displayed by the context menu. The item objects must have the fields that are used by the **ContextMenu** [default item template](/api-reference/10%20UI%20Widgets/dxContextMenu/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxContextMenu/Default_Item_Template').
+An array of items to be displayed by the context menu. The item objects must have the fields that are used by the **ContextMenu** [default item template](/api-reference/10%20UI%20Widgets/dxContextMenu/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxContextMenu/Default_Item_Template').
 
 ##### field(e.model): Object
 Model data. Available only if Knockout is used.

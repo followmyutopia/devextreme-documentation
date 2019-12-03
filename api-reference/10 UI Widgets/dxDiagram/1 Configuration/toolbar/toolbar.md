@@ -9,7 +9,7 @@ Provides access to toolbar settings.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Diagram/UICustomization/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Diagram/UICustomization/"
 }
 
 ![Diagram toolbox](/images/diagram/toolbar.png)

@@ -1,4 +1,4 @@
-For a minor customization of **ActionSheet** buttons, you can use the default item template. This template defines the appearance of a button depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxActionSheet/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxActionSheet/Default_Item_Template/') are present or absent from the button's data object. For example, the following code generates three buttons, the first is not customized, the second is disabled, the [type](/api-reference/10%20UI%20Widgets/dxActionSheet/5%20Default%20Item%20Template/type.md '/Documentation/ApiReference/UI_Widgets/dxActionSheet/Default_Item_Template/#type') of the third button is *danger*.
+For a minor customization of **ActionSheet** buttons, you can use the default item template. This template defines the appearance of a button depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxActionSheet/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxActionSheet/Default_Item_Template/') are present or absent from the button's data object. For example, the following code generates three buttons, the first is not customized, the second is disabled, the [type](/api-reference/10%20UI%20Widgets/dxActionSheet/5%20Default%20Item%20Template/type.md '/Documentation/ApiReference/UI_Widgets/dxActionSheet/Default_Item_Template/#type') of the third button is *danger*.
 
     <!--JavaScript-->
     $(function() {
@@ -11,7 +11,7 @@ For a minor customization of **ActionSheet** buttons, you can use the default it
         });
     });
 
-If you need a more flexible solution, define a custom template. For Angular, AngularJS and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code shows how to use **dxTemplate** to define a template for the **ActionSheet** buttons.
+If you need a more flexible solution, define a custom template. For Angular, AngularJS and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code shows how to use **dxTemplate** to define a template for the **ActionSheet** buttons.
 
 ---
 ##### Angular
@@ -177,7 +177,7 @@ You can also customize an individual **ActionSheet** button. For this purpose, d
 In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/concepts/05%20Widgets/zz%20Common/30%20Templates/30%203rd-Party%20Template%20Engines.md '/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines') article.
 
 #####See Also#####
-- [ActionSheet Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/ActionSheet/Basics/)
-- [ActionSheet API Reference](/api-reference/10%20UI%20Widgets/dxActionSheet/dxActionSheet.md '/Documentation/ApiReference/UI_Widgets/dxActionSheet/')
+- [ActionSheet Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/ActionSheet/Basics)
+- [ActionSheet API Reference](/api-reference/10%20UI%20Widgets/dxActionSheet '/Documentation/ApiReference/UI_Widgets/dxActionSheet/')
 
 [tags]action sheet, actionSheet, item appearance, customize, templates, template, default item, default template

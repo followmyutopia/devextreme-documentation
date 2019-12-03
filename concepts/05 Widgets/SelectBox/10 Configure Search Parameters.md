@@ -54,7 +54,7 @@ The **SelectBox** widget allows an end user to search through its items. This fe
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Select_Box/SearchAndEditing/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Select_Box/SearchAndEditing/"
 }
 
 When a user types a string in the input field, the **SelectBox** suggests all items that _contain_ this string. Assign *'startswith'* to the [searchMode](/api-reference/10%20UI%20Widgets/dxDropDownList/1%20Configuration/searchMode.md '/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#searchMode') option if you want the **SelectBox** to suggest only those items that _start_ with the input string.
@@ -206,6 +206,6 @@ The **SelectBox** widget starts searching after a user has typed at least one ch
 #####See Also#####
 - [SelectBox - Create a User-Defined Item](/concepts/05%20Widgets/SelectBox/15%20Create%20a%20User-Defined%20Item.md '/Documentation/Guide/Widgets/SelectBox/Create_a_User-Defined_Item/')
 - [SelectBox - Handle the Value Change Event](/concepts/05%20Widgets/SelectBox/04%20Handle%20the%20Value%20Change%20Event.md '/Documentation/Guide/Widgets/SelectBox/Handle_the_Value_Change_Event/')
-- [SelectBox API Reference](/api-reference/10%20UI%20Widgets/dxSelectBox/dxSelectBox.md '/Documentation/ApiReference/UI_Widgets/dxSelectBox/')
+- [SelectBox API Reference](/api-reference/10%20UI%20Widgets/dxSelectBox '/Documentation/ApiReference/UI_Widgets/dxSelectBox/')
 
 [tags]selectBox, select box, editor, search, search mode, search expression, time interval, delay, search timeout, min search length

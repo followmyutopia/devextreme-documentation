@@ -21,5 +21,5 @@ This function should return one of the following:
 - The icon in the <a href="https://en.wikipedia.org/wiki/Base64" target="_blank">Base64</a> format
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FileManager/CustomThumbnails/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/FileManager/CustomThumbnails/"
 }

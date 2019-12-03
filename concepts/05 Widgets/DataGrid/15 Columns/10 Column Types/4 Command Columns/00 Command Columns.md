@@ -7,10 +7,10 @@ Contains ellipsis buttons that expand/collapse [adaptive detail rows](/concepts/
 Contains checkboxes that select rows. Appears when **selection**.[mode](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/selection/mode.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#mode') is *"multiple"* and [showCheckBoxesMode](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/selection/showCheckBoxesMode.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#showCheckBoxesMode') is not *"none"*.
 
 - **Group expand column**     
-Contains arrow buttons that expand/collapse [groups](/concepts/05%20Widgets/DataGrid/45%20Grouping/Grouping.md '/Documentation/Guide/Widgets/DataGrid/Grouping/').
+Contains arrow buttons that expand/collapse [groups](/concepts/05%20Widgets/DataGrid/45%20Grouping '/Documentation/Guide/Widgets/DataGrid/Grouping/').
 
 - **Detail expand column**     
-Contains arrow buttons that expand/collapse [detail sections](/concepts/05%20Widgets/DataGrid/60%20Master-Detail%20Interface/Master-Detail%20Interface.md '/Documentation/Guide/Widgets/DataGrid/Master-Detail_Interface/').
+Contains arrow buttons that expand/collapse [detail sections](/concepts/05%20Widgets/DataGrid/60%20Master-Detail%20Interface '/Documentation/Guide/Widgets/DataGrid/Master-Detail_Interface/').
 
 - **Buttons column (custom command column)**    
 Contains buttons that perform custom actions. See [Create a Column with Custom Buttons](/concepts/05%20Widgets/DataGrid/15%20Columns/10%20Column%20Types/4%20Command%20Columns/30%20Create%20a%20Column%20with%20Custom%20Buttons.md '/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Command_Columns/#Create_a_Column_with_Custom_Buttons').

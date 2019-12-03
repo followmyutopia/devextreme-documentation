@@ -5,10 +5,10 @@ default: undefined
 ---
 ---
 ##### shortDescription
-Allows you to sort [groups](/concepts/05%20Widgets/DataGrid/45%20Grouping/Grouping.md '/Documentation/Guide/Widgets/DataGrid/Grouping/') according to the values of group summary items.
+Allows you to sort [groups](/concepts/05%20Widgets/DataGrid/45%20Grouping '/Documentation/Guide/Widgets/DataGrid/Grouping/') according to the values of group summary items.
 
 ---
-Normally, when records are grouped by a column, the groups are sorted according to the values of this column. In a number of cases, such approaches cannot address your needs, e.g., when you require to sort groups by the number of records in each. For these cases, you can implement sorting according to the values of group summary items. These items are specified in the [groupItems](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/summary/groupItems/groupItems.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/') array. Assume that you have the following code that specifies three group summary items.
+Normally, when records are grouped by a column, the groups are sorted according to the values of this column. In a number of cases, such approaches cannot address your needs, e.g., when you require to sort groups by the number of records in each. For these cases, you can implement sorting according to the values of group summary items. These items are specified in the [groupItems](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/summary/groupItems '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/') array. Assume that you have the following code that specifies three group summary items.
 
 ---
 #####jQuery

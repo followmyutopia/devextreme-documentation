@@ -125,8 +125,8 @@ The widget allows a user to resize columns in two different modes: by changing t
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/ColumnResizing/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/ColumnResizing/"
 }
 
 #####See Also#####
-- [DataGrid - Column Reordering](/concepts/05%20Widgets/DataGrid/15%20Columns/25%20Column%20Reordering/Column%20Reordering.md '/Documentation/Guide/Widgets/DataGrid/Columns/Column_Reordering/')
+- [DataGrid - Column Reordering](/concepts/05%20Widgets/DataGrid/15%20Columns/25%20Column%20Reordering '/Documentation/Guide/Widgets/DataGrid/Columns/Column_Reordering/')

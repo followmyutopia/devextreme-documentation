@@ -1,4 +1,4 @@
-The **FilterBuilder**'s [fields](/api-reference/10%20UI%20Widgets/dxFilterBuilder/1%20Configuration/fields.md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#fields') array should 
+The **FilterBuilder**'s [fields](/api-reference/10%20UI%20Widgets/dxFilterBuilder/1%20Configuration/fields '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#fields') array should 
 contain data fields from a widget's data source. For example, the following code allows using the [List's](/concepts/05%20Widgets/List/00%20Overview.md '/Documentation/Guide/Widgets/List/Overview/') `Name` and `Price` fields in the **FilterBuilder**:
 
 ---
@@ -154,11 +154,11 @@ To filter data, update the data source's [filter](/api-reference/30%20Data%20Lay
 
 #include common-demobutton-named with {
     name: "Filter Builder with Data Grid",
-    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithDataGrid/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/FilterBuilder/WithDataGrid/"
 }
 #include common-demobutton-named with {
     name: "Filter Builder with List",
-    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithList/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/FilterBuilder/WithList/"
 }
 
 #####See Also#####

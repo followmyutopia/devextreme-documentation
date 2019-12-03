@@ -20,10 +20,10 @@ You can subscribe to an event using a configuration option. All event handling o
     }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Menu/Overview/AngularJS/Light/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Menu/Overview/AngularJS/Light/"
 }
 
 #####See Also#####
-- **API Reference**.**WidgetName**.**Events**, for example, **API Reference**.[Menu](/api-reference/10%20UI%20Widgets/dxMenu/dxMenu.md '/Documentation/ApiReference/UI_Widgets/dxMenu/').[Events](/api-reference/10%20UI%20Widgets/dxMenu/4%20Events/Events.md '/Documentation/ApiReference/UI_Widgets/dxMenu/Events/')
+- **API Reference**.**WidgetName**.**Events**, for example, **API Reference**.[Menu](/api-reference/10%20UI%20Widgets/dxMenu '/Documentation/ApiReference/UI_Widgets/dxMenu/').[Events](/api-reference/10%20UI%20Widgets/dxMenu/4%20Events '/Documentation/ApiReference/UI_Widgets/dxMenu/Events/')
 
 [tags]basics, angularjs, handle events, subscribe

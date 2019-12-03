@@ -21,7 +21,7 @@ Each nested array contains widget instances that should be in the same row in th
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/ExportSeveralCharts/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/ExportSeveralCharts/"
 }
 
 #####See Also#####

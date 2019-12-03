@@ -38,7 +38,7 @@ The **MultiView** widget can display views in a loop. The loop mode enables an e
 #####See Also#####
 - [MultiView - Customize Item Appearance](/concepts/05%20Widgets/MultiView/05%20Customize%20Item%20Appearance.md '/Documentation/Guide/Widgets/MultiView/Customize_Item_Appearance')
 - [MultiView - Switch Between Views](/concepts/05%20Widgets/MultiView/10%20Switch%20Between%20Views.md '/Documentation/Guide/Widgets/MultiView/Switch_Between_Views')
-- [MultiView Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/MultiView/Overview/)
-- [MultiView API Reference](/api-reference/10%20UI%20Widgets/dxMultiView/dxMultiView.md '/Documentation/ApiReference/UI_Widgets/dxMultiView/')
+- [MultiView Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/MultiView/Overview)
+- [MultiView API Reference](/api-reference/10%20UI%20Widgets/dxMultiView '/Documentation/ApiReference/UI_Widgets/dxMultiView/')
 
 [tags]multi view, multiView, views, loop

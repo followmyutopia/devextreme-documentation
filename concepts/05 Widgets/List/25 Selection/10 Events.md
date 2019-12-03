@@ -51,7 +51,7 @@ The **List** widget fires the [selectionChanged](/api-reference/10%20UI%20Widget
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/List/ListSelection/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListSelection/"
 }
 
 If you are going to change the event handlers at runtime, or if you need to attach several handlers to a single event, subscribe to this event using the [on(eventName, eventHandler)](/api-reference/10%20UI%20Widgets/EventsMixin/3%20Methods/on(eventName_eventHandler).md '/Documentation/ApiReference/UI_Widgets/dxList/Methods/#oneventName_eventHandler') method. This approach is more typical of jQuery.
@@ -71,4 +71,4 @@ If you are going to change the event handlers at runtime, or if you need to atta
 
 #####See Also#####
 #include common-link-handleevents
-- [List API Reference](/api-reference/10%20UI%20Widgets/dxList/dxList.md '/Documentation/ApiReference/UI_Widgets/dxList/')
+- [List API Reference](/api-reference/10%20UI%20Widgets/dxList '/Documentation/ApiReference/UI_Widgets/dxList/')

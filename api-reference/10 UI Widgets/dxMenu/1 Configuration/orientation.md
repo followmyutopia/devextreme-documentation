@@ -15,5 +15,5 @@ Specifies whether the menu has horizontal or vertical orientation.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Menu/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Menu/Overview/"
 }

@@ -15,7 +15,7 @@ The appointment's data object.
 
 ##### field(model.targetedAppointmentData): Object
 The appointment's data object.      
-The difference between this and **appointmentData** fields is explained in the [onAppointmentClick](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentClick) description.
+The difference between this and **appointmentData** fields is explained in the [onAppointmentClick](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/onAppointmentClick.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentClick') description.
 
 ##### param(itemIndex): Number
 The appointment's index.
@@ -28,7 +28,7 @@ A template name or container.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/CustomTemplates/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/CustomTemplates/"
 }
 
 #####See Also#####

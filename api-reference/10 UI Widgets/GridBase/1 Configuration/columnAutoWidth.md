@@ -18,5 +18,5 @@ When the **columnAutoWidth** option is set to **false**, all columns have identi
 
 #####See Also#####
 - [width](/api-reference/10%20UI%20Widgets/DOMComponent/1%20Configuration/width.md '{basewidgetpath}/Configuration/#width')
-- [columnFixing](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/columnFixing/columnFixing.md '{basewidgetpath}/Configuration/columnFixing/')
+- [columnFixing](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/columnFixing '{basewidgetpath}/Configuration/columnFixing/')
 - [wordWrapEnabled](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/wordWrapEnabled.md '{basewidgetpath}/Configuration/#wordWrapEnabled')

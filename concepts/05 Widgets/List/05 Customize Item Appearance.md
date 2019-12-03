@@ -1,4 +1,4 @@
-For a minor customization of **List** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxList/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxList/Default_Item_Template/') are present or absent from the item's data object. For example, the following code generates three items: each item has a badge, the second is disabled and the third is hidden.
+For a minor customization of **List** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxList/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxList/Default_Item_Template/') are present or absent from the item's data object. For example, the following code generates three items: each item has a badge, the second is disabled and the third is hidden.
 
 ---
 #####jQuery
@@ -42,7 +42,7 @@ For a minor customization of **List** items, you can use the default item templa
 
 ---
 
-If you need a more flexible solution, define a custom template for widget items. For Angular, AngularJS, and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code shows how to use **dxTemplate** to define a template for **List** items.
+If you need a more flexible solution, define a custom template for widget items. For Angular, AngularJS, and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code shows how to use **dxTemplate** to define a template for **List** items.
 
 ---
 
@@ -179,6 +179,6 @@ In addition, you can use a 3rd-party template engine to perform the needed custo
 <a href="/Demos/WidgetsGallery/Demo/List/Item3RdPartyEngineTemplate/" class="button orange small fix-width-155" style="margin-right: 20px; width:240px" target="_blank">View 3rd-Party Template Engine Demo</a>
 
 #####See Also#####
-- [List API Reference](/api-reference/10%20UI%20Widgets/dxList/dxList.md '/Documentation/ApiReference/UI_Widgets/dxList/')
+- [List API Reference](/api-reference/10%20UI%20Widgets/dxList '/Documentation/ApiReference/UI_Widgets/dxList/')
 
 [tags]list, item appearance, customize, templates, template, default item, default template

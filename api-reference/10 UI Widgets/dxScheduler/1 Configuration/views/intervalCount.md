@@ -16,7 +16,7 @@ The following is a list of views and their default intervals:
 - *"month"* - a month
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/IncreaseViewDuration/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/IncreaseViewDuration/"
 }
 
 #####See Also#####

@@ -2,7 +2,7 @@ Exposes the **TextArea** widget.
 
 Exports:
 
-- *default* - The [TextArea](/api-reference/10%20UI%20Widgets/dxTextArea/dxTextArea.md '/Documentation/ApiReference/UI_Widgets/dxTextArea/') widget
+- *default* - The [TextArea](/api-reference/10%20UI%20Widgets/dxTextArea '/Documentation/ApiReference/UI_Widgets/dxTextArea/') widget
 
         require("ui/text_area");
         // ===== or =====

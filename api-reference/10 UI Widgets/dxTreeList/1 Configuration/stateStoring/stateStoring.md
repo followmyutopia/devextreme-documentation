@@ -42,7 +42,7 @@ State storing enables the widget to save applied settings and restore them the n
 [note] The expanded row keys are not saved if the [autoExpandAll](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/autoExpandAll.md '{basewidgetpath}/Configuration/#autoExpandAll') is set to **true**.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/{WidgetName}/StatePersistence/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/{WidgetName}/StatePersistence/"
 }
 
 #####See Also#####

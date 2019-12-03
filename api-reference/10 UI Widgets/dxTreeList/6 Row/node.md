@@ -8,4 +8,4 @@ The row's node. Available if [rowType](/api-reference/10%20UI%20Widgets/dxTreeLi
 
 ---
 #####See Also#####
-- [Node Structure](/api-reference/10%20UI%20Widgets/dxTreeList/4%20Node/Node.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Node/')
+- [Node Structure](/api-reference/10%20UI%20Widgets/dxTreeList/4%20Node '/Documentation/ApiReference/UI_Widgets/dxTreeList/Node/')

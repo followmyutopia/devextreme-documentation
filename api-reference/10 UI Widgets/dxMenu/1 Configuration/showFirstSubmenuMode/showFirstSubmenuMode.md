@@ -20,5 +20,5 @@ If you assign a string that specifies the mode name to this option, the widget w
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Menu/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Menu/Overview/"
 }

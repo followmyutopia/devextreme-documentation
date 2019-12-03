@@ -5,8 +5,8 @@
 
 Assign *"candlestick"* or *"stock"* to the **series[]**.[type](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/ChartSeries/type.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#type') option to specify the corresponding series type. You can configure:
 
-- Each series individually using the [series](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/series/series.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/') array;
-- All series in the **Chart** using the [commonSeriesSettings](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonSeriesSettings/commonSeriesSettings.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/') object;
+- Each series individually using the [series](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/series '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/') array;
+- All series in the **Chart** using the [commonSeriesSettings](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/commonSeriesSettings '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/') object;
 - All **Candlestick** or **Stock** series using the **commonSeriesSettings**.**candlestick** or **commonSeriesSettings**.**stock** object respectively.
 
 Note that the financial series require four value fields: [openValueField](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CommonSeries/openValueField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#openValueField'), [closeValueField](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CommonSeries/closeValueField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#closeValueField'), [highValueField](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CommonSeries/highValueField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#highValueField'), and [lowValueField](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CommonSeries/lowValueField.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#lowValueField').
@@ -109,10 +109,10 @@ Financial series gauge price reduction by comparing the values of two neighborin
 
 ---
 
-See the [CandleStickSeries](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CandleStickSeries/CandleStickSeries.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/CandleStickSeries/') and [StockSeries](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/StockSeries/StockSeries.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/StockSeries/') API Reference sections for a full list of options available to a financial series.
+See the [CandleStickSeries](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CandleStickSeries '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/CandleStickSeries/') and [StockSeries](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/StockSeries '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/StockSeries/') API Reference sections for a full list of options available to a financial series.
 
 <a href="/Demos/WidgetsGallery/Demo/Charts/Stock/" class="button orange small fix-width-155" target="_blank">Financial Series Demos</a>
 
 #####See Also#####
 - [Series](/concepts/05%20Widgets/Chart/10%20Series/00%20Overview.md '/Documentation/Guide/Widgets/Chart/Series/Overview/')
-- [Bind Series to Data](/concepts/05%20Widgets/Chart/03%20Data%20Binding/23%20Bind%20Series%20to%20Data/Bind%20Series%20to%20Data.md '/Documentation/Guide/Widgets/Chart/Data_Binding/Bind_Series_to_Data/')
+- [Bind Series to Data](/concepts/05%20Widgets/Chart/03%20Data%20Binding/23%20Bind%20Series%20to%20Data '/Documentation/Guide/Widgets/Chart/Data_Binding/Bind_Series_to_Data/')

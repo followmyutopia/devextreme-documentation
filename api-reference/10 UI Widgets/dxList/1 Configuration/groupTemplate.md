@@ -21,7 +21,7 @@ A template name or container.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/List/GroupedList/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/GroupedList/"
 }
 
 #####See Also#####

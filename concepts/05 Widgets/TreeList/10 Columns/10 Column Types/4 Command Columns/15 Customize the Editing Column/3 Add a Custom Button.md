@@ -1,4 +1,4 @@
-Add an object to the [buttons](/api-reference/_hidden/dxTreeListColumn/buttons/buttons.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/buttons/') array and specify the button's options in it...
+Add an object to the [buttons](/api-reference/_hidden/dxTreeListColumn/buttons '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/buttons/') array and specify the button's options in it...
 
 ---
 ##### jQuery  
@@ -56,7 +56,7 @@ Add an object to the [buttons](/api-reference/_hidden/dxTreeListColumn/buttons/b
     
 ---
 
-... or render the button with custom appearance using a [template](/api-reference/_hidden/dxTreeListColumn/buttons/template.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/buttons/#template'):
+... or render the button with custom appearance using a [template](/api-reference/_hidden/dxTreeListColumnButton/template.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/buttons/#template'):
 
 ---
 ##### jQuery  

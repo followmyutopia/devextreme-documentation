@@ -12,7 +12,7 @@ A function that is executed when a grid row is clicked or tapped.
 Information about the event that caused the function's execution.
 
 ##### field(e.columns): Array<Object>
-All column [configurations](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/columns/columns.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/').
+All column [configurations](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/columns '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/').
 
 ##### field(e.component): {WidgetName}
 The widget's instance.

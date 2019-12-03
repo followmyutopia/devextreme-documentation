@@ -1,7 +1,7 @@
 The **FileUploader** widget enables an end user to upload files to the server. An end user can select files in the file explorer or drag and drop files on the page's **FileUploader** area.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FileUploader/FileSelection/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/FileUploader/FileSelection/"
 }
 
 The following code adds the **FileUploader** to your page. Use the [accept](/api-reference/10%20UI%20Widgets/dxFileUploader/1%20Configuration/accept.md '/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#accept') option to restrict the file types that can be uploaded to the server. This option is like the underlying `<input>` element's *"accept"* attribute and accepts the same values described <a href="http://www.w3schools.com/TAGs/att_input_accept.asp" target="_blank">here</a>.
@@ -147,12 +147,12 @@ With Angular, AngularJS, or Knockout, use a different technique. Bind the **valu
 
 ---
 
-The **FileUploader** can operate in two different modes, each demanding a different client- and server-side configuration. See the [Client-Side Settings](/concepts/05%20Widgets/FileUploader/20%20Upload%20Files/05%20Client-Side%20Settings/Client-Side%20Settings.md '/Documentation/Guide/Widgets/FileUploader/Upload_Files/Client-Side_Settings/') article for more details.
+The **FileUploader** can operate in two different modes, each demanding a different client- and server-side configuration. See the [Client-Side Settings](/concepts/05%20Widgets/FileUploader/20%20Upload%20Files/05%20Client-Side%20Settings '/Documentation/Guide/Widgets/FileUploader/Upload_Files/Client-Side_Settings/') article for more details.
 
 #####See Also#####
 #include common-link-configurewidget
-- **Upload Files - Server Side**: [ASP.NET](/concepts/05%20Widgets/FileUploader/20%20Upload%20Files/10%20Server-Side%20Implementation%20in%20ASP.NET/Server-Side%20Implementation%20in%20ASP.NET.md '/Documentation/Guide/Widgets/FileUploader/Upload_Files/Server-Side_Implementation_in_ASP.NET/') | [PHP](/concepts/05%20Widgets/FileUploader/20%20Upload%20Files/20%20Server-Side%20Implementation%20in%20PHP/Server-Side%20Implementation%20in%20PHP.md '/Documentation/Guide/Widgets/FileUploader/Upload_Files/Server-Side_Implementation_in_PHP/')
+- **Upload Files - Server Side**: [ASP.NET](/concepts/05%20Widgets/FileUploader/20%20Upload%20Files/10%20Server-Side%20Implementation%20in%20ASP.NET '/Documentation/Guide/Widgets/FileUploader/Upload_Files/Server-Side_Implementation_in_ASP.NET/') | [PHP](/concepts/05%20Widgets/FileUploader/20%20Upload%20Files/20%20Server-Side%20Implementation%20in%20PHP '/Documentation/Guide/Widgets/FileUploader/Upload_Files/Server-Side_Implementation_in_PHP/')
 - [File Validation](/concepts/05%20Widgets/FileUploader/40%20File%20Validation.md '/Documentation/Guide/Widgets/FileUploader/File_Validation/')
-- [FileUploader API Reference](/api-reference/10%20UI%20Widgets/dxFileUploader/dxFileUploader.md '/Documentation/ApiReference/UI_Widgets/dxFileUploader/')
+- [FileUploader API Reference](/api-reference/10%20UI%20Widgets/dxFileUploader '/Documentation/ApiReference/UI_Widgets/dxFileUploader/')
 
 [tags]file uploader, fileUploader, overview, accepted file types, multiple files, access files in code

@@ -32,7 +32,7 @@ dx.web.js, dx.viz-web.js, dx.all.js
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/PivotGrid/LocalDataSource/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/PivotGrid/LocalDataSource/"
 }
 #include common-readguidesbutton with {
     url: "/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/"

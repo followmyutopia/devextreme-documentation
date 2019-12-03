@@ -15,7 +15,7 @@ Describes settings supported by a series of the *scatter* type.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/Scatter/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Scatter/"
 }
 
 ![DevExtreme HTML5 Charts ScatterSeriesType](/images/ChartJS/Scatter.png)

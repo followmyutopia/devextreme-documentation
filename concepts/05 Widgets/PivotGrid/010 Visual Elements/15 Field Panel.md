@@ -2,7 +2,7 @@ The Field Panel is a component that displays the fields involved in calculation 
 
 ![DevExtreme PivotGrid FieldPanel](/images/DataGrid/PivotGrid_fieldPanel_areas.png)
 
-By default, the whole Field Panel is hidden. To make it visible, assign **true** to the **visible** property of the [fieldPanel](/api-reference/10%20UI%20Widgets/dxPivotGrid/1%20Configuration/fieldPanel/fieldPanel.md '/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/fieldPanel/') object.
+By default, the whole Field Panel is hidden. To make it visible, assign **true** to the **visible** property of the [fieldPanel](/api-reference/10%20UI%20Widgets/dxPivotGrid/1%20Configuration/fieldPanel '/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/fieldPanel/') object.
 
     <!--JavaScript-->var pivotGridOptions = {
         // ...
@@ -39,8 +39,8 @@ Moreover, if the [allowSorting](/api-reference/10%20UI%20Widgets/dxPivotGrid/1%2
 
 Functional similarities of the Field Panel and the Field Chooser allow them to work in conjunction. When the fields of the Field Panel are draggable, and the Field Chooser is invoked, the user can move the fields not only within these components, but between them as well.
 
-When empty, each field area of the Field Panel displays an individual placeholder. If you need to change it, use the properties of the **fieldPanel**.[texts](/api-reference/10%20UI%20Widgets/dxPivotGrid/1%20Configuration/fieldPanel/texts/texts.md '/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/fieldPanel/texts/') object.
+When empty, each field area of the Field Panel displays an individual placeholder. If you need to change it, use the properties of the **fieldPanel**.[texts](/api-reference/10%20UI%20Widgets/dxPivotGrid/1%20Configuration/fieldPanel/texts '/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/fieldPanel/texts/') object.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Pivot_Grid/FieldPanel/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Pivot_Grid/FieldPanel/"
 }

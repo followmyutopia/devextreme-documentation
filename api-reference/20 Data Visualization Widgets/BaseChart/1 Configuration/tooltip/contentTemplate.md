@@ -18,10 +18,10 @@ Information on the series point being pressed or hovered over.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/TooltipHTMLSupport/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/TooltipHTMLSupport/"
 }
 
-The **pointInfo** object has different fields for different [series types](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/). The following fields are available for all series types:
+The **pointInfo** object has different fields for different [series types](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/'). The following fields are available for all series types:
 
 <div class="simple-table normal-font-style">
     <table class="tooltip-table" style="width:100%">
@@ -72,7 +72,7 @@ The **pointInfo** object has different fields for different [series types](/Docu
     </table>
 </div>
 
-The followng **pointInfo** fields are available for stacked series such as the [full-stacked bar](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedBarSeries/) or [full-stacked area](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedAreaSeries/):
+The followng **pointInfo** fields are available for stacked series such as the [full-stacked bar](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/FullStackedBarSeries '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedBarSeries/') or [full-stacked area](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/FullStackedAreaSeries '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedAreaSeries/'):
 
 <div class="simple-table normal-font-style">
     <table class="tooltip-table" style="width:100%">
@@ -97,7 +97,7 @@ The followng **pointInfo** fields are available for stacked series such as the [
     </table>
 </div>
 
-The followng **pointInfo** fields are available for the range-like series, such as [range area](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/RangeAreaSeries/) or [range bar](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/RangeBarSeries/):
+The followng **pointInfo** fields are available for the range-like series, such as [range area](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/RangeAreaSeries '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/RangeAreaSeries/') or [range bar](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/RangeBarSeries '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/RangeBarSeries/'):
 
 <div class="simple-table normal-font-style">
     <table class="tooltip-table" style="width:100%">
@@ -137,7 +137,7 @@ The followng **pointInfo** fields are available for the range-like series, such 
     </table>
 </div>
 
-The followng **pointInfo** fields are available for the financial chart series, such as [candle stick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/CandleStickSeries/) or [stock](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/StockSeries/):
+The followng **pointInfo** fields are available for the financial chart series, such as [candle stick](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/CandleStickSeries '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/CandleStickSeries/') or [stock](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/5%20Series%20Types/StockSeries '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/StockSeries/'):
 
 <div class="simple-table normal-font-style">
     <table class="tooltip-table" style="width:100%">
@@ -217,13 +217,13 @@ The followng **pointInfo** fields are available for the financial chart series, 
 #include dataviz-ref-functioncontext
 
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/APIDisplayATooltip/",
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/APIDisplayATooltip/",
     name: "Display a Tooltip"
 }
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/TooltipHTMLSupport/",
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/TooltipHTMLSupport/",
     name: "Tooltip HTML Support"
 }
 
 #####See Also#####
-- [Data Formatting](/concepts/05%20Widgets/zz%20Common/10%20Data%20Visualization%20Widgets/30%20Data%20Formatting/Data%20Formatting.md '/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/')
+- [Data Formatting](/concepts/05%20Widgets/zz%20Common/10%20Data%20Visualization%20Widgets/30%20Data%20Formatting '/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/')

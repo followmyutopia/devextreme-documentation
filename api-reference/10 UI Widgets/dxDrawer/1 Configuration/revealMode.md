@@ -18,7 +18,7 @@ The drawer slides in. The drawer and its content are animated.
 The drawer expands from the closed position. The drawer's width is animated; its content is not.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Drawer/HorizontalOpening/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Drawer/HorizontalOpening/"
 }
 
 #include common-ref-enum with {

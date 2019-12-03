@@ -19,7 +19,7 @@ To open or close the **SlideOut** menu programmatically, call the [showMenu()](/
         });
     });
 
-In this code, the slide-out menu is being closed from within the **SlideOut** widget. If another component should open or close the slide-out menu, call the methods in a different manner. The following example shows how a click on a [Button](/api-reference/10%20UI%20Widgets/dxButton/dxButton.md '/Documentation/ApiReference/UI_Widgets/dxButton/') can open the **SlideOut** menu. 
+In this code, the slide-out menu is being closed from within the **SlideOut** widget. If another component should open or close the slide-out menu, call the methods in a different manner. The following example shows how a click on a [Button](/api-reference/10%20UI%20Widgets/dxButton '/Documentation/ApiReference/UI_Widgets/dxButton/') can open the **SlideOut** menu. 
 
     <!--JavaScript-->$(function () {
         $("#buttonContainer").dxButton({
@@ -109,7 +109,7 @@ When using AngularJS or Knockout, you can still call these methods, but as an al
 ---
 
 #####See Also#####
-- [SlideOut Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Slideout/Overview/)
-- [SlideOut API Reference](/api-reference/10%20UI%20Widgets/dxSlideOut/dxSlideOut.md '/Documentation/ApiReference/UI_Widgets/dxSlideOut/')
+- [SlideOut Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Slideout/Overview)
+- [SlideOut API Reference](/api-reference/10%20UI%20Widgets/dxSlideOut '/Documentation/ApiReference/UI_Widgets/dxSlideOut/')
 
 [tags]slide-out menu, slideOut, open, show, close, hide

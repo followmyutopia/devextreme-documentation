@@ -1,14 +1,14 @@
-The **Diagram** widget provides a collection of built-in shapes. Use the [customShapes](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/customShapes/customShapes.md '/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/customShapes/') option to extend this collection with custom shapes.
+The **Diagram** widget provides a collection of built-in shapes. Use the [customShapes](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/customShapes '/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/customShapes/') option to extend this collection with custom shapes.
 
-![Diagram control custom shapes](Content/images/doc/20_1/diagram/custom-shapes.png)
+![Diagram control custom shapes](/images/diagram/custom-shapes.png)
 
 [note] Shape images should be supplied as SVG files. 
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Diagram/CustomShapesWithIcons/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Diagram/CustomShapesWithIcons/"
 }
 
-Use the [toolbox](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/toolbox/toolbox.md '/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/toolbox/') option to add the custom shapes to the toolbox.
+Use the [toolbox](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/toolbox '/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/toolbox/') option to add the custom shapes to the toolbox.
 
 ---
 

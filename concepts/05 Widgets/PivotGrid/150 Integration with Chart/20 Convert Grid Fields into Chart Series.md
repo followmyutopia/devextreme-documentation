@@ -51,7 +51,7 @@ The path to the data cell by row field values.
 - **rowPathFormatted**: <span style="font-size:12px">Array</span>   
 Same as **rowPath**, but with [format](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/format.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#format') and [customizeText](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/customizeText.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#customizeText') applied.
 - **rowFields**: <span style="font-size:12px">Array</span>      
-Objects representing row [fields](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/fields.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/').     
+Objects representing row [fields](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/').     
 - **maxRowLevel**: <span style="font-size:12px">Number</span>      
 A zero-based index that indicates the maximum currently-expanded row level. Equals to 0 when grid has no row fields at all, 1 when all rows are collapsed, 2 when at least one first-level row is expanded, etc.
 <br/><br/>
@@ -60,12 +60,12 @@ The path to the data cell by column field values.
 - **columnPathFormatted**: <span style="font-size:12px">Array</span>     
 Same as **columnPath**, but with [format](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/format.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#format') and [customizeText](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/customizeText.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#customizeText') applied.   
 - **columnFields**: <span style="font-size:12px">Array</span>       
-Objects representing column [fields](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/fields.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/').
+Objects representing column [fields](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/').
 - **maxColumnLevel**: <span style="font-size:12px">Number</span>       
 A zero-based index that indicates the maximum currently-expanded column level. Equals to 0 when the grid has no column fields at all, 1 when all columns are collapsed, 2 when at least one first-level column is expanded, etc.
 <br/><br/>
 - **dataFields**: <span style="font-size:12px">Array</span>     
-Objects representing data [fields](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/fields.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/').
+Objects representing data [fields](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/').
 - **dataValues**: <span style="font-size:12px">Array</span>     
 Data of the current cell. Contains several values if the pivot grid has several data fields.
 - **dataIndex**: <span style="font-size:12px">Number</span>        

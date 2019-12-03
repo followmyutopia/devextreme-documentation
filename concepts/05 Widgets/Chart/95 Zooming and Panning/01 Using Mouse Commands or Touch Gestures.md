@@ -2,7 +2,7 @@ Users can zoom the chart by rotating the mouse wheel and pan it using the drag g
 
 ![DevExtreme HTML5 JavaScript Charts Zooming Panning](/images/ChartJS/devextreme-chart-NewZoomScroll.gif)
 
-Zooming and panning are configured in the [zoomAndPan](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/zoomAndPan/zoomAndPan.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/zoomAndPan/') object. You can enable them separately for the argument and value axes by specifying the [argumentAxis](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/zoomAndPan/argumentAxis.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/zoomAndPan/#argumentAxis') and [valueAxis](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/zoomAndPan/valueAxis.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/zoomAndPan/#valueAxis') options:
+Zooming and panning are configured in the [zoomAndPan](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/zoomAndPan '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/zoomAndPan/') object. You can enable them separately for the argument and value axes by specifying the [argumentAxis](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/zoomAndPan/argumentAxis.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/zoomAndPan/#argumentAxis') and [valueAxis](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/zoomAndPan/valueAxis.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/zoomAndPan/#valueAxis') options:
 
 ---
 ##### jQuery
@@ -44,7 +44,7 @@ Zooming and panning are configured in the [zoomAndPan](/api-reference/20%20Data%
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/ZoomingAndScrolling/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/ZoomingAndScrolling/"
 }
 
 Users can zoom the chart using the drag gesture (area selection) if you enable the [dragToZoom](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/zoomAndPan/dragToZoom.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/zoomAndPan/#dragToZoom') option. To pan in this case, users should perform the drag gesture while pressing [panKey](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/1%20Configuration/zoomAndPan/panKey.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/zoomAndPan/#panKey'). Zooming and panning should be enabled.

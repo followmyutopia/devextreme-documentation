@@ -1,4 +1,4 @@
-Bind the **Diagram**'s [nodes](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/nodes/nodes.md '/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/') and [edges](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/edges/edges.md '/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/edges/') collections to the appropriate plain lists of nodes and edges.
+Bind the **Diagram**'s [nodes](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/nodes '/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/nodes/') and [edges](/api-reference/10%20UI%20Widgets/dxDiagram/1%20Configuration/edges '/Documentation/ApiReference/UI_Widgets/dxDiagram/Configuration/edges/') collections to the appropriate plain lists of nodes and edges.
 
 You should specify the following required properties.
 

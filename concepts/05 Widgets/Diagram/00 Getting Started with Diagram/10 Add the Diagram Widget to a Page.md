@@ -2,7 +2,7 @@ Add diagram resources (scripts and styles) onto the page.
 
 - **npm**
 
-    The `devexpress-diagram` is a dependency of the `DevExtreme` package. Therefore, [install the DevExtreme npm package](/concepts/00%20Getting%20Started/01%20Installation/01%20npm%20Package/01%20npm%20Package.md '/Documentation/Guide/Getting_Started/Installation/npm_Package/') to include the Diagram in your project. Then, add the `dx-diagram.min.css` and `dx-diagram.min.js` files to your page.
+    The `devexpress-diagram` is a dependency of the `DevExtreme` package. Therefore, [install the DevExtreme npm package](/concepts/00%20Getting%20Started/01%20Installation/01%20npm%20Package '/Documentation/Guide/Getting_Started/Installation/npm_Package/') to include the Diagram in your project. Then, add the `dx-diagram.min.css` and `dx-diagram.min.js` files to your page.
 
         <!--HTML-->
         <link rel="stylesheet" href="node_modules/devexpress-diagram/dx-diagram.min.css">
@@ -18,7 +18,7 @@ Add diagram resources (scripts and styles) onto the page.
 
 - **Local Scripts**
 
-    You can find all the required files in the [DevExtreme zip archive](/Download/#Alternative-Downloads) or DevExtreme folder (%ProgramFiles(x86)%\DevExpress 20.1\DevExtreme\Sources). Copy the **dx-diagram.min.js** and **dx-diagram.min.css** files into your application folder. Then, link the required files.
+    You can find all the required files in the [DevExtreme zip archive](https://js.devexpress.com/Download/#Alternative-Downloads) or DevExtreme folder (%ProgramFiles(x86)%\DevExpress 20.1\DevExtreme\Sources). Copy the **dx-diagram.min.js** and **dx-diagram.min.css** files into your application folder. Then, link the required files.
 
         <!--HTML-->
         <script type="text/javascript" src="js/dx-diagram.min.js"></script>
@@ -52,4 +52,4 @@ Initialize the **Diagram** widget in a DOM element.
         <!--HTML-->
         <div id="diagram"></div>
 
-![Diagram control](Content/images/doc/20_1/diagram/overview.png)
+![Diagram control](/images/diagram/overview.png)

@@ -12,11 +12,11 @@ A new value.
 Use this method to change the main gauge value at runtime.
 
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/Gauges/ValueIndicatorsAPI/",
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Gauges/ValueIndicatorsAPI/",
     name: "Value Indicators API"
 }
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/Gauges/VariableNumberOfSubvalueIndicators/",
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Gauges/VariableNumberOfSubvalueIndicators/",
     name: "Subvalue Indicators"
 }
 

@@ -77,7 +77,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
 #####See Also#####
 #include common-link-callmethods
-- [RangeSlider Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/RangeSlider/Overview/)
-- [RangeSlider API Reference](/api-reference/10%20UI%20Widgets/dxRangeSlider/dxRangeSlider.md '/Documentation/ApiReference/UI_Widgets/dxRangeSlider/')
+- [RangeSlider Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/RangeSlider/Overview)
+- [RangeSlider API Reference](/api-reference/10%20UI%20Widgets/dxRangeSlider '/Documentation/ApiReference/UI_Widgets/dxRangeSlider/')
 
 [tags]range slider, rangeSlider, accessibility, keyboard shortcuts

@@ -4,7 +4,7 @@ type: Array<String> | String
 ---
 ---
 ##### shortDescription
-Specifies the navigation properties to be loaded with the OData entity. Available only for the [ODataStore](/api-reference/30%20Data%20Layer/ODataStore/ODataStore.md '/Documentation/ApiReference/Data_Layer/ODataStore/').
+Specifies the navigation properties to be loaded with the OData entity. Available only for the [ODataStore](/api-reference/30%20Data%20Layer/ODataStore '/Documentation/ApiReference/Data_Layer/ODataStore/').
 
 ---
 ---

@@ -1,4 +1,4 @@
-Call the [getAllItems()](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/3%20Methods/getAllItems().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Methods/#getAllItems') method to access funnel items. It returns a collection of objects whose fields and methods are described in the [Item](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/6%20Item/Item.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/') section.
+Call the [getAllItems()](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/3%20Methods/getAllItems().md '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Methods/#getAllItems') method to access funnel items. It returns a collection of objects whose fields and methods are described in the [Item](/api-reference/20%20Data%20Visualization%20Widgets/dxFunnel/6%20Item '/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/') section.
 
 ---
 ##### jQuery

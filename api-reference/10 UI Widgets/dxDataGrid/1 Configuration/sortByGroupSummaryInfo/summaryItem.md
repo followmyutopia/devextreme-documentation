@@ -62,7 +62,7 @@ The **summaryItem** option accepts one of the following values.
 
     ---
 
-- The index of a summary item in the [groupItems](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/summary/groupItems/groupItems.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/') array. The following code sorts groups according to the values of the group summary item that has index 0.    
+- The index of a summary item in the [groupItems](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/summary/groupItems '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/') array. The following code sorts groups according to the values of the group summary item that has index 0.    
 
     ---
     #####jQuery

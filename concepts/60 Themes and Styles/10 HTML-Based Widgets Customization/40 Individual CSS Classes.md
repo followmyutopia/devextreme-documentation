@@ -1,6 +1,6 @@
 Because DevExtreme components consist of standard HTML elements (`<div>`, `<td>`, `<tr>`, and so on), you can use CSS classes to customize them.
 
-A number of classes are [documented](/api-reference/10%20UI%20Widgets/zz%20CSS%20Classes/CSS%20Classes.md '/Documentation/ApiReference/UI_Widgets/CSS_Classes/'). However, in most cases, you need to inspect the HTML markup to determine and override the applied CSS classes. The following articles describe how you can do it:
+A number of classes are [documented](/api-reference/10%20UI%20Widgets/zz%20CSS%20Classes '/Documentation/ApiReference/UI_Widgets/CSS_Classes/'). However, in most cases, you need to inspect the HTML markup to determine and override the applied CSS classes. The following articles describe how you can do it:
 
 - <a href="https://www.devexpress.com/Support/Center/Question/Details/K18570/how-to-inspect-css-rules" target="_blank">How to inspect CSS rules</a>
 - <a href="https://www.devexpress.com/Support/Center/Question/Details/T632424/how-to-implement-css-related-solutions-for-devexpress-components" target="_blank">How to implement CSS-related solutions for DevExpress components</a>

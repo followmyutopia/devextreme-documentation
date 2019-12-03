@@ -9,8 +9,8 @@ Specifies whether selection is recursive.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TreeList/MultipleRowSelection/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/TreeList/MultipleRowSelection/"
 }
 
 #####See Also#####
-- [Selection](/concepts/05%20Widgets/TreeList/50%20Selection/Selection.md '/Documentation/Guide/Widgets/TreeList/Selection/')
+- [Selection](/concepts/05%20Widgets/TreeList/50%20Selection '/Documentation/Guide/Widgets/TreeList/Selection/')

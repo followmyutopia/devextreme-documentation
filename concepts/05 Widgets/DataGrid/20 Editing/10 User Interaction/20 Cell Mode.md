@@ -51,7 +51,7 @@ Clicking a *"Delete"* button invokes the confirmation dialog that allows a user 
 
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/CellEditingAndEditingAPI/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/CellEditingAndEditingAPI/"
 }
 
 #####See Also#####

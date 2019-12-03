@@ -3,7 +3,7 @@ id: dxPivotGrid.bindChart(chart, integrationOptions)
 ---
 ---
 ##### shortDescription
-Binds a [Chart](/api-reference/20%20Data%20Visualization%20Widgets/dxChart/dxChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/') to the **PivotGrid**.
+Binds a [Chart](/api-reference/20%20Data%20Visualization%20Widgets/dxChart '/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/') to the **PivotGrid**.
 
 ##### return: function() | null
 Unbinds the **Chart**. If **null**, then binding failed.
@@ -54,7 +54,7 @@ Accepts one of the following values.
 Main article: [Integration with Chart](/concepts/05%20Widgets/PivotGrid/150%20Integration%20with%20Chart/10%20Integration%20with%20Chart.md '/Documentation/Guide/Widgets/PivotGrid/Integration_with_Chart/')
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/PivotGrid/ChartIntegration/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/PivotGrid/ChartIntegration/"
 }
 
 #####See Also#####

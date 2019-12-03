@@ -1,8 +1,8 @@
-The **CustomStore** requires the [load](/api-reference/30%20Data%20Layer/CustomStore/1%20Configuration/load.md '/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load') function. It sends data processing settings to the server and gets processed data back. These settings depend on which [remoteOperations](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/remoteOperations/remoteOperations.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/') are enabled. The following data processing settings apply to the **DataGrid**:
+The **CustomStore** requires the [load](/api-reference/30%20Data%20Layer/CustomStore/1%20Configuration/load.md '/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load') function. It sends data processing settings to the server and gets processed data back. These settings depend on which [remoteOperations](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/remoteOperations '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/') are enabled. The following data processing settings apply to the **DataGrid**:
 
 - **Paging settings**: [take](/api-reference/30%20Data%20Layer/CustomStore/LoadOptions/take.md '/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#take'), [skip](/api-reference/30%20Data%20Layer/CustomStore/LoadOptions/skip.md '/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#skip'), [requireTotalCount](/api-reference/30%20Data%20Layer/CustomStore/LoadOptions/requireTotalCount.md '/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#requireTotalCount')    
 
-    [note] When [scrolling](/concepts/05%20Widgets/DataGrid/40%20Scrolling/Scrolling.md '/Documentation/Guide/Widgets/DataGrid/Scrolling/') is infinite, **requireTotalCount** is **false**. It should not be changed to ensure scrolling works properly.
+    [note] When [scrolling](/concepts/05%20Widgets/DataGrid/40%20Scrolling '/Documentation/Guide/Widgets/DataGrid/Scrolling/') is infinite, **requireTotalCount** is **false**. It should not be changed to ensure scrolling works properly.
 
 - **Sorting settings**: [sort](/api-reference/30%20Data%20Layer/CustomStore/LoadOptions/sort.md '/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#sort')         
 
@@ -283,6 +283,6 @@ Below is a generalized **CustomStore** configuration for the **DataGrid** widget
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/CustomDataSource/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/CustomDataSource/"
 }
 

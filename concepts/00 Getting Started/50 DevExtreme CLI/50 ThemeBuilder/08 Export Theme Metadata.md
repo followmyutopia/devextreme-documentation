@@ -1,4 +1,4 @@
-Theme metadata is a JSON object that describes the theme. It is used to export or import a theme in the [ThemeBuilder UI](/concepts/60%20Themes%20and%20Styles/08%20ThemeBuilder/ThemeBuilder.md '/Documentation/Guide/Themes_and_Styles/ThemeBuilder/'). Below is an example of theme metadata.
+Theme metadata is a JSON object that describes the theme. It is used to export or import a theme in the [ThemeBuilder UI](/concepts/60%20Themes%20and%20Styles/08%20ThemeBuilder '/Documentation/Guide/Themes_and_Styles/ThemeBuilder/'). Below is an example of theme metadata.
 
     {
         "items": [

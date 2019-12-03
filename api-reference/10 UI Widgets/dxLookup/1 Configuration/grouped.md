@@ -14,5 +14,5 @@ include **key** and **items** properties. The **key** property specifies the gro
 [note]Only one-level grouping is supported.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Lookup/Basics/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Basics/"
 }

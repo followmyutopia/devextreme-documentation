@@ -21,9 +21,9 @@ A template name or container.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/{WidgetName}/GroupedItems/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/{WidgetName}/GroupedItems/"
 }
 
 #####See Also#####
-- [Customize Group Headers](/Documentation/Guide/Widgets/{WidgetName}/Grouping/Customize_Group_Headers/)
+- [Customize Group Headers](/concepts/05%20Widgets/SelectBox/07%20Grouping/05%20Customize%20Group%20Headers.md '/Documentation/Guide/Widgets/{WidgetName}/Grouping/Customize_Group_Headers/')
 - [Custom Templates](/concepts/05%20Widgets/zz%20Common/30%20Templates/10%20Custom%20Templates.md '/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates')

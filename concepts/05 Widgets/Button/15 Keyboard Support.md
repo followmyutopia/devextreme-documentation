@@ -135,7 +135,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
 #####See Also#####
 #include common-link-callmethods
-- [Button Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Button/Icons/)
-- [Button API Reference](/api-reference/10%20UI%20Widgets/dxButton/dxButton.md '/Documentation/ApiReference/UI_Widgets/dxButton/')
+- [Button Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Button/Icons)
+- [Button API Reference](/api-reference/10%20UI%20Widgets/dxButton '/Documentation/ApiReference/UI_Widgets/dxButton/')
 
 [tags]button, accessibility, keyboard shortcuts

@@ -1,7 +1,7 @@
 The **Button** widget is a simple button that performs specified commands when a user clicks it.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Button/PredefinedTypes/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Button/PredefinedTypes/"
 }
 
 The following code adds a simple **Button** to your page.
@@ -115,6 +115,6 @@ The appearance of the **Button** is predefined by its [type](/api-reference/10%2
 #include common-link-configurewidget
 - [Button - Customize the Appearance](/concepts/05%20Widgets/Button/05%20Customize%20the%20Appearance.md '/Documentation/Guide/Widgets/Button/Customize_the_Appearance/')
 - [Button - Validate and Submit an HTML form](/concepts/05%20Widgets/Button/10%20Validate%20and%20Submit%20an%20HTML%20Form.md '/Documentation/Guide/Widgets/Button/Validate_and_Submit_an_HTML_Form/')
-- [Button API Reference](/api-reference/10%20UI%20Widgets/dxButton/dxButton.md '/Documentation/ApiReference/UI_Widgets/dxButton/')
+- [Button API Reference](/api-reference/10%20UI%20Widgets/dxButton '/Documentation/ApiReference/UI_Widgets/dxButton/')
 
 [tags]button, overview, click

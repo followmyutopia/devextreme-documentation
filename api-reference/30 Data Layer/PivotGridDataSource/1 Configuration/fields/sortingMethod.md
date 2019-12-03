@@ -38,7 +38,7 @@ This function accepts two field values and should return a number indicating the
 - *Greater than zero*   
 *a* goes after *b*.
 
-Inside this function, you can access the [field's configuration](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/fields.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/') using the **this** keyword:
+Inside this function, you can access the [field's configuration](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/') using the **this** keyword:
 
 ---
 ##### jQuery

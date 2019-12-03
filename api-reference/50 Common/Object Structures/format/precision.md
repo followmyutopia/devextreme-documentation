@@ -21,5 +21,5 @@ This option applies when the [type](/api-reference/50%20Common/Object%20Structur
 - 'trillions'
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Gauges/LabelsCustomization/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Gauges/LabelsCustomization/"
 }

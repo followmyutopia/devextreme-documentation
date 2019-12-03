@@ -1,7 +1,7 @@
 The **Calendar** is a widget that displays a calendar and allows an end user to select the required date within a specified date range.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Calendar/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Calendar/Overview/"
 }
 
 The following code adds a simple **Calendar** to your page.
@@ -85,7 +85,7 @@ To specify which day should be considered the beginning of the week, pass its in
 - [Calendar - Specify Zoom Level](/concepts/05%20Widgets/Calendar/10%20Specify%20Zoom%20Level.md '/Documentation/Guide/Widgets/Calendar/Specify_Zoom_Level')
 - [Calendar - Customize Cell Appearance](/concepts/05%20Widgets/Calendar/15%20Customize%20Cell%20Appearance.md '/Documentation/Guide/Widgets/Calendar/Customize_Cell_Appearance')
 - [Calendar - Keyboard Support](/concepts/05%20Widgets/Calendar/20%20Keyboard%20Support.md '/Documentation/Guide/Widgets/Calendar/Keyboard_Support')
-- [Calendar API Reference](/api-reference/10%20UI%20Widgets/dxCalendar/dxCalendar.md '/Documentation/ApiReference/UI_Widgets/dxCalendar/')
+- [Calendar API Reference](/api-reference/10%20UI%20Widgets/dxCalendar '/Documentation/ApiReference/UI_Widgets/dxCalendar/')
 - [DateBox - Overview](/concepts/05%20Widgets/DateBox/00%20Overview.md '/Documentation/Guide/Widgets/DateBox/Overview/')
 
 [tags]calendar, editor, scheduling, overview, value format, date format, date range

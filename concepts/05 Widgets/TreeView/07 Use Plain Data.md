@@ -49,7 +49,7 @@ If you use plain data in the **TreeView**, set the [dataStructure](/api-referenc
 
 ---
 
-As you can see, all items in a plain data source have the **id** and **text** fields, and items that have a parent, have the **parentId** field. Those are conventional field names defined by the [Default Item Template](/api-reference/10%20UI%20Widgets/dxTreeView/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Default_Item_Template/') pattern. To use other names, change the [keyExpr](/api-reference/10%20UI%20Widgets/HierarchicalCollectionWidget/1%20Configuration/keyExpr.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#keyExpr'), [displayExpr](/api-reference/10%20UI%20Widgets/dxTreeView/1%20Configuration/displayExpr.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#displayExpr') and [parentIdExpr](/api-reference/10%20UI%20Widgets/dxTreeView/1%20Configuration/parentIdExpr.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#parentIdExpr') options, respectively.
+As you can see, all items in a plain data source have the **id** and **text** fields, and items that have a parent, have the **parentId** field. Those are conventional field names defined by the [Default Item Template](/api-reference/10%20UI%20Widgets/dxTreeView/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxTreeView/Default_Item_Template/') pattern. To use other names, change the [keyExpr](/api-reference/10%20UI%20Widgets/HierarchicalCollectionWidget/1%20Configuration/keyExpr.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#keyExpr'), [displayExpr](/api-reference/10%20UI%20Widgets/dxTreeView/1%20Configuration/displayExpr.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#displayExpr') and [parentIdExpr](/api-reference/10%20UI%20Widgets/dxTreeView/1%20Configuration/parentIdExpr.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#parentIdExpr') options, respectively.
 
 ---
 ##### jQuery
@@ -162,13 +162,13 @@ Frequently, the **id** of an item is also its **text**. In this case, set both t
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Tree_View/FlatDataStructure/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_View/FlatDataStructure/"
 }
 
 #####See Also#####
 - [TreeView - Use Hierarchical Data](/concepts/05%20Widgets/TreeView/05%20Use%20Hierarchical%20Data.md '/Documentation/Guide/Widgets/TreeView/Use_Hierarchical_Data')
-- [TreeView - Access a Node](/concepts/05%20Widgets/TreeView/10%20Access%20a%20Node/Access%20a%20Node.md '/Documentation/Guide/Widgets/TreeView/Access_a_Node')
+- [TreeView - Access a Node](/concepts/05%20Widgets/TreeView/10%20Access%20a%20Node '/Documentation/Guide/Widgets/TreeView/Access_a_Node')
 - [TreeView - Customize Node Appearance](/concepts/05%20Widgets/TreeView/30%20Customize%20Node%20Appearance.md '/Documentation/Guide/Widgets/TreeView/Customize_Node_Appearance')
-- [TreeView API Reference](/api-reference/10%20UI%20Widgets/dxTreeView/dxTreeView.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/')
+- [TreeView API Reference](/api-reference/10%20UI%20Widgets/dxTreeView '/Documentation/ApiReference/UI_Widgets/dxTreeView/')
 
 [tags]treeview, tree view, plain data structure, dataSctructure, keyExpr, displayExpr, parentIdExpr

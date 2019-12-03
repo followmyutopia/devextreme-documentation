@@ -13,7 +13,7 @@ Information about the event.
 #include common-ref-elementparam with { element: "cell" }
 
 ##### field(e.column): dxTreeListColumn
-This column's [configuration](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/columns/columns.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/').
+This column's [configuration](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/columns '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/').
 
 ##### field(e.columnIndex): Number
 The index of the column to which the cell belongs.
@@ -26,7 +26,7 @@ The data of the row to which the cell belongs. Available if the **rowType** is *
 
 ##### field(e.displayValue): any
 The cell's displayed value. Available if the **rowType** is *"data"*.       
-Differs from the **value** field only when the cell belongs to the [lookup](/api-reference/_hidden/GridBaseColumn/lookup/lookup.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/lookup/') column.
+Differs from the **value** field only when the cell belongs to the [lookup](/api-reference/_hidden/GridBaseColumn/lookup '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/lookup/') column.
 
 ##### field(e.element): dxElement
 #include common-ref-elementparam with { element: "widget" }
@@ -42,7 +42,7 @@ For plain data, the key value depends on the [keyExpr](/api-reference/10%20UI%20
 Model data. Available only if you use Knockout.
 
 ##### field(e.row): dxTreeListRowObject
-The row [properties](/api-reference/10%20UI%20Widgets/dxTreeList/6%20Row/Row.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/'). Available if the **rowType** is *"data"*, *"detail"* or *"detailAdaptive"*.
+The row [properties](/api-reference/10%20UI%20Widgets/dxTreeList/6%20Row '/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/'). Available if the **rowType** is *"data"*, *"detail"* or *"detailAdaptive"*.
 
 ##### field(e.rowIndex): Number
 The index of the row to which the cell belongs. Refer to [Column and Row Indexes](/concepts/05%20Widgets/TreeList/10%20Columns/12%20Column%20and%20Row%20Indexes.md '/Documentation/Guide/Widgets/TreeList/Columns/Column_and_Row_Indexes/') for more information.

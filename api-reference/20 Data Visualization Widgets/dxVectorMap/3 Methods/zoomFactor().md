@@ -10,7 +10,7 @@ The zoom factor value.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/VectorMap/ZoomingAndCentering/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/VectorMap/ZoomingAndCentering/"
 }
 
 #####See Also#####

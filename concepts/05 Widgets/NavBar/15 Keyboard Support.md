@@ -69,7 +69,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
 #####See Also#####
 #include common-link-callmethods
-- [NavBar Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Navbar/Overview/)
-- [NavBar API Reference](/api-reference/10%20UI%20Widgets/dxNavBar/dxNavBar.md '/Documentation/ApiReference/UI_Widgets/dxNavBar/')
+- [NavBar Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Navbar/Overview)
+- [NavBar API Reference](/api-reference/10%20UI%20Widgets/dxNavBar '/Documentation/ApiReference/UI_Widgets/dxNavBar/')
 
 [tags]nav bar, navBar, navigation bar, accessibility, keyboard shortcuts

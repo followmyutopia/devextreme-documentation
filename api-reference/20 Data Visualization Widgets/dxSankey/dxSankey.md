@@ -26,7 +26,7 @@ link: { colorMode: "gradient" }
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/SankeyChart/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/SankeyChart/"
 }
 #include common-readguidesbutton with {
     url: "/Documentation/Guide/Widgets/Sankey/Overview/"

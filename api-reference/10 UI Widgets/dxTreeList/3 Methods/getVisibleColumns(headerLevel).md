@@ -15,4 +15,4 @@ The column headers' level.
 #####See Also#####
 #include common-link-callmethods
 - [getVisibleColumns()](/api-reference/10%20UI%20Widgets/dxTreeList/3%20Methods/getVisibleColumns().md '{basewidgetpath}/Methods/#getVisibleColumns')
-- [columns](/api-reference/_hidden/GridBaseColumn/GridBaseColumn.md '{basewidgetpath}/Configuration/columns/')
+- [columns](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/columns '{basewidgetpath}/Configuration/columns/')

@@ -15,5 +15,5 @@ Specifies whether tiles are placed horizontally or vertically.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Tile_View/Directions/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tile_View/Directions/"
 }

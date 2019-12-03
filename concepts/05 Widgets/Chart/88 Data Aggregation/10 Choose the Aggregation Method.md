@@ -68,7 +68,7 @@ The following code shows how to specify aggregation methods for each series indi
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/PointsAggregation/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/PointsAggregation/"
 }
 
 You can implement a custom aggregate function instead of using an out-of-the-box aggregation method.

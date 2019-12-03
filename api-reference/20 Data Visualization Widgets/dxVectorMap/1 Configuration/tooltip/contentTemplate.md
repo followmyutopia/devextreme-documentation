@@ -18,5 +18,5 @@ Information on the area or marker being pressed or hovered over. To distinguish 
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/VectorMap/TooltipHTMLSupport/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/VectorMap/TooltipHTMLSupport/"
 }

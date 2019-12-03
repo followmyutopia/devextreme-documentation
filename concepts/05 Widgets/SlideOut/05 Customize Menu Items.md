@@ -1,4 +1,4 @@
-For a minor customization of menu items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxSlideOut/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxSlideOut/Default_Item_Template/') are present or absent from the item's data object. For example, in the following code, *"Favorites"* is disabled and *"Help"* is hidden.
+For a minor customization of menu items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxSlideOut/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxSlideOut/Default_Item_Template/') are present or absent from the item's data object. For example, in the following code, *"Favorites"* is disabled and *"Help"* is hidden.
 
     <!--JavaScript-->var menuItems = [
         { text: "Home" },
@@ -26,7 +26,7 @@ For a minor customization of menu items, you can use the default item template. 
         width: 100%;
     }
 
-If you need a more flexible solution, define a custom template. For AngularJS and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate/dxTemplate.md '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code gives a simple example of how you can use **dxTemplate** to customize the items of a slide-out menu.
+If you need a more flexible solution, define a custom template. For AngularJS and Knockout apps, DevExtreme provides the [dxTemplate](/api-reference/10%20UI%20Widgets/Markup%20Components/dxTemplate '/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/') markup component. The following code gives a simple example of how you can use **dxTemplate** to customize the items of a slide-out menu.
 
 ---
 
@@ -143,7 +143,7 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
  
 #####See Also#####
 - [SlideOut - Group Menu Items](/concepts/05%20Widgets/SlideOut/08%20Group%20Menu%20Items.md '/Documentation/Guide/Widgets/SlideOut/Group_Menu_Items')
-- [SlideOut Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Slideout/Overview/)
-- [SlideOut API Reference](/api-reference/10%20UI%20Widgets/dxSlideOut/dxSlideOut.md '/Documentation/ApiReference/UI_Widgets/dxSlideOut/')
+- [SlideOut Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Slideout/Overview)
+- [SlideOut API Reference](/api-reference/10%20UI%20Widgets/dxSlideOut '/Documentation/ApiReference/UI_Widgets/dxSlideOut/')
 
 [tags]slide-out menu, slideOut, item appearance, customize, templates

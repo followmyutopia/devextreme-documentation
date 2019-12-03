@@ -7,7 +7,7 @@ type: Object
 Configures the widget used to edit the field value.
 
 ---
-Depending on the [dataType](/api-reference/10%20UI%20Widgets/dxFilterBuilder/5%20Field/editorOptions.md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/fields/#editorOptions'), the **FilterBuilder** offers a user different widgets for editing: [TextBox](/api-reference/10%20UI%20Widgets/dxTextBox/dxTextBox.md '/Documentation/ApiReference/UI_Widgets/dxTextBox/'), [DateBox](/api-reference/10%20UI%20Widgets/dxDateBox/dxDateBox.md '/Documentation/ApiReference/UI_Widgets/dxDateBox/'), [Lookup](/api-reference/10%20UI%20Widgets/dxLookup/dxLookup.md '/Documentation/ApiReference/UI_Widgets/dxLookup/'), etc. In the **editorOptions** object, you can specify options for the widget.
+Depending on the [dataType](/api-reference/_hidden/dxFilterBuilderField/editorOptions.md '/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/fields/#editorOptions'), the **FilterBuilder** offers a user different widgets for editing: [TextBox](/api-reference/10%20UI%20Widgets/dxTextBox '/Documentation/ApiReference/UI_Widgets/dxTextBox/'), [DateBox](/api-reference/10%20UI%20Widgets/dxDateBox '/Documentation/ApiReference/UI_Widgets/dxDateBox/'), [Lookup](/api-reference/10%20UI%20Widgets/dxLookup '/Documentation/ApiReference/UI_Widgets/dxLookup/'), etc. In the **editorOptions** object, you can specify options for the widget.
 
 [note]
 

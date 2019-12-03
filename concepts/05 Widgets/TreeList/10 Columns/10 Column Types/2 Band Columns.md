@@ -2,7 +2,7 @@ Unlike [data columns](/concepts/05%20Widgets/TreeList/10%20Columns/10%20Column%2
 
 ![DevExtreme HTML5 JavaScript TreeList BandColumns MultiRowHeaders BandedLayout](/images/treelist/visual_elements/column-types_band.png)
 
-To set up this layout, describe the hierarchy of columns directly in an object of the [columns](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/columns/columns.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/') array. For example, the following code bands three columns under the *"Contacts"* header.
+To set up this layout, describe the hierarchy of columns directly in an object of the [columns](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/columns '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/') array. For example, the following code bands three columns under the *"Contacts"* header.
 
 ---
 ##### jQuery
@@ -101,7 +101,7 @@ If you use the [customizeColumns](/api-reference/10%20UI%20Widgets/dxTreeList/1%
     
 ---
 
-[note] Nested columns have almost every [option of a data column](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/columns/columns.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/'), except [fixed](/api-reference/_hidden/GridBaseColumn/fixed.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#fixed') and [fixedPosition](/api-reference/_hidden/GridBaseColumn/fixedPosition.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#fixedPosition'). Band columns, on the contrary, support a very limited set of options; all of them are listed in the [isBand](/api-reference/_hidden/GridBaseColumn/isBand.md '/Documentation//ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#isBand') option's description. 
+[note] Nested columns have almost every [option of a data column](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/columns '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/'), except [fixed](/api-reference/_hidden/GridBaseColumn/fixed.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#fixed') and [fixedPosition](/api-reference/_hidden/GridBaseColumn/fixedPosition.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#fixedPosition'). Band columns, on the contrary, support a very limited set of options; all of them are listed in the [isBand](/api-reference/_hidden/GridBaseColumn/isBand.md '/Documentation//ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#isBand') option's description. 
 
 Band columns support hierarchies of any nesting level making the following structure acceptable.
 

@@ -78,7 +78,7 @@ Note that you can also use a <a href="http://api.jquery.com/jQuery.ajax/" target
 
 ---
 
-You should implement the [CustomStore](/api-reference/30%20Data%20Layer/CustomStore/CustomStore.md '/Documentation/ApiReference/Data_Layer/CustomStore/') if you need to process data after obtaining it. Refer to the [Custom Sources](/concepts/05%20Widgets/Sankey/03%20Data%20Binding/20%20Custom%20Sources.md '/Documentation/Guide/Widgets/Sankey/Data_Binding/Custom_Sources/') topic for more information.
+You should implement the [CustomStore](/api-reference/30%20Data%20Layer/CustomStore '/Documentation/ApiReference/Data_Layer/CustomStore/') if you need to process data after obtaining it. Refer to the [Custom Sources](/concepts/05%20Widgets/Sankey/03%20Data%20Binding/20%20Custom%20Sources.md '/Documentation/Guide/Widgets/Sankey/Data_Binding/Custom_Sources/') topic for more information.
 
 #####See Also#####
-- [Update Data in the Sankey](/concepts/05%20Widgets/Sankey/03%20Data%20Binding/26%20Update%20Data/Update%20Data.md '/Documentation/Guide/Widgets/Sankey/Data_Binding/Update_Data/')
+- [Update Data in the Sankey](/concepts/05%20Widgets/Sankey/03%20Data%20Binding/26%20Update%20Data '/Documentation/Guide/Widgets/Sankey/Data_Binding/Update_Data/')

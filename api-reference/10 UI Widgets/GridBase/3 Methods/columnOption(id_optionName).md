@@ -17,4 +17,4 @@ The option's name.
 ---
 #####See Also#####
 #include common-link-callmethods
-- [columns](/api-reference/_hidden/GridBaseColumn/GridBaseColumn.md '{basewidgetpath}/Configuration/columns/')
+- [columns](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/columns '{basewidgetpath}/Configuration/columns/')

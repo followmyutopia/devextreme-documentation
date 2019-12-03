@@ -11,7 +11,7 @@ The **PieChart** can visualize data from any source. Refer to the following topi
 
 The next step is to configure the most essential chart element - series.
 
-- [Bind Series to Data](/concepts/05%20Widgets/PieChart/03%20Data%20Binding/23%20Bind%20Series%20to%20Data/Bind%20Series%20to%20Data.md '/Documentation/Guide/Widgets/PieChart/Data_Binding/Bind_Series_to_Data/')
+- [Bind Series to Data](/concepts/05%20Widgets/PieChart/03%20Data%20Binding/23%20Bind%20Series%20to%20Data '/Documentation/Guide/Widgets/PieChart/Data_Binding/Bind_Series_to_Data/')
 - [Series Overview](/concepts/05%20Widgets/PieChart/10%20Series/00%20Overview.md '/Documentation/Guide/Widgets/PieChart/Series/Overview/')
 - [Point Labels](/concepts/05%20Widgets/PieChart/15%20Point%20Labels/00%20Overview.md '/Documentation/Guide/Widgets/PieChart/Point_Labels/Overview/')
 
@@ -23,9 +23,9 @@ Then, make the **PieChart** more informative with the following elements.
 Finally, add some interactivity.
 
 - [Tooltips](/concepts/05%20Widgets/PieChart/30%20Tooltips/00%20Overview.md '/Documentation/Guide/Widgets/PieChart/Tooltips/Overview/')
-- [Client-Side Exporting and Printing](/concepts/05%20Widgets/PieChart/99%20Client-Side%20Exporting%20and%20Printing/Client-Side%20Exporting%20and%20Printing.md '/Documentation/Guide/Widgets/PieChart/Client-Side_Exporting_and_Printing/')
+- [Client-Side Exporting and Printing](/concepts/05%20Widgets/PieChart/99%20Client-Side%20Exporting%20and%20Printing '/Documentation/Guide/Widgets/PieChart/Client-Side_Exporting_and_Printing/')
 - [Adaptive Layout](/concepts/05%20Widgets/PieChart/89%20Adaptive%20Layout.md '/Documentation/Guide/Widgets/PieChart/Adaptive_Layout/')
 
 #####See Also#####
-- [PieChart Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Pie/)
-- [PieChart API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart/dxPieChart.md '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/')
+- [PieChart Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Pie)
+- [PieChart API Reference](/api-reference/20%20Data%20Visualization%20Widgets/dxPieChart '/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/')

@@ -5,7 +5,7 @@ export: default
 ---
 ---
 ##### shortDescription
-Creates a [Query](/api-reference/30%20Data%20Layer/Query/Query.md '/Documentation/ApiReference/Data_Layer/Query/') instance.
+Creates a [Query](/api-reference/30%20Data%20Layer/Query '/Documentation/ApiReference/Data_Layer/Query/') instance.
 
 ##### return: Query
 A **Query** instance.

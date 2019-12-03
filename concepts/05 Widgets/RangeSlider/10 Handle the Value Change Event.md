@@ -32,7 +32,7 @@ If you are going to change event handlers at runtime, or if you need to attach s
 
 #####See Also#####
 #include common-link-handleevents
-- [RangeSlider Demos](http://js.devexpress.com/Demos/WidgetsGallery/Demo/RangeSlider/Overview/)
-- [RangeSlider API Reference](/api-reference/10%20UI%20Widgets/dxRangeSlider/dxRangeSlider.md '/Documentation/ApiReference/UI_Widgets/dxRangeSlider/')
+- [RangeSlider Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/RangeSlider/Overview)
+- [RangeSlider API Reference](/api-reference/10%20UI%20Widgets/dxRangeSlider '/Documentation/ApiReference/UI_Widgets/dxRangeSlider/')
 
 [tags]range slider, rangeSlider, editor, get value, set value

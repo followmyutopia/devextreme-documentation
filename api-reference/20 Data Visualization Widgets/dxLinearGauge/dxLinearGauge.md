@@ -16,7 +16,7 @@ dx.viz.js, dx.viz-web.js, dx.all.js
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Gauges/ScaleCustomTickInterval/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Gauges/ScaleCustomTickInterval/"
 }
 #include common-readguidesbutton with {
     url: "/Documentation/Guide/Widgets/LinearGauge/Visual_Elements/"

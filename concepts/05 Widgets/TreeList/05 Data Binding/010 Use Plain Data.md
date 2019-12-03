@@ -62,7 +62,7 @@ Here, all items have the **id** field, and those items that have a parent includ
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TreeList/SimpleArrayPlainStructure/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/TreeList/SimpleArrayPlainStructure/"
 }
 
 Items on the highest hierarchical level have the parent ID equal to *0*, **null** or **undefined**, which indicates that these items belong to the root node. If you need to use another value, change the [rootValue](/api-reference/10%20UI%20Widgets/dxTreeList/1%20Configuration/rootValue.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#rootValue') option.
@@ -120,6 +120,6 @@ When you load data from a remote source, and your data objects have a field that
 
 #####See Also#####
 - [TreeList - Use Hierarchical Data](/concepts/05%20Widgets/TreeList/05%20Data%20Binding/015%20Use%20Hierarchical%20Data.md '/Documentation/Guide/Widgets/TreeList/Data_Binding/Use_Hierarchical_Data/')
-- [TreeList API Reference](/api-reference/10%20UI%20Widgets/dxTreeList/dxTreeList.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/')
+- [TreeList API Reference](/api-reference/10%20UI%20Widgets/dxTreeList '/Documentation/ApiReference/UI_Widgets/dxTreeList/')
 
 [tags]treeList, plain data, parentIdExpr, keyExpr, root value, rootValue

@@ -16,7 +16,7 @@ A lookup column restricts the set of values that can be chosen when a user edits
         { busID: 3, plates: "CD-9876" }
     ];
 
-All `drivers` have the `busID` field, which refers to a bus. If `drivers` is the main [dataSource](/api-reference/10%20UI%20Widgets/CollectionWidget/1%20Configuration/dataSource.md '{basewidgetpath}/Configuration/#dataSource'), the *Bus ID* column displays bus IDs, which provides little information to a user. It will be more useful to display bus license plates instead of IDs. For this, the `buses` array must be set as a lookup [dataSource](/api-reference/_hidden/GridBaseColumn/lookup/dataSource.md '{basewidgetpath}/Configuration/columns/lookup/#dataSource') for the *Bus ID* column. Then, the names of data fields must be assigned to the [valueExpr](/api-reference/_hidden/GridBaseColumn/lookup/valueExpr.md '{basewidgetpath}/Configuration/columns/lookup/#valueExpr') and [displayExpr](/api-reference/_hidden/GridBaseColumn/lookup/displayExpr.md '{basewidgetpath}/Configuration/columns/lookup/#displayExpr') options. Values from the **valueExpr** data field will be replaced with values from the **displayExpr** data field.
+All `drivers` have the `busID` field, which refers to a bus. If `drivers` is the main [dataSource](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/dataSource.md '{basewidgetpath}/Configuration/#dataSource'), the *Bus ID* column displays bus IDs, which provides little information to a user. It will be more useful to display bus license plates instead of IDs. For this, the `buses` array must be set as a lookup [dataSource](/api-reference/_hidden/GridBaseColumn/lookup/dataSource.md '{basewidgetpath}/Configuration/columns/lookup/#dataSource') for the *Bus ID* column. Then, the names of data fields must be assigned to the [valueExpr](/api-reference/_hidden/GridBaseColumn/lookup/valueExpr.md '{basewidgetpath}/Configuration/columns/lookup/#valueExpr') and [displayExpr](/api-reference/_hidden/GridBaseColumn/lookup/displayExpr.md '{basewidgetpath}/Configuration/columns/lookup/#displayExpr') options. Values from the **valueExpr** data field will be replaced with values from the **displayExpr** data field.
 
 ---
 ##### jQuery
@@ -77,7 +77,7 @@ All `drivers` have the `busID` field, which refers to a bus. If `drivers` is the
 With this code, the *Bus ID* column contains license plates instead of IDs. Moreover, the user can choose a plate number from the drop-down menu when editing cells or applying a filter to this column.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/CascadingLookups/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/CascadingLookups/"
 }
 
 #####See Also#####

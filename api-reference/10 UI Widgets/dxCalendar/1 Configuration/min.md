@@ -9,7 +9,7 @@ The earliest date the widget allows to select.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Calendar/Overview/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Calendar/Overview/"
 }
 
 #####See Also#####

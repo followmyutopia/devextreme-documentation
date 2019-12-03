@@ -85,7 +85,7 @@ You can use this function with the [onExported](/api-reference/10%20UI%20Widgets
 ---
 
 #####See Also#####
-- [Client-Side Exporting](/concepts/05%20Widgets/DataGrid/70%20Client-Side%20Exporting/Client-Side%20Exporting.md '/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/')
-- [export](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/export/export.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/')
+- [Client-Side Exporting](/concepts/05%20Widgets/DataGrid/70%20Client-Side%20Exporting '/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/')
+- [export](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/export '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/')
 - [customizeExportData](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/customizeExportData.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#customizeExportData')
 - [onFileSaving](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/onFileSaving.md '/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onFileSaving')

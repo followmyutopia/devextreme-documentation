@@ -23,7 +23,7 @@ dx.web.js, dx.viz-web.js, dx.all.js
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/ActionSheet/Basics/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/ActionSheet/Basics/"
 }
 #include common-readguidesbutton with {
     url: "/Documentation/Guide/Widgets/ActionSheet/Overview/"

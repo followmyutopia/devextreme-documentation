@@ -76,7 +76,7 @@ Vertically aligns widgets in their rows.
 
 ---
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/ExportSeveralCharts/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/ExportSeveralCharts/"
 }
 
 #####See Also#####

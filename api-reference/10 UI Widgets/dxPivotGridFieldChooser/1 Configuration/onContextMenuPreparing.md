@@ -24,10 +24,10 @@ The widget's instance.
 #include common-ref-eventparam
 
 ##### field(e.field): PivotGridDataSource_Options_fields
-The [configuration](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields/fields.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/') of the field on which the context menu is invoked.
+The [configuration](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/fields '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/') of the field on which the context menu is invoked.
 
 ##### field(e.items): Array<Object>
-Items to be displayed in the context menu. Their structure is described in the [Default Item Template](/api-reference/10%20UI%20Widgets/dxContextMenu/5%20Default%20Item%20Template/Default%20Item%20Template.md '/Documentation/ApiReference/UI_Widgets/dxContextMenu/Default_Item_Template/') section.
+Items to be displayed in the context menu. Their structure is described in the [Default Item Template](/api-reference/10%20UI%20Widgets/dxContextMenu/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxContextMenu/Default_Item_Template/') section.
 
 ##### field(e.jQueryEvent).deprecated
 Use 'event' instead.

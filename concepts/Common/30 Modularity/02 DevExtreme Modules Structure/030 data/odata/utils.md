@@ -2,7 +2,7 @@ Exposes OData utility objects.
 
 Exports:
 
-- *EdmLiteral* - The [EdmLiteral](/api-reference/30%20Data%20Layer/EdmLiteral/EdmLiteral.md '/Documentation/ApiReference/Data_Layer/EdmLiteral/') object
+- *EdmLiteral* - The [EdmLiteral](/api-reference/30%20Data%20Layer/EdmLiteral '/Documentation/ApiReference/Data_Layer/EdmLiteral/') object
 
         require("data/odata/utils").EdmLiteral;
         // ===== or =====

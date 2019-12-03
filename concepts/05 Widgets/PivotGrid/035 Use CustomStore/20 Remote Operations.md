@@ -1,4 +1,4 @@
-Remote operations help to improve the **PivotGrid** performance when the amount of data is large. To enable remote operations, set the [remoteOperations](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/remoteOperations.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/#remoteOperations') option of the [PivotGridDataSource](/api-reference/30%20Data%20Layer/PivotGridDataSource/PivotGridDataSource.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/') object to _true_. 
+Remote operations help to improve the **PivotGrid** performance when the amount of data is large. To enable remote operations, set the [remoteOperations](/api-reference/30%20Data%20Layer/PivotGridDataSource/1%20Configuration/remoteOperations.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/#remoteOperations') option of the [PivotGridDataSource](/api-reference/30%20Data%20Layer/PivotGridDataSource '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/') object to _true_. 
 
     <!--JavaScript-->
     var pivotGridDataSource = {
@@ -6,13 +6,13 @@ Remote operations help to improve the **PivotGrid** performance when the amount 
         // ...
     }
 
-Now, the **PivotGrid** needs a special configuration of the **CustomStore** on the client and implementation of [filtering](/concepts/05%20Widgets/PivotGrid/080%20Filtering/Filtering.md '/Documentation/Guide/Widgets/PivotGrid/Filtering/'), [grouping](/concepts/05%20Widgets/PivotGrid/050%20Grouping/Grouping.md '/Documentation/Guide/Widgets/PivotGrid/Grouping/') and [summary calculation](/concepts/05%20Widgets/PivotGrid/040%20Summaries/Summaries.md '/Documentation/Guide/Widgets/PivotGrid/Summaries/') on the server. If the server does not perform these operations yet, employ one of the following extensions by DevExtreme. They implement server-side data processing and also configure the **CustomStore** for you. 
+Now, the **PivotGrid** needs a special configuration of the **CustomStore** on the client and implementation of [filtering](/concepts/05%20Widgets/PivotGrid/080%20Filtering '/Documentation/Guide/Widgets/PivotGrid/Filtering/'), [grouping](/concepts/05%20Widgets/PivotGrid/050%20Grouping '/Documentation/Guide/Widgets/PivotGrid/Grouping/') and [summary calculation](/concepts/05%20Widgets/PivotGrid/040%20Summaries '/Documentation/Guide/Widgets/PivotGrid/Summaries/') on the server. If the server does not perform these operations yet, employ one of the following extensions by DevExtreme. They implement server-side data processing and also configure the **CustomStore** for you. 
 
 - <a href="https://github.com/DevExpress/DevExtreme.AspNet.Data" target="_blank">DevExtreme ASP.NET Data</a>
 - <a href="https://github.com/DevExpress/DevExtreme-PHP-Data" target="_blank">DevExtreme PHP Data</a>
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/PivotGrid/WebAPIService/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/PivotGrid/WebAPIService/"
 }
 
 #####See Also#####
@@ -20,7 +20,7 @@ Now, the **PivotGrid** needs a special configuration of the **CustomStore** on t
 
 If these extensions do not suit your needs, configure the **CustomStore** and implement server-side data processing by yourself, following the instructions given below. Define the [load](/api-reference/30%20Data%20Layer/CustomStore/1%20Configuration/load.md '/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load') function for the **CustomStore**. This function accepts a bag of **loadOptions** and passes them to the server. The server must process data according to the **loadOptions** and send processed data back. 
 
-The example below shows how to implement the **load** function. Note that in this example, the **CustomStore** is not declared explicitly. Instead, its load operation is implemented directly in the [PivotGridDataSource](/api-reference/30%20Data%20Layer/PivotGridDataSource/PivotGridDataSource.md '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/') configuration object to shorten the example.
+The example below shows how to implement the **load** function. Note that in this example, the **CustomStore** is not declared explicitly. Instead, its load operation is implemented directly in the [PivotGridDataSource](/api-reference/30%20Data%20Layer/PivotGridDataSource '/Documentation/ApiReference/Data_Layer/PivotGridDataSource/') configuration object to shorten the example.
 
     <!--JavaScript-->
     $(function(){

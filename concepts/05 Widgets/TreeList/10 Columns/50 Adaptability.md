@@ -85,7 +85,7 @@ Data from hidden columns is still available in adaptive detail rows. A user can 
 ![DevExtreme HTML5 JavaScript jQuery Knockout Angular TreeList Adaptability](/images/treelist/visual_elements/adaptive-column.png)
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/TreeList/Adaptability/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/TreeList/Adaptability/"
 }
 
 You can expand or collapse adaptive detail rows programmatically by calling the [expandAdaptiveDetailRow(key)](/api-reference/10%20UI%20Widgets/dxTreeList/3%20Methods/expandAdaptiveDetailRow(key).md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#expandAdaptiveDetailRowkey') or [collapseAdaptiveDetailRow()](/api-reference/10%20UI%20Widgets/GridBase/3%20Methods/collapseAdaptiveDetailRow().md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#collapseAdaptiveDetailRow') method. Note that adaptive detail rows cannot be expanded simultaneously, therefore, calling the **expandAdaptiveDetailRow(key)** method collapses the previously expanded row. To check whether a specific row is expanded, call the [isAdaptiveDetailRowExpanded(key)](/api-reference/10%20UI%20Widgets/dxTreeList/3%20Methods/isAdaptiveDetailRowExpanded(key).md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#isAdaptiveDetailRowExpandedkey') method.
@@ -125,7 +125,7 @@ You can expand or collapse adaptive detail rows programmatically by calling the 
     
 ---
 
-All adaptive detail rows contain the [DevExtreme Form widget](/api-reference/10%20UI%20Widgets/dxForm/dxForm.md '/Documentation/ApiReference/UI_Widgets/dxForm/'), so you can customize a row by changing the [options of this widget](/api-reference/10%20UI%20Widgets/dxForm/1%20Configuration/Configuration.md '/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/'). To access them, implement the [onAdaptiveDetailRowPreparing](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onAdaptiveDetailRowPreparing.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onAdaptiveDetailRowPreparing') event handler. For example, the following code marks the form item whose data field is *"OrderID"* as required:
+All adaptive detail rows contain the [DevExtreme Form widget](/api-reference/10%20UI%20Widgets/dxForm '/Documentation/ApiReference/UI_Widgets/dxForm/'), so you can customize a row by changing the [options of this widget](/api-reference/10%20UI%20Widgets/dxForm/1%20Configuration '/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/'). To access them, implement the [onAdaptiveDetailRowPreparing](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/onAdaptiveDetailRowPreparing.md '/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onAdaptiveDetailRowPreparing') event handler. For example, the following code marks the form item whose data field is *"OrderID"* as required:
 
 ---
 ##### jQuery

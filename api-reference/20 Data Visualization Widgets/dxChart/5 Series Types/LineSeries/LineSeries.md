@@ -15,7 +15,7 @@ Describes settings supported by a series of the *line* type.
 }
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/Line/"
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Line/"
 }
 
 ![DevExtreme HTML5 Charts LineSeriesType ChartJS](/images/ChartJS/Line.png)

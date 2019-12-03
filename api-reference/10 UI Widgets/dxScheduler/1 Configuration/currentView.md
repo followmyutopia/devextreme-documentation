@@ -10,7 +10,7 @@ firedEvents: optionChanged
 Specifies the currently displayed view. Accepts the view's [name](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/views/name.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/#name') or [type](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/views/type.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/#type').
 
 ---
-In all situations when more than one view meets the **currentView** condition, the first matching view from the [views](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/views/views.md '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/') array takes precedence.
+In all situations when more than one view meets the **currentView** condition, the first matching view from the [views](/api-reference/10%20UI%20Widgets/dxScheduler/1%20Configuration/views '/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/') array takes precedence.
 
 #include common-ref-enum with {
     enum: "`SchedulerViewType`",
@@ -18,5 +18,5 @@ In all situations when more than one view meets the **currentView** condition, t
 }
 
 #####See Also#####
-- [Views](/concepts/05%20Widgets/Scheduler/060%20Views/010%20View%20Types/View%20Types.md '/Documentation/Guide/Widgets/Scheduler/Views/')
+- [Views](/concepts/05%20Widgets/Scheduler/060%20Views '/Documentation/Guide/Widgets/Scheduler/Views/')
 - [View Switcher](/concepts/05%20Widgets/Scheduler/070%20View%20Switcher.md '/Documentation/Guide/Widgets/Scheduler/View_Switcher/')
