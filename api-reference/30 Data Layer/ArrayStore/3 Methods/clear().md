@@ -42,6 +42,11 @@ Clears all the **ArrayStore**'s associated data.
     });
 
     export default {
+        data() {
+            return {
+                store
+            }
+        },
         mounted() {
             store.clear();
         },

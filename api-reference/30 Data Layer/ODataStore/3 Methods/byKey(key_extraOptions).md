@@ -70,6 +70,11 @@ In the following code, the **byKey** method loads the product with ID `1` along 
     });
 
     export default {
+        data() {
+            return {
+                store
+            }
+        },
         mounted() {
             store.byKey(1, { expand: 'Category' }).then(
                 (dataItem) => { /* Process the "dataItem" here */ },

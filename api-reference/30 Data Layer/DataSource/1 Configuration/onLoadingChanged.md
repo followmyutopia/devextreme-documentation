@@ -52,6 +52,11 @@ Indicates whether data is being loaded.
 
     export default {
         // ...
+        data() {
+            return {
+                ds
+            }
+        }
     }
     </script>
 

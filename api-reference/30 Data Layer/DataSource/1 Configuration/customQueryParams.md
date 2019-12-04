@@ -59,6 +59,11 @@ Custom parameters that should be passed to an OData service with the load query.
 
     export default {
         // ...
+        data() {
+            return {
+                ds
+            }
+        }
     }
     </script>
 

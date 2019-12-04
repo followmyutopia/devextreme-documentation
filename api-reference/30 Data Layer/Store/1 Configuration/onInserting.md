@@ -52,6 +52,11 @@ The data item to be added.
 
     export default {
         // ...
+        data() {
+            return {
+                store
+            }
+        }
     }
     </script>
 

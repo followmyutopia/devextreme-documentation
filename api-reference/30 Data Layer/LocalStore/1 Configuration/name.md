@@ -44,6 +44,11 @@ Specifies the name under which data should be saved in the local storage. The `d
 
     export default {
         // ...
+        data() {
+            return {
+                store
+            }
+        }
     }
     </script>
 

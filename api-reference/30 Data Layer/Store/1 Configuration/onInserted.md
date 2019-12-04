@@ -55,6 +55,11 @@ The item's key.
 
     export default {
         // ...
+        data() {
+            return {
+                store
+            }
+        }
     }
     </script>
 

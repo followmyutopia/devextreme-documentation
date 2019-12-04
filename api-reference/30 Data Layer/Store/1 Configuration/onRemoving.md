@@ -52,6 +52,11 @@ The key of the data item to be removed.
 
     export default {
         // ...
+        data() {
+            return {
+                store
+            }
+        }
     }
     </script>
 

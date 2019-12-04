@@ -46,6 +46,11 @@ In most cases, you should pass the name of a field by whose value data items are
 
     export default {
         // ...
+        data() {
+            return {
+                ds
+            }
+        }
     }
     </script>
 

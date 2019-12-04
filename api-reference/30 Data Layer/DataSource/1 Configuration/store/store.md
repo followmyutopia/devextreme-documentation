@@ -87,6 +87,11 @@ Assigning an array to the **store** option automatically creates an **ArrayStore
 
     export default {
         // ...
+        data() {
+            return {
+                ds
+            }
+        }
     }
     </script>
 

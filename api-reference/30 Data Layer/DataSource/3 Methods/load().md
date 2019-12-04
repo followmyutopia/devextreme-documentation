@@ -55,6 +55,11 @@ A Promise that is resolved after data is loaded. It is a <a href="https://develo
     });
 
     export default {
+        data() {
+            return {
+                ds
+            }
+        },
         mounted() {
             ds.load()
                 .then(

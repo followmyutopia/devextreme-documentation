@@ -55,6 +55,11 @@ New values for the data item fields.
 
     export default {
         // ...
+        data() {
+            return {
+                store
+            }
+        }
     }
     </script>
 

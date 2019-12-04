@@ -93,6 +93,13 @@ dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
 
     export default {
         // ...
+        data() {
+            return {
+                store,
+                // ===== or =====
+                dataSource
+            }
+        }
     }
     </script>
 

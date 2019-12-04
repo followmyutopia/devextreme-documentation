@@ -59,6 +59,11 @@ Set this option if you do not need to [filter data](/concepts/30%20Data%20Layer/
 
     export default {
         // ...
+        data() {
+            return {
+                store
+            }
+        }
     }
     </script>
 

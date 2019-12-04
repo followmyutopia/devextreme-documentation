@@ -43,6 +43,11 @@ Depending on the [immediate](/api-reference/30%20Data%20Layer/LocalStore/1%20Con
     });
 
     export default {
+        data() {
+            return {
+                store
+            }
+        },
         mounted() {
             store.clear();
         },

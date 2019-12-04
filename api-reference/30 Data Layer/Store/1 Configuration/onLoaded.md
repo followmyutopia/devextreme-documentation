@@ -52,6 +52,11 @@ The loaded data.
 
     export default {
         // ...
+        data() {
+            return {
+                store
+            }
+        }
     }
     </script>
 

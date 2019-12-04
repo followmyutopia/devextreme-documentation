@@ -54,6 +54,11 @@ A key expression.
     });
 
     export default {
+        data() {
+            return {
+                ds
+            }
+        },
         mounted() {
             this.keyProps = ds.key(); // returns "ProductID"
         },

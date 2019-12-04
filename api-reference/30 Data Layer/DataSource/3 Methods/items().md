@@ -45,6 +45,11 @@ The data items.
     });
 
     export default {
+        data() {
+            return {
+                ds
+            }
+        },
         mounted() {
             this.dataItems = ds.items();
         },

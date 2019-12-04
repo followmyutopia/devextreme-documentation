@@ -54,6 +54,11 @@ The data after processing.
 
     export default {
         // ...
+        data() {
+            return {
+                ds
+            }
+        }
     }
     </script>
 

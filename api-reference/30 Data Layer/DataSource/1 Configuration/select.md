@@ -55,6 +55,11 @@ A function implementing custom selection logic.
 
     export default {
         // ...
+        data() {
+            return {
+                ds
+            }
+        }
     }
     </script>
 

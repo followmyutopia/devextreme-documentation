@@ -64,6 +64,11 @@ A grouping expression; described in the [Grouping](/concepts/30%20Data%20Layer/5
     });
 
     export default {
+        data() {
+            return {
+                store
+            }
+        },
         mounted() {
             store.totalCount()
                 .then(

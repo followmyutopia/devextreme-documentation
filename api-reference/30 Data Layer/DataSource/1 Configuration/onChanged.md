@@ -56,6 +56,11 @@ The received changes.
 
     export default {
         // ...
+        data() {
+            return {
+                ds
+            }
+        }
     }
     </script>
 

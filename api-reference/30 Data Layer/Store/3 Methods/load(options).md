@@ -62,6 +62,11 @@ Data processing settings.
     });
 
     export default {
+        data() {
+            return {
+                store
+            }
+        },
         mounted() {
             let options = {
                 // Data processing settings are specified here

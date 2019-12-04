@@ -78,6 +78,11 @@ A Promise that is resolved after the data item is updated. It is a <a href="http
 
     export default {
         // ...
+        data() {
+            return {
+                store
+            }
+        }
     }
     </script>
 

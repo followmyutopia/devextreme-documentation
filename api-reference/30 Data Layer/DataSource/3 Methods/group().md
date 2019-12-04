@@ -48,6 +48,11 @@ A group expression.
     });
 
     export default {
+        data() {
+            return {
+                ds
+            }
+        },
         mounted() {
             this.groupExpr = ds.group(); // returns { selector: "employeeID", desc: true }
         },

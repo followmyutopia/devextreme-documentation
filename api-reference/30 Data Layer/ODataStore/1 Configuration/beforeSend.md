@@ -93,6 +93,11 @@ The request URL.
 
     export default {
         // ...
+        data() {
+            return {
+                store
+            }
+        }
     }
     </script>
 

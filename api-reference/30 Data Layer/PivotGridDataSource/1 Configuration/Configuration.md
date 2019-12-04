@@ -62,6 +62,11 @@ The **PivotGridDataSource** allows specifying [**CustomStore** options](/api-ref
 
     export default {
         // ...
+        data() {
+            return {
+                pivotGridDataSource
+            }
+        }
     }
     </script>
 

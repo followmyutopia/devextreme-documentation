@@ -174,6 +174,13 @@ If your data source supports CRUD operations, implement the [insert](/api-refere
 
     export default {
         // ...
+        data() {
+            return {
+                store,
+                // ===== or =====
+                dataSource
+            }
+        }
     }
     </script>
 
@@ -218,5 +225,5 @@ If your data source supports CRUD operations, implement the [insert](/api-refere
 
 #####See Also#####
 - [DataSource API Reference](/api-reference/30%20Data%20Layer/DataSource '/Documentation/ApiReference/Data_Layer/DataSource/')
-- [Data Layer](/concepts/30%20Data%20Layer/5%20Data%20Layer '/Documentation/Guide/Data_Layer/Data_Layer/')
+- [Data Layer](/concepts/30%20Data%20Layer/30%20Data%20Layer '/Documentation/Guide/Data_Layer/Data_Layer/')
 - [Custom Sources](/concepts/30%20Data%20Layer/51%20Data%20Source%20Examples/3%20Custom%20Sources '/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources')

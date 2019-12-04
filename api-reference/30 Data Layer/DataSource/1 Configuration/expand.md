@@ -53,6 +53,11 @@ Specifies the navigation properties to be loaded with the OData entity. Availabl
 
     export default {
         // ...
+        data() {
+            return {
+                ds
+            }
+        }
     }
     </script>
 

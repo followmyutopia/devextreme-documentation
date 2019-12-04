@@ -96,6 +96,11 @@ A function that returns the value to sort by.
 
     export default {
         // ...
+        data() {
+            return {
+                ds
+            }
+        }
     }
     </script>
 

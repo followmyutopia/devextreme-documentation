@@ -50,6 +50,11 @@ Specifies the store's associated array.
 
     export default {
         // ...
+        data() {
+            return {
+                store
+            }
+        }
     }
     </script>
 

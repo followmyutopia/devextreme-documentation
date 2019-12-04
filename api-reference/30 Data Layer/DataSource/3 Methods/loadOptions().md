@@ -45,6 +45,11 @@ Gets an object with current data processing settings.
     });
 
     export default {
+        data() {
+            return {
+                ds
+            }
+        },
         mounted() {
             this.loadOptions = ds.loadOptions();
         },

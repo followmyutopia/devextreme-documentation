@@ -49,7 +49,11 @@ The [Query](/api-reference/30%20Data%20Layer/Query '/Documentation/ApiReference/
     const query = store.createQuery();
 
     export default {
-        // ...
+        data() {
+            return {
+                store, query
+            }
+        }
     }
     </script>
 

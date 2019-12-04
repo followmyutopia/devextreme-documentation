@@ -56,6 +56,11 @@ The **DataSource** allows specifying [**CustomStore** options](/api-reference/30
 
     export default {
         // ...
+        data() {
+            return {
+                infiniteList
+            }
+        }
     }
     </script>
 

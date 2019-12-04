@@ -79,6 +79,11 @@ A modified data item.
 
     export default {
         // ...
+        data() {
+            return {
+                ds
+            }
+        }
     }
     </script>
 

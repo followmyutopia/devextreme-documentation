@@ -71,6 +71,11 @@ When this option is **true**, the filter expression sent to the server contains 
 
     export default {
         // ...
+        data() {
+            return {
+                store
+            }
+        }
     }
     </script>
 

@@ -52,6 +52,11 @@ Data processing settings.
 
     export default {
         // ...
+        data() {
+            return {
+                store
+            }
+        }
     }
     </script>
 

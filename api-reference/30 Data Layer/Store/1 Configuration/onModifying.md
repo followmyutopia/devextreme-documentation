@@ -49,6 +49,11 @@ A function that is executed before a data item is added, updated, or removed fro
 
     export default {
         // ...
+        data() {
+            return {
+                store
+            }
+        }
     }
     </script>
 

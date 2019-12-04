@@ -49,6 +49,11 @@ A function that is executed after a data item is added, updated, or removed from
 
     export default {
         // ...
+        data() {
+            return {
+                store
+            }
+        }
     }
     </script>
 

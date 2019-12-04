@@ -52,6 +52,11 @@ A data item.
     });
 
     export default {
+        data() {
+            return {
+                store
+            }
+        },
         mounted() {
             this.key = store.keyOf({ id: 1, name: "John Doe" }); // returns 1
         },

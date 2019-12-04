@@ -52,6 +52,11 @@ This function accepts a JavaScript <a href="https://developer.mozilla.org/en-US/
 
     export default {
         // ...
+        data() {
+            return {
+                store
+            }
+        }
     }
     </script>
 

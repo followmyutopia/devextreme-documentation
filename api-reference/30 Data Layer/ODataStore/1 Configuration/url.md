@@ -44,6 +44,11 @@ Specifies the URL of an OData entity collection.
 
     export default {
         // ...
+        data() {
+            return {
+                store
+            }
+        }
     }
     </script>
 

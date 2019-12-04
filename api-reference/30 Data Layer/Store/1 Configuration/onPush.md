@@ -52,6 +52,11 @@ Changes passed in the [push(changes)](/api-reference/30%20Data%20Layer/Store/3%2
 
     export default {
         // ...
+        data() {
+            return {
+                store
+            }
+        }
     }
     </script>
 

@@ -46,6 +46,11 @@ Disposes of all the resources allocated to the **DataSource** instance.
     });
 
     export default {
+        data() {
+            return {
+                ds
+            }
+        },
         beforeDestroy() {
             ds.dispose();
         },

@@ -75,6 +75,11 @@ A Promise that is resolved after the data item is inserted. It is a <a href="htt
 
     export default {
         // ...
+        data() {
+            return {
+                store
+            }
+        }
     }
     </script>
 

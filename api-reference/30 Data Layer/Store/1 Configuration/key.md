@@ -46,6 +46,11 @@ In the following example, the `ProductID` and `ProductCode` properties are speci
 
     export default {
         // ...
+        data() {
+            return {
+                store
+            }
+        }
     }
     </script>
 

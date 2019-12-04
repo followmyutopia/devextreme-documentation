@@ -48,6 +48,11 @@ The number of data items.
     });
 
     export default {
+        data() {
+            return {
+                ds
+            }
+        },
         mounted() {
             this.itemCount = ds.totalCount();
         },

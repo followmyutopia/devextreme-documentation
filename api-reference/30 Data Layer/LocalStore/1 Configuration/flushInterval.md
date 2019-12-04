@@ -48,6 +48,11 @@ Specifies a delay in milliseconds between when data changes and the moment these
 
     export default {
         // ...
+        data() {
+            return {
+                store
+            }
+        }
     }
     </script>
 

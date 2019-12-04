@@ -136,6 +136,11 @@ The **XmlaStore** is used in the [PivotGridDataSource](/api-reference/30%20Data%
 
     export default {
         // ...
+        data() {
+            return {
+                pivotGridDataSource
+            }
+        }
     }
     </script>
 

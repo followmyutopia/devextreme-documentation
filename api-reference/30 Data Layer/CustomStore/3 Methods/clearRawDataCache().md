@@ -44,6 +44,11 @@ Deletes data from the cache. Takes effect only if the [cacheRawData](/api-refere
     });
 
     export default {
+        data() {
+            return {
+                store
+            }
+        },
         mounted() {
             store.clearRawDataCache();
         },

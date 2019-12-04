@@ -48,6 +48,11 @@ A filter expression.
     });
 
     export default {
+        data() {
+            return {
+                ds
+            }
+        },
         mounted() {
             this.filterExpr = ds.filter(); // returns ["age", ">", 18]
         },

@@ -52,6 +52,11 @@ Call the [load()](/api-reference/30%20Data%20Layer/DataSource/3%20Methods/load()
     });
 
     export default {
+        data() {
+            return {
+                ds
+            }
+        },
         mounted() {
             ds.requireTotalCount(false);
             ds.load();

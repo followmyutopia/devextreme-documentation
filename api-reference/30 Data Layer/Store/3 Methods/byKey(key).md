@@ -104,6 +104,12 @@ A data item's key value.
     });
 
     export default {
+        data() {
+            return {
+                singleKeyStore,
+                compositeKeyStore
+            }
+        },
         mounted() {
             // Gets the data item with "field1" being equal to 1
             singleKeyStore.byKey(1).then(

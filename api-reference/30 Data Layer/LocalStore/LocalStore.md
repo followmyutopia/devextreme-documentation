@@ -182,6 +182,13 @@ When configuring the **LocalStore**, specify the [name](/api-reference/30%20Data
 
     export default {
         // ...
+        data() {
+            return {
+                store,
+                // ===== or =====
+                dataSource
+            }
+        }
     }
     </script>
 
@@ -231,4 +238,4 @@ When configuring the **LocalStore**, specify the [name](/api-reference/30%20Data
 
 #####See Also#####
 - [DataSource API Reference](/api-reference/30%20Data%20Layer/DataSource '/Documentation/ApiReference/Data_Layer/DataSource/')
-- [Data Layer](/concepts/30%20Data%20Layer/5%20Data%20Layer '/Documentation/Guide/Data_Layer/Data_Layer/')
+- [Data Layer](/concepts/30%20Data%20Layer/30%20Data%20Layer '/Documentation/Guide/Data_Layer/Data_Layer/')

@@ -48,6 +48,11 @@ The **key** option's value.
     });
 
     export default {
+        data() {
+            return {
+                store
+            }
+        },
         mounted() {
             this.keyProps = store.key(); // returns "ProductID"
         },

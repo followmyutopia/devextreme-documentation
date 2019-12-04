@@ -51,6 +51,11 @@ There are three possible data change types:
     });
 
     export default {
+        data() {
+            return {
+                store
+            }
+        },
         mounted() {
             store.push([{ type: "insert", data: data }]);
             store.push([{ type: "update", data: data, key: key }]);

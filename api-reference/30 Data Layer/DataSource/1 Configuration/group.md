@@ -78,6 +78,11 @@ A function that returns the value to group by.
 
     export default {
         // ...
+        data() {
+            return {
+                ds
+            }
+        }
     }
     </script>
 

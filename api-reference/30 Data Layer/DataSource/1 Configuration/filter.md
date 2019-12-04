@@ -66,6 +66,11 @@ Possible variants:
 
     export default {
         // ...
+        data() {
+            return {
+                ds
+            }
+        }
     }
     </script>
 

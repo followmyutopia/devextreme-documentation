@@ -60,6 +60,11 @@ In the following code, **dataObj** is a data object added to the database and re
     });
 
     export default {
+        data() {
+            return {
+                store
+            }
+        },
         mounted() {
             store.insert({ id: 1, name: "John Doe" })
                 .then(

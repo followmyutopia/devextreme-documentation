@@ -47,6 +47,11 @@ An object containing the [expand](/api-reference/30%20Data%20Layer/CustomStore/L
     });
 
     export default {
+        data() {
+            return {
+                store
+            }
+        },
         mounted() {
             this.query = store.createQuery({ expand: 'propertyName' });
         },

@@ -96,6 +96,11 @@ Native <a href="https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest#
 
     export default {
         // ...
+        data() {
+            return {
+                pivotGridDataSource
+            }
+        }
     }
     </script>
 

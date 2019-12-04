@@ -110,6 +110,12 @@ In the following code, **dataObj** is a data object updated in the database and 
     });
 
     export default {
+        data() {
+            return {
+                singleKeyStore,
+                compositeKeyStore
+            }
+        },
         mounted() {
             // Updates the data item with "field1" being equal to 1
             singleKeyStore.update(1, { name: "John Smith" }).then(

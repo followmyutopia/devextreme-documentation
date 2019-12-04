@@ -51,6 +51,11 @@ A store instance.
     });
 
     export default {
+        data() {
+            return {
+                ds
+            }
+        },
         mounted() {
             this.store = ds.store();
         },

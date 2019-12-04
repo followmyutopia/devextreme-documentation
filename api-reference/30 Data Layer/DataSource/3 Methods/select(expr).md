@@ -49,6 +49,11 @@ A select expression.
     });
 
     export default {
+        data() {
+            return {
+                ds
+            }
+        },
         mounted() {
             ds.select(['firstName', 'lastName', 'birthDate']);
             // or

@@ -74,6 +74,11 @@ A Promise that is resolved after the data item is removed. It is a <a href="http
 
     export default {
         // ...
+        data() {
+            return {
+                store
+            }
+        }
     }
     </script>
 
