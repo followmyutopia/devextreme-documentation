@@ -14,3 +14,5 @@ When this option is set to **true**, the widget text flows from right to left, a
     <!--JavaScript-->DevExpress.config({
         rtlEnabled: true
     });
+
+[note]In a right-to-left representation, SVG elements have the <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/direction" target="_blank">direction</a> attribute with the *rtl* value. This might cause problems when rendering left-to-right texts. Use this option if you have only right-to-left texts.
