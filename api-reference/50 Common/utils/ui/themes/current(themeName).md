@@ -49,7 +49,7 @@ The theme name passed as a parameter should be the value of the **data-theme** a
         // @ViewChild(DxButtonComponent) button: DxButtonComponent
 
         changeTheme() {
-            themes.ready(function() {
+            themes.ready(() => {
                 this.dataGrid.instance.repaint();
                 this.button.instance.repaint();
             });
@@ -60,4 +60,4 @@ The theme name passed as a parameter should be the value of the **data-theme** a
 
 ---
 
-Refer to the [Predefined Themes](/concepts/60%20Themes%20and%20Styles/05%20Predefined%20Themes/00%20Predefined%20Themes.md '/Documentation/Guide/Themes_and_Styles/Predefined_Themes/') article for details on the themes that are supplied with DevExtreme.
+Refer to the [Predefined Themes](/concepts/60%20Themes%20and%20Styles/05%20Predefined%20Themes '/Documentation/Guide/Themes_and_Styles/Predefined_Themes/') article for details on the themes that are supplied with DevExtreme.
