@@ -9,6 +9,7 @@ inherits: Widget
 The **Map** is an interactive widget that displays a geographic map with markers and routes.
 
 ##### widgettree
+provider: "bing"
 
 ##### lib
 dx.web.js, dx.viz-web.js, dx.all.js
