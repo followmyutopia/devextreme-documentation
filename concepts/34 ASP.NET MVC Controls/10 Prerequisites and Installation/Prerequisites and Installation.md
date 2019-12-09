@@ -1,4 +1,4 @@
 #include mvc-redirects with {
-    mvc: "https://docs.devexpress.com/DevExtremeAspNetMvc/400702/devextreme-asp-net-mvc-controls/getting-started",
-    core: "https://docs.devexpress.com/AspNetCore/401026?v=20.1"
+    mvc: "https://docs.devexpress.com/DevExtremeAspNetMvc/400702/?v=20.1",
+    core: "https://docs.devexpress.com/AspNetCore/401026/?v=20.1"
 }

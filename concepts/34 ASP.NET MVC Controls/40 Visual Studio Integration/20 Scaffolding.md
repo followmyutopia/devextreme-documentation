@@ -1,4 +1,4 @@
 #include mvc-redirects with {
-    mvc: "https://docs.devexpress.com/DevExtremeAspNetMvc/400707/devextreme-asp-net-mvc-controls/visual-studio-integration#scaffolding",
-    core: "https://docs.devexpress.com/AspNetCore/401035?v=20.1#scaffolding"
+    mvc: "https://docs.devexpress.com/DevExtremeAspNetMvc/401327/?v=20.1",
+    core: "https://docs.devexpress.com/AspNetCore/401035/?v=20.1"
 }
