@@ -57,20 +57,27 @@ A Promise that is resolved after the data item is removed. It is a <a href="http
 
 ##### Vue
 
-#include common-note-axios
-
     <!-- tab: App.vue -->
     <script>
     import CustomStore from 'devextreme/data/custom_store';
     import DataSource from 'devextreme/data/data_source';
-    import axios from 'axios';
+    import 'whatwg-fetch';
+
+    function handleErrors(response) {
+        if (!response.ok) {
+            throw Error(response.statusText);
+        }
+        return response;
+    }
 
     const store = new CustomStore({
         // ...
         remove: (key) => {
-            return axios.delete("http://mydomain.com/MyDataService/myEntity/" + encodeURIComponent(key));
-        }
-    });
+            return fetch(`https://mydomain.com/MyDataService/${encodeURIComponent(key)}`, {
+                method: "DELETE"
+            })
+            .then(handleErrors);
+        });
 
     export default {
         // ...
@@ -84,19 +91,26 @@ A Promise that is resolved after the data item is removed. It is a <a href="http
 
 ##### React
 
-#include common-note-axios
-
     <!-- tab: App.js -->
     // ...
     import CustomStore from 'devextreme/data/custom_store';
     import DataSource from 'devextreme/data/data_source';
-    import axios from 'axios';
+    import 'whatwg-fetch';
+
+    function handleErrors(response) {
+        if (!response.ok)
+            throw Error(response.statusText);
+        return response;
+    }
 
     const store = new CustomStore({
         // ...
         remove: (key) => {
-            return axios.delete("http://mydomain.com/MyDataService/myEntity/" + encodeURIComponent(key));
-        }
+            return fetch(`https://mydomain.com/MyDataService/${encodeURIComponent(key)}`, {
+                method: "DELETE"
+            })
+            .then(handleErrors);
+        });
     });
 
     class App extends React.Component {

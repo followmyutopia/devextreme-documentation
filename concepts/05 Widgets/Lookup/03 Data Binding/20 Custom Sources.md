@@ -160,6 +160,7 @@ If you specify the **Lookup**'s [value](/api-reference/10%20UI%20Widgets/dxDropD
     <script>
     import DxLookup from "devextreme-vue/lookup";
     import CustomStore from "devextreme/data/custom_store";
+    import 'whatwg-fetch';
     // ...
     function isNotEmpty(value) {
         return value !== undefined && value !== null && value !== "";
@@ -220,6 +221,7 @@ If you specify the **Lookup**'s [value](/api-reference/10%20UI%20Widgets/dxDropD
     import React from "react";
     import Lookup from "devextreme-react/lookup";
     import CustomStore from "devextreme/data/custom_store";
+    import 'whatwg-fetch';
     // ...
     function isNotEmpty(value) {
         return value !== undefined && value !== null && value !== "";

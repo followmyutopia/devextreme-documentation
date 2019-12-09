@@ -59,18 +59,16 @@ A Promise that is resolved after the data item is loaded. It is a <a href="https
 
 ##### Vue
 
-#include common-note-axios
-
     <!-- tab: App.vue -->
     <script>
     import CustomStore from 'devextreme/data/custom_store';
     import DataSource from 'devextreme/data/data_source';
-    import axios from 'axios';
+    import 'whatwg-fetch';
 
     const store = new CustomStore({
         // ...
         byKey: (key) => {
-            return axios.get("http://mydomain.com/MyDataService?id=" + key);
+            return fetch("http://mydomain.com/MyDataService?id=" + key);
         }
     });
 
@@ -86,18 +84,16 @@ A Promise that is resolved after the data item is loaded. It is a <a href="https
 
 ##### React
 
-#include common-note-axios
-
     <!-- tab: App.js -->
     // ...
     import CustomStore from 'devextreme/data/custom_store';
     import DataSource from 'devextreme/data/data_source';
-    import axios from 'axios';
+    import 'whatwg-fetch';
 
     const store = new CustomStore({
         // ...
         byKey: (key) => {
-            return axios.get("http://mydomain.com/MyDataService?id=" + key);
+            return fetch("http://mydomain.com/MyDataService?id=" + key);
         }
     });
 

@@ -61,18 +61,29 @@ A Promise that is resolved after the data item is updated. It is a <a href="http
 
 ##### Vue
 
-#include common-note-axios
-
     <!-- tab: App.vue -->
     <script>
     import CustomStore from 'devextreme/data/custom_store';
     import DataSource from 'devextreme/data/data_source';
-    import axios from 'axios';
+    import 'whatwg-fetch';
+
+    function handleErrors(response) {
+        if (!response.ok) {
+            throw Error(response.statusText);
+        }
+        return response;
+    }
 
     const store = new CustomStore({
         // ...
         update: (key, values) => {
-            return axios.put("http://mydomain.com/MyDataService/myEntity/" + encodeURIComponent(key), values);
+            return fetch(`https://mydomain.com/MyDataService/${encodeURIComponent(key)}`, {
+                method: "PUT",
+                body: JSON.stringify(values),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            }).then(handleErrors);
         }
     });
 
@@ -88,18 +99,29 @@ A Promise that is resolved after the data item is updated. It is a <a href="http
 
 ##### React
 
-#include common-note-axios
-
     <!-- tab: App.js -->
     // ...
     import CustomStore from 'devextreme/data/custom_store';
     import DataSource from 'devextreme/data/data_source';
-    import axios from 'axios';
+    import 'whatwg-fetch';
+
+    function handleErrors(response) {
+        if (!response.ok)
+            throw Error(response.statusText);
+        return response;
+    }
 
     const store = new CustomStore({
         // ...
         update: (key, values) => {
-            return axios.put("http://mydomain.com/MyDataService/myEntity/" + encodeURIComponent(key), values);
+            return fetch(`https://mydomain.com/MyDataService/${encodeURIComponent(key)}`, {
+                method: "PUT",
+                body: JSON.stringify(values),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+            .then(handleErrors);
         }
     });
 

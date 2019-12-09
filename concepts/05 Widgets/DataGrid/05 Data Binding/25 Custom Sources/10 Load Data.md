@@ -161,6 +161,7 @@ Below is a generalized **CustomStore** configuration for the **DataGrid** widget
     <script>
     import DxDataGrid from "devextreme-vue/data-grid";
     import CustomStore from "devextreme/data/custom_store";
+    import 'whatwg-fetch';
     // ...
     function isNotEmpty(value) {
         return value !== undefined && value !== null && value !== "";
@@ -224,6 +225,7 @@ Below is a generalized **CustomStore** configuration for the **DataGrid** widget
     import React from "react";
     import DataGrid, { RemoteOperations } from "devextreme-react/data-grid";
     import CustomStore from "devextreme/data/custom_store";
+    import 'whatwg-fetch';
     // ...
     function isNotEmpty(value) {
         return value !== undefined && value !== null && value !== "";

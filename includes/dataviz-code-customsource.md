@@ -101,6 +101,7 @@
     import Dx{WidgetName} from "devextreme-vue/{widget-name}";
     import CustomStore from "devextreme/data/custom_store";
     import DataSource from "devextreme/data/data_source";
+    import 'whatwg-fetch';
     // ...
     function isNotEmpty(value) {
         return value !== undefined && value !== null && value !== "";
@@ -157,6 +158,7 @@
     import {WidgetName} from "devextreme-react/{widget-name}";
     import CustomStore from "devextreme/data/custom_store";
     import DataSource from "devextreme/data/data_source";
+    import 'whatwg-fetch';
     // ...
     function isNotEmpty(value) {
         return value !== undefined && value !== null && value !== "";

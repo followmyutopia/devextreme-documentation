@@ -63,6 +63,7 @@
     import { Dx{WidgetName} } from "devextreme-vue/{widget-name}";
     import CustomStore from "devextreme/data/custom_store";
     import DataSource from "devextreme/data/data_source";
+    import 'whatwg-fetch';
     // ...
     function handleErrors(response) {
         if (!response.ok)
@@ -99,6 +100,7 @@
     import {WidgetName} from "devextreme-react/{widget-name}";
     import CustomStore from "devextreme/data/custom_store";
     import DataSource from "devextreme/data/data_source";
+    import 'whatwg-fetch';
     // ...
     function handleErrors(response) {
         if (!response.ok)

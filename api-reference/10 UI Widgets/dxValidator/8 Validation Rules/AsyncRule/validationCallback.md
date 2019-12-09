@@ -148,6 +148,7 @@ The following code shows a generic **validationCallback** implementation. The fu
         DxValidator,
         DxAsyncRule
     } from 'devextreme-vue/validator';
+    import 'whatwg-fetch';
 
     export default {
         components: {
@@ -191,6 +192,7 @@ The following code shows a generic **validationCallback** implementation. The fu
         Validator,
         AsyncRule
     } from 'devextreme-react/validator';
+    import 'whatwg-fetch';
 
     const validateAsync = function(params) {
         return new Promise((resolve, reject) => {

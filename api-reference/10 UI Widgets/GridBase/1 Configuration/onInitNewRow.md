@@ -146,6 +146,7 @@ In the following code, the **onInitNewRow** function is used to provide default 
     import 'devextreme/dist/css/dx.light.css';
 
     import { Dx{WidgetName}, DxColumn } from 'devextreme-vue/{widget-name}';
+    import 'whatwg-fetch';
 
     const employees = [{
         ID: 1,
@@ -192,6 +193,7 @@ In the following code, the **onInitNewRow** function is used to provide default 
     import 'devextreme/dist/css/dx.light.css';
 
     import { {WidgetName}, Column } from 'devextreme-react/{widget-name}';
+    import 'whatwg-fetch';
 
     const employees = [{
         ID: 1,

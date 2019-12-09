@@ -58,18 +58,30 @@ A Promise that is resolved after the data item is inserted. It is a <a href="htt
 
 ##### Vue
 
-#include common-note-axios
-
     <!-- tab: App.vue -->
     <script>
     import CustomStore from 'devextreme/data/custom_store';
     import DataSource from 'devextreme/data/data_source';
-    import axios from 'axios';
+    import 'whatwg-fetch';
+
+    function handleErrors(response) {
+        if (!response.ok) {
+            throw Error(response.statusText);
+        }
+        return response;
+    }
 
     const store = new CustomStore({
         // ...
         insert: (values) => {
-            return axios.post("http://mydomain.com/MyDataService/myEntity", values);
+            return fetch("https://mydomain.com/MyDataService/myEntity", {
+                method: "POST",
+                body: JSON.stringify(values),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+            .then(handleErrors);
         }
     });
 
@@ -85,18 +97,29 @@ A Promise that is resolved after the data item is inserted. It is a <a href="htt
 
 ##### React
 
-#include common-note-axios
-
     <!-- tab: App.js -->
     // ...
     import CustomStore from 'devextreme/data/custom_store';
     import DataSource from 'devextreme/data/data_source';
-    import axios from 'axios';
+    import 'whatwg-fetch';
 
+    function handleErrors(response) {
+        if (!response.ok)
+            throw Error(response.statusText);
+        return response;
+    }
+    
     const store = new CustomStore({
         // ...
         insert: (values) => {
-            return axios.post("http://mydomain.com/MyDataService/myEntity", values);
+            return fetch("https://mydomain.com/MyDataService/myEntity", {
+                method: "POST",
+                body: JSON.stringify(values),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+            .then(handleErrors);
         }
     });
 
