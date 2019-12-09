@@ -28,10 +28,10 @@ The [Validator](/api-reference/10%20UI%20Widgets/dxValidator '/Documentation/Api
 The validated value.
 
 ##### return: Boolean
-A Boolean value that indicates whether the value is valid.
+**true** if the value is valid; otherwise, **false**.
 
 ---
-In the following code, only odd numbers are considered valid:
+The following code shows a **validationCallback** example. The function accepts a number and returns **true** if the number is even and **false** if it is odd:
 
 ---
 ##### jQuery
@@ -39,12 +39,12 @@ In the following code, only odd numbers are considered valid:
     <!--JavaScript-->
     $(function () {
         $("#numberBoxContainer").dxNumberBox({
-            value: 3
+            value: 4
         }).dxValidator({
             validationRules: [{
                 type: "custom",
                 validationCallback: validateNumber,
-                message: "An odd number is expected"
+                message: "An even number is expected"
             }]
         });
     });
@@ -56,11 +56,11 @@ In the following code, only odd numbers are considered valid:
 ##### Angular
 
     <!--HTML-->
-    <dx-number-box [value]="3">
+    <dx-number-box [value]="4">
         <dx-validator>
             <dxi-validation-rule type="custom" 
                 [validationCallback]="validateNumber" 
-                message="An odd number is expected">
+                message="An even number is expected">
             </dxi-validation-rule>
         </dx-validator>
     </dx-number-box>
@@ -86,11 +86,11 @@ In the following code, only odd numbers are considered valid:
 
     <!-- tab: App.vue -->
     <template>
-        <dx-number-box :value="3">
+        <dx-number-box :value="4">
             <dx-validator>
                 <dx-custom-rule
                     :validation-callback="validateNumber"
-                    message="An odd number is expected"
+                    message="An even number is expected"
                 />
             </dx-validator>
         </dx-number-box>
@@ -139,11 +139,11 @@ In the following code, only odd numbers are considered valid:
 
         render() {
             return (
-                <NumberBox defaultValue={3}>
+                <NumberBox defaultValue={4}>
                     <Validator>
                         <CustomRule
                             validationCallback={this.validateNumber}
-                            message="An odd number is expected"
+                            message="An even number is expected"
                         />
                     </Validator>
                 </NumberBox>

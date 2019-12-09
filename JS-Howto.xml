@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE articles [<!ELEMENT articles ANY><!ELEMENT article ANY><!ATTLIST article id ID #REQUIRED>]>
-<articles folder="c:\content" type="Howto" version="20_1" docsdir="concepts">
+<articles folder="c:\content" type="Howto" version="20.1" docsdir="concepts">
   <article name="Getting Started" sort="00 Getting Started" id="Getting Started">
     <article name="Installation" sort="01 Installation" id="Getting Started/Installation">
       <article name="npm Package" sort="01 npm Package" id="Getting Started/Installation/npm Package" file="c:\content\00 Getting Started\01 Installation\01 npm Package\01 npm Package.md" root="true">
@@ -1615,9 +1615,10 @@
             <article name="Validate the Group" sort="2 Validate the Group" id="Widgets/Common/UI Widgets/Data Validation/Validate Several Editor Values/Validate the Group" file="c:\content\05 Widgets\zz Common\05 UI Widgets\20 Data Validation\20 Validate Several Editor Values\2 Validate the Group.md" />
             <article name="Display Validation Errors" sort="3 Display Validation Errors" id="Widgets/Common/UI Widgets/Data Validation/Validate Several Editor Values/Display Validation Errors" file="c:\content\05 Widgets\zz Common\05 UI Widgets\20 Data Validation\20 Validate Several Editor Values\3 Display Validation Errors.md" />
           </article>
+          <article name="Disable Validation Dynamically" sort="30 Disable Validation Dynamically" id="Widgets/Common/UI Widgets/Data Validation/Disable Validation Dynamically" file="c:\content\05 Widgets\zz Common\05 UI Widgets\20 Data Validation\30 Disable Validation Dynamically.md" />
+          <article name="Custom Validation" sort="35 Custom Validation" id="Widgets/Common/UI Widgets/Data Validation/Custom Validation" file="c:\content\05 Widgets\zz Common\05 UI Widgets\20 Data Validation\35 Custom Validation.md" />
           <article name="Server-Side Validation" sort="40 Server-Side Validation" id="Widgets/Common/UI Widgets/Data Validation/Server-Side Validation" file="c:\content\05 Widgets\zz Common\05 UI Widgets\20 Data Validation\40 Server-Side Validation.md" />
           <article name="Validate a Custom Value" sort="60 Validate a Custom Value" id="Widgets/Common/UI Widgets/Data Validation/Validate a Custom Value" file="c:\content\05 Widgets\zz Common\05 UI Widgets\20 Data Validation\60 Validate a Custom Value.md" />
-          <article name="Use a Custom Validation Engine" sort="70 Use a Custom Validation Engine" id="Widgets/Common/UI Widgets/Data Validation/Use a Custom Validation Engine" file="c:\content\05 Widgets\zz Common\05 UI Widgets\20 Data Validation\70 Use a Custom Validation Engine.md" />
           <article name="Knockout Only - Validate a View Model" sort="80 Knockout Only - Validate a View Model" id="Widgets/Common/UI Widgets/Data Validation/Knockout Only - Validate a View Model" file="c:\content\05 Widgets\zz Common\05 UI Widgets\20 Data Validation\80 Knockout Only - Validate a View Model.md" />
         </article>
         <article name="Keyboard Support" sort="40 Keyboard Support" id="Widgets/Common/UI Widgets/Keyboard Support" file="c:\content\05 Widgets\zz Common\05 UI Widgets\40 Keyboard Support\Keyboard Support.md" root="true" />
