@@ -1,4 +1,4 @@
-For a minor customization of **Lookup** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxDropDownList/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxLookup/Default_Item_Template/') are present or absent from the item's data object. For example, the following code generates three items: the first is not customized, the second is disabled and the third is hidden.
+For a minor customization of **Lookup** items, you can define [specific fields](/api-reference/10%20UI%20Widgets/DataExpressionMixin/1%20Configuration/items '/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/items/') in item data objects. For example, the following code generates three items: the first is not customized, the second is disabled and the third is hidden.
 
 ---
 #####jQuery
@@ -194,7 +194,7 @@ If you use jQuery alone, use <a href="http://api.jquery.com/category/manipulatio
         });
     });
 
-You can also customize an individual **Lookup** item. For this purpose, declare a template for this item as a script and pass its `id` to the [template](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/template.md '/Documentation/ApiReference/UI_Widgets/dxLookup/Default_Item_Template/#template') field. 
+You can also customize an individual **Lookup** item. For this purpose, declare a template for this item as a script and pass its `id` to the [template](/api-reference/_hidden/CollectionWidgetItem/template.md '/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/items/#template') field. 
 
     <!--HTML-->
     <script id="individualTemplate" type="text/html">
@@ -305,4 +305,4 @@ In addition, you can use a 3rd-party template engine to perform the needed custo
 #####See Also#####
 - [Lookup - Customize the Drop-Down Menu](/concepts/05%20Widgets/Lookup/20%20Customize%20the%20Appearance/08%20Customize%20the%20Drop-Down%20Menu.md '/Documentation/Guide/Widgets/Lookup/Customize_the_Appearance/Customize_the_Drop-Down_Menu/')
 
-[tags]lookup, item appearance, customize, templates, template, default item, default template, field template
+[tags]lookup, item appearance, customize, templates, template, field template

@@ -71,11 +71,11 @@ The following code adds a simple **Box** containing three items to your page. Th
 
 Note that the **Box** items in the code above are declared using the [dxItem](/api-reference/10%20UI%20Widgets/Markup%20Components/dxItem '/Documentation/ApiReference/UI_Widgets/Markup_Components/#dxItem') markup component. An object passed to this component can have the following fields:
 
-- [baseSize](/api-reference/10%20UI%20Widgets/dxBox/5%20Default%20Item%20Template/baseSize.md '/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#baseSize')
-- [ratio](/api-reference/10%20UI%20Widgets/dxBox/5%20Default%20Item%20Template/ratio.md '/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#ratio')
-- [shrink](/api-reference/10%20UI%20Widgets/dxBox/5%20Default%20Item%20Template/shrink.md '/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#shrink')
-- [template](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/template.md '/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#template')
-- [visible](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/visible.md '/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#visible')
+- [baseSize](/api-reference/_hidden/dxBoxItem/baseSize.md '/Documentation/ApiReference/UI_Widgets/dxBox/Configuration/items/#baseSize')
+- [ratio](/api-reference/_hidden/dxBoxItem/ratio.md '/Documentation/ApiReference/UI_Widgets/dxBox/Configuration/items/#ratio')
+- [shrink](/api-reference/_hidden/dxBoxItem/shrink.md '/Documentation/ApiReference/UI_Widgets/dxBox/Configuration/items/#shrink')
+- [template](/api-reference/_hidden/CollectionWidgetItem/template.md '/Documentation/ApiReference/UI_Widgets/dxBox/Configuration/items/#template')
+- [visible](/api-reference/_hidden/CollectionWidgetItem/visible.md '/Documentation/ApiReference/UI_Widgets/dxBox/Configuration/items/#visible')
 
 #####See Also#####
 #include common-link-configurewidget

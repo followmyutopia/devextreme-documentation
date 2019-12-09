@@ -1,4 +1,4 @@
-An item in the **TabPanel** widget includes a tab and a view. For a minor customization of **TabPanel** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxTabPanel/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Default_Item_Template/') are present or absent from the item's data object. For example, the following code generates three items: the first has a [badge](/api-reference/10%20UI%20Widgets/dxTabPanel/5%20Default%20Item%20Template/badge.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Default_Item_Template/#badge'), the second is disabled, the third has an icon.
+An item in the **TabPanel** widget includes a tab and a view. For a minor customization of **TabPanel** items, you can define [specific fields](/api-reference/10%20UI%20Widgets/dxTabPanel/1%20Configuration/items '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/items/') in item data objects. For example, the following code generates three items: the first has a [badge](/api-reference/_hidden/dxTabPanelItem/badge.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/items/#badge'), the second is disabled, the third has an icon.
 
     <!--JavaScript-->
     $(function() {
@@ -166,7 +166,7 @@ If you use jQuery alone, use <a href="http://api.jquery.com/category/manipulatio
         });
     });
 
-You can also customize an individual view or tab. For this purpose, declare a template for this view or tab as a script and pass an appropriate <a href="http://api.jquery.com/category/selectors/" target="_blank">selector</a> to the [template](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/template.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Default_Item_Template/#template') or [tabTemplate](/api-reference/10%20UI%20Widgets/dxTabPanel/5%20Default%20Item%20Template/tabTemplate.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Default_Item_Template/#tabTemplate') option, respectively.
+You can also customize an individual view or tab. For this purpose, declare a template for this view or tab as a script and pass an appropriate <a href="http://api.jquery.com/category/selectors/" target="_blank">selector</a> to the [template](/api-reference/_hidden/CollectionWidgetItem/template.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/items/#template') or [tabTemplate](/api-reference/_hidden/dxTabPanelItem/tabTemplate.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/items/#tabTemplate') option, respectively.
 
     <!--HTML-->
     <script id="individualViewTemplate" type="text/html">
@@ -194,4 +194,4 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 - [TabPanel Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/TabPanel/Overview)
 - [TabPanel API Reference](/api-reference/10%20UI%20Widgets/dxTabPanel '/Documentation/ApiReference/UI_Widgets/dxTabPanel/')
 
-[tags]tab panel, tabPanel, item appearance, customize, templates, template, custom template, default item, default template
+[tags]tab panel, tabPanel, item appearance, customize, templates, template, custom template

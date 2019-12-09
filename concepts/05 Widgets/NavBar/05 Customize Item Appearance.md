@@ -1,4 +1,4 @@
-For a minor customization of **NavBar** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxNavBar/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxNavBar/Default_Item_Template/') are present or absent from the item's data object. For example, the following code generates three items. Each of them has an [icon](/concepts/60%20Themes%20and%20Styles/30%20Icons/10%20Built-In%20Icon%20Library.md '/Documentation/Guide/Themes_and_Styles/Icons/#Built-In_Icon_Library'). In addition, the second item is disabled, and the third item has a badge.
+For a minor customization of **NavBar** items, you can define [specific fields](/api-reference/10%20UI%20Widgets/dxTabs/1%20Configuration/items '/Documentation/ApiReference/UI_Widgets/dxNavBar/Configuration/items/') in item data objects. For example, the following code generates three items. Each of them has an [icon](/concepts/60%20Themes%20and%20Styles/30%20Icons/10%20Built-In%20Icon%20Library.md '/Documentation/Guide/Themes_and_Styles/Icons/#Built-In_Icon_Library'). In addition, the second item is disabled, and the third item has a badge.
 
 ---
 ##### jQuery
@@ -157,7 +157,7 @@ If you use jQuery alone, use <a href="http://api.jquery.com/category/manipulatio
         });
     });
 
-You can also customize an individual navigation item. For this purpose, declare a template for this item as a script and pass its `id` to the [template](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/template.md '/Documentation/ApiReference/UI_Widgets/dxNavBar/Default_Item_Template/#template') field. 
+You can also customize an individual navigation item. For this purpose, declare a template for this item as a script and pass its `id` to the [template](/api-reference/_hidden/CollectionWidgetItem/template.md '/Documentation/ApiReference/UI_Widgets/dxNavBar/Configuration/items/#template') field. 
 
     <!--HTML--><script id="individualTemplate" type="text/html">
         <!-- ... -->
@@ -173,9 +173,8 @@ You can also customize an individual navigation item. For this purpose, declare 
 In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/concepts/05%20Widgets/zz%20Common/30%20Templates/30%203rd-Party%20Template%20Engines.md '/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines') article.
 
 #####See Also#####
-- [NavBar - Default Item Template](/api-reference/10%20UI%20Widgets/dxNavBar/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxNavBar/Default_Item_Template/') 
 - [NavBar - Items Selection](/concepts/05%20Widgets/NavBar/10%20Items%20Selection.md '/Documentation/Guide/Widgets/NavBar/Items_Selection/')
 - [NavBar Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Navbar/Overview)
 - [NavBar API Reference](/api-reference/10%20UI%20Widgets/dxNavBar '/Documentation/ApiReference/UI_Widgets/dxNavBar/')
 
-[tags]nav bar, navBar, navigation bar, item appearance, customize, templates, template, custom template, default item, default template
+[tags]nav bar, navBar, navigation bar, item appearance, customize, templates, template, custom template

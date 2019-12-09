@@ -1,8 +1,8 @@
 If the **TreeView** performance is low, consider enabling the Virtual Mode. In this mode, the **TreeView** loads a set of child nodes once their parent node is expanded. The Virtual Mode can be enabled only if your data source satisfies the following conditions.
 
 - It has a [plain structure](/concepts/05%20Widgets/TreeView/07%20Use%20Plain%20Data.md '/Documentation/Guide/Widgets/TreeView/Use_Plain_Data').
-- Root nodes have the [parentId](/api-reference/10%20UI%20Widgets/dxTreeView/5%20Default%20Item%20Template/parentId.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Default_Item_Template/#parentId') field set to the [rootValue](/api-reference/10%20UI%20Widgets/dxTreeView/1%20Configuration/rootValue.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#rootValue').
-- Nodes that do not have children, have the [hasItems](/api-reference/10%20UI%20Widgets/dxTreeView/5%20Default%20Item%20Template/hasItems.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Default_Item_Template/#hasItems') field set to **false**.
+- Root nodes have the [parentId](/api-reference/_hidden/dxTreeViewItem/parentId.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/items/#parentId') field set to the [rootValue](/api-reference/10%20UI%20Widgets/dxTreeView/1%20Configuration/rootValue.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#rootValue').
+- Nodes that do not have children, have the [hasItems](/api-reference/_hidden/dxTreeViewItem/hasItems.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/items/#hasItems') field set to **false**.
 
 To enable the Virtual Mode, set the [virtualModeEnabled](/api-reference/10%20UI%20Widgets/dxTreeView/1%20Configuration/virtualModeEnabled.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#virtualModeEnabled') option to **true**.
 

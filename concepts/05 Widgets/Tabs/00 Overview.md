@@ -4,7 +4,7 @@ The **Tabs** is a tab strip used to switch between pages or views. This widget i
     url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tabs/Overview/"
 }
 
-The following code adds the **Tabs** widget to your page. One of the tabs has an icon, another has a [badge](/api-reference/10%20UI%20Widgets/dxTabs/5%20Default%20Item%20Template/badge.md '/Documentation/ApiReference/UI_Widgets/dxTabs/Default_Item_Template/#badge').
+The following code adds the **Tabs** widget to your page. One of the tabs has an icon, another has a [badge](/api-reference/_hidden/dxTabsItem/badge.md '/Documentation/ApiReference/UI_Widgets/dxTabs/Configuration/items/#badge').
 
     <!--HTML-->
     <div id="tabsContainer"></div>
@@ -20,7 +20,7 @@ The following code adds the **Tabs** widget to your page. One of the tabs has an
         });
     });
 
-Note that all data source items in the code above follow the [Default Item Template](/api-reference/10%20UI%20Widgets/dxTabs/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxTabs/Default_Item_Template/') pattern. This provides a default appearance for tabs, which can be customized later.
+Note that field names in these data source items are [conventional](/api-reference/10%20UI%20Widgets/dxTabs/1%20Configuration/items '/Documentation/ApiReference/UI_Widgets/dxTabs/Configuration/items/'). This provides a default appearance for tabs, which can be customized later.
 
 #####See Also#####
 #include common-link-configurewidget

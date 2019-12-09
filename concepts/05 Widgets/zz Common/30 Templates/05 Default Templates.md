@@ -1,4 +1,4 @@
-Default templates are based on data source fields. You can control appearance by adding or removing particular fields from data source objects. For example, the **List** widget has a [default template for items](/api-reference/10%20UI%20Widgets/dxList/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxList/Default_Item_Template/') that contains the **text**, **visible**, and **disabled** fields. If you assign the following array to the widget's **dataSource** option, the first item will be disabled, the second hidden, both of them will have text, and the third item will render a custom markup:
+Default templates are based on data source fields. You can control appearance by adding or removing particular fields from data source objects. For example, the **List** widget's [default template for items](/api-reference/10%20UI%20Widgets/dxList/1%20Configuration/items '/Documentation/ApiReference/UI_Widgets/dxList/Configuration/items/') contains the **text**, **visible**, and **disabled** fields, among others. If you assign the following array to the widget's **items** or **dataSource** option, the first item will be disabled, the second hidden, both of them will have text, and the third item will render a custom markup:
 
     <!--JavaScript-->
     function customMarkup() {
@@ -147,4 +147,4 @@ You can achieve the same in the markup using the [dxItem](/api-reference/10%20UI
 
 ---
 
-Default templates and the fields available in them depend on the widget. For a list of default templates for a widget, search for "default template" in the left menu.
+Default templates and the fields available in them depend on the widget. Refer to the **items** option description of a particular widget for a list of template fields.

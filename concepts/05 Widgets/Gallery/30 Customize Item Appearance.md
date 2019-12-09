@@ -1,4 +1,4 @@
-**Gallery** items are not sctrictly images. They can contain text or other elements of your choice. For a minor customization of **Gallery** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxGallery/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxGallery/Default_Item_Template/') are present or absent from the item's data object. For example, the following code generates two items: one is disabled and the other has a specified <a href="http://www.w3schools.com/tags/att_img_alt.asp" target="_blank">alt attribute</a>.
+**Gallery** items are not sctrictly images. They can contain text or other elements of your choice. For a minor customization of **Gallery** items, you can define [specific fields](/api-reference/10%20UI%20Widgets/dxGallery/1%20Configuration/items '/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/items/') in item data objects. For example, the following code generates two items: one is disabled and the other has a specified <a href="http://www.w3schools.com/tags/att_img_alt.asp" target="_blank">alt attribute</a>.
 
 ---
 #####jQuery
@@ -149,7 +149,7 @@ If you use jQuery alone, use <a href="http://api.jquery.com/category/manipulatio
         });
     });
 
-You can also customize an individual **Gallery** item. For this purpose, declare a template for this item as a script and pass its `id` to the [template](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/template.md '/Documentation/ApiReference/UI_Widgets/dxGallery/Default_Item_Template/#template') field of the item's data object.
+You can also customize an individual **Gallery** item. For this purpose, declare a template for this item as a script and pass its `id` to the [template](/api-reference/_hidden/CollectionWidgetItem/template.md '/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/items/#template') field of the item's data object.
 
     <!--HTML--><script id="individualTemplate" type="text/html">
         <!-- ... -->
@@ -173,4 +173,4 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 - [Gallery - Transform and Combine Images](/concepts/05%20Widgets/Gallery/25%20Transform%20and%20Combine%20Images.md '/Documentation/Guide/Widgets/Gallery/Transform_and_Combine_Images/')
 - [Gallery API Reference](/api-reference/10%20UI%20Widgets/dxGallery '/Documentation/ApiReference/UI_Widgets/dxGallery/')
 
-[tags]gallery, item appearance, default item, default template, customize, templates
+[tags]gallery, item appearance, customize, templates

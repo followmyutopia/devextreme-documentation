@@ -1,4 +1,4 @@
-For a minor customization of tabs, you can use the default item template. This template defines the appearance of a tab depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxTabs/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxTabs/Default_Item_Template/') are present or absent from the tab's data object. For example, the following code generates three tabs: the first has an icon, the second has a [badge](/api-reference/10%20UI%20Widgets/dxTabPanel/5%20Default%20Item%20Template/badge.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Default_Item_Template/#badge'), the third is disabled.
+For a minor customization of tabs, you can define [specific fields](/api-reference/10%20UI%20Widgets/dxTabs/1%20Configuration/items '/Documentation/ApiReference/UI_Widgets/dxTabs/Configuration/items/') in item data objects. For example, the following code generates three tabs: the first has an icon, the second has a [badge](/api-reference/_hidden/dxTabPanelItem/badge.md '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/items/#badge'), the third is disabled.
 
     <!--JavaScript-->
     $(function() {
@@ -83,7 +83,7 @@ If you use jQuery alone, use <a href="http://api.jquery.com/category/manipulatio
         });
     });
 
-You can also customize an individual tab. For this purpose, declare a template for this tab as a script and pass its `id` to the [template](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/template.md '/Documentation/ApiReference/UI_Widgets/dxTabs/Default_Item_Template/#template') option.
+You can also customize an individual tab. For this purpose, declare a template for this tab as a script and pass its `id` to the [template](/api-reference/_hidden/CollectionWidgetItem/template.md '/Documentation/ApiReference/UI_Widgets/dxTabs/Configuration/items/#template') option.
 
     <!--HTML-->
     <script id="individualTabTemplate" type="text/html">
@@ -105,4 +105,4 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 - [Tabs Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tabs/Overview)
 - [Tabs API Reference](/api-reference/10%20UI%20Widgets/dxTabs '/Documentation/ApiReference/UI_Widgets/dxTabs/')
 
-[tags]tabs, item appearance, customize, templates, template, custom template, default item, default template
+[tags]tabs, item appearance, customize, templates, template, custom template

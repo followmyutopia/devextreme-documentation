@@ -1,4 +1,4 @@
-For a minor customization of **Toolbar** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxToolbar/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/') are present or absent from the item's data object. For example, the following code gererates four toolbar items: the first is a widget, the second is hidden, the third is disabled, the fourth is relocated.
+For a minor customization of **Toolbar** items, you can define [specific fields](/api-reference/10%20UI%20Widgets/dxToolbar/1%20Configuration/items '/Documentation/ApiReference/UI_Widgets/dxToolbar/Configuration/items/') in item data objects. For example, the following code gererates four toolbar items: the first is a widget, the second is hidden, the third is disabled, the fourth is relocated.
 
 ---
 #####jQuery
@@ -207,7 +207,7 @@ If you use jQuery alone, use <a href="http://api.jquery.com/category/manipulatio
         });
     });
 
-You can also customize an individual toolbar item or menu command. For this purpose, declare a template for this item or command as a script and pass its `id` to the [template](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/template.md '/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/#template') or [menu item template](/api-reference/10%20UI%20Widgets/dxToolbar/5%20Default%20Item%20Template/menuItemTemplate.md '/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/#menuItemTemplate') option, respectively.
+You can also customize an individual toolbar item or menu command. For this purpose, declare a template for this item or command as a script and pass its `id` to the [template](/api-reference/_hidden/CollectionWidgetItem/template.md '/Documentation/ApiReference/UI_Widgets/dxToolbar/Configuration/items/#template') or [menu item template](/api-reference/_hidden/dxToolbarItem/menuItemTemplate.md '/Documentation/ApiReference/UI_Widgets/dxToolbar/Configuration/items/#menuItemTemplate') option, respectively.
 
     <!--HTML-->
     <script id="individualItemTemplate" type="text/html">
@@ -239,4 +239,4 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 - [Toolbar Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Toolbar/Overview)
 - [Toolbar API Reference](/api-reference/10%20UI%20Widgets/dxToolbar '/Documentation/ApiReference/UI_Widgets/dxToolbar/')
 
-[tags]toolbar, item appearance, customize, templates, template, custom template, default item, default template
+[tags]toolbar, item appearance, customize, templates, template, custom template

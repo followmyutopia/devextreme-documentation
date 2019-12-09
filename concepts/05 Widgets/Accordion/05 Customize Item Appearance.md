@@ -1,4 +1,4 @@
-For a minor customization of **Accordion** panels, you can use the default item template. This template defines the appearance of a panel depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxAccordion/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxAccordion/Default_Item_Template/') are present or absent from the panel's data object. For example, the following code generates three panels, the first and third are not customized, the second is disabled.
+For a minor customization of **Accordion** panels, you can define [specific fields](/api-reference/10%20UI%20Widgets/dxAccordion/1%20Configuration/items '/Documentation/ApiReference/UI_Widgets/dxAccordion/Configuration/items/') in panel data objects. For example, the following code generates three panels, the first and third are not customized, the second is disabled.
 
 
     <!--JavaScript-->var accordionData = [{
@@ -166,7 +166,7 @@ If you use jQuery alone, use <a href="http://api.jquery.com/category/manipulatio
     url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Accordion/Overview/"
 }
 
-You can also customize an individual item. For this purpose, declare a template for this item as a script and pass its `id` to the [template](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/template.md '/Documentation/ApiReference/UI_Widgets/dxAccordion/Default_Item_Template/#template') field of the item's data object.
+You can also customize an individual item. For this purpose, declare a template for this item as a script and pass its `id` to the [template](/api-reference/_hidden/CollectionWidgetItem/template.md '/Documentation/ApiReference/UI_Widgets/dxAccordion/Configuration/items/#template') field of the item's data object.
 
     <!--HTML--><script id="individualTemplate" type="text/html">
         <!-- ... -->

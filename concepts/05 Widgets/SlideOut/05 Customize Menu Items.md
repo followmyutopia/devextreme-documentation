@@ -1,4 +1,4 @@
-For a minor customization of menu items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxSlideOut/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxSlideOut/Default_Item_Template/') are present or absent from the item's data object. For example, in the following code, *"Favorites"* is disabled and *"Help"* is hidden.
+For a minor customization of menu items, you can define [specific fields](/api-reference/10%20UI%20Widgets/dxSlideOut/1%20Configuration/items '/Documentation/ApiReference/UI_Widgets/dxSlideOut/Configuration/items/') in item data objects. For example, in the following code, *"Favorites"* is disabled and *"Help"* is hidden.
 
     <!--JavaScript-->var menuItems = [
         { text: "Home" },
@@ -124,7 +124,7 @@ If you use jQuery alone, use <a href="http://api.jquery.com/category/manipulatio
         });
     });
 
-You can also customize an individual menu item. For this purpose, declare a template for this item as a script and pass its `id` to the [menuTemplate](/api-reference/10%20UI%20Widgets/dxSlideOut/5%20Default%20Item%20Template/menuTemplate.md '/Documentation/ApiReference/UI_Widgets/dxSlideOut/Default_Item_Template/#menuTemplate') field of the item's data object.
+You can also customize an individual menu item. For this purpose, declare a template for this item as a script and pass its `id` to the [menuTemplate](/api-reference/_hidden/dxSlideOutItem/menuTemplate.md '/Documentation/ApiReference/UI_Widgets/dxSlideOut/Configuration/items/#menuTemplate') field of the item's data object.
 
     <!--HTML--><script id="individualTemplate" type="text/html">
         <!-- ... -->

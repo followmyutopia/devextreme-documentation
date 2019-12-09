@@ -1,4 +1,4 @@
-For a minor customization of **RadioGroup** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxRadioGroup/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxRadioGroup/Default_Item_Template/') are present or absent from the item's data object. For example, the following code generates three radio buttons: the first is disabled, the second is not customized, the third is hidden.
+For a minor customization of **RadioGroup** items, you can define [specific fields](/api-reference/10%20UI%20Widgets/DataExpressionMixin/1%20Configuration/items '/Documentation/ApiReference/UI_Widgets/dxRadioGroup/Configuration/items/') in item data objects. For example, the following code generates three radio buttons: the first is disabled, the second is not customized, the third is hidden.
 
     <!--JavaScript-->
     $(function() {
@@ -88,7 +88,7 @@ If you use jQuery alone, use <a href="http://api.jquery.com/category/manipulatio
         });
     });
 
-You can also customize an individual item. For this purpose, declare a template for it as a script and pass its `id` to the [template](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/template.md '/Documentation/ApiReference/UI_Widgets/dxRadioGroup/Default_Item_Template/#template').
+You can also customize an individual item. For this purpose, declare a template for it as a script and pass its `id` to the [template](/api-reference/_hidden/CollectionWidgetItem/template.md '/Documentation/ApiReference/UI_Widgets/dxRadioGroup/Configuration/items/#template').
 
     <!--HTML-->
     <script id="individualTemplate" type="text/html">
@@ -110,4 +110,4 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 - [RadioGroup Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/RadioGroup/Overview)
 - [RadioGroup API Reference](/api-reference/10%20UI%20Widgets/dxRadioGroup '/Documentation/ApiReference/UI_Widgets/dxRadioGroup/')
 
-[tags]radio group, radioGroup, button appearance, item appearance, customize, templates, template, custom template, default item, default template
+[tags]radio group, radioGroup, button appearance, item appearance, customize, templates, template, custom template

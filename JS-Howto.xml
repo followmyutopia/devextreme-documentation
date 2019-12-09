@@ -68,12 +68,12 @@
     </article>
     <article name="ActionSheet" sort="ActionSheet" id="Widgets/ActionSheet">
       <article name="Overview" sort="00 Overview" id="Widgets/ActionSheet/Overview" file="c:\content\05 Widgets\ActionSheet\00 Overview.md" tags="action sheet,actionSheet,collection container,collection widget,navigation,overview" root="true" />
-      <article name="Customize Item Appearance" sort="05 Customize Item Appearance" id="Widgets/ActionSheet/Customize Item Appearance" file="c:\content\05 Widgets\ActionSheet\05 Customize Item Appearance.md" tags="action sheet,actionSheet,item appearance,customize,templates,template,default item,default template" root="true" />
+      <article name="Customize Item Appearance" sort="05 Customize Item Appearance" id="Widgets/ActionSheet/Customize Item Appearance" file="c:\content\05 Widgets\ActionSheet\05 Customize Item Appearance.md" tags="action sheet,actionSheet,item appearance,customize,templates,template" root="true" />
       <article name="Specify Display Mode" sort="10 Specify Display Mode" id="Widgets/ActionSheet/Specify Display Mode" file="c:\content\05 Widgets\ActionSheet\10 Specify Display Mode.md" tags="action sheet,actionSheet,display mode,target element" root="true" />
     </article>
     <article name="Autocomplete" sort="Autocomplete" id="Widgets/Autocomplete">
       <article name="Overview" sort="00 Overview" id="Widgets/Autocomplete/Overview" file="c:\content\05 Widgets\Autocomplete\00 Overview.md" tags="autocomplete,collection container,collection widget,editor,overview,data source" root="true" />
-      <article name="Customize Item Appearance" sort="05 Customize Item Appearance" id="Widgets/Autocomplete/Customize Item Appearance" file="c:\content\05 Widgets\Autocomplete\05 Customize Item Appearance.md" tags="autocomplete,item appearance,customize,templates,template,default item,default template" root="true" />
+      <article name="Customize Item Appearance" sort="05 Customize Item Appearance" id="Widgets/Autocomplete/Customize Item Appearance" file="c:\content\05 Widgets\Autocomplete\05 Customize Item Appearance.md" tags="autocomplete,item appearance,customize,templates,template" root="true" />
       <article name="Configure Search Parameters" sort="10 Configure Search Parameters" id="Widgets/Autocomplete/Configure Search Parameters" file="c:\content\05 Widgets\Autocomplete\10 Configure Search Parameters.md" tags="autocomplete,search,search mode,time interval,min search length" root="true" />
     </article>
     <article name="BarGauge" sort="BarGauge" id="Widgets/BarGauge">
@@ -678,7 +678,7 @@
       <article name="Enable the Slideshow" sort="15 Enable the Slideshow" id="Widgets/Gallery/Enable the Slideshow" file="c:\content\05 Widgets\Gallery\15 Enable the Slideshow.md" tags="gallery,loop,slideshow,slideshowDelay" root="true" />
       <article name="Animate the Image Change" sort="20 Animate the Image Change" id="Widgets/Gallery/Animate the Image Change" file="c:\content\05 Widgets\Gallery\20 Animate the Image Change.md" tags="gallery,animate,animation duration,disable animation" root="true" />
       <article name="Transform and Combine Images" sort="25 Transform and Combine Images" id="Widgets/Gallery/Transform and Combine Images" file="c:\content\05 Widgets\Gallery\25 Transform and Combine Images.md" tags="gallery,item width,show several images,stretch image" root="true" />
-      <article name="Customize Item Appearance" sort="30 Customize Item Appearance" id="Widgets/Gallery/Customize Item Appearance" file="c:\content\05 Widgets\Gallery\30 Customize Item Appearance.md" tags="gallery,item appearance,default item,default template,customize,templates" root="true" />
+      <article name="Customize Item Appearance" sort="30 Customize Item Appearance" id="Widgets/Gallery/Customize Item Appearance" file="c:\content\05 Widgets\Gallery\30 Customize Item Appearance.md" tags="gallery,item appearance,customize,templates" root="true" />
       <article name="Keyboard Support" sort="35 Keyboard Support" id="Widgets/Gallery/Keyboard Support" file="c:\content\05 Widgets\Gallery\35 Keyboard Support.md" tags="gallery,accessibility,keyboard shortcuts" root="true" />
     </article>
     <article name="Gantt" sort="Gantt" id="Widgets/Gantt">
@@ -735,7 +735,7 @@
         <article name="Custom Sources" sort="20 Custom Sources" id="Widgets/List/Data Binding/Custom Sources" file="c:\content\05 Widgets\List\03 Data Binding\20 Custom Sources.md" tags="list,data binding,provide data,custom data source,CustomStore,DataSource,load" root="true" />
         <article name="Access the DataSource" sort="30 Access the DataSource" id="Widgets/List/Data Binding/Access the DataSource" file="c:\content\05 Widgets\List\03 Data Binding\30 Access the DataSource.md" tags="list,data binding,access data source,getDataSource,reload data" root="true" />
       </article>
-      <article name="Customize Item Appearance" sort="05 Customize Item Appearance" id="Widgets/List/Customize Item Appearance" file="c:\content\05 Widgets\List\05 Customize Item Appearance.md" tags="list,item appearance,customize,templates,template,default item,default template" root="true" />
+      <article name="Customize Item Appearance" sort="05 Customize Item Appearance" id="Widgets/List/Customize Item Appearance" file="c:\content\05 Widgets\List\05 Customize Item Appearance.md" tags="list,item appearance,customize,templates,template" root="true" />
       <article name="Paging" sort="08 Paging" id="Widgets/List/Paging" file="c:\content\05 Widgets\List\08 Paging.md" tags="list,paging,paginate,pageSize,pageLoadMode" root="true" />
       <article name="Grouping" sort="14 Grouping" id="Widgets/List/Grouping">
         <article name="In the Data Source" sort="01 In the Data Source" id="Widgets/List/Grouping/In the Data Source" file="c:\content\05 Widgets\List\14 Grouping\01 In the Data Source.md" tags="list,grouped,key,items,group items,map items" root="true" />
@@ -805,7 +805,7 @@
       <article name="Enable Grouping" sort="10 Enable Grouping" id="Widgets/Lookup/Enable Grouping" file="c:\content\05 Widgets\Lookup\10 Enable Grouping.md" tags="lookup,group,group template,customize" root="true" />
       <article name="Enable Paging" sort="15 Enable Paging" id="Widgets/Lookup/Enable Paging" file="c:\content\05 Widgets\Lookup\15 Enable Paging.md" tags="lookup,paginate,page size,pageSize,loading mode" root="true" />
       <article name="Customize the Appearance" sort="20 Customize the Appearance" id="Widgets/Lookup/Customize the Appearance">
-        <article name="Customize Item Appearance" sort="05 Customize Item Appearance" id="Widgets/Lookup/Customize the Appearance/Customize Item Appearance" file="c:\content\05 Widgets\Lookup\20 Customize the Appearance\05 Customize Item Appearance.md" tags="lookup,item appearance,customize,templates,template,default item,default template,field template" root="true" />
+        <article name="Customize Item Appearance" sort="05 Customize Item Appearance" id="Widgets/Lookup/Customize the Appearance/Customize Item Appearance" file="c:\content\05 Widgets\Lookup\20 Customize the Appearance\05 Customize Item Appearance.md" tags="lookup,item appearance,customize,templates,template,field template" root="true" />
         <article name="Customize the Drop-Down Menu" sort="08 Customize the Drop-Down Menu" id="Widgets/Lookup/Customize the Appearance/Customize the Drop-Down Menu" file="c:\content\05 Widgets\Lookup\20 Customize the Appearance\08 Customize the Drop-Down Menu.md" tags="lookup,drop-down menu,size,width,height,popover,popup,position,title,custom title template,title template" root="true" />
       </article>
       <article name="Handle the Value Change Event" sort="25 Handle the Value Change Event" id="Widgets/Lookup/Handle the Value Change Event" file="c:\content\05 Widgets\Lookup\25 Handle the Value Change Event.md" tags="lookup,change value,valueChangeEvent,valueChanged,apply mode,apply value,apply instantly,use buttons" root="true" />
@@ -842,7 +842,7 @@
     </article>
     <article name="NavBar" sort="NavBar" id="Widgets/NavBar">
       <article name="Overview" sort="00 Overview" id="Widgets/NavBar/Overview" file="c:\content\05 Widgets\NavBar\00 Overview.md" tags="nav bar,navBar,navigation bar,collection container,collection widget,navigation,overview" root="true" />
-      <article name="Customize Item Appearance" sort="05 Customize Item Appearance" id="Widgets/NavBar/Customize Item Appearance" file="c:\content\05 Widgets\NavBar\05 Customize Item Appearance.md" tags="nav bar,navBar,navigation bar,item appearance,customize,templates,template,custom template,default item,default template" root="true" />
+      <article name="Customize Item Appearance" sort="05 Customize Item Appearance" id="Widgets/NavBar/Customize Item Appearance" file="c:\content\05 Widgets\NavBar\05 Customize Item Appearance.md" tags="nav bar,navBar,navigation bar,item appearance,customize,templates,template,custom template" root="true" />
       <article name="Items Selection" sort="10 Items Selection" id="Widgets/NavBar/Items Selection" file="c:\content\05 Widgets\NavBar\10 Items Selection.md" tags="nav bar,navBar,navigation bar,select,selection,item,items,index" root="true" />
       <article name="Keyboard Support" sort="15 Keyboard Support" id="Widgets/NavBar/Keyboard Support" file="c:\content\05 Widgets\NavBar\15 Keyboard Support.md" tags="nav bar,navBar,navigation bar,accessibility,keyboard shortcuts" root="true" />
     </article>
@@ -1089,7 +1089,7 @@
     <article name="RadioGroup" sort="RadioGroup" id="Widgets/RadioGroup">
       <article name="Overview" sort="00 Overview" id="Widgets/RadioGroup/Overview" file="c:\content\05 Widgets\RadioGroup\00 Overview.md" tags="radio group,radioGroup,layout,editor,overview" root="true" />
       <article name="Handle the Value Change Event" sort="05 Handle the Value Change Event" id="Widgets/RadioGroup/Handle the Value Change Event" file="c:\content\05 Widgets\RadioGroup\05 Handle the Value Change Event.md" tags="radio group,radioGroup,editor,get value,set value" root="true" />
-      <article name="Customize Item Appearance" sort="10 Customize Item Appearance" id="Widgets/RadioGroup/Customize Item Appearance" file="c:\content\05 Widgets\RadioGroup\10 Customize Item Appearance.md" tags="radio group,radioGroup,button appearance,item appearance,customize,templates,template,custom template,default item,default template" root="true" />
+      <article name="Customize Item Appearance" sort="10 Customize Item Appearance" id="Widgets/RadioGroup/Customize Item Appearance" file="c:\content\05 Widgets\RadioGroup\10 Customize Item Appearance.md" tags="radio group,radioGroup,button appearance,item appearance,customize,templates,template,custom template" root="true" />
       <article name="Keyboard Support" sort="20 Keyboard Support" id="Widgets/RadioGroup/Keyboard Support" file="c:\content\05 Widgets\RadioGroup\20 Keyboard Support.md" tags="radio group,radioGroup,accessibility,keyboard shortcuts" root="true" />
     </article>
     <article name="RangeSelector" sort="RangeSelector" id="Widgets/RangeSelector">
@@ -1183,7 +1183,7 @@
       </article>
     </article>
     <article name="Scheduler" sort="Scheduler" id="Widgets/Scheduler">
-      <article name="Overview" sort="010 Overview" id="Widgets/Scheduler/Overview" file="c:\content\05 Widgets\Scheduler\010 Overview.md" tags="scheduler,overview,default template,textExpr,startDateExpr,endDateExpr" root="true" />
+      <article name="Overview" sort="010 Overview" id="Widgets/Scheduler/Overview" file="c:\content\05 Widgets\Scheduler\010 Overview.md" tags="scheduler,overview,textExpr,startDateExpr,endDateExpr" root="true" />
       <article name="Data Binding" sort="020 Data Binding" id="Widgets/Scheduler/Data Binding">
         <article name="Simple Array" sort="10 Simple Array" id="Widgets/Scheduler/Data Binding/Simple Array">
           <article name="Array Only" sort="10 Array Only" id="Widgets/Scheduler/Data Binding/Simple Array/Array Only" file="c:\content\05 Widgets\Scheduler\020 Data Binding\10 Simple Array\10 Array Only.md" tags="scheduler,data binding,provide data,array,process data,query" root="true" />
@@ -1272,7 +1272,7 @@
         <article name="Access the DataSource" sort="30 Access the DataSource" id="Widgets/SelectBox/Data Binding/Access the DataSource" file="c:\content\05 Widgets\SelectBox\03 Data Binding\30 Access the DataSource.md" tags="selectBox,data binding,access data source,getDataSource,reload data" root="true" />
       </article>
       <article name="Handle the Value Change Event" sort="04 Handle the Value Change Event" id="Widgets/SelectBox/Handle the Value Change Event" file="c:\content\05 Widgets\SelectBox\04 Handle the Value Change Event.md" tags="selectBox,select box,editor,get value,set value,change value,valueChangeEvent,valueChanged" root="true" />
-      <article name="Customize Item Appearance" sort="05 Customize Item Appearance" id="Widgets/SelectBox/Customize Item Appearance" file="c:\content\05 Widgets\SelectBox\05 Customize Item Appearance.md" tags="selectBox,select box,editor,item appearance,customize,templates,template,default item,default template,field template" root="true" />
+      <article name="Customize Item Appearance" sort="05 Customize Item Appearance" id="Widgets/SelectBox/Customize Item Appearance" file="c:\content\05 Widgets\SelectBox\05 Customize Item Appearance.md" tags="selectBox,select box,editor,item appearance,customize,templates,template,field template" root="true" />
       <article name="Grouping" sort="07 Grouping" id="Widgets/SelectBox/Grouping">
         <article name="In the Data Source" sort="01 In the Data Source" id="Widgets/SelectBox/Grouping/In the Data Source" file="c:\content\05 Widgets\SelectBox\07 Grouping\01 In the Data Source.md" tags="selectBox,grouped,key,items,group items,map items" root="true" />
         <article name="Customize Group Headers" sort="05 Customize Group Headers" id="Widgets/SelectBox/Grouping/Customize Group Headers" file="c:\content\05 Widgets\SelectBox\07 Grouping\05 Customize Group Headers.md" tags="selectBox,group headers appearance,customize,templates,template" root="true" />
@@ -1325,13 +1325,13 @@
     </article>
     <article name="TabPanel" sort="TabPanel" id="Widgets/TabPanel">
       <article name="Overview" sort="00 Overview" id="Widgets/TabPanel/Overview" file="c:\content\05 Widgets\TabPanel\00 Overview.md" tags="tab panel,tabPanel,collection container,collection widget,navigation,overview" root="true" />
-      <article name="Customize Item Appearance" sort="05 Customize Item Appearance" id="Widgets/TabPanel/Customize Item Appearance" file="c:\content\05 Widgets\TabPanel\05 Customize Item Appearance.md" tags="tab panel,tabPanel,item appearance,customize,templates,template,custom template,default item,default template" root="true" />
+      <article name="Customize Item Appearance" sort="05 Customize Item Appearance" id="Widgets/TabPanel/Customize Item Appearance" file="c:\content\05 Widgets\TabPanel\05 Customize Item Appearance.md" tags="tab panel,tabPanel,item appearance,customize,templates,template,custom template" root="true" />
       <article name="Control the Behavior" sort="15 Control the Behavior" id="Widgets/TabPanel/Control the Behavior" file="c:\content\05 Widgets\TabPanel\15 Control the Behavior.md" tags="tab panel,tabPanel,switch views,animate switching,swipe" root="true" />
       <article name="Keyboard Support" sort="20 Keyboard Support" id="Widgets/TabPanel/Keyboard Support" file="c:\content\05 Widgets\TabPanel\20 Keyboard Support.md" tags="tab panel,tabPanel,navigation,accessibility,keyboard shortcuts" root="true" />
     </article>
     <article name="Tabs" sort="Tabs" id="Widgets/Tabs">
       <article name="Overview" sort="00 Overview" id="Widgets/Tabs/Overview" file="c:\content\05 Widgets\Tabs\00 Overview.md" tags="tabs,collection container,collection widget,navigation,overview" root="true" />
-      <article name="Customize Item Appearance" sort="05 Customize Item Appearance" id="Widgets/Tabs/Customize Item Appearance" file="c:\content\05 Widgets\Tabs\05 Customize Item Appearance.md" tags="tabs,item appearance,customize,templates,template,custom template,default item,default template" root="true" />
+      <article name="Customize Item Appearance" sort="05 Customize Item Appearance" id="Widgets/Tabs/Customize Item Appearance" file="c:\content\05 Widgets\Tabs\05 Customize Item Appearance.md" tags="tabs,item appearance,customize,templates,template,custom template" root="true" />
       <article name="Control the Behavior" sort="15 Control the Behavior" id="Widgets/Tabs/Control the Behavior" file="c:\content\05 Widgets\Tabs\15 Control the Behavior.md" tags="tabs,select item,selection mode,nav buttons,navigation buttons,index" root="true" />
       <article name="Keyboard Support" sort="20 Keyboard Support" id="Widgets/Tabs/Keyboard Support" file="c:\content\05 Widgets\Tabs\20 Keyboard Support.md" tags="tabs,navigation,accessibility,keyboard shortcuts" root="true" />
     </article>
@@ -1352,7 +1352,7 @@
       </article>
       <article name="Control the Behavior" sort="03 Control the Behavior" id="Widgets/TagBox/Control the Behavior" file="c:\content\05 Widgets\TagBox\03 Control the Behavior.md" tags="tagBox,tag box,editor,apply value mode,select all,selection controls,hide selected items,clear selection,clear button" root="true" />
       <article name="Handle the Value Change Event" sort="04 Handle the Value Change Event" id="Widgets/TagBox/Handle the Value Change Event" file="c:\content\05 Widgets\TagBox\04 Handle the Value Change Event.md" tags="tagBox,tag box,editor,get value,set value,change value,valueChanged" root="true" />
-      <article name="Customize Item Appearance" sort="05 Customize Item Appearance" id="Widgets/TagBox/Customize Item Appearance" file="c:\content\05 Widgets\TagBox\05 Customize Item Appearance.md" tags="tagBox,tag box,editor,item appearance,customize,templates,template,default item,default template,tag template" root="true" />
+      <article name="Customize Item Appearance" sort="05 Customize Item Appearance" id="Widgets/TagBox/Customize Item Appearance" file="c:\content\05 Widgets\TagBox\05 Customize Item Appearance.md" tags="tagBox,tag box,editor,item appearance,customize,templates,template,tag template" root="true" />
       <article name="Grouping" sort="07 Grouping" id="Widgets/TagBox/Grouping">
         <article name="In the Data Source" sort="01 In the Data Source" id="Widgets/TagBox/Grouping/In the Data Source" file="c:\content\05 Widgets\TagBox\07 Grouping\01 In the Data Source.md" tags="tagBox,grouped,key,items,group items,map items" root="true" />
         <article name="Customize Group Headers" sort="05 Customize Group Headers" id="Widgets/TagBox/Grouping/Customize Group Headers" file="c:\content\05 Widgets\TagBox\07 Grouping\05 Customize Group Headers.md" tags="tagBox,group headers appearance,customize,templates,template" root="true" />
@@ -1384,7 +1384,7 @@
     <article name="TileView" sort="TileView" id="Widgets/TileView">
       <article name="Overview" sort="00 Overview" id="Widgets/TileView/Overview" file="c:\content\05 Widgets\TileView\00 Overview.md" tags="tile view,tileView,collection container,collection widget,navigation,overview" root="true" />
       <article name="Specify the Size of Tiles" sort="03 Specify the Size of Tiles" id="Widgets/TileView/Specify the Size of Tiles" file="c:\content\05 Widgets\TileView\03 Specify the Size of Tiles.md" tags="tile view,tileView,tile size,customize" root="true" />
-      <article name="Customize Tile Appearance" sort="05 Customize Tile Appearance" id="Widgets/TileView/Customize Tile Appearance" file="c:\content\05 Widgets\TileView\05 Customize Tile Appearance.md" tags="tile view,tileView,item appearance,tile appearance,customize,templates,template,custom template,default item,default template" root="true" />
+      <article name="Customize Tile Appearance" sort="05 Customize Tile Appearance" id="Widgets/TileView/Customize Tile Appearance" file="c:\content\05 Widgets\TileView\05 Customize Tile Appearance.md" tags="tile view,tileView,item appearance,tile appearance,customize,templates,template,custom template" root="true" />
       <article name="Keyboard Support" sort="15 Keyboard Support" id="Widgets/TileView/Keyboard Support" file="c:\content\05 Widgets\TileView\15 Keyboard Support.md" tags="tile view,tileView,accessibility,keyboard shortcuts" root="true" />
     </article>
     <article name="Toast" sort="Toast" id="Widgets/Toast">
@@ -1401,7 +1401,7 @@
       <article name="Overview" sort="00 Overview" id="Widgets/Toolbar/Overview" file="c:\content\05 Widgets\Toolbar\00 Overview.md" tags="toolbar,collection container,collection widget,overview" root="true" />
       <article name="Specify Item Type" sort="05 Specify Item Type" id="Widgets/Toolbar/Specify Item Type" file="c:\content\05 Widgets\Toolbar\05 Specify Item Type.md" tags="toolbar,type,item type,widget item" root="true" />
       <article name="Specify Item Location" sort="10 Specify Item Location" id="Widgets/Toolbar/Specify Item Location" file="c:\content\05 Widgets\Toolbar\10 Specify Item Location.md" tags="toolbar,location,item location,locate in menu" root="true" />
-      <article name="Customize Item Appearance" sort="15 Customize Item Appearance" id="Widgets/Toolbar/Customize Item Appearance" file="c:\content\05 Widgets\Toolbar\15 Customize Item Appearance.md" tags="toolbar,item appearance,customize,templates,template,custom template,default item,default template" root="true" />
+      <article name="Customize Item Appearance" sort="15 Customize Item Appearance" id="Widgets/Toolbar/Customize Item Appearance" file="c:\content\05 Widgets\Toolbar\15 Customize Item Appearance.md" tags="toolbar,item appearance,customize,templates,template,custom template" root="true" />
       <article name="Keyboard Support" sort="20 Keyboard Support" id="Widgets/Toolbar/Keyboard Support" file="c:\content\05 Widgets\Toolbar\20 Keyboard Support.md" tags="toolbar,navigation,accessibility,keyboard shortcuts" root="true" />
     </article>
     <article name="Tooltip" sort="Tooltip" id="Widgets/Tooltip">
@@ -1552,7 +1552,7 @@
         <article name="User Interaction" sort="05 User Interaction" id="Widgets/TreeView/Select Nodes/User Interaction" file="c:\content\05 Widgets\TreeView\25 Select Nodes\05 User Interaction.md" />
         <article name="Events" sort="10 Events" id="Widgets/TreeView/Select Nodes/Events" file="c:\content\05 Widgets\TreeView\25 Select Nodes\10 Events.md" />
       </article>
-      <article name="Customize Node Appearance" sort="30 Customize Node Appearance" id="Widgets/TreeView/Customize Node Appearance" file="c:\content\05 Widgets\TreeView\30 Customize Node Appearance.md" tags="treeview,tree view,item appearance,customize,templates,template,custom template,default item,default template" root="true" />
+      <article name="Customize Node Appearance" sort="30 Customize Node Appearance" id="Widgets/TreeView/Customize Node Appearance" file="c:\content\05 Widgets\TreeView\30 Customize Node Appearance.md" tags="treeview,tree view,item appearance,customize,templates,template,custom template" root="true" />
       <article name="Enhance Performance on Large Datasets" sort="32 Enhance Performance on Large Datasets" id="Widgets/TreeView/Enhance Performance on Large Datasets" file="c:\content\05 Widgets\TreeView\32 Enhance Performance on Large Datasets.md" tags="treeview,tree view,enhance performance,big data,large data,virtual mode,virtualModeEnabled,createChildren" root="true" />
       <article name="Keyboard Support" sort="35 Keyboard Support" id="Widgets/TreeView/Keyboard Support" file="c:\content\05 Widgets\TreeView\35 Keyboard Support.md" tags="treeview,tree view,navigation,accessibility,keyboard shortcuts" root="true" />
     </article>

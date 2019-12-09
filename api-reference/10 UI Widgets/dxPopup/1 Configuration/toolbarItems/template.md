@@ -4,10 +4,10 @@ type: template
 ---
 ---
 ##### shortDescription
-Specifies an item template that should be used to render this item only.
+Specifies a template that should be used to render this item only.
 
 ---
-Whether you use a default or a custom template for widget items, you can specify a specific template for a particular item. To do so, set the **template** field for the data source object of this item. The following types of the specified value are available.
+The following types of the specified value are available.
 
 - Assign a jQuery object of the template's container.
 - Assign a DOM Node of the template's container.

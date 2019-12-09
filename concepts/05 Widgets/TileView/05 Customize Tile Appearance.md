@@ -1,4 +1,4 @@
-For a minor customization of tiles, you can use the default item template. This template defines the appearance of a tile depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxTileView/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxTileView/Default_Item_Template/') are present or absent from the tile's data object. For example, the following code generates three tiles: the first is disabled, the second is not customized, the third is hidden.
+For a minor customization of tiles, you can define [specific fields](/api-reference/10%20UI%20Widgets/dxTileView/1%20Configuration/items '/Documentation/ApiReference/UI_Widgets/dxTileView/Configuration/items/') in item data objects. For example, the following code generates three tiles: the first is disabled, the second is not customized, the third is hidden.
 
 ---
 #####jQuery
@@ -187,7 +187,7 @@ If you use jQuery alone, use <a href="http://api.jquery.com/category/manipulatio
         background: gray;
     }
 
-You can also customize an individual tile. For this purpose, declare a template for this tile as a script and pass its `id` to the [template](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/template.md '/Documentation/ApiReference/UI_Widgets/dxTileView/Default_Item_Template/#template') field of the item's data object.
+You can also customize an individual tile. For this purpose, declare a template for this tile as a script and pass its `id` to the [template](/api-reference/_hidden/CollectionWidgetItem/template.md '/Documentation/ApiReference/UI_Widgets/dxTileView/Configuration/items/#template') field of the item's data object.
 
     <!--HTML-->
     <script id="individualTileTemplate" type="text/html">
@@ -210,4 +210,4 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 - [TileView Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/TileView/Overview)
 - [TileView API Reference](/api-reference/10%20UI%20Widgets/dxTileView '/Documentation/ApiReference/UI_Widgets/dxTileView/')
 
-[tags]tile view, tileView, item appearance, tile appearance, customize, templates, template, custom template, default item, default template
+[tags]tile view, tileView, item appearance, tile appearance, customize, templates, template, custom template

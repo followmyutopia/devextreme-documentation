@@ -148,9 +148,9 @@ The following code creates a simple **ResponsiveBox**. The widget defines an ord
     
 The **ResponsiveBox** elements in the code above are declared using the [dxItem](/api-reference/10%20UI%20Widgets/Markup%20Components/dxItem '/Documentation/ApiReference/UI_Widgets/Markup_Components/#dxItem') markup component. An object passed to this component can have the following fields.
 
-- [location](/api-reference/10%20UI%20Widgets/dxResponsiveBox/5%20Default%20Item%20Template/location '/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Default_Item_Template/location/')
-- [template](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/template.md '/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#template')
-- [visible](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/visible.md '/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Default_Item_Template/#visible')
+- [location](/api-reference/_hidden/dxResponsiveBoxItem/location '/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/items/location/')
+- [template](/api-reference/_hidden/CollectionWidgetItem/template.md '/Documentation/ApiReference/UI_Widgets/dxBox/Configuration/items/#template')
+- [visible](/api-reference/_hidden/CollectionWidgetItem/visible.md '/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/items/#visible')
 
 All **ResponsiveBox** elements are arranged against a layout grid defined by the [rows](/api-reference/10%20UI%20Widgets/dxResponsiveBox/1%20Configuration/rows '/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/rows/') and [cols](/api-reference/10%20UI%20Widgets/dxResponsiveBox/1%20Configuration/cols '/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/cols/') arrays. For further information, see the [Create the Layout Grid](/concepts/05%20Widgets/ResponsiveBox/10%20Create%20the%20Layout%20Grid.md '/Documentation/Guide/Widgets/ResponsiveBox/Create_the_Layout_Grid/') topic.
 

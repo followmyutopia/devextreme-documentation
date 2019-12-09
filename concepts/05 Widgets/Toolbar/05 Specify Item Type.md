@@ -1,4 +1,4 @@
-A **Toolbar** item may be plain text or a widget. Text items should have the [text](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/text.md '/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/#text') field specified.
+A **Toolbar** item may be plain text or a widget. Text items should have the [text](/api-reference/_hidden/CollectionWidgetItem/text.md '/Documentation/ApiReference/UI_Widgets/dxToolbar/Configuration/items/#text') field specified.
 
 ---
 ##### jQuery
@@ -44,7 +44,7 @@ A **Toolbar** item may be plain text or a widget. Text items should have the [te
 
 ---
 
-Items that contain a widget should have the [widget](/api-reference/10%20UI%20Widgets/dxToolbar/5%20Default%20Item%20Template/widget.md '/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/#widget') field specified. In addition, you need to declare the [options](/api-reference/10%20UI%20Widgets/dxToolbar/5%20Default%20Item%20Template/options.md '/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/#options') object that will configure the widget. For a full list of fields this object has, refer to the API reference of the widget.
+Items that contain a widget should have the [widget](/api-reference/_hidden/dxToolbarItem/widget.md '/Documentation/ApiReference/UI_Widgets/dxToolbar/Configuration/items/#widget') field specified. In addition, you need to declare the [options](/api-reference/_hidden/dxToolbarItem/options.md '/Documentation/ApiReference/UI_Widgets/dxToolbar/Configuration/items/#options') object that will configure the widget. For a full list of fields this object has, refer to the API reference of the widget.
 
 ---
 ##### jQuery

@@ -1,4 +1,4 @@
-For minor customization of nodes, you can use the default item template. This template defines the appearance of a node depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxTreeView/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxTreeView/Default_Item_Template/') are present or absent from the node's data object. For example, the following code adds an icon to each node.
+For minor customization of nodes, you can define [specific fields](/api-reference/10%20UI%20Widgets/dxTreeView/1%20Configuration/items '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/items/') in node data objects. For example, the following code adds an icon to each node.
 
     <!--JavaScript-->var hierarchicalData = [{
         id: '1',
@@ -143,7 +143,7 @@ If you use jQuery alone, use <a href="http://api.jquery.com/category/manipulatio
         });
     });
 
-You can also customize an individual node. For this purpose, declare a template for this node as a script and pass its `id` to the [template](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/template.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Default_Item_Template/#template') option.
+You can also customize an individual node. For this purpose, declare a template for this node as a script and pass its `id` to the [template](/api-reference/_hidden/CollectionWidgetItem/template.md '/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/items/#template') option.
 
     <!--HTML-->
     <script id="individualTemplate" type="text/html">
@@ -168,4 +168,4 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 - [TreeView Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_View/ItemSelectionAndCustomization)
 - [TreeView API Reference](/api-reference/10%20UI%20Widgets/dxTreeView '/Documentation/ApiReference/UI_Widgets/dxTreeView/')
 
-[tags]treeview, tree view, item appearance, customize, templates, template, custom template, default item, default template
+[tags]treeview, tree view, item appearance, customize, templates, template, custom template

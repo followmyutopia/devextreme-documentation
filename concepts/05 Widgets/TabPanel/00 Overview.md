@@ -25,7 +25,7 @@ The following code adds a simple **TabPanel** to your page.
         });
     });
 
-Note that all data source items in the code above follow the [Default Item Template](/api-reference/10%20UI%20Widgets/dxTabPanel/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxTabPanel/Default_Item_Template/') pattern. This provides a default appearance for tabs and views; that is, **title** goes to the tab, and **text** goes to the view. But more often, the data source object structure does not follow this pattern. For correct rendering in these cases, specify a [custom template](/concepts/05%20Widgets/TabPanel/05%20Customize%20Item%20Appearance.md '/Documentation/Guide/Widgets/TabPanel/Customize_Item_Appearance'). 
+Note that field names in these data source items are [conventional](/Documentation/ApiReference/UI_Widgets/TabPanel/Configuration/items/). This provides a default appearance for tabs and views; that is, **title** goes to the tab, and **text** goes to the view. But more often, data source objects have fields with different names. For correct rendering in these cases, specify a [custom template](/concepts/05%20Widgets/TabPanel/05%20Customize%20Item%20Appearance.md '/Documentation/Guide/Widgets/TabPanel/Customize_Item_Appearance'). 
 
 #####See Also#####
 #include common-link-configurewidget

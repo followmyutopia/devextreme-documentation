@@ -4,7 +4,7 @@ The **NavBar** is a widget that navigates the application views.
     url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Navbar/Overview/"
 }
 
-The following code adds the **NavBar** to your page. All navigation items have icons and one of them has a [badge](/api-reference/10%20UI%20Widgets/dxNavBar/5%20Default%20Item%20Template/badge.md '/Documentation/ApiReference/UI_Widgets/dxNavBar/Default_Item_Template/#badge'). 
+The following code adds the **NavBar** to your page. All navigation items have icons and one of them has a [badge](/api-reference/_hidden/dxTabsItem/badge.md '/Documentation/ApiReference/UI_Widgets/dxNavBar/Configuration/items/#badge'). 
 
 ---
 ##### jQuery
@@ -50,7 +50,7 @@ The following code adds the **NavBar** to your page. All navigation items have i
 
 ---
 
-Note that all data source items follow the [Default Item Template](/api-reference/10%20UI%20Widgets/dxNavBar/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxNavBar/Default_Item_Template/') pattern. This provides a default item appearance, which can be customized later.
+Note that field names in these data source items are [conventional](/api-reference/10%20UI%20Widgets/dxTabs/1%20Configuration/items '/Documentation/ApiReference/UI_Widgets/dxNavBar/Configuration/items/'). This provides a default item appearance, which can be customized later.
 
 #####See Also#####
 #include common-link-configurewidget

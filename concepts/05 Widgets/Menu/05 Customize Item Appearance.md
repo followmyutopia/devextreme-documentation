@@ -1,4 +1,4 @@
-For a minor customization of **Menu** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxMenu/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxMenu/Default_Item_Template/') are present or absent from the item's data object. For example, the following code generates two root items with two drop-down menu items each. The root items are supplied with [icons](/concepts/60%20Themes%20and%20Styles/30%20Icons/10%20Built-In%20Icon%20Library.md '/Documentation/Guide/Themes_and_Styles/Icons/#Built-In_Icon_Library').
+For a minor customization of **Menu** items, you can define [specific fields](/api-reference/10%20UI%20Widgets/dxMenu/1%20Configuration/items '/Documentation/ApiReference/UI_Widgets/dxMenu/Configuration/items/') in item data objects. For example, the following code generates two root items with two drop-down menu items each. The root items are supplied with [icons](/concepts/60%20Themes%20and%20Styles/30%20Icons/10%20Built-In%20Icon%20Library.md '/Documentation/Guide/Themes_and_Styles/Icons/#Built-In_Icon_Library').
 
 ---
 ##### jQuery
@@ -180,7 +180,7 @@ If you use jQuery alone, use <a href="http://api.jquery.com/category/manipulatio
         });
     });
 
-You can also customize an individual menu item. For this purpose, declare a template for this item as a script and pass its `id` to the [template](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/template.md '/Documentation/ApiReference/UI_Widgets/dxMenu/Default_Item_Template/#template') field of the item's data object.
+You can also customize an individual menu item. For this purpose, declare a template for this item as a script and pass its `id` to the [template](/api-reference/_hidden/CollectionWidgetItem/template.md '/Documentation/ApiReference/UI_Widgets/dxMenu/Configuration/items/#template') field of the item's data object.
 
     <!--HTML--><script id="individualTemplate" type="text/html">
         <!-- ... -->

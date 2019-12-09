@@ -17,7 +17,7 @@ The widget's [instance](/api-reference/10%20UI%20Widgets/Component/3%20Methods/i
 The currently checked date.
 
 ##### field(data.view): String
-The current [view](/api-reference/10%20UI%20Widgets/dxCalendar/5%20Default%20Cell%20Template/view.md '/Documentation/ApiReference/UI_Widgets/dxCalendar/Default_Cell_Template/#view').
+The current view.
 
 ##### return: Boolean
 **true** if the date should be disabled; otherwise **false**.

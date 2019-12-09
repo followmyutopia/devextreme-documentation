@@ -78,7 +78,7 @@ The following code adds a simple **Toolbar** to your page. Three items are plain
 
 ---
 
-Note that all data source objects in the code above follow the [Default Item Template](/api-reference/10%20UI%20Widgets/dxToolbar/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/') pattern. This provides a default appearance for toolbar items, which can be customized later.
+Note that field names in these data source items are [conventional](/api-reference/10%20UI%20Widgets/dxToolbar/1%20Configuration/items '/Documentation/ApiReference/UI_Widgets/dxToolbar/Configuration/items/'). This provides a default tile appearance, which can be customized later. 
 
 #####See Also#####
 #include common-link-configurewidget

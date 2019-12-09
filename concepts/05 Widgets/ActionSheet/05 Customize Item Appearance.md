@@ -1,4 +1,4 @@
-For a minor customization of **ActionSheet** buttons, you can use the default item template. This template defines the appearance of a button depending on whether [specific fields](/api-reference/10%20UI%20Widgets/dxActionSheet/5%20Default%20Item%20Template '/Documentation/ApiReference/UI_Widgets/dxActionSheet/Default_Item_Template/') are present or absent from the button's data object. For example, the following code generates three buttons, the first is not customized, the second is disabled, the [type](/api-reference/10%20UI%20Widgets/dxActionSheet/5%20Default%20Item%20Template/type.md '/Documentation/ApiReference/UI_Widgets/dxActionSheet/Default_Item_Template/#type') of the third button is *danger*.
+For a minor customization of **ActionSheet** buttons, you can define [specific fields](/api-reference/10%20UI%20Widgets/dxActionSheet/1%20Configuration/items '/Documentation/ApiReference/UI_Widgets/dxActionSheet/Configuration/items/') in button data objects. For example, the following code generates three buttons, the first is not customized, the second is disabled, the [type](/api-reference/_hidden/dxActionSheetItem/type.md '/Documentation/ApiReference/UI_Widgets/dxActionSheet/Configuration/items/#type') of the third button is *danger*.
 
     <!--JavaScript-->
     $(function() {
@@ -161,7 +161,7 @@ If you use jQuery alone, use <a href="http://api.jquery.com/category/manipulatio
         background-color: white;
     }
 
-You can also customize an individual **ActionSheet** button. For this purpose, declare a template for this button as a script and pass its `id` to the [template](/api-reference/10%20UI%20Widgets/CollectionWidget/5%20Default%20Item%20Template/template.md '/Documentation/ApiReference/UI_Widgets/dxActionSheet/Default_Item_Template/#template') field. 
+You can also customize an individual **ActionSheet** button. For this purpose, declare a template for this button as a script and pass its `id` to the [template](/api-reference/_hidden/CollectionWidgetItem/template.md '/Documentation/ApiReference/UI_Widgets/dxActionSheet/Configuration/items/#template') field. 
 
     <!--HTML-->
     <script id="individualTemplate" type="text/html">
@@ -180,4 +180,4 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 - [ActionSheet Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/ActionSheet/Basics)
 - [ActionSheet API Reference](/api-reference/10%20UI%20Widgets/dxActionSheet '/Documentation/ApiReference/UI_Widgets/dxActionSheet/')
 
-[tags]action sheet, actionSheet, item appearance, customize, templates, template, default item, default template
+[tags]action sheet, actionSheet, item appearance, customize, templates, template

@@ -50,7 +50,7 @@ This option accepts the *"before"*, *"center"*, and *"after"* values that specif
 
 ---
 
-If the toolbar cannot fit all the items, some of them are collected in the overflow menu. Use the [locateInMenu](/api-reference/10%20UI%20Widgets/dxToolbar/5%20Default%20Item%20Template/locateInMenu.md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#locateInMenu') option to change this behavior:
+If the toolbar cannot fit all the items, some of them are collected in the overflow menu. Use the [locateInMenu](/api-reference/_hidden/dxToolbarItem/locateInMenu.md '/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#locateInMenu') option to change this behavior:
 
 ---
 ##### jQuery
