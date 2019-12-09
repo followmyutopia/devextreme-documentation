@@ -2,7 +2,7 @@
 id: dxDiagram.Options.export.proxyUrl
 type: String
 default: undefined
-deprecated: Safari now supports the API for saving files, and this option is no longer required.
+deprecated: [important] Since v10, Safari browser supports API for saving files, and this option is no longer required.
 ---
 ---
 ##### shortDescription
