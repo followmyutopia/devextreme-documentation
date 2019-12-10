@@ -7,6 +7,8 @@ type: Object
 Configures the default widget used for [editing](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/editing '{basewidgetpath}/Configuration/editing/') and filtering in the [filter row](/api-reference/10%20UI%20Widgets/GridBase/1%20Configuration/filterRow '{basewidgetpath}/Configuration/filterRow/').
 
 ---
+In this object, you can specify the default widget's options (except **onValueChanged**, which you can specify in [onEditorPreparing](/api-reference/10%20UI%20Widgets/dxDataGrid/1%20Configuration/onEditorPreparing.md '{basewidgetpath}/Configuration/#onEditorPreparing')).
+
 The default editor widget depends on the column configuration. The following table illustrates the dependency:
 
 <div class="simple-table">
@@ -40,7 +42,98 @@ The default editor widget depends on the column configuration. The following tab
   </table>
 </div>
 
-In the **editorOptions** object, you can specify the default widget's options (except **onValueChanged**, see below). Refer to the widget's API reference for a list of available options.
+Because of this dependency, **editorOptions** cannot be typed and are not implemented as nested configuration components in Angular, Vue, and React. In these frameworks, specify **editorOptions** with an object. We recommend that you declare the object outside the configuration component in Vue and React to prevent possible issues caused by unnecessary re-rendering.
+
+---
+##### Angular
+
+    <!-- tab: app.component.html -->
+    <dx-{widget-name} ... >
+        <dxi-column ...
+            [editorOptions]="{ format: 'currency', showClearButton: true }">
+        </dxi-column>
+    </dx-{widget-name}>
+
+    <!-- tab: app.module.ts -->
+    import { BrowserModule } from '@angular/platform-browser';
+    import { NgModule } from '@angular/core';
+    import { AppComponent } from './app.component';
+
+    import { Dx{WidgetName}Module } from 'devextreme-angular';
+
+    @NgModule({
+        declarations: [
+            AppComponent
+        ],
+        imports: [
+            BrowserModule,
+            Dx{WidgetName}Module
+        ],
+        providers: [ ],
+        bootstrap: [AppComponent]
+    })
+    export class AppModule { }
+
+##### Vue
+
+    <!-- tab: App.vue -->
+    <template>
+        <dx-{widget-name} ... >
+            <dx-column ...
+                :editor-options="columnEditorOptions"
+            />
+        </dx-{widget-name}>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import Dx{WidgetName}, {
+        DxColumn
+    } from 'devextreme-vue/{widget-name}';
+
+    export default {
+        components: {
+            Dx{WidgetName},
+            DxColumn
+        },
+        data() {
+            return {
+                columnEditorOptions: { format: 'currency', showClearButton: true }
+            }
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: App.js -->
+    import React from 'react';
+
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import {WidgetName}, {
+        Column
+    } from 'devextreme-react/{widget-name}';
+
+    class App extends React.Component {
+        columnEditorOptions = { format: 'currency', showClearButton: true };
+
+        render() {
+            return (
+                <{WidgetName} ... >
+                    <Column ...
+                        editorOptions={this.columnEditorOptions}
+                    />
+                </{WidgetName}>
+            );
+        }
+    }
+    export default App;
+
+---
 
 #include common-demobutton with {
     url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/Filtering/"

@@ -248,8 +248,6 @@ Default form editors depend on the [columns' configuration](/api-reference/10%20
 
 ---
 
-[note]
-
 You cannot specify the following options in the **form** object:
 
 - [template](/api-reference/10%20UI%20Widgets/dxForm/5%20Item%20Types/SimpleItem/template.md '/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#template'); instead, use a column's [editCellTemplate](/api-reference/_hidden/dxDataGridColumn/editCellTemplate.md '{basewidgetpath}/Configuration/columns/#editCellTemplate')        
@@ -258,9 +256,7 @@ You cannot specify the following options in the **form** object:
 
 Also, the [colCount](/api-reference/10%20UI%20Widgets/dxForm/1%20Configuration/colCount.md '/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#colCount') option defaults to 2, but it can be redefined.
 
-[/note]
-
-#include widgets-config-object-option-note
+[note] In Angular and Vue, the nested component that configures the **form** option does not support event bindings and two-way property bindings.
 
 If you need to customize an individual form item, use the [formItem](/api-reference/_hidden/GridBaseColumn/formItem.md '{basewidgetpath}/Configuration/columns/#formItem') object.
 

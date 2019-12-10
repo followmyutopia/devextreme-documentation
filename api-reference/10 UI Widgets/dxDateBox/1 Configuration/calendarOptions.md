@@ -19,29 +19,20 @@ You can specify most of the [Calendar options](/api-reference/10%20UI%20Widgets/
 - [tabIndex](/api-reference/10%20UI%20Widgets/Widget/1%20Configuration/tabIndex.md '/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#tabIndex')
 - [value](/api-reference/10%20UI%20Widgets/dxCalendar/1%20Configuration/value.md '/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#value')
 
+[note]
+
+#include widgets-config-object-option-note with {
+    optionName: "calendarOptions"
+}
+
 ---
-##### jQuery
-
-    <!-- tab: index.js -->
-    $(function() {
-        $("#dateBoxContainer").dxDateBox({
-            type: "date",
-            pickerType: "calendar",
-            calendarOptions: {
-                // The Calendar widget's options go here
-            }
-        })
-    });
-
 ##### Angular
 
     <!-- tab: app.component.html -->
-    <dx-date-box
-        type="date"
-        pickerType="calendar"
-        [calendarOptions]="{
-            // The Calendar widget's options go here
-        }">
+    <dx-date-box ... >
+        <dxo-calendar-options
+            [onOptionChanged]="logOption">
+        </dxo-calendar-options>
     </dx-date-box>
 
     <!-- tab: app.component.ts -->
@@ -53,7 +44,9 @@ You can specify most of the [Calendar options](/api-reference/10%20UI%20Widgets/
         styleUrls: ['./app.component.css']
     })
     export class AppComponent {
-        // ...
+        logOption(e) {
+            console.log(e.fullName + ': ' + e.value);
+        }
     }
 
     <!-- tab: app.module.ts -->
@@ -71,7 +64,7 @@ You can specify most of the [Calendar options](/api-reference/10%20UI%20Widgets/
             BrowserModule,
             DxDateBoxModule
         ],
-        providers: [],
+        providers: [ ],
         bootstrap: [AppComponent]
     })
     export class AppModule { }
@@ -80,60 +73,34 @@ You can specify most of the [Calendar options](/api-reference/10%20UI%20Widgets/
 
     <!-- tab: App.vue -->
     <template>
-        <dx-date-box
-            type="date"
-            picker-type="calendar"
-            :calendar-options="{
-                // The Calendar widget's options go here
-            }"
-        />
+        <dx-date-box ... >
+            <dx-calendar-options
+                :on-option-changed="logOption"
+            />
+        </dx-date-box>
     </template>
 
     <script>
     import 'devextreme/dist/css/dx.common.css';
     import 'devextreme/dist/css/dx.light.css';
 
-    import DxDateBox from 'devextreme-vue/date-box';
+    import DxDateBox, {
+        DxCalendarOptions
+    } from 'devextreme-vue/date-box';
 
     export default {
         components: {
-            DxDateBox
+            DxDateBox,
+            DxCalendarOptions
         },
-        data() {
-            return {
-                // ...
+        methods: {
+            logOption(e) {
+                console.log(e.fullName + ': ' + e.value);
             }
         }
     }
     </script>
 
-##### React
-
-    <!-- tab: App.js -->
-    import React from 'react';
-    import 'devextreme/dist/css/dx.common.css';
-    import 'devextreme/dist/css/dx.light.css';
-    
-    import DateBox from 'devextreme-react/date-box';
-
-    class App extends React.Component {
-        // ...
-
-        render() {
-            return (
-                <DateBox
-                    type="date"
-                    pickerType="calendar"
-                    calendarOptions={{
-                        // The Calendar widget's options go here
-                    }} 
-                />
-            );
-        }
-    }
-
-    export default App;
-
 ---
 
-#include widgets-config-object-option-note
+[/note]
