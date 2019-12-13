@@ -3,7 +3,6 @@ id: PivotGridDataSource
 module: ui/pivot_grid/data_source
 export: default
 type: Object
-inherits: EventsMixin
 ---
 ---
 ##### shortDescription

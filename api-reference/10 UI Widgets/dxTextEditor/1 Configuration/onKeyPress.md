@@ -2,6 +2,7 @@
 id: dxTextEditor.Options.onKeyPress
 type: function(e)
 default: null
+deprecated: 
 EventForAction: dxTextEditor.keyPress
 ---
 ---

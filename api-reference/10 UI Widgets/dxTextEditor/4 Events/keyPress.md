@@ -1,6 +1,7 @@
 ---
 id: dxTextEditor.keyPress
 type: eventType
+deprecated: 
 ---
 ---
 ##### shortDescription

@@ -3,7 +3,6 @@ id: DataSource
 module: data/data_source
 export: default
 type: Object
-inherits: EventsMixin
 ---
 ---
 ##### shortDescription

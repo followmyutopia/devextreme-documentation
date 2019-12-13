@@ -4,8 +4,8 @@ type: Object | Array<ChartSeries>
 inherits: ChartSeries
 default: undefined
 hideDefaults: true
-notUsedInTheme: 
 inheritAll: 
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription

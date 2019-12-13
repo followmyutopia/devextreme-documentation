@@ -1,6 +1,6 @@
 ---
 id: dxTreeView.Options.dataSource
-type: String | Array<String, dxTreeViewItem> | DataSource | DataSource_Options
+type: String | Array<dxTreeViewItem> | DataSource | DataSource_Options
 default: null
 inheritsType: dxTreeViewItem
 ---

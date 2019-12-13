@@ -2,7 +2,6 @@
 id: DevicesObject
 module: core/devices
 export: default
-inherits: EventsMixin
 ---
 ---
 ##### shortDescription

@@ -4,8 +4,8 @@ type: Object | Array<PolarChartSeries>
 inherits: PolarChartSeries
 default: undefined
 hideDefaults: true
-notUsedInTheme: 
 inheritAll: 
+notUsedInTheme: 
 ---
 ---
 ##### shortDescription

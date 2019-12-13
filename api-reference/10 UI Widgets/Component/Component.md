@@ -3,7 +3,6 @@ id: Component
 module: core/component
 export: default
 type: Object
-inherits: EventsMixin
 hidden: 
 ---
 ---
