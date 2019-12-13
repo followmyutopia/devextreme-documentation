@@ -31,7 +31,8 @@ The validated value.
 A Promise that should be resolved or rejected as shown in the example below.
 
 ---
-The following code shows a generic **validationCallback** implementation. The function sends the value that should be validated to the server. The response contains a flag that indicates if the value is valid and optionally an error message:
+
+The following code shows a generic **validationCallback** implementation for a server that returns a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Body/json" target="_blank">JSON<a> response. The function sends the value that should be validated to the server. The response includes a flag that indicates validity, and optionally an error message that is used if validation fails.
 
 ---
 ##### jQuery
@@ -46,13 +47,14 @@ The following code shows a generic **validationCallback** implementation. The fu
                         const d = $.Deferred();
                         $.ajax( ... ).done(function(res) {
                             // res.message contains validation error message
-                            res.isValid ? d.resolve() : d.reject({ isValid: false, message: res.message });
+                            res.isValid ? d.resolve() : d.reject(res.message);
 
                             // ===== or if "res" is { isValid: Boolean, message: String } =====
                             d.resolve(res);
                         }).fail(function(error) {
-                            // error.message contains request error message
-                            d.reject({ isValid: false, message: error.message });
+                            console.error("Server-side validation error", error);
+
+                            d.reject("Cannot contact validation server");
                         })
                         return d.promise();
                     }
@@ -89,14 +91,15 @@ The following code shows a generic **validationCallback** implementation. The fu
                     .toPromise()
                     .then(res => {
                         // res.message contains validation error message
-                        res.isValid ? resolve() : reject({ isValid: false, message: res.message });
+                        res.isValid ? resolve() : reject(res.message);
 
                         // ===== or if "res" is { isValid: Boolean, message: String } =====
                         resolve(res);
                     })
                     .catch(error => {
-                        // error.message contains request error message
-                        reject({ isValid: false, message: error.message });
+                        console.error("Server-side validation error", error);
+
+                        reject("Cannot contact validation server");
                     });
             })
         }
@@ -162,16 +165,24 @@ The following code shows a generic **validationCallback** implementation. The fu
                     fetch("https://mydomain.com/MyDataService", {
                         method: 'POST',
                         body: JSON.stringify({ data: params.value })
-                    }).then(res => {
+                    })
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error(`HTTP error: ${res.status} ${res.statusText}`);
+                        }
+                        return response.json();
+                    })
+                    .then(res => {
                         // res.message contains validation error message
-                        res.isValid ? resolve() : reject({ isValid: false, message: res.message });
+                        res.isValid ? resolve() : reject(res.message);
 
                         // ===== or if "res" is { isValid: Boolean, message: String } =====
                         resolve(res);
                     })
                     .catch(error => {
-                        // error.message contains request error message
-                        reject({ isValid: false, message: error.message });
+                        console.error("Server-side validation error", error);
+
+                        reject("Cannot contact validation server");
                     });
                 });
             }
@@ -199,17 +210,24 @@ The following code shows a generic **validationCallback** implementation. The fu
             fetch("https://mydomain.com/MyDataService", {
                 method: 'POST',
                 body: JSON.stringify({ data: params.value })
-            })                   
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error: ${res.status} ${res.statusText}`);
+                }
+                return response.json();
+            })
             .then(res => {
                 // res.message contains validation error message
-                res.isValid ? resolve() : reject({ isValid: false, message: res.message });
+                res.isValid ? resolve() : reject(res.message);
                 
                 // ===== or if "res" is { isValid: Boolean, message: String } =====
                 resolve(res);
             })
             .catch(error => {
-                // error.message contains request error message
-                reject({ isValid: false, message: error.message });
+                console.error("Server-side validation error", error);
+
+                reject("Cannot contact validation server");
             });
         });
     };
